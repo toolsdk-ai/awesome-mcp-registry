@@ -1,0 +1,2 @@
+# registry
+MCP Server Registry
