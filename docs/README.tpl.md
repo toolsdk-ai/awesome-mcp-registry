@@ -1,5 +1,7 @@
 # Awesome MCP Registry
 
+<%= TOC %>
+
 Welcome to the Awesome MCP Registry, your go-to open and structured registry for MCP servers and packages.
 
 Unlike other MCP projects, this `Awesome MCP Registry` leverages structured JSON configs to generate `README.md`, [npm package](https://www.npmjs.com/package/@toolsdk.ai/registry) and [packages-list.json](https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json)

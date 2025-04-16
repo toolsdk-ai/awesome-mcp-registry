@@ -1,5 +1,25 @@
 # Awesome MCP Registry
 
+- [Aggregators](#aggregators)
+- [Art & Culture](#art-and-culture)
+- [Browser Automation](#browser-automation)
+- [Cloud Platforms](#cloud-platforms)
+- [Code Execution](#code-execution)
+- [Command Line](#command-line)
+- [Communication](#communication)
+- [Databases](#databases)
+- [Data Platforms](#data-platforms)
+- [Developer Tools](#developer-tools)
+- [Data Science Tools](#data-science-tools)
+- [File Systems](#file-systems)
+- [Knowledge & Memory](#knowledge-memory)
+- [Location Services](#location-services)
+- [Monitoring](#monitoring)
+- [Search & Data Extraction](#search-data-extraction)
+- [Version Control](#version-control)
+- [Other Tools and Integrations](#other-tools-and-integrations)
+
+
 Welcome to the Awesome MCP Registry, your go-to open and structured registry for MCP servers and packages.
 
 Unlike other MCP projects, this `Awesome MCP Registry` leverages structured JSON configs to generate `README.md`, [npm package](https://www.npmjs.com/package/@toolsdk.ai/registry) and [packages-list.json](https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json)
@@ -57,20 +77,26 @@ For more detail please see [the guide](./docs/guide.md).
 
 
 
+<a id="aggregators"></a>
 ## Aggregators
+
 Servers for accessing many apps and tools through a single MCP server.
 
 - [@modelcontextprotocol/server-everything](https://github.com/modelcontextprotocol/servers/blob/main/src/everything): This MCP server attempts to exercise all the features of the MCP protocol. It is not intended to be a useful server, but rather a test server for builders of MCP clients. It implements prompts, tools, resources, sampling, and more to showcase MCP capabilities.
 
 
+<a id="art-and-culture"></a>
 ## Art & Culture
+
 Access and explore art collections, cultural heritage, and museum databases. Enables AI models to search and analyze artistic and cultural content.
 
 - [@modelcontextprotocol/server-everart](https://github.com/modelcontextprotocol/servers/blob/main/src/everart): MCP server for EverArt API integration
 - [mcp-server-stability-ai](https://github.com/tadasant/mcp-server-stability-ai): Integrates Stability AI's image generation and manipulation capabilities for editing, upscaling, and more via Stable Diffusion models.
 
 
+<a id="browser-automation"></a>
 ## Browser Automation
+
 Web content access and automation capabilities. Enables searching, scraping, and processing web content in AI-friendly formats.
 
 - [@automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright/tree/main): MCP server for browser automation using Playwright
@@ -80,7 +106,9 @@ Web content access and automation capabilities. Enables searching, scraping, and
 - [mcp-server-fetch](https://github.com/modelcontextprotocol/servers/blob/main/src/fetch): A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs
 
 
+<a id="cloud-platforms"></a>
 ## Cloud Platforms
+
 Cloud platform service integration. Enables management and interaction with cloud infrastructure and services.
 
 - [@cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare): MCP server for interacting with Cloudflare API
@@ -89,20 +117,26 @@ Cloud platform service integration. Enables management and interaction with clou
 - [mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes): MCP server for managing Kubernetes clusters, enabling LLMs to interact with and control Kubernetes resources.
 
 
+<a id="code-execution"></a>
 ## Code Execution
+
 Code execution servers. Allow LLMs to execute code in a secure environment, e.g. for coding agents.
 
 - [mcp-server-make](https://github.com/wrale/mcp-server-make): A Model Context Protocol server that provides make target calling functionality. This server enables LLMs to execute make targets from a specified Makefile within a specified working directory.
 
 
+<a id="command-line"></a>
 ## Command Line
+
 Run commands, capture output and otherwise interact with shells and command line tools.
 
 - [mcp-shell](https://github.com/hdresearch/mcp-shell): An MCP server for your shell
 - [mcp-server-commands](https://github.com/g0t4/mcp-server-commands): MCP server enabling LLMs to execute shell commands and run scripts through various interpreters with built-in safety controls.
 
 
+<a id="communication"></a>
 ## Communication
+
 Integration with communication platforms for message management and channel operations. Enables AI models to interact with team communication tools.
 
 - [@modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers/blob/main/src/slack): MCP server for interacting with Slack
@@ -110,7 +144,9 @@ Integration with communication platforms for message management and channel oper
 - [@gongrzhe/server-gmail-autoauth-mcp](https://github.com/gongrzhe/server-gmail-autoauth-mcp): Gmail MCP server with auto authentication support
 
 
+<a id="databases"></a>
 ## Databases
+
 Secure database access with schema inspection capabilities. Enables querying and analyzing data with configurable security controls including read-only access.
 
 - [airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server): Airtable database integration with schema inspection, read and write capabilities
@@ -121,13 +157,17 @@ Secure database access with schema inspection capabilities. Enables querying and
 - [@modelcontextprotocol/server-postgres](https://github.com/modelcontextprotocol/servers/blob/main/src/postgres): MCP server for interacting with PostgreSQL databases
 
 
+<a id="data-platforms"></a>
 ## Data Platforms
+
 Data Platforms for data integration, transformation and pipeline orchestration.
 
 - [mcp-tinybird](https://github.com/tinybirdco/mcp-tinybird/tree/main/src/mcp-tinybird): A Model Context Protocol server that lets you interact with a Tinybird Workspace from any MCP client.
 
 
+<a id="developer-tools"></a>
 ## Developer Tools
+
 Tools and integrations that enhance the development workflow and environment management.
 
 - [@mcp-get-community/server-macos](https://github.com/mcp-get/community-servers/blob/main/src/server-macos): MCP server for macOS system operations
@@ -141,20 +181,26 @@ Tools and integrations that enhance the development workflow and environment man
 - [docker-mcp](https://github.com/QuantGeekDev/docker-mcp): A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI
 
 
+<a id="data-science-tools"></a>
 ## Data Science Tools
+
 Integrations and tools designed to simplify data exploration, analysis and enhance data science workflows.
 
 - [mcp-solver](https://github.com/szeider/mcp-solver): MCP server for Constraint Solving and Optimization
 
 
+<a id="file-systems"></a>
 ## File Systems
+
 Provides direct access to local file systems with configurable permissions. Enables AI models to read, write, and manage files within specified directories.
 
 - [@modelcontextprotocol/server-gdrive](https://github.com/modelcontextprotocol/servers/blob/main/src/gdrive): MCP server for interacting with Google Drive
 - [@modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers): MCP server for filesystem access
 
 
+<a id="knowledge-memory"></a>
 ## Knowledge & Memory
+
 Persistent memory storage using knowledge graph structures. Enables AI models to maintain and query structured information across sessions.
 
 - [mcp-server-rememberizer](https://github.com/skydeckai/mcp-server-rememberizer): An MCP server for interacting with Rememberizer's document and knowledge management API. This server enables Large Language Models to search, retrieve, and manage documents and integrations through Rememberizer.
@@ -162,20 +208,26 @@ Persistent memory storage using knowledge graph structures. Enables AI models to
 - [@modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/blob/main/src/memory): MCP server for enabling memory for Claude through a knowledge graph
 
 
+<a id="location-services"></a>
 ## Location Services
+
 Location-based services and mapping tools. Enables AI models to work with geographic data, weather information, and location-based analytics.
 
 - [@modelcontextprotocol/server-google-maps](https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps): MCP server for using the Google Maps API
 
 
+<a id="monitoring"></a>
 ## Monitoring
+
 Access and analyze application monitoring data. Enables AI models to review error reports and performance metrics.
 
 - [mcp-server-sentry](https://github.com/modelcontextprotocol/servers/blob/main/src/sentry): MCP server for retrieving issues from sentry.io
 - [@raygun.io/mcp-server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun): MCP server for interacting with Raygun's API for crash reporting and real user monitoring metrics
 
 
+<a id="search-data-extraction"></a>
 ## Search & Data Extraction
+
 Tools and services for searching and extracting data from various sources. Enables AI models to retrieve and process information efficiently.
 
 - [mcp-server-perplexity](https://github.com/tanigami/mcp-server-perplexity): MCP Server for the Perplexity API
@@ -191,7 +243,9 @@ Tools and services for searching and extracting data from various sources. Enabl
 - [@mcp-get-community/server-curl](https://github.com/mcp-get/community-servers/blob/main/src/server-curl): MCP server for making HTTP requests using a curl-like interface
 
 
+<a id="version-control"></a>
 ## Version Control
+
 Interact with Git repositories and version control platforms. Enables repository management, code analysis, pull request handling, issue tracking, and other version control operations through standardized APIs.
 
 - [mcp-server-git](https://github.com/modelcontextprotocol/servers/blob/main/src/git): A Model Context Protocol server providing tools to read, search, and manipulate Git repositories programmatically via LLMs
@@ -199,7 +253,9 @@ Interact with Git repositories and version control platforms. Enables repository
 - [@modelcontextprotocol/server-gitlab](https://github.com/modelcontextprotocol/servers/blob/main/src/gitlab): MCP server for using the GitLab API
 
 
+<a id="other-tools-and-integrations"></a>
 ## Other Tools and Integrations
+
 Miscellaneous tools and integrations that do not fit into other categories.
 
 - [@chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol): MCP Server that connects AI agents to Chargebee platform.
