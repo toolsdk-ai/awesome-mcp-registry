@@ -8,7 +8,7 @@
 
 ## How to submit new packages?
 
-Open a package directory, where you will find various categories.
+Firstly, open a [packages directory](../packages/), where you will find various categories.
 
 ```
 packages/
@@ -22,13 +22,25 @@ Select the appropriate category and fill in a configuration.
 
 The format for the configuration is as follows; this is the format of the JSON configuration:
 
-```ts
-interface MCPServerConfig {
-  //
+```json
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-github",
+  "description": "MCP server for using the GitHub API",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/github",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "description": "Personal access token for GitHub API access",
+      "required": true
+    }
+  }
 }
 ```
 
 For example, if you want to submit an MCP server package using an official GitHub MCP server, create a file named `modelcontextprotocol-github.json` in the `packages/code-execution` directory.
+
 Every file that enters this repository will be validated by Zod. You can open [types.ts](./types.ts) to see the definition of the Zod schema.
 
 ## What differences about ToolSDK.ai MCP Servers
