@@ -4,6 +4,7 @@
   - [How to submit new packages?](#how-to-submit-new-packages)
   - [What differences about ToolSDK.ai MCP Servers](#what-differences-about-toolsdkai-mcp-servers)
   - [Config](#config)
+  - [Scripts](#scripts)
 
 ## How to submit new packages?
 
@@ -55,3 +56,13 @@ It has the following features:
 
 - `config/featured.json`
 - `hosting-blacklist.json`
+
+## Scripts
+
+```bash
+# Generate the indexes
+bun ./scripts/indexing-lists.ts
+
+# Generate the README
+bun ./scripts/readme-gen.ts
+```
