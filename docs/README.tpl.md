@@ -2,11 +2,16 @@
 
 Welcome to the Awesome MCP Registry, your go-to open and structured registry with <%= COUNT %>+ MCP servers and packages.
 
+- [Quick Start](#quick-start)
+- [MCP Servers](#mcp-servers)
 <%= TOC %>
 
 Unlike other MCP projects, this `Awesome MCP Registry` leverages structured JSON configs to generate `README.md`, [npm package](https://www.npmjs.com/package/@toolsdk.ai/registry) and [packages-list.json](https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json)
 
 You can use the `Awesome MCP Registry` to build your own great MCP projects and hosting sites, acting as the database for MCP servers and packages.
+
+
+<a id="quick-start"></a>
 
 ## Quick Start
 

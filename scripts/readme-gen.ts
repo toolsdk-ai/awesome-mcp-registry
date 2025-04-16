@@ -20,7 +20,7 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
 
   if (!packagesList || packagesList.length === 0) continue;
 
-  TOC += `- [${categoryList.config.name}](#${categoryList.config.key})\n`;
+  TOC += `  - [${categoryList.config.name}](#${categoryList.config.key})\n`;
 
   README += `\n\n<a id="${categoryList.config.key}"></a>\n## ${categoryList.config.name}\n`;
   README += `\n${categoryList.config.description}\n\n`;
