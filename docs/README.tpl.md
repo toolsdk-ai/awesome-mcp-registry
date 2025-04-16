@@ -8,23 +8,45 @@ You can use the `Awesome MCP Registry` to build your own great MCP projects and 
 
 ## Quick Start
 
-Install via package manager:
+#### Install via package manager:
 
 ```bash
 npm install @toolsdk.ai/registry
 ```
 
-Use it on your JavaScript / Typescript project:
+#### Use it on your JavaScript / Typescript project:
 
 ```ts
 import mcpServerLists from '@toolsdk.ai/registry/indexes/packages-lists.json';
 ```
 
-Fetch all the lists via cURL:
+#### Fetch all the lists via cURL:
 
 ```bash
 curl https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json
 ```
+
+#### Submit new MCP servers:
+
+```json
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-github",
+  "description": "MCP server for using the GitHub API",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/github",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "description": "Personal access token for GitHub API access",
+      "required": true
+    }
+  }
+}
+```
+
+Create a new file called `your-new-mcp-server.json` under [packages/uncategorized](./packages/uncategorized) folder.
+For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
