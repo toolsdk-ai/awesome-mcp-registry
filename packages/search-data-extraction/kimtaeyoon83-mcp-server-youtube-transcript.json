@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "@kimtaeyoon83/mcp-server-youtube-transcript",
+  "description": "This is an MCP server that allows you to directly download transcripts of YouTube videos.",
+  "url": "https://github.com/kimtaeyoon83/mcp-server-youtube-transcript",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

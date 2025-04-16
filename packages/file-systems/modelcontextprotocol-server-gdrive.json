@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-gdrive",
+  "description": "MCP server for interacting with Google Drive",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/gdrive",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

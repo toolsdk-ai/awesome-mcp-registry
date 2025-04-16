@@ -1,0 +1,45 @@
+name: NPM Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  npm-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: pnpm install
+
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Set up Git config
+        run: |
+          git config --global user.name "ToolSDK.ai"
+          git config --global user.email "dev@toolsdk.ai"
+
+      - name: Bump version
+        run: |
+          npm version patch
+          npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: NPM Publish ${{ steps.commit_message_step.outputs.commit_message }}

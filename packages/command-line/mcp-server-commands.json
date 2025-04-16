@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server-commands",
+  "description": "MCP server enabling LLMs to execute shell commands and run scripts through various interpreters with built-in safety controls.",
+  "url": "https://github.com/g0t4/mcp-server-commands",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-slack",
+  "description": "MCP server for interacting with Slack",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/slack",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "SLACK_BOT_TOKEN": {
+      "description": "Slack Bot User OAuth Token (starts with xoxb-)",
+      "required": true
+    },
+    "SLACK_TEAM_ID": {
+      "description": "Slack Team/Workspace ID",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "hyperbrowser-mcp",
+  "description": "An MCP server for Hyperbrowser - Hyperbrowser is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation",
+  "url": "https://github.com/hyperbrowserai/mcp/tree/main",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "HYPERBROWSER_API_KEY": {
+      "description": "API KEY for Hyperbrowser",
+      "required": true
+    }
+  }
+}

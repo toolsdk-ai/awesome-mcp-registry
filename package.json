@@ -1,0 +1,24 @@
+{
+  "name": "@toolsdk.ai/registry",
+  "version": "1.0.7",
+  "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
+  "exports": {
+    "./*": "./*",
+    "./types": "./types.ts"
+  },
+  "files": [
+    "types.ts",
+    "indexes/",
+    "config/",
+    "packages/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

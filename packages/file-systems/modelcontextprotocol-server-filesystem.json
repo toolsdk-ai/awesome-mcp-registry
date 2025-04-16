@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-filesystem",
+  "description": "MCP server for filesystem access",
+  "url": "https://github.com/modelcontextprotocol/servers",
+  "runtime": "node",
+  "license": "MIT"
+}
