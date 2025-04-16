@@ -1,6 +1,6 @@
 # Awesome MCP Registry
 
-Welcome to the Awesome MCP Registry, your go-to open and structured registry with 62 MCP servers and packages.
+Welcome to the Awesome MCP Registry, your go-to open and structured registry with 62+ MCP servers and packages.
 
 - [Aggregators](#aggregators)
 - [Art & Culture](#art-and-culture)
