@@ -18,9 +18,6 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
 
   if (!packagesList || packagesList.length === 0) continue;
 
-  //   const categoryPath = join(__dirname, `../packages/${categoryList.config.key}`);
-  //   const files = readdirSync(categoryPath).filter((file) => file.endsWith('.json'));
-
   README += `\n\n## ${categoryList.config.name}\n${categoryList.config.description}\n\n`;
 
   for (const packageKey of packagesList) {
