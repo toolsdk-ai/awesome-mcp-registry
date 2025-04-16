@@ -1,13 +1,27 @@
 # Awesome MCP Registry
 
-An Open, Structured, and Standard Registry for MCP Servers and Packages.
+Welcome to the Awesome MCP Registry, your go-to open and structured registry for MCP servers and packages.
 
-Compare to other MCP projects and registry sites, the **Awesome MCP Registry** uses structured JSON files to keep a large number of MCP projects.
+Unlike other MCP projects, this `Awesome MCP Registry` leverages structured JSON configs to generate `README.md`, [npm package](https://www.npmjs.com/package/@toolsdk.ai/registry) and [packages-list.json](https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json)
 
-With these JSON files, it automatically creates:
+You can use the `Awesome MCP Registry` to build your own great MCP projects and hosting sites, acting as the database for MCP servers and packages.
 
-- `@toolsdk.ai/registry`: A npm package can be installed all MCP registry via `npm install @toolsdk.ai/registry`.
-- **README.md**: AI generated a great `README.md` in multi-languages.
-- **packages-list.json**: Get a full list of all MCP servers and packages by running `curl https://toolsdk-ai.github.io/awesome-mcp-registry/collections/packages-list.json`.
+## Quick Start
 
-You can use the Awesome MCP Registry to build your own great MCP projects and hosting sites, acting as the main source for MCP servers and packages.
+Install via package manager:
+
+```bash
+npm install @toolsdk.ai/registry
+```
+
+Use it on your JavaScript / Typescript project:
+
+```ts
+import mcpServerLists from '@toolsdk.ai/registry/indexes/packages-lists.json';
+```
+
+Fetch all the lists via cURL:
+
+```bash
+curl https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json
+```
