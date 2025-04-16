@@ -26,8 +26,8 @@ jobs:
       - run: |
           pnpm install
           bun scripts/cat-dirs.ts
-          bun indexing-lists.ts
-          bun readme-gen.ts
+          bun scripts/indexing-lists.ts
+          bun scripts/readme-gen.ts
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
