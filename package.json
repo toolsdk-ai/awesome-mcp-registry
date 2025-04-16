@@ -6,7 +6,17 @@
     "./*": "./*",
     "./types": "./types.ts"
   },
-  "scripts": {},
+  "files": [
+    "types.ts",
+    "indexes/",
+    "config/",
+    "packages/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
