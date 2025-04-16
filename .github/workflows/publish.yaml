@@ -26,6 +26,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+
       - name: Set up Git config
         run: |
           git config --global user.name "ToolSDK.ai"
