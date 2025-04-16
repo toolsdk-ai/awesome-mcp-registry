@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server-aidd",
+  "description": "An MCP server that provides a comprehensive set of tools for AI-driven development workflows. Features include file system operations, code analysis using tree-sitter for multiple programming languages, Git operations, code execution, and system information retrieval. Designed to enhance AI's capability to assist in software development tasks.",
+  "url": "https://github.com/skydeckai/mcp-server-aidd",
+  "runtime": "python",
+  "license": "Apache 2.0",
+  "env": {}
+}

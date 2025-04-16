@@ -1,0 +1,322 @@
+{
+  "uncategorized": {
+    "config": {
+      "key": "uncategorized",
+      "name": "Uncategorized",
+      "description": "Tools that are not categorized yet."
+    },
+    "packagesList": []
+  },
+  "aggregators": {
+    "config": {
+      "key": "aggregators",
+      "name": "Aggregators",
+      "description": "Servers for accessing many apps and tools through a single MCP server."
+    },
+    "packagesList": [
+      "@modelcontextprotocol/server-everything"
+    ]
+  },
+  "art-and-culture": {
+    "config": {
+      "key": "art-and-culture",
+      "name": "Art & Culture",
+      "description": "Access and explore art collections, cultural heritage, and museum databases. Enables AI models to search and analyze artistic and cultural content."
+    },
+    "packagesList": [
+      "@modelcontextprotocol/server-everart",
+      "mcp-server-stability-ai"
+    ]
+  },
+  "browser-automation": {
+    "config": {
+      "key": "browser-automation",
+      "name": "Browser Automation",
+      "description": "Web content access and automation capabilities. Enables searching, scraping, and processing web content in AI-friendly formats."
+    },
+    "packagesList": [
+      "@executeautomation/playwright-mcp-server",
+      "@automatalabs/mcp-server-playwright",
+      "hyperbrowser-mcp",
+      "mcp-server-fetch",
+      "@modelcontextprotocol/server-puppeteer"
+    ]
+  },
+  "cloud-platforms": {
+    "config": {
+      "key": "cloud-platforms",
+      "name": "Cloud Platforms",
+      "description": "Cloud platform service integration. Enables management and interaction with cloud infrastructure and services."
+    },
+    "packagesList": [
+      "kubernetes-mcp-server",
+      "@cloudflare/mcp-server-cloudflare",
+      "mcp-server-kubernetes",
+      "@strowk/mcp-k8s"
+    ]
+  },
+  "code-execution": {
+    "config": {
+      "key": "code-execution",
+      "name": "Code Execution",
+      "description": "Code execution servers. Allow LLMs to execute code in a secure environment, e.g. for coding agents."
+    },
+    "packagesList": [
+      "mcp-server-make"
+    ]
+  },
+  "coding-agents": {
+    "config": {
+      "key": "coding-agents",
+      "name": "Coding Agents",
+      "description": "Full coding agents that enable LLMs to read, edit, and execute code and solve general programming tasks completely autonomously."
+    },
+    "packagesList": []
+  },
+  "command-line": {
+    "config": {
+      "key": "command-line",
+      "name": "Command Line",
+      "description": "Run commands, capture output and otherwise interact with shells and command line tools."
+    },
+    "packagesList": [
+      "mcp-shell",
+      "mcp-server-commands"
+    ]
+  },
+  "communication": {
+    "config": {
+      "key": "communication",
+      "name": "Communication",
+      "description": "Integration with communication platforms for message management and channel operations. Enables AI models to interact with team communication tools."
+    },
+    "packagesList": [
+      "@gongrzhe/server-gmail-autoauth-mcp",
+      "@enescinar/twitter-mcp",
+      "@modelcontextprotocol/server-slack"
+    ]
+  },
+  "customer-data-platforms": {
+    "config": {
+      "key": "customer-data-platforms",
+      "name": "Customer Data Platforms",
+      "description": "Provides access to customer profiles inside of customer data platforms"
+    },
+    "packagesList": []
+  },
+  "databases": {
+    "config": {
+      "key": "databases",
+      "name": "Databases",
+      "description": "Secure database access with schema inspection capabilities. Enables querying and analyzing data with configurable security controls including read-only access."
+    },
+    "packagesList": [
+      "mcp-mongo-server",
+      "airtable-mcp-server",
+      "@benborla29/mcp-server-mysql",
+      "@modelcontextprotocol/server-postgres",
+      "mcp-server-sqlite",
+      "@niledatabase/nile-mcp-server"
+    ]
+  },
+  "data-platforms": {
+    "config": {
+      "key": "data-platforms",
+      "name": "Data Platforms",
+      "description": "Data Platforms for data integration, transformation and pipeline orchestration."
+    },
+    "packagesList": [
+      "mcp-tinybird"
+    ]
+  },
+  "developer-tools": {
+    "config": {
+      "key": "developer-tools",
+      "name": "Developer Tools",
+      "description": "Tools and integrations that enhance the development workflow and environment management."
+    },
+    "packagesList": [
+      "mcp-server-aidd",
+      "mcp-openapi-schema-explorer",
+      "@llmindset/mcp-hfspace",
+      "@mcp-get-community/server-macos",
+      "hackmd-mcp",
+      "mcp-server-tree-sitter",
+      "docker-mcp",
+      "awslabs.nova-canvas-mcp-server",
+      "@mcp-get-community/server-llm-txt"
+    ]
+  },
+  "data-science-tools": {
+    "config": {
+      "key": "data-science-tools",
+      "name": "Data Science Tools",
+      "description": "Integrations and tools designed to simplify data exploration, analysis and enhance data science workflows."
+    },
+    "packagesList": [
+      "mcp-solver"
+    ]
+  },
+  "embedded-system": {
+    "config": {
+      "key": "embedded-system",
+      "name": "Embedded System",
+      "description": "Provides access to documentation and shortcuts for working on embedded devices."
+    },
+    "packagesList": []
+  },
+  "file-systems": {
+    "config": {
+      "key": "file-systems",
+      "name": "File Systems",
+      "description": "Provides direct access to local file systems with configurable permissions. Enables AI models to read, write, and manage files within specified directories."
+    },
+    "packagesList": [
+      "@modelcontextprotocol/server-gdrive",
+      "@modelcontextprotocol/server-filesystem"
+    ]
+  },
+  "finance-fintech": {
+    "config": {
+      "key": "finance-fintech",
+      "name": "Finance & Fintech",
+      "description": "Financial data access and analysis tools. Enables AI models to work with market data, trading platforms, and financial information."
+    },
+    "packagesList": []
+  },
+  "gaming": {
+    "config": {
+      "key": "gaming",
+      "name": "Gaming",
+      "description": "Integration with gaming related data, game engines, and services"
+    },
+    "packagesList": []
+  },
+  "knowledge-memory": {
+    "config": {
+      "key": "knowledge-memory",
+      "name": "Knowledge & Memory",
+      "description": "Persistent memory storage using knowledge graph structures. Enables AI models to maintain and query structured information across sessions."
+    },
+    "packagesList": [
+      "@modelcontextprotocol/server-memory",
+      "mcp-rememberizer-vectordb",
+      "mcp-server-rememberizer"
+    ]
+  },
+  "location-services": {
+    "config": {
+      "key": "location-services",
+      "name": "Location Services",
+      "description": "Location-based services and mapping tools. Enables AI models to work with geographic data, weather information, and location-based analytics."
+    },
+    "packagesList": [
+      "@modelcontextprotocol/server-google-maps"
+    ]
+  },
+  "marketing": {
+    "config": {
+      "key": "marketing",
+      "name": "Marketing",
+      "description": "Tools for creating and editing marketing content, working with web meta data, product positioning, and editing guides."
+    },
+    "packagesList": []
+  },
+  "monitoring": {
+    "config": {
+      "key": "monitoring",
+      "name": "Monitoring",
+      "description": "Access and analyze application monitoring data. Enables AI models to review error reports and performance metrics."
+    },
+    "packagesList": [
+      "@raygun.io/mcp-server-raygun",
+      "mcp-server-sentry"
+    ]
+  },
+  "search-data-extraction": {
+    "config": {
+      "key": "search-data-extraction",
+      "name": "Search & Data Extraction",
+      "description": "Tools and services for searching and extracting data from various sources. Enables AI models to retrieve and process information efficiently."
+    },
+    "packagesList": [
+      "@modelcontextprotocol/server-brave-search",
+      "anilist-mcp",
+      "@chanmeng666/google-news-server",
+      "graphlit-mcp-server",
+      "mcp-server-perplexity",
+      "@kimtaeyoon83/mcp-server-youtube-transcript",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "@mcp-get-community/server-curl",
+      "mcp-server-giphy",
+      "qanon_mcp",
+      "@anaisbetts/mcp-youtube"
+    ]
+  },
+  "security": {
+    "config": {
+      "key": "security",
+      "name": "Security",
+      "description": "Tools and integrations for enhancing security, including vulnerability scanning, threat detection, and secure access management."
+    },
+    "packagesList": []
+  },
+  "sports": {
+    "config": {
+      "key": "sports",
+      "name": "Sports",
+      "description": "Tools for accessing sports-related data, results, and statistics."
+    },
+    "packagesList": []
+  },
+  "support-service-management": {
+    "config": {
+      "key": "support-service-management",
+      "name": "Support & Service Management",
+      "description": "Tools for managing customer support, IT service management, and helpdesk operations."
+    },
+    "packagesList": []
+  },
+  "translation-services": {
+    "config": {
+      "key": "translation-services",
+      "name": "Translation Services",
+      "description": "Translation tools and services to enable AI assistants to translate content between different languages."
+    },
+    "packagesList": []
+  },
+  "travel-transportation": {
+    "config": {
+      "key": "travel-transportation",
+      "name": "Travel & Transportation",
+      "description": "Access to travel and transportation information. Enables querying schedules, routes, and real-time travel data."
+    },
+    "packagesList": []
+  },
+  "version-control": {
+    "config": {
+      "key": "version-control",
+      "name": "Version Control",
+      "description": "Interact with Git repositories and version control platforms. Enables repository management, code analysis, pull request handling, issue tracking, and other version control operations through standardized APIs."
+    },
+    "packagesList": [
+      "@modelcontextprotocol/server-gitlab",
+      "@modelcontextprotocol/server-github",
+      "mcp-server-git"
+    ]
+  },
+  "other-tools-and-integrations": {
+    "config": {
+      "key": "other-tools-and-integrations",
+      "name": "Other Tools and Integrations",
+      "description": "Miscellaneous tools and integrations that do not fit into other categories."
+    },
+    "packagesList": [
+      "@chargebee/mcp",
+      "mcp-server-flomo",
+      "@llmindset/mcp-miro",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "mcp-server-time"
+    ]
+  }
+}

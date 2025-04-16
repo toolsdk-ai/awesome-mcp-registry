@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-everart",
+  "description": "MCP server for EverArt API integration",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/everart",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

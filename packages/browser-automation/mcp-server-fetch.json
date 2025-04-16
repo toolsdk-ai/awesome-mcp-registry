@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server-fetch",
+  "description": "A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/fetch",
+  "runtime": "python",
+  "license": "MIT",
+  "env": {}
+}

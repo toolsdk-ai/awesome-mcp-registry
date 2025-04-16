@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "airtable-mcp-server",
+  "description": "Airtable database integration with schema inspection, read and write capabilities",
+  "url": "https://github.com/domdomegg/airtable-mcp-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "AIRTABLE_API_KEY": {
+      "description": "API key for Airtable API",
+      "required": true
+    }
+  }
+}

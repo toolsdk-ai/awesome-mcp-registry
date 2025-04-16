@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "@cloudflare/mcp-server-cloudflare",
+  "description": "MCP server for interacting with Cloudflare API",
+  "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

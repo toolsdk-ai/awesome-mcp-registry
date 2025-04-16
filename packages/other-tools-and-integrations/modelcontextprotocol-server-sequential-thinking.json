@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-sequential-thinking",
+  "description": "MCP server for sequential thinking and problem solving",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

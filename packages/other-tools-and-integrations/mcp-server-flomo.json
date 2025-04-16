@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server-flomo",
+  "description": "A MCP server for Flomo",
+  "url": "https://github.com/xianminx/mcp-server-flomo",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "FLOMO_API_URL": {
+      "description": "Get your Flomo API URL from [Flomo API Settings](https://v.flomoapp.com/mine)",
+      "required": true
+    }
+  }
+}

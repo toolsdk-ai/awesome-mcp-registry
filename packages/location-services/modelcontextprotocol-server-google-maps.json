@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-google-maps",
+  "description": "MCP server for using the Google Maps API",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "GOOGLE_MAPS_API_KEY": {
+      "description": "API key for Google Maps services",
+      "required": true
+    }
+  }
+}

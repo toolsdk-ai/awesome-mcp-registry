@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "name": "graphlit-mcp-server",
+  "description": "Graphlit MCP Server for AI, RAG, OpenAI, PDF parsing and preprocessing",
+  "url": "https://github.com/graphlit/graphlit-mcp-server",
+  "runtime": "node",
+  "license": "MIT"
+}

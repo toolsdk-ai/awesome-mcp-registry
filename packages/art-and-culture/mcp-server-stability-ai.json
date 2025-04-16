@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server-stability-ai",
+  "description": "Integrates Stability AI's image generation and manipulation capabilities for editing, upscaling, and more via Stable Diffusion models.",
+  "url": "https://github.com/tadasant/mcp-server-stability-ai",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "STABILITY_AI_API_KEY": {
+      "description": "API key for Stability AI; get it from https://platform.stability.ai/account/keys.",
+      "required": true
+    },
+    "IMAGE_STORAGE_DIRECTORY": {
+      "description": "Absolute path to a directory on filesystem to store output images.",
+      "required": true
+    }
+  }
+}

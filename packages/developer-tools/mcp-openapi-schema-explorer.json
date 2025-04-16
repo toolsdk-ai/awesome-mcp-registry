@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-openapi-schema-explorer",
+  "description": "MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resources for client-side exploration.",
+  "url": "https://github.com/kadykov/mcp-openapi-schema-explorer",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server-giphy",
+  "description": "MCP Server for the Giphy API, enabling AI models to search, retrieve, and utilize GIFs from Giphy",
+  "url": "https://github.com/magarcia/mcp-server-giphy",
+  "runtime": "node",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "name": "@modelcontextprotocol/server-postgres",
+  "description": "MCP server for interacting with PostgreSQL databases",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/postgres",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}
