@@ -41,7 +41,7 @@ The format for the configuration is as follows; this is the format of the JSON c
 
 For example, if you want to submit an MCP server package using an official GitHub MCP server, create a file named `modelcontextprotocol-github.json` in the `packages/code-execution` directory.
 
-Every file that enters this repository will be validated by Zod. You can open [types.ts](./types.ts) to see the definition of the Zod schema.
+Every file that enters this repository will be validated by Zod. You can open [types.ts](../types.ts) to see the definition of the Zod schema.
 
 ## What differences about ToolSDK.ai MCP Servers
 
