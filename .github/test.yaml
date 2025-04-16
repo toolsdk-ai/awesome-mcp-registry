@@ -1,0 +1,30 @@
+name: Pull Request Check
+
+env:
+  GITHUB_BUILD_NUMBER: ${{ github.run_number }}
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Integration Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: oven-sh/setup-bun@v2
+      - run: |
+          pnpm install
+          bun scripts/cat-dirs.ts
+          bun indexing-lists.ts
+          bun readme-gen.ts
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: CI checked ${{ steps.commit_message_step.outputs.commit_message }}
