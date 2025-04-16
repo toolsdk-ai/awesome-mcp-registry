@@ -3,6 +3,7 @@
 Welcome to the Awesome MCP Registry, your go-to open and structured registry with 62+ MCP servers and packages.
 
 - [Quick Start](#quick-start)
+- [Contributing Guide](./docs/guide.md)
 - [MCP Servers](#mcp-servers)
   - [Aggregators](#aggregators)
   - [Art & Culture](#art-and-culture)
