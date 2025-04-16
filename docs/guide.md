@@ -26,8 +26,7 @@ interface MCPServerConfig {
 }
 ```
 
-For example, If you want to submit a MCP server package. With a. official Github MCP Server, Just created a file called `modelcontextprotocol-github.json` under the directory called `packages/code-execution`.
-
+For example, if you want to submit an MCP server package using an official GitHub MCP server, create a file named `modelcontextprotocol-github.json` in the `packages/code-execution` directory.
 Every file that enters this repository will be validated by Zod. You can open [types.ts](./types.ts) to see the definition of the Zod schema.
 
 ## What differences about ToolSDK.ai MCP Servers
