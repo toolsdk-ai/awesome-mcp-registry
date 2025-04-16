@@ -22,6 +22,8 @@ export const MCPServerPackageConfigSchema = z.object({
   url: z.string().optional(),
   runtime: z.enum(['node', 'python', 'java']),
   license: z.string().optional(),
+  logo: z.string().optional().describe('URL to custom logo image, if undefined and the URL is Github, then it will use the Github logo'),
+  author: z.string().optional(),
   env: z
     .record(
       z.object({
