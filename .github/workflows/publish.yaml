@@ -11,19 +11,19 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - uses: pnpm/action-setup@v4
         with:
-          version: 10
+          version: latest
 
       - uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Bump version
-        run: npm version patch  # 或者使用 major / minor
+        run: npm version patch # 或者使用 major / minor
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
