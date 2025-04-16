@@ -1,32 +1,25 @@
 # Awesome MCP Registry
 
-Welcome to the Awesome MCP Registry, your go-to open and structured registry with 62 MCP servers and packages.
+Welcome to the Awesome MCP Registry, your go-to open and structured registry with 62+ MCP servers and packages.
 
-- [Awesome MCP Registry](#awesome-mcp-registry)
-  - [Quick Start](#quick-start)
-      - [Install via package manager:](#install-via-package-manager)
-      - [Use it on your JavaScript / Typescript project:](#use-it-on-your-javascript--typescript-project)
-      - [Fetch all MCP Servers lists via cURL:](#fetch-all-mcp-servers-lists-via-curl)
-      - [Submit new MCP servers:](#submit-new-mcp-servers)
-- [MCP Servers](#mcp-servers)
-  - [Aggregators](#aggregators)
-  - [Art \& Culture](#art--culture)
-  - [Browser Automation](#browser-automation)
-  - [Cloud Platforms](#cloud-platforms)
-  - [Code Execution](#code-execution)
-  - [Command Line](#command-line)
-  - [Communication](#communication)
-  - [Databases](#databases)
-  - [Data Platforms](#data-platforms)
-  - [Developer Tools](#developer-tools)
-  - [Data Science Tools](#data-science-tools)
-  - [File Systems](#file-systems)
-  - [Knowledge \& Memory](#knowledge--memory)
-  - [Location Services](#location-services)
-  - [Monitoring](#monitoring)
-  - [Search \& Data Extraction](#search--data-extraction)
-  - [Version Control](#version-control)
-  - [Other Tools and Integrations](#other-tools-and-integrations)
+- [Aggregators](#aggregators)
+- [Art & Culture](#art-and-culture)
+- [Browser Automation](#browser-automation)
+- [Cloud Platforms](#cloud-platforms)
+- [Code Execution](#code-execution)
+- [Command Line](#command-line)
+- [Communication](#communication)
+- [Databases](#databases)
+- [Data Platforms](#data-platforms)
+- [Developer Tools](#developer-tools)
+- [Data Science Tools](#data-science-tools)
+- [File Systems](#file-systems)
+- [Knowledge & Memory](#knowledge-memory)
+- [Location Services](#location-services)
+- [Monitoring](#monitoring)
+- [Search & Data Extraction](#search-data-extraction)
+- [Version Control](#version-control)
+- [Other Tools and Integrations](#other-tools-and-integrations)
 
 
 Unlike other MCP projects, this `Awesome MCP Registry` leverages structured JSON configs to generate `README.md`, [npm package](https://www.npmjs.com/package/@toolsdk.ai/registry) and [packages-list.json](https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json)
@@ -77,7 +70,8 @@ console.log(await(await fetch('https://toolsdk-ai.github.io/awesome-mcp-registry
 }
 ```
 
-Create a new file called `your-new-mcp-server.json` under [packages/uncategorized](./packages/uncategorized) folder.
+[Fork this repo](https://github.com/toolsdk-ai/awesome-mcp-registry/fork), and create a new file called `your-new-mcp-server.json` under [packages/uncategorized](./packages/uncategorized) folder.
+
 For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
