@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   npm-publish:
@@ -34,7 +36,9 @@ jobs:
           git config --global user.email "dev@toolsdk.ai"
 
       - name: Bump version
-        run: npm version patch
+        run: |
+          npm version patch
+          git push
 
       - name: Publish
         run: npm publish --access public
