@@ -13,7 +13,8 @@ Open a package directory, where you will find various categories.
 ```
 packages/
 ├── uncategorized/
-├── database/
+├── art-and-culture/
+├── databases/
 └── ...
 ```
 
