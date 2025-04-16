@@ -1,6 +1,13 @@
 # Awesome MCP Registry
 
-Welcome to the Awesome MCP Registry, your go-to open and structured registry with <%= COUNT %>+ MCP servers and packages.
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-<%= COUNT %>-blue)
+
+
+Welcome to the Awesome MCP Registry.
+
+An open, well-structured and developer-friendly list of <%= COUNT %>+ MCP servers.
+
+
 
 - [Quick Start](#quick-start)
 - [Contributing Guide](./docs/guide.md)
