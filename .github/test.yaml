@@ -18,8 +18,9 @@ jobs:
         uses: actions/checkout@v4
 
       - uses: pnpm/action-setup@v3
+        name: Set up pnpm
         with:
-          version: latest
+          version: 9.15.4
 
       - uses: oven-sh/setup-bun@v2
 
