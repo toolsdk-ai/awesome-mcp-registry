@@ -17,12 +17,12 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v3
+      - uses: oven-sh/setup-bun@v2
+
+      - uses: pnpm/action-setup@v4
         name: Set up pnpm
         with:
-          version: 9.15.4
-
-      - uses: oven-sh/setup-bun@v2
+          version: latest
 
       - run: |
           pnpm install
