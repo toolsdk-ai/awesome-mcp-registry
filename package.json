@@ -14,9 +14,7 @@
     "README.md",
     "LICENSE"
   ],
-  "scripts": {
-    "publish": "npm publish --access public"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "MIT",
