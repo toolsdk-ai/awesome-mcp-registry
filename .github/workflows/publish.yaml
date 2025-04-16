@@ -26,6 +26,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Set up Git config
+        run: |
+          git config --global user.name "ToolSDK.ai"
+          git config --global user.email "dev@toolsdk.ai"
+
       - name: Bump version
         run: |
           npm version patch
