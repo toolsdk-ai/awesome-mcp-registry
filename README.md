@@ -1,6 +1,7 @@
 # Awesome MCP Registry
 
 ![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-62-blue)
+![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
