@@ -2,7 +2,7 @@ export default [
   {
     key: 'uncategorized',
     name: 'Uncategorized',
-    description: 'Tools that haven’t been sorted into a category yet.',
+    description: 'Tools that haven’t been sorted into a category yet. AI will categorize it later.',
   },
   {
     key: 'aggregators',

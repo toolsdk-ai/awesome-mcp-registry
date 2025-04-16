@@ -2,29 +2,35 @@
 
 Welcome to the Awesome MCP Registry, your go-to open and structured registry with 62+ MCP servers and packages.
 
-- [Aggregators](#aggregators)
-- [Art & Culture](#art-and-culture)
-- [Browser Automation](#browser-automation)
-- [Cloud Platforms](#cloud-platforms)
-- [Code Execution](#code-execution)
-- [Command Line](#command-line)
-- [Communication](#communication)
-- [Databases](#databases)
-- [Data Platforms](#data-platforms)
-- [Developer Tools](#developer-tools)
-- [Data Science Tools](#data-science-tools)
-- [File Systems](#file-systems)
-- [Knowledge & Memory](#knowledge-memory)
-- [Location Services](#location-services)
-- [Monitoring](#monitoring)
-- [Search & Data Extraction](#search-data-extraction)
-- [Version Control](#version-control)
-- [Other Tools and Integrations](#other-tools-and-integrations)
+- [Quick Start](#quick-start)
+- [Contributing Guide](./docs/guide.md)
+- [Awesome MCP Servers](#mcp-servers)
+  - [Aggregators](#aggregators)
+  - [Art & Culture](#art-and-culture)
+  - [Browser Automation](#browser-automation)
+  - [Cloud Platforms](#cloud-platforms)
+  - [Code Execution](#code-execution)
+  - [Command Line](#command-line)
+  - [Communication](#communication)
+  - [Databases](#databases)
+  - [Data Platforms](#data-platforms)
+  - [Developer Tools](#developer-tools)
+  - [Data Science Tools](#data-science-tools)
+  - [File Systems](#file-systems)
+  - [Knowledge & Memory](#knowledge-memory)
+  - [Location Services](#location-services)
+  - [Monitoring](#monitoring)
+  - [Search & Data Extraction](#search-data-extraction)
+  - [Version Control](#version-control)
+  - [Other Tools and Integrations](#other-tools-and-integrations)
 
 
 Unlike other MCP projects, this `Awesome MCP Registry` leverages structured JSON configs to generate `README.md`, [npm package](https://www.npmjs.com/package/@toolsdk.ai/registry) and [packages-list.json](https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json)
 
 You can use the `Awesome MCP Registry` to build your own great MCP projects and hosting sites, acting as the database for MCP servers and packages.
+
+
+<a id="quick-start"></a>
 
 ## Quick Start
 
