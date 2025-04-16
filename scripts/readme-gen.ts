@@ -13,6 +13,7 @@ import { MCPServerPackageConfigSchema } from '../types';
 
 let TOC = '';
 let README = '';
+const COUNT = Object.keys(allPackagesList).length;
 
 for (const [_key, categoryList] of Object.entries(categoriesList)) {
   const packagesList = categoryList.packagesList;
@@ -36,7 +37,7 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
 const templatePath = join(__dirname, '../docs/README.tpl.md');
 const templateContent = readFileSync(templatePath, 'utf-8');
 const compiled = _.template(templateContent);
-const finalREADME = compiled({ CONTENT: README, TOC });
+const finalREADME = compiled({ CONTENT: README, TOC, COUNT });
 
 writeFileSync(join(__dirname, '../README.md'), finalREADME, 'utf-8');
 
