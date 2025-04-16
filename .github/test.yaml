@@ -16,10 +16,13 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+
       - uses: pnpm/action-setup@v4
         with:
           version: 10
+
       - uses: oven-sh/setup-bun@v2
+
       - run: |
           pnpm install
           bun scripts/cat-dirs.ts
