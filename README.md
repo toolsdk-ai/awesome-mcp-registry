@@ -20,10 +20,15 @@ npm install @toolsdk.ai/registry
 import mcpServerLists from '@toolsdk.ai/registry/indexes/packages-lists.json';
 ```
 
-#### Fetch all the lists via cURL:
+#### Fetch all MCP Servers lists via cURL:
 
 ```bash
 curl https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json
+```
+
+```ts
+// JavaScript TypeScript
+console.log(await(await fetch('https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json')).json());
 ```
 
 #### Submit new MCP servers:
