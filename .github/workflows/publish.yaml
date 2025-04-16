@@ -34,9 +34,10 @@ jobs:
           git config --global user.email "dev@toolsdk.ai"
 
       - name: Bump version
-        run: |
-          npm version patch
-          npm publish --access public
+        run: npm version patch
+
+      - name: Publish
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
