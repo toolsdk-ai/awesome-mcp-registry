@@ -35,11 +35,11 @@
       "description": "Web content access and automation capabilities. Enables searching, scraping, and processing web content in AI-friendly formats."
     },
     "packagesList": [
-      "@executeautomation/playwright-mcp-server",
       "@automatalabs/mcp-server-playwright",
+      "@modelcontextprotocol/server-puppeteer",
+      "@executeautomation/playwright-mcp-server",
       "hyperbrowser-mcp",
-      "mcp-server-fetch",
-      "@modelcontextprotocol/server-puppeteer"
+      "mcp-server-fetch"
     ]
   },
   "cloud-platforms": {
@@ -49,10 +49,10 @@
       "description": "Cloud platform service integration. Enables management and interaction with cloud infrastructure and services."
     },
     "packagesList": [
-      "kubernetes-mcp-server",
       "@cloudflare/mcp-server-cloudflare",
-      "mcp-server-kubernetes",
-      "@strowk/mcp-k8s"
+      "@strowk/mcp-k8s",
+      "kubernetes-mcp-server",
+      "mcp-server-kubernetes"
     ]
   },
   "code-execution": {
@@ -91,9 +91,9 @@
       "description": "Integration with communication platforms for message management and channel operations. Enables AI models to interact with team communication tools."
     },
     "packagesList": [
-      "@gongrzhe/server-gmail-autoauth-mcp",
+      "@modelcontextprotocol/server-slack",
       "@enescinar/twitter-mcp",
-      "@modelcontextprotocol/server-slack"
+      "@gongrzhe/server-gmail-autoauth-mcp"
     ]
   },
   "customer-data-platforms": {
@@ -111,12 +111,12 @@
       "description": "Secure database access with schema inspection capabilities. Enables querying and analyzing data with configurable security controls including read-only access."
     },
     "packagesList": [
-      "mcp-mongo-server",
       "airtable-mcp-server",
       "@benborla29/mcp-server-mysql",
-      "@modelcontextprotocol/server-postgres",
+      "@niledatabase/nile-mcp-server",
       "mcp-server-sqlite",
-      "@niledatabase/nile-mcp-server"
+      "mcp-mongo-server",
+      "@modelcontextprotocol/server-postgres"
     ]
   },
   "data-platforms": {
@@ -136,15 +136,15 @@
       "description": "Tools and integrations that enhance the development workflow and environment management."
     },
     "packagesList": [
-      "mcp-server-aidd",
-      "mcp-openapi-schema-explorer",
-      "@llmindset/mcp-hfspace",
       "@mcp-get-community/server-macos",
-      "hackmd-mcp",
+      "mcp-server-aidd",
       "mcp-server-tree-sitter",
-      "docker-mcp",
+      "@mcp-get-community/server-llm-txt",
+      "@llmindset/mcp-hfspace",
       "awslabs.nova-canvas-mcp-server",
-      "@mcp-get-community/server-llm-txt"
+      "hackmd-mcp",
+      "mcp-openapi-schema-explorer",
+      "docker-mcp"
     ]
   },
   "data-science-tools": {
@@ -199,9 +199,9 @@
       "description": "Persistent memory storage using knowledge graph structures. Enables AI models to maintain and query structured information across sessions."
     },
     "packagesList": [
-      "@modelcontextprotocol/server-memory",
+      "mcp-server-rememberizer",
       "mcp-rememberizer-vectordb",
-      "mcp-server-rememberizer"
+      "@modelcontextprotocol/server-memory"
     ]
   },
   "location-services": {
@@ -229,8 +229,8 @@
       "description": "Access and analyze application monitoring data. Enables AI models to review error reports and performance metrics."
     },
     "packagesList": [
-      "@raygun.io/mcp-server-raygun",
-      "mcp-server-sentry"
+      "mcp-server-sentry",
+      "@raygun.io/mcp-server-raygun"
     ]
   },
   "search-data-extraction": {
@@ -240,17 +240,17 @@
       "description": "Tools and services for searching and extracting data from various sources. Enables AI models to retrieve and process information efficiently."
     },
     "packagesList": [
-      "@modelcontextprotocol/server-brave-search",
-      "anilist-mcp",
-      "@chanmeng666/google-news-server",
-      "graphlit-mcp-server",
       "mcp-server-perplexity",
-      "@kimtaeyoon83/mcp-server-youtube-transcript",
+      "@modelcontextprotocol/server-brave-search",
       "@modelcontextprotocol/server-aws-kb-retrieval",
-      "@mcp-get-community/server-curl",
+      "graphlit-mcp-server",
+      "@chanmeng666/google-news-server",
       "mcp-server-giphy",
+      "@anaisbetts/mcp-youtube",
+      "anilist-mcp",
+      "@kimtaeyoon83/mcp-server-youtube-transcript",
       "qanon_mcp",
-      "@anaisbetts/mcp-youtube"
+      "@mcp-get-community/server-curl"
     ]
   },
   "security": {
@@ -300,9 +300,9 @@
       "description": "Interact with Git repositories and version control platforms. Enables repository management, code analysis, pull request handling, issue tracking, and other version control operations through standardized APIs."
     },
     "packagesList": [
-      "@modelcontextprotocol/server-gitlab",
+      "mcp-server-git",
       "@modelcontextprotocol/server-github",
-      "mcp-server-git"
+      "@modelcontextprotocol/server-gitlab"
     ]
   },
   "other-tools-and-integrations": {
@@ -313,9 +313,9 @@
     },
     "packagesList": [
       "@chargebee/mcp",
-      "mcp-server-flomo",
-      "@llmindset/mcp-miro",
       "@modelcontextprotocol/server-sequential-thinking",
+      "@llmindset/mcp-miro",
+      "mcp-server-flomo",
       "mcp-server-time"
     ]
   }
