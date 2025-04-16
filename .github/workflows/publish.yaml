@@ -10,7 +10,7 @@ on:
       - main
 
 jobs:
-  bump-version:
+  npm-publish:
     runs-on: ubuntu-latest
 
     steps:
