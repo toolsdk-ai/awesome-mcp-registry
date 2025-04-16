@@ -2,169 +2,151 @@ export default [
   {
     key: 'uncategorized',
     name: 'Uncategorized',
-    description: 'Tools that are not categorized yet.',
+    description: 'Tools that haven’t been sorted into a category yet.',
   },
   {
     key: 'aggregators',
     name: 'Aggregators',
-    description: 'Servers for accessing many apps and tools through a single MCP server.',
+    description: 'Servers that let you access multiple apps and tools through one MCP server.',
   },
   {
     key: 'art-and-culture',
     name: 'Art & Culture',
-    description:
-      'Access and explore art collections, cultural heritage, and museum databases. Enables AI models to search and analyze artistic and cultural content.',
+    description: 'Explore art collections, museums, and cultural heritage with AI-friendly tools.',
   },
   {
     key: 'browser-automation',
     name: 'Browser Automation',
-    description:
-      'Web content access and automation capabilities. Enables searching, scraping, and processing web content in AI-friendly formats.',
+    description: 'Tools for browsing, scraping, and automating web content in AI-compatible formats.',
   },
   {
     key: 'cloud-platforms',
     name: 'Cloud Platforms',
-    description:
-      'Cloud platform service integration. Enables management and interaction with cloud infrastructure and services.',
+    description: 'Integrate with cloud services to manage and interact with cloud infrastructure.',
   },
   {
     key: 'code-execution',
     name: 'Code Execution',
-    description: 'Code execution servers. Allow LLMs to execute code in a secure environment, e.g. for coding agents.',
+    description: 'Run code securely, perfect for coding agents and AI-driven programming tasks.',
   },
   {
     key: 'coding-agents',
     name: 'Coding Agents',
-    description:
-      'Full coding agents that enable LLMs to read, edit, and execute code and solve general programming tasks completely autonomously.',
+    description: 'AI tools that can autonomously read, write, and execute code to solve programming tasks.',
   },
   {
     key: 'command-line',
     name: 'Command Line',
-    description: 'Run commands, capture output and otherwise interact with shells and command line tools.',
+    description: 'Run shell commands and interact with command-line tools easily.',
   },
   {
     key: 'communication',
     name: 'Communication',
-    description:
-      'Integration with communication platforms for message management and channel operations. Enables AI models to interact with team communication tools.',
+    description: 'Connect with messaging platforms to manage chats and interact with team tools.',
   },
   {
     key: 'customer-data-platforms',
     name: 'Customer Data Platforms',
-    description: 'Provides access to customer profiles inside of customer data platforms',
+    description: 'Access customer profiles and data from customer data platforms.',
   },
   {
     key: 'databases',
     name: 'Databases',
-    description:
-      'Secure database access with schema inspection capabilities. Enables querying and analyzing data with configurable security controls including read-only access.',
+    description: 'Securely access and query databases with options for read-only permissions.',
   },
   {
     key: 'data-platforms',
     name: 'Data Platforms',
-    description: 'Data Platforms for data integration, transformation and pipeline orchestration.',
+    description: 'Tools for integrating, transforming, and managing data pipelines.',
   },
   {
     key: 'developer-tools',
     name: 'Developer Tools',
-    description: 'Tools and integrations that enhance the development workflow and environment management.',
+    description: 'Enhance your development workflow with tools for coding and environment management.',
   },
   {
     key: 'data-science-tools',
     name: 'Data Science Tools',
-    description:
-      'Integrations and tools designed to simplify data exploration, analysis and enhance data science workflows.',
+    description: 'Simplify data analysis and exploration with tools for data science workflows.',
   },
   {
     key: 'embedded-system',
     name: 'Embedded System',
-    description: 'Provides access to documentation and shortcuts for working on embedded devices.',
+    description: 'Access resources and shortcuts for working with embedded devices.',
   },
   {
     key: 'file-systems',
     name: 'File Systems',
-    description:
-      'Provides direct access to local file systems with configurable permissions. Enables AI models to read, write, and manage files within specified directories.',
+    description: 'Manage files and directories with tools for reading, writing, and organizing files.',
   },
   {
     key: 'finance-fintech',
     name: 'Finance & Fintech',
-    description:
-      'Financial data access and analysis tools. Enables AI models to work with market data, trading platforms, and financial information.',
+    description: 'Work with financial data, market info, and trading platforms using AI tools.',
   },
   {
     key: 'gaming',
     name: 'Gaming',
-    description: 'Integration with gaming related data, game engines, and services',
+    description: 'Connect with gaming data, engines, and related services.',
   },
   {
     key: 'knowledge-memory',
     name: 'Knowledge & Memory',
-    description:
-      'Persistent memory storage using knowledge graph structures. Enables AI models to maintain and query structured information across sessions.',
+    description: 'Store and query structured information for AI models to use across sessions.',
   },
   {
     key: 'location-services',
     name: 'Location Services',
-    description:
-      'Location-based services and mapping tools. Enables AI models to work with geographic data, weather information, and location-based analytics.',
+    description: 'Work with maps, weather, and location-based data for analytics and insights.',
   },
   {
     key: 'marketing',
     name: 'Marketing',
-    description:
-      'Tools for creating and editing marketing content, working with web meta data, product positioning, and editing guides.',
+    description: 'Create and edit marketing content, manage metadata, and refine product positioning.',
   },
   {
     key: 'monitoring',
     name: 'Monitoring',
-    description:
-      'Access and analyze application monitoring data. Enables AI models to review error reports and performance metrics.',
+    description: 'Analyze app performance and error reports with monitoring tools.',
   },
   {
     key: 'search-data-extraction',
     name: 'Search & Data Extraction',
-    description:
-      'Tools and services for searching and extracting data from various sources. Enables AI models to retrieve and process information efficiently.',
+    description: 'Find and extract data from various sources quickly and efficiently.',
   },
   {
     key: 'security',
     name: 'Security',
-    description:
-      'Tools and integrations for enhancing security, including vulnerability scanning, threat detection, and secure access management.',
+    description: 'Enhance security with tools for scanning, threat detection, and secure access.',
   },
   {
     key: 'sports',
     name: 'Sports',
-    description: 'Tools for accessing sports-related data, results, and statistics.',
+    description: 'Access sports data, results, and stats with ease.',
   },
   {
     key: 'support-service-management',
     name: 'Support & Service Management',
-    description: 'Tools for managing customer support, IT service management, and helpdesk operations.',
+    description: 'Manage customer support and IT services with specialized tools.',
   },
   {
     key: 'translation-services',
     name: 'Translation Services',
-    description:
-      'Translation tools and services to enable AI assistants to translate content between different languages.',
+    description: 'Translate content between languages with AI-powered tools.',
   },
   {
     key: 'travel-transportation',
     name: 'Travel & Transportation',
-    description:
-      'Access to travel and transportation information. Enables querying schedules, routes, and real-time travel data.',
+    description: 'Get travel schedules, routes, and real-time transportation data.',
   },
   {
     key: 'version-control',
     name: 'Version Control',
-    description:
-      'Interact with Git repositories and version control platforms. Enables repository management, code analysis, pull request handling, issue tracking, and other version control operations through standardized APIs.',
+    description: 'Manage Git repositories, pull requests, and issues with version control tools.',
   },
   {
     key: 'other-tools-and-integrations',
     name: 'Other Tools and Integrations',
-    description: 'Miscellaneous tools and integrations that do not fit into other categories.',
+    description: 'Miscellaneous tools and integrations that don’t fit into other categories.',
   },
 ];

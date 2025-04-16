@@ -52,7 +52,8 @@ console.log(await(await fetch('https://toolsdk-ai.github.io/awesome-mcp-registry
 }
 ```
 
-Create a new file called `your-new-mcp-server.json` under [packages/uncategorized](./packages/uncategorized) folder.
+[Fork this repo](https://github.com/toolsdk-ai/awesome-mcp-registry/fork), and create a new file called `your-new-mcp-server.json` under [packages/uncategorized](./packages/uncategorized) folder.
+
 For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
