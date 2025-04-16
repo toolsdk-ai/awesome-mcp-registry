@@ -4,7 +4,7 @@ Welcome to the Awesome MCP Registry, your go-to open and structured registry wit
 
 - [Quick Start](#quick-start)
 - [Contributing Guide](./docs/guide.md)
-- [MCP Servers](#mcp-servers)
+- [Awesome MCP Servers](#mcp-servers)
   - [Aggregators](#aggregators)
   - [Art & Culture](#art-and-culture)
   - [Browser Automation](#browser-automation)
