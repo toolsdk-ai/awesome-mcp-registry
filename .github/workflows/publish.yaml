@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
 
 jobs:
   bump-version:
@@ -23,7 +27,11 @@ jobs:
         run: pnpm install
 
       - name: Bump version
-        run: npm version patch # 或者使用 major / minor
+        run: |
+          npm version patch
+          npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
