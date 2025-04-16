@@ -1,3 +1,4 @@
-If you're unsure about the correct category for your MCP server package, you can create it here.
+# Uncategorized
 
-AI will categorize it later.
+Tools that haven’t been sorted into a category yet. AI will categorize it later.
+

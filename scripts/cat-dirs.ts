@@ -21,6 +21,8 @@ function ensureDirectoryExists(dirPath: string) {
     console.log(`Creating directory: ${dirPath}`);
     fs.mkdirSync(dirPath, { recursive: true });
   }
+ 
+
 }
 
 // Main function
@@ -40,6 +42,12 @@ async function main() {
       const categoryFolderPath = path.join(categoriesFolderBasePath, category.key);
       ensureDirectoryExists(categoryFolderPath);
       console.log(`Ensured category folder exists: ${category.key}`);
+
+       // Write the README.md of the category folder
+      const readmePath = path.join(categoryFolderPath, 'README.md');
+      fs.writeFileSync(
+        readmePath,
+        `# ${category.name}\n\n${category.description}\n\n`);
     }
 
     console.log('All category folders have been verified and created if needed.');
