@@ -9,7 +9,7 @@ import { join } from 'path';
 import _ from 'lodash';
 import categoriesList from '../indexes/categories-list.json';
 import allPackagesList from '../indexes/packages-list.json';
-import { MCPServerPackageConfigSchema } from '../types';
+import { MCPServerPackageConfigSchema } from '../schema';
 
 let TOC = '';
 let README = '';
