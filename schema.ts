@@ -16,18 +16,18 @@ export const MCPServerPackageConfigSchema = z.object({
   type: z.literal('mcp-server'),
 
   runtime: z.enum(['node', 'python', 'java']),
-  packageName: z.string(),
+  packageName: z.string().describe('Name of the node, python, java package '),
 
   // if no custom key then would use name
-  key: z.string().optional(),
-  name: z.string().optional(),
+  key: z.string().optional().describe('Unique key for url and slug'),
+  name: z.string().optional().describe('Custom name for display, if empty then it will use the package name'),
   description: z.string().optional(),
 
 
   url: z.string().optional(),
-  license: z.string().optional(),
+  license: z.string().optional().describe('Open source license lie MIT, AGPL, GPL, etc'),
   logo: z.string().optional().describe('URL to custom logo image, if undefined and the URL is Github, then it will use the Github logo'),
-  author: z.string().optional(),
+  author: z.string().optional().describe('Author name of the ToolSDK.ai\'s developer ID'),
   env: z
     .record(
       z.object({
