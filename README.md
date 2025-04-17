@@ -10,15 +10,11 @@ An open, high-quality, well-structured and developer-friendly list of 62+ MCP se
 
 
 
-- [Awesome MCP Registry](#awesome-mcp-registry)
-  - [Quick Start](#quick-start)
-      - [Install via package manager:](#install-via-package-manager)
-      - [Use it on your JavaScript / Typescript project:](#use-it-on-your-javascript--typescript-project)
-      - [Fetch all MCP Servers lists via cURL:](#fetch-all-mcp-servers-lists-via-curl)
-      - [Submit new MCP servers:](#submit-new-mcp-servers)
-- [MCP Servers](#mcp-servers)
+- [Quick Start](#quick-start)
+- [Contributing Guide](./docs/guide.md)
+- [Awesome MCP Servers](#mcp-servers)
   - [Aggregators](#aggregators)
-  - [Art \& Culture](#art--culture)
+  - [Art & Culture](#art-and-culture)
   - [Browser Automation](#browser-automation)
   - [Cloud Platforms](#cloud-platforms)
   - [Code Execution](#code-execution)
@@ -29,10 +25,10 @@ An open, high-quality, well-structured and developer-friendly list of 62+ MCP se
   - [Developer Tools](#developer-tools)
   - [Data Science Tools](#data-science-tools)
   - [File Systems](#file-systems)
-  - [Knowledge \& Memory](#knowledge--memory)
+  - [Knowledge & Memory](#knowledge-memory)
   - [Location Services](#location-services)
   - [Monitoring](#monitoring)
-  - [Search \& Data Extraction](#search--data-extraction)
+  - [Search & Data Extraction](#search-data-extraction)
   - [Version Control](#version-control)
   - [Other Tools and Integrations](#other-tools-and-integrations)
 
