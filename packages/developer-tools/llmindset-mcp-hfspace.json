@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@llmindset/mcp-hfspace",
+  "packageName": "@llmindset/mcp-hfspace",
   "description": "MCP Server for using HuggingFace Spaces. Seamlessly use the latest Open Source Image, Audio and Text Models from within Claude Deskop.",
   "url": "https://github.com/evalstate/mcp-hfspace/",
   "runtime": "node",

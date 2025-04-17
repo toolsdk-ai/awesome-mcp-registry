@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@anaisbetts/mcp-youtube",
+  "packageName": "@anaisbetts/mcp-youtube",
   "description": "MCP server for fetching YouTube subtitles",
   "url": "https://github.com/anaisbetts/mcp-youtube",
   "runtime": "node",

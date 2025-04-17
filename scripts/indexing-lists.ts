@@ -28,8 +28,8 @@ async function generatePackagesList() {
       if (fs.statSync(entryPath).isFile() && entry.endsWith('.json')) {
         const fileContent = fs.readFileSync(entryPath, 'utf-8');
         const parsedContent = MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
-        if (parsedContent.name) {
-          const key = parsedContent.key || parsedContent.name;
+        // if (parsedContent.name) {
+          const key = parsedContent.key || parsedContent.name || parsedContent.packageName;
           if (key in packagesList) {
             throw new Error(`Duplicate key detected: "${key}" in file "${entryPath}"`);
           }
@@ -41,7 +41,7 @@ async function generatePackagesList() {
             throw new Error(`Category "${categoryName}" not found in categories list.`);
           }
           categoriesList[categoryName].packagesList.push(key);
-        }
+        // }
       } else if (fs.statSync(entryPath).isDirectory()) {
         traverseDirectory(entryPath, categoryName);
       }

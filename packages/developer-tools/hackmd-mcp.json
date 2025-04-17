@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "hackmd-mcp",
+  "packageName": "hackmd-mcp",
   "description": "A Model Context Protocol server for integrating HackMD's note-taking platform with AI assistants",
   "url": "https://github.com/yuna0x0/hackmd-mcp",
   "runtime": "node",

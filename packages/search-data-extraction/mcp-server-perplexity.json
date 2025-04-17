@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "mcp-server-perplexity",
+  "packageName": "mcp-server-perplexity",
   "description": "MCP Server for the Perplexity API",
   "url": "https://github.com/tanigami/mcp-server-perplexity",
   "runtime": "python",

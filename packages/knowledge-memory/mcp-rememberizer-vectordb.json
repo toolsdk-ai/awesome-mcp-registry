@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "mcp-rememberizer-vectordb",
+  "packageName": "mcp-rememberizer-vectordb",
   "description": "A Model Context Protocol server for LLMs to interact with Rememberizer Vector Store.",
   "url": "https://github.com/skydeckai/mcp-rememberizer-vectordb",
   "runtime": "python",

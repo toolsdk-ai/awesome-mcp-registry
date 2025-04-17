@@ -14,12 +14,17 @@ export const CategoryConfigSchema = z.object({
 
 export const MCPServerPackageConfigSchema = z.object({
   type: z.literal('mcp-server'),
+
+  runtime: z.enum(['node', 'python', 'java']),
+  packageName: z.string(),
+
   // if no custom key then would use name
   key: z.string().optional(),
-  name: z.string(),
+  name: z.string().optional(),
   description: z.string().optional(),
+
+
   url: z.string().optional(),
-  runtime: z.enum(['node', 'python', 'java']),
   license: z.string().optional(),
   logo: z.string().optional().describe('URL to custom logo image, if undefined and the URL is Github, then it will use the Github logo'),
   author: z.string().optional(),

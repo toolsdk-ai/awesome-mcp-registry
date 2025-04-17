@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "hyperbrowser-mcp",
+  "packageName": "hyperbrowser-mcp",
   "description": "An MCP server for Hyperbrowser - Hyperbrowser is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation",
   "url": "https://github.com/hyperbrowserai/mcp/tree/main",
   "runtime": "node",

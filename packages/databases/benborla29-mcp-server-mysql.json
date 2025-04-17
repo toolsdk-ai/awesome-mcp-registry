@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@benborla29/mcp-server-mysql",
+  "packageName": "@benborla29/mcp-server-mysql",
   "description": "An MCP server for interacting with MySQL databases",
   "url": "https://github.com/benborla/mcp-server-mysql",
   "runtime": "node",

@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@strowk/mcp-k8s",
+  "packageName": "@strowk/mcp-k8s",
   "description": "MCP server connecting to Kubernetes",
   "url": "https://github.com/strowk/mcp-k8s-go",
   "runtime": "node",

@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@llmindset/mcp-miro",
+  "packageName": "@llmindset/mcp-miro",
   "description": "A Model Context Protocol server to connect to the MIRO Whiteboard Application",
   "url": "https://github.com/evalstate/mcp-miro",
   "runtime": "node",

@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "mcp-tinybird",
+  "packageName": "mcp-tinybird",
   "description": "A Model Context Protocol server that lets you interact with a Tinybird Workspace from any MCP client.",
   "url": "https://github.com/tinybirdco/mcp-tinybird/tree/main/src/mcp-tinybird",
   "runtime": "python",

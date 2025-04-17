@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "mcp-server-kubernetes",
+  "packageName": "mcp-server-kubernetes",
   "description": "MCP server for managing Kubernetes clusters, enabling LLMs to interact with and control Kubernetes resources.",
   "url": "https://github.com/Flux159/mcp-server-kubernetes",
   "runtime": "node",
