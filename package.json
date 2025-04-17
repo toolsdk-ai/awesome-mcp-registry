@@ -4,6 +4,7 @@
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "exports": {
     "./*": "./*",
+    "./schema": "./schema.ts",
     "./types": "./types.ts"
   },
   "files": [

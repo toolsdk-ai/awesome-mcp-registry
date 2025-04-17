@@ -6,7 +6,8 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import { MCPServerPackageConfigSchema, type CategoryConfig } from '@toolsdk.ai/registry/types';
+import { MCPServerPackageConfigSchema, } from '../schema';
+import { type CategoryConfig } from '../types';
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const categoryConfigs: CategoryConfig[] = require('../config/categories').default;
