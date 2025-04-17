@@ -10,11 +10,15 @@ An open, high-quality, well-structured and developer-friendly list of 62+ MCP se
 
 
 
-- [Quick Start](#quick-start)
-- [Contributing Guide](./docs/guide.md)
-- [Awesome MCP Servers](#mcp-servers)
+- [Awesome MCP Registry](#awesome-mcp-registry)
+  - [Quick Start](#quick-start)
+      - [Install via package manager:](#install-via-package-manager)
+      - [Use it on your JavaScript / Typescript project:](#use-it-on-your-javascript--typescript-project)
+      - [Fetch all MCP Servers lists via cURL:](#fetch-all-mcp-servers-lists-via-curl)
+      - [Submit new MCP servers:](#submit-new-mcp-servers)
+- [MCP Servers](#mcp-servers)
   - [Aggregators](#aggregators)
-  - [Art & Culture](#art-and-culture)
+  - [Art \& Culture](#art--culture)
   - [Browser Automation](#browser-automation)
   - [Cloud Platforms](#cloud-platforms)
   - [Code Execution](#code-execution)
@@ -25,10 +29,10 @@ An open, high-quality, well-structured and developer-friendly list of 62+ MCP se
   - [Developer Tools](#developer-tools)
   - [Data Science Tools](#data-science-tools)
   - [File Systems](#file-systems)
-  - [Knowledge & Memory](#knowledge-memory)
+  - [Knowledge \& Memory](#knowledge--memory)
   - [Location Services](#location-services)
   - [Monitoring](#monitoring)
-  - [Search & Data Extraction](#search-data-extraction)
+  - [Search \& Data Extraction](#search--data-extraction)
   - [Version Control](#version-control)
   - [Other Tools and Integrations](#other-tools-and-integrations)
 
@@ -97,7 +101,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 Servers that let you access multiple apps and tools through one MCP server.
 
-- [@modelcontextprotocol/server-everything](https://github.com/modelcontextprotocol/servers/blob/main/src/everything): This MCP server attempts to exercise all the features of the MCP protocol. It is not intended to be a useful server, but rather a test server for builders of MCP clients. It implements prompts, tools, resources, sampling, and more to showcase MCP capabilities.
+- [undefined](https://github.com/modelcontextprotocol/servers/blob/main/src/everything): This MCP server attempts to exercise all the features of the MCP protocol. It is not intended to be a useful server, but rather a test server for builders of MCP clients. It implements prompts, tools, resources, sampling, and more to showcase MCP capabilities.
 
 
 <a id="art-and-culture"></a>
@@ -105,8 +109,8 @@ Servers that let you access multiple apps and tools through one MCP server.
 
 Explore art collections, museums, and cultural heritage with AI-friendly tools.
 
-- [@modelcontextprotocol/server-everart](https://github.com/modelcontextprotocol/servers/blob/main/src/everart): MCP server for EverArt API integration
-- [mcp-server-stability-ai](https://github.com/tadasant/mcp-server-stability-ai): Integrates Stability AI's image generation and manipulation capabilities for editing, upscaling, and more via Stable Diffusion models.
+- [undefined](https://github.com/modelcontextprotocol/servers/blob/main/src/everart): MCP server for EverArt API integration
+- [undefined](https://github.com/tadasant/mcp-server-stability-ai): Integrates Stability AI's image generation and manipulation capabilities for editing, upscaling, and more via Stable Diffusion models.
 
 
 <a id="browser-automation"></a>
@@ -137,7 +141,7 @@ Integrate with cloud services to manage and interact with cloud infrastructure.
 
 Run code securely, perfect for coding agents and AI-driven programming tasks.
 
-- [mcp-server-make](https://github.com/wrale/mcp-server-make): A Model Context Protocol server that provides make target calling functionality. This server enables LLMs to execute make targets from a specified Makefile within a specified working directory.
+- [undefined](https://github.com/wrale/mcp-server-make): A Model Context Protocol server that provides make target calling functionality. This server enables LLMs to execute make targets from a specified Makefile within a specified working directory.
 
 
 <a id="command-line"></a>
@@ -145,8 +149,8 @@ Run code securely, perfect for coding agents and AI-driven programming tasks.
 
 Run shell commands and interact with command-line tools easily.
 
-- [mcp-shell](https://github.com/hdresearch/mcp-shell): An MCP server for your shell
-- [mcp-server-commands](https://github.com/g0t4/mcp-server-commands): MCP server enabling LLMs to execute shell commands and run scripts through various interpreters with built-in safety controls.
+- [undefined](https://github.com/hdresearch/mcp-shell): An MCP server for your shell
+- [undefined](https://github.com/g0t4/mcp-server-commands): MCP server enabling LLMs to execute shell commands and run scripts through various interpreters with built-in safety controls.
 
 
 <a id="communication"></a>
@@ -177,7 +181,7 @@ Securely access and query databases with options for read-only permissions.
 
 Tools for integrating, transforming, and managing data pipelines.
 
-- [mcp-tinybird](https://github.com/tinybirdco/mcp-tinybird/tree/main/src/mcp-tinybird): A Model Context Protocol server that lets you interact with a Tinybird Workspace from any MCP client.
+- [undefined](https://github.com/tinybirdco/mcp-tinybird/tree/main/src/mcp-tinybird): A Model Context Protocol server that lets you interact with a Tinybird Workspace from any MCP client.
 
 
 <a id="developer-tools"></a>
@@ -201,7 +205,7 @@ Enhance your development workflow with tools for coding and environment manageme
 
 Simplify data analysis and exploration with tools for data science workflows.
 
-- [mcp-solver](https://github.com/szeider/mcp-solver): MCP server for Constraint Solving and Optimization
+- [undefined](https://github.com/szeider/mcp-solver): MCP server for Constraint Solving and Optimization
 
 
 <a id="file-systems"></a>
@@ -209,8 +213,8 @@ Simplify data analysis and exploration with tools for data science workflows.
 
 Manage files and directories with tools for reading, writing, and organizing files.
 
-- [@modelcontextprotocol/server-gdrive](https://github.com/modelcontextprotocol/servers/blob/main/src/gdrive): MCP server for interacting with Google Drive
-- [@modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers): MCP server for filesystem access
+- [undefined](https://github.com/modelcontextprotocol/servers/blob/main/src/gdrive): MCP server for interacting with Google Drive
+- [undefined](https://github.com/modelcontextprotocol/servers): MCP server for filesystem access
 
 
 <a id="knowledge-memory"></a>
@@ -228,7 +232,7 @@ Store and query structured information for AI models to use across sessions.
 
 Work with maps, weather, and location-based data for analytics and insights.
 
-- [@modelcontextprotocol/server-google-maps](https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps): MCP server for using the Google Maps API
+- [undefined](https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps): MCP server for using the Google Maps API
 
 
 <a id="monitoring"></a>
