@@ -6,7 +6,7 @@
 
 Welcome to the Awesome MCP Registry.
 
-An open, well-structured and developer-friendly list of <%= COUNT %>+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of <%= COUNT %>+ MCP servers.
 
 
 
