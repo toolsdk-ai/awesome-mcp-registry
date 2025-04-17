@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@niledatabase/nile-mcp-server",
+  "packageName": "@niledatabase/nile-mcp-server",
   "description": "MCP server for Nile Database - Manage and query databases, tenants, users, auth using LLMs",
   "url": "https://github.com/niledatabase/nile-mcp-server/tree/main",
   "runtime": "node",

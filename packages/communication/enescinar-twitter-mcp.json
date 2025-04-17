@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@enescinar/twitter-mcp",
+  "packageName": "@enescinar/twitter-mcp",
   "description": "This MCP server allows Clients to interact with Twitter, enabling posting tweets and searching Twitter.",
   "url": "https://github.com/EnesCinr/twitter-mcp",
   "runtime": "node",

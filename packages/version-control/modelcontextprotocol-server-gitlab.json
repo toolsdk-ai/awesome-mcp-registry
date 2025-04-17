@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@modelcontextprotocol/server-gitlab",
+  "packageName": "@modelcontextprotocol/server-gitlab",
   "description": "MCP server for using the GitLab API",
   "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/gitlab",
   "runtime": "node",

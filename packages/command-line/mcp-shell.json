@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "mcp-shell",
+  "packageName": "mcp-shell",
   "description": "An MCP server for your shell",
   "url": "https://github.com/hdresearch/mcp-shell",
   "runtime": "node",

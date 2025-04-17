@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@chanmeng666/google-news-server",
+  "packageName": "@chanmeng666/google-news-server",
   "description": "MCP server for Google News search via SerpAPI",
   "url": "https://github.com/ChanMeng666/server-google-news",
   "runtime": "node",

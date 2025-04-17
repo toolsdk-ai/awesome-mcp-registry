@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "mcp-server-flomo",
+  "packageName": "mcp-server-flomo",
   "description": "A MCP server for Flomo",
   "url": "https://github.com/xianminx/mcp-server-flomo",
   "runtime": "node",

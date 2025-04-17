@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "mcp-server-sqlite",
+  "packageName": "mcp-server-sqlite",
   "description": "A simple SQLite MCP server",
   "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/sqlite",
   "runtime": "python",

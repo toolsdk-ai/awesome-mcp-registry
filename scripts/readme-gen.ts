@@ -31,7 +31,7 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
     const filePath = join(__dirname, `../packages/`, packageInfo.path);
     const fileContent = readFileSync(filePath, 'utf-8');
     const parsedContent = MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
-    README += `- [${parsedContent.name}](${parsedContent.url || '#'}): ${parsedContent.description}\n`;
+    README += `- [${parsedContent.name || parsedContent.packageName}](${parsedContent.url || '#'}): ${parsedContent.description}\n`;
   }
 }
 const templatePath = join(__dirname, '../docs/README.tpl.md');

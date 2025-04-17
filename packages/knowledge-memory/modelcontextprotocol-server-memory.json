@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@modelcontextprotocol/server-memory",
+  "packageName": "@modelcontextprotocol/server-memory",
   "description": "MCP server for enabling memory for Claude through a knowledge graph",
   "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/memory",
   "runtime": "node",

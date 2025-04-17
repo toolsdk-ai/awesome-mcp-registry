@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "@modelcontextprotocol/server-google-maps",
+  "packageName": "@modelcontextprotocol/server-google-maps",
   "description": "MCP server for using the Google Maps API",
   "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps",
   "runtime": "node",
