@@ -9,6 +9,7 @@
   },
   "files": [
     "types.ts",
+    "schema.ts",
     "indexes/",
     "config/",
     "packages/",
