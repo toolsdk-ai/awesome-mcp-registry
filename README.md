@@ -10,6 +10,7 @@ An open, high-quality, well-structured and developer-friendly list of 62+ MCP se
 
 
 
+- [Video: How to submit a MCP server in JSON file?](https://www.youtube.com/watch?v=J_oaDtCoVVo)
 - [Quick Start](#quick-start)
 - [Contributing Guide](./docs/guide.md)
 - [Awesome MCP Servers](#mcp-servers)
