@@ -6,6 +6,9 @@
   "runtime": "node",
   "license": "MIT",
   "env": {
-    "TAVILY_API_KEY": "your-api-key-here"
+    "TAVILY_API_KEY": {
+      "description": "API KEY for Tavily",
+      "required": true
+    }
   }
 }
