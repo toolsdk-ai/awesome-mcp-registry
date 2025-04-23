@@ -17,6 +17,9 @@
   "@executeautomation/playwright-mcp-server": {
     "path": "browser-automation/executeautomation-playwright-mcp-server.json"
   },
+  "tavily-mcp": {
+    "path": "browser-automation/tavily-mcp.json"
+  },
   "hyperbrowser-mcp": {
     "path": "browser-automation/hyperbrowser-mcp.json"
   },

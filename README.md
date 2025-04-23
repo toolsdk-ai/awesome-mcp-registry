@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-62-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-63-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 62+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 63+ MCP servers.
 
 
 
@@ -118,6 +118,7 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 - [@automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright/tree/main): MCP server for browser automation using Playwright
 - [@modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/blob/main/src/puppeteer): MCP server for browser automation using Puppeteer
 - [@executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright/tree/main/src): A Model Context Protocol server for Playwright for Browser Automation and Web Scraping.
+- [tavily-mcp](https://github.com/tavily-ai/tavily-mcp/tree/main): Providing seamless integration with Tavily's search and extract tools for real-time web search and intelligent data extraction.
 - [hyperbrowser-mcp](https://github.com/hyperbrowserai/mcp/tree/main): An MCP server for Hyperbrowser - Hyperbrowser is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation
 - [mcp-server-fetch](https://github.com/modelcontextprotocol/servers/blob/main/src/fetch): A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs
 
