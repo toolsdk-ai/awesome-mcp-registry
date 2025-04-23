@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "tavily-mcp",
+  "description": "Providing seamless integration with Tavily's search and extract tools for real-time web search and intelligent data extraction.",
+  "url": "https://github.com/tavily-ai/tavily-mcp/tree/main",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "TAVILY_API_KEY": {
+      "description": "API KEY for Tavily",
+      "required": true
+    }
+  }
+}
