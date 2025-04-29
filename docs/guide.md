@@ -8,7 +8,7 @@
 
 ## How to submit new packages?
 
-Firstly, open a [packages directory](../packages/), where you will find various categories.
+To submit a new package, navigate to the [packages directory](../packages/) which contains categorized subdirectories for different types of MCP servers.
 
 ```
 packages/
