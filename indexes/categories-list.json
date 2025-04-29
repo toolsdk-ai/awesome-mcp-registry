@@ -38,6 +38,7 @@
       "@automatalabs/mcp-server-playwright",
       "@modelcontextprotocol/server-puppeteer",
       "@executeautomation/playwright-mcp-server",
+      "tavily-mcp",
       "hyperbrowser-mcp",
       "mcp-server-fetch"
     ]
