@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-github",
+  "description": "MCP server for using the GitHub API",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/github",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "description": "Personal access token for GitHub API access",
+      "required": true
+    }
+  }
+}
