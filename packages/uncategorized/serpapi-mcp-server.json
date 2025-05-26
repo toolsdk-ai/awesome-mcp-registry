@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@URDJMK/serpapi-mcp-server",
+  "description": "A collection of Model Context Protocol (MCP) servers that integrate with SerpAPI and YouTube to provide search capabilities and data retrieval for AI assistants.",
+  "url": "https://github.com/URDJMK/serpapi-mcp-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "SERPAPI_API_KEY": {
+      "description":"Add your SerpApi API key",
+      "required": true
+    }
+  }
+}
