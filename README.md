@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-64-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-65-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 64+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 65+ MCP servers.
 
 
 
@@ -100,6 +100,7 @@ For more detail please see [the guide](./docs/guide.md).
 Tools that haven’t been sorted into a category yet. AI will categorize it later.
 
 - [@kazuph/mcp-screenshot](https://github.com/kazuph/mcp-screenshot): An MCP server that captures screenshots and performs OCR text recognition.
+- [@URDJMK/serpapi-mcp-server](https://github.com/URDJMK/serpapi-mcp-server): A collection of Model Context Protocol (MCP) servers that integrate with SerpAPI and YouTube to provide search capabilities and data retrieval for AI assistants.
 
 
 <a id="aggregators"></a>

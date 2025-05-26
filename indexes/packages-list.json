@@ -2,6 +2,9 @@
   "@kazuph/mcp-screenshot": {
     "path": "uncategorized/kazuph-mcp-screenshot.json"
   },
+  "@URDJMK/serpapi-mcp-server": {
+    "path": "uncategorized/serpapi-mcp-server.json"
+  },
   "@modelcontextprotocol/server-everything": {
     "path": "aggregators/modelcontextprotocol-server-everything.json"
   },
