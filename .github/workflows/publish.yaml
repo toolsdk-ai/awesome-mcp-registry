@@ -70,9 +70,8 @@ jobs:
           bun scripts/check-config.ts
           bun scripts/readme-gen.ts
 
-              - name: Set commit message
-
-      - id: commit_message_step
+      - name: Set commit message
+        id: commit_message_step
         shell: bash
         run: |
           echo "commit_message=$(grep -o '"version": *"[^"]*"' package.json | cut -d '"' -f 4)" >> $GITHUB_OUTPUT
