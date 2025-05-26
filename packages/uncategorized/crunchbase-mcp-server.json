@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "name": "crunchbase-mcp-server",
+  "packageName": "crunchbase-mcp-server",
   "description": "MCP server for Crunchbase company, funding and people data",
   "url": "https://github.com/Cyreslab-AI/crunchbase-mcp-server",
   "runtime": "node",
