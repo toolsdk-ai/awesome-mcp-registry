@@ -33,7 +33,3 @@ jobs:
           bun scripts/indexing-lists.ts
           bun scripts/check-config.ts
           bun scripts/readme-gen.ts
-
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: CI checked ${{ steps.commit_message_step.outputs.commit_message }}
