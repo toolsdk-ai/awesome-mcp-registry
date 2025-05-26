@@ -1,4 +1,7 @@
 {
+  "@kazuph/mcp-screenshot": {
+    "path": "uncategorized/kazuph-mcp-screenshot.json"
+  },
   "@modelcontextprotocol/server-everything": {
     "path": "aggregators/modelcontextprotocol-server-everything.json"
   },
@@ -8,8 +11,14 @@
   "mcp-server-stability-ai": {
     "path": "art-and-culture/mcp-server-stability-ai.json"
   },
-  "@automatalabs/mcp-server-playwright": {
-    "path": "browser-automation/automatalabs-mcp-server-playwright.json"
+  "hyperbrowser-mcp": {
+    "path": "browser-automation/hyperbrowser-mcp.json"
+  },
+  "tavily-mcp": {
+    "path": "browser-automation/tavily-mcp.json"
+  },
+  "mcp-server-fetch": {
+    "path": "browser-automation/mcp-server-fetch.json"
   },
   "@modelcontextprotocol/server-puppeteer": {
     "path": "browser-automation/modelcontextprotocol-server-puppeteer.json"
@@ -17,17 +26,11 @@
   "@executeautomation/playwright-mcp-server": {
     "path": "browser-automation/executeautomation-playwright-mcp-server.json"
   },
-  "tavily-mcp": {
-    "path": "browser-automation/tavily-mcp.json"
+  "@automatalabs/mcp-server-playwright": {
+    "path": "browser-automation/automatalabs-mcp-server-playwright.json"
   },
-  "hyperbrowser-mcp": {
-    "path": "browser-automation/hyperbrowser-mcp.json"
-  },
-  "mcp-server-fetch": {
-    "path": "browser-automation/mcp-server-fetch.json"
-  },
-  "@cloudflare/mcp-server-cloudflare": {
-    "path": "cloud-platforms/cloudflare-mcp-server-cloudflare.json"
+  "mcp-server-kubernetes": {
+    "path": "cloud-platforms/mcp-server-kubernetes.json"
   },
   "@strowk/mcp-k8s": {
     "path": "cloud-platforms/strowk-mcp-k8s.json"
@@ -35,71 +38,71 @@
   "kubernetes-mcp-server": {
     "path": "cloud-platforms/kubernetes-mcp-server.json"
   },
-  "mcp-server-kubernetes": {
-    "path": "cloud-platforms/mcp-server-kubernetes.json"
+  "@cloudflare/mcp-server-cloudflare": {
+    "path": "cloud-platforms/cloudflare-mcp-server-cloudflare.json"
   },
   "mcp-server-make": {
     "path": "code-execution/mcp-server-make.json"
   },
-  "mcp-shell": {
-    "path": "command-line/mcp-shell.json"
-  },
   "mcp-server-commands": {
     "path": "command-line/mcp-server-commands.json"
   },
-  "@modelcontextprotocol/server-slack": {
-    "path": "communication/modelcontextprotocol-server-slack.json"
-  },
-  "@enescinar/twitter-mcp": {
-    "path": "communication/enescinar-twitter-mcp.json"
+  "mcp-shell": {
+    "path": "command-line/mcp-shell.json"
   },
   "@gongrzhe/server-gmail-autoauth-mcp": {
     "path": "communication/gongrzhe-server-gmail-autoauth-mcp.json"
   },
-  "airtable-mcp-server": {
-    "path": "databases/airtable-mcp-server.json"
+  "@enescinar/twitter-mcp": {
+    "path": "communication/enescinar-twitter-mcp.json"
   },
-  "@benborla29/mcp-server-mysql": {
-    "path": "databases/benborla29-mcp-server-mysql.json"
+  "@modelcontextprotocol/server-slack": {
+    "path": "communication/modelcontextprotocol-server-slack.json"
   },
   "@niledatabase/nile-mcp-server": {
     "path": "databases/niledatabase-nile-mcp-server.json"
   },
+  "@benborla29/mcp-server-mysql": {
+    "path": "databases/benborla29-mcp-server-mysql.json"
+  },
   "mcp-server-sqlite": {
     "path": "databases/mcp-server-sqlite.json"
-  },
-  "mcp-mongo-server": {
-    "path": "databases/mcp-mongo-server.json"
   },
   "@modelcontextprotocol/server-postgres": {
     "path": "databases/modelcontextprotocol-server-postgres.json"
   },
+  "mcp-mongo-server": {
+    "path": "databases/mcp-mongo-server.json"
+  },
+  "airtable-mcp-server": {
+    "path": "databases/airtable-mcp-server.json"
+  },
   "mcp-tinybird": {
     "path": "data-platforms/mcp-tinybird.json"
-  },
-  "@mcp-get-community/server-macos": {
-    "path": "developer-tools/mcp-get-community-server-macos.json"
-  },
-  "mcp-server-aidd": {
-    "path": "developer-tools/mcp-server-aidd.json"
-  },
-  "mcp-server-tree-sitter": {
-    "path": "developer-tools/mcp-server-tree-sitter.json"
-  },
-  "@mcp-get-community/server-llm-txt": {
-    "path": "developer-tools/mcp-get-community-server-llm-txt.json"
-  },
-  "@llmindset/mcp-hfspace": {
-    "path": "developer-tools/llmindset-mcp-hfspace.json"
   },
   "awslabs.nova-canvas-mcp-server": {
     "path": "developer-tools/awslabs.nova-canvas-mcp-server.json"
   },
-  "hackmd-mcp": {
-    "path": "developer-tools/hackmd-mcp.json"
+  "mcp-server-tree-sitter": {
+    "path": "developer-tools/mcp-server-tree-sitter.json"
+  },
+  "@mcp-get-community/server-macos": {
+    "path": "developer-tools/mcp-get-community-server-macos.json"
+  },
+  "@mcp-get-community/server-llm-txt": {
+    "path": "developer-tools/mcp-get-community-server-llm-txt.json"
   },
   "mcp-openapi-schema-explorer": {
     "path": "developer-tools/mcp-openapi-schema-explorer.json"
+  },
+  "mcp-server-aidd": {
+    "path": "developer-tools/mcp-server-aidd.json"
+  },
+  "@llmindset/mcp-hfspace": {
+    "path": "developer-tools/llmindset-mcp-hfspace.json"
+  },
+  "hackmd-mcp": {
+    "path": "developer-tools/hackmd-mcp.json"
   },
   "docker-mcp": {
     "path": "developer-tools/docker-mcp.json"
@@ -107,47 +110,29 @@
   "mcp-solver": {
     "path": "data-science-tools/mcp-solver.json"
   },
-  "@modelcontextprotocol/server-gdrive": {
-    "path": "file-systems/modelcontextprotocol-server-gdrive.json"
-  },
   "@modelcontextprotocol/server-filesystem": {
     "path": "file-systems/modelcontextprotocol-server-filesystem.json"
+  },
+  "@modelcontextprotocol/server-gdrive": {
+    "path": "file-systems/modelcontextprotocol-server-gdrive.json"
   },
   "mcp-server-rememberizer": {
     "path": "knowledge-memory/mcp-server-rememberizer.json"
   },
-  "mcp-rememberizer-vectordb": {
-    "path": "knowledge-memory/mcp-rememberizer-vectordb.json"
-  },
   "@modelcontextprotocol/server-memory": {
     "path": "knowledge-memory/modelcontextprotocol-server-memory.json"
+  },
+  "mcp-rememberizer-vectordb": {
+    "path": "knowledge-memory/mcp-rememberizer-vectordb.json"
   },
   "@modelcontextprotocol/server-google-maps": {
     "path": "location-services/modelcontextprotocol-server-google-maps.json"
   },
-  "mcp-server-sentry": {
-    "path": "monitoring/mcp-server-sentry.json"
-  },
   "@raygun.io/mcp-server-raygun": {
     "path": "monitoring/raygun.io-mcp-server-raygun.json"
   },
-  "mcp-server-perplexity": {
-    "path": "search-data-extraction/mcp-server-perplexity.json"
-  },
-  "@modelcontextprotocol/server-brave-search": {
-    "path": "search-data-extraction/modelcontextprotocol-server-brave-search.json"
-  },
-  "@modelcontextprotocol/server-aws-kb-retrieval": {
-    "path": "search-data-extraction/modelcontextprotocol-server-aws-kb-retrieval.json"
-  },
-  "graphlit-mcp-server": {
-    "path": "search-data-extraction/graphlit-mcp-server.json"
-  },
-  "@chanmeng666/google-news-server": {
-    "path": "search-data-extraction/chanmeng666-google-news-server.json"
-  },
-  "mcp-server-giphy": {
-    "path": "search-data-extraction/mcp-server-giphy.json"
+  "mcp-server-sentry": {
+    "path": "monitoring/mcp-server-sentry.json"
   },
   "@anaisbetts/mcp-youtube": {
     "path": "search-data-extraction/anaisbetts-mcp-youtube.json"
@@ -155,20 +140,38 @@
   "anilist-mcp": {
     "path": "search-data-extraction/anilist-mcp.json"
   },
+  "mcp-server-perplexity": {
+    "path": "search-data-extraction/mcp-server-perplexity.json"
+  },
+  "@modelcontextprotocol/server-aws-kb-retrieval": {
+    "path": "search-data-extraction/modelcontextprotocol-server-aws-kb-retrieval.json"
+  },
+  "graphlit-mcp-server": {
+    "path": "search-data-extraction/graphlit-mcp-server.json"
+  },
+  "@modelcontextprotocol/server-brave-search": {
+    "path": "search-data-extraction/modelcontextprotocol-server-brave-search.json"
+  },
   "@kimtaeyoon83/mcp-server-youtube-transcript": {
     "path": "search-data-extraction/kimtaeyoon83-mcp-server-youtube-transcript.json"
-  },
-  "qanon_mcp": {
-    "path": "search-data-extraction/qanon_mcp.json"
   },
   "@mcp-get-community/server-curl": {
     "path": "search-data-extraction/mcp-get-community-server-curl.json"
   },
-  "mcp-server-git": {
-    "path": "version-control/mcp-server-git.json"
+  "@chanmeng666/google-news-server": {
+    "path": "search-data-extraction/chanmeng666-google-news-server.json"
+  },
+  "qanon_mcp": {
+    "path": "search-data-extraction/qanon_mcp.json"
+  },
+  "mcp-server-giphy": {
+    "path": "search-data-extraction/mcp-server-giphy.json"
   },
   "@modelcontextprotocol/server-github": {
     "path": "version-control/modelcontextprotocol-server-github.json"
+  },
+  "mcp-server-git": {
+    "path": "version-control/mcp-server-git.json"
   },
   "@modelcontextprotocol/server-gitlab": {
     "path": "version-control/modelcontextprotocol-server-gitlab.json"
@@ -179,11 +182,11 @@
   "@modelcontextprotocol/server-sequential-thinking": {
     "path": "other-tools-and-integrations/modelcontextprotocol-server-sequential-thinking.json"
   },
-  "@llmindset/mcp-miro": {
-    "path": "other-tools-and-integrations/llmindset-mcp-miro.json"
-  },
   "mcp-server-flomo": {
     "path": "other-tools-and-integrations/mcp-server-flomo.json"
+  },
+  "@llmindset/mcp-miro": {
+    "path": "other-tools-and-integrations/llmindset-mcp-miro.json"
   },
   "mcp-server-time": {
     "path": "other-tools-and-integrations/mcp-server-time.json"
