@@ -5,5 +5,10 @@
   "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/everart",
   "runtime": "node",
   "license": "MIT",
-  "env": {}
+  "env": {
+    "EVERART_API_KEY": {
+      "description": "API key for EverArt",
+      "required": true
+    }
+  }
 }
