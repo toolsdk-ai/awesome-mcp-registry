@@ -7,7 +7,7 @@
   "license": "MIT",
   "env": {
     "SERPAPI_API_KEY": {
-      "description":"Your SerpApi API key",
+      "description":"Add your SerpApi API key",
       "required": true
     }
   }
