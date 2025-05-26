@@ -43,10 +43,6 @@ jobs:
         run: |
           npm version patch --no-git-tag-version
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: NPM Publish ${{ steps.commit_message_step.outputs.commit_message }}
-
       - name: Publish
         run: npm publish --access public
         env:
