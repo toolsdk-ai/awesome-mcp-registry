@@ -5,6 +5,7 @@
   "type": "module",
   "exports": {
     "./*": "./*",
+    "./helper": "./helper.ts",
     "./schema": "./schema.ts",
     "./types": "./types.ts"
   },
