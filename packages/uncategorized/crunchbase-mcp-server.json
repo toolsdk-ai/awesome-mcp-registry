@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "crunchbase-mcp-server",
+  "description": "MCP server for Crunchbase company, funding and people data",
+  "url": "https://github.com/Cyreslab-AI/crunchbase-mcp-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "CRUNCHBASE_API_KEY": {
+      "description": "Your Crunchbase API key – get it from https://data.crunchbase.com/",
+      "required": true
+    }
+  }
+}
