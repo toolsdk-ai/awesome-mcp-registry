@@ -15,8 +15,12 @@ export const CategoryConfigSchema = z.object({
 export const MCPServerPackageConfigSchema = z.object({
   type: z.literal('mcp-server'),
 
-  runtime: z.enum(['node', 'python', 'java']),
+  runtime: z.enum(['node', 'python', 'java', 'go']),
   packageName: z.string().describe('Name of the node, python, java package '),
+  packageVersion: z.string().optional().describe('Version of the package, if not provided then it will use latest version'),
+
+  bin: z.string().optional().describe('Binary Command to run the MCP server, if not provided then it will use the package name'),
+  binArgs: z.array(z.string()).optional().describe('Binary Arguments to pass to the command, if not provided then it will use an empty array'),
 
   // if no custom key then would use name
   key: z.string().optional().describe('Unique key for url and slug'),
@@ -45,3 +49,17 @@ export const PackageConfigSchema = z.discriminatedUnion('type', [
     url: z.string().optional(),
   }),
 ]);
+
+export const PackagesListSchema = z.record(
+  z.object({
+    path: z.string(),
+    validated: z.boolean().optional(),
+    tools: z.record(z.object(
+      {
+        name: z.string().optional(),
+        description: z.string().optional(),
+
+      })).optional(),
+  })
+)
+export type PackagesList = z.infer<typeof PackagesListSchema>;
