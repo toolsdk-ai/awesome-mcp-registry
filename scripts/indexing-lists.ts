@@ -87,15 +87,7 @@ async function generatePackagesList() {
 
   fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
 
-    console.log(`Generated new package.json file at ${packageJsonFile}`, packageJSON);
-
-
-
-
-}
-async function injectPackageJSON() {
-  const packageDeps: string[] = [];
-  packageDeps
+  console.log(`Generated new package.json file at ${packageJsonFile}`, packageJSON);
 }
 
 generatePackagesList();

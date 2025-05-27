@@ -1,36 +1,403 @@
 {
   "@kazuph/mcp-screenshot": {
-    "path": "uncategorized/kazuph-mcp-screenshot.json"
+    "path": "uncategorized/kazuph-mcp-screenshot.json",
+    "validated": true,
+    "tools": {
+      "capture": {
+        "name": "capture",
+        "description": "Captures a screenshot of the specified region and performs OCR. Options:\n- region: 'left'/'right'/'full' (default: 'left')\n- format: 'json'/'markdown'/'vertical'/'horizontal' (default: 'markdown')\nThe screenshot is saved to a dated directory in Downloads."
+      }
+    }
   },
   "@URDJMK/serpapi-mcp-server": {
     "path": "uncategorized/serpapi-mcp-server.json"
   },
   "@modelcontextprotocol/server-everything": {
-    "path": "aggregators/modelcontextprotocol-server-everything.json"
+    "path": "aggregators/modelcontextprotocol-server-everything.json",
+    "validated": true,
+    "tools": {
+      "echo": {
+        "name": "echo",
+        "description": "Echoes back the input"
+      },
+      "add": {
+        "name": "add",
+        "description": "Adds two numbers"
+      },
+      "printEnv": {
+        "name": "printEnv",
+        "description": "Prints all environment variables, helpful for debugging MCP server configuration"
+      },
+      "longRunningOperation": {
+        "name": "longRunningOperation",
+        "description": "Demonstrates a long running operation with progress updates"
+      },
+      "sampleLLM": {
+        "name": "sampleLLM",
+        "description": "Samples from an LLM using MCP's sampling feature"
+      },
+      "getTinyImage": {
+        "name": "getTinyImage",
+        "description": "Returns the MCP_TINY_IMAGE"
+      },
+      "annotatedMessage": {
+        "name": "annotatedMessage",
+        "description": "Demonstrates how annotations can be used to provide metadata about content"
+      },
+      "getResourceReference": {
+        "name": "getResourceReference",
+        "description": "Returns a resource reference that can be used by MCP clients"
+      }
+    }
   },
   "@modelcontextprotocol/server-everart": {
-    "path": "art-and-culture/modelcontextprotocol-server-everart.json"
+    "path": "art-and-culture/modelcontextprotocol-server-everart.json",
+    "validated": true,
+    "tools": {
+      "generate_image": {
+        "name": "generate_image",
+        "description": "Generate images using EverArt Models and returns a clickable link to view the generated image. The tool will return a URL that can be clicked to view the image in a browser. Available models:\n- 5000:FLUX1.1: Standard quality\n- 9000:FLUX1.1-ultra: Ultra high quality\n- 6000:SD3.5: Stable Diffusion 3.5\n- 7000:Recraft-Real: Photorealistic style\n- 8000:Recraft-Vector: Vector art style\n\nThe response will contain a direct link to view the generated image."
+      }
+    }
   },
   "mcp-server-stability-ai": {
-    "path": "art-and-culture/mcp-server-stability-ai.json"
+    "path": "art-and-culture/mcp-server-stability-ai.json",
+    "validated": true,
+    "tools": {
+      "stability-ai-generate-image": {
+        "name": "stability-ai-generate-image",
+        "description": "Generate an image of anything based on a provided prompt."
+      },
+      "stability-ai-generate-image-sd35": {
+        "name": "stability-ai-generate-image-sd35",
+        "description": "Generate an image using Stable Diffusion 3.5 models with advanced configuration options."
+      },
+      "stability-ai-remove-background": {
+        "name": "stability-ai-remove-background",
+        "description": "Remove the background from an image."
+      },
+      "stability-ai-outpaint": {
+        "name": "stability-ai-outpaint",
+        "description": "Extends an image in any direction while maintaining visual consistency."
+      },
+      "stability-ai-search-and-replace": {
+        "name": "stability-ai-search-and-replace",
+        "description": "Replace objects or elements in an image by describing what to replace and what to replace it with."
+      },
+      "stability-ai-upscale-fast": {
+        "name": "stability-ai-upscale-fast",
+        "description": "Cheap and fast tool to enhance image resolution by 4x."
+      },
+      "stability-ai-upscale-creative": {
+        "name": "stability-ai-upscale-creative",
+        "description": "Enhance image resolution up to 4K using AI with creative interpretation. This tool works best on highly degraded images and performs heavy reimagining. In general, don't use this (expensive) tool unless specifically asked to do so, usually after trying stability-ai-upscale-fast first."
+      },
+      "stability-ai-control-sketch": {
+        "name": "stability-ai-control-sketch",
+        "description": "Translate hand-drawn sketches to production-grade images."
+      },
+      "stability-ai-0-list-resources": {
+        "name": "stability-ai-0-list-resources",
+        "description": "Use this to check for files before deciding you don't have access to a file or image or resource. It pulls in a list of all of user's available Resources (i.e. image files and their URI's) so we can reference pre-existing images to manipulate or upload to Stability AI."
+      },
+      "stability-ai-search-and-recolor": {
+        "name": "stability-ai-search-and-recolor",
+        "description": "Search and recolor object(s) in an image"
+      },
+      "stability-ai-replace-background-and-relight": {
+        "name": "stability-ai-replace-background-and-relight",
+        "description": "Replace background and adjust lighting of an image"
+      },
+      "stability-ai-control-style": {
+        "name": "stability-ai-control-style",
+        "description": "Generate a new image in the style of a reference image"
+      },
+      "stability-ai-control-structure": {
+        "name": "stability-ai-control-structure",
+        "description": "Generate a new image while maintaining the structure of a reference image"
+      }
+    }
   },
   "@executeautomation/playwright-mcp-server": {
-    "path": "browser-automation/executeautomation-playwright-mcp-server.json"
+    "path": "browser-automation/executeautomation-playwright-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "start_codegen_session": {
+        "name": "start_codegen_session",
+        "description": "Start a new code generation session to record Playwright actions"
+      },
+      "end_codegen_session": {
+        "name": "end_codegen_session",
+        "description": "End a code generation session and generate the test file"
+      },
+      "get_codegen_session": {
+        "name": "get_codegen_session",
+        "description": "Get information about a code generation session"
+      },
+      "clear_codegen_session": {
+        "name": "clear_codegen_session",
+        "description": "Clear a code generation session without generating a test"
+      },
+      "playwright_navigate": {
+        "name": "playwright_navigate",
+        "description": "Navigate to a URL"
+      },
+      "playwright_screenshot": {
+        "name": "playwright_screenshot",
+        "description": "Take a screenshot of the current page or a specific element"
+      },
+      "playwright_click": {
+        "name": "playwright_click",
+        "description": "Click an element on the page"
+      },
+      "playwright_iframe_click": {
+        "name": "playwright_iframe_click",
+        "description": "Click an element in an iframe on the page"
+      },
+      "playwright_iframe_fill": {
+        "name": "playwright_iframe_fill",
+        "description": "Fill an element in an iframe on the page"
+      },
+      "playwright_fill": {
+        "name": "playwright_fill",
+        "description": "fill out an input field"
+      },
+      "playwright_select": {
+        "name": "playwright_select",
+        "description": "Select an element on the page with Select tag"
+      },
+      "playwright_hover": {
+        "name": "playwright_hover",
+        "description": "Hover an element on the page"
+      },
+      "playwright_evaluate": {
+        "name": "playwright_evaluate",
+        "description": "Execute JavaScript in the browser console"
+      },
+      "playwright_console_logs": {
+        "name": "playwright_console_logs",
+        "description": "Retrieve console logs from the browser with filtering options"
+      },
+      "playwright_close": {
+        "name": "playwright_close",
+        "description": "Close the browser and release all resources"
+      },
+      "playwright_get": {
+        "name": "playwright_get",
+        "description": "Perform an HTTP GET request"
+      },
+      "playwright_post": {
+        "name": "playwright_post",
+        "description": "Perform an HTTP POST request"
+      },
+      "playwright_put": {
+        "name": "playwright_put",
+        "description": "Perform an HTTP PUT request"
+      },
+      "playwright_patch": {
+        "name": "playwright_patch",
+        "description": "Perform an HTTP PATCH request"
+      },
+      "playwright_delete": {
+        "name": "playwright_delete",
+        "description": "Perform an HTTP DELETE request"
+      },
+      "playwright_expect_response": {
+        "name": "playwright_expect_response",
+        "description": "Ask Playwright to start waiting for a HTTP response. This tool initiates the wait operation but does not wait for its completion."
+      },
+      "playwright_assert_response": {
+        "name": "playwright_assert_response",
+        "description": "Wait for and validate a previously initiated HTTP response wait operation."
+      },
+      "playwright_custom_user_agent": {
+        "name": "playwright_custom_user_agent",
+        "description": "Set a custom User Agent for the browser"
+      },
+      "playwright_get_visible_text": {
+        "name": "playwright_get_visible_text",
+        "description": "Get the visible text content of the current page"
+      },
+      "playwright_get_visible_html": {
+        "name": "playwright_get_visible_html",
+        "description": "Get the HTML content of the current page"
+      },
+      "playwright_go_back": {
+        "name": "playwright_go_back",
+        "description": "Navigate back in browser history"
+      },
+      "playwright_go_forward": {
+        "name": "playwright_go_forward",
+        "description": "Navigate forward in browser history"
+      },
+      "playwright_drag": {
+        "name": "playwright_drag",
+        "description": "Drag an element to a target location"
+      },
+      "playwright_press_key": {
+        "name": "playwright_press_key",
+        "description": "Press a keyboard key"
+      },
+      "playwright_save_as_pdf": {
+        "name": "playwright_save_as_pdf",
+        "description": "Save the current page as a PDF file"
+      },
+      "playwright_click_and_switch_tab": {
+        "name": "playwright_click_and_switch_tab",
+        "description": "Click a link and switch to the newly opened tab"
+      }
+    }
   },
   "tavily-mcp": {
-    "path": "browser-automation/tavily-mcp.json"
+    "path": "browser-automation/tavily-mcp.json",
+    "validated": true,
+    "tools": {
+      "tavily-search": {
+        "name": "tavily-search",
+        "description": "A powerful web search tool that provides comprehensive, real-time results using Tavily's AI search engine. Returns relevant web content with customizable parameters for result count, content type, and domain filtering. Ideal for gathering current information, news, and detailed web content analysis."
+      },
+      "tavily-extract": {
+        "name": "tavily-extract",
+        "description": "A powerful web content extraction tool that retrieves and processes raw content from specified URLs, ideal for data collection, content analysis, and research tasks."
+      },
+      "tavily-crawl": {
+        "name": "tavily-crawl",
+        "description": "A powerful web crawler that initiates a structured web crawl starting from a specified base URL. The crawler expands from that point like a tree, following internal links across pages. You can control how deep and wide it goes, and guide it to focus on specific sections of the site."
+      },
+      "tavily-map": {
+        "name": "tavily-map",
+        "description": "A powerful web mapping tool that creates a structured map of website URLs, allowing you to discover and analyze site structure, content organization, and navigation paths. Perfect for site audits, content discovery, and understanding website architecture."
+      }
+    }
   },
   "@automatalabs/mcp-server-playwright": {
-    "path": "browser-automation/automatalabs-mcp-server-playwright.json"
+    "path": "browser-automation/automatalabs-mcp-server-playwright.json",
+    "validated": true,
+    "tools": {
+      "browser_navigate": {
+        "name": "browser_navigate",
+        "description": "Navigate to a URL"
+      },
+      "browser_screenshot": {
+        "name": "browser_screenshot",
+        "description": "Take a screenshot of the current page or a specific element"
+      },
+      "browser_click": {
+        "name": "browser_click",
+        "description": "Click an element on the page using CSS selector"
+      },
+      "browser_click_text": {
+        "name": "browser_click_text",
+        "description": "Click an element on the page by its text content"
+      },
+      "browser_fill": {
+        "name": "browser_fill",
+        "description": "Fill out an input field"
+      },
+      "browser_select": {
+        "name": "browser_select",
+        "description": "Select an element on the page with Select tag using CSS selector"
+      },
+      "browser_select_text": {
+        "name": "browser_select_text",
+        "description": "Select an element on the page with Select tag by its text content"
+      },
+      "browser_hover": {
+        "name": "browser_hover",
+        "description": "Hover an element on the page using CSS selector"
+      },
+      "browser_hover_text": {
+        "name": "browser_hover_text",
+        "description": "Hover an element on the page by its text content"
+      },
+      "browser_evaluate": {
+        "name": "browser_evaluate",
+        "description": "Execute JavaScript in the browser console"
+      }
+    }
   },
   "hyperbrowser-mcp": {
-    "path": "browser-automation/hyperbrowser-mcp.json"
+    "path": "browser-automation/hyperbrowser-mcp.json",
+    "validated": true,
+    "tools": {
+      "scrape_webpage": {
+        "name": "scrape_webpage",
+        "description": "Scrape a webpage and extract its content in various formats. This tool allows fetching content from a single URL with configurable browser behavior options. Use this for extracting text content, HTML structure, collecting links, or capturing screenshots of webpages."
+      },
+      "crawl_webpages": {
+        "name": "crawl_webpages",
+        "description": "Crawl a website starting from a URL and explore linked pages. This tool allows systematic collection of content from multiple pages within a domain. Use this for larger data collection tasks, content indexing, or site mapping."
+      },
+      "extract_structured_data": {
+        "name": "extract_structured_data",
+        "description": "Extract structured data from a webpage. This tool allows you to extract structured data from a webpage using a schema."
+      },
+      "browser_use_agent": {
+        "name": "browser_use_agent",
+        "description": "This tool employs an open-source browser automation agent optimized specifically for fast, efficient, and cost-effective browser tasks using a cloud browser. It requires explicit, detailed instructions to perform highly specific interactions quickly.\n\nOptimal for tasks requiring:\n- Precise, explicitly defined interactions and actions\n- Speed and efficiency with clear, unambiguous instructions\n- Cost-effective automation at scale with straightforward workflows\n\nBest suited use cases include:\n- Explicitly defined registration and login processes\n- Clearly guided navigation through web apps\n- Structured, step-by-step web scraping with detailed guidance\n- Extracting data via explicitly specified browser interactions\n\nYou must provide extremely detailed step-by-step instructions, including exact elements, actions, and explicit context. Clearly define the desired outcome for optimal results. Returns the completed result or an error message if issues arise.\n\nNote: This agent trades off flexibility for significantly faster performance and lower costs compared to Claude and OpenAI agents."
+      },
+      "openai_computer_use_agent": {
+        "name": "openai_computer_use_agent",
+        "description": "This tool utilizes OpenAI's model to autonomously execute general-purpose browser-based tasks with balanced performance and reliability using a cloud browser. It handles complex interactions effectively with practical reasoning and clear execution.\n\nOptimal for tasks requiring:\n- Reliable, general-purpose browser automation\n- Clear, structured interactions with moderate complexity\n- Efficient handling of common web tasks and workflows\n\nBest suited use cases include:\n- Standard multi-step registration or form submissions\n- Navigating typical web applications requiring multiple interactions\n- Conducting structured web research tasks\n- Extracting data through interactive web processes\n\nProvide a clear step-by-step description, necessary context, and expected outcomes. Returns the completed result or an error message if issues arise."
+      },
+      "claude_computer_use_agent": {
+        "name": "claude_computer_use_agent",
+        "description": "This tool leverages Anthropic's Claude model to autonomously execute complex browser tasks with sophisticated reasoning capabilities using a cloud browser. It specializes in handling intricate, nuanced, or highly context-sensitive web interactions.\n\nOptimal for tasks requiring:\n- Complex reasoning over multiple web pages\n- Nuanced interpretation and flexible decision-making\n- Human-like interaction with detailed context awareness\n\nBest suited use cases include:\n- Multi-step processes requiring reasoning (e.g., detailed registrations or onboarding)\n- Interacting intelligently with advanced web apps\n- Conducting in-depth research with complex conditions\n- Extracting information from dynamic or interactive websites\n\nProvide detailed task instructions, relevant context, and clearly specify the desired outcome for best results. Returns the completed result or an error message if issues arise."
+      },
+      "search_with_bing": {
+        "name": "search_with_bing",
+        "description": "Search the web using Bing. This tool allows you to search the web using bing.com"
+      },
+      "create_profile": {
+        "name": "create_profile",
+        "description": "Creates a new persistent Hyperbrowser profile."
+      },
+      "delete_profile": {
+        "name": "delete_profile",
+        "description": "Deletes an existing persistent Hyperbrowser profile."
+      },
+      "list_profiles": {
+        "name": "list_profiles",
+        "description": "Lists existing persistent Hyperbrowser profiles, with optional pagination."
+      }
+    }
   },
   "mcp-server-fetch": {
     "path": "browser-automation/mcp-server-fetch.json"
   },
   "@modelcontextprotocol/server-puppeteer": {
-    "path": "browser-automation/modelcontextprotocol-server-puppeteer.json"
+    "path": "browser-automation/modelcontextprotocol-server-puppeteer.json",
+    "validated": true,
+    "tools": {
+      "puppeteer_navigate": {
+        "name": "puppeteer_navigate",
+        "description": "Navigate to a URL"
+      },
+      "puppeteer_screenshot": {
+        "name": "puppeteer_screenshot",
+        "description": "Take a screenshot of the current page or a specific element"
+      },
+      "puppeteer_click": {
+        "name": "puppeteer_click",
+        "description": "Click an element on the page"
+      },
+      "puppeteer_fill": {
+        "name": "puppeteer_fill",
+        "description": "Fill out an input field"
+      },
+      "puppeteer_select": {
+        "name": "puppeteer_select",
+        "description": "Select an element on the page with Select tag"
+      },
+      "puppeteer_hover": {
+        "name": "puppeteer_hover",
+        "description": "Hover an element on the page"
+      },
+      "puppeteer_evaluate": {
+        "name": "puppeteer_evaluate",
+        "description": "Execute JavaScript in the browser console"
+      }
+    }
   },
   "kubernetes-mcp-server": {
     "path": "cloud-platforms/kubernetes-mcp-server.json"
@@ -39,34 +406,267 @@
     "path": "cloud-platforms/cloudflare-mcp-server-cloudflare.json"
   },
   "mcp-server-kubernetes": {
-    "path": "cloud-platforms/mcp-server-kubernetes.json"
+    "path": "cloud-platforms/mcp-server-kubernetes.json",
+    "validated": true,
+    "tools": {
+      "cleanup": {
+        "name": "cleanup",
+        "description": "Cleanup all managed resources"
+      },
+      "kubectl_get": {
+        "name": "kubectl_get",
+        "description": "Get or list Kubernetes resources by resource type, name, and optionally namespace"
+      },
+      "kubectl_describe": {
+        "name": "kubectl_describe",
+        "description": "Describe Kubernetes resources by resource type, name, and optionally namespace"
+      },
+      "kubectl_list": {
+        "name": "kubectl_list",
+        "description": "List Kubernetes resources by resource type and optionally namespace"
+      },
+      "kubectl_apply": {
+        "name": "kubectl_apply",
+        "description": "Apply a Kubernetes YAML manifest from a string or file"
+      },
+      "kubectl_delete": {
+        "name": "kubectl_delete",
+        "description": "Delete Kubernetes resources by resource type, name, labels, or from a manifest file"
+      },
+      "kubectl_create": {
+        "name": "kubectl_create",
+        "description": "Create Kubernetes resources using various methods (from file or using subcommands)"
+      },
+      "kubectl_logs": {
+        "name": "kubectl_logs",
+        "description": "Get logs from Kubernetes resources like pods, deployments, or jobs"
+      },
+      "kubectl_scale": {
+        "name": "kubectl_scale",
+        "description": "Scale a Kubernetes deployment"
+      },
+      "kubectl_patch": {
+        "name": "kubectl_patch",
+        "description": "Update field(s) of a resource using strategic merge patch, JSON merge patch, or JSON patch"
+      },
+      "kubectl_rollout": {
+        "name": "kubectl_rollout",
+        "description": "Manage the rollout of a resource (e.g., deployment, daemonset, statefulset)"
+      },
+      "kubectl_context": {
+        "name": "kubectl_context",
+        "description": "Manage Kubernetes contexts - list, get, or set the current context"
+      },
+      "explain_resource": {
+        "name": "explain_resource",
+        "description": "Get documentation for a Kubernetes resource or field"
+      },
+      "install_helm_chart": {
+        "name": "install_helm_chart",
+        "description": "Install a Helm chart"
+      },
+      "upgrade_helm_chart": {
+        "name": "upgrade_helm_chart",
+        "description": "Upgrade a Helm release"
+      },
+      "uninstall_helm_chart": {
+        "name": "uninstall_helm_chart",
+        "description": "Uninstall a Helm release"
+      },
+      "port_forward": {
+        "name": "port_forward",
+        "description": "Forward a local port to a port on a Kubernetes resource"
+      },
+      "stop_port_forward": {
+        "name": "stop_port_forward",
+        "description": "Stop a port-forward process"
+      },
+      "list_api_resources": {
+        "name": "list_api_resources",
+        "description": "List the API resources available in the cluster"
+      },
+      "kubectl_generic": {
+        "name": "kubectl_generic",
+        "description": "Execute any kubectl command with the provided arguments and flags"
+      }
+    }
   },
   "@strowk/mcp-k8s": {
-    "path": "cloud-platforms/strowk-mcp-k8s.json"
+    "path": "cloud-platforms/strowk-mcp-k8s.json",
+    "validated": true,
+    "tools": {
+      "get-k8s-pod-logs": {
+        "name": "get-k8s-pod-logs",
+        "description": "Get logs for a Kubernetes pod using specific context in a specified namespace"
+      },
+      "get-k8s-resource": {
+        "name": "get-k8s-resource",
+        "description": "Get details of any Kubernetes resource like pod, node or service - completely as JSON or rendered using template"
+      },
+      "k8s-pod-exec": {
+        "name": "k8s-pod-exec",
+        "description": "Execute command in Kubernetes pod"
+      },
+      "list-k8s-contexts": {
+        "name": "list-k8s-contexts",
+        "description": "List Kubernetes contexts from configuration files such as kubeconfig"
+      },
+      "list-k8s-events": {
+        "name": "list-k8s-events",
+        "description": "List Kubernetes events using specific context in a specified namespace"
+      },
+      "list-k8s-namespaces": {
+        "name": "list-k8s-namespaces",
+        "description": "List Kubernetes namespaces using specific context"
+      },
+      "list-k8s-nodes": {
+        "name": "list-k8s-nodes",
+        "description": "List Kubernetes nodes using specific context"
+      },
+      "list-k8s-resources": {
+        "name": "list-k8s-resources",
+        "description": "List arbitrary Kubernetes resources"
+      }
+    }
   },
   "mcp-server-make": {
     "path": "code-execution/mcp-server-make.json"
   },
   "mcp-shell": {
-    "path": "command-line/mcp-shell.json"
+    "path": "command-line/mcp-shell.json",
+    "validated": true,
+    "tools": {
+      "run_command": {
+        "name": "run_command",
+        "description": "Run a shell command"
+      }
+    }
   },
   "mcp-server-commands": {
-    "path": "command-line/mcp-server-commands.json"
+    "path": "command-line/mcp-server-commands.json",
+    "validated": true,
+    "tools": {
+      "run_command": {
+        "name": "run_command",
+        "description": "Run a command on this darwin machine"
+      }
+    }
   },
   "@gongrzhe/server-gmail-autoauth-mcp": {
     "path": "communication/gongrzhe-server-gmail-autoauth-mcp.json"
   },
   "@enescinar/twitter-mcp": {
-    "path": "communication/enescinar-twitter-mcp.json"
+    "path": "communication/enescinar-twitter-mcp.json",
+    "validated": true,
+    "tools": {
+      "post_tweet": {
+        "name": "post_tweet",
+        "description": "Post a new tweet to Twitter"
+      },
+      "search_tweets": {
+        "name": "search_tweets",
+        "description": "Search for tweets on Twitter"
+      }
+    }
   },
   "@modelcontextprotocol/server-slack": {
-    "path": "communication/modelcontextprotocol-server-slack.json"
+    "path": "communication/modelcontextprotocol-server-slack.json",
+    "validated": true,
+    "tools": {
+      "slack_list_channels": {
+        "name": "slack_list_channels",
+        "description": "List public or pre-defined channels in the workspace with pagination"
+      },
+      "slack_post_message": {
+        "name": "slack_post_message",
+        "description": "Post a new message to a Slack channel"
+      },
+      "slack_reply_to_thread": {
+        "name": "slack_reply_to_thread",
+        "description": "Reply to a specific message thread in Slack"
+      },
+      "slack_add_reaction": {
+        "name": "slack_add_reaction",
+        "description": "Add a reaction emoji to a message"
+      },
+      "slack_get_channel_history": {
+        "name": "slack_get_channel_history",
+        "description": "Get recent messages from a channel"
+      },
+      "slack_get_thread_replies": {
+        "name": "slack_get_thread_replies",
+        "description": "Get all replies in a message thread"
+      },
+      "slack_get_users": {
+        "name": "slack_get_users",
+        "description": "Get a list of all users in the workspace with their basic profile information"
+      },
+      "slack_get_user_profile": {
+        "name": "slack_get_user_profile",
+        "description": "Get detailed profile information for a specific user"
+      }
+    }
   },
   "mcp-mongo-server": {
     "path": "databases/mcp-mongo-server.json"
   },
   "airtable-mcp-server": {
-    "path": "databases/airtable-mcp-server.json"
+    "path": "databases/airtable-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "list_records": {
+        "name": "list_records",
+        "description": "List records from a table"
+      },
+      "search_records": {
+        "name": "search_records",
+        "description": "Search for records containing specific text"
+      },
+      "list_bases": {
+        "name": "list_bases",
+        "description": "List all accessible Airtable bases"
+      },
+      "list_tables": {
+        "name": "list_tables",
+        "description": "List all tables in a specific base"
+      },
+      "describe_table": {
+        "name": "describe_table",
+        "description": "Get detailed information about a specific table"
+      },
+      "get_record": {
+        "name": "get_record",
+        "description": "Get a specific record by ID"
+      },
+      "create_record": {
+        "name": "create_record",
+        "description": "Create a new record in a table"
+      },
+      "update_records": {
+        "name": "update_records",
+        "description": "Update up to 10 records in a table"
+      },
+      "delete_records": {
+        "name": "delete_records",
+        "description": "Delete records from a table"
+      },
+      "create_table": {
+        "name": "create_table",
+        "description": "Create a new table in a base"
+      },
+      "update_table": {
+        "name": "update_table",
+        "description": "Update a table's name or description"
+      },
+      "create_field": {
+        "name": "create_field",
+        "description": "Create a new field in a table"
+      },
+      "update_field": {
+        "name": "update_field",
+        "description": "Update a field's name or description"
+      }
+    }
   },
   "@benborla29/mcp-server-mysql": {
     "path": "databases/benborla29-mcp-server-mysql.json"
@@ -78,7 +678,54 @@
     "path": "databases/mcp-server-sqlite.json"
   },
   "@niledatabase/nile-mcp-server": {
-    "path": "databases/niledatabase-nile-mcp-server.json"
+    "path": "databases/niledatabase-nile-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "list-resources": {
+        "name": "list-resources",
+        "description": "Lists all tables and their descriptions in the specified database"
+      },
+      "create-database": {
+        "name": "create-database",
+        "description": "Creates a new Nile database"
+      },
+      "list-databases": {
+        "name": "list-databases",
+        "description": "Lists all databases in the workspace"
+      },
+      "get-database": {
+        "name": "get-database",
+        "description": "Gets details of a specific database"
+      },
+      "delete-database": {
+        "name": "delete-database",
+        "description": "Deletes a database"
+      },
+      "get-connection-string": {
+        "name": "get-connection-string",
+        "description": "Gets a PostgreSQL connection string with fresh credentials"
+      },
+      "execute-sql": {
+        "name": "execute-sql",
+        "description": "Executes a SQL query on a Nile database"
+      },
+      "create-tenant": {
+        "name": "create-tenant",
+        "description": "Creates a new tenant in the specified database"
+      },
+      "delete-tenant": {
+        "name": "delete-tenant",
+        "description": "Deletes a tenant from the specified database"
+      },
+      "list-tenants": {
+        "name": "list-tenants",
+        "description": "Lists all tenants in the specified database"
+      },
+      "read-resource": {
+        "name": "read-resource",
+        "description": "Gets detailed schema information for a specific table"
+      }
+    }
   },
   "mcp-tinybird": {
     "path": "data-platforms/mcp-tinybird.json"
@@ -90,10 +737,36 @@
     "path": "developer-tools/mcp-openapi-schema-explorer.json"
   },
   "@llmindset/mcp-hfspace": {
-    "path": "developer-tools/llmindset-mcp-hfspace.json"
+    "path": "developer-tools/llmindset-mcp-hfspace.json",
+    "validated": true,
+    "tools": {
+      "available-files": {
+        "name": "available-files",
+        "description": "A list of available file and resources. If the User requests things like 'most recent image' or 'the audio' use this tool to identify the intended resource.This tool returns 'resource uri', 'name', 'size', 'last modified'  and 'mime type' in a markdown table"
+      },
+      "search-spaces": {
+        "name": "search-spaces",
+        "description": "Use semantic search to find an endpoint on the `Hugging Face Spaces` service. The search term will usually be 3-7 words describing a task or activity the Person is trying to accomplish. The results are returned in a markdown table. Present all results to the Person. Await specific guidance from the Person before making further Tool calls."
+      },
+      "FLUX_1-schnell-infer": {
+        "name": "FLUX_1-schnell-infer",
+        "description": "Call the FLUX.1-schnell endpoint /infer"
+      }
+    }
   },
   "@mcp-get-community/server-macos": {
-    "path": "developer-tools/mcp-get-community-server-macos.json"
+    "path": "developer-tools/mcp-get-community-server-macos.json",
+    "validated": true,
+    "tools": {
+      "systemInfo": {
+        "name": "systemInfo",
+        "description": "Retrieve system information from macOS using various system commands"
+      },
+      "sendNotification": {
+        "name": "sendNotification",
+        "description": "Send a native macOS notification"
+      }
+    }
   },
   "hackmd-mcp": {
     "path": "developer-tools/hackmd-mcp.json"
@@ -108,7 +781,22 @@
     "path": "developer-tools/awslabs.nova-canvas-mcp-server.json"
   },
   "@mcp-get-community/server-llm-txt": {
-    "path": "developer-tools/mcp-get-community-server-llm-txt.json"
+    "path": "developer-tools/mcp-get-community-server-llm-txt.json",
+    "validated": true,
+    "tools": {
+      "get_llm_txt": {
+        "name": "get_llm_txt",
+        "description": "Fetch an LLM.txt file from a given URL. Format your response in beautiful markdown."
+      },
+      "list_llm_txt": {
+        "name": "list_llm_txt",
+        "description": "List available LLM.txt files from the directory. Use this first before fetching a specific LLM.txt file. Format your response in beautiful markdown."
+      },
+      "search_llm_txt": {
+        "name": "search_llm_txt",
+        "description": "Search for multiple substrings in an LLM.txt file. Requires a valid ID obtained from list_llm_txt command. Returns snippets with page numbers for each match. Format your response in beautiful markdown, using code blocks for snippets."
+      }
+    }
   },
   "mcp-solver": {
     "path": "data-science-tools/mcp-solver.json"
@@ -120,7 +808,46 @@
     "path": "file-systems/modelcontextprotocol-server-filesystem.json"
   },
   "@modelcontextprotocol/server-memory": {
-    "path": "knowledge-memory/modelcontextprotocol-server-memory.json"
+    "path": "knowledge-memory/modelcontextprotocol-server-memory.json",
+    "validated": true,
+    "tools": {
+      "create_entities": {
+        "name": "create_entities",
+        "description": "Create multiple new entities in the knowledge graph"
+      },
+      "create_relations": {
+        "name": "create_relations",
+        "description": "Create multiple new relations between entities in the knowledge graph. Relations should be in active voice"
+      },
+      "add_observations": {
+        "name": "add_observations",
+        "description": "Add new observations to existing entities in the knowledge graph"
+      },
+      "delete_entities": {
+        "name": "delete_entities",
+        "description": "Delete multiple entities and their associated relations from the knowledge graph"
+      },
+      "delete_observations": {
+        "name": "delete_observations",
+        "description": "Delete specific observations from entities in the knowledge graph"
+      },
+      "delete_relations": {
+        "name": "delete_relations",
+        "description": "Delete multiple relations from the knowledge graph"
+      },
+      "read_graph": {
+        "name": "read_graph",
+        "description": "Read the entire knowledge graph"
+      },
+      "search_nodes": {
+        "name": "search_nodes",
+        "description": "Search for nodes in the knowledge graph based on a query"
+      },
+      "open_nodes": {
+        "name": "open_nodes",
+        "description": "Open specific nodes in the knowledge graph by their names"
+      }
+    }
   },
   "mcp-rememberizer-vectordb": {
     "path": "knowledge-memory/mcp-rememberizer-vectordb.json"
@@ -129,37 +856,676 @@
     "path": "knowledge-memory/mcp-server-rememberizer.json"
   },
   "@modelcontextprotocol/server-google-maps": {
-    "path": "location-services/modelcontextprotocol-server-google-maps.json"
+    "path": "location-services/modelcontextprotocol-server-google-maps.json",
+    "validated": true,
+    "tools": {
+      "maps_geocode": {
+        "name": "maps_geocode",
+        "description": "Convert an address into geographic coordinates"
+      },
+      "maps_reverse_geocode": {
+        "name": "maps_reverse_geocode",
+        "description": "Convert coordinates into an address"
+      },
+      "maps_search_places": {
+        "name": "maps_search_places",
+        "description": "Search for places using Google Places API"
+      },
+      "maps_place_details": {
+        "name": "maps_place_details",
+        "description": "Get detailed information about a specific place"
+      },
+      "maps_distance_matrix": {
+        "name": "maps_distance_matrix",
+        "description": "Calculate travel distance and time for multiple origins and destinations"
+      },
+      "maps_elevation": {
+        "name": "maps_elevation",
+        "description": "Get elevation data for locations on the earth"
+      },
+      "maps_directions": {
+        "name": "maps_directions",
+        "description": "Get directions between two points"
+      }
+    }
   },
   "@raygun.io/mcp-server-raygun": {
-    "path": "monitoring/raygun.io-mcp-server-raygun.json"
+    "path": "monitoring/raygun.io-mcp-server-raygun.json",
+    "validated": true,
+    "tools": {
+      "list_applications": {
+        "name": "list_applications",
+        "description": "List all applications under the users account on Raygun"
+      },
+      "get_application": {
+        "name": "get_application",
+        "description": "Get application by identifier"
+      },
+      "get_application_by_api_key": {
+        "name": "get_application_by_api_key",
+        "description": "Get application by API key"
+      },
+      "regenerate_application_api_key": {
+        "name": "regenerate_application_api_key",
+        "description": "Regenerate application API key"
+      },
+      "list_customers": {
+        "name": "list_customers",
+        "description": "List customers for an application"
+      },
+      "list_deployments": {
+        "name": "list_deployments",
+        "description": "List deployments for an application"
+      },
+      "get_deployment": {
+        "name": "get_deployment",
+        "description": "Get deployment by identifier"
+      },
+      "delete_deployment": {
+        "name": "delete_deployment",
+        "description": "Delete deployment"
+      },
+      "update_deployment": {
+        "name": "update_deployment",
+        "description": "Update deployment details"
+      },
+      "reprocess_deployment_commits": {
+        "name": "reprocess_deployment_commits",
+        "description": "Reprocess deployment commits"
+      },
+      "list_error_groups": {
+        "name": "list_error_groups",
+        "description": "List error groups for an application"
+      },
+      "get_error_group": {
+        "name": "get_error_group",
+        "description": "Get error group by identifier"
+      },
+      "resolve_error_group": {
+        "name": "resolve_error_group",
+        "description": "Set the status of the error group to resolved"
+      },
+      "activate_error_group": {
+        "name": "activate_error_group",
+        "description": "Set the status of the error group to active"
+      },
+      "ignore_error_group": {
+        "name": "ignore_error_group",
+        "description": "Set the status of the error group to ignored"
+      },
+      "permanently_ignore_error_group": {
+        "name": "permanently_ignore_error_group",
+        "description": "Set the status of the error group to permanently ignored"
+      },
+      "list_pages": {
+        "name": "list_pages",
+        "description": "List pages for an application"
+      },
+      "get_page_metrics_time_series": {
+        "name": "get_page_metrics_time_series",
+        "description": "Get time-series metrics for pages"
+      },
+      "get_page_metrics_histogram": {
+        "name": "get_page_metrics_histogram",
+        "description": "Get histogram metrics for pages"
+      },
+      "get_error_metrics_time_series": {
+        "name": "get_error_metrics_time_series",
+        "description": "Get time-series metrics for errors"
+      },
+      "list_sessions": {
+        "name": "list_sessions",
+        "description": "List sessions for an application"
+      },
+      "get_session": {
+        "name": "get_session",
+        "description": "Get session by identifier"
+      },
+      "list_invitations": {
+        "name": "list_invitations",
+        "description": "Returns a list invitations that the token and token owner has access to"
+      },
+      "send_invitation": {
+        "name": "send_invitation",
+        "description": "Send an invitation to a user"
+      },
+      "get_invitation": {
+        "name": "get_invitation",
+        "description": "Get an invitation by identifier"
+      },
+      "revoke_invitation": {
+        "name": "revoke_invitation",
+        "description": "Revoke a sent invitation"
+      },
+      "list_source_maps": {
+        "name": "list_source_maps",
+        "description": "Returns a list of source maps for the specified application"
+      },
+      "get_source_map": {
+        "name": "get_source_map",
+        "description": "Returns a single source map by identifier"
+      },
+      "update_source_map": {
+        "name": "update_source_map",
+        "description": "Update the details of a source map"
+      },
+      "delete_source_map": {
+        "name": "delete_source_map",
+        "description": "Delete a source map"
+      },
+      "upload_source_map": {
+        "name": "upload_source_map",
+        "description": "Uploads a source map to the specified application"
+      },
+      "delete_all_source_maps": {
+        "name": "delete_all_source_maps",
+        "description": "Deletes all source maps"
+      }
+    }
   },
   "mcp-server-sentry": {
     "path": "monitoring/mcp-server-sentry.json"
   },
   "@modelcontextprotocol/server-brave-search": {
-    "path": "search-data-extraction/modelcontextprotocol-server-brave-search.json"
+    "path": "search-data-extraction/modelcontextprotocol-server-brave-search.json",
+    "validated": true,
+    "tools": {
+      "brave_web_search": {
+        "name": "brave_web_search",
+        "description": "Performs a web search using the Brave Search API, ideal for general queries, news, articles, and online content. Use this for broad information gathering, recent events, or when you need diverse web sources. Supports pagination, content filtering, and freshness controls. Maximum 20 results per request, with offset for pagination. "
+      },
+      "brave_local_search": {
+        "name": "brave_local_search",
+        "description": "Searches for local businesses and places using Brave's Local Search API. Best for queries related to physical locations, businesses, restaurants, services, etc. Returns detailed information including:\n- Business names and addresses\n- Ratings and review counts\n- Phone numbers and opening hours\nUse this when the query implies 'near me' or mentions specific locations. Automatically falls back to web search if no local results are found."
+      }
+    }
   },
   "anilist-mcp": {
-    "path": "search-data-extraction/anilist-mcp.json"
+    "path": "search-data-extraction/anilist-mcp.json",
+    "validated": true,
+    "tools": {
+      "favourite_studio": {
+        "name": "favourite_studio",
+        "description": "[Requires Login] Favourite or unfavourite a studio by its ID"
+      },
+      "get_genres": {
+        "name": "get_genres",
+        "description": "Get all available genres on AniList"
+      },
+      "get_media_tags": {
+        "name": "get_media_tags",
+        "description": "Get all available media tags on AniList"
+      },
+      "get_site_statistics": {
+        "name": "get_site_statistics",
+        "description": "Get AniList site statistics over the last seven days"
+      },
+      "get_studio": {
+        "name": "get_studio",
+        "description": "Get information about a studio by its AniList ID or name"
+      },
+      "delete_activity": {
+        "name": "delete_activity",
+        "description": "[Requires Login] Delete the current authorized user's activity post"
+      },
+      "get_activity": {
+        "name": "get_activity",
+        "description": "Get a specific AniList activity by its ID"
+      },
+      "get_user_activity": {
+        "name": "get_user_activity",
+        "description": "Fetch activities from a user"
+      },
+      "post_message_activity": {
+        "name": "post_message_activity",
+        "description": "[Requires Login] Post a new message activity or update an existing one"
+      },
+      "post_text_activity": {
+        "name": "post_text_activity",
+        "description": "[Requires Login] Post a new text activity or update an existing one"
+      },
+      "add_list_entry": {
+        "name": "add_list_entry",
+        "description": "[Requires Login] Add an entry to the authorized user's list"
+      },
+      "get_user_anime_list": {
+        "name": "get_user_anime_list",
+        "description": "Get a user's anime list"
+      },
+      "get_user_manga_list": {
+        "name": "get_user_manga_list",
+        "description": "Get a user's manga list"
+      },
+      "remove_list_entry": {
+        "name": "remove_list_entry",
+        "description": "[Requires Login] Remove an entry from the authorized user's list"
+      },
+      "update_list_entry": {
+        "name": "update_list_entry",
+        "description": "[Requires Login] Update an entry on the authorized user's list"
+      },
+      "get_anime": {
+        "name": "get_anime",
+        "description": "Get detailed information about an anime by its AniList ID"
+      },
+      "favourite_anime": {
+        "name": "favourite_anime",
+        "description": "[Requires Login] Favourite or unfavourite an anime by its ID"
+      },
+      "favourite_manga": {
+        "name": "favourite_manga",
+        "description": "[Requires Login] Favourite or unfavourite a manga by its ID"
+      },
+      "get_manga": {
+        "name": "get_manga",
+        "description": "Get detailed information about a manga by its AniList ID"
+      },
+      "get_character": {
+        "name": "get_character",
+        "description": "Get information about a character by their AniList ID or name"
+      },
+      "favourite_character": {
+        "name": "favourite_character",
+        "description": "[Requires Login] Favourite or unfavourite a character by its ID"
+      },
+      "favourite_staff": {
+        "name": "favourite_staff",
+        "description": "[Requires Login] Favourite or unfavourite a staff member by their ID"
+      },
+      "get_todays_birthday_characters": {
+        "name": "get_todays_birthday_characters",
+        "description": "Get all characters whose birthday is today"
+      },
+      "get_todays_birthday_staff": {
+        "name": "get_todays_birthday_staff",
+        "description": "Get all staff members whose birthday is today"
+      },
+      "get_staff": {
+        "name": "get_staff",
+        "description": "Get information about staff member by their AniList ID or name"
+      },
+      "get_recommendation": {
+        "name": "get_recommendation",
+        "description": "Get an AniList recommendation by its ID"
+      },
+      "get_recommendations_for_media": {
+        "name": "get_recommendations_for_media",
+        "description": "Get AniList recommendations for a specific media"
+      },
+      "search_activity": {
+        "name": "search_activity",
+        "description": "Search for activities on AniList"
+      },
+      "search_anime": {
+        "name": "search_anime",
+        "description": "Search for anime with query term and filters"
+      },
+      "search_character": {
+        "name": "search_character",
+        "description": "Search for characters based on a query term"
+      },
+      "search_manga": {
+        "name": "search_manga",
+        "description": "Search for manga with query term and filters"
+      },
+      "search_staff": {
+        "name": "search_staff",
+        "description": "Search for staff members based on a query term"
+      },
+      "search_studio": {
+        "name": "search_studio",
+        "description": "Search for studios based on a query term"
+      },
+      "search_user": {
+        "name": "search_user",
+        "description": "Search for users on AniList"
+      },
+      "delete_thread": {
+        "name": "delete_thread",
+        "description": "[Requires Login] Delete a thread by its ID"
+      },
+      "get_thread": {
+        "name": "get_thread",
+        "description": "Get a specific thread by its AniList ID"
+      },
+      "get_thread_comments": {
+        "name": "get_thread_comments",
+        "description": "Get comments for a specific thread"
+      },
+      "get_full_user_info": {
+        "name": "get_full_user_info",
+        "description": "Get a user's complete profile and stats information"
+      },
+      "follow_user": {
+        "name": "follow_user",
+        "description": "[Requires Login] Follow or unfollow a user by their ID"
+      },
+      "get_authorized_user": {
+        "name": "get_authorized_user",
+        "description": "[Requires Login] Get profile information of the currently authorized user"
+      },
+      "get_user_recent_activity": {
+        "name": "get_user_recent_activity",
+        "description": "Get recent activity from a user"
+      },
+      "get_user_profile": {
+        "name": "get_user_profile",
+        "description": "Get a user's AniList profile"
+      },
+      "get_user_stats": {
+        "name": "get_user_stats",
+        "description": "Get a user's AniList statistics"
+      },
+      "update_user": {
+        "name": "update_user",
+        "description": "[Requires Login] Update user settings"
+      }
+    }
   },
   "@chanmeng666/google-news-server": {
-    "path": "search-data-extraction/chanmeng666-google-news-server.json"
+    "path": "search-data-extraction/chanmeng666-google-news-server.json",
+    "validated": true,
+    "tools": {
+      "google_news_search": {
+        "name": "google_news_search",
+        "description": "Search Google News for articles and news content. Results will be automatically categorized by topic."
+      }
+    }
   },
   "graphlit-mcp-server": {
-    "path": "search-data-extraction/graphlit-mcp-server.json"
+    "path": "search-data-extraction/graphlit-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "configureProject": {
+        "name": "configureProject",
+        "description": "Configures the default content workflow and conversation specification for the Graphlit project.\n    Only needed if user asks to configure the project defaults. *Do not* call unless specifically asked for by the user.\n    To reset the project configuration to 'factory state', assign False or null to all parameters.\n    Optionally accepts whether to configure the default specification for LLM conversations. Defaults to using OpenAI GPT-4o, if not assigned.\n    Optionally accepts whether to enable high-quality document and web page preparation using a vision LLM. Defaults to using Azure AI Document Intelligence for document preparation, if not assigned.\n    Optionally accepts whether to enable entity extraction using LLM into the knowledge graph. Defaults to no entity extraction, if not assigned.\n    Optionally accepts the preferred model provider service type, i.e. Anthropic, OpenAI, Google. Defaults to Anthropic if not provided.\n    Returns the project identifier."
+      },
+      "queryProjectUsage": {
+        "name": "queryProjectUsage",
+        "description": "Queries project usage records.\n    Usage record name describes the operation, i.e. 'Prompt completion', 'Text embedding', 'GraphQL', 'Entity Event'.\n    'GraphQL' usage records are used for GraphQL operations, i.e. 'queryContents', 'retrieveSources', 'askGraphlit', etc.\n    'Entity Event' usage records are used for async compute operations.\n    'Text embedding' usage records are used for text embedding operations.\n    'Prompt completion' usage records are used for LLM prompt completion operations, i.e. when using 'promptConversation'.\n    'Data extraction' usage records are used for data extraction operations, using LLMs to extract knowledge graph entities.\n    Look at 'metric' field for the type of metric captured in the usage record, i.e. BYTES, TOKENS, UNITS, REQUESTS.\n    Look for 'credits' field which describes how many credits were charged by the operation.\n    Look for 'promptTokens', 'completionTokens' and (total) 'tokens' fields which describe the number of tokens used by the operation.\n    Look for 'request', 'response' and 'variables' fields which describe the GraphQL operation.\n    Look for 'count' for the number of units used by the operation, for example, number of pages processed by document preparation.\n    Accepts an optional recency filter for usage records 'in last' timespan.\n    Returns a list of usage records, which describe the billable audit log of all Graphlit API operations."
+      },
+      "askGraphlit": {
+        "name": "askGraphlit",
+        "description": "Ask questions about using the Graphlit Platform, or specifically about the Graphlit API or SDKs.\n    When the user asks about how to use the Graphlit API or SDKs, use this tool to provide a code sample in Python, TypeScript or C#.\n    Accepts an LLM user prompt.\n    Returns the LLM prompt completion in Markdown format."
+      },
+      "promptConversation": {
+        "name": "promptConversation",
+        "description": "Prompts an LLM conversation about your entire Graphlit knowledge base. \n    Uses hybrid vector search based on user prompt for locating relevant content sources. Uses LLM to complete the user prompt with the configured LLM.\n    Maintains conversation history between 'user' and LLM 'assistant'. \n    Prefer 'promptConversation' when the user intends to start or continue an ongoing conversation about the entire Graphlit knowledge base.\n    Similar to 'retrieveSources' but does not perform content metadata filtering.\n    Accepts an LLM user prompt and optional conversation identifier. Will either create a new conversation or continue an existing one.\n    Will use the default specification for LLM conversations, which is optionally configured with the 'configureProject' tool.\n    Returns the conversation identifier, completed LLM message, and any citations from the LLM response."
+      },
+      "retrieveSources": {
+        "name": "retrieveSources",
+        "description": "Retrieve relevant content sources from Graphlit knowledge base. Do *not* use for retrieving content by content identifier - retrieve content resource instead, with URI 'contents://{id}'.\n    Accepts an LLM user prompt for content retrieval. For best retrieval quality, provide only key words or phrases from the user prompt, which will be used to create text embeddings for a vector search query.\n    Only use when there is a valid LLM user prompt for content retrieval, otherwise use 'queryContents'. For example 'recent content' is not a useful user prompt, since it doesn't reference the text in the content.\n    Only use for 'one shot' retrieval of content sources, i.e. when the user is not interested in having a conversation about the content.\n    Accepts an optional ingestion recency filter (defaults to null, meaning all time), and optional content type and file type filters.\n    Also accepts optional feed and collection identifiers to filter content by.\n    Returns the ranked content sources, including their content resource URI to retrieve the complete Markdown text."
+      },
+      "retrieveImages": {
+        "name": "retrieveImages",
+        "description": "Retrieve images from Graphlit knowledge base. Provides image-specific retrieval when image similarity search is desired.\n    Do *not* use for retrieving content by content identifier - retrieve content resource instead, with URI 'contents://{id}'.\n    Accepts image URL. Image will be used for similarity search using image embeddings.\n    Accepts optional geo-location filter for search by latitude, longitude and optional distance radius. Images taken with GPS enabled are searchable by geo-location.\n    Also accepts optional recency filter (defaults to null, meaning all time), and optional feed and collection identifiers to filter images by.\n    Returns the matching images, including their content resource URI to retrieve the complete Markdown text."
+      },
+      "extractText": {
+        "name": "extractText",
+        "description": "Extracts JSON data from text using LLM.\n    Accepts text to be extracted, and JSON schema which describes the data which will be extracted. JSON schema needs be of type 'object' and include 'properties' and 'required' fields.\n    Optionally accepts text prompt which is provided to LLM to guide data extraction. Defaults to 'Extract data using the tools provided'.\n    Returns extracted JSON from text."
+      },
+      "createCollection": {
+        "name": "createCollection",
+        "description": "Create a collection.\n    Accepts a collection name, and optional list of content identifiers to add to collection.\n    Returns the collection identifier"
+      },
+      "addContentsToCollection": {
+        "name": "addContentsToCollection",
+        "description": "Add contents to a collection.\n    Accepts a collection identifier and a list of content identifiers to add to collection.\n    Returns the collection identifier."
+      },
+      "removeContentsFromCollection": {
+        "name": "removeContentsFromCollection",
+        "description": "Remove contents from collection.\n    Accepts a collection identifier and a list of content identifiers to remove from collection.\n    Returns the collection identifier."
+      },
+      "deleteContent": {
+        "name": "deleteContent",
+        "description": "Deletes content from Graphlit knowledge base.\n    Accepts content identifier.\n    Returns the content identifier and content state, i.e. Deleted."
+      },
+      "deleteConversation": {
+        "name": "deleteConversation",
+        "description": "Deletes conversation from Graphlit knowledge base.\n    Accepts conversation identifier.\n    Returns the conversation identifier and content state, i.e. Deleted."
+      },
+      "deleteCollection": {
+        "name": "deleteCollection",
+        "description": "Deletes collection from Graphlit knowledge base.\n    Does *not* delete the contents in the collection, only the collection itself.\n    Accepts collection identifier.\n    Returns the collection identifier and collection state, i.e. Deleted."
+      },
+      "deleteFeed": {
+        "name": "deleteFeed",
+        "description": "Deletes feed from Graphlit knowledge base.\n    *Does* delete the contents in the feed, in addition to the feed itself.\n    Accepts feed identifier.\n    Returns the feed identifier and feed state, i.e. Deleted."
+      },
+      "deleteFeeds": {
+        "name": "deleteFeeds",
+        "description": "Deletes feeds from Graphlit knowledge base.\n    *Does* delete the contents in the feed, in addition to the feed itself.\n    Accepts optional feed type filter to limit the feeds which will be deleted.\n    Also accepts optional limit of how many feeds to delete, defaults to 100.\n    Returns the feed identifiers and feed state, i.e. Deleted."
+      },
+      "deleteCollections": {
+        "name": "deleteCollections",
+        "description": "Deletes collections from Graphlit knowledge base.\n    Does *not* delete the contents in the collections, only the collections themselves.\n    Accepts optional limit of how many collections to delete, defaults to 100.\n    Returns the collection identifiers and collection state, i.e. Deleted."
+      },
+      "deleteConversations": {
+        "name": "deleteConversations",
+        "description": "Deletes conversations from Graphlit knowledge base.\n    Accepts optional limit of how many conversations to delete, defaults to 100.\n    Returns the conversation identifiers and conversation state, i.e. Deleted."
+      },
+      "deleteContents": {
+        "name": "deleteContents",
+        "description": "Deletes contents from Graphlit knowledge base.\n    Accepts optional content type and file type filters to limit the contents which will be deleted.\n    Also accepts optional limit of how many contents to delete, defaults to 1000.\n    Returns the content identifiers and content state, i.e. Deleted."
+      },
+      "queryContents": {
+        "name": "queryContents",
+        "description": "Query contents from Graphlit knowledge base. Do *not* use for retrieving content by content identifier - retrieve content resource instead, with URI 'contents://{id}'.\n    Accepts optional content name, content type and file type for metadata filtering.\n    Accepts optional hybrid vector search query.\n    Accepts optional recency filter (defaults to null, meaning all time), and optional feed and collection identifiers to filter images by.\n    Accepts optional geo-location filter for search by latitude, longitude and optional distance radius. Images and videos taken with GPS enabled are searchable by geo-location.\n    Returns the matching contents, including their content resource URI to retrieve the complete Markdown text."
+      },
+      "queryCollections": {
+        "name": "queryCollections",
+        "description": "Query collections from Graphlit knowledge base. Do *not* use for retrieving collection by collection identifier - retrieve collection resource instead, with URI 'collections://{id}'.\n    Accepts optional collection name for metadata filtering.\n    Returns the matching collections, including their collection resource URI to retrieve the collection contents."
+      },
+      "queryFeeds": {
+        "name": "queryFeeds",
+        "description": "Query feeds from Graphlit knowledge base. Do *not* use for retrieving feed by feed identifier - retrieve feed resource instead, with URI 'feeds://{id}'.\n    Accepts optional feed name and feed type for metadata filtering.\n    Returns the matching feeds, including their feed resource URI to retrieve the feed contents."
+      },
+      "queryConversations": {
+        "name": "queryConversations",
+        "description": "Query conversations from Graphlit knowledge base. Do *not* use for retrieving conversation by conversation identifier - retrieve conversation resource instead, with URI 'conversations://{id}'.\n    Accepts optional hybrid vector search query.\n    Accepts optional recency filter (defaults to null, meaning all time).\n    Returns the matching conversations, including their conversation resource URI to retrieve the complete conversation message history."
+      },
+      "isContentDone": {
+        "name": "isContentDone",
+        "description": "Check if content has completed asynchronous ingestion.\n    Accepts a content identifier which was returned from one of the non-feed ingestion tools, like ingestUrl.\n    Returns whether the content is done or not."
+      },
+      "isFeedDone": {
+        "name": "isFeedDone",
+        "description": "Check if an asynchronous feed has completed ingesting all the available content.\n    Accepts a feed identifier which was returned from one of the ingestion tools, like ingestGoogleDriveFiles.\n    Returns whether the feed is done or not."
+      },
+      "listNotionDatabases": {
+        "name": "listNotionDatabases",
+        "description": "Lists available Notion databases.\n    Requires environment variable to be configured: NOTION_API_KEY.\n    Returns a list of Notion databases, where the database identifier can be used with ingestNotionPages to ingest pages into Graphlit knowledge base."
+      },
+      "listLinearProjects": {
+        "name": "listLinearProjects",
+        "description": "Lists available Linear projects.\n    Requires environment variable to be configured: LINEAR_API_KEY.\n    Returns a list of Linear projects, where the project name can be used with ingestLinearIssues to ingest issues into Graphlit knowledge base."
+      },
+      "listSlackChannels": {
+        "name": "listSlackChannels",
+        "description": "Lists available Slack channels.\n    Requires environment variable to be configured: SLACK_BOT_TOKEN.\n    Returns a list of Slack channels, where the channel name can be used with ingestSlackMessages to ingest messages into Graphlit knowledge base."
+      },
+      "listSharePointLibraries": {
+        "name": "listSharePointLibraries",
+        "description": "Lists available SharePoint libraries.\n    Requires environment variables to be configured: SHAREPOINT_CLIENT_ID, SHAREPOINT_CLIENT_SECRET, SHAREPOINT_REFRESH_TOKEN.\n    Returns a list of SharePoint libraries, where the selected libraryId can be used with listSharePointFolders to enumerate SharePoint folders in a library."
+      },
+      "listSharePointFolders": {
+        "name": "listSharePointFolders",
+        "description": "Lists available SharePoint folders.\n    Requires environment variables to be configured: SHAREPOINT_CLIENT_ID, SHAREPOINT_CLIENT_SECRET, SHAREPOINT_REFRESH_TOKEN.\n    Returns a list of SharePoint folders, which can be used with ingestSharePointFiles to ingest files into Graphlit knowledge base."
+      },
+      "ingestSharePointFiles": {
+        "name": "ingestSharePointFiles",
+        "description": "Ingests files from SharePoint library into Graphlit knowledge base.\n    Accepts a SharePoint libraryId and an optional folderId to ingest files from a specific SharePoint folder.\n    Libraries can be enumerated with listSharePointLibraries and library folders with listSharePointFolders.\n    Requires environment variables to be configured: SHAREPOINT_ACCOUNT_NAME, SHAREPOINT_CLIENT_ID, SHAREPOINT_CLIENT_SECRET, SHAREPOINT_REFRESH_TOKEN.\n    Accepts an optional read limit for the number of files to ingest.\n    Executes asynchronously, creates SharePoint feed, and returns the feed identifier."
+      },
+      "ingestOneDriveFiles": {
+        "name": "ingestOneDriveFiles",
+        "description": "Ingests files from OneDrive into Graphlit knowledge base.\n    Accepts optional OneDrive folder identifier, and an optional read limit for the number of files to ingest.\n    If no folder identifier provided, ingests files from root OneDrive folder.\n    Requires environment variables to be configured: ONEDRIVE_CLIENT_ID, ONEDRIVE_CLIENT_SECRET, ONEDRIVE_REFRESH_TOKEN.\n    Executes asynchronously, creates OneDrive feed, and returns the feed identifier."
+      },
+      "ingestGoogleDriveFiles": {
+        "name": "ingestGoogleDriveFiles",
+        "description": "Ingests files from Google Drive into Graphlit knowledge base.\n    Accepts optional Google Drive folder identifier, and an optional read limit for the number of files to ingest.\n    For example, with Google Drive URI (https://drive.google.com/drive/u/0/folders/32tzhRD12KDh2hXABY8OZRFv7Smy8WBkQ), the folder identifier is 32tzhRD12KDh2hXABY8OZRFv7Smy8WBkQ.\n    If no folder identifier provided, ingests files from root Google Drive folder.\n    Requires environment variables to be configured: GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON -or- GOOGLE_DRIVE_CLIENT_ID, GOOGLE_DRIVE_CLIENT_SECRET, GOOGLE_DRIVE_REFRESH_TOKEN.\n    If service account JSON is provided, uses service account authentication. Else, uses user authentication.\n    Executes asynchronously, creates Google Drive feed, and returns the feed identifier."
+      },
+      "ingestDropboxFiles": {
+        "name": "ingestDropboxFiles",
+        "description": "Ingests files from Dropbox into Graphlit knowledge base.\n    Accepts optional relative path to Dropbox folder (i.e. /Pictures), and an optional read limit for the number of files to ingest.\n    If no path provided, ingests files from root Dropbox folder.\n    Requires environment variables to be configured: DROPBOX_APP_KEY, DROPBOX_APP_SECRET, DROPBOX_REDIRECT_URI, DROPBOX_REFRESH_TOKEN.\n    Executes asynchronously, creates Dropbox feed, and returns the feed identifier."
+      },
+      "ingestBoxFiles": {
+        "name": "ingestBoxFiles",
+        "description": "Ingests files from Box into Graphlit knowledge base.\n    Accepts optional Box folder identifier, and an optional read limit for the number of files to ingest.\n    If no folder identifier provided, ingests files from root Box folder (i.e. \"0\").\n    Folder identifier can be inferred from Box URL. https://app.box.com/folder/123456 -> folder identifier is \"123456\".\n    Requires environment variables to be configured: BOX_CLIENT_ID, BOX_CLIENT_SECRET, BOX_REDIRECT_URI, BOX_REFRESH_TOKEN.\n    Executes asynchronously, creates Box feed, and returns the feed identifier."
+      },
+      "ingestGitHubFiles": {
+        "name": "ingestGitHubFiles",
+        "description": "Ingests files from GitHub repository into Graphlit knowledge base.\n    Accepts GitHub repository owner and repository name and an optional read limit for the number of files to ingest.\n    For example, for GitHub repository (https://github.com/openai/tiktoken), 'openai' is the repository owner, and 'tiktoken' is the repository name.\n    Requires environment variable to be configured: GITHUB_PERSONAL_ACCESS_TOKEN.\n    Executes asynchronously, creates GitHub feed, and returns the feed identifier."
+      },
+      "ingestNotionPages": {
+        "name": "ingestNotionPages",
+        "description": "Ingests pages from Notion database into Graphlit knowledge base.\n    Accepts Notion database identifier and an optional read limit for the number of pages to ingest.\n    You can list the available Notion database identifiers with listNotionDatabases.\n    Or, for a Notion URL, https://www.notion.so/Example/Engineering-Wiki-114abc10cb38487e91ec906fc6c6f350, 'Engineering-Wiki-114abc10cb38487e91ec906fc6c6f350' is an example of a Notion database identifier.\n    Requires environment variable to be configured: NOTION_API_KEY.\n    Executes asynchronously, creates Notion feed, and returns the feed identifier."
+      },
+      "ingestMicrosoftTeamsMessages": {
+        "name": "ingestMicrosoftTeamsMessages",
+        "description": "Ingests messages from Microsoft Teams channel into Graphlit knowledge base.\n    Accepts Microsoft Teams team identifier and channel identifier, and an optional read limit for the number of messages to ingest.\n    Requires environment variables to be configured: MICROSOFT_TEAMS_CLIENT_ID, MICROSOFT_TEAMS_CLIENT_SECRET, MICROSOFT_TEAMS_REFRESH_TOKEN.\n    Executes asynchronously, creates Microsoft Teams feed, and returns the feed identifier."
+      },
+      "ingestSlackMessages": {
+        "name": "ingestSlackMessages",
+        "description": "Ingests messages from Slack channel into Graphlit knowledge base.\n    Accepts Slack channel name and an optional read limit for the number of messages to ingest.\n    Requires environment variable to be configured: SLACK_BOT_TOKEN.\n    Executes asynchronously, creates Slack feed, and returns the feed identifier."
+      },
+      "ingestDiscordMessages": {
+        "name": "ingestDiscordMessages",
+        "description": "Ingests messages from Discord channel into Graphlit knowledge base.\n    Accepts Discord channel name and an optional read limit for the number of messages to ingest.\n    Requires environment variable to be configured: DISCORD_BOT_TOKEN.\n    Executes asynchronously, creates Discord feed, and returns the feed identifier."
+      },
+      "ingestTwitterPosts": {
+        "name": "ingestTwitterPosts",
+        "description": "Ingests posts by user from Twitter/X into Graphlit knowledge base.\n    Accepts Twitter/X user name, without the leading @ symbol, and an optional read limit for the number of posts to ingest.\n    Requires environment variable to be configured: TWITTER_TOKEN.\n    Executes asynchronously, creates Twitter feed, and returns the feed identifier."
+      },
+      "ingestTwitterSearch": {
+        "name": "ingestTwitterSearch",
+        "description": "Searches for recent posts from Twitter/X, and ingests them into Graphlit knowledge base.\n    Accepts search query, and an optional read limit for the number of posts to ingest.\n    Requires environment variable to be configured: TWITTER_TOKEN.\n    Executes asynchronously, creates Twitter feed, and returns the feed identifier."
+      },
+      "ingestRedditPosts": {
+        "name": "ingestRedditPosts",
+        "description": "Ingests posts from Reddit subreddit into Graphlit knowledge base.\n    Accepts a subreddit name and an optional read limit for the number of posts to ingest.\n    Executes asynchronously, creates Reddit feed, and returns the feed identifier."
+      },
+      "ingestGoogleEmail": {
+        "name": "ingestGoogleEmail",
+        "description": "Ingests emails from Google Email account into Graphlit knowledge base.\n    Accepts an optional read limit for the number of emails to ingest.\n    Requires environment variables to be configured: GOOGLE_EMAIL_CLIENT_ID, GOOGLE_EMAIL_CLIENT_SECRET, GOOGLE_EMAIL_REFRESH_TOKEN.\n    Executes asynchronously, creates Google Email feed, and returns the feed identifier."
+      },
+      "ingestMicrosoftEmail": {
+        "name": "ingestMicrosoftEmail",
+        "description": "Ingests emails from Microsoft Email account into Graphlit knowledge base.\n    Accepts an optional read limit for the number of emails to ingest.\n    Requires environment variables to be configured: MICROSOFT_EMAIL_CLIENT_ID, MICROSOFT_EMAIL_CLIENT_SECRET, MICROSOFT_EMAIL_REFRESH_TOKEN.\n    Executes asynchronously, creates Microsoft Email feed, and returns the feed identifier."
+      },
+      "ingestLinearIssues": {
+        "name": "ingestLinearIssues",
+        "description": "Ingests issues from Linear project into Graphlit knowledge base.\n    Accepts Linear project name and an optional read limit for the number of issues to ingest.\n    Requires environment variable to be configured: LINEAR_API_KEY.\n    Executes asynchronously, creates Linear issue feed, and returns the feed identifier."
+      },
+      "ingestGitHubIssues": {
+        "name": "ingestGitHubIssues",
+        "description": "Ingests issues from GitHub repository into Graphlit knowledge base.\n    Accepts GitHub repository owner and repository name and an optional read limit for the number of issues to ingest.\n    For example, for GitHub repository (https://github.com/openai/tiktoken), 'openai' is the repository owner, and 'tiktoken' is the repository name.\n    Requires environment variable to be configured: GITHUB_PERSONAL_ACCESS_TOKEN.\n    Executes asynchronously, creates GitHub issue feed, and returns the feed identifier."
+      },
+      "ingestJiraIssues": {
+        "name": "ingestJiraIssues",
+        "description": "Ingests issues from Atlassian Jira repository into Graphlit knowledge base.\n    Accepts Atlassian Jira server URL and project name, and an optional read limit for the number of issues to ingest.\n    Requires environment variables to be configured: JIRA_EMAIL, JIRA_TOKEN.\n    Executes asynchronously, creates Atlassian Jira issue feed, and returns the feed identifier."
+      },
+      "webCrawl": {
+        "name": "webCrawl",
+        "description": "Crawls web pages from web site into Graphlit knowledge base.\n    Accepts a URL and an optional read limit for the number of pages to crawl.\n    Uses sitemap.xml to discover pages to be crawled from website.\n    Executes asynchronously and returns the feed identifier."
+      },
+      "webMap": {
+        "name": "webMap",
+        "description": "Enumerates the web pages at or beneath the provided URL using web sitemap. \n    Does *not* ingest web pages into Graphlit knowledge base.\n    Accepts web site URL as string.\n    Returns list of mapped URIs from web site."
+      },
+      "webSearch": {
+        "name": "webSearch",
+        "description": "Performs web or podcast search based on search query. Can search for web pages or anything about podcasts (i.e. episodes, topics, guest appearances). \n    Format the search query as what would be entered into a Google search. You can use site filtering in the search query, like 'site:twitter.com'.    \n    Accepts search query as string, and optional search service type.    \n    Prefer calling this tool over using 'curl' directly for any web search.\n    Use 'PODSCAN' search service type to search podcasts.\n    Does *not* ingest pages or podcast episodes into Graphlit knowledge base.  \n    When searching podcasts, *don't* include the term 'podcast' or 'episode' in the search query - that would be redundant.\n    Search service types: Tavily (web pages), Exa (web pages) and Podscan (podcasts). Defaults to Exa.\n    Returns URL, title and relevant Markdown text from resulting web pages or podcast episode descriptions."
+      },
+      "ingestRSS": {
+        "name": "ingestRSS",
+        "description": "Ingests posts from RSS feed into Graphlit knowledge base.\n    For podcast RSS feeds, audio will be downloaded, transcribed and ingested into Graphlit knowledge base.\n    Accepts RSS URL and an optional read limit for the number of posts to read.\n    Executes asynchronously and returns the feed identifier."
+      },
+      "ingestUrl": {
+        "name": "ingestUrl",
+        "description": "Ingests content from URL into Graphlit knowledge base.\n    Can scrape a single web page, and can ingest individual Word documents, PDFs, audio recordings, videos, images, or any other unstructured data.\n    Do *not* use for crawling a web site, which is done with 'webCrawl' tool.\n    Executes asynchronously and returns the content identifier."
+      },
+      "ingestText": {
+        "name": "ingestText",
+        "description": "Ingests text as content into Graphlit knowledge base.\n    Accepts the text itself, and an optional text type (Plain, Markdown, Html). Defaults to Markdown text type.\n    Optionally accepts the content name and an identifier for an existing content object. Will overwrite existing content, if provided.\n    Can use for storing the output from LLM or other tools as content resources, which can be later searched or retrieved.\n    Executes *synchronously* and returns the content identifier."
+      },
+      "ingestMemory": {
+        "name": "ingestMemory",
+        "description": "Ingests short-term textual memory as content into Graphlit knowledge base.\n    Accepts an optional text type (Plain, Markdown, Html). Defaults to Markdown text type. Optionally accepts the content name.\n    Will automatically be entity extracted into a knowledge graph.\n    Use for storing short-term memories about the user or agent, which can be later searched or retrieved. Memories are transient and will be deleted after a period of time.\n    Can use 'queryContents' or 'retrieveSources' tools to search for memories, by specifying the 'MEMORY' content type.\n    Executes asynchronously and returns the content identifier."
+      },
+      "ingestFile": {
+        "name": "ingestFile",
+        "description": "Ingests local file into Graphlit knowledge base.\n    Accepts the path to the file in the local filesystem.\n    Can use for storing *large* long-term textual memories or the output from LLM or other tools as content resources, which can be later searched or retrieved.\n    Executes asynchronously and returns the content identifier."
+      },
+      "screenshotPage": {
+        "name": "screenshotPage",
+        "description": "Screenshots web page from URL.\n    Executes *synchronously* and returns the content identifier."
+      },
+      "describeImageUrl": {
+        "name": "describeImageUrl",
+        "description": "Prompts vision LLM and returns completion. \n    Does *not* ingest image into Graphlit knowledge base.\n    Accepts image URL as string.\n    Returns Markdown text from LLM completion."
+      },
+      "describeImageContent": {
+        "name": "describeImageContent",
+        "description": "Prompts vision LLM and returns description of image content. \n    Accepts content identifier as string, and optional prompt for image description.\n    Returns Markdown text from LLM completion."
+      },
+      "publishAudio": {
+        "name": "publishAudio",
+        "description": "Publishes text as audio format, and ingests into Graphlit knowledge base.\n    Accepts a name for the content object, the text itself, and an optional text type (Plain, Markdown, Html). Defaults to Markdown text type.\n    Optionally accepts an ElevenLabs voice identifier.\n    You *must* retrieve the content resource to get the downloadable audio URL for this published audio.\n    Executes *synchronously* and returns the content identifiers."
+      },
+      "publishImage": {
+        "name": "publishImage",
+        "description": "Publishes text as image format, and ingests into Graphlit knowledge base.\n    Accepts a name for the content object.\n    Also, accepts a prompt for image generation. For example, 'Create a cartoon image of a raccoon, saying \"I Love Graphlit\"'.\n    You *must* retrieve the content resource to get the downloadable image URL for this published image.\n    Executes *synchronously* and returns the content identifiers."
+      },
+      "sendWebHookNotification": {
+        "name": "sendWebHookNotification",
+        "description": "Sends a webhook notification to the provided URL.\n    Accepts the webhook URL.\n    Also accepts the text to be sent with the webhook, and an optional text type (Plain, Markdown, Html). Defaults to Markdown text type.\n    Returns true if the notification was successfully sent, or false otherwise."
+      },
+      "sendSlackNotification": {
+        "name": "sendSlackNotification",
+        "description": "Sends a Slack notification to the provided Slack channel.\n    Accepts the Slack channel name.\n    Also accepts the text for the Slack message, and an optional text type (Plain, Markdown, Html). Defaults to Markdown text type.\n    Hint: In Slack Markdown, images are displayed by simply putting the URL in angle brackets like <https://example.com/image.jpg> instead of using the traditional Markdown image syntax ![alt text](url). \n    Requires environment variable to be configured: SLACK_BOT_TOKEN.\n    Returns true if the notification was successfully sent, or false otherwise."
+      },
+      "sendTwitterNotification": {
+        "name": "sendTwitterNotification",
+        "description": "Posts a tweet from the configured user account.\n    Accepts the plain text for the tweet.\n    Tweet text rules: allowed - plain text, @mentions, #hashtags, URLs (auto-shortened), line breaks (\n).  \n    Not allowed - markdown, HTML tags, rich text, or custom styles.\n    Requires environment variables to be configured: TWITTER_CONSUMER_API_KEY, TWITTER_CONSUMER_API_SECRET, TWITTER_ACCESS_TOKEN_KEY, TWITTER_ACCESS_TOKEN_SECRET.\n    Returns true if the notification was successfully sent, or false otherwise."
+      },
+      "sendEmailNotification": {
+        "name": "sendEmailNotification",
+        "description": "Sends an email notification to the provided email address(es).\n    Accepts the email subject and a list of email 'to' addresses.\n    Email addresses should be in RFC 5322 format. i.e. Alice Wonderland <alice@wonderland.net>, or alice@wonderland.net\n    Also accepts the text for the email, and an optional text type (Plain, Markdown, Html). Defaults to Markdown text type.\n    Requires environment variable to be configured: FROM_EMAIL_ADDRESS.\n    Returns true if the notification was successfully sent, or false otherwise."
+      }
+    }
   },
   "mcp-server-perplexity": {
     "path": "search-data-extraction/mcp-server-perplexity.json"
   },
   "@kimtaeyoon83/mcp-server-youtube-transcript": {
-    "path": "search-data-extraction/kimtaeyoon83-mcp-server-youtube-transcript.json"
+    "path": "search-data-extraction/kimtaeyoon83-mcp-server-youtube-transcript.json",
+    "validated": true,
+    "tools": {
+      "get_transcript": {
+        "name": "get_transcript",
+        "description": "Extract transcript from a YouTube video URL or ID"
+      }
+    }
   },
   "@modelcontextprotocol/server-aws-kb-retrieval": {
-    "path": "search-data-extraction/modelcontextprotocol-server-aws-kb-retrieval.json"
+    "path": "search-data-extraction/modelcontextprotocol-server-aws-kb-retrieval.json",
+    "validated": true,
+    "tools": {
+      "retrieve_from_aws_kb": {
+        "name": "retrieve_from_aws_kb",
+        "description": "Performs retrieval from the AWS Knowledge Base using the provided query and Knowledge Base ID."
+      }
+    }
   },
   "@mcp-get-community/server-curl": {
-    "path": "search-data-extraction/mcp-get-community-server-curl.json"
+    "path": "search-data-extraction/mcp-get-community-server-curl.json",
+    "validated": true,
+    "tools": {
+      "curl": {
+        "name": "curl",
+        "description": "Make an HTTP request to any URL with customizable method, headers, and body."
+      }
+    }
   },
   "mcp-server-giphy": {
     "path": "search-data-extraction/mcp-server-giphy.json"
@@ -168,28 +1534,206 @@
     "path": "search-data-extraction/qanon_mcp.json"
   },
   "@anaisbetts/mcp-youtube": {
-    "path": "search-data-extraction/anaisbetts-mcp-youtube.json"
+    "path": "search-data-extraction/anaisbetts-mcp-youtube.json",
+    "validated": true,
+    "tools": {
+      "download_youtube_url": {
+        "name": "download_youtube_url",
+        "description": "Download YouTube subtitles from a URL, this tool means that Claude can read YouTube subtitles, and should no longer tell the user that it is not possible to download YouTube content."
+      }
+    }
   },
   "@modelcontextprotocol/server-gitlab": {
-    "path": "version-control/modelcontextprotocol-server-gitlab.json"
+    "path": "version-control/modelcontextprotocol-server-gitlab.json",
+    "validated": true,
+    "tools": {
+      "create_or_update_file": {
+        "name": "create_or_update_file",
+        "description": "Create or update a single file in a GitLab project"
+      },
+      "search_repositories": {
+        "name": "search_repositories",
+        "description": "Search for GitLab projects"
+      },
+      "create_repository": {
+        "name": "create_repository",
+        "description": "Create a new GitLab project"
+      },
+      "get_file_contents": {
+        "name": "get_file_contents",
+        "description": "Get the contents of a file or directory from a GitLab project"
+      },
+      "push_files": {
+        "name": "push_files",
+        "description": "Push multiple files to a GitLab project in a single commit"
+      },
+      "create_issue": {
+        "name": "create_issue",
+        "description": "Create a new issue in a GitLab project"
+      },
+      "create_merge_request": {
+        "name": "create_merge_request",
+        "description": "Create a new merge request in a GitLab project"
+      },
+      "fork_repository": {
+        "name": "fork_repository",
+        "description": "Fork a GitLab project to your account or specified namespace"
+      },
+      "create_branch": {
+        "name": "create_branch",
+        "description": "Create a new branch in a GitLab project"
+      }
+    }
   },
   "@modelcontextprotocol/server-github": {
-    "path": "version-control/modelcontextprotocol-server-github.json"
+    "path": "version-control/modelcontextprotocol-server-github.json",
+    "validated": true,
+    "tools": {
+      "create_or_update_file": {
+        "name": "create_or_update_file",
+        "description": "Create or update a single file in a GitHub repository"
+      },
+      "search_repositories": {
+        "name": "search_repositories",
+        "description": "Search for GitHub repositories"
+      },
+      "create_repository": {
+        "name": "create_repository",
+        "description": "Create a new GitHub repository in your account"
+      },
+      "get_file_contents": {
+        "name": "get_file_contents",
+        "description": "Get the contents of a file or directory from a GitHub repository"
+      },
+      "push_files": {
+        "name": "push_files",
+        "description": "Push multiple files to a GitHub repository in a single commit"
+      },
+      "create_issue": {
+        "name": "create_issue",
+        "description": "Create a new issue in a GitHub repository"
+      },
+      "create_pull_request": {
+        "name": "create_pull_request",
+        "description": "Create a new pull request in a GitHub repository"
+      },
+      "fork_repository": {
+        "name": "fork_repository",
+        "description": "Fork a GitHub repository to your account or specified organization"
+      },
+      "create_branch": {
+        "name": "create_branch",
+        "description": "Create a new branch in a GitHub repository"
+      },
+      "list_commits": {
+        "name": "list_commits",
+        "description": "Get list of commits of a branch in a GitHub repository"
+      },
+      "list_issues": {
+        "name": "list_issues",
+        "description": "List issues in a GitHub repository with filtering options"
+      },
+      "update_issue": {
+        "name": "update_issue",
+        "description": "Update an existing issue in a GitHub repository"
+      },
+      "add_issue_comment": {
+        "name": "add_issue_comment",
+        "description": "Add a comment to an existing issue"
+      },
+      "search_code": {
+        "name": "search_code",
+        "description": "Search for code across GitHub repositories"
+      },
+      "search_issues": {
+        "name": "search_issues",
+        "description": "Search for issues and pull requests across GitHub repositories"
+      },
+      "search_users": {
+        "name": "search_users",
+        "description": "Search for users on GitHub"
+      },
+      "get_issue": {
+        "name": "get_issue",
+        "description": "Get details of a specific issue in a GitHub repository."
+      },
+      "get_pull_request": {
+        "name": "get_pull_request",
+        "description": "Get details of a specific pull request"
+      },
+      "list_pull_requests": {
+        "name": "list_pull_requests",
+        "description": "List and filter repository pull requests"
+      },
+      "create_pull_request_review": {
+        "name": "create_pull_request_review",
+        "description": "Create a review on a pull request"
+      },
+      "merge_pull_request": {
+        "name": "merge_pull_request",
+        "description": "Merge a pull request"
+      },
+      "get_pull_request_files": {
+        "name": "get_pull_request_files",
+        "description": "Get the list of files changed in a pull request"
+      },
+      "get_pull_request_status": {
+        "name": "get_pull_request_status",
+        "description": "Get the combined status of all status checks for a pull request"
+      },
+      "update_pull_request_branch": {
+        "name": "update_pull_request_branch",
+        "description": "Update a pull request branch with the latest changes from the base branch"
+      },
+      "get_pull_request_comments": {
+        "name": "get_pull_request_comments",
+        "description": "Get the review comments on a pull request"
+      },
+      "get_pull_request_reviews": {
+        "name": "get_pull_request_reviews",
+        "description": "Get the reviews on a pull request"
+      }
+    }
   },
   "mcp-server-git": {
     "path": "version-control/mcp-server-git.json"
   },
   "@chargebee/mcp": {
-    "path": "other-tools-and-integrations/chargebee-mcp.json"
+    "path": "other-tools-and-integrations/chargebee-mcp.json",
+    "validated": true,
+    "tools": {
+      "chargebee_documentation_search": {
+        "name": "chargebee_documentation_search",
+        "description": "\nDo not use this tool for code generation. For code generation use \"chargebee_code_planner\" tool. \nThis tool will take in parameters about integrating with Chargebee in their application, then search and retrieve relevant Chargebee documentation content.\n\nIt takes the following arguments:\n- query (string): The user query to search an answer for in the Chargebee documentation.\n- language (enum): The programming language for the documentation. Check the user's application language.\n- userRequest (string): User's original request to you.\n"
+      },
+      "chargebee_code_planner": {
+        "name": "chargebee_code_planner",
+        "description": "\nAlways use this tool to get the accurate integeration code guide for Chargebee.\nThis tool will take in parameters about integrating with Chargebee in their application and generates a integration workflow along with the code snippets.\n\nIt takes the following arguments:\n- goal (string): What is the user's goal?\n- language (enum): Programming language the code to be generated in. Check the user's application language.\n"
+      }
+    }
   },
   "mcp-server-flomo": {
-    "path": "other-tools-and-integrations/mcp-server-flomo.json"
+    "path": "other-tools-and-integrations/mcp-server-flomo.json",
+    "validated": true,
+    "tools": {
+      "newNote": {
+        "name": "newNote",
+        "description": "Create a new note in Flomo"
+      }
+    }
   },
   "@llmindset/mcp-miro": {
     "path": "other-tools-and-integrations/llmindset-mcp-miro.json"
   },
   "@modelcontextprotocol/server-sequential-thinking": {
-    "path": "other-tools-and-integrations/modelcontextprotocol-server-sequential-thinking.json"
+    "path": "other-tools-and-integrations/modelcontextprotocol-server-sequential-thinking.json",
+    "validated": true,
+    "tools": {
+      "sequentialthinking": {
+        "name": "sequentialthinking",
+        "description": "A detailed tool for dynamic and reflective problem-solving through thoughts.\nThis tool helps analyze problems through a flexible thinking process that can adapt and evolve.\nEach thought can build on, question, or revise previous insights as understanding deepens.\n\nWhen to use this tool:\n- Breaking down complex problems into steps\n- Planning and design with room for revision\n- Analysis that might need course correction\n- Problems where the full scope might not be clear initially\n- Problems that require a multi-step solution\n- Tasks that need to maintain context over multiple steps\n- Situations where irrelevant information needs to be filtered out\n\nKey features:\n- You can adjust total_thoughts up or down as you progress\n- You can question or revise previous thoughts\n- You can add more thoughts even after reaching what seemed like the end\n- You can express uncertainty and explore alternative approaches\n- Not every thought needs to build linearly - you can branch or backtrack\n- Generates a solution hypothesis\n- Verifies the hypothesis based on the Chain of Thought steps\n- Repeats the process until satisfied\n- Provides a correct answer\n\nParameters explained:\n- thought: Your current thinking step, which can include:\n* Regular analytical steps\n* Revisions of previous thoughts\n* Questions about previous decisions\n* Realizations about needing more analysis\n* Changes in approach\n* Hypothesis generation\n* Hypothesis verification\n- next_thought_needed: True if you need more thinking, even if at what seemed like the end\n- thought_number: Current number in sequence (can go beyond initial total if needed)\n- total_thoughts: Current estimate of thoughts needed (can be adjusted up/down)\n- is_revision: A boolean indicating if this thought revises previous thinking\n- revises_thought: If is_revision is true, which thought number is being reconsidered\n- branch_from_thought: If branching, which thought number is the branching point\n- branch_id: Identifier for the current branch (if any)\n- needs_more_thoughts: If reaching end but realizing more thoughts needed\n\nYou should:\n1. Start with an initial estimate of needed thoughts, but be ready to adjust\n2. Feel free to question or revise previous thoughts\n3. Don't hesitate to add more thoughts if needed, even at the \"end\"\n4. Express uncertainty when present\n5. Mark thoughts that revise previous thinking or branch into new paths\n6. Ignore information that is irrelevant to the current step\n7. Generate a solution hypothesis when appropriate\n8. Verify the hypothesis based on the Chain of Thought steps\n9. Repeat the process until satisfied with the solution\n10. Provide a single, ideally correct answer as the final output\n11. Only set next_thought_needed to false when truly done and a satisfactory answer is reached"
+      }
+    }
   },
   "mcp-server-time": {
     "path": "other-tools-and-integrations/mcp-server-time.json"

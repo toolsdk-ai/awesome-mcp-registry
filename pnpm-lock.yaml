@@ -125,9 +125,6 @@ importers:
       hyperbrowser-mcp:
         specifier: latest
         version: 1.0.25
-      kubernetes-mcp-server:
-        specifier: latest
-        version: 0.0.36
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -3157,40 +3154,6 @@ packages:
 
   jws@4.0.0:
     resolution: {integrity: sha512-KDncfTmOZoOMTFG4mBlG0qUIOlc03fmzH+ru6RgYVZhPkyiy/92Owlt/8UEN+a4TXR1FQetfIpJE8ApdvdVxTg==}
-
-  kubernetes-mcp-server-darwin-amd64@0.0.36:
-    resolution: {integrity: sha512-th+/Qpa4J6+NZOy2XHIp/onb+sOLYWvRuY4cKU1YnobBQyGvwzq/0q8uqIlV0tWroHAgk3prjOIdbKuZQKGh5Q==}
-    cpu: [x64]
-    os: [darwin]
-
-  kubernetes-mcp-server-darwin-arm64@0.0.36:
-    resolution: {integrity: sha512-3hyI3hn9xM6xk1xxyuC7hD/g/8rGCZbyKKq0m86rv/2i3F/Ys2Epggna1LfuMK9seG2jSeTyvPqMBGi4iUqoTQ==}
-    cpu: [arm64]
-    os: [darwin]
-
-  kubernetes-mcp-server-linux-amd64@0.0.36:
-    resolution: {integrity: sha512-X7X5hpsqoeKqhW8fof4AVDbTavSNs6/C11zDbzUbf3Vr4eH7j+aKd5z5FCDY/Mzxo0EYEHyrBgY5mL7RDv4tiw==}
-    cpu: [x64]
-    os: [linux]
-
-  kubernetes-mcp-server-linux-arm64@0.0.36:
-    resolution: {integrity: sha512-kj9z6+SNdjm0exP8s8yG5YMYfrmwF2fB/lVv61MPXfhhU9EEw4RZcORHetp/y0KktMJU3xGuYqu5M82GU/pZRQ==}
-    cpu: [arm64]
-    os: [linux]
-
-  kubernetes-mcp-server-windows-amd64@0.0.36:
-    resolution: {integrity: sha512-QmcJGUygySl4GiINjn4XQM85UQYnQn3cCv421fo+FSW4Qmw0wUg/G/3ElO6GPkD+CHW5b7T9SKaJcHPHkVwrYw==}
-    cpu: [x64]
-    os: [win32]
-
-  kubernetes-mcp-server-windows-arm64@0.0.36:
-    resolution: {integrity: sha512-L1A9j7UdnWEEBi1FvNqbHYd/VLQEATNvKGbQmyXONtUR6Rblk1bxdDkzjSm/VDi1r7l53LMgbTeyyQvhwnVyhQ==}
-    cpu: [arm64]
-    os: [win32]
-
-  kubernetes-mcp-server@0.0.36:
-    resolution: {integrity: sha512-+ISR9WOB4qCTAv6RIw4lcNZITCBYxgakCUgJjKEHLkPtAfAT0vM2ZFdGwM2AaGe3GtyQ2EWCiriKFEouhy2CJw==}
-    hasBin: true
 
   kuler@2.0.0:
     resolution: {integrity: sha512-Xq9nH7KlWZmXAtodXDDRE7vs6DU1gTU8zYDHDiWLSip45Egwq3plLHzPn27NgvzL2r1LMPC1vdqh98sQxtqj4A==}
@@ -8900,33 +8863,6 @@ snapshots:
     dependencies:
       jwa: 2.0.1
       safe-buffer: 5.2.1
-
-  kubernetes-mcp-server-darwin-amd64@0.0.36:
-    optional: true
-
-  kubernetes-mcp-server-darwin-arm64@0.0.36:
-    optional: true
-
-  kubernetes-mcp-server-linux-amd64@0.0.36:
-    optional: true
-
-  kubernetes-mcp-server-linux-arm64@0.0.36:
-    optional: true
-
-  kubernetes-mcp-server-windows-amd64@0.0.36:
-    optional: true
-
-  kubernetes-mcp-server-windows-arm64@0.0.36:
-    optional: true
-
-  kubernetes-mcp-server@0.0.36:
-    optionalDependencies:
-      kubernetes-mcp-server-darwin-amd64: 0.0.36
-      kubernetes-mcp-server-darwin-arm64: 0.0.36
-      kubernetes-mcp-server-linux-amd64: 0.0.36
-      kubernetes-mcp-server-linux-arm64: 0.0.36
-      kubernetes-mcp-server-windows-amd64: 0.0.36
-      kubernetes-mcp-server-windows-arm64: 0.0.36
 
   kuler@2.0.0: {}
 

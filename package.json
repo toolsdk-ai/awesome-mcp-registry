@@ -35,7 +35,6 @@
     "@automatalabs/mcp-server-playwright": "latest",
     "hyperbrowser-mcp": "latest",
     "@modelcontextprotocol/server-puppeteer": "latest",
-    "kubernetes-mcp-server": "latest",
     "@cloudflare/mcp-server-cloudflare": "latest",
     "mcp-server-kubernetes": "latest",
     "@strowk/mcp-k8s": "latest",

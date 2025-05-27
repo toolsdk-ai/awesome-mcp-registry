@@ -34,3 +34,4 @@ jobs:
           bun scripts/check-config.ts
           bun scripts/readme-gen.ts
           pnpm install --no-frozen-lockfile
+          bun scripts/test-mcp-clients.ts
