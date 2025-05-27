@@ -26,7 +26,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "lodash": "^4.17.21",
-    "zod": "^3.23.8",
+    "zod": "^3.23.30",
     "@kazuph/mcp-screenshot": "latest",
     "@modelcontextprotocol/server-everything": "latest",
     "@modelcontextprotocol/server-everart": "latest",

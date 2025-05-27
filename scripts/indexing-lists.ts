@@ -76,7 +76,7 @@ async function generatePackagesList() {
   const newDeps = {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "lodash": "^4.17.21",
-    "zod": "^3.23.8",
+    "zod": "^3.23.30",
   };
   const packageJSON = JSON.parse(packageJSONStr);
   for (const [depName, depVer] of Object.entries(packageDeps)) {
