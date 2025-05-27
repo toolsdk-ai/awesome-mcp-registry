@@ -31,7 +31,10 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
     const filePath = join(__dirname, `../packages/`, packageInfo.path);
     const fileContent = readFileSync(filePath, 'utf-8');
     const parsedContent = MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
-    README += `- [${parsedContent.name || parsedContent.packageName}](${parsedContent.url || '#'}): ${parsedContent.description}\n`;
+    const validated = packageInfo.validated ? '✅' : '❌';
+    const toolsCount = packageInfo.tools === undefined ? 0 : Object.keys(packageInfo.tools).length;
+    const toolsCountLabel = toolsCount > 0 ? ` (${toolsCount} tools)` : '';
+    README += `- [${validated} ${parsedContent.name || parsedContent.packageName}](${parsedContent.url || '#'}): ${parsedContent.description} ${toolsCountLabel}\n`;
   }
 }
 const templatePath = join(__dirname, '../docs/README.tpl.md');
