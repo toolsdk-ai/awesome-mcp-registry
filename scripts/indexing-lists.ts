@@ -73,11 +73,17 @@ async function generatePackagesList() {
 
 
   const packageJSONStr = fs.readFileSync(packageJsonFile, 'utf-8');
+  const newDeps = {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "lodash": "^4.17.21",
+    "zod": "^3.23.8",
+  };
   const packageJSON = JSON.parse(packageJSONStr);
   for (const [depName, depVer] of Object.entries(packageDeps)) {
-    packageJSON.dependencies[depName] = packageDeps[depVer] || 'latest';
+    newDeps[depName] = packageDeps[depVer] || 'latest';
   }
 
+  packageJSON.dependencies = newDeps
 
   fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
 
