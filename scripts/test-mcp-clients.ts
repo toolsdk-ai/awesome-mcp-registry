@@ -122,4 +122,6 @@ async function main() {
     const unvalidatedPackages = Object.values(typedAllPackagesList).filter((value) => !value.validated);
     console.warn(`Warning! Unvalidated packages: ${unvalidatedPackages.length}`, unvalidatedPackages);
 }
+
 await main();
+process.exit(0);
