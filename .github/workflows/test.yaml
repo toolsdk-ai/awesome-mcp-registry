@@ -33,3 +33,4 @@ jobs:
           bun scripts/indexing-lists.ts
           bun scripts/check-config.ts
           bun scripts/readme-gen.ts
+          pnpm install

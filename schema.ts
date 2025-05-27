@@ -17,6 +17,7 @@ export const MCPServerPackageConfigSchema = z.object({
 
   runtime: z.enum(['node', 'python', 'java']),
   packageName: z.string().describe('Name of the node, python, java package '),
+  packageVersion: z.string().optional().describe('Version of the package, if not provided then it will use latest version'),
 
   // if no custom key then would use name
   key: z.string().optional().describe('Unique key for url and slug'),
