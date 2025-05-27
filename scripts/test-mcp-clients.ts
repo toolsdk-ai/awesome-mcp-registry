@@ -95,19 +95,23 @@ async function main() {
                 const tools = await mcpClient.client.listTools();
                 console.log(`Read success MCP Client for package: ${packageKey} ${value.path}, tools: ${Object.keys(tools).length}`);
 
-                const saveTools =  {}
-                    // console.warn('Tools 2222:', tools);
+                const saveTools = {}
                 for (const [_toolKey, toolItem] of Object.entries(tools.tools)) {
                     saveTools[toolItem.name] = {
                         name: toolItem.name,
                         description: toolItem.description || '',
                     }
-
                 }
                 typedAllPackagesList[packageKey].tools = saveTools;
                 typedAllPackagesList[packageKey].validated = true;
+
+                // close the mcp client
+                if (mcpClient) {
+                    await mcpClient.closeConnection();
+                }
             } catch (e) {
                 console.error(`Error reading MCP Client for package: ${packageKey} ${value.path}`, e);
+            } finally {
             }
         }
     }
