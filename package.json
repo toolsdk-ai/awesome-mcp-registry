@@ -1,6 +1,6 @@
 {
   "name": "@toolsdk.ai/registry",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "type": "module",
   "exports": {
