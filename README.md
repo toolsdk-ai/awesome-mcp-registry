@@ -72,7 +72,7 @@ console.log(await(await fetch('https://toolsdk-ai.github.io/awesome-mcp-registry
 ```json
 {
   "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-github",
+  "name": "@modelcontextprotocol/server-github",
   "description": "MCP server for using the GitHub API",
   "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/github",
   "runtime": "node",
