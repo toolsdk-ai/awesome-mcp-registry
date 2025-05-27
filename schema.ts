@@ -62,4 +62,3 @@ export const PackagesListSchema = z.record(
       })).optional(),
   })
 )
-export type PackagesList = z.infer<typeof PackagesListSchema>;

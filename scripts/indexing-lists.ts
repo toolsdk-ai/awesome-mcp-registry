@@ -7,7 +7,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { MCPServerPackageConfigSchema, } from '../schema';
-import { type CategoryConfig , type MCPServerPackageConfig} from '../types';
+import { type CategoryConfig , type MCPServerPackageConfig, type PackagesList} from '../types';
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const categoryConfigs: CategoryConfig[] = require('../config/categories').default;
@@ -18,7 +18,7 @@ const categoriesListFile = './indexes/categories-list.json';
 const packageJsonFile = './package.json';
 
 async function generatePackagesList() {
-  const packagesList: Record<string, { path: string }> = {};
+  const packagesList: PackagesList = {};
   const categoriesList: Record<string, { config: CategoryConfig; packagesList: string[] }> = {};
   const packageDeps: Record<string, string> = {}
 
