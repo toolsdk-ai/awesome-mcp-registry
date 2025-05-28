@@ -1,4 +1,4 @@
-
+// Format: 2 spaces per tab
 // Try to read MCP Client
 
 import fs from 'fs';
@@ -41,6 +41,7 @@ async function main() {
             } catch (e) {
                 console.error(`Error reading MCP Client for package: ${packageKey} ${value.path}`, e);
             } finally {
+                //
             }
         }
     }

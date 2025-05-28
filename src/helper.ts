@@ -11,13 +11,13 @@ export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
 
 export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfig {
     const value = typedAllPackagesList[packageKey];
-
+    
     const jsonFile = value.path;
     // read the JSON file and convert it to MCPServerPackageConfig
     const jsonStr = fs.readFileSync(__dirname + '/../packages/' + jsonFile, 'utf-8');
     const mcpServerConfig: MCPServerPackageConfig = MCPServerPackageConfigSchema.parse(JSON.parse(jsonStr));
     return mcpServerConfig;
-
+    
 }
 
 export function getPackageJSON(packageName: string) {
@@ -28,11 +28,11 @@ export function getPackageJSON(packageName: string) {
 }
 export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
     const { packageName } = mcpServerConfig;
-
-    const packageJSON = getPackageJSON(packageName); 
+    
+    const packageJSON = getPackageJSON(packageName);
     let binFilePath = '';
     let binPath;
-
+    
     if (typeof packageJSON.bin === 'string') {
         binPath = packageJSON.bin;
     } else if (typeof packageJSON.bin === 'object') {
@@ -41,10 +41,10 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
         binPath = packageJSON.main;
     }
     assert(binPath, `Package ${packageName} does not have a valid bin path in package.json.`);
-
+    
     // binFilePath = 'plugin_packages/' + packageName + `/${binPath}`;
     binFilePath = __dirname + '/../node_modules/' + packageName + `/${binPath}`;
-
+    
     const mcpServerBinPath = mcpServerConfig.bin || binFilePath;
     const binArgs = mcpServerConfig.binArgs || [];
     const transport = new StdioClientTransport({
@@ -52,7 +52,7 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
         args: [mcpServerBinPath, ...binArgs],
         env: env || {},
     });
-
+    
     const client = new Client(
         {
             name: `mcp-server-${mcpServerConfig.name}-client`,
@@ -65,7 +65,7 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
         },
     );
     await client.connect(transport);
-
+    
     const closeConnection = async () => {
         try {
             await client.close();
@@ -73,6 +73,6 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
             console.warn(`${packageName} mcp client close failure.`, e);
         }
     };
-
+    
     return { client, transport, closeConnection };
 }
