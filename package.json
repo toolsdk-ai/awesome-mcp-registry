@@ -6,9 +6,11 @@
   "exports": {
     "./config": "./config/*",
     "./indexes": "./indexes/*",
-    "./*": "./src/*.ts"
+    "./*": "./dist/*.js",
+    "./types": "./dist/types.d.ts"
   },
-  "types": "types.ts",
+
+  "types": "./dist/types.d.ts",
   "files": [
     "dist/",
     "indexes/",

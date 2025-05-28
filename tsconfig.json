@@ -1,19 +1,20 @@
 {
-    "compilerOptions": {
-        "target": "es6", // Output JavaScript version
-        "module": "commonjs", // Module system
-        "outDir": "./dist", // Output directory
-        "rootDir": "./src", // Source file directory
-        "resolveJsonModule": true,
-        "strict": true, // Enable all strict type-checking options
-        "esModuleInterop": true, // Allow default imports from non-ES modules
-        "skipLibCheck": true, // Skip type checking of declaration files
-        "forceConsistentCasingInFileNames": true // Enforce consistent casing in file names
-    },
-    "include": [
-        "src/**/*.ts" // Included files
-    ],
-    "exclude": [
-        "node_modules" // Excluded files
-    ]
+  "compilerOptions": {
+    "target": "es6", // Output JavaScript version
+    "module": "commonjs", // Module system
+    "declaration": true,
+    "outDir": "./dist", // Output directory
+    "rootDir": "./src", // Source file directory
+    "resolveJsonModule": true,
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Allow default imports from non-ES modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true // Enforce consistent casing in file names
+  },
+  "include": [
+    "src/**/*.ts", 
+  ],
+  "exclude": [
+    "node_modules" // Excluded files
+  ]
 }
