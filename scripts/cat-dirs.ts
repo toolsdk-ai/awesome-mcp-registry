@@ -5,7 +5,7 @@
 // This script is intended to be executed using Bun.
 import * as fs from 'fs';
 import * as path from 'path';
-import type { CategoryConfig } from '../types';
+import type { CategoryConfig } from '../src/types';
 
 // Define the paths
 // eslint-disable-next-line @typescript-eslint/no-require-imports
@@ -43,7 +43,7 @@ async function main() {
       ensureDirectoryExists(categoryFolderPath);
       console.log(`Ensured category folder exists: ${category.key}`);
 
-       // Write the README.md of the category folder
+      // Write the README.md of the category folder
       const readmePath = path.join(categoryFolderPath, 'README.md');
       fs.writeFileSync(
         readmePath,

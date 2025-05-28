@@ -26,15 +26,16 @@ export default defineConfig([
   },
   {
     rules: {
-      '@typescript-eslint/no-unused-vars': [
-        'error',
+      indent: ["error", 2],
+      "@typescript-eslint/no-unused-vars": [
+        "error",
         {
-          argsIgnorePattern: '^_', // Ignore unused function arguments that start with "_"
-          varsIgnorePattern: '^_', // Ignore unused variables that start with "_"
-          caughtErrorsIgnorePattern: '^_',
+          argsIgnorePattern: "^_", // Ignore unused function arguments that start with "_"
+          varsIgnorePattern: "^_", // Ignore unused variables that start with "_"
+          caughtErrorsIgnorePattern: "^_",
         },
       ],
-      '@typescript-eslint/no-explicit-any': 'warn',
+      "@typescript-eslint/no-explicit-any": "warn",
     },
   },
   globalIgnores(["dist/"]),
