@@ -9,7 +9,6 @@
     "./*": "./dist/*.js",
     "./types": "./dist/types.d.ts"
   },
-
   "types": "./dist/types.d.ts",
   "files": [
     "dist/",
