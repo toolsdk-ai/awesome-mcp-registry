@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6", // 输出的 JavaScript 版本
+    "module": "commonjs", // 模块系统
+    "outDir": "./dist", // 输出目录
+    "rootDir": "./src", // 源文件目录
+    "resolveJsonModule": true,
+    "strict": true, // 启用所有严格类型检查选项
+    "esModuleInterop": true, // 允许 default 导入非 ES 模块
+    "skipLibCheck": true, // 跳过库文件的类型检查
+    "forceConsistentCasingInFileNames": true // 强制文件名一致性
+  },
+  "include": [
+    "src/**/*.ts" // 包含的文件
+  ],
+  "exclude": [
+    "node_modules" // 排除的文件
+  ]
+}

@@ -4,22 +4,22 @@
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "type": "module",
   "exports": {
-    "./*": "./*",
-    "./helper": "./helper.ts",
-    "./schema": "./schema.ts",
-    "./types": "./types.ts"
+    "./config": "./config/*",
+    "./indexes": "./indexes/*",
+    "./*": "./src/*.ts"
   },
   "types": "types.ts",
   "files": [
-    "types.ts",
-    "schema.ts",
+    "dist/",
     "indexes/",
     "config/",
     "packages/",
     "README.md",
     "LICENSE"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",

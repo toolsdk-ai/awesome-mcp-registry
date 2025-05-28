@@ -1,28 +1,15 @@
 
 // Try to read MCP Client
 
-import type { MCPServerPackageConfig } from "../types";
-import { MCPServerPackageConfigSchema, PackagesListSchema } from "../schema";
-// import { PluginManager } from 'live-plugin-manager';
 import fs from 'fs';
-import allPackagesList from '../indexes/packages-list.json';
-import { getMcpClient } from "../helper";
+import { getMcpClient, getPackageConfigByKey, typedAllPackagesList } from "../src/helper";
 
 
-// const manager = new PluginManager({
-//     //   pluginsPath: './node_modules_live',
-// });
 
 async function main() {
 
-    const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
     for (const [packageKey, value] of Object.entries(typedAllPackagesList)) {
-        const jsonFile = value.path;
-
-        // read the JSON file and convert it to MCPServerPackageConfig
-        const jsonStr = fs.readFileSync('packages/' + jsonFile, 'utf-8');
-        const mcpServerConfig: MCPServerPackageConfig = MCPServerPackageConfigSchema.parse(JSON.parse(jsonStr));
-
+        const mcpServerConfig = await getPackageConfigByKey(packageKey);
 
         if (mcpServerConfig.runtime === 'node') {
 
