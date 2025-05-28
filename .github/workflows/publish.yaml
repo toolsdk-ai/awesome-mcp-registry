@@ -67,6 +67,8 @@ jobs:
           pnpm install --no-frozen-lockfile
           bun scripts/test-mcp-clients.ts
           bun scripts/readme-gen.ts
+          pnpm run lint
+          pnpm run build
 
       - name: Set commit message
         id: commit_message_step

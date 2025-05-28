@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 // This script is used to generate README.md
 // 1. First, read the category configuration file (config/categories.mjs) to read the categories
 // 2. Iterate through the categories, then recursively read the specified directory (all JSON files under packages/{categoryName}), and validate with zod MCPServerConfigSchema.parse
@@ -9,7 +8,7 @@ import { join } from 'path';
 import _ from 'lodash';
 import categoriesList from '../indexes/categories-list.json';
 import allPackagesList from '../indexes/packages-list.json';
-import { MCPServerPackageConfigSchema } from '../schema';
+import { MCPServerPackageConfigSchema } from '../src/schema';
 
 let TOC = '';
 let README = '';
