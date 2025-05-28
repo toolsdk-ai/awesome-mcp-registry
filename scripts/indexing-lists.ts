@@ -13,7 +13,7 @@ import { type CategoryConfig , type MCPServerPackageConfig, type PackagesList} f
 const categoryConfigs: CategoryConfig[] = require('../config/categories').default;
 
 const packagesDir = './packages';
-const pacakgesListFile = './indexes/packages-list.json';
+const packagesListFile = './indexes/packages-list.json';
 const categoriesListFile = './indexes/categories-list.json';
 const packageJsonFile = './package.json';
 
@@ -65,9 +65,9 @@ async function generatePackagesList() {
     }
   }
 
-  fs.writeFileSync(pacakgesListFile, JSON.stringify(packagesList, null, 2), 'utf-8');
+  fs.writeFileSync(packagesListFile, JSON.stringify(packagesList, null, 2), 'utf-8');
   fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), 'utf-8');
-  console.log(`Generated packages list at ${pacakgesListFile}`);
+  console.log(`Generated packages list at ${packagesListFile}`);
   console.log(`Generated categories list at ${categoriesListFile}`);
 
 
