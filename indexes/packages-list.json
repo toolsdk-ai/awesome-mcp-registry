@@ -52,6 +52,7 @@
   },
   "@modelcontextprotocol/server-everart": {
     "path": "art-and-culture/modelcontextprotocol-server-everart.json",
+    "tools": {},
     "validated": false
   },
   "mcp-server-stability-ai": {
@@ -436,6 +437,7 @@
   },
   "@cloudflare/mcp-server-cloudflare": {
     "path": "cloud-platforms/cloudflare-mcp-server-cloudflare.json",
+    "tools": {},
     "validated": false
   },
   "mcp-server-kubernetes": {
@@ -563,6 +565,7 @@
   },
   "@gongrzhe/server-gmail-autoauth-mcp": {
     "path": "communication/gongrzhe-server-gmail-autoauth-mcp.json",
+    "tools": {},
     "validated": false
   },
   "@modelcontextprotocol/server-slack": {
@@ -605,6 +608,7 @@
   },
   "mcp-mongo-server": {
     "path": "databases/mcp-mongo-server.json",
+    "tools": {},
     "validated": false
   },
   "mcp-server-sqlite": {
@@ -612,10 +616,12 @@
   },
   "@modelcontextprotocol/server-postgres": {
     "path": "databases/modelcontextprotocol-server-postgres.json",
+    "tools": {},
     "validated": false
   },
   "@benborla29/mcp-server-mysql": {
     "path": "databases/benborla29-mcp-server-mysql.json",
+    "tools": {},
     "validated": false
   },
   "airtable-mcp-server": {
@@ -745,10 +751,12 @@
   },
   "mcp-openapi-schema-explorer": {
     "path": "developer-tools/mcp-openapi-schema-explorer.json",
+    "tools": {},
     "validated": false
   },
   "hackmd-mcp": {
     "path": "developer-tools/hackmd-mcp.json",
+    "tools": {},
     "validated": false
   },
   "mcp-server-tree-sitter": {
@@ -804,10 +812,12 @@
   },
   "@modelcontextprotocol/server-gdrive": {
     "path": "file-systems/modelcontextprotocol-server-gdrive.json",
+    "tools": {},
     "validated": false
   },
   "@modelcontextprotocol/server-filesystem": {
     "path": "file-systems/modelcontextprotocol-server-filesystem.json",
+    "tools": {},
     "validated": false
   },
   "@modelcontextprotocol/server-memory": {
@@ -1545,6 +1555,7 @@
   },
   "mcp-server-giphy": {
     "path": "search-data-extraction/mcp-server-giphy.json",
+    "tools": {},
     "validated": false
   },
   "mcp-server-git": {
@@ -1714,6 +1725,7 @@
   },
   "@llmindset/mcp-miro": {
     "path": "other-tools-and-integrations/llmindset-mcp-miro.json",
+    "tools": {},
     "validated": false
   },
   "mcp-server-time": {
