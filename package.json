@@ -5,6 +5,7 @@
   "exports": {
     "./config/*": "./config/*",
     "./indexes/*": "./indexes/*",
+    "./packages/*": "./packages/*",
     "./*": "./dist/*.js",
     "./types": "./dist/types.d.ts"
   },
