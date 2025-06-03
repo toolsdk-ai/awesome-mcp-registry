@@ -6,9 +6,9 @@
  */
 
 export default [
-    "@modelcontextprotocol/server-github",
-    "@modelcontextprotocol/server-brave-search",
-    "@modelcontextprotocol/server-everart",
-    "@modelcontextprotocol/server-slack",
-    "@modelcontextprotocol/server-google-maps"
+  "@modelcontextprotocol/server-github",
+  "@modelcontextprotocol/server-brave-search",
+  "@modelcontextprotocol/server-everart",
+  "@modelcontextprotocol/server-slack",
+  "@modelcontextprotocol/server-google-maps"
 ];

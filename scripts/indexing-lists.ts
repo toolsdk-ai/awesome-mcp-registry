@@ -6,14 +6,14 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import { MCPServerPackageConfigSchema, } from '../schema';
-import { type CategoryConfig , type MCPServerPackageConfig, type PackagesList} from '../types';
+import { MCPServerPackageConfigSchema, } from '../src/schema';
+import { type CategoryConfig , type MCPServerPackageConfig, type PackagesList} from '../src/types';
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const categoryConfigs: CategoryConfig[] = require('../config/categories').default;
 
 const packagesDir = './packages';
-const pacakgesListFile = './indexes/packages-list.json';
+const packagesListFile = './indexes/packages-list.json';
 const categoriesListFile = './indexes/categories-list.json';
 const packageJsonFile = './package.json';
 
@@ -31,22 +31,22 @@ async function generatePackagesList() {
         const fileContent = fs.readFileSync(entryPath, 'utf-8');
         const parsedContent: MCPServerPackageConfig= MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
         // if (parsedContent.name) {
-          const key = parsedContent.key || parsedContent.name || parsedContent.packageName;
-          if (key in packagesList) {
-            throw new Error(`Duplicate key detected: "${key}" in file "${entryPath}"`);
-          }
-          const relativePath = path.relative(packagesDir, entryPath);
-          packagesList[key] = { path: relativePath };
+        const key = parsedContent.key || parsedContent.name || parsedContent.packageName;
+        if (key in packagesList) {
+          throw new Error(`Duplicate key detected: "${key}" in file "${entryPath}"`);
+        }
+        const relativePath = path.relative(packagesDir, entryPath);
+        packagesList[key] = { path: relativePath };
 
-          // Add to the category's packages list
-          if (!categoriesList[categoryName]) {
-            throw new Error(`Category "${categoryName}" not found in categories list.`);
-          }
-          categoriesList[categoryName].packagesList.push(key);
+        // Add to the category's packages list
+        if (!categoriesList[categoryName]) {
+          throw new Error(`Category "${categoryName}" not found in categories list.`);
+        }
+        categoriesList[categoryName].packagesList.push(key);
 
-          if (parsedContent.runtime === 'node') {
-            packageDeps[parsedContent.packageName] = parsedContent.packageVersion || 'latest';
-          }
+        if (parsedContent.runtime === 'node') {
+          packageDeps[parsedContent.packageName] = parsedContent.packageVersion || 'latest';
+        }
         // }
       } else if (fs.statSync(entryPath).isDirectory()) {
         traverseDirectory(entryPath, categoryName);
@@ -65,9 +65,9 @@ async function generatePackagesList() {
     }
   }
 
-  fs.writeFileSync(pacakgesListFile, JSON.stringify(packagesList, null, 2), 'utf-8');
+  fs.writeFileSync(packagesListFile, JSON.stringify(packagesList, null, 2), 'utf-8');
   fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), 'utf-8');
-  console.log(`Generated packages list at ${pacakgesListFile}`);
+  console.log(`Generated packages list at ${packagesListFile}`);
   console.log(`Generated categories list at ${categoriesListFile}`);
 
 
