@@ -41,6 +41,7 @@ async function main() {
 
       } catch (e) {
         console.error(`Error reading MCP Client for package: ${packageKey} ${value.path}`, e);
+        typedAllPackagesList[packageKey].tools = {};
         typedAllPackagesList[packageKey].validated = false;
       } finally {
         //
