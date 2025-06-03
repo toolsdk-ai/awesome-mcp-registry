@@ -1,20 +1,19 @@
 {
   "@kazuph/mcp-screenshot": {
     "path": "uncategorized/kazuph-mcp-screenshot.json",
-    "validated": true,
     "tools": {
       "capture": {
         "name": "capture",
         "description": "Captures a screenshot of the specified region and performs OCR. Options:\n- region: 'left'/'right'/'full' (default: 'left')\n- format: 'json'/'markdown'/'vertical'/'horizontal' (default: 'markdown')\nThe screenshot is saved to a dated directory in Downloads."
       }
-    }
+    },
+    "validated": true
   },
   "@URDJMK/serpapi-mcp-server": {
     "path": "uncategorized/serpapi-mcp-server.json"
   },
   "@modelcontextprotocol/server-everything": {
     "path": "aggregators/modelcontextprotocol-server-everything.json",
-    "validated": true,
     "tools": {
       "echo": {
         "name": "echo",
@@ -48,21 +47,15 @@
         "name": "getResourceReference",
         "description": "Returns a resource reference that can be used by MCP clients"
       }
-    }
+    },
+    "validated": true
   },
   "@modelcontextprotocol/server-everart": {
     "path": "art-and-culture/modelcontextprotocol-server-everart.json",
-    "validated": true,
-    "tools": {
-      "generate_image": {
-        "name": "generate_image",
-        "description": "Generate images using EverArt Models and returns a clickable link to view the generated image. The tool will return a URL that can be clicked to view the image in a browser. Available models:\n- 5000:FLUX1.1: Standard quality\n- 9000:FLUX1.1-ultra: Ultra high quality\n- 6000:SD3.5: Stable Diffusion 3.5\n- 7000:Recraft-Real: Photorealistic style\n- 8000:Recraft-Vector: Vector art style\n\nThe response will contain a direct link to view the generated image."
-      }
-    }
+    "validated": false
   },
   "mcp-server-stability-ai": {
     "path": "art-and-culture/mcp-server-stability-ai.json",
-    "validated": true,
     "tools": {
       "stability-ai-generate-image": {
         "name": "stability-ai-generate-image",
@@ -116,11 +109,11 @@
         "name": "stability-ai-control-structure",
         "description": "Generate a new image while maintaining the structure of a reference image"
       }
-    }
+    },
+    "validated": true
   },
   "@executeautomation/playwright-mcp-server": {
     "path": "browser-automation/executeautomation-playwright-mcp-server.json",
-    "validated": true,
     "tools": {
       "start_codegen_session": {
         "name": "start_codegen_session",
@@ -246,11 +239,11 @@
         "name": "playwright_click_and_switch_tab",
         "description": "Click a link and switch to the newly opened tab"
       }
-    }
+    },
+    "validated": true
   },
   "@automatalabs/mcp-server-playwright": {
     "path": "browser-automation/automatalabs-mcp-server-playwright.json",
-    "validated": true,
     "tools": {
       "browser_navigate": {
         "name": "browser_navigate",
@@ -292,11 +285,11 @@
         "name": "browser_evaluate",
         "description": "Execute JavaScript in the browser console"
       }
-    }
+    },
+    "validated": true
   },
   "hyperbrowser-mcp": {
     "path": "browser-automation/hyperbrowser-mcp.json",
-    "validated": true,
     "tools": {
       "scrape_webpage": {
         "name": "scrape_webpage",
@@ -338,14 +331,14 @@
         "name": "list_profiles",
         "description": "Lists existing persistent Hyperbrowser profiles, with optional pagination."
       }
-    }
+    },
+    "validated": true
   },
   "mcp-server-fetch": {
     "path": "browser-automation/mcp-server-fetch.json"
   },
   "@modelcontextprotocol/server-puppeteer": {
     "path": "browser-automation/modelcontextprotocol-server-puppeteer.json",
-    "validated": true,
     "tools": {
       "puppeteer_navigate": {
         "name": "puppeteer_navigate",
@@ -375,11 +368,11 @@
         "name": "puppeteer_evaluate",
         "description": "Execute JavaScript in the browser console"
       }
-    }
+    },
+    "validated": true
   },
   "tavily-mcp": {
     "path": "browser-automation/tavily-mcp.json",
-    "validated": true,
     "tools": {
       "tavily-search": {
         "name": "tavily-search",
@@ -397,11 +390,11 @@
         "name": "tavily-map",
         "description": "A powerful web mapping tool that creates a structured map of website URLs, allowing you to discover and analyze site structure, content organization, and navigation paths. Perfect for site audits, content discovery, and understanding website architecture."
       }
-    }
+    },
+    "validated": true
   },
   "@strowk/mcp-k8s": {
     "path": "cloud-platforms/strowk-mcp-k8s.json",
-    "validated": true,
     "tools": {
       "get-k8s-pod-logs": {
         "name": "get-k8s-pod-logs",
@@ -435,17 +428,18 @@
         "name": "list-k8s-resources",
         "description": "List arbitrary Kubernetes resources"
       }
-    }
+    },
+    "validated": true
   },
   "kubernetes-mcp-server": {
     "path": "cloud-platforms/kubernetes-mcp-server.json"
   },
   "@cloudflare/mcp-server-cloudflare": {
-    "path": "cloud-platforms/cloudflare-mcp-server-cloudflare.json"
+    "path": "cloud-platforms/cloudflare-mcp-server-cloudflare.json",
+    "validated": false
   },
   "mcp-server-kubernetes": {
     "path": "cloud-platforms/mcp-server-kubernetes.json",
-    "validated": true,
     "tools": {
       "cleanup": {
         "name": "cleanup",
@@ -527,34 +521,34 @@
         "name": "kubectl_generic",
         "description": "Execute any kubectl command with the provided arguments and flags"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-server-make": {
     "path": "code-execution/mcp-server-make.json"
   },
   "mcp-server-commands": {
     "path": "command-line/mcp-server-commands.json",
-    "validated": true,
     "tools": {
       "run_command": {
         "name": "run_command",
-        "description": "Run a command on this darwin machine"
+        "description": "Run a command on this linux machine"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-shell": {
     "path": "command-line/mcp-shell.json",
-    "validated": true,
     "tools": {
       "run_command": {
         "name": "run_command",
         "description": "Run a shell command"
       }
-    }
+    },
+    "validated": true
   },
   "@enescinar/twitter-mcp": {
     "path": "communication/enescinar-twitter-mcp.json",
-    "validated": true,
     "tools": {
       "post_tweet": {
         "name": "post_tweet",
@@ -564,14 +558,15 @@
         "name": "search_tweets",
         "description": "Search for tweets on Twitter"
       }
-    }
+    },
+    "validated": true
   },
   "@gongrzhe/server-gmail-autoauth-mcp": {
-    "path": "communication/gongrzhe-server-gmail-autoauth-mcp.json"
+    "path": "communication/gongrzhe-server-gmail-autoauth-mcp.json",
+    "validated": false
   },
   "@modelcontextprotocol/server-slack": {
     "path": "communication/modelcontextprotocol-server-slack.json",
-    "validated": true,
     "tools": {
       "slack_list_channels": {
         "name": "slack_list_channels",
@@ -605,23 +600,26 @@
         "name": "slack_get_user_profile",
         "description": "Get detailed profile information for a specific user"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-mongo-server": {
-    "path": "databases/mcp-mongo-server.json"
+    "path": "databases/mcp-mongo-server.json",
+    "validated": false
   },
   "mcp-server-sqlite": {
     "path": "databases/mcp-server-sqlite.json"
   },
   "@modelcontextprotocol/server-postgres": {
-    "path": "databases/modelcontextprotocol-server-postgres.json"
+    "path": "databases/modelcontextprotocol-server-postgres.json",
+    "validated": false
   },
   "@benborla29/mcp-server-mysql": {
-    "path": "databases/benborla29-mcp-server-mysql.json"
+    "path": "databases/benborla29-mcp-server-mysql.json",
+    "validated": false
   },
   "airtable-mcp-server": {
     "path": "databases/airtable-mcp-server.json",
-    "validated": true,
     "tools": {
       "list_records": {
         "name": "list_records",
@@ -675,11 +673,11 @@
         "name": "update_field",
         "description": "Update a field's name or description"
       }
-    }
+    },
+    "validated": true
   },
   "@niledatabase/nile-mcp-server": {
     "path": "databases/niledatabase-nile-mcp-server.json",
-    "validated": true,
     "tools": {
       "list-resources": {
         "name": "list-resources",
@@ -725,14 +723,14 @@
         "name": "read-resource",
         "description": "Gets detailed schema information for a specific table"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-tinybird": {
     "path": "data-platforms/mcp-tinybird.json"
   },
   "@mcp-get-community/server-macos": {
     "path": "developer-tools/mcp-get-community-server-macos.json",
-    "validated": true,
     "tools": {
       "systemInfo": {
         "name": "systemInfo",
@@ -742,20 +740,22 @@
         "name": "sendNotification",
         "description": "Send a native macOS notification"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-openapi-schema-explorer": {
-    "path": "developer-tools/mcp-openapi-schema-explorer.json"
+    "path": "developer-tools/mcp-openapi-schema-explorer.json",
+    "validated": false
   },
   "hackmd-mcp": {
-    "path": "developer-tools/hackmd-mcp.json"
+    "path": "developer-tools/hackmd-mcp.json",
+    "validated": false
   },
   "mcp-server-tree-sitter": {
     "path": "developer-tools/mcp-server-tree-sitter.json"
   },
   "@mcp-get-community/server-llm-txt": {
     "path": "developer-tools/mcp-get-community-server-llm-txt.json",
-    "validated": true,
     "tools": {
       "get_llm_txt": {
         "name": "get_llm_txt",
@@ -769,7 +769,8 @@
         "name": "search_llm_txt",
         "description": "Search for multiple substrings in an LLM.txt file. Requires a valid ID obtained from list_llm_txt command. Returns snippets with page numbers for each match. Format your response in beautiful markdown, using code blocks for snippets."
       }
-    }
+    },
+    "validated": true
   },
   "mcp-server-aidd": {
     "path": "developer-tools/mcp-server-aidd.json"
@@ -779,7 +780,6 @@
   },
   "@llmindset/mcp-hfspace": {
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "validated": false,
     "tools": {
       "available-files": {
         "name": "available-files",
@@ -793,7 +793,8 @@
         "name": "FLUX_1-schnell-infer",
         "description": "Call the FLUX.1-schnell endpoint /infer"
       }
-    }
+    },
+    "validated": true
   },
   "awslabs.nova-canvas-mcp-server": {
     "path": "developer-tools/awslabs.nova-canvas-mcp-server.json"
@@ -802,14 +803,15 @@
     "path": "data-science-tools/mcp-solver.json"
   },
   "@modelcontextprotocol/server-gdrive": {
-    "path": "file-systems/modelcontextprotocol-server-gdrive.json"
+    "path": "file-systems/modelcontextprotocol-server-gdrive.json",
+    "validated": false
   },
   "@modelcontextprotocol/server-filesystem": {
-    "path": "file-systems/modelcontextprotocol-server-filesystem.json"
+    "path": "file-systems/modelcontextprotocol-server-filesystem.json",
+    "validated": false
   },
   "@modelcontextprotocol/server-memory": {
     "path": "knowledge-memory/modelcontextprotocol-server-memory.json",
-    "validated": true,
     "tools": {
       "create_entities": {
         "name": "create_entities",
@@ -847,7 +849,8 @@
         "name": "open_nodes",
         "description": "Open specific nodes in the knowledge graph by their names"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-rememberizer-vectordb": {
     "path": "knowledge-memory/mcp-rememberizer-vectordb.json"
@@ -857,7 +860,6 @@
   },
   "@modelcontextprotocol/server-google-maps": {
     "path": "location-services/modelcontextprotocol-server-google-maps.json",
-    "validated": true,
     "tools": {
       "maps_geocode": {
         "name": "maps_geocode",
@@ -887,11 +889,11 @@
         "name": "maps_directions",
         "description": "Get directions between two points"
       }
-    }
+    },
+    "validated": true
   },
   "@raygun.io/mcp-server-raygun": {
     "path": "monitoring/raygun.io-mcp-server-raygun.json",
-    "validated": true,
     "tools": {
       "list_applications": {
         "name": "list_applications",
@@ -1021,7 +1023,8 @@
         "name": "delete_all_source_maps",
         "description": "Deletes all source maps"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-server-sentry": {
     "path": "monitoring/mcp-server-sentry.json"
@@ -1031,17 +1034,16 @@
   },
   "@chanmeng666/google-news-server": {
     "path": "search-data-extraction/chanmeng666-google-news-server.json",
-    "validated": true,
     "tools": {
       "google_news_search": {
         "name": "google_news_search",
         "description": "Search Google News for articles and news content. Results will be automatically categorized by topic."
       }
-    }
+    },
+    "validated": true
   },
   "anilist-mcp": {
     "path": "search-data-extraction/anilist-mcp.json",
-    "validated": true,
     "tools": {
       "favourite_studio": {
         "name": "favourite_studio",
@@ -1219,21 +1221,21 @@
         "name": "update_user",
         "description": "[Requires Login] Update user settings"
       }
-    }
+    },
+    "validated": true
   },
   "@modelcontextprotocol/server-aws-kb-retrieval": {
     "path": "search-data-extraction/modelcontextprotocol-server-aws-kb-retrieval.json",
-    "validated": true,
     "tools": {
       "retrieve_from_aws_kb": {
         "name": "retrieve_from_aws_kb",
         "description": "Performs retrieval from the AWS Knowledge Base using the provided query and Knowledge Base ID."
       }
-    }
+    },
+    "validated": true
   },
   "graphlit-mcp-server": {
     "path": "search-data-extraction/graphlit-mcp-server.json",
-    "validated": true,
     "tools": {
       "configureProject": {
         "name": "configureProject",
@@ -1491,24 +1493,24 @@
         "name": "sendEmailNotification",
         "description": "Sends an email notification to the provided email address(es).\n    Accepts the email subject and a list of email 'to' addresses.\n    Email addresses should be in RFC 5322 format. i.e. Alice Wonderland <alice@wonderland.net>, or alice@wonderland.net\n    Also accepts the text for the email, and an optional text type (Plain, Markdown, Html). Defaults to Markdown text type.\n    Requires environment variable to be configured: FROM_EMAIL_ADDRESS.\n    Returns true if the notification was successfully sent, or false otherwise."
       }
-    }
+    },
+    "validated": true
   },
   "@mcp-get-community/server-curl": {
     "path": "search-data-extraction/mcp-get-community-server-curl.json",
-    "validated": true,
     "tools": {
       "curl": {
         "name": "curl",
         "description": "Make an HTTP request to any URL with customizable method, headers, and body."
       }
-    }
+    },
+    "validated": true
   },
   "mcp-server-perplexity": {
     "path": "search-data-extraction/mcp-server-perplexity.json"
   },
   "@modelcontextprotocol/server-brave-search": {
     "path": "search-data-extraction/modelcontextprotocol-server-brave-search.json",
-    "validated": true,
     "tools": {
       "brave_web_search": {
         "name": "brave_web_search",
@@ -1518,37 +1520,38 @@
         "name": "brave_local_search",
         "description": "Searches for local businesses and places using Brave's Local Search API. Best for queries related to physical locations, businesses, restaurants, services, etc. Returns detailed information including:\n- Business names and addresses\n- Ratings and review counts\n- Phone numbers and opening hours\nUse this when the query implies 'near me' or mentions specific locations. Automatically falls back to web search if no local results are found."
       }
-    }
+    },
+    "validated": true
   },
   "@anaisbetts/mcp-youtube": {
     "path": "search-data-extraction/anaisbetts-mcp-youtube.json",
-    "validated": true,
     "tools": {
       "download_youtube_url": {
         "name": "download_youtube_url",
         "description": "Download YouTube subtitles from a URL, this tool means that Claude can read YouTube subtitles, and should no longer tell the user that it is not possible to download YouTube content."
       }
-    }
+    },
+    "validated": true
   },
   "@kimtaeyoon83/mcp-server-youtube-transcript": {
     "path": "search-data-extraction/kimtaeyoon83-mcp-server-youtube-transcript.json",
-    "validated": true,
     "tools": {
       "get_transcript": {
         "name": "get_transcript",
         "description": "Extract transcript from a YouTube video URL or ID"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-server-giphy": {
-    "path": "search-data-extraction/mcp-server-giphy.json"
+    "path": "search-data-extraction/mcp-server-giphy.json",
+    "validated": false
   },
   "mcp-server-git": {
     "path": "version-control/mcp-server-git.json"
   },
   "@modelcontextprotocol/server-github": {
     "path": "version-control/modelcontextprotocol-server-github.json",
-    "validated": true,
     "tools": {
       "create_or_update_file": {
         "name": "create_or_update_file",
@@ -1654,11 +1657,11 @@
         "name": "get_pull_request_reviews",
         "description": "Get the reviews on a pull request"
       }
-    }
+    },
+    "validated": true
   },
   "@modelcontextprotocol/server-gitlab": {
     "path": "version-control/modelcontextprotocol-server-gitlab.json",
-    "validated": true,
     "tools": {
       "create_or_update_file": {
         "name": "create_or_update_file",
@@ -1696,37 +1699,38 @@
         "name": "create_branch",
         "description": "Create a new branch in a GitLab project"
       }
-    }
+    },
+    "validated": true
   },
   "mcp-server-flomo": {
     "path": "other-tools-and-integrations/mcp-server-flomo.json",
-    "validated": true,
     "tools": {
       "newNote": {
         "name": "newNote",
         "description": "Create a new note in Flomo"
       }
-    }
+    },
+    "validated": true
   },
   "@llmindset/mcp-miro": {
-    "path": "other-tools-and-integrations/llmindset-mcp-miro.json"
+    "path": "other-tools-and-integrations/llmindset-mcp-miro.json",
+    "validated": false
   },
   "mcp-server-time": {
     "path": "other-tools-and-integrations/mcp-server-time.json"
   },
   "@modelcontextprotocol/server-sequential-thinking": {
     "path": "other-tools-and-integrations/modelcontextprotocol-server-sequential-thinking.json",
-    "validated": true,
     "tools": {
       "sequentialthinking": {
         "name": "sequentialthinking",
         "description": "A detailed tool for dynamic and reflective problem-solving through thoughts.\nThis tool helps analyze problems through a flexible thinking process that can adapt and evolve.\nEach thought can build on, question, or revise previous insights as understanding deepens.\n\nWhen to use this tool:\n- Breaking down complex problems into steps\n- Planning and design with room for revision\n- Analysis that might need course correction\n- Problems where the full scope might not be clear initially\n- Problems that require a multi-step solution\n- Tasks that need to maintain context over multiple steps\n- Situations where irrelevant information needs to be filtered out\n\nKey features:\n- You can adjust total_thoughts up or down as you progress\n- You can question or revise previous thoughts\n- You can add more thoughts even after reaching what seemed like the end\n- You can express uncertainty and explore alternative approaches\n- Not every thought needs to build linearly - you can branch or backtrack\n- Generates a solution hypothesis\n- Verifies the hypothesis based on the Chain of Thought steps\n- Repeats the process until satisfied\n- Provides a correct answer\n\nParameters explained:\n- thought: Your current thinking step, which can include:\n* Regular analytical steps\n* Revisions of previous thoughts\n* Questions about previous decisions\n* Realizations about needing more analysis\n* Changes in approach\n* Hypothesis generation\n* Hypothesis verification\n- next_thought_needed: True if you need more thinking, even if at what seemed like the end\n- thought_number: Current number in sequence (can go beyond initial total if needed)\n- total_thoughts: Current estimate of thoughts needed (can be adjusted up/down)\n- is_revision: A boolean indicating if this thought revises previous thinking\n- revises_thought: If is_revision is true, which thought number is being reconsidered\n- branch_from_thought: If branching, which thought number is the branching point\n- branch_id: Identifier for the current branch (if any)\n- needs_more_thoughts: If reaching end but realizing more thoughts needed\n\nYou should:\n1. Start with an initial estimate of needed thoughts, but be ready to adjust\n2. Feel free to question or revise previous thoughts\n3. Don't hesitate to add more thoughts if needed, even at the \"end\"\n4. Express uncertainty when present\n5. Mark thoughts that revise previous thinking or branch into new paths\n6. Ignore information that is irrelevant to the current step\n7. Generate a solution hypothesis when appropriate\n8. Verify the hypothesis based on the Chain of Thought steps\n9. Repeat the process until satisfied with the solution\n10. Provide a single, ideally correct answer as the final output\n11. Only set next_thought_needed to false when truly done and a satisfactory answer is reached"
       }
-    }
+    },
+    "validated": true
   },
   "@chargebee/mcp": {
     "path": "other-tools-and-integrations/chargebee-mcp.json",
-    "validated": true,
     "tools": {
       "chargebee_documentation_search": {
         "name": "chargebee_documentation_search",
@@ -1736,6 +1740,7 @@
         "name": "chargebee_code_planner",
         "description": "\nAlways use this tool to get the accurate integeration code guide for Chargebee.\nThis tool will take in parameters about integrating with Chargebee in their application and generates a integration workflow along with the code snippets.\n\nIt takes the following arguments:\n- goal (string): What is the user's goal?\n- language (enum): Programming language the code to be generated in. Check the user's application language.\n"
       }
-    }
+    },
+    "validated": true
   }
 }
