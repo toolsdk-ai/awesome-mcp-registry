@@ -30,15 +30,18 @@ async function main() {
             description: toolItem.description || '',
           }
         }
-        typedAllPackagesList[packageKey].tools = saveTools;
-        typedAllPackagesList[packageKey].validated = true;
 
         // close the mcp client
         if (mcpClient) {
           await mcpClient.closeConnection();
         }
+
+        typedAllPackagesList[packageKey].tools = saveTools;
+        typedAllPackagesList[packageKey].validated = true;
+
       } catch (e) {
         console.error(`Error reading MCP Client for package: ${packageKey} ${value.path}`, e);
+        typedAllPackagesList[packageKey].validated = false;
       } finally {
         //
       }
