@@ -10,5 +10,21 @@ export default [
   "@modelcontextprotocol/server-brave-search",
   "@modelcontextprotocol/server-everart",
   "@modelcontextprotocol/server-slack",
-  "@modelcontextprotocol/server-google-maps"
+  "@modelcontextprotocol/server-google-maps",
+  "@modelcontextprotocol/server-gitlab",
+  "tavily-mcp",
+  "@executeautomation/playwright-mcp-server",
+  "hyperbrowser-mcp",
+  "@enescinar/twitter-mcp",
+  "@marcopesani/mcp-server-serper",
+  "@shinzo-labs/coinmarketcap-mcp",
+  "graphlit-mcp-server",
+  "@kazuph/mcp-screenshot",
+  "@raygun.io/mcp-server-raygun",
+  "mcp-server-stability-ai",
+  "@chargebee/mcp",
+  "@modelcontextprotocol/server-memory",
+  "@anaisbetts/mcp-youtube",
+  "@kimtaeyoon83/mcp-server-youtube-transcript",
+  "@upstash/context7-mcp"
 ];
