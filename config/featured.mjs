@@ -16,8 +16,6 @@ export default [
   "@executeautomation/playwright-mcp-server",
   "hyperbrowser-mcp",
   "@enescinar/twitter-mcp",
-  "@marcopesani/mcp-server-serper",
-  "@shinzo-labs/coinmarketcap-mcp",
   "graphlit-mcp-server",
   "@kazuph/mcp-screenshot",
   "@raygun.io/mcp-server-raygun",
@@ -25,6 +23,5 @@ export default [
   "@chargebee/mcp",
   "@modelcontextprotocol/server-memory",
   "@anaisbetts/mcp-youtube",
-  "@kimtaeyoon83/mcp-server-youtube-transcript",
-  "@upstash/context7-mcp"
+  "@kimtaeyoon83/mcp-server-youtube-transcript"
 ];
