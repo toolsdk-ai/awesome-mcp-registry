@@ -1,4 +1,7 @@
 {
+  "@URDJMK/serpapi-mcp-server": {
+    "path": "uncategorized/serpapi-mcp-server.json"
+  },
   "@kazuph/mcp-screenshot": {
     "path": "uncategorized/kazuph-mcp-screenshot.json",
     "tools": {
@@ -8,9 +11,6 @@
       }
     },
     "validated": true
-  },
-  "@URDJMK/serpapi-mcp-server": {
-    "path": "uncategorized/serpapi-mcp-server.json"
   },
   "@modelcontextprotocol/server-everything": {
     "path": "aggregators/modelcontextprotocol-server-everything.json",
@@ -112,6 +112,135 @@
       }
     },
     "validated": true
+  },
+  "@automatalabs/mcp-server-playwright": {
+    "path": "browser-automation/automatalabs-mcp-server-playwright.json",
+    "tools": {
+      "browser_navigate": {
+        "name": "browser_navigate",
+        "description": "Navigate to a URL"
+      },
+      "browser_screenshot": {
+        "name": "browser_screenshot",
+        "description": "Take a screenshot of the current page or a specific element"
+      },
+      "browser_click": {
+        "name": "browser_click",
+        "description": "Click an element on the page using CSS selector"
+      },
+      "browser_click_text": {
+        "name": "browser_click_text",
+        "description": "Click an element on the page by its text content"
+      },
+      "browser_fill": {
+        "name": "browser_fill",
+        "description": "Fill out an input field"
+      },
+      "browser_select": {
+        "name": "browser_select",
+        "description": "Select an element on the page with Select tag using CSS selector"
+      },
+      "browser_select_text": {
+        "name": "browser_select_text",
+        "description": "Select an element on the page with Select tag by its text content"
+      },
+      "browser_hover": {
+        "name": "browser_hover",
+        "description": "Hover an element on the page using CSS selector"
+      },
+      "browser_hover_text": {
+        "name": "browser_hover_text",
+        "description": "Hover an element on the page by its text content"
+      },
+      "browser_evaluate": {
+        "name": "browser_evaluate",
+        "description": "Execute JavaScript in the browser console"
+      }
+    },
+    "validated": true
+  },
+  "hyperbrowser-mcp": {
+    "path": "browser-automation/hyperbrowser-mcp.json",
+    "tools": {
+      "scrape_webpage": {
+        "name": "scrape_webpage",
+        "description": "Scrape a webpage and extract its content in various formats. This tool allows fetching content from a single URL with configurable browser behavior options. Use this for extracting text content, HTML structure, collecting links, or capturing screenshots of webpages."
+      },
+      "crawl_webpages": {
+        "name": "crawl_webpages",
+        "description": "Crawl a website starting from a URL and explore linked pages. This tool allows systematic collection of content from multiple pages within a domain. Use this for larger data collection tasks, content indexing, or site mapping."
+      },
+      "extract_structured_data": {
+        "name": "extract_structured_data",
+        "description": "Extract structured data from a webpage. This tool allows you to extract structured data from a webpage using a schema."
+      },
+      "browser_use_agent": {
+        "name": "browser_use_agent",
+        "description": "This tool employs an open-source browser automation agent optimized specifically for fast, efficient, and cost-effective browser tasks using a cloud browser. It requires explicit, detailed instructions to perform highly specific interactions quickly.\n\nOptimal for tasks requiring:\n- Precise, explicitly defined interactions and actions\n- Speed and efficiency with clear, unambiguous instructions\n- Cost-effective automation at scale with straightforward workflows\n\nBest suited use cases include:\n- Explicitly defined registration and login processes\n- Clearly guided navigation through web apps\n- Structured, step-by-step web scraping with detailed guidance\n- Extracting data via explicitly specified browser interactions\n\nYou must provide extremely detailed step-by-step instructions, including exact elements, actions, and explicit context. Clearly define the desired outcome for optimal results. Returns the completed result or an error message if issues arise.\n\nNote: This agent trades off flexibility for significantly faster performance and lower costs compared to Claude and OpenAI agents."
+      },
+      "openai_computer_use_agent": {
+        "name": "openai_computer_use_agent",
+        "description": "This tool utilizes OpenAI's model to autonomously execute general-purpose browser-based tasks with balanced performance and reliability using a cloud browser. It handles complex interactions effectively with practical reasoning and clear execution.\n\nOptimal for tasks requiring:\n- Reliable, general-purpose browser automation\n- Clear, structured interactions with moderate complexity\n- Efficient handling of common web tasks and workflows\n\nBest suited use cases include:\n- Standard multi-step registration or form submissions\n- Navigating typical web applications requiring multiple interactions\n- Conducting structured web research tasks\n- Extracting data through interactive web processes\n\nProvide a clear step-by-step description, necessary context, and expected outcomes. Returns the completed result or an error message if issues arise."
+      },
+      "claude_computer_use_agent": {
+        "name": "claude_computer_use_agent",
+        "description": "This tool leverages Anthropic's Claude model to autonomously execute complex browser tasks with sophisticated reasoning capabilities using a cloud browser. It specializes in handling intricate, nuanced, or highly context-sensitive web interactions.\n\nOptimal for tasks requiring:\n- Complex reasoning over multiple web pages\n- Nuanced interpretation and flexible decision-making\n- Human-like interaction with detailed context awareness\n\nBest suited use cases include:\n- Multi-step processes requiring reasoning (e.g., detailed registrations or onboarding)\n- Interacting intelligently with advanced web apps\n- Conducting in-depth research with complex conditions\n- Extracting information from dynamic or interactive websites\n\nProvide detailed task instructions, relevant context, and clearly specify the desired outcome for best results. Returns the completed result or an error message if issues arise."
+      },
+      "search_with_bing": {
+        "name": "search_with_bing",
+        "description": "Search the web using Bing. This tool allows you to search the web using bing.com"
+      },
+      "create_profile": {
+        "name": "create_profile",
+        "description": "Creates a new persistent Hyperbrowser profile."
+      },
+      "delete_profile": {
+        "name": "delete_profile",
+        "description": "Deletes an existing persistent Hyperbrowser profile."
+      },
+      "list_profiles": {
+        "name": "list_profiles",
+        "description": "Lists existing persistent Hyperbrowser profiles, with optional pagination."
+      }
+    },
+    "validated": true
+  },
+  "@modelcontextprotocol/server-puppeteer": {
+    "path": "browser-automation/modelcontextprotocol-server-puppeteer.json",
+    "tools": {
+      "puppeteer_navigate": {
+        "name": "puppeteer_navigate",
+        "description": "Navigate to a URL"
+      },
+      "puppeteer_screenshot": {
+        "name": "puppeteer_screenshot",
+        "description": "Take a screenshot of the current page or a specific element"
+      },
+      "puppeteer_click": {
+        "name": "puppeteer_click",
+        "description": "Click an element on the page"
+      },
+      "puppeteer_fill": {
+        "name": "puppeteer_fill",
+        "description": "Fill out an input field"
+      },
+      "puppeteer_select": {
+        "name": "puppeteer_select",
+        "description": "Select an element on the page with Select tag"
+      },
+      "puppeteer_hover": {
+        "name": "puppeteer_hover",
+        "description": "Hover an element on the page"
+      },
+      "puppeteer_evaluate": {
+        "name": "puppeteer_evaluate",
+        "description": "Execute JavaScript in the browser console"
+      }
+    },
+    "validated": true
+  },
+  "mcp-server-fetch": {
+    "path": "browser-automation/mcp-server-fetch.json"
   },
   "@executeautomation/playwright-mcp-server": {
     "path": "browser-automation/executeautomation-playwright-mcp-server.json",
@@ -239,135 +368,6 @@
       "playwright_click_and_switch_tab": {
         "name": "playwright_click_and_switch_tab",
         "description": "Click a link and switch to the newly opened tab"
-      }
-    },
-    "validated": true
-  },
-  "@automatalabs/mcp-server-playwright": {
-    "path": "browser-automation/automatalabs-mcp-server-playwright.json",
-    "tools": {
-      "browser_navigate": {
-        "name": "browser_navigate",
-        "description": "Navigate to a URL"
-      },
-      "browser_screenshot": {
-        "name": "browser_screenshot",
-        "description": "Take a screenshot of the current page or a specific element"
-      },
-      "browser_click": {
-        "name": "browser_click",
-        "description": "Click an element on the page using CSS selector"
-      },
-      "browser_click_text": {
-        "name": "browser_click_text",
-        "description": "Click an element on the page by its text content"
-      },
-      "browser_fill": {
-        "name": "browser_fill",
-        "description": "Fill out an input field"
-      },
-      "browser_select": {
-        "name": "browser_select",
-        "description": "Select an element on the page with Select tag using CSS selector"
-      },
-      "browser_select_text": {
-        "name": "browser_select_text",
-        "description": "Select an element on the page with Select tag by its text content"
-      },
-      "browser_hover": {
-        "name": "browser_hover",
-        "description": "Hover an element on the page using CSS selector"
-      },
-      "browser_hover_text": {
-        "name": "browser_hover_text",
-        "description": "Hover an element on the page by its text content"
-      },
-      "browser_evaluate": {
-        "name": "browser_evaluate",
-        "description": "Execute JavaScript in the browser console"
-      }
-    },
-    "validated": true
-  },
-  "hyperbrowser-mcp": {
-    "path": "browser-automation/hyperbrowser-mcp.json",
-    "tools": {
-      "scrape_webpage": {
-        "name": "scrape_webpage",
-        "description": "Scrape a webpage and extract its content in various formats. This tool allows fetching content from a single URL with configurable browser behavior options. Use this for extracting text content, HTML structure, collecting links, or capturing screenshots of webpages."
-      },
-      "crawl_webpages": {
-        "name": "crawl_webpages",
-        "description": "Crawl a website starting from a URL and explore linked pages. This tool allows systematic collection of content from multiple pages within a domain. Use this for larger data collection tasks, content indexing, or site mapping."
-      },
-      "extract_structured_data": {
-        "name": "extract_structured_data",
-        "description": "Extract structured data from a webpage. This tool allows you to extract structured data from a webpage using a schema."
-      },
-      "browser_use_agent": {
-        "name": "browser_use_agent",
-        "description": "This tool employs an open-source browser automation agent optimized specifically for fast, efficient, and cost-effective browser tasks using a cloud browser. It requires explicit, detailed instructions to perform highly specific interactions quickly.\n\nOptimal for tasks requiring:\n- Precise, explicitly defined interactions and actions\n- Speed and efficiency with clear, unambiguous instructions\n- Cost-effective automation at scale with straightforward workflows\n\nBest suited use cases include:\n- Explicitly defined registration and login processes\n- Clearly guided navigation through web apps\n- Structured, step-by-step web scraping with detailed guidance\n- Extracting data via explicitly specified browser interactions\n\nYou must provide extremely detailed step-by-step instructions, including exact elements, actions, and explicit context. Clearly define the desired outcome for optimal results. Returns the completed result or an error message if issues arise.\n\nNote: This agent trades off flexibility for significantly faster performance and lower costs compared to Claude and OpenAI agents."
-      },
-      "openai_computer_use_agent": {
-        "name": "openai_computer_use_agent",
-        "description": "This tool utilizes OpenAI's model to autonomously execute general-purpose browser-based tasks with balanced performance and reliability using a cloud browser. It handles complex interactions effectively with practical reasoning and clear execution.\n\nOptimal for tasks requiring:\n- Reliable, general-purpose browser automation\n- Clear, structured interactions with moderate complexity\n- Efficient handling of common web tasks and workflows\n\nBest suited use cases include:\n- Standard multi-step registration or form submissions\n- Navigating typical web applications requiring multiple interactions\n- Conducting structured web research tasks\n- Extracting data through interactive web processes\n\nProvide a clear step-by-step description, necessary context, and expected outcomes. Returns the completed result or an error message if issues arise."
-      },
-      "claude_computer_use_agent": {
-        "name": "claude_computer_use_agent",
-        "description": "This tool leverages Anthropic's Claude model to autonomously execute complex browser tasks with sophisticated reasoning capabilities using a cloud browser. It specializes in handling intricate, nuanced, or highly context-sensitive web interactions.\n\nOptimal for tasks requiring:\n- Complex reasoning over multiple web pages\n- Nuanced interpretation and flexible decision-making\n- Human-like interaction with detailed context awareness\n\nBest suited use cases include:\n- Multi-step processes requiring reasoning (e.g., detailed registrations or onboarding)\n- Interacting intelligently with advanced web apps\n- Conducting in-depth research with complex conditions\n- Extracting information from dynamic or interactive websites\n\nProvide detailed task instructions, relevant context, and clearly specify the desired outcome for best results. Returns the completed result or an error message if issues arise."
-      },
-      "search_with_bing": {
-        "name": "search_with_bing",
-        "description": "Search the web using Bing. This tool allows you to search the web using bing.com"
-      },
-      "create_profile": {
-        "name": "create_profile",
-        "description": "Creates a new persistent Hyperbrowser profile."
-      },
-      "delete_profile": {
-        "name": "delete_profile",
-        "description": "Deletes an existing persistent Hyperbrowser profile."
-      },
-      "list_profiles": {
-        "name": "list_profiles",
-        "description": "Lists existing persistent Hyperbrowser profiles, with optional pagination."
-      }
-    },
-    "validated": true
-  },
-  "mcp-server-fetch": {
-    "path": "browser-automation/mcp-server-fetch.json"
-  },
-  "@modelcontextprotocol/server-puppeteer": {
-    "path": "browser-automation/modelcontextprotocol-server-puppeteer.json",
-    "tools": {
-      "puppeteer_navigate": {
-        "name": "puppeteer_navigate",
-        "description": "Navigate to a URL"
-      },
-      "puppeteer_screenshot": {
-        "name": "puppeteer_screenshot",
-        "description": "Take a screenshot of the current page or a specific element"
-      },
-      "puppeteer_click": {
-        "name": "puppeteer_click",
-        "description": "Click an element on the page"
-      },
-      "puppeteer_fill": {
-        "name": "puppeteer_fill",
-        "description": "Fill out an input field"
-      },
-      "puppeteer_select": {
-        "name": "puppeteer_select",
-        "description": "Select an element on the page with Select tag"
-      },
-      "puppeteer_hover": {
-        "name": "puppeteer_hover",
-        "description": "Hover an element on the page"
-      },
-      "puppeteer_evaluate": {
-        "name": "puppeteer_evaluate",
-        "description": "Execute JavaScript in the browser console"
       }
     },
     "validated": true
@@ -529,22 +529,22 @@
   "mcp-server-make": {
     "path": "code-execution/mcp-server-make.json"
   },
-  "mcp-server-commands": {
-    "path": "command-line/mcp-server-commands.json",
-    "tools": {
-      "run_command": {
-        "name": "run_command",
-        "description": "Run a command on this linux machine"
-      }
-    },
-    "validated": true
-  },
   "mcp-shell": {
     "path": "command-line/mcp-shell.json",
     "tools": {
       "run_command": {
         "name": "run_command",
         "description": "Run a shell command"
+      }
+    },
+    "validated": true
+  },
+  "mcp-server-commands": {
+    "path": "command-line/mcp-server-commands.json",
+    "tools": {
+      "run_command": {
+        "name": "run_command",
+        "description": "Run a command on this linux machine"
       }
     },
     "validated": true
@@ -606,23 +606,63 @@
     },
     "validated": true
   },
-  "mcp-mongo-server": {
-    "path": "databases/mcp-mongo-server.json",
+  "@benborla29/mcp-server-mysql": {
+    "path": "databases/benborla29-mcp-server-mysql.json",
     "tools": {},
     "validated": false
   },
   "mcp-server-sqlite": {
     "path": "databases/mcp-server-sqlite.json"
   },
-  "@modelcontextprotocol/server-postgres": {
-    "path": "databases/modelcontextprotocol-server-postgres.json",
-    "tools": {},
-    "validated": false
-  },
-  "@benborla29/mcp-server-mysql": {
-    "path": "databases/benborla29-mcp-server-mysql.json",
-    "tools": {},
-    "validated": false
+  "@niledatabase/nile-mcp-server": {
+    "path": "databases/niledatabase-nile-mcp-server.json",
+    "tools": {
+      "list-resources": {
+        "name": "list-resources",
+        "description": "Lists all tables and their descriptions in the specified database"
+      },
+      "create-database": {
+        "name": "create-database",
+        "description": "Creates a new Nile database"
+      },
+      "list-databases": {
+        "name": "list-databases",
+        "description": "Lists all databases in the workspace"
+      },
+      "get-database": {
+        "name": "get-database",
+        "description": "Gets details of a specific database"
+      },
+      "delete-database": {
+        "name": "delete-database",
+        "description": "Deletes a database"
+      },
+      "get-connection-string": {
+        "name": "get-connection-string",
+        "description": "Gets a PostgreSQL connection string with fresh credentials"
+      },
+      "execute-sql": {
+        "name": "execute-sql",
+        "description": "Executes a SQL query on a Nile database"
+      },
+      "create-tenant": {
+        "name": "create-tenant",
+        "description": "Creates a new tenant in the specified database"
+      },
+      "delete-tenant": {
+        "name": "delete-tenant",
+        "description": "Deletes a tenant from the specified database"
+      },
+      "list-tenants": {
+        "name": "list-tenants",
+        "description": "Lists all tenants in the specified database"
+      },
+      "read-resource": {
+        "name": "read-resource",
+        "description": "Gets detailed schema information for a specific table"
+      }
+    },
+    "validated": true
   },
   "airtable-mcp-server": {
     "path": "databases/airtable-mcp-server.json",
@@ -682,55 +722,15 @@
     },
     "validated": true
   },
-  "@niledatabase/nile-mcp-server": {
-    "path": "databases/niledatabase-nile-mcp-server.json",
-    "tools": {
-      "list-resources": {
-        "name": "list-resources",
-        "description": "Lists all tables and their descriptions in the specified database"
-      },
-      "create-database": {
-        "name": "create-database",
-        "description": "Creates a new Nile database"
-      },
-      "list-databases": {
-        "name": "list-databases",
-        "description": "Lists all databases in the workspace"
-      },
-      "get-database": {
-        "name": "get-database",
-        "description": "Gets details of a specific database"
-      },
-      "delete-database": {
-        "name": "delete-database",
-        "description": "Deletes a database"
-      },
-      "get-connection-string": {
-        "name": "get-connection-string",
-        "description": "Gets a PostgreSQL connection string with fresh credentials"
-      },
-      "execute-sql": {
-        "name": "execute-sql",
-        "description": "Executes a SQL query on a Nile database"
-      },
-      "create-tenant": {
-        "name": "create-tenant",
-        "description": "Creates a new tenant in the specified database"
-      },
-      "delete-tenant": {
-        "name": "delete-tenant",
-        "description": "Deletes a tenant from the specified database"
-      },
-      "list-tenants": {
-        "name": "list-tenants",
-        "description": "Lists all tenants in the specified database"
-      },
-      "read-resource": {
-        "name": "read-resource",
-        "description": "Gets detailed schema information for a specific table"
-      }
-    },
-    "validated": true
+  "@modelcontextprotocol/server-postgres": {
+    "path": "databases/modelcontextprotocol-server-postgres.json",
+    "tools": {},
+    "validated": false
+  },
+  "mcp-mongo-server": {
+    "path": "databases/mcp-mongo-server.json",
+    "tools": {},
+    "validated": false
   },
   "mcp-tinybird": {
     "path": "data-platforms/mcp-tinybird.json"
@@ -748,19 +748,6 @@
       }
     },
     "validated": true
-  },
-  "mcp-openapi-schema-explorer": {
-    "path": "developer-tools/mcp-openapi-schema-explorer.json",
-    "tools": {},
-    "validated": false
-  },
-  "hackmd-mcp": {
-    "path": "developer-tools/hackmd-mcp.json",
-    "tools": {},
-    "validated": false
-  },
-  "mcp-server-tree-sitter": {
-    "path": "developer-tools/mcp-server-tree-sitter.json"
   },
   "@mcp-get-community/server-llm-txt": {
     "path": "developer-tools/mcp-get-community-server-llm-txt.json",
@@ -780,8 +767,10 @@
     },
     "validated": true
   },
-  "mcp-server-aidd": {
-    "path": "developer-tools/mcp-server-aidd.json"
+  "mcp-openapi-schema-explorer": {
+    "path": "developer-tools/mcp-openapi-schema-explorer.json",
+    "tools": {},
+    "validated": false
   },
   "docker-mcp": {
     "path": "developer-tools/docker-mcp.json"
@@ -804,21 +793,38 @@
     },
     "validated": true
   },
+  "hackmd-mcp": {
+    "path": "developer-tools/hackmd-mcp.json",
+    "tools": {},
+    "validated": false
+  },
+  "mcp-server-aidd": {
+    "path": "developer-tools/mcp-server-aidd.json"
+  },
+  "mcp-server-tree-sitter": {
+    "path": "developer-tools/mcp-server-tree-sitter.json"
+  },
   "awslabs.nova-canvas-mcp-server": {
     "path": "developer-tools/awslabs.nova-canvas-mcp-server.json"
   },
   "mcp-solver": {
     "path": "data-science-tools/mcp-solver.json"
   },
+  "@modelcontextprotocol/server-filesystem": {
+    "path": "file-systems/modelcontextprotocol-server-filesystem.json",
+    "tools": {},
+    "validated": false
+  },
   "@modelcontextprotocol/server-gdrive": {
     "path": "file-systems/modelcontextprotocol-server-gdrive.json",
     "tools": {},
     "validated": false
   },
-  "@modelcontextprotocol/server-filesystem": {
-    "path": "file-systems/modelcontextprotocol-server-filesystem.json",
-    "tools": {},
-    "validated": false
+  "mcp-server-rememberizer": {
+    "path": "knowledge-memory/mcp-server-rememberizer.json"
+  },
+  "mcp-rememberizer-vectordb": {
+    "path": "knowledge-memory/mcp-rememberizer-vectordb.json"
   },
   "@modelcontextprotocol/server-memory": {
     "path": "knowledge-memory/modelcontextprotocol-server-memory.json",
@@ -862,12 +868,6 @@
     },
     "validated": true
   },
-  "mcp-rememberizer-vectordb": {
-    "path": "knowledge-memory/mcp-rememberizer-vectordb.json"
-  },
-  "mcp-server-rememberizer": {
-    "path": "knowledge-memory/mcp-server-rememberizer.json"
-  },
   "@modelcontextprotocol/server-google-maps": {
     "path": "location-services/modelcontextprotocol-server-google-maps.json",
     "tools": {
@@ -901,6 +901,9 @@
       }
     },
     "validated": true
+  },
+  "mcp-server-sentry": {
+    "path": "monitoring/mcp-server-sentry.json"
   },
   "@raygun.io/mcp-server-raygun": {
     "path": "monitoring/raygun.io-mcp-server-raygun.json",
@@ -1036,21 +1039,10 @@
     },
     "validated": true
   },
-  "mcp-server-sentry": {
-    "path": "monitoring/mcp-server-sentry.json"
-  },
-  "qanon_mcp": {
-    "path": "search-data-extraction/qanon_mcp.json"
-  },
-  "@chanmeng666/google-news-server": {
-    "path": "search-data-extraction/chanmeng666-google-news-server.json",
-    "tools": {
-      "google_news_search": {
-        "name": "google_news_search",
-        "description": "Search Google News for articles and news content. Results will be automatically categorized by topic."
-      }
-    },
-    "validated": true
+  "mcp-server-giphy": {
+    "path": "search-data-extraction/mcp-server-giphy.json",
+    "tools": {},
+    "validated": false
   },
   "anilist-mcp": {
     "path": "search-data-extraction/anilist-mcp.json",
@@ -1234,12 +1226,42 @@
     },
     "validated": true
   },
+  "@anaisbetts/mcp-youtube": {
+    "path": "search-data-extraction/anaisbetts-mcp-youtube.json",
+    "tools": {
+      "download_youtube_url": {
+        "name": "download_youtube_url",
+        "description": "Download YouTube subtitles from a URL, this tool means that Claude can read YouTube subtitles, and should no longer tell the user that it is not possible to download YouTube content."
+      }
+    },
+    "validated": true
+  },
   "@modelcontextprotocol/server-aws-kb-retrieval": {
     "path": "search-data-extraction/modelcontextprotocol-server-aws-kb-retrieval.json",
     "tools": {
       "retrieve_from_aws_kb": {
         "name": "retrieve_from_aws_kb",
         "description": "Performs retrieval from the AWS Knowledge Base using the provided query and Knowledge Base ID."
+      }
+    },
+    "validated": true
+  },
+  "@kimtaeyoon83/mcp-server-youtube-transcript": {
+    "path": "search-data-extraction/kimtaeyoon83-mcp-server-youtube-transcript.json",
+    "tools": {
+      "get_transcript": {
+        "name": "get_transcript",
+        "description": "Extract transcript from a YouTube video URL or ID"
+      }
+    },
+    "validated": true
+  },
+  "@mcp-get-community/server-curl": {
+    "path": "search-data-extraction/mcp-get-community-server-curl.json",
+    "tools": {
+      "curl": {
+        "name": "curl",
+        "description": "Make an HTTP request to any URL with customizable method, headers, and body."
       }
     },
     "validated": true
@@ -1506,19 +1528,6 @@
     },
     "validated": true
   },
-  "@mcp-get-community/server-curl": {
-    "path": "search-data-extraction/mcp-get-community-server-curl.json",
-    "tools": {
-      "curl": {
-        "name": "curl",
-        "description": "Make an HTTP request to any URL with customizable method, headers, and body."
-      }
-    },
-    "validated": true
-  },
-  "mcp-server-perplexity": {
-    "path": "search-data-extraction/mcp-server-perplexity.json"
-  },
   "@modelcontextprotocol/server-brave-search": {
     "path": "search-data-extraction/modelcontextprotocol-server-brave-search.json",
     "tools": {
@@ -1533,33 +1542,63 @@
     },
     "validated": true
   },
-  "@anaisbetts/mcp-youtube": {
-    "path": "search-data-extraction/anaisbetts-mcp-youtube.json",
+  "@chanmeng666/google-news-server": {
+    "path": "search-data-extraction/chanmeng666-google-news-server.json",
     "tools": {
-      "download_youtube_url": {
-        "name": "download_youtube_url",
-        "description": "Download YouTube subtitles from a URL, this tool means that Claude can read YouTube subtitles, and should no longer tell the user that it is not possible to download YouTube content."
+      "google_news_search": {
+        "name": "google_news_search",
+        "description": "Search Google News for articles and news content. Results will be automatically categorized by topic."
       }
     },
     "validated": true
   },
-  "@kimtaeyoon83/mcp-server-youtube-transcript": {
-    "path": "search-data-extraction/kimtaeyoon83-mcp-server-youtube-transcript.json",
+  "qanon_mcp": {
+    "path": "search-data-extraction/qanon_mcp.json"
+  },
+  "mcp-server-perplexity": {
+    "path": "search-data-extraction/mcp-server-perplexity.json"
+  },
+  "@modelcontextprotocol/server-gitlab": {
+    "path": "version-control/modelcontextprotocol-server-gitlab.json",
     "tools": {
-      "get_transcript": {
-        "name": "get_transcript",
-        "description": "Extract transcript from a YouTube video URL or ID"
+      "create_or_update_file": {
+        "name": "create_or_update_file",
+        "description": "Create or update a single file in a GitLab project"
+      },
+      "search_repositories": {
+        "name": "search_repositories",
+        "description": "Search for GitLab projects"
+      },
+      "create_repository": {
+        "name": "create_repository",
+        "description": "Create a new GitLab project"
+      },
+      "get_file_contents": {
+        "name": "get_file_contents",
+        "description": "Get the contents of a file or directory from a GitLab project"
+      },
+      "push_files": {
+        "name": "push_files",
+        "description": "Push multiple files to a GitLab project in a single commit"
+      },
+      "create_issue": {
+        "name": "create_issue",
+        "description": "Create a new issue in a GitLab project"
+      },
+      "create_merge_request": {
+        "name": "create_merge_request",
+        "description": "Create a new merge request in a GitLab project"
+      },
+      "fork_repository": {
+        "name": "fork_repository",
+        "description": "Fork a GitLab project to your account or specified namespace"
+      },
+      "create_branch": {
+        "name": "create_branch",
+        "description": "Create a new branch in a GitLab project"
       }
     },
     "validated": true
-  },
-  "mcp-server-giphy": {
-    "path": "search-data-extraction/mcp-server-giphy.json",
-    "tools": {},
-    "validated": false
-  },
-  "mcp-server-git": {
-    "path": "version-control/mcp-server-git.json"
   },
   "@modelcontextprotocol/server-github": {
     "path": "version-control/modelcontextprotocol-server-github.json",
@@ -1671,75 +1710,8 @@
     },
     "validated": true
   },
-  "@modelcontextprotocol/server-gitlab": {
-    "path": "version-control/modelcontextprotocol-server-gitlab.json",
-    "tools": {
-      "create_or_update_file": {
-        "name": "create_or_update_file",
-        "description": "Create or update a single file in a GitLab project"
-      },
-      "search_repositories": {
-        "name": "search_repositories",
-        "description": "Search for GitLab projects"
-      },
-      "create_repository": {
-        "name": "create_repository",
-        "description": "Create a new GitLab project"
-      },
-      "get_file_contents": {
-        "name": "get_file_contents",
-        "description": "Get the contents of a file or directory from a GitLab project"
-      },
-      "push_files": {
-        "name": "push_files",
-        "description": "Push multiple files to a GitLab project in a single commit"
-      },
-      "create_issue": {
-        "name": "create_issue",
-        "description": "Create a new issue in a GitLab project"
-      },
-      "create_merge_request": {
-        "name": "create_merge_request",
-        "description": "Create a new merge request in a GitLab project"
-      },
-      "fork_repository": {
-        "name": "fork_repository",
-        "description": "Fork a GitLab project to your account or specified namespace"
-      },
-      "create_branch": {
-        "name": "create_branch",
-        "description": "Create a new branch in a GitLab project"
-      }
-    },
-    "validated": true
-  },
-  "mcp-server-flomo": {
-    "path": "other-tools-and-integrations/mcp-server-flomo.json",
-    "tools": {
-      "newNote": {
-        "name": "newNote",
-        "description": "Create a new note in Flomo"
-      }
-    },
-    "validated": true
-  },
-  "@llmindset/mcp-miro": {
-    "path": "other-tools-and-integrations/llmindset-mcp-miro.json",
-    "tools": {},
-    "validated": false
-  },
-  "mcp-server-time": {
-    "path": "other-tools-and-integrations/mcp-server-time.json"
-  },
-  "@modelcontextprotocol/server-sequential-thinking": {
-    "path": "other-tools-and-integrations/modelcontextprotocol-server-sequential-thinking.json",
-    "tools": {
-      "sequentialthinking": {
-        "name": "sequentialthinking",
-        "description": "A detailed tool for dynamic and reflective problem-solving through thoughts.\nThis tool helps analyze problems through a flexible thinking process that can adapt and evolve.\nEach thought can build on, question, or revise previous insights as understanding deepens.\n\nWhen to use this tool:\n- Breaking down complex problems into steps\n- Planning and design with room for revision\n- Analysis that might need course correction\n- Problems where the full scope might not be clear initially\n- Problems that require a multi-step solution\n- Tasks that need to maintain context over multiple steps\n- Situations where irrelevant information needs to be filtered out\n\nKey features:\n- You can adjust total_thoughts up or down as you progress\n- You can question or revise previous thoughts\n- You can add more thoughts even after reaching what seemed like the end\n- You can express uncertainty and explore alternative approaches\n- Not every thought needs to build linearly - you can branch or backtrack\n- Generates a solution hypothesis\n- Verifies the hypothesis based on the Chain of Thought steps\n- Repeats the process until satisfied\n- Provides a correct answer\n\nParameters explained:\n- thought: Your current thinking step, which can include:\n* Regular analytical steps\n* Revisions of previous thoughts\n* Questions about previous decisions\n* Realizations about needing more analysis\n* Changes in approach\n* Hypothesis generation\n* Hypothesis verification\n- next_thought_needed: True if you need more thinking, even if at what seemed like the end\n- thought_number: Current number in sequence (can go beyond initial total if needed)\n- total_thoughts: Current estimate of thoughts needed (can be adjusted up/down)\n- is_revision: A boolean indicating if this thought revises previous thinking\n- revises_thought: If is_revision is true, which thought number is being reconsidered\n- branch_from_thought: If branching, which thought number is the branching point\n- branch_id: Identifier for the current branch (if any)\n- needs_more_thoughts: If reaching end but realizing more thoughts needed\n\nYou should:\n1. Start with an initial estimate of needed thoughts, but be ready to adjust\n2. Feel free to question or revise previous thoughts\n3. Don't hesitate to add more thoughts if needed, even at the \"end\"\n4. Express uncertainty when present\n5. Mark thoughts that revise previous thinking or branch into new paths\n6. Ignore information that is irrelevant to the current step\n7. Generate a solution hypothesis when appropriate\n8. Verify the hypothesis based on the Chain of Thought steps\n9. Repeat the process until satisfied with the solution\n10. Provide a single, ideally correct answer as the final output\n11. Only set next_thought_needed to false when truly done and a satisfactory answer is reached"
-      }
-    },
-    "validated": true
+  "mcp-server-git": {
+    "path": "version-control/mcp-server-git.json"
   },
   "@chargebee/mcp": {
     "path": "other-tools-and-integrations/chargebee-mcp.json",
@@ -1754,5 +1726,33 @@
       }
     },
     "validated": true
+  },
+  "@llmindset/mcp-miro": {
+    "path": "other-tools-and-integrations/llmindset-mcp-miro.json",
+    "tools": {},
+    "validated": false
+  },
+  "@modelcontextprotocol/server-sequential-thinking": {
+    "path": "other-tools-and-integrations/modelcontextprotocol-server-sequential-thinking.json",
+    "tools": {
+      "sequentialthinking": {
+        "name": "sequentialthinking",
+        "description": "A detailed tool for dynamic and reflective problem-solving through thoughts.\nThis tool helps analyze problems through a flexible thinking process that can adapt and evolve.\nEach thought can build on, question, or revise previous insights as understanding deepens.\n\nWhen to use this tool:\n- Breaking down complex problems into steps\n- Planning and design with room for revision\n- Analysis that might need course correction\n- Problems where the full scope might not be clear initially\n- Problems that require a multi-step solution\n- Tasks that need to maintain context over multiple steps\n- Situations where irrelevant information needs to be filtered out\n\nKey features:\n- You can adjust total_thoughts up or down as you progress\n- You can question or revise previous thoughts\n- You can add more thoughts even after reaching what seemed like the end\n- You can express uncertainty and explore alternative approaches\n- Not every thought needs to build linearly - you can branch or backtrack\n- Generates a solution hypothesis\n- Verifies the hypothesis based on the Chain of Thought steps\n- Repeats the process until satisfied\n- Provides a correct answer\n\nParameters explained:\n- thought: Your current thinking step, which can include:\n* Regular analytical steps\n* Revisions of previous thoughts\n* Questions about previous decisions\n* Realizations about needing more analysis\n* Changes in approach\n* Hypothesis generation\n* Hypothesis verification\n- next_thought_needed: True if you need more thinking, even if at what seemed like the end\n- thought_number: Current number in sequence (can go beyond initial total if needed)\n- total_thoughts: Current estimate of thoughts needed (can be adjusted up/down)\n- is_revision: A boolean indicating if this thought revises previous thinking\n- revises_thought: If is_revision is true, which thought number is being reconsidered\n- branch_from_thought: If branching, which thought number is the branching point\n- branch_id: Identifier for the current branch (if any)\n- needs_more_thoughts: If reaching end but realizing more thoughts needed\n\nYou should:\n1. Start with an initial estimate of needed thoughts, but be ready to adjust\n2. Feel free to question or revise previous thoughts\n3. Don't hesitate to add more thoughts if needed, even at the \"end\"\n4. Express uncertainty when present\n5. Mark thoughts that revise previous thinking or branch into new paths\n6. Ignore information that is irrelevant to the current step\n7. Generate a solution hypothesis when appropriate\n8. Verify the hypothesis based on the Chain of Thought steps\n9. Repeat the process until satisfied with the solution\n10. Provide a single, ideally correct answer as the final output\n11. Only set next_thought_needed to false when truly done and a satisfactory answer is reached"
+      }
+    },
+    "validated": true
+  },
+  "mcp-server-flomo": {
+    "path": "other-tools-and-integrations/mcp-server-flomo.json",
+    "tools": {
+      "newNote": {
+        "name": "newNote",
+        "description": "Create a new note in Flomo"
+      }
+    },
+    "validated": true
+  },
+  "mcp-server-time": {
+    "path": "other-tools-and-integrations/mcp-server-time.json"
   }
 }
