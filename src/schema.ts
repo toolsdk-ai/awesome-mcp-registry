@@ -26,7 +26,7 @@ export const MCPServerPackageConfigSchema = z.object({
   key: z.string().optional().describe('Unique key for url and slug'),
   name: z.string().optional().describe('Custom name for display, if empty then it will use the package name'),
   description: z.string().optional(),
-
+  readme: z.string().optional().describe('URL to the README file, if not provided then it will use the package URL'),
 
   url: z.string().optional(),
   license: z.string().optional().describe('Open source license lie MIT, AGPL, GPL, etc'),
