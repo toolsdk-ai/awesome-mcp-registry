@@ -13,7 +13,7 @@ export default [
   "@modelcontextprotocol/server-google-maps",
   "@modelcontextprotocol/server-gitlab",
   "tavily-mcp",
-  "mcp-server",
+  "exa-mcp-server",
   "@executeautomation/playwright-mcp-server",
   "hyperbrowser-mcp",
   "@enescinar/twitter-mcp",
