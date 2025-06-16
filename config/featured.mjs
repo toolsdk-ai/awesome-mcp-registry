@@ -14,6 +14,7 @@ export default [
   "@modelcontextprotocol/server-gitlab",
   "brave-search-mcp",
   "tavily-mcp",
+  "exa-mcp-server",
   "@executeautomation/playwright-mcp-server",
   "hyperbrowser-mcp",
   "@enescinar/twitter-mcp",
