@@ -12,6 +12,7 @@ export default [
   "@modelcontextprotocol/server-slack",
   "@modelcontextprotocol/server-google-maps",
   "@modelcontextprotocol/server-gitlab",
+  "brave-search-mcp",
   "tavily-mcp",
   "@executeautomation/playwright-mcp-server",
   "hyperbrowser-mcp",

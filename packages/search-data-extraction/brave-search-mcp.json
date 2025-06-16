@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "brave-search-mcp",
+  "description": "An MCP Server implementation that integrates the Brave Search API, providing, Web Search, Local Points of Interest Search, Video Search, Image Search and News Search capabilities",
+  "url": "https://github.com/mikechao/brave-search-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "BRAVE_API_KEY": {
+      "description": "API key for Brave Search",
+      "required": true
+    }
+  }
+}
