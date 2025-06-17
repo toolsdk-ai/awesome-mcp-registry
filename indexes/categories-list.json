@@ -43,7 +43,8 @@
       "@modelcontextprotocol/server-puppeteer",
       "mcp-server-fetch",
       "@executeautomation/playwright-mcp-server",
-      "tavily-mcp"
+      "tavily-mcp",
+      "exa-mcp-server"
     ]
   },
   "cloud-platforms": {
@@ -247,6 +248,7 @@
       "mcp-server-giphy",
       "anilist-mcp",
       "@anaisbetts/mcp-youtube",
+      "brave-search-mcp",
       "@modelcontextprotocol/server-aws-kb-retrieval",
       "@kimtaeyoon83/mcp-server-youtube-transcript",
       "@mcp-get-community/server-curl",

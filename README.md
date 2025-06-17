@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-65-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-67-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 65+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 67+ MCP servers.
 
 
 
@@ -134,6 +134,7 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 - [❌ mcp-server-fetch](https://github.com/modelcontextprotocol/servers/blob/main/src/fetch): A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs  (python) 
 - [✅ @executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright/tree/main/src): A Model Context Protocol server for Playwright for Browser Automation and Web Scraping.  (31 tools) (node) 
 - [✅ tavily-mcp](https://github.com/tavily-ai/tavily-mcp/tree/main): Providing seamless integration with Tavily's search and extract tools for real-time web search and intelligent data extraction.  (4 tools) (node) 
+- [✅ exa-mcp-server](https://github.com/exa-labs/exa-mcp-server): A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way.  (8 tools) (node) 
 
 
 <a id="cloud-platforms"></a>
@@ -263,6 +264,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ mcp-server-giphy](https://github.com/magarcia/mcp-server-giphy): MCP Server for the Giphy API, enabling AI models to search, retrieve, and utilize GIFs from Giphy  (node) 
 - [✅ anilist-mcp](https://github.com/yuna0x0/anilist-mcp): MCP server that interfaces with the AniList API, allowing LLM clients to access and interact with anime, manga, character, staff, and user data from AniList  (44 tools) (node) 
 - [✅ @anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube): MCP server for fetching YouTube subtitles  (1 tools) (node) 
+- [✅ brave-search-mcp](https://github.com/mikechao/brave-search-mcp): An MCP Server implementation that integrates the Brave Search API, providing, Web Search, Local Points of Interest Search, Video Search, Image Search and News Search capabilities  (5 tools) (node) 
 - [✅ @modelcontextprotocol/server-aws-kb-retrieval](https://github.com/modelcontextprotocol/servers/blob/main/src/aws-kb-retrieval-server): MCP server for AWS Knowledge Base retrieval using Bedrock Agent Runtime  (1 tools) (node) 
 - [✅ @kimtaeyoon83/mcp-server-youtube-transcript](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript): This is an MCP server that allows you to directly download transcripts of YouTube videos.  (1 tools) (node) 
 - [✅ @mcp-get-community/server-curl](https://github.com/mcp-get/community-servers/blob/main/src/server-curl): MCP server for making HTTP requests using a curl-like interface  (1 tools) (node) 

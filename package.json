@@ -1,6 +1,6 @@
 {
   "name": "@toolsdk.ai/registry",
-  "version": "1.0.60",
+  "version": "1.0.61",
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "exports": {
     "./config/*": "./config/*",
@@ -38,6 +38,7 @@
     "@modelcontextprotocol/server-puppeteer": "latest",
     "@executeautomation/playwright-mcp-server": "latest",
     "tavily-mcp": "latest",
+    "exa-mcp-server": "latest",
     "@strowk/mcp-k8s": "latest",
     "@cloudflare/mcp-server-cloudflare": "latest",
     "mcp-server-kubernetes": "latest",
@@ -64,6 +65,7 @@
     "mcp-server-giphy": "latest",
     "anilist-mcp": "latest",
     "@anaisbetts/mcp-youtube": "latest",
+    "brave-search-mcp": "latest",
     "@modelcontextprotocol/server-aws-kb-retrieval": "latest",
     "@kimtaeyoon83/mcp-server-youtube-transcript": "latest",
     "@mcp-get-community/server-curl": "latest",
