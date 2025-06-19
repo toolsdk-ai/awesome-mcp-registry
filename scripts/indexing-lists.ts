@@ -36,7 +36,7 @@ async function generatePackagesList() {
           throw new Error(`Duplicate key detected: "${key}" in file "${entryPath}"`);
         }
         const relativePath = path.relative(packagesDir, entryPath);
-        packagesList[key] = { path: relativePath };
+        packagesList[key] = { path: relativePath , category: categoryName};
 
         // Add to the category's packages list
         if (!categoriesList[categoryName]) {
