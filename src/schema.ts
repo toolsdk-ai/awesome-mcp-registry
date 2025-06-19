@@ -52,6 +52,7 @@ export const PackageConfigSchema = z.discriminatedUnion('type', [
 
 export const PackagesListSchema = z.record(
   z.object({
+    category: z.string().optional(),
     path: z.string(),
     validated: z.boolean().optional(),
     tools: z.record(z.object(
