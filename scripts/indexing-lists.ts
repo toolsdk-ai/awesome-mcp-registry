@@ -6,7 +6,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import { MCPServerPackageConfigSchema, } from '../src/schema';
+import { MCPServerPackageConfigSchema, PackagesListSchema, } from '../src/schema';
 import { type CategoryConfig , type MCPServerPackageConfig, type PackagesList} from '../src/types';
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
@@ -14,11 +14,51 @@ const categoryConfigs: CategoryConfig[] = require('../config/categories').defaul
 
 const packagesDir = './packages';
 const packagesListFile = './indexes/packages-list.json';
+// Read the current packages list from the json file
+const previousPackagesList:PackagesList = PackagesListSchema.parse(JSON.parse(fs.readFileSync(packagesListFile, 'utf-8'))) as PackagesList;
+
 const categoriesListFile = './indexes/categories-list.json';
 const packageJsonFile = './package.json';
 
+// Compare check `newPackagesList` with `previousPackagesList`, print the differences
+function comparePackagesLists(previousPackagesList: PackagesList, newPackagesList: PackagesList) {
+  const currentKeys = new Set(Object.keys(previousPackagesList));
+  const newKeys = new Set(Object.keys(newPackagesList));
+
+  // console log their count
+  // console.log(`Current packages count: ${currentKeys.size}`);
+  // console.log(`New packages count: ${newKeys.size}`);
+
+  const addedKeys = [...newKeys].filter(key => !currentKeys.has(key));
+  const removedKeys = [...currentKeys].filter(key => !newKeys.has(key));
+  const commonKeys = [...newKeys].filter(key => currentKeys.has(key));
+
+  if (addedKeys.length > 0) {
+    console.log(`Added packages (${addedKeys.length}):`, addedKeys);
+  }
+
+  if (removedKeys.length > 0) {
+    console.log(`Removed packages (${removedKeys.length}):`, removedKeys);
+  }
+
+  const modifiedKeys = commonKeys.filter(key => {
+    const current = previousPackagesList[key];
+    const updated = newPackagesList[key];
+    return JSON.stringify(current) !== JSON.stringify(updated);
+  });
+
+  if (modifiedKeys.length > 0) {
+    console.log(`Modified packages (${modifiedKeys.length}):`, modifiedKeys);
+  }
+
+  if (addedKeys.length === 0 && removedKeys.length === 0 && modifiedKeys.length === 0) {
+    console.log('No changes detected in packages list.');
+  }
+}
+
 async function generatePackagesList() {
-  const packagesList: PackagesList = {};
+  const newPackagesList: PackagesList = JSON.parse(JSON.stringify(previousPackagesList));
+  const newPackagesKeys = new Set();
   const categoriesList: Record<string, { config: CategoryConfig; packagesList: string[] }> = {};
   const packageDeps: Record<string, string> = {}
 
@@ -30,13 +70,13 @@ async function generatePackagesList() {
       if (fs.statSync(entryPath).isFile() && entry.endsWith('.json')) {
         const fileContent = fs.readFileSync(entryPath, 'utf-8');
         const parsedContent: MCPServerPackageConfig= MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
-        // if (parsedContent.name) {
         const key = parsedContent.key || parsedContent.name || parsedContent.packageName;
-        if (key in packagesList) {
-          throw new Error(`Duplicate key detected: "${key}" in file "${entryPath}"`);
-        }
         const relativePath = path.relative(packagesDir, entryPath);
-        packagesList[key] = { path: relativePath , category: categoryName};
+        newPackagesList[key] = { 
+          ...newPackagesList[key],
+          path: relativePath , category: categoryName};
+
+        newPackagesKeys.add(key);
 
         // Add to the category's packages list
         if (!categoriesList[categoryName]) {
@@ -65,12 +105,22 @@ async function generatePackagesList() {
     }
   }
 
-  fs.writeFileSync(packagesListFile, JSON.stringify(packagesList, null, 2), 'utf-8');
+  fs.writeFileSync(packagesListFile, JSON.stringify(newPackagesList, null, 2), 'utf-8');
   fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), 'utf-8');
   console.log(`Generated packages list at ${packagesListFile}`);
   console.log(`Generated categories list at ${categoriesListFile}`);
 
 
+  // delete packages that are not in the new packages list, base on `newPackagesKeys`
+  for (const key in newPackagesList) {
+    if (!newPackagesKeys.has(key)) {
+      delete newPackagesList[key];
+      console.log(`Removed redundant package: ${key}, not exist anymore`);
+    }
+  }
+
+  // compare previous and new packages lists
+  comparePackagesLists(previousPackagesList, newPackagesList);
 
   const packageJSONStr = fs.readFileSync(packageJsonFile, 'utf-8');
   const newDeps = {
@@ -87,7 +137,7 @@ async function generatePackagesList() {
 
   fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
 
-  console.log(`Generated new package.json file at ${packageJsonFile}`, packageJSON);
+  console.log(`Generated new package.json file at ${packageJsonFile}`);
 }
 
 generatePackagesList();
