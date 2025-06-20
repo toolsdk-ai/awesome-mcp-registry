@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-67-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-68-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 67+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 68+ MCP servers.
 
 
 
@@ -281,7 +281,7 @@ Find and extract data from various sources quickly and efficiently.
 Manage Git repositories, pull requests, and issues with version control tools.
 
 - [✅ @modelcontextprotocol/server-gitlab](https://github.com/modelcontextprotocol/servers/blob/main/src/gitlab): MCP server for using the GitLab API  (9 tools) (node) 
-- [✅ @modelcontextprotocol/server-github](https://github.com/modelcontextprotocol/servers/blob/main/src/github): MCP server for using the GitHub API  (26 tools) (node) 
+- [✅ Github](https://github.com/modelcontextprotocol/servers/blob/main/src/github): MCP server for using the GitHub API  (26 tools) (node) 
 - [❌ mcp-server-git](https://github.com/modelcontextprotocol/servers/blob/main/src/git): A Model Context Protocol server providing tools to read, search, and manipulate Git repositories programmatically via LLMs  (python) 
 
 

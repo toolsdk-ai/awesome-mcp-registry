@@ -307,7 +307,7 @@
     },
     "packagesList": [
       "@modelcontextprotocol/server-gitlab",
-      "@modelcontextprotocol/server-github",
+      "Github",
       "mcp-server-git"
     ]
   },
