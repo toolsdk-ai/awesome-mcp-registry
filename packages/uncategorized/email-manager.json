@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "email-manager",
-  "description": "Integrates with email systems through IMAP and SMTP protocols to enable searching, retrieving, analyzing, and sending emails directly within conversations.",
-  "url": "https://github.com/zilongxue/claude-post",
-  "runtime": "python",
-  "license": "mit"
-}

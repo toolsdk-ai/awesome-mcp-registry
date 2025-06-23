@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tidal-music",
-  "description": "Integrates with TIDAL music streaming service, enabling authentication, playlist management, and personalized music recommendations through natural language interactions.",
-  "url": "https://github.com/yuhuacheng/tidal-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "weather",
-  "description": "Integrates with OpenWeatherMap API to provide real-time weather conditions, forecasts, air quality information, historical data, location search, and weather alerts for seamless access to accurate weather information during conversations.",
-  "url": "https://github.com/saintdoresh/weather-mcp-claudedesktop",
-  "runtime": "python",
-  "license": "mit"
-}

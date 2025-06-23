@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "oxylabs-mcp",
-  "description": "Integrates with Oxylabs web scraping services to extract, clean, and structure web content for real-time data analysis and monitoring workflows.",
-  "url": "https://github.com/oxylabs/oxylabs-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

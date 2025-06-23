@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "documentation-markdown-converter",
-  "description": "Provides AI assistants with access to documentation through a configurable server that converts HTML to Markdown and enables auditing of tool calls and returned context.",
-  "url": "https://github.com/teddylee777/mcpdoc",
-  "runtime": "python",
-  "license": "mit"
-}

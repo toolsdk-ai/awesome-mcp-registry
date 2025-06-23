@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openstack-commander",
-  "description": "Enables secure management of OpenStack infrastructure through natural language commands for server, project, flavor, and image operations via authenticated CLI interactions.",
-  "url": "https://github.com/dragomiralin/openstack-mcp-server",
-  "runtime": "java",
-  "license": "unknown"
-}

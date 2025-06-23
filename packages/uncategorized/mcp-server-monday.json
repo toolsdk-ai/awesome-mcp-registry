@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-monday",
-  "description": "Integrates with Monday.com to enable creating items, retrieving board groups, adding comments, listing boards, and managing sub-items for project management and team collaboration workflows.",
-  "url": "https://github.com/sakce/mcp-server-monday",
-  "runtime": "python",
-  "license": "unknown"
-}

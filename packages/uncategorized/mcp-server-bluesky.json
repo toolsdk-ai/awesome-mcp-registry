@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-bluesky",
-  "description": "Integrates with Bluesky's social network API to enable profile management, posting, following, and engagement actions.",
-  "url": "https://github.com/morinokami/mcp-server-bluesky",
-  "runtime": "node",
-  "license": "unknown"
-}

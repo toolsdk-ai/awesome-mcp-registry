@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "investment-portfolio-manager",
-  "description": "Reads in JSON-formatted Investment portfolio and performs web searches and stock price searches to provide meaningful evaluations and recommendations.",
-  "url": "https://github.com/ikhyunan/mcp_investmentportfolio",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "systemprompt-agent-server",
-  "description": "Integrates with SystemPrompt.io to enable centralized creation, management, and versioning of prompts.",
-  "url": "https://github.com/ejb503/systemprompt-mcp-core",
-  "runtime": "node",
-  "license": "unknown"
-}

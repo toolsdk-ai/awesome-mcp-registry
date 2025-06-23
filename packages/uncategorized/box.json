@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "box",
-  "description": "Integrates with Box API to enable document search, text extraction, content analysis, and structured data retrieval from files and folders within Box storage systems.",
-  "url": "https://github.com/box-community/mcp-server-box",
-  "runtime": "python",
-  "license": "unknown"
-}

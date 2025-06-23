@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "time-converter",
-  "description": "Provides timezone conversion and time-related operations using IANA identifiers for accurate global time management across applications.",
-  "url": "https://github.com/clssck/mcp-time-server",
-  "runtime": "python",
-  "license": "unknown"
-}

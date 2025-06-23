@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "claude-lmstudio-bridge",
-  "description": "Bridges Claude with local LLMs running in LM Studio, enabling direct access to local model capabilities for text generation and chat completions while reducing cloud dependency.",
-  "url": "https://github.com/infinitimeless/claude-lmstudio-bridge",
-  "runtime": "python",
-  "license": "unknown"
-}

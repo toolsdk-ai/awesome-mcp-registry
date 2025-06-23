@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "qq-music",
-  "description": "Provides a bridge to QQ Music API for searching, playing, and managing music playlists through natural language interactions without dealing with underlying API complexities.",
-  "url": "https://github.com/samge0/mcp-qqmusic-test-server",
-  "runtime": "python",
-  "license": "unknown"
-}

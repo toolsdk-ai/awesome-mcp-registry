@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-everything",
-  "description": "Test protocol features and tools for client compatibility.",
-  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/everything",
-  "runtime": "node",
-  "license": "unknown"
-}

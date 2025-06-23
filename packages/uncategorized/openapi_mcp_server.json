@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openapi_mcp_server",
-  "description": "Enables LLMs to interact with REST APIs by dynamically generating tools from OpenAPI specifications, allowing models to execute HTTP requests against configured endpoints without complex implementation.",
-  "url": "https://github.com/rahgadda/openapi_mcp_server",
-  "runtime": "python",
-  "license": "unknown"
-}

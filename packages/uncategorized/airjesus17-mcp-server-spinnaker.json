@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@airjesus17/mcp-server-spinnaker",
-  "description": "Integrates with Spinnaker to enable AI-driven management of deployments, pipelines, and applications for enhanced CI/CD automation and orchestration.",
-  "url": "https://github.com/dion-hagan/mcp-server-spinnaker",
-  "runtime": "node",
-  "license": "unknown"
-}

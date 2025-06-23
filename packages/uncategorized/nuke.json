@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nuke",
-  "description": "Provides a bridge to Nuke compositing software for automating common tasks like node creation, configuration, and render operations through a Python interface",
-  "url": "https://github.com/aourpallynikhil/nuke-mcp-2",
-  "runtime": "python",
-  "license": "unknown"
-}

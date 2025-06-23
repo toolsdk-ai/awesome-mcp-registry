@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "optimized-memory",
-  "description": "Integrates with SQLite to provide a persistent knowledge graph for efficient memory management and relationship modeling across conversations.",
-  "url": "https://github.com/agentwong/optimized-memory-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

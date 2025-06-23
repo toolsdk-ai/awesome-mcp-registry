@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-jinaai-search",
-  "description": "Integrates JinaAI's search capabilities for web content discovery, information retrieval, and data extraction",
-  "url": "https://github.com/spences10/mcp-jinaai-search",
-  "runtime": "node",
-  "license": "unknown"
-}

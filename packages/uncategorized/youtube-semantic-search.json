@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "youtube-semantic-search",
-  "description": "Leverages LanceDB for vector storage to enable semantic search and multilingual transcript retrieval from YouTube videos using Google's generative AI embeddings.",
-  "url": "https://github.com/ia-programming/youtube-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

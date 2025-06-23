@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cursor-mcp-installer",
-  "description": "Streamlines MCP server installation and configuration within Cursor IDE, automatically handling environment setup and creating necessary configuration entries in mcp.json.",
-  "url": "https://github.com/matthewdcage/cursor-mcp-installer",
-  "runtime": "node",
-  "license": "unknown"
-}

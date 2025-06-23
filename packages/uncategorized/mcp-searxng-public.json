@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-searxng-public",
-  "description": "Queries public SearXNG instances to extract structured search results with time-range filtering and fallback mechanisms for reliable web search capabilities",
-  "url": "https://github.com/pwilkin/mcp-searxng-public",
-  "runtime": "node",
-  "license": "unknown"
-}

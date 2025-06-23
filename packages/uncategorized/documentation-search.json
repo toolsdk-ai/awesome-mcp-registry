@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "documentation-search",
-  "description": "Enables searching and retrieving up-to-date content from popular documentation sites including LangChain, LlamaIndex, and OpenAI through Google search integration and content processing.",
-  "url": "https://github.com/sagacious-satadru/documentation-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

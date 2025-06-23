@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@raygun.io/mcp-server-raygun",
-  "description": "Monitor crash reports and performance metrics for application stability.",
-  "url": "https://github.com/mindscapehq/mcp-server-raygun",
-  "runtime": "node",
-  "license": "unknown"
-}

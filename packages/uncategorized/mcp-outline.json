@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-outline",
-  "description": "Enables AI systems to search, read, edit, and manage documents within Outline's knowledge management platform through direct API integration with both cloud and self-hosted instances.",
-  "url": "https://github.com/vortiago/mcp-outline",
-  "runtime": "python",
-  "license": "unknown"
-}

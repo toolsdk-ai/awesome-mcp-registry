@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tmux",
-  "description": "Enables terminal session management through tmux with tools for creating sessions, sending commands and keystrokes, capturing screen content, and managing session lifecycles for system administration, development workflows, and terminal-based application interactions.",
-  "url": "https://github.com/lox/tmux-mcp-server",
-  "runtime": "go",
-  "license": "unknown"
-}

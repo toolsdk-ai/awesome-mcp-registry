@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "xcodebuild",
-  "description": "Integrates with Xcode to enable iOS project building, testing, and error handling for efficient development workflows in AI-assisted coding environments.",
-  "url": "https://github.com/shenghaiwang/xcodebuild",
-  "runtime": "python",
-  "license": "unknown"
-}

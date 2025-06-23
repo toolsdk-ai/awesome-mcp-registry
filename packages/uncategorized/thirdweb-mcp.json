@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "thirdweb-mcp",
-  "description": "Read/write to over 2k blockchains, enabling data querying, contract analysis/deployment, and transaction execution, powered by Thirdweb.",
-  "url": "https://github.com/thirdweb-dev/ai/tree/HEAD/python/thirdweb-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

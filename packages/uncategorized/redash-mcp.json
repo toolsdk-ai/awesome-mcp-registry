@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "redash-mcp",
-  "description": "Integrates with Redash data visualization platform to enable natural language querying, dashboard creation, and data source management for analyzing and visualizing data through conversational interfaces.",
-  "url": "https://github.com/suthio/redash-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

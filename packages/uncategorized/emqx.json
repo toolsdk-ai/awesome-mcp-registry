@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "emqx",
-  "description": "Integrates with EMQX MQTT broker to enable real-time IoT device management, client monitoring, and message publishing for MQTT-enabled systems.",
-  "url": "https://github.com/benniu/emqx-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

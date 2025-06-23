@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gmail-and-google-calendar",
-  "description": "Integrates with Gmail and Google Calendar APIs to enable email retrieval, search, sending with attachments, and calendar event management including video conference creation.",
-  "url": "https://github.com/samarthsinghal28/gmail_mcp_server",
-  "runtime": "python",
-  "license": "unknown"
-}

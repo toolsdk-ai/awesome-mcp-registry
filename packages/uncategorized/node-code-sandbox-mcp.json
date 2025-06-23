@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "node-code-sandbox-mcp",
-  "description": "Provides a secure Docker-based environment for executing Node.js code with npm dependencies, shell commands, and file operations while maintaining proper isolation for testing and web development prototyping.",
-  "url": "https://github.com/ssdeanx/node-code-sandbox-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

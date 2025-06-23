@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "neo4j-mcpserver",
-  "description": "Provides a TypeScript-based server for executing Cypher queries against Neo4j graph databases via stdio transport, enabling secure and flexible database interactions for developers and data analysts.",
-  "url": "https://github.com/tobarrientos2/neo4j-mcpserver",
-  "runtime": "node",
-  "license": "unknown"
-}

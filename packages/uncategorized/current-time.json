@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "current-time",
-  "description": "Provides AI systems with current time information across different timezones through a simple tool that accepts location parameters and returns formatted time data.",
-  "url": "https://github.com/songjiayang/eino-mcp",
-  "runtime": "go",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@kevinwatt/mcp-server-searxng",
-  "description": "Integrates SearXNG's meta-search capabilities to provide privacy-focused, customizable search results from multiple engines for diverse information retrieval scenarios.",
-  "url": "https://github.com/kevinwatt/mcp-server-searxng",
-  "runtime": "node",
-  "license": "unknown"
-}

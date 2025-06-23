@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@zereight/mcp-confluence",
-  "description": "Integrates with Confluence and JIRA APIs to enable querying and management of Atlassian project data, documentation, and issues.",
-  "url": "https://github.com/zereight/confluence-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

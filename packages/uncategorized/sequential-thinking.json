@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sequential-thinking",
-  "description": "Implements structured step-by-step reasoning to break down and methodically analyze complex problems.",
-  "url": "https://github.com/arben-adm/mcp-sequential-thinking",
-  "runtime": "python",
-  "license": "mit"
-}

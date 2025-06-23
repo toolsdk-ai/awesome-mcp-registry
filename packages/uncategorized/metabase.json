@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "metabase",
-  "description": "Provides a bridge between databases and external tools, enabling metadata retrieval, schema exploration, and secure action execution across Metabase database systems through an encrypted configuration interface.",
-  "url": "https://github.com/sazboxai/mcp_metabase",
-  "runtime": "python",
-  "license": "unknown"
-}

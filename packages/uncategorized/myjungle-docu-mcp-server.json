@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@myjungle/docu-mcp-server",
-  "description": "RAG-enabled documentation server that integrates with vector databases to provide semantic search capabilities for code, documentation, and diagrams without data leaving your environment.",
-  "url": "https://github.com/yannicktm/docu-mcp/tree/HEAD/mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

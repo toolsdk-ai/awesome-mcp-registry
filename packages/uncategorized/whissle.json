@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "whissle",
-  "description": "Integrates with Whissle's speech processing API to enable speech-to-text transcription with timestamps and speaker diarization, machine translation between languages, and text summarization using LLM models.",
-  "url": "https://github.com/whissleai/whissle-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

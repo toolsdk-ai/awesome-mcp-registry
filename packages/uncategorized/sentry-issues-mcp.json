@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sentry-issues-mcp",
-  "description": "Integrates with Sentry error tracking to retrieve detailed event and issue data for analyzing application exceptions and errors in development workflows.",
-  "url": "https://github.com/leee62/sentry-issues-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

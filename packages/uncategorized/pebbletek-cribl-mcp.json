@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@pebbletek/cribl-mcp",
-  "description": "Integrates with Cribl Stream deployments to enable management of configurations, pipelines, sources, and system metrics for DevOps teams and data engineers monitoring data processing workflows.",
-  "url": "https://github.com/pebbletek/cribl-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "teamspeak-mcp",
-  "description": "Provides TeamSpeak server administration through the ServerQuery protocol, enabling user management, channel operations, server configuration, moderation features, and file management with support for messaging, moving, kicking, banning clients, creating channels, managing permissions, and handling privilege tokens.",
-  "url": "https://github.com/marlburrow/teamspeak-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

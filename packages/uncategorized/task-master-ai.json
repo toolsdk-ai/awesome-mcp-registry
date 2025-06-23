@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "task-master-ai",
-  "description": "Provides task management capabilities for development workflows with PRD parsing, task CRUD operations with dependency management, complexity analysis, and context-based organization across project phases.",
-  "url": "https://github.com/eyaltoledano/claude-task-master",
-  "runtime": "node",
-  "license": "unknown"
-}

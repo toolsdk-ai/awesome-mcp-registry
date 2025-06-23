@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mindmap-mcp-server",
-  "description": "Transforms Markdown content into interactive HTML-based mind maps using markmap-cli, enabling visual organization of structured information and knowledge representation.",
-  "url": "https://github.com/yuchenssr/mindmap-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

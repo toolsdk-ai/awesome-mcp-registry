@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nash",
-  "description": "Provides AI assistants with a suite of tools for executing Python code, fetching web content, automating browser interactions, managing secrets, and creating reusable tasks through a secure process manager and session-based file system.",
-  "url": "https://github.com/nash-app/nash-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

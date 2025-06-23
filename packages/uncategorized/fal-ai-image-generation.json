@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fal-ai-image-generation",
-  "description": "Integrates with FAL AI to generate images from text prompts using models like 'fal-ai/recraft-v3', enabling real-time visual content creation for design and content generation tasks.",
-  "url": "https://github.com/sshtunnelvision/mcp-logo-gen",
-  "runtime": "python",
-  "license": "gpl-3.0"
-}

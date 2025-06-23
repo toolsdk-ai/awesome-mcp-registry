@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-agent-kit",
-  "description": "Integrates with Solana blockchain to enable token deployment, NFT creation, DeFi operations, and cross-chain transfers via Wormhole directly within conversation interfaces.",
-  "url": "https://github.com/sendaifun/solana-agent-kit",
-  "runtime": "node",
-  "license": "unknown"
-}

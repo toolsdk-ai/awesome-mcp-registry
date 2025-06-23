@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bitbucket",
-  "description": "Enables robust Bitbucket repository management by providing comprehensive API integration for repository creation, file manipulation, issue tracking, and branch management with advanced error handling and permission controls.",
-  "url": "https://github.com/kallows/mcp-bitbucket",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "eunomia",
-  "description": "Integrates with the Eunomia framework for a simple way to orchestrate data governance policies like PII detection or user access control",
-  "url": "https://github.com/whataboutyou-ai/eunomia-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

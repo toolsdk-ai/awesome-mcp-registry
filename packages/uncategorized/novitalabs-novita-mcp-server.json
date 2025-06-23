@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@novitalabs/novita-mcp-server",
-  "description": "Provides direct access to Novita AI's GPU cloud infrastructure for deploying, monitoring, and managing GPU-accelerated workloads and containers without leaving your conversation context.",
-  "url": "https://github.com/novitalabs/novita-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

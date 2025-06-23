@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@pinkpixel/blabber-mcp",
-  "description": "Converts text into natural-sounding speech with multiple voice options, audio formats, and automatic playback capabilities using OpenAI's TTS API.",
-  "url": "https://github.com/pinkpixel-dev/blabber-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

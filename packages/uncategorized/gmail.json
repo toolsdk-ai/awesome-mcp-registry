@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gmail",
-  "description": "Provides direct access to Gmail accounts for reading, sending, drafting, archiving, and organizing emails through the Google API with comprehensive search and filter management capabilities.",
-  "url": "https://github.com/theposch/gmail-mcp",
-  "runtime": "python",
-  "license": "gpl-3.0"
-}

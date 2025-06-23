@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "stock-info-(akshare)",
-  "description": "Provides real-time financial market data from Chinese and global markets through AKShare API integration for traders and financial analysts",
-  "url": "https://github.com/tddt/stock_info_mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

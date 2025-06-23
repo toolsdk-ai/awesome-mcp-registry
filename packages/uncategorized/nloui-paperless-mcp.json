@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@nloui/paperless-mcp",
-  "description": "Integrates with Paperless-NGX API to provide document management operations including listing, searching, editing, and uploading for efficient organization and retrieval of digital files.",
-  "url": "https://github.com/nloui/paperless-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nasa-mcp-server",
-  "description": "Integrates with NASA and JPL APIs to provide access to astronomy images, satellite data, space weather information, Mars rover photos, and more through a unified interface built with TypeScript.",
-  "url": "https://github.com/programcomputer/nasa-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

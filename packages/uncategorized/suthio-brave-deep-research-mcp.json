@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@suthio/brave-deep-research-mcp",
-  "description": "Combines Brave Search with web scraping to provide deep research capabilities by extracting full content from pages and traversing links at configurable depths",
-  "url": "https://github.com/suthio/brave-deep-research-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

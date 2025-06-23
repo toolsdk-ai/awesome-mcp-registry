@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "microsoft-teams",
-  "description": "Integrates with Microsoft Teams to enable reading messages, creating threads, replying to messages, and mentioning team members through Azure bot credentials.",
-  "url": "https://github.com/inditextech/mcp-teams-server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "time",
-  "description": "Provides current time and date information.",
-  "url": "https://github.com/sidharthrajaram/time-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

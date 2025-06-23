@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "image-gen",
-  "description": "Integrates with Stable Diffusion WebUI to provide text-to-image generation with extensive parameter control and metadata embedding",
-  "url": "https://github.com/ichigo3766/image-gen-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

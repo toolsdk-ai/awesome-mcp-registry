@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "readability-(fetch-&-parse)",
-  "description": "Extracts and transforms webpage content into clean, LLM-optimized Markdown by removing non-essential elements while preserving key metadata.",
-  "url": "https://github.com/jmh108/mcp-server-readability-python",
-  "runtime": "python",
-  "license": "mit"
-}

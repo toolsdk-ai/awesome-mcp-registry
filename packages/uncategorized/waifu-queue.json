@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "waifu-queue",
-  "description": "Implements a conversational 'waifu' character server using Redis queue system for efficient handling of concurrent text generation requests with FastMCP and distilgpt2.",
-  "url": "https://github.com/waifuai/mcp-waifu-queue",
-  "runtime": "python",
-  "license": "mit-0"
-}

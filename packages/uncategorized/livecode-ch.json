@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "livecode.ch",
-  "description": "Executes code snippets from GitHub repositories on io.livecode.ch's backend, enabling live code execution across various languages and frameworks without local setup.",
-  "url": "https://github.com/namin/livecode-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

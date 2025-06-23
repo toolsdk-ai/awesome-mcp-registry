@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "consulting-agents",
-  "description": "Enables Claude Code to consult with multiple expert coding agents powered by OpenAI's o3-mini and Claude 3.7 Sonnet for enhanced problem analysis and diverse model perspectives",
-  "url": "https://github.com/matthewpdingle/consulting-agents-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

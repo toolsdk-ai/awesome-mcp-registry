@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "yango-tech-b2b-api",
-  "description": "Integrates with Yango Tech's B2B API for retail operations, enabling access to order details, product information, and stock data for automated inventory management and order tracking.",
-  "url": "https://github.com/zamb124/yangotech_mcp",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "todoist-mcp-server",
-  "description": "Provides a bridge to the Todoist task management platform, enabling advanced project and task management capabilities like creating tasks, organizing projects, managing deadlines, and team collaboration.",
-  "url": "https://github.com/stevengonsalvez/todoist-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "box-mcp-server",
-  "description": "Integrates with Box cloud storage to enable searching, reading, and processing of PDF and Word documents for applications like automated document analysis and content extraction.",
-  "url": "https://github.com/hmk/box-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

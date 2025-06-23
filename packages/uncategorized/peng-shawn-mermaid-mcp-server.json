@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@peng-shawn/mermaid-mcp-server",
-  "description": "Converts Mermaid diagrams to PNG images using Puppeteer for high-quality headless browser rendering, supporting multiple themes and customizable backgrounds.",
-  "url": "https://github.com/peng-shawn/mermaid-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

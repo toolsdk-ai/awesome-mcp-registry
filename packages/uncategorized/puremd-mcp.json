@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "puremd-mcp",
-  "description": "Enables AI access to web content in clean markdown format through unblock-url extraction and search-web capabilities, bypassing anti-bot measures for reliable information retrieval.",
-  "url": "https://github.com/puremd/puremd-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

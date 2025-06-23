@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-langchain-ts-client",
-  "description": "Enable LangChain workflows for your MCP client.",
-  "url": "https://github.com/isaacwasserman/mcp-langchain-ts-client",
-  "runtime": "node",
-  "license": "unknown"
-}

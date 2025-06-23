@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dingtalk",
-  "description": "Provides integration with the DingTalk API, enabling easy deployment and scaling of services like chatbots and data processing pipelines.",
-  "url": "https://github.com/wllcnm/dingding-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

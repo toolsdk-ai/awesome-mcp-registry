@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kali-linux-penetration-testing-tools",
-  "description": "Provides a bridge to Kali Linux penetration testing tools including nmap, gobuster, and metasploit for security scanning, vulnerability assessment, and password cracking operations",
-  "url": "https://github.com/wh0am123/mcp-kali-server",
-  "runtime": "python",
-  "license": "mit"
-}

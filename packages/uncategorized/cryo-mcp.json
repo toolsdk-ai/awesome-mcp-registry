@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cryo-mcp",
-  "description": "Provides a powerful Ethereum blockchain data extraction and analysis interface using Cryo and DuckDB, enabling efficient SQL-based querying of on-chain datasets with advanced filtering capabilities.",
-  "url": "https://github.com/z80dev/cryo-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

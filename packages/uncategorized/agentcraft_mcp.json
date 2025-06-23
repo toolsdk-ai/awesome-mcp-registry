@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "agentcraft_mcp",
-  "description": "Provides a flexible agent framework with pre-configured agents for tasks like marketing, code review, scheduling, and regulatory compliance, using data-driven YAML configuration to enable dynamic agent creation across domains like finance, product development, and customer support.",
-  "url": "https://github.com/seyhunak/agentcraft-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

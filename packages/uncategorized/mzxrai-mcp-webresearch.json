@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@mzxrai/mcp-webresearch",
-  "description": "Research topics using Google search and web scraping.",
-  "url": "https://github.com/mzxrai/mcp-webresearch",
-  "runtime": "node",
-  "license": "unknown"
-}

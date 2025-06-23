@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "a2a-mcp-server",
-  "description": "Bridges Google's Agent-to-Agent protocol with MCP, enabling agent discovery, registration, message sending, and task management through protocol translation between A2A's JSON-RPC messaging and MCP's tool-based interface.",
-  "url": "https://github.com/gongrzhe/a2a-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "stock-market-data",
-  "description": "Provides real-time stock market data and company information for financial analysis, investment research, and market monitoring applications",
-  "url": "https://github.com/sungongtai/stock-mcp",
-  "runtime": "java",
-  "license": "unknown"
-}

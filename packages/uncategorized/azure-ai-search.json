@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure-ai-search",
-  "description": "Integrates with Azure AI Search to enable keyword, vector, and hybrid search capabilities for retrieving information from search indexes in readable markdown format.",
-  "url": "https://github.com/farzad528/mcp-server-azure-ai-agents",
-  "runtime": "python",
-  "license": "other"
-}

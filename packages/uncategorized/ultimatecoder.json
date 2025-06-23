@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ultimatecoder",
-  "description": "FastMCP server that enables comprehensive file system operations, code modifications, process management, and static analysis for automated code maintenance and refactoring tasks.",
-  "url": "https://github.com/m-ahmed-elbeskeri/ultimatecodermcp",
-  "runtime": "python",
-  "license": "mit"
-}

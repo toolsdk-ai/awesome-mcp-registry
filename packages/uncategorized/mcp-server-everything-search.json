@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-everything-search",
-  "description": "Integrates with the Everything SDK to enable rapid file searches and metadata retrieval on Windows.",
-  "url": "https://github.com/mamertofabian/mcp-everything-search",
-  "runtime": "python",
-  "license": "unknown"
-}

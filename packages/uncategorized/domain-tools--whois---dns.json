@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "domain-tools-(whois-+-dns)",
-  "description": "Provides DNS and WHOIS query capabilities for AI assistants. It enables AI models to perform DNS lookups both via local DNS resolvers and remote DNS-over-HTTPS services.",
-  "url": "https://github.com/patrickdappollonio/mcp-domaintools",
-  "runtime": "go",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mysql",
-  "description": "Integrates with MySQL databases using Python and Docker to enable structured data storage, querying, and manipulation.",
-  "url": "https://github.com/wllcnm/mcp-mysql",
-  "runtime": "python",
-  "license": "unknown"
-}

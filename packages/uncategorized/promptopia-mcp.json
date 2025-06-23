@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "promptopia-mcp",
-  "description": "Manage, organize, and reuse prompt templates with variable substitution and multi-message conversation structures.",
-  "url": "https://github.com/lumile/promptopia-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

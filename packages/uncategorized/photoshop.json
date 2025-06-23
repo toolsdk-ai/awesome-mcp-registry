@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "photoshop",
-  "description": "Provides a bridge to Adobe Photoshop for executing image editing operations including document creation, layer manipulation, filters, text, and Adobe Stock integration",
-  "url": "https://github.com/agam1092005/mcp-photoshop",
-  "runtime": "python",
-  "license": "mit"
-}

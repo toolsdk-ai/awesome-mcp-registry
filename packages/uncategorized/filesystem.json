@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "filesystem",
-  "description": "Provides secure, token-efficient access to local filesystems with advanced capabilities including line-targeted reading/editing, powerful search through ripgrep, and intelligent context management for large files and codebases.",
-  "url": "https://github.com/safurrier/mcp-filesystem",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-function-hub",
-  "description": "Integrates with Function Hub API to provide dynamic tool listing and execution capabilities for flexible access to external functions and APIs.",
-  "url": "https://github.com/segun/mcp-server-function-hub",
-  "runtime": "node",
-  "license": "unknown"
-}

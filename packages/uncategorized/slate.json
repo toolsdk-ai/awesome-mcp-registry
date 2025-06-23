@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "slate",
-  "description": "Enables project and talent management for film and media production by providing AI-powered workflows for tracking applications, managing roles, and coordinating production processes through a flexible microservices architecture.",
-  "url": "https://github.com/ginkgoo-ai/be-core-mcp",
-  "runtime": "java",
-  "license": "other"
-}

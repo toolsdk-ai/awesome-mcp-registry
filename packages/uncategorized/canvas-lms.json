@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "canvas-lms",
-  "description": "Integrates with Canvas LMS to retrieve course information, modules, and learning materials based on natural language queries or image analysis, enabling students to find relevant educational resources without leaving their conversation.",
-  "url": "https://github.com/aryankeluskar/canvas-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

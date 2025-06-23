@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcpunk",
-  "description": "MCPunk provides tools for performing Roaming RAG",
-  "url": "https://github.com/jurasofish/mcpunk",
-  "runtime": "python",
-  "license": "unknown"
-}

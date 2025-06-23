@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@riza-io/riza-mcp",
-  "description": "Provides a secure bridge between LLMs and Riza's isolated code interpreter API, enabling writing, saving, editing, and executing code safely in a sandboxed environment with persistent tool management across conversations.",
-  "url": "https://github.com/riza-io/riza-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

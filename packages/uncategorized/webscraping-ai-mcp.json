@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "webscraping-ai-mcp",
-  "description": "Provides web scraping capabilities with proxy support, JavaScript rendering, and structured data extraction for robust web content retrieval and analysis.",
-  "url": "https://github.com/webscraping-ai/webscraping-ai-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

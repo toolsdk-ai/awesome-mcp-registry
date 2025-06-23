@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bazel",
-  "description": "Integrates with Bazel build systems to enable target building, test running, dependency analysis, and source file identification without requiring command-line syntax knowledge.",
-  "url": "https://github.com/aaomidi/mcp-bazel",
-  "runtime": "go",
-  "license": "gpl-3.0"
-}

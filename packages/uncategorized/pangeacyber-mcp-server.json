@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@pangeacyber/mcp-server",
-  "description": "Integrates with Pangea's cybersecurity APIs to provide threat intelligence, data protection, and security analysis capabilities including reputation checking, embargo screening, sensitive data redaction, audit logging, and cryptographic key management with built-in AI Guard protection against malicious inputs and outputs.",
-  "url": "https://github.com/pangeacyber/pangea-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

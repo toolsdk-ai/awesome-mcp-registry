@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "stripe",
-  "description": "Integrates with Stripe's payment processing API to enable transaction processing, customer management, and subscription handling for financial applications.",
-  "url": "https://github.com/atharvagupta2003/mcp-stripe",
-  "runtime": "python",
-  "license": "mit"
-}

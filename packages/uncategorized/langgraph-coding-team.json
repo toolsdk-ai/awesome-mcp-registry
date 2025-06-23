@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "langgraph-coding-team",
-  "description": "Create coding agents to generate implementation options.",
-  "url": "https://github.com/danmas0n/multi-agent-with-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

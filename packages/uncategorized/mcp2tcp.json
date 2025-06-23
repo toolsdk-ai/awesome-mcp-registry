@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp2tcp",
-  "description": "Bridges LLMs with physical hardware through serial communication, enabling real-world interaction via configurable commands for IoT projects and hardware control applications.",
-  "url": "https://github.com/mcp2everything/mcp2tcp",
-  "runtime": "python",
-  "license": "unknown"
-}

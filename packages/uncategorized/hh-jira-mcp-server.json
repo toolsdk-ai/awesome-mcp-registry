@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "hh-jira-mcp-server",
-  "description": "Integrates with the Jira API to enable querying, creating, and modifying issues and projects, simplifying project tracking and management tasks.",
-  "url": "https://github.com/alexeydubinin/hh-jira-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

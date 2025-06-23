@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tagesschau",
-  "description": "Provides a bridge to Tagesschau's news API for retrieving and analyzing German news articles across categories like domestic, foreign, economic and sports coverage",
-  "url": "https://github.com/a2xdeveloper/tagesschau-mcp-server",
-  "runtime": "go",
-  "license": "mit"
-}

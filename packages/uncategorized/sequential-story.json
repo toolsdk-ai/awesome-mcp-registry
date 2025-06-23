@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sequential-story",
-  "description": "Provides structured problem-solving tools through Sequential Story and Sequential Thinking approaches, enabling narrative-based or Python-implemented thought sequences with branching and visual formatting capabilities for enhanced memory retention.",
-  "url": "https://github.com/dhkts1/sequentialstory",
-  "runtime": "python",
-  "license": "unknown"
-}

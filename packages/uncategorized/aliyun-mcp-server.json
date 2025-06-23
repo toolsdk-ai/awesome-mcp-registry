@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aliyun-mcp-server",
-  "description": "Integrates with Alibaba Cloud services to query and filter SLS logs, with future support for ECS instance management and serverless function deployment.",
-  "url": "https://github.com/nailuogg/aliyun-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

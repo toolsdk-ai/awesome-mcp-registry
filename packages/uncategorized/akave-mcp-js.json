@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "akave-mcp-js",
-  "description": "Integrates with Akave's S3-compatible storage platform to manage buckets and objects, upload/download files, generate signed URLs, and handle file operations with automatic text cleaning for common formats.",
-  "url": "https://github.com/akave-ai/akave-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

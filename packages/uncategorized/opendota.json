@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "opendota",
-  "description": "Integrates with the OpenDota API to provide real-time Dota 2 statistics, match data, and player information for game analysis, performance tracking, and esports research.",
-  "url": "https://github.com/asusevski/opendota-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "any-openapi",
-  "description": "Integrates with any OpenAPI-compliant service using dynamic tool generation and vector-based semantic search for efficient API operation discovery and interaction.",
-  "url": "https://github.com/baryhuang/mcp-server-any-openapi",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rayon-design-cad",
-  "description": "Integrates with Rayon Design CAD interface using browser automation to enable shape creation and drawing method searches for AI-assisted design workflows.",
-  "url": "https://github.com/lolrazh/cad-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

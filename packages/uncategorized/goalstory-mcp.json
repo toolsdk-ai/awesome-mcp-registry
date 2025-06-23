@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "goalstory-mcp",
-  "description": "Integrates with Goal Story to enable personal goal management, step-by-step planning, and motivational narrative visualization based on users' beliefs and motivations.",
-  "url": "https://github.com/hichana/goalstory-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

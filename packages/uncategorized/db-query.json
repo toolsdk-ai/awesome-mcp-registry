@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "db-query",
-  "description": "Connects AI models to multiple database systems for executing queries and retrieving results across PostgreSQL, MySQL, and SQLite.",
-  "url": "https://github.com/alx99/db-mcp",
-  "runtime": "go",
-  "license": "mit"
-}

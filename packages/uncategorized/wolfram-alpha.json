@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wolfram-alpha",
-  "description": "Connects language models to Wolfram Alpha for performing mathematical calculations, scientific queries, and data analysis with structured results in text or image formats",
-  "url": "https://github.com/akalaric/mcp-wolframalpha",
-  "runtime": "python",
-  "license": "mit"
-}

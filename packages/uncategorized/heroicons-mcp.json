@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "heroicons-mcp",
-  "description": "Exposes the Heroicons library for searching, listing, and generating usage examples of icons in React applications",
-  "url": "https://github.com/seeyangzhi/heroicons-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

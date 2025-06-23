@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wireshark",
-  "description": "Wireshark dissector plugin for analyzing network traffic.",
-  "url": "https://github.com/waynecui/wireshark_mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

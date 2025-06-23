@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-minecraft-remote",
-  "description": "Enables AI-assisted remote control and manipulation of Minecraft servers through natural language commands, supporting complex navigation, world interaction, and gameplay automation tasks.",
-  "url": "https://github.com/nacal/mcp-minecraft-remote",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "norman-finance",
-  "description": "Enables interaction with the Norman Finance API, offering access to accounting, invoices, companies, clients, taxes, and more.",
-  "url": "https://github.com/norman-finance/norman-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

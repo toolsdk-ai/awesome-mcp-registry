@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "xueqiu-(chinese-stock-market)",
-  "description": "Integrates with Xueqiu (雪球) financial platform to provide real-time Chinese stock market data, company financials, and investor sentiment analysis for comprehensive equity research and market trend tracking.",
-  "url": "https://github.com/liqiongyu/xueqiu_mcp",
-  "runtime": "python",
-  "license": "mit"
-}

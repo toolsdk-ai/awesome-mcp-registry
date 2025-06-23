@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "minimax-mcp-js",
-  "description": "Official JavaScript implementation that integrates with MiniMax's multimodal capabilities for image generation, video creation, text-to-speech, and voice cloning across multiple transport modes.",
-  "url": "https://github.com/minimax-ai/minimax-mcp-js",
-  "runtime": "node",
-  "license": "unknown"
-}

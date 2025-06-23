@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "watson-discovery",
-  "description": "Integrates with IBM Watson Discovery to search and retrieve information from enterprise knowledge bases and documentation repositories through natural language queries.",
-  "url": "https://github.com/matlock08/watson_discovery_mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

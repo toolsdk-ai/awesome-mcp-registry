@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "codeql",
-  "description": "Bridges to the CodeQL static analysis engine for identifying security vulnerabilities and quality issues in codebases through structured query evaluation and result interpretation.",
-  "url": "https://github.com/jordyzomer/codeql-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

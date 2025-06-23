@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-mailtrap",
-  "description": "Enables sending transactional emails through the Mailtrap Email API.",
-  "url": "https://github.com/railsware/mailtrap-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@k-jarzyna/mcp-miro",
-  "description": "Integrates with Miro's collaborative whiteboard platform, providing over 80 tools for managing boards, creating and manipulating various item types, and handling enterprise features for visual collaboration workflows.",
-  "url": "https://github.com/k-jarzyna/mcp-miro",
-  "runtime": "node",
-  "license": "unknown"
-}

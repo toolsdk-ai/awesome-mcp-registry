@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "web-browser-mcp-server",
-  "description": "Integrates web browsing capabilities for realtime data retrieval, content extraction, and task automation using popular Python libraries.",
-  "url": "https://github.com/blazickjp/web-browser-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

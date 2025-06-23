@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "onesignal",
-  "description": "Integrates with OneSignal to manage push notifications, emails, and SMS across multiple applications with support for device management, segmentation, and template operations.",
-  "url": "https://github.com/weirdbrains/onesignal-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

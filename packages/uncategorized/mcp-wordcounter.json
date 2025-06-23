@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-wordcounter",
-  "description": "Analyze text documents, including counting words and characters, through Node.js.",
-  "url": "https://github.com/qpd-v/mcp-wordcounter",
-  "runtime": "node",
-  "license": "unknown"
-}

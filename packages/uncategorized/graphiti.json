@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "graphiti",
-  "description": "Provides a temporal knowledge graph system for storing, retrieving, and reasoning about relationships between entities with persistent memory across conversations",
-  "url": "https://github.com/getzep/graphiti/tree/HEAD/mcp_server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

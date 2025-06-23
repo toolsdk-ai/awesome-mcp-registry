@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "zaturn",
-  "description": "Connects to multiple database types to enable SQL querying with visualization capabilities while keeping data in its original location",
-  "url": "https://github.com/kdqed/zaturn",
-  "runtime": "python",
-  "license": "unknown"
-}

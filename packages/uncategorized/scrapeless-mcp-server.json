@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "scrapeless-mcp-server",
-  "description": "Provides a bridge to the Scrapeless API for performing Google searches with customizable parameters including query text, country code, and language preferences.",
-  "url": "https://github.com/scrapeless-ai/scrapeless-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

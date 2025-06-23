@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aws-s3-mcp",
-  "description": "Provides direct access to Amazon S3 storage for listing buckets, browsing objects, and retrieving file contents with automatic text extraction from PDFs and other file types.",
-  "url": "https://github.com/samuraikun/aws-s3-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

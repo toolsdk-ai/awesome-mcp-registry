@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aptos",
-  "description": "Integrates with the Aptos blockchain ecosystem to enable smart contract development, testing, and deployment through natural language interactions for generating components, managing projects, and automating gas station creation",
-  "url": "https://github.com/tlazypanda/aptos-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

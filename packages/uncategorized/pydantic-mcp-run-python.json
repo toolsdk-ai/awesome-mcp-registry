@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@pydantic/mcp-run-python",
-  "description": "Provides a browser-compatible Python execution environment with package management capabilities for running code snippets safely without requiring a backend Python installation.",
-  "url": "https://github.com/pydantic/pydantic-ai/tree/HEAD/mcp-run-python",
-  "runtime": "python",
-  "license": "unknown"
-}

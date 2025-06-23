@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aws-resources",
-  "description": "Provides a Python-based interface for executing AWS queries across services like S3 and CodePipeline, enabling DevOps tasks and cloud resource management.",
-  "url": "https://github.com/baryhuang/mcp-server-aws-resources-python",
-  "runtime": "python",
-  "license": "mit"
-}

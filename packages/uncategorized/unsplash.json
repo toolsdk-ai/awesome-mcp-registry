@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "unsplash",
-  "description": "Connects to Unsplash's API to enable photo searching with customizable filters, detailed image information retrieval, and random photo fetching for seamless imagery integration in conversations.",
-  "url": "https://github.com/okooo5km/unsplash-mcp-server-go",
-  "runtime": "go",
-  "license": "unknown"
-}

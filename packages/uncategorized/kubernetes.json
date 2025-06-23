@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kubernetes",
-  "description": "Integrates with Kubernetes clusters to manage resources, retrieve pod logs, execute commands in containers, and apply YAML manifests with configurable timeouts and rate limiting for DevOps automation and cluster monitoring.",
-  "url": "https://github.com/stackloklabs/mkp",
-  "runtime": "go",
-  "license": "apache-2.0"
-}

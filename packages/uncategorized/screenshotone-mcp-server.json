@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "screenshotone-mcp-server",
-  "description": "Enables AI to capture and process screenshots of webpages with customizable parameters through the ScreenshotOne API with Cloudflare CDN integration for image storage and retrieval.",
-  "url": "https://github.com/mrgoonie/screenshotone-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

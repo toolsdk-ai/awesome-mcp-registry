@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "canvas-learning-management-system",
-  "description": "Integrates with the Canvas Learning Management System API to enable course management, assignment tracking, and student engagement analysis in educational settings.",
-  "url": "https://github.com/vishalsachdev/canvas-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

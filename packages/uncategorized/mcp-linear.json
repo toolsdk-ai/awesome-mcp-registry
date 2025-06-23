@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-linear",
-  "description": "Integrates Linear project management with MCP to enable task creation, updates, and queries for automated workflow management.",
-  "url": "https://github.com/shannonlal/mcp-linear",
-  "runtime": "node",
-  "license": "unknown"
-}

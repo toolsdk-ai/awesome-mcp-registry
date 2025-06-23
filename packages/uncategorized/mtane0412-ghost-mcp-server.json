@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@mtane0412/ghost-mcp-server",
-  "description": "Integrates with Ghost CMS's Admin API to enable automated content management and custom publishing workflows for Ghost blogs.",
-  "url": "https://github.com/mtane0412/ghost-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@tacticlaunch/mcp-linear",
-  "description": "Bridges Linear project management system with natural language interaction, enabling issue tracking, project workflows, and team management without context switching.",
-  "url": "https://github.com/tacticlaunch/mcp-linear",
-  "runtime": "node",
-  "license": "unknown"
-}

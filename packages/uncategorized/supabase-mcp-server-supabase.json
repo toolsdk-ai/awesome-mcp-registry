@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@supabase/mcp-server-supabase",
-  "description": "Connects directly to Supabase projects for managing databases, executing SQL queries, applying migrations, and handling configurations through natural language commands.",
-  "url": "https://github.com/supabase-community/supabase-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

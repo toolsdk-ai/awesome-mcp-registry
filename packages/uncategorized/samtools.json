@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "samtools",
-  "description": "Provides a standardized interface for working with SAM/BAM/CRAM files.",
-  "url": "https://github.com/sirusb/samtools_mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

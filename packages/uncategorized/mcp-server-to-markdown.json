@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-to-markdown",
-  "description": "Bridges Claude with Cloudflare's AI services to convert PDFs, images, HTML, and Office documents into structured markdown descriptions for content analysis and documentation generation.",
-  "url": "https://github.com/fradser/mcp-server-to-markdown",
-  "runtime": "node",
-  "license": "unknown"
-}

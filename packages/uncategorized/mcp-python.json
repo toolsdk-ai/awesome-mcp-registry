@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-python",
-  "description": "Provides a persistent Python execution environment for interactive code development, data analysis, and rapid prototyping.",
-  "url": "https://github.com/hdresearch/mcp-python",
-  "runtime": "python",
-  "license": "unknown"
-}

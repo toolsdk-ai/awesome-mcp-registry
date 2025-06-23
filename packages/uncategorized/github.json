@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github",
-  "description": "Integrates with GitHub's API to enable repository management, issue tracking, pull request handling, and code manipulation through natural language commands",
-  "url": "https://github.com/stephanj/githubmcp",
-  "runtime": "java",
-  "license": "mit"
-}

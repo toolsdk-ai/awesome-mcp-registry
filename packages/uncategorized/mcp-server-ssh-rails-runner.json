@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-ssh-rails-runner",
-  "description": "Enables safe remote execution of Rails console commands via SSH for efficient data operations and administrative tasks on production Rails applications.",
-  "url": "https://github.com/tadasant/mcp-server-ssh-rails-runner",
-  "runtime": "node",
-  "license": "unknown"
-}

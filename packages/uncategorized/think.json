@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "think",
-  "description": "Enhances Claude's reasoning capabilities with OpenAI's o3-mini model for multi-step analysis of complex problems while maintaining variables throughout extended reasoning chains.",
-  "url": "https://github.com/technavii/mcp_think",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@zbddev/payments-sdk-mcp",
-  "description": "Integrates with ZBD Payments API to enable Bitcoin and Lightning Network transactions including sending/receiving payments, wallet operations, voucher management, and OAuth2 authentication flows",
-  "url": "https://github.com/zbdpay/zbd-payments-typescript-sdk",
-  "runtime": "node",
-  "license": "unknown"
-}

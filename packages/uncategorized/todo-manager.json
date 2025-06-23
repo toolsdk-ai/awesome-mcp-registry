@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "todo-manager",
-  "description": "Manages TODO.md and CHANGELOG.md files with precise, line-based editing, multiple character encodings, and atomic operations for structured task and release management.",
-  "url": "https://github.com/mutker/mcp-todo-server",
-  "runtime": "go",
-  "license": "mit"
-}

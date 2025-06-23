@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-python-interpreter",
-  "description": "Provides a secure Python execution environment with isolated working directories, enabling code execution, file operations, and package management for development, data analysis, and educational tasks.",
-  "url": "https://github.com/yzfly/mcp-python-interpreter",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-weibo",
-  "description": "Enables scraping of Weibo user information, feeds, and search functionality with tools for user discovery, profile retrieval, and feed access",
-  "url": "https://github.com/selenium39/mcp-server-weibo",
-  "runtime": "node",
-  "license": "unknown"
-}

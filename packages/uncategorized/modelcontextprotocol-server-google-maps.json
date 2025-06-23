@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-google-maps",
-  "description": "Access location data, geocoding, and place details through Maps API.",
-  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/google-maps",
-  "runtime": "node",
-  "license": "unknown"
-}

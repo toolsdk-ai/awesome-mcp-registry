@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "postgres-mcp",
-  "description": "Helps you and your AI agents throughout the entire development process—from writing SQL to tuning performance safely.",
-  "url": "https://github.com/crystaldba/postgres-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

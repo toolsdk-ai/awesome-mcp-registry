@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "unity-ollama",
-  "description": "Integrates Unity Editor with local LLMs through Ollama, enabling natural language control of game objects, scripts, materials, and scenes for streamlined development workflows.",
-  "url": "https://github.com/zundamonnovrchatkaisetu/unity-mcp-ollama",
-  "runtime": "python",
-  "license": "mit"
-}

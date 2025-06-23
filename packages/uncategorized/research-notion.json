@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "research-notion",
-  "description": "Integrates with Notion to enable AI-powered survey creation, data retrieval, and analysis for research projects.",
-  "url": "https://github.com/h-yanagawa/research-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

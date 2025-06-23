@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "web-browser-(playwright)",
-  "description": "Integrates with Playwright to enable cross-browser web automation for tasks like scraping, testing, and content extraction.",
-  "url": "https://github.com/random-robbie/mcp-web-browser",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "user-feedback",
-  "description": "Enable a human-in-the-loop workflow in tools like Cline and Cursor.",
-  "url": "https://github.com/mrexodia/user-feedback-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openapi-swagger-converter",
-  "description": "Automatically converts Swagger/OpenAPI specifications into toolsets, enabling interaction with any API without additional coding through secure key management and dynamic request construction.",
-  "url": "https://github.com/ckanthony/openapi-mcp",
-  "runtime": "go",
-  "license": "unknown"
-}

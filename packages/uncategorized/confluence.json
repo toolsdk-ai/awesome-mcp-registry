@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "confluence",
-  "description": "Provides a robust bridge to the Atlassian Confluence API, enabling search, retrieval, creation, and update of Confluence pages with full-text search and version control capabilities.",
-  "url": "https://github.com/nguyenvanduocit/confluence-mcp",
-  "runtime": "go",
-  "license": "unknown"
-}

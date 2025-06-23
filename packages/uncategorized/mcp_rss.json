@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp_rss",
-  "description": "Enables AI to access and manage RSS feed content by parsing OPML files, fetching articles, and filtering content from subscribed sources",
-  "url": "https://github.com/buhe/mcp_rss",
-  "runtime": "node",
-  "license": "unknown"
-}

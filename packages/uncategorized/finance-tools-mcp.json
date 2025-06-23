@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "finance-tools-mcp",
-  "description": "Integrates with financial data sources like yfinance, CNN Fear & Greed Index, FRED, and ta-lib to provide real-time market data, technical indicators, and economic insights for investment research and portfolio analysis.",
-  "url": "https://github.com/voxlink-org/finance-tools-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

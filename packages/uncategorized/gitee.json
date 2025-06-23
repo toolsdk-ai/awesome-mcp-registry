@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gitee",
-  "description": "Bridges Claude with Gitee's API for repository management, issue tracking, pull request workflows, and user notifications on the Gitee platform.",
-  "url": "https://github.com/oschina/mcp-gitee",
-  "runtime": "go",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "video-editor-(ffmpeg)",
-  "description": "Integrates FFmpeg for video editing operations, enabling tasks like trimming, merging, and format conversion through natural language commands.",
-  "url": "https://github.com/kush36agrawal/video_editor_mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

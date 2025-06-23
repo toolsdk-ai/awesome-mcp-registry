@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "data-wrangler-(polars)",
-  "description": "Provides data preprocessing, transformation, and analysis capabilities using Polars dataframes for statistical operations on multiple file formats with structured JSON responses.",
-  "url": "https://github.com/shibuiwilliam/mcp-server-data-wrangler",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jdbc-database-connector",
-  "description": "Provides a bridge between relational databases and language models through JDBC connections, enabling SQL, SPARQL, and SPASQL queries with special optimizations for Virtuoso DBMS features like knowledge graph exploration.",
-  "url": "https://github.com/openlinksoftware/mcp-jdbc-server",
-  "runtime": "java",
-  "license": "mit"
-}

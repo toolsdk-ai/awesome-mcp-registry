@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "test-mcp",
-  "description": "Provides instant access to git-spice documentation within your IDE, enabling real-time searching and automatic assistance for developers working with git-spice commands and usage examples.",
-  "url": "https://github.com/sach999/git-spice-help-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

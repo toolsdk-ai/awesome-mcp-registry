@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "shadow-cljs-mcp",
-  "description": "Monitors ClojureScript builds in real-time, providing detailed status information including compilation status, warnings, errors, and file-specific details for verifying build success after code changes.",
-  "url": "https://github.com/bigsy/shadow-cljs-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

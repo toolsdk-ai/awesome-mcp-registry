@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dbt-cli",
-  "description": "Bridges Claude with dbt Core CLI, enabling direct execution of data transformation workflows, model management, and pipeline analysis within conversation interfaces.",
-  "url": "https://github.com/mammothgrowth/dbt-cli-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

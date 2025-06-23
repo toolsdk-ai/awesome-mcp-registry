@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "digitalocean",
-  "description": "Integrates with DigitalOcean's API to provide a secure, rate-limited interface for automating cloud resource management and infrastructure operations.",
-  "url": "https://github.com/luc-io/mcpserver",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github-todo-scanner",
-  "description": "Scans GitHub repositories for TODO comments in code files, presenting findings through both a web interface and RESTful API for tracking outstanding tasks and conducting code quality reviews.",
-  "url": "https://github.com/startr/web-mcpo-repo_scanner",
-  "runtime": "python",
-  "license": "agpl-3.0"
-}

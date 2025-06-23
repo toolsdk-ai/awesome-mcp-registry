@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "discogs-mcp-server",
-  "description": "Provides a bridge to the Discogs API for searching music databases, managing collections, and accessing marketplace listings with comprehensive artist and release information.",
-  "url": "https://github.com/cswkim/discogs-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

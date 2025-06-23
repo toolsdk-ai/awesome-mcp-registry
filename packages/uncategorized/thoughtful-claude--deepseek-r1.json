@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "thoughtful-claude-(deepseek-r1)",
-  "description": "Integrates DeepSeek's R1 reasoning engine to enhance problem-solving, analysis, and decision-making capabilities.",
-  "url": "https://github.com/martinbowling/thoughtful-claude",
-  "runtime": "python",
-  "license": "unknown"
-}

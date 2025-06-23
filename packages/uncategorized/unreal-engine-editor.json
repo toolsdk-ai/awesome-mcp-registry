@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "unreal-engine-editor",
-  "description": "Transforms Unreal Engine Editor into an MCP-compatible server using Python's asyncio framework, enabling direct control of editor functionality for automated workflows and content creation.",
-  "url": "https://github.com/cc8887/ue-editor-mcpserver",
-  "runtime": "python",
-  "license": "unknown"
-}

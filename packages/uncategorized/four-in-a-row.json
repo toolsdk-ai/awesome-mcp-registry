@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "four-in-a-row",
-  "description": "Implements a Four-in-a-Row (Connect Four) game with RESTful API endpoints for creating games, making moves, checking win conditions, and managing game state with support for custom board dimensions and persistent storage.",
-  "url": "https://github.com/jeffreygroneberg/mcp-fiar",
-  "runtime": "java",
-  "license": "unknown"
-}

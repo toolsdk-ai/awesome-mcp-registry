@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tv-recommender-mcp-server",
-  "description": "Integrates with The Movie Database (TMDb) API to provide TV show discovery, recommendations, and streaming information based on genres, trends, and viewer preferences.",
-  "url": "https://github.com/terryso/tv-recommender-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

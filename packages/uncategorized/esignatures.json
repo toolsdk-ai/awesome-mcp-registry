@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "esignatures",
-  "description": "Integrates with the eSignatures.com API to simplify contract and document management, enabling creation, querying, and handling of digital contracts and signatures.",
-  "url": "https://github.com/esignaturescom/mcp-server-esignatures",
-  "runtime": "python",
-  "license": "mit"
-}

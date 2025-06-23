@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "officemcp",
-  "description": "Enables AI to automate Microsoft Office applications (Word, Excel, PowerPoint, and more) through COM interfaces in Windows, providing tools for launching programs, manipulating documents, capturing screenshots, and managing files.",
-  "url": "https://github.com/officemcp/officemcp",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "outsource",
-  "description": "Delegates text generation and image creation tasks to external AI models including OpenAI, Anthropic, Google, Groq, and DeepSeek, enabling access to alternative perspectives, specialized capabilities, and visual content generation.",
-  "url": "https://github.com/gwbischof/outsource-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

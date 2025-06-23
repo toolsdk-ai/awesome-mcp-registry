@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "zoho-creator",
-  "description": "Integrates with the Zoho Creator API to provide forms and reports capabilities.",
-  "url": "https://github.com/mastercode-io/scaflog-zoho-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

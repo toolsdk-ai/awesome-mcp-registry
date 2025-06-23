@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "matlab",
-  "description": "Integrates MATLAB's numerical computing capabilities, enabling execution of MATLAB scripts and functions for data analysis, signal processing, and visualization.",
-  "url": "https://github.com/tsuchijo/matlab-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

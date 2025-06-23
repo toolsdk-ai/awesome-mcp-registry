@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "notion-mcp-server",
-  "description": "Enables AI systems to create, update, and manage Notion pages and blocks through a Node.js bridge to the Notion API, supporting efficient batch operations for documentation and knowledge base maintenance.",
-  "url": "https://github.com/awkoy/notion-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

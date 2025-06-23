@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "create-mcp-server",
-  "description": "Streamlines MCP server creation with a structured development protocol and example templates, offering an npx-invokable tool for efficient setup of server scaffolds.",
-  "url": "https://github.com/maoxiaoke/create-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

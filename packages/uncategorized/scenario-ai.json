@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "scenario-ai",
-  "description": "Provides a bridge to the Scenario.com API for generating images from text prompts and removing backgrounds from existing images through authenticated access with environment variables.",
-  "url": "https://github.com/pasie15/scenario.com-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}
