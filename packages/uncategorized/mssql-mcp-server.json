@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mssql-mcp-server",
+  "description": "Enables robust SQL query execution and database connection management for Microsoft SQL Server with comprehensive error handling and security features.",
+  "url": "https://github.com/knight0zh/mssql-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mcpdotdirect/starknet-mcp-server",
+  "description": "Provides a bridge to the Starknet blockchain for querying data, managing tokens, resolving IDs, and executing transactions on both mainnet and sepolia networks.",
+  "url": "https://github.com/mcpdotdirect/starknet-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

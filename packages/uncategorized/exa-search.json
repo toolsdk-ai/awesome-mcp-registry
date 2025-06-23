@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "exa-search",
+  "description": "Provides intelligent discovery and research of Model Context Protocol servers using Exa search with tools for finding servers based on requirements, extracting detailed information, discovering similar implementations, and organizing results by functionality with confidence scoring and feature analysis.",
+  "url": "https://github.com/haran2001/mcp-search-server",
+  "runtime": "python",
+  "license": "unknown"
+}

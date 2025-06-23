@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-timeserver",
+  "description": "Provides access to current date and time information across timezones through a custom datetime:// URI scheme and local system time tool.",
+  "url": "https://github.com/secretiveshell/mcp-timeserver",
+  "runtime": "python",
+  "license": "unknown"
+}

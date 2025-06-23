@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@pinkpixel/deep-research-mcp",
+  "description": "Enables comprehensive web research by leveraging Tavily's Search and Crawl APIs to aggregate information from multiple sources, extract detailed content, and structure data specifically for generating technical documentation and research reports.",
+  "url": "https://github.com/pinkpixel-dev/deep-research-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

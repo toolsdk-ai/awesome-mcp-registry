@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@rawveg/ollama-mcp",
+  "description": "Integrates Ollama's local LLM models with MCP-compatible applications, enabling on-premise AI processing and custom model deployment while maintaining data control.",
+  "url": "https://github.com/rawveg/ollama-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

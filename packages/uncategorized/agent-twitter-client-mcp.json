@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "agent-twitter-client-mcp",
+  "description": "Provides a TypeScript-based server for interacting with Twitter, enabling tweet operations, user profile management, and Grok AI integration through multiple authentication methods.",
+  "url": "https://github.com/ryanmac/agent-twitter-client-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "n8n-workflow-summarizer",
+  "description": "Transforms complex n8n workflow JSON files into clear markdown summaries, extracting nodes, connections, and functionality while generating conceptual Python code that replicates the workflow's logic.",
+  "url": "https://github.com/gblack686/n8n-workflow-summarizer-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "chess.com-api",
+  "description": "Integrates with Chess.com Published Data API to access player profiles, statistics, game data, and club information in both JSON and PGN formats for chess analysis and tournament research.",
+  "url": "https://github.com/pab1it0/chess-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

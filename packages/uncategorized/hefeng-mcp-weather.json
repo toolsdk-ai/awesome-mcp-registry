@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "hefeng-mcp-weather",
+  "description": "Integrates with the HeFeng Weather API to provide real-time weather information and forecasts for locations in China, supporting queries by coordinates and offering hourly and daily data.",
+  "url": "https://github.com/shanggqm/hefeng-mcp-weather",
+  "runtime": "node",
+  "license": "unknown"
+}

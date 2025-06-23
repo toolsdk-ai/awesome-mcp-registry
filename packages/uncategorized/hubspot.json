@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "hubspot",
+  "description": "Integrates with HubSpot CRM to enable retrieval and manipulation of contact and company data, supporting sales and marketing workflows without leaving the conversation interface.",
+  "url": "https://github.com/sheffieldp/hubspot_mcp",
+  "runtime": "python",
+  "license": "mit"
+}

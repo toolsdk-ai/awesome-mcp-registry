@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-supos",
+  "description": "Integrates with SUPOS platform, enabling applications to leverage SUPOS services and capabilities within MCP-based workflows.",
+  "url": "https://github.com/freezonex/mcp-server-supos",
+  "runtime": "node",
+  "license": "unknown"
+}

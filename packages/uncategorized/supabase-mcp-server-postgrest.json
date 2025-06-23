@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@supabase/mcp-server-postgrest",
+  "description": "Connects to Supabase projects using PostgREST, or standalone PostgREST servers, enabling natural language querying and management of PostgreSQL data.",
+  "url": "https://github.com/supabase-community/supabase-mcp/tree/HEAD/packages/mcp-server-postgrest",
+  "runtime": "node",
+  "license": "unknown"
+}

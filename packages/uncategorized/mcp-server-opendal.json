@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-opendal",
+  "description": "Integrates with OpenDAL to provide unified access to diverse storage backends, enabling LLMs to read from and write to various storage systems for data management tasks.",
+  "url": "https://github.com/xuanwo/mcp-server-opendal",
+  "runtime": "python",
+  "license": "unknown"
+}

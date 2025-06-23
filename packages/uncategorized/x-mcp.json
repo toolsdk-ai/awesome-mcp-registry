@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "x-mcp",
+  "description": "Create and manage X/Twitter posts.",
+  "url": "https://github.com/vidhupv/x-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

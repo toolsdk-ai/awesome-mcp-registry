@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "workers-mcp",
+  "description": "Enables MCP capabilities in Cloudflare Workers for deploying low-latency, scalable AI services at the network edge.",
+  "url": "https://github.com/cloudflare/workers-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

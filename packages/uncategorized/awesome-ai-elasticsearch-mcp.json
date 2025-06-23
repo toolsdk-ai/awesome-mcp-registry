@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@awesome-ai/elasticsearch-mcp",
+  "description": "Enables natural language interaction with Elasticsearch databases for search functionality and index management without requiring complex query syntax or API knowledge.",
+  "url": "https://github.com/awesimon/elasticsearch-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

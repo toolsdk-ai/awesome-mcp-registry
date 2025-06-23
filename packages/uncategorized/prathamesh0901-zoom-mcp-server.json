@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@prathamesh0901/zoom-mcp-server",
+  "description": "Provides a bridge between Zoom API and virtual meeting management, enabling creation, updating, deletion, and fetching of meetings without navigating the Zoom interface or handling authentication flows.",
+  "url": "https://github.com/prathamesh0901/zoom-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

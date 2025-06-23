@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "npm-search-mcp-server",
+  "description": "Enables npm package searches via CLI, facilitating JavaScript library discovery and dependency management",
+  "url": "https://github.com/btwiuse/npm-search-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

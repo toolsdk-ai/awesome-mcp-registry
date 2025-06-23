@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "jexchange-mcp-server",
+  "description": "Provides a lightweight, asynchronous Python server for connecting AI models with external services through a simple, deployable foundation built on asyncio.",
+  "url": "https://github.com/juhemcp/jexchange-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

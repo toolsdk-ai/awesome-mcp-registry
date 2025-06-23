@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@ylin6/unleash-ff-mcp-server",
+  "description": "Provides a bridge to the Unleash feature flag management system, enabling dynamic creation, retrieval, and management of feature flags across different development projects.",
+  "url": "https://github.com/ylin6/unleash-ff-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

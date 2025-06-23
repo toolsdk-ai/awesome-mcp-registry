@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@zereight/mcp-gitlab",
+  "description": "Integrates with GitLab's API to enable repository management, issue tracking, merge request handling, and file operations for automated development workflows.",
+  "url": "https://github.com/zereight/gitlab-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

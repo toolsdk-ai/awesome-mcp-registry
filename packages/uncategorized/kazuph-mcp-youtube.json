@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kazuph/mcp-youtube",
+  "description": "Integrates YouTube subtitle retrieval for natural language queries about video content.",
+  "url": "https://github.com/kazuph/mcp-youtube",
+  "runtime": "node",
+  "license": "unknown"
+}

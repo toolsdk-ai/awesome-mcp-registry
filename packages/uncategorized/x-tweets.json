@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "x-tweets",
+  "description": "Automates tweet scheduling and posting by integrating Google Sheets with Twitter using web automation.",
+  "url": "https://github.com/tannisas/mcp-server/tree/HEAD/X_twee",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "pdfsearch",
+  "description": "Built for Zed to enable semantic searching of PDF documents using a Qdrant vector database and OpenAI embeddings.",
+  "url": "https://github.com/freespirit/pdfsearch-zed",
+  "runtime": "python",
+  "license": "unknown"
+}

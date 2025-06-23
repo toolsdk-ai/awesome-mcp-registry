@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@merill/lokka",
+  "description": "Provides a bridge between Microsoft Graph API and natural language interaction, enabling conversational management of Microsoft 365 tenants without complex API calls.",
+  "url": "https://github.com/merill/lokka/tree/HEAD/src/mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

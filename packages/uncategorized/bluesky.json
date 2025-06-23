@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bluesky",
+  "description": "Integrates with BlueSky's API to retrieve user profiles and social graph data, enabling user analysis, network visualization, and content discovery.",
+  "url": "https://github.com/berlinbra/bluesky-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

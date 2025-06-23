@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "zotero",
+  "description": "Enables direct interaction with Zotero reference management libraries for searching literature, retrieving metadata and full-text content, managing collections, and organizing research materials.",
+  "url": "https://github.com/54yyyu/zotero-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

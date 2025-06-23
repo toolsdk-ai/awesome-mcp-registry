@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "yfmcp",
+  "description": "Provides real-time financial data from Yahoo Finance through specialized tools for retrieving stock information, market trends, and news for investment research and analysis.",
+  "url": "https://github.com/narumiruna/yfinance-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

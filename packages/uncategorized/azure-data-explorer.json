@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "azure-data-explorer",
+  "description": "Integrates with Azure Data Explorer to enable executing KQL queries, discovering database resources, exploring table schemas, and sampling data for data analysis and insights generation.",
+  "url": "https://github.com/pab1it0/adx-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

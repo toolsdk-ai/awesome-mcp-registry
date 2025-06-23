@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "aer-mcp-(american-economic-association-journals)",
+  "description": "Enables AI assistants to search and extract information from American Economic Association journals with filtering by title, abstract, author, and JEL classification for economic research and literature reviews.",
+  "url": "https://github.com/sepinetam/aer-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

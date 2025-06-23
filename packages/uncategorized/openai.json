@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "openai",
+  "description": "Integrates with OpenAI's API to enable direct querying of various language models, supporting efficient text generation and question answering tasks.",
+  "url": "https://github.com/thadius83/mcp-server-openai",
+  "runtime": "python",
+  "license": "mit"
+}

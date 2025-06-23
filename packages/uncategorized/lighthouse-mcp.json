@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "lighthouse-mcp",
+  "description": "Use Google's lighthouse tool to measure perf metrics for your webpage. You can then run an agentic loop and get the assistants to optimize those metrics.",
+  "url": "https://github.com/priyankark/lighthouse-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

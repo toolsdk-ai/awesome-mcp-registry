@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "openai-agents-sdk",
+  "description": "Provides access to OpenAI Agents SDK documentation and GitHub repository through search tools, content retrieval, and code examples with performance-optimized caching for developers referencing functionality without context switching.",
+  "url": "https://github.com/yaxin9luo/openai_agent_library_mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

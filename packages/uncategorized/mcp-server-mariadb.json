@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-mariadb",
+  "description": "Bridges Claude with MariaDB databases for read-only SQL query execution, enabling data exploration through formatted table results while enforcing safety restrictions on permitted operations.",
+  "url": "https://github.com/abel9851/mcp-server-mariadb",
+  "runtime": "python",
+  "license": "unknown"
+}

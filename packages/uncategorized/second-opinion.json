@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "second-opinion",
+  "description": "Enables getting second opinions from multiple AI models across OpenAI, Google Gemini, xAI Grok, and Anthropic Claude platforms with conversation history management and cross-platform response comparison for improved decision making and research validation.",
+  "url": "https://github.com/procreations-official/second-opinion",
+  "runtime": "python",
+  "license": "unknown"
+}

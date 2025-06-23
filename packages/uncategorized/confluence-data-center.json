@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "confluence-data-center",
+  "description": "Integrates with Confluence Data Center to enable direct access to content through operations like searching, retrieving, creating, updating, and deleting pages without switching contexts.",
+  "url": "https://github.com/masna-ai/mcp-confluence-server",
+  "runtime": "python",
+  "license": "unknown"
+}

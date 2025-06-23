@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@tsmztech/mcp-server-salesforce",
+  "description": "Integrates with Salesforce CRM for natural language-driven data management, querying, and administration tasks.",
+  "url": "https://github.com/tsmztech/mcp-server-salesforce",
+  "runtime": "node",
+  "license": "unknown"
+}

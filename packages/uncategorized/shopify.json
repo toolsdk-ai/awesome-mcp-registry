@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "shopify",
+  "description": "Integrates with Shopify to provide tools for retrieving product and customer data, enabling e-commerce analytics and automation without API complexities.",
+  "url": "https://github.com/siddhantbajaj/shopify-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

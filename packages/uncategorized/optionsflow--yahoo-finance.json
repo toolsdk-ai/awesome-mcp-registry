@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "optionsflow-(yahoo-finance)",
+  "description": "Integrates with Yahoo Finance to provide options analysis and strategy evaluation tools for risk assessment and portfolio management.",
+  "url": "https://github.com/twolven/mcp-optionsflow",
+  "runtime": "python",
+  "license": "mit"
+}

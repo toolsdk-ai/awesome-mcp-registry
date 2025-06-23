@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "caiyun-weather-mcp",
+  "description": "Integrates with Caiyun Weather API to provide real-time weather data and forecasts based on geographic coordinates or location names for travel planning and outdoor activities.",
+  "url": "https://github.com/marcusbai/caiyun-weather-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

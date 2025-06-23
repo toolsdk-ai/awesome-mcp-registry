@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kazuph/mcp-gmail-gas",
+  "description": "Integrates Gmail functionality, enabling email search, message retrieval, and attachment downloads via Google Apps Script.",
+  "url": "https://github.com/kazuph/mcp-gmail-gas",
+  "runtime": "node",
+  "license": "unknown"
+}

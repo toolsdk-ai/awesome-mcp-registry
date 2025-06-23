@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "dev.to",
+  "description": "Integrates with Dev.to blogging platform for fetching articles by tags, managing user profiles and reading lists, publishing markdown content, and accessing comments to enable content management workflows and automated blog publishing.",
+  "url": "https://github.com/heetvekariya/devto-agent",
+  "runtime": "python",
+  "license": "unknown"
+}

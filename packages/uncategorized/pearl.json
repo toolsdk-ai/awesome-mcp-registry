@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "pearl",
+  "description": "Integrates with Pearl's platform to provide access to both automated responses and human expert assistance across medical, legal, technical, and lifestyle domains through three interaction modes: AI-only for quick responses, AI-expert for screened human support, and direct expert consultation.",
+  "url": "https://github.com/pearl-com/pearl_mcp_server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

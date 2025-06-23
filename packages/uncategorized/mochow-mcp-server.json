@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mochow-mcp-server",
+  "description": "Provides direct access to Mochow vector database capabilities for managing databases, tables, and performing vector similarity and full-text searches with filtering options.",
+  "url": "https://github.com/baidu/mochow-mcp-server-python",
+  "runtime": "python",
+  "license": "unknown"
+}

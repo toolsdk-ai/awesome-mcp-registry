@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-duckduckgo-search",
+  "description": "Integrates DuckDuckGo search capabilities with customizable parameters for web-based information retrieval.",
+  "url": "https://github.com/spences10/mcp-duckduckgo-search",
+  "runtime": "node",
+  "license": "unknown"
+}

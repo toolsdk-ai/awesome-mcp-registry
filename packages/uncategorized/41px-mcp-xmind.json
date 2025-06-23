@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@41px/mcp-xmind",
+  "description": "Analyze Xmind mind maps on your local machine using fuzzy search and hierarchical navigation.",
+  "url": "https://github.com/apeyroux/mcp-xmind",
+  "runtime": "node",
+  "license": "unknown"
+}

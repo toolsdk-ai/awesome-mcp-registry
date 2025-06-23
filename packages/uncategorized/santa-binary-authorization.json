@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "santa-binary-authorization",
+  "description": "Enables security professionals to interact with Santa binary authorization system for macOS, providing tools to query status, sync rules, retrieve file information, and check version details.",
+  "url": "https://github.com/pmarkowsky/santa-mcp",
+  "runtime": "go",
+  "license": "unknown"
+}

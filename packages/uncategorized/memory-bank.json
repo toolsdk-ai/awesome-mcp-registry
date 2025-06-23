@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "memory-bank",
+  "description": "Provides a structured documentation system for preserving context in complex projects through templates, project summaries, and consistent knowledge management across sessions.",
+  "url": "https://github.com/ipospelov/mcp-memory-bank",
+  "runtime": "python",
+  "license": "mit"
+}

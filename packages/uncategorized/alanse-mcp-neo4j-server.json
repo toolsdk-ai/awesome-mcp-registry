@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@alanse/mcp-neo4j-server",
+  "description": "Integrates with Neo4j graph databases to enable natural language querying, node creation, and complex graph operations for knowledge exploration and data relationship modeling.",
+  "url": "https://github.com/da-okazaki/mcp-neo4j-server",
+  "runtime": "node",
+  "license": "unknown"
+}

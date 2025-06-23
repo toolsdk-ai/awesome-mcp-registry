@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "dubco-mcp-server",
+  "description": "Provides a streamlined interface for creating, updating, and deleting short links through the Dub.co URL shortening service with robust error handling and automatic domain selection.",
+  "url": "https://github.com/gitmaxd/dubco-mcp-server-npm",
+  "runtime": "node",
+  "license": "unknown"
+}

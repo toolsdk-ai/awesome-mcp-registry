@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "oracle-sql-explorer",
+  "description": "Provides a Spring Boot-based interface to Oracle databases for executing SQL queries, listing tables, and describing table structures with built-in security measures that prevent non-SELECT statements in production.",
+  "url": "https://github.com/yyue9527/oracle-mcp-server",
+  "runtime": "java",
+  "license": "unknown"
+}

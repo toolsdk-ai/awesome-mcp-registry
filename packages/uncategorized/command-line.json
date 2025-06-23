@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "command-line",
+  "description": "Safely run command-line arguments for Unix/macOS systems.",
+  "url": "https://github.com/andresthor/cmd-line-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

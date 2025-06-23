@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "x-(twitter)",
+  "description": "Integrates with X using real browser APIs to bypass rate limits and enable extensive social media operations and data analysis.",
+  "url": "https://github.com/joshmayerr/mcp-x",
+  "runtime": "python",
+  "license": "mit"
+}

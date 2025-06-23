@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "kubernetes-monitoring",
+  "description": "Provides a read-only interface for querying Kubernetes clusters, enabling detailed retrieval of information about namespaces, pods, nodes, deployments, services, and events for monitoring and troubleshooting.",
+  "url": "https://github.com/vlttnv/k8s-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

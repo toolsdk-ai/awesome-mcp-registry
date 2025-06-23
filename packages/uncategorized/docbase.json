@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "docbase",
+  "description": "Connects AI systems to DocBase document management platform for searching, retrieving, creating, and updating posts through a clean Go-based API requiring minimal configuration.",
+  "url": "https://github.com/shogo-ma/docbase-mcp-server",
+  "runtime": "go",
+  "license": "mit"
+}

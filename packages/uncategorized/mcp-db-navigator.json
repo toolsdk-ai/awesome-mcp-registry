@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-db-navigator",
+  "description": "Enables direct access to MySQL/MariaDB databases for querying, schema exploration, and database management with comprehensive security measures including input sanitization and connection pooling.",
+  "url": "https://github.com/medsaad/mcp-db-navigator",
+  "runtime": "python",
+  "license": "unknown"
+}

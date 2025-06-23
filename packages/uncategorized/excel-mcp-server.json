@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "excel-mcp-server",
+  "description": "Integrates with Microsoft Excel to enable reading and writing of text data in xlsx files for spreadsheet manipulation and analysis tasks.",
+  "url": "https://github.com/negokaz/excel-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

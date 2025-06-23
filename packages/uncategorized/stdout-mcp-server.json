@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "stdout-mcp-server",
+  "description": "Lightweight server that captures and manages stdout logs from multiple processes through a named pipe system, maintaining a 100-entry log history and providing robust querying and filtering capabilities for debugging and real-time monitoring.",
+  "url": "https://github.com/amitdeshmukh/stdout-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

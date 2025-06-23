@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bing-search",
+  "description": "Enables web, news, and image searches through Microsoft's Bing Search API, providing access to up-to-date information from the internet.",
+  "url": "https://github.com/leehanchung/bing-search-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-panther",
+  "description": "Integrates with Panther Labs' cybersecurity platform to enable security alert triage, data lake querying, detection rule management, and log source analysis for incident response and threat hunting workflows.",
+  "url": "https://github.com/panther-labs/mcp-panther",
+  "runtime": "python",
+  "license": "unknown"
+}

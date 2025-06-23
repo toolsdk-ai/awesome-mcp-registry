@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ops-unikernel-platform",
+  "description": "Integrates with the Ops unikernel platform to manage lightweight virtual machine instances, create new instances from images, and deploy packages directly into running unikernels for on-premises infrastructure automation.",
+  "url": "https://github.com/nanovms/ops-mcp",
+  "runtime": "go",
+  "license": "apache-2.0"
+}

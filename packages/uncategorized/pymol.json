@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "pymol",
+  "description": "Enables direct interaction with PyMOL molecular visualization software for executing commands, manipulating structures, and analyzing molecular data through a socket connection that translates natural language to PyMOL-compatible Python code.",
+  "url": "https://github.com/vrtejus/pymol-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

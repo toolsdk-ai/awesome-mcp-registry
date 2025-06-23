@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "alexa-shopping-list",
+  "description": "Connects to Amazon's Alexa shopping list backend, enabling viewing, adding, deleting, and marking items as complete or incomplete through a FastAPI bridge.",
+  "url": "https://github.com/thesethrose/alexa-shopping-list",
+  "runtime": "python",
+  "license": "mit"
+}

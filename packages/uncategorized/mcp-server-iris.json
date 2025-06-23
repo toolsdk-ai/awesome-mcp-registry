@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-iris",
+  "description": "Provides a bridge to InterSystems IRIS databases for executing SQL queries and managing production items through tools for database operations and system monitoring",
+  "url": "https://github.com/caretdev/mcp-server-iris",
+  "runtime": "python",
+  "license": "unknown"
+}

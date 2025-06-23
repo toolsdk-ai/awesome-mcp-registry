@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@jwalsh/mcp-server-qrcode",
+  "description": "Integrates with the qrencode utility to generate QR codes dynamically, supporting various output formats and configuration options for flexible use in applications and workflows.",
+  "url": "https://github.com/jwalsh/mcp-server-qrcode",
+  "runtime": "node",
+  "license": "unknown"
+}

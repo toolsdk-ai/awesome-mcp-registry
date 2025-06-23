@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "multi-llm-api-gateway",
+  "description": "Provides a unified FastAPI server for interacting with multiple language model APIs, enabling seamless switching between OpenAI and Anthropic models without changing integration code.",
+  "url": "https://github.com/freedanfan/mcp_server",
+  "runtime": "python",
+  "license": "mit"
+}

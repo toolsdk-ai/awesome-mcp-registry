@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "screenshot",
+  "description": "Enables AI to capture and analyze screenshots from a user's desktop on demand, providing visual context for troubleshooting or interacting with content that would otherwise be inaccessible through text-only communication.",
+  "url": "https://github.com/m-mcp/screenshot-server",
+  "runtime": "python",
+  "license": "unknown"
+}

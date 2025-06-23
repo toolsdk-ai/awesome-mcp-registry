@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "unitree-go2",
+  "description": "Enables control of the Unitree Go2 quadruped robot through natural language commands, translating conversational instructions into precise ROS2 actions for walking, dancing, sitting, and performing gestures.",
+  "url": "https://github.com/lpigeon/unitree-go2-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

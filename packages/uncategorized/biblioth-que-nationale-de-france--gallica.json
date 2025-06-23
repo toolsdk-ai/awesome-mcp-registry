@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bibliothèque-nationale-de-france-(gallica)",
+  "description": "Enables searching and generating research reports from the Bibliothèque Nationale de France's Gallica digital library through natural language queries or specific metadata fields with automatic citation and organization.",
+  "url": "https://github.com/kryzo/mcp-bibliotheque_nationale_de_france",
+  "runtime": "python",
+  "license": "unknown"
+}

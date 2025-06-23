@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "fpl-mcp",
+  "description": "Integrates with Fantasy Premier League data to provide player statistics, team information, and analytical tools for making informed fantasy football management decisions.",
+  "url": "https://github.com/rishijatia/fantasy-pl-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

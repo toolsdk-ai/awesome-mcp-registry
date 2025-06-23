@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "prompt-tester",
+  "description": "Enables AI assistants to test and compare LLM prompts across different providers with side-by-side comparisons, token tracking, and cost calculation for evaluating prompt effectiveness.",
+  "url": "https://github.com/rt96-hub/prompt-tester",
+  "runtime": "python",
+  "license": "mit"
+}

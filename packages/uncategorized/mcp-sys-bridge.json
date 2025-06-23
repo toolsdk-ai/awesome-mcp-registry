@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-sys-bridge",
+  "description": "Provides native OS functionality for opening URLs in the default browser, copying text to the clipboard, and retrieving detailed current date/time information including timestamps, day/month names, leap year status, and quarter calculations.",
+  "url": "https://github.com/leynier/mcp-sys-bridge",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "screen-capture",
+  "description": "Provides screen capture capabilities using PyAutoGUI to take, compress, and serve screenshots for analysis of the user's current screen content.",
+  "url": "https://github.com/syedazharmbnr1/claudemcpserver",
+  "runtime": "python",
+  "license": "unknown"
+}

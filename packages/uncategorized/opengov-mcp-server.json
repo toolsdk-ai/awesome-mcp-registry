@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "opengov-mcp-server",
+  "description": "Enables access to public government datasets from Socrata-powered portals through a unified tool for searching, querying, and analyzing data like budgets, crime statistics, and transportation information without requiring an API key.",
+  "url": "https://github.com/srobbin/opengov-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

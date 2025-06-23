@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "polygon.io",
+  "description": "Provides complete access to Polygon.io's financial market data API with 35+ tools covering stocks, options, forex, and crypto including real-time trades, quotes, aggregates, market snapshots, ticker details, news, dividends, splits, and financial fundamentals for trading research and market analysis.",
+  "url": "https://github.com/polygon-io/mcp_polygon",
+  "runtime": "python",
+  "license": "mit"
+}

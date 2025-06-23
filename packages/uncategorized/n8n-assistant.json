@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "n8n-assistant",
+  "description": "Enables searching and retrieving n8n documentation, example workflows, and community forum content through a single tool that fetches relevant information with source URLs.",
+  "url": "https://github.com/onurpolat05/n8n-assistant",
+  "runtime": "python",
+  "license": "mit"
+}

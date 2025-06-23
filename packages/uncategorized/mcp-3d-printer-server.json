@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-3d-printer-server",
+  "description": "Integrates with multiple 3D printer management systems to enable remote control, file handling, and advanced STL manipulation for automated print job management and custom model modifications.",
+  "url": "https://github.com/dmontgomery40/mcp-3d-printer-server",
+  "runtime": "node",
+  "license": "unknown"
+}

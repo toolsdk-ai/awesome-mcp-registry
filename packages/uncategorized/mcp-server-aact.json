@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-aact",
+  "description": "Integrates with the AACT clinical trials database, enabling querying and analysis of large-scale trial data for research and healthcare applications.",
+  "url": "https://github.com/navisbio/aact_mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

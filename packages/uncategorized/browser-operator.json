@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "browser-operator",
+  "description": "Enables Claude to control web browsers through Playwright for automated navigation, form filling, and element interaction while maintaining persistent sessions and supporting manual intervention for sensitive tasks.",
+  "url": "https://github.com/willer/mcp-operator",
+  "runtime": "python",
+  "license": "unknown"
+}

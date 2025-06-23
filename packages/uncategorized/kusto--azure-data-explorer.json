@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "kusto-(azure-data-explorer)",
+  "description": "Integrates with Azure Data Explorer to enable read-only querying, table listing, and schema retrieval for large-scale telemetry data analysis.",
+  "url": "https://github.com/zzzhdw/mcp-server-kusto",
+  "runtime": "python",
+  "license": "mit"
+}

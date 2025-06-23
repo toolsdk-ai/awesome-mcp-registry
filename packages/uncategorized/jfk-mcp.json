@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "jfk-mcp",
+  "description": "Provides access to declassified JFK assassination documents through search tools for text, vector, metadata filtering, and document retrieval of government files released between 2017-2025.",
+  "url": "https://github.com/westernconcrete/jfk-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

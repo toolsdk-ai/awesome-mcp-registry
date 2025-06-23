@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "dafny-verifier",
+  "description": "Integrates with Dafny to verify code correctness through analysis of formal specifications and proofs.",
+  "url": "https://github.com/namin/dafny-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

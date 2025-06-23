@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-twitter-server",
+  "description": "Integrates with the X API v2 to enable post, search, and reply to tweets.",
+  "url": "https://github.com/crazyrabbitltc/mcp-twitter-server",
+  "runtime": "node",
+  "license": "unknown"
+}

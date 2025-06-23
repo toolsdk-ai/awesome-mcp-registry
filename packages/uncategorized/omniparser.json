@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "omniparser",
+  "description": "Provides a robust UI automation framework leveraging advanced computer vision techniques for precise element detection, interaction, and verification across different interfaces",
+  "url": "https://github.com/openadaptai/omnimcp",
+  "runtime": "python",
+  "license": "unknown"
+}

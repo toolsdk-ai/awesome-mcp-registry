@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-llms-txt",
+  "description": "Integrates with Awesome-llms-txt to enhance conversations by incorporating relevant documentation snippets for improved technical support, code explanations, and educational dialogues.",
+  "url": "https://github.com/secretiveshell/mcp-llms-txt",
+  "runtime": "python",
+  "license": "unknown"
+}

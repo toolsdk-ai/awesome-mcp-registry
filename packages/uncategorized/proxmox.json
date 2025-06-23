@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "proxmox",
+  "description": "Enables AI systems to manage Proxmox virtualization environments with tools for monitoring nodes, controlling virtual machines, tracking storage, and maintaining cluster health",
+  "url": "https://github.com/rekklesna/proxmoxmcp-plus",
+  "runtime": "python",
+  "license": "mit"
+}

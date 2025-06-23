@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "think-tool",
+  "description": "Go-based server that provides LLMs with tools to record, retrieve, and analyze their reasoning processes during complex problem-solving tasks, enabling structured thinking and improved context management.",
+  "url": "https://github.com/iamwavecut/mcp-think",
+  "runtime": "go",
+  "license": "mit"
+}

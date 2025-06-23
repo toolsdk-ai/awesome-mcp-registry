@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-repos-manager-mcp",
+  "description": "Integrates with GitHub's REST API to provide repository management, issue tracking, pull request handling, file operations, security management, and analytics with intelligent caching for performance optimization.",
+  "url": "https://github.com/kurdin/github-repos-manager-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

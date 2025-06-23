@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "dust",
+  "description": "Provides a bridge between Claude and the Dust.tt AI agent platform, integrating a SystemsThinking agent specialized in cognitive neuroscience and problem-solving strategies for advanced interaction and reasoning capabilities.",
+  "url": "https://github.com/ma3u/mcp-server-dust-py",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

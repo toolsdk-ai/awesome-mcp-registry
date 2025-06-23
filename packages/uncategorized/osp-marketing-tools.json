@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "osp-marketing-tools",
+  "description": "Content and product marketing tools, including a standardized editing code system, writing guidelines, web metadata generator, and product communication framework.",
+  "url": "https://github.com/open-strategy-partners/osp_marketing_tools",
+  "runtime": "python",
+  "license": "cc-by-sa-4.0"
+}

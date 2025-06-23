@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "aws-nova-canvas",
+  "description": "Bridges to Amazon's Nova Canvas image generation model through AWS Bedrock, enabling AI-powered image creation with configurable storage options.",
+  "url": "https://github.com/yunwoong7/aws-nova-canvas-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

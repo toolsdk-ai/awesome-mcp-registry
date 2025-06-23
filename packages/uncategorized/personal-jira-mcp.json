@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "personal-jira-mcp",
+  "description": "Bridges AI assistants with JIRA issue tracking systems, enabling users to query and manipulate JIRA data without switching contexts.",
+  "url": "https://github.com/yuezheng2006/mcp-server-jira",
+  "runtime": "python",
+  "license": "unknown"
+}

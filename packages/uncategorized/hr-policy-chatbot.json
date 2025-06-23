@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "hr-policy-chatbot",
+  "description": "Enables HR departments to provide workplace policy information through a RAG-based chatbot that indexes, retrieves, and generates answers from PDF documentation with email sending capabilities.",
+  "url": "https://github.com/imvirtue/ragchatbot_mcpserver",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "memory-plus",
+  "description": "Lightweight, local RAG memory store for MCP agents. Easily record, retrieve, update, delete, and visualize persistent \"memories\" across sessions.",
+  "url": "https://github.com/yuchen20/memory-plus",
+  "runtime": "python",
+  "license": "unknown"
+}

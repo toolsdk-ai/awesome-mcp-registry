@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "shopify-mcp-server",
+  "description": "Integrates with Shopify's GraphQL API to enable comprehensive store management, including product, customer, order, and discount operations.",
+  "url": "https://github.com/amir-bengherbi/shopify-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

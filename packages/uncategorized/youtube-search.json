@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "youtube-search",
+  "description": "Enables searching YouTube videos, retrieving detailed information, and extracting subtitles in English or Russian for referencing and analyzing video content during conversations.",
+  "url": "https://github.com/hightemp/go_mcp_server_youtube_search",
+  "runtime": "go",
+  "license": "unknown"
+}

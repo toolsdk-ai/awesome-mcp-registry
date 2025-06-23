@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "find-flights-(duffel)",
+  "description": "Integrates with the Duffel API to provide streamlined flight search capabilities for tasks like travel planning, fare comparison, and building travel-related applications.",
+  "url": "https://github.com/ravinahp/flights-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

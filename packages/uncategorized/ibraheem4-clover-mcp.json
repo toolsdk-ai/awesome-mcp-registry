@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@ibraheem4/clover-mcp",
+  "description": "Integrates with the Clover payment platform to enable merchants to retrieve business information, inventory items, and order data through OAuth authentication with automatic token refresh.",
+  "url": "https://github.com/ibraheem4/clover-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

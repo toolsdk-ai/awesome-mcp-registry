@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "smart-customer-support",
+  "description": "Automates e-commerce customer support by handling product inquiries, order status requests, and seamlessly transitioning to human agents when needed",
+  "url": "https://github.com/precariat365/smartcustomersupportmcp",
+  "runtime": "python",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "africa's-talking-airtime",
+  "description": "Integrates with Africa’s Talking Airtime API, enabling clients to send airtime top-ups to one or more mobile numbers.",
+  "url": "https://github.com/nasoma/africastalking-airtime-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

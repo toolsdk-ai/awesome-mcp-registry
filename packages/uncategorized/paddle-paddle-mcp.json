@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@paddle/paddle-mcp",
+  "description": "Enables developers to manage billing operations using natural language commands, streamlining financial API interactions for SaaS businesses.",
+  "url": "https://github.com/paddlehq/paddle-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "comfy-mcp-server",
+  "description": "Integrates with ComfyUI to enable text-to-image generation using customizable Stable Diffusion workflows.",
+  "url": "https://github.com/lalanikarim/comfy-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "metasploit-framework",
+  "description": "Provides a secure interface to Metasploit Framework's penetration testing capabilities, enabling exploit execution, payload generation, session management, and post-exploitation operations for security professionals.",
+  "url": "https://github.com/gh05tcrew/metasploitmcp",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

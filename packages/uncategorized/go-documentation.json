@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "go-documentation",
+  "description": "Enables Go developers to search for and retrieve detailed documentation from pkg.go.dev, including package information, constants, types, functions, and variables.",
+  "url": "https://github.com/yikakia/godoc-mcp-server",
+  "runtime": "go",
+  "license": "mit"
+}

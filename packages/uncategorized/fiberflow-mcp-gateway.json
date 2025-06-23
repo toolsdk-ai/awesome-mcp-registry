@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "fiberflow-mcp-gateway",
+  "description": "Connects Claude Desktop to Fiberflow's MCP server through a TypeScript-based bridge that uses Server-Sent Events (SSE) for seamless integration via a secret key and stdio communication.",
+  "url": "https://github.com/derbenoo/fiberflow-mcp-gateway",
+  "runtime": "node",
+  "license": "unknown"
+}

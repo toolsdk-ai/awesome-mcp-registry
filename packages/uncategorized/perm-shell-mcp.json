@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "perm-shell-mcp",
+  "description": "Enables secure execution of shell commands through desktop notifications that require explicit user approval for each operation, maintaining strong security boundaries for local system access.",
+  "url": "https://github.com/mcollina/perm-shell-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

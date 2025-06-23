@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "todoist-mcp",
+  "description": "Full implementation of the Todoist REST API.",
+  "url": "https://github.com/stanislavlysenko0912/todoist-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

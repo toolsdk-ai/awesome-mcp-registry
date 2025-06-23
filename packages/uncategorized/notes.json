@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "notes",
+  "description": "Provides a simple interface for reading and writing notes, enabling quick information capture and basic note management tasks.",
+  "url": "https://github.com/truaxki/mcp-notes",
+  "runtime": "python",
+  "license": "mit"
+}

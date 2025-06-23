@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "web-scraper",
+  "description": "Connects Claude Desktop to a local web scraper for retrieving and processing website content in markdown format with flexible options for user agent simulation and custom headers.",
+  "url": "https://github.com/vishwajeetdabholkar/eget_mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

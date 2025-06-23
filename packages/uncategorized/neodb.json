@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "neodb",
+  "description": "Integrates with NeoDB to fetch user data, search books, and retrieve book details, enabling book recommendations, reading list management, and literary analysis.",
+  "url": "https://github.com/xytangme/neodb-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

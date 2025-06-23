@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-cloud-mcp",
+  "description": "Integrates with Google Cloud services to provide direct access to Logging, Spanner, and Monitoring resources within conversations through authenticated connections.",
+  "url": "https://github.com/krzko/google-cloud-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

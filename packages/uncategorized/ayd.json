@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ayd",
+  "description": "Integrates with Ayd to enable service monitoring, status checks, and log retrieval for enhanced operational visibility and incident response.",
+  "url": "https://github.com/macrat/mcp-ayd-server",
+  "runtime": "go",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@wangmhaha/apifox-mcp-server",
+  "description": "Bridges Claude with Apifox API testing platform, enabling direct interaction with API documentation and testing capabilities through environment variable authentication and TypeScript/Express implementation.",
+  "url": "https://github.com/wangmhaha/apifox-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

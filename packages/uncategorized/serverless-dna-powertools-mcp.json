@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@serverless-dna/powertools-mcp",
+  "description": "Enables AI to search and retrieve AWS Lambda Powertools documentation across multiple runtimes through a TypeScript server with efficient local search capabilities and content caching.",
+  "url": "https://github.com/aws-powertools/powertools-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

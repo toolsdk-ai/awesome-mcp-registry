@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "system-monitor",
+  "description": "Provides real-time system metrics for CPU, memory, disk, network, host, and process statistics using Go and gopsutil, enabling detailed performance monitoring and diagnostics across Windows, macOS, and Linux.",
+  "url": "https://github.com/seekrays/mcp-monitor",
+  "runtime": "go",
+  "license": "apache-2.0"
+}

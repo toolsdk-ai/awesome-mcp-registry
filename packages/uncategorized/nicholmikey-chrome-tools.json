@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@nicholmikey/chrome-tools",
+  "description": "Integrates with Chrome's DevTools Protocol to enable remote control of browser tabs, including JavaScript execution, screenshot capture, and network traffic monitoring.",
+  "url": "https://github.com/nicholmikey/chrome-tools-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "claude-code-review-mcp",
+  "description": "Provides a server for obtaining structured and freeform code reviews from OpenAI, Google, and Anthropic models with support for project context, related files, and language detection.",
+  "url": "https://github.com/praneybehl/code-review-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

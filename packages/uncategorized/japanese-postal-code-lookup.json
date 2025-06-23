@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "japanese-postal-code-lookup",
+  "description": "Converts Japanese postal codes into complete addresses by combining prefecture, city, and district information from the zipcloud.ibsnet.co.jp API service.",
+  "url": "https://github.com/rooking-oss/zipcode-search-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

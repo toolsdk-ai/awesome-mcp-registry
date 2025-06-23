@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-copy-web-ui",
+  "description": "Transforms webpage content into a fully inlined, script-free HTML document with base64-encoded resources, enabling comprehensive web page analysis and extraction.",
+  "url": "https://github.com/maoxiaoke/mcp-copy-web-ui",
+  "runtime": "node",
+  "license": "unknown"
+}

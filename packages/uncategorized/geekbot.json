@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "geekbot",
+  "description": "Integrates with Geekbot API to fetch standup meeting data and generate structured reports with filtering capabilities by date ranges and users, enabling automated team activity summaries and pattern analysis.",
+  "url": "https://github.com/geekbot-com/geekbot-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

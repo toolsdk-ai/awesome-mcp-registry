@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "alpha-vantage",
+  "description": "Integrates with Alpha Vantage API to provide real-time financial market data for stock quotes, company information, cryptocurrency rates, and historical prices.",
+  "url": "https://github.com/berlinbra/alpha-vantage-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

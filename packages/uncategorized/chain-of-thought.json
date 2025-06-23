@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "chain-of-thought",
+  "description": "Exposes raw reasoning tokens from language models through Groq's API, allowing users to see the step-by-step thinking process within <think> tags before receiving final answers.",
+  "url": "https://github.com/beverm2391/chain-of-thought-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

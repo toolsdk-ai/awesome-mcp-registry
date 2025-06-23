@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "agentql-mcp",
+  "description": "Extracts structured data from web pages based on natural language descriptions, converting website content into JSON format without custom scraping code.",
+  "url": "https://github.com/tinyfish-io/agentql-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

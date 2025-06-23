@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mysql-schema-explorer",
+  "description": "Enables AI to explore and interact with MySQL database schemas for documentation, query building, and schema analysis without direct database access.",
+  "url": "https://github.com/shibayu36/mysql-schema-explorer-mcp",
+  "runtime": "go",
+  "license": "mit"
+}

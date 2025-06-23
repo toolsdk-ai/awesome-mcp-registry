@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "pulsemcp-server",
+  "description": "Integrates with PulseMCP to enable querying and retrieval of MCP server and integration data for ecosystem analysis and service recommendations.",
+  "url": "https://github.com/orliesaurus/pulsemcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

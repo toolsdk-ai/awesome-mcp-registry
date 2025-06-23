@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcpandroidbuild",
+  "description": "Streamlines Android project development by providing automated tools for building, testing, and running instrumented tests through Visual Studio Code extensions, enabling seamless interaction and error reporting.",
+  "url": "https://github.com/shenghaiwang/androidbuild",
+  "runtime": "python",
+  "license": "unknown"
+}

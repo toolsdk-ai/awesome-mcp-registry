@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "data-explorer",
+  "description": "Enables data analysis and visualization by integrating with pandas, scikit-learn, matplotlib, and seaborn libraries for dataset exploration, statistical analysis, and chart generation",
+  "url": "https://github.com/tofunori/claude-mcp-data-explorer",
+  "runtime": "python",
+  "license": "mit"
+}

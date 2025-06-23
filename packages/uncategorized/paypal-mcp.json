@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@paypal/mcp",
+  "description": "AI agent integration with PayPal services.",
+  "url": "https://github.com/paypal/agent-toolkit/tree/HEAD/modelcontextprotocol",
+  "runtime": "node",
+  "license": "unknown"
+}

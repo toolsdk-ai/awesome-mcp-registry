@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "computer-vision-tools",
+  "description": "Provides computer vision capabilities including image generation, OCR text extraction, and object detection through containerized Docker services with MinIO integration for image storage and retrieval.",
+  "url": "https://github.com/omidsrezai/cv-mcp-tools",
+  "runtime": "python",
+  "license": "unknown"
+}

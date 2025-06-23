@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "microcms-mcp-server",
+  "description": "Integrates with microCMS headless CMS to enable complete content and media management through CRUD operations, draft previews, field filtering, and file uploads for automated publishing workflows.",
+  "url": "https://github.com/himaratsu/microcms-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

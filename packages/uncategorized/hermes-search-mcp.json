@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "hermes-search-mcp",
+  "description": "Provides a bridge to Azure Cognitive Search for executing search queries, indexing documents, and managing search indexes with filtering options",
+  "url": "https://github.com/cognitive-stack/hermes-search-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

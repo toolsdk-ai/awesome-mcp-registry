@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@openbnb/mcp-server-airbnb",
+  "description": "Integrates with Airbnb to enable vacation rental search and detailed property information retrieval without requiring API keys",
+  "url": "https://github.com/openbnb-org/mcp-server-airbnb",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "logstash",
+  "description": "Integrates with Logstash instances to provide real-time monitoring, performance analysis, and debugging capabilities including JVM memory tracking, pipeline statistics, hot threads analysis, and queue backpressure detection for ELK stack deployments.",
+  "url": "https://github.com/mashhurs/logstash-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}
