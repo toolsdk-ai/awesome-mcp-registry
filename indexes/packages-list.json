@@ -1885,5 +1885,116 @@
   "mcp-server-time": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-time.json"
+  },
+  "Github": {
+    "category": "version-control",
+    "path": "version-control/modelcontextprotocol-server-github.json",
+    "tools": {
+      "create_or_update_file": {
+        "name": "create_or_update_file",
+        "description": "Create or update a single file in a GitHub repository"
+      },
+      "search_repositories": {
+        "name": "search_repositories",
+        "description": "Search for GitHub repositories"
+      },
+      "create_repository": {
+        "name": "create_repository",
+        "description": "Create a new GitHub repository in your account"
+      },
+      "get_file_contents": {
+        "name": "get_file_contents",
+        "description": "Get the contents of a file or directory from a GitHub repository"
+      },
+      "push_files": {
+        "name": "push_files",
+        "description": "Push multiple files to a GitHub repository in a single commit"
+      },
+      "create_issue": {
+        "name": "create_issue",
+        "description": "Create a new issue in a GitHub repository"
+      },
+      "create_pull_request": {
+        "name": "create_pull_request",
+        "description": "Create a new pull request in a GitHub repository"
+      },
+      "fork_repository": {
+        "name": "fork_repository",
+        "description": "Fork a GitHub repository to your account or specified organization"
+      },
+      "create_branch": {
+        "name": "create_branch",
+        "description": "Create a new branch in a GitHub repository"
+      },
+      "list_commits": {
+        "name": "list_commits",
+        "description": "Get list of commits of a branch in a GitHub repository"
+      },
+      "list_issues": {
+        "name": "list_issues",
+        "description": "List issues in a GitHub repository with filtering options"
+      },
+      "update_issue": {
+        "name": "update_issue",
+        "description": "Update an existing issue in a GitHub repository"
+      },
+      "add_issue_comment": {
+        "name": "add_issue_comment",
+        "description": "Add a comment to an existing issue"
+      },
+      "search_code": {
+        "name": "search_code",
+        "description": "Search for code across GitHub repositories"
+      },
+      "search_issues": {
+        "name": "search_issues",
+        "description": "Search for issues and pull requests across GitHub repositories"
+      },
+      "search_users": {
+        "name": "search_users",
+        "description": "Search for users on GitHub"
+      },
+      "get_issue": {
+        "name": "get_issue",
+        "description": "Get details of a specific issue in a GitHub repository."
+      },
+      "get_pull_request": {
+        "name": "get_pull_request",
+        "description": "Get details of a specific pull request"
+      },
+      "list_pull_requests": {
+        "name": "list_pull_requests",
+        "description": "List and filter repository pull requests"
+      },
+      "create_pull_request_review": {
+        "name": "create_pull_request_review",
+        "description": "Create a review on a pull request"
+      },
+      "merge_pull_request": {
+        "name": "merge_pull_request",
+        "description": "Merge a pull request"
+      },
+      "get_pull_request_files": {
+        "name": "get_pull_request_files",
+        "description": "Get the list of files changed in a pull request"
+      },
+      "get_pull_request_status": {
+        "name": "get_pull_request_status",
+        "description": "Get the combined status of all status checks for a pull request"
+      },
+      "update_pull_request_branch": {
+        "name": "update_pull_request_branch",
+        "description": "Update a pull request branch with the latest changes from the base branch"
+      },
+      "get_pull_request_comments": {
+        "name": "get_pull_request_comments",
+        "description": "Get the review comments on a pull request"
+      },
+      "get_pull_request_reviews": {
+        "name": "get_pull_request_reviews",
+        "description": "Get the reviews on a pull request"
+      }
+    },
+    "validated": true
   }
 }
