@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-search",
+  "description": "Integrates Google Search capabilities with web content extraction and screenshot functionality, enabling robust search, filtering, and data collection while avoiding bot detection.",
+  "url": "https://github.com/claw256/mcp-web-search",
+  "runtime": "node",
+  "license": "mit"
+}

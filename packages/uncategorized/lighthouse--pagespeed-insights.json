@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "lighthouse-(pagespeed-insights)",
+  "description": "Integrates with Google PageSpeed Insights API to run performance audits on web pages, retrieving detailed metrics and identifying optimization opportunities for web developers.",
+  "url": "https://github.com/adamsilverstein/lighthouse-mcp-server",
+  "runtime": "node",
+  "license": "apache-2.0"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "credo-(cheqd-did)",
+  "description": "Bridges Claude with the Credo decentralized identity framework, enabling resolution and interaction with DIDs on the cheqd network for identity verification and credential management workflows.",
+  "url": "https://github.com/daevmithran/credo-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

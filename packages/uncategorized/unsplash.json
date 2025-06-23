@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "unsplash",
+  "description": "Integrates with Unsplash's image search API to enable keyword-based photo discovery with filtering by pagination, sorting, color, and orientation parameters for seamless image incorporation into projects.",
+  "url": "https://github.com/douglarek/unsplash-mcp-server",
+  "runtime": "go",
+  "license": "mit"
+}

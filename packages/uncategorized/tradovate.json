@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "tradovate",
+  "description": "Integrates with the Tradovate trading platform API to enable futures contract management, position monitoring, and order execution with real-time market data and offline capabilities.",
+  "url": "https://github.com/alexanimal/tradovate-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

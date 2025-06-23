@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "powerpoint",
+  "description": "Creates and manipulates PowerPoint presentations directly within conversations, enabling users to generate professional slides with customizable layouts, formatting themes, and preview capabilities.",
+  "url": "https://github.com/djvosper/mcp-pptx",
+  "runtime": "python",
+  "license": "unknown"
+}

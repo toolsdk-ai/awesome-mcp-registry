@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "supabase",
+  "description": "Integrates with Supabase to enable database operations, file storage, and user authentication for scalable, real-time applications.",
+  "url": "https://github.com/dynamicendpoints/supabase-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

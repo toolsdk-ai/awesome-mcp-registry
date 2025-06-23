@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "replicate",
+  "description": "Bridges Replicate's AI model hosting platform, enabling seamless interaction with diverse machine learning models for tasks like image generation and text processing.",
+  "url": "https://github.com/deepfates/mcp-replicate",
+  "runtime": "node",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-analytics",
+  "description": "Integrates with Google Analytics 4 to enable data retrieval and analysis through configurable metrics, dimensions, and date ranges for marketing insights",
+  "url": "https://github.com/eno-graph/mcp-server-google-analytics",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-pr-helper",
+  "description": "Integrates with GitHub repositories through the GitHub CLI to enable pull request creation and line-specific PR comments, streamlining code review workflows directly from conversations.",
+  "url": "https://github.com/chiaoteni/mcp-github-helper",
+  "runtime": "node",
+  "license": "unknown"
+}

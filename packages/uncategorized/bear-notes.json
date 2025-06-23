@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bear-notes",
+  "description": "Provides read-only access to Bear note-taking app's SQLite database for searching and retrieving notes and tags through local Node.js server tools.",
+  "url": "https://github.com/bart6114/my-bear-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "yahoo-finance",
+  "description": "Integrates with Yahoo Finance's APIs and databases to enable market data retrieval, portfolio management, transaction processing, and financial analysis for investment and trading strategies.",
+  "url": "https://github.com/dino65-dev/finance_mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

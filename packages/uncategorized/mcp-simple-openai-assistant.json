@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-simple-openai-assistant",
+  "description": "Create and manage conversations with OpenAI assistants.",
+  "url": "https://github.com/andybrandt/mcp-simple-openai-assistant",
+  "runtime": "python",
+  "license": "mit"
+}

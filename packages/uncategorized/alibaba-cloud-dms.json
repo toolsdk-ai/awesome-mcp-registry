@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "alibaba-cloud-dms",
+  "description": "Integrates with Alibaba Cloud's Data Management Service (DMS) API to provide unified metadata access and cross-engine data querying across diverse database ecosystems",
+  "url": "https://github.com/aliyun/alibabacloud-dms-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

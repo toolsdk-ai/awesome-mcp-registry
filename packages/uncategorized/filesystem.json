@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "filesystem",
+  "description": "Provides a filesystem interface to perform file operations like creation, deletion, and manipulation without direct system access.",
+  "url": "https://github.com/gomcpgo/filesys",
+  "runtime": "go",
+  "license": "unknown"
+}

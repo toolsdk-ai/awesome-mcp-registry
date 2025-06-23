@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mssql",
+  "description": "Enables secure AI-driven interactions with Microsoft SQL Server databases for automated data analysis, dynamic reporting, and intelligent database management.",
+  "url": "https://github.com/c0h1b4/mssql-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

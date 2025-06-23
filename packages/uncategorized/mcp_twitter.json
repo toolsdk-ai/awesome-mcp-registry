@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp_twitter",
+  "description": "Integrates with Twitter/X to enable direct actions like posting, replying, following users, and retrieving profile data through a Node.js server with dual authentication options.",
+  "url": "https://github.com/0xhijo/mcp_twitter",
+  "runtime": "node",
+  "license": "unknown"
+}

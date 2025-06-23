@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bitbucket",
+  "description": "Integrates with Bitbucket's API to streamline pull request workflows, enabling efficient code reviews and automated PR management.",
+  "url": "https://github.com/garc33/bitbucket-server-mcp-server",
+  "runtime": "node",
+  "license": "apache-2.0"
+}

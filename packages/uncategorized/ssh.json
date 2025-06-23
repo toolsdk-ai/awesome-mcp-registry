@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ssh",
+  "description": "Provides secure remote server management capabilities through SSH connections, automatically discovering hosts from SSH configuration files and executing commands, transferring files, and managing connectivity using native SSH and SCP commands.",
+  "url": "https://github.com/aiondadotcom/mcp-ssh",
+  "runtime": "node",
+  "license": "mit"
+}

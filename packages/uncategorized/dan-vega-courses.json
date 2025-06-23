@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "dan-vega-courses",
+  "description": "Lightweight Spring Boot server for retrieving and searching course details from Dan Vega's YouTube tutorials, providing easy access to educational content metadata.",
+  "url": "https://github.com/danvega/dv-courses-mcp",
+  "runtime": "java",
+  "license": "unknown"
+}

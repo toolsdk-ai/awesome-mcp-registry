@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "apple-automation",
+  "description": "Provides a lightweight macOS application control server for managing Spotify playback and iTerm interactions using AppleScript-based system commands.",
+  "url": "https://github.com/gnosis23/apple-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

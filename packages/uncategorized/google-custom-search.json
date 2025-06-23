@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-custom-search",
+  "description": "Integrates the Google Custom Search API to enable web searches for retrieving and analyzing online content.",
+  "url": "https://github.com/limklister/mcp-google-custom-search-server",
+  "runtime": "node",
+  "license": "mit"
+}

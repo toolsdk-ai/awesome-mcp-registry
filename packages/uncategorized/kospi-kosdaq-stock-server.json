@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "kospi-kosdaq-stock-server",
+  "description": "Integrates with pykrx to provide real-time access to KOSPI and KOSDAQ stock market data, offering tools for retrieving ticker symbols, OHLCV data, market capitalization, fundamental metrics, and trading volumes.",
+  "url": "https://github.com/dragon1086/kospi-kosdaq-stock-server",
+  "runtime": "python",
+  "license": "mit"
+}

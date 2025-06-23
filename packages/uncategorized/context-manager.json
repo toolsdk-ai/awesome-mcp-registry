@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "context-manager",
+  "description": "Provides a structured workflow management system for software development projects, maintaining context across sessions through state tracking of projects, tasks, and file changes from triage through QA phases.",
+  "url": "https://github.com/docherty/contextmgr-mcp",
+  "runtime": "node",
+  "license": "agpl-3.0"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "searxng",
+  "description": "Enables language models to perform web searches through SearXNG, a privacy-focused metasearch engine, with customizable parameters like categories, time ranges, and pagination.",
+  "url": "https://github.com/aeon-seraph/searxng-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ghidra",
+  "description": "Integrates with Ghidra's binary analysis capabilities to enable decompiled code retrieval, function analysis, and security assessment of binaries through natural language queries",
+  "url": "https://github.com/13bm/ghidramcp",
+  "runtime": "java",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "krep",
+  "description": "Provides a high-performance string search utility that automatically selects optimal algorithms and leverages hardware acceleration for significantly faster pattern matching than traditional tools like grep.",
+  "url": "https://github.com/bmorphism/krep-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

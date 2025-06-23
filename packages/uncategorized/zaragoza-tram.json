@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "zaragoza-tram",
+  "description": "Provides real-time tram arrival estimations and station listings for Zaragoza's public transportation system through the DNDzgz API.",
+  "url": "https://github.com/danilat/mcp-dndzgz",
+  "runtime": "node",
+  "license": "unknown"
+}

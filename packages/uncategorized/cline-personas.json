@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "cline-personas",
+  "description": "Implements a persona management system for dynamic AI behavior adjustment using reusable components and templates defined in .clinerules files.",
+  "url": "https://github.com/bradfair/mcp-cline-personas",
+  "runtime": "node",
+  "license": "mit"
+}

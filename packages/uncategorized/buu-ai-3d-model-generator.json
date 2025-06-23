@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "buu-ai-3d-model-generator",
+  "description": "Provides a bridge to the Buu AI platform for generating 3D models from text prompts in various styles including Realistic, LowPoly, Voxel, and Stylized.",
+  "url": "https://github.com/buu-ai/buu-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

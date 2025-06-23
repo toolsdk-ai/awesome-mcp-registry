@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "solana",
+  "description": "Integrates with Solana blockchain using Web3.js, enabling automated transactions, smart contract deployments, and blockchain analytics.",
+  "url": "https://github.com/akc2267/solana-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

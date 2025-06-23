@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-google-calendar",
+  "description": "Integrates with Google Calendar API for managing calendars and events with persistent OAuth token storage, enabling seamless scheduling, retrieval, and modification operations without repeated authentication.",
+  "url": "https://github.com/am2rican5/mcp-google-calendar",
+  "runtime": "node",
+  "license": "unknown"
+}

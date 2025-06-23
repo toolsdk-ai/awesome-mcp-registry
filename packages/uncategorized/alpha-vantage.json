@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "alpha-vantage",
+  "description": "Provides real-time financial data retrieval from Alpha Vantage, enabling developers and analysts to access comprehensive stock prices, market indicators, forex rates, and cryptocurrency information with instant, structured results.",
+  "url": "https://github.com/deepsuthar496/alpha-ventage-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

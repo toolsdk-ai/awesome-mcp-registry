@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "leetcode",
+  "description": "Provides structured access to LeetCode's problem database, user profiles, and contest information through GraphQL queries for exploring challenges, tracking progress, and analyzing performance.",
+  "url": "https://github.com/doggybee/mcp-server-leetcode",
+  "runtime": "node",
+  "license": "mit"
+}

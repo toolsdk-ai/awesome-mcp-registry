@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "prometheus",
+  "description": "Enables querying and analyzing Prometheus metrics data with tools for executing PromQL queries, retrieving series data, accessing metadata, and monitoring scrape targets, alerts, and rules for infrastructure troubleshooting and system health monitoring.",
+  "url": "https://github.com/cgoolsby/prometheus-mcp",
+  "runtime": "go",
+  "license": "mit"
+}

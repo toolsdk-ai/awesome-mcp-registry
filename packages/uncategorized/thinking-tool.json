@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "thinking-tool",
+  "description": "Captures and logs AI reasoning processes during interactions for debugging, auditing decision paths, and improving transparency in AI systems.",
+  "url": "https://github.com/dwojtaszek/thinking-tool-server",
+  "runtime": "node",
+  "license": "unknown"
+}

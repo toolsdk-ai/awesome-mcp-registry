@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "perplexity-ai",
+  "description": "Integrates with Perplexity AI to enable context-aware conversations, research, and code analysis through natural language processing capabilities.",
+  "url": "https://github.com/fr0ziii/perplexity-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

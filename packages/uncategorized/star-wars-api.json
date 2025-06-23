@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "star-wars-api",
+  "description": "Provides access to the Star Wars API for retrieving and paginating through planet information from the Star Wars universe.",
+  "url": "https://github.com/alexandrebagio/swapi-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

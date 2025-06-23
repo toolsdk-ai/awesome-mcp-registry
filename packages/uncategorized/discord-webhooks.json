@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "discord-webhooks",
+  "description": "Integrates Discord webhooks to enable sending customized messages and notifications to Discord channels.",
+  "url": "https://github.com/genm/mcp-server-discord-webhook",
+  "runtime": "node",
+  "license": "mit"
+}

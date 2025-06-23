@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gcp-mcp",
+  "description": "Integrates with Google Cloud Platform services, providing tools for interacting with Compute Engine, Cloud Storage, Cloud Functions, Cloud Run, BigQuery, and more using official client libraries and robust error handling.",
+  "url": "https://github.com/eniayomi/gcp-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

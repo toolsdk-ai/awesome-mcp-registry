@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "meilisearch",
+  "description": "Integrates with Meilisearch to enable advanced search operations, index and document management, and customizable search functionality with features like faceted search and custom ranking.",
+  "url": "https://github.com/devlimelabs/meilisearch-ts-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

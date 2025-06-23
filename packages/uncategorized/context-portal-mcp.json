@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "context-portal-mcp",
+  "description": "Database-backed project memory management system that stores decisions, progress tracking, and system patterns in a queryable knowledge graph with vector embeddings for semantic search and comprehensive import/export functionality.",
+  "url": "https://github.com/greatscottymac/context-portal",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "firecrawl",
+  "description": "Integrates with the Firecrawl API to enable website crawling, content translation, and structured data extraction for enhanced web data processing workflows.",
+  "url": "https://github.com/codyde/mcp-firecrawl-tool",
+  "runtime": "node",
+  "license": "unknown"
+}

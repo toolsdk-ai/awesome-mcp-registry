@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ableton-live",
+  "description": "Provides real-time control and automation of Ableton Live through a dual-component architecture consisting of a Python Remote Script and external server that communicate via socket connections, enabling session management, MIDI clip operations, and browser integration for loading instruments and effects.",
+  "url": "https://github.com/sharray2918/ableton-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

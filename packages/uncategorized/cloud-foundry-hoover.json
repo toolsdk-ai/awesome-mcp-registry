@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "cloud-foundry-hoover",
+  "description": "Registry and aggregator for Cloud Foundry. Queries for and aggregates cf-butler instances' data",
+  "url": "https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/hoover",
+  "runtime": "node",
+  "license": "apache-2.0"
+}

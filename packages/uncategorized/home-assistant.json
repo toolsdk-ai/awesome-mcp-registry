@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "home-assistant",
+  "description": "Demonstrates light control in Home Assistant by comparing OpenAI function calling with a standardized protocol for external tool interaction",
+  "url": "https://github.com/andrelandgraf/mcp-vs-function-calling",
+  "runtime": "node",
+  "license": "unknown"
+}

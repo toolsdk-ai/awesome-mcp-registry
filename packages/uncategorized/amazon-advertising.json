@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "amazon-advertising",
+  "description": "Integrates with Amazon Advertising API to provide marketers direct access to advertiser accounts, listings, and performance data through a simple command-line interface requiring only an API key for authentication.",
+  "url": "https://github.com/amekala/adspirer-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

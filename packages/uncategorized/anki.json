@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "anki",
+  "description": "Enables AI models to interact directly with Anki flashcard software through the AnkiConnect API, providing tools to create, search, and manage decks and notes for learners and educators.",
+  "url": "https://github.com/ethangillani/anki-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

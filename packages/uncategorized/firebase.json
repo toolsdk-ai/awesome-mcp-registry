@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "firebase",
+  "description": "Integrates with Firebase services to enable user management, document operations, and file handling for applications using Firebase Authentication, Firestore, and Storage.",
+  "url": "https://github.com/gemini-dk/mcp-server-firebase",
+  "runtime": "node",
+  "license": "unknown"
+}

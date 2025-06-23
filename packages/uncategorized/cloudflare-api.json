@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "cloudflare-api",
+  "description": "Integrates with Cloudflare's API to enable management of DNS, SSL/TLS, firewall rules, load balancing, and other cloud infrastructure services across multiple domains.",
+  "url": "https://github.com/zueai/cloudflare-api-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

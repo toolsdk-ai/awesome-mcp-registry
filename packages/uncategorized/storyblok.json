@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "storyblok",
+  "description": "Integrates with Storyblok CMS for complete content management including story operations, publishing workflows, version control, asset handling, component schemas, and datasource management with proper authentication and validation.",
+  "url": "https://github.com/arjuncodess/storyblok-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

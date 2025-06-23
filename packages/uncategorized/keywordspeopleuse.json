@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "keywordspeopleuse",
+  "description": "Integrates with KeywordsPeopleUse API to provide keyword research capabilities including People Also Ask questions, Google Autocomplete suggestions, Reddit/Quora questions, and semantic keywords with language and country localization options.",
+  "url": "https://github.com/data-skunks/kpu-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

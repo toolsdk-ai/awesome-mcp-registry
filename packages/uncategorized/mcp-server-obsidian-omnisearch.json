@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-obsidian-omnisearch",
+  "description": "Integrates Obsidian vaults to enable searching and retrieving notes, leveraging personal knowledge for various applications.",
+  "url": "https://github.com/anpigon/mcp-server-obsidian-omnisearch",
+  "runtime": "python",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "lancedb",
+  "description": "Integrates with LanceDB to enable natural language querying, insertion, and management of vector data for efficient similarity search and semantic analysis.",
+  "url": "https://github.com/adiom-data/lance-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

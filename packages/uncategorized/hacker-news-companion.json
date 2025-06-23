@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "hacker-news-companion",
+  "description": "Analyzes and processes Hacker News discussions, extracting key insights from comment hierarchies based on engagement metrics for efficient thread summarization.",
+  "url": "https://github.com/georgeck/hn-companion-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "allure-test-reports",
+  "description": "Provides a bridge to Allure test reports, enabling access to test execution data including test cases, steps, statuses, and timestamps through a structured API for analysis and custom reporting.",
+  "url": "https://github.com/crisschan/mcp-allure",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

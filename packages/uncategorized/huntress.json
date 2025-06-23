@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "huntress",
+  "description": "Integrates with Huntress endpoint protection services to manage cybersecurity operations, threat analysis, and automated reporting.",
+  "url": "https://github.com/dynamicendpoints/huntress-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

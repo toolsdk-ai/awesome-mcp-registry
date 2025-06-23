@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "hacker-news",
+  "description": "Integrates with the Hacker News API to provide real-time access to stories, comments, and user data for news aggregation, trend analysis, and custom client development.",
+  "url": "https://github.com/devabdultech/hn-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

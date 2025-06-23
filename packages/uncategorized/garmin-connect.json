@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "garmin-connect",
+  "description": "Integrates with the Garmin Connect API to retrieve and analyze personal fitness data, enabling detailed tracking of health metrics like sleep, steps, activities, and heart rate.",
+  "url": "https://github.com/dshvadskiy/garmin_mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

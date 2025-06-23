@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gemini-data-analysis-&-research",
+  "description": "Bridges to Google's Gemini model for data analysis, email communication, and reasoning process generation with tools for Excel/CSV processing, statistical visualization, and AI-generated content.",
+  "url": "https://github.com/falahgs/gemini-data-analysis-research-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

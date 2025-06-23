@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "cal.com-calendar",
+  "description": "Integrates with Cal.com Calendar API to enable appointment scheduling, management, and listing capabilities through calendar operation tools with rate limiting and error handling.",
+  "url": "https://github.com/mumunha/cal_dot_com_mcpserver",
+  "runtime": "node",
+  "license": "unknown"
+}

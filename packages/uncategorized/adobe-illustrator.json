@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "adobe-illustrator",
+  "description": "Enables direct execution of JavaScript/ExtendScript code in Adobe Illustrator with visual feedback through screenshots, allowing vector graphics creation and manipulation",
+  "url": "https://github.com/anshuldalua/illustrator-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

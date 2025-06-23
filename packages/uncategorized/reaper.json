@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "reaper",
+  "description": "Integrates with Reaper digital audio workstation to extract structured data from project files, enabling analysis and interaction with audio production elements.",
+  "url": "https://github.com/dschuler36/reaper-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

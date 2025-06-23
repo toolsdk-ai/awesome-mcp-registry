@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "descope-authentication",
+  "description": "Integrates with Descope's authentication platform to enable natural language-driven user management, authentication flows, and access control operations.",
+  "url": "https://github.com/descope-sample-apps/descope-mcp-server-stdio",
+  "runtime": "node",
+  "license": "mit"
+}

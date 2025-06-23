@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "perplexity",
+  "description": "Integrates Perplexity AI's API, enabling web-based research and cited answers through real-time search capabilities.",
+  "url": "https://github.com/letsbuildagent/perplexity-tool",
+  "runtime": "node",
+  "license": "mit"
+}

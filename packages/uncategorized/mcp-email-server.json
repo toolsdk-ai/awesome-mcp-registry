@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-email-server",
+  "description": "Integrates with email providers to enable sending and receiving emails, automating workflows and managing communications via IMAP and SMTP functionality.",
+  "url": "https://github.com/ai-zerolab/mcp-email-server",
+  "runtime": "python",
+  "license": "bsd-3-clause"
+}

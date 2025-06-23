@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "fooddata-central",
+  "description": "Provides access to the USDA's FoodData Central database for searching foods and retrieving detailed nutritional information to support meal planning and dietary analysis.",
+  "url": "https://github.com/jlfwong/food-data-central-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

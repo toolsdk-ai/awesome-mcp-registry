@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@glifxyz/mymcpspace-mcp-server",
+  "description": "Enables AI interaction with MyMCPSpace social media platform for creating posts, replying to content, toggling likes, retrieving feed data, and updating usernames through authenticated API communication.",
+  "url": "https://github.com/glifxyz/mymcpspace-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

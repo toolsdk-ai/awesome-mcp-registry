@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-think-tool",
+  "description": "Provides a dedicated space for structured reasoning during complex problem-solving tasks, enabling models to maintain timestamped thought logs that can be reviewed, cleared, and analyzed for improved performance in tasks requiring long chains of reasoning.",
+  "url": "https://github.com/dannymac180/mcp-think-tool",
+  "runtime": "python",
+  "license": "mit"
+}

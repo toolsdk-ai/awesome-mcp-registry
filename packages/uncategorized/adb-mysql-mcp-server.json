@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "adb-mysql-mcp-server",
+  "description": "Connects to Alibaba Cloud's Adb MySQL databases for executing SQL queries, analyzing query plans, and retrieving database metadata with minimal configuration requirements",
+  "url": "https://github.com/aliyun/alibabacloud-adb-mysql-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "keitaro-mcp",
+  "description": "Integration with Keitaro TDS API, providing tools to work with campaigns, streams, offers, and other Keitaro entities.",
+  "url": "https://github.com/godzilladancer/keitaro-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

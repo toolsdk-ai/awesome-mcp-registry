@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "builtwith",
+  "description": "Integrates with BuiltWith's technology detection API to identify and analyze web technologies used on specified domains, providing marketers and developers with comprehensive website stack information.",
+  "url": "https://github.com/builtwith/mcp",
+  "runtime": "node",
+  "license": "mit"
+}

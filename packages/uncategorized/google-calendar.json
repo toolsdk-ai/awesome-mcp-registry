@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-calendar",
+  "description": "Integrates with Google Calendar to enable natural language management of events, appointments, and schedules.",
+  "url": "https://github.com/gongrzhe/calendar-autoauth-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "browser-use-mcp-server",
+  "description": "Provides an async browser automation server using OpenAI's GPT-4o model, enabling remote web navigation, content extraction, and task execution with configurable browser contexts.",
+  "url": "https://github.com/co-browser/browser-use-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

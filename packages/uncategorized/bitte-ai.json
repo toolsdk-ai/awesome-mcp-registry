@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bitte-ai",
+  "description": "Connects AI assistants to the Bitte AI ecosystem, enabling discovery and execution of specialized agents and tools from the Bitte registry through real-time Server-Sent Events communication.",
+  "url": "https://github.com/bitteprotocol/mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

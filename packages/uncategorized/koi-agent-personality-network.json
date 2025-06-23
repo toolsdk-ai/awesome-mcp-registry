@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "koi-agent-personality-network",
+  "description": "KOI-MCP Integration enables distributed agent networks where AI personalities with distinct traits can discover and utilize each other's specialized capabilities through a coordinated registry system.",
+  "url": "https://github.com/blockscience/koi-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

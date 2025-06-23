@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bing-webmaster-tools",
+  "description": "Integrates with Bing Webmaster Tools API to enable complete site management, URL submission, traffic analysis, crawling, keyword research, and content management through natural language interactions.",
+  "url": "https://github.com/zizzfizzix/mcp-server-bwt",
+  "runtime": "python",
+  "license": "mit"
+}

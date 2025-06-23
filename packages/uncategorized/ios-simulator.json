@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ios-simulator",
+  "description": "Provides a TypeScript-based server for dynamically creating, booting, and controlling iOS simulators using the Appium iOS Simulator library, enabling flexible device and OS version interactions for testing and development scenarios.",
+  "url": "https://github.com/atom2ueki/mcp-server-ios-simulator",
+  "runtime": "node",
+  "license": "mit"
+}

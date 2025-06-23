@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "zerodha",
+  "description": "Integrates with Zerodha trading platform to enable authentication, portfolio management, order placement, market data retrieval, and SIP setup for automated trading workflows.",
+  "url": "https://github.com/aptro/zerodha-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

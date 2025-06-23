@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "focus-sql",
+  "description": "Converts natural language queries into SQL by registering database schema information and handling text-to-SQL transformations through a Spring Boot implementation.",
+  "url": "https://github.com/focussearch/focus_mcp_sql",
+  "runtime": "java",
+  "license": "apache-2.0"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "jupiter",
+  "description": "Integrates with Jupiter's swap API on the Solana blockchain, enabling operations like getting quotes, building swap transactions, and sending swap transactions for decentralized exchange functionality.",
+  "url": "https://github.com/dcspark/mcp-server-jupiter",
+  "runtime": "node",
+  "license": "mit"
+}

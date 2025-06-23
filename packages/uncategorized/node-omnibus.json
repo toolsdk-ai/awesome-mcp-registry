@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "node-omnibus",
+  "description": "Enables AI-assisted Node.js and TypeScript development optimized for popular frameworks, offering code generation, debugging, and project management capabilities.",
+  "url": "https://github.com/bsmi021/mcp-node-omnibus-server",
+  "runtime": "node",
+  "license": "mit"
+}

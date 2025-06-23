@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@aashari/mcp-server-atlassian-confluence",
+  "description": "Integrates with Atlassian Confluence to provide direct access to spaces, pages, and content with tools for listing, retrieving, and searching using CQL while converting content to Markdown format",
+  "url": "https://github.com/aashari/mcp-server-atlassian-confluence",
+  "runtime": "node",
+  "license": "unknown"
+}

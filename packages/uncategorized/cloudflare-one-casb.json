@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "cloudflare-one-casb",
+  "description": "CASB provides comprehensive visibility and control over your SaaS applications, so you can easily eliminate the risk of compromise, prevent data loss, and avoid compliance violations.",
+  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/cloudflare-one-casb",
+  "runtime": "node",
+  "license": "apache-2.0"
+}

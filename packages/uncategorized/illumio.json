@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "illumio",
+  "description": "Integrates with Illumio's Policy Compute Engine API to enable workload management, label operations, and traffic analysis for zero trust security environments.",
+  "url": "https://github.com/alexgoller/illumio-mcp-server",
+  "runtime": "python",
+  "license": "other"
+}

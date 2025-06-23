@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "cloudflare-browser-rendering",
+  "description": "Browser automation for Cloudflare Workers and quick browser actions.",
+  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/browser-rendering",
+  "runtime": "node",
+  "license": "apache-2.0"
+}

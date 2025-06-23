@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "alpaca-trading",
+  "description": "Integrates with Alpaca trading platform to manage stock and options accounts through paper and live trading environments, enabling order execution, portfolio monitoring, market data retrieval, and watchlist management for algorithmic trading and financial analysis workflows.",
+  "url": "https://github.com/alpacahq/alpaca-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

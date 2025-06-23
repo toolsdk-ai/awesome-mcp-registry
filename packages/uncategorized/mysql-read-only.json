@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mysql-read-only",
+  "description": "Provides read-only access to MySQL databases for inspecting schemas and executing SQL queries without modifying underlying data.",
+  "url": "https://github.com/zhaoxin34/mcp-server-mysql",
+  "runtime": "node",
+  "license": "mit"
+}

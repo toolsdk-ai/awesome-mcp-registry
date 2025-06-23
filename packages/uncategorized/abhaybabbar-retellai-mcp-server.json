@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@abhaybabbar/retellai-mcp-server",
+  "description": "Integrates with RetellAI's voice services for creating and managing phone conversations, enabling call initiation, agent configuration, and voice selection for tasks like customer service, appointment scheduling, and information gathering.",
+  "url": "https://github.com/abhaybabbar/retellai-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

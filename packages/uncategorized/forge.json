@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "forge",
+  "description": "Generates powerful server templates with multiple configuration options for quickly bootstrapping and deploying standardized server implementations with utility functions and best practices.",
+  "url": "https://github.com/chromewillow/mcp-forge",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "tinder",
+  "description": "Provides a secure TypeScript-based interface to Tinder's dating app API, handling authentication, rate limiting, and core functionality like profiles, recommendations, matching, and messaging",
+  "url": "https://github.com/glassbead-tc/tinder-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

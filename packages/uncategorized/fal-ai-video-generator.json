@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "fal.ai-video-generator",
+  "description": "Provides a bridge to fal.ai's video generation models, enabling creation of customized videos from text prompts and images with adjustable parameters like aspect ratio, resolution, and duration.",
+  "url": "https://github.com/el-el-san/fal-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

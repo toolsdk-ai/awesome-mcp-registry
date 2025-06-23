@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "sui",
+  "description": "Integrates with the Sui blockchain network to enable test token requests, wallet management, and smart contract interactions using the official Sui SDK",
+  "url": "https://github.com/0xdwong/sui-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "metabase",
+  "description": "Integrates with Metabase analytics platforms to enable querying dashboards, cards, and databases through structured metabase:// URIs for data analysis workflows.",
+  "url": "https://github.com/berry-street/berrystreet-metabase-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

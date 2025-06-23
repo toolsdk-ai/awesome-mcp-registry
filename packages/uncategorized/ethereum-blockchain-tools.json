@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ethereum-blockchain-tools",
+  "description": "Integrates with Ethereum blockchain networks to provide smart contract auditing, wallet analysis, token balance checking, and profitability tracking using Web3.js, Moralis, and Etherscan APIs.",
+  "url": "https://github.com/0xgval/evm-mcp-tools",
+  "runtime": "node",
+  "license": "unknown"
+}

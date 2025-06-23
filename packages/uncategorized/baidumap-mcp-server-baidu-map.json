@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@baidumap/mcp-server-baidu-map",
+  "description": "Integrates with Baidu Maps API for location-based operations including geocoding, route planning, and location search within the Baidu Maps ecosystem.",
+  "url": "https://github.com/baidu-maps/mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

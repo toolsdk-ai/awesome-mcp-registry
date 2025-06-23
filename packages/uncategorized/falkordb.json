@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "falkordb",
+  "description": "Enables natural language querying of graph databases by translating requests into FalkorDB queries for analyzing relationships in knowledge graphs, recommendation systems, and network data.",
+  "url": "https://github.com/falkordb/falkordb-mcpserver",
+  "runtime": "node",
+  "license": "mit"
+}

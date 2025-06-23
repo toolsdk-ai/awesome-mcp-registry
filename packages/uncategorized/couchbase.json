@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "couchbase",
+  "description": "Interact directly with Couchbase databases on Capella clusters. Query buckets, perform CRUD operations, execute N1QL queries, and manage data seamlessly through natural language.",
+  "url": "https://github.com/aniket310101/mcp-server-couchbase",
+  "runtime": "node",
+  "license": "unknown"
+}

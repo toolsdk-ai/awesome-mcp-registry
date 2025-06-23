@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-workspace",
+  "description": "Integrates with Gmail and Google Calendar APIs to enable email and calendar management tasks like listing, searching, and modifying emails, as well as creating and updating events.",
+  "url": "https://github.com/epaproditus/google-workspace-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

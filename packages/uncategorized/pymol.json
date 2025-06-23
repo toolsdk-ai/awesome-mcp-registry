@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "pymol",
+  "description": "Integrates with PyMOL molecular visualization software to enable interactive protein structure analysis, manipulation, and high-quality image rendering through natural language instructions",
+  "url": "https://github.com/gdamitha/mcp_claude",
+  "runtime": "python",
+  "license": "unknown"
+}

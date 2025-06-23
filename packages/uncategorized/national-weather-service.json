@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "national-weather-service",
+  "description": "Integrates with National Weather Service APIs to provide current weather alerts by state code and detailed forecasts by location coordinates for planning activities and monitoring severe weather conditions.",
+  "url": "https://github.com/ez-walk/weather-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

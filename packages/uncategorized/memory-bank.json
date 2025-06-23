@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "memory-bank",
+  "description": "Transforms file-based memory banks into a centralized, remotely accessible service for multi-project management with consistent structure and validation.",
+  "url": "https://github.com/alioshr/memory-bank-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

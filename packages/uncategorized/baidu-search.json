@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "baidu-search",
+  "description": "Integrates with Baidu Search to enable web searches, result retrieval, and information extraction from China's largest search engine, providing access to Chinese language content and resources behind the Great Firewall.",
+  "url": "https://github.com/appleinmusic/baidu-search-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

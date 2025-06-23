@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mongodb",
+  "description": "Enables interaction with MongoDB databases through TypeScript and the MongoDB driver, providing seamless integration of MongoDB operations into workflows.",
+  "url": "https://github.com/1rb/mongo-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "dall-e",
+  "description": "Enables image generation capabilities using OpenAI's DALL-E API with support for creating, editing, and varying images through flexible configuration options.",
+  "url": "https://github.com/garoth/dalle-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

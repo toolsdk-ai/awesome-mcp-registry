@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "devdb",
+  "description": "Exposes database tables and schemas via HTTP endpoints, allowing tools to query database structure without direct database access for security-conscious development.",
+  "url": "https://github.com/damms005/devdb-vscode",
+  "runtime": "node",
+  "license": "mit"
+}

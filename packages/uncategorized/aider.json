@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "aider",
+  "description": "Aider MCP Server offloads AI coding tasks to Aider's specialized implementation, reducing costs and enhancing development efficiency through natural language code changes and model selection.",
+  "url": "https://github.com/disler/aider-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "github",
+  "description": "Enables AI interaction with GitHub repositories for managing issues, pull requests, code scanning alerts, and file contents through both read-only and read-write operations.",
+  "url": "https://github.com/deniscruzrodrigues/mackenzie-github-mcp-server",
+  "runtime": "go",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "microsoft-sentinel",
+  "description": "Integrates with Microsoft Sentinel to enable security analysts to execute KQL queries, manage analytics rules, investigate incidents, and perform threat intelligence lookups directly from their AI environment.",
+  "url": "https://github.com/dstreefkerk/ms-sentinel-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

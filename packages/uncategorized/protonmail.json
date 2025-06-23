@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "protonmail",
+  "description": "Enables sending emails through Protonmail's SMTP service with support for multiple recipients, CC/BCC functionality, and both plain text and HTML content.",
+  "url": "https://github.com/amotivv/protonmail-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

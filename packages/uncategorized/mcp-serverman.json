@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-serverman",
+  "description": "Server that manages Claude's configuration for other MCP servers.",
+  "url": "https://github.com/benhaotang/mcp-serverman",
+  "runtime": "python",
+  "license": "mit"
+}

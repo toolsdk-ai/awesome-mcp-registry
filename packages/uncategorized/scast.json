@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "scast",
+  "description": "Static Code Analysis and Visualization. Convert Code to UML and Flow Diagram and explain by AI.",
+  "url": "https://github.com/davidkingzyb/scast",
+  "runtime": "node",
+  "license": "mit"
+}

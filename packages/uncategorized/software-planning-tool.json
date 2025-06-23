@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "software-planning-tool",
+  "description": "Guides developers through a structured, question-based approach to break down software goals into actionable implementation plans with detailed task lists, complexity scores, and code examples.",
+  "url": "https://github.com/nighttrek/software-planning-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "git-summary",
+  "description": "Lightweight git commit message summary generator that analyzes repository histories by filtering commits and producing human-readable markdown summaries highlighting key changes and business impact.",
+  "url": "https://github.com/cybersiddhu/dcr-mcp",
+  "runtime": "go",
+  "license": "unknown"
+}

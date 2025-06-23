@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@feedmob-ai/kayzen-mcp",
+  "description": "Integrates with Kayzen Analytics API to access and analyze marketing campaign data, providing tools for report listing, data fetching with date filtering, and performance optimization insights.",
+  "url": "https://github.com/springwq/kayzen-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

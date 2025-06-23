@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "perplexity-research-assistant",
+  "description": "Integrates with Perplexity Sonar Pro API to provide real-time research assistance for developers, enabling efficient documentation retrieval, API discovery, and code analysis",
+  "url": "https://github.com/dainfernalcoder/perplexity-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

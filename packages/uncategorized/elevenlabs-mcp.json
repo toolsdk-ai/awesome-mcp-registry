@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "elevenlabs-mcp",
+  "description": "Integrates with ElevenLabs to provide high-quality text-to-speech, voice cloning, and conversational capabilities with customizable voice profiles and audio processing features.",
+  "url": "https://github.com/elevenlabs/elevenlabs-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

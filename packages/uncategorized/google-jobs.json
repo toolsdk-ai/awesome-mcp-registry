@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-jobs",
+  "description": "Integrates with Google Jobs search via Serp API to enable efficient querying and retrieval of job listings for career guidance, labor market analysis, and automated job matching.",
+  "url": "https://github.com/chanmeng666/server-google-jobs",
+  "runtime": "node",
+  "license": "mit"
+}

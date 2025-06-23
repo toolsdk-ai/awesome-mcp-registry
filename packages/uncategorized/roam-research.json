@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "roam-research",
+  "description": "Integrates with Roam Research to enable searching, creating, and manipulating graph content for automated note-taking and intelligent information retrieval.",
+  "url": "https://github.com/2b3pro/roam-research-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

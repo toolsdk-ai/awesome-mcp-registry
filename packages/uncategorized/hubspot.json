@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "hubspot",
+  "description": "Integrates with HubSpot CRM to enable AI-driven contact and company management, lead processing, and automated data analysis.",
+  "url": "https://github.com/peakmojo/mcp-hubspot",
+  "runtime": "python",
+  "license": "mit"
+}

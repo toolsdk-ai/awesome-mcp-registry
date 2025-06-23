@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "zoom-transcript",
+  "description": "Integrates with the Zoom API to retrieve, process, and analyze cloud recording transcripts, enabling meeting summarization and key information extraction.",
+  "url": "https://github.com/forayconsulting/zoom_transcript_mcp",
+  "runtime": "node",
+  "license": "mit"
+}

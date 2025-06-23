@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@ashdev/discourse-mcp-server",
+  "description": "Enables searching and retrieving content from Discourse forums through a single tool that queries posts using the discourse2 npm package.",
+  "url": "https://github.com/ashdevfr/discourse-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

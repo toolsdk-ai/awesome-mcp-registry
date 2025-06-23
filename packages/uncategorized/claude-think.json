@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "claude-think",
+  "description": "Enables step-by-step reasoning visibility in responses by wrapping prompts with special thinking tags when users type 'think [question]' in chat",
+  "url": "https://github.com/djbuildit/claude-think-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

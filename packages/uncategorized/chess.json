@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "chess",
+  "description": "Integrates with Spring AI and chess libraries to enable interactive gameplay and automated analysis for AI-assisted chess applications.",
+  "url": "https://github.com/alexandreroman/mcp-chess",
+  "runtime": "java",
+  "license": "apache-2.0"
+}

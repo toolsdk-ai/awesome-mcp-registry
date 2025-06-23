@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "linkedin-post",
+  "description": "Integrates with LinkedIn's API to enable direct publishing of text content, media attachments, and link sharing with customizable visibility settings for social media management and professional networking.",
+  "url": "https://github.com/dhrishp/mcp-post-linkedin",
+  "runtime": "node",
+  "license": "unknown"
+}

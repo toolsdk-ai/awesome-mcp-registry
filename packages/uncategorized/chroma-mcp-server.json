@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "chroma-mcp-server",
+  "description": "Provides a persistent, searchable, automatically updated 'second brain' for development by integrating ChromaDB with automated codebase indexing, chat logging, and sequential thinking tools that maintain context across sessions.",
+  "url": "https://github.com/djm81/chroma_mcp_server",
+  "runtime": "python",
+  "license": "other"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "systemprompt-mcp-reddit",
+  "description": "Enables AI to search, read, and interact with Reddit content through tools for analyzing subreddits, creating posts/comments, managing notifications, and configuring content creation instructions.",
+  "url": "https://github.com/ejb503/systemprompt-mcp-reddit",
+  "runtime": "node",
+  "license": "unknown"
+}

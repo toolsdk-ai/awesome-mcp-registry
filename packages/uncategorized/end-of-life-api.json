@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "end-of-life-api",
+  "description": "Integrates with the endoflife.date API to provide software end-of-life status checks for dependency management, security auditing, and upgrade planning.",
+  "url": "https://github.com/ducthinh993/mcp-server-endoflife",
+  "runtime": "node",
+  "license": "mit"
+}

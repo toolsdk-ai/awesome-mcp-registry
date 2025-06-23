@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "triagemcp-(pe-file-analysis)",
+  "description": "Integrates with multiple security tools to perform static analysis of PE files, extracting critical information like import tables, metadata, strings, and malware capabilities for rapid triage of suspicious Windows executables.",
+  "url": "https://github.com/eversinc33/triagemcp",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-toolbox",
+  "description": "Integrates with external APIs and services to provide command execution, Figma file interaction, and file operations, enhancing LLM capabilities for UI/UX design, file management, and service interactions.",
+  "url": "https://github.com/ai-zerolab/mcp-toolbox",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

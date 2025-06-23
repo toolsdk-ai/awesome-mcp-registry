@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-simple-timeserver",
+  "description": "Access accurate local and UTC time information.",
+  "url": "https://github.com/andybrandt/mcp-simple-timeserver",
+  "runtime": "python",
+  "license": "mit"
+}

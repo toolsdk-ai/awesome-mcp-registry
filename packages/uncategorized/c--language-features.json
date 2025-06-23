@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "c#-language-features",
+  "description": "Integrates with Visual Studio Code's C# extension to provide language features like symbol reference finding across codebases, enhancing coding workflows for C# projects.",
+  "url": "https://github.com/biegehydra/bifrostmcp",
+  "runtime": "node",
+  "license": "agpl-3.0"
+}

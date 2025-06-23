@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "spring-boot-bridge",
+  "description": "Automatically converts Spring Boot REST applications into MCP servers, enabling AI tools to interact with existing Spring APIs without rewriting backend services.",
+  "url": "https://github.com/brunosantoslab/spring-mcp-bridge",
+  "runtime": "python",
+  "license": "mit"
+}

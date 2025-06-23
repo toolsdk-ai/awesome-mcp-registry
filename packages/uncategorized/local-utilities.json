@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "local-utilities",
+  "description": "Provides access to system utilities for retrieving local information including time, hostname, IP address, directory listings, Node.js version, and port process checks",
+  "url": "https://github.com/arjshiv/localutils-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

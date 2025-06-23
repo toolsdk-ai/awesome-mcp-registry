@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "deepsrt",
+  "description": "Integrates with DeepSRT's API to generate multi-language video summaries in narrative or bullet-point formats, leveraging content caching and CDN edge delivery for efficient retrieval.",
+  "url": "https://github.com/deepsrt/deepsrt-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "obsidian-mcp-server",
+  "description": "Enables interaction with Obsidian vaults for file operations, content search, and metadata management, facilitating note-taking and knowledge base organization.",
+  "url": "https://github.com/cyanheads/obsidian-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

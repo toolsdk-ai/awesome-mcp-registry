@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "lighthouse",
+  "description": "Integrates Google Lighthouse web performance auditing capabilities to provide automated website performance, accessibility, SEO, and best practices analysis with detailed metrics and optimization recommendations.",
+  "url": "https://github.com/danielsogl/lighthouse-mcp-server",
+  "runtime": "node",
+  "license": "mit"
+}

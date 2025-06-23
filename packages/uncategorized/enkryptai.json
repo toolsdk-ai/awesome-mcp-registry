@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "enkryptai",
+  "description": "Integrates with EnkryptAI platform to provide robust guardrails, policy management, model configuration, and deployment orchestration with customizable safety controls for preventing harmful outputs.",
+  "url": "https://github.com/enkryptai/enkryptai-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

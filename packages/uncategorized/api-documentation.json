@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "api-documentation",
+  "description": "Provides documentation assistance capabilities for developers looking to incorporate up-to-date docs in their workflows.",
+  "url": "https://github.com/crazyrabbitltc/mcp-expert-server",
+  "runtime": "node",
+  "license": "unknown"
+}

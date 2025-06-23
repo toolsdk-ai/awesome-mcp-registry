@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gmail",
+  "description": "Integrates with Gmail's API to enable email operations including sending, receiving, and managing emails for automation and workflow integration",
+  "url": "https://github.com/cablate/mcp-google-gmail",
+  "runtime": "node",
+  "license": "mit"
+}

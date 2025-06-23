@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "resource-hub",
+  "description": "Centralizes shared tools and configurations for MCP environments, enabling consistent resource access across teams and projects.",
+  "url": "https://github.com/adamwattis/resource-hub-server",
+  "runtime": "node",
+  "license": "unknown"
+}

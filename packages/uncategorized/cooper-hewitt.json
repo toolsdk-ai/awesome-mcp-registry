@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "cooper-hewitt",
+  "description": "Integrates with Cooper Hewitt Museum's collection API to enable searching and retrieving detailed information about artifacts for art research and cultural analysis.",
+  "url": "https://github.com/behole/cooper-hewitt-mcp",
+  "runtime": "node",
+  "license": "mit"
+}

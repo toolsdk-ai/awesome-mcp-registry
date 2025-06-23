@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@feedmob/kayzen-reporting",
+  "description": "Enables marketers and analysts to retrieve and analyze Kayzen advertising campaign data through API access with optional date filtering",
+  "url": "https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/kayzen-reporting",
+  "runtime": "node",
+  "license": "unknown"
+}
