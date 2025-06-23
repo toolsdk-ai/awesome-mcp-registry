@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "notion-(via-dify)",
+  "description": "Bridges Cline and Notion knowledge bases via Dify API, enabling direct querying of Notion databases for seamless documentation access during coding.",
+  "url": "https://github.com/rickydata-indexer/notion_mcp_server",
+  "runtime": "python",
+  "license": "unknown"
+}

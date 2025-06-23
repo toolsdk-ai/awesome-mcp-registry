@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "dify",
+  "description": "Integrates Dify's AI application development platform with MCP-compatible tools and services, enabling seamless extension of Dify applications with external capabilities while maintaining the familiar environment.",
+  "url": "https://github.com/yevanchen/difyapp_as_mcp_server",
+  "runtime": "python",
+  "license": "unknown"
+}

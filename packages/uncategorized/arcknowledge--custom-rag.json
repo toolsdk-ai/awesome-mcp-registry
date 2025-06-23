@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "arcknowledge-(custom-rag)",
+  "description": "Bridges AI systems to custom knowledge base APIs for retrieval-augmented generation across multiple text and image sources with configurable authentication and processing capabilities.",
+  "url": "https://github.com/dragonjump/mcp-arcknowledge",
+  "runtime": "python",
+  "license": "mit"
+}

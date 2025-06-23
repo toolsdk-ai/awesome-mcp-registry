@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@xeroapi/xero-mcp-server",
+  "description": "Provides a bridge to the Xero accounting API, enabling financial data interactions and accounting operations through OAuth2 custom connections for automated workflow management.",
+  "url": "https://github.com/xeroapi/xero-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

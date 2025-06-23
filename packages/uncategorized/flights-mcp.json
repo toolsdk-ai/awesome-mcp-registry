@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "flights-mcp",
+  "description": "Provides flight search capabilities using the Aviasales Flight Search API",
+  "url": "https://github.com/maratsarbasov/flights-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

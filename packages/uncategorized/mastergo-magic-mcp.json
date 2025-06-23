@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mastergo/magic-mcp",
+  "description": "Extracts design file metadata from MasterGo files using a personal access token, enabling direct retrieval of design element details for analysis and code generation.",
+  "url": "https://github.com/mastergo-design/mastergo-magic-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

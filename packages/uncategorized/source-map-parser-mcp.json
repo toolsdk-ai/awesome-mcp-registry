@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "source-map-parser-mcp",
+  "description": "Maps minified JavaScript stack traces back to original source code locations for efficient production error debugging.",
+  "url": "https://github.com/masonchow/source-map-parser-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

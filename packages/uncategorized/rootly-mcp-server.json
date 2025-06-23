@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "rootly-mcp-server",
+  "description": "Integrates with Rootly's incident management API to enable real-time production incident resolution directly within code editors, focusing on core endpoints with optimized pagination to prevent context overflow.",
+  "url": "https://github.com/rootly-ai-labs/rootly-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

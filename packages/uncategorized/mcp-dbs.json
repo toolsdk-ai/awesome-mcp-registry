@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-dbs",
+  "description": "Provides a unified TypeScript-based database server for seamlessly connecting to SQLite, PostgreSQL, SQL Server, and MongoDB, enabling flexible database interactions through server-sent events and standard I/O communication modes.",
+  "url": "https://github.com/cuongtl1992/mcp-dbs",
+  "runtime": "node",
+  "license": "unknown"
+}

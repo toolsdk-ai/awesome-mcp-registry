@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "opentk-mcp",
+  "description": "Provides a bridge to Dutch parliamentary data through Bert Hubert's tkconv service, enabling search across documents, MP information retrieval, and access to official records for political research and civic engagement.",
+  "url": "https://github.com/r-huijts/opentk-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

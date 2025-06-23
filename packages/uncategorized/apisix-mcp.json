@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "apisix-mcp",
+  "description": "Bridge LLMs with the APISIX Admin API to manage and analyze API gateway information.",
+  "url": "https://github.com/api7/apisix-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

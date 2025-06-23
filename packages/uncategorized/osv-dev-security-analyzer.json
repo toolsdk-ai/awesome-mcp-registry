@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "osv.dev-security-analyzer",
+  "description": "Integrates with OSV.dev to identify and analyze potential vulnerabilities in codebases, providing dependency checking and code security analysis with optional Semgrep-enhanced static analysis.",
+  "url": "https://github.com/gleicon/mcp-osv",
+  "runtime": "go",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "instagram-dm-mcp",
+  "description": "Enables reading and sending Instagram direct messages through a Python server that authenticates with Instagram cookies and provides tools for retrieving recent conversations and sending new messages.",
+  "url": "https://github.com/taskmaster-ai/insta-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

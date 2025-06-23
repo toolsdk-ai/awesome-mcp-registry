@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@qpd-v/mcp-delete",
+  "description": "File deletion capabilities to safely delete files when needed, with support for both relative and absolute paths.",
+  "url": "https://github.com/qpd-v/mcp-delete",
+  "runtime": "node",
+  "license": "unknown"
+}

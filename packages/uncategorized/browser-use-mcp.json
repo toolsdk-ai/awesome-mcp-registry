@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "browser-use-mcp",
+  "description": "Enables AI to automate web browsing tasks through a unified interface that accepts natural language instructions for navigation, searching, and data extraction across multiple LLM providers.",
+  "url": "https://github.com/pietrozullo/browser-use-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

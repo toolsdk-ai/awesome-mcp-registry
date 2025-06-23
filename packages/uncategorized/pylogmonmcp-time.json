@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@pylogmonmcp/time",
+  "description": "Provides a lightweight time server that retrieves the current time as an ISO 8601 timestamp via stdio, built by Pylogmon using the Model Context Protocol SDK.",
+  "url": "https://github.com/pylogmon/time-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

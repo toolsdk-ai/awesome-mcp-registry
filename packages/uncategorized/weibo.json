@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "weibo",
+  "description": "Bridges to China's Weibo social media platform, enabling user search, profile retrieval, and post extraction through the mobile API with pagination support for monitoring trends and researching content.",
+  "url": "https://github.com/qinyuanpei/mcp-server-weibo",
+  "runtime": "python",
+  "license": "mit"
+}

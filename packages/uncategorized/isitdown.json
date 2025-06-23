@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "isitdown",
+  "description": "Integrates with isitdownrightnow.com to check website status, providing real-time availability information and last known downtime for monitoring and troubleshooting purposes.",
+  "url": "https://github.com/hesreallyhim/mcp-server-isitdown",
+  "runtime": "python",
+  "license": "mit"
+}

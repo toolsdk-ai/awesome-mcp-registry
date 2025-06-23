@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "word-document-formatter",
+  "description": "Enables Microsoft Word document manipulation with text formatting and color control capabilities through python-docx and langchain-mcp-adapters.",
+  "url": "https://github.com/cuongpham2107/word-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

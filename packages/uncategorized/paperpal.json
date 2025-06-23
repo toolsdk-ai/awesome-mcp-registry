@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "paperpal",
+  "description": "Connects LLMs to academic research sources for semantic paper searches and detailed information retrieval from arXiv and Hugging Face, enabling literature reviews and research exploration",
+  "url": "https://github.com/jerpint/paperpal",
+  "runtime": "python",
+  "license": "mit"
+}

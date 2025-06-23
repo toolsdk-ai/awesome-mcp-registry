@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@twilio-alpha/mcp",
+  "description": "Integrates with Twilio's API ecosystem to enable messaging, voice, conversations, and serverless functions through authenticated access with automatic AccountSid population and context filtering capabilities.",
+  "url": "https://github.com/twilio-labs/mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "database-mcp",
+  "description": "Enables natural language querying and management of multiple database types (PostgreSQL, MySQL, SQL Server, BigQuery) for data analysis, business intelligence, and database exploration.",
+  "url": "https://github.com/theralabs/legion-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

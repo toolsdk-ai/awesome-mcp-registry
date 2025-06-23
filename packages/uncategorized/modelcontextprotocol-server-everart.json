@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-everart",
+  "description": "Integrates with EverArt API to generate images from text prompts using multiple AI models for creative and visual design tasks.",
+  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/everart",
+  "runtime": "node",
+  "license": "unknown"
+}

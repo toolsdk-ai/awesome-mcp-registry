@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "wechat-miniprogram",
+  "description": "Enables Claude to control WeChat MiniProgram development environments through HTTP requests for navigation, element interaction, and JavaScript evaluation.",
+  "url": "https://github.com/roy2an/minium-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

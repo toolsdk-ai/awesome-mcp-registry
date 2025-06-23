@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "abaqus/cae-gui-automation",
+  "description": "Enables AI to control Abaqus/CAE finite element analysis software through GUI automation, executing Python scripts and retrieving message logs without modifying the core application.",
+  "url": "https://github.com/jianzhichun/abaqus-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

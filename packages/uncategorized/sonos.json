@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "sonos",
+  "description": "Provides a bridge between Sonos audio devices and natural language control, enabling speaker discovery, playback management, volume adjustment, and system configuration through specialized tools for seamless home audio control.",
+  "url": "https://github.com/winstonfassett/sonos-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

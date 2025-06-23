@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-fetch-typescript",
+  "description": "Integrates with web content sources to fetch, convert, and summarize online information for real-time data retrieval and analysis.",
+  "url": "https://github.com/tatn/mcp-server-fetch-typescript",
+  "runtime": "node",
+  "license": "unknown"
+}

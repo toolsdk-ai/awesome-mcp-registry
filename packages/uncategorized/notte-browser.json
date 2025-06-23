@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "notte-browser",
+  "description": "Provides a bridge between AI and Notte's cloud browser technology, enabling web automation, scraping, and autonomous task completion on websites without direct browser management.",
+  "url": "https://github.com/nottelabs/notte/tree/HEAD/packages/notte-mcp",
+  "runtime": "python",
+  "license": "other"
+}

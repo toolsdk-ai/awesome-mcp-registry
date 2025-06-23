@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@inkdropapp/mcp-server",
+  "description": "Integrates with Inkdrop's note-taking application to enable searching, reading, creating, and updating Markdown notes directly within conversations through seven specialized tools for managing notes, notebooks, and tags.",
+  "url": "https://github.com/inkdropapp/mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

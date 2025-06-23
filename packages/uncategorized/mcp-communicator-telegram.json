@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-communicator-telegram",
+  "description": "Enables real-time communication with Telegram users via bots, supporting asynchronous messaging and secure chat interactions.",
+  "url": "https://github.com/qpd-v/mcp-communicator-telegram",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@vilasone/ssh-mcp-server",
+  "description": "Enables secure remote command execution across Linux and Windows systems through SSH connections with configurable authentication methods, safety restrictions, and multi-machine management for system administration and infrastructure monitoring tasks.",
+  "url": "https://github.com/vilasone455/ssh-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

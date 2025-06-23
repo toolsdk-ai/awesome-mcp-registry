@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-ntopng",
+  "description": "Integrates with ntopng systems to provide direct access to network monitoring data through ClickHouse database queries and REST API endpoints for retrieving traffic statistics, analyzing flows, and identifying network anomalies.",
+  "url": "https://github.com/marcoeg/mcp-server-ntopng",
+  "runtime": "python",
+  "license": "unknown"
+}

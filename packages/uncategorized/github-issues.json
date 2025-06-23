@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-issues",
+  "description": "Integrates with GitHub's issue tracking system to enable listing and creating issues, facilitating automated issue management and workflow integration.",
+  "url": "https://github.com/timbuchinger/mcp-github",
+  "runtime": "python",
+  "license": "unknown"
+}

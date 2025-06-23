@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "file-finder",
+  "description": "Enables quick file location through natural language queries by searching filesystems based on path fragments and returning detailed metadata including name, path, size, and creation date.",
+  "url": "https://github.com/stepancooleague/file-finder-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

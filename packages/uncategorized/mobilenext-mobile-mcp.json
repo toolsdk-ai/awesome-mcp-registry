@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mobilenext/mobile-mcp",
+  "description": "Enables remote control of Android and iOS devices through commands for screenshots, app management, screen interactions, and UI navigation, ideal for automated testing and demonstrations.",
+  "url": "https://github.com/mobile-next/mobile-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

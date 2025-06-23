@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "excel-to-pdf-mcp",
+  "description": "Converts Excel and Apple Numbers spreadsheets to PDF format, enabling file sharing with stakeholders who lack access to the original applications.",
+  "url": "https://github.com/kmexnx/excel-to-pdf-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

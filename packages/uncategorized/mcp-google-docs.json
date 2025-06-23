@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-google-docs",
+  "description": "Integrates with Google Docs to enable viewing, editing, and commenting on documents through Google OAuth authentication for collaborative content creation and review workflows.",
+  "url": "https://github.com/phact/mcp-google-docs",
+  "runtime": "python",
+  "license": "unknown"
+}

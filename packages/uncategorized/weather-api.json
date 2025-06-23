@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "weather-api",
+  "description": "Integrates with weather data APIs to provide real-time conditions and forecasts for location-based decision making, travel planning, and outdoor activity scheduling.",
+  "url": "https://github.com/wanggang316/zongzi-mcp/tree/HEAD/weather",
+  "runtime": "python",
+  "license": "unknown"
+}

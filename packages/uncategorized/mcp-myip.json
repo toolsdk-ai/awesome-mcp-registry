@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-myip",
+  "description": "Integrates with ifconfig.me to fetch and provide public IP address information for network diagnostics and geolocation services.",
+  "url": "https://github.com/nikolaypavlov/mcp-myip",
+  "runtime": "python",
+  "license": "unknown"
+}

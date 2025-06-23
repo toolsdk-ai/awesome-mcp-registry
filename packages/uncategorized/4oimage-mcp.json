@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "4oimage-mcp",
+  "description": "Provides a bridge between AI systems and the 4o-image API for generating and editing high-quality images through text prompts with real-time progress updates.",
+  "url": "https://github.com/antipas/4oimage-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

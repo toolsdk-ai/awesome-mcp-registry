@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "wazuh",
+  "description": "Integrates with Wazuh security platform to provide real-time security alerts and event data from Elasticsearch indices for security operations and threat analysis workflows.",
+  "url": "https://github.com/gensecaihq/wazuh-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

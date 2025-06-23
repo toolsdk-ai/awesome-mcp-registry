@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "obsidian-mcp",
+  "description": "Integrates with Obsidian to enable natural language-based note creation, editing, and management within vaults.",
+  "url": "https://github.com/stevenstavrakis/obsidian-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

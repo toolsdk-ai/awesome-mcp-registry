@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "wweb-mcp",
+  "description": "Enables AI interaction with WhatsApp through direct client integration or API connectivity, supporting message handling, contact management, group creation, and conversation search capabilities.",
+  "url": "https://github.com/pnizer/wweb-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

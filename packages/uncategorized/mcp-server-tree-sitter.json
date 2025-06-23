@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-tree-sitter",
+  "description": "Provides code analysis capabilities through tree-sitter parsing, enabling structured understanding and manipulation of source code across multiple programming languages for tasks like code review, refactoring, and documentation generation.",
+  "url": "https://github.com/wrale/mcp-server-tree-sitter",
+  "runtime": "python",
+  "license": "unknown"
+}

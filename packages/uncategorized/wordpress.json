@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "wordpress",
+  "description": "Integrates with WordPress to enable automated content management, post creation, and site administration tasks without direct dashboard access.",
+  "url": "https://github.com/glendaviesnz/wp-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

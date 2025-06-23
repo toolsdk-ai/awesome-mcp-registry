@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mercadolibre-mcp",
+  "description": "Integrates with MercadoLibre's e-commerce platform to simplify product and seller data retrieval, enabling functions like price monitoring, inventory management, and market analysis.",
+  "url": "https://github.com/lumile/mercadolibre-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

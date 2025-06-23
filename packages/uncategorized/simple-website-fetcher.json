@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "simple-website-fetcher",
+  "description": "Fetches website content using Python and MCP, enabling web scraping and content analysis tasks",
+  "url": "https://github.com/chrisboden/mcp_template",
+  "runtime": "python",
+  "license": "mit"
+}

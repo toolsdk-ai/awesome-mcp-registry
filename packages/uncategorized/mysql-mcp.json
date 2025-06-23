@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mysql-mcp",
+  "description": "Integrates with MySQL databases to enable SQL query execution, connection management, and data retrieval for applications requiring relational database interactions.",
+  "url": "https://github.com/wwwyo/mysql-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

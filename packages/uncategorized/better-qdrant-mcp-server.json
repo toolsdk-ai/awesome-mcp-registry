@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "better-qdrant-mcp-server",
+  "description": "Connects AI systems to Qdrant vector database for semantic search capabilities through multiple embedding services, enabling efficient document management and similarity searches without leaving the conversation interface.",
+  "url": "https://github.com/wrediam/better-qdrant-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "docker",
+  "description": "Bridges Docker infrastructure management by providing a JSON API for container, image, and command operations through a unified protocol implementation.",
+  "url": "https://github.com/coolbit-in/docker-mcp",
+  "runtime": "go",
+  "license": "mit"
+}

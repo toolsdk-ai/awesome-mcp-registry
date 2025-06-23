@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "space-frontiers-search",
+  "description": "Enables semantic and keyword searches across Space Frontiers' library, telegram, and reddit databases through a FastAPI-based server with flexible authentication options.",
+  "url": "https://github.com/spacefrontiers/mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

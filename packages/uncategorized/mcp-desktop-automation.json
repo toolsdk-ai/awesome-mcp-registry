@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-desktop-automation",
+  "description": "Enables desktop automation with RobotJS for screen capture, keyboard input, and mouse control, allowing direct interaction with desktop applications without manual intervention.",
+  "url": "https://github.com/tanob/mcp-desktop-automation",
+  "runtime": "node",
+  "license": "unknown"
+}

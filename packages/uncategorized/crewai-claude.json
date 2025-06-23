@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "crewai-claude",
+  "description": "Integrates CrewAI's multi-agent system with Claude through a hierarchical structure where specialized agents use tools like web search and data analysis, all exposed via a RESTful API for complex tasks.",
+  "url": "https://github.com/miudinho420/crewai-claude",
+  "runtime": "python",
+  "license": "unknown"
+}

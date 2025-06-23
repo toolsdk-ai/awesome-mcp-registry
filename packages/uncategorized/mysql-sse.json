@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mysql-sse",
+  "description": "Provides a lightweight MySQL database server implementation using Server-Sent Events (SSE) for streamlined database operations with modular Python connection handling.",
+  "url": "https://github.com/mangooer/mysql-mcp-server-sse",
+  "runtime": "python",
+  "license": "mit"
+}

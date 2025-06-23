@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gospy",
+  "description": "Inspects and analyzes running Go processes by directly reading memory on Linux and macOS systems, providing deep visibility into goroutine states, memory statistics, and runtime behavior without modifying target applications.",
+  "url": "https://github.com/monsterxx03/gospy",
+  "runtime": "go",
+  "license": "mit"
+}

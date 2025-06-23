@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "alibaba-cloud-lindorm",
+  "description": "Provides a bridge between AI and Alibaba Cloud's Lindorm database, enabling vector search operations and SQL query execution for knowledge retrieval and data exploration",
+  "url": "https://github.com/aliyun/alibabacloud-lindorm-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

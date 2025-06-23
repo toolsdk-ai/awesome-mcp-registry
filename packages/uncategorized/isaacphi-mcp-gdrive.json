@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@isaacphi/mcp-gdrive",
+  "description": "Integrates Google Drive and Sheets functionality for file operations and spreadsheet data manipulation.",
+  "url": "https://github.com/isaacphi/mcp-gdrive",
+  "runtime": "node",
+  "license": "unknown"
+}

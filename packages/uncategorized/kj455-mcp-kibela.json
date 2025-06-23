@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kj455/mcp-kibela",
+  "description": "Integrates with Kibela knowledge bases to enable searching, reading, creating, and updating notes directly within conversation interfaces, providing seamless access to organizational documentation.",
+  "url": "https://github.com/kj455/mcp-kibela",
+  "runtime": "node",
+  "license": "unknown"
+}

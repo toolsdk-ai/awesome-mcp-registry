@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "a2a-bridge",
+  "description": "Bridges Claude Desktop with A2A protocol agents, enabling seamless communication and extending capabilities through agent registration, listing, and calling tools.",
+  "url": "https://github.com/regismesquita/mcp_a2a",
+  "runtime": "python",
+  "license": "unknown"
+}

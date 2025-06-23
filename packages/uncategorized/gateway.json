@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gateway",
+  "description": "Connects AI assistants to multiple specialized services through a unified gateway, enabling dynamic tool discovery and seamless interaction across various MCP servers and HTTP APIs without leaving the conversation context.",
+  "url": "https://github.com/arnavsurve/gateway-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

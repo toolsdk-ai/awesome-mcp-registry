@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "perplexity-ai",
+  "description": "Integrates with Perplexity AI to provide coding assistance and maintain persistent conversations through ask_perplexity for technical solutions and chat_perplexity for context-aware interactions with SQLite-backed history.",
+  "url": "https://github.com/sengokudaikon/mcp-perplexity",
+  "runtime": "python",
+  "license": "mit"
+}

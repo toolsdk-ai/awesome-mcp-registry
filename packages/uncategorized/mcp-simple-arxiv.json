@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-simple-arxiv",
+  "description": "Search and analyze scientific papers from arXiv.",
+  "url": "https://github.com/andybrandt/mcp-simple-arxiv",
+  "runtime": "python",
+  "license": "unknown"
+}

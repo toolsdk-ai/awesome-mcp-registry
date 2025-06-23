@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "minecraft-rcon",
+  "description": "Integrates with Minecraft servers via RCON to enable administration, world manipulation, and player management.",
+  "url": "https://github.com/rgbkrk/rcon-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

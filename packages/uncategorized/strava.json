@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "strava",
+  "description": "Integrates with Strava API to provide direct access to athlete activities, detailed performance metrics, segment data, and leaderboards for training analysis and progress tracking.",
+  "url": "https://github.com/yorrickjansen/strava-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

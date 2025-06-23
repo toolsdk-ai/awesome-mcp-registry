@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "cua-mcp-server",
+  "description": "Enables LLMs to run Computer-Use Agent (CUA) workflows on Apple Silicon macOS.",
+  "url": "https://github.com/trycua/cua/tree/HEAD/libs/mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "stock-market-analysis-tools",
+  "description": "Provides specialized tools for stock market analysis including sector analysis, financial indicators, F10 information, market emotion tracking, and limit-up stock monitoring with Tavily search integration.",
+  "url": "https://github.com/parsedark/mcp_stock",
+  "runtime": "python",
+  "license": "unknown"
+}

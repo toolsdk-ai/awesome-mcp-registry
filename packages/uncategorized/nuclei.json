@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "nuclei",
+  "description": "Integrates with Nuclei vulnerability scanner to automate security assessments through configurable scanning operations with comprehensive reporting for vulnerability analysis and remediation.",
+  "url": "https://github.com/addcontent/nuclei-mcp",
+  "runtime": "go",
+  "license": "unknown"
+}

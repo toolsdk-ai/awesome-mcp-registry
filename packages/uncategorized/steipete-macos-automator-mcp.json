@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@steipete/macos-automator-mcp",
+  "description": "Automates macOS tasks through AppleScript and JavaScript for Automation with a rich library of pre-defined scripts for application control, file operations, and system interactions.",
+  "url": "https://github.com/steipete/macos-automator-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

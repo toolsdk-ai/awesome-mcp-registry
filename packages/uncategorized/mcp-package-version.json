@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-package-version",
+  "description": "Get package version data from npm and PyPI registries to assist with dependency management.",
+  "url": "https://github.com/sammcj/mcp-package-version",
+  "runtime": "node",
+  "license": "unknown"
+}

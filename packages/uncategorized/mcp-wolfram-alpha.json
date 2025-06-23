@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-wolfram-alpha",
+  "description": "Integrates with WolframAlpha to enable computational knowledge queries, scientific calculations, and data analysis across diverse disciplines.",
+  "url": "https://github.com/secretiveshell/mcp-wolfram-alpha",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "prolog",
+  "description": "Bridges AI systems with Prolog's logical programming capabilities through tools for executing programs, running time-limited queries, and exploring available predicates.",
+  "url": "https://github.com/snoglobe/prolog_mcp",
+  "runtime": "go",
+  "license": "unknown"
+}

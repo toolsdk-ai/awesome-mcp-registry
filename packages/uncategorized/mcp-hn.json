@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-hn",
+  "description": "Integrates with Hacker News to fetch stories, comments, and user data, enabling tech news aggregation, trend analysis, and community engagement tracking.",
+  "url": "https://github.com/erithwik/mcp-hn",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "jadx-(java-decompiler)",
+  "description": "Integrates with JADX-GUI to enable reverse engineering of Java and Android applications through decompiled code analysis, method searching, and access to both Java and Smali representations.",
+  "url": "https://github.com/zinja-coder/jadx-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

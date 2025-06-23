@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-package-docs",
+  "description": "Provides efficient access to NPM/Go/Python package documentation through smart parsing and caching, enabling quick retrieval of up-to-date library information.",
+  "url": "https://github.com/sammcj/mcp-package-docs",
+  "runtime": "node",
+  "license": "unknown"
+}

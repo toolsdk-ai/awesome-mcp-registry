@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "excel-reader",
+  "description": "Integrates with Excel files to extract and process data from sheets, enabling automated analysis and reporting tasks",
+  "url": "https://github.com/softgridinc-pte-ltd/mcp-excel-reader-server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

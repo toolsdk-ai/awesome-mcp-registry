@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-gsc",
+  "description": "Analyze SEO metrics and search performance data.",
+  "url": "https://github.com/ahonn/mcp-server-gsc",
+  "runtime": "node",
+  "license": "unknown"
+}

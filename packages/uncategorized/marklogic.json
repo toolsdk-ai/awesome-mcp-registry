@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "marklogic",
+  "description": "Provides a TypeScript-based server for MarkLogic document management, enabling robust CRUD operations and advanced querying capabilities using native MarkLogic functionality.",
+  "url": "https://github.com/karthiknarayankotha/marklogic-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

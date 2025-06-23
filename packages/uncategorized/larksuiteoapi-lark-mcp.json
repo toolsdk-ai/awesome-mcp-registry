@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@larksuiteoapi/lark-mcp",
+  "description": "Integrates with Feishu/Lark's collaboration suite, enabling AI assistants to interact with productivity tools through the official Node.js SDK.",
+  "url": "https://github.com/larksuite/lark-openapi-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

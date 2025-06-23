@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "filesys",
+  "description": "Provides secure, controlled access to local files through a configurable directory interface with robust protection against directory traversal attacks.",
+  "url": "https://github.com/yothisistroy/filesys",
+  "runtime": "python",
+  "license": "unknown"
+}

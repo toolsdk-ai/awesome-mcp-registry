@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-asset-gen",
+  "description": "Enables image generation from text prompts via OpenAI's API, returning the created image saved to a specified file path",
+  "url": "https://github.com/jbrower95/mcp-asset-gen",
+  "runtime": "node",
+  "license": "unknown"
+}

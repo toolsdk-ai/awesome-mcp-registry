@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-toolkit",
+  "description": "Provides AI assistants with access to local and network resources through specialized tools for file system operations, database connections, GitHub API access, web content extraction, and command execution with configurable security constraints.",
+  "url": "https://github.com/zxfgds/mcp-toolkit",
+  "runtime": "node",
+  "license": "unknown"
+}

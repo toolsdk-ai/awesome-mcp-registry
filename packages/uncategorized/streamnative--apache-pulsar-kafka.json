@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "streamnative-(apache-pulsar/kafka)",
+  "description": "Bridges AI systems with Apache Pulsar/Kafka messaging infrastructure, enabling natural language management of topics, subscriptions, schemas, and resources for monitoring and troubleshooting distributed messaging systems.",
+  "url": "https://github.com/streamnative/streamnative-mcp-server",
+  "runtime": "go",
+  "license": "apache-2.0"
+}

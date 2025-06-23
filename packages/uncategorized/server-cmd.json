@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "server-cmd",
+  "description": "Cross-platform MCP server for executing command-line operations and SSH connections on Windows and Linux systems through a standardized interface.",
+  "url": "https://github.com/phialsbasement/cmd-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

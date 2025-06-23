@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "owl-mcp",
+  "description": "Enables AI systems to manipulate Web Ontology Language (OWL) ontologies by adding, removing, and finding axioms through string-based representations in OWL functional syntax",
+  "url": "https://github.com/ai4curation/owl-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

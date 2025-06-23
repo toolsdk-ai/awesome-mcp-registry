@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "base-network-mcp-server",
+  "description": "Provides a bridge to the Base blockchain network for wallet management, balance checking, and transaction execution through natural language commands, eliminating the need to manage technical blockchain details.",
+  "url": "https://github.com/fakepixels/base-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

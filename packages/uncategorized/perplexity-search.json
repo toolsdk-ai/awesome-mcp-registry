@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "perplexity-search",
+  "description": "Integrates with Perplexity AI search API to enable real-time web searches with customizable parameters for recency filtering, domain-specific queries, and citation support.",
+  "url": "https://github.com/chenxilol/perplexity-mcp-go",
+  "runtime": "go",
+  "license": "mit"
+}

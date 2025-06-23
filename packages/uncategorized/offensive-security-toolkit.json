@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "offensive-security-toolkit",
+  "description": "Provides cybersecurity professionals with penetration testing capabilities through specialized servers for payload generation, reconnaissance, shellcode building, and security monitoring.",
+  "url": "https://github.com/cybersecurityup/offensive-mcp-ai",
+  "runtime": "python",
+  "license": "unknown"
+}

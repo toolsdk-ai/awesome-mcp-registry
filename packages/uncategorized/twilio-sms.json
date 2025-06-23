@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "twilio-sms",
+  "description": "Integrates with Twilio to enable sending SMS messages and retrieving message logs through a FastMCP framework with phone validation and authentication.",
+  "url": "https://github.com/gabriel-paulos/twilio-mcp-python",
+  "runtime": "python",
+  "license": "unknown"
+}

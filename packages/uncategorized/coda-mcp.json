@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "coda-mcp",
+  "description": "Provides a bridge between AI and Coda documents, enabling listing, creating, reading, updating, and duplicating pages for collaborative document management and content creation.",
+  "url": "https://github.com/orellazri/coda-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

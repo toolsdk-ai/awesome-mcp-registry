@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "arxiv",
+  "description": "Enables search and retrieval of academic papers from arXiv, providing access to cleaned titles, abstracts, and full content for research workflows and literature reviews.",
+  "url": "https://github.com/ray0907/mcp-arxiv",
+  "runtime": "python",
+  "license": "mit"
+}

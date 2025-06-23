@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-gdrive",
+  "description": "Search and access Google Drive files and folders via read-only API.",
+  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/gdrive",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "shortcut",
+  "description": "Integrates with the Shortcut project management platform to enable task management, story tracking, and workflow automation for development teams.",
+  "url": "https://github.com/zekus/shortcut-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

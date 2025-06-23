@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "android-automation",
+  "description": "Provides direct automation and control of Android devices through uiautomator2, enabling clicking, swiping, typing, and UI element inspection for mobile app testing and automation workflows.",
+  "url": "https://github.com/cursortouch/android-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@sanity/mcp-server",
+  "description": "Integrates with Sanity CMS to enable direct content creation, querying, and management through specialized tools for documents, datasets, schemas, releases, and embeddings",
+  "url": "https://github.com/sanity-io/sanity-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

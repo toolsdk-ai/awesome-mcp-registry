@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "databricks-mcp-server",
+  "description": "Provides a bridge between AI and Databricks workspaces, enabling interaction with data catalogs, schemas, tables, and SQL warehouses for direct querying and analysis of Databricks data.",
+  "url": "https://github.com/characat0/databricks-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

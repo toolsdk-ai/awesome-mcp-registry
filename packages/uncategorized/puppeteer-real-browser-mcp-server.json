@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "puppeteer-real-browser-mcp-server",
+  "description": "Provides stealth browser automation using puppeteer-real-browser with anti-detection features, human-like interactions, proxy support, and captcha solving for web scraping, testing, and form automation that bypasses bot detection mechanisms.",
+  "url": "https://github.com/withlinda/puppeteer-real-browser-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bybit-exchange-api",
+  "description": "Provides a bridge to the Bybit cryptocurrency exchange API for market data retrieval, account management, and order execution across spot and futures markets",
+  "url": "https://github.com/dlwjdtn535/mcp-bybit-server",
+  "runtime": "python",
+  "license": "mit"
+}

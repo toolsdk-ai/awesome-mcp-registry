@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "sbom-generator-(trivy)",
+  "description": "Generates Software Bill of Materials (SBOM) for container images using Trivy scanner, providing detailed component information including package metadata, licenses, and vulnerability data for security compliance and dependency analysis.",
+  "url": "https://github.com/gkhays/mcp-sbom-server",
+  "runtime": "python",
+  "license": "unknown"
+}

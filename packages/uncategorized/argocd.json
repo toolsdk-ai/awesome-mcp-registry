@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "argocd",
+  "description": "Integrates with ArgoCD to enable natural language control of Kubernetes application deployments through a Python-based bridge that supports GitOps workflows.",
+  "url": "https://github.com/severity1/argocd-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

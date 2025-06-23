@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@sinco-lab/mcp-youtube-transcript",
+  "description": "Extracts and formats YouTube video transcripts with language selection, paragraph formatting, and metadata enrichment for content analysis and research workflows.",
+  "url": "https://github.com/sinco-lab/mcp-youtube-transcript",
+  "runtime": "node",
+  "license": "unknown"
+}

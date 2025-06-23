@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@thirdstrandstudio/mcp-tool-chainer",
+  "description": "Chains multiple MCP tools together in sequence, passing results between tools without sending large intermediate data back to the LLM, reducing token usage for complex workflows.",
+  "url": "https://github.com/thirdstrandstudio/mcp-tool-chainer",
+  "runtime": "node",
+  "license": "unknown"
+}

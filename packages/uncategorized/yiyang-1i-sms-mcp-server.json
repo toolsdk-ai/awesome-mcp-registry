@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@yiyang.1i/sms-mcp-server",
+  "description": "Enables Claude and other assistants to send SMS and MMS messages through Twilio's API with phone number validation and specialized prompts for greetings and haikus.",
+  "url": "https://github.com/yiyangli/sms-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

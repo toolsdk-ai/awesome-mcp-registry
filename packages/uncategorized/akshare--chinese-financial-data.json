@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "akshare-(chinese-financial-data)",
+  "description": "Integrates with AKShare to provide real-time financial data and analysis tools for Chinese and global markets, enabling stock, fund, bond, futures, forex, and macroeconomic data queries for investment decision support.",
+  "url": "https://github.com/ttjslbz001/akshare_mcp_server",
+  "runtime": "python",
+  "license": "unknown"
+}

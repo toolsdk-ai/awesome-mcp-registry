@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "voyp-mcp",
+  "description": "Integrates with VOYP API to enable automated call handling, routing, and intelligent voice responses for enhanced call center operations.",
+  "url": "https://github.com/paulotaylor/voyp-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

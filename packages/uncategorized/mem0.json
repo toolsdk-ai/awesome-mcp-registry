@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mem0",
+  "description": "Integrates with mem0.ai to store, retrieve, and semantically search coding preferences, snippets, and programming knowledge through a persistent FastMCP server using SSE connections.",
+  "url": "https://github.com/mem0ai/mem0-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

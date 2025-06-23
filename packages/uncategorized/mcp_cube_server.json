@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp_cube_server",
+  "description": "Interfaces with Cube.dev's REST API to enable querying and describing data from Cube deployments, simplifying access to complex data structures for automated analysis and natural language exploration of business metrics.",
+  "url": "https://github.com/isaacwasserman/mcp_cube_server",
+  "runtime": "python",
+  "license": "unknown"
+}

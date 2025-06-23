@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@scrapezy/mcp",
+  "description": "Integrates with the Scrapezy API to extract structured data from websites based on user-specified prompts, enabling flexible web scraping for data collection, content aggregation, and automated research tasks.",
+  "url": "https://github.com/scrapezy/mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

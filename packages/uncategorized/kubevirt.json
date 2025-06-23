@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "kubevirt",
+  "description": "Enables natural language management of virtual machines in Kubernetes environments through KubeVirt API, allowing users to list, start, and stop VMs without writing complex kubectl commands.",
+  "url": "https://github.com/lyarwood/kubevirt-mcp-server",
+  "runtime": "go",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@bunas/fs-mcp",
+  "description": "Enables file system access to read local files with optional API key authentication, providing a simple interface for analyzing and working with file content without manual uploads.",
+  "url": "https://github.com/bunasq/fs",
+  "runtime": "node",
+  "license": "unknown"
+}

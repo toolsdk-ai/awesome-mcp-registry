@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@marketplaceadpros/amazon-ads-mcp-server",
+  "description": "Integrates with MarketplaceAdPros' Amazon Advertising platform to access Sponsored Products, Sponsored Brands, and Sponsored Display campaign data, ad groups, keywords, and targeting information for advertising performance analysis and recommendations.",
+  "url": "https://github.com/marketplaceadpros/amazon-ads-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

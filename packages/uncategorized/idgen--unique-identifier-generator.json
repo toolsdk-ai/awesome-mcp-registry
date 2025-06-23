@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "idgen-(unique-identifier-generator)",
+  "description": "Provides four distinct ID generation tools (UUID, XID, ULID, and shortuuid) for creating unique identifiers in database entries, tracking systems, or distributed applications.",
+  "url": "https://github.com/syumai/mcp/tree/HEAD/idgen-mcp-server",
+  "runtime": "go",
+  "license": "unknown"
+}

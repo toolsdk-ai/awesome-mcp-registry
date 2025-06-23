@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "source-tree-generator",
+  "description": "Generates source code directory trees using Python and pathspec for flexible path matching, enabling code analysis and project structure visualization.",
+  "url": "https://github.com/owayo/mcp-src-tree",
+  "runtime": "python",
+  "license": "mit"
+}

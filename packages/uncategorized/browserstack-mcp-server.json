@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@browserstack/mcp-server",
+  "description": "Integrates with BrowserStack's testing infrastructure to enable automated and manual testing across browsers, devices, and platforms for debugging cross-browser issues and verifying mobile app functionality.",
+  "url": "https://github.com/browserstack/mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

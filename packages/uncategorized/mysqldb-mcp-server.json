@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mysqldb-mcp-server",
+  "description": "Enables direct SQL query execution and database connections to MySQL databases through a simple interface that returns results in JSON format.",
+  "url": "https://github.com/burakdirin/mysqldb-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

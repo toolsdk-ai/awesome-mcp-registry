@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "key-server",
+  "description": "Provides secure API key storage and NPM package management with role-based access control, enabling developers to centrally store service credentials while maintaining dependencies.",
+  "url": "https://github.com/suchetaslalom-sf/mcp-key-server",
+  "runtime": "python",
+  "license": "unknown"
+}

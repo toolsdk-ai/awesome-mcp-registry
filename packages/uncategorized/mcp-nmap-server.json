@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-nmap-server",
+  "description": "Integrates NMAP to enable network scanning, security assessments, and automated penetration testing on Windows systems.",
+  "url": "https://github.com/phialsbasement/nmap-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@thomaswawra/server-spotify",
+  "description": "Integrates with Spotify Web API to enable music search, playback control, and playlist management for applications needing music data and content access.",
+  "url": "https://github.com/superseoworld/mcp-spotify",
+  "runtime": "node",
+  "license": "unknown"
+}

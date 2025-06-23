@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "vertex-ai-search",
+  "description": "Integrates with Google's Vertex AI and Discovery Engine APIs to enable advanced search and retrieval operations on large datasets, supporting semantic search and natural language understanding.",
+  "url": "https://github.com/ubie-oss/mcp-vertexai-search",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

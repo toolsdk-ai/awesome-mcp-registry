@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "consumer-financial-protection-bureau-complaints",
+  "description": "Provides access to the Consumer Financial Protection Bureau's complaint database for searching and retrieving banking and financial service complaints by company, product type, and result size.",
+  "url": "https://github.com/ingeniousidiocy/consumer-complaint-database-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

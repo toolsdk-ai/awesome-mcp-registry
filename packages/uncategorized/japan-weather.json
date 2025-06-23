@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "japan-weather",
+  "description": "Integrates with an external weather API to provide current conditions and forecasts for locations in Japan.",
+  "url": "https://github.com/acxelerator/mcp-tenki",
+  "runtime": "python",
+  "license": "mit"
+}

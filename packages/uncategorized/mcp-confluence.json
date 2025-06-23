@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-confluence",
+  "description": "Integrates Atlassian Confluence content for retrieving page and blog post data, enabling knowledge base querying and content analysis.",
+  "url": "https://github.com/mouhamadalmounayar/mcp-confluence",
+  "runtime": "node",
+  "license": "unknown"
+}

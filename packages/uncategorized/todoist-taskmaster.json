@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "todoist-taskmaster",
+  "description": "Integrates with Todoist task management to retrieve, filter, and display tasks using flexible query options without switching contexts.",
+  "url": "https://github.com/mingolladaniele/taskmaster-todoist-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-mongo-server",
+  "description": "Query and analyze MongoDB databases.",
+  "url": "https://github.com/kiliczsh/mcp-mongo-server",
+  "runtime": "node",
+  "license": "unknown"
+}

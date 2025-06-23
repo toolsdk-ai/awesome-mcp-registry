@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-llm",
+  "description": "Integrates with LlamaIndexTS to provide access to various LLM providers for code generation, documentation writing, and question answering tasks",
+  "url": "https://github.com/sammcj/mcp-llm",
+  "runtime": "node",
+  "license": "unknown"
+}

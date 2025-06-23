@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@pinkpixel/npm-helper-mcp",
+  "description": "Provides specialized tools for searching npm packages, fetching documentation, checking outdated dependencies, and safely upgrading Node.js packages with version constraint management",
+  "url": "https://github.com/pinkpixel-dev/npm-helper-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "notmuch-sendmail",
+  "description": "Integrates Notmuch email management with sendmail functionality to enable email composition, searching, and sending capabilities.",
+  "url": "https://github.com/runekaagaard/mcp-notmuch-sendmail",
+  "runtime": "python",
+  "license": "mpl-2.0"
+}

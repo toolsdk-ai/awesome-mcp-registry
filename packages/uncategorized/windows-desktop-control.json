@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "windows-desktop-control",
+  "description": "Enables AI to control Windows desktop applications through UIAutomation and PyAutoGUI, providing capabilities for launching programs, executing commands, and performing mouse/keyboard actions with tree-based UI element identification.",
+  "url": "https://github.com/cursortouch/windows-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

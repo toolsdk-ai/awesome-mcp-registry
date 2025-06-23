@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@masonator/coolify-mcp",
+  "description": "Integrates with Coolify to enable natural language management of servers, projects, applications, and databases through the Coolify API, allowing users to perform DevOps operations without leaving their conversation interface.",
+  "url": "https://github.com/stumason/coolify-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

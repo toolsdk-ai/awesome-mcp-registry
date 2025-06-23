@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "docxprocessor",
+  "description": "Enables creation, editing, and manipulation of Microsoft Word documents with features for text formatting, table management, content search/replace, and document styling using Python and python-docx.",
+  "url": "https://github.com/meterlong/mcp-doc",
+  "runtime": "python",
+  "license": "unknown"
+}

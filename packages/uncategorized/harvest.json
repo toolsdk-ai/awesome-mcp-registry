@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "harvest",
+  "description": "Integrates with Harvest time tracking API to manage time entries, projects, clients, and tasks directly through conversation without switching contexts.",
+  "url": "https://github.com/taiste/harvest-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

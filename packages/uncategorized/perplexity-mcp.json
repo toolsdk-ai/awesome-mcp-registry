@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "perplexity-mcp",
+  "description": "Integrates with Perplexity AI API to enable web search capabilities for retrieving up-to-date information across domains.",
+  "url": "https://github.com/jsonallen/perplexity-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

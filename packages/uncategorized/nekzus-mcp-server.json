@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@nekzus/mcp-server",
+  "description": "Utility server implementation providing dynamically registered tools for datetime handling, card operations, and schema conversion through a modular TypeScript architecture with stdio transport compatibility.",
+  "url": "https://github.com/nekzus/npm-sentinel-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "opslevel",
+  "description": "Provides direct access to OpsLevel's developer portal data, enabling intelligent interactions with service catalogs, component metrics, and operational workflows for DevOps teams managing service infrastructure.",
+  "url": "https://github.com/opslevel/opslevel-mcp",
+  "runtime": "go",
+  "license": "mit"
+}

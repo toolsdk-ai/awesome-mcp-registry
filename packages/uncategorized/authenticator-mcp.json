@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "authenticator-mcp",
+  "description": "Provides secure access to two-factor authentication codes and passwords stored in the Authenticator App, enabling seamless login assistance across multiple services without manual code entry.",
+  "url": "https://github.com/firstorderai/authenticator_mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

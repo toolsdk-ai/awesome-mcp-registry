@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gpt-researcher",
+  "description": "Enables real-time web research, information gathering, and report generation with tools for conducting deep research, quick searches, and comprehensive source tracking.",
+  "url": "https://github.com/assafelovic/gptr-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

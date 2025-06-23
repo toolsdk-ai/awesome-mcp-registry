@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "employee-leave-manager",
+  "description": "Provides containerized employee leave management with tools for checking balances, applying for leave with specific dates, and retrieving leave history from an in-memory database.",
+  "url": "https://github.com/ahmad-act/local-ai-with-ollama-open-webui-mcp-on-windows",
+  "runtime": "python",
+  "license": "unknown"
+}

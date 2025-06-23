@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "terminal-mcp-server",
+  "description": "Integrates with Terminal.shop's e-commerce platform to enable browsing coffee products, managing shopping carts, and handling subscriptions with secure Stripe payment processing",
+  "url": "https://github.com/pashaydev/terminal.shop.mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

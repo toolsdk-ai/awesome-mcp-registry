@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-minecraft",
+  "description": "Integrates with Minecraft to enable AI control and interaction within game environments for research, education, and automation.",
+  "url": "https://github.com/arjunkmrm/mcp-minecraft",
+  "runtime": "node",
+  "license": "unknown"
+}

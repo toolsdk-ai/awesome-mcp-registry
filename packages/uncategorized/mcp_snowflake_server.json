@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp_snowflake_server",
+  "description": "Run SQL queries and other interactions against Snowflake databases",
+  "url": "https://github.com/isaacwasserman/mcp-snowflake-server",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "jotai-mcp-server",
+  "description": "Provides direct access to Jotai documentation resources, including the main README and curated tips, for developers working with this state management library",
+  "url": "https://github.com/jotaijs/jotai-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

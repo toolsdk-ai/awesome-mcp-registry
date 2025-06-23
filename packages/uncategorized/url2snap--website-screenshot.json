@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "url2snap-(website-screenshot)",
+  "description": "Captures website screenshots through the Abstract API and serves them locally, enabling visualization of web content without requiring direct site visits.",
+  "url": "https://github.com/abhi5h3k/mcp-url2snap",
+  "runtime": "python",
+  "license": "unknown"
+}

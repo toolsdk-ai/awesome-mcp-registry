@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "metatag-genie",
+  "description": "Enables AI to write standardized metadata to various image file formats including HEIC and PNG for automated tagging, photo organization, and copyright embedding without switching contexts.",
+  "url": "https://github.com/terryso/meta_tag_genie",
+  "runtime": "node",
+  "license": "unknown"
+}

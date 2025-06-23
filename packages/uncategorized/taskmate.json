@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "taskmate",
+  "description": "Enables dynamic task creation, tracking, and organization across multiple agents and projects using FastAPI and LangChain, with robust JSON-based task management and flexible operational capabilities.",
+  "url": "https://github.com/newaitees/taskmateai",
+  "runtime": "python",
+  "license": "mit"
+}

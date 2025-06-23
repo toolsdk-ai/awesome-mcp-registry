@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@nullplatform/meta-mcp-proxy",
+  "description": "Unifies multiple MCP servers into a single gateway with built-in search capabilities, enabling tools to be discovered and executed across different specialized services through one interface",
+  "url": "https://github.com/nullplatform/meta-mcp-proxy",
+  "runtime": "node",
+  "license": "unknown"
+}

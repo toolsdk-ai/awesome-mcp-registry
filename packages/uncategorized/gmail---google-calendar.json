@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gmail-&-google-calendar",
+  "description": "Integrates with Gmail and Google Calendar APIs to enable email management and scheduling capabilities directly within conversation interfaces.",
+  "url": "https://github.com/albert-launcher/mcp-gsuite",
+  "runtime": "python",
+  "license": "mit"
+}

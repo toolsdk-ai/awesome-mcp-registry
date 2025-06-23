@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "asn-lookup",
+  "description": "Provides network analysis tools for security professionals, enabling IP address lookups with ASN information and organization details for incident response investigations.",
+  "url": "https://github.com/rossja/irtoolshed-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

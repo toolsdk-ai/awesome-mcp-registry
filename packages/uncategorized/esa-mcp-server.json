@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "esa-mcp-server",
+  "description": "Integrates with esa.io API for searching and retrieving team knowledge, enabling efficient information access and collaboration.",
+  "url": "https://github.com/d-kimuson/esa-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

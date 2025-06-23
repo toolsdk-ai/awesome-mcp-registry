@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-openverse",
+  "description": "Integrates with Openverse's Creative Commons image collection to search and retrieve openly-licensed images with detailed filtering options, attribution information, and specialized essay illustration features for finding relevant academic content.",
+  "url": "https://github.com/neno-is-ooo/mcp-openverse",
+  "runtime": "node",
+  "license": "unknown"
+}

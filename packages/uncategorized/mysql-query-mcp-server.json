@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mysql-query-mcp-server",
+  "description": "Provides a secure, read-only bridge to MySQL databases, enabling natural language querying across multiple environments with strict validation and comprehensive error handling.",
+  "url": "https://github.com/devakone/mysql-query-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

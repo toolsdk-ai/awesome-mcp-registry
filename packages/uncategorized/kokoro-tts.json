@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "kokoro-tts",
+  "description": "Converts text to speech using the Kokoro TTS engine with configurable voices, speeds, and languages, supporting both local storage and S3 cloud integration with automatic file cleanup.",
+  "url": "https://github.com/mberg/kokoro-tts-mcp",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

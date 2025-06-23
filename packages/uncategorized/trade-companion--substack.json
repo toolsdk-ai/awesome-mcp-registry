@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "trade-companion-(substack)",
+  "description": "Integrates with Trade Companion by Adam Mancini on Substack, enabling authenticated article retrieval and content extraction for seamless access within workflows.",
+  "url": "https://github.com/pl728/substack-fetcher-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "selector-ai",
+  "description": "Bridges Cisco's Selector AI platform with natural language interaction, enabling direct access to Selector's capabilities without switching contexts.",
+  "url": "https://github.com/automateyournetwork/selector-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0"
+}
