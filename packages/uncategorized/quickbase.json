@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "quickbase",
-  "description": "Integrates with Quickbase's JSON RESTful API for querying records, managing table relationships, handling file attachments, and user management directly within conversations.",
-  "url": "https://github.com/danielbushman/mcp-quickbase",
-  "runtime": "node",
-  "license": "mit"
-}

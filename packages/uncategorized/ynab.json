@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ynab",
-  "description": "Integrates with YNAB's official API to provide read-only access to budget data including accounts, categories, and monthly budget information with automatic currency formatting and pagination support.",
-  "url": "https://github.com/chrisguidry/you-need-an-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

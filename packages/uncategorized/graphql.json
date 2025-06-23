@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "graphql",
-  "description": "Transforms any GraphQL API into dynamic tools through automatic schema introspection, enabling direct access to structured data with parameter validation and configurable security controls.",
-  "url": "https://github.com/ctkadvisors/graphql-mcp",
-  "runtime": "node",
-  "license": "other"
-}

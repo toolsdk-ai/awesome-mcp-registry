@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gemini-2.0-flash",
-  "description": "Enables direct access to Google's Gemini 2.0 Flash model from Claude Desktop through a bidirectional communication channel that maintains conversation context for natural interactions.",
-  "url": "https://github.com/ia-entertainment-git-organization/gemini-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

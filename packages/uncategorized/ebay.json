@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ebay",
-  "description": "Fetch auctions from ebay.com.",
-  "url": "https://github.com/cookey-monster/ebaymcpserver",
-  "runtime": "python",
-  "license": "mit"
-}

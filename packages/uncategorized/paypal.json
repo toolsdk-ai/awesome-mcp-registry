@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "paypal",
-  "description": "Integrates with PayPal's APIs to enable payment processing, order management, and financial operations for e-commerce and billing workflows.",
-  "url": "https://github.com/dynamicendpoints/paypal-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

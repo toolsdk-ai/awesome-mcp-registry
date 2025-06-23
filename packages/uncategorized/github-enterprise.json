@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github-enterprise",
-  "description": "Bridges GitHub Enterprise with natural language interaction, enabling repository management, issue tracking, and code access for streamlined development workflows without leaving your assistant interface.",
-  "url": "https://github.com/containerelic/github-enterprise-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "eda-tools",
-  "description": "Integrates with Electronic Design Automation tools to enable hardware design workflows including RTL synthesis, simulation, timing analysis, and physical layout generation for chip design tasks",
-  "url": "https://github.com/nellyw8/mcp-eda",
-  "runtime": "node",
-  "license": "unknown"
-}

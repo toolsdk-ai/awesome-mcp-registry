@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-ossinsight",
-  "description": "Provides data analysis for GitHub individuals, organizations, and repositories, as well as in-depth insights into the open source ecosystem via OSSInsight.io.",
-  "url": "https://github.com/damonxue/mcp-ossinsight",
-  "runtime": "node",
-  "license": "mit"
-}

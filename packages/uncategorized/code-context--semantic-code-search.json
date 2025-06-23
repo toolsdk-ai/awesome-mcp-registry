@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "code-context-(semantic-code-search)",
-  "description": "Enables semantic code search and understanding by cloning git repositories, splitting code into semantic chunks, and generating embeddings for natural language querying of large codebases",
-  "url": "https://github.com/fkesheh/code-context-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

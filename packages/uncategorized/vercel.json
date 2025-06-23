@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vercel",
-  "description": "Integrates with Vercel's platform to enable management of Vercel projects.",
-  "url": "https://github.com/fer1994ly/vercel_mcp_complete",
-  "runtime": "node",
-  "license": "unknown"
-}

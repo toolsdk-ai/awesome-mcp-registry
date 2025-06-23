@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "neurolorap-code-collector",
-  "description": "Streamlines code collection and documentation by gathering files into a single markdown document with features like syntax highlighting and table of contents generation.",
-  "url": "https://github.com/aindreyway/mcp-server-neurolora-p",
-  "runtime": "python",
-  "license": "mit"
-}

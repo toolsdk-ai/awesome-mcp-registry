@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "explorium-mcp-server",
-  "description": "Integrates with Explorium's data services API, enabling access to data capabilities for AI workflows through a Python-based server that requires API key authentication.",
-  "url": "https://github.com/explorium-ai/mcp-explorium",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

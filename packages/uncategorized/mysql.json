@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mysql",
-  "description": "Provides secure MySQL database access through a FastAPI server with SQLAlchemy and PyMySQL, enabling configurable connection pooling and optional query restrictions.",
-  "url": "https://github.com/caicongyang/mcp-demo",
-  "runtime": "python",
-  "license": "unknown"
-}

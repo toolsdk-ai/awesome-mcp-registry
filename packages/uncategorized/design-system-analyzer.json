@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "design-system-analyzer",
-  "description": "Analyzes React component files and design tokens to provide accurate component properties and styling information for precise UI code generation and design recommendations.",
-  "url": "https://github.com/yajihum/design-system-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

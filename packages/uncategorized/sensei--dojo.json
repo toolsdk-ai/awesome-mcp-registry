@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sensei-(dojo)",
-  "description": "Provides specialized guidance for Starknet ecosystem development with Cairo programming and Entity Component System (ECS) framework expertise through TypeScript-based tools for Dojo developers building onchain games and applications.",
-  "url": "https://github.com/dojoengine/sensei-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

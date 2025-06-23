@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nexus-data-processor",
-  "description": "Integrates data processing libraries and external services to facilitate complex data operations, transformations, and API interactions across multiple formats and sources.",
-  "url": "https://github.com/esh2n/mcp-servers",
-  "runtime": "node",
-  "license": "unknown"
-}

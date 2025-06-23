@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "windows-terminal",
-  "description": "Enables interaction with the Windows command line interface, allowing for writing commands, reading terminal output, and sending control characters for automation tasks and integrations.",
-  "url": "https://github.com/capecoma/winterm-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

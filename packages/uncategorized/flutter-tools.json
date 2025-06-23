@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "flutter-tools",
-  "description": "Integrates with the Flutter SDK to analyze and fix Dart/Flutter files, enabling automated code analysis and improvement suggestions for Flutter development.",
-  "url": "https://github.com/dkpoulsen/flutter-tools",
-  "runtime": "node",
-  "license": "unknown"
-}

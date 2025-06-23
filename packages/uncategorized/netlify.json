@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "netlify",
-  "description": "Integrates with Netlify's API to enable automated web deployment, serverless function management, and continuous deployment workflows for AI applications.",
-  "url": "https://github.com/dynamicendpoints/netlify-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

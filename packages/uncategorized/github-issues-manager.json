@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github-issues-manager",
-  "description": "Enables AI to create and manage GitHub issues through authenticated API calls, streamlining repository issue tracking and project management workflows.",
-  "url": "https://github.com/faheemgurkani/github-issues-manager-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

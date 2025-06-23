@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@f2c/mcp",
-  "description": "Bridges Figma design files to code generation, enabling direct conversion of designs into HTML, CSS, and other assets with customizable output paths and file organization.",
-  "url": "https://github.com/f2c-ai/f2c-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

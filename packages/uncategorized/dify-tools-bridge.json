@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dify-tools-bridge",
-  "description": "Bridges Dify's tool ecosystem with MCP-compatible assistants, enabling organizations to extend their existing Dify tool configurations without duplication.",
-  "url": "https://github.com/junjiem/dify-plugin-mcp_compat_dify_tools",
-  "runtime": "python",
-  "license": "unknown"
-}

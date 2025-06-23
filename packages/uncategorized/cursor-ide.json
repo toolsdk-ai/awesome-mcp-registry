@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cursor-ide",
-  "description": "Capable of controlling and pulling from Cursor IDE, powering development workflows.",
-  "url": "https://github.com/buga-luga/cursor-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "zulip",
-  "description": "Integrates with Zulip's REST API to send messages, manage conversations, handle files, schedule messages, and interact with users across organizations with support for channel and direct messaging, emoji reactions, and draft management.",
-  "url": "https://github.com/avisekrath/zulip-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "figma",
-  "description": "Enables direct interaction with Figma design files for querying assets, retrieving information, and manipulating design elements without switching contexts.",
-  "url": "https://github.com/gamelifezhao/mcp-figma",
-  "runtime": "node",
-  "license": "unknown"
-}

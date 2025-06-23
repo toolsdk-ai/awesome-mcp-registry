@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "notion",
-  "description": "Provides a flexible API for querying, searching, creating, updating, and deleting Notion workspaces, enabling developers and knowledge workers to interact with their data through natural language or automated workflows.",
-  "url": "https://github.com/ghubnerr/notion-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

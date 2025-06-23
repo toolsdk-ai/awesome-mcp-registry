@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@aashari/mcp-server-atlassian-bitbucket",
-  "description": "Integrates with Bitbucket's REST APIs to enable repository management, pull request handling, and workspace operations with TypeScript-based error handling and pagination support",
-  "url": "https://github.com/aashari/mcp-server-atlassian-bitbucket",
-  "runtime": "node",
-  "license": "unknown"
-}

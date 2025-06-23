@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "spline-3d-design",
-  "description": "Connects to Spline 3D design tool API for creating, manipulating, and exporting 3D scenes with support for animations, model imports, and event-based interactions.",
-  "url": "https://github.com/aydinfer/spline-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

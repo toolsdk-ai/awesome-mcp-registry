@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ethereum-address-monitor",
-  "description": "Provides real-time Ethereum address monitoring across multiple blockchain networks using Server-Sent Events, enabling continuous tracking of on-chain activity without polling for DeFi dashboards, wallet applications, and analytics tools.",
-  "url": "https://github.com/doronaviguy/mpc-0x",
-  "runtime": "node",
-  "license": "unknown"
-}

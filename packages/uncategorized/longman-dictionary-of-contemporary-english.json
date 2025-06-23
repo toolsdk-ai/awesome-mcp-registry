@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "longman-dictionary-of-contemporary-english",
-  "description": "Provides a bridge to the Longman Dictionary of Contemporary English for looking up word definitions, examples, and linguistic information without requiring context switching to external dictionary resources.",
-  "url": "https://github.com/edgardamasceno-dev/ldoce-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

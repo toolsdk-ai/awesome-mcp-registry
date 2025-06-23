@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dropbox",
-  "description": "Integrates with Dropbox to enable file management operations like listing, uploading, downloading, and sharing files for cloud storage workflows.",
-  "url": "https://github.com/amgadabdelhafez/dbx-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

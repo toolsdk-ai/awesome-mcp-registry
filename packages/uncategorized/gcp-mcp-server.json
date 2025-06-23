@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gcp-mcp-server",
-  "description": "Enables developers to manage and interact with Google Cloud Platform resources like Compute Engine, Cloud Run, BigQuery, and Cloud Storage through a unified, tool-driven approach.",
-  "url": "https://github.com/enesbol/gcp-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

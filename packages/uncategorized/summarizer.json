@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "summarizer",
-  "description": "Provides intelligent summarization capabilities for various types of content.",
-  "url": "https://github.com/0xshellming/mcp-summarizer",
-  "runtime": "node",
-  "license": "unknown"
-}

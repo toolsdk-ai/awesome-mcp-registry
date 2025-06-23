@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bing-search",
-  "description": "Search the web using Bing services.",
-  "url": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-bing-search",
-  "runtime": "python",
-  "license": "mit"
-}

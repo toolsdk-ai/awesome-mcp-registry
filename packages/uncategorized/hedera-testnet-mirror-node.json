@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "hedera-testnet-mirror-node",
-  "description": "Provides a bridge to the Hedera Testnet Mirror Node API, dynamically converting Zodios API endpoints into tools for querying blockchain data using Server-Sent Events and robust Zod-based validation.",
-  "url": "https://github.com/hedera-dev/mirrornode-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

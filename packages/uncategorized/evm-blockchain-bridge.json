@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "evm-blockchain-bridge",
-  "description": "Provides a bridge to Ethereum Virtual Machine (EVM) compatible blockchains, enabling wallet management, blockchain data queries, and DeFi operations like token transfers and swaps through PancakeSwap integration.",
-  "url": "https://github.com/chulanpro5/evm-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

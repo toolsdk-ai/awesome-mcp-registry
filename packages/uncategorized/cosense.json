@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cosense",
-  "description": "Integrates Cosense to enable access and interaction with project data for enhanced project management and collaboration workflows.",
-  "url": "https://github.com/funwarioisii/cosense-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

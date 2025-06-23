@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mysql-database",
-  "description": "Enables direct MySQL database operations including query execution, schema management, and table information retrieval with built-in security features to prevent SQL injection attacks.",
-  "url": "https://github.com/kevinbin/mcp-mysql-server",
-  "runtime": "node",
-  "license": "unknown"
-}

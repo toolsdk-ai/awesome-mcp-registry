@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "base-wallet",
-  "description": "Lightweight blockchain wallet interaction framework using Viem on Base Sepolia testnet, generating random wallet clients and exposing blockchain actions via stdio transport.",
-  "url": "https://github.com/0xrag/mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

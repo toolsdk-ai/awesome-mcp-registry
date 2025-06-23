@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@feedmob/jampp-reporting",
-  "description": "Integrates with Jampp Reporting API to retrieve advertising campaign performance metrics including spend, impressions, clicks, and installs across specified date ranges with automated authentication handling.",
-  "url": "https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/jampp-reporting",
-  "runtime": "node",
-  "license": "unknown"
-}

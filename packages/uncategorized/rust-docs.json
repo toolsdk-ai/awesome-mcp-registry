@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rust-docs",
-  "description": "Fetches and returns Rust crate documentation from docs.rs, providing essential context for working with Rust code.",
-  "url": "https://github.com/0xkoda/mcp-rust-docs",
-  "runtime": "node",
-  "license": "unknown"
-}

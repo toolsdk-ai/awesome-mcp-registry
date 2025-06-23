@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "airtable",
-  "description": "Airtable MCP server enables AI assistants to programmatically manage Airtable bases, tables, fields, and records through a simplified interface to the Airtable API.",
-  "url": "https://github.com/felores/airtable-mcp",
-  "runtime": "node",
-  "license": "other"
-}

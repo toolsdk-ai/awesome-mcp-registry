@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kokoro-tts",
-  "description": "Integrates with the Kokoro TTS engine to provide customizable text-to-speech capabilities, supporting cross-platform audio playback and file output for applications requiring high-quality speech synthesis.",
-  "url": "https://github.com/giannisanni/kokoro-tts-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

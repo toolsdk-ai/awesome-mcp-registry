@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@anaisbetts/mcp-installer",
-  "description": "Install and configure additional MCP servers dynamically.",
-  "url": "https://github.com/anaisbetts/mcp-installer",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "file-system-operations",
-  "description": "Provides file system operations for reading, creating, and listing files on the local file system, with performance monitoring through Sentry integration.",
-  "url": "https://github.com/codyde/mcp-file-tool",
-  "runtime": "node",
-  "license": "unknown"
-}

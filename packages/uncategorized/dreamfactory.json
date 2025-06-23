@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dreamfactory",
-  "description": "Enables AI to interact with databases through DreamFactory's REST API, providing secure, structured access to schemas, data, and stored procedures without direct credential exposure.",
-  "url": "https://github.com/dreamfactorysoftware/df-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

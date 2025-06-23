@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "baidu-mcp-server",
-  "description": "Provides web search capabilities through Baidu's search engine, enabling retrieval of search results and webpage content with robust error handling and content parsing.",
-  "url": "https://github.com/evilran/baidu-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

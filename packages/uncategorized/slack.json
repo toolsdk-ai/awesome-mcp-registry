@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "slack",
-  "description": "Provides a bridge to the Slack API, enabling message posting and user list retrieval for workspace interactions through a TypeScript implementation.",
-  "url": "https://github.com/avimbu/slack-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

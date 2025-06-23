@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "x-(twitter)",
-  "description": "Integrates with the X (Twitter) API to enable posting tweets, retrieving user data, and analyzing trends.",
-  "url": "https://github.com/datawhisker/x-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

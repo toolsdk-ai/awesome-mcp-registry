@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "semantic-scholar",
-  "description": "Integrates with the Semantic Scholar API to enable querying academic papers, authors, and citations for research and analysis tasks.",
-  "url": "https://github.com/benhaotang/mcp-semantic-scholar-server",
-  "runtime": "python",
-  "license": "mit"
-}

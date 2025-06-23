@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "headless-gmail",
-  "description": "Enables headless Gmail access by separating credential storage from implementation, allowing clients to complete OAuth flows independently and pass credentials as context for email operations in containerized environments.",
-  "url": "https://github.com/baryhuang/mcp-headless-gmail",
-  "runtime": "python",
-  "license": "mit"
-}

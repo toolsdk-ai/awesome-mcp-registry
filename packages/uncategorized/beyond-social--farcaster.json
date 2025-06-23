@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "beyond-social-(farcaster)",
-  "description": "Integrates with social platforms like Farcaster to provide standardized access to user profiles, content search, thread analysis, and trending topics through flexible stdio and HTTP/SSE transports.",
-  "url": "https://github.com/beyond-network-ai/beyond-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

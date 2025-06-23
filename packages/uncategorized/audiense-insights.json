@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "audiense-insights",
-  "description": "Integrates with Audiense's audience insights platform, enabling retrieval of audience data and analytics for targeted marketing and social media strategy development.",
-  "url": "https://github.com/audienseco/mcp-audiense-insights",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

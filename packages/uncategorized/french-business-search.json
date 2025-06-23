@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "french-business-search",
-  "description": "Connects to the French government's API Recherche Entreprises to retrieve detailed business information including names, addresses, directors, and sector data based on search queries.",
-  "url": "https://github.com/csonigo/datagouv-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

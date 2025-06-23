@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudflare-edge-services",
-  "description": "Provides image generation, URL content extraction, and web search capabilities through Cloudflare Workers deployed globally on edge networks for high performance and scalability.",
-  "url": "https://github.com/turinhub/cf-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "whois",
-  "description": "WHOIS domain lookups",
-  "url": "https://github.com/bharathvaj-ganesan/whois-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "server-notify",
-  "description": "Provides a cross-platform notification service that displays alerts and plays sounds when triggered by HTTP requests, enabling applications to send customizable notifications with configurable timeouts for important events without requiring constant monitoring.",
-  "url": "https://github.com/cactusinhand/mcp_server_notify",
-  "runtime": "python",
-  "license": "mit"
-}

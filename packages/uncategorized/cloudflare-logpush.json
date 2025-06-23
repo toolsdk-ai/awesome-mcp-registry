@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudflare-logpush",
-  "description": "Enables AI assistants to retrieve and manage Cloudflare Logpush jobs across multiple accounts, providing tools for monitoring and troubleshooting log delivery pipelines through conversational interfaces.",
-  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/logpush",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

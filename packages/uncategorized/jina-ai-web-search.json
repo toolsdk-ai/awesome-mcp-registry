@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jina-ai-web-search",
-  "description": "Integrates with Jina AI's web search and content fetching APIs, enabling web searches and URL content extraction for research tasks and information retrieval directly within conversations.",
-  "url": "https://github.com/garcheng/mcp-server-jina-java",
-  "runtime": "java",
-  "license": "mit"
-}

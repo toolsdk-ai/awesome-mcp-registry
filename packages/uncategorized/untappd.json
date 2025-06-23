@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "untappd",
-  "description": "Provides a bridge to the Untappd beer tracking API, enabling search and retrieval of detailed beer and brewery information through a robust TypeScript implementation.",
-  "url": "https://github.com/etoxin/untapped-mcp",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "africa's-talking-sms",
-  "description": "Enables sending SMS messages through Africa's Talking API with features like dynamic message customization and sender ID configuration for notifications and alerts across African mobile networks.",
-  "url": "https://github.com/brian-mwangi-developer/africastalking-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "todoist",
-  "description": "Integrates with Todoist API to enable advanced task and project management capabilities including natural language processing for task creation and updates.",
-  "url": "https://github.com/chrusic/todoist-mcp-server-extended",
-  "runtime": "node",
-  "license": "mit"
-}

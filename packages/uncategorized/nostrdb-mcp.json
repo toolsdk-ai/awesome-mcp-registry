@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nostrdb-mcp",
-  "description": "Integrates with nostrdb to enable local Nostr data querying and analysis.",
-  "url": "https://github.com/damus-io/nostrdb-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

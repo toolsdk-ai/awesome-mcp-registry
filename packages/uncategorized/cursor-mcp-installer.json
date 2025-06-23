@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cursor-mcp-installer",
-  "description": "Utility server that simplifies adding new MCP capabilities to Cursor by installing and configuring servers from npm, Python packages, or local repositories without manual configuration file editing.",
-  "url": "https://github.com/yumia-pretty/cursor-mcp-installer",
-  "runtime": "node",
-  "license": "mit"
-}

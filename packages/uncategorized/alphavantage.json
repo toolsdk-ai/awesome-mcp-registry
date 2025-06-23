@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "alphavantage",
-  "description": "Integrates with Alphavantage API to provide real-time and historical financial data for stock market analysis and trading strategies.",
-  "url": "https://github.com/donmorr/alphavantagemcpserver",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

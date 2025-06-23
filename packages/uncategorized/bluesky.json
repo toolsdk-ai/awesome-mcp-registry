@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bluesky",
-  "description": "Bridges Claude with the Bluesky social network, enabling timeline browsing, post creation, content searching, and follow management through conversational interaction with Bluesky's API.",
-  "url": "https://github.com/brianellin/bsky-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

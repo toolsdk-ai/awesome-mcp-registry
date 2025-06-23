@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "laravel-debugbar",
-  "description": "Provides a bridge to Laravel DebugBar for accessing detailed request logs, queries, routes, views, and models with filtering capabilities and formatted output for improved readability.",
-  "url": "https://github.com/021-factory/laravel-debugbar-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "teamtailor",
-  "description": "Enables AI to interact with the Teamtailor recruitment platform for candidate discovery, filtering, and detailed information retrieval through authenticated API access.",
-  "url": "https://github.com/crunchloop/mcp-teamtailor",
-  "runtime": "node",
-  "license": "mit"
-}

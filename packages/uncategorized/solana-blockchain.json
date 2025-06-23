@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-blockchain",
-  "description": "Enables Claude to interact with the Solana blockchain through specialized tools for retrieving validator information, estimating fees, fetching transaction histories, and managing digital assets.",
-  "url": "https://github.com/cryptoleek-team/awesome-solana-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

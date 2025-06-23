@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "google-news",
-  "description": "Integrates with Google News via SerpAPI to enable querying and retrieving current news articles, headlines, and related information for applications like news aggregation and trend analysis.",
-  "url": "https://github.com/chanmeng666/server-google-news",
-  "runtime": "node",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@cablate/mcp-google-map",
-  "description": "Integrates with Google Maps API to enable location-based operations like place searching, geocoding, and geographical information retrieval within conversations.",
-  "url": "https://github.com/cablate/mcp-google-map",
-  "runtime": "node",
-  "license": "unknown"
-}

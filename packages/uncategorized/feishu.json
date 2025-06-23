@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "feishu",
-  "description": "Feishu/Lark messaging platform integration.",
-  "url": "https://github.com/darknoah/feishu-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

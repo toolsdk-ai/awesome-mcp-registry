@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vibe-coder-(ai-assisted-development)",
-  "description": "Provides AI-assisted development tools for semantic routing, code generation, refactoring, and project management with intelligent request handling and specialized Git integration capabilities.",
-  "url": "https://github.com/freshtechbro/vibe-coder-mcp",
-  "runtime": "node",
-  "license": "other"
-}

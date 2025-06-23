@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "backlog-mcp-server",
-  "description": "Integrates with Backlog API to enable project management tasks including issue tracking, wiki editing, and resource management directly within conversation workflows.",
-  "url": "https://github.com/fleagne/backlog-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

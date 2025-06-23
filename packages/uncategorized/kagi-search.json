@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kagi-search",
-  "description": "Integrates Kagi search API to provide web search, news retrieval, and fast GPT-powered question answering for up-to-date information access and content enrichment.",
-  "url": "https://github.com/apridachin/kagi-search-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

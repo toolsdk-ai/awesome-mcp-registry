@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-rugcheck-&-transaction-helper",
-  "description": "Integrates with Solana blockchain to enable token security analysis and transaction execution through RugCheck for scam detection and TransactionHelper for retrieving transaction history.",
-  "url": "https://github.com/cryptoleek-team/goat-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

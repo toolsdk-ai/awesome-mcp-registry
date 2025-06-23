@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "puzzlebox",
-  "description": "Hosts finite state machines as dynamic resources that clients can subscribe to for real-time updates, enabling coordination between multiple agents working on long-horizon tasks through shared state transitions and valid actions.",
-  "url": "https://github.com/cliffhall/puzzlebox",
-  "runtime": "node",
-  "license": "mit"
-}

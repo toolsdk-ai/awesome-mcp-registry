@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "allvoicelab-mcp",
-  "description": "Integrates with AllVoiceLab's API to provide advanced voice and audio processing capabilities including text-to-speech conversion, voice cloning, speech transformation, subtitle extraction, and multilingual video dubbing.",
-  "url": "https://github.com/allvoicelab/allvoicelab-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

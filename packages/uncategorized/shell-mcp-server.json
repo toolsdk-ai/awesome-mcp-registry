@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "shell-mcp-server",
-  "description": "Integrates with the local shell environment to enable execution of system commands, file operations, and retrieval of system information for task automation and system management.",
-  "url": "https://github.com/blazickjp/shell-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

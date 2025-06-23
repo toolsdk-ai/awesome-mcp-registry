@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "acp-mcp-server",
-  "description": "Bridges Agent Communication Protocol networks with MCP clients, enabling access to complex multi-agent workflows through intelligent agent discovery, routing, and multi-modal message conversion with support for synchronous, asynchronous, and streaming execution patterns.",
-  "url": "https://github.com/gongrzhe/acp-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

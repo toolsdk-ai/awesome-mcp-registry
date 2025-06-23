@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "discord",
-  "description": "Integrates with Discord to enable channel management, forum post creation, message sending, and reaction handling through secure authentication and permissions",
-  "url": "https://github.com/barryyip0625/mcp-discord",
-  "runtime": "node",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "web-search",
-  "description": "Integrates with Google Search using Puppeteer to enable web searches and extract structured results for real-time information retrieval and fact-checking.",
-  "url": "https://github.com/divslingerx/mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

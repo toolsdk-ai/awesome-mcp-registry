@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deepwriter",
-  "description": "Integrates with DeepWriter API to enable managing writing projects through six core tools for listing, creating, updating, deleting, retrieving details, and generating content.",
-  "url": "https://github.com/deepwriter-ai/deepwriter-mcp",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "iterm-mcp",
-  "description": "Enables direct execution of shell commands in the active iTerm tab, streamlining terminal-based workflows and automation tasks.",
-  "url": "https://github.com/ferrislucas/iterm-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

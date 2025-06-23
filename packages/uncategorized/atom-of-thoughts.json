@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "atom-of-thoughts",
-  "description": "Enables structured problem-solving by breaking down complex tasks into atomic thought units for step-by-step reasoning and solution development",
-  "url": "https://github.com/kbsooo/mcp_atom_of_thoughts",
-  "runtime": "node",
-  "license": "unknown"
-}

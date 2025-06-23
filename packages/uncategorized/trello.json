@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "trello",
-  "description": "Integrates with Trello API to enable natural language interactions for managing boards, lists, and cards for project tracking and workflow optimization.",
-  "url": "https://github.com/andypost/mcp-server-ts-trello",
-  "runtime": "node",
-  "license": "unknown"
-}

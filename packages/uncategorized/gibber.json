@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gibber",
-  "description": "Provides cryptographic tools for secure communication, including key generation, shared secret derivation, and message encryption/decryption using SJCL P-256 and AES-CCM, enabling end-to-end encrypted data exchange via server-sent events.",
-  "url": "https://github.com/antonpk1/gibber-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memory-by-file",
-  "description": "Lightweight, file-based memory storage for maintaining persistent context across conversations using simple text operations.",
-  "url": "https://github.com/g0t4/mcp-server-memory-file",
-  "runtime": "node",
-  "license": "unknown"
-}

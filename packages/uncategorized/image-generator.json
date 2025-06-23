@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "image-generator",
-  "description": "Enables AI assistants to create images using Replicate or Together AI's image generation models through a flexible tool that accepts parameters like prompt, width, height, and can be run locally or deployed as a Docker container.",
-  "url": "https://github.com/gmkr/mcp-imagegen",
-  "runtime": "node",
-  "license": "unknown"
-}

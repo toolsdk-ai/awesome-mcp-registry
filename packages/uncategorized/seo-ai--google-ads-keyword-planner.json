@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "seo-ai-(google-ads-keyword-planner)",
-  "description": "Integrates with Google Ads Keyword Planner API to enable SEO research, SERP analysis, and competitor analysis through a Node.js Express server deployable via Docker or Smithery.",
-  "url": "https://github.com/ccnn2509/app-seo-ai",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cursor-sound-notifications",
-  "description": "Plays customizable audio notifications when code generation completes in the Cursor editor, eliminating the need to visually monitor for completions.",
-  "url": "https://github.com/bcharleson/sound-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

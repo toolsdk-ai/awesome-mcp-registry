@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "meta-mcp-server",
-  "description": "Enables dynamic creation of customized MCP servers using the MCP SDK to automate setup and manage tools and resources for specialized AI applications.",
-  "url": "https://github.com/dmontgomery40/meta-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

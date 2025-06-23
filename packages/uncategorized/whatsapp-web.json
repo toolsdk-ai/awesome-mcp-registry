@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "whatsapp-web",
-  "description": "Connects AI systems to WhatsApp Web for sending messages, managing groups, searching contacts, and retrieving chat history through direct connection or API client modes.",
-  "url": "https://github.com/fyimail/whatsapp-mcp2",
-  "runtime": "node",
-  "license": "mit"
-}

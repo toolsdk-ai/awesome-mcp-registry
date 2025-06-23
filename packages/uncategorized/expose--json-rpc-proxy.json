@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "expose-(json-rpc-proxy)",
-  "description": "Proxy server that enables communication between clients and MCP-compatible services through JSON-RPC, forwarding requests to configured backend URLs while maintaining proper error handling and response formatting.",
-  "url": "https://github.com/a0dotrun/expose",
-  "runtime": "go",
-  "license": "unknown"
-}

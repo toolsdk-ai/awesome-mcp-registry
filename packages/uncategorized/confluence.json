@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "confluence",
-  "description": "Integrates with Atlassian Confluence to enable direct retrieval, searching, creation, and updating of wiki pages without switching contexts.",
-  "url": "https://github.com/cosmix/confluence-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

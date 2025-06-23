@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "docling",
-  "description": "Integrates IBM's Docling software to parse and convert various document formats into standardized Markdown, enabling efficient document processing and analysis workflows.",
-  "url": "https://github.com/deep070203/docling-mcp",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

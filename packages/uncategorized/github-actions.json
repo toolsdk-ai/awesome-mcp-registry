@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github-actions",
-  "description": "Enables management of GitHub Actions workflows with tools for listing, viewing, triggering, canceling, and rerunning workflows, along with detailed run and job information for CI/CD pipeline monitoring and troubleshooting.",
-  "url": "https://github.com/ko1ynnky/github-actions-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

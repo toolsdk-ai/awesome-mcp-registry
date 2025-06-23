@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "branch-thinking",
-  "description": "Enables simultaneous management of multiple reasoning paths through a branch-based navigation system that supports creation, cross-referencing, insight generation, and priority tracking for complex problem-solving tasks.",
-  "url": "https://github.com/ssdeanx/branch-thinking-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

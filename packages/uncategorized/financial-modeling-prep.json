@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "financial-modeling-prep",
-  "description": "Integrates with Financial Modeling Prep API to provide access to real-time and historical financial data across stocks, company profiles, financial statements, technical indicators, and economic information for investment research and market analysis.",
-  "url": "https://github.com/imbenrabi/financial-modeling-prep-mcp-server",
-  "runtime": "node",
-  "license": "other"
-}

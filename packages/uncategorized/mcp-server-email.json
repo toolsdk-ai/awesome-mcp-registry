@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-email",
-  "description": "Enables language models to compose and send emails with attachments through SMTP servers, supporting multiple providers and secure transmission for automated email workflows.",
-  "url": "https://github.com/shy2593666979/mcp-server-email",
-  "runtime": "python",
-  "license": "mit"
-}

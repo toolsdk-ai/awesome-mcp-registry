@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gatherings-(expense-sharing)",
-  "description": "Provides a robust expense-sharing solution for social gatherings, enabling creation of events, member management, expense tracking, and automated reimbursement calculations.",
-  "url": "https://github.com/abutbul/gatherings-mcp-python",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

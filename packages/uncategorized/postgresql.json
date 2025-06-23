@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "postgresql",
-  "description": "Provides type-safe PostgreSQL database integration for user data management through robust CRUD operations with TypeScript and Prisma, enabling efficient and validated database interactions.",
-  "url": "https://github.com/a21071/mcp-postgres",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "terminal",
-  "description": "Provides a secure terminal environment for executing system commands within allowed paths, enabling controlled file management and script execution.",
-  "url": "https://github.com/dillip285/mcp-terminal",
-  "runtime": "node",
-  "license": "mit"
-}

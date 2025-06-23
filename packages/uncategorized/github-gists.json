@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github-gists",
-  "description": "Provides a bridge to GitHub Gists for creating, retrieving, updating, listing, and deleting code snippets directly through conversational interfaces.",
-  "url": "https://github.com/bmorphism/gists-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

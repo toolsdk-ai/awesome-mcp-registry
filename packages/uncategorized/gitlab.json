@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gitlab",
-  "description": "Integrates with GitLab repositories to enable searching, file management, issue creation, merge requests, forking, and branch creation through Node.js with robust Zod schema validation.",
-  "url": "https://github.com/chris-miaskowski/custom-gitlab-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

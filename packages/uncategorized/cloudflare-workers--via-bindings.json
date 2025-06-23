@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudflare-workers-(via-bindings)",
-  "description": "Integrates tools for managing resources in the Cloudflare Workers Platform.",
-  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/workers-bindings",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

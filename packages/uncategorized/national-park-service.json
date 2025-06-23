@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "national-park-service",
-  "description": "Integrates with the National Park Service API to provide structured park information for trip planning, exploration, and research applications.",
-  "url": "https://github.com/amysatterlee/nps_mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

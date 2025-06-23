@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-docs",
-  "description": "Fetches and parses Solana blockchain documentation, enabling real-time access to development information for accurate query responses and blockchain-related assistance.",
-  "url": "https://github.com/aldrin-labs/solana-docs-mcp-server",
-  "runtime": "node",
-  "license": "unlicense"
-}

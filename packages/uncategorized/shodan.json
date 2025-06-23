@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "shodan",
-  "description": "Provides secure access to Shodan's database of internet-connected devices through host lookups, search functionality, and vulnerability information retrieval with intelligent response optimization for efficient token usage.",
-  "url": "https://github.com/cyreslab-ai/shodan-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

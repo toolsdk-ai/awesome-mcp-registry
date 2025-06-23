@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudflare-radar",
-  "description": "Access to Cloudflare's data on global Internet traffic",
-  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/radar",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

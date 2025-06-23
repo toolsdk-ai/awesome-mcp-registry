@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "super-windows-cli",
-  "description": "Provides unrestricted Windows system access and command execution across multiple shells for remote administration and complex task automation.",
-  "url": "https://github.com/delorenj/super-win-cli-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

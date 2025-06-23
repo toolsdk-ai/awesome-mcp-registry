@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "python-docs",
-  "description": "Fetches Python documentation for quick access to language references and code explanations.",
-  "url": "https://github.com/anuragrai017/python-docs-server-mcp-server",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "postman-tool-generation",
-  "description": "Integrates with Postman Tool Generation API to convert API collections into type-safe code for AI frameworks, enabling rapid development of AI-powered tools from existing API documentation.",
-  "url": "https://github.com/giovannicocco/mcp-server-postman-tool-generation",
-  "runtime": "node",
-  "license": "mit"
-}

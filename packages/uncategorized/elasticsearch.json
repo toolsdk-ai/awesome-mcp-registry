@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "elasticsearch",
-  "description": "Integrates with Elasticsearch to enable index management, document indexing, and powerful search capabilities across large datasets.",
-  "url": "https://github.com/da1y/mcp-server-elasticsearch",
-  "runtime": "node",
-  "license": "unknown"
-}

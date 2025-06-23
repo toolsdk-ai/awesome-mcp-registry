@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure-devops",
-  "description": "Enables AI assistants to interact with Azure DevOps work items by retrieving, creating, updating, and analyzing tasks through a FastMCP-powered interface for streamlined project management and workflow automation.",
-  "url": "https://github.com/munishm/azure-devops-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "code-runner",
-  "description": "Executes code snippets in isolated Docker containers with resource limits and security controls for safe testing and debugging across multiple programming languages.",
-  "url": "https://github.com/axliupore/mcp-code-runner",
-  "runtime": "node",
-  "license": "mit"
-}

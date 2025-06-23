@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "metaplex",
-  "description": "Bridges Metaplex documentation and repositories, enabling searches and retrievals for Solana NFT development workflows.",
-  "url": "https://github.com/aldrin-labs/metaplex-mcp-server",
-  "runtime": "node",
-  "license": "unlicense"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudflare-backup",
-  "description": "Automates backing up Cloudflare configurations to GitHub repositories, enabling version control and disaster recovery for DNS, Workers, and security settings.",
-  "url": "https://github.com/dynamicendpoints/cloudflare-github-backup-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

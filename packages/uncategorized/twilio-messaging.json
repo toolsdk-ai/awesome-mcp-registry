@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "twilio-messaging",
-  "description": "Enables sending SMS messages through the Twilio API with a simple tool that handles authentication and message delivery using provided Twilio credentials and sender phone number.",
-  "url": "https://github.com/deshartman/twilio-messaging-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

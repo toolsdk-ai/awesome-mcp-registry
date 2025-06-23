@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "exa-web-search",
-  "description": "Query Exa API to retrieve structured search results.",
-  "url": "https://github.com/exa-labs/exa-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

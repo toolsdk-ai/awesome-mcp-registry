@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mrp-calculator",
-  "description": "Enables supply chain managers to perform Material Requirements Planning calculations by determining optimal order quantities based on inventory data, forecasts, and delivery schedules.",
-  "url": "https://github.com/brandon-butterwick/mrp_calculation",
-  "runtime": "node",
-  "license": "unknown"
-}

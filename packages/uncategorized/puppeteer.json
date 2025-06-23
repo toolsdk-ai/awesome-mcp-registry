@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "puppeteer",
-  "description": "Provides browser automation capabilities using Puppeteer for web navigation, screenshots, element interaction, and JavaScript execution in both headless and visible browser environments.",
-  "url": "https://github.com/cploujoux/mcp-puppeteer",
-  "runtime": "node",
-  "license": "unknown"
-}

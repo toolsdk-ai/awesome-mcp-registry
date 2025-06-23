@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "stock-analysis-(india)",
-  "description": "Provides real-time and historical Indian stock data.",
-  "url": "https://github.com/giptilabs/mcp-stock-analysis",
-  "runtime": "node",
-  "license": "unknown"
-}

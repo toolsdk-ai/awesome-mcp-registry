@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dataforseo",
-  "description": "Integrates with DataForSEO's SEO and marketing analytics APIs to provide direct access to search engine results, keyword research, content analysis, and competitive market insights for digital marketers and SEO professionals.",
-  "url": "https://github.com/dataforseo/mcp-server-typescript",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

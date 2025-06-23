@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "devdocs",
-  "description": "Free, private, UI-based software documentation context management server. Designed with software developers in mind.",
-  "url": "https://github.com/cyberagiinc/devdocs",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

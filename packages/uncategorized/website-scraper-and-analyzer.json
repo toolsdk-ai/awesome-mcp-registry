@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "website-scraper-and-analyzer",
-  "description": "Enables website analysis and content extraction using Cloudflare Workers, providing tools to scrape, summarize, and answer questions about web pages without requiring authentication.",
-  "url": "https://github.com/elizabethsiegle/remote-mcp-server-authless-scrape-and-analyze-website",
-  "runtime": "node",
-  "license": "unknown"
-}

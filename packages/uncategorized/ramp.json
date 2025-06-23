@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ramp",
-  "description": "Integrates with Ramp's API to enable credit card transaction querying and spend management data access for financial tracking and analysis workflows.",
-  "url": "https://github.com/dragonkhoi/ramp-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

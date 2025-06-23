@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tally-dao-governance",
-  "description": "Integrates with the Tally API to query and analyze DAO governance data, enabling insights into decentralized decision-making processes.",
-  "url": "https://github.com/crazyrabbitltc/mpc-tally-api-server",
-  "runtime": "node",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memory",
-  "description": "Provides structured memory management for project-based work through markdown file storage, enabling persistent context across chat sessions with efficient Lunr.js indexing for retrieval, updating, and relating memories.",
-  "url": "https://github.com/ebailey78/mcp-memory",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "local-web-search",
-  "description": "Integrates with a headless browser to perform Google searches and extract web content, enabling local web search capabilities for up-to-date information retrieval and research tasks.",
-  "url": "https://github.com/fradser/mcp-server-local-web-search",
-  "runtime": "node",
-  "license": "mit"
-}

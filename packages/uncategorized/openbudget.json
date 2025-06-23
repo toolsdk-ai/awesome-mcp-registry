@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openbudget",
-  "description": "Provides access to Israel's OpenBudget API for querying and searching government financial data including budgets, contracts, and support payments",
-  "url": "https://github.com/openbudget/budgetkey-mcp",
-  "runtime": "python",
-  "license": "other"
-}

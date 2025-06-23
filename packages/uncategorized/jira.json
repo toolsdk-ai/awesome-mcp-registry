@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jira",
-  "description": "Integrates Jira's project management capabilities with AI systems to automate tasks, track progress, and streamline development workflows.",
-  "url": "https://github.com/george5562/jira-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

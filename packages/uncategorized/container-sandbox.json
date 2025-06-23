@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "container-sandbox",
-  "description": "Provides a secure, sandboxed environment for executing code, running commands, accessing files, and performing web operations through multi-layered isolation including containers, AppArmor, and Firejail.",
-  "url": "https://github.com/54rt1n/container-mcp",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

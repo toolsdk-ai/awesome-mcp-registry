@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "instagram-engagement-mcp",
-  "description": "Enables detailed Instagram interaction analysis by processing comments, user profiles, and post metrics to extract demographic insights and identify potential marketing leads through a private API integration.",
-  "url": "https://github.com/bob-lance/instagram-engagement-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

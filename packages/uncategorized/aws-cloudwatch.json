@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aws-cloudwatch",
-  "description": "Provides direct access to AWS CloudWatch resources for monitoring application health, investigating logs, and analyzing metrics through tools for listing log groups, retrieving alarms, executing queries, and accessing saved queries.",
-  "url": "https://github.com/charliefng/cloudwatch-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "google-tasks",
-  "description": "Integrates with Google Tasks API to enable direct task management, including creating, updating, organizing, and completing tasks through conversational interactions.",
-  "url": "https://github.com/arpitbatra123/mcp-googletasks",
-  "runtime": "node",
-  "license": "mit"
-}

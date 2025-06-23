@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "swagger-api",
-  "description": "Transforms Swagger/OpenAPI specifications into tools that enable interaction with any documented API through multiple authentication methods and real-time communication.",
-  "url": "https://github.com/dcolley/swagger-mcp",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

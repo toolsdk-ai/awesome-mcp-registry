@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bazi-astrology",
-  "description": "Provides a bridge to Chinese BaZi astrology calculations, enabling fortune-telling and personality analysis based on birth date and time without specialized knowledge of the complex calculation systems.",
-  "url": "https://github.com/cantian-ai/bazi-mcp",
-  "runtime": "node",
-  "license": "isc"
-}

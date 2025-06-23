@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "whimsical",
-  "description": "Integrates with Whimsical's API to generate diagrams from Mermaid markup, returning both diagram URLs and base64 encoded images for iterative refinement.",
-  "url": "https://github.com/brockreece/whimsical-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

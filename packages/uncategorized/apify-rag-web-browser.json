@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "apify-rag-web-browser",
-  "description": "Integrate with Apify's open-source RAG Web Browser Actor to perform web searches, scrape URLs, and return content in Markdown.",
-  "url": "https://github.com/apify/mcp-server-rag-web-browser",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

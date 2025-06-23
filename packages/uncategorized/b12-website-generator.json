@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "b12-website-generator",
-  "description": "Enables AI to create customized business websites by generating designs from business names and descriptions, providing signup links without requiring technical expertise.",
-  "url": "https://github.com/b12io/website-generator-mcp-server",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

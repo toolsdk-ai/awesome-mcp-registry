@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "up-bank",
-  "description": "Bridges to the Up Bank API for analyzing personal banking data, including accounts, transactions, categories, and tags for financial insights and spending pattern analysis.",
-  "url": "https://github.com/edkranz/up-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

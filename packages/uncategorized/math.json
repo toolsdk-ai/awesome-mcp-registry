@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "math",
-  "description": "Provides basic mathematical and statistical functions for accurate numerical computations within AI-assisted applications.",
-  "url": "https://github.com/ethanhenrickson/math-mcp",
-  "runtime": "node",
-  "license": "mit"
-}

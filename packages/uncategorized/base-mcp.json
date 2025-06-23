@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "base-mcp",
-  "description": "Enables Claude to interact with the Base blockchain and Coinbase API for cryptocurrency operations including wallet management, fund transfers, and smart contract deployments.",
-  "url": "https://github.com/base/base-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "arxiv",
-  "description": "Provides direct access to arXiv's scientific paper repository with tools for searching, retrieving metadata, downloading PDFs, and loading full article content into conversation context.",
-  "url": "https://github.com/prashalruchiranga/arxiv-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

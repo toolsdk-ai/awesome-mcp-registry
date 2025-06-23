@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "markdown-to-pdf",
-  "description": "Converts Markdown to PDF using Puppeteer, offering syntax highlighting, custom styling, and watermarking capabilities for document generation.",
-  "url": "https://github.com/2b3pro/markdown2pdf-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "command-executor",
-  "description": "Enables secure remote command execution with robust security controls like command allowlisting, direct command invocation without shell access, and strict environment management for controlled system interactions.",
-  "url": "https://github.com/cnosuke/mcp-command-exec",
-  "runtime": "go",
-  "license": "unknown"
-}

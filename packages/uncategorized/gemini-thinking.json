@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gemini-thinking",
-  "description": "Integrates with Google's Gemini API to provide analytical thinking capabilities for complex problem-solving, codebase analysis, and architectural decision-making in software development contexts.",
-  "url": "https://github.com/bartekke8it56w2/new-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

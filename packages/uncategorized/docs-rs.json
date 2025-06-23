@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "docs.rs",
-  "description": "Provides access to Rust crate documentation from docs.rs by fetching and parsing rustdoc JSON data with caching support for exploring modules, structs, enums, traits, and functions.",
-  "url": "https://github.com/vexxvakan/mcp-docsrs",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

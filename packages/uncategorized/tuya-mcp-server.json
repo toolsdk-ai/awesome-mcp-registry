@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tuya-mcp-server",
-  "description": "Integrates with Tuya smart home devices using tinytuya, enabling control and monitoring for home automation scenarios like voice commands and energy optimization.",
-  "url": "https://github.com/cabra-lat/tuyactl",
-  "runtime": "python",
-  "license": "mit"
-}

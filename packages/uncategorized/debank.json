@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "debank",
-  "description": "Provides a bridge to blockchain and DeFi data across multiple chains, enabling access to information about protocols, tokens, pools, user assets, activities, and wallet operations",
-  "url": "https://github.com/demcp/demcp-debank-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

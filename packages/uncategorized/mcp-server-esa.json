@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-esa",
-  "description": "Provides a bridge to Alibaba Cloud's Edge Security Acceleration service for managing edge routines, deployments, routes, and sites through authenticated API operations.",
-  "url": "https://github.com/aliyun/mcp-server-esa",
-  "runtime": "node",
-  "license": "unknown"
-}

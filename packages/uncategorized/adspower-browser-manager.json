@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "adspower-browser-manager",
-  "description": "Enables AI-driven browser profile management through AdsPower's local API, providing tools for creating, updating, opening, and deleting browsers with customizable fingerprints and proxy configurations.",
-  "url": "https://github.com/adspower/local-api-mcp-typescript",
-  "runtime": "node",
-  "license": "mit"
-}

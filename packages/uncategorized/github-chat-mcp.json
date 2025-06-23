@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github-chat-mcp",
-  "description": "Enables AI to analyze and query GitHub repositories through a FastMCP-based interface for understanding codebases, exploring architecture, and retrieving contextual information with source references.",
-  "url": "https://github.com/asyncfuncai/github-chat-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "crawlab",
-  "description": "Integrates with Crawlab to enable AI-driven web scraping, task automation, and data extraction workflows through spider management, file operations, and resource access tools.",
-  "url": "https://github.com/crawlab-team/crawlab-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

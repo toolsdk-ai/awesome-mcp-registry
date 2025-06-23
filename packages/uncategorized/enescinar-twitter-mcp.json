@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@enescinar/twitter-mcp",
-  "description": "Interact with X (Twitter) by posting tweets and searching for tweets through the X API.",
-  "url": "https://github.com/enescinr/twitter-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

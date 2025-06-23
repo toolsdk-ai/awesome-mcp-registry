@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "twilio-agent-payments",
-  "description": "Enables secure, PCI-compliant payment processing during voice calls by bridging Twilio's payment API with tokenized card information collection workflows while maintaining state through asynchronous callbacks.",
-  "url": "https://github.com/deshartman/twilio-agent-payments-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

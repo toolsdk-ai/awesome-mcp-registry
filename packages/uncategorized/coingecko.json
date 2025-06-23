@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "coingecko",
-  "description": "Integrates with CoinGecko's cryptocurrency API to provide real-time market data, pricing information, and detailed coin analytics through both REST endpoints and JSON-RPC 2.0 methods with automatic fallback between free and Pro API access.",
-  "url": "https://github.com/gaplydev01/coingecko-mcp-server",
-  "runtime": "node",
-  "license": "mit"
-}

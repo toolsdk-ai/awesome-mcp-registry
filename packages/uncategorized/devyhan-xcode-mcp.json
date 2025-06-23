@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@devyhan/xcode-mcp",
-  "description": "Provides Xcode-related command-line tools to enables project inspection, building, testing, archiving, code signing, and Xcode simulator management through natural language commands.",
-  "url": "https://github.com/devyhan/xcode-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "terraform-registry",
-  "description": "Integrates with Terraform Registry APIs to enable automated discovery, extraction, and exploration of Terraform providers, resources, data sources, and modules for Infrastructure as Code development.",
-  "url": "https://github.com/dcamonier1980/terraform-mcp-server",
-  "runtime": "go",
-  "license": "mpl-2.0"
-}

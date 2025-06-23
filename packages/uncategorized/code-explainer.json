@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "code-explainer",
-  "description": "Integrates with Cloudflare Workers to provide code explanation services, including architecture diagram generation, core functionality identification, and component breakdown across multiple programming languages.",
-  "url": "https://github.com/billduke13/code-explainer-mcp",
-  "runtime": "node",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "snowflake",
-  "description": "Provides secure access to Snowflake databases with robust connection management, supporting both password and key pair authentication for SQL query execution and data analysis workflows.",
-  "url": "https://github.com/davidamom/snowflake-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

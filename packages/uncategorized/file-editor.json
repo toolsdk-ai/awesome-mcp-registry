@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "file-editor",
-  "description": "Provides file operations for reading, writing, and editing on host systems.",
-  "url": "https://github.com/arathald/mcp-editor",
-  "runtime": "node",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dify",
-  "description": "Integrates Dify workflows to enable capabilities into tools for chatbots, content generation, and data analysis pipelines.",
-  "url": "https://github.com/faiz-gear/dify-mcp-server-ts",
-  "runtime": "node",
-  "license": "unknown"
-}

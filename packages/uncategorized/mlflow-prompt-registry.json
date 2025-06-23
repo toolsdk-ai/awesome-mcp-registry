@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mlflow-prompt-registry",
-  "description": "Bridges MLflow's Prompt Registry with Claude Desktop, enabling direct discovery and use of managed prompt templates with variable substitution capabilities.",
-  "url": "https://github.com/b-step62/mcp-server-mlflow",
-  "runtime": "node",
-  "license": "unknown"
-}
