@@ -1871,6 +1871,17 @@
       }
     }
   },
+  "@upstash/context7-mcp": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/upstash-context7-mcp.json",
+    "validated": true,
+    "tools": {
+      "context7": {
+      "name": "context7",
+      "description": "Fetch up-to-date, version-specific documentation and code examples directly into your prompts. Enhance your coding experience by eliminating outdated information and hallucinated APIs. Simply add `use context7` to your questions for accurate and relevant answers."
+      }
+    }
+  },
   "mcp-server-flomo": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-flomo.json",
