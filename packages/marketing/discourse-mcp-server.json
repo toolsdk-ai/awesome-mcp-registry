@@ -1,0 +1,24 @@
+{
+  "type": "mcp-server",
+  "name": "Discourse",
+  "logo": "https://d3bpeqsaub0i6y.cloudfront.net/user_avatar/meta.discourse.org/discourse/24/148734_2.png",
+  "packageName": "@AshDevFr/discourse-mcp-server",
+  "description": "Search Posts on a Discourse forum using MCP protocol.",
+  "url": "https://github.com/AshDevFr/discourse-mcp-server/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "DISCOURSE_API_URL": {
+      "description": "https://try.discourse.org",
+      "required": true
+    },
+    "DISCOURSE_API_KEY": {
+      "description": "1234",
+      "required": true
+    },
+    "DISCOURSE_API_USERNAME": {
+      "description": "ash",
+      "required": true
+    }
+  }
+}

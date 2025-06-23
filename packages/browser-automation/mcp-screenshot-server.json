@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "name": "Screenshot",
+  "logo": "https://avatars.githubusercontent.com/u/95317728?s=48&v=4",
+  "packageName": "@sethbang/mcp-screenshot-server",
+  "description": "An MCP server implementation that provides screenshot functionality using Puppeteer. This server allows capturing screenshots of web pages and local HTML files through a simple MCP tool interface.",
+  "url": "https://github.com/sethbang/mcp-screenshot-server/tree/main/src",
+  "runtime": "node",
+  "license": "MIT"
+}

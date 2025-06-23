@@ -1,5 +1,7 @@
 {
   "type": "mcp-server",
+  "name": "Twitter",
+  "logo": "https://icons.duckduckgo.com/ip3/developer.x.com.ico",
   "packageName": "@enescinar/twitter-mcp",
   "description": "This MCP server allows Clients to interact with Twitter, enabling posting tweets and searching Twitter.",
   "url": "https://github.com/EnesCinr/twitter-mcp",

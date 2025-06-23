@@ -1,0 +1,23 @@
+{
+  "type": "mcp-server",
+  "name": "DataForSEO",
+  "packageName": "@skobyn/dataforseo-mcp-server",
+  "description": "A comprehensive stdio MCP (Model Context Protocol) server for SEO APIs. This server allows LLMs (Large Language Models) to interact with DataForSEO API functions and other SEO tools.",
+  "url": "https://github.com/Skobyn/dataforseo-mcp-server/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "DATAFORSEO_LOGIN": {
+      "description": "your_login",
+      "required": true
+    },
+    "DATAFORSEO_PASSWORD": {
+      "description": "your_password",
+      "required": true
+    },
+    "LOCALFALCON_API_KEY": {
+      "description": "ash",
+      "required": true
+    }
+  }
+}

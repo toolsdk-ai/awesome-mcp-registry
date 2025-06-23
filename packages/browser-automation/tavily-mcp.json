@@ -1,5 +1,6 @@
 {
   "type": "mcp-server",
+  "name": "Tavily MCP",
   "packageName": "tavily-mcp",
   "description": "Providing seamless integration with Tavily's search and extract tools for real-time web search and intelligent data extraction.",
   "url": "https://github.com/tavily-ai/tavily-mcp/tree/main",

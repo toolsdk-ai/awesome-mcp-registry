@@ -25,5 +25,17 @@ export default [
   "@chargebee/mcp",
   "@modelcontextprotocol/server-memory",
   "@anaisbetts/mcp-youtube",
-  "@kimtaeyoon83/mcp-server-youtube-transcript"
+  "@kimtaeyoon83/mcp-server-youtube-transcript",
+  "@upstash/context7-mcp",
+  "@shinzo-labs/coinmarketcap-mcp",
+  "@marcopesani/mcp-server-serper",
+  "@ruchernchong/mcp-server-google-analytics",
+  "@AshDevFr/discourse-mcp-server",
+  "@sethbang/mcp-screenshot-server",
+  "@skobyn/dataforseo-mcp-server",
+  "@mem0ai/mem0-mcp",
+  "@wonderwhy-er/DesktopCommanderMCP",
+  "@browserbase/mcp-server-browserbase",
+  "@browserbasehq/mcp-stagehand",
+  "@vapi-ai/mcp-server",
 ];

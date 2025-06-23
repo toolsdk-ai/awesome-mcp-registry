@@ -1,8 +1,10 @@
 {
   "type": "mcp-server",
+  "name":"Brave Search",
   "packageName": "@modelcontextprotocol/server-brave-search",
+  "logo":"https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-small.1fMdoHsa.svg",
   "description": "MCP server for Brave Search API integration",
-  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/brave-search",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
   "runtime": "node",
   "license": "MIT",
   "env": {

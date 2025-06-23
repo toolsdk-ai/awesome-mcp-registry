@@ -1,8 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "@modelcontextprotocol/server-slack",
+  "name": "Slack",
   "description": "MCP server for interacting with Slack",
-  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/slack",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
   "runtime": "node",
   "license": "MIT",
   "env": {

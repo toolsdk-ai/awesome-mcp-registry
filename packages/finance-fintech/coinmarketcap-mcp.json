@@ -1,5 +1,6 @@
 {
   "type": "mcp-server",
+  "name": "CoinMarketCap",
   "packageName": "@shinzo-labs/coinmarketcap-mcp",
   "description": "Access the complete CoinMarketCap API with 20+ basic endpoints and 50+ total, including cryptocurrency market data, exchange information, and other blockchain-related metrics.",
   "url": "https://github.com/shinzo-labs/coinmarketcap-mcp/tree/main/.github/scripts",

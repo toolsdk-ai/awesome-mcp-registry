@@ -1,8 +1,10 @@
 {
   "type": "mcp-server",
+  "name": "Google Maps",
+  "logo": "https://www.gstatic.com/marketing-cms/assets/images/0f/9a/58f1d92b46069b4a8bdc556b612c/google-maps.webp=s128-fcrop64=1,00000000ffffffff-rw",
   "packageName": "@modelcontextprotocol/server-google-maps",
   "description": "MCP server for using the Google Maps API",
-  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps",
   "runtime": "node",
   "license": "MIT",
   "env": {

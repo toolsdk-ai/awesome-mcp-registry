@@ -1,5 +1,7 @@
 {
   "type": "mcp-server",
+  "name": "YouTube Transcript",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/512px-YouTube_full-color_icon_%282017%29.svg.png?20240107144800",
   "packageName": "@kimtaeyoon83/mcp-server-youtube-transcript",
   "description": "This is an MCP server that allows you to directly download transcripts of YouTube videos.",
   "url": "https://github.com/kimtaeyoon83/mcp-server-youtube-transcript",
