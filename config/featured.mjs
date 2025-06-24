@@ -27,7 +27,6 @@ export default [
   "@anaisbetts/mcp-youtube",
   "@kimtaeyoon83/mcp-server-youtube-transcript",
   "@upstash/context7-mcp",
-  "@shinzo-labs/coinmarketcap-mcp",
   "@sethbang/mcp-screenshot-server",
   "@browserbasehq/mcp-stagehand",
   "@vapi-ai/mcp-server"
