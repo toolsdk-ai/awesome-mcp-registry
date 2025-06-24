@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@search-intent/mcp",
-  "description": "Detects search intent for SEO-related workflows.",
-  "url": "https://github.com/captainchaozi/search-intent-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

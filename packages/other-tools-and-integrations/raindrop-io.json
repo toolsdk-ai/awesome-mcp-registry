@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "raindrop.io",
-  "description": "Integrates with Raindrop.io to enable natural language management of bookmarking collections and tags for streamlined organization workflows.",
-  "url": "https://github.com/ddltn/raindrop-mcp-python",
-  "runtime": "python",
-  "license": "mit"
-}

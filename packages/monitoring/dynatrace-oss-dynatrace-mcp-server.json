@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@dynatrace-oss/dynatrace-mcp-server",
-  "description": "Integrates with Dynatrace to provide real-time observability data, enabling developers to monitor problems, security vulnerabilities, logs, and metrics directly in their development workflows.",
-  "url": "https://github.com/dynatrace-oss/dynatrace-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

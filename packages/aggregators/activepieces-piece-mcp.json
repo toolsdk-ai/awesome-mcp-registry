@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@activepieces/piece-mcp",
-  "description": "Dynamic server to which you can add apps (Google Calendar, Notion, etc) or advanced Activepieces Flows (Refund logic, a research and enrichment logic, etc).",
-  "url": "https://github.com/activepieces/activepieces",
-  "runtime": "node",
-  "license": "unknown"
-}

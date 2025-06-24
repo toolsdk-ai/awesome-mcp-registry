@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@adenot/mcp-google-search",
-  "description": "Integrates Google Custom Search API to enable web searches for fact-checking, research, and content generation tasks.",
-  "url": "https://github.com/adenot/mcp-google-search",
-  "runtime": "node",
-  "license": "unknown"
-}

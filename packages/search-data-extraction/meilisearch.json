@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "meilisearch",
-  "description": "Integrates with Meilisearch to enable powerful search operations with filtering and sorting capabilities for structured data retrieval",
-  "url": "https://github.com/cnosuke/mcp-meilisearch",
-  "runtime": "go",
-  "license": "unknown"
-}

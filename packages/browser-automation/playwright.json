@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "playwright",
-  "description": "Integrates Playwright with MCP to enable web browser automation for tasks like scraping, testing, and content generation/submission.",
-  "url": "https://github.com/blackwhite084/playwright-plus-python-mcp",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

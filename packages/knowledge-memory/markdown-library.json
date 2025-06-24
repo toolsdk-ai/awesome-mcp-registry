@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "markdown-library",
-  "description": "Indexes and serves Markdown knowledge bases with specialized tools for tag-based navigation, text search, and content retrieval across large document collections.",
-  "url": "https://github.com/lethain/library-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

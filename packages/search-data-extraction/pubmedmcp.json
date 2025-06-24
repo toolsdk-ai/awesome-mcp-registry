@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pubmedmcp",
-  "description": "Integrates PubMed data for searching and fetching biomedical literature, enabling dynamic querying and analysis of scientific information.",
-  "url": "https://github.com/grll/pubmedmcp",
-  "runtime": "python",
-  "license": "unknown"
-}

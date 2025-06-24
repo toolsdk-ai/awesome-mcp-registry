@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@hiyorineko/mcp-rollbar-server",
-  "description": "Provides a bridge to Rollbar error tracking platform for monitoring and analyzing application errors, retrieving detailed information, managing projects, and tracking deployments.",
-  "url": "https://github.com/hiyorineko/mcp-rollbar-server",
-  "runtime": "node",
-  "license": "unknown"
-}

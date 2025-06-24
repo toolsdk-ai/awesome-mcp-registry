@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "osint-toolkit",
-  "description": "Provides a unified interface for network reconnaissance with parallel execution of OSINT tools including WHOIS, Nmap, DNS lookups, and typosquatting detection for security researchers and network administrators.",
-  "url": "https://github.com/himanshusanecha/mcp-osint-server",
-  "runtime": "python",
-  "license": "unknown"
-}

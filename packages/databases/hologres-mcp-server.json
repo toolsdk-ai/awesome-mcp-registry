@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "hologres-mcp-server",
-  "description": "Connects AI systems to Alibaba Cloud's Hologres databases for SQL execution, metadata retrieval, and statistics collection, enabling seamless data analysis workflows.",
-  "url": "https://github.com/aliyun/alibabacloud-hologres-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

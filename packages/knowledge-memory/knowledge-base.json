@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "knowledge-base",
-  "description": "Integrates with knowledge bases to enable searching, retrieving, and potentially updating information from structured repositories for enhanced information access workflows.",
-  "url": "https://github.com/geeksfino/kb-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

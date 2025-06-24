@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "unichat-mcp-server",
-  "description": "Interact with multiple LLM chat APIs through a unified interface.",
-  "url": "https://github.com/amidabuddha/unichat-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

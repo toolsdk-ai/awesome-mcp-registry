@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "microsoft-entra-id",
-  "description": "Provides direct access to Microsoft Entra ID resources through the Graph API, enabling IT administrators to manage users, groups, applications, and security features without switching to the Azure portal.",
-  "url": "https://github.com/hieuttmmo/entraid-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

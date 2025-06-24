@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-summarization-functions",
-  "description": "Provides summarized output from various actions, optimizing token usage for efficient processing of large datasets and language models.",
-  "url": "https://github.com/braffolk/mcp-summarization-functions",
-  "runtime": "node",
-  "license": "unknown"
-}

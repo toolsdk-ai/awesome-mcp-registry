@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jira",
-  "description": "Integrates with JIRA issue tracking systems to enable retrieving, searching, creating, and updating issues, listing projects, and logging work time directly within conversations.",
-  "url": "https://github.com/klauseduard/vibe-coded-jira-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

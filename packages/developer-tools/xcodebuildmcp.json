@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "xcodebuildmcp",
-  "description": "Enables building, running, and debugging iOS and macOS applications through Xcode with tools for project discovery, simulator management, app deployment, and UI automation testing.",
-  "url": "https://github.com/cameroncooke/xcodebuildmcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "data.gov.my",
-  "description": "Integrates with Malaysia's open government data API to provide access to population statistics, birth records, fuel prices, household income, and vehicle registration information with dataset-specific filtering capabilities.",
-  "url": "https://github.com/faridyusof727/datagovmy-mcp",
-  "runtime": "go",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "databutton",
-  "description": "Enables planning and scaffolding of business applications with React frontends and Python backends, helping developers establish structured foundations for Databutton-powered projects.",
-  "url": "https://github.com/databutton/databutton-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

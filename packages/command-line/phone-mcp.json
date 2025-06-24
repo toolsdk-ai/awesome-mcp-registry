@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "phone-mcp",
-  "description": "Enables remote control of Android phones through ADB commands for making calls, sending texts, taking screenshots, managing contacts, launching apps, and retrieving system information.",
-  "url": "https://github.com/hao-cyber/phone-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "m-pesa-(safaricom-daraja-api)",
-  "description": "Enables AI systems to initiate and process M-Pesa mobile payment transactions through the Safaricom Daraja API, allowing users to authorize payments directly from conversations.",
-  "url": "https://github.com/jameskanyiri/darajamcp",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@kazuph/mcp-pocket",
-  "description": "Integrates with the Pocket API to enable natural language-based retrieval and management of saved articles.",
-  "url": "https://github.com/kazuph/mcp-pocket",
-  "runtime": "node",
-  "license": "unknown"
-}

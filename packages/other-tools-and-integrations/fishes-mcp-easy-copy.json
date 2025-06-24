@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@fishes/mcp-easy-copy",
-  "description": "Utility server that automatically reads Claude Desktop configuration files and presents all available MCP services in an easy-to-copy format for quick access and troubleshooting.",
-  "url": "https://github.com/f-is-h/mcp-easy-copy",
-  "runtime": "node",
-  "license": "unknown"
-}

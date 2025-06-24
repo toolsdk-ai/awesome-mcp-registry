@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "national-weather-service",
-  "description": "Integrates with the National Weather Service API to provide current weather data and alerts for US locations without requiring authentication.",
-  "url": "https://github.com/khandelwaltushar/weather-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

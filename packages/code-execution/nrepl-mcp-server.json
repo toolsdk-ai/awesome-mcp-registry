@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nrepl-mcp-server",
-  "description": "Integrates with Clojure nREPL instances to enable code evaluation, namespace listing, and public var inspection for AI-assisted Clojure development.",
-  "url": "https://github.com/johancodinha/nrepl-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

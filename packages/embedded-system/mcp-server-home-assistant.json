@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-home-assistant",
-  "description": "Interact with Home Assistant for querying and controlling smart home devices.",
-  "url": "https://github.com/allenporter/mcp-server-home-assistant",
-  "runtime": "python",
-  "license": "unknown"
-}

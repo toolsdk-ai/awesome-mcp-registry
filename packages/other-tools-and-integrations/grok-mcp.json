@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "grok-mcp",
-  "description": "Provides direct integration with Grok AI's language and vision capabilities, exposing chat completion, image understanding, and function calling tools for developers to interact with Grok's latest models.",
-  "url": "https://github.com/bob-lance/grok-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

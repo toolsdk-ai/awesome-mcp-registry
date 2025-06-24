@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "elasticsearch",
-  "description": "Enables natural language interaction with Elasticsearch clusters for querying, indexing, and management operations via Docker-deployed infrastructure.",
-  "url": "https://github.com/cr7258/elasticsearch-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "video-editor-mcp",
-  "description": "Integrates with Video Jungle API to enable AI-powered video editing and content searching through natural language queries and automated clip generation.",
-  "url": "https://github.com/burningion/video-editing-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

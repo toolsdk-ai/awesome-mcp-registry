@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "yahoo-finance",
-  "description": "Provides real-time financial data and visualization tools through Yahoo Finance API for stock prices, company information, and market analysis with interactive charts and dashboards.",
-  "url": "https://github.com/leoncuhk/mcp-yahoo-finance",
-  "runtime": "python",
-  "license": "unknown"
-}

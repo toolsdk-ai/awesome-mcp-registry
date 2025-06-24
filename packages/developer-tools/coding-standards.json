@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "coding-standards",
-  "description": "Provides coding style guidelines and best practices for Java, Python, and React in Markdown format to enhance development workflows and maintain consistent code quality.",
-  "url": "https://github.com/ggerve/coding-standards-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

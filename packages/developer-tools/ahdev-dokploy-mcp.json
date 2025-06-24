@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@ahdev/dokploy-mcp",
-  "description": "Integrates with Dokploy platform API for creating, updating, duplicating, and removing deployment projects, enabling teams to automate deployment workflows through AI interactions.",
-  "url": "https://github.com/andradehenrique/dokploy-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

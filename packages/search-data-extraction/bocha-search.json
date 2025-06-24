@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bocha-search",
-  "description": "Integrates with Bocha, a Chinese search engine, to provide web search capabilities with rich structured data from billions of documents across multiple domains and languages.",
-  "url": "https://github.com/bochaai/bocha-search-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

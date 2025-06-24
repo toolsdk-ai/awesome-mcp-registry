@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "alphavantage-trader",
-  "description": "Integrates with AlphaVantage API to fetch intraday stock data, calculate technical indicators, and generate trade recommendations based on market analysis.",
-  "url": "https://github.com/akramsheriff5/mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

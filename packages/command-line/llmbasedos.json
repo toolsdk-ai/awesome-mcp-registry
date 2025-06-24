@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "llmbasedos",
-  "description": "Secure Arch Linux gateway that bridges LLMs with local system capabilities through specialized servers for file system, email, sync, and agent operations without exposing sensitive information",
-  "url": "https://github.com/iluxu/llmbasedos",
-  "runtime": "python",
-  "license": "unknown"
-}

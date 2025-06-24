@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "toolfront",
-  "description": "Provides unified access to multiple database types including PostgreSQL, MySQL, SQLite, DuckDB, BigQuery, and Snowflake with tools for schema inspection, data sampling, read-only querying, and intelligent pattern matching across tables.",
-  "url": "https://github.com/kruskal-labs/toolfront",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@currents/mcp",
-  "description": "Provides a bridge to Currents test results platform, enabling AI to analyze failing tests, optimize test suites, and troubleshoot CI/CD pipeline issues through direct access to test execution data.",
-  "url": "https://github.com/currents-dev/currents-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

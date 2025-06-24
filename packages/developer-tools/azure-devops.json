@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure-devops",
-  "description": "Integrates with Azure DevOps to enable work item management, wiki interactions, and sprint tracking for software development teams.",
-  "url": "https://github.com/krishna-amilineni-23307/mcp-azuredevops-bridge",
-  "runtime": "go",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@illuminaresolutions/n8n-mcp-server",
-  "description": "Bridges Claude with n8n automation workflows, enabling direct creation, execution, and management of workflows, credentials, and enterprise features without switching contexts.",
-  "url": "https://github.com/illuminaresolutions/n8n-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

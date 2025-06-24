@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github",
-  "description": "Integration with GitHub Issues, Pull Requests, and more.",
-  "url": "https://github.com/github/github-mcp-server",
-  "runtime": "go",
-  "license": "mit"
-}

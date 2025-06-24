@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "agent-construct",
-  "description": "Lightweight server enabling dynamic tool extension with JavaScript web scraping, Gemini search, and flexible configuration management for rapid prototyping of external tool capabilities.",
-  "url": "https://github.com/batteryshark/agent_construct",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mathematica-docs",
-  "description": "Integrates with Wolfram Mathematica's documentation to provide access to function details, package symbols, and computational capabilities for mathematical modeling and scientific computing tasks.",
-  "url": "https://github.com/benhaotang/mcp-mma-docs",
-  "runtime": "python",
-  "license": "mit"
-}

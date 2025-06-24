@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure-cli",
-  "description": "Enables direct management of Azure resources through the Azure CLI, allowing users to list resources, fix configuration issues, and create new services using their local credentials.",
-  "url": "https://github.com/jdubois/azure-cli-mcp",
-  "runtime": "java",
-  "license": "mit"
-}

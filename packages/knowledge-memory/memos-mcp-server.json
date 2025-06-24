@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memos-mcp-server",
-  "description": "Connects Claude to the Memos note-taking application, enabling search of existing notes and creation of new ones with automatic tagging.",
-  "url": "https://github.com/leslieleung/mcp-server-memos",
-  "runtime": "python",
-  "license": "unknown"
-}

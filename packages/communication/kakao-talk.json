@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kakao-talk",
-  "description": "Enables sending rich, interactive message templates to Kakao Talk users with OAuth2 authentication for notification workflows, content sharing, and social engagement.",
-  "url": "https://github.com/inspirit941/kakao-bot-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openai-mcp",
-  "description": "Provides a high-performance bridge between OpenAI and Anthropic models with prompt templating, response streaming, and efficient caching for applications requiring customizable LLM access.",
-  "url": "https://github.com/arthurcolle/openai-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

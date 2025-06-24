@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "transaction-categorizer",
-  "description": "Processes and categorizes financial transaction data into predefined expense and income categories, outputting organized CSV files for personal finance management and expense tracking.",
-  "url": "https://github.com/francesliang/custom_mcp_servers",
-  "runtime": "python",
-  "license": "unknown"
-}

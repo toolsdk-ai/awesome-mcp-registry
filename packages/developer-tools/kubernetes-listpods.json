@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kubernetes-listpods",
-  "description": "Enables interaction with Kubernetes clusters to list pods in specified namespaces using the user's kubeconfig file for DevOps workflows, monitoring, and troubleshooting deployments.",
-  "url": "https://github.com/dineshkumarramaraj/mcp-kubernetes/tree/HEAD/kubernetes-listpods",
-  "runtime": "go",
-  "license": "unknown"
-}

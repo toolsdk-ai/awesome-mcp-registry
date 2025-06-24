@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ffmpeg-mcp",
-  "description": "Provides a simplified interface for common FFmpeg media operations like video speed adjustment and audio extraction without requiring complex command-line syntax",
-  "url": "https://github.com/egoist/ffmpeg-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

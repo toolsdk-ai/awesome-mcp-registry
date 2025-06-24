@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@abhiz123/todoist-mcp-server",
-  "description": "Create and manage tasks in Todoist through natural language.",
-  "url": "https://github.com/abhiz123/todoist-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

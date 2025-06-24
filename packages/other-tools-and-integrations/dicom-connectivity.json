@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dicom-connectivity",
-  "description": "Integrates with DICOM systems to provide connectivity testing and diagnostics for medical imaging workflows, enabling node listing, C-ECHO operations, and configuration management.",
-  "url": "https://github.com/fluxinc/dicom-mcp-server",
-  "runtime": "python",
-  "license": "lgpl-2.1"
-}

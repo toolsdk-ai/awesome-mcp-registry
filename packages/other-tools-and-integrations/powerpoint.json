@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "powerpoint",
-  "description": "Enables creation and manipulation of Microsoft PowerPoint presentations through natural language, offering tools for managing slides, shapes, charts, and tables with styling and visualization capabilities.",
-  "url": "https://github.com/jenstangen1/pptx-xlsx-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

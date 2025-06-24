@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bilibili",
-  "description": "Provides a bridge to the Bilibili video-sharing platform for retrieving user profiles, listing followed accounts, and discovering videos through authenticated API access",
-  "url": "https://github.com/dnullp/bilibili-mcp-server",
-  "runtime": "go",
-  "license": "mit"
-}

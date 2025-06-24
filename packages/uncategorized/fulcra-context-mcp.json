@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fulcra-context-mcp",
-  "description": "Integrates with Fulcra Context personal data through OAuth2 authentication to retrieve health metrics, workout data, sleep cycles, location information, and user profile details from Apple Health and other connected sources for personal health analysis and fitness tracking.",
-  "url": "https://github.com/fulcradynamics/fulcra-context-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

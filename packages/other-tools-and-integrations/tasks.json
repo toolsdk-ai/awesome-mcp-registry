@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tasks",
-  "description": "Lightweight Spring Boot task management server providing RESTful API for creating, tracking, and managing tasks with integrated tool interactions and comprehensive testing.",
-  "url": "https://github.com/gopinathmr/mcp-tasks-server",
-  "runtime": "java",
-  "license": "unknown"
-}

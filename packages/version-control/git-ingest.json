@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "git-ingest",
-  "description": "Fetch and analyze git repository structures and contents.",
-  "url": "https://github.com/adhikasp/mcp-git-ingest",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ida-pro",
-  "description": "Provides a bridge to IDA Pro for reverse engineering and binary analysis tasks through a remote control plugin that enables script execution, string/function analysis, and disassembly via HTTP endpoints",
-  "url": "https://github.com/fdrechsler/mcp-server-idapro",
-  "runtime": "python",
-  "license": "mit"
-}

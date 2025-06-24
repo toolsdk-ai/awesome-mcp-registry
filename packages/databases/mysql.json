@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mysql",
-  "description": "Integrates with MySQL databases, enabling SELECT queries, table listings, and schema retrieval for data analysis and dynamic database interactions.",
-  "url": "https://github.com/kioyong/mysql-mcp-server-java",
-  "runtime": "java",
-  "license": "mit"
-}

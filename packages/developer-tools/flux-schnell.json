@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "flux-schnell",
-  "description": "Lightweight Python server using httpx for fast HTTP requests, providing a minimal configuration framework for developers seeking a quick and efficient server implementation.",
-  "url": "https://github.com/m-mcp/flux-schnell-server",
-  "runtime": "python",
-  "license": "unknown"
-}

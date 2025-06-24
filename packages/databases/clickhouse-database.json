@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "clickhouse-database",
-  "description": "Enables read-only ClickHouse database interactions for schema inspection and SQL query execution, returning results in JSON format for data analysis while preventing data modification operations.",
-  "url": "https://github.com/dubin555/clickhouse_mcp_server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

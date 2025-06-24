@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tavily-search",
-  "description": "Integrates with Tavily search API to enable natural language web queries for retrieving up-to-date, contextual information from across the internet.",
-  "url": "https://github.com/arben-adm/tavily-mcp-search",
-  "runtime": "python",
-  "license": "mit"
-}

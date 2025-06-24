@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mem0-(long-term-memory)",
-  "description": "Provides persistent long-term memory capabilities through semantic indexing, retrieval, and search functions with support for multiple LLM providers and PostgreSQL vector storage.",
-  "url": "https://github.com/coleam00/mcp-mem0",
-  "runtime": "python",
-  "license": "mit"
-}

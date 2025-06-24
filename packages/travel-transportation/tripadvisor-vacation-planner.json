@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tripadvisor-vacation-planner",
-  "description": "Integrates with TripAdvisor's API to enable vacation planning, destination exploration, and informed decision-making about accommodations and activities through location searches, nearby discovery, and interactive itinerary creation.",
-  "url": "https://github.com/hhw67865/tripadvisor-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

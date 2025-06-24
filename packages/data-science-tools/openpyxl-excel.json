@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openpyxl-excel",
-  "description": "Enables Excel file interaction with capabilities for retrieving cell values, searching ranges, examining formatting and formulas, and listing worksheet information for data analysis workflows.",
-  "url": "https://github.com/jonemo/openpyxl-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tokenscope",
-  "description": "Scans codebases to intelligently extract and prioritize files for LLMs while respecting token limits and .gitignore patterns",
-  "url": "https://github.com/cdgaete/token-scope-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

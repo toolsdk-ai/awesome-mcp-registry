@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jina.ai-reader",
-  "description": "Provides a bridge to Jina.ai's reader service for fetching and parsing web content from URLs into markdown format suitable for analysis and summarization.",
-  "url": "https://github.com/kealuya/mcp-jina-ai",
-  "runtime": "go",
-  "license": "mit"
-}

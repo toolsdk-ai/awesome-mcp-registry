@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "git-mcp",
-  "description": "Provides Git operations for local repositories, enabling repository management, tag handling, and repository refreshing without direct shell access.",
-  "url": "https://github.com/kjozsa/git-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

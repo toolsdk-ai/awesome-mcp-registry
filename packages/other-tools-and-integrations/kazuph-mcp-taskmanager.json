@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@kazuph/mcp-taskmanager",
-  "description": "Implements a structured task management system resulting in step-by-step workflows requiring explicit user approval.",
-  "url": "https://github.com/kazuph/mcp-taskmanager",
-  "runtime": "node",
-  "license": "unknown"
-}

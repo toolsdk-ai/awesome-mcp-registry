@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server",
-  "description": "Converts Solidity smart contracts into RESTful API implementations, enabling applications to interact with blockchain contracts without requiring deep blockchain knowledge.",
-  "url": "https://github.com/arjunbhuptani/sparkmango",
-  "runtime": "python",
-  "license": "unknown"
-}

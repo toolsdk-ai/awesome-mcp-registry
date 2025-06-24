@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@adeze/raindrop-mcp",
-  "description": "Integrates with Raindrop.io bookmarking service to provide direct access for managing collections, bookmarks, tags, highlights, and user data without leaving your conversation context.",
-  "url": "https://github.com/adeze/raindrop-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

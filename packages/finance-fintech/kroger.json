@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kroger",
-  "description": "Integrates with Kroger's grocery API to search products, find store locations, retrieve pricing and availability information, and manage shopping carts through OAuth2 authentication.",
-  "url": "https://github.com/ericlott/kroger-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

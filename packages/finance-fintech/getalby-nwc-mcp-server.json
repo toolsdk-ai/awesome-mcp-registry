@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@getalby/nwc-mcp-server",
-  "description": "Enables AI interaction with Bitcoin Lightning wallets through Nostr Wallet Connect for checking balances, creating invoices, and managing payments without complex Lightning Network implementation.",
-  "url": "https://github.com/getalby/nwc-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

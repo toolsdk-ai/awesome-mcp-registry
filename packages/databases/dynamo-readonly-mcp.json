@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dynamo-readonly-mcp",
-  "description": "Provides read-only access to AWS DynamoDB databases, enabling natural language interactions for listing tables, scanning data, querying with conditions, and retrieving table schemas without requiring direct database credentials.",
-  "url": "https://github.com/jjikky/dynamo-readonly-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

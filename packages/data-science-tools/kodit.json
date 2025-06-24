@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kodit",
-  "description": "Indexes local codebases and Git repositories using tree-sitter parsing and semantic embeddings to enable hybrid search combining vector similarity with keyword matching for contextual code retrieval.",
-  "url": "https://github.com/helixml/kodit",
-  "runtime": "python",
-  "license": "unknown"
-}

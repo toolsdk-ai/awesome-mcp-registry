@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@datastax/astra-db-mcp",
-  "description": "Integrates with Astra DB, enabling cloud-native database operations for scalable data storage and retrieval in AI applications.",
-  "url": "https://github.com/datastax/astra-db-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-replicate",
-  "description": "Integrates with Replicate API to provide seamless access to diverse machine learning models for inference and result retrieval across various domains.",
-  "url": "https://github.com/gerred/mcp-server-replicate",
-  "runtime": "python",
-  "license": "unknown"
-}

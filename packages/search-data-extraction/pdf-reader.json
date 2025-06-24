@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pdf-reader",
-  "description": "Extracts and processes content from PDF documents, offering text reading, OCR capabilities, and image retrieval with performance-optimized caching.",
-  "url": "https://github.com/deepseekmine/mcp-pdf-reader",
-  "runtime": "python",
-  "license": "unknown"
-}

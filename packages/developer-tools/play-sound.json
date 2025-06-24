@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "play-sound",
-  "description": "Provides audio notification capabilities for coding tasks, enabling sound alerts when work is completed with cross-platform audio backend support, volume control, and device switching for developers who want audible feedback without constant screen monitoring.",
-  "url": "https://github.com/davidteren/play-sound-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

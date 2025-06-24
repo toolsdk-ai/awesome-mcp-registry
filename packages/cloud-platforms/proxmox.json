@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "proxmox",
-  "description": "Integrates with Proxmox virtualization environments to enable monitoring and management of virtual machines, containers, storage pools, and cluster resources through token-based authentication and structured API commands.",
-  "url": "https://github.com/canvrno/proxmoxmcp",
-  "runtime": "python",
-  "license": "mit"
-}

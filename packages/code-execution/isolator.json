@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "isolator",
-  "description": "Provides secure code execution for Python, Go, and JavaScript through Docker containerization with network isolation, read-only filesystems, and resource limits for safely running user-provided code in sandboxed environments.",
-  "url": "https://github.com/ompragash/isolator-mcp",
-  "runtime": "go",
-  "license": "apache-2.0"
-}

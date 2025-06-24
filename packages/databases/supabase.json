@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "supabase",
-  "description": "Integrates with Supabase databases to enable SQL query execution, database management, and user authentication operations with configurable read-only or read-write access modes.",
-  "url": "https://github.com/deploya-labs/mcp-supabase",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

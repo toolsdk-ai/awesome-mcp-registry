@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "arxiv",
-  "description": "Integrates with arXiv to enable searching and retrieving academic papers with structured data about scientific publications",
-  "url": "https://github.com/izzanzahrial/mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

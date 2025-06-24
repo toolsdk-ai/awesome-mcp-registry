@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@burtthecoder/mcp-virustotal",
-  "description": "This VirusTotal MCP server enables AI assistants to programmatically access VirusTotal's threat intelligence for security analysis and threat detection.",
-  "url": "https://github.com/burtthecoder/mcp-virustotal",
-  "runtime": "node",
-  "license": "unknown"
-}

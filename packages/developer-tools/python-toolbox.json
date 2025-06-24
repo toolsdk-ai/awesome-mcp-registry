@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "python-toolbox",
-  "description": "Integrates Python development tools for file operations, code analysis, project management, and safe code execution, enabling advanced programming workflows and automated testing.",
-  "url": "https://github.com/gianlucamazza/mcp_python_toolbox",
-  "runtime": "python",
-  "license": "unknown"
-}

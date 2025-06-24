@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tku-academic-systems-(tronclass-&-tku-ilife)",
-  "description": "Connects Blender to TKU's learning management and student information systems, enabling automated interactions with university platforms through authenticated access to TronClass and TKU-ilife.",
-  "url": "https://github.com/cantpr09ram/tku-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

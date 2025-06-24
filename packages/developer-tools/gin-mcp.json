@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gin-mcp",
-  "description": "Automatically exposes existing Gin API endpoints as tools with zero configuration, requiring just a single line of code to bridge your Go application with AI assistants.",
-  "url": "https://github.com/ckanthony/gin-mcp",
-  "runtime": "go",
-  "license": "mit"
-}

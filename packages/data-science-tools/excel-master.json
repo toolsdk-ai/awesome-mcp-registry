@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "excel-master",
-  "description": "Integrates with Excel using XLwings to enable automated data manipulation, analysis, and reporting for business workflows.",
-  "url": "https://github.com/lipdog/excel-master-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

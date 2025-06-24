@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@gongrzhe/server-travelplanner-mcp",
-  "description": "Integrates with Google Maps to enable AI-driven travel planning, itinerary optimization, and location-based services for automated trip management.",
-  "url": "https://github.com/gongrzhe/travel-planner-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

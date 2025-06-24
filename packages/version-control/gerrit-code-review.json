@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gerrit-code-review",
-  "description": "Integrates with Gerrit code review systems to enable detailed analysis of code changes, diffs, file modifications, and reviewer details across review iterations.",
-  "url": "https://github.com/cayirtepeomer/gerrit-code-review-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

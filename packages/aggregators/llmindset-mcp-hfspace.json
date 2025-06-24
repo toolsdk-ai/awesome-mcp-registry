@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@llmindset/mcp-hfspace",
-  "description": "MCP server that seamlessly integrates Hugging Face Spaces with AI assistants, enabling easy access to diverse AI models and tools without manual configuration.",
-  "url": "https://github.com/evalstate/mcp-hfspace",
-  "runtime": "node",
-  "license": "unknown"
-}
