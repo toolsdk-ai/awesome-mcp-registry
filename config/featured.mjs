@@ -32,7 +32,6 @@ export default [
   "@AshDevFr/discourse-mcp-server",
   "@sethbang/mcp-screenshot-server",
   "@mem0ai/mem0-mcp",
-  "@wonderwhy-er/DesktopCommanderMCP",
   "@browserbasehq/mcp-stagehand",
   "@vapi-ai/mcp-server",
 ];
