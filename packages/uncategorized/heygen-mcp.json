@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "heygen-mcp",
+  "description": "Enables AI avatar video generation through HeyGen's API with tools for retrieving voices and avatars, creating videos, and checking generation status.",
+  "url": "https://github.com/heygen-com/heygen-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

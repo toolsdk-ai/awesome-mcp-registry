@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "devenvinfoserver",
+  "description": "Gathers detailed development environment data to enhance context-aware assistance in code editors, enabling tailored coding suggestions and environment-specific troubleshooting.",
+  "url": "https://github.com/carterlasalle/system_information_mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

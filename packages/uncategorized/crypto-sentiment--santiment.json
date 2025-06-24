@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "crypto-sentiment-(santiment)",
+  "description": "Delivers cryptocurrency sentiment analysis by leveraging Santiment's social media and news data, enabling traders to retrieve sentiment metrics, monitor mentions, detect volume shifts, identify trending topics, and measure asset dominance in real-time.",
+  "url": "https://github.com/kukapay/crypto-sentiment-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

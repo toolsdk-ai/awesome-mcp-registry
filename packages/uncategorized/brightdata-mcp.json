@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@brightdata/mcp",
+  "description": "Integrates with Bright Data's web scraping infrastructure to provide real-time access to public web data through specialized tools for search engine scraping, webpage extraction, and structured data retrieval from popular websites.",
+  "url": "https://github.com/brightdata/brightdata-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

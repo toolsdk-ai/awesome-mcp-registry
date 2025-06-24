@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@cristip73/mcp-server-asana",
+  "description": "Integrates with Asana's API to enable task management, project organization, and collaboration workflows through 30+ tools for searching, creating, and visualizing projects and tasks.",
+  "url": "https://github.com/cristip73/mcp-server-asana",
+  "runtime": "node",
+  "license": "unknown"
+}

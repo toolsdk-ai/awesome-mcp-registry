@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "pubmed-search",
+  "description": "Integrates with PubMed database via NCBI E-utilities API to search and retrieve academic papers, including titles, authors, journals, abstracts, and DOIs for biomedical research.",
+  "url": "https://github.com/gradusnikov/pubmed-search-mcp-server",
+  "runtime": "python",
+  "license": "bsd-3-clause"
+}

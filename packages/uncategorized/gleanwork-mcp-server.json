@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@gleanwork/mcp-server",
+  "description": "Integrates with Glean's enterprise knowledge platform to provide company search, people profile lookup, and AI assistant capabilities directly within your workflow.",
+  "url": "https://github.com/gleanwork/mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

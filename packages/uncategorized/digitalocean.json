@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "digitalocean",
+  "description": "Enables AI to manage DigitalOcean cloud infrastructure by providing access to account information, droplets, domains, firewalls, and other services for monitoring and automation tasks.",
+  "url": "https://github.com/digitalocean-labs/mcp-digitalocean",
+  "runtime": "go",
+  "license": "mit"
+}

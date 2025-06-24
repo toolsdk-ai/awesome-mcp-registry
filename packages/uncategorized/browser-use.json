@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "browser-use",
+  "description": "Integrates browser automation with natural language commands for web scraping, form filling, and visual interaction tasks.",
+  "url": "https://github.com/jovanipink/mcp-browser-use",
+  "runtime": "python",
+  "license": "unknown"
+}

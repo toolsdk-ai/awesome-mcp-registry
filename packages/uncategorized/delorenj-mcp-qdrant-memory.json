@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@delorenj/mcp-qdrant-memory",
+  "description": "Integrates a knowledge graph with semantic search capabilities, enabling efficient storage, retrieval, and querying of structured information for context-aware applications.",
+  "url": "https://github.com/delorenj/mcp-qdrant-memory",
+  "runtime": "node",
+  "license": "unknown"
+}

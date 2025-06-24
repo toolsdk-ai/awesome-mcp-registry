@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-chain-of-thought",
+  "description": "Task management system that converts natural language into organized development tasks with dependency tracking, implementation guides, and verification criteria through structured reasoning phases.",
+  "url": "https://github.com/liorfranko/mcp-chain-of-thought",
+  "runtime": "node",
+  "license": "unknown"
+}

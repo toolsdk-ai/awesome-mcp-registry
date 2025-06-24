@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "grpc-bridge",
+  "description": "Bridges AI assistants to gRPC backends by dynamically exposing service methods as tools through server reflection or pre-compiled protocol buffer descriptors.",
+  "url": "https://github.com/adiom-data/grpcmcp",
+  "runtime": "go",
+  "license": "apache-2.0"
+}

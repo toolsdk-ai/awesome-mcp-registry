@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-playwright-scraper",
+  "description": "Leverages Playwright and BeautifulSoup to enable robust web scraping and content extraction, converting complex JavaScript-heavy web pages into high-quality Markdown with browser automation capabilities.",
+  "url": "https://github.com/dennisgl/mcp-playwright-scraper",
+  "runtime": "python",
+  "license": "unknown"
+}

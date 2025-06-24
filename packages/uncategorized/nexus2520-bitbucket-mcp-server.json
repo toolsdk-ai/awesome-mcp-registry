@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@nexus2520/bitbucket-mcp-server",
+  "description": "Integrates with Bitbucket Cloud and Server APIs to manage pull request workflows including creation, updates, merging, branch management, code review operations, and diff retrieval with configurable context lines.",
+  "url": "https://github.com/pdogra1299/bitbucket-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

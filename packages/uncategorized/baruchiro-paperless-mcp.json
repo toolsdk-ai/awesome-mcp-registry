@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@baruchiro/paperless-mcp",
+  "description": "Enables AI to interact with Paperless-NGX document management systems for organizing, searching, and managing document collections through natural language commands.",
+  "url": "https://github.com/baruchiro/paperless-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

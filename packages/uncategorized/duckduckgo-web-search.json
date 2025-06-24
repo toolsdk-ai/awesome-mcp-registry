@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "duckduckgo-web-search",
+  "description": "Enables web search capabilities through DuckDuckGo, retrieving search results with titles, URLs, and snippets while offering optional content fetching with HTML-to-markdown conversion for real-time internet information access.",
+  "url": "https://github.com/kouui/web-search-duckduckgo",
+  "runtime": "python",
+  "license": "unknown"
+}

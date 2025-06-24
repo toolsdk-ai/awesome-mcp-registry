@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "python-sandbox",
+  "description": "Provides a secure sandbox environment for executing Python code within isolated Docker containers, enabling safe code testing with resource limits, package installation, and file operations through a RESTful API.",
+  "url": "https://github.com/johanli233/mcp-sandbox",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

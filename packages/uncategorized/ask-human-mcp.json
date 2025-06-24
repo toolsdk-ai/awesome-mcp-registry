@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ask-human-mcp",
+  "description": "Enables escalation of questions to humans through a markdown file-based workflow that prevents hallucinations by providing direct human-in-the-loop responses for critical decisions like database passwords, API endpoints, or architectural choices.",
+  "url": "https://github.com/masony817/ask-human-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

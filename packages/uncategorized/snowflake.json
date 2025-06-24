@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "snowflake",
+  "description": "Integration with Snowflake databases, enabling execution of SQL queries and analysis of enterprise data.",
+  "url": "https://github.com/datawiz168/mcp-snowflake-service",
+  "runtime": "python",
+  "license": "mit"
+}

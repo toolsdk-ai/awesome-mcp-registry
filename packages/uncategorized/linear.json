@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "linear",
+  "description": "Integrates with Linear's issue tracking system, enabling creation, updating, and searching of issues, as well as managing comments and user assignments for project management tasks.",
+  "url": "https://github.com/geropl/linear-mcp-go",
+  "runtime": "go",
+  "license": "unknown"
+}

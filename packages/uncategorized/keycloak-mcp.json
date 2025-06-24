@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "keycloak-mcp",
+  "description": "Integrates with Keycloak identity management to enable user creation, role assignment, group management, and client listing across different realms",
+  "url": "https://github.com/haithamoumerzoug/keycloak-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

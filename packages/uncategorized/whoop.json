@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "whoop",
+  "description": "Integrates with the Whoop API to retrieve and process fitness data, enabling applications to incorporate health metrics and performance analysis.",
+  "url": "https://github.com/ctvidic/whoop-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "xrp-ledger",
+  "description": "Provides direct access to XRP Ledger data and functionality, enabling querying account information, transaction history, and submitting signed transactions to the network.",
+  "url": "https://github.com/lgcarrier/xrpl-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "chronicle-security-operations",
+  "description": "Integrates with Google's Chronicle Security Operations suite to enable security analysis tasks including event searches, alert retrieval, entity lookups, detection rule listing, and IoC matching for threat hunting and incident investigation.",
+  "url": "https://github.com/emeryray2002/mcp-secops-v3",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

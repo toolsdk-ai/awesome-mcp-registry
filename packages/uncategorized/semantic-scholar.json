@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "semantic-scholar",
+  "description": "Provides a bridge to Semantic Scholar for searching and analyzing academic papers with tools for keyword searches, metadata access, and citation network exploration",
+  "url": "https://github.com/jackkuo666/semanticscholar-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

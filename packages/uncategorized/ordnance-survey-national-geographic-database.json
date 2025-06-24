@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ordnance-survey-national-geographic-database",
+  "description": "Provides a bridge to the Ordnance Survey National Geographic Database, enabling queries of UK geographic data for applications like urban planning, transportation analysis, and location-based services.",
+  "url": "https://github.com/chriscarlon/os-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

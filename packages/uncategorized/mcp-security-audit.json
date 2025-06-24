@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-security-audit",
+  "description": "Integrates with npm-audit-report and npm-registry-fetch to analyze and report potential vulnerabilities in Node.js project dependencies, offering actionable security insights for development teams.",
+  "url": "https://github.com/qianniuspace/mcp-security-audit",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "clickhouse-mcp-server",
+  "description": "Integrates with ClickHouse databases to execute SQL queries and retrieve results in JSON format, enabling data analysis and exploration directly within conversation interfaces.",
+  "url": "https://github.com/burakdirin/clickhouse-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

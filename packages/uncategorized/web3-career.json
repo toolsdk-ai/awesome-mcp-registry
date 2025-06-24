@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "web3-career",
+  "description": "Integrates with the web3.career API to search and filter cryptocurrency and blockchain job opportunities with parameters like remote work preferences, location, and technology tags, returning structured job listings with company details, descriptions, and application URLs.",
+  "url": "https://github.com/kukapay/web3-jobs-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

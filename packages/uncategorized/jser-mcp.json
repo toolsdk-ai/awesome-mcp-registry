@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@jser/mcp",
+  "description": "Provides access to JavaScript ecosystem data, trends, and library statistics from JSer.info for developers tracking the JavaScript landscape",
+  "url": "https://github.com/jser/mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

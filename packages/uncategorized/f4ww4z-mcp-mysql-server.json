@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@f4ww4z/mcp-mysql-server",
+  "description": "Interact with MySQL databases to execute queries and manage connections.",
+  "url": "https://github.com/f4ww4z/mcp-mysql-server",
+  "runtime": "node",
+  "license": "unknown"
+}

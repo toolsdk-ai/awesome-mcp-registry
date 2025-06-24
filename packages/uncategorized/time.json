@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "time",
+  "description": "Integrates with Spring AI to provide time-related services, enabling precise time management and scheduling functionalities in Java applications.",
+  "url": "https://github.com/alexandreroman/mcp-time",
+  "runtime": "java",
+  "license": "apache-2.0"
+}

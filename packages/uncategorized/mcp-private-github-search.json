@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-private-github-search",
+  "description": "Provides authenticated access to a specific private GitHub repository for file content retrieval, code search, issue search, and detailed commit history with file diffs.",
+  "url": "https://github.com/hint-services/obsidian-github-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

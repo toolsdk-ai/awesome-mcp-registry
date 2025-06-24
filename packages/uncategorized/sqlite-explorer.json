@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "sqlite-explorer",
+  "description": "Secure, read-only access to query and analyze SQLite databases.",
+  "url": "https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

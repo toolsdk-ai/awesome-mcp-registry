@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "windows-security-hardening",
+  "description": "Automates Windows security hardening tasks through command-line utilities that check and modify critical settings including firewall configuration, RDP settings, UAC controls, password policies, and user account management.",
+  "url": "https://github.com/gh05tcrew/winsecmcp",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

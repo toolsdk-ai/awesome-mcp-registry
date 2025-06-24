@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gmail",
+  "description": "Integrates with Gmail's API to enable email management tasks like sending, reading, drafting, and organizing messages.",
+  "url": "https://github.com/jmonsellier/gmail-mcp-server",
+  "runtime": "python",
+  "license": "gpl-3.0"
+}

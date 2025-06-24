@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "laravel-helper-tools",
+  "description": "Integrates with Laravel projects to provide log analysis, error tracking, and Artisan command execution for streamlined development workflows.",
+  "url": "https://github.com/jsonallen/laravel-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "shaka-packager",
+  "description": "Bridges AI with Google's Shaka Packager for video analysis, transcoding, and packaging operations, enabling media workflow automation and streaming content preparation without direct command-line interaction.",
+  "url": "https://github.com/coderjun/shaka-packager-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

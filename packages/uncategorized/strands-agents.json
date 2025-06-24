@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "strands-agents",
+  "description": "Server that enables execution of Strands agents through a plugin architecture, automatically discovering and registering plugins for seamless integration with existing workflows.",
+  "url": "https://github.com/imgaray/strands-agents-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

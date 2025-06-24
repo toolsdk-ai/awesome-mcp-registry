@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bitrise",
+  "description": "Provides a bridge to the Bitrise CI/CD platform API, enabling mobile app development workflow management including builds, artifacts, and releases for iOS and Android platforms.",
+  "url": "https://github.com/bitrise-io/bitrise-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

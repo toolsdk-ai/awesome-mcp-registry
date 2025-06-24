@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "keycloak-model-context-protocol",
+  "description": "Integrates with Keycloak Admin to provide streamlined user and realm management operations for identity and access control automation.",
+  "url": "https://github.com/christophenglisch/keycloak-model-context-protocol",
+  "runtime": "node",
+  "license": "unknown"
+}

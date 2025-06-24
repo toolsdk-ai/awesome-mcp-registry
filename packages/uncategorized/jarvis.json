@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "jarvis",
+  "description": "Go-based system administration server that provides secure filesystem operations, terminal command execution, web content fetching, and multi-file editing with configurable security controls including directory restrictions, command blocking, and backup mechanisms.",
+  "url": "https://github.com/can-acar/jarvis",
+  "runtime": "go",
+  "license": "unknown"
+}

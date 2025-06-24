@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "lingo.dev",
+  "description": "Enables multilingual content translation for app localization, website content, and text data through a translate tool accessible via npx command with Lingo.dev API key",
+  "url": "https://github.com/lingodotdev/lingo.dev",
+  "runtime": "node",
+  "license": "unknown"
+}

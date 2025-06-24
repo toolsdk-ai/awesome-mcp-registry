@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "shopify",
+  "description": "Integrates with the Shopify API to enable e-commerce data management and operations for online stores, including product, order, and customer information handling.",
+  "url": "https://github.com/kishimoto-banana/shopify-py-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

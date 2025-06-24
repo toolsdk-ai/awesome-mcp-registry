@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "logseq-mcp",
+  "description": "Enables AI interaction with Logseq knowledge graphs for capturing notes, organizing information, and retrieving knowledge from personal databases",
+  "url": "https://github.com/apw124/logseq-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-gaodeweather-server",
+  "description": "Provides real-time weather data and forecasts for locations in China through the Gaode Weather API",
+  "url": "https://github.com/kevinkelin/mcp-gaodeweather-server",
+  "runtime": "python",
+  "license": "unknown"
+}

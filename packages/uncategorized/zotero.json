@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "zotero",
+  "description": "Integrates local Zotero libraries, enabling natural language interactions for exploring and analyzing personal research collections.",
+  "url": "https://github.com/gyger/mcp-pyzotero",
+  "runtime": "python",
+  "license": "mit"
+}

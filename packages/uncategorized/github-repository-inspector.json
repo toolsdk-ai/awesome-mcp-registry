@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-repository-inspector",
+  "description": "Integrates with GitHub repositories to enable repository searching, issue management, and pull request handling through authenticated API endpoints that format data for easy access within conversations.",
+  "url": "https://github.com/jehan26/mcp-inspector-v0.6.0",
+  "runtime": "python",
+  "license": "unknown"
+}

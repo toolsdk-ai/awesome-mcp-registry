@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@cablate/mcp-google-calendar",
+  "description": "Integrates with Google Calendar API to enable creating, updating, and retrieving calendar events for seamless scheduling and event management.",
+  "url": "https://github.com/cablate/mcp-google-calendar",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "fegis-(schema-driven-memory)",
+  "description": "Compile YAML into semantic LLM tools with structured memory and an emergent knowledge graph.",
+  "url": "https://github.com/p-funk/fegis",
+  "runtime": "python",
+  "license": "mit"
+}

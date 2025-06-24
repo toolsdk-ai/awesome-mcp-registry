@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "telegram",
+  "description": "Bridges Claude with Telegram messaging, enabling direct interaction with Telegram chats through tools for retrieving chat lists, fetching messages, and sending messages to contacts.",
+  "url": "https://github.com/chigwell/telegram-mcp",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

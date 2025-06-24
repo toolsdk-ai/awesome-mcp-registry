@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ip-geolocation",
+  "description": "Integrates with ipinfo.io API to provide IP geolocation services, enabling location-based insights and network analysis.",
+  "url": "https://github.com/briandconnelly/mcp-server-ipinfo",
+  "runtime": "python",
+  "license": "mit"
+}

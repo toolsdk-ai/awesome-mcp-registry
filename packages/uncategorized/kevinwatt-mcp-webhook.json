@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kevinwatt/mcp-webhook",
+  "description": "Enables sending customizable messages to external webhook endpoints, facilitating automated notifications and workflow integrations.",
+  "url": "https://github.com/kevinwatt/mcp-webhook",
+  "runtime": "node",
+  "license": "unknown"
+}

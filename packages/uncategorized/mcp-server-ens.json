@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-ens",
+  "description": "Integrates with the Ethereum Name Service to resolve ENS names to addresses, perform lookups, retrieve records, check availability, get prices, and explore name history through configurable Ethereum network providers.",
+  "url": "https://github.com/justaname-id/ens-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

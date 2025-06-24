@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "weather",
+  "description": "Integrates with weather data APIs to provide current conditions and forecasts for trip planning and outdoor event scheduling.",
+  "url": "https://github.com/kuzushilabsorg/mcp-servers",
+  "runtime": "python",
+  "license": "unknown"
+}

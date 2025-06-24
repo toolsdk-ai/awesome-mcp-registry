@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "webflow-mcp-server",
+  "description": "Enables direct management of Webflow sites through API access to retrieve site information, handle custom domains, configure localization settings, and manage collections without switching contexts.",
+  "url": "https://github.com/timkjones/mcp-webflow",
+  "runtime": "node",
+  "license": "unknown"
+}
