@@ -1871,17 +1871,6 @@
       }
     }
   },
-  "@upstash/context7-mcp": {
-    "category": "coding-agents",
-    "path": "coding-agents/upstash-context7-mcp.json",
-    "validated": true,
-    "tools": {
-      "context7": {
-      "name": "context7",
-      "description": "Fetch up-to-date, version-specific documentation and code examples directly into your prompts. Enhance your coding experience by eliminating outdated information and hallucinated APIs. Simply add `use context7` to your questions for accurate and relevant answers."
-      }
-    }
-  },
   "@vapi-ai/mcp-server": {
   "category": "marketing",
   "path": "marketing/vapi-ai-mcp-server.json",
