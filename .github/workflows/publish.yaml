@@ -33,6 +33,9 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Bump version
+        run: |
+          npm version patch --no-git-tag-version
       - run: |
           make build
 
@@ -41,9 +44,6 @@ jobs:
           git config --global user.name "ToolSDK.ai"
           git config --global user.email "dev@toolsdk.ai"
 
-      - name: Bump version
-        run: |
-          npm version patch --no-git-tag-version
 
       - name: Publish
         run: npm publish --access public
