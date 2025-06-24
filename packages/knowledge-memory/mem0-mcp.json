@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "name": "Mem0",
-  "packageName": "@mem0ai/mem0-mcp",
-  "description": "This demonstrates a structured approach for using an MCP server with mem0 to manage coding preferences efficiently. The server can be used with Cursor and provides essential tools for storing, retrieving, and searching coding preferences.",
-  "url": "https://github.com/mem0ai/mem0-mcp/tree/main/node/mem0/src",
-  "runtime": "node",
-  "license": "MIT"
-}

@@ -29,7 +29,6 @@ export default [
   "@upstash/context7-mcp",
   "@shinzo-labs/coinmarketcap-mcp",
   "@sethbang/mcp-screenshot-server",
-  "@mem0ai/mem0-mcp",
   "@browserbasehq/mcp-stagehand",
-  "@vapi-ai/mcp-server",
+  "@vapi-ai/mcp-server"
 ];
