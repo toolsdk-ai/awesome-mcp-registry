@@ -35,7 +35,6 @@ export default [
   "@skobyn/dataforseo-mcp-server",
   "@mem0ai/mem0-mcp",
   "@wonderwhy-er/DesktopCommanderMCP",
-  "@browserbase/mcp-server-browserbase",
   "@browserbasehq/mcp-stagehand",
   "@vapi-ai/mcp-server",
 ];

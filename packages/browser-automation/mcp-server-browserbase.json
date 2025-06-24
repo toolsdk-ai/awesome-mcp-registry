@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "name": "Browserbase",
-  "packageName": "@browserbase/mcp-server-browserbase",
-  "description": "This server provides cloud browser automation capabilities using Browserbase. This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.",
-  "url": "https://github.com/browserbase/mcp-server-browserbase/tree/main/browserbase/src",
-  "runtime": "node",
-  "license": "MIT"
-}
