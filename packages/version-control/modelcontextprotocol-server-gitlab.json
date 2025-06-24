@@ -1,8 +1,10 @@
 {
   "type": "mcp-server",
+  "name": "GitLab",
+  "logo": "https://qualified-production.s3.us-east-1.amazonaws.com/uploads/ba01b636da5e7119f9abb52966342366f1a4827966d7ff63fa776874146a2ab2.png",
   "packageName": "@modelcontextprotocol/server-gitlab",
   "description": "MCP server for using the GitLab API",
-  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/gitlab",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab",
   "runtime": "node",
   "license": "MIT",
   "env": {

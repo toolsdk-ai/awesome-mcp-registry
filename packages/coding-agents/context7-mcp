@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@upstash/context7-mcp",
-  "description": "Fetch up-to-date, version-specific documentation and code examples directly into your prompts. Enhance your coding experience by eliminating outdated information and hallucinated APIs. Simply add use context7 to your questions for accurate and relevant answers.",
-  "url": "https://github.com/upstash/context7/tree/master/src/lib",
-  "runtime": "node",
-  "license": "MIT"
-}

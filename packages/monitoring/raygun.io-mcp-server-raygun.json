@@ -1,5 +1,6 @@
 {
   "type": "mcp-server",
+  "name": "Raygun",
   "packageName": "@raygun.io/mcp-server-raygun",
   "description": "MCP server for interacting with Raygun's API for crash reporting and real user monitoring metrics",
   "url": "https://github.com/MindscapeHQ/mcp-server-raygun",

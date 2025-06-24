@@ -1,5 +1,6 @@
 {
   "type": "mcp-server",
+  "name": "Playwright",
   "packageName": "@executeautomation/playwright-mcp-server",
   "description": "Automate web browsers for testing, scraping, and visual analysis.",
   "url": "https://github.com/executeautomation/mcp-playwright",
