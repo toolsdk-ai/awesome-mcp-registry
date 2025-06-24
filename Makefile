@@ -1,6 +1,6 @@
 
 build:
-	pnpm install
+	pnpm install --no-frozen-lockfile
 	bun scripts/cat-dirs.ts
 	bun scripts/indexing-lists.ts
 	bun scripts/check-config.ts
