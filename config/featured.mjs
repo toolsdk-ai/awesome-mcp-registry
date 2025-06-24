@@ -26,7 +26,6 @@ export default [
   "@modelcontextprotocol/server-memory",
   "@anaisbetts/mcp-youtube",
   "@kimtaeyoon83/mcp-server-youtube-transcript",
-  "@upstash/context7-mcp",
   "@browserbasehq/mcp-stagehand",
   "@vapi-ai/mcp-server"
 ];
