@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-powerpoint",
+  "description": "Enables creation and manipulation of PowerPoint presentations with functions for adding slides, formatting content, reading metadata, and exporting to PDF using pptxgenjs and officegen libraries.",
+  "url": "https://github.com/islem-zaraa/mcp-powerpoint",
+  "runtime": "node",
+  "license": "unknown"
+}

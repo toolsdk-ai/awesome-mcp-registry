@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bos-(basic-orchestration-system)",
+  "description": "Modular server framework for building and managing extensible MCP services through a configuration-based approach that simplifies module loading and registration.",
+  "url": "https://github.com/gooboot/mcp-bos",
+  "runtime": "python",
+  "license": "unknown"
+}

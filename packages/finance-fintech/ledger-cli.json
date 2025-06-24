@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ledger-cli",
+  "description": "Integrates with Ledger CLI to enable natural language queries for financial data analysis, report generation, and budget tracking through nine structured tools that map directly to Ledger commands.",
+  "url": "https://github.com/minhyeoky/mcp-server-ledger",
+  "runtime": "python",
+  "license": "unknown"
+}

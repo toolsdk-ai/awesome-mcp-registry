@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "nsaf-(neuro-symbolic-autonomy-framework)",
+  "description": "Enables AI systems to evolve and optimize neural network architectures through self-constructing meta-agents that adapt to different problem domains using TensorFlow-powered evolutionary algorithms.",
+  "url": "https://github.com/ariunbolor/nsaf-mcp-server",
+  "runtime": "python",
+  "license": "mit"
+}

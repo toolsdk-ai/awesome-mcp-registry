@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-clever-demo",
+  "description": "Integrates with Clever Cloud's tools and services to enable application deployment, environment management, and resource monitoring.",
+  "url": "https://github.com/davlgd/mcp-clever-demo",
+  "runtime": "node",
+  "license": "unknown"
+}

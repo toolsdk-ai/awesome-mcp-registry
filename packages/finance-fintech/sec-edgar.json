@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "sec-edgar",
+  "description": "Enables AI systems to access and analyze SEC EDGAR filings data, providing tools for retrieving proxy statements with executive compensation information and Form 4 filings for insider trading details.",
+  "url": "https://github.com/flothjl/edgar-sec-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

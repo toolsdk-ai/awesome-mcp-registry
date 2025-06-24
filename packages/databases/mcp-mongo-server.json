@@ -1,9 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "mcp-mongo-server",
-  "description": "A Model Context Protocol Server for MongoDB",
+  "description": "Query and analyze MongoDB databases.",
   "url": "https://github.com/kiliczsh/mcp-mongo-server",
   "runtime": "node",
-  "license": "MIT",
-  "env": {}
+  "license": "unknown"
 }

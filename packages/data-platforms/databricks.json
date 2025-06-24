@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "databricks",
+  "description": "Bridges Claude with Databricks environments, enabling natural language interaction with SQL warehouses and job management systems through FastAPI-based tools for running queries, listing jobs, and retrieving detailed information.",
+  "url": "https://github.com/jordineil/mcp-databricks-server",
+  "runtime": "python",
+  "license": "unknown"
+}

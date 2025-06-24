@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "coding-todo",
+  "description": "Integrates project management tools for viewing, adding, updating, and deleting todo items with priority setting, tagging, and project assignment capabilities, enabling efficient task tracking and AI-assisted prioritization for software development workflows.",
+  "url": "https://github.com/dennismartis/mcp-todo",
+  "runtime": "python",
+  "license": "unknown"
+}

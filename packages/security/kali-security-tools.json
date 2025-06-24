@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "kali-security-tools",
+  "description": "Provides a secure, sandboxed environment for executing Kali Linux security tools including nmap, objdump, and wireshark for vulnerability scanning, binary analysis, and network inspection tasks.",
+  "url": "https://github.com/ccq1/awsome_kali_mcpservers",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

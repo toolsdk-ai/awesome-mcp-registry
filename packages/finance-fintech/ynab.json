@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "ynab",
+  "description": "Integrates with YNAB API to enable personal finance management, including viewing account balances, creating transactions, and accessing budget data for financial planning and analysis.",
+  "url": "https://github.com/klauern/mcp-ynab",
+  "runtime": "python",
+  "license": "unknown"
+}

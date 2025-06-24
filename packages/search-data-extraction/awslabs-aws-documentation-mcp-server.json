@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "awslabs.aws-documentation-mcp-server",
+  "description": "Provides tools to access AWS documentation, search for content, and get recommendations.",
+  "url": "https://github.com/awslabs/mcp/tree/HEAD/src/aws-documentation-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

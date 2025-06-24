@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-docs-service",
+  "description": "Enables AI interaction with markdown documentation files through a SQL-like query format for creating, reading, updating, and searching documentation with YAML frontmatter metadata support in Node.js and Deno environments.",
+  "url": "https://github.com/alekspetrov/mcp-docs-service",
+  "runtime": "node",
+  "license": "unknown"
+}

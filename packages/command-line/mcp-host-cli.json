@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-host-cli",
+  "description": "Command-line tool for creating and managing MCP hosts with streamlined setup for developers integrating AI capabilities into applications.",
+  "url": "https://github.com/liujilongobject/mcp-host-use",
+  "runtime": "node",
+  "license": "unknown"
+}

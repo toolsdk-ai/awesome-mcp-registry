@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "bitcoin-mcp",
+  "description": "Integrates with Bitcoin network and blockchain data via Blockstream API to enable transaction monitoring, wallet management, and blockchain analysis",
+  "url": "https://github.com/abdelstark/bitcoin-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

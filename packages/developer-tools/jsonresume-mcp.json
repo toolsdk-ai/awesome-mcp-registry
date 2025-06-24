@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@jsonresume/mcp",
+  "description": "Enhances JSON Resumes with GitHub project information by analyzing codebases, fetching existing resumes, and intelligently updating profiles with relevant project details using OpenAI's API.",
+  "url": "https://github.com/jsonresume/mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

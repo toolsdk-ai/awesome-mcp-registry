@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "markitdown",
+  "description": "Converts diverse file formats to Markdown using MarkItDown utility, enabling unified text-based workflows for content migration, documentation, and analysis.",
+  "url": "https://github.com/korigamik/markitdown_mcp_server",
+  "runtime": "python",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "writer-blog-search-(substack-&-medium)",
+  "description": "Connect to your Substack/Medium blogs via their RSS feeds, fetches your posts, and permanently caches them locally. It also generates embeddings for each post, enabling semantic search to find the most relevant essays based on your queries.",
+  "url": "https://github.com/jean-technologies/mcp-writer-substack",
+  "runtime": "python",
+  "license": "unknown"
+}

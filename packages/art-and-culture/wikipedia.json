@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "wikipedia",
+  "description": "Provides direct access to Wikipedia content through five tools for searching, retrieving summaries, accessing full articles, getting random pages, and changing languages.",
+  "url": "https://github.com/algonacci/mcp-wikipedia",
+  "runtime": "python",
+  "license": "mit"
+}

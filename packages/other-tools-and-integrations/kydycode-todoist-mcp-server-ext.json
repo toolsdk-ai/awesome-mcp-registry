@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kydycode/todoist-mcp-server-ext",
+  "description": "Integrates with Todoist API to provide enhanced task management capabilities including task creation, updating, completion, project organization, label management, and natural language quick-add functionality with support for subtasks, priorities, due dates, and bulk operations.",
+  "url": "https://github.com/kydycode/todoist-mcp-server-ext",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "figma-mcp",
+  "description": "Integrates with Figma's API to enable direct access to design files and prototypes for generating code and answering UI implementation queries.",
+  "url": "https://github.com/jayzeedesign/figma-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

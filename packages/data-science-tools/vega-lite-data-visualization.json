@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "vega-lite-data-visualization",
+  "description": "Create data visualizations using Vega-Lite syntax by saving data tables and generating charts.",
+  "url": "https://github.com/isaacwasserman/mcp-vegalite-server",
+  "runtime": "python",
+  "license": "unknown"
+}

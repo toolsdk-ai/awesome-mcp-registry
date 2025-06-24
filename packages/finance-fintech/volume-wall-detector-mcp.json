@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "volume-wall-detector-mcp",
+  "description": "Analyzes stock trading data to identify volume walls and key price levels where significant trading activity occurs, providing traders with insights into market structure and potential reversal points.",
+  "url": "https://github.com/cognitive-stack/volume-wall-detector-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

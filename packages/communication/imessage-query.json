@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "imessage-query",
+  "description": "Query and analyze iMessage conversations on macOS.",
+  "url": "https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

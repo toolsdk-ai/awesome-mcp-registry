@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "reddit",
+  "description": "Integrates with Reddit to provide user analysis with engagement patterns, subreddit statistics with health metrics, post creation with timing recommendations, and comment replies with strategic optimization for social media management and community engagement workflows.",
+  "url": "https://github.com/arindam200/reddit-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

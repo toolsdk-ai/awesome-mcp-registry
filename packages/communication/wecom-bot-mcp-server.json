@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "wecom-bot-mcp-server",
+  "description": "Integrates WeCom (WeChat Work) bot functionality for enterprise messaging, notifications, and interactive chatbots.",
+  "url": "https://github.com/loonghao/wecom-bot-mcp-server",
+  "runtime": "python",
+  "license": "unknown"
+}

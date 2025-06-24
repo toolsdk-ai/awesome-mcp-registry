@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-garmincn",
+  "description": "Connects to Garmin Connect platform for Chinese users, enabling secure access to fitness tracking, health metrics, and activity data from Garmin devices",
+  "url": "https://github.com/guaidaoyiyoudao/garmincn-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

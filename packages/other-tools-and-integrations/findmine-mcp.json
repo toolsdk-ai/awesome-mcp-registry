@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "findmine-mcp",
+  "description": "Integrates with FindMine's product styling API to enable fashion recommendations, outfit creation, product browsing, and style guide access for e-commerce platforms.",
+  "url": "https://github.com/findmine/findmine-mcp",
+  "runtime": "node",
+  "license": "unknown"
+}

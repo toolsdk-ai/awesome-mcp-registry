@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@feedmob/singular-reporting",
+  "description": "Enables marketers to create, monitor, and download customized Singular marketing analytics reports with campaign performance metrics across different apps and sources",
+  "url": "https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/singular-reporting",
+  "runtime": "node",
+  "license": "unknown"
+}

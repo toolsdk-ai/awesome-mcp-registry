@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@angiejones/mcp-selenium",
+  "description": "Automates web browser actions with Selenium WebDriver.",
+  "url": "https://github.com/angiejones/mcp-selenium",
+  "runtime": "node",
+  "license": "unknown"
+}

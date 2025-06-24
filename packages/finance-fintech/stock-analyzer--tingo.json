@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "stock-analyzer-(tingo)",
+  "description": "Integrates with Tiingo API to perform technical analysis on stocks, providing key indicators for trading decisions.",
+  "url": "https://github.com/wshobson/mcp-trader",
+  "runtime": "python",
+  "license": "mit"
+}

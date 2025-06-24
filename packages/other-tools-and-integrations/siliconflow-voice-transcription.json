@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "siliconflow-voice-transcription",
+  "description": "Provides voice transcription capabilities by processing audio files with the FunAudioLLM/SenseVoiceSmall model, returning text with confidence scores for AI workflows.",
+  "url": "https://github.com/aio-2030/mcp-audio",
+  "runtime": "python",
+  "license": "apache-2.0"
+}

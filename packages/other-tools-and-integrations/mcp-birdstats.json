@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-birdstats",
+  "description": "Integrates BirdNET-Pi and eBird APIs to enable cross-referencing bird detection data with observation records for ecological research and bird watching insights.",
+  "url": "https://github.com/dmontgomery40/mcp-server-birdstats",
+  "runtime": "node",
+  "license": "unknown"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "tavily-extract",
+  "description": "Integrates with the Tavily API to extract web page content, enabling efficient web scraping capabilities for projects requiring content extraction.",
+  "url": "https://github.com/algonacci/mcp-tavily-extract",
+  "runtime": "python",
+  "license": "mit"
+}

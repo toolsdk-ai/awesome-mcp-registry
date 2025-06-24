@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "deepl-mcp-server",
+  "description": "Integrates with DeepL to provide high-quality text translation and rephrasing between numerous languages with formality controls for supported language pairs.",
+  "url": "https://github.com/deeplcom/deepl-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

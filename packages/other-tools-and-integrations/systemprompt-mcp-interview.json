@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "systemprompt-mcp-interview",
+  "description": "Provides an AI-powered interview roleplay system for dynamic simulation of customizable interview scenarios, enabling practice and skill improvement for job seekers.",
+  "url": "https://github.com/ejb503/systemprompt-mcp-interview",
+  "runtime": "node",
+  "license": "unknown"
+}

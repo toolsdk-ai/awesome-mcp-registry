@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "youtube-translate",
+  "description": "Enables access to YouTube video transcripts, translations, summaries, and subtitle generation through a simple API interface for research, content analysis, and multilingual video accessibility workflows.",
+  "url": "https://github.com/brianshin22/youtube-translate-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

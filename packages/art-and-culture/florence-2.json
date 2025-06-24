@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "florence-2",
+  "description": "Integrates with Florence-2 to enable advanced image analysis and manipulation tasks like visual question answering, image captioning, and content-based image retrieval.",
+  "url": "https://github.com/jkawamoto/mcp-florence2",
+  "runtime": "python",
+  "license": "mit"
+}

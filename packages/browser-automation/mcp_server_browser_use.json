@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp_server_browser_use",
+  "description": "Enables AI assistants to interact with web browsers through a FastAPI server for web browsing, content extraction, and automation tasks with configurable LLM providers and browser modes.",
+  "url": "https://github.com/deploya-labs/mcp-browser-use",
+  "runtime": "python",
+  "license": "unknown"
+}

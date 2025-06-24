@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "dify-workflow",
+  "description": "Transforms Dify workflow applications into function-enabled endpoints, allowing AI tools to interact with custom functions through a simple setup process that bridges Dify's capabilities with external systems.",
+  "url": "https://github.com/hjlarry/dify-plugin-mcp_server",
+  "runtime": "python",
+  "license": "unknown"
+}

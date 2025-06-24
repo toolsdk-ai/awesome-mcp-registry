@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "the-graph",
+  "description": "Enables access to indexed blockchain data through The Graph's decentralized network for analyzing token trading volumes, monitoring liquidity pools, and identifying unusual transaction patterns",
+  "url": "https://github.com/kukapay/thegraph-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

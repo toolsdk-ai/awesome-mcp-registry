@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-sqlite-npx",
+  "description": "Implements SQLite functionality in Node.js.",
+  "url": "https://github.com/johnnyoshika/mcp-server-sqlite-npx",
+  "runtime": "node",
+  "license": "unknown"
+}

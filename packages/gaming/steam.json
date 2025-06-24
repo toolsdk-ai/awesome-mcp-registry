@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "steam",
+  "description": "Integrates with the Steam Web API to access user data, game information, and Steam-related functionalities for analyzing gaming habits, providing recommendations, or incorporating Steam profiles into applications.",
+  "url": "https://github.com/exi/mcp-steam",
+  "runtime": "java",
+  "license": "gpl-3.0"
+}

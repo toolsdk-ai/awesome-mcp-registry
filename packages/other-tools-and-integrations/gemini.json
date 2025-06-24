@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "gemini",
+  "description": "Integrates Google Gemini 2.5 Pro as a development partner for extended reasoning, code analysis, and collaborative problem-solving with specialized tools for deep thinking, code review, debugging, file analysis, and brainstorming through a 1M token context window.",
+  "url": "https://github.com/beehiveinnovations/zen-mcp-server",
+  "runtime": "python",
+  "license": "other"
+}

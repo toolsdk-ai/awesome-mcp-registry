@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "hetzner-cloud",
+  "description": "Integrates with Hetzner Cloud API to enable management of cloud infrastructure resources including servers, volumes, firewalls, and SSH keys for automated provisioning and infrastructure-as-code scenarios.",
+  "url": "https://github.com/dkruyt/mcp-hetzner",
+  "runtime": "python",
+  "license": "mit"
+}

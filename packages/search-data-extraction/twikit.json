@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "twikit",
+  "description": "Integrate with X (Twitter) for social media data analysis.",
+  "url": "https://github.com/adhikasp/mcp-twikit",
+  "runtime": "python",
+  "license": "mit"
+}

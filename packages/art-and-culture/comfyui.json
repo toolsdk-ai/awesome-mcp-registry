@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "comfyui",
+  "description": "Integrates with ComfyUI to enable natural language-driven image generation using customizable Stable Diffusion workflows",
+  "url": "https://github.com/lalanikarim/comfy-mcp-pipeline",
+  "runtime": "python",
+  "license": "mit"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "file-finder",
+  "description": "Provides file search functionality within filesystems, returning detailed metadata for discovered files based on path fragments.",
+  "url": "https://github.com/kyan9400/file-finder-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}

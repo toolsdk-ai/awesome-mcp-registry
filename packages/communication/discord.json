@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "discord",
+  "description": "Integrates Discord chat, enabling message sending and reading.",
+  "url": "https://github.com/koladev32/mcp-discord-chat",
+  "runtime": "python",
+  "license": "unknown"
+}

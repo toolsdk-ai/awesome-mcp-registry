@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@cyanheads/toolkit-mcp-server",
+  "description": "Provides system utilities and tools for network diagnostics, monitoring, cryptography, and QR code generation.",
+  "url": "https://github.com/cyanheads/toolkit-mcp-server",
+  "runtime": "node",
+  "license": "unknown"
+}

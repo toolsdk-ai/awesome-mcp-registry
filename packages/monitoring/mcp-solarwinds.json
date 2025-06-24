@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-solarwinds",
+  "description": "Integrates with SolarWinds Observability logs, providing tools for searching, visualizing, and analyzing log data with advanced filtering options and customizable time ranges for DevOps and IT operations teams.",
+  "url": "https://github.com/jakenuts/mcp-solarwinds",
+  "runtime": "node",
+  "license": "unknown"
+}

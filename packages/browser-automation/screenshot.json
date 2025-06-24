@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "screenshot",
+  "description": "Capture website screenshots and save them to a file path specified by the user.",
+  "url": "https://github.com/kunihiros/screenshot-server",
+  "runtime": "python",
+  "license": "unknown"
+}

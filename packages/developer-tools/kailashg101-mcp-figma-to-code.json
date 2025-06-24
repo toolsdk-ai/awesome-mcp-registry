@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kailashg101/mcp-figma-to-code",
+  "description": "Extracts and analyzes components from Figma design files, enabling seamless integration between Figma designs and React Native development through component hierarchy processing and metadata generation.",
+  "url": "https://github.com/kailashappdev/figma-mcp-toolkit",
+  "runtime": "node",
+  "license": "unknown"
+}

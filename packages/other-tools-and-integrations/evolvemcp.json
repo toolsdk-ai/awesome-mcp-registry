@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "evolvemcp",
+  "description": "Extends Claude Desktop with custom tools for mathematical calculations, system monitoring, and enhanced functionality through an automated installation framework.",
+  "url": "https://github.com/kordless/gnosis-evolve",
+  "runtime": "python",
+  "license": "other"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "filesystem",
+  "description": "Implements an extensive list of filesystem operations for navigating, reading, writing, and analyzing files, enabling efficient file management and content generation tasks.",
+  "url": "https://github.com/kvas-it/mcp-server-fs",
+  "runtime": "python",
+  "license": "unknown"
+}

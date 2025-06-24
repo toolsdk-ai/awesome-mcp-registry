@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "solr-vector-search",
+  "description": "Bridges Apache Solr search indexes with vector embeddings for hybrid keyword and semantic document retrieval, enabling contextual searches against structured data repositories without direct database access",
+  "url": "https://github.com/allenday/solr-mcp",
+  "runtime": "python",
+  "license": "mit"
+}

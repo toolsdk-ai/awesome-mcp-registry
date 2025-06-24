@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "systemprompt-mcp-notion",
+  "description": "Bridges to Notion's knowledge management system, enabling creation and manipulation of pages, databases, and content.",
+  "url": "https://github.com/ejb503/systemprompt-mcp-notion",
+  "runtime": "node",
+  "license": "unknown"
+}

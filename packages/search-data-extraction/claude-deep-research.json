@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "claude-deep-research",
+  "description": "Extends research capabilities by providing unified access to web and academic information through DuckDuckGo and Semantic Scholar integrations, enabling multi-stage workflows for exploration, synthesis, and analysis with proper citations.",
+  "url": "https://github.com/mcherukara/claude-deep-research",
+  "runtime": "python",
+  "license": "unknown"
+}

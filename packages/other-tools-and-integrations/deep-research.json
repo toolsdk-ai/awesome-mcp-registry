@@ -1,0 +1,8 @@
+{
+  "type": "mcp-server",
+  "packageName": "deep-research",
+  "description": "Integrates multiple AI agents to conduct in-depth research on complex topics with customizable tones, providing detailed progress reporting and error handling.",
+  "url": "https://github.com/joshualelon/deep-research-mcp",
+  "runtime": "python",
+  "license": "unknown"
+}
