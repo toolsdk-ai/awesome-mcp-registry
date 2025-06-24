@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mockloop",
-  "description": "Generates fully functional FastAPI mock servers from OpenAPI specifications with Docker support, authentication middleware, request logging, and admin interfaces for API testing and development workflows.",
-  "url": "https://github.com/mockloop/mockloop-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

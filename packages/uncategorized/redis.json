@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "redis",
-  "description": "Enables AI tools to interact with Redis databases through key-value operations, pattern-based key listing, and configurable expiration settings",
-  "url": "https://github.com/yyue9527/redis-mcp-server",
-  "runtime": "java",
-  "license": "unknown"
-}

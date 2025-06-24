@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "sec-edgar",
-  "description": "Provides access to SEC EDGAR financial data through tools for retrieving company submissions, financial concepts, standardized facts, and XBRL frames for investment research and regulatory compliance.",
-  "url": "https://github.com/stefanoamorelli/sec-edgar-mcp",
+  "description": "Enables AI systems to access and analyze SEC EDGAR filings data, providing tools for retrieving proxy statements with executive compensation information and Form 4 filings for insider trading details.",
+  "url": "https://github.com/flothjl/edgar-sec-mcp",
   "runtime": "python",
-  "license": "mit"
+  "license": "unknown"
 }

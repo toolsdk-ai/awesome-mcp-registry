@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@powerdrillai/powerdrill-mcp",
-  "description": "Provides tools to interact with Powerdrill datasets to perform data work.",
-  "url": "https://github.com/powerdrillai/powerdrill-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-memory-libsql",
-  "description": "Provides a LibSQL-based persistent memory database for storing and retrieving knowledge graph entities and relations across conversations.",
-  "url": "https://github.com/spences10/mcp-memory-libsql",
-  "runtime": "node",
-  "license": "unknown"
-}

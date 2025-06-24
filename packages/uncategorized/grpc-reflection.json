@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "grpc-reflection",
-  "description": "Integrates with gRPC services using grpcurl, enabling method invocation, service listing, and description with custom header support for versatile API interactions.",
-  "url": "https://github.com/wricardo/grpcurl-mcp",
-  "runtime": "go",
-  "license": "unknown"
-}

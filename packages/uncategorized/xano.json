@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "xano",
-  "description": "Connects Claude AI to Xano databases through Smithery, enabling direct querying, CRUD operations, and data management for building intelligent applications with structured data access.",
-  "url": "https://github.com/roboulos/xano-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

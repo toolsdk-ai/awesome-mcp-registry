@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-vault",
-  "description": "Enables secure Solana blockchain operations including balance checking, SOL transfers, transaction history retrieval, and token queries without exposing private keys to client applications",
-  "url": "https://github.com/olaxbt/solana-vault-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

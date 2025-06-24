@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@microsoft/clarity-mcp-server",
-  "description": "Enables AI to fetch and analyze Microsoft Clarity website analytics data including metrics like scroll depth, engagement time, and traffic with filtering by browser, device, and country.",
-  "url": "https://github.com/microsoft/clarity-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

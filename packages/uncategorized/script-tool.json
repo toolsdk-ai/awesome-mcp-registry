@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "script-tool",
-  "description": "Provides a secure, cross-platform command line script execution tool with built-in protections like timeout handling, output capture, and environment validation for safe remote script running across different operating systems.",
-  "url": "https://github.com/nguyenvanduocit/script-mcp",
-  "runtime": "go",
-  "license": "unknown"
-}

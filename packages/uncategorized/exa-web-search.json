@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "exa-web-search",
-  "description": "Integrates with Exa API to enable web search capabilities with filtering options for domains, text requirements, and date ranges, returning markdown-formatted results with titles, URLs, publication dates, and content summaries for real-time internet information access.",
-  "url": "https://github.com/mshojaei77/reactmcp",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kintone",
-  "description": "Enables interaction with Kintone's low/no code platform for listing apps, reading app info, and performing CRUD operations.",
-  "url": "https://github.com/macrat/mcp-server-kintone",
-  "runtime": "go",
-  "license": "mit"
-}

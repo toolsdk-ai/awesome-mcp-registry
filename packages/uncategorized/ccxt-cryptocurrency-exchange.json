@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "ccxt-cryptocurrency-exchange",
-  "description": "Integrates with major cryptocurrency exchanges via CCXT to provide real-time and historical market data for analysis, trading, and portfolio tracking.",
-  "url": "https://github.com/nayshins/mcp-server-ccxt",
+  "description": "Integrates with cryptocurrency exchanges through CCXT library to provide market data analysis and execute trading operations across spot, futures, and options markets without context switching.",
+  "url": "https://github.com/jcwleo/ccxt-mcp-server",
   "runtime": "python",
   "license": "mit"
 }

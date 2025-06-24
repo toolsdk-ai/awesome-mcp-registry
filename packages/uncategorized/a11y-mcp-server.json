@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "a11y-mcp-server",
-  "description": "Provides accessibility testing capabilities for web content using Axe-core, enabling evaluation of websites and HTML snippets against WCAG standards with detailed violation reports and remediation guidance.",
-  "url": "https://github.com/ronantakizawa/a11ymcp",
-  "runtime": "node",
-  "license": "unknown"
-}

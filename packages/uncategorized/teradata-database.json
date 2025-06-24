@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "teradata-database",
-  "description": "Provides direct access to Teradata database systems with specialized tools for executing queries, exploring database structures, monitoring performance, and analyzing data quality without leaving your conversation context.",
-  "url": "https://github.com/teradata/teradata-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

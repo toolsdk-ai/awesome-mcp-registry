@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "semantic-scholar",
-  "description": "Integrates with Semantic Scholar API to enable academic literature search, citation analysis, and paper recommendations at scale.",
-  "url": "https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server",
+  "description": "Provides a bridge to Semantic Scholar for searching and analyzing academic papers with tools for keyword searches, metadata access, and citation network exploration",
+  "url": "https://github.com/jackkuo666/semanticscholar-mcp-server",
   "runtime": "python",
-  "license": "mit"
+  "license": "unknown"
 }

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@rtuin/mcp-mermaid-validator",
-  "description": "Validates and renders Mermaid diagrams as SVG images, providing detailed error messages for invalid syntax to enhance visualization capabilities within conversations.",
-  "url": "https://github.com/rtuin/mcp-mermaid-validator",
-  "runtime": "node",
-  "license": "unknown"
-}

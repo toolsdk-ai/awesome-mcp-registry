@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "api-doc-mcp",
-  "description": "Transforms OpenAPI specifications into dynamic tools for interacting with external services, handling authentication, validation, and request routing without custom code.",
-  "url": "https://github.com/zkytech/api-doc-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

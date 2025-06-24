@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "zoom-(no-auth)",
-  "description": "Provides headless access to Zoom's API functionality for retrieving cloud recordings, meeting details, and transcripts without requiring direct user authentication.",
-  "url": "https://github.com/peakmojo/mcp-server-zoom-noauth",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

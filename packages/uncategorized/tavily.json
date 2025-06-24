@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tavily",
-  "description": "Integrates Tavily's search API with HTTP/HTTPS proxy support for web search capabilities in restricted network environments.",
-  "url": "https://github.com/tulong66/mcp-tavily-proxy",
-  "runtime": "python",
-  "license": "unknown"
-}

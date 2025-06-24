@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openregister",
-  "description": "Integrates with the German company register through the OpenRegister API to search for companies by name or register number, retrieve detailed company information including historical data and financials, and access shareholder information for business research and due diligence.",
-  "url": "https://github.com/syndicats/openregister-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

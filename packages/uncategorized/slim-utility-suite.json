@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "slim-utility-suite",
-  "description": "Integrates diverse utility services including weather data, email, task management, currency conversion, and calendar functions through a RESTful API for seamless incorporation into applications.",
-  "url": "https://github.com/webdevtodayjason/slim-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

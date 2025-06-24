@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wordpress-server",
-  "description": "Integrates WordPress with AI systems to enable automated content creation, site management, and data analysis for WordPress-based websites.",
-  "url": "https://github.com/stefans71/wordpress-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

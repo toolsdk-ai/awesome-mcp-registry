@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "typesense-candidate-search",
-  "description": "Integrates with Typesense search to enable natural language queries for candidate profiles and resumes with powerful filtering, sorting, and grouping capabilities for recruitment workflows.",
-  "url": "https://github.com/sourabh-khot65/typesense-mcp-server",
-  "runtime": "go",
-  "license": "unknown"
-}

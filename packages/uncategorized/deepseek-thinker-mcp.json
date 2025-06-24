@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deepseek-thinker-mcp",
-  "description": "Integrates with DeepSeek Thinker model to enable chain-of-thought reasoning and complex problem-solving for applications requiring advanced cognitive capabilities.",
-  "url": "https://github.com/ruixingshi/deepseek-thinker-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

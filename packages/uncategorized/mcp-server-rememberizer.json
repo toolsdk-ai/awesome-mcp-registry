@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-rememberizer",
-  "description": "Leverage Rememberizer's document API for AI-powered semantic search and retrieval of enterprise knowledge.",
-  "url": "https://github.com/skydeckai/mcp-server-rememberizer",
-  "runtime": "python",
-  "license": "unknown"
-}

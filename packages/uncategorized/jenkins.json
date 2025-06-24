@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "jenkins",
-  "description": "Make Jenkins REST API calls to provide common operation interfaces for Jenkins jobs.",
-  "url": "https://github.com/programmeragua/jenkins-mcp-server",
-  "runtime": "java",
+  "description": "Integrates with Jenkins CI/CD operations, enabling job listing, build triggering, and status checking for streamlined DevOps automation and pipeline management.",
+  "url": "https://github.com/kjozsa/jenkins-mcp",
+  "runtime": "python",
   "license": "apache-2.0"
 }

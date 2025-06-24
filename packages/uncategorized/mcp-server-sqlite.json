@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-sqlite",
-  "description": "Query and analyze SQLite databases directly.",
-  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/sqlite",
-  "runtime": "python",
-  "license": "unknown"
-}

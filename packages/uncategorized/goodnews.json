@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "goodnews",
-  "description": "Filters and ranks news articles from NewsAPI based on positive sentiment, delivering uplifting headlines amid potentially negative media cycles.",
-  "url": "https://github.com/vectorinstitute/mcp-goodnews",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

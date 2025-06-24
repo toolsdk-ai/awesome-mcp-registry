@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@mshaaban0/contentful-delivery-mcp-server",
-  "description": "Integrates with Contentful's Delivery API to enable querying and retrieving structured content using keywords or sentences, facilitating content-driven applications and dynamic websites.",
-  "url": "https://github.com/mshaaban0/contentful-delivery-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

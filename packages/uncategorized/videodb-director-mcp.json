@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "videodb-director-mcp",
-  "description": "Bridges to VideoDB's video processing capabilities for searching, indexing, subtitling, and manipulating video content through specialized context resources.",
-  "url": "https://github.com/video-db/agent-toolkit/tree/HEAD/modelcontextprotocol",
-  "runtime": "python",
-  "license": "unknown"
-}

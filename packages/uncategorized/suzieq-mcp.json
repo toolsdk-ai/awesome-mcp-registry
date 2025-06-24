@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "suzieq-mcp",
-  "description": "Interact with a SuzieQ network observability instance via its REST API.",
-  "url": "https://github.com/povedaaqui/suzieq-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "turkish-legal-databases",
-  "description": "Integrates with Turkish legal databases to provide unified search and retrieval of court decisions from Yargitay, Danistay, Constitutional Court, and UYAP Emsal systems in Markdown format.",
-  "url": "https://github.com/saidsurucu/yargi-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

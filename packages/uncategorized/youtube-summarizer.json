@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "youtube-summarizer",
-  "description": "Integrates with a YouTube summarization API to enable video analysis, retrieval of summaries, and follow-up conversations about content.",
-  "url": "https://github.com/trilogy-group/youtube-summarizer-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

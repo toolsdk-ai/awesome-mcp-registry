@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "tavily-search",
-  "description": "Integrates with Tavily API to provide web search capabilities, returning AI-generated responses with source information in a containerized, cross-platform solution.",
-  "url": "https://github.com/yeonwoosung/metasearch-mcp",
+  "description": "Integrates with Tavily search API to enable natural language web queries for retrieving up-to-date, contextual information from across the internet.",
+  "url": "https://github.com/arben-adm/tavily-mcp-search",
   "runtime": "python",
   "license": "mit"
 }

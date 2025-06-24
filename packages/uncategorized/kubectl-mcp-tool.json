@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kubectl-mcp-tool",
-  "description": "Enables natural language interaction with Kubernetes resources, allowing developers to manage clusters through conversational interfaces instead of complex kubectl commands.",
-  "url": "https://github.com/rohitg00/kubectl-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

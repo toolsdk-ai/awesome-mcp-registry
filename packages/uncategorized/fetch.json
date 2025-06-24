@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fetch",
-  "description": "Enables web content retrieval through a Go-based server that fetches text and images from URLs with customizable HTTP requests, headers, and timeouts.",
-  "url": "https://github.com/oxplot/fetch-mcp",
-  "runtime": "go",
-  "license": "unknown"
-}

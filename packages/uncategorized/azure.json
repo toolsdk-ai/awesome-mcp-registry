@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure",
-  "description": "Integrates with Azure Blob Storage and Cosmos DB to enable secure reading, manipulation, and querying of cloud data resources.",
-  "url": "https://github.com/mashriram/azure_mcp_server",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@translated/lara-mcp",
-  "description": "Bridges to the Lara Translation API for accurate, context-aware text translations between languages with automatic language detection capabilities.",
-  "url": "https://github.com/translated/lara-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

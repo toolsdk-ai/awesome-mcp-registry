@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "python-repl",
-  "description": "Provides a Python REPL server for executing code and shell commands, enabling complex data analysis and system administration tasks.",
-  "url": "https://github.com/lyuhau/claude-mcp-repl",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "local-code-search",
-  "description": "Locally indexes codebases using ChromaDB to enable semantic code search without sending code to external services, featuring real-time updates through file system watchers and configurable ignore patterns.",
-  "url": "https://github.com/luotocompany/cursor-local-indexing",
-  "runtime": "python",
-  "license": "unknown"
-}

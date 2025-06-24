@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "roam-research",
-  "description": "Integrates with Roam Research to enable searching, creating, and managing knowledge base content with features like block search, page creation, and YouTube transcript retrieval",
-  "url": "https://github.com/philosolares/roam-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

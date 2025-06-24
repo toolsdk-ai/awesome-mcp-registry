@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-superiorapis",
-  "description": "Provides a bridge between AI systems and external APIs, enabling structured communication with third-party services through a set of callable tools built on the fastmcp framework.",
-  "url": "https://github.com/cteaminfo/mcp-superiorapis",
-  "runtime": "python",
-  "license": "unknown"
-}

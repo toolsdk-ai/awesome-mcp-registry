@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "trakt",
-  "description": "Bridge to the Trakt.tv API, allowing LLMs to access real-time entertainment data and personal Trakt viewing history.",
-  "url": "https://github.com/wwiens/trakt_mcpserver",
-  "runtime": "python",
-  "license": "unknown"
-}

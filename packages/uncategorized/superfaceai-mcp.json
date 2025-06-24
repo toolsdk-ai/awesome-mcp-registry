@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@superfaceai/mcp",
-  "description": "Bridges AI assistants with Superface's API tools ecosystem, enabling external API integrations while maintaining separation between assistants and third-party services",
-  "url": "https://github.com/superfaceai/mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

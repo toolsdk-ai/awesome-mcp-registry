@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "penpot-mcp",
-  "description": "Integrates with Penpot's API to enable project browsing, file retrieval, object searching, and visual component export with automatic screenshot generation for converting UI designs into functional code.",
-  "url": "https://github.com/montevive/penpot-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

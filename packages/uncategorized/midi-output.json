@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "midi-output",
-  "description": "Creates a virtual MIDI output port for sending notes, control changes, and timed sequences to any compatible software or hardware synthesizer.",
-  "url": "https://github.com/sandst1/mcp-server-midi",
-  "runtime": "python",
-  "license": "unknown"
-}

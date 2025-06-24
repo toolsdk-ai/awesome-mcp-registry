@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tianji-mcp-server",
-  "description": "Bridges AI assistants with the Tianji platform to enable survey management, including querying results, retrieving detailed information, and listing workspace surveys without navigating the Tianji interface.",
-  "url": "https://github.com/msgbyte/tianji",
-  "runtime": "node",
-  "license": "unknown"
-}

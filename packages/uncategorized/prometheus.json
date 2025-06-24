@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "prometheus",
-  "description": "Connects AI systems to Prometheus monitoring infrastructure for executing PromQL queries, discovering metrics, and retrieving target metadata to enable real-time operational analytics and performance monitoring.",
-  "url": "https://github.com/pab1it0/prometheus-mcp-server",
-  "runtime": "python",
+  "description": "Enables querying and analyzing Prometheus metrics data with tools for executing PromQL queries, retrieving series data, accessing metadata, and monitoring scrape targets, alerts, and rules for infrastructure troubleshooting and system health monitoring.",
+  "url": "https://github.com/cgoolsby/prometheus-mcp",
+  "runtime": "go",
   "license": "mit"
 }

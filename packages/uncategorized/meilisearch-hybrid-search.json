@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "meilisearch-hybrid-search",
-  "description": "Bridges Claude with Meilisearch's hybrid search capabilities, enabling adjustable semantic-to-keyword ratio searches with customizable document filtering for precise information retrieval.",
-  "url": "https://github.com/miiton/meilisearch-hybrid-search-mcp",
-  "runtime": "go",
-  "license": "unknown"
-}

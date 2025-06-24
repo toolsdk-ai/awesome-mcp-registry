@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "kubernetes",
-  "description": "Integrates with Kubernetes clusters to manage resources, retrieve pod logs, execute commands in containers, and apply YAML manifests with configurable timeouts and rate limiting for DevOps automation and cluster monitoring.",
-  "url": "https://github.com/stackloklabs/mkp",
+  "description": "Provides a bridge between Kubernetes clusters and AI systems for monitoring, troubleshooting, and managing resources like pods, deployments, and services without requiring direct kubectl access.",
+  "url": "https://github.com/briankscheong/k8s-mcp-server",
   "runtime": "go",
-  "license": "apache-2.0"
+  "license": "mit"
 }

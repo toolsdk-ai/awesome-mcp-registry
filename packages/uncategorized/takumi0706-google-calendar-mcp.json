@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@takumi0706/google-calendar-mcp",
-  "description": "Integrates with Google Calendar to enable retrieving, creating, updating, and deleting calendar events through OAuth2 authentication and local token storage.",
-  "url": "https://github.com/takumi0706/google-calendar-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@niledatabase/nile-mcp-server",
-  "description": "Integrates with Nile Database services to enable database operations through TypeScript-based server implementation supporting both stdio and HTTP communication modes for seamless database functionality in AI workflows.",
-  "url": "https://github.com/niledatabase/nile-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

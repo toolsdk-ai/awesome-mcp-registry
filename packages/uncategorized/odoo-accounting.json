@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "odoo-accounting",
-  "description": "Connects Odoo ERP systems with accounting data, enabling financial analysts to query vendor bills, customer invoices, payments, and reconciliations through natural language interactions.",
-  "url": "https://github.com/yourtechtribe/model-context-protocol-mcp-odoo",
-  "runtime": "python",
-  "license": "mit"
-}

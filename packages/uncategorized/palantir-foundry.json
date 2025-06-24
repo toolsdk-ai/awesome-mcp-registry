@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "palantir-foundry",
-  "description": "Bridges to Palantir Foundry platform, enabling ontology data interaction and SQL query execution against datasets with tools for listing types, querying objects, executing SQL, and running ontology functions.",
-  "url": "https://github.com/qwert666/mcp-server-foundry",
-  "runtime": "python",
-  "license": "mit"
-}

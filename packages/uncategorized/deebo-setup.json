@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deebo-setup",
-  "description": "Autonomous debugging system that works alongside AI coding agents.",
-  "url": "https://github.com/snagasuri/deebo-prototype",
-  "runtime": "node",
-  "license": "unknown"
-}

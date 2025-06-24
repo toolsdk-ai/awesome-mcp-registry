@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "duckduckgo-search",
-  "description": "Integrates with DuckDuckGo to enable web search functionality, returning results as structured data for easy incorporation into AI workflows.",
-  "url": "https://github.com/lowlyocean/mcp-ddgs",
+  "description": "Integrates with DuckDuckGo's public interface to provide web search functionality, offering advanced features like detailed result exploration, related searches, pagination, and content extraction for research and information gathering tasks.",
+  "url": "https://github.com/gianlucamazza/mcp-duckduckgo",
   "runtime": "python",
-  "license": "unknown"
+  "license": "mit"
 }

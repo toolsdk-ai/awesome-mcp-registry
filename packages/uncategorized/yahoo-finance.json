@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "yahoo-finance",
-  "description": "Integrates with Yahoo Finance API to provide real-time stock prices, company information, historical data, and market news through LLaMA 3.2 3B while preserving all regular model capabilities.",
-  "url": "https://github.com/shak2000/stockmcp",
+  "description": "Provides real-time financial data and visualization tools through Yahoo Finance API for stock prices, company information, and market analysis with interactive charts and dashboards.",
+  "url": "https://github.com/leoncuhk/mcp-yahoo-finance",
   "runtime": "python",
   "license": "unknown"
 }

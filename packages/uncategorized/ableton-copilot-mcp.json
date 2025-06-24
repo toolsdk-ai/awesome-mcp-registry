@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ableton-copilot-mcp",
-  "description": "AI assistant for Ableton Live music production.",
-  "url": "https://github.com/xiaolaa2/ableton-copilot-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

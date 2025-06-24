@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "street-view",
-  "description": "Provides a bridge to Google Street View API for fetching and displaying street imagery by address, coordinates, or panorama ID with customizable parameters for virtual exploration and location visualization.",
-  "url": "https://github.com/vlad-ds/street-view-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

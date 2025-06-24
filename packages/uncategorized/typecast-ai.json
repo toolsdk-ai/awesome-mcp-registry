@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "typecast-ai",
-  "description": "Bridges to Typecast AI text-to-speech service, enabling high-quality voice synthesis with customizable emotional expression, volume, and playback speed for content creation and interactive voice applications.",
-  "url": "https://github.com/neosapience/typecast-api-mcp-server-sample",
-  "runtime": "python",
-  "license": "unknown"
-}

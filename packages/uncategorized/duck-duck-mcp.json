@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "duck-duck-mcp",
-  "description": "Integrates with DuckDuckGo's search engine to enable web searches for up-to-date information retrieval and fact-checking.",
-  "url": "https://github.com/qwang07/duck-duck-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

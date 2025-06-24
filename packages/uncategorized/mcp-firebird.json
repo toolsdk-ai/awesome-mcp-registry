@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-firebird",
-  "description": "Enables secure access to Firebird SQL databases through natural language, supporting table listing, schema descriptions, query execution, and field metadata retrieval with comprehensive security features like data masking and operation restrictions.",
-  "url": "https://github.com/purodelphi/mcpfirebird",
-  "runtime": "node",
-  "license": "unknown"
-}

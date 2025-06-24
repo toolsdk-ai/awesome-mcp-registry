@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nefino",
-  "description": "Integrates with the Nefino API to retrieve and filter news about German renewable energy projects, supporting market analysis, policy tracking, and environmental impact assessments.",
-  "url": "https://github.com/nefino/mcp-nefino",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

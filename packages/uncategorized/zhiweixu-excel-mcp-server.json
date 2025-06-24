@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@zhiweixu/excel-mcp-server",
-  "description": "Enables direct interaction with Excel files for reading sheet names, extracting data, and managing workbook caching to improve performance with large spreadsheets.",
-  "url": "https://github.com/zhiwei5576/excel-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

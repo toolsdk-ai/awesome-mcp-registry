@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-openapi",
-  "description": "Dynamically generates tools from OpenAPI specifications, enabling seamless interaction with a wide range of RESTful APIs for flexible service integration and rapid prototyping.",
-  "url": "https://github.com/rmasters/mcp-openapi",
-  "runtime": "python",
-  "license": "unknown"
-}

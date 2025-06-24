@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "bilibili",
-  "description": "Integrates with Bilibili's video-sharing platform to enable keyword-based searching for videos, users, and content through the bilibili-api-python library.",
-  "url": "https://github.com/mr-house/bilibili-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
+  "description": "Provides a bridge to the Bilibili video-sharing platform for retrieving user profiles, listing followed accounts, and discovering videos through authenticated API access",
+  "url": "https://github.com/dnullp/bilibili-mcp-server",
+  "runtime": "go",
+  "license": "mit"
 }

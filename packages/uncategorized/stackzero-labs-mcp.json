@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@stackzero-labs/mcp",
-  "description": "Integrates with Stackzero Labs' commerce UI component library to browse, retrieve, and install React components optimized for e-commerce applications including ratings, image viewers, product controls, and banner blocks with installation instructions and usage examples.",
-  "url": "https://github.com/stackzero-labs/mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cleanuri-url-shortener",
-  "description": "Integrates with CleanURI API to transform long URLs into shortened links.",
-  "url": "https://github.com/talismanic/cleanuri-url-shortener-mcp",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ollama",
-  "description": "Bridges to Ollama, enabling local language model capabilities for writing assistance, code generation, and data analysis.",
-  "url": "https://github.com/vincentf305/mcp-server-ollama",
-  "runtime": "python",
-  "license": "unknown"
-}

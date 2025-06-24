@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "paylocity",
-  "description": "Integrates with Paylocity's HR and payroll API to enable secure access to employee data and payroll information directly within conversations, eliminating the need to switch to the Paylocity platform.",
-  "url": "https://github.com/mz462/mcppaylocity",
-  "runtime": "python",
-  "license": "unknown"
-}

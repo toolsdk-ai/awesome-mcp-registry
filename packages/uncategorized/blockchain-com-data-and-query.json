@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "blockchain.com-data-and-query",
-  "description": "Integrates with Blockchain.com's Data and Query APIs to enable Bitcoin blockchain data retrieval, analysis, and market monitoring for cryptocurrency applications.",
-  "url": "https://github.com/pavel-bc/mcp-blockchain-query",
-  "runtime": "python",
-  "license": "unknown"
-}

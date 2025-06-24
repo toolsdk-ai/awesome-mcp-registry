@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pdf-to-png",
-  "description": "Integrates with pdf2image to convert PDF documents to PNG images.",
-  "url": "https://github.com/truaxki/mcp-pdf2png",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "django-migrations",
-  "description": "Integrates Django migrations across distributed services, enabling coordinated database schema changes and enhanced migration safety for large-scale projects.",
-  "url": "https://github.com/mrrobotke/django-migrations-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

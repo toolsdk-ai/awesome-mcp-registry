@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "digitalocean",
-  "description": "Integrates with DigitalOcean's API to provide a secure, rate-limited interface for automating cloud resource management and infrastructure operations.",
-  "url": "https://github.com/luc-io/mcpserver",
-  "runtime": "python",
-  "license": "unknown"
+  "description": "Enables AI to manage DigitalOcean cloud infrastructure by providing access to account information, droplets, domains, firewalls, and other services for monitoring and automation tasks.",
+  "url": "https://github.com/digitalocean-labs/mcp-digitalocean",
+  "runtime": "go",
+  "license": "mit"
 }

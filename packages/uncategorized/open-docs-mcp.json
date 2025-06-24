@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "open-docs-mcp",
-  "description": "Crawls and indexes technical documentation sites with multi-language support using jieba-wasm and Lunr.js for full-text search capabilities",
-  "url": "https://github.com/askme765cs/open-docs-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

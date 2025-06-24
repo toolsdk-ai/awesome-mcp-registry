@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "playwright-console-debugger",
-  "description": "Enables real-time web debugging by using Playwright to open browsers, monitor console logs, and track network requests for structured analysis of web applications.",
-  "url": "https://github.com/operative-sh/playwright-consolelogs-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

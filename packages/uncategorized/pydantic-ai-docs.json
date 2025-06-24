@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pydantic-ai-docs",
-  "description": "Provides direct access to Pydantic-AI documentation with tools for retrieving specific documents, listing topics, and accessing changelog information without leaving your development environment.",
-  "url": "https://github.com/omniwaifu/pydantic-ai-docs-server",
-  "runtime": "python",
-  "license": "unknown"
-}

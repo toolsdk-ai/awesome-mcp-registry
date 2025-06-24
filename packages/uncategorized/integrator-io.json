@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "integrator.io",
-  "description": "Provides a lightweight server for retrieving customer data from Integrator.io via an async HTTP client with built-in error handling and environment-based configuration.",
-  "url": "https://github.com/yussefz/mcp-celigo",
-  "runtime": "python",
-  "license": "unknown"
-}

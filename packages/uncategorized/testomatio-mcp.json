@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@testomatio/mcp",
-  "description": "Integrates with the Testomatio API to search and retrieve test cases, test suites, test runs, and test plans with advanced filtering capabilities including tags, labels, priority levels, and Test Query Language support for QA teams managing large test repositories.",
-  "url": "https://github.com/testomatio/mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

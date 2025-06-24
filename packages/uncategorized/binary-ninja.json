@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "binary-ninja",
-  "description": "Integrates with Binary Ninja for reverse engineering tasks by providing tools to retrieve binary metadata, list functions, disassemble code, and decompile functions to C.",
-  "url": "https://github.com/opensensor/bn_cline_mcp",
+  "description": "Integrates with Binary Ninja reverse engineering platform to enable binary analysis tasks like function listing, code decompilation, symbol renaming, and structure analysis through a HTTP server bridge.",
+  "url": "https://github.com/fosdickio/binary_ninja_mcp",
   "runtime": "python",
   "license": "gpl-3.0"
 }

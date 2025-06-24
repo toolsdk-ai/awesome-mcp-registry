@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "sqlite-explorer",
-  "description": "Provides a bridge to SQLite databases for querying and analyzing data through SQL execution, enabling data exploration and insights generation without direct database access.",
-  "url": "https://github.com/prayanks/mcp-sqlite-server",
+  "description": "Secure, read-only access to query and analyze SQLite databases.",
+  "url": "https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
   "runtime": "python",
-  "license": "mit"
+  "license": "unknown"
 }

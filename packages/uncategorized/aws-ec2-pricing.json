@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aws-ec2-pricing",
-  "description": "Provides real-time AWS EC2 instance pricing data with powerful filtering capabilities for cost optimization and infrastructure planning",
-  "url": "https://github.com/trilogy-group/aws-pricing-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

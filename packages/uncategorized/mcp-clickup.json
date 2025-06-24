@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-clickup",
-  "description": "Integrates with ClickUp's API to enable task management, team collaboration, and workflow automation for AI-driven project management and reporting.",
-  "url": "https://github.com/mikah13/mcp-clickup",
-  "runtime": "node",
-  "license": "unknown"
-}

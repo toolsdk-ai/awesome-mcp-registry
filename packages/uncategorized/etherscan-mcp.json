@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "etherscan-mcp",
-  "description": "Provides a bridge to the Etherscan API for querying Ethereum blockchain data including account balances, transactions, contracts, tokens, gas metrics, and network statistics.",
-  "url": "https://github.com/xiaok/etherscan-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

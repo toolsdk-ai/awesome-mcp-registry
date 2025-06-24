@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@pinecone-database/mcp",
-  "description": "Develop with Pinecone, the vector database built for knowledgeable AI.",
-  "url": "https://github.com/pinecone-io/pinecone-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

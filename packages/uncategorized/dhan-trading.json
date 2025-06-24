@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dhan-trading",
-  "description": "Control your Dhan trading account through Claude using simple conversation. Check your account balance, view current holdings and positions, get live market prices, and place various orders (market, limit, stop-loss, bracket) - all by simply asking your LLM",
-  "url": "https://github.com/mayankthole/dhan-mcp-trades",
-  "runtime": "python",
-  "license": "unknown"
-}

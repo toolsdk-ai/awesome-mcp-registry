@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "brave-search-mcp",
-  "description": "Provides a bridge to the Brave Search API for performing web, image, video, news, and local business searches with configurable parameters and robust error handling.",
-  "url": "https://github.com/mikechao/brave-search-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

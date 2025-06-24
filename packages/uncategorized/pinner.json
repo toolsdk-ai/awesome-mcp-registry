@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pinner",
-  "description": "Secures software supply chains by pinning dependencies to immutable versions, resolving GitHub references to commit SHAs and Docker image tags to digests to prevent dependency substitution attacks.",
-  "url": "https://github.com/safedep/pinner-mcp",
-  "runtime": "go",
-  "license": "apache-2.0"
-}

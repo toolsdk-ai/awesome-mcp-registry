@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "coincap-mcp",
-  "description": "Access cryptocurrency price data without authentication.",
-  "url": "https://github.com/quantgeekdev/coincap-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

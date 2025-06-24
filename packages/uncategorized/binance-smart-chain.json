@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "binance-smart-chain",
-  "description": "Enables blockchain operations on Binance Smart Chain including token deployment, trading, and asset management through Web3.py integration with PancakeSwap V3 for cryptocurrency workflows.",
-  "url": "https://github.com/stopwarbywar/beeper-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

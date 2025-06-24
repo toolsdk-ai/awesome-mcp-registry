@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deepseek",
-  "description": "Integrates with Deepseek models via a simple API bridge.",
-  "url": "https://github.com/vincentf305/mcp-server-deepseek",
-  "runtime": "python",
-  "license": "mit"
-}

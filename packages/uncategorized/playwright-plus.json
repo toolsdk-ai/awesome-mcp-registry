@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "playwright-plus",
-  "description": "Enables web automation with Playwright for browsing, form filling, screenshot capture, and JavaScript execution, plus a simple note storage system for content extraction and manipulation.",
-  "url": "https://github.com/williamvd4/playwright-plus-python-mcp",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ansible-automation-platform",
-  "description": "Integrates with Ansible Automation Platform, OpenShift, and Event-Driven Ansible to enable advanced automation workflows, inventory management, and job template execution for DevOps teams.",
-  "url": "https://github.com/rlopez133/mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "obsidian-index",
-  "description": "Integrates Obsidian vaults with semantic search capabilities, enabling context-aware retrieval of personal knowledge.",
-  "url": "https://github.com/tcsavage/mcp-obsidian-index",
-  "runtime": "python",
-  "license": "unknown"
-}

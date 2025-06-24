@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-brave-search",
-  "description": "Retrieve web pages, news, and local business results via Brave API.",
-  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/brave-search",
-  "runtime": "node",
-  "license": "unknown"
-}

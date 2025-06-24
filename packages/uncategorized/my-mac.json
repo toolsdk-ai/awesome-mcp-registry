@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "my-mac",
-  "description": "Provides AI with real-time Mac system information through a lightweight local server that safely executes verified commands for hardware specs, configuration, and resource usage data.",
-  "url": "https://github.com/zhongmingyuan/mcp-my-mac",
-  "runtime": "python",
-  "license": "mit"
-}

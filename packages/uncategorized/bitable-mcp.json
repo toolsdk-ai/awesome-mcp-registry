@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bitable-mcp",
-  "description": "Connects to Lark Bitable for SQL-like querying of structured data, enabling table listing, schema inspection, and read operations using Lark API credentials.",
-  "url": "https://github.com/lloydzhou/bitable-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

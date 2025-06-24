@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-google-sheets",
-  "description": "Integrates with Google Drive and Google Sheets to create, read, update, and manage spreadsheets with support for both OAuth and service account authentication methods.",
-  "url": "https://github.com/xing5/mcp-google-sheets",
-  "runtime": "python",
-  "license": "unknown"
-}

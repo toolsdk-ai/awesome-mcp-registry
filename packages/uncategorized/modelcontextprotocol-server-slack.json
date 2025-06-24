@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-slack",
-  "description": "Send messages, manage channels, and access workspace history.",
-  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/slack",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "ida-pro",
-  "description": "Enables direct interaction with IDA Pro for binary analysis tasks including disassembly, decompilation, and function querying for malware analysis and vulnerability research.",
-  "url": "https://github.com/taida957789/ida-mcp-server-plugin",
+  "description": "Provides a bridge to IDA Pro for reverse engineering and binary analysis tasks through a remote control plugin that enables script execution, string/function analysis, and disassembly via HTTP endpoints",
+  "url": "https://github.com/fdrechsler/mcp-server-idapro",
   "runtime": "python",
   "license": "mit"
 }

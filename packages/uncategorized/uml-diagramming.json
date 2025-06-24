@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "uml-diagramming",
-  "description": "Integrates with UML diagramming tools to generate visual representations of system architecture, class relationships, and process flows directly from code or text descriptions within conversational interfaces.",
-  "url": "https://github.com/swayingleaves/uml-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

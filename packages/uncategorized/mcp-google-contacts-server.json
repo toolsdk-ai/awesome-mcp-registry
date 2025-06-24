@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-google-contacts-server",
-  "description": "Integrates with Google Contacts to enable listing, searching, creating, updating, and deleting contacts from both personal accounts and Google Workspace directories.",
-  "url": "https://github.com/rayanzaki/mcp-google-contacts-server",
-  "runtime": "python",
-  "license": "unknown"
-}

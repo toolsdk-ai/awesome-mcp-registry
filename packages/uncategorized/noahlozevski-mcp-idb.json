@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@noahlozevski/mcp-idb",
-  "description": "Integrates with Facebook's iOS Development Bridge (idb) to enable automated iOS device management, test execution, UI interactions, and app installation through a simple npm module.",
-  "url": "https://github.com/noahlozevski/mcp-idb",
-  "runtime": "node",
-  "license": "unknown"
-}

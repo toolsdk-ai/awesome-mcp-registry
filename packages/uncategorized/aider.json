@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "aider",
-  "description": "Enables file editing, creation, code extraction, and git operations directly within conversations through tools like edit_files, create_files, and git_status.",
-  "url": "https://github.com/sengokudaikon/aider-mcp-server",
+  "description": "Aider MCP Server offloads AI coding tasks to Aider's specialized implementation, reducing costs and enhancing development efficiency through natural language code changes and model selection.",
+  "url": "https://github.com/disler/aider-mcp-server",
   "runtime": "python",
-  "license": "unlicense"
+  "license": "unknown"
 }

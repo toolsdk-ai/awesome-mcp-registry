@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "deep-research",
-  "description": "Guides structured research processes through systematic question elaboration, web searching, and data synthesis to produce well-cited, properly formatted reports for educational and professional contexts.",
-  "url": "https://github.com/reading-plus-ai/mcp-server-deep-research",
+  "description": "Integrates multiple AI agents to conduct in-depth research on complex topics with customizable tones, providing detailed progress reporting and error handling.",
+  "url": "https://github.com/joshualelon/deep-research-mcp",
   "runtime": "python",
-  "license": "mit"
+  "license": "unknown"
 }

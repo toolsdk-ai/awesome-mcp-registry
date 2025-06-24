@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "code-analysis",
-  "description": "Integrates code analysis with scraping capabilities to enable code review, static analysis, and automated refactoring suggestions for development teams.",
-  "url": "https://github.com/saiprashanths/code-analysis-mcp",
-  "runtime": "python",
-  "license": "unknown"
+  "description": "Integrates code analysis using a Neo4j graph database to enable structural insights, quality metrics, and natural language querying of codebases.",
+  "url": "https://github.com/davidvc/code-mcp",
+  "runtime": "java",
+  "license": "apache-2.0"
 }

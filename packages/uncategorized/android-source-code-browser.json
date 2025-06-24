@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "android-source-code-browser",
-  "description": "Enables secure access to Android project files for browsing and analyzing source code, with validation for authentic projects and filtering to prevent access to sensitive directories.",
-  "url": "https://github.com/sdilogin/filesystem-android",
-  "runtime": "python",
-  "license": "mit"
-}

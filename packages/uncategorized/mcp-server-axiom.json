@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-axiom",
-  "description": "Integrates with Axiom for executing APL queries and listing datasets, enabling log analysis, anomaly detection, and data-driven decision making.",
-  "url": "https://github.com/thetabird/mcp-server-axiom-js",
-  "runtime": "node",
-  "license": "unknown"
-}

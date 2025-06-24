@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "together-mcp",
-  "description": "Integrates with Together AI's Flux.1 Schnell model to provide high-quality image generation with customizable dimensions, clear error handling, and optional image saving.",
-  "url": "https://github.com/manascb1344/together-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

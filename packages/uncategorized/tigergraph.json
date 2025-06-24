@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tigergraph",
-  "description": "Integrates with TigerGraph graph databases to enable direct interaction with graph data through specialized tools for vertex manipulation, schema retrieval, and query execution.",
-  "url": "https://github.com/muzain187/tg_mcp",
-  "runtime": "python",
-  "license": "mit"
-}

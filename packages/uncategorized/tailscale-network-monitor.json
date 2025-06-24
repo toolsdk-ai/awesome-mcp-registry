@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tailscale-network-monitor",
-  "description": "Provides read-only access to your Tailscale network for monitoring connected devices, checking network status, running diagnostics, and querying exit nodes without modifying configuration.",
-  "url": "https://github.com/paulsmith/tailscale-mcp-server",
-  "runtime": "go",
-  "license": "mit"
-}

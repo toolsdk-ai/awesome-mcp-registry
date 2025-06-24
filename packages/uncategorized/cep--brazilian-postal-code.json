@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cep-(brazilian-postal-code)",
-  "description": "Provides a simple interface for querying Brazilian postal codes (CEPs) via the ViaCEP API, enabling address validation and expansion without leaving conversation context.",
-  "url": "https://github.com/wendellbigato/mcp-cep",
-  "runtime": "python",
-  "license": "mit"
-}

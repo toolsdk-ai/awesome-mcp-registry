@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "apache-seatunnel",
-  "description": "Interact with SeaTunnel through LLM interfaces like Claude.",
-  "url": "https://github.com/ocean-zhc/seatunnel-mcp",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

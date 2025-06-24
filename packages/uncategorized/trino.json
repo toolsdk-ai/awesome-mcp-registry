@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "trino",
-  "description": "Enables SQL query execution against Trino databases with tools for data exploration, schema retrieval, and analysis without writing complex queries manually.",
-  "url": "https://github.com/tuannvm/mcp-trino",
-  "runtime": "go",
-  "license": "unknown"
-}

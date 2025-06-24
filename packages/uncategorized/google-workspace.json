@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "google-workspace",
-  "description": "Integrates with Google Workspace to enable seamless interaction with Gmail, Drive, Docs, and Calendar for searching emails, retrieving messages, managing events, and manipulating documents without context switching.",
-  "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+  "description": "Integrates with Google Workspace to enable document creation, search, and management across Drive, Docs, and Sheets using OAuth authentication and multiple transport modes",
+  "url": "https://github.com/adexltd/mcp-google-suite",
   "runtime": "python",
   "license": "mit"
 }

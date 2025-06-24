@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "searxng",
-  "description": "Enables web search capabilities through a configurable SearxNG instance, providing privacy-focused information retrieval with support for infoboxes and formatted text results.",
-  "url": "https://github.com/reuteras/mcp-search-searxng",
-  "runtime": "python",
-  "license": "unknown"
-}

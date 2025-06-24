@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fiscal-data-mcp",
-  "description": "Integrates with the US Treasury's Fiscal Data API to fetch, analyze, and generate reports on treasury statements and historical financial data.",
-  "url": "https://github.com/quantgeekdev/fiscal-data-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

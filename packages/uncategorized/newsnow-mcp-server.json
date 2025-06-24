@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "newsnow-mcp-server",
-  "description": "Provides a bridge to the NewsNow platform for retrieving trending and latest news from various sources with customizable result limits and markdown-formatted output.",
-  "url": "https://github.com/ourongxing/newsnow-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

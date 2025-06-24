@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "davinci-resolve",
-  "description": "Integrates with DaVinci Resolve video editing software to enable direct access to projects, timelines, media pools, and color grading tools without switching between applications.",
-  "url": "https://github.com/tooflex/davinci-resolve-mcp",
+  "description": "Enables Claude to directly interact with and control DaVinci Resolve through its Python API, providing tools for project management, timeline manipulation, media organization, and Fusion integration.",
+  "url": "https://github.com/apvlv/davinci-resolve-mcp",
   "runtime": "python",
   "license": "unknown"
 }

@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "code-indexer",
-  "description": "Indexes and retrieves code snippets using embedding models and vector databases, enabling efficient code search and analysis for software development tasks.",
-  "url": "https://github.com/zxfgds/mcp-code-indexer",
+  "description": "Indexes and analyzes code repositories to enable file navigation, pattern searching, and complexity assessment across multiple programming languages through persistent project settings and efficient dependency management.",
+  "url": "https://github.com/johnhuang316/code-index-mcp",
   "runtime": "python",
-  "license": "unknown"
+  "license": "mit"
 }

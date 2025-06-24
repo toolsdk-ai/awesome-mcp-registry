@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "meilisearch",
-  "description": "Integrates Meilisearch's search capabilities for fast, typo-tolerant indexing and querying of documents in AI-powered applications.",
-  "url": "https://github.com/meilisearch/meilisearch-mcp",
-  "runtime": "python",
-  "license": "mit"
+  "description": "Integrates with Meilisearch to enable powerful search operations with filtering and sorting capabilities for structured data retrieval",
+  "url": "https://github.com/cnosuke/mcp-meilisearch",
+  "runtime": "go",
+  "license": "unknown"
 }

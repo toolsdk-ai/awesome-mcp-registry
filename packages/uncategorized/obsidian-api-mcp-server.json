@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "obsidian-api-mcp-server",
-  "description": "Integrates with Obsidian vaults through the Local REST API plugin to enable advanced search with flexible filters, complete note content retrieval, and vault structure browsing for knowledge discovery and analysis workflows.",
-  "url": "https://github.com/pmmvr/obsidian-api-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

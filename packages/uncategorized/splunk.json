@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "splunk",
-  "description": "Integrates with Splunk Enterprise and Cloud instances to execute SPL queries, retrieve index metadata, and run saved searches with comprehensive output formats while providing safety guardrails against destructive operations.",
-  "url": "https://github.com/splunk/splunk-mcp-server2",
+  "description": "Integrates with Splunk Enterprise/Cloud to enable natural language-driven searches, index management, user handling, and KV store operations through a Python-based interface supporting both command-line and web server integration.",
+  "url": "https://github.com/livehybrid/splunk-mcp",
   "runtime": "python",
-  "license": "unknown"
+  "license": "apache-2.0"
 }

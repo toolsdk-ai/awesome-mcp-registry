@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudinary-mcp-server",
-  "description": "Provides direct access to Cloudinary's Upload and Admin APIs for uploading, retrieving, searching, and managing digital media assets in your Cloudinary cloud.",
-  "url": "https://github.com/yoavniran/cloudinary-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

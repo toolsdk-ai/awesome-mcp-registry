@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-tts",
-  "description": "Integrates with Zonos TTS API to generate expressive, multi-language speech output for AI applications using PulseAudio playback",
-  "url": "https://github.com/phialsbasement/zonos-tts-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

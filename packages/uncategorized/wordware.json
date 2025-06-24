@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wordware",
-  "description": "Provides a bridge to Wordware's API services for creating Notion pages, performing Google searches, retrieving Wikipedia information, and querying Google News",
-  "url": "https://github.com/nealmalhotra/wordware-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

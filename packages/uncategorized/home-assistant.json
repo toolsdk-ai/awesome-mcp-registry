@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "home-assistant",
-  "description": "Integrates with Home Assistant to enable natural language control of smart home devices, querying device states, troubleshooting automations, and summarizing home configurations through a Docker container that communicates with the Home Assistant API.",
-  "url": "https://github.com/voska/hass-mcp",
+  "description": "Enables direct control of smart home devices through Home Assistant API, allowing natural language searching of entities and management of device states, light colors, and brightness levels.",
+  "url": "https://github.com/hpohlmann/home-assistant-mcp",
   "runtime": "python",
   "license": "mit"
 }

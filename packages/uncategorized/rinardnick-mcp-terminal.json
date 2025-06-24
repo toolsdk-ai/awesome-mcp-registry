@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@rinardnick/mcp-terminal",
-  "description": "Provides a secure terminal server for executing whitelisted shell commands with strict resource controls and security boundaries.",
-  "url": "https://github.com/rinardnick/mcp-terminal",
-  "runtime": "node",
-  "license": "unknown"
-}

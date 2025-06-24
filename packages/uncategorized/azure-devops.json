@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "azure-devops",
-  "description": "Integrates with Azure DevOps to manage work items, wikis, and project tasks, enabling AI-driven project management and cross-service automation.",
-  "url": "https://github.com/theapemachine/mcp-server-multi-tools",
+  "description": "Integrates with Azure DevOps to enable work item management, wiki interactions, and sprint tracking for software development teams.",
+  "url": "https://github.com/krishna-amilineni-23307/mcp-azuredevops-bridge",
   "runtime": "go",
   "license": "mit"
 }

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "daemonize",
-  "description": "Enables AI agents to manage long-running development servers by providing tools to start, monitor, stop, and debug processes like Vite or Next.js without manual terminal handling.",
-  "url": "https://github.com/mackee/mcp-daemonize",
-  "runtime": "go",
-  "license": "unknown"
-}

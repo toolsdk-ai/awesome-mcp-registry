@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "multi-llm-cross-check",
-  "description": "Provides a unified interface for querying multiple LLM providers simultaneously, enabling side-by-side response comparison for fact-checking, gathering diverse perspectives, or evaluating different models' capabilities.",
-  "url": "https://github.com/lior-ps/multi-llm-cross-check-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

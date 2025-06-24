@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@bujaayjaay/mcp-coincap-jj",
-  "description": "Integrates with CoinCap's API v3 to provide real-time cryptocurrency price tracking, market analysis, and historical trend data for informed investment decisions.",
-  "url": "https://github.com/wazzan/mcp-coincap-jj",
-  "runtime": "node",
-  "license": "unknown"
-}

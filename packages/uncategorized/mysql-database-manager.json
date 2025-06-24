@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mysql-database-manager",
-  "description": "Provides direct access to MySQL databases with advanced features like multiple SQL execution, table metadata querying, execution plan analysis, and Chinese field to pinyin conversion through a configurable Python-based server.",
-  "url": "https://github.com/wenb1n-dev/mysql_mcp_server_pro",
-  "runtime": "python",
-  "license": "mit"
-}

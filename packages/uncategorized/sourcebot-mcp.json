@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@sourcebot/mcp",
-  "description": "Enables code search across multiple repository hosts including GitHub, GitLab, Gitea, Gerrit, and Bitbucket with advanced filtering options for exploring large codebases through natural language queries.",
-  "url": "https://github.com/sourcebot-dev/sourcebot",
-  "runtime": "node",
-  "license": "unknown"
-}

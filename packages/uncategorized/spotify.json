@@ -1,8 +1,8 @@
 {
   "type": "mcp-server",
   "packageName": "spotify",
-  "description": "Integrates with Spotify to enable music playback control, search, and queue management directly within conversations",
-  "url": "https://github.com/jamiew/spotify-mcp",
+  "description": "Integrates with Spotify API to enable music playback control, search functionality, and queue management through natural language conversation.",
+  "url": "https://github.com/g2dgaming/spotify-mcp",
   "runtime": "python",
   "license": "unknown"
 }

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "voice-mcp",
-  "description": "Enables two-way voice conversations through multiple transport methods including local microphone recording and LiveKit room-based communication, with configurable STT/TTS services and automatic transport fallback for creating voice-enabled applications.",
-  "url": "https://github.com/mbailey/voicemode",
-  "runtime": "python",
-  "license": "unknown"
-}
