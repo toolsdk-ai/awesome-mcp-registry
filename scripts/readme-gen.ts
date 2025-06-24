@@ -9,10 +9,12 @@ import _ from 'lodash';
 import categoriesList from '../indexes/categories-list.json';
 import allPackagesList from '../indexes/packages-list.json';
 import { MCPServerPackageConfigSchema } from '../src/schema';
+import type { PackagesList } from '../src/types';
 
 let TOC = '';
 let README = '';
 const COUNT = Object.keys(allPackagesList).length;
+const VALIDATED_COUNT = Object.values(allPackagesList as PackagesList).filter(pkg => pkg.validated).length;
 
 for (const [_key, categoryList] of Object.entries(categoriesList)) {
   const packagesList = categoryList.packagesList;
@@ -39,7 +41,7 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
 const templatePath = join(__dirname, '../docs/README.tpl.md');
 const templateContent = readFileSync(templatePath, 'utf-8');
 const compiled = _.template(templateContent);
-const finalREADME = compiled({ CONTENT: README, TOC, COUNT });
+const finalREADME = compiled({ CONTENT: README, TOC, COUNT, VALIDATED_COUNT });
 
 writeFileSync(join(__dirname, '../README.md'), finalREADME, 'utf-8');
 

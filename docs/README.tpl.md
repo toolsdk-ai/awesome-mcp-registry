@@ -73,7 +73,8 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools
-❌: Cannot be run by the MCP client (with mock environments variables)
+✅: Validated and runnable tools (<%=VALIDATED_COUNT %>)
+
+❌: Cannot be run by the MCP client (with mock environments variables (<%=COUNT - VALIDATED_COUNT %>))
 
 <%= CONTENT %>
