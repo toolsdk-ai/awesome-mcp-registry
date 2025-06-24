@@ -29,7 +29,6 @@ export default [
   "@upstash/context7-mcp",
   "@shinzo-labs/coinmarketcap-mcp",
   "@ruchernchong/mcp-server-google-analytics",
-  "@AshDevFr/discourse-mcp-server",
   "@sethbang/mcp-screenshot-server",
   "@mem0ai/mem0-mcp",
   "@browserbasehq/mcp-stagehand",
