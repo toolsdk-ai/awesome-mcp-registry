@@ -32,7 +32,6 @@ export default [
   "@ruchernchong/mcp-server-google-analytics",
   "@AshDevFr/discourse-mcp-server",
   "@sethbang/mcp-screenshot-server",
-  "@skobyn/dataforseo-mcp-server",
   "@mem0ai/mem0-mcp",
   "@wonderwhy-er/DesktopCommanderMCP",
   "@browserbasehq/mcp-stagehand",
