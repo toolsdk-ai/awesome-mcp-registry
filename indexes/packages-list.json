@@ -2003,6 +2003,12 @@
     }
   }
 },
+"@ruchernchong/mcp-server-google-analytics": {
+  "category": "marketing",
+  "path": "marketing/ruchernchong-mcp-server-google-analytics.json",
+  "validated": false,
+  "tools": {}
+},
 "@skobyn/dataforseo-mcp-server": {
   "category": "marketing",
   "path": "marketing/dataforseo-mcp-server.json",
