@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nomad",
-  "description": "Provides a bridge to HashiCorp Nomad's cluster management capabilities, enabling job management, deployment tracking, namespace administration, node operations, and ACL management for infrastructure operations.",
-  "url": "https://github.com/kocierik/mcp-nomad",
-  "runtime": "go",
-  "license": "mit"
-}

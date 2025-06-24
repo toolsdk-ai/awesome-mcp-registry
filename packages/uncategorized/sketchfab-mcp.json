@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sketchfab-mcp",
-  "description": "Provides a streamlined interface to the Sketchfab API for searching and downloading 3D models with filtering options for animated or rigged content.",
-  "url": "https://github.com/eddydpyl/sketchfab_mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

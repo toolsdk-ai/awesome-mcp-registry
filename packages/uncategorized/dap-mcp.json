@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dap-mcp",
-  "description": "Bridges debugging tools with AI systems through the Debug Adapter Protocol, enabling debugger control, breakpoint management, and program state inspection with XML-formatted output for enhanced debugging workflows.",
-  "url": "https://github.com/kashuncheng/dap_mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

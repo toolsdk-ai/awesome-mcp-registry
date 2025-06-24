@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-obsidian",
-  "description": "Search and analyze Markdown notes in Obsidian vaults.",
-  "url": "https://github.com/smithery-ai/mcp-obsidian",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "r-econometrics",
-  "description": "Enables advanced econometric analysis by providing R-based statistical modeling capabilities for researchers and data scientists, supporting complex regression techniques, panel data modeling, and diagnostic testing across diverse research domains.",
-  "url": "https://github.com/finite-sample/rmcp",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "puppeteer-vision-mcp-server",
-  "description": "Automates web scraping by intelligently handling cookie banners, CAPTCHAs, and paywalls to extract clean markdown content from websites",
-  "url": "https://github.com/djannot/puppeteer-vision-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

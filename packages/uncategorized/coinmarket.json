@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "coinmarket",
-  "description": "Access real-time cryptocurrency data from CoinMarketCap.",
-  "url": "https://github.com/anjor/coinmarket-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

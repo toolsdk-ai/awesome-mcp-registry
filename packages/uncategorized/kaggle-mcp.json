@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kaggle-mcp",
-  "description": "Integrates with Kaggle's API to enable competition participation, dataset management, kernel operations, and model submissions for data scientists and machine learning practitioners.",
-  "url": "https://github.com/54yyyu/kaggle-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

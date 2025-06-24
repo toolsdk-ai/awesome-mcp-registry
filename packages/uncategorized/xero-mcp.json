@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "xero-mcp",
-  "description": "Integrates with Xero Accounting Software to access financial data including accounts, transactions, contacts, invoices, and more through authenticated API connections for financial analysis and bookkeeping tasks.",
-  "url": "https://github.com/john-zhang-dev/xero-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

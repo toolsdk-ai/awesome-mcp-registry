@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aapanel",
-  "description": "Bridges AI with aaPanel web hosting control panel for managing websites, databases, Docker containers, and system resources through Go-based API integration.",
-  "url": "https://github.com/aapanel/mcp-server",
-  "runtime": "go",
-  "license": "mit"
-}

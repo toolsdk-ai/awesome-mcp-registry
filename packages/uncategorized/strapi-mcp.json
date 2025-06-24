@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "strapi-mcp",
-  "description": "Integrates with Strapi CMS to enable creating, reading, updating, and deleting content entries with support for filtering, pagination, sorting, and media uploads through URI-based resource patterns.",
-  "url": "https://github.com/l33tdawg/strapi-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

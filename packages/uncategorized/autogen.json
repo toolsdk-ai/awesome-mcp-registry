@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "autogen",
-  "description": "Bridges Microsoft's AutoGen framework with external tools, enabling autonomous agents to execute code, perform research, and collaborate in multi-agent conversations for complex problem-solving tasks.",
-  "url": "https://github.com/dynamicendpoints/autogen_mcp",
-  "runtime": "python",
-  "license": "mit"
-}

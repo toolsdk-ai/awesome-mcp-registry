@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "orion-vision-mcp",
-  "description": "Integrates with Azure Form Recognizer to extract structured data from documents including receipts, invoices, ID documents, and business cards for automated document processing workflows.",
-  "url": "https://github.com/cognitive-stack/orion-vision-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

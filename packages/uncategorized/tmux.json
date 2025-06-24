@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tmux",
-  "description": "Provides control over tmux sessions by leveraging libtmux to execute commands through a simple interface, enabling automated terminal session management and complex workflows.",
-  "url": "https://github.com/jonrad/tmux-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

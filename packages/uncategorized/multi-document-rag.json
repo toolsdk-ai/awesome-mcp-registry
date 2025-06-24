@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "multi-document-rag",
-  "description": "Enables document processing with OCR, vector embeddings, and semantic search capabilities for efficient retrieval-augmented generation across multiple file formats including PDF, DOCX, PPTX, Excel, CSV, and images.",
-  "url": "https://github.com/anuragb7/mcp-rag",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@folderr/folderr-mcp-server",
-  "description": "Integrates with Folderr's API to enable management and communication with Folderr Assistants, facilitating tasks like listing assistants and sending questions.",
-  "url": "https://github.com/folderr-tech/folderr-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

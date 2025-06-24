@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "paelladoc",
-  "description": "Generates structured documentation for software projects through code analysis, template management, and specialized commands for consistent documentation practices across diverse project types.",
-  "url": "https://github.com/jlcases/paelladoc",
-  "runtime": "python",
-  "license": "unknown"
-}

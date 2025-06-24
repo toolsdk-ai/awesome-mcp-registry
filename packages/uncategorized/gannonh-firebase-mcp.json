@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@gannonh/firebase-mcp",
-  "description": "Enables Firebase Authentication, Firestore, and Storage operations for developers building applications that require seamless backend service integration.",
-  "url": "https://github.com/gannonh/firebase-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

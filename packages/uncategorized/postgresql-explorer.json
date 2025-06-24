@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "postgresql-explorer",
-  "description": "Enables natural language interaction with PostgreSQL databases through tools for schema exploration, table inspection, relationship discovery, and SQL query execution",
-  "url": "https://github.com/gldc/mcp-postgres",
-  "runtime": "python",
-  "license": "mit"
-}

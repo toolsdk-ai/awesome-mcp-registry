@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "strava",
-  "description": "Integrates with the Strava API to enable access to fitness tracking data and activity information for analyzing workout patterns and athletic performance.",
-  "url": "https://github.com/ctvidic/strava-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

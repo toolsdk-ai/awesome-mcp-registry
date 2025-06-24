@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rdf-explorer",
-  "description": "Enables conversational exploration and analysis of RDF Knowledge Graphs through SPARQL queries, full-text search, and visualization tools in both local file and endpoint modes.",
-  "url": "https://github.com/emekaokoye/mcp-rdf-explorer",
-  "runtime": "python",
-  "license": "mit"
-}

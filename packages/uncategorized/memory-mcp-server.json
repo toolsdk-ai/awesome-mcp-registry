@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memory-mcp-server",
-  "description": "Provides a knowledge graph management system for storing, retrieving, and querying information to build and maintain long-term memory across conversations.",
-  "url": "https://github.com/evangstav/python-memory-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

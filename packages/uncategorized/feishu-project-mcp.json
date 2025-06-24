@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "feishu-project-mcp",
-  "description": "Integrates with Feishu project management platform to automate requirement analysis, bug tracking, and task management through TypeScript and Express-based tools for development teams.",
-  "url": "https://github.com/im47cn/feishu-project-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

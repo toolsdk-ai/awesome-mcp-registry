@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "qiniu-cloud-storage",
-  "description": "Provides a bridge to Qiniu Cloud Storage services for uploading files and retrieving public URLs through authenticated API calls",
-  "url": "https://github.com/joeseesun/qiniu-mcp-joe",
-  "runtime": "python",
-  "license": "unknown"
-}

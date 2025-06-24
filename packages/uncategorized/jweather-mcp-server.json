@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jweather-mcp-server",
-  "description": "Integrates with weather data services to provide real-time conditions and forecasts through an asyncio-powered Python server with automated CI/CD workflows.",
-  "url": "https://github.com/juhemcp/jweather-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

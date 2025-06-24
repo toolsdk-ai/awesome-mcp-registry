@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kubernetes",
-  "description": "Provides a bridge between Kubernetes clusters and AI systems for monitoring, troubleshooting, and managing resources like pods, deployments, and services without requiring direct kubectl access.",
-  "url": "https://github.com/briankscheong/k8s-mcp-server",
-  "runtime": "go",
-  "license": "mit"
-}

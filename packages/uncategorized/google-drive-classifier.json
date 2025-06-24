@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "google-drive-classifier",
-  "description": "Integrates with Google Drive to automatically classify documents using customizable rubrics, extracting content from various file types and updating document properties with classification metadata for organized document management.",
-  "url": "https://github.com/jtrogers/goose-gdrive-classifier-processor",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "json-canvas",
-  "description": "Provides tools for creating, modifying, and validating infinite canvas data structures, supporting all node types and edge connections, with a RESTful API for canvas operations and export capabilities.",
-  "url": "https://github.com/cam10001110101/mcp-server-obsidian-jsoncanvas",
-  "runtime": "python",
-  "license": "mit"
-}

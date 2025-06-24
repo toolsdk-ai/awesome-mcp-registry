@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gcp-mcp",
-  "description": "Integrates with Google Cloud Platform to enable natural language management of cloud resources including compute, storage, networking, and databases through automated OAuth authentication.",
-  "url": "https://github.com/henihaddad/gcp-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "new-relic-logs",
-  "description": "Bridges New Relic's log querying capabilities with a Python-based server, enabling execution of NRQL queries for performance monitoring and log analysis.",
-  "url": "https://github.com/ivlad003/mcp_newrelic",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@promptz/mcp",
-  "description": "Provides a bridge to the promptz.dev platform, enabling direct access and seamless integration of prompts into developer workflows without manual copy-pasting.",
-  "url": "https://github.com/cremich/promptz-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

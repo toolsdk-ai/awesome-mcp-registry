@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-sequential-thinking",
-  "description": "Implements a structured sequential thinking process for breaking down complex problems, iteratively refining solutions, and exploring multiple reasoning paths.",
-  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/sequentialthinking",
-  "runtime": "node",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "text-editor",
-  "description": "Provides a secure Python-based text editing interface with two-step verification and syntax validation for collaborative code file manipulation",
-  "url": "https://github.com/danielpodrazka/editor-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

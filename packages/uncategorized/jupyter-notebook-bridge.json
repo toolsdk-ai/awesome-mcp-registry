@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jupyter-notebook-bridge",
-  "description": "Provides a bridge between Jupyter notebooks and AI systems, enabling code execution, markdown creation, and Earth data interaction through specialized tools and kernel manipulation.",
-  "url": "https://github.com/bitrsky/jupyter_mcp_server",
-  "runtime": "python",
-  "license": "unknown"
-}

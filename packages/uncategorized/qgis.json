@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "qgis",
-  "description": "Enables AI systems to perform complex GIS operations in QGIS through a socket-based architecture that exposes geospatial capabilities like adding layers, executing processing algorithms, and rendering maps.",
-  "url": "https://github.com/jjsantos01/qgis_mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

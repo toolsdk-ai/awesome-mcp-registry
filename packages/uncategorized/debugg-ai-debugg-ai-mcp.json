@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@debugg-ai/debugg-ai-mcp",
-  "description": "Provides zero-configuration end-to-end testing for web applications by creating secure tunnels to local development servers and spawning testing agents that interact with web interfaces through natural language descriptions, returning detailed test results with execution recordings and screenshots.",
-  "url": "https://github.com/debugg-ai/debugg-ai-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

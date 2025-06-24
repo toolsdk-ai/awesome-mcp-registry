@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-chatgpt-app",
-  "description": "Enables interaction with the ChatGPT macOS app through AppleScript automation, allowing tools to send prompts via keyboard input simulation without switching interfaces.",
-  "url": "https://github.com/cdpath/mcp-server-chatgpt-app",
-  "runtime": "python",
-  "license": "unknown"
-}

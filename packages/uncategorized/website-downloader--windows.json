@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "website-downloader-(windows)",
-  "description": "Windows-compatible website downloader for efficient web content retrieval and storage, leveraging asynchronous processing and concurrent downloads for tasks like web scraping and content archiving.",
-  "url": "https://github.com/angrysky56/mcp-windows-website-downloader",
-  "runtime": "python",
-  "license": "mit"
-}

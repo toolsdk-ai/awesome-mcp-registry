@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "claude-enhancements",
-  "description": "Extends Claude's capabilities with modular utility servers for greeting users, counting files, saving conversations, and managing context through a lightweight, configurable JSON interface.",
-  "url": "https://github.com/apoorvv/mcp-claude-enhancements",
-  "runtime": "python",
-  "license": "mit"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "code-indexer",
-  "description": "Indexes and analyzes code repositories to enable file navigation, pattern searching, and complexity assessment across multiple programming languages through persistent project settings and efficient dependency management.",
-  "url": "https://github.com/johnhuang316/code-index-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

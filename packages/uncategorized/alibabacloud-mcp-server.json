@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "alibabacloud-mcp-server",
-  "description": "Provides a bridge to Alibaba Cloud services for managing ECS instances, viewing resources, monitoring metrics, and configuring VPC networks through natural language commands",
-  "url": "https://github.com/aliyun/alibaba-cloud-ops-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

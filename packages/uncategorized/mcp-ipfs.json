@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-ipfs",
-  "description": "Enables AI access to the IPFS Storacha Network for decentralized file storage, content addressing, and persistent data management through the w3cli interface.",
-  "url": "https://github.com/alexbakers/mcp-ipfs",
-  "runtime": "node",
-  "license": "unknown"
-}

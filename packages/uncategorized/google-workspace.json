@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "google-workspace",
-  "description": "Integrates with Google Workspace to enable document creation, search, and management across Drive, Docs, and Sheets using OAuth authentication and multiple transport modes",
-  "url": "https://github.com/adexltd/mcp-google-suite",
-  "runtime": "python",
-  "license": "mit"
-}

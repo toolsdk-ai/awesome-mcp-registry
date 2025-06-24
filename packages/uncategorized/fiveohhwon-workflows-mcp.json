@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@fiveohhwon/workflows-mcp",
-  "description": "Provides workflow management and automation through step-by-step execution with branching logic, conditional operations, template variables, and state persistence for complex multi-step processes like code reviews and data pipelines.",
-  "url": "https://github.com/fiveohhwon/workflows-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

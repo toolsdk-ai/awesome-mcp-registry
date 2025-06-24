@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "brave-search",
-  "description": "Integrates with Brave Search to enable web and local business searches with detailed information retrieval, including ratings, hours, and descriptions for both general queries and location-based data.",
-  "url": "https://github.com/anath2/research-llama",
-  "runtime": "python",
-  "license": "mit"
-}

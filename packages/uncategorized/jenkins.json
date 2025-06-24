@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jenkins",
-  "description": "Integrates with Jenkins CI/CD operations, enabling job listing, build triggering, and status checking for streamlined DevOps automation and pipeline management.",
-  "url": "https://github.com/kjozsa/jenkins-mcp",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

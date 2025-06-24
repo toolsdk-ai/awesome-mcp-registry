@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "codechecker",
-  "description": "Integrates with Cursor IDE to provide real-time code review capabilities, leveraging GPT models for intelligent analysis and specific improvement suggestions.",
-  "url": "https://github.com/jacklandis29/codechecker-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

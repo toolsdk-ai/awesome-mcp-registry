@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cursor-db-explorer",
-  "description": "Provides access to Cursor IDE's SQLite databases for exploring project data, chat history, and composer information through an API that automatically detects installations and exposes structured resources and tools for analysis.",
-  "url": "https://github.com/jbdamask/cursor-db-mcp",
-  "runtime": "python",
-  "license": "other"
-}

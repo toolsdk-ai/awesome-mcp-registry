@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "spurs-blog-(pounding-the-rock)",
-  "description": "Provides San Antonio Spurs basketball news by scraping the Pounding The Rock blog, offering tools to retrieve articles, search content, extract game results, and get player information with recent mentions.",
-  "url": "https://github.com/akshay23/spurs-blog-mcp-server",
-  "runtime": "python",
-  "license": "mit"
-}

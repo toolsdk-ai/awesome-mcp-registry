@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pyppeteer-browser-automation",
-  "description": "Enables AI assistants to control headless browsers for web automation tasks including navigation, screenshot capture, element interaction, and dynamic page information access.",
-  "url": "https://github.com/devalexandre/mcp-servers",
-  "runtime": "python",
-  "license": "apache-2.0"
-}

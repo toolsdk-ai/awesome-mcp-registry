@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "argus",
-  "description": "Integrates with GitLab repositories to enable automated security assessments, code reviews, and DevOps workflows through repository analysis and file retrieval capabilities.",
-  "url": "https://github.com/athapong/argus",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "attio-mcp-server",
-  "description": "Integrates with Attio's API for reading and writing company records and notes, enabling CRM operations without direct interface navigation.",
-  "url": "https://github.com/hmk/attio-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

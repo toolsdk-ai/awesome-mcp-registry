@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "code2flow",
-  "description": "Generates visual code flow diagrams from source code to help understand program structure, execution paths, and architectural relationships without manual diagramming.",
-  "url": "https://github.com/kursk-ye/code2flow-mcp-server",
-  "runtime": "python",
-  "license": "unknown"
-}

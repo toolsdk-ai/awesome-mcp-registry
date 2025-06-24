@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "excel-bridge",
-  "description": "Bridges AI with Excel files, enabling reading from and writing to spreadsheets through standardized operations for data analysis, reporting, and document generation workflows.",
-  "url": "https://github.com/bigcoder84/mcp-excel-server",
-  "runtime": "java",
-  "license": "unknown"
-}

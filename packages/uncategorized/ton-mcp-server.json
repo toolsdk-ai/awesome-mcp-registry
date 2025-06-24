@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ton-mcp-server",
-  "description": "Integrates with the TON blockchain to analyze wallet addresses, track transactions, detect trading patterns, and identify market trends for cryptocurrency traders and analysts.",
-  "url": "https://github.com/devonmojito/ton-blockchain-mcp",
-  "runtime": "python",
-  "license": "unknown"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nmap-scanner",
-  "description": "Provides a secure, controlled interface for network administrators and security researchers to perform targeted network reconnaissance and analysis using nmap scans with built-in rate limiting and security safeguards.",
-  "url": "https://github.com/imjdl/nmap-mcpserver",
-  "runtime": "python",
-  "license": "mit"
-}

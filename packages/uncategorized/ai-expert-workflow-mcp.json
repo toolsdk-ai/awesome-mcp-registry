@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ai-expert-workflow-mcp",
-  "description": "Facilitates structured product development through specialized AI roles (Product Manager, UX Designer, Software Architect) that generate documentation and convert requirements into actionable tasks.",
-  "url": "https://github.com/bacoco/ai-expert-workflow-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}

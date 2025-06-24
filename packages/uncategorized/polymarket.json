@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "polymarket",
-  "description": "Integrates with PolyMarket's API to fetch and analyze prediction market data for financial insights and decision support.",
-  "url": "https://github.com/berlinbra/polymarket-mcp",
-  "runtime": "python",
-  "license": "mit"
-}

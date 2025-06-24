@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "algorand-mcp",
-  "description": "Provides a robust toolkit for Algorand blockchain interactions, enabling AI agents to create accounts, manage assets, deploy smart contracts, and execute transactions through a TypeScript-based implementation.",
-  "url": "https://github.com/goplausible/algorand-mcp",
-  "runtime": "node",
-  "license": "unknown"
-}
