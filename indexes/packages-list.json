@@ -1871,26 +1871,6 @@
       }
     }
   },
-  "@vapi-ai/mcp-server": {
-  "category": "marketing",
-  "path": "marketing/vapi-ai-mcp-server.json",
-  "validated": true,
-  "tools": {
-    "vapi": {
-      "name": "Vapi",
-      "description": "The Vapi Model Context Protocol server allows you to integrate with Vapi APIs through function calling.",
-      "url": "https://github.com/VapiAI/mcp-server/tree/main/src",
-      "runtime": "node",
-      "license": "MIT",
-      "env": {
-        "VAPI_TOKEN": {
-          "description": "<your_vapi_token>",
-          "required": true
-          }
-        }
-      }
-    }
-  },
   "@wonderwhy-er/DesktopCommanderMCP": {
   "category": "coding-agents",
   "path": "coding-agents/wonderwhy-er-desktopcommander-mcp.json",
