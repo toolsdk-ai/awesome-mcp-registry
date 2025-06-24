@@ -67,7 +67,6 @@ async function generatePackagesList() {
 
     for (const entry of entries) {
       const entryPath = path.join(directory, entry);
-      console.log('跑到这', entryPath)
       if (fs.statSync(entryPath).isFile() && entry.endsWith('.json')) {
         const fileContent = fs.readFileSync(entryPath, 'utf-8');
         const parsedContent: MCPServerPackageConfig= MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
