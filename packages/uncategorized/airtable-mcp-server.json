@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "airtable-mcp-server",
-  "description": "Provides read and write access to Airtable databases.",
-  "url": "https://github.com/domdomegg/airtable-mcp-server",
-  "runtime": "node",
-  "license": "unknown"
-}

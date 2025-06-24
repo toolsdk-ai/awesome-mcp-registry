@@ -1,8 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-commands",
-  "description": "Execute system commands and scripts on the host machine.",
-  "url": "https://github.com/g0t4/mcp-server-commands",
-  "runtime": "node",
-  "license": "unknown"
-}
