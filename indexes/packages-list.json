@@ -602,7 +602,7 @@
     "tools": {
       "run_command": {
         "name": "run_command",
-        "description": "Run a command on this linux machine"
+        "description": "Run a command on this darwin machine"
       }
     }
   },
@@ -1889,13 +1889,13 @@
   "mcp-server-google-analytics": {
     "category": "marketing",
     "path": "marketing/mcp-server-google-analytics.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@AshDevFr/discourse-mcp-server": {
     "category": "marketing",
     "path": "marketing/ashdevfr-discourse-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   }
 }

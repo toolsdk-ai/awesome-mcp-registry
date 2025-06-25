@@ -35,7 +35,7 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
     const validated = packageInfo.validated ? '✅' : '❌';
     const toolsCount = packageInfo.tools === undefined ? 0 : Object.keys(packageInfo.tools).length;
     const toolsCountLabel = toolsCount > 0 ? ` (${toolsCount} tools)` : '';
-    README += `- [${validated} ${parsedContent.name || parsedContent.packageName}](${parsedContent.url || '#'}): ${parsedContent.description} ${toolsCountLabel} (${parsedContent.runtime}) \n`;
+    README += `- [${validated} ${parsedContent.key || parsedContent.packageName}](${parsedContent.url || '#'}): ${parsedContent.description} ${toolsCountLabel} (${parsedContent.runtime}) \n`;
   }
 }
 const templatePath = join(__dirname, '../docs/README.tpl.md');
