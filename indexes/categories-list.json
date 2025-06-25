@@ -225,7 +225,10 @@
       "name": "Marketing",
       "description": "Create and edit marketing content, manage metadata, and refine product positioning."
     },
-    "packagesList": []
+    "packagesList": [
+      "mcp-server-google-analytics",
+      "@AshDevFr/discourse-mcp-server"
+    ]
   },
   "monitoring": {
     "config": {

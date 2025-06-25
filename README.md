@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-67-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-69-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 67+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 69+ MCP servers.
 
 
 
@@ -29,6 +29,7 @@ An open, high-quality, well-structured and developer-friendly list of 67+ MCP se
   - [File Systems](#file-systems)
   - [Knowledge & Memory](#knowledge-memory)
   - [Location Services](#location-services)
+  - [Marketing](#marketing)
   - [Monitoring](#monitoring)
   - [Search & Data Extraction](#search-data-extraction)
   - [Version Control](#version-control)
@@ -95,7 +96,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 ✅: Validated and runnable tools (37)
 
-❌: Cannot be run by the MCP client (with mock environments variables (30))
+❌: Cannot be run by the MCP client (with mock environments variables (32))
 
 
 
@@ -247,6 +248,15 @@ Store and query structured information for AI models to use across sessions.
 Work with maps, weather, and location-based data for analytics and insights.
 
 - [✅ Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps): MCP server for using the Google Maps API  (7 tools) (node) 
+
+
+<a id="marketing"></a>
+## Marketing
+
+Create and edit marketing content, manage metadata, and refine product positioning.
+
+- [❌ Google-Analytics](https://github.com/Seey215/mcp-server-google-analytics): An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.  (node) 
+- [❌ Discourse](https://github.com/AshDevFr/discourse-mcp-server/tree/main/src): Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.  (node) 
 
 
 <a id="monitoring"></a>

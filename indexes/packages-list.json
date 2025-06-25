@@ -1885,5 +1885,17 @@
   "mcp-server-time": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-time.json"
+  },
+  "mcp-server-google-analytics": {
+    "category": "marketing",
+    "path": "marketing/mcp-server-google-analytics.json",
+    "tools": {},
+    "validated": false
+  },
+  "@AshDevFr/discourse-mcp-server": {
+    "category": "marketing",
+    "path": "marketing/ashdevfr-discourse-mcp-server.json",
+    "tools": {},
+    "validated": false
   }
 }
