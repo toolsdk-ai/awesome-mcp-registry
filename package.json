@@ -1,6 +1,6 @@
 {
   "name": "@toolsdk.ai/registry",
-  "version": "1.0.78",
+  "version": "1.0.79",
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "exports": {
     "./config/*": "./config/*",
@@ -31,7 +31,6 @@
     "zod": "^3.23.30",
     "@kazuph/mcp-screenshot": "latest",
     "@modelcontextprotocol/server-everything": "latest",
-    "@modelcontextprotocol/server-everart": "latest",
     "mcp-server-stability-ai": "latest",
     "@executeautomation/playwright-mcp-server": "latest",
     "tavily-mcp": "latest",
