@@ -7,5 +7,10 @@
   "url": "https://github.com/dragonkhoi/mercury-mcp/tree/main/src",
   "runtime": "node",
   "license": "MIT",
-  "env": {}
+  "env": {
+    "mercury_api_key": {
+      "description": "YOUR_MERCURY_API_KEY",
+      "required": true
+    }
+  }
 }
