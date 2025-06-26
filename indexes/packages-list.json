@@ -823,8 +823,21 @@
   "@llmindset/mcp-hfspace": {
     "category": "developer-tools",
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "available-files": {
+        "name": "available-files",
+        "description": "A list of available file and resources. If the User requests things like 'most recent image' or 'the audio' use this tool to identify the intended resource.This tool returns 'resource uri', 'name', 'size', 'last modified'  and 'mime type' in a markdown table"
+      },
+      "search-spaces": {
+        "name": "search-spaces",
+        "description": "Use semantic search to find an endpoint on the `Hugging Face Spaces` service. The search term will usually be 3-7 words describing a task or activity the Person is trying to accomplish. The results are returned in a markdown table. Present all results to the Person. Await specific guidance from the Person before making further Tool calls."
+      },
+      "FLUX_1-schnell-infer": {
+        "name": "FLUX_1-schnell-infer",
+        "description": "Call the FLUX.1-schnell endpoint /infer"
+      }
+    }
   },
   "@mcp-get-community/server-macos": {
     "category": "developer-tools",
