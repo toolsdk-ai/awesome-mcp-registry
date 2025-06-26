@@ -18,6 +18,7 @@ const packagesListFile = './indexes/packages-list.json';
 const previousPackagesList:PackagesList = PackagesListSchema.parse(JSON.parse(fs.readFileSync(packagesListFile, 'utf-8'))) as PackagesList;
 
 const categoriesListFile = './indexes/categories-list.json';
+const packageJsonFile = './package.json';
 
 // Compare check `newPackagesList` with `previousPackagesList`, print the differences
 function comparePackagesLists(previousPackagesList: PackagesList, newPackagesList: PackagesList) {
@@ -59,7 +60,7 @@ async function generatePackagesList() {
   const newPackagesList: PackagesList = JSON.parse(JSON.stringify(previousPackagesList));
   const newPackagesKeys = new Set();
   const categoriesList: Record<string, { config: CategoryConfig; packagesList: string[] }> = {};
-  // const packageDeps: Record<string, string> = {}
+  const packageDeps: Record<string, string> = {}
 
   function traverseDirectory(directory: string, categoryName: string) {
     const entries = fs.readdirSync(directory);
@@ -83,9 +84,9 @@ async function generatePackagesList() {
         }
         categoriesList[categoryName].packagesList.push(key);
 
-        // if (parsedContent.runtime === 'node') {
-        //   packageDeps[parsedContent.packageName] = parsedContent.packageVersion || 'latest';
-        // }
+        if (parsedContent.runtime === 'node') {
+          packageDeps[parsedContent.packageName] = parsedContent.packageVersion || 'latest';
+        }
         // }
       } else if (fs.statSync(entryPath).isDirectory()) {
         traverseDirectory(entryPath, categoryName);
@@ -120,6 +121,25 @@ async function generatePackagesList() {
 
   // compare previous and new packages lists
   comparePackagesLists(previousPackagesList, newPackagesList);
+
+  const packageJSONStr = fs.readFileSync(packageJsonFile, 'utf-8');
+  const newDeps = {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "lodash": "^4.17.21",
+    "zod": "^3.23.30",
+  };
+  const packageJSON = JSON.parse(packageJSONStr);
+  for (const [depName, depVer] of Object.entries(packageDeps)) {
+    if (newPackagesList[depName]?.validated) {
+      newDeps[depName] = packageDeps[depVer] || 'latest';
+    }
+  }
+
+  packageJSON.dependencies = newDeps
+
+  fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
+
+  console.log(`Generated new package.json file at ${packageJsonFile}`);
 }
 
 generatePackagesList();
