@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-69-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-70-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 69+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 70+ MCP servers.
 
 
 
@@ -27,6 +27,7 @@ An open, high-quality, well-structured and developer-friendly list of 69+ MCP se
   - [Developer Tools](#developer-tools)
   - [Data Science Tools](#data-science-tools)
   - [File Systems](#file-systems)
+  - [Finance & Fintech](#finance-fintech)
   - [Knowledge & Memory](#knowledge-memory)
   - [Location Services](#location-services)
   - [Marketing](#marketing)
@@ -96,7 +97,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 ✅: Validated and runnable tools (37)
 
-❌: Cannot be run by the MCP client (with mock environments variables (32))
+❌: Cannot be run by the MCP client (with mock environments variables (33))
 
 
 
@@ -230,6 +231,14 @@ Manage files and directories with tools for reading, writing, and organizing fil
 
 - [❌ @modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers): MCP server for filesystem access  (node) 
 - [❌ @modelcontextprotocol/server-gdrive](https://github.com/modelcontextprotocol/servers/blob/main/src/gdrive): MCP server for interacting with Google Drive  (node) 
+
+
+<a id="finance-fintech"></a>
+## Finance & Fintech
+
+Work with financial data, market info, and trading platforms using AI tools.
+
+- [❌ @dragonkhoi/mercury-mcp](https://github.com/dragonkhoi/mercury-mcp/tree/main/src): Simple MCP server that interfaces with the Mercury API, allowing you to talk to your Mercury banking data from any MCP client like Cursor or Claude Desktop.  (node) 
 
 
 <a id="knowledge-memory"></a>
