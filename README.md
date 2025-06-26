@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-70-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-71-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 70+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 71+ MCP servers.
 
 
 
@@ -27,6 +27,7 @@ An open, high-quality, well-structured and developer-friendly list of 70+ MCP se
   - [Developer Tools](#developer-tools)
   - [Data Science Tools](#data-science-tools)
   - [File Systems](#file-systems)
+  - [Finance & Fintech](#finance-fintech)
   - [Knowledge & Memory](#knowledge-memory)
   - [Location Services](#location-services)
   - [Marketing](#marketing)
@@ -96,7 +97,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 ✅: Validated and runnable tools (39)
 
-❌: Cannot be run by the MCP client (with mock environments variables (31))
+❌: Cannot be run by the MCP client (with mock environments variables (32))
 
 
 
@@ -137,7 +138,7 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 - [❌ mcp-server-fetch](https://github.com/modelcontextprotocol/servers/blob/main/src/fetch): A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs  (python) 
 - [✅ @modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/blob/main/src/puppeteer): MCP server for browser automation using Puppeteer  (7 tools) (node) 
 - [✅ @automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright/tree/main): MCP server for browser automation using Playwright  (10 tools) (node) 
-- [✅ @executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright/tree/main/src): A Model Context Protocol server for Playwright for Browser Automation and Web Scraping.  (31 tools) (node) 
+- [✅ @executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright/tree/main/src): A Model Context Protocol server for Playwright for Browser Automation and Web Scraping.  (32 tools) (node) 
 
 
 <a id="cloud-platforms"></a>
@@ -148,7 +149,7 @@ Integrate with cloud services to manage and interact with cloud infrastructure.
 - [❌ kubernetes-mcp-server](https://github.com/manusa/kubernetes-mcp-server): Powerful and flexible Kubernetes MCP server implementation with additional features for OpenShift. Besides the typical CRUD operations on any Kubernetes resource, this implementation adds specialized features for Pods and other resources.  (go) 
 - [✅ @strowk/mcp-k8s](https://github.com/strowk/mcp-k8s-go): MCP server connecting to Kubernetes  (8 tools) (node) 
 - [❌ @cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare): MCP server for interacting with Cloudflare API  (node) 
-- [✅ mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes): MCP server for managing Kubernetes clusters, enabling LLMs to interact with and control Kubernetes resources.  (20 tools) (node) 
+- [✅ mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes): MCP server for managing Kubernetes clusters, enabling LLMs to interact with and control Kubernetes resources.  (21 tools) (node) 
 
 
 <a id="code-execution"></a>
@@ -230,6 +231,14 @@ Manage files and directories with tools for reading, writing, and organizing fil
 
 - [❌ @modelcontextprotocol/server-gdrive](https://github.com/modelcontextprotocol/servers/blob/main/src/gdrive): MCP server for interacting with Google Drive  (node) 
 - [❌ @modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers): MCP server for filesystem access  (node) 
+
+
+<a id="finance-fintech"></a>
+## Finance & Fintech
+
+Work with financial data, market info, and trading platforms using AI tools.
+
+- [❌ @toolsdk.ai/mcp-mercury](https://github.com/dragonkhoi/mercury-mcp/tree/main/src): Simple MCP server that interfaces with the Mercury API, allowing you to talk to your Mercury banking data from any MCP client like Cursor or Claude Desktop.  (node) 
 
 
 <a id="knowledge-memory"></a>

@@ -187,7 +187,9 @@
       "name": "Finance & Fintech",
       "description": "Work with financial data, market info, and trading platforms using AI tools."
     },
-    "packagesList": []
+    "packagesList": [
+      "@toolsdk.ai/mcp-mercury"
+    ]
   },
   "gaming": {
     "config": {
