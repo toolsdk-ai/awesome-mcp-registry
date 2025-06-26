@@ -28,6 +28,7 @@ An open, high-quality, well-structured and developer-friendly list of 71+ MCP se
   - [Data Science Tools](#data-science-tools)
   - [File Systems](#file-systems)
   - [Finance & Fintech](#finance-fintech)
+  - [Finance & Fintech](#finance-fintech)
   - [Knowledge & Memory](#knowledge-memory)
   - [Location Services](#location-services)
   - [Marketing](#marketing)
@@ -97,7 +98,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 ✅: Validated and runnable tools (39)
 
-❌: Cannot be run by the MCP client (with mock environments variables (32))
+❌: Cannot be run by the MCP client (with mock environments variables (33))
 
 
 

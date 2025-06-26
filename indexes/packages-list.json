@@ -1927,5 +1927,11 @@
     "path": "finance-fintech/mercury-mcp.json",
     "validated": false,
     "tools": {}
+  },
+  "@dragonkhoi/mercury-mcp": {
+    "category": "finance-fintech",
+    "path": "finance-fintech/mercury-mcp.json",
+    "tools": {},
+    "validated": false
   }
 }
