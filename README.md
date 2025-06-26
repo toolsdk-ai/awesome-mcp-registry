@@ -94,9 +94,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (37)
+✅: Validated and runnable tools (39)
 
-❌: Cannot be run by the MCP client (with mock environments variables (33))
+❌: Cannot be run by the MCP client (with mock environments variables (31))
 
 
 
@@ -256,7 +256,7 @@ Work with maps, weather, and location-based data for analytics and insights.
 Create and edit marketing content, manage metadata, and refine product positioning.
 
 - [✅ @ashdev/discourse-mcp-server](https://github.com/AshDevFr/discourse-mcp-server/tree/main/src): Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.  (1 tools) (node) 
-- [❌ @toolsdk.ai/mcp-server-google-analytics](https://github.com/Seey215/mcp-server-google-analytics): An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.  (node) 
+- [✅ @toolsdk.ai/mcp-server-google-analytics](https://github.com/smithery-ai/mcp-server-google-analytics): An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.  (2 tools) (node) 
 
 
 <a id="monitoring"></a>

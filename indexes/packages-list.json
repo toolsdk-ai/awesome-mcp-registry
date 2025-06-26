@@ -1876,8 +1876,17 @@
   "mcp-server-google-analytics": {
     "category": "marketing",
     "path": "marketing/mcp-server-google-analytics.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "get_report": {
+        "name": "get_report",
+        "description": "Get a report from Google Analytics Data API"
+      },
+      "get_realtime_data": {
+        "name": "get_realtime_data",
+        "description": "Get realtime data from Google Analytics Data API"
+      }
+    }
   },
   "@ashdev/discourse-mcp-server": {
     "category": "marketing",
@@ -1893,7 +1902,16 @@
   "@toolsdk.ai/mcp-server-google-analytics": {
     "category": "marketing",
     "path": "marketing/mcp-server-google-analytics.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "get_report": {
+        "name": "get_report",
+        "description": "Get a report from Google Analytics Data API"
+      },
+      "get_realtime_data": {
+        "name": "get_realtime_data",
+        "description": "Get realtime data from Google Analytics Data API"
+      }
+    }
   }
 }

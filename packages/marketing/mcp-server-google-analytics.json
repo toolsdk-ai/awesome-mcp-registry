@@ -4,7 +4,7 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/GAnalytics.svg/1024px-GAnalytics.svg.png",
   "packageName": "@toolsdk.ai/mcp-server-google-analytics",
   "description": "An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.",
-  "url": "https://github.com/Seey215/mcp-server-google-analytics",
+  "url": "https://github.com/smithery-ai/mcp-server-google-analytics",
   "runtime": "node",
   "license": "MIT",
   "env": {

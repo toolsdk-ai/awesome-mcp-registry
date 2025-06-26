@@ -65,6 +65,7 @@
     "@chargebee/mcp": "latest",
     "mcp-server-flomo": "latest",
     "@modelcontextprotocol/server-sequential-thinking": "latest",
+    "@toolsdk.ai/mcp-server-google-analytics": "latest",
     "@ashdev/discourse-mcp-server": "latest"
   },
   "devDependencies": {
