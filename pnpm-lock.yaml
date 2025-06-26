@@ -9,166 +9,166 @@ importers:
   .:
     dependencies:
       '@anaisbetts/mcp-youtube':
-        specifier: latest
+        specifier: 0.6.0
         version: 0.6.0
       '@ashdev/discourse-mcp-server':
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       '@automatalabs/mcp-server-playwright':
-        specifier: latest
+        specifier: 1.2.1
         version: 1.2.1
       '@benborla29/mcp-server-mysql':
-        specifier: latest
+        specifier: 2.0.3
         version: 2.0.3(react@19.1.0)(ws@8.18.2(bufferutil@4.0.9))(zod@3.25.67)
       '@chanmeng666/google-news-server':
-        specifier: latest
+        specifier: 1.0.0
         version: 1.0.0
       '@chargebee/mcp':
-        specifier: latest
+        specifier: 0.0.4
         version: 0.0.4
       '@cloudflare/mcp-server-cloudflare':
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0
       '@enescinar/twitter-mcp':
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0(react@19.1.0)(ws@8.18.2(bufferutil@4.0.9))
       '@executeautomation/playwright-mcp-server':
-        specifier: latest
+        specifier: 1.0.6
         version: 1.0.6(react@19.1.0)(ws@8.18.2(bufferutil@4.0.9))(zod@3.25.67)
       '@gongrzhe/server-gmail-autoauth-mcp':
-        specifier: latest
+        specifier: 1.1.10
         version: 1.1.10(react@19.1.0)(ws@8.18.2(bufferutil@4.0.9))
       '@kazuph/mcp-screenshot':
-        specifier: latest
+        specifier: 1.0.4
         version: 1.0.4
       '@kimtaeyoon83/mcp-server-youtube-transcript':
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       '@llmindset/mcp-hfspace':
-        specifier: latest
+        specifier: 0.5.4
         version: 0.5.4(@types/node@22.15.33)
       '@llmindset/mcp-miro':
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       '@mcp-get-community/server-curl':
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       '@mcp-get-community/server-llm-txt':
-        specifier: latest
+        specifier: 0.6.2
         version: 0.6.2(bufferutil@4.0.9)
       '@mcp-get-community/server-macos':
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       '@modelcontextprotocol/sdk':
         specifier: ^1.12.0
         version: 1.13.1
       '@modelcontextprotocol/server-aws-kb-retrieval':
-        specifier: latest
+        specifier: 0.6.2
         version: 0.6.2
       '@modelcontextprotocol/server-brave-search':
-        specifier: latest
+        specifier: 0.6.2
         version: 0.6.2
       '@modelcontextprotocol/server-everart':
-        specifier: latest
+        specifier: 0.6.2
         version: 0.6.2
       '@modelcontextprotocol/server-everything':
-        specifier: latest
+        specifier: 2025.5.12
         version: 2025.5.12
       '@modelcontextprotocol/server-filesystem':
-        specifier: latest
+        specifier: 2025.3.28
         version: 2025.3.28(zod@3.25.67)
       '@modelcontextprotocol/server-gdrive':
-        specifier: latest
+        specifier: 2025.1.14
         version: 2025.1.14
       '@modelcontextprotocol/server-github':
-        specifier: latest
+        specifier: 2025.4.8
         version: 2025.4.8
       '@modelcontextprotocol/server-gitlab':
-        specifier: latest
+        specifier: 2025.4.25
         version: 2025.4.25(zod@3.25.67)
       '@modelcontextprotocol/server-google-maps':
-        specifier: latest
+        specifier: 0.6.2
         version: 0.6.2
       '@modelcontextprotocol/server-memory':
-        specifier: latest
+        specifier: 2025.4.25
         version: 2025.4.25
       '@modelcontextprotocol/server-postgres':
-        specifier: latest
+        specifier: 0.6.2
         version: 0.6.2
       '@modelcontextprotocol/server-puppeteer':
-        specifier: latest
+        specifier: 2025.5.12
         version: 2025.5.12(bufferutil@4.0.9)(typescript@5.8.3)
       '@modelcontextprotocol/server-sequential-thinking':
-        specifier: latest
+        specifier: 0.6.2
         version: 0.6.2
       '@modelcontextprotocol/server-slack':
-        specifier: latest
+        specifier: 2025.4.25
         version: 2025.4.25
       '@niledatabase/nile-mcp-server':
-        specifier: latest
+        specifier: 1.4.0
         version: 1.4.0
       '@raygun.io/mcp-server-raygun':
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0(zod@3.25.67)
       '@strowk/mcp-k8s':
-        specifier: latest
+        specifier: 0.3.6
         version: 0.3.6
       '@toolsdk.ai/mcp-mercury':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       '@toolsdk.ai/mcp-server-google-analytics':
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       airtable-mcp-server:
-        specifier: latest
+        specifier: 1.4.1
         version: 1.4.1
       anilist-mcp:
-        specifier: latest
+        specifier: 1.2.4
         version: 1.2.4
       brave-search-mcp:
-        specifier: latest
+        specifier: 0.7.5
         version: 0.7.5
       exa-mcp-server:
-        specifier: latest
+        specifier: 0.3.10
         version: 0.3.10
       graphlit-mcp-server:
-        specifier: latest
+        specifier: 1.0.20250625001
         version: 1.0.20250625001(@types/node@22.15.33)(bufferutil@4.0.9)(graphql-ws@6.0.5(graphql@16.11.0)(ws@8.18.2(bufferutil@4.0.9)))(react@19.1.0)(typescript@5.8.3)(ws@8.18.2(bufferutil@4.0.9))(zod@3.25.67)
       hackmd-mcp:
-        specifier: latest
+        specifier: 1.2.8
         version: 1.2.8
       hyperbrowser-mcp:
-        specifier: latest
+        specifier: 1.0.25
         version: 1.0.25
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
       mcp-mongo-server:
-        specifier: latest
+        specifier: 1.3.0
         version: 1.3.0(@aws-sdk/credential-providers@3.835.0)(socks@2.8.5)
       mcp-openapi-schema-explorer:
-        specifier: latest
+        specifier: 1.2.1
         version: 1.2.1
       mcp-server-commands:
-        specifier: latest
+        specifier: 0.5.0
         version: 0.5.0
       mcp-server-flomo:
-        specifier: latest
+        specifier: 0.0.11
         version: 0.0.11
       mcp-server-giphy:
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3
       mcp-server-kubernetes:
-        specifier: latest
+        specifier: 2.4.3
         version: 2.4.3(bufferutil@4.0.9)
       mcp-server-stability-ai:
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0
       mcp-shell:
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3
       tavily-mcp:
-        specifier: latest
+        specifier: 0.2.4
         version: 0.2.4
       zod:
         specifier: ^3.23.30
@@ -7063,7 +7063,7 @@ snapshots:
   '@graphql-tools/optimize@2.0.0(graphql@16.11.0)':
     dependencies:
       graphql: 16.11.0
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   '@graphql-tools/prisma-loader@8.0.17(@types/node@22.15.33)(bufferutil@4.0.9)(graphql@16.11.0)':
     dependencies:
@@ -7099,7 +7099,7 @@ snapshots:
       '@ardatan/relay-compiler': 12.0.3(graphql@16.11.0)
       '@graphql-tools/utils': 10.8.6(graphql@16.11.0)
       graphql: 16.11.0
-      tslib: 2.6.3
+      tslib: 2.8.1
     transitivePeerDependencies:
       - encoding
 
@@ -8842,14 +8842,14 @@ snapshots:
   camel-case@4.1.2:
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   caniuse-lite@1.0.30001726: {}
 
   capital-case@1.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
       upper-case-first: 2.0.2
 
   chalk@4.1.2:
@@ -8885,7 +8885,7 @@ snapshots:
       path-case: 3.0.4
       sentence-case: 3.0.4
       snake-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   chardet@0.7.0: {}
 
@@ -8991,7 +8991,7 @@ snapshots:
   constant-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
       upper-case: 2.0.2
 
   content-disposition@0.5.4:
@@ -9205,7 +9205,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   dotenv@16.5.0: {}
 
@@ -10202,7 +10202,7 @@ snapshots:
   header-case@2.0.4:
     dependencies:
       capital-case: 1.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   headers-polyfill@4.0.3: {}
 
@@ -10436,7 +10436,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   is-map@2.0.3: {}
 
@@ -10507,7 +10507,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   is-url@1.2.4: {}
 
@@ -10779,11 +10779,11 @@ snapshots:
 
   lower-case-first@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   lru-cache@10.4.3: {}
 
@@ -11055,7 +11055,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   node-domexception@1.0.0: {}
 
@@ -11328,7 +11328,7 @@ snapshots:
   param-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   parent-module@1.0.1:
     dependencies:
@@ -11358,12 +11358,12 @@ snapshots:
   pascal-case@3.1.2:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   path-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   path-exists@4.0.0: {}
 
@@ -11788,7 +11788,7 @@ snapshots:
   sentence-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
       upper-case-first: 2.0.2
 
   seq-queue@0.0.5: {}
@@ -11956,7 +11956,7 @@ snapshots:
   snake-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   socks-proxy-agent@8.0.5:
     dependencies:
@@ -11990,7 +11990,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   sprintf-js@1.1.3: {}
 
@@ -12132,7 +12132,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   swr@2.3.3(react@19.1.0):
     dependencies:
@@ -12219,7 +12219,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   titleize@3.0.0: {}
 
@@ -12411,11 +12411,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   uri-js@4.4.1:
     dependencies:

@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-71-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-72-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 71+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 72+ MCP servers.
 
 
 
@@ -27,7 +27,6 @@ An open, high-quality, well-structured and developer-friendly list of 71+ MCP se
   - [Developer Tools](#developer-tools)
   - [Data Science Tools](#data-science-tools)
   - [File Systems](#file-systems)
-  - [Finance & Fintech](#finance-fintech)
   - [Finance & Fintech](#finance-fintech)
   - [Knowledge & Memory](#knowledge-memory)
   - [Location Services](#location-services)

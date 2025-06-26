@@ -1931,7 +1931,7 @@
   "@dragonkhoi/mercury-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/mercury-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   }
 }

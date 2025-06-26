@@ -4,34 +4,31 @@
 // It also associates the packages with their respective categories and ensures no duplicate keys exist.
 // Finally, it writes the generated data to the specified output files in the collections directory.
 
-import * as fs from 'fs';
-import * as path from 'path';
-import { MCPServerPackageConfigSchema, PackagesListSchema, } from '../src/schema';
-import { type CategoryConfig , type MCPServerPackageConfig, type PackagesList} from '../src/types';
+import * as fs from "fs";
+import * as path from "path";
+import { MCPServerPackageConfigSchema, PackagesListSchema } from "../src/schema";
+import { type CategoryConfig, type MCPServerPackageConfig, type PackagesList } from "../src/types";
+import { getActualVersion, updatePackageJsonDependencies } from "../src/helper";
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const categoryConfigs: CategoryConfig[] = require('../config/categories').default;
+const categoryConfigs: CategoryConfig[] = require("../config/categories").default;
 
-const packagesDir = './packages';
-const packagesListFile = './indexes/packages-list.json';
+const packagesDir = "./packages";
+const packagesListFile = "./indexes/packages-list.json";
 // Read the current packages list from the json file
-const previousPackagesList:PackagesList = PackagesListSchema.parse(JSON.parse(fs.readFileSync(packagesListFile, 'utf-8'))) as PackagesList;
+const previousPackagesList: PackagesList = PackagesListSchema.parse(
+  JSON.parse(fs.readFileSync(packagesListFile, "utf-8"))
+) as PackagesList;
 
-const categoriesListFile = './indexes/categories-list.json';
-const packageJsonFile = './package.json';
-
+const categoriesListFile = "./indexes/categories-list.json";
 // Compare check `newPackagesList` with `previousPackagesList`, print the differences
 function comparePackagesLists(previousPackagesList: PackagesList, newPackagesList: PackagesList) {
   const currentKeys = new Set(Object.keys(previousPackagesList));
   const newKeys = new Set(Object.keys(newPackagesList));
 
-  // console log their count
-  // console.log(`Current packages count: ${currentKeys.size}`);
-  // console.log(`New packages count: ${newKeys.size}`);
-
-  const addedKeys = [...newKeys].filter(key => !currentKeys.has(key));
-  const removedKeys = [...currentKeys].filter(key => !newKeys.has(key));
-  const commonKeys = [...newKeys].filter(key => currentKeys.has(key));
+  const addedKeys = [...newKeys].filter((key) => !currentKeys.has(key));
+  const removedKeys = [...currentKeys].filter((key) => !newKeys.has(key));
+  const commonKeys = [...newKeys].filter((key) => currentKeys.has(key));
 
   if (addedKeys.length > 0) {
     console.log(`Added packages (${addedKeys.length}):`, addedKeys);
@@ -41,7 +38,7 @@ function comparePackagesLists(previousPackagesList: PackagesList, newPackagesLis
     console.log(`Removed packages (${removedKeys.length}):`, removedKeys);
   }
 
-  const modifiedKeys = commonKeys.filter(key => {
+  const modifiedKeys = commonKeys.filter((key) => {
     const current = previousPackagesList[key];
     const updated = newPackagesList[key];
     return JSON.stringify(current) !== JSON.stringify(updated);
@@ -52,7 +49,7 @@ function comparePackagesLists(previousPackagesList: PackagesList, newPackagesLis
   }
 
   if (addedKeys.length === 0 && removedKeys.length === 0 && modifiedKeys.length === 0) {
-    console.log('No changes detected in packages list.');
+    console.log("No changes detected in packages list.");
   }
 }
 
@@ -60,21 +57,23 @@ async function generatePackagesList() {
   const newPackagesList: PackagesList = JSON.parse(JSON.stringify(previousPackagesList));
   const newPackagesKeys = new Set();
   const categoriesList: Record<string, { config: CategoryConfig; packagesList: string[] }> = {};
-  const packageDeps: Record<string, string> = {}
+  const packageDeps: Record<string, string> = {};
 
   function traverseDirectory(directory: string, categoryName: string) {
     const entries = fs.readdirSync(directory);
 
     for (const entry of entries) {
       const entryPath = path.join(directory, entry);
-      if (fs.statSync(entryPath).isFile() && entry.endsWith('.json')) {
-        const fileContent = fs.readFileSync(entryPath, 'utf-8');
-        const parsedContent: MCPServerPackageConfig= MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
+      if (fs.statSync(entryPath).isFile() && entry.endsWith(".json")) {
+        const fileContent = fs.readFileSync(entryPath, "utf-8");
+        const parsedContent: MCPServerPackageConfig = MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
         const key = parsedContent.key || parsedContent.packageName;
         const relativePath = path.relative(packagesDir, entryPath);
-        newPackagesList[key] = { 
+        newPackagesList[key] = {
           ...newPackagesList[key],
-          path: relativePath , category: categoryName};
+          path: relativePath,
+          category: categoryName,
+        };
 
         newPackagesKeys.add(key);
 
@@ -84,10 +83,10 @@ async function generatePackagesList() {
         }
         categoriesList[categoryName].packagesList.push(key);
 
-        if (parsedContent.runtime === 'node') {
-          packageDeps[parsedContent.packageName] = parsedContent.packageVersion || 'latest';
+        if (parsedContent.runtime === "node") {
+          const version = getActualVersion(parsedContent.packageName, parsedContent.packageVersion);
+          packageDeps[parsedContent.packageName] = version || "latest";
         }
-        // }
       } else if (fs.statSync(entryPath).isDirectory()) {
         traverseDirectory(entryPath, categoryName);
       }
@@ -105,11 +104,10 @@ async function generatePackagesList() {
     }
   }
 
-  fs.writeFileSync(packagesListFile, JSON.stringify(newPackagesList, null, 2), 'utf-8');
-  fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), 'utf-8');
+  fs.writeFileSync(packagesListFile, JSON.stringify(newPackagesList, null, 2), "utf-8");
+  fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), "utf-8");
   console.log(`Generated packages list at ${packagesListFile}`);
   console.log(`Generated categories list at ${categoriesListFile}`);
-
 
   // delete packages that are not in the new packages list, base on `newPackagesKeys`
   for (const key in newPackagesList) {
@@ -122,22 +120,8 @@ async function generatePackagesList() {
   // compare previous and new packages lists
   comparePackagesLists(previousPackagesList, newPackagesList);
 
-  const packageJSONStr = fs.readFileSync(packageJsonFile, 'utf-8');
-  const newDeps = {
-    "@modelcontextprotocol/sdk": "^1.12.0",
-    "lodash": "^4.17.21",
-    "zod": "^3.23.30",
-  };
-  const packageJSON = JSON.parse(packageJSONStr);
-  for (const [depName, depVer] of Object.entries(packageDeps)) {
-    newDeps[depName] = packageDeps[depVer] || 'latest';
-  }
-
-  packageJSON.dependencies = newDeps
-
-  fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
-
-  console.log(`Generated new package.json file at ${packageJsonFile}`);
+  // Write package.json dependencies
+  updatePackageJsonDependencies({ packageDeps });
 }
 
 generatePackagesList();
