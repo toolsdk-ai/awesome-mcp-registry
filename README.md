@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-70-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-72-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 70+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 72+ MCP servers.
 
 
 
@@ -95,7 +95,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (37)
+✅: Validated and runnable tools (39)
 
 ❌: Cannot be run by the MCP client (with mock environments variables (33))
 
@@ -106,8 +106,8 @@ For more detail please see [the guide](./docs/guide.md).
 
 Tools that haven’t been sorted into a category yet. AI will categorize it later.
 
-- [❌ @URDJMK/serpapi-mcp-server](https://github.com/URDJMK/serpapi-mcp-server): A collection of Model Context Protocol (MCP) servers that integrate with SerpAPI and YouTube to provide search capabilities and data retrieval for AI assistants.  (python) 
 - [✅ @kazuph/mcp-screenshot](https://github.com/kazuph/mcp-screenshot): An MCP server that captures screenshots and performs OCR text recognition.  (1 tools) (node) 
+- [❌ @URDJMK/serpapi-mcp-server](https://github.com/URDJMK/serpapi-mcp-server): A collection of Model Context Protocol (MCP) servers that integrate with SerpAPI and YouTube to provide search capabilities and data retrieval for AI assistants.  (python) 
 
 
 <a id="aggregators"></a>
@@ -123,8 +123,8 @@ Servers that let you access multiple apps and tools through one MCP server.
 
 Explore art collections, museums, and cultural heritage with AI-friendly tools.
 
-- [❌ @modelcontextprotocol/server-everart](https://github.com/modelcontextprotocol/servers/blob/main/src/everart): MCP server for EverArt API integration  (node) 
 - [✅ mcp-server-stability-ai](https://github.com/tadasant/mcp-server-stability-ai): Integrates Stability AI's image generation and manipulation capabilities for editing, upscaling, and more via Stable Diffusion models.  (13 tools) (node) 
+- [❌ @modelcontextprotocol/server-everart](https://github.com/modelcontextprotocol/servers/blob/main/src/everart): MCP server for EverArt API integration  (node) 
 
 
 <a id="browser-automation"></a>
@@ -132,13 +132,13 @@ Explore art collections, museums, and cultural heritage with AI-friendly tools.
 
 Tools for browsing, scraping, and automating web content in AI-compatible formats.
 
-- [✅ @automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright/tree/main): MCP server for browser automation using Playwright  (10 tools) (node) 
-- [✅ hyperbrowser-mcp](https://github.com/hyperbrowserai/mcp/tree/main): An MCP server for Hyperbrowser - Hyperbrowser is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation  (10 tools) (node) 
-- [✅ @modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/blob/main/src/puppeteer): MCP server for browser automation using Puppeteer  (7 tools) (node) 
-- [❌ mcp-server-fetch](https://github.com/modelcontextprotocol/servers/blob/main/src/fetch): A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs  (python) 
-- [✅ @executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright/tree/main/src): A Model Context Protocol server for Playwright for Browser Automation and Web Scraping.  (31 tools) (node) 
-- [✅ tavily-mcp](https://github.com/tavily-ai/tavily-mcp/tree/main): Providing seamless integration with Tavily's search and extract tools for real-time web search and intelligent data extraction.  (4 tools) (node) 
 - [✅ exa-mcp-server](https://github.com/exa-labs/exa-mcp-server): A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way.  (8 tools) (node) 
+- [✅ hyperbrowser-mcp](https://github.com/hyperbrowserai/mcp/tree/main): An MCP server for Hyperbrowser - Hyperbrowser is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation  (10 tools) (node) 
+- [✅ tavily-mcp](https://github.com/tavily-ai/tavily-mcp/tree/main): Providing seamless integration with Tavily's search and extract tools for real-time web search and intelligent data extraction.  (4 tools) (node) 
+- [❌ mcp-server-fetch](https://github.com/modelcontextprotocol/servers/blob/main/src/fetch): A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs  (python) 
+- [✅ @modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/blob/main/src/puppeteer): MCP server for browser automation using Puppeteer  (7 tools) (node) 
+- [✅ @automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright/tree/main): MCP server for browser automation using Playwright  (10 tools) (node) 
+- [✅ @executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright/tree/main/src): A Model Context Protocol server for Playwright for Browser Automation and Web Scraping.  (32 tools) (node) 
 
 
 <a id="cloud-platforms"></a>
@@ -146,10 +146,10 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 
 Integrate with cloud services to manage and interact with cloud infrastructure.
 
-- [✅ @strowk/mcp-k8s](https://github.com/strowk/mcp-k8s-go): MCP server connecting to Kubernetes  (8 tools) (node) 
 - [❌ kubernetes-mcp-server](https://github.com/manusa/kubernetes-mcp-server): Powerful and flexible Kubernetes MCP server implementation with additional features for OpenShift. Besides the typical CRUD operations on any Kubernetes resource, this implementation adds specialized features for Pods and other resources.  (go) 
+- [✅ @strowk/mcp-k8s](https://github.com/strowk/mcp-k8s-go): MCP server connecting to Kubernetes  (8 tools) (node) 
 - [❌ @cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare): MCP server for interacting with Cloudflare API  (node) 
-- [✅ mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes): MCP server for managing Kubernetes clusters, enabling LLMs to interact with and control Kubernetes resources.  (20 tools) (node) 
+- [✅ mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes): MCP server for managing Kubernetes clusters, enabling LLMs to interact with and control Kubernetes resources.  (21 tools) (node) 
 
 
 <a id="code-execution"></a>
@@ -174,9 +174,9 @@ Run shell commands and interact with command-line tools easily.
 
 Connect with messaging platforms to manage chats and interact with team tools.
 
+- [✅ @modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack): MCP server for interacting with Slack  (8 tools) (node) 
 - [✅ @enescinar/twitter-mcp](https://github.com/EnesCinr/twitter-mcp): This MCP server allows Clients to interact with Twitter, enabling posting tweets and searching Twitter.  (2 tools) (node) 
 - [❌ @gongrzhe/server-gmail-autoauth-mcp](https://github.com/gongrzhe/server-gmail-autoauth-mcp): Gmail MCP server with auto authentication support  (node) 
-- [✅ @modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack): MCP server for interacting with Slack  (8 tools) (node) 
 
 
 <a id="databases"></a>
@@ -184,12 +184,12 @@ Connect with messaging platforms to manage chats and interact with team tools.
 
 Securely access and query databases with options for read-only permissions.
 
-- [❌ @benborla29/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql): An MCP server for interacting with MySQL databases  (node) 
 - [❌ mcp-server-sqlite](https://github.com/modelcontextprotocol/servers/blob/main/src/sqlite): A simple SQLite MCP server  (python) 
-- [✅ @niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server/tree/main): MCP server for Nile Database - Manage and query databases, tenants, users, auth using LLMs  (11 tools) (node) 
-- [✅ airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server): Airtable database integration with schema inspection, read and write capabilities  (13 tools) (node) 
-- [❌ @modelcontextprotocol/server-postgres](https://github.com/modelcontextprotocol/servers/blob/main/src/postgres): MCP server for interacting with PostgreSQL databases  (node) 
 - [❌ mcp-mongo-server](https://github.com/kiliczsh/mcp-mongo-server): A Model Context Protocol Server for MongoDB  (node) 
+- [❌ @benborla29/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql): An MCP server for interacting with MySQL databases  (node) 
+- [❌ @modelcontextprotocol/server-postgres](https://github.com/modelcontextprotocol/servers/blob/main/src/postgres): MCP server for interacting with PostgreSQL databases  (node) 
+- [✅ airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server): Airtable database integration with schema inspection, read and write capabilities  (13 tools) (node) 
+- [✅ @niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server/tree/main): MCP server for Nile Database - Manage and query databases, tenants, users, auth using LLMs  (11 tools) (node) 
 
 
 <a id="data-platforms"></a>
@@ -205,15 +205,15 @@ Tools for integrating, transforming, and managing data pipelines.
 
 Enhance your development workflow with tools for coding and environment management.
 
+- [❌ hackmd-mcp](https://github.com/yuna0x0/hackmd-mcp): A Model Context Protocol server for integrating HackMD's note-taking platform with AI assistants  (node) 
+- [❌ awslabs.nova-canvas-mcp-server](https://github.com/awslabs/mcp/tree/main/src/nova-canvas-mcp-server): A Model Context Protocol server that lets you interact with a Nova Canvas from any MCP client.  (python) 
 - [✅ @mcp-get-community/server-macos](https://github.com/mcp-get/community-servers/blob/main/src/server-macos): MCP server for macOS system operations  (2 tools) (node) 
 - [✅ @mcp-get-community/server-llm-txt](https://github.com/mcp-get/community-servers/blob/main/src/server-llm-txt): MCP server that extracts and serves context from llm.txt files, enabling AI models to understand file structure, dependencies, and code relationships in development environments  (3 tools) (node) 
-- [❌ mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer): MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resources for client-side exploration.  (node) 
-- [❌ docker-mcp](https://github.com/QuantGeekDev/docker-mcp): A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI  (python) 
-- [✅ @llmindset/mcp-hfspace](https://github.com/evalstate/mcp-hfspace/): MCP Server for using HuggingFace Spaces. Seamlessly use the latest Open Source Image, Audio and Text Models from within Claude Deskop.  (3 tools) (node) 
-- [❌ hackmd-mcp](https://github.com/yuna0x0/hackmd-mcp): A Model Context Protocol server for integrating HackMD's note-taking platform with AI assistants  (node) 
 - [❌ mcp-server-aidd](https://github.com/skydeckai/mcp-server-aidd): An MCP server that provides a comprehensive set of tools for AI-driven development workflows. Features include file system operations, code analysis using tree-sitter for multiple programming languages, Git operations, code execution, and system information retrieval. Designed to enhance AI's capability to assist in software development tasks.  (python) 
 - [❌ mcp-server-tree-sitter](https://github.com/wrale/mcp-server-tree-sitter): A Model Context Protocol server that provides code analysis capabilities using tree-sitter. This server enables LLMs to explore, search, and analyze code with appropriate context management.  (python) 
-- [❌ awslabs.nova-canvas-mcp-server](https://github.com/awslabs/mcp/tree/main/src/nova-canvas-mcp-server): A Model Context Protocol server that lets you interact with a Nova Canvas from any MCP client.  (python) 
+- [❌ @llmindset/mcp-hfspace](https://github.com/evalstate/mcp-hfspace/): MCP Server for using HuggingFace Spaces. Seamlessly use the latest Open Source Image, Audio and Text Models from within Claude Deskop.  (node) 
+- [❌ mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer): MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resources for client-side exploration.  (node) 
+- [❌ docker-mcp](https://github.com/QuantGeekDev/docker-mcp): A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI  (python) 
 
 
 <a id="data-science-tools"></a>
@@ -229,8 +229,8 @@ Simplify data analysis and exploration with tools for data science workflows.
 
 Manage files and directories with tools for reading, writing, and organizing files.
 
-- [❌ @modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers): MCP server for filesystem access  (node) 
 - [❌ @modelcontextprotocol/server-gdrive](https://github.com/modelcontextprotocol/servers/blob/main/src/gdrive): MCP server for interacting with Google Drive  (node) 
+- [❌ @modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers): MCP server for filesystem access  (node) 
 
 
 <a id="finance-fintech"></a>
@@ -238,7 +238,7 @@ Manage files and directories with tools for reading, writing, and organizing fil
 
 Work with financial data, market info, and trading platforms using AI tools.
 
-- [❌ @dragonkhoi/mercury-mcp](https://github.com/dragonkhoi/mercury-mcp/tree/main/src): Simple MCP server that interfaces with the Mercury API, allowing you to talk to your Mercury banking data from any MCP client like Cursor or Claude Desktop.  (node) 
+- [❌ @toolsdk.ai/mcp-mercury](https://github.com/dragonkhoi/mercury-mcp/tree/main/src): Simple MCP server that interfaces with the Mercury API, allowing you to talk to your Mercury banking data from any MCP client like Cursor or Claude Desktop.  (node) 
 
 
 <a id="knowledge-memory"></a>
@@ -246,9 +246,9 @@ Work with financial data, market info, and trading platforms using AI tools.
 
 Store and query structured information for AI models to use across sessions.
 
-- [❌ mcp-server-rememberizer](https://github.com/skydeckai/mcp-server-rememberizer): An MCP server for interacting with Rememberizer's document and knowledge management API. This server enables Large Language Models to search, retrieve, and manage documents and integrations through Rememberizer.  (python) 
 - [❌ mcp-rememberizer-vectordb](https://github.com/skydeckai/mcp-rememberizer-vectordb): A Model Context Protocol server for LLMs to interact with Rememberizer Vector Store.  (python) 
 - [✅ @modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory): MCP server for enabling memory for Claude through a knowledge graph  (9 tools) (node) 
+- [❌ mcp-server-rememberizer](https://github.com/skydeckai/mcp-server-rememberizer): An MCP server for interacting with Rememberizer's document and knowledge management API. This server enables Large Language Models to search, retrieve, and manage documents and integrations through Rememberizer.  (python) 
 
 
 <a id="location-services"></a>
@@ -264,8 +264,8 @@ Work with maps, weather, and location-based data for analytics and insights.
 
 Create and edit marketing content, manage metadata, and refine product positioning.
 
-- [❌ mcp-server-google-analytics](https://github.com/Seey215/mcp-server-google-analytics): An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.  (node) 
-- [❌ @AshDevFr/discourse-mcp-server](https://github.com/AshDevFr/discourse-mcp-server/tree/main/src): Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.  (node) 
+- [✅ @ashdev/discourse-mcp-server](https://github.com/AshDevFr/discourse-mcp-server/tree/main/src): Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.  (1 tools) (node) 
+- [✅ @toolsdk.ai/mcp-server-google-analytics](https://github.com/smithery-ai/mcp-server-google-analytics): An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.  (2 tools) (node) 
 
 
 <a id="monitoring"></a>
@@ -273,8 +273,8 @@ Create and edit marketing content, manage metadata, and refine product positioni
 
 Analyze app performance and error reports with monitoring tools.
 
-- [❌ mcp-server-sentry](https://github.com/modelcontextprotocol/servers/blob/main/src/sentry): MCP server for retrieving issues from sentry.io  (python) 
 - [✅ @raygun.io/mcp-server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun): MCP server for interacting with Raygun's API for crash reporting and real user monitoring metrics  (32 tools) (node) 
+- [❌ mcp-server-sentry](https://github.com/modelcontextprotocol/servers/blob/main/src/sentry): MCP server for retrieving issues from sentry.io  (python) 
 
 
 <a id="search-data-extraction"></a>
@@ -283,17 +283,17 @@ Analyze app performance and error reports with monitoring tools.
 Find and extract data from various sources quickly and efficiently.
 
 - [❌ mcp-server-giphy](https://github.com/magarcia/mcp-server-giphy): MCP Server for the Giphy API, enabling AI models to search, retrieve, and utilize GIFs from Giphy  (node) 
+- [✅ @kimtaeyoon83/mcp-server-youtube-transcript](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript): This is an MCP server that allows you to directly download transcripts of YouTube videos.  (1 tools) (node) 
+- [✅ @modelcontextprotocol/server-brave-search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search): MCP server for Brave Search API integration  (2 tools) (node) 
+- [✅ @modelcontextprotocol/server-aws-kb-retrieval](https://github.com/modelcontextprotocol/servers/blob/main/src/aws-kb-retrieval-server): MCP server for AWS Knowledge Base retrieval using Bedrock Agent Runtime  (1 tools) (node) 
 - [✅ anilist-mcp](https://github.com/yuna0x0/anilist-mcp): MCP server that interfaces with the AniList API, allowing LLM clients to access and interact with anime, manga, character, staff, and user data from AniList  (44 tools) (node) 
 - [✅ @anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube): MCP server for fetching YouTube subtitles  (1 tools) (node) 
-- [✅ brave-search-mcp](https://github.com/mikechao/brave-search-mcp): An MCP Server implementation that integrates the Brave Search API, providing, Web Search, Local Points of Interest Search, Video Search, Image Search and News Search capabilities  (5 tools) (node) 
-- [✅ @modelcontextprotocol/server-aws-kb-retrieval](https://github.com/modelcontextprotocol/servers/blob/main/src/aws-kb-retrieval-server): MCP server for AWS Knowledge Base retrieval using Bedrock Agent Runtime  (1 tools) (node) 
-- [✅ @kimtaeyoon83/mcp-server-youtube-transcript](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript): This is an MCP server that allows you to directly download transcripts of YouTube videos.  (1 tools) (node) 
-- [✅ @mcp-get-community/server-curl](https://github.com/mcp-get/community-servers/blob/main/src/server-curl): MCP server for making HTTP requests using a curl-like interface  (1 tools) (node) 
-- [✅ graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server): Graphlit MCP Server for AI, RAG, OpenAI, PDF parsing and preprocessing  (64 tools) (node) 
-- [✅ @modelcontextprotocol/server-brave-search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search): MCP server for Brave Search API integration  (2 tools) (node) 
-- [✅ @chanmeng666/google-news-server](https://github.com/ChanMeng666/server-google-news): MCP server for Google News search via SerpAPI  (1 tools) (node) 
-- [❌ qanon_mcp](https://github.com/jkingsman/qanon-mcp-server): Enables search, exploration, and analysis of all QAnon posts/drops for sociological study  (python) 
 - [❌ mcp-server-perplexity](https://github.com/tanigami/mcp-server-perplexity): MCP Server for the Perplexity API  (python) 
+- [❌ qanon_mcp](https://github.com/jkingsman/qanon-mcp-server): Enables search, exploration, and analysis of all QAnon posts/drops for sociological study  (python) 
+- [✅ @chanmeng666/google-news-server](https://github.com/ChanMeng666/server-google-news): MCP server for Google News search via SerpAPI  (1 tools) (node) 
+- [✅ @mcp-get-community/server-curl](https://github.com/mcp-get/community-servers/blob/main/src/server-curl): MCP server for making HTTP requests using a curl-like interface  (1 tools) (node) 
+- [✅ brave-search-mcp](https://github.com/mikechao/brave-search-mcp): An MCP Server implementation that integrates the Brave Search API, providing, Web Search, Local Points of Interest Search, Video Search, Image Search and News Search capabilities  (5 tools) (node) 
+- [✅ graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server): Graphlit MCP Server for AI, RAG, OpenAI, PDF parsing and preprocessing  (64 tools) (node) 
 
 
 <a id="version-control"></a>
@@ -302,8 +302,8 @@ Find and extract data from various sources quickly and efficiently.
 Manage Git repositories, pull requests, and issues with version control tools.
 
 - [✅ @modelcontextprotocol/server-gitlab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab): MCP server for using the GitLab API  (9 tools) (node) 
-- [✅ @modelcontextprotocol/server-github](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github): MCP server for using the GitHub API  (26 tools) (node) 
 - [❌ mcp-server-git](https://github.com/modelcontextprotocol/servers/blob/main/src/git): A Model Context Protocol server providing tools to read, search, and manipulate Git repositories programmatically via LLMs  (python) 
+- [✅ @modelcontextprotocol/server-github](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github): MCP server for using the GitHub API  (26 tools) (node) 
 
 
 <a id="other-tools-and-integrations"></a>
@@ -311,9 +311,9 @@ Manage Git repositories, pull requests, and issues with version control tools.
 
 Miscellaneous tools and integrations that don’t fit into other categories.
 
-- [✅ @chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol): MCP Server that connects AI agents to Chargebee platform.  (2 tools) (node) 
 - [❌ @llmindset/mcp-miro](https://github.com/evalstate/mcp-miro): A Model Context Protocol server to connect to the MIRO Whiteboard Application  (node) 
-- [✅ @modelcontextprotocol/server-sequential-thinking](https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking): MCP server for sequential thinking and problem solving  (1 tools) (node) 
-- [✅ mcp-server-flomo](https://github.com/xianminx/mcp-server-flomo): A MCP server for Flomo  (1 tools) (node) 
 - [❌ mcp-server-time](https://github.com/modelcontextprotocol/servers/blob/main/src/time): A Model Context Protocol server providing tools for time queries and timezone conversions for LLMs  (python) 
+- [✅ mcp-server-flomo](https://github.com/xianminx/mcp-server-flomo): A MCP server for Flomo  (1 tools) (node) 
+- [✅ @chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol): MCP Server that connects AI agents to Chargebee platform.  (2 tools) (node) 
+- [✅ @modelcontextprotocol/server-sequential-thinking](https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking): MCP server for sequential thinking and problem solving  (1 tools) (node) 
 

@@ -6,8 +6,8 @@
       "description": "Tools that haven’t been sorted into a category yet. AI will categorize it later."
     },
     "packagesList": [
-      "@URDJMK/serpapi-mcp-server",
-      "@kazuph/mcp-screenshot"
+      "@kazuph/mcp-screenshot",
+      "@URDJMK/serpapi-mcp-server"
     ]
   },
   "aggregators": {
@@ -27,8 +27,8 @@
       "description": "Explore art collections, museums, and cultural heritage with AI-friendly tools."
     },
     "packagesList": [
-      "@modelcontextprotocol/server-everart",
-      "mcp-server-stability-ai"
+      "mcp-server-stability-ai",
+      "@modelcontextprotocol/server-everart"
     ]
   },
   "browser-automation": {
@@ -38,13 +38,13 @@
       "description": "Tools for browsing, scraping, and automating web content in AI-compatible formats."
     },
     "packagesList": [
-      "@automatalabs/mcp-server-playwright",
+      "exa-mcp-server",
       "hyperbrowser-mcp",
-      "@modelcontextprotocol/server-puppeteer",
-      "mcp-server-fetch",
-      "@executeautomation/playwright-mcp-server",
       "tavily-mcp",
-      "exa-mcp-server"
+      "mcp-server-fetch",
+      "@modelcontextprotocol/server-puppeteer",
+      "@automatalabs/mcp-server-playwright",
+      "@executeautomation/playwright-mcp-server"
     ]
   },
   "cloud-platforms": {
@@ -54,8 +54,8 @@
       "description": "Integrate with cloud services to manage and interact with cloud infrastructure."
     },
     "packagesList": [
-      "@strowk/mcp-k8s",
       "kubernetes-mcp-server",
+      "@strowk/mcp-k8s",
       "@cloudflare/mcp-server-cloudflare",
       "mcp-server-kubernetes"
     ]
@@ -96,9 +96,9 @@
       "description": "Connect with messaging platforms to manage chats and interact with team tools."
     },
     "packagesList": [
+      "@modelcontextprotocol/server-slack",
       "@enescinar/twitter-mcp",
-      "@gongrzhe/server-gmail-autoauth-mcp",
-      "@modelcontextprotocol/server-slack"
+      "@gongrzhe/server-gmail-autoauth-mcp"
     ]
   },
   "customer-data-platforms": {
@@ -116,12 +116,12 @@
       "description": "Securely access and query databases with options for read-only permissions."
     },
     "packagesList": [
-      "@benborla29/mcp-server-mysql",
       "mcp-server-sqlite",
-      "@niledatabase/nile-mcp-server",
-      "airtable-mcp-server",
+      "mcp-mongo-server",
+      "@benborla29/mcp-server-mysql",
       "@modelcontextprotocol/server-postgres",
-      "mcp-mongo-server"
+      "airtable-mcp-server",
+      "@niledatabase/nile-mcp-server"
     ]
   },
   "data-platforms": {
@@ -141,15 +141,15 @@
       "description": "Enhance your development workflow with tools for coding and environment management."
     },
     "packagesList": [
+      "hackmd-mcp",
+      "awslabs.nova-canvas-mcp-server",
       "@mcp-get-community/server-macos",
       "@mcp-get-community/server-llm-txt",
-      "mcp-openapi-schema-explorer",
-      "docker-mcp",
-      "@llmindset/mcp-hfspace",
-      "hackmd-mcp",
       "mcp-server-aidd",
       "mcp-server-tree-sitter",
-      "awslabs.nova-canvas-mcp-server"
+      "@llmindset/mcp-hfspace",
+      "mcp-openapi-schema-explorer",
+      "docker-mcp"
     ]
   },
   "data-science-tools": {
@@ -177,8 +177,8 @@
       "description": "Manage files and directories with tools for reading, writing, and organizing files."
     },
     "packagesList": [
-      "@modelcontextprotocol/server-filesystem",
-      "@modelcontextprotocol/server-gdrive"
+      "@modelcontextprotocol/server-gdrive",
+      "@modelcontextprotocol/server-filesystem"
     ]
   },
   "finance-fintech": {
@@ -188,7 +188,7 @@
       "description": "Work with financial data, market info, and trading platforms using AI tools."
     },
     "packagesList": [
-      "@dragonkhoi/mercury-mcp"
+      "@toolsdk.ai/mcp-mercury"
     ]
   },
   "gaming": {
@@ -206,9 +206,9 @@
       "description": "Store and query structured information for AI models to use across sessions."
     },
     "packagesList": [
-      "mcp-server-rememberizer",
       "mcp-rememberizer-vectordb",
-      "@modelcontextprotocol/server-memory"
+      "@modelcontextprotocol/server-memory",
+      "mcp-server-rememberizer"
     ]
   },
   "location-services": {
@@ -228,8 +228,8 @@
       "description": "Create and edit marketing content, manage metadata, and refine product positioning."
     },
     "packagesList": [
-      "mcp-server-google-analytics",
-      "@AshDevFr/discourse-mcp-server"
+      "@ashdev/discourse-mcp-server",
+      "@toolsdk.ai/mcp-server-google-analytics"
     ]
   },
   "monitoring": {
@@ -239,8 +239,8 @@
       "description": "Analyze app performance and error reports with monitoring tools."
     },
     "packagesList": [
-      "mcp-server-sentry",
-      "@raygun.io/mcp-server-raygun"
+      "@raygun.io/mcp-server-raygun",
+      "mcp-server-sentry"
     ]
   },
   "search-data-extraction": {
@@ -251,17 +251,17 @@
     },
     "packagesList": [
       "mcp-server-giphy",
+      "@kimtaeyoon83/mcp-server-youtube-transcript",
+      "@modelcontextprotocol/server-brave-search",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
       "anilist-mcp",
       "@anaisbetts/mcp-youtube",
-      "brave-search-mcp",
-      "@modelcontextprotocol/server-aws-kb-retrieval",
-      "@kimtaeyoon83/mcp-server-youtube-transcript",
-      "@mcp-get-community/server-curl",
-      "graphlit-mcp-server",
-      "@modelcontextprotocol/server-brave-search",
-      "@chanmeng666/google-news-server",
+      "mcp-server-perplexity",
       "qanon_mcp",
-      "mcp-server-perplexity"
+      "@chanmeng666/google-news-server",
+      "@mcp-get-community/server-curl",
+      "brave-search-mcp",
+      "graphlit-mcp-server"
     ]
   },
   "security": {
@@ -312,8 +312,8 @@
     },
     "packagesList": [
       "@modelcontextprotocol/server-gitlab",
-      "@modelcontextprotocol/server-github",
-      "mcp-server-git"
+      "mcp-server-git",
+      "@modelcontextprotocol/server-github"
     ]
   },
   "other-tools-and-integrations": {
@@ -323,11 +323,11 @@
       "description": "Miscellaneous tools and integrations that don’t fit into other categories."
     },
     "packagesList": [
-      "@chargebee/mcp",
       "@llmindset/mcp-miro",
-      "@modelcontextprotocol/server-sequential-thinking",
+      "mcp-server-time",
       "mcp-server-flomo",
-      "mcp-server-time"
+      "@chargebee/mcp",
+      "@modelcontextprotocol/server-sequential-thinking"
     ]
   }
 }

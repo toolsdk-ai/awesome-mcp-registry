@@ -171,6 +171,10 @@
         "name": "playwright_hover",
         "description": "Hover an element on the page"
       },
+      "playwright_upload_file": {
+        "name": "playwright_upload_file",
+        "description": "Upload a file to an input[type='file'] element on the page"
+      },
       "playwright_evaluate": {
         "name": "playwright_evaluate",
         "description": "Execute JavaScript in the browser console"
@@ -221,7 +225,7 @@
       },
       "playwright_get_visible_html": {
         "name": "playwright_get_visible_html",
-        "description": "Get the HTML content of the current page"
+        "description": "Get the HTML content of the current page. By default, all <script> tags are removed from the output unless removeScripts is explicitly set to false."
       },
       "playwright_go_back": {
         "name": "playwright_go_back",
@@ -471,10 +475,6 @@
         "name": "kubectl_describe",
         "description": "Describe Kubernetes resources by resource type, name, and optionally namespace"
       },
-      "kubectl_list": {
-        "name": "kubectl_list",
-        "description": "List Kubernetes resources by resource type and optionally namespace"
-      },
       "kubectl_apply": {
         "name": "kubectl_apply",
         "description": "Apply a Kubernetes YAML manifest from a string or file"
@@ -531,6 +531,10 @@
         "name": "stop_port_forward",
         "description": "Stop a port-forward process"
       },
+      "exec_in_pod": {
+        "name": "exec_in_pod",
+        "description": "Execute a command in a Kubernetes pod or container and return the output"
+      },
       "list_api_resources": {
         "name": "list_api_resources",
         "description": "List the API resources available in the cluster"
@@ -538,6 +542,10 @@
       "kubectl_generic": {
         "name": "kubectl_generic",
         "description": "Execute any kubectl command with the provided arguments and flags"
+      },
+      "ping": {
+        "name": "ping",
+        "description": "Verify that the counterpart is still responsive and the connection is alive."
       }
     }
   },
@@ -815,21 +823,8 @@
   "@llmindset/mcp-hfspace": {
     "category": "developer-tools",
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "validated": true,
-    "tools": {
-      "available-files": {
-        "name": "available-files",
-        "description": "A list of available file and resources. If the User requests things like 'most recent image' or 'the audio' use this tool to identify the intended resource.This tool returns 'resource uri', 'name', 'size', 'last modified'  and 'mime type' in a markdown table"
-      },
-      "search-spaces": {
-        "name": "search-spaces",
-        "description": "Use semantic search to find an endpoint on the `Hugging Face Spaces` service. The search term will usually be 3-7 words describing a task or activity the Person is trying to accomplish. The results are returned in a markdown table. Present all results to the Person. Await specific guidance from the Person before making further Tool calls."
-      },
-      "FLUX_1-schnell-infer": {
-        "name": "FLUX_1-schnell-infer",
-        "description": "Call the FLUX.1-schnell endpoint /infer"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "@mcp-get-community/server-macos": {
     "category": "developer-tools",
@@ -1483,79 +1478,79 @@
       },
       "ingestSharePointFiles": {
         "name": "ingestSharePointFiles",
-        "description": "Ingests files from SharePoint library into Graphlit knowledge base.\n    Accepts a SharePoint libraryId and an optional folderId to ingest files from a specific SharePoint folder.\n    Libraries can be enumerated with listSharePointLibraries and library folders with listSharePointFolders.\n    Requires environment variables to be configured: SHAREPOINT_ACCOUNT_NAME, SHAREPOINT_CLIENT_ID, SHAREPOINT_CLIENT_SECRET, SHAREPOINT_REFRESH_TOKEN.\n    Accepts an optional read limit for the number of files to ingest.\n    Executes asynchronously, creates SharePoint feed, and returns the feed identifier."
+        "description": "Ingests files from SharePoint library into Graphlit knowledge base.\n    Accepts a SharePoint libraryId and an optional folderId to ingest files from a specific SharePoint folder.\n    Libraries can be enumerated with listSharePointLibraries and library folders with listSharePointFolders.\n    Requires environment variables to be configured: SHAREPOINT_ACCOUNT_NAME, SHAREPOINT_CLIENT_ID, SHAREPOINT_CLIENT_SECRET, SHAREPOINT_REFRESH_TOKEN.\n    Accepts an optional read limit for the number of files to ingest.\n    Executes asynchronously, creates SharePoint feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestOneDriveFiles": {
         "name": "ingestOneDriveFiles",
-        "description": "Ingests files from OneDrive into Graphlit knowledge base.\n    Accepts optional OneDrive folder identifier, and an optional read limit for the number of files to ingest.\n    If no folder identifier provided, ingests files from root OneDrive folder.\n    Requires environment variables to be configured: ONEDRIVE_CLIENT_ID, ONEDRIVE_CLIENT_SECRET, ONEDRIVE_REFRESH_TOKEN.\n    Executes asynchronously, creates OneDrive feed, and returns the feed identifier."
+        "description": "Ingests files from OneDrive into Graphlit knowledge base.\n    Accepts optional OneDrive folder identifier, and an optional read limit for the number of files to ingest.\n    If no folder identifier provided, ingests files from root OneDrive folder.\n    Requires environment variables to be configured: ONEDRIVE_CLIENT_ID, ONEDRIVE_CLIENT_SECRET, ONEDRIVE_REFRESH_TOKEN.\n    Executes asynchronously, creates OneDrive feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestGoogleDriveFiles": {
         "name": "ingestGoogleDriveFiles",
-        "description": "Ingests files from Google Drive into Graphlit knowledge base.\n    Accepts optional Google Drive folder identifier, and an optional read limit for the number of files to ingest.\n    For example, with Google Drive URI (https://drive.google.com/drive/u/0/folders/32tzhRD12KDh2hXABY8OZRFv7Smy8WBkQ), the folder identifier is 32tzhRD12KDh2hXABY8OZRFv7Smy8WBkQ.\n    If no folder identifier provided, ingests files from root Google Drive folder.\n    Requires environment variables to be configured: GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON -or- GOOGLE_DRIVE_CLIENT_ID, GOOGLE_DRIVE_CLIENT_SECRET, GOOGLE_DRIVE_REFRESH_TOKEN.\n    If service account JSON is provided, uses service account authentication. Else, uses user authentication.\n    Executes asynchronously, creates Google Drive feed, and returns the feed identifier."
+        "description": "Ingests files from Google Drive into Graphlit knowledge base.\n    Accepts optional Google Drive folder identifier, and an optional read limit for the number of files to ingest.\n    For example, with Google Drive URI (https://drive.google.com/drive/u/0/folders/32tzhRD12KDh2hXABY8OZRFv7Smy8WBkQ), the folder identifier is 32tzhRD12KDh2hXABY8OZRFv7Smy8WBkQ.\n    If no folder identifier provided, ingests files from root Google Drive folder.\n    Requires environment variables to be configured: GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON -or- GOOGLE_DRIVE_CLIENT_ID, GOOGLE_DRIVE_CLIENT_SECRET, GOOGLE_DRIVE_REFRESH_TOKEN.\n    If service account JSON is provided, uses service account authentication. Else, uses user authentication.\n    Executes asynchronously, creates Google Drive feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestDropboxFiles": {
         "name": "ingestDropboxFiles",
-        "description": "Ingests files from Dropbox into Graphlit knowledge base.\n    Accepts optional relative path to Dropbox folder (i.e. /Pictures), and an optional read limit for the number of files to ingest.\n    If no path provided, ingests files from root Dropbox folder.\n    Requires environment variables to be configured: DROPBOX_APP_KEY, DROPBOX_APP_SECRET, DROPBOX_REDIRECT_URI, DROPBOX_REFRESH_TOKEN.\n    Executes asynchronously, creates Dropbox feed, and returns the feed identifier."
+        "description": "Ingests files from Dropbox into Graphlit knowledge base.\n    Accepts optional relative path to Dropbox folder (i.e. /Pictures), and an optional read limit for the number of files to ingest.\n    If no path provided, ingests files from root Dropbox folder.\n    Requires environment variables to be configured: DROPBOX_APP_KEY, DROPBOX_APP_SECRET, DROPBOX_REDIRECT_URI, DROPBOX_REFRESH_TOKEN.\n    Executes asynchronously, creates Dropbox feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestBoxFiles": {
         "name": "ingestBoxFiles",
-        "description": "Ingests files from Box into Graphlit knowledge base.\n    Accepts optional Box folder identifier, and an optional read limit for the number of files to ingest.\n    If no folder identifier provided, ingests files from root Box folder (i.e. \"0\").\n    Folder identifier can be inferred from Box URL. https://app.box.com/folder/123456 -> folder identifier is \"123456\".\n    Requires environment variables to be configured: BOX_CLIENT_ID, BOX_CLIENT_SECRET, BOX_REDIRECT_URI, BOX_REFRESH_TOKEN.\n    Executes asynchronously, creates Box feed, and returns the feed identifier."
+        "description": "Ingests files from Box into Graphlit knowledge base.\n    Accepts optional Box folder identifier, and an optional read limit for the number of files to ingest.\n    If no folder identifier provided, ingests files from root Box folder (i.e. \"0\").\n    Folder identifier can be inferred from Box URL. https://app.box.com/folder/123456 -> folder identifier is \"123456\".\n    Requires environment variables to be configured: BOX_CLIENT_ID, BOX_CLIENT_SECRET, BOX_REDIRECT_URI, BOX_REFRESH_TOKEN.\n    Executes asynchronously, creates Box feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestGitHubFiles": {
         "name": "ingestGitHubFiles",
-        "description": "Ingests files from GitHub repository into Graphlit knowledge base.\n    Accepts GitHub repository owner and repository name and an optional read limit for the number of files to ingest.\n    For example, for GitHub repository (https://github.com/openai/tiktoken), 'openai' is the repository owner, and 'tiktoken' is the repository name.\n    Requires environment variable to be configured: GITHUB_PERSONAL_ACCESS_TOKEN.\n    Executes asynchronously, creates GitHub feed, and returns the feed identifier."
+        "description": "Ingests files from GitHub repository into Graphlit knowledge base.\n    Accepts GitHub repository owner and repository name and an optional read limit for the number of files to ingest.\n    For example, for GitHub repository (https://github.com/openai/tiktoken), 'openai' is the repository owner, and 'tiktoken' is the repository name.\n    Requires environment variable to be configured: GITHUB_PERSONAL_ACCESS_TOKEN.\n    Executes asynchronously, creates GitHub feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestNotionPages": {
         "name": "ingestNotionPages",
-        "description": "Ingests pages from Notion database into Graphlit knowledge base.\n    Accepts Notion database identifier and an optional read limit for the number of pages to ingest.\n    You can list the available Notion database identifiers with listNotionDatabases.\n    Or, for a Notion URL, https://www.notion.so/Example/Engineering-Wiki-114abc10cb38487e91ec906fc6c6f350, 'Engineering-Wiki-114abc10cb38487e91ec906fc6c6f350' is an example of a Notion database identifier.\n    Requires environment variable to be configured: NOTION_API_KEY.\n    Executes asynchronously, creates Notion feed, and returns the feed identifier."
+        "description": "Ingests pages from Notion database into Graphlit knowledge base.\n    Accepts Notion database identifier and an optional read limit for the number of pages to ingest.\n    You can list the available Notion database identifiers with listNotionDatabases.\n    Or, for a Notion URL, https://www.notion.so/Example/Engineering-Wiki-114abc10cb38487e91ec906fc6c6f350, 'Engineering-Wiki-114abc10cb38487e91ec906fc6c6f350' is an example of a Notion database identifier.\n    Requires environment variable to be configured: NOTION_API_KEY.\n    Executes asynchronously, creates Notion feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestMicrosoftTeamsMessages": {
         "name": "ingestMicrosoftTeamsMessages",
-        "description": "Ingests messages from Microsoft Teams channel into Graphlit knowledge base.\n    Accepts Microsoft Teams team identifier and channel identifier, and an optional read limit for the number of messages to ingest.\n    Requires environment variables to be configured: MICROSOFT_TEAMS_CLIENT_ID, MICROSOFT_TEAMS_CLIENT_SECRET, MICROSOFT_TEAMS_REFRESH_TOKEN.\n    Executes asynchronously, creates Microsoft Teams feed, and returns the feed identifier."
+        "description": "Ingests messages from Microsoft Teams channel into Graphlit knowledge base.\n    Accepts Microsoft Teams team identifier and channel identifier, and an optional read limit for the number of messages to ingest.\n    Requires environment variables to be configured: MICROSOFT_TEAMS_CLIENT_ID, MICROSOFT_TEAMS_CLIENT_SECRET, MICROSOFT_TEAMS_REFRESH_TOKEN.\n    Executes asynchronously, creates Microsoft Teams feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestSlackMessages": {
         "name": "ingestSlackMessages",
-        "description": "Ingests messages from Slack channel into Graphlit knowledge base.\n    Accepts Slack channel name and an optional read limit for the number of messages to ingest.\n    Requires environment variable to be configured: SLACK_BOT_TOKEN.\n    Executes asynchronously, creates Slack feed, and returns the feed identifier."
+        "description": "Ingests messages from Slack channel into Graphlit knowledge base.\n    Accepts Slack channel name and an optional read limit for the number of messages to ingest.\n    Requires environment variable to be configured: SLACK_BOT_TOKEN.\n    Executes asynchronously, creates Slack feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestDiscordMessages": {
         "name": "ingestDiscordMessages",
-        "description": "Ingests messages from Discord channel into Graphlit knowledge base.\n    Accepts Discord channel name and an optional read limit for the number of messages to ingest.\n    Requires environment variable to be configured: DISCORD_BOT_TOKEN.\n    Executes asynchronously, creates Discord feed, and returns the feed identifier."
+        "description": "Ingests messages from Discord channel into Graphlit knowledge base.\n    Accepts Discord channel name and an optional read limit for the number of messages to ingest.\n    Requires environment variable to be configured: DISCORD_BOT_TOKEN.\n    Executes asynchronously, creates Discord feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestTwitterPosts": {
         "name": "ingestTwitterPosts",
-        "description": "Ingests posts by user from Twitter/X into Graphlit knowledge base.\n    Accepts Twitter/X user name, without the leading @ symbol, and an optional read limit for the number of posts to ingest.\n    Requires environment variable to be configured: TWITTER_TOKEN.\n    Executes asynchronously, creates Twitter feed, and returns the feed identifier."
+        "description": "Ingests posts by user from Twitter/X into Graphlit knowledge base.\n    Accepts Twitter/X user name, without the leading @ symbol, and an optional read limit for the number of posts to ingest.\n    Requires environment variable to be configured: TWITTER_TOKEN.\n    Executes asynchronously, creates Twitter feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestTwitterSearch": {
         "name": "ingestTwitterSearch",
-        "description": "Searches for recent posts from Twitter/X, and ingests them into Graphlit knowledge base.\n    Accepts search query, and an optional read limit for the number of posts to ingest.\n    Requires environment variable to be configured: TWITTER_TOKEN.\n    Executes asynchronously, creates Twitter feed, and returns the feed identifier."
+        "description": "Searches for recent posts from Twitter/X, and ingests them into Graphlit knowledge base.\n    Accepts search query, and an optional read limit for the number of posts to ingest.\n    Requires environment variable to be configured: TWITTER_TOKEN.\n    Executes asynchronously, creates Twitter feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestRedditPosts": {
         "name": "ingestRedditPosts",
-        "description": "Ingests posts from Reddit subreddit into Graphlit knowledge base.\n    Accepts a subreddit name and an optional read limit for the number of posts to ingest.\n    Executes asynchronously, creates Reddit feed, and returns the feed identifier."
+        "description": "Ingests posts from Reddit subreddit into Graphlit knowledge base.\n    Accepts a subreddit name and an optional read limit for the number of posts to ingest.\n    Executes asynchronously, creates Reddit feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestGoogleEmail": {
         "name": "ingestGoogleEmail",
-        "description": "Ingests emails from Google Email account into Graphlit knowledge base.\n    Accepts an optional read limit for the number of emails to ingest.\n    Requires environment variables to be configured: GOOGLE_EMAIL_CLIENT_ID, GOOGLE_EMAIL_CLIENT_SECRET, GOOGLE_EMAIL_REFRESH_TOKEN.\n    Executes asynchronously, creates Google Email feed, and returns the feed identifier."
+        "description": "Ingests emails from Google Email account into Graphlit knowledge base.\n    Accepts an optional read limit for the number of emails to ingest.\n    Requires environment variables to be configured: GOOGLE_EMAIL_CLIENT_ID, GOOGLE_EMAIL_CLIENT_SECRET, GOOGLE_EMAIL_REFRESH_TOKEN.\n    Executes asynchronously, creates Google Email feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestMicrosoftEmail": {
         "name": "ingestMicrosoftEmail",
-        "description": "Ingests emails from Microsoft Email account into Graphlit knowledge base.\n    Accepts an optional read limit for the number of emails to ingest.\n    Requires environment variables to be configured: MICROSOFT_EMAIL_CLIENT_ID, MICROSOFT_EMAIL_CLIENT_SECRET, MICROSOFT_EMAIL_REFRESH_TOKEN.\n    Executes asynchronously, creates Microsoft Email feed, and returns the feed identifier."
+        "description": "Ingests emails from Microsoft Email account into Graphlit knowledge base.\n    Accepts an optional read limit for the number of emails to ingest.\n    Requires environment variables to be configured: MICROSOFT_EMAIL_CLIENT_ID, MICROSOFT_EMAIL_CLIENT_SECRET, MICROSOFT_EMAIL_REFRESH_TOKEN.\n    Executes asynchronously, creates Microsoft Email feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestLinearIssues": {
         "name": "ingestLinearIssues",
-        "description": "Ingests issues from Linear project into Graphlit knowledge base.\n    Accepts Linear project name and an optional read limit for the number of issues to ingest.\n    Requires environment variable to be configured: LINEAR_API_KEY.\n    Executes asynchronously, creates Linear issue feed, and returns the feed identifier."
+        "description": "Ingests issues from Linear project into Graphlit knowledge base.\n    Accepts Linear project name and an optional read limit for the number of issues to ingest.\n    Requires environment variable to be configured: LINEAR_API_KEY.\n    Executes asynchronously, creates Linear issue feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestGitHubIssues": {
         "name": "ingestGitHubIssues",
-        "description": "Ingests issues from GitHub repository into Graphlit knowledge base.\n    Accepts GitHub repository owner and repository name and an optional read limit for the number of issues to ingest.\n    For example, for GitHub repository (https://github.com/openai/tiktoken), 'openai' is the repository owner, and 'tiktoken' is the repository name.\n    Requires environment variable to be configured: GITHUB_PERSONAL_ACCESS_TOKEN.\n    Executes asynchronously, creates GitHub issue feed, and returns the feed identifier."
+        "description": "Ingests issues from GitHub repository into Graphlit knowledge base.\n    Accepts GitHub repository owner and repository name and an optional read limit for the number of issues to ingest.\n    For example, for GitHub repository (https://github.com/openai/tiktoken), 'openai' is the repository owner, and 'tiktoken' is the repository name.\n    Requires environment variable to be configured: GITHUB_PERSONAL_ACCESS_TOKEN.\n    Executes asynchronously, creates GitHub issue feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestJiraIssues": {
         "name": "ingestJiraIssues",
-        "description": "Ingests issues from Atlassian Jira repository into Graphlit knowledge base.\n    Accepts Atlassian Jira server URL and project name, and an optional read limit for the number of issues to ingest.\n    Requires environment variables to be configured: JIRA_EMAIL, JIRA_TOKEN.\n    Executes asynchronously, creates Atlassian Jira issue feed, and returns the feed identifier."
+        "description": "Ingests issues from Atlassian Jira repository into Graphlit knowledge base.\n    Accepts Atlassian Jira server URL and project name, and an optional read limit for the number of issues to ingest.\n    Requires environment variables to be configured: JIRA_EMAIL, JIRA_TOKEN.\n    Executes asynchronously, creates Atlassian Jira issue feed, and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "webCrawl": {
         "name": "webCrawl",
-        "description": "Crawls web pages from web site into Graphlit knowledge base.\n    Accepts a URL and an optional read limit for the number of pages to crawl.\n    Uses sitemap.xml to discover pages to be crawled from website.\n    Executes asynchronously and returns the feed identifier."
+        "description": "Crawls web pages from web site into Graphlit knowledge base.\n    Accepts a URL and an optional read limit for the number of pages to crawl.\n    Uses sitemap.xml to discover pages to be crawled from website.\n    Executes asynchronously and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "webMap": {
         "name": "webMap",
@@ -1567,7 +1562,7 @@
       },
       "ingestRSS": {
         "name": "ingestRSS",
-        "description": "Ingests posts from RSS feed into Graphlit knowledge base.\n    For podcast RSS feeds, audio will be downloaded, transcribed and ingested into Graphlit knowledge base.\n    Accepts RSS URL and an optional read limit for the number of posts to read.\n    Executes asynchronously and returns the feed identifier."
+        "description": "Ingests posts from RSS feed into Graphlit knowledge base.\n    For podcast RSS feeds, audio will be downloaded, transcribed and ingested into Graphlit knowledge base.\n    Accepts RSS URL and an optional read limit for the number of posts to read.\n    Executes asynchronously and returns the feed identifier. Optionally creates a recurring feed that checks for new content every 15 minutes when 'recurring' is set to true."
       },
       "ingestUrl": {
         "name": "ingestUrl",
@@ -1889,19 +1884,54 @@
   "mcp-server-google-analytics": {
     "category": "marketing",
     "path": "marketing/mcp-server-google-analytics.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "get_report": {
+        "name": "get_report",
+        "description": "Get a report from Google Analytics Data API"
+      },
+      "get_realtime_data": {
+        "name": "get_realtime_data",
+        "description": "Get realtime data from Google Analytics Data API"
+      }
+    }
   },
-  "@AshDevFr/discourse-mcp-server": {
+  "@ashdev/discourse-mcp-server": {
     "category": "marketing",
     "path": "marketing/ashdevfr-discourse-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "search_posts": {
+        "name": "search_posts",
+        "description": "Search Discourse posts"
+      }
+    }
+  },
+  "@toolsdk.ai/mcp-server-google-analytics": {
+    "category": "marketing",
+    "path": "marketing/mcp-server-google-analytics.json",
+    "validated": true,
+    "tools": {
+      "get_report": {
+        "name": "get_report",
+        "description": "Get a report from Google Analytics Data API"
+      },
+      "get_realtime_data": {
+        "name": "get_realtime_data",
+        "description": "Get realtime data from Google Analytics Data API"
+      }
+    }
+  },
+  "@toolsdk.ai/mcp-mercury": {
+    "category": "finance-fintech",
+    "path": "finance-fintech/mercury-mcp.json",
     "validated": false,
     "tools": {}
   },
   "@dragonkhoi/mercury-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/mercury-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   }
 }
