@@ -46,7 +46,6 @@
     "@modelcontextprotocol/server-slack": "latest",
     "airtable-mcp-server": "latest",
     "@niledatabase/nile-mcp-server": "latest",
-    "@llmindset/mcp-hfspace": "latest",
     "@mcp-get-community/server-macos": "latest",
     "@mcp-get-community/server-llm-txt": "latest",
     "@modelcontextprotocol/server-memory": "latest",
@@ -65,7 +64,8 @@
     "@modelcontextprotocol/server-github": "latest",
     "@chargebee/mcp": "latest",
     "mcp-server-flomo": "latest",
-    "@modelcontextprotocol/server-sequential-thinking": "latest"
+    "@modelcontextprotocol/server-sequential-thinking": "latest",
+    "@ashdev/discourse-mcp-server": "latest"
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",

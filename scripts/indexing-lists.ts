@@ -130,9 +130,7 @@ async function generatePackagesList() {
   };
   const packageJSON = JSON.parse(packageJSONStr);
   for (const [depName, depVer] of Object.entries(packageDeps)) {
-    if (newPackagesList[depName]?.validated) {
-      newDeps[depName] = packageDeps[depVer] || 'latest';
-    }
+    newDeps[depName] = packageDeps[depVer] || 'latest';
   }
 
   packageJSON.dependencies = newDeps

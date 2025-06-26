@@ -815,21 +815,8 @@
   "@llmindset/mcp-hfspace": {
     "category": "developer-tools",
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "validated": true,
-    "tools": {
-      "available-files": {
-        "name": "available-files",
-        "description": "A list of available file and resources. If the User requests things like 'most recent image' or 'the audio' use this tool to identify the intended resource.This tool returns 'resource uri', 'name', 'size', 'last modified'  and 'mime type' in a markdown table"
-      },
-      "search-spaces": {
-        "name": "search-spaces",
-        "description": "Use semantic search to find an endpoint on the `Hugging Face Spaces` service. The search term will usually be 3-7 words describing a task or activity the Person is trying to accomplish. The results are returned in a markdown table. Present all results to the Person. Await specific guidance from the Person before making further Tool calls."
-      },
-      "FLUX_1-schnell-infer": {
-        "name": "FLUX_1-schnell-infer",
-        "description": "Call the FLUX.1-schnell endpoint /infer"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "@mcp-get-community/server-macos": {
     "category": "developer-tools",
@@ -1892,9 +1879,20 @@
     "validated": false,
     "tools": {}
   },
-  "@AshDevFr/discourse-mcp-server": {
+  "@ashdev/discourse-mcp-server": {
     "category": "marketing",
     "path": "marketing/ashdevfr-discourse-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "search_posts": {
+        "name": "search_posts",
+        "description": "Search Discourse posts"
+      }
+    }
+  },
+  "@toolsdk.ai/mcp-server-google-analytics": {
+    "category": "marketing",
+    "path": "marketing/mcp-server-google-analytics.json",
     "validated": false,
     "tools": {}
   }

@@ -2,7 +2,7 @@
   "type": "mcp-server",
   "name": "Discourse",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Discourse_icon.svg/60px-Discourse_icon.svg.png",
-  "packageName": "@AshDevFr/discourse-mcp-server",
+  "packageName": "@ashdev/discourse-mcp-server",
   "description": "Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.",
   "url": "https://github.com/AshDevFr/discourse-mcp-server/tree/main/src",
   "runtime": "node",
