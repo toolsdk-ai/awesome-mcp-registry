@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "docker-sandbox",
+  "description": "Creates isolated Docker environments for executing code in multiple languages, with persistent containers and Dockerfile generation for reproducible setups.",
+  "url": "https://github.com/tsuchijo/sandbox-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

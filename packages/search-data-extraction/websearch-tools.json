@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "websearch-tools",
+  "description": "Integrates with web search APIs and crawling tools to enable internet-wide information retrieval, content extraction, and data mining capabilities for research and analysis tasks.",
+  "url": "https://github.com/josemartinrodriguezmortaloni/websearch-tools",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "nexus-mcp",
+  "description": "Provides web search capabilities through OpenRouter's Perplexity Sonar models, delivering intelligent search results with source citations for current information retrieval.",
+  "url": "https://github.com/adawalli/nexus",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OPENROUTER_API_KEY": {
+      "description": "your-api-key-here",
+      "required": true
+    }
+  }
+}

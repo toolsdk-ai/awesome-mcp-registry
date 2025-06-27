@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "quickchat-ai-mcp",
+  "description": "Provides a bridge between AI assistants and Quickchat's conversation platform, enabling seamless interaction with Quickchat scenarios through API key authentication and conversation state management.",
+  "url": "https://github.com/quickchatai/quickchat-ai-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

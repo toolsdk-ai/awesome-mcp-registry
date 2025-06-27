@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "instagram-direct-messages",
+  "description": "Integrates with Instagram Direct Messages to enable sending messages, managing chat threads, handling message requests, and converting between usernames and user IDs for social media automation and customer service workflows.",
+  "url": "https://github.com/trypeggy/instagram_dm_mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

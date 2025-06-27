@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "setu_mcp_kyc",
+  "description": "Integrates Setu's Digital Gateway APIs to provide KYC verification tools for PAN, GST, and name matching, enabling automated identity checks and regulatory compliance.",
+  "url": "https://github.com/setuhq/setu-mcps/tree/HEAD/kyc",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

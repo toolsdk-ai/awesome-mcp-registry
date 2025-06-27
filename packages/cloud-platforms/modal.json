@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "modal",
+  "description": "Enables AI systems to deploy and execute serverless applications in the cloud through Modal's platform, providing tools for application deployment and function execution with custom parameters.",
+  "url": "https://github.com/smehmood/modal-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

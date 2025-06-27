@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "chatgpt-(openai-gpt-4o)",
+  "description": "Integrates with OpenAI's GPT-4o model to provide text analysis, summarization, and generation capabilities through a simple API for scenarios requiring complex processing beyond primary capabilities.",
+  "url": "https://github.com/automateyournetwork/chatgpt_mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

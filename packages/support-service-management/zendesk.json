@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "zendesk",
+  "description": "Integrates with Zendesk to enable ticket management, comment handling, and Help Center article retrieval for streamlined customer support operations.",
+  "url": "https://github.com/reminia/zendesk-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

@@ -1,15 +1,13 @@
 {
   "type": "mcp-server",
-  "name":"Brave Search",
   "packageName": "@modelcontextprotocol/server-brave-search",
-  "logo":"https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-small.1fMdoHsa.svg",
-  "description": "MCP server for Brave Search API integration",
-  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
+  "description": "Retrieve web pages, news, and local business results via Brave API.",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/brave-search",
   "runtime": "node",
-  "license": "MIT",
+  "license": "unknown",
   "env": {
     "BRAVE_API_KEY": {
-      "description": "API key for Brave Search",
+      "description": "YOUR_API_KEY_HERE",
       "required": true
     }
   }

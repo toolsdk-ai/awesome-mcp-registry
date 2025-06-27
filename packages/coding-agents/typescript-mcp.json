@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "typescript-mcp",
+  "description": "Provides TypeScript/JavaScript code analysis and refactoring capabilities using ts-morph, enabling intelligent code transformations with symbol renaming, file moving with import path corrections, cross-file reference updates, type signature analysis, and module dependency exploration across entire codebases.",
+  "url": "https://github.com/mizchi/typescript-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TSGO": {
+      "description": "true",
+      "required": true
+    }
+  }
+}

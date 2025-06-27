@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "todoist",
+  "description": "Integrates with Todoist to enable task management including creation, retrieval, updates, and deletion with support for due dates, priorities, and labels through natural language commands.",
+  "url": "https://github.com/johnxjp/todoist-mcp-python",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

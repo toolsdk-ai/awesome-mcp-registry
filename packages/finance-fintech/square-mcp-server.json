@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "square-mcp-server",
+  "description": "Provides a bridge between Square's complete API ecosystem and conversational interfaces, enabling comprehensive e-commerce and payment processing capabilities including payments, orders, inventory, and customer management.",
+  "url": "https://github.com/square/square-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ACCESS_TOKEN": {
+      "description": "YOUR_SQUARE_ACCESS_TOKEN",
+      "required": true
+    },
+    "SANDBOX": {
+      "description": "true",
+      "required": true
+    }
+  }
+}

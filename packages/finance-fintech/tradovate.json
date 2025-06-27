@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tradovate",
+  "description": "Provides a robust trading API integration for Tradovate, enabling algorithmic traders to access market data, manage orders, and control account operations through a JSON-RPC interface.",
+  "url": "https://github.com/0xjmp/mcp-tradovate",
+  "runtime": "go",
+  "license": "mit",
+  "env": {}
+}

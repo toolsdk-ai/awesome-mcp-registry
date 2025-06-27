@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sqlite",
+  "description": "Provides a lightweight SQLite-based storage solution, supporting basic CRUD operations for small to medium-scale projects.",
+  "url": "https://github.com/emiryasar/mcp_code_analyzer",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

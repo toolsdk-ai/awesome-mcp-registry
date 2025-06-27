@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "fewsats-mcp",
+  "description": "Integrates with the Fewsats payment platform to enable secure financial transactions through L402 protocol, allowing wallet balance checks, payment method retrieval, and autonomous purchasing capabilities.",
+  "url": "https://github.com/fewsats/fewsats-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@stakpak/mcp",
+  "description": "Integrates with Stakpak API to generate infrastructure code for projects, enabling developers to quickly create configurations through a dedicated tool that works with various IDEs.",
+  "url": "https://github.com/stakpak/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "STAKPAK_API_KEY": {
+      "description": "<your-stakpak-api-key>",
+      "required": true
+    }
+  }
+}

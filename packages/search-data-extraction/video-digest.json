@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "video-digest",
+  "description": "Transcribes and analyzes video content from sources like YouTube using multiple transcription services with automatic fallback for reliable text extraction from audio.",
+  "url": "https://github.com/r-lz/mcp-video-digest",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

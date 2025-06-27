@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-slicer",
+  "description": "Bridges medical professionals with 3D Slicer's medical imaging platform, enabling MRML node listing and direct Python code execution for advanced image analysis and visualization tasks.",
+  "url": "https://github.com/zhaoyouj/mcp-slicer",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

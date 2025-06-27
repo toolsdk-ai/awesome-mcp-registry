@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "awslabs.bedrock-kb-retrieval-mcp-server",
+  "description": "Bridge to access Amazon Bedrock Knowledge Bases.",
+  "url": "https://github.com/awslabs/mcp/tree/HEAD/src/bedrock-kb-retrieval-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

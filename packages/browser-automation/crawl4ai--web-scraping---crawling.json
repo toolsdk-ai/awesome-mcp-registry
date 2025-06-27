@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "crawl4ai-(web-scraping-&-crawling)",
+  "description": "Integrates web scraping and crawling capabilities with tools for single-page content extraction, metadata retrieval, and Google search functionality, enabling workflows that require web content analysis, data collection, or online research tasks.",
+  "url": "https://github.com/ritvij14/crawl4ai-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "terminal-controller",
+  "description": "Enables secure terminal command execution, directory navigation, and file system operations across Windows and UNIX-based systems, with built-in security measures to prevent dangerous operations.",
+  "url": "https://github.com/gongrzhe/terminal-controller-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

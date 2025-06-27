@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "jenkins",
+  "description": "Make Jenkins REST API calls to provide common operation interfaces for Jenkins jobs.",
+  "url": "https://github.com/programmeragua/jenkins-mcp-server",
+  "runtime": "java",
+  "license": "apache-2.0",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "time-mcp-local",
+  "description": "Provides time and timezone conversion capabilities, enabling current time retrieval and timezone conversions using IANA names for accurate and localized time-based functionalities.",
+  "url": "https://github.com/conechoai/time-mcp-local",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

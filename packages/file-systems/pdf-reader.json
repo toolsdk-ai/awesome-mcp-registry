@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pdf-reader",
+  "description": "Integrates with PyPDF2 to enable efficient text extraction and information retrieval from PDF documents for various applications.",
+  "url": "https://github.com/trafflux/pdf-reader-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

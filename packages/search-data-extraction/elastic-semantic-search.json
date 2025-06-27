@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "elastic-semantic-search",
+  "description": "Integrates with Elasticsearch to provide semantic search functionality for blog posts, returning formatted results including titles, URLs, and relevant text snippets.",
+  "url": "https://github.com/jedrazb/elastic-semantic-search-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

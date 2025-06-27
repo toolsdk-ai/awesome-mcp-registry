@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gemini-image-generator",
+  "description": "Enables AI image generation using Google's Gemini 2.0 Flash model with intelligent prompt engineering, automatic filename creation, and configurable local storage.",
+  "url": "https://github.com/qhdrl12/mcp-server-gemini-image-generator",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

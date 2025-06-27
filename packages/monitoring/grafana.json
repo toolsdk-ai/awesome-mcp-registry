@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "grafana",
+  "description": "Integrates with Grafana to enable searching dashboards, fetching datasource information, querying Prometheus metrics, and managing incidents through both stdio and SSE transport modes.",
+  "url": "https://github.com/grafana/mcp-grafana",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

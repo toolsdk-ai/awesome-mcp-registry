@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "minio-object-storage",
+  "description": "Enables direct access to MinIO object storage for listing buckets, browsing objects, retrieving content, and uploading files with automatic bucket creation when needed.",
+  "url": "https://github.com/ucesys/minio-python-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

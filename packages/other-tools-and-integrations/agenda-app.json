@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "agenda-app",
+  "description": "Integrates with Agenda note-taking app on macOS to enable creating notes, managing projects, and opening existing notes using x-callback-urls.",
+  "url": "https://github.com/alexgoller/mcp-server-agenda",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

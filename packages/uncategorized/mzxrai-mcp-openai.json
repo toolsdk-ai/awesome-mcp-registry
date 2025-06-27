@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mzxrai/mcp-openai",
+  "description": "Generate text using OpenAI's language models.",
+  "url": "https://github.com/mzxrai/mcp-openai",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "your-api-key-here (get one from https://platform.openai.com/api-keys)",
+      "required": true
+    }
+  }
+}

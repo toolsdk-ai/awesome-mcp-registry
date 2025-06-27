@@ -1,13 +1,13 @@
 {
   "type": "mcp-server",
   "packageName": "airtable-mcp-server",
-  "description": "Airtable database integration with schema inspection, read and write capabilities",
+  "description": "Provides read and write access to Airtable databases.",
   "url": "https://github.com/domdomegg/airtable-mcp-server",
   "runtime": "node",
-  "license": "MIT",
+  "license": "unknown",
   "env": {
     "AIRTABLE_API_KEY": {
-      "description": "API key for Airtable API",
+      "description": "pat123.abc123",
       "required": true
     }
   }

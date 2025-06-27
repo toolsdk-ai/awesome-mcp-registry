@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "mcp-server-tree-sitter",
-  "description": "A Model Context Protocol server that provides code analysis capabilities using tree-sitter. This server enables LLMs to explore, search, and analyze code with appropriate context management.",
+  "description": "Provides code analysis capabilities through tree-sitter parsing, enabling structured understanding and manipulation of source code across multiple programming languages for tasks like code review, refactoring, and documentation generation.",
   "url": "https://github.com/wrale/mcp-server-tree-sitter",
   "runtime": "python",
-  "license": "MIT",
+  "license": "unknown",
   "env": {}
 }

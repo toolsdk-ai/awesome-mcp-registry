@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "weekly-reports",
+  "description": "Lightweight server for processing weekly reports via Google Sheets, providing development mode and automated validation for team tracking workflows.",
+  "url": "https://github.com/kaneyxx/weekly-report-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

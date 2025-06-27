@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "taiga",
+  "description": "Integrates with Taiga project management platform to enable direct control over projects, epics, user stories, tasks and issues without context switching",
+  "url": "https://github.com/talhaorak/pytaiga-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

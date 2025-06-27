@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-neo4j-cypher",
+  "description": "Provides natural language interfaces to Neo4j graph databases for executing Cypher queries, storing knowledge graph data, and building persistent memory structures through conversational interactions.",
+  "url": "https://github.com/guanxinyuan/neo4j",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

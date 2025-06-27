@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pubmed-mcp-server",
+  "description": "Integrates with NCBI PubMed to provide literature search, article retrieval, author-based searches, citation formatting in multiple styles, and research trend analysis for academic and bibliographic research workflows.",
+  "url": "https://github.com/chrismannina/pubmed-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

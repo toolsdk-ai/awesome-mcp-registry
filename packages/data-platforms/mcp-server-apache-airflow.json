@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-apache-airflow",
+  "description": "Provides a bridge to Apache Airflow for managing and monitoring workflows through natural language, enabling DAG management, task execution, and resource administration without leaving your assistant interface.",
+  "url": "https://github.com/yangkyeongmo/mcp-server-apache-airflow",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

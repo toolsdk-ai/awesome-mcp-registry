@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "json-schema-manager",
+  "description": "Manages JSON schemas and generates instances with custom properties, enabling applications to maintain consistent data structures and create template-based JSON documents",
+  "url": "https://github.com/jaho5/json-schema-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

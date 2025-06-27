@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "coinmarketcap",
+  "description": "Integrates with CoinMarketCap's API to fetch and analyze cryptocurrency market data, supporting customizable queries for real-time information.",
+  "url": "https://github.com/longmans/coin_api_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

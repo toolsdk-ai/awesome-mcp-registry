@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "polyglot-translation",
+  "description": "Provides translation services between six languages (Arabic, Chinese, English, French, Russian, and Spanish) with domain-specific context for legal, medical, and general use cases, plus formality controls for professional document translation and cross-cultural communication.",
+  "url": "https://github.com/namiraprita/polyglot-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

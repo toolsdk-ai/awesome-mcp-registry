@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "querypie-database-access-control",
+  "description": "Provides a secure interface for monitoring and managing privileged database access, enabling administrators to review logs, detect security anomalies, and handle workflow requests through QueryPie's Database Access Control system.",
+  "url": "https://github.com/querypie/querypie-mcp-server",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

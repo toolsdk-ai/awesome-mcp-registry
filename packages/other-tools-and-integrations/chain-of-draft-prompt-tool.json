@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "chain-of-draft-prompt-tool",
+  "description": "Organizes prompts into structured, multi-step workflows through a chain execution system where outputs from one step become inputs for subsequent steps, enabling progressive refinement for complex tasks like research, code review, and documentation generation.",
+  "url": "https://github.com/brendancopley/mcp-chain-of-draft-prompt-tool",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

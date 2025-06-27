@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "kestra",
+  "description": "Integrates with Kestra workflow orchestration platform to enable natural language control of data pipelines, execution management, namespace operations, and enterprise features like user management through conversational interfaces.",
+  "url": "https://github.com/kestra-io/mcp-server-python",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

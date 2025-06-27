@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "@cloudwerxlab/gpt-image-1-mcp",
+  "description": "Enables direct image generation and editing through OpenAI's gpt-image-1 model with support for text prompts, file paths, and base64 encoded inputs for creative workflows and visual content creation.",
+  "url": "https://github.com/cloudwerx-dev/gpt-image-1-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "PASTE YOUR OPEN-AI KEY HERE",
+      "required": true
+    },
+    "GPT_IMAGE_OUTPUT_DIR": {
+      "description": "OPTIONAL: PATH TO SAVE GENERATED IMAGES",
+      "required": true
+    }
+  }
+}

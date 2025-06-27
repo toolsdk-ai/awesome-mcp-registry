@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "coingecko",
+  "description": "Provides real-time and historical cryptocurrency market data through CoinGecko API integration, enabling access to current prices, market trends, and performance metrics for financial analysis and investment research.",
+  "url": "https://github.com/bestjane/mcp-coingecko-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

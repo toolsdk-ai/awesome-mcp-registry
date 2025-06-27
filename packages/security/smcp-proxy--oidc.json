@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "smcp-proxy-(oidc)",
+  "description": "Secure reverse proxy for MCP servers that adds OIDC authentication and authorization, supporting multiple backend configurations with path-based routing and metrics collection.",
+  "url": "https://github.com/ksysoev/smcp-proxy",
+  "runtime": "go",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "python-local",
+  "description": "Provides an interactive Python REPL environment for executing code within conversations, maintaining separate state for each session and supporting both expressions and statements.",
+  "url": "https://github.com/alec2435/python_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

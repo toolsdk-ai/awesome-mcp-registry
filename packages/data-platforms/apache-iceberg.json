@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "apache-iceberg",
+  "description": "Provides a SQL interface for querying and managing Apache Iceberg tables through connections to Iceberg REST catalogs and S3-compatible storage, enabling data analysts to interact with data lakes without switching contexts.",
+  "url": "https://github.com/ahodroj/mcp-iceberg-service",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-drive",
+  "description": "Provides a bridge to Google Drive for searching files and retrieving document content without manual browsing, enabling document analysis and reference material access.",
+  "url": "https://github.com/hxie-pallas/gdrive-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

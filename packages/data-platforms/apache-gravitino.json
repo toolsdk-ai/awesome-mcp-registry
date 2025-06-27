@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "apache-gravitino",
+  "description": "Integrates with Apache Gravitino to provide direct access to metadata services for exploring, tagging, and managing catalogs, schemas, tables, and user roles across data assets without switching workflows.",
+  "url": "https://github.com/datastrato/mcp-server-gravitino",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

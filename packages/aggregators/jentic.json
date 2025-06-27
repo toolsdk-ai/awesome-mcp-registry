@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "jentic",
+  "description": "Enables AI assistants to discover and execute external APIs and workflows through a Python SDK that leverages the Open Agentic Knowledge repository for standardized API access and execution.",
+  "url": "https://github.com/jentic/jentic-tools",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

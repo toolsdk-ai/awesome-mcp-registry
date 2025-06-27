@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "elevenlabs-text-to-speech",
+  "description": "Integrates ElevenLabs' text-to-speech capabilities for high-quality, customizable voice output in interactions, featuring voice selection and model choice.",
+  "url": "https://github.com/georgi-io/jessica",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "testrail-mcp",
+  "description": "Bridges TestRail's test management platform with AI tools, enabling interaction with projects, test cases, runs, results, and datasets for streamlined software testing workflows.",
+  "url": "https://github.com/sker65/testrail-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

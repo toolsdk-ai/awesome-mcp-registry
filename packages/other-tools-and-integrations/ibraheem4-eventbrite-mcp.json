@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@ibraheem4/eventbrite-mcp",
+  "description": "Integrates with Eventbrite's API for event searching, detail retrieval, venue information access, and category exploration, enabling streamlined event discovery, planning, and analysis.",
+  "url": "https://github.com/lucitra/eventbrite-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "EVENTBRITE_API_KEY": {
+      "description": "your-eventbrite-api-key",
+      "required": true
+    }
+  }
+}

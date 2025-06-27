@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "scraperis-mcp",
+  "description": "Integrates with Scraper.is API to enable web content extraction, structured data parsing, and Markdown conversion for tasks like product research, news aggregation, and content analysis.",
+  "url": "https://github.com/ai-quill/scraperis-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SCRAPERIS_API_KEY": {
+      "description": "your-api-key-here",
+      "required": true
+    },
+    "DEBUG": {
+      "description": "*",
+      "required": true
+    }
+  }
+}

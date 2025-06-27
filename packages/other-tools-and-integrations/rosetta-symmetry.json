@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "rosetta-symmetry",
+  "description": "Generates symmetry definition files from protein structures for computational modeling of symmetric protein complexes, supporting non-crystallographic, crystallographic, and helical symmetries with customizable parameters.",
+  "url": "https://github.com/vrtejus/mcp-rosetta",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

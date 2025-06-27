@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "python-code-analyzer",
+  "description": "Analyzes Python code structure, complexity, and dependencies using parsing tools to provide insights for automated quality checks and code reviews.",
+  "url": "https://github.com/seanivore/mcp-code-analyzer",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

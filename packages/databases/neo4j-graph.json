@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "neo4j-graph",
+  "description": "Interact with Neo4j graph databases to query, analyze, and manipulate data.",
+  "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

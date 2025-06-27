@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "alfresco-content-services",
+  "description": "Integrates with Alfresco Content Services to provide document search, upload, download, metadata management, and repository operations for enterprise content management workflows.",
+  "url": "https://github.com/stevereiner/python-alfresco-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

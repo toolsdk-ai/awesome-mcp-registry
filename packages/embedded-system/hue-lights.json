@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "hue-lights",
+  "description": "Enables AI assistants to dynamically control and manipulate Philips Hue smart lighting systems through natural language commands, supporting color changes, brightness adjustments, scene applications, and personalized lighting experiences.",
+  "url": "https://github.com/thomasrohde/hue-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

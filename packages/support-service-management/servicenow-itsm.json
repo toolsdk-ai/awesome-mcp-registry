@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "servicenow-itsm",
+  "description": "Provides a bridge to ServiceNow ITSM functionality for managing incidents, service catalogs, change requests, workflows, and changesets through natural language interaction.",
+  "url": "https://github.com/echelon-ai-labs/servicenow-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

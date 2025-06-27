@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "source-relation",
+  "description": "Integrates source relation functionality to simplify connecting and organizing diverse data inputs, enabling efficient retrieval and processing.",
+  "url": "https://github.com/owayo/mcp-source-relation",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

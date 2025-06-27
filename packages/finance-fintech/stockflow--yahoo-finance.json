@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "stockflow-(yahoo-finance)",
+  "description": "Integrates with the Yahoo Finance API to provide real-time stock market data and analysis tools for financial research and trading strategies.",
+  "url": "https://github.com/twolven/mcp-stockflow",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

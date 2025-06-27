@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "firecrawl-mcp",
+  "description": "Integration with FireCrawl to provide advanced web scraping capabilities for extracting structured data from complex websites.",
+  "url": "https://github.com/mendableai/firecrawl-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "FIRECRAWL_API_KEY": {
+      "description": "YOUR-API-KEY",
+      "required": true
+    }
+  }
+}

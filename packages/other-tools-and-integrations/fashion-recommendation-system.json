@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "fashion-recommendation-system",
+  "description": "Analyzes fashion images using CLIP to extract clothing attributes like style, color, and fabric, then generates personalized recommendations based on detected tags and user behavior.",
+  "url": "https://github.com/attarmau/styleclip",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

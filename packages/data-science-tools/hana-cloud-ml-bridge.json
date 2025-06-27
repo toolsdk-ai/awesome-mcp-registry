@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "hana-cloud-ml-bridge",
+  "description": "Bridges SAP HANA Cloud databases with machine learning operations through a three-layer architecture that enables model management, execution contexts, and standardized communication for both inference and training workflows.",
+  "url": "https://github.com/hatrigt/hana-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

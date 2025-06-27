@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "devrev",
+  "description": "Integrates with DevRev platform to enable searching, retrieving, creating, and updating issues and tickets through natural language interactions",
+  "url": "https://github.com/devrev/mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

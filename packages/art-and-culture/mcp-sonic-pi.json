@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-sonic-pi",
+  "description": "Connects AI systems to the Sonic Pi music programming environment, enabling creation and control of musical compositions through Ruby code with features for playback, pattern access, and live coding.",
+  "url": "https://github.com/vinayak-mehta/mcp-sonic-pi",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "1panel",
+  "description": "Enables server administrators to manage websites, databases, SSL certificates, and applications through 1Panel's server management capabilities without switching contexts.",
+  "url": "https://github.com/1panel-dev/mcp-1panel",
+  "runtime": "go",
+  "license": "gpl-3.0",
+  "env": {}
+}

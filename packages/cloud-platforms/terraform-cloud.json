@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "terraform-cloud",
+  "description": "Integrates with Terraform Cloud API to enable natural language management of infrastructure through workspace and run operations including creation, updates, planning, and application.",
+  "url": "https://github.com/severity1/terraform-cloud-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

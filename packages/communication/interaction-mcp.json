@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "interaction-mcp",
+  "description": "Enables high-frequency communication between users and AI tools through multiple interface options, providing option selection and information requests to improve interaction efficiency by confirming approaches before execution.",
+  "url": "https://github.com/danielzhao1990/interaction-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

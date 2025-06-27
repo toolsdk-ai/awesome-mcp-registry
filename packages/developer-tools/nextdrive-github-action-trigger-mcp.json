@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@nextdrive/github-action-trigger-mcp",
+  "description": "Enables GitHub Actions integration for triggering workflows, fetching action details, and retrieving repository releases through authenticated API interactions",
+  "url": "https://github.com/nextdriveioe/github-action-trigger-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "description": "your_github_token_here",
+      "required": true
+    }
+  }
+}

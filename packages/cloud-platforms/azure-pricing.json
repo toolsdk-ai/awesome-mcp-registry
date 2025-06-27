@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "azure-pricing",
+  "description": "Integrates with Microsoft's Azure Retail Prices API to provide service family listings, product filtering, and monthly cost calculations for cloud pricing analysis and budget planning workflows.",
+  "url": "https://github.com/sboludaf/mcp-azure-pricing",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

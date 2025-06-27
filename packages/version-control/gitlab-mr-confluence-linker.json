@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gitlab-mr-confluence-linker",
+  "description": "Bridges GitLab merge requests with Confluence documentation, enabling automatic retrieval, analysis, and structured documentation of code changes without leaving your conversation interface.",
+  "url": "https://github.com/codebywaqas/mrconfluencelinker-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

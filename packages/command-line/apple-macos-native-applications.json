@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "apple-macos-native-applications",
+  "description": "Enables AI interaction with macOS native applications through AppleScript for tasks like managing contacts, notes, emails, reminders, calendar events, and maps navigation",
+  "url": "https://github.com/jxnl/python-apple-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

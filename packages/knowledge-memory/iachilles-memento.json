@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@iachilles/memento",
+  "description": "Provides persistent memory capabilities through a SQLite-based knowledge graph that stores entities, observations, and relationships with full-text and semantic search using BGE-M3 embeddings for intelligent context retrieval across conversations.",
+  "url": "https://github.com/iachilles/memento",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MEMORY_DB_PATH": {
+      "description": "/Path/To/Your/memory.db",
+      "required": true
+    }
+  }
+}

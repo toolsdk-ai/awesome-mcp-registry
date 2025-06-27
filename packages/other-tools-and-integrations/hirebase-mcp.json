@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "hirebase-mcp",
+  "description": "Integrates with HireBase Job API to enable job searching with extensive filtering options and detailed job information retrieval for career exploration and job seeking",
+  "url": "https://github.com/jhgaylor/hirebase-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

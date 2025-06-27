@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "creator",
+  "description": "Generates custom MCP servers through templates and workflows, enabling rapid prototyping and automated scaffolding of new server implementations with built-in best practices and configuration management.",
+  "url": "https://github.com/angrysky56/mcp-creator-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

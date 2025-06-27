@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "terminal-shell",
+  "description": "Enables AI to execute shell commands in containerized environments through a lightweight server with configurable authentication and SSE transport for seamless terminal interaction.",
+  "url": "https://github.com/mark-oori/mcpserve",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

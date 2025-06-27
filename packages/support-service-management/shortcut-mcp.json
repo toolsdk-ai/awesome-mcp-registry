@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@shortcut/mcp",
+  "description": "Integrates with Shortcut's project management platform to provide story management, epic and iteration operations, team workflows, objective tracking, and comprehensive search capabilities for development teams automating sprint planning and task management.",
+  "url": "https://github.com/useshortcut/mcp-server-shortcut",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SHORTCUT_API_TOKEN": {
+      "description": "<YOUR_SHORTCUT_API_TOKEN>",
+      "required": true
+    }
+  }
+}

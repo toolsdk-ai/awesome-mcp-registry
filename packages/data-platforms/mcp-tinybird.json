@@ -1,18 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "mcp-tinybird",
-  "description": "A Model Context Protocol server that lets you interact with a Tinybird Workspace from any MCP client.",
-  "url": "https://github.com/tinybirdco/mcp-tinybird/tree/main/src/mcp-tinybird",
+  "description": "Query and analyze large datasets using Tinybird analytics.",
+  "url": "https://github.com/tinybirdco/mcp-tinybird",
   "runtime": "python",
-  "license": "Apache 2.0",
-  "env": {
-    "TB_API_URL": {
-      "description": "API URL for Tinybird",
-      "required": true
-    },
-    "TB_ADMIN_TOKEN": {
-      "description": "Admin token for Tinybird",
-      "required": true
-    }
-  }
+  "license": "unknown",
+  "env": {}
 }

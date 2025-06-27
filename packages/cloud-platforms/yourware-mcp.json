@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "yourware-mcp",
+  "description": "Enables direct uploading of web projects to yourware.so hosting platform without leaving your development environment",
+  "url": "https://github.com/ai-zerolab/yourware-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

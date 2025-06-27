@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sourcesage",
+  "description": "Maintains a persistent knowledge graph of code entities, relationships, patterns, and style conventions with hierarchical compression for efficient code memory management across sessions.",
+  "url": "https://github.com/sarathsp06/sourcesage",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

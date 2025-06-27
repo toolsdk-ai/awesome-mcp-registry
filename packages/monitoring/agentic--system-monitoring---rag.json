@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "agentic-(system-monitoring-&-rag)",
+  "description": "Spring Boot-based server that connects system monitoring tools with a RAG service, enabling real-time access to both system metrics and corporate documentation stored in Redis.",
+  "url": "https://github.com/oalles/agentic",
+  "runtime": "java",
+  "license": "unknown",
+  "env": {}
+}

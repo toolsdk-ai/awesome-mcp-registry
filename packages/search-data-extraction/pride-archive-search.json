@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pride-archive-search",
+  "description": "Enables searching and retrieving proteomics datasets from the PRIDE Archive database with support for keyword filtering, pagination, and custom sorting options",
+  "url": "https://github.com/pride-archive/mcp_pride_archive_search",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

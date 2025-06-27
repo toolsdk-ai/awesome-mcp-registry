@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "zerodha-kite",
+  "description": "Integrates with Zerodha Kite trading platform to enable algorithmic trading and portfolio management for Indian stock markets.",
+  "url": "https://github.com/zerodha/kite-mcp-server",
+  "runtime": "go",
+  "license": "mit",
+  "env": {}
+}

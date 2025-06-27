@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "geeknews",
+  "description": "Retrieves and extracts tech news, articles, and discussions from GeekNews using BeautifulSoup for more informed conversations about current technology developments.",
+  "url": "https://github.com/the0807/geeknews-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

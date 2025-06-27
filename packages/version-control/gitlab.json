@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gitlab",
+  "description": "Provides a bridge to the GitLab API, enabling developers to interact with repositories through standardized tools for project listing, merge request management, file retrieval, pipeline analysis, and user event exploration.",
+  "url": "https://github.com/nguyenvanduocit/gitlab-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "metersphere-api-testing",
+  "description": "Bridges AI systems with MeterSphere's testing platform, enabling natural language control of API testing, debugging, and documentation generation without leaving conversation context.",
+  "url": "https://github.com/metersphere/metersphere-mcp-server",
+  "runtime": "java",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "wildfly",
+  "description": "Integrates with WildFly application servers to enable monitoring, configuration, and management of server resources and performance.",
+  "url": "https://github.com/wildfly-extras/wildfly-mcp",
+  "runtime": "java",
+  "license": "apache-2.0",
+  "env": {}
+}

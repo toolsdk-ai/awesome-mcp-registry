@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vizro-mcp",
+  "description": "Enables creation and validation of data visualization dashboards through natural language by generating chart code, validating configurations, and producing interactive Vizro visualizations with PyCafe preview links.",
+  "url": "https://github.com/mckinsey/vizro/tree/HEAD/vizro-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "giphy",
+  "description": "Submit recent chat history ('context') and a search term to retrieve a list of candidate results from GIPHY and load their image data.",
+  "url": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-giphy",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

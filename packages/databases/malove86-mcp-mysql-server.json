@@ -1,0 +1,30 @@
+{
+  "type": "mcp-server",
+  "packageName": "@malove86/mcp-mysql-server",
+  "description": "Provides direct interface to MySQL databases for executing SQL queries and retrieving relational data with configurable connection parameters.",
+  "url": "https://github.com/malove86/mcp-mysql-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MYSQL_HOST": {
+      "description": "your_host",
+      "required": true
+    },
+    "MYSQL_USER": {
+      "description": "your_user",
+      "required": true
+    },
+    "MYSQL_PASSWORD": {
+      "description": "your_password",
+      "required": true
+    },
+    "MYSQL_DATABASE": {
+      "description": "your_database",
+      "required": true
+    },
+    "MYSQL_PORT": {
+      "description": "3306",
+      "required": true
+    }
+  }
+}

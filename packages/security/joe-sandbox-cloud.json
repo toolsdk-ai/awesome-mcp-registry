@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "joe-sandbox-cloud",
+  "description": "Integrates with Joe Sandbox Cloud API to provide malware analysis capabilities including file and URL submission, threat intelligence extraction, behavioral analysis reporting, and artifact downloads for security research and incident response workflows.",
+  "url": "https://github.com/joesecurity/joesandboxmcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

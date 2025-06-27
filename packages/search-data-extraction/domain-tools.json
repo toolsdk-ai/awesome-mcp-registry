@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "domain-tools",
+  "description": "Provides domain analysis capabilities through WHOIS lookups, DNS record queries, health checks, and comprehensive domain validation for system administration, security analysis, and web development troubleshooting.",
+  "url": "https://github.com/deshabhishek007/domain-tools-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

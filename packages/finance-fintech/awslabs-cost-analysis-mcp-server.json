@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "awslabs.cost-analysis-mcp-server",
+  "description": "Analyze AWS service costs and generate cost reports.",
+  "url": "https://github.com/awslabs/mcp/tree/HEAD/src/cost-analysis-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

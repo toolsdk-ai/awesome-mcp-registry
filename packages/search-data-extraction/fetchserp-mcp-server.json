@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "fetchserp-mcp-server",
+  "description": "Integrates with FetchSERP API to provide SEO analysis, SERP data retrieval, web scraping, keyword research, backlink analysis, and domain intelligence across Google, Bing, Yahoo, and DuckDuckGo search engines.",
+  "url": "https://github.com/fetchserp/fetchserp-mcp-server-node",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "FETCHSERP_API_TOKEN": {
+      "description": "your_fetchserp_api_token_here",
+      "required": true
+    }
+  }
+}

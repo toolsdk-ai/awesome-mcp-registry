@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pyodbc",
+  "description": "Provides a lightweight bridge between AI systems and ODBC-compatible databases, enabling SQL queries, table exploration, and schema discovery with special optimizations for Virtuoso DBMS features like SPARQL queries.",
+  "url": "https://github.com/openlinksoftware/mcp-pyodbc-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}
