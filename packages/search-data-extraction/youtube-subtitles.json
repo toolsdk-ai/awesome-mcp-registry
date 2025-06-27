@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "youtube-subtitles",
+  "description": "Integrates with YouTube to enable subtitle retrieval and analysis for content summarization, translation, or accessibility enhancement.",
+  "url": "https://github.com/setkyar/youtube-subtitles-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

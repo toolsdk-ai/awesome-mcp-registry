@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-explorer",
+  "description": "Integrates with GitHub's API to enable repository exploration, code collaboration, and user profile analysis through authenticated data retrieval functions.",
+  "url": "https://github.com/divyanshkushwaha/github-mcp-server-claude",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

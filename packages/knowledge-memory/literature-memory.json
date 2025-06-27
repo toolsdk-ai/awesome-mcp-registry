@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "literature-memory",
+  "description": "Integrates academic literature management with knowledge graphs to enable efficient source analysis, note-taking, and entity linking across diverse academic materials.",
+  "url": "https://github.com/zongmin-yu/literature-memory-server-fastmcp-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

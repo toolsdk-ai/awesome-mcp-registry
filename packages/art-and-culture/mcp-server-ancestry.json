@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-ancestry",
+  "description": "Analyze family tree data from GEDCOM genealogy files.",
+  "url": "https://github.com/reeeeemo/ancestry-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

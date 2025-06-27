@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vilnius-transport",
+  "description": "Integrates with Vilnius public transport data sources to provide real-time transit information, enabling accurate responses about local transportation.",
+  "url": "https://github.com/sarunasdaujotis/vilnius-transport-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

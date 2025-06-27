@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "spotify",
+  "description": "Control music playback and access Spotify's music data.",
+  "url": "https://github.com/varunneal/spotify-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

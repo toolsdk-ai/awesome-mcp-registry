@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "fibery-mcp-server",
+  "description": "Provides a flexible integration with the Fibery API, enabling querying, creating, and updating entities across collaborative work tracking platforms through standardized tools.",
+  "url": "https://github.com/fibery-inc/fibery-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

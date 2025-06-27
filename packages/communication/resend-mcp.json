@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "packageName": "resend-mcp",
+  "description": "Enables AI to compose and send emails through the Resend API with customizable sender addresses, reply-to fields, and scheduled delivery options",
+  "url": "https://github.com/hawstein/resend-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "RESEND_API_KEY": {
+      "description": "YOUR_RESEND_API_KEY_HERE (string, required)",
+      "required": true
+    },
+    "SENDER_EMAIL_ADDRESS": {
+      "description": "YOUR_SENDER_EMAIL_ADDRESS_HERE (string, required)",
+      "required": true
+    },
+    "REPLY_TO_EMAIL_ADDRESSES": {
+      "description": "YOUR_REPLY_TO_EMAIL_ADDRESSES_HERE (string, optional, comma delimited)",
+      "required": true
+    }
+  }
+}

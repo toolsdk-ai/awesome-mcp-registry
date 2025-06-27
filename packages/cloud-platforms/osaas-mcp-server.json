@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@osaas/mcp-server",
+  "description": "EyevinnOSC's MCP server enables AI assistants to provision and manage vendor-independent cloud infrastructure for databases, storage, and media processing through an open source API.",
+  "url": "https://github.com/eyevinnosc/mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OSC_ACCESS_TOKEN": {
+      "description": "<YOUR_TOKEN>",
+      "required": true
+    }
+  }
+}

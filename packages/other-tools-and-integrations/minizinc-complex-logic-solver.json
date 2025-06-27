@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "minizinc-complex-logic-solver",
+  "description": "Solve complex logic/optimization problems using MiniZinc syntax.",
+  "url": "https://github.com/szeider/mcp-solver",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

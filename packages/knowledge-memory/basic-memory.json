@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "basic-memory",
+  "description": "Knowledge management system that builds a persistent semantic graph in markdown, locally.",
+  "url": "https://github.com/basicmachines-co/basic-memory",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

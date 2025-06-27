@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp2serial",
+  "description": "Bridges with physical hardware devices (e.g. Raspberry Pi) via serial communication, enabling real-world control and interaction for IoT and robotics applications.",
+  "url": "https://github.com/mcp2everything/mcp2serial",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

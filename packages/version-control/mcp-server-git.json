@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "mcp-server-git",
-  "description": "A Model Context Protocol server providing tools to read, search, and manipulate Git repositories programmatically via LLMs",
-  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/git",
+  "description": "Interact with local Git repositories for version control tasks.",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/git",
   "runtime": "python",
-  "license": "MIT",
+  "license": "unknown",
   "env": {}
 }

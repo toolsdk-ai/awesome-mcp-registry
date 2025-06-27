@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "odoo-mcp-improved",
+  "description": "Integrates with Odoo ERP systems through XML-RPC to enable business process automation across sales, purchasing, inventory, and accounting modules with tools for creating orders, managing invoices, and generating financial reports.",
+  "url": "https://github.com/hachecito/odoo-mcp-improved",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

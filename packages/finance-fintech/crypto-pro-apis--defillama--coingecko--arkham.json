@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "crypto-pro-apis-(defillama,-coingecko,-arkham)",
+  "description": "Integrates with professional cryptocurrency data APIs from DefiLlama Pro, CoinGecko Pro, and Arkham Intelligence to provide real-time token prices, market data, blockchain analytics, and on-chain intelligence for crypto researchers and traders.",
+  "url": "https://github.com/0xreisearch/crypto-mcp-beta",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

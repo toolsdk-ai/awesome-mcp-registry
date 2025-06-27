@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "youtube-transcript",
+  "description": "Fetch and analyze YouTube video transcripts.",
+  "url": "https://github.com/adhikasp/mcp-youtube",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mysql-database-query",
+  "description": "Enables AI systems to execute and retrieve data from MySQL databases through a Spring Boot server that translates natural language requests into SQL queries.",
+  "url": "https://github.com/dzplus/ai-mcp-server",
+  "runtime": "java",
+  "license": "unknown",
+  "env": {}
+}

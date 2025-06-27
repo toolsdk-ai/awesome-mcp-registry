@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "spiral-writer",
+  "description": "Provides a FastMCP-powered interface for generating text, processing file content, and extracting article data from URLs with asynchronous operations and robust error handling for content generation workflows.",
+  "url": "https://github.com/jxnl/spiral-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

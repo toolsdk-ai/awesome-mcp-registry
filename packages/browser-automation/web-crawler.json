@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "web-crawler",
+  "description": "Enables web crawling capabilities for extracting website content in markdown format, containerized with Docker for easy deployment on Render.com and accessible through a health check endpoint.",
+  "url": "https://github.com/orange-fruit01/mcp-test-run",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "playwright-mcp",
+  "description": "Enables LLM-powered browser automation for web tasks including navigation, interaction, and content extraction through Playwright's comprehensive browser control capabilities.",
+  "url": "https://github.com/misanthropic-ai/playwrite-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

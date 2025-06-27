@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-excel-server",
+  "description": "Enables Excel file operations and data analysis with tools for statistical analysis, data filtering, pivot table creation, and visualization through charts and plots.",
+  "url": "https://github.com/yzfly/mcp-excel-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

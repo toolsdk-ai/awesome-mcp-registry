@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "smartsheet-for-healthcare",
+  "description": "Integrates Smartsheet for healthcare analytics, enabling efficient data management and analysis in clinical research and hospital operations.",
+  "url": "https://github.com/terilios/smartsheet-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

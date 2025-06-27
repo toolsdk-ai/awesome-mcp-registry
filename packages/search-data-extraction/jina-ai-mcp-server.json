@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "jina-ai-mcp-server",
+  "description": "Integrates with Jina AI's web services to enable web content extraction, search, and fact-checking through natural language interactions.",
+  "url": "https://github.com/joebuildsstuff/mcp-jina-ai",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "JINA_API_KEY": {
+      "description": "<YOUR_KEY>",
+      "required": true
+    }
+  }
+}

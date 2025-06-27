@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "packageName": "jira-mcp",
+  "description": "Integrates Jira for natural language querying and manipulation of project management data.",
+  "url": "https://github.com/camdenclark/jira-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "JIRA_INSTANCE_URL": {
+      "description": "https://your-instance.atlassian.net",
+      "required": true
+    },
+    "JIRA_USER_EMAIL": {
+      "description": "your-email@company.com",
+      "required": true
+    },
+    "JIRA_API_KEY": {
+      "description": "your-api-token",
+      "required": true
+    }
+  }
+}

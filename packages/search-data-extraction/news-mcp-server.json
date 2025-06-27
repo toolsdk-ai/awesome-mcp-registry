@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "news-mcp-server",
+  "description": "Fetches the latest news and sources based on country and language using newsdata.io.",
+  "url": "https://github.com/anurag-dhamala/news-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "NEWS_API_KEY": {
+      "description": "API_KEY_FROM_NEWS_DATA",
+      "required": true
+    },
+    "NEWS_BASE_URL": {
+      "description": "https://newsdata.io",
+      "required": true
+    }
+  }
+}

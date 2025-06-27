@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "brave-browser",
+  "description": "Integrates with Brave browser to enable web automation tasks like opening tabs, navigating pages, and extracting content.",
+  "url": "https://github.com/mcp2everything/mcp2brave",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

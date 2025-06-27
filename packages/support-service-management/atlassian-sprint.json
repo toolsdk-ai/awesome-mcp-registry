@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "atlassian-sprint",
+  "description": "Bridges Atlassian's Jira and Confluence APIs to enable secure, contextual interactions for retrieving, creating, and manipulating issues, pages, and comments across cloud and on-premise deployments.",
+  "url": "https://github.com/adamjbird2/mcp-atlassian-sprint",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

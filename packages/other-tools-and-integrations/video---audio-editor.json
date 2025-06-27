@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "video-&-audio-editor",
+  "description": "Provides comprehensive video and audio editing capabilities through FFmpeg, enabling operations like format conversion, trimming, subtitle addition, text overlays, and video concatenation with transition effects.",
+  "url": "https://github.com/misbahsy/video-audio-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

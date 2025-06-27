@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "reddit-extractor",
+  "description": "Extracts content from Reddit discussions using both API and HTML parsing methods, enabling access to post metadata and comments without requiring an API key or authentication.",
+  "url": "https://github.com/cmpxchg16/mcp-ethical-hacking/tree/HEAD/reddit-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

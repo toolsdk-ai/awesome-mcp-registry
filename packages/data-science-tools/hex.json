@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "hex",
+  "description": "Integrates with the Hex API to enable retrieval of project details, management of project runs, and execution of Hex workflows for automated data analysis and report generation.",
+  "url": "https://github.com/franccesco/hex-mcp",
+  "runtime": "python",
+  "license": "agpl-3.0",
+  "env": {}
+}

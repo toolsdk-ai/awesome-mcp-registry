@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "superset",
+  "description": "Integrates with Apache Superset to enable data visualization, SQL query execution, dashboard management, and analytics workflows through authenticated API calls without leaving your conversational interface.",
+  "url": "https://github.com/aptro/superset-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

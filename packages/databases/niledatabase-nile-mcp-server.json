@@ -1,17 +1,17 @@
 {
   "type": "mcp-server",
   "packageName": "@niledatabase/nile-mcp-server",
-  "description": "MCP server for Nile Database - Manage and query databases, tenants, users, auth using LLMs",
-  "url": "https://github.com/niledatabase/nile-mcp-server/tree/main",
+  "description": "Integrates with Nile Database services to enable database operations through TypeScript-based server implementation supporting both stdio and HTTP communication modes for seamless database functionality in AI workflows.",
+  "url": "https://github.com/niledatabase/nile-mcp-server",
   "runtime": "node",
-  "license": "MIT",
+  "license": "unknown",
   "env": {
     "NILE_API_KEY": {
-      "description": "API KEY for Nile",
+      "description": "your_api_key_here",
       "required": true
     },
     "NILE_WORKSPACE_SLUG": {
-      "description": "Nile workspace name",
+      "description": "your_workspace_slug",
       "required": true
     }
   }

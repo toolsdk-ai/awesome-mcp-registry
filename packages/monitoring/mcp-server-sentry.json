@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "mcp-server-sentry",
-  "description": "MCP server for retrieving issues from sentry.io",
-  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/sentry",
+  "description": "Retrieve and analyze application error reports for debugging support.",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/sentry",
   "runtime": "python",
-  "license": "MIT",
+  "license": "unknown",
   "env": {}
 }

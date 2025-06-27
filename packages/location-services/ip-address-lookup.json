@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ip-address-lookup",
+  "description": "Provides a simple API endpoint for retrieving the current machine's public IP address through ipify.org.",
+  "url": "https://github.com/huangxinping/ip-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

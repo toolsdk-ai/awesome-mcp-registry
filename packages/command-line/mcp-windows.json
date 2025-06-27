@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-windows",
+  "description": "Enables AI to control Windows system functions including media playback, notifications, window management, screenshots, monitor control, theme changes, clipboard access, and file operations.",
+  "url": "https://github.com/secretiveshell/mcp-windows",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

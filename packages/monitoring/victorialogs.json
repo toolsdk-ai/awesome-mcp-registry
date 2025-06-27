@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "victorialogs",
+  "description": "Provides a bridge between VictoriaLogs and language models for querying and analyzing log data, enabling DevOps teams to troubleshoot issues and extract insights without writing complex query syntax.",
+  "url": "https://github.com/victoriametrics-community/mcp-victorialogs",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

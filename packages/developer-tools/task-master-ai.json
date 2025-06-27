@@ -1,0 +1,46 @@
+{
+  "type": "mcp-server",
+  "packageName": "task-master-ai",
+  "description": "Provides task management capabilities for development workflows with PRD parsing, task CRUD operations with dependency management, complexity analysis, and context-based organization across project phases.",
+  "url": "https://github.com/eyaltoledano/claude-task-master",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ANTHROPIC_API_KEY": {
+      "description": "YOUR_ANTHROPIC_API_KEY_HERE",
+      "required": true
+    },
+    "PERPLEXITY_API_KEY": {
+      "description": "YOUR_PERPLEXITY_API_KEY_HERE",
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+      "description": "YOUR_OPENAI_KEY_HERE",
+      "required": true
+    },
+    "GOOGLE_API_KEY": {
+      "description": "YOUR_GOOGLE_KEY_HERE",
+      "required": true
+    },
+    "MISTRAL_API_KEY": {
+      "description": "YOUR_MISTRAL_KEY_HERE",
+      "required": true
+    },
+    "OPENROUTER_API_KEY": {
+      "description": "YOUR_OPENROUTER_KEY_HERE",
+      "required": true
+    },
+    "XAI_API_KEY": {
+      "description": "YOUR_XAI_KEY_HERE",
+      "required": true
+    },
+    "AZURE_OPENAI_API_KEY": {
+      "description": "YOUR_AZURE_KEY_HERE",
+      "required": true
+    },
+    "OLLAMA_API_KEY": {
+      "description": "YOUR_OLLAMA_API_KEY_HERE",
+      "required": true
+    }
+  }
+}

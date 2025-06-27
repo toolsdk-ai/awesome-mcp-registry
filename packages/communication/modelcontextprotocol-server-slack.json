@@ -1,18 +1,21 @@
 {
   "type": "mcp-server",
   "packageName": "@modelcontextprotocol/server-slack",
-  "name": "Slack",
-  "description": "MCP server for interacting with Slack",
-  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
+  "description": "Send messages, manage channels, and access workspace history.",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/slack",
   "runtime": "node",
-  "license": "MIT",
+  "license": "unknown",
   "env": {
     "SLACK_BOT_TOKEN": {
-      "description": "Slack Bot User OAuth Token (starts with xoxb-)",
+      "description": "xoxb-your-bot-token",
       "required": true
     },
     "SLACK_TEAM_ID": {
-      "description": "Slack Team/Workspace ID",
+      "description": "T01234567",
+      "required": true
+    },
+    "SLACK_CHANNEL_IDS": {
+      "description": "C01234567, C76543210",
       "required": true
     }
   }

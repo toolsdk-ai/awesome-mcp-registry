@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "packageName": "@taazkareem/clickup-mcp-server",
+  "description": "Integrates ClickUp task management with AI systems to enable automated task creation, updates, and retrieval for enhanced project workflow efficiency.",
+  "url": "https://github.com/taazkareem/clickup-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "CLICKUP_API_KEY": {
+      "description": "your-api-key",
+      "required": true
+    },
+    "CLICKUP_TEAM_ID": {
+      "description": "your-team-id",
+      "required": true
+    },
+    "DOCUMENT_SUPPORT": {
+      "description": "true",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "chain-of-draft",
+  "description": "Implements Chain of Draft reasoning to generate concise intermediate steps for efficient, token-optimized problem-solving across various domains, offering tools for both CoD and Chain of Thought methods with adaptive complexity estimation and format enforcement.",
+  "url": "https://github.com/stat-guy/chain-of-draft",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

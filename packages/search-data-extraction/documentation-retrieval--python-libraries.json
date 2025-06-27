@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "documentation-retrieval-(python-libraries)",
+  "description": "Retrieves up-to-date documentation for Python libraries including LangChain, LlamaIndex, and OpenAI through targeted web searches and HTML content extraction.",
+  "url": "https://github.com/sreedeep-ss/docret-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

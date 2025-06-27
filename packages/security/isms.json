@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "isms",
+  "description": "Integrates Mistral AI and Qdrant to provide intelligent security workflows for automated risk assessment, policy management, and contextual incident response across different security domains.",
+  "url": "https://github.com/karthikkrs/isms-mcp-project",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

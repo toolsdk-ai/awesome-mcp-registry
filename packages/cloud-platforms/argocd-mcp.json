@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "argocd-mcp",
+  "description": "Integrates with Argo CD to enable natural language management of Kubernetes GitOps applications, resources, and deployments without switching context from your assistant.",
+  "url": "https://github.com/akuity/argocd-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ARGOCD_BASE_URL": {
+      "description": "<argocd_url>",
+      "required": true
+    },
+    "ARGOCD_API_TOKEN": {
+      "description": "<argocd_token>",
+      "required": true
+    }
+  }
+}

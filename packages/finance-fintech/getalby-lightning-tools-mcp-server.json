@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@getalby/lightning-tools-mcp-server",
+  "description": "Integrates with the Bitcoin Lightning Network to enable cryptocurrency payment capabilities and lightning address interactions for conversational workflows.",
+  "url": "https://github.com/getalby/lightning-tools-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "NWC_CONNECTION_STRING": {
+      "description": "YOUR NWC CONNECTION STRING HERE",
+      "required": true
+    }
+  }
+}

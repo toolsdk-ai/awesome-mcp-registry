@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "typesense",
+  "description": "Provides a bridge between Typesense search engine and external tools, enabling collection management, document indexing, and both keyword and vector similarity search operations",
+  "url": "https://github.com/avarant/typesense-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

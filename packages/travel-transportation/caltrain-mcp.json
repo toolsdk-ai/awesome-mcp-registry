@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "caltrain-mcp",
+  "description": "Provides real-time Caltrain commuter rail information including schedules, station details, and trip planning for the San Francisco Bay Area",
+  "url": "https://github.com/davidyen1124/caltrain-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

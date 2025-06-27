@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "amazon-s3",
+  "description": "Provides a bridge to Amazon S3 storage services for listing buckets, browsing objects, retrieving file contents, uploading, downloading, and deleting files directly from conversations.",
+  "url": "https://github.com/c4pt0r/mcp-server-s3",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

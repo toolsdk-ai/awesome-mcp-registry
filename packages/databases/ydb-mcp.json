@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ydb-mcp",
+  "description": "Provides a bridge between AI and YDB databases, enabling natural language interactions for executing SQL queries, exploring schema information, and retrieving connection status.",
+  "url": "https://github.com/ydb-platform/ydb-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

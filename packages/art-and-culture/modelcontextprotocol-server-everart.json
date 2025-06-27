@@ -1,13 +1,13 @@
 {
   "type": "mcp-server",
   "packageName": "@modelcontextprotocol/server-everart",
-  "description": "MCP server for EverArt API integration",
-  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/everart",
+  "description": "Integrates with EverArt API to generate images from text prompts using multiple AI models for creative and visual design tasks.",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/everart",
   "runtime": "node",
-  "license": "MIT",
+  "license": "unknown",
   "env": {
     "EVERART_API_KEY": {
-      "description": "API key for EverArt",
+      "description": "your_key_here",
       "required": true
     }
   }

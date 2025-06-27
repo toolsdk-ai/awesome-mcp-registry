@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@felores/placid-mcp-server",
+  "description": "Integrates with Placid's API to generate dynamic images from templates for tasks like social media posts and marketing materials.",
+  "url": "https://github.com/felores/placid-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PLACID_API_TOKEN": {
+      "description": "your-api-token",
+      "required": true
+    }
+  }
+}

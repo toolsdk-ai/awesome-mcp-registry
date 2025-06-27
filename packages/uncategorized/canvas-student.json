@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "canvas-student",
+  "description": "Provides a bridge to Canvas LMS, enabling students to retrieve and manage course data like assignments, files, and to-do items through a lightweight Python tool with rich, optimized formatting.",
+  "url": "https://github.com/jon-vii/canvas-student-mcp/tree/HEAD/src/canvas-student",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@jetbrains/mcp-proxy",
+  "description": "Interact with JetBrains IDEs for code analysis and development tasks.",
+  "url": "https://github.com/jetbrains/mcp-jetbrains",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "IDE_PORT": {
+      "description": "<port of IDE's built-in webserver>",
+      "required": true
+    }
+  }
+}

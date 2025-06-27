@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ros-2-robot-control",
+  "description": "Integrates ROS 2 with natural language processing to enable robot control through commands like 'move forward at 0.2 m/s for 5 seconds' via the /cmd_vel topic.",
+  "url": "https://github.com/kakimochi/ros2-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

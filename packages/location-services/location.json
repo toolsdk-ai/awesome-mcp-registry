@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "location",
+  "description": "Integrates with geolocation APIs to provide location-based functionality, enabling personalized recommendations and localized content delivery based on user IP addresses.",
+  "url": "https://github.com/alexandreroman/mcp-location",
+  "runtime": "java",
+  "license": "apache-2.0",
+  "env": {}
+}

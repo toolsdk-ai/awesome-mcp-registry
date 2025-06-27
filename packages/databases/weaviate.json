@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "weaviate",
+  "description": "Integrate with Weaviate, the AI-native database.",
+  "url": "https://github.com/weaviate/mcp-server-weaviate",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {}
+}

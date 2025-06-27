@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-github-projects",
+  "description": "Integrates with GitHub Projects V2 to enable direct management of project boards, issues, and field values through natural language commands without switching contexts.",
+  "url": "https://github.com/arclio/github-projects-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

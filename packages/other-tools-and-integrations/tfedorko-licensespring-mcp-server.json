@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "@tfedorko/licensespring-mcp-server",
+  "description": "Integrates with LicenseSpring's license management platform to enable software license activation, validation, consumption tracking, customer management, and trial key generation through dual API architecture with HMAC-SHA256 authentication.",
+  "url": "https://github.com/stier1ba/licensespring-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "LICENSE_API_KEY": {
+      "description": "YOUR_LICENSE_API_KEY",
+      "required": true
+    },
+    "LICENSE_SHARED_KEY": {
+      "description": "YOUR_SHARED_KEY_OR_LEAVE_EMPTY",
+      "required": true
+    }
+  }
+}

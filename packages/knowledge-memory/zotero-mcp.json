@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "zotero-mcp",
+  "description": "Integrates with Zotero to enable searching libraries, retrieving metadata, and accessing full-text content for scholarly research workflows.",
+  "url": "https://github.com/kujenga/zotero-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "semgrep",
+  "description": "Integrates with Semgrep's static analysis engine to scan code for security vulnerabilities and coding issues, enabling developers to identify and fix potential problems directly within their coding workflow.",
+  "url": "https://github.com/semgrep/mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

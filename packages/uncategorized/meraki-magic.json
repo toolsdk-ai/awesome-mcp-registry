@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "meraki-magic",
+  "description": "Integrates with Cisco's Meraki Dashboard API to enable network discovery, device management, policy retrieval, and network creation/deletion operations without leaving your conversation context.",
+  "url": "https://github.com/mkutka/meraki-magic-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

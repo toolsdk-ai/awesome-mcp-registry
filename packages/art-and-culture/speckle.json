@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "speckle",
+  "description": "Integrates with Speckle to enable querying and analyzing 3D design and AEC project data, including listing projects, retrieving details, searching by name or description, and accessing model versions for architecture, engineering, and construction professionals.",
+  "url": "https://github.com/bimgeek/speckle-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

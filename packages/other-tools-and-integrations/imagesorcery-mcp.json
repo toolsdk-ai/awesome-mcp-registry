@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "imagesorcery-mcp",
+  "description": "Provides powerful image manipulation capabilities including resizing, cropping, object detection, OCR text extraction, and finding objects based on text descriptions using Python with OpenCV and Ultralytics",
+  "url": "https://github.com/sunriseapps/imagesorcery-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

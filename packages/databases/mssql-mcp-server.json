@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mssql-mcp-server",
+  "description": "Connects to Microsoft SQL Server databases through pyodbc to execute queries, inspect schemas, manage stored procedures, views, and indexes with separate handling for read and write operations.",
+  "url": "https://github.com/jensenloke/mcp-sqlserver-pro",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

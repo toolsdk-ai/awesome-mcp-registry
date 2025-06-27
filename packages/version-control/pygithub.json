@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pygithub",
+  "description": "Integrates with GitHub's API through PyGithub to enable repository management, issue tracking, and pull request operations with automatic authentication, rate limiting, and error recovery.",
+  "url": "https://github.com/astromined/pygithub-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

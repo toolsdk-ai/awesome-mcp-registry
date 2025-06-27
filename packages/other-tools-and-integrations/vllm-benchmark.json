@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vllm-benchmark",
+  "description": "Benchmarks vLLM deployments by measuring throughput, latency, and token generation speed through natural language test configuration",
+  "url": "https://github.com/eliovp-bv/mcp-vllm-benchmark",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

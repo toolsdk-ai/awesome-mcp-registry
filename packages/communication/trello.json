@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "trello",
+  "description": "Integrates with Trello API to enable natural language management of boards, lists, and cards for streamlined project organization and task tracking without context switching.",
+  "url": "https://github.com/m0xai/trello-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

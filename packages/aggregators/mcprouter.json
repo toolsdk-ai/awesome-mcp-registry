@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcprouter",
+  "description": "Provides a proxy service that connects local MCP clients to remote tool servers through a central routing service, eliminating the need to run your own server infrastructure.",
+  "url": "https://github.com/chatmcp/mcp-server-router",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SERVER_KEY": {
+      "description": "xxx",
+      "required": true
+    }
+  }
+}

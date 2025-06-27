@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-linearapp",
+  "description": "Integrates with Linear's issue tracking system to enable natural language interaction for creating, updating, and managing issues, comments, attachments, and project information without context switching.",
+  "url": "https://github.com/magarcia/mcp-server-linearapp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "LINEAR_API_KEY": {
+      "description": "your_linear_api_key_here",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "paperswithcode",
+  "description": "Integrates with PapersWithCode API to search and retrieve research papers, authors, conferences, and code implementations in machine learning, with tools for exploring papers by author, extracting PDF content, and accessing associated repositories, datasets, and results.",
+  "url": "https://github.com/hbg/mcp-paperswithcode",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

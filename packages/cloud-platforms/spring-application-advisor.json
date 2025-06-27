@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "spring-application-advisor",
+  "description": "Integrates with Spring Application Advisor to provide insights and recommendations for optimizing Spring applications in Cloud Foundry environments.",
+  "url": "https://github.com/cpage-pivotal/app-advisor-mcp",
+  "runtime": "java",
+  "license": "unknown",
+  "env": {}
+}

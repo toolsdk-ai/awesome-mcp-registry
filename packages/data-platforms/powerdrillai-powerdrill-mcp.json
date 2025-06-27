@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "@powerdrillai/powerdrill-mcp",
+  "description": "Provides tools to interact with Powerdrill datasets to perform data work.",
+  "url": "https://github.com/powerdrillai/powerdrill-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "POWERDRILL_USER_ID": {
+      "description": "your_actual_user_id",
+      "required": true
+    },
+    "POWERDRILL_PROJECT_API_KEY": {
+      "description": "your_actual_project_api_key",
+      "required": true
+    }
+  }
+}

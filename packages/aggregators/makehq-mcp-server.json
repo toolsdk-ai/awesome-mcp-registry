@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "packageName": "@makehq/mcp-server",
+  "description": "Connects AI systems to Make automation workflows, enabling assistants to trigger scenarios with parameters and receive structured JSON output from your existing Make account.",
+  "url": "https://github.com/integromat/make-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MAKE_API_KEY": {
+      "description": "<your-api-key>",
+      "required": true
+    },
+    "MAKE_ZONE": {
+      "description": "<your-zone>",
+      "required": true
+    },
+    "MAKE_TEAM": {
+      "description": "<your-team-id>",
+      "required": true
+    }
+  }
+}

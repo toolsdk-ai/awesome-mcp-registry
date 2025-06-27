@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pytorch-documentation-search",
+  "description": "Provides semantic search over PyTorch documentation with code-aware results, enabling developers to find relevant APIs, examples, and error messages through intelligent ranking that prioritizes code snippets or conceptual explanations based on query type.",
+  "url": "https://github.com/seanmichaelmcgee/pytorch-docs-refactored",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

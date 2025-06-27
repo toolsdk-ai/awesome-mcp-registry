@@ -1,14 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "mcp-server-rememberizer",
-  "description": "An MCP server for interacting with Rememberizer's document and knowledge management API. This server enables Large Language Models to search, retrieve, and manage documents and integrations through Rememberizer.",
+  "description": "Leverage Rememberizer's document API for AI-powered semantic search and retrieval of enterprise knowledge.",
   "url": "https://github.com/skydeckai/mcp-server-rememberizer",
   "runtime": "python",
-  "license": "Apache 2.0",
-  "env": {
-    "REMEMBERIZER_API_TOKEN": {
-      "description": "API token for Rememberizer",
-      "required": true
-    }
-  }
+  "license": "unknown",
+  "env": {}
 }

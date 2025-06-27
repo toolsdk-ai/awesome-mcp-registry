@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-nvd",
+  "description": "Provides access to the NIST National Vulnerability Database through get_cve and search_cve tools for retrieving and searching CVE records with customizable result options.",
+  "url": "https://github.com/marcoeg/mcp-nvd",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

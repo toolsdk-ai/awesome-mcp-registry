@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-logseq",
+  "description": "Integrates with LogSeq API to enable automated note-taking, knowledge graph analysis, and workflow automation for developers and knowledge workers.",
+  "url": "https://github.com/dailydaniel/logseq-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

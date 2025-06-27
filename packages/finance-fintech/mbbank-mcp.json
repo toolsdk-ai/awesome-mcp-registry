@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mbbank-mcp",
+  "description": "Provides read-only access to MBBank accounts for retrieving balances, transaction histories, savings account details, and current date information to support financial monitoring and expense tracking workflows.",
+  "url": "https://github.com/thedtvn/mbbank-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

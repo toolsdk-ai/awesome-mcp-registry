@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "raphtory-graphql-schema-explorer",
+  "description": "Enables AI systems to explore and understand graph structures in Raphtory databases through GraphQL schema queries, property relationship analysis, and detailed information retrieval for effective query construction.",
+  "url": "https://github.com/niallroche/raphtory_mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

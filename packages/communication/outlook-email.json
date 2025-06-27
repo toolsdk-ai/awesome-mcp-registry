@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "outlook-email",
+  "description": "Enables direct access to Microsoft Outlook email functionality for reading, searching, composing, and managing emails without leaving the conversation context.",
+  "url": "https://github.com/wallisking1991/outlook-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

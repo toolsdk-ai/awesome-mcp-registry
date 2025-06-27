@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "weather-alerts-&-forecasts",
+  "description": "Integrates with OpenWeather to retrieve and provide weather data.",
+  "url": "https://github.com/kevinlin/mcp-server-weather",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gigapipe",
+  "description": "Integrates with Gigapipe's observability platform to query Prometheus metrics with PromQL, search Loki logs with LogQL, and retrieve Tempo traces by ID through unified HTTP/HTTPS access with optional authentication.",
+  "url": "https://github.com/gigapipehq/gigapipe-mcp",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

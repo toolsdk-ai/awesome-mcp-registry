@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-ads",
+  "description": "Integrates with Google Ads API to enable direct access and management of advertising campaigns, performance analysis, and optimization within conversations.",
+  "url": "https://github.com/cohnen/mcp-google-ads",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "connectwise-manage-api",
+  "description": "Bridges Claude with the ConnectWise Manage API through a SQLite database built from API definitions, enabling natural language search, categorized navigation, and fast memory for efficient IT service ticket management and company information retrieval.",
+  "url": "https://github.com/jasondsmith72/cwm-api-gateway-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

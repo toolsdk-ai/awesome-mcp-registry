@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tradingview-chart",
+  "description": "Captures and shares TradingView chart images with customizable tickers and timeframes through a Selenium-based scraper that converts screenshots to direct image URLs.",
+  "url": "https://github.com/ertugrul59/tradingview-chart-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

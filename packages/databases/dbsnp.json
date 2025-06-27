@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "dbsnp",
+  "description": "Provides a bridge to NCBI's dbSNP database for retrieving genetic variant information, including detailed SNP data, search functionality, and clinical significance assessments with API rate limit handling.",
+  "url": "https://github.com/mattshu0410/mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

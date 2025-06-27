@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "audio-player",
+  "description": "Enables audio playback control on your computer through a secure, directory-isolated interface that can play MP3, WAV, and OGG files from a designated folder.",
+  "url": "https://github.com/here-and-tomorrow-llc/audio-player-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

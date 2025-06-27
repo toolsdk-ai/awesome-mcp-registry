@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "aerith-admin-(rbac-dashboard)",
+  "description": "Implements a structured 5-step development workflow for building RBAC dashboard applications using FastAPI, Git integration, and browser automation capabilities",
+  "url": "https://github.com/albeorla/mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

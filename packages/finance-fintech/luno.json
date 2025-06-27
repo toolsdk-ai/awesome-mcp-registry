@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "luno",
+  "description": "Bridges AI systems with the Luno cryptocurrency exchange API for trading operations, market data retrieval, and account management with automatic currency code normalization",
+  "url": "https://github.com/luno/luno-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {}
+}

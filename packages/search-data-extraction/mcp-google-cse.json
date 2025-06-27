@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-google-cse",
+  "description": "Integrates with Google Custom Search Engine API to enable web searches for fact-checking, research, and content generation with current data.",
+  "url": "https://github.com/richard-weiss/mcp-google-cse",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

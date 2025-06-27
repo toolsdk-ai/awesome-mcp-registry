@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "apple-notes-mcp",
+  "description": "Access and search local Apple Notes databases.",
+  "url": "https://github.com/sirmews/apple-notes-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

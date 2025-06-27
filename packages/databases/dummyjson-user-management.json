@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "dummyjson-user-management",
+  "description": "Java-based user management server that integrates with DummyJSON API to provide retrieval, search, creation, updating, and deletion operations for user data.",
+  "url": "https://github.com/mtwn105/mcp-server-spring-java",
+  "runtime": "java",
+  "license": "apache-2.0",
+  "env": {}
+}

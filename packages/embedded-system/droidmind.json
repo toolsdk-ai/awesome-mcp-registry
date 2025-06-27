@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "droidmind",
+  "description": "Enables control and interaction with Android devices through secure tools for device management, app installation, UI automation, file operations, and system diagnostics.",
+  "url": "https://github.com/hyperb1iss/droidmind",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

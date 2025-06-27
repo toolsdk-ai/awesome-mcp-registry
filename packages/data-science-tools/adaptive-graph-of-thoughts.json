@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "adaptive-graph-of-thoughts",
+  "description": "Processes complex scientific queries through an 8-stage Graph-of-Thoughts pipeline that decomposes questions into hypotheses, gathers evidence, builds knowledge graphs in Neo4j, and provides confidence-scored conclusions with bias detection and falsifiability assessment for systematic research analysis.",
+  "url": "https://github.com/saptadey/adaptive-graph-of-thoughts-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

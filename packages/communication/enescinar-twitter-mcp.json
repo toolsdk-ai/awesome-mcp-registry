@@ -1,27 +1,25 @@
 {
   "type": "mcp-server",
-  "name": "Twitter",
-  "logo": "https://icons.duckduckgo.com/ip3/developer.x.com.ico",
   "packageName": "@enescinar/twitter-mcp",
-  "description": "This MCP server allows Clients to interact with Twitter, enabling posting tweets and searching Twitter.",
-  "url": "https://github.com/EnesCinr/twitter-mcp",
+  "description": "Interact with X (Twitter) by posting tweets and searching for tweets through the X API.",
+  "url": "https://github.com/enescinr/twitter-mcp",
   "runtime": "node",
-  "license": "MIT",
+  "license": "unknown",
   "env": {
     "API_KEY": {
-      "description": "API key for X API",
+      "description": "your_api_key_here",
       "required": true
     },
     "API_SECRET_KEY": {
-      "description": "API secret key for X API",
+      "description": "your_api_secret_key_here",
       "required": true
     },
     "ACCESS_TOKEN": {
-      "description": "API access token for X API",
+      "description": "your_access_token_here",
       "required": true
     },
     "ACCESS_TOKEN_SECRET": {
-      "description": "API access token secret for X API",
+      "description": "your_access_token_secret_here",
       "required": true
     }
   }

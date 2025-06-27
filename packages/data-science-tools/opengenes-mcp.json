@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "opengenes-mcp",
+  "description": "Provides access to the OpenGenes database containing aging and longevity research data including experimental lifespan results from genetic interventions, aging-related gene classifications, hallmarks of aging associations, and population genetics longevity studies for researchers analyzing gene-longevity relationships and experimental outcomes.",
+  "url": "https://github.com/longevity-genie/opengenes-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

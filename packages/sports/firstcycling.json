@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "firstcycling",
+  "description": "Provides a bridge to FirstCycling.com for retrieving professional cycling statistics, race results, rider profiles, and rankings with robust error handling and data parsing",
+  "url": "https://github.com/r-huijts/firstcycling-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

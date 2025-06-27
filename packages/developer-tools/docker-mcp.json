@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "docker-mcp",
-  "description": "A powerful Model Context Protocol (MCP) server for Docker operations, enabling seamless container and compose stack management through Claude AI",
-  "url": "https://github.com/QuantGeekDev/docker-mcp",
+  "description": "Manage containers and compose stacks through natural language.",
+  "url": "https://github.com/quantgeekdev/docker-mcp",
   "runtime": "python",
-  "license": "MIT",
+  "license": "unknown",
   "env": {}
 }

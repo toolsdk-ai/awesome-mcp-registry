@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sonarqube-metrics",
+  "description": "Integrates with SonarQube to provide code quality metrics like bugs, vulnerabilities, code smells, coverage, and duplication density at project and component levels for development teams.",
+  "url": "https://github.com/archai-labs/fastmcp-sonarqube-metrics",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

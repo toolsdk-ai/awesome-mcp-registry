@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "git",
+  "description": "Integrates with Git repositories to enable version control operations and automation, supporting both shell-based commands and the go-git library for flexible implementation.",
+  "url": "https://github.com/geropl/git-mcp-go",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {}
+}

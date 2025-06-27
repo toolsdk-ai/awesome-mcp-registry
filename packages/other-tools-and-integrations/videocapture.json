@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "videocapture",
+  "description": "Provides webcam access for capturing still images with camera control features including brightness adjustment, resolution settings, and basic image transformations through OpenCV",
+  "url": "https://github.com/13rac1/videocapture-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

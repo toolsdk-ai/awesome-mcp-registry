@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gopls",
+  "description": "Bridges the Go Programming Language Server (gopls) with AI systems, enabling advanced code analysis, navigation, completion, and diagnostic capabilities for Go projects.",
+  "url": "https://github.com/hloiseaufcms/mcp-gopls",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

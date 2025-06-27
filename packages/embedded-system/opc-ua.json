@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "opc-ua",
+  "description": "Integrates with OPC UA industrial automation systems to enable reading and writing node values for monitoring and controlling connected devices",
+  "url": "https://github.com/kukapay/opcua-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

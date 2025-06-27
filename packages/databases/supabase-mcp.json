@@ -1,0 +1,26 @@
+{
+  "type": "mcp-server",
+  "packageName": "supabase-mcp",
+  "description": "Enables Claude and other LLMs to interact with Supabase databases and Edge Functions through a secure API for performing CRUD operations and invoking custom payloads without requiring integration code.",
+  "url": "https://github.com/cappahccino/sb-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SUPABASE_URL": {
+      "description": "your_supabase_project_url",
+      "required": true
+    },
+    "SUPABASE_ANON_KEY": {
+      "description": "your_supabase_anon_key",
+      "required": true
+    },
+    "SUPABASE_SERVICE_ROLE_KEY": {
+      "description": "your_service_role_key",
+      "required": true
+    },
+    "MCP_API_KEY": {
+      "description": "your_secret_api_key",
+      "required": true
+    }
+  }
+}

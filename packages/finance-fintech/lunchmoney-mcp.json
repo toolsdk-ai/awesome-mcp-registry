@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "lunchmoney-mcp",
+  "description": "Integrates with the Lunchmoney personal finance API to enable transaction retrieval, spending analysis, and budget summaries for enhanced financial management.",
+  "url": "https://github.com/leafeye/lunchmoney-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "LUNCHMONEY_TOKEN": {
+      "description": "your_token_here",
+      "required": true
+    }
+  }
+}

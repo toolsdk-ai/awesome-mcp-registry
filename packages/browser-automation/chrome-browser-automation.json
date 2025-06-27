@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "chrome-browser-automation",
+  "description": "Enables AI-driven web automation through Chrome browser integration for tasks like navigation, interaction, form filling, and content extraction via WebSocket protocol.",
+  "url": "https://github.com/dlwjdtn535/mcp-chrome-integration",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

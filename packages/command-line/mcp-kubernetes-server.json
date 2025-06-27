@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-kubernetes-server",
+  "description": "Enables direct Kubernetes cluster management through kubectl command execution, providing a bridge for real-time resource administration within conversations.",
+  "url": "https://github.com/feiskyer/mcp-kubernetes-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

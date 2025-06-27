@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "blender-mcp",
+  "description": "Enables natural language control of Blender for 3D scene creation, manipulation, and rendering without requiring knowledge of Blender's interface or Python API.",
+  "url": "https://github.com/ahujasid/blender-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

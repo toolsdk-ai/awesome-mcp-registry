@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "doc-scraper-(jina.ai)",
+  "description": "Converts web documentation to clean markdown using Jina.ai's API, enabling easy transformation of online docs for content migration or offline use.",
+  "url": "https://github.com/askjohngeorge/mcp-doc-scraper",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

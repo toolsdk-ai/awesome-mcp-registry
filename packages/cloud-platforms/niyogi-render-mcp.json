@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@niyogi/render-mcp",
+  "description": "Deployment-related tooling for Render.com.",
+  "url": "https://github.com/niyogi/render-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "RENDER_API_KEY": {
+      "description": "your-render-api-key",
+      "required": true
+    }
+  }
+}

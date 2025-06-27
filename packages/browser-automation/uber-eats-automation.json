@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "uber-eats-automation",
+  "description": "Integrates with Uber Eats to enable automated menu searches and food order placements via browser interactions, streamlining the food discovery and ordering process.",
+  "url": "https://github.com/skudskud/test-repo-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

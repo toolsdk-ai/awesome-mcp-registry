@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "microsoft-sql-server-(mssql)",
+  "description": "Securely integrates with Microsoft SQL Server databases for data analysis, reporting, and management.",
+  "url": "https://github.com/richardhan/mssql_mcp_server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

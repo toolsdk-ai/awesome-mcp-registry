@@ -1,0 +1,30 @@
+{
+  "type": "mcp-server",
+  "packageName": "alibabacloud-dataworks-mcp-server",
+  "description": "Exports Alibaba Cloud DataWorks Open API tools for dynamic project management and data workflow interactions using TypeScript and Zod for robust schema validation.",
+  "url": "https://github.com/aliyun/alibabacloud-dataworks-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "REGION": {
+      "description": "your_dataworks_open_api_region_id_here",
+      "required": true
+    },
+    "ALIBABA_CLOUD_ACCESS_KEY_ID": {
+      "description": "your_alibaba_cloud_access_key_id",
+      "required": true
+    },
+    "ALIBABA_CLOUD_ACCESS_KEY_SECRET": {
+      "description": "your_alibaba_cloud_access_key_secret",
+      "required": true
+    },
+    "TOOL_CATEGORIES": {
+      "description": "optional_your_tool_categories_here_ex_UTILS",
+      "required": true
+    },
+    "TOOL_NAMES": {
+      "description": "optional_your_tool_names_here_ex_ListProjects",
+      "required": true
+    }
+  }
+}

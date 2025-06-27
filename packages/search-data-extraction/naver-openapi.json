@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "naver-openapi",
+  "description": "Integrates with Naver's OpenAPI services to provide 14 different tools for Korean-language search capabilities, including blog, news, book, image, and shopping searches.",
+  "url": "https://github.com/pfldy2850/py-mcp-naver",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

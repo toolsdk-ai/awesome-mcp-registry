@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "packageName": "@tigrisdata/tigris-mcp-server",
+  "description": "Provides S3-compatible object storage capabilities for managing buckets, uploading/downloading objects, and generating signed URLs through Tigris Storage",
+  "url": "https://github.com/tigrisdata/tigris-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "AWS_ACCESS_KEY_ID": {
+      "description": "YOUR_AWS_ACCESS_KEY_ID",
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "description": "YOUR_AWS_SECRET_ACCESS_KEY",
+      "required": true
+    },
+    "AWS_ENDPOINT_URL_S3": {
+      "description": "https://fly.storage.tigris.dev",
+      "required": true
+    }
+  }
+}
