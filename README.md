@@ -95,9 +95,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (39)
+✅: Validated and runnable tools (40)
 
-❌: Cannot be run by the MCP client (with mock environments variables (33))
+❌: Cannot be run by the MCP client (with mock environments variables (32))
 
 
 
@@ -134,6 +134,9 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 
 - [✅ exa-mcp-server](https://github.com/exa-labs/exa-mcp-server): A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way.  (8 tools) (node) 
 - [✅ hyperbrowser-mcp](https://github.com/hyperbrowserai/mcp/tree/main): An MCP server for Hyperbrowser - Hyperbrowser is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation  (10 tools) (node) 
+- [✅ @modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/blob/main/src/puppeteer): MCP server for browser automation using Puppeteer  (7 tools) (node) 
+- [❌ mcp-server-fetch](https://github.com/modelcontextprotocol/servers/blob/main/src/fetch): A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs  (python) 
+- [✅ @executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright/tree/main/src): A Model Context Protocol server for Playwright for Browser Automation and Web Scraping.  (32 tools) (node) 
 - [✅ tavily-mcp](https://github.com/tavily-ai/tavily-mcp/tree/main): Providing seamless integration with Tavily's search and extract tools for real-time web search and intelligent data extraction.  (4 tools) (node) 
 - [❌ mcp-server-fetch](https://github.com/modelcontextprotocol/servers/blob/main/src/fetch): A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs  (python) 
 - [✅ @modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/blob/main/src/puppeteer): MCP server for browser automation using Puppeteer  (7 tools) (node) 
@@ -264,8 +267,8 @@ Work with maps, weather, and location-based data for analytics and insights.
 
 Create and edit marketing content, manage metadata, and refine product positioning.
 
-- [✅ @ashdev/discourse-mcp-server](https://github.com/AshDevFr/discourse-mcp-server/tree/main/src): Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.  (1 tools) (node) 
 - [✅ @toolsdk.ai/mcp-server-google-analytics](https://github.com/smithery-ai/mcp-server-google-analytics): An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.  (2 tools) (node) 
+- [✅ @ashdev/discourse-mcp-server](https://github.com/AshDevFr/discourse-mcp-server/tree/main/src): Node.js server implementing Model Context Protocol (MCP) for Discourse search operation.  (1 tools) (node) 
 
 
 <a id="monitoring"></a>

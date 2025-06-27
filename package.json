@@ -1,6 +1,6 @@
 {
   "name": "@toolsdk.ai/registry",
-  "version": "1.0.82",
+  "version": "1.0.83",
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "exports": {
     "./config/*": "./config/*",
@@ -46,6 +46,7 @@
     "@modelcontextprotocol/server-slack": "2025.4.25",
     "airtable-mcp-server": "1.4.1",
     "@niledatabase/nile-mcp-server": "1.4.0",
+    "@llmindset/mcp-hfspace": "0.5.4",
     "@mcp-get-community/server-macos": "0.1.0",
     "@mcp-get-community/server-llm-txt": "0.6.2",
     "@modelcontextprotocol/server-memory": "2025.4.25",

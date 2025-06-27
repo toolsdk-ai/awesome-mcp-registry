@@ -228,8 +228,8 @@
       "description": "Create and edit marketing content, manage metadata, and refine product positioning."
     },
     "packagesList": [
-      "@ashdev/discourse-mcp-server",
-      "@toolsdk.ai/mcp-server-google-analytics"
+      "@toolsdk.ai/mcp-server-google-analytics",
+      "@ashdev/discourse-mcp-server"
     ]
   },
   "monitoring": {
