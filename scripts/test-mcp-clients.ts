@@ -7,6 +7,7 @@ import {
   getPackageConfigByKey,
   typedAllPackagesList,
   updatePackageJsonDependencies,
+  withTimeout,
 } from "../src/helper";
 async function main() {
   const packageDeps: Record<string, string> = {};
@@ -23,7 +24,9 @@ async function main() {
       try {
         // const parsedContent: MCPServerPackageConfig= MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
 
-        const mcpClient = await getMcpClient(mcpServerConfig, mockEnv);
+        // const mcpClient = await getMcpClient(mcpServerConfig, mockEnv);
+        // 创建 MCP Client 并设置 5 秒超时
+        const mcpClient = await withTimeout(5000, getMcpClient(mcpServerConfig, mockEnv));
         const tools = await mcpClient.client.listTools();
         console.log(
           `Read success MCP Client for package: ${packageKey} ${value.path}, tools: ${Object.keys(tools).length}`
@@ -48,7 +51,7 @@ async function main() {
         const version = getActualVersion(mcpServerConfig.packageName, mcpServerConfig.packageVersion);
         packageDeps[mcpServerConfig.packageName] = version || "latest";
       } catch (e) {
-        console.error(`Error reading MCP Client for package: ${packageKey} ${value.path}`, e);
+        console.error(`Error reading MCP Client for package: ${packageKey} ${value.path}`, e.message);
         typedAllPackagesList[packageKey].tools = {};
         typedAllPackagesList[packageKey].validated = false;
       } finally {
