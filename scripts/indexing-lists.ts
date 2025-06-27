@@ -104,11 +104,6 @@ async function generatePackagesList() {
     }
   }
 
-  fs.writeFileSync(packagesListFile, JSON.stringify(newPackagesList, null, 2), "utf-8");
-  fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), "utf-8");
-  console.log(`Generated packages list at ${packagesListFile}`);
-  console.log(`Generated categories list at ${categoriesListFile}`);
-
   // delete packages that are not in the new packages list, base on `newPackagesKeys`
   for (const key in newPackagesList) {
     if (!newPackagesKeys.has(key)) {
@@ -116,6 +111,11 @@ async function generatePackagesList() {
       console.log(`Removed redundant package: ${key}, not exist anymore`);
     }
   }
+
+  fs.writeFileSync(packagesListFile, JSON.stringify(newPackagesList, null, 2), "utf-8");
+  fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), "utf-8");
+  console.log(`Generated packages list at ${packagesListFile}`);
+  console.log(`Generated categories list at ${categoriesListFile}`);
 
   // compare previous and new packages lists
   comparePackagesLists(previousPackagesList, newPackagesList);

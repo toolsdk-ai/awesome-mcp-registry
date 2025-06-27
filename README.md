@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-2174-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-2172-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 2174+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 2172+ MCP servers.
 
 
 
@@ -104,9 +104,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (303)
+✅: Validated and runnable tools (302)
 
-❌: Cannot be run by the MCP client (with mock environments variables (1871))
+❌: Cannot be run by the MCP client (with mock environments variables (1870))
 
 
 

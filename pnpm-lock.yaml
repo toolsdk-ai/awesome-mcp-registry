@@ -9,37 +9,37 @@ importers:
   .:
     dependencies:
       4oimage-mcp:
-        specifier: latest
+        specifier: 1.0.5
         version: 1.0.5
       '@abhaybabbar/retellai-mcp-server':
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2(encoding@0.1.13)
       '@abhiz123/todoist-mcp-server':
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0(type-fest@4.41.0)
       '@adenot/mcp-google-search':
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0
       '@ahdev/dokploy-mcp':
-        specifier: latest
+        specifier: 1.3.4
         version: 1.3.4
       '@aindreyway/mcp-codex-keeper':
-        specifier: latest
+        specifier: 1.1.10
         version: 1.1.10
       '@aindreyway/mcp-neurolora':
-        specifier: latest
+        specifier: 1.4.0
         version: 1.4.0(encoding@0.1.13)(zod@3.25.67)
       '@akki91/ankr-mcp':
-        specifier: latest
+        specifier: 0.0.1
         version: 0.0.1
       '@alanse/mcp-neo4j-server':
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       '@anaisbetts/mcp-youtube':
         specifier: 0.6.0
         version: 0.6.0
       '@antv/mcp-server-chart':
-        specifier: latest
+        specifier: 0.7.1
         version: 0.7.1
       '@ashdev/discourse-mcp-server':
         specifier: 1.0.2
@@ -48,52 +48,52 @@ importers:
         specifier: 1.2.1
         version: 1.2.1
       '@automation-ai-labs/mcp-wait':
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3(effect@3.16.10)
       '@awesome-ai/elasticsearch-mcp':
-        specifier: latest
+        specifier: 1.0.6
         version: 1.0.6
       '@baidumap/mcp-server-baidu-map':
-        specifier: latest
+        specifier: 1.0.5
         version: 1.0.5
       '@bankless/onchain-mcp':
-        specifier: latest
+        specifier: 1.0.6
         version: 1.0.6
       '@baruchiro/paperless-mcp':
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       '@benborla29/mcp-server-mysql':
         specifier: 2.0.3
         version: 2.0.3(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@binalyze/air-mcp':
-        specifier: latest
+        specifier: 12.2.0
         version: 12.2.0
       '@bnb-chain/mcp':
-        specifier: latest
+        specifier: 1.4.0
         version: 1.4.0(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@browsercatco/mcp-server':
-        specifier: latest
+        specifier: 0.3.0
         version: 0.3.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@browserstack/mcp-server':
-        specifier: latest
+        specifier: 1.1.8
         version: 1.1.8(bufferutil@4.0.9)(puppeteer-core@24.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)
       '@bujaayjaay/mcp-coincap-jj':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       '@burtthecoder/mcp-shodan':
-        specifier: latest
+        specifier: 1.0.16
         version: 1.0.16
       '@burtthecoder/mcp-virustotal':
-        specifier: latest
+        specifier: 1.0.10
         version: 1.0.10
       '@cablate/mcp-google-calendar':
-        specifier: latest
+        specifier: 0.0.3
         version: 0.0.3(encoding@0.1.13)
       '@cablate/mcp-google-map':
-        specifier: latest
+        specifier: 0.0.4
         version: 0.0.4
       '@chaindead/telegram-mcp':
-        specifier: latest
+        specifier: 0.1.22
         version: 0.1.22
       '@chanmeng666/google-news-server':
         specifier: 1.0.0
@@ -102,61 +102,61 @@ importers:
         specifier: 0.0.4
         version: 0.0.4
       '@clayhq/clay-mcp':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1(effect@3.16.10)
       '@cloudflare/mcp-server-cloudflare':
         specifier: 0.2.0
         version: 0.2.0
       '@cloudwerxlab/gpt-image-1-mcp':
-        specifier: latest
+        specifier: 3.2.0
         version: 3.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@coderide/mcp':
-        specifier: latest
+        specifier: 0.3.3
         version: 0.3.3
       '@coinstats/coinstats-mcp':
-        specifier: latest
+        specifier: 1.0.6
         version: 1.0.6
       '@createveai/nexus-mcp-server':
-        specifier: latest
+        specifier: 1.0.0-preview
         version: 1.0.0-preview
       '@cristip73/mcp-server-asana':
-        specifier: latest
+        specifier: 2.0.0
         version: 2.0.0(@babel/core@7.27.4)
       '@currents/mcp':
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3
       '@cyanheads/pubmed-mcp-server':
-        specifier: latest
+        specifier: 1.2.3
         version: 1.2.3(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@cyanheads/toolkit-mcp-server':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       '@datastax/astra-db-mcp':
-        specifier: latest
+        specifier: 1.2.0
         version: 1.2.0
       '@debugg-ai/debugg-ai-mcp':
-        specifier: latest
+        specifier: 1.0.15
         version: 1.0.15
       '@deepdataspace/dinox-mcp':
-        specifier: latest
+        specifier: 0.1.4
         version: 0.1.4
       '@delorenj/mcp-qdrant-memory':
-        specifier: latest
+        specifier: 0.2.4
         version: 0.2.4(encoding@0.1.13)(typescript@5.8.3)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@delorenj/mcp-server-ticketmaster':
-        specifier: latest
+        specifier: 0.2.5
         version: 0.2.5
       '@deventerprisesoftware/scrapi-mcp':
-        specifier: latest
+        specifier: 0.0.3
         version: 0.0.3
       '@digitalocean/mcp':
-        specifier: latest
+        specifier: 0.0.13
         version: 0.0.13
       '@dynatrace-oss/dynatrace-mcp-server':
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0(bufferutil@4.0.9)(jest-util@30.0.2)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       '@elastic/mcp-server-elasticsearch':
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0
       '@enescinar/twitter-mcp':
         specifier: 0.2.0
@@ -165,154 +165,154 @@ importers:
         specifier: 1.0.6
         version: 1.0.6(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@f4ww4z/mcp-mysql-server':
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       '@feedmob/jampp-reporting':
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3(encoding@0.1.13)
       '@feedmob/kayzen-reporting':
-        specifier: latest
+        specifier: 0.0.5
         version: 0.0.5
       '@feedmob/singular-reporting':
-        specifier: latest
+        specifier: 0.0.3
         version: 0.0.3
       '@felixallistar/coolify-mcp':
-        specifier: latest
+        specifier: 1.0.4
         version: 1.0.4(@hey-api/openapi-ts@0.77.0(typescript@5.8.3))(@types/node@22.15.33)(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(yaml@2.8.0)
       '@felores/placid-mcp-server':
-        specifier: latest
+        specifier: 1.7.0
         version: 1.7.0
       '@gannonh/firebase-mcp':
-        specifier: latest
+        specifier: 1.4.9
         version: 1.4.9(encoding@0.1.13)
       '@gentoro/mcp-nodejs-server':
-        specifier: latest
+        specifier: 0.0.7
         version: 0.0.7
       '@getalby/lightning-tools-mcp-server':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       '@getalby/nwc-mcp-server':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       '@gleanwork/mcp-server':
-        specifier: latest
+        specifier: 0.7.1
         version: 0.7.1(@tanstack/react-query@5.81.2(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@glifxyz/mymcpspace-mcp-server':
-        specifier: latest
+        specifier: 1.0.4
         version: 1.0.4
       '@gongrzhe/server-gmail-autoauth-mcp':
         specifier: 1.1.10
         version: 1.1.10(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@gongrzhe/server-travelplanner-mcp':
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2
       '@grec0/mcp-s2s-asterisk':
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3
       '@greirson/mcp-todoist':
-        specifier: latest
+        specifier: 0.8.2
         version: 0.8.2(type-fest@4.41.0)
       '@growthbook/mcp':
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       '@hannesrudolph/mcp-ragdocs':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0(encoding@0.1.13)(typescript@5.8.3)(zod@3.25.67)
       '@hiyorineko/mcp-rollbar-server':
-        specifier: latest
+        specifier: 1.1.5
         version: 1.1.5
       '@horizondatawave/mcp':
-        specifier: latest
+        specifier: 0.1.5
         version: 0.1.5
       '@hubspot/mcp-server':
-        specifier: latest
+        specifier: 0.4.0
         version: 0.4.0
       '@humansean/mcp-bocha':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1(effect@3.16.10)
       '@iachilles/memento':
-        specifier: latest
+        specifier: 0.4.1
         version: 0.4.1
       '@ibraheem4/eventbrite-mcp':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       '@illuminaresolutions/n8n-mcp-server':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       '@inkdropapp/mcp-server':
-        specifier: latest
+        specifier: 1.1.1
         version: 1.1.1
       '@iqai/mcp-bamm':
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2(bufferutil@4.0.9)(effect@3.16.10)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@isaacphi/mcp-gdrive':
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0(encoding@0.1.13)
       '@itseasy21/mcp-knowledge-graph':
-        specifier: latest
+        specifier: 1.0.7
         version: 1.0.7
       '@ivotoby/contentful-management-mcp-server':
-        specifier: latest
+        specifier: 1.16.1
         version: 1.16.1
       '@jayarrowz/mcp-figma':
-        specifier: latest
+        specifier: 0.6.9
         version: 0.6.9
       '@jetbrains/mcp-proxy':
-        specifier: latest
+        specifier: 1.8.0
         version: 1.8.0
       '@jinzcdev/leetcode-mcp-server':
-        specifier: latest
+        specifier: 1.2.0
         version: 1.2.0(@types/node@22.15.33)(encoding@0.1.13)(typescript@5.8.3)
       '@joshuarileydev/supabase-mcp-server':
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       '@jsonresume/mcp':
-        specifier: latest
+        specifier: 3.0.3
         version: 3.0.3(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@kailashg101/mcp-figma-to-code':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@kajirita2002/esa-mcp-server':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       '@kajirita2002/honeycomb-mcp-server':
-        specifier: latest
+        specifier: 1.0.7
         version: 1.0.7
       '@kazuph/mcp-gmail-gas':
-        specifier: latest
+        specifier: 1.1.2
         version: 1.1.2
       '@kazuph/mcp-obsidian':
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       '@kazuph/mcp-pocket':
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3
       '@kazuph/mcp-screenshot':
         specifier: 1.0.4
         version: 1.0.4(encoding@0.1.13)
       '@keegancsmith/linear-issues-mcp-server':
-        specifier: latest
+        specifier: 0.0.1
         version: 0.0.1
       '@kevinwatt/mcp-server-searxng':
-        specifier: latest
+        specifier: 0.3.9
         version: 0.3.9(encoding@0.1.13)
       '@kevinwatt/mcp-webhook':
-        specifier: latest
+        specifier: 0.2.2
         version: 0.2.2
       '@kevinwatt/mysql-mcp':
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3
       '@kimtaeyoon83/mcp-server-youtube-transcript':
         specifier: 0.1.1
         version: 0.1.1
       '@kj455/mcp-kibela':
-        specifier: latest
+        specifier: 0.3.1
         version: 0.3.1
       '@kunihiros/patsnap-mcp':
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2
       '@kydycode/todoist-mcp-server-ext':
-        specifier: latest
+        specifier: 0.4.0
         version: 0.4.0(type-fest@4.41.0)
       '@llmindset/mcp-hfspace':
         specifier: 0.5.4
@@ -321,25 +321,25 @@ importers:
         specifier: 0.1.1
         version: 0.1.1
       '@makehq/mcp-server':
-        specifier: latest
+        specifier: 0.5.0
         version: 0.5.0
       '@makeplane/plane-mcp-server':
-        specifier: latest
+        specifier: 0.1.4
         version: 0.1.4(zod@3.25.67)
       '@makingchatbots/genesys-cloud-mcp-server':
-        specifier: latest
+        specifier: 0.0.13
         version: 0.0.13
       '@malove86/mcp-mysql-server':
-        specifier: latest
+        specifier: 0.2.4
         version: 0.2.4
       '@marketplaceadpros/amazon-ads-mcp-server':
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       '@masonator/coolify-mcp':
-        specifier: latest
+        specifier: 0.2.18
         version: 0.2.18
       '@mcp-devtools/jira':
-        specifier: latest
+        specifier: 0.2.6
         version: 0.2.6
       '@mcp-get-community/server-curl':
         specifier: 0.1.0
@@ -351,22 +351,22 @@ importers:
         specifier: 0.1.0
         version: 0.1.0
       '@mcptools/mcp-tavily':
-        specifier: latest
+        specifier: 1.0.0
         version: 1.0.0
       '@merill/lokka':
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0(encoding@0.1.13)
       '@metamcp/mcp-server-metamcp':
-        specifier: latest
+        specifier: 0.6.5
         version: 0.6.5
       '@mfukushim/map-traveler-mcp':
-        specifier: latest
+        specifier: 0.0.79
         version: 0.0.79(@cloudflare/workers-types@4.20250627.0)(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@opentelemetry/api@1.9.0)(@types/pg@8.15.4)(@types/react@19.1.8)(better-sqlite3@11.10.0)(bufferutil@4.0.9)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(mysql2@3.14.1)(pg@8.16.2)(react@18.3.1)(rxjs@7.8.2)(sqlite3@5.1.7)(utf-8-validate@5.0.10)
       '@missionsquad/mcp-github':
-        specifier: latest
+        specifier: 0.10.7
         version: 0.10.7
       '@missionsquad/mcp-helper-tools':
-        specifier: latest
+        specifier: 1.1.1
         version: 1.1.1
       '@modelcontextprotocol/sdk':
         specifier: ^1.12.0
@@ -414,175 +414,175 @@ importers:
         specifier: 2025.4.25
         version: 2025.4.25
       '@moralisweb3/api-mcp-server':
-        specifier: latest
+        specifier: 1.6.0
         version: 1.6.0
       '@mtane0412/perspective-mcp-server':
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2(encoding@0.1.13)
       '@myjungle/docu-mcp-server':
-        specifier: latest
+        specifier: 1.3.1
         version: 1.3.1(apache-arrow@19.0.1)(typescript@5.8.3)
       '@mzxrai/mcp-openai':
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@netlify/mcp':
-        specifier: latest
+        specifier: 1.9.12
         version: 1.9.12(encoding@0.1.13)(rollup@4.44.1)
       '@nextdrive/github-action-trigger-mcp':
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2
       '@nexus2520/bitbucket-mcp-server':
-        specifier: latest
+        specifier: 0.9.0
         version: 0.9.0
       '@nicholmikey/chrome-tools':
-        specifier: latest
+        specifier: 1.3.0
         version: 1.3.0(@types/node@22.15.33)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@niledatabase/nile-mcp-server':
         specifier: 1.4.0
         version: 1.4.0
       '@niyogi/render-mcp':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       '@noditlabs/nodit-mcp-server':
-        specifier: latest
+        specifier: 1.0.5
         version: 1.0.5
       '@noveum-ai/mcp-server':
-        specifier: latest
+        specifier: 1.0.4
         version: 1.0.4
       '@nullplatform/meta-mcp-proxy':
-        specifier: latest
+        specifier: 1.5.0
         version: 1.5.0
       '@nutrient-sdk/dws-mcp-server':
-        specifier: latest
+        specifier: 0.0.3
         version: 0.0.3
       '@octomind/octomind-mcp':
-        specifier: latest
+        specifier: 1.1.17
         version: 1.1.17
       '@osaas/mcp-server':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0(zod@3.25.67)
       '@paddle/paddle-mcp':
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2(@types/node@22.15.33)
       '@pangeacyber/mcp-server':
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2
       '@parassolanki/jira-mcp-server':
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0(typescript@5.8.3)
       '@paypal/mcp':
-        specifier: latest
+        specifier: 0.3.4
         version: 0.3.4(react@18.3.1)
       '@pinecone-database/mcp':
-        specifier: latest
+        specifier: 0.1.15
         version: 0.1.15
       '@pinkpixel/mindbridge':
-        specifier: latest
+        specifier: 1.2.0
         version: 1.2.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@pinkpixel/notification-mcp':
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2
       '@pinkpixel/taskflow-mcp':
-        specifier: latest
+        specifier: 1.2.2
         version: 1.2.2
       '@powerdrillai/powerdrill-mcp':
-        specifier: latest
+        specifier: 0.1.11
         version: 0.1.11
       '@prathamesh0901/zoom-mcp-server':
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       '@professional-wiki/mediawiki-mcp-server':
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       '@promptz/mcp':
-        specifier: latest
+        specifier: 2.0.0
         version: 2.0.0
       '@pubnub/mcp':
-        specifier: latest
+        specifier: 1.0.84
         version: 1.0.84(encoding@0.1.13)(react-native@0.80.0(@babel/core@7.27.4)(@types/react@19.1.8)(bufferutil@4.0.9)(react@18.3.1)(utf-8-validate@5.0.10))
       '@raygun.io/mcp-server-raygun':
         specifier: 0.1.0
         version: 0.1.0(zod@3.25.67)
       '@readwise/readwise-mcp':
-        specifier: latest
+        specifier: 0.0.4
         version: 0.0.4
       '@rebers/4o-mini-search-mcp':
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@recraft-ai/mcp-recraft-server':
-        specifier: latest
+        specifier: 1.2.1
         version: 1.2.1
       '@rijk/directus-mcp-server':
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       '@riza-io/riza-mcp':
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3(encoding@0.1.13)
       '@sanity/mcp-server':
-        specifier: latest
+        specifier: 0.11.5
         version: 0.11.5(@types/react@19.1.8)
       '@search-intent/mcp':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       '@shinzolabs/hubspot-mcp':
-        specifier: latest
+        specifier: 1.7.0
         version: 1.7.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@shortcut/mcp':
-        specifier: latest
+        specifier: 0.9.0
         version: 0.9.0(typescript@5.8.3)
       '@stabgan/openrouter-mcp-multimodal':
-        specifier: latest
+        specifier: 1.5.0
         version: 1.5.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@stakpak/mcp':
-        specifier: latest
+        specifier: 0.0.4
         version: 0.0.4
       '@steipete/macos-automator-mcp':
-        specifier: latest
+        specifier: 0.4.1
         version: 0.4.1
       '@steipete/peekaboo-mcp':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@strowk/mcp-k8s':
         specifier: 0.3.6
         version: 0.3.6
       '@suekou/mcp-notion-server':
-        specifier: latest
+        specifier: 1.2.4
         version: 1.2.4(@types/debug@4.1.12)(@types/node@22.15.33)(encoding@0.1.13)(jiti@2.4.2)(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0)
       '@superfaceai/mcp':
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1(@google/genai@0.6.1(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67))
       '@suthio/brave-deep-research-mcp':
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@swonixs/weatherapi-mcp':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       '@taazkareem/clickup-mcp-server':
-        specifier: latest
+        specifier: 0.8.2
         version: 0.8.2
       '@tacticlaunch/mcp-linear':
-        specifier: latest
+        specifier: 1.0.9
         version: 1.0.9(encoding@0.1.13)
       '@takumi0706/google-calendar-mcp':
-        specifier: latest
+        specifier: 1.0.6
         version: 1.0.6(encoding@0.1.13)
       '@testomatio/mcp':
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       '@tfedorko/licensespring-mcp-server':
-        specifier: latest
+        specifier: 1.1.6
         version: 1.1.6
       '@thomaswawra/server-spotify':
-        specifier: latest
+        specifier: 0.4.12
         version: 0.4.12
       '@tigrisdata/tigris-mcp-server':
-        specifier: latest
+        specifier: 1.12.0
         version: 1.12.0(@types/node@22.15.33)
       '@tongxiao/common-search-mcp-server':
-        specifier: latest
+        specifier: 0.0.9
         version: 0.0.9
       '@tonlab/dify-mcp-server':
-        specifier: latest
+        specifier: 1.1.1
         version: 1.1.1
       '@toolsdk.ai/mcp-mercury':
         specifier: 1.0.1
@@ -591,391 +591,391 @@ importers:
         specifier: 0.1.0
         version: 0.1.0(encoding@0.1.13)
       '@translated/lara-mcp':
-        specifier: latest
+        specifier: 0.0.11
         version: 0.0.11
       '@unctad-ai/eregulations-mcp-server':
-        specifier: latest
+        specifier: 0.4.9
         version: 0.4.9
       '@unifuncs/ufn-mcp-server':
-        specifier: latest
+        specifier: 0.0.6
         version: 0.0.6
       '@usegrant/mcp':
-        specifier: latest
+        specifier: 1.3.0
         version: 1.3.0
       '@variflight-ai/variflight-mcp':
-        specifier: latest
+        specifier: 0.0.3
         version: 0.0.3
       '@wangmhaha/apifox-mcp-server':
-        specifier: latest
+        specifier: 1.6.7
         version: 1.6.7(jiti@2.4.2)(typescript@5.8.3)
       '@wenbopan/things-mcp':
-        specifier: latest
+        specifier: 1.0.0
         version: 1.0.0
       '@winor30/mcp-server-datadog':
-        specifier: latest
+        specifier: 1.6.0
         version: 1.6.0(encoding@0.1.13)
       '@xeroapi/xero-mcp-server':
-        specifier: latest
+        specifier: 0.0.12
         version: 0.0.12
       '@xexr/mcp-libsql':
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@yepcode/mcp-server':
-        specifier: latest
+        specifier: 0.8.0
         version: 0.8.0
       '@yiyang.1i/sms-mcp-server':
-        specifier: latest
+        specifier: 2025.2.24
         version: 2025.2.24
       '@yoda.digital/gitlab-mcp-server':
-        specifier: latest
+        specifier: 0.2.10
         version: 0.2.10
       '@zbddev/payments-sdk-mcp':
-        specifier: latest
+        specifier: 1.7.0
         version: 1.7.0
       '@zhiweixu/excel-mcp-server':
-        specifier: latest
+        specifier: 0.0.5
         version: 0.0.5
       advocu-mcp-server:
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3
       agent-twitter-client-mcp:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       agentql-mcp:
-        specifier: latest
+        specifier: 1.0.0
         version: 1.0.0
       agentrpc:
-        specifier: latest
+        specifier: 0.0.16
         version: 0.0.16(@types/node@22.15.33)(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       ai-expert-workflow-mcp:
-        specifier: latest
+        specifier: 2.3.2
         version: 2.3.2(encoding@0.1.13)
       airtable-mcp-server:
         specifier: 1.4.1
         version: 1.4.1
       akave-mcp-js:
-        specifier: latest
+        specifier: 1.0.9
         version: 1.0.9
       algorand-mcp:
-        specifier: latest
+        specifier: 2.7.7
         version: 2.7.7
       alibabacloud-dataworks-mcp-server:
-        specifier: latest
+        specifier: 1.0.44
         version: 1.0.44(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       aliyun-mcp-server:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       anilist-mcp:
         specifier: 1.2.4
         version: 1.2.4(encoding@0.1.13)
       apisix-mcp:
-        specifier: latest
+        specifier: 0.0.7
         version: 0.0.7
       argocd-mcp:
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0
       attio-mcp-server:
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       aws-s3-mcp:
-        specifier: latest
+        specifier: 0.4.0
         version: 0.4.0(zod@3.25.67)
       base-mcp:
-        specifier: latest
+        specifier: 1.0.13
         version: 1.0.13(@azure/identity@4.10.1)(@tanstack/query-core@5.81.2)(@types/node@22.15.33)(@types/react@19.1.8)(@wagmi/core@2.17.3(@tanstack/query-core@5.81.2)(@types/react@19.1.8)(react@18.3.1)(typescript@5.8.3)(use-sync-external-store@1.4.0(react@18.3.1))(viem@2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)))(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)
       base-network-mcp-server:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(react@18.3.1)(socks@2.8.5)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       better-fetch-mcp:
-        specifier: latest
+        specifier: 1.0.0
         version: 1.0.0
       better-qdrant-mcp-server:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1(3dc34d1d69cf43de66c4eef40c5d4b0b)
       bitrefill-mcp-server:
-        specifier: latest
+        specifier: 0.3.0
         version: 0.3.0
       box-mcp-server:
-        specifier: latest
+        specifier: 0.3.1
         version: 0.3.1(encoding@0.1.13)
       brave-search-mcp:
         specifier: 0.7.5
         version: 0.7.5(encoding@0.1.13)
       browserloop:
-        specifier: latest
+        specifier: 1.1.1
         version: 1.1.1
       clickup-mcp-server:
-        specifier: latest
+        specifier: 1.12.0
         version: 1.12.0
       clinicaltrialsgov-mcp-server:
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       cloudinary-mcp-server:
-        specifier: latest
+        specifier: 0.4.0
         version: 0.4.0
       coda-mcp:
-        specifier: latest
+        specifier: 1.4.2
         version: 1.4.2(@hey-api/openapi-ts@0.77.0(typescript@5.8.3))
       coolify-mcp-server:
-        specifier: latest
+        specifier: 0.1.11
         version: 0.1.11
       dart-mcp-server:
-        specifier: latest
+        specifier: 0.1.20
         version: 0.1.20
       deepl-mcp-server:
-        specifier: latest
+        specifier: 0.1.3-beta.0
         version: 0.1.3-beta.0
       deepseek-thinker-mcp:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       deepsource-mcp-server:
-        specifier: latest
+        specifier: 1.2.1
         version: 1.2.1
       discogs-mcp-server:
-        specifier: latest
+        specifier: 0.4.1
         version: 0.4.1(effect@3.16.10)
       docfork:
-        specifier: latest
+        specifier: v0.5.3
         version: 0.5.3
       dodopayments-mcp:
-        specifier: latest
+        specifier: 1.34.2
         version: 1.34.2(encoding@0.1.13)
       dubco-mcp-server:
-        specifier: latest
+        specifier: 1.0.5
         version: 1.0.5
       dynamo-readonly-mcp:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       esa-mcp-server:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       exa-mcp-server:
         specifier: 0.3.10
         version: 0.3.10
       feishu-mcp:
-        specifier: latest
+        specifier: 0.0.12
         version: 0.0.12
       feishu-project-mcp:
-        specifier: latest
+        specifier: 1.1.1
         version: 1.1.1
       fetchserp-mcp-server:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       feuse-mcp:
-        specifier: latest
+        specifier: 0.1.6
         version: 0.1.6(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10)
       figma-mcp:
-        specifier: latest
+        specifier: 0.1.4
         version: 0.1.4
       figma-mcp-pro:
-        specifier: latest
+        specifier: 3.49.0
         version: 3.49.0
       findata-mcp-server:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0(encoding@0.1.13)
       firecrawl-mcp:
-        specifier: latest
+        specifier: 1.11.0
         version: 1.11.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       flomo-mcp:
-        specifier: latest
+        specifier: 0.0.1
         version: 0.0.1
       fred-mcp-server:
-        specifier: latest
+        specifier: 0.4.1
         version: 0.4.1
       gistpad-mcp:
-        specifier: latest
+        specifier: 0.4.7
         version: 0.4.7
       gitee-mcp-server:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       github-repo-mcp:
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3
       github-repos-manager-mcp:
-        specifier: latest
+        specifier: 1.2.2
         version: 1.2.2
       graphlit-mcp-server:
         specifier: 1.0.20250625001
         version: 1.0.20250625001(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       grok-mcp:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       grok2-image-mcp-server:
-        specifier: latest
+        specifier: 0.1.5
         version: 0.1.5
       hackmd-mcp:
         specifier: 1.2.8
         version: 1.2.8
       hermes-search-mcp:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1(effect@3.16.10)
       heybeauty-mcp:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       holaspirit-mcp-server:
-        specifier: latest
+        specifier: 0.3.0
         version: 0.3.0
       hubble-mcp-tool:
-        specifier: latest
+        specifier: 0.1.19
         version: 0.1.19(@types/node@22.15.33)(typescript@5.8.3)
       hyperbrowser-mcp:
         specifier: 1.0.25
         version: 1.0.25(encoding@0.1.13)
       instagram-dm-mcp:
-        specifier: latest
+        specifier: 1.3.5
         version: 1.3.5
       instagram-engagement-mcp:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       jfk-mcp:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       jina-ai-mcp-server:
-        specifier: latest
+        specifier: 1.0.4
         version: 1.0.4
       jira-mcp:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       jotai-mcp-server:
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2
       keycloak-mcp:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       keycloak-model-context-protocol:
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       linear-mcp-server:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0(encoding@0.1.13)
       linkd-mcp:
-        specifier: latest
+        specifier: 1.0.25
         version: 1.0.25
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
       lumbretravel-mcp:
-        specifier: latest
+        specifier: 0.1.14
         version: 0.1.14
       lunchmoney-mcp:
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       manifold-mcp-server:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       mcp-3d-printer-server:
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       mcp-apifox:
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3
       mcp-clickup:
-        specifier: latest
+        specifier: 1.0.4
         version: 1.0.4(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.8.0)
       mcp-communicator-telegram:
-        specifier: latest
+        specifier: 0.2.1
         version: 0.2.1(request@2.88.2)
       mcp-confluence:
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       mcp-crypto-price:
-        specifier: latest
+        specifier: 1.2.0
         version: 1.2.0
       mcp-data-extractor:
-        specifier: latest
+        specifier: 0.1.7
         version: 0.1.7
       mcp-dbs:
-        specifier: latest
+        specifier: 1.0.4
         version: 1.0.4(@aws-sdk/credential-providers@3.835.0)(@babel/core@7.27.4)(@jest/transform@30.0.2)(@jest/types@30.0.1)(babel-jest@30.0.2(@babel/core@7.27.4))(esbuild@0.25.5)(gcp-metadata@5.3.0(encoding@0.1.13))(jest-util@30.0.2)(jest@30.0.3(@types/node@22.15.33)(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)(typescript@5.8.3)
       mcp-developer-name:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       mcp-duckduckgo-search:
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       mcp-fathom-analytics:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       mcp-git-commit-aider:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       mcp-google-calendar:
-        specifier: latest
+        specifier: 0.0.5
         version: 0.0.5(encoding@0.1.13)(typescript@5.8.3)
       mcp-ipfs:
-        specifier: latest
+        specifier: 0.1.9
         version: 0.1.9
       mcp-jinaai-grounding:
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       mcp-jinaai-reader:
-        specifier: latest
+        specifier: 0.0.4
         version: 0.0.4
       mcp-jinaai-search:
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       mcp-linear:
-        specifier: latest
+        specifier: 0.1.8
         version: 0.1.8(encoding@0.1.13)
       mcp-llm:
-        specifier: latest
+        specifier: 1.0.6
         version: 1.0.6(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.22.4)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       mcp-maigret:
-        specifier: latest
+        specifier: 1.0.12
         version: 1.0.12
       mcp-mailtrap:
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       mcp-memory-libsql:
-        specifier: latest
+        specifier: 0.0.14
         version: 0.0.14(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       mcp-mongo-server:
         specifier: 1.3.0
         version: 1.3.0(@aws-sdk/credential-providers@3.835.0)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       mcp-mongodb-atlas:
-        specifier: latest
+        specifier: 0.1.10
         version: 0.1.10
       mcp-neovim-server:
-        specifier: latest
+        specifier: 0.5.2
         version: 0.5.2(@types/node@22.15.33)(typescript@5.8.3)
       mcp-omnisearch:
-        specifier: latest
+        specifier: 0.0.5
         version: 0.0.5
       mcp-openapi-schema-explorer:
         specifier: 1.2.1
         version: 1.2.1(encoding@0.1.13)
       mcp-openweathermap:
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3(effect@3.16.10)
       mcp-package-version:
-        specifier: latest
+        specifier: 0.1.19
         version: 0.1.19
       mcp-perplexity-search:
-        specifier: latest
+        specifier: 0.0.5
         version: 0.0.5
       mcp-postgres-server:
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3
       mcp-private-github-search:
-        specifier: latest
+        specifier: 0.2.1
         version: 0.2.1(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       mcp-server-axiom:
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       mcp-server-bluesky:
-        specifier: latest
+        specifier: 0.4.1
         version: 0.4.1
       mcp-server-commands:
         specifier: 0.5.0
         version: 0.5.0
       mcp-server-dumplingai:
-        specifier: latest
+        specifier: 1.1.3
         version: 1.1.3
       mcp-server-ens:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1(bufferutil@4.0.9)(encoding@0.1.13)(siwe@3.0.0(ethers@6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(typescript@5.8.3)(utf-8-validate@5.0.10)
       mcp-server-esa:
-        specifier: latest
+        specifier: 1.0.8
         version: 1.0.8(encoding@0.1.13)
       mcp-server-flomo:
         specifier: 0.0.11
@@ -984,259 +984,259 @@ importers:
         specifier: 1.0.3
         version: 1.0.3
       mcp-server-gsc:
-        specifier: latest
+        specifier: 0.2.0
         version: 0.2.0(encoding@0.1.13)
       mcp-server-kubernetes:
         specifier: 2.4.3
         version: 2.4.3(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
       mcp-server-linearapp:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0(encoding@0.1.13)
       mcp-server-novacv:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       mcp-server-siri-shortcuts:
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       mcp-server-sqlite-npx:
-        specifier: latest
+        specifier: 0.3.0
         version: 0.3.0(zod@3.25.67)
       mcp-server-ssh-rails-runner:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       mcp-server-stability-ai:
         specifier: 0.2.0
         version: 0.2.0(encoding@0.1.13)
       mcp-server-supos:
-        specifier: latest
+        specifier: 0.7.2
         version: 0.7.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       mcp-shell:
         specifier: 0.1.3
         version: 0.1.3
       mcp-solarwinds:
-        specifier: latest
+        specifier: 0.1.7
         version: 0.1.7
       mcp-summarization-functions:
-        specifier: latest
+        specifier: 0.1.5
         version: 0.1.5(encoding@0.1.13)
       mcp-sunsama:
-        specifier: latest
+        specifier: 0.11.0
         version: 0.11.0(effect@3.16.10)
       mcp-tavily-search:
-        specifier: latest
+        specifier: 0.0.6
         version: 0.0.6
       mcp-turso:
-        specifier: latest
+        specifier: 0.2.1
         version: 0.2.1(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10)
       mcp-turso-cloud:
-        specifier: latest
+        specifier: 0.0.3
         version: 0.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       mcprouter:
-        specifier: latest
+        specifier: 0.1.7
         version: 0.1.7
       meme-mcp:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       mercadolibre-mcp:
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3
       minimax-mcp-js:
-        specifier: latest
+        specifier: 0.0.11
         version: 0.0.11
       moneybird-mcp-server:
-        specifier: latest
+        specifier: 0.6.5
         version: 0.6.5
       mongodb-mcp-server:
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2(@aws-sdk/credential-providers@3.835.0)(@mongodb-js/oidc-plugin@1.1.8)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       mysql-mcp-server:
-        specifier: latest
+        specifier: 0.1.3
         version: 0.1.3
       mysql-query-mcp-server:
-        specifier: latest
+        specifier: 1.2.0
         version: 1.2.0
       nasa-mcp-server:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       news-mcp-server:
-        specifier: latest
+        specifier: 0.0.8
         version: 0.0.8
       newsnow-mcp-server:
-        specifier: latest
+        specifier: 0.0.8
         version: 0.0.8(effect@3.16.10)
       nexus-mcp:
-        specifier: latest
+        specifier: 1.0.7
         version: 1.0.7
       notion-mcp-server:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1(encoding@0.1.13)
       ntfy-me-mcp:
-        specifier: latest
+        specifier: 1.3.4
         version: 1.3.4
       obsidian-mcp-server:
-        specifier: latest
+        specifier: 2.0.7
         version: 2.0.7(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       octagon-deep-research-mcp:
-        specifier: latest
+        specifier: 1.0.18
         version: 1.0.18(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       octagon-mcp:
-        specifier: latest
+        specifier: 1.0.21
         version: 1.0.21(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       one-search-mcp:
-        specifier: latest
+        specifier: 1.0.11
         version: 1.0.11(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       onyx-mcp-server:
-        specifier: latest
+        specifier: 1.2.2
         version: 1.2.2
       opengov-mcp-server:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1
       orion-vision-mcp:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2(effect@3.16.10)
       outlook-meetings-scheduler:
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2(@azure/identity@4.10.1)
       pickapicon-mcp:
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3
       pinata-mcp:
-        specifier: latest
+        specifier: 0.1.1
         version: 0.1.1(typescript@5.8.3)
       polardbx-mcp:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       polygon-mcp:
-        specifier: latest
+        specifier: 1.0.0
         version: 1.0.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       productboard-mcp:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       promptopia-mcp:
-        specifier: latest
+        specifier: 1.1.0
         version: 1.1.0
       puremd-mcp:
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3
       qasphere-mcp:
-        specifier: latest
+        specifier: 0.2.1
         version: 0.2.1
       replicate-flux-mcp:
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2
       resend-mcp:
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       scrapeless-mcp-server:
-        specifier: latest
+        specifier: 0.3.0
         version: 0.3.0
       scraperis-mcp:
-        specifier: latest
+        specifier: 0.1.22
         version: 0.1.22
       search-stock-news-mcp:
-        specifier: latest
+        specifier: 1.0.12
         version: 1.0.12(effect@3.16.10)
       search1api-mcp:
-        specifier: latest
+        specifier: 0.1.8
         version: 0.1.8
       sentry-issues-mcp:
-        specifier: latest
+        specifier: 1.0.5
         version: 1.0.5
       serper-search-scrape-mcp-server:
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2(encoding@0.1.13)
       server-wp-mcp:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1
       shopify-mcp-server:
-        specifier: latest
+        specifier: 1.0.1
         version: 1.0.1(graphql@16.11.0)
       sourcesyncai-mcp:
-        specifier: latest
+        specifier: 1.0.11
         version: 1.0.11
       speech-mcp-server:
-        specifier: latest
+        specifier: 1.1.2
         version: 1.1.2
       square-mcp-server:
-        specifier: latest
+        specifier: 0.1.2
         version: 0.1.2
       strapi-mcp:
-        specifier: latest
+        specifier: 0.1.8
         version: 0.1.8
       strateegia-mcp-server:
-        specifier: latest
+        specifier: 0.0.2
         version: 0.0.2
       supabase-mcp:
-        specifier: latest
+        specifier: 1.5.0
         version: 1.5.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       systemprompt-mcp-notion:
-        specifier: latest
+        specifier: 1.0.7
         version: 1.0.7(encoding@0.1.13)
       tana-mcp:
-        specifier: latest
+        specifier: 1.2.0
         version: 1.2.0
       task-master-ai:
-        specifier: latest
+        specifier: 0.18.0
         version: 0.18.0(@types/node@22.15.33)(effect@3.16.10)(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       taskqueue-mcp:
-        specifier: latest
+        specifier: 1.4.1
         version: 1.4.1(react@18.3.1)
       tavily-mcp:
         specifier: 0.2.4
         version: 0.2.4
       teamretro-mcp-server:
-        specifier: latest
+        specifier: 0.10.0
         version: 0.10.0
       tesouro-direto-mcp:
-        specifier: latest
+        specifier: 0.2.3
         version: 0.2.3
       tianji-mcp-server:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       todoist-mcp:
-        specifier: latest
+        specifier: 1.2.3
         version: 1.2.3
       todoist-mcp-server:
-        specifier: latest
+        specifier: 1.0.7
         version: 1.0.7(encoding@0.1.13)
       together-mcp:
-        specifier: latest
+        specifier: 0.1.7
         version: 0.1.7
       tts-mcp:
-        specifier: latest
+        specifier: 1.1.1
         version: 1.1.1(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       typescript-mcp:
-        specifier: latest
+        specifier: 0.0.14
         version: 0.0.14(typescript@5.8.3)
       unichat-ts-mcp-server:
-        specifier: latest
+        specifier: 0.2.8
         version: 0.2.8(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       volume-wall-detector-mcp:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2(@aws-sdk/credential-providers@3.835.0)(effect@3.16.10)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       voyp-mcp:
-        specifier: latest
+        specifier: 0.1.0
         version: 0.1.0
       webflow-mcp-server:
-        specifier: latest
+        specifier: 0.6.0
         version: 0.6.0(@cloudflare/workers-types@4.20250627.0)(encoding@0.1.13)
       webscraping-ai-mcp:
-        specifier: latest
+        specifier: 1.0.2
         version: 1.0.2
       x-com-mcp-server:
-        specifier: latest
+        specifier: 1.0.3
         version: 1.0.3
       xcodebuildmcp:
-        specifier: latest
+        specifier: 1.10.4
         version: 1.10.4(encoding@0.1.13)
       xcodemcp:
-        specifier: latest
+        specifier: 1.5.3
         version: 1.5.3
       xero-mcp:
-        specifier: latest
+        specifier: 1.3.0
         version: 1.3.0
       youtube-data-mcp-server:
-        specifier: latest
+        specifier: 1.0.16
         version: 1.0.16(encoding@0.1.13)
       zod:
         specifier: ^3.23.30
@@ -20793,7 +20793,7 @@ snapshots:
 
   4oimage-mcp@1.0.5:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       express: 4.21.2
       form-data: 4.0.3
       node-fetch: 3.3.2
@@ -20808,8 +20808,8 @@ snapshots:
 
   '@abhaybabbar/retellai-mcp-server@1.0.2(encoding@0.1.13)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       retell-sdk: 4.37.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
@@ -20860,7 +20860,7 @@ snapshots:
 
   '@ahdev/dokploy-mcp@1.3.4':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       express: 5.1.0
       zod: 3.25.67
@@ -21434,7 +21434,7 @@ snapshots:
 
   '@antv/mcp-server-chart@0.7.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
     transitivePeerDependencies:
@@ -22935,7 +22935,7 @@ snapshots:
 
   '@baruchiro/paperless-mcp@0.0.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       express: 5.1.0
       form-data: 4.0.3
@@ -22964,9 +22964,9 @@ snapshots:
 
   '@binalyze/air-mcp@12.2.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -23028,9 +23028,9 @@ snapshots:
     dependencies:
       '@bnb-chain/greenfield-js-sdk': 2.2.2(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@bnb-chain/reed-solomon': 1.1.4
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       mime: 4.0.7
       reflect-metadata: 0.2.2
@@ -23092,12 +23092,12 @@ snapshots:
 
   '@browserstack/mcp-server@1.1.8(bufferutil@4.0.9)(puppeteer-core@24.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/form-data': 2.5.2
       axios: 1.10.0(debug@4.4.1)
       browserstack-local: 1.5.7
       csv-parse: 5.6.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       form-data: 4.0.3
       pino: 9.7.0
       pino-pretty: 13.0.0
@@ -23127,7 +23127,7 @@ snapshots:
 
   '@bujaayjaay/mcp-coincap-jj@1.1.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -23149,7 +23149,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.1
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
     transitivePeerDependencies:
@@ -23159,7 +23159,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.0.3
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
     transitivePeerDependencies:
@@ -23168,7 +23168,7 @@ snapshots:
   '@cablate/mcp-google-calendar@0.0.3(encoding@0.1.13)':
     dependencies:
       '@google-cloud/local-auth': 2.1.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       esbuild: 0.25.5
       googleapis: 105.0.0(encoding@0.1.13)
       shx: 0.3.4
@@ -23180,8 +23180,8 @@ snapshots:
   '@cablate/mcp-google-map@0.0.4':
     dependencies:
       '@googlemaps/google-maps-services-js': 3.4.1
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       esbuild: 0.25.5
       shx: 0.3.4
     transitivePeerDependencies:
@@ -23234,7 +23234,7 @@ snapshots:
 
   '@chatmcp/sdk@1.0.6':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       content-type: 1.0.5
       express: 5.1.0
       raw-body: 3.0.0
@@ -23296,7 +23296,7 @@ snapshots:
 
   '@cloudwerxlab/gpt-image-1-mcp@3.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@smithery/sdk': 1.5.2(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       form-data: 4.0.3
       node-fetch: 3.3.2
@@ -23312,7 +23312,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       nanoid: 5.1.5
       zod: 3.25.67
     transitivePeerDependencies:
@@ -23322,7 +23322,7 @@ snapshots:
   '@coinbase/agentkit-model-context-protocol@0.2.0(@coinbase/agentkit@0.6.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10))':
     dependencies:
       '@coinbase/agentkit': 0.6.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
     transitivePeerDependencies:
@@ -23366,7 +23366,7 @@ snapshots:
       bip32: 4.0.0
       bip39: 3.1.0
       decimal.js: 10.5.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       ed2curve: 0.3.0
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       jose: 5.10.0
@@ -23389,7 +23389,7 @@ snapshots:
       bip32: 4.0.0
       bip39: 3.1.0
       decimal.js: 10.5.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       ed2curve: 0.3.0
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       jose: 5.10.0
@@ -23471,7 +23471,7 @@ snapshots:
 
   '@coinstats/coinstats-mcp@1.0.6':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -23593,11 +23593,11 @@ snapshots:
 
   '@createveai/nexus-mcp-server@1.0.0-preview':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       chalk: 5.4.1
       commander: 11.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -23605,7 +23605,7 @@ snapshots:
 
   '@cristip73/mcp-server-asana@2.0.0(@babel/core@7.27.4)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       asana: 3.1.0(@babel/core@7.27.4)
     transitivePeerDependencies:
       - '@babel/core'
@@ -23637,7 +23637,7 @@ snapshots:
 
   '@currents/mcp@1.0.3':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       commander: 12.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -23646,7 +23646,7 @@ snapshots:
   '@cyanheads/pubmed-mcp-server@1.2.3(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@hono/node-server': 1.14.4(hono@4.8.3)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/jsonwebtoken': 9.0.10
       '@types/node': 24.0.4
       '@types/sanitize-html': 2.16.0
@@ -23655,7 +23655,7 @@ snapshots:
       chart.js: 4.5.0
       chartjs-node-canvas: 5.0.0(chart.js@4.5.0)
       chrono-node: 2.8.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fast-xml-parser: 5.2.5
       hono: 4.8.3
       jose: 6.0.11
@@ -23754,8 +23754,8 @@ snapshots:
   '@datastax/astra-db-mcp@1.2.0':
     dependencies:
       '@datastax/astra-db-ts': 1.5.0
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       jsonschema: 1.5.0
     transitivePeerDependencies:
       - supports-color
@@ -23769,7 +23769,7 @@ snapshots:
 
   '@debugg-ai/debugg-ai-mcp@1.0.15':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       mkdirp: 3.0.1
       ngrok: 5.0.0-beta.2
@@ -23790,10 +23790,10 @@ snapshots:
 
   '@delorenj/mcp-qdrant-memory@0.2.4(encoding@0.1.13)(typescript@5.8.3)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@qdrant/js-client-rest': 1.14.1(typescript@5.8.3)
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
     transitivePeerDependencies:
       - debug
@@ -23808,7 +23808,7 @@ snapshots:
       '@modelcontextprotocol/sdk': 0.6.0
       '@playwright/test': 1.53.1
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - debug
 
@@ -23819,15 +23819,15 @@ snapshots:
 
   '@deventerprisesoftware/scrapi-mcp@0.0.3':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
 
   '@digitalocean/mcp@0.0.13':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -23872,7 +23872,7 @@ snapshots:
   '@dotenvx/dotenvx@1.45.1':
     dependencies:
       commander: 11.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       eciesjs: 0.4.15
       execa: 5.1.1
       fdir: 6.4.6(picomatch@4.0.2)
@@ -23888,8 +23888,8 @@ snapshots:
       '@dynatrace-sdk/client-platform-management-service': 1.6.7
       '@dynatrace-sdk/client-query': 1.20.2
       '@dynatrace-sdk/shared-errors': 1.0.0
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       dt-app: 0.140.1(bufferutil@4.0.9)(jest-util@30.0.2)(typescript@5.8.3)(utf-8-validate@5.0.10)
       zod-to-json-schema: 3.24.6(zod@3.25.67)
     transitivePeerDependencies:
@@ -24425,7 +24425,7 @@ snapshots:
 
   '@ethersproject/strings@5.7.0':
     dependencies:
-      '@ethersproject/bytes': 5.7.0
+      '@ethersproject/bytes': 5.8.0
       '@ethersproject/constants': 5.8.0
       '@ethersproject/logger': 5.8.0
 
@@ -24457,7 +24457,7 @@ snapshots:
   '@f4ww4z/mcp-mysql-server@0.1.0':
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       mysql2: 3.14.1
 
   '@faker-js/faker@9.8.0': {}
@@ -24512,8 +24512,8 @@ snapshots:
 
   '@feedmob/jampp-reporting@0.1.3(encoding@0.1.13)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       node-fetch: 2.7.0(encoding@0.1.13)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -24522,9 +24522,9 @@ snapshots:
 
   '@feedmob/kayzen-reporting@0.0.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -24532,10 +24532,10 @@ snapshots:
 
   '@feedmob/singular-reporting@0.0.3':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/node': 20.19.1
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -24544,12 +24544,12 @@ snapshots:
   '@felixallistar/coolify-mcp@1.0.4(@hey-api/openapi-ts@0.77.0(typescript@5.8.3))(@types/node@22.15.33)(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(yaml@2.8.0)':
     dependencies:
       '@hey-api/client-fetch': 0.11.0(@hey-api/openapi-ts@0.77.0(typescript@5.8.3))
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/inquirer': 9.0.8
       axios: 1.10.0(debug@4.4.1)
       chalk: 5.4.1
       commander: 14.0.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       inquirer: 12.6.3(@types/node@22.15.33)
       ts-node: 10.9.2(@types/node@22.15.33)(typescript@5.8.3)
       tsup: 8.5.0(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.8.0)
@@ -24571,8 +24571,8 @@ snapshots:
 
   '@felores/placid-mcp-server@1.7.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - supports-color
 
@@ -24647,9 +24647,9 @@ snapshots:
 
   '@gannonh/firebase-mcp@1.4.9(encoding@0.1.13)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 5.1.0
       firebase-admin: 13.4.0(encoding@0.1.13)
     transitivePeerDependencies:
@@ -24672,9 +24672,9 @@ snapshots:
     dependencies:
       '@getalby/lightning-tools': 5.2.0
       '@getalby/sdk': 5.1.0(typescript@5.8.3)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/node': 20.19.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       typescript: 5.8.3
       websocket-polyfill: 0.0.3
     transitivePeerDependencies:
@@ -24685,9 +24685,9 @@ snapshots:
   '@getalby/nwc-mcp-server@1.1.0':
     dependencies:
       '@getalby/sdk': 4.1.1(typescript@5.8.3)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/node': 20.19.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       typescript: 5.8.3
       websocket-polyfill: 0.0.3
     transitivePeerDependencies:
@@ -24717,8 +24717,8 @@ snapshots:
   '@gleanwork/mcp-server@0.7.1(@tanstack/react-query@5.81.2(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@gleanwork/api-client': 0.4.4(@tanstack/react-query@5.81.2(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.67)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       meow: 13.2.0
       open: 10.1.2
       tldts: 7.0.9
@@ -24732,9 +24732,9 @@ snapshots:
 
   '@glifxyz/mymcpspace-mcp-server@1.0.4':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -25241,7 +25241,7 @@ snapshots:
       '@whatwg-node/fetch': 0.10.8
       chalk: 4.1.2
       debug: 4.4.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       graphql: 16.11.0
       graphql-request: 6.1.0(encoding@0.1.13)(graphql@16.11.0)
       http-proxy-agent: 7.0.2
@@ -25354,7 +25354,7 @@ snapshots:
 
   '@growthbook/mcp@0.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -25460,7 +25460,7 @@ snapshots:
   '@horizondatawave/mcp@0.1.5':
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
 
   '@hpke/chacha20poly1305@1.6.2':
@@ -25476,8 +25476,8 @@ snapshots:
 
   '@hubspot/mcp-server@0.4.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -25502,7 +25502,7 @@ snapshots:
 
   '@humansean/mcp-bocha@1.0.1(effect@3.16.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       fastmcp: 1.27.7(effect@3.16.10)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -25530,7 +25530,7 @@ snapshots:
 
   '@iachilles/memento@0.4.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@xenova/transformers': 2.17.2
       sqlite: 5.1.1
       sqlite-vec: 0.1.7-alpha.2
@@ -25741,7 +25741,7 @@ snapshots:
 
   '@inkdropapp/mcp-server@1.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       ajv: 8.17.1
       inkdrop-model: 2.8.0
       zod: 3.25.67
@@ -25931,7 +25931,7 @@ snapshots:
       '@modelcontextprotocol/sdk': 1.11.1
       contentful-management: 11.54.0(debug@4.4.1)
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -25941,7 +25941,7 @@ snapshots:
 
   '@jayarrowz/mcp-figma@0.6.9':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       axios-retry: 4.5.0(axios@1.10.0)
       zod: 3.25.67
@@ -26380,7 +26380,7 @@ snapshots:
 
   '@jinzcdev/leetcode-mcp-server@1.2.0(@types/node@22.15.33)(encoding@0.1.13)(typescript@5.8.3)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       leetcode-query: 2.0.0(encoding@0.1.13)
       minimist: 1.2.8
       pino: 9.7.0
@@ -26447,7 +26447,7 @@ snapshots:
 
   '@jsonresume/mcp@3.0.3(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       express: 5.1.0
       octokit: 3.2.2
@@ -26479,8 +26479,8 @@ snapshots:
 
   '@kailashg101/mcp-figma-to-code@1.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       fs-extra: 11.3.0
       lodash: 4.17.21
       node-fetch: 3.3.2
@@ -26537,14 +26537,14 @@ snapshots:
 
   '@keegancsmith/linear-issues-mcp-server@0.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
 
   '@kevinwatt/mcp-server-searxng@0.3.9(encoding@0.1.13)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/node-fetch': 2.6.12
       node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
@@ -26553,7 +26553,7 @@ snapshots:
 
   '@kevinwatt/mcp-webhook@0.2.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
     transitivePeerDependencies:
       - debug
@@ -26561,7 +26561,7 @@ snapshots:
 
   '@kevinwatt/mysql-mcp@0.1.3':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       mysql: 2.18.1
     transitivePeerDependencies:
       - supports-color
@@ -26589,7 +26589,7 @@ snapshots:
   '@kj455/mcp-kibela@0.3.1':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.11.0)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       graphql: 16.11.0
       graphql-tag: 2.12.6(graphql@16.11.0)
       zod: 3.25.67
@@ -26633,7 +26633,7 @@ snapshots:
 
   '@kunihiros/patsnap-mcp@0.1.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
     transitivePeerDependencies:
       - debug
@@ -27033,13 +27033,13 @@ snapshots:
 
   '@makehq/mcp-server@0.5.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
     transitivePeerDependencies:
       - supports-color
 
   '@makeplane/plane-mcp-server@0.1.4(zod@3.25.67)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@scarf/scarf': 1.4.0
       axios: 1.10.0(debug@4.4.1)
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -27050,7 +27050,7 @@ snapshots:
 
   '@makingchatbots/genesys-cloud-mcp-server@0.0.13':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       date-fns: 4.1.0
       purecloud-platform-client-v2: 224.0.0
       table: 6.9.0
@@ -27062,7 +27062,7 @@ snapshots:
   '@malove86/mcp-mysql-server@0.2.4':
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       mysql2: 3.14.1
 
   '@mapbox/node-pre-gyp@2.0.0(encoding@0.1.13)':
@@ -27080,14 +27080,14 @@ snapshots:
 
   '@marketplaceadpros/amazon-ads-mcp-server@0.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - supports-color
 
   '@masonator/coolify-mcp@0.2.18':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -27133,7 +27133,7 @@ snapshots:
 
   '@mcptools/mcp-tavily@1.0.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@tavily/core': 0.3.7
       '@types/node': 22.15.33
       typescript: 5.8.3
@@ -27155,7 +27155,7 @@ snapshots:
     dependencies:
       '@azure/identity': 4.10.1
       '@microsoft/microsoft-graph-client': 3.0.7(@azure/identity@4.10.1)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       isomorphic-fetch: 3.0.0(encoding@0.1.13)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -27336,7 +27336,7 @@ snapshots:
 
   '@metamcp/mcp-server-metamcp@0.6.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       commander: 13.1.0
       express: 4.21.2
@@ -27354,10 +27354,10 @@ snapshots:
       '@effect/sql': 0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)
       '@effect/sql-sqlite-node': 0.27.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(@effect/sql@0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10))(effect@3.16.10)
       '@libsql/client': 0.14.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@pixai-art/client': 0.4.0(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(rxjs@7.8.2)
       dayjs: 1.11.13
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       drizzle-orm: 0.38.4(@cloudflare/workers-types@4.20250627.0)(@libsql/client@0.14.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@opentelemetry/api@1.9.0)(@types/pg@8.15.4)(@types/react@19.1.8)(better-sqlite3@11.10.0)(mysql2@3.14.1)(pg@8.16.2)(react@18.3.1)(sqlite3@5.1.7)
       effect: 3.16.10
       form-data: 4.0.3
@@ -27442,7 +27442,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.14.3':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
@@ -27450,7 +27450,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-client@0.14.3(@types/react@19.1.8)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@radix-ui/react-checkbox': 1.3.2(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -27483,7 +27483,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.14.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -27498,7 +27498,7 @@ snapshots:
       '@modelcontextprotocol/inspector-cli': 0.14.3
       '@modelcontextprotocol/inspector-client': 0.14.3(@types/react@19.1.8)
       '@modelcontextprotocol/inspector-server': 0.14.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       concurrently: 9.2.0
       open: 10.1.2
       shell-quote: 1.8.3
@@ -27963,9 +27963,9 @@ snapshots:
     dependencies:
       '@apidevtools/swagger-parser': 10.1.1(openapi-types@12.1.3)
       '@hono/node-server': 1.14.4(hono@4.8.3)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fetch-to-node: 2.1.0
       hono: 4.8.3
       json-schema: 0.4.0
@@ -28053,7 +28053,7 @@ snapshots:
 
   '@mtane0412/perspective-mcp-server@0.1.2(encoding@0.1.13)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       googleapis: 144.0.0(encoding@0.1.13)
       shx: 0.3.4
     transitivePeerDependencies:
@@ -28064,13 +28064,13 @@ snapshots:
     dependencies:
       '@huggingface/transformers': 3.6.0
       '@lancedb/lancedb': 0.20.0(apache-arrow@19.0.1)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@qdrant/js-client-rest': 1.14.1(typescript@5.8.3)
       '@qdrant/qdrant-js': 1.14.1(typescript@5.8.3)
       axios: 1.10.0(debug@4.4.1)
       chalk: 5.4.1
       chromadb: 3.0.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       mermaid: 11.7.0
     transitivePeerDependencies:
       - apache-arrow
@@ -28219,7 +28219,7 @@ snapshots:
 
   '@netlify/mcp@1.9.12(encoding@0.1.13)(rollup@4.44.1)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@netlify/edge-functions': 2.15.4
       '@netlify/functions': 4.1.8(encoding@0.1.13)(rollup@4.44.1)
       archiver: 7.0.1
@@ -28290,7 +28290,7 @@ snapshots:
 
   '@nexus2520/bitbucket-mcp-server@0.9.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       minimatch: 9.0.5
     transitivePeerDependencies:
@@ -28299,7 +28299,7 @@ snapshots:
 
   '@nicholmikey/chrome-tools@1.3.0(@types/node@22.15.33)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/ws': 8.18.1
       axios: 1.10.0(debug@4.4.1)
       chrome-remote-interface: 0.33.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -28343,10 +28343,10 @@ snapshots:
 
   '@niyogi/render-mcp@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       commander: 12.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       inquirer: 9.3.7
     transitivePeerDependencies:
       - debug
@@ -28410,7 +28410,7 @@ snapshots:
 
   '@noditlabs/nodit-mcp-server@1.0.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       js-yaml: 4.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -28446,7 +28446,7 @@ snapshots:
 
   '@nullplatform/meta-mcp-proxy@1.5.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       mcp-client: 1.12.4
       minisearch: 7.1.2
       swagger-client: 3.35.5
@@ -28458,7 +28458,7 @@ snapshots:
 
   '@nutrient-sdk/dws-mcp-server@0.0.3':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       form-data: 4.0.3
       zod: 3.25.67
@@ -28702,7 +28702,7 @@ snapshots:
 
   '@octomind/octomind-mcp@1.1.17':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       commander: 14.0.0
       express: 5.1.0
@@ -29023,7 +29023,7 @@ snapshots:
       '@osaas/client-core': 0.15.1
       '@osaas/client-services': 0.2.4
       '@osaas/client-transcode': 0.13.4
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       mime-types: 3.0.1
       minio: 8.0.5
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -29032,7 +29032,7 @@ snapshots:
 
   '@paddle/paddle-mcp@0.1.2(@types/node@22.15.33)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@paddle/paddle-node-sdk': 2.8.0
       ts-node: 10.9.2(@types/node@22.15.33)(typescript@5.8.3)
       typescript: 5.8.3
@@ -29059,7 +29059,7 @@ snapshots:
 
   '@parassolanki/jira-mcp-server@0.1.0(typescript@5.8.3)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@t3-oss/env-core': 0.12.0(typescript@5.8.3)(zod@3.25.67)
       neverthrow: 8.2.0
       universal-user-agent: 7.0.3
@@ -29136,7 +29136,7 @@ snapshots:
     dependencies:
       os: 0.1.2
       '@dotenvx/dotenvx': 1.45.1
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@paypal/paypal-server-sdk': 1.1.0(debug@4.4.1)
       ai: 4.3.16(react@18.3.1)(zod@3.25.67)
       axios: 1.10.0(debug@4.4.1)
@@ -29151,7 +29151,7 @@ snapshots:
 
   '@paypal/mcp@0.3.4(react@18.3.1)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@paypal/agent-toolkit': 1.3.5(react@18.3.1)
       colors: 1.4.0
     transitivePeerDependencies:
@@ -29170,7 +29170,7 @@ snapshots:
 
   '@pinecone-database/mcp@0.1.15':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@pinecone-database/pinecone': 5.1.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -29182,9 +29182,9 @@ snapshots:
     dependencies:
       '@anthropic-ai/sdk': 0.39.0(encoding@0.1.13)
       '@google-ai/generativelanguage': 2.9.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 5.1.0
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       zod: 3.25.67
@@ -29237,9 +29237,9 @@ snapshots:
 
   '@powerdrillai/powerdrill-mcp@0.1.11':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -29247,10 +29247,10 @@ snapshots:
 
   '@prathamesh0901/zoom-mcp-server@1.0.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/express': 5.0.3
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 5.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -29289,7 +29289,7 @@ snapshots:
       '@privy-io/public-api': 2.37.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.98.2(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
       canonicalize: 2.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       jose: 4.15.9
       node-fetch-native: 1.6.6
       redaxios: 0.5.1
@@ -29307,7 +29307,7 @@ snapshots:
 
   '@professional-wiki/mediawiki-mcp-server@0.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       express: 5.1.0
       node-fetch: 3.3.2
     transitivePeerDependencies:
@@ -29352,7 +29352,7 @@ snapshots:
 
   '@pubnub/mcp@1.0.84(encoding@0.1.13)(react-native@0.80.0(@babel/core@7.27.4)(@types/react@19.1.8)(bufferutil@4.0.9)(react@18.3.1)(utf-8-validate@5.0.10))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       cbor-sync: 1.0.4
       eventsource: 4.0.0
       express: 5.1.0
@@ -29867,7 +29867,7 @@ snapshots:
 
   '@readwise/readwise-mcp@0.0.4':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       axios-retry: 4.5.0(axios@1.10.0)
     transitivePeerDependencies:
@@ -29876,7 +29876,7 @@ snapshots:
 
   '@rebers/4o-mini-search-mcp@0.1.2(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -29886,8 +29886,8 @@ snapshots:
 
   '@recraft-ai/mcp-recraft-server@1.2.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       mime-types: 3.0.1
       sharp: 0.34.2
       zod: 3.25.67
@@ -30221,7 +30221,7 @@ snapshots:
 
   '@riza-io/riza-mcp@0.1.3(encoding@0.1.13)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@riza-io/api': 0.3.0(encoding@0.1.13)
       install: 0.13.0
       npm: 10.9.3
@@ -30387,12 +30387,12 @@ snapshots:
 
   '@sanity/mcp-server@0.11.5(@types/react@19.1.8)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@sanity/client': 7.4.0
       '@sanity/id-utils': 1.0.0
       '@sanity/types': 3.95.0(@types/react@19.1.8)
       chrono-node: 2.8.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fast-xml-parser: 5.2.5
       get-it: 8.6.9
       gpt-tokenizer: 2.9.0
@@ -30430,8 +30430,8 @@ snapshots:
   '@scure/bip32@1.3.1':
     dependencies:
       '@noble/curves': 1.1.0
-      '@noble/hashes': 1.3.1
-      '@scure/base': 1.1.1
+      '@noble/hashes': 1.3.2
+      '@scure/base': 1.1.9
 
   '@scure/bip32@1.3.2':
     dependencies:
@@ -30479,7 +30479,7 @@ snapshots:
 
   '@search-intent/mcp@1.1.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       node-fetch: 3.3.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -30591,7 +30591,7 @@ snapshots:
 
   '@shinzolabs/hubspot-mcp@1.7.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@smithery/sdk': 1.5.2(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       zod: 3.25.67
     transitivePeerDependencies:
@@ -30608,7 +30608,7 @@ snapshots:
 
   '@shortcut/mcp@0.9.0(typescript@5.8.3)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@shortcut/client': 1.1.0
       typescript: 5.8.3
       zod: 3.25.67
@@ -30649,7 +30649,7 @@ snapshots:
   '@smithery/sdk@1.5.2(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       ai: 4.3.16(react@18.3.1)(zod@3.25.67)
       express: 5.1.0
       json-schema: 0.4.0
@@ -31211,9 +31211,9 @@ snapshots:
 
   '@stabgan/openrouter-mcp-multimodal@1.5.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       node-fetch: 3.3.2
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       sharp: 0.33.5
@@ -31296,7 +31296,7 @@ snapshots:
 
   '@stakpak/mcp@0.0.4':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       posthog-node: 4.18.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -31307,7 +31307,7 @@ snapshots:
 
   '@steipete/macos-automator-mcp@0.4.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       fuse.js: 7.1.0
       gray-matter: 4.0.3
       zod: 3.25.67
@@ -31316,7 +31316,7 @@ snapshots:
 
   '@steipete/peekaboo-mcp@1.1.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       pino: 9.7.0
       pino-pretty: 13.0.0
@@ -31355,7 +31355,7 @@ snapshots:
 
   '@suekou/mcp-notion-server@1.2.4(@types/debug@4.1.12)(@types/node@22.15.33)(encoding@0.1.13)(jiti@2.4.2)(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       node-fetch: 2.7.0(encoding@0.1.13)
       vitest: 3.0.9(@types/debug@4.1.12)(@types/node@22.15.33)(jiti@2.4.2)(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0)
       yargs: 17.7.2
@@ -31426,7 +31426,7 @@ snapshots:
 
   '@superfaceai/mcp@0.1.1(@google/genai@0.6.1(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       superface: 0.1.0-rc.10(@google/genai@0.6.1(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67))
     transitivePeerDependencies:
       - '@google/genai'
@@ -31436,7 +31436,7 @@ snapshots:
   '@suthio/brave-deep-research-mcp@0.0.2(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@modelcontextprotocol/sdk': 0.7.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       node-fetch: 3.3.2
       puppeteer: 21.11.0(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
       zod: 3.25.67
@@ -31815,9 +31815,9 @@ snapshots:
 
   '@swonixs/weatherapi-mcp@1.1.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -31834,10 +31834,10 @@ snapshots:
 
   '@taazkareem/clickup-mcp-server@0.8.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 5.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -31847,11 +31847,11 @@ snapshots:
   '@tacticlaunch/mcp-linear@1.0.9(encoding@0.1.13)':
     dependencies:
       '@linear/sdk': 38.0.0(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/cors': 2.8.19
       '@types/express': 5.0.3
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       graphql: 16.11.0
       graphql-request: 7.2.0(graphql@16.11.0)
@@ -31864,8 +31864,8 @@ snapshots:
 
   '@takumi0706/google-calendar-mcp@1.0.6(encoding@0.1.13)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       express: 4.21.2
       express-rate-limit: 7.5.1(express@4.21.2)
       googleapis: 148.0.0(encoding@0.1.13)
@@ -31910,9 +31910,9 @@ snapshots:
 
   '@tfedorko/licensespring-mcp-server@1.1.6':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -31930,7 +31930,7 @@ snapshots:
       '@aws-sdk/client-s3': 3.837.0
       '@aws-sdk/credential-providers': 3.835.0
       '@aws-sdk/s3-request-presigner': 3.837.0
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       inquirer: 12.6.3(@types/node@22.15.33)
     transitivePeerDependencies:
       - '@types/node'
@@ -31955,7 +31955,7 @@ snapshots:
 
   '@tonlab/dify-mcp-server@1.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/node': 22.15.33
       '@types/node-fetch': 2.6.12
       node-fetch: 3.3.2
@@ -31989,7 +31989,7 @@ snapshots:
 
   '@translated/lara-mcp@0.0.11':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@translated/lara': 1.5.5
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -32629,7 +32629,7 @@ snapshots:
 
   '@unctad-ai/eregulations-mcp-server@0.4.9':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       body-parser: 1.20.3
       cors: 2.8.5
@@ -32646,7 +32646,7 @@ snapshots:
 
   '@unifuncs/ufn-mcp-server@0.0.6':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/express': 5.0.3
       express: 5.1.0
       node-fetch: 3.3.2
@@ -32722,7 +32722,7 @@ snapshots:
 
   '@usegrant/mcp@1.3.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@usegrant/sdk': 2.0.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -32735,8 +32735,8 @@ snapshots:
 
   '@variflight-ai/variflight-mcp@0.0.3':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -33385,7 +33385,7 @@ snapshots:
       '@noble/hashes': 1.7.0
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
-      uint8arrays: 3.1.0
+      uint8arrays: 3.1.1
 
   '@walletconnect/safe-json@1.0.2':
     dependencies:
@@ -33828,12 +33828,12 @@ snapshots:
 
   '@wangmhaha/apifox-mcp-server@1.6.7(jiti@2.4.2)(typescript@5.8.3)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/yargs': 17.0.33
       '@typescript-eslint/eslint-plugin': 8.35.0(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       '@typescript-eslint/parser': 8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       cross-env: 7.0.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       eslint: 9.29.0(jiti@2.4.2)
       express: 4.21.2
       yargs: 17.7.2
@@ -33874,7 +33874,7 @@ snapshots:
 
   '@wdio/utils@9.16.2':
     dependencies:
-      '@puppeteer/browsers': 2.6.1
+      '@puppeteer/browsers': 2.10.5
       '@wdio/logger': 9.16.2
       '@wdio/types': 9.16.2
       decamelize: 6.0.0
@@ -33893,7 +33893,7 @@ snapshots:
 
   '@wenbopan/things-mcp@1.0.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -33966,8 +33966,8 @@ snapshots:
 
   '@xeroapi/xero-mcp-server@0.0.12':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       openid-client: 6.6.1
       xero-node: 10.1.0
       zod: 3.25.67
@@ -33978,7 +33978,7 @@ snapshots:
   '@xexr/mcp-libsql@1.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@libsql/client': 0.15.9(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - bufferutil
@@ -33991,16 +33991,16 @@ snapshots:
 
   '@yepcode/mcp-server@0.8.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@yepcode/run': 1.4.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
 
   '@yepcode/run@1.4.1':
     dependencies:
-      dotenv: 16.5.0
+      dotenv: 16.6.0
 
   '@yiyang.1i/sms-mcp-server@2025.2.24':
     dependencies:
@@ -34013,7 +34013,7 @@ snapshots:
 
   '@yoda.digital/gitlab-mcp-server@0.2.10':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       cors: 2.8.5
       express: 4.21.2
       node-fetch: 3.3.2
@@ -34031,7 +34031,7 @@ snapshots:
 
   '@zbddev/payments-sdk-mcp@1.7.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@zbddev/payments-sdk': 1.7.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -34041,7 +34041,7 @@ snapshots:
 
   '@zhiweixu/excel-mcp-server@0.0.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       xlsx: 0.18.5
     transitivePeerDependencies:
       - supports-color
@@ -34117,8 +34117,8 @@ snapshots:
 
   advocu-mcp-server@0.1.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
     optionalDependencies:
       '@biomejs/cli-darwin-arm64': 1.9.4
       '@biomejs/cli-darwin-x64': 1.9.4
@@ -34145,7 +34145,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.1
       agent-twitter-client: 0.0.18(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       winston: 3.17.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -34187,7 +34187,7 @@ snapshots:
 
   agentrpc@0.0.16(@types/node@22.15.33)(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@ts-rest/core': 3.52.1(@types/node@22.15.33)(zod@3.25.67)
       '@types/debug': 4.1.12
       '@types/json-schema': 7.0.15
@@ -34207,7 +34207,7 @@ snapshots:
 
   agents@0.0.59(@cloudflare/workers-types@4.20250627.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       cron-schedule: 5.0.4
       nanoid: 5.1.5
       partyserver: 0.0.66(@cloudflare/workers-types@4.20250627.0)
@@ -34223,8 +34223,8 @@ snapshots:
 
   ai-expert-workflow-mcp@2.3.2(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
@@ -34285,8 +34285,8 @@ snapshots:
     dependencies:
       '@aws-sdk/client-s3': 3.837.0
       '@aws-sdk/s3-request-presigner': 3.837.0
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - aws-crt
@@ -34319,11 +34319,11 @@ snapshots:
       '@alicloud/openapi-util': 0.3.2
       '@alicloud/tea-typescript': 1.8.0
       '@alicloud/tea-util': 1.4.10
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@modelcontextprotocol/server-filesystem': 2025.3.28(zod@3.25.67)
       bignumber.js: 9.3.0
       dayjs: 1.11.13
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.20.0
       lodash: 4.17.21
       lossless-json: 4.1.1
@@ -34432,7 +34432,7 @@ snapshots:
 
   apisix-mcp@0.0.7:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -34480,8 +34480,8 @@ snapshots:
 
   argocd-mcp@0.2.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       express: 5.1.0
       pino: 9.7.0
       yargs: 17.7.2
@@ -34633,7 +34633,7 @@ snapshots:
 
   attio-mcp-server@0.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       shx: 0.3.4
       typescript: 5.8.3
@@ -34660,8 +34660,8 @@ snapshots:
     dependencies:
       '@aws-sdk/client-s3': 3.837.0
       '@hono/node-server': 1.14.4(hono@4.8.3)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       hono: 4.8.3
       pdf-parse: 1.1.1
       ts-pattern: 5.7.1
@@ -34918,10 +34918,10 @@ snapshots:
       '@coinbase/coinbase-sdk': 0.21.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       '@coinbase/onchainkit': 0.37.8(@azure/identity@4.10.1)(@tanstack/query-core@5.81.2)(@types/react@19.1.8)(@wagmi/core@2.17.3(@tanstack/query-core@5.81.2)(@types/react@19.1.8)(react@18.3.1)(typescript@5.8.3)(use-sync-external-store@1.4.0(react@18.3.1))(viem@2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)))(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       '@inquirer/prompts': 7.5.3(@types/node@22.15.33)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@privy-io/public-api': 2.37.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       chalk: 5.4.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       graphql: 16.11.0
       graphql-request: 7.2.0(graphql@16.11.0)
       reflect-metadata: 0.2.2
@@ -34966,7 +34966,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.13.2
       '@wagmi/core': 1.4.13(@azure/identity@4.10.1)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67))(zod@3.25.67)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       natural: 6.12.0(@aws-sdk/credential-providers@3.835.0)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       viem: 1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
@@ -35049,10 +35049,10 @@ snapshots:
     dependencies:
       '@langchain/community': 0.3.47(0282554bca77e97eae4f57a22d77a4c7)
       '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.61(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)))
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@qdrant/js-client-rest': 1.14.1(typescript@5.8.3)
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fastembed: 1.14.4
       langchain: 0.3.29(@langchain/core@0.3.61(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)))(axios@1.10.0)(cheerio@1.1.0)(handlebars@4.7.8)(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67))(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       node-fetch: 3.3.2
@@ -35243,8 +35243,8 @@ snapshots:
 
   bitrefill-mcp-server@0.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       dotenv-cli: 8.0.0
       install: 0.13.0
       npm: 11.4.2
@@ -35333,7 +35333,7 @@ snapshots:
 
   box-mcp-server@0.3.1(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       box-typescript-sdk-gen: 1.16.0(encoding@0.1.13)
       mammoth: 1.9.1
       patch-package: 8.0.0
@@ -35453,7 +35453,7 @@ snapshots:
 
   browserloop@1.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/sharp': 0.31.1
       playwright: 1.53.1
       sharp: 0.34.2
@@ -35577,7 +35577,7 @@ snapshots:
       chokidar: 4.0.3
       confbox: 0.1.8
       defu: 6.1.4
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       giget: 1.2.5
       jiti: 2.4.2
       mlly: 1.7.4
@@ -35592,7 +35592,7 @@ snapshots:
       chokidar: 4.0.3
       confbox: 0.2.2
       defu: 6.1.4
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       exsolve: 1.0.7
       giget: 2.0.0
       jiti: 2.4.2
@@ -36018,9 +36018,9 @@ snapshots:
 
   clickup-mcp-server@1.12.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       open: 9.1.0
       zod: 3.25.67
@@ -36031,13 +36031,13 @@ snapshots:
   clinicaltrialsgov-mcp-server@1.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       '@hono/node-server': 1.14.4(hono@4.8.3)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@supabase/supabase-js': 2.50.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@types/node': 24.0.4
       '@types/sanitize-html': 2.16.0
       '@types/validator': 13.15.2
       chrono-node: 2.8.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       hono: 4.8.3
       ignore: 7.0.5
       jose: 6.0.11
@@ -36101,7 +36101,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.13.2
       cloudinary: 1.41.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -36136,7 +36136,7 @@ snapshots:
   coda-mcp@1.4.2(@hey-api/openapi-ts@0.77.0(typescript@5.8.3)):
     dependencies:
       '@hey-api/client-axios': 0.7.1(@hey-api/openapi-ts@0.77.0(typescript@5.8.3))(axios@1.10.0)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -36473,7 +36473,7 @@ snapshots:
     dependencies:
       cipher-base: 1.0.6
       inherits: 2.0.4
-      ripemd160: 2.0.1
+      ripemd160: 2.0.2
       sha.js: 2.4.11
 
   create-hash@1.2.0:
@@ -36774,7 +36774,7 @@ snapshots:
 
   dart-mcp-server@0.1.20:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.11.1
+      '@modelcontextprotocol/sdk': 1.11.4
       dart-tools: 0.3.9
       dotenv: 16.5.0
     transitivePeerDependencies:
@@ -36896,7 +36896,7 @@ snapshots:
 
   deepl-mcp-server@0.1.3-beta.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       deepl-node: 1.19.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -36921,7 +36921,7 @@ snapshots:
   deepseek-thinker-mcp@1.0.1(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       os: 0.1.2
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       ollama: 0.5.16
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       path: 0.12.7
@@ -36934,7 +36934,7 @@ snapshots:
 
   deepsource-mcp-server@1.2.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       cors: 2.8.5
       express: 5.1.0
@@ -37135,8 +37135,8 @@ snapshots:
 
   discogs-mcp-server@0.4.1(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       fastmcp: 3.6.2(effect@3.16.10)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -37159,8 +37159,8 @@ snapshots:
 
   docfork@0.5.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -37174,7 +37174,7 @@ snapshots:
   dodopayments-mcp@1.34.2(encoding@0.1.13):
     dependencies:
       '@cloudflare/cabidela': 0.2.4
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       dodopayments: 1.34.2(encoding@0.1.13)
       yargs: 17.7.2
       zod: 3.25.67
@@ -37233,7 +37233,7 @@ snapshots:
   dotenv-cli@8.0.0:
     dependencies:
       cross-spawn: 7.0.6
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       dotenv-expand: 10.0.0
       minimist: 1.2.8
 
@@ -37278,7 +37278,7 @@ snapshots:
       cli-table3: 0.6.5
       commander: 8.3.0
       detect-indent: 6.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       esbuild: 0.25.1
       fast-glob: 3.3.3
       fastify: 4.29.1
@@ -37310,7 +37310,7 @@ snapshots:
 
   dubco-mcp-server@1.0.5:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
     transitivePeerDependencies:
       - debug
@@ -37344,8 +37344,8 @@ snapshots:
     dependencies:
       '@aws-sdk/client-dynamodb': 3.835.0
       '@aws-sdk/lib-dynamodb': 3.835.0(@aws-sdk/client-dynamodb@3.835.0)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - aws-crt
@@ -37621,7 +37621,7 @@ snapshots:
   esa-mcp-server@0.1.1:
     dependencies:
       '@faker-js/faker': 9.8.0
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       yaml: 2.8.0
       zod: 3.25.67
@@ -38268,7 +38268,7 @@ snapshots:
 
   fastmcp@1.27.7(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 20.5.0
@@ -38289,7 +38289,7 @@ snapshots:
 
   fastmcp@2.1.3(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 20.5.0
@@ -38311,7 +38311,7 @@ snapshots:
 
   fastmcp@2.2.4(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 21.0.0
@@ -38333,7 +38333,7 @@ snapshots:
 
   fastmcp@3.3.1(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 21.0.0
@@ -38355,7 +38355,7 @@ snapshots:
 
   fastmcp@3.6.2(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 21.0.0
@@ -38413,11 +38413,11 @@ snapshots:
 
   feishu-mcp@0.0.12:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/yargs': 17.0.33
       axios: 1.10.0(debug@4.4.1)
       cross-env: 7.0.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       remeda: 2.23.1
       yargs: 17.7.2
@@ -38428,10 +38428,10 @@ snapshots:
 
   feishu-project-mcp@1.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       commander: 11.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       express-rate-limit: 7.5.1(express@4.21.2)
       uuid: 9.0.1
@@ -38464,8 +38464,8 @@ snapshots:
 
   fetchserp-mcp-server@1.0.2(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       express: 4.21.2
       node-fetch: 3.3.2
       openai: 5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
@@ -38478,7 +38478,7 @@ snapshots:
     dependencies:
       '@figma/rest-api-spec': 0.28.0
       '@types/express': 5.0.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 5.1.0
       fastmcp: 1.27.7(effect@3.16.10)
       globals: 15.15.0
@@ -38504,11 +38504,11 @@ snapshots:
 
   figma-mcp-pro@3.49.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       chalk: 5.4.1
       commander: 11.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       node-cache: 5.1.2
       p-limit: 5.0.0
       p-retry: 6.2.1
@@ -38519,7 +38519,7 @@ snapshots:
 
   figma-mcp@0.1.4:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
     transitivePeerDependencies:
       - debug
@@ -38670,7 +38670,7 @@ snapshots:
 
   findata-mcp-server@0.1.0(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       alphavantage: 2.5.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
@@ -38698,8 +38698,8 @@ snapshots:
   firecrawl-mcp@1.11.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       '@mendable/firecrawl-js': 1.27.0
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       express: 5.1.0
       shx: 0.3.4
       ws: 8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -38828,7 +38828,7 @@ snapshots:
 
   fred-mcp-server@0.4.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -39071,7 +39071,7 @@ snapshots:
 
   gistpad-mcp@0.4.7:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       gray-matter: 4.0.3
     transitivePeerDependencies:
@@ -39080,8 +39080,8 @@ snapshots:
 
   gitee-mcp-server@0.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       universal-user-agent: 7.0.3
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -39092,7 +39092,7 @@ snapshots:
 
   github-repo-mcp@1.0.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       octokit: 3.2.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -39451,7 +39451,7 @@ snapshots:
 
   grok-mcp@1.0.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
     transitivePeerDependencies:
       - debug
@@ -39459,7 +39459,7 @@ snapshots:
 
   grok2-image-mcp-server@0.1.5:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       undici: 5.29.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -39612,7 +39612,7 @@ snapshots:
   hermes-search-mcp@1.0.1(effect@3.16.10):
     dependencies:
       '@azure/search-documents': 12.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fastmcp: 1.27.7(effect@3.16.10)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -39647,9 +39647,9 @@ snapshots:
 
   holaspirit-mcp-server@0.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/node': 20.19.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       holaspirit-client-typescript-fetch: 0.0.2-202506230910
       typescript: 5.8.3
       zod: 3.25.67
@@ -39810,9 +39810,9 @@ snapshots:
 
   hubble-mcp-tool@0.1.19(@types/node@22.15.33)(typescript@5.8.3):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       ts-node: 10.9.2(@types/node@22.15.33)(typescript@5.8.3)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -39856,7 +39856,7 @@ snapshots:
       axios: 1.10.0(debug@4.4.1)
       camelcase: 6.3.0
       debug: 4.4.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       extend: 3.0.2
       file-type: 16.5.4
       form-data: 4.0.0
@@ -40026,7 +40026,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       instagram-private-api: 1.46.1
     transitivePeerDependencies:
       - debug
@@ -40845,9 +40845,9 @@ snapshots:
 
   jfk-mcp@1.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       archives-api-client: 0.0.9
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       node-fetch: 3.3.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -40885,7 +40885,7 @@ snapshots:
 
   jina-ai-mcp-server@1.0.4:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       node-fetch: 3.3.2
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -40894,7 +40894,7 @@ snapshots:
 
   jira-mcp@1.0.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
     transitivePeerDependencies:
       - supports-color
 
@@ -40918,7 +40918,7 @@ snapshots:
 
   jotai-mcp-server@0.1.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
     transitivePeerDependencies:
       - supports-color
 
@@ -41219,7 +41219,7 @@ snapshots:
   keycloak-mcp@1.0.1:
     dependencies:
       '@keycloak/keycloak-admin-client': 26.2.5
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -41296,7 +41296,7 @@ snapshots:
   lambda-local@2.2.0:
     dependencies:
       commander: 10.0.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       winston: 3.17.0
 
   langchain@0.3.29(@langchain/core@0.3.61(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)))(axios@1.10.0)(cheerio@1.1.0)(handlebars@4.7.8)(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67))(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
@@ -41445,8 +41445,8 @@ snapshots:
   linear-mcp-server@0.1.0(encoding@0.1.13):
     dependencies:
       '@linear/sdk': 33.0.0(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - encoding
@@ -41456,10 +41456,10 @@ snapshots:
 
   linkd-mcp@1.0.25:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       ajv: 8.17.1
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
     transitivePeerDependencies:
       - debug
@@ -41706,7 +41706,7 @@ snapshots:
 
   lunchmoney-mcp@1.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       node-fetch: 3.3.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -41791,7 +41791,7 @@ snapshots:
 
   manifold-mcp-server@0.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       node-fetch: 3.3.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -41840,11 +41840,11 @@ snapshots:
 
   mcp-3d-printer-server@1.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       bambu-js: 2.2.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       bambu-node: 3.22.21(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       form-data: 4.0.3
       jszip: 3.10.1
       three: 0.173.0
@@ -41857,7 +41857,7 @@ snapshots:
 
   mcp-apifox@1.0.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       undici: 7.11.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -41865,8 +41865,8 @@ snapshots:
 
   mcp-clickup@1.0.4(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.8.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       tsup: 8.5.0(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.8.0)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -41881,7 +41881,7 @@ snapshots:
 
   mcp-client@1.12.4:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       reconnecting-eventsource: 1.6.4
       strict-event-emitter-types: 2.0.0
       zod: 3.25.67
@@ -41891,7 +41891,7 @@ snapshots:
   mcp-communicator-telegram@0.2.1(request@2.88.2):
     dependencies:
       archiver: 7.0.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       ignore: 7.0.5
       node-telegram-bot-api: 0.64.0(request@2.88.2)
     transitivePeerDependencies:
@@ -41900,15 +41900,15 @@ snapshots:
 
   mcp-confluence@1.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/node': 22.15.33
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - supports-color
 
   mcp-crypto-price@1.2.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -41919,13 +41919,13 @@ snapshots:
       '@babel/parser': 7.27.5
       '@babel/traverse': 7.27.4
       '@babel/types': 7.27.6
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
     transitivePeerDependencies:
       - supports-color
 
   mcp-dbs@1.0.4(@aws-sdk/credential-providers@3.835.0)(@babel/core@7.27.4)(@jest/transform@30.0.2)(@jest/types@30.0.1)(babel-jest@30.0.2(@babel/core@7.27.4))(esbuild@0.25.5)(gcp-metadata@5.3.0(encoding@0.1.13))(jest-util@30.0.2)(jest@30.0.3(@types/node@22.15.33)(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)(typescript@5.8.3):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       cors: 2.8.5
       cross-env: 7.0.3
       express: 4.21.2
@@ -41958,7 +41958,7 @@ snapshots:
 
   mcp-developer-name@1.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
     transitivePeerDependencies:
       - supports-color
 
@@ -41987,7 +41987,7 @@ snapshots:
   mcp-fathom-analytics@1.0.2:
     dependencies:
       '@mackenly/fathom-api': 0.0.14
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -42000,8 +42000,8 @@ snapshots:
   mcp-google-calendar@0.0.5(encoding@0.1.13)(typescript@5.8.3):
     dependencies:
       '@google-cloud/local-auth': 3.0.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       express: 4.21.2
       googleapis: 146.0.0(encoding@0.1.13)
       typescript: 5.8.3
@@ -42011,7 +42011,7 @@ snapshots:
 
   mcp-ipfs@0.1.9:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       files-from-path: 1.1.4
       multiformats: 13.3.7
       zod: 3.25.67
@@ -42034,8 +42034,8 @@ snapshots:
   mcp-linear@0.1.8(encoding@0.1.13):
     dependencies:
       '@linear/sdk': 33.0.0(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - encoding
@@ -42065,8 +42065,8 @@ snapshots:
 
   mcp-mailtrap@0.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       mailtrap: 4.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -42080,7 +42080,7 @@ snapshots:
       '@libsql/client': 0.14.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.1.1
       '@types/node': 22.15.33
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -42109,7 +42109,7 @@ snapshots:
 
   mcp-neovim-server@0.5.2(@types/node@22.15.33)(typescript@5.8.3):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       neovim: 5.3.0
       ts-node: 10.9.2(@types/node@22.15.33)(typescript@5.8.3)
       zod: 3.25.67
@@ -42122,7 +42122,7 @@ snapshots:
 
   mcp-omnisearch@0.0.5:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
     transitivePeerDependencies:
       - supports-color
 
@@ -42165,14 +42165,14 @@ snapshots:
   mcp-postgres-server@0.1.3:
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       pg: 8.16.2
     transitivePeerDependencies:
       - pg-native
 
   mcp-private-github-search@0.2.1(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@octokit/rest': 21.1.1
       '@smithery/sdk': 1.5.2(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       axios: 1.10.0(debug@4.4.1)
@@ -42186,7 +42186,7 @@ snapshots:
 
   mcp-proxy@2.14.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -42194,7 +42194,7 @@ snapshots:
 
   mcp-proxy@3.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -42202,7 +42202,7 @@ snapshots:
 
   mcp-proxy@5.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       eventsource: 4.0.0
       yargs: 18.0.0
     transitivePeerDependencies:
@@ -42211,8 +42211,8 @@ snapshots:
   mcp-server-axiom@1.1.0:
     dependencies:
       '@axiomhq/js': 1.3.1
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       limiter: 2.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -42234,7 +42234,7 @@ snapshots:
 
   mcp-server-dumplingai@1.1.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -42243,9 +42243,9 @@ snapshots:
     dependencies:
       '@ensdomains/ensjs': 4.0.2(encoding@0.1.13)(typescript@5.8.3)(viem@2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67))(zod@3.25.67)
       '@justaname.id/sdk': 0.2.199(ethers@6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(siwe@3.0.0(ethers@6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(viem@2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67))
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       cross-env: 7.0.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       zod: 3.25.67
@@ -42263,7 +42263,7 @@ snapshots:
       '@alicloud/esa20240910': 2.28.0
       '@alicloud/openapi-client': 0.4.14
       '@alicloud/tea-util': 1.4.10
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/semver': 7.7.0
       form-data: 4.0.3
       node-fetch: 2.7.0(encoding@0.1.13)
@@ -42292,7 +42292,7 @@ snapshots:
   mcp-server-gsc@0.2.0(encoding@0.1.13):
     dependencies:
       '@google-cloud/local-auth': 3.0.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       google-auth-library: 9.15.1(encoding@0.1.13)
       googleapis: 144.0.0(encoding@0.1.13)
       zod: 3.25.67
@@ -42319,8 +42319,8 @@ snapshots:
   mcp-server-linearapp@0.1.0(encoding@0.1.13):
     dependencies:
       '@linear/sdk': 38.0.0(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
     optionalDependencies:
       '@parcel/watcher-linux-x64-glibc': 2.5.1
       '@swc/core-linux-x64-gnu': 1.12.7
@@ -42330,9 +42330,9 @@ snapshots:
 
   mcp-server-novacv@1.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       form-data: 4.0.3
       zod: 3.25.67
     transitivePeerDependencies:
@@ -42350,7 +42350,7 @@ snapshots:
 
   mcp-server-sqlite-npx@0.3.0(zod@3.25.67):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       sqlite3: 5.1.7
       zod-to-json-schema: 3.24.6(zod@3.25.67)
     transitivePeerDependencies:
@@ -42360,8 +42360,8 @@ snapshots:
 
   mcp-server-ssh-rails-runner@0.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       node-ssh: 13.2.1
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -42385,7 +42385,7 @@ snapshots:
 
   mcp-server-supos@0.7.2(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       lodash: 4.17.21
       mqtt: 5.13.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       node-fetch: 3.3.2
@@ -42407,7 +42407,7 @@ snapshots:
 
   mcp-solarwinds@0.1.7:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       date-fns: 2.30.0
       date-fns-tz: 2.0.1(date-fns@2.30.0)
@@ -42419,8 +42419,8 @@ snapshots:
   mcp-summarization-functions@0.1.5(encoding@0.1.13):
     dependencies:
       '@anthropic-ai/sdk': 0.35.0(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       execa: 9.6.0
       isomorphic-fetch: 3.0.0(encoding@0.1.13)
       uuid: 11.1.0
@@ -42449,8 +42449,8 @@ snapshots:
   mcp-turso-cloud@0.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       '@libsql/client': 0.15.9(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - bufferutil
@@ -42460,7 +42460,7 @@ snapshots:
   mcp-turso@0.2.1(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10):
     dependencies:
       '@libsql/client': 0.14.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       fastmcp: 1.27.7(effect@3.16.10)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -42495,7 +42495,7 @@ snapshots:
 
   meme-mcp@1.0.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -42516,8 +42516,8 @@ snapshots:
 
   mercadolibre-mcp@0.1.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       node-fetch: 3.3.2
     transitivePeerDependencies:
       - supports-color
@@ -42829,10 +42829,10 @@ snapshots:
   minimax-mcp-js@0.0.11:
     dependencies:
       '@chatmcp/sdk': 1.0.6
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       yargs: 18.0.0-candidate.4
       zod: 3.25.67
@@ -42953,9 +42953,9 @@ snapshots:
 
   moneybird-mcp-server@0.6.5:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -42982,7 +42982,7 @@ snapshots:
 
   mongodb-mcp-server@0.1.2(@aws-sdk/credential-providers@3.835.0)(@mongodb-js/oidc-plugin@1.1.8)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@mongodb-js/device-id': 0.2.1
       '@mongodb-js/devtools-connect': 3.8.2(@mongodb-js/oidc-plugin@1.1.8)(mongodb-log-writer@2.4.1(bson@6.10.4))(mongodb@6.17.0(@aws-sdk/credential-providers@3.835.0)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5))
       '@mongosh/service-provider-node-driver': 3.10.2(@aws-sdk/credential-providers@3.835.0)(gcp-metadata@5.3.0(encoding@0.1.13))(mongodb-log-writer@2.4.1(bson@6.10.4))
@@ -43193,8 +43193,8 @@ snapshots:
 
   mysql-query-mcp-server@1.2.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       mysql2: 3.14.1
       uuid: 11.1.0
     transitivePeerDependencies:
@@ -43246,7 +43246,7 @@ snapshots:
   nasa-mcp-server@1.0.2:
     dependencies:
       '@anthropic-ai/sdk': 0.55.0
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       cors: 2.8.5
       dotenv: 16.6.0
@@ -43265,7 +43265,7 @@ snapshots:
       afinn-165: 1.0.4
       afinn-165-financialmarketnews: 3.0.0
       apparatus: 0.0.10
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       memjs: 1.3.2
       mongoose: 8.16.1(@aws-sdk/credential-providers@3.835.0)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       pg: 8.16.2
@@ -43327,8 +43327,8 @@ snapshots:
 
   news-mcp-server@0.0.8:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       express: 4.21.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -43337,7 +43337,7 @@ snapshots:
   newsnow-mcp-server@0.0.8(effect@3.16.10):
     dependencies:
       bumpp: 10.2.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fastmcp: 1.27.7(effect@3.16.10)
       ofetch: 1.4.1
       zod: 3.25.67
@@ -43352,10 +43352,10 @@ snapshots:
 
   nexus-mcp@1.0.7:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       data-masking: 1.0.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       winston: 3.17.0
     transitivePeerDependencies:
       - debug
@@ -43586,7 +43586,7 @@ snapshots:
 
   notion-mcp-server@1.0.1(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@notionhq/client': 2.3.0(encoding@0.1.13)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -43620,9 +43620,9 @@ snapshots:
 
   ntfy-me-mcp@1.3.4:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/markdown-it': 14.1.2
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       markdown-it: 14.1.0
       node-fetch: 3.3.2
       prompts: 2.4.2
@@ -43760,13 +43760,13 @@ snapshots:
     dependencies:
       '@hono/node-server': 1.14.4(hono@4.8.3)
       '@modelcontextprotocol/inspector': 0.14.3(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/sanitize-html': 2.16.0
       '@types/validator': 13.15.2
       axios: 1.10.0(debug@4.4.1)
       chrono-node: 2.8.0
       date-fns: 4.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       hono: 4.8.3
       ignore: 7.0.5
       jose: 6.0.11
@@ -43796,8 +43796,8 @@ snapshots:
 
   octagon-deep-research-mcp@1.0.18(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -43807,8 +43807,8 @@ snapshots:
 
   octagon-mcp@1.0.21(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -43895,7 +43895,7 @@ snapshots:
       '@agent-infra/logger': 0.0.2-beta.2
       '@dotenvx/dotenvx': 1.45.1
       '@mendable/firecrawl-js': 1.27.0
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@tavily/core': 0.3.7
       async-retry: 1.3.3
       duck-duck-scrape: 2.2.7
@@ -44070,9 +44070,9 @@ snapshots:
 
   opengov-mcp-server@0.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -44152,7 +44152,7 @@ snapshots:
     dependencies:
       '@azure/ai-form-recognizer': 4.0.0
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fastmcp: 1.27.7(effect@3.16.10)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -44190,7 +44190,7 @@ snapshots:
     dependencies:
       '@azure/msal-node': 3.6.1
       '@microsoft/microsoft-graph-client': 3.0.7(@azure/identity@4.10.1)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       date-fns: 4.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -44225,10 +44225,10 @@ snapshots:
   ox@0.6.7(typescript@5.8.3)(zod@3.25.67):
     dependencies:
       '@adraffy/ens-normalize': 1.11.0
-      '@noble/curves': 1.8.1
-      '@noble/hashes': 1.7.1
-      '@scure/bip32': 1.6.2
-      '@scure/bip39': 1.5.4
+      '@noble/curves': 1.9.2
+      '@noble/hashes': 1.8.0
+      '@scure/bip32': 1.7.0
+      '@scure/bip39': 1.6.0
       abitype: 1.0.8(typescript@5.8.3)(zod@3.25.67)
       eventemitter3: 5.0.1
     optionalDependencies:
@@ -44640,7 +44640,7 @@ snapshots:
 
   pickapicon-mcp@1.0.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -44659,7 +44659,7 @@ snapshots:
 
   pinata-mcp@0.1.1(typescript@5.8.3):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       form-data: 4.0.3
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -44787,17 +44787,17 @@ snapshots:
 
   polardbx-mcp@0.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       mysql2: 3.14.1
     transitivePeerDependencies:
       - supports-color
 
   polygon-mcp@1.0.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       bip39: 3.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       graphql: 16.11.0
       graphql-request: 7.2.0(graphql@16.11.0)
@@ -44943,7 +44943,7 @@ snapshots:
 
   productboard-mcp@1.0.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
     transitivePeerDependencies:
       - supports-color
 
@@ -44969,8 +44969,8 @@ snapshots:
 
   promptopia-mcp@1.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       uuid: 11.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -45192,8 +45192,8 @@ snapshots:
 
   puremd-mcp@1.0.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -45202,9 +45202,9 @@ snapshots:
 
   qasphere-mcp@0.2.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -45586,7 +45586,7 @@ snapshots:
 
   replicate-flux-mcp@0.1.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       replicate: 1.0.1
       zod: 3.25.67
     transitivePeerDependencies:
@@ -45657,7 +45657,7 @@ snapshots:
 
   resend-mcp@0.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       resend: 4.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - react
@@ -45956,7 +45956,7 @@ snapshots:
   scrapeless-mcp-server@0.3.0:
     dependencies:
       '@chatmcp/sdk': 1.0.6
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -45965,8 +45965,8 @@ snapshots:
 
   scraperis-mcp@0.1.22:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       nanoid: 5.1.5
       node-fetch: 3.3.2
       zod: 3.25.67
@@ -45979,7 +45979,7 @@ snapshots:
   search-stock-news-mcp@1.0.12(effect@3.16.10):
     dependencies:
       '@tavily/core': 0.4.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fastmcp: 2.2.4(effect@3.16.10)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -45992,9 +45992,9 @@ snapshots:
 
   search1api-mcp@0.1.8:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -46094,7 +46094,7 @@ snapshots:
 
   sentry-issues-mcp@1.0.5:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -46114,7 +46114,7 @@ snapshots:
   serper-search-scrape-mcp-server@0.1.2(encoding@0.1.13):
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
@@ -46160,7 +46160,7 @@ snapshots:
 
   server-wp-mcp@1.0.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
     transitivePeerDependencies:
       - debug
@@ -46290,7 +46290,7 @@ snapshots:
 
   shopify-mcp-server@1.0.1(graphql@16.11.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       graphql-request: 7.2.0(graphql@16.11.0)
       zod: 3.25.67
     transitivePeerDependencies:
@@ -46552,7 +46552,7 @@ snapshots:
 
   speech-mcp-server@1.1.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       kokoro-js: 1.2.1
       node-wav-player: 0.2.0
     transitivePeerDependencies:
@@ -46617,10 +46617,10 @@ snapshots:
 
   square-mcp-server@0.1.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       commander: 12.1.0
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       escape-html: 1.0.3
       express: 5.1.0
       form-data: 4.0.3
@@ -46720,7 +46720,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.10.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       form-data: 4.0.3
     transitivePeerDependencies:
       - debug
@@ -46907,11 +46907,11 @@ snapshots:
 
   supabase-mcp@1.5.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@supabase/supabase-js': 2.50.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       body-parser: 1.20.3
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -47064,7 +47064,7 @@ snapshots:
       '@modelcontextprotocol/sdk': 0.6.1
       '@notionhq/client': 2.3.0(encoding@0.1.13)
       ajv: 8.17.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - encoding
 
@@ -47087,7 +47087,7 @@ snapshots:
 
   tana-mcp@1.2.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       typescript: 5.8.3
       zod: 3.25.67
@@ -47174,7 +47174,7 @@ snapshots:
       cli-table3: 0.6.5
       commander: 11.1.0
       cors: 2.8.5
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       fastmcp: 2.2.4(effect@3.16.10)
       figlet: 1.8.1
@@ -47209,7 +47209,7 @@ snapshots:
       '@ai-sdk/deepseek': 0.2.14(zod@3.25.67)
       '@ai-sdk/google': 1.2.19(zod@3.25.67)
       '@ai-sdk/openai': 1.3.22(zod@3.25.67)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       ai: 4.3.16(react@18.3.1)(zod@3.25.67)
       chalk: 5.4.1
       cli-table3: 0.6.5
@@ -47232,7 +47232,7 @@ snapshots:
 
   teamretro-mcp-server@0.10.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       env-var: 7.5.0
       markdown-table: 3.0.4
     transitivePeerDependencies:
@@ -47277,7 +47277,7 @@ snapshots:
 
   tesouro-direto-mcp@0.2.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
@@ -47351,7 +47351,7 @@ snapshots:
 
   tianji-mcp-server@0.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       tianji-client-sdk: 1.3.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -47450,9 +47450,9 @@ snapshots:
   todoist-mcp-server@1.0.7(encoding@0.1.13):
     dependencies:
       '@doist/todoist-api-typescript': 2.2.0
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/node-fetch': 2.6.12
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
@@ -47462,7 +47462,7 @@ snapshots:
 
   todoist-mcp@1.2.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       uuid: 9.0.1
       zod: 3.25.67
     transitivePeerDependencies:
@@ -47711,9 +47711,9 @@ snapshots:
 
   tts-mcp@1.1.1(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       commander: 11.1.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       play-sound: 1.1.6
       tmp: 0.2.3
@@ -47860,7 +47860,7 @@ snapshots:
 
   typescript-mcp@0.0.14(typescript@5.8.3):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       neverthrow: 8.2.0
       ts-morph: 26.0.0
       typescript: 5.8.3
@@ -48355,7 +48355,7 @@ snapshots:
   volume-wall-detector-mcp@1.0.2(@aws-sdk/credential-providers@3.835.0)(effect@3.16.10)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5):
     dependencies:
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fastmcp: 1.27.7(effect@3.16.10)
       mongodb: 6.17.0(@aws-sdk/credential-providers@3.835.0)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       zod: 3.25.67
@@ -48377,7 +48377,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - debug
 
@@ -48557,7 +48557,7 @@ snapshots:
 
   webflow-mcp-server@0.6.0(@cloudflare/workers-types@4.20250627.0)(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       agents: 0.0.59(@cloudflare/workers-types@4.20250627.0)
       webflow-api: 3.1.1(encoding@0.1.13)
       zod: 3.25.67
@@ -48576,9 +48576,9 @@ snapshots:
 
   webscraping-ai-mcp@1.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       p-queue: 8.1.0
     transitivePeerDependencies:
       - debug
@@ -48882,7 +48882,7 @@ snapshots:
 
   x-com-mcp-server@1.0.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       uuid: 9.0.1
       zod: 3.25.67
     transitivePeerDependencies:
@@ -48890,7 +48890,7 @@ snapshots:
 
   xcodebuildmcp@1.10.4(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@sentry/cli': 2.46.0(encoding@0.1.13)
       '@sentry/node': 9.32.0
       uuid: 11.1.0
@@ -48917,8 +48917,8 @@ snapshots:
 
   xero-mcp@1.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       open: 10.1.2
       xero-node: 10.1.0
       zod: 3.25.67
@@ -49118,8 +49118,8 @@ snapshots:
 
   youtube-data-mcp-server@1.0.16(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       googleapis: 129.0.0(encoding@0.1.13)
       pnpm: 10.12.4
       youtube-captions-scraper: 2.0.3

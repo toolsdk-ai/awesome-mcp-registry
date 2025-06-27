@@ -1894,21 +1894,6 @@
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-time.json"
   },
-  "mcp-server-google-analytics": {
-    "category": "marketing",
-    "path": "marketing/mcp-server-google-analytics.json",
-    "validated": true,
-    "tools": {
-      "get_report": {
-        "name": "get_report",
-        "description": "Get a report from Google Analytics Data API"
-      },
-      "get_realtime_data": {
-        "name": "get_realtime_data",
-        "description": "Get realtime data from Google Analytics Data API"
-      }
-    }
-  },
   "@ashdev/discourse-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/ashdev-discourse-mcp-server.json",
@@ -1941,12 +1926,6 @@
     "validated": false,
     "tools": {}
   },
-  "@dragonkhoi/mercury-mcp": {
-    "category": "finance-fintech",
-    "path": "finance-fintech/mercury-mcp.json",
-    "validated": false,
-    "tools": {}
-  },
   "blockscout": {
     "category": "uncategorized",
     "path": "uncategorized/blockscout.json"
@@ -1962,6 +1941,7 @@
   "@bankless/onchain-mcp": {
     "category": "uncategorized",
     "path": "uncategorized/bankless-onchain-mcp.json",
+    "validated": true,
     "tools": {
       "read_contract": {
         "name": "read_contract",
@@ -2003,8 +1983,7 @@
         "name": "get_block_info",
         "description": "Gets detailed information about a specific block by number or hash"
       }
-    },
-    "validated": true
+    }
   },
   "climatiq": {
     "category": "uncategorized",
@@ -2013,6 +1992,7 @@
   "mcp-fathom-analytics": {
     "category": "uncategorized",
     "path": "uncategorized/mcp-fathom-analytics.json",
+    "validated": true,
     "tools": {
       "get-account": {
         "name": "get-account",
@@ -2034,8 +2014,7 @@
         "name": "get-current-visitors",
         "description": "Get current visitors for a Fathom Analytics site"
       }
-    },
-    "validated": true
+    }
   },
   "yokatlas": {
     "category": "uncategorized",
@@ -2052,6 +2031,7 @@
   "feuse-mcp": {
     "category": "uncategorized",
     "path": "uncategorized/feuse-mcp.json",
+    "validated": true,
     "tools": {
       "Figma-To-Code": {
         "name": "Figma-To-Code",
@@ -2085,8 +2065,7 @@
         "name": "download-svg-assets",
         "description": "根据图像或图标节点的ID，仅下载Figma文件中使用的SVG资源"
       }
-    },
-    "validated": true
+    }
   },
   "aptos": {
     "category": "uncategorized",
@@ -2111,6 +2090,7 @@
   "taskqueue-mcp": {
     "category": "uncategorized",
     "path": "uncategorized/taskqueue-mcp.json",
+    "validated": true,
     "tools": {
       "list_projects": {
         "name": "list_projects",
@@ -2168,8 +2148,7 @@
         "name": "get_next_task",
         "description": "Get the next task to be done in a project. Returns the first non-approved task in sequence, regardless of status. The task may include toolRecommendations and ruleRecommendations fields that should be used to guide task completion."
       }
-    },
-    "validated": true
+    }
   },
   "wordpress": {
     "category": "uncategorized",
@@ -2202,6 +2181,7 @@
   "@bnb-chain/mcp": {
     "category": "uncategorized",
     "path": "uncategorized/bnb-chain-mcp.json",
+    "validated": true,
     "tools": {
       "get_block_by_hash": {
         "name": "get_block_by_hash",
@@ -2363,8 +2343,7 @@
         "name": "gnfd_get_payment_account_info",
         "description": "Get the info for a payment account"
       }
-    },
-    "validated": true
+    }
   },
   "whoop": {
     "category": "uncategorized",
@@ -2385,8 +2364,8 @@
   "mcp-sunsama": {
     "category": "uncategorized",
     "path": "uncategorized/mcp-sunsama.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "umami-analytics": {
     "category": "uncategorized",
@@ -2399,6 +2378,7 @@
   "@glifxyz/mymcpspace-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/glifxyz-mymcpspace-mcp-server.json",
+    "validated": true,
     "tools": {
       "create-post": {
         "name": "create-post",
@@ -2420,8 +2400,7 @@
         "name": "update-username",
         "description": "Update the authenticated user's username"
       }
-    },
-    "validated": true
+    }
   },
   "garmin-connect": {
     "category": "uncategorized",
@@ -2434,6 +2413,7 @@
   "@noditlabs/nodit-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/noditlabs-nodit-mcp-server.json",
+    "validated": true,
     "tools": {
       "list_nodit_api_categories": {
         "name": "list_nodit_api_categories",
@@ -2467,25 +2447,24 @@
         "name": "call_nodit_api",
         "description": "This function calls a specific Nodit Blockchain Context API using its operationId. Before making the call, it's recommended to verify the detailed API specifications using the 'get_nodit_api_spec' tool. Please note that using this tool will consume your API quota."
       }
-    },
-    "validated": true
+    }
   },
   "algorand-mcp": {
     "category": "uncategorized",
     "path": "uncategorized/algorand-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@mzxrai/mcp-openai": {
     "category": "uncategorized",
     "path": "uncategorized/mzxrai-mcp-openai.json",
+    "validated": true,
     "tools": {
       "openai_chat": {
         "name": "openai_chat",
         "description": "Use this tool when a user specifically requests to use one of OpenAI's models (gpt-4o, gpt-4o-mini, o1-preview, o1-mini). This tool sends messages to OpenAI's chat completion API using the specified model."
       }
-    },
-    "validated": true
+    }
   },
   "thirdweb-mcp": {
     "category": "uncategorized",
@@ -2502,6 +2481,7 @@
   "@ivotoby/contentful-management-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/ivotoby-contentful-management-mcp-server.json",
+    "validated": true,
     "tools": {
       "search_entries": {
         "name": "search_entries",
@@ -2643,18 +2623,18 @@
         "name": "get_ai_action_invocation",
         "description": "Get the result of a previous AI Action invocation"
       }
-    },
-    "validated": true
+    }
   },
   "@createveai/nexus-mcp-server": {
     "category": "aggregators",
     "path": "aggregators/createveai-nexus-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@illuminaresolutions/n8n-mcp-server": {
     "category": "aggregators",
     "path": "aggregators/illuminaresolutions-n8n-mcp-server.json",
+    "validated": true,
     "tools": {
       "init-n8n": {
         "name": "init-n8n",
@@ -2788,8 +2768,7 @@
         "name": "generate-audit",
         "description": "Generate a security audit for your n8n instance."
       }
-    },
-    "validated": true
+    }
   },
   "openai-agents": {
     "category": "aggregators",
@@ -2822,8 +2801,8 @@
   "@gentoro/mcp-nodejs-server": {
     "category": "aggregators",
     "path": "aggregators/gentoro-mcp-nodejs-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "fastn": {
     "category": "aggregators",
@@ -2832,30 +2811,31 @@
   "@superfaceai/mcp": {
     "category": "aggregators",
     "path": "aggregators/superfaceai-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@stabgan/openrouter-mcp-multimodal": {
     "category": "aggregators",
     "path": "aggregators/stabgan-openrouter-mcp-multimodal.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@tonlab/dify-mcp-server": {
     "category": "aggregators",
     "path": "aggregators/tonlab-dify-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@makehq/mcp-server": {
     "category": "aggregators",
     "path": "aggregators/makehq-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@noveum-ai/mcp-server": {
     "category": "aggregators",
     "path": "aggregators/noveum-ai-mcp-server.json",
+    "validated": true,
     "tools": {
       "distance_and_duration_bw_starts_and_stops": {
         "name": "distance_and_duration_bw_starts_and_stops",
@@ -2993,32 +2973,31 @@
         "name": "Extract_information_from_a_URL",
         "description": "Make a POST request to pipfeed/parse/extract"
       }
-    },
-    "validated": true
+    }
   },
   "mcprouter": {
     "category": "aggregators",
     "path": "aggregators/mcprouter.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "unichat-ts-mcp-server": {
     "category": "aggregators",
     "path": "aggregators/unichat-ts-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@nullplatform/meta-mcp-proxy": {
     "category": "aggregators",
     "path": "aggregators/nullplatform-meta-mcp-proxy.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@metamcp/mcp-server-metamcp": {
     "category": "aggregators",
     "path": "aggregators/metamcp-mcp-server-metamcp.json",
-    "tools": {},
-    "validated": true
+    "validated": true,
+    "tools": {}
   },
   "llm-gateway": {
     "category": "aggregators",
@@ -3055,6 +3034,7 @@
   "@pinkpixel/mindbridge": {
     "category": "aggregators",
     "path": "aggregators/pinkpixel-mindbridge.json",
+    "validated": true,
     "tools": {
       "getSecondOpinion": {
         "name": "getSecondOpinion",
@@ -3068,8 +3048,7 @@
         "name": "listReasoningModels",
         "description": "List all available models that support reasoning capabilities"
       }
-    },
-    "validated": true
+    }
   },
   "dify": {
     "category": "aggregators",
@@ -3106,6 +3085,7 @@
   "@cloudwerxlab/gpt-image-1-mcp": {
     "category": "art-and-culture",
     "path": "art-and-culture/cloudwerxlab-gpt-image-1-mcp.json",
+    "validated": true,
     "tools": {
       "create_image": {
         "name": "create_image",
@@ -3115,8 +3095,7 @@
         "name": "create_image_edit",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "dall-e-image-generation": {
     "category": "art-and-culture",
@@ -3153,6 +3132,7 @@
   "replicate-flux-mcp": {
     "category": "art-and-culture",
     "path": "art-and-culture/replicate-flux-mcp.json",
+    "validated": true,
     "tools": {
       "generate_image": {
         "name": "generate_image",
@@ -3182,19 +3162,18 @@
         "name": "prediction_list",
         "description": "Get a list of recent predictions from Replicate"
       }
-    },
-    "validated": true
+    }
   },
   "4oimage-mcp": {
     "category": "art-and-culture",
     "path": "art-and-culture/4oimage-mcp.json",
+    "validated": true,
     "tools": {
       "generateImage": {
         "name": "generateImage",
         "description": "Generate images using the 4o-image API and automatically open the results in your browser.\n\nThis tool generates images based on your prompt and automatically opens them in your default browser, while also returning a clickable link.\n\nThe tool supports two modes:\n1. Text-to-image - Create new images using just a text prompt\n2. Image editing - Provide a base image and prompt for editing or style transfer\n\nThe response will include a direct link to the generated image and detailed information.\n\nVisit our website: https://4o-image.app/"
       }
-    },
-    "validated": true
+    }
   },
   "bangumi-tv": {
     "category": "art-and-culture",
@@ -3255,6 +3234,7 @@
   "@jayarrowz/mcp-figma": {
     "category": "art-and-culture",
     "path": "art-and-culture/jayarrowz-mcp-figma.json",
+    "validated": true,
     "tools": {
       "figma_get_me": {
         "name": "figma_get_me",
@@ -3380,8 +3360,7 @@
         "name": "figma_get_library_analytics_variable_usages",
         "description": "Get library analytics variable usage data"
       }
-    },
-    "validated": true
+    }
   },
   "adobe-illustrator": {
     "category": "art-and-culture",
@@ -3390,8 +3369,8 @@
   "figma-mcp-pro": {
     "category": "art-and-culture",
     "path": "art-and-culture/figma-mcp-pro.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "bibliothèque-nationale-de-france-(gallica)": {
     "category": "art-and-culture",
@@ -3412,13 +3391,13 @@
   "grok2-image-mcp-server": {
     "category": "art-and-culture",
     "path": "art-and-culture/grok2-image-mcp-server.json",
+    "validated": true,
     "tools": {
       "generate_image": {
         "name": "generate_image",
         "description": "Generate an image based on a text prompt using the Grok-2 image model, ensure return the image URL to the user with markdown image format."
       }
-    },
-    "validated": true
+    }
   },
   "o'reilly-learning-platform": {
     "category": "art-and-culture",
@@ -3443,8 +3422,8 @@
   "@deepdataspace/dinox-mcp": {
     "category": "art-and-culture",
     "path": "art-and-culture/deepdataspace-dinox-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "leonardo-ai": {
     "category": "art-and-culture",
@@ -3461,6 +3440,7 @@
   "figma-mcp": {
     "category": "art-and-culture",
     "path": "art-and-culture/figma-mcp.json",
+    "validated": true,
     "tools": {
       "add_figma_file": {
         "name": "add_figma_file",
@@ -3482,12 +3462,12 @@
         "name": "reply_to_comment",
         "description": "Reply to an existing comment in a Figma file"
       }
-    },
-    "validated": true
+    }
   },
   "nasa-mcp-server": {
     "category": "art-and-culture",
     "path": "art-and-culture/nasa-mcp-server.json",
+    "validated": true,
     "tools": {
       "nasa/apod": {
         "name": "nasa/apod",
@@ -3541,12 +3521,12 @@
         "name": "nasa/power",
         "description": "Prediction of Worldwide Energy Resources - meteorological data"
       }
-    },
-    "validated": true
+    }
   },
   "@recraft-ai/mcp-recraft-server": {
     "category": "art-and-culture",
     "path": "art-and-culture/recraft-ai-mcp-recraft-server.json",
+    "validated": true,
     "tools": {
       "generate_image": {
         "name": "generate_image",
@@ -3584,8 +3564,7 @@
         "name": "get_user",
         "description": "Get information about the current Recraft AI API user (their email, name, and credit balance)."
       }
-    },
-    "validated": true
+    }
   },
   "scenario-ai": {
     "category": "art-and-culture",
@@ -3594,13 +3573,13 @@
   "together-mcp": {
     "category": "art-and-culture",
     "path": "art-and-culture/together-mcp.json",
+    "validated": true,
     "tools": {
       "generate_image": {
         "name": "generate_image",
         "description": "Generate an image using Together AI API"
       }
-    },
-    "validated": true
+    }
   },
   "ableton-mcp": {
     "category": "art-and-culture",
@@ -3613,6 +3592,7 @@
   "discogs-mcp-server": {
     "category": "art-and-culture",
     "path": "art-and-culture/discogs-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_release": {
         "name": "get_release",
@@ -3826,8 +3806,7 @@
         "name": "fetch_image",
         "description": "Fetch an image by URL"
       }
-    },
-    "validated": true
+    }
   },
   "adobe-photoshop-controller": {
     "category": "art-and-culture",
@@ -3840,6 +3819,7 @@
   "@kailashg101/mcp-figma-to-code": {
     "category": "art-and-culture",
     "path": "art-and-culture/kailashg101-mcp-figma-to-code.json",
+    "validated": true,
     "tools": {
       "extract-components": {
         "name": "extract-components",
@@ -3853,8 +3833,7 @@
         "name": "extract-one-component",
         "description": "Extract a single component from Figma file"
       }
-    },
-    "validated": true
+    }
   },
   "image-generation": {
     "category": "art-and-culture",
@@ -3875,6 +3854,7 @@
   "minimax-mcp-js": {
     "category": "art-and-culture",
     "path": "art-and-culture/minimax-mcp-js.json",
+    "validated": true,
     "tools": {
       "text_to_audio": {
         "name": "text_to_audio",
@@ -3908,8 +3888,7 @@
         "name": "query_video_generation",
         "description": "Query the status of a video generation task."
       }
-    },
-    "validated": true
+    }
   },
   "zotero": {
     "category": "art-and-culture",
@@ -3946,13 +3925,13 @@
   "mcp-jinaai-grounding": {
     "category": "browser-automation",
     "path": "browser-automation/mcp-jinaai-grounding.json",
+    "validated": true,
     "tools": {
       "ground_statement": {
         "name": "ground_statement",
         "description": "Ground a statement using real-time web search results to check factuality. When providing URLs via the references parameter, ensure they are publicly accessible and contain relevant information about the statement. If the URLs do not contain the necessary information, try removing the URL restrictions to search the entire web."
       }
-    },
-    "validated": true
+    }
   },
   "uber-eats-automation": {
     "category": "browser-automation",
@@ -3997,6 +3976,7 @@
   "@browserstack/mcp-server": {
     "category": "browser-automation",
     "path": "browser-automation/browserstack-mcp-server.json",
+    "validated": true,
     "tools": {
       "accessibilityExpert": {
         "name": "accessibilityExpert",
@@ -4074,8 +4054,7 @@
         "name": "fetchSelfHealedSelectors",
         "description": "Retrieves AI-generated, self-healed selectors for a BrowserStack Automate session to resolve flaky tests caused by dynamic DOM changes."
       }
-    },
-    "validated": true
+    }
   },
   "url2snap-(website-screenshot)": {
     "category": "browser-automation",
@@ -4092,6 +4071,7 @@
   "@deventerprisesoftware/scrapi-mcp": {
     "category": "browser-automation",
     "path": "browser-automation/deventerprisesoftware-scrapi-mcp.json",
+    "validated": true,
     "tools": {
       "scrape_url_html": {
         "name": "scrape_url_html",
@@ -4101,8 +4081,7 @@
         "name": "scrape_url_markdown",
         "description": "Use a URL to scrape a website using the ScrAPI service and retrieve the result as Markdown. Use this for scraping website content that is difficult to access because of bot detection, captchas or even geolocation restrictions. The result will be in Markdown which is preferable if the text content of the webpage is important and not the structural information of the page."
       }
-    },
-    "validated": true
+    }
   },
   "mcp-playwright-scraper": {
     "category": "browser-automation",
@@ -4159,8 +4138,8 @@
   "browserloop": {
     "category": "browser-automation",
     "path": "browser-automation/browserloop.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "chrome-browser-automation": {
     "category": "browser-automation",
@@ -4169,6 +4148,7 @@
   "@octomind/octomind-mcp": {
     "category": "browser-automation",
     "path": "browser-automation/octomind-octomind-mcp.json",
+    "validated": true,
     "tools": {
       "search": {
         "name": "search",
@@ -4242,8 +4222,7 @@
         "name": "updateTestCase",
         "description": "the updateTestCase tool can update specific properties of a test case.\n    This allows modifying test case details such as description, status, or folderName."
       }
-    },
-    "validated": true
+    }
   },
   "browser-use-mcp-server": {
     "category": "browser-automation",
@@ -4284,6 +4263,7 @@
   "firecrawl-mcp": {
     "category": "browser-automation",
     "path": "browser-automation/firecrawl-mcp.json",
+    "validated": true,
     "tools": {
       "firecrawl_scrape": {
         "name": "firecrawl_scrape",
@@ -4317,8 +4297,7 @@
         "name": "firecrawl_generate_llmstxt",
         "description": "\nGenerate a standardized llms.txt (and optionally llms-full.txt) file for a given domain. This file defines how large language models should interact with the site.\n\n**Best for:** Creating machine-readable permission guidelines for AI models.\n**Not recommended for:** General content extraction or research.\n**Arguments:**\n- url (string, required): The base URL of the website to analyze.\n- maxUrls (number, optional): Max number of URLs to include (default: 10).\n- showFullText (boolean, optional): Whether to include llms-full.txt contents in the response.\n**Prompt Example:** \"Generate an LLMs.txt file for example.com.\"\n**Usage Example:**\n```json\n{\n  \"name\": \"firecrawl_generate_llmstxt\",\n  \"arguments\": {\n    \"url\": \"https://example.com\",\n    \"maxUrls\": 20,\n    \"showFullText\": true\n  }\n}\n```\n**Returns:** LLMs.txt file contents (and optionally llms-full.txt).\n"
       }
-    },
-    "validated": true
+    }
   },
   "playwright-plus": {
     "category": "browser-automation",
@@ -4331,8 +4310,8 @@
   "@browsercatco/mcp-server": {
     "category": "browser-automation",
     "path": "browser-automation/browsercatco-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "brave-browser": {
     "category": "browser-automation",
@@ -4341,13 +4320,13 @@
   "mcp-jinaai-reader": {
     "category": "browser-automation",
     "path": "browser-automation/mcp-jinaai-reader.json",
+    "validated": true,
     "tools": {
       "read_url": {
         "name": "read_url",
         "description": "Convert any URL to LLM-friendly text using Jina.ai Reader"
       }
-    },
-    "validated": true
+    }
   },
   "playwright-console-debugger": {
     "category": "browser-automation",
@@ -4364,13 +4343,13 @@
   "@debugg-ai/debugg-ai-mcp": {
     "category": "browser-automation",
     "path": "browser-automation/debugg-ai-debugg-ai-mcp.json",
+    "validated": true,
     "tools": {
       "debugg_ai_test_page_changes": {
         "name": "debugg_ai_test_page_changes",
         "description": "Use DebuggAI to run & and test UI changes that have been made with its User emulation agents"
       }
-    },
-    "validated": true
+    }
   },
   "selenium-webdriver": {
     "category": "browser-automation",
@@ -4403,14 +4382,14 @@
   "webscraping-ai-mcp": {
     "category": "browser-automation",
     "path": "browser-automation/webscraping-ai-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@nicholmikey/chrome-tools": {
     "category": "browser-automation",
     "path": "browser-automation/nicholmikey-chrome-tools.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "omniparser-autogui": {
     "category": "browser-automation",
@@ -4451,6 +4430,7 @@
   "@digitalocean/mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/digitalocean-mcp.json",
+    "validated": true,
     "tools": {
       "list_apps": {
         "name": "list_apps",
@@ -4580,8 +4560,7 @@
         "name": "list_database_topics",
         "description": "List all topics for a specific database kafka cluster."
       }
-    },
-    "validated": true
+    }
   },
   "aws-resource-manager": {
     "category": "cloud-platforms",
@@ -4622,8 +4601,8 @@
   "box-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/box-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "harvester-hci": {
     "category": "cloud-platforms",
@@ -4632,8 +4611,8 @@
   "@gannonh/firebase-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/gannonh-firebase-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "ops-unikernel-platform": {
     "category": "cloud-platforms",
@@ -4646,6 +4625,7 @@
   "@osaas/mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/osaas-mcp-server.json",
+    "validated": true,
     "tools": {
       "osc_upload_file": {
         "name": "osc_upload_file",
@@ -4659,8 +4639,7 @@
         "name": "osc_create_bucket",
         "description": "Create a new bucket on Eyevinn Open Source Cloud Storage (OSC) Minio instance"
       }
-    },
-    "validated": true
+    }
   },
   "openstack-commander": {
     "category": "cloud-platforms",
@@ -4673,6 +4652,7 @@
   "@felixallistar/coolify-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/felixallistar-coolify-mcp.json",
+    "validated": true,
     "tools": {
       "config-status": {
         "name": "config-status",
@@ -4714,8 +4694,7 @@
         "name": "ping",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "yourware-mcp": {
     "category": "cloud-platforms",
@@ -4744,6 +4723,7 @@
   "@netlify/mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/netlify-mcp.json",
+    "validated": true,
     "tools": {
       "netlify-coding-rules": {
         "name": "netlify-coding-rules",
@@ -4769,8 +4749,7 @@
         "name": "netlify-extension-services",
         "description": "Select and run one of the following Netlify operations change-extension-installation, get-extensions, get-full-extension-details, initialize-database"
       }
-    },
-    "validated": true
+    }
   },
   "cloud-foundry": {
     "category": "cloud-platforms",
@@ -4783,6 +4762,7 @@
   "@masonator/coolify-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/masonator-coolify-mcp.json",
+    "validated": true,
     "tools": {
       "list_servers": {
         "name": "list_servers",
@@ -4804,8 +4784,7 @@
         "name": "delete_service",
         "description": "Delete a Coolify service"
       }
-    },
-    "validated": true
+    }
   },
   "vantage-cloud-cost-management": {
     "category": "cloud-platforms",
@@ -4822,6 +4801,7 @@
   "cloudinary-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/cloudinary-mcp-server.json",
+    "validated": true,
     "tools": {
       "upload": {
         "name": "upload",
@@ -4843,8 +4823,7 @@
         "name": "get-usage",
         "description": "Get a report on the status of your product environment usage, including storage, credits, bandwidth, requests, number of resources, and add-on usage"
       }
-    },
-    "validated": true
+    }
   },
   "hetzner-cloud": {
     "category": "cloud-platforms",
@@ -4865,6 +4844,7 @@
   "aws-s3-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/aws-s3-mcp.json",
+    "validated": true,
     "tools": {
       "list-buckets": {
         "name": "list-buckets",
@@ -4878,12 +4858,12 @@
         "name": "get-object",
         "description": "Retrieve an object from an S3 bucket"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-server-esa": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/mcp-server-esa.json",
+    "validated": true,
     "tools": {
       "html_deploy": {
         "name": "html_deploy",
@@ -4977,8 +4957,7 @@
         "name": "site_record_list",
         "description": "List DNS records associated with a specific site."
       }
-    },
-    "validated": true
+    }
   },
   "kubernetes": {
     "category": "cloud-platforms",
@@ -4991,6 +4970,7 @@
   "coolify-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/coolify-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_version": {
         "name": "get_version",
@@ -5096,8 +5076,7 @@
         "name": "create_private_key",
         "description": "Create a new SSH private key in Coolify for server authentication or Git repository access."
       }
-    },
-    "validated": true
+    }
   },
   "linode-mcp": {
     "category": "cloud-platforms",
@@ -5118,13 +5097,13 @@
   "aliyun-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/aliyun-mcp-server.json",
+    "validated": true,
     "tools": {
       "querySLSLogs": {
         "name": "querySLSLogs",
         "description": "Query Aliyun SLS (Simple Log Service) logs"
       }
-    },
-    "validated": true
+    }
   },
   "digitalocean": {
     "category": "cloud-platforms",
@@ -5137,6 +5116,7 @@
   "apisix-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/apisix-mcp.json",
+    "validated": true,
     "tools": {
       "get_resource": {
         "name": "get_resource",
@@ -5266,8 +5246,7 @@
         "name": "create_or_update_proto",
         "description": "Create a proto, if the proto already exists, it will be updated"
       }
-    },
-    "validated": true
+    }
   },
   "azure-cli": {
     "category": "cloud-platforms",
@@ -5276,8 +5255,8 @@
   "argocd-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/argocd-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "modal-(serverless-python)": {
     "category": "cloud-platforms",
@@ -5318,8 +5297,8 @@
   "@niyogi/render-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/niyogi-render-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "wildfly": {
     "category": "cloud-platforms",
@@ -5356,6 +5335,7 @@
   "akave-mcp-js": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/akave-mcp-js.json",
+    "validated": true,
     "tools": {
       "list_buckets": {
         "name": "list_buckets",
@@ -5409,8 +5389,7 @@
         "name": "list_object_versions",
         "description": "List all versions of objects in a bucket (if versioning enabled)"
       }
-    },
-    "validated": true
+    }
   },
   "azure-resource-manager": {
     "category": "cloud-platforms",
@@ -5479,6 +5458,7 @@
   "mcp-llm": {
     "category": "code-execution",
     "path": "code-execution/mcp-llm.json",
+    "validated": true,
     "tools": {
       "generate_code": {
         "name": "generate_code",
@@ -5496,8 +5476,7 @@
         "name": "ask_question",
         "description": "Ask a question to the LLM"
       }
-    },
-    "validated": true
+    }
   },
   "python-local": {
     "category": "code-execution",
@@ -5518,6 +5497,7 @@
   "@riza-io/riza-mcp": {
     "category": "code-execution",
     "path": "code-execution/riza-io-riza-mcp.json",
+    "validated": true,
     "tools": {
       "create_tool": {
         "name": "create_tool",
@@ -5543,8 +5523,7 @@
         "name": "execute_tool",
         "description": "Executes a tool. This tool will be used to execute a self-written tool."
       }
-    },
-    "validated": true
+    }
   },
   "python-repl": {
     "category": "code-execution",
@@ -5569,8 +5548,8 @@
   "@yepcode/mcp-server": {
     "category": "code-execution",
     "path": "code-execution/yepcode-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "code-sandbox": {
     "category": "code-execution",
@@ -5591,8 +5570,8 @@
   "@jinzcdev/leetcode-mcp-server": {
     "category": "coding-agents",
     "path": "coding-agents/jinzcdev-leetcode-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "serena": {
     "category": "coding-agents",
@@ -5657,18 +5636,19 @@
   "typescript-mcp": {
     "category": "coding-agents",
     "path": "coding-agents/typescript-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@jetbrains/mcp-proxy": {
     "category": "coding-agents",
     "path": "coding-agents/jetbrains-mcp-proxy.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-neovim-server": {
     "category": "coding-agents",
     "path": "coding-agents/mcp-neovim-server.json",
+    "validated": true,
     "tools": {
       "vim_buffer": {
         "name": "vim_buffer",
@@ -5746,8 +5726,7 @@
         "name": "vim_jump",
         "description": "Navigate Neovim jump list: go back, forward, or list jumps"
       }
-    },
-    "validated": true
+    }
   },
   "codeforces": {
     "category": "coding-agents",
@@ -5872,6 +5851,7 @@
   "@steipete/peekaboo-mcp": {
     "category": "command-line",
     "path": "command-line/steipete-peekaboo-mcp.json",
+    "validated": true,
     "tools": {
       "image": {
         "name": "image",
@@ -5885,8 +5865,7 @@
         "name": "list",
         "description": "Lists various system items on macOS, providing situational awareness.\n\nCapabilities:\n- Running Applications: Get a list of all currently running applications (names and bundle IDs).\n- Application Windows: For a specific application (identified by name or bundle ID), list its open windows.\n  - Details: Optionally include window IDs, bounds (position and size), and whether a window is off-screen.\n  - Multi-window apps: Clearly lists each window of the target app.\n- Server Status: Provides information about the Peekaboo MCP server itself (version, configured AI providers).\n\nUse Cases:\n- Agent needs to know if 'Photoshop' is running before attempting to automate it.\n  { \"item_type\": \"running_applications\" } // Agent checks if 'Photoshop' is in the list.\n- Agent wants to find a specific 'Notes' window to capture.\n  { \"item_type\": \"application_windows\", \"app\": \"Notes\", \"include_window_details\": [\"ids\", \"bounds\"] }\n  The agent can then use the window title or ID with the 'image' tool.\nPeekaboo MCP 1.1.0 using MOCK"
       }
-    },
-    "validated": true
+    }
   },
   "macos-gui-control": {
     "category": "command-line",
@@ -5919,6 +5898,7 @@
   "@steipete/macos-automator-mcp": {
     "category": "command-line",
     "path": "command-line/steipete-macos-automator-mcp.json",
+    "validated": true,
     "tools": {
       "execute_script": {
         "name": "execute_script",
@@ -5928,8 +5908,7 @@
         "name": "get_scripting_tips",
         "description": "Discover how to automate any app on your Mac with this comprehensive knowledge base of AppleScript/JXA tips and runnable scripts. This tool is essential for discovery and should be the FIRST CHOICE when aiming to automate macOS tasks, especially those involving common applications or system functions, before attempting to write scripts from scratch. It helps identify pre-built, tested solutions, effectively teaching you how to control virtually any aspect of your macOS experience.\n\n**Primary Use Cases & Parameters:**\n\n*   **Discovering Solutions (Use `search_term`):**\n    *   Parameter: `search_term` (string, optional).\n    *   Functionality: Performs a fuzzy search across all tip titles, descriptions, keywords, script content, and IDs. Ideal for natural language queries like \"how to...\" (e.g., `search_term: \"how do I get the current Safari URL and title?\"`). This is the most common way to find relevant tips.\n    *   Output: Returns a list of matching tips in Markdown format.\n\n*   **Limiting Search Results (Use `limit`):**\n    *   Parameter: `limit` (integer, optional, default: 10).\n    *   Functionality: Specifies the maximum number of script tips to return when using `search_term` or browsing a specific `category` (without `list_categories: true`). Does not apply if `list_categories` is true.\n\n*   **Browsing by Category (Use `category`):**\n    *   Parameter: `category` (string, optional).\n    *   Functionality: Shows tips from a specific category. Combine with `limit` to control result count.\n    *   Example: `category: \"01_intro\"` or `category: \"07_browsers/chrome\"`.\n\n*   **Listing All Categories (Use `list_categories: true`):**\n    *   Parameter: `list_categories` (boolean, optional).\n    *   Functionality: Returns a structured list of all available categories with their descriptions. This helps you understand what automation areas are covered.\n    *   Output: Category tree in Markdown format.\n\n*   **Refreshing Database (Use `refresh_database: true`):**\n    *   Parameter: `refresh_database` (boolean, optional).\n    *   Functionality: Forces a reload of the knowledge base if new scripts have been added. Typically not needed as the database refreshes automatically.\n\n**Best Practices:**\n1. **Always start with search**: Use natural language queries to find solutions (e.g., \"send email from Mail app\").\n2. **Browse categories when exploring**: Use `list_categories: true` to see available automation areas.\n3. **Use specific IDs for execution**: Once you find a script, use its ID with `execute_script` tool for precise execution."
       }
-    },
-    "validated": true
+    }
   },
   "phone-mcp": {
     "category": "command-line",
@@ -6010,8 +5989,8 @@
   "mcp-server-ssh-rails-runner": {
     "category": "command-line",
     "path": "command-line/mcp-server-ssh-rails-runner.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "secure-shell-executor": {
     "category": "command-line",
@@ -6028,6 +6007,7 @@
   "mcp-server-siri-shortcuts": {
     "category": "command-line",
     "path": "command-line/mcp-server-siri-shortcuts.json",
+    "validated": true,
     "tools": {
       "list_shortcuts": {
         "name": "list_shortcuts",
@@ -6041,8 +6021,7 @@
         "name": "run_shortcut",
         "description": "Run a shortcut by name or identifier (UUID) with optional input and output parameters"
       }
-    },
-    "validated": true
+    }
   },
   "script-tool": {
     "category": "command-line",
@@ -6051,6 +6030,7 @@
   "@taazkareem/clickup-mcp-server": {
     "category": "communication",
     "path": "communication/taazkareem-clickup-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_workspace_hierarchy": {
         "name": "get_workspace_hierarchy",
@@ -6196,12 +6176,12 @@
         "name": "resolve_assignees",
         "description": "Resolves an array of assignee names or emails to ClickUp user IDs. Returns an array of user IDs, or errors for any that cannot be resolved."
       }
-    },
-    "validated": true
+    }
   },
   "@grec0/mcp-s2s-asterisk": {
     "category": "communication",
     "path": "communication/grec0-mcp-s2s-asterisk.json",
+    "validated": true,
     "tools": {
       "phone_make_call": {
         "name": "phone_make_call",
@@ -6239,8 +6219,7 @@
         "name": "phone_get_last_result",
         "description": "Obtener el último resultado procesado de una llamada específica"
       }
-    },
-    "validated": true
+    }
   },
   "gmail-mcp": {
     "category": "communication",
@@ -6261,6 +6240,7 @@
   "@prathamesh0901/zoom-mcp-server": {
     "category": "communication",
     "path": "communication/prathamesh0901-zoom-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_meetings": {
         "name": "get_meetings",
@@ -6278,8 +6258,7 @@
         "name": "delete_meeting",
         "description": "Delete an existing Zoom meeting"
       }
-    },
-    "validated": true
+    }
   },
   "votars": {
     "category": "communication",
@@ -6296,8 +6275,8 @@
   "@cablate/mcp-google-calendar": {
     "category": "communication",
     "path": "communication/cablate-mcp-google-calendar.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "gensokyo": {
     "category": "communication",
@@ -6334,13 +6313,13 @@
   "mcp-mailtrap": {
     "category": "communication",
     "path": "communication/mcp-mailtrap.json",
+    "validated": true,
     "tools": {
       "send-email": {
         "name": "send-email",
         "description": "Send transactional email using Mailtrap"
       }
-    },
-    "validated": true
+    }
   },
   "server-notify": {
     "category": "communication",
@@ -6373,6 +6352,7 @@
   "@kydycode/todoist-mcp-server-ext": {
     "category": "communication",
     "path": "communication/kydycode-todoist-mcp-server-ext.json",
+    "validated": true,
     "tools": {
       "todoist_create_task": {
         "name": "todoist_create_task",
@@ -6494,8 +6474,7 @@
         "name": "todoist_delete_comment",
         "description": "Delete a comment by its ID"
       }
-    },
-    "validated": true
+    }
   },
   "linkedin-mcp": {
     "category": "communication",
@@ -6504,8 +6483,8 @@
   "agent-twitter-client-mcp": {
     "category": "communication",
     "path": "communication/agent-twitter-client-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "telegram": {
     "category": "communication",
@@ -6526,14 +6505,14 @@
   "@yiyang.1i/sms-mcp-server": {
     "category": "communication",
     "path": "communication/yiyang-1i-sms-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@chaindead/telegram-mcp": {
     "category": "communication",
     "path": "communication/chaindead-telegram-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "whatsapp-bridge": {
     "category": "communication",
@@ -6546,6 +6525,7 @@
   "@horizondatawave/mcp": {
     "category": "communication",
     "path": "communication/horizondatawave-mcp.json",
+    "validated": true,
     "tools": {
       "search_linkedin_users": {
         "name": "search_linkedin_users",
@@ -6623,8 +6603,7 @@
         "name": "google_search",
         "description": "Search for information using Google search API"
       }
-    },
-    "validated": true
+    }
   },
   "dingding-(dingtalk)": {
     "category": "communication",
@@ -6657,6 +6636,7 @@
   "@pubnub/mcp": {
     "category": "communication",
     "path": "communication/pubnub-mcp.json",
+    "validated": true,
     "tools": {
       "read_pubnub_sdk_docs": {
         "name": "read_pubnub_sdk_docs",
@@ -6694,23 +6674,23 @@
         "name": "pubnub_subscribe_and_receive_messages",
         "description": "Subscribes to a PubNub channel and waits to receive a specified number of messages, then automatically unsubscribes. Call this tool when you need to listen for messages on a channel. Optionally specify a timeout in milliseconds to avoid waiting indefinitely."
       }
-    },
-    "validated": true
+    }
   },
   "resend-mcp": {
     "category": "communication",
     "path": "communication/resend-mcp.json",
+    "validated": true,
     "tools": {
       "send_email": {
         "name": "send_email",
         "description": "Sends an email using the Resend API. Supports plain text content, attachments and optional scheduling. Can specify custom sender and reply-to addresses."
       }
-    },
-    "validated": true
+    }
   },
   "voyp-mcp": {
     "category": "communication",
     "path": "communication/voyp-mcp.json",
+    "validated": true,
     "tools": {
       "start_call": {
         "name": "start_call",
@@ -6740,8 +6720,7 @@
         "name": "get_user",
         "description": "Retrieve user profile"
       }
-    },
-    "validated": true
+    }
   },
   "twilio-sms": {
     "category": "communication",
@@ -6774,6 +6753,7 @@
   "x-com-mcp-server": {
     "category": "communication",
     "path": "communication/x-com-mcp-server.json",
+    "validated": true,
     "tools": {
       "getSinglePost": {
         "name": "getSinglePost",
@@ -6859,8 +6839,7 @@
         "name": "removeBookmark",
         "description": "Remove a bookmark on behalf of the authenticated user"
       }
-    },
-    "validated": true
+    }
   },
   "interaction-mcp": {
     "category": "communication",
@@ -6889,6 +6868,7 @@
   "@kazuph/mcp-gmail-gas": {
     "category": "communication",
     "path": "communication/kazuph-mcp-gmail-gas.json",
+    "validated": true,
     "tools": {
       "gmail_search_messages": {
         "name": "gmail_search_messages",
@@ -6902,8 +6882,7 @@
         "name": "gmail_download_attachment",
         "description": "\n指定したmessageIdとattachmentIdで添付ファイルを取得します。\nファイルはDownloadsフォルダに保存されます。\nattachmentIdはattachmentsの各attachmentのnameでありファイル名となることが多いです(invoice.pdfなど)。\n  引数:\n    - messageId: メッセージID（必須）\n    - attachmentId: 添付ファイルID（必須）\n    - outputFilename: 保存時のファイル名（オプション）\n"
       }
-    },
-    "validated": true
+    }
   },
   "trello": {
     "category": "communication",
@@ -6912,8 +6891,8 @@
   "instagram-dm-mcp": {
     "category": "communication",
     "path": "communication/instagram-dm-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "dingtalk-v2": {
     "category": "communication",
@@ -6934,14 +6913,14 @@
   "@takumi0706/google-calendar-mcp": {
     "category": "communication",
     "path": "communication/takumi0706-google-calendar-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-server-bluesky": {
     "category": "communication",
     "path": "communication/mcp-server-bluesky.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "chatgpt-responses": {
     "category": "communication",
@@ -6962,6 +6941,7 @@
   "mcp-clickup": {
     "category": "communication",
     "path": "communication/mcp-clickup.json",
+    "validated": true,
     "tools": {
       "clickup_authenticate": {
         "name": "clickup_authenticate",
@@ -6979,12 +6959,12 @@
         "name": "clickup_get_task",
         "description": "Get a task by its ID"
       }
-    },
-    "validated": true
+    }
   },
   "@abhaybabbar/retellai-mcp-server": {
     "category": "communication",
     "path": "communication/abhaybabbar-retellai-mcp-server.json",
+    "validated": true,
     "tools": {
       "create_phone_call": {
         "name": "create_phone_call",
@@ -7082,12 +7062,12 @@
         "name": "delete_retell_llm",
         "description": "Deletes a Retell LLM"
       }
-    },
-    "validated": true
+    }
   },
   "ntfy-me-mcp": {
     "category": "communication",
     "path": "communication/ntfy-me-mcp.json",
+    "validated": true,
     "tools": {
       "ntfy_me": {
         "name": "ntfy_me",
@@ -7097,19 +7077,18 @@
         "name": "ntfy_me_fetch",
         "description": "Fetch cached messages from an ntfy server topic. Use this tool when the user asks to 'show notifications', 'get my messages', 'show my alerts', 'find notifications', 'search notifications', or any similar request. Great for finding recent notifications, checking message history, or searching for specific notifications by content, title, tags, or priority."
       }
-    },
-    "validated": true
+    }
   },
   "@kevinwatt/mcp-webhook": {
     "category": "communication",
     "path": "communication/kevinwatt-mcp-webhook.json",
+    "validated": true,
     "tools": {
       "send_message": {
         "name": "send_message",
         "description": "Send message to webhook endpoint"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-google-contacts-server": {
     "category": "communication",
@@ -7118,14 +7097,14 @@
   "mcp-communicator-telegram": {
     "category": "communication",
     "path": "communication/mcp-communicator-telegram.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "feishu-mcp": {
     "category": "communication",
     "path": "communication/feishu-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "x-twitter-mcp": {
     "category": "communication",
@@ -7142,8 +7121,8 @@
   "@merill/lokka": {
     "category": "communication",
     "path": "communication/merill-lokka.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "wecom-bot-mcp-server": {
     "category": "communication",
@@ -7172,6 +7151,7 @@
   "outlook-meetings-scheduler": {
     "category": "communication",
     "path": "communication/outlook-meetings-scheduler.json",
+    "validated": true,
     "tools": {
       "find-person": {
         "name": "find-person",
@@ -7205,8 +7185,7 @@
         "name": "delete-event",
         "description": "Delete a calendar event"
       }
-    },
-    "validated": true
+    }
   },
   "microsoft-365": {
     "category": "communication",
@@ -7227,6 +7206,7 @@
   "@hubspot/mcp-server": {
     "category": "customer-data-platforms",
     "path": "customer-data-platforms/hubspot-mcp-server.json",
+    "validated": true,
     "tools": {
       "hubspot-get-user-details": {
         "name": "hubspot-get-user-details",
@@ -7312,8 +7292,7 @@
         "name": "hubspot-get-workflow",
         "description": "\n    🎯 Purpose:\n      1. This tool retrieves detailed information about a specific workflow from the HubSpot account.\n\n    🧭 Usage Guidance:\n      1. Use the \"flowId\" parameter to specify which workflow to retrieve.\n      2. This endpoint returns complete workflow information including actions, enrollment criteria, and scheduling.\n      3. Use the hubspot-list-workflows tool first to identify the workflow ID you need.\n  "
       }
-    },
-    "validated": true
+    }
   },
   "integrator.io": {
     "category": "customer-data-platforms",
@@ -7322,6 +7301,7 @@
   "@clayhq/clay-mcp": {
     "category": "customer-data-platforms",
     "path": "customer-data-platforms/clayhq-clay-mcp.json",
+    "validated": true,
     "tools": {
       "searchContacts": {
         "name": "searchContacts",
@@ -7367,8 +7347,7 @@
         "name": "getEvents",
         "description": "Use this tool ONLY to fetch meetings/events in a date range (e.g. \"what meetings next week?\", \"show calendar for tomorrow\"). DO NOT use for counting meetings, analyzing patterns, or finding frequent participants."
       }
-    },
-    "validated": true
+    }
   },
   "paylocity": {
     "category": "customer-data-platforms",
@@ -7385,12 +7364,13 @@
   "@shinzolabs/hubspot-mcp": {
     "category": "customer-data-platforms",
     "path": "customer-data-platforms/shinzolabs-hubspot-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "attio-mcp-server": {
     "category": "customer-data-platforms",
     "path": "customer-data-platforms/attio-mcp-server.json",
+    "validated": true,
     "tools": {
       "search-companies": {
         "name": "search-companies",
@@ -7408,8 +7388,7 @@
         "name": "create-company-note",
         "description": "Add a new note to a company"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-salesforce-connector": {
     "category": "customer-data-platforms",
@@ -7422,6 +7401,7 @@
   "mysql-query-mcp-server": {
     "category": "databases",
     "path": "databases/mysql-query-mcp-server.json",
+    "validated": true,
     "tools": {
       "query": {
         "name": "query",
@@ -7435,8 +7415,7 @@
         "name": "environments",
         "description": "List available MySQL database environments"
       }
-    },
-    "validated": true
+    }
   },
   "odbc-database-connector": {
     "category": "databases",
@@ -7469,6 +7448,7 @@
   "dynamo-readonly-mcp": {
     "category": "databases",
     "path": "databases/dynamo-readonly-mcp.json",
+    "validated": true,
     "tools": {
       "list-tables": {
         "name": "list-tables",
@@ -7498,8 +7478,7 @@
         "name": "count-items",
         "description": "Count items in a DynamoDB table"
       }
-    },
-    "validated": true
+    }
   },
   "mysql-schema-explorer": {
     "category": "databases",
@@ -7524,14 +7503,14 @@
   "mcp-turso": {
     "category": "databases",
     "path": "databases/mcp-turso.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@xexr/mcp-libsql": {
     "category": "databases",
     "path": "databases/xexr-mcp-libsql.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "dicedb": {
     "category": "databases",
@@ -7568,8 +7547,8 @@
   "mcp-dbs": {
     "category": "databases",
     "path": "databases/mcp-dbs.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "sqlalchemy-odbc-bridge": {
     "category": "databases",
@@ -7610,6 +7589,7 @@
   "@kevinwatt/mysql-mcp": {
     "category": "databases",
     "path": "databases/kevinwatt-mysql-mcp.json",
+    "validated": true,
     "tools": {
       "mysql_query": {
         "name": "mysql_query",
@@ -7627,8 +7607,7 @@
         "name": "describe_table",
         "description": "Show table structure"
       }
-    },
-    "validated": true
+    }
   },
   "materialize": {
     "category": "databases",
@@ -7649,14 +7628,14 @@
   "@datastax/astra-db-mcp": {
     "category": "databases",
     "path": "databases/datastax-astra-db-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@awesome-ai/elasticsearch-mcp": {
     "category": "databases",
     "path": "databases/awesome-ai-elasticsearch-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "sql-server-express": {
     "category": "databases",
@@ -7673,8 +7652,8 @@
   "better-qdrant-mcp-server": {
     "category": "databases",
     "path": "databases/better-qdrant-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "sql-server": {
     "category": "databases",
@@ -7699,6 +7678,7 @@
   "mcp-mongodb-atlas": {
     "category": "databases",
     "path": "databases/mcp-mongodb-atlas.json",
+    "validated": true,
     "tools": {
       "create_atlas_cluster": {
         "name": "create_atlas_cluster",
@@ -7724,12 +7704,12 @@
         "name": "list_atlas_clusters",
         "description": "Lists all clusters in an Atlas project."
       }
-    },
-    "validated": true
+    }
   },
   "@joshuarileydev/supabase-mcp-server": {
     "category": "databases",
     "path": "databases/joshuarileydev-supabase-mcp-server.json",
+    "validated": true,
     "tools": {
       "list_projects": {
         "name": "list_projects",
@@ -7763,8 +7743,7 @@
         "name": "get_project_api_keys",
         "description": "Get API keys for a specific Supabase project"
       }
-    },
-    "validated": true
+    }
   },
   "postgresql-explorer": {
     "category": "databases",
@@ -7773,8 +7752,8 @@
   "@alanse/mcp-neo4j-server": {
     "category": "databases",
     "path": "databases/alanse-mcp-neo4j-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "snowflake": {
     "category": "databases",
@@ -7843,6 +7822,7 @@
   "@f4ww4z/mcp-mysql-server": {
     "category": "databases",
     "path": "databases/f4ww4z-mcp-mysql-server.json",
+    "validated": true,
     "tools": {
       "connect_db": {
         "name": "connect_db",
@@ -7864,8 +7844,7 @@
         "name": "describe_table",
         "description": "Get table structure"
       }
-    },
-    "validated": true
+    }
   },
   "mochow-mcp-server": {
     "category": "databases",
@@ -7902,8 +7881,8 @@
   "polardbx-mcp": {
     "category": "databases",
     "path": "databases/polardbx-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "weaviate": {
     "category": "databases",
@@ -7948,6 +7927,7 @@
   "@pinecone-database/mcp": {
     "category": "databases",
     "path": "databases/pinecone-database-mcp.json",
+    "validated": true,
     "tools": {
       "search-docs": {
         "name": "search-docs",
@@ -7985,8 +7965,7 @@
         "name": "cascading-search",
         "description": "Search across multiple indexes for records that are\nsimilar to the query text, deduplicate and rerank the results."
       }
-    },
-    "validated": true
+    }
   },
   "dgraph": {
     "category": "databases",
@@ -8031,6 +8010,7 @@
   "@malove86/mcp-mysql-server": {
     "category": "databases",
     "path": "databases/malove86-mcp-mysql-server.json",
+    "validated": true,
     "tools": {
       "connect_db": {
         "name": "connect_db",
@@ -8048,14 +8028,13 @@
         "name": "describe_table",
         "description": "Get table structure"
       }
-    },
-    "validated": true
+    }
   },
   "@elastic/mcp-server-elasticsearch": {
     "category": "databases",
     "path": "databases/elastic-mcp-server-elasticsearch.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mssql_mcp_server": {
     "category": "databases",
@@ -8064,6 +8043,7 @@
   "mcp-turso-cloud": {
     "category": "databases",
     "path": "databases/mcp-turso-cloud.json",
+    "validated": true,
     "tools": {
       "list_databases": {
         "name": "list_databases",
@@ -8101,8 +8081,7 @@
         "name": "vector_search",
         "description": "Performs vector similarity search"
       }
-    },
-    "validated": true
+    }
   },
   "elasticsearch": {
     "category": "databases",
@@ -8119,8 +8098,8 @@
   "mcp-server-sqlite-npx": {
     "category": "databases",
     "path": "databases/mcp-server-sqlite-npx.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "polardb": {
     "category": "databases",
@@ -8129,6 +8108,7 @@
   "mysql-mcp-server": {
     "category": "databases",
     "path": "databases/mysql-mcp-server.json",
+    "validated": true,
     "tools": {
       "list_databases": {
         "name": "list_databases",
@@ -8146,8 +8126,7 @@
         "name": "execute_query",
         "description": "Execute a read-only SQL query"
       }
-    },
-    "validated": true
+    }
   },
   "mysql": {
     "category": "databases",
@@ -8160,8 +8139,8 @@
   "mongodb-mcp-server": {
     "category": "databases",
     "path": "databases/mongodb-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "tigergraph": {
     "category": "databases",
@@ -8214,6 +8193,7 @@
   "mcp-postgres-server": {
     "category": "databases",
     "path": "databases/mcp-postgres-server.json",
+    "validated": true,
     "tools": {
       "connect_db": {
         "name": "connect_db",
@@ -8239,8 +8219,7 @@
         "name": "describe_table",
         "description": "Get table structure"
       }
-    },
-    "validated": true
+    }
   },
   "mysql-database-manager": {
     "category": "databases",
@@ -8257,8 +8236,8 @@
   "supabase-mcp": {
     "category": "databases",
     "path": "databases/supabase-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "oracle-mcp-server": {
     "category": "databases",
@@ -8271,6 +8250,7 @@
   "mcp-server-axiom": {
     "category": "data-platforms",
     "path": "data-platforms/mcp-server-axiom.json",
+    "validated": true,
     "tools": {
       "queryApl": {
         "name": "queryApl",
@@ -8284,8 +8264,7 @@
         "name": "getDatasetInfoAndSchema",
         "description": "Get dataset info and schema"
       }
-    },
-    "validated": true
+    }
   },
   "qdrant-with-openai-embeddings": {
     "category": "data-platforms",
@@ -8334,6 +8313,7 @@
   "@powerdrillai/powerdrill-mcp": {
     "category": "data-platforms",
     "path": "data-platforms/powerdrillai-powerdrill-mcp.json",
+    "validated": true,
     "tools": {
       "mcp_powerdrill_list_datasets": {
         "name": "mcp_powerdrill_list_datasets",
@@ -8371,8 +8351,7 @@
         "name": "mcp_powerdrill_delete_dataset",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "azure-data-explorer": {
     "category": "data-platforms",
@@ -8397,8 +8376,8 @@
   "alibabacloud-dataworks-mcp-server": {
     "category": "data-platforms",
     "path": "data-platforms/alibabacloud-dataworks-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "airflow-mcp-server": {
     "category": "data-platforms",
@@ -8451,8 +8430,8 @@
   "@tigrisdata/tigris-mcp-server": {
     "category": "data-platforms",
     "path": "data-platforms/tigrisdata-tigris-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "data.gov.my": {
     "category": "data-platforms",
@@ -8513,13 +8492,13 @@
   "opengov-mcp-server": {
     "category": "data-platforms",
     "path": "data-platforms/opengov-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_data": {
         "name": "get_data",
         "description": "[Data Portal] Access data and metadata to learn more about the city and its underlying information."
       }
-    },
-    "validated": true
+    }
   },
   "world-bank-data": {
     "category": "data-platforms",
@@ -8568,6 +8547,7 @@
   "@currents/mcp": {
     "category": "developer-tools",
     "path": "developer-tools/currents-mcp.json",
+    "validated": true,
     "tools": {
       "get-run": {
         "name": "get-run",
@@ -8581,8 +8561,7 @@
         "name": "get-api-config",
         "description": "Get Currents API config currently used for Currents API requests"
       }
-    },
-    "validated": true
+    }
   },
   "backstage": {
     "category": "developer-tools",
@@ -8631,6 +8610,7 @@
   "qasphere-mcp": {
     "category": "developer-tools",
     "path": "developer-tools/qasphere-mcp.json",
+    "validated": true,
     "tools": {
       "get_test_case": {
         "name": "get_test_case",
@@ -8656,8 +8636,7 @@
         "name": "list_test_cases_tags",
         "description": "List all tags defined within a specific QA Sphere project."
       }
-    },
-    "validated": true
+    }
   },
   "mcp-toolbox": {
     "category": "developer-tools",
@@ -8666,13 +8645,13 @@
   "mcp-developer-name": {
     "category": "developer-tools",
     "path": "developer-tools/mcp-developer-name.json",
+    "validated": true,
     "tools": {
       "get_current_developer_name": {
         "name": "get_current_developer_name",
         "description": "get current developer name"
       }
-    },
-    "validated": true
+    }
   },
   "python-toolbox": {
     "category": "developer-tools",
@@ -8705,6 +8684,7 @@
   "@nextdrive/github-action-trigger-mcp": {
     "category": "developer-tools",
     "path": "developer-tools/nextdrive-github-action-trigger-mcp.json",
+    "validated": true,
     "tools": {
       "get_github_actions": {
         "name": "get_github_actions",
@@ -8722,8 +8702,7 @@
         "name": "get_github_release",
         "description": "Get the latest 2 releases from a GitHub repository"
       }
-    },
-    "validated": true
+    }
   },
   "spring-ai": {
     "category": "developer-tools",
@@ -8736,6 +8715,7 @@
   "@ahdev/dokploy-mcp": {
     "category": "developer-tools",
     "path": "developer-tools/ahdev-dokploy-mcp.json",
+    "validated": true,
     "tools": {
       "project-all": {
         "name": "project-all",
@@ -8909,8 +8889,7 @@
         "name": "postgres-update",
         "description": "Updates an existing PostgreSQL database in Dokploy."
       }
-    },
-    "validated": true
+    }
   },
   "espresso-testing-framework": {
     "category": "developer-tools",
@@ -8943,12 +8922,13 @@
   "jotai-mcp-server": {
     "category": "developer-tools",
     "path": "developer-tools/jotai-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@jsonresume/mcp": {
     "category": "developer-tools",
     "path": "developer-tools/jsonresume-mcp.json",
+    "validated": true,
     "tools": {
       "github_analyze_codebase": {
         "name": "github_analyze_codebase",
@@ -8962,8 +8942,7 @@
         "name": "github_enhance_resume_with_project",
         "description": "This is a tool from the github MCP server.\nEnhances a GitHub user's JSON Resume with information about their current project"
       }
-    },
-    "validated": true
+    }
   },
   "paelladoc": {
     "category": "developer-tools",
@@ -8976,6 +8955,7 @@
   "@growthbook/mcp": {
     "category": "developer-tools",
     "path": "developer-tools/growthbook-mcp.json",
+    "validated": true,
     "tools": {
       "get_environments": {
         "name": "get_environments",
@@ -9033,8 +9013,7 @@
         "name": "search_growthbook_docs",
         "description": "Search the GrowthBook docs on how to use a feature"
       }
-    },
-    "validated": true
+    }
   },
   "container-use": {
     "category": "developer-tools",
@@ -9063,6 +9042,7 @@
   "deepsource-mcp-server": {
     "category": "developer-tools",
     "path": "developer-tools/deepsource-mcp-server.json",
+    "validated": true,
     "tools": {
       "projects": {
         "name": "projects",
@@ -9104,8 +9084,7 @@
         "name": "dependency_vulnerabilities",
         "description": "Get dependency vulnerabilities from a DeepSource project"
       }
-    },
-    "validated": true
+    }
   },
   "agile-flow": {
     "category": "developer-tools",
@@ -9158,6 +9137,7 @@
   "xcodemcp": {
     "category": "developer-tools",
     "path": "developer-tools/xcodemcp.json",
+    "validated": true,
     "tools": {
       "xcode_open_project": {
         "name": "xcode_open_project",
@@ -9231,8 +9211,7 @@
         "name": "xcresult_summary",
         "description": "Get a quick summary of test results from an XCResult file"
       }
-    },
-    "validated": true
+    }
   },
   "weekly-reports": {
     "category": "developer-tools",
@@ -9253,6 +9232,7 @@
   "gistpad-mcp": {
     "category": "developer-tools",
     "path": "developer-tools/gistpad-mcp.json",
+    "validated": true,
     "tools": {
       "list_archived_gists": {
         "name": "list_archived_gists",
@@ -9366,8 +9346,7 @@
         "name": "unstar_gist",
         "description": "Unstar a gist"
       }
-    },
-    "validated": true
+    }
   },
   "hostbridge": {
     "category": "developer-tools",
@@ -9420,6 +9399,7 @@
   "@coderide/mcp": {
     "category": "developer-tools",
     "path": "developer-tools/coderide-mcp.json",
+    "validated": true,
     "tools": {
       "start_project": {
         "name": "start_project",
@@ -9445,8 +9425,7 @@
         "name": "update_project",
         "description": "Updates a project's knowledge graph data and/or its structure diagram (in Mermaid.js format). The project is identified by its unique 'slug'. At least one of 'project_knowledge' or 'project_diagram' must be provided for an update to occur."
       }
-    },
-    "validated": true
+    }
   },
   "aerith-admin-(rbac-dashboard)": {
     "category": "developer-tools",
@@ -9507,8 +9486,8 @@
   "@wangmhaha/apifox-mcp-server": {
     "category": "developer-tools",
     "path": "developer-tools/wangmhaha-apifox-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "log-analyzer-mcp": {
     "category": "developer-tools",
@@ -9629,6 +9608,7 @@
   "xcodebuildmcp": {
     "category": "developer-tools",
     "path": "developer-tools/xcodebuildmcp.json",
+    "validated": true,
     "tools": {
       "discover_projs": {
         "name": "discover_projs",
@@ -9950,19 +9930,18 @@
         "name": "scaffold_macos_project",
         "description": "Scaffold a new macOS project from templates. Creates a modern Xcode project with workspace structure, SPM package for features, and proper macOS configuration."
       }
-    },
-    "validated": true
+    }
   },
   "@stakpak/mcp": {
     "category": "developer-tools",
     "path": "developer-tools/stakpak-mcp.json",
+    "validated": true,
     "tools": {
       "generate_infrastructure_code": {
         "name": "generate_infrastructure_code",
         "description": "Generates infrastructure code based on a natural language prompt and selected context"
       }
-    },
-    "validated": true
+    }
   },
   "jetbrains-ide": {
     "category": "developer-tools",
@@ -9979,8 +9958,8 @@
   "task-master-ai": {
     "category": "developer-tools",
     "path": "developer-tools/task-master-ai.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "hoverfly": {
     "category": "developer-tools",
@@ -10209,6 +10188,7 @@
   "@antv/mcp-server-chart": {
     "category": "data-science-tools",
     "path": "data-science-tools/antv-mcp-server-chart.json",
+    "validated": true,
     "tools": {
       "generate_area_chart": {
         "name": "generate_area_chart",
@@ -10310,8 +10290,7 @@
         "name": "generate_word_cloud_chart",
         "description": "Generate a word cloud chart to show word frequency or weight through text size variation, such as, analyzing common words in social media, reviews, or feedback."
       }
-    },
-    "validated": true
+    }
   },
   "spark-optimizer": {
     "category": "data-science-tools",
@@ -10432,6 +10411,7 @@
   "mcp-3d-printer-server": {
     "category": "embedded-system",
     "path": "embedded-system/mcp-3d-printer-server.json",
+    "validated": true,
     "tools": {
       "get_printer_status": {
         "name": "get_printer_status",
@@ -10493,8 +10473,7 @@
         "name": "lay_flat",
         "description": "Attempt to rotate the model so its largest flat face lies on the XY plane (Z=0)."
       }
-    },
-    "validated": true
+    }
   },
   "mcp2tcp": {
     "category": "embedded-system",
@@ -10591,8 +10570,8 @@
   "pinata-mcp": {
     "category": "file-systems",
     "path": "file-systems/pinata-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "file-system-observer": {
     "category": "file-systems",
@@ -10629,6 +10608,7 @@
   "mcp-ipfs": {
     "category": "file-systems",
     "path": "file-systems/mcp-ipfs.json",
+    "validated": true,
     "tools": {
       "w3_account_ls": {
         "name": "w3_account_ls",
@@ -10770,8 +10750,7 @@
         "name": "w3_usage_report",
         "description": "Displays a storage usage report for the current or specified space."
       }
-    },
-    "validated": true
+    }
   },
   "notes": {
     "category": "file-systems",
@@ -10828,6 +10807,7 @@
   "@zhiweixu/excel-mcp-server": {
     "category": "file-systems",
     "path": "file-systems/zhiweixu-excel-mcp-server.json",
+    "validated": true,
     "tools": {
       "analyzeExcelStructure": {
         "name": "analyzeExcelStructure",
@@ -10861,8 +10841,7 @@
         "name": "clearFileCache",
         "description": "Clear cached data for the specified Excel file"
       }
-    },
-    "validated": true
+    }
   },
   "filesystem-(quarkus)": {
     "category": "file-systems",
@@ -10903,6 +10882,7 @@
   "@aindreyway/mcp-neurolora": {
     "category": "file-systems",
     "path": "file-systems/aindreyway-mcp-neurolora.json",
+    "validated": true,
     "tools": {
       "collect_code": {
         "name": "collect_code",
@@ -10920,8 +10900,7 @@
         "name": "create_github_issues",
         "description": "Create GitHub issues from analysis results. Requires GitHub token."
       }
-    },
-    "validated": true
+    }
   },
   "file-system-tools": {
     "category": "file-systems",
@@ -10978,6 +10957,7 @@
   "@isaacphi/mcp-gdrive": {
     "category": "file-systems",
     "path": "file-systems/isaacphi-mcp-gdrive.json",
+    "validated": true,
     "tools": {
       "gdrive_search": {
         "name": "gdrive_search",
@@ -10995,8 +10975,7 @@
         "name": "gsheets_read",
         "description": "Read data from a Google Spreadsheet with flexible options for ranges and formatting"
       }
-    },
-    "validated": true
+    }
   },
   "claude-conversations-to-markdown": {
     "category": "file-systems",
@@ -11025,8 +11004,8 @@
   "base-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/base-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "a-share-financial-data-(baostock)": {
     "category": "finance-fintech",
@@ -11051,6 +11030,7 @@
   "@zbddev/payments-sdk-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/zbddev-payments-sdk-mcp.json",
+    "validated": true,
     "tools": {
       "create_charge_gamertags": {
         "name": "create_charge_gamertags",
@@ -11184,14 +11164,13 @@
         "name": "send_email_payments",
         "description": "Send instant Bitcoin payments to any email."
       }
-    },
-    "validated": true
+    }
   },
   "volume-wall-detector-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/volume-wall-detector-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "crypto-pro-apis-(defillama,-coingecko,-arkham)": {
     "category": "finance-fintech",
@@ -11212,6 +11191,7 @@
   "hubble-mcp-tool": {
     "category": "finance-fintech",
     "path": "finance-fintech/hubble-mcp-tool.json",
+    "validated": true,
     "tools": {
       "search-hubble": {
         "name": "search-hubble",
@@ -11221,12 +11201,12 @@
         "name": "generate-chart-hubble",
         "description": "Generate a chart using QuickChart API. Supports basic chart types (bar, line, pie). Customizable with colors, labels, and advanced chart options."
       }
-    },
-    "validated": true
+    }
   },
   "moneybird-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/moneybird-mcp-server.json",
+    "validated": true,
     "tools": {
       "list_contacts": {
         "name": "list_contacts",
@@ -11268,8 +11248,7 @@
         "name": "moneybird_assistant",
         "description": "Get assistance with using the Moneybird MCP server"
       }
-    },
-    "validated": true
+    }
   },
   "artemis-mcp": {
     "category": "finance-fintech",
@@ -11322,6 +11301,7 @@
   "@bujaayjaay/mcp-coincap-jj": {
     "category": "finance-fintech",
     "path": "finance-fintech/bujaayjaay-mcp-coincap-jj.json",
+    "validated": true,
     "tools": {
       "get-crypto-price": {
         "name": "get-crypto-price",
@@ -11335,8 +11315,7 @@
         "name": "get-historical-analysis",
         "description": "Get historical price analysis with customizable timeframe"
       }
-    },
-    "validated": true
+    }
   },
   "binance": {
     "category": "finance-fintech",
@@ -11353,6 +11332,7 @@
   "@iqai/mcp-bamm": {
     "category": "finance-fintech",
     "path": "finance-fintech/iqai-mcp-bamm.json",
+    "validated": true,
     "tools": {
       "ADD_COLLATERAL": {
         "name": "ADD_COLLATERAL",
@@ -11382,12 +11362,12 @@
         "name": "REPAY",
         "description": "Repay borrowed tokens to a BAMM position"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-crypto-price": {
     "category": "finance-fintech",
     "path": "finance-fintech/mcp-crypto-price.json",
+    "validated": true,
     "tools": {
       "get-crypto-price": {
         "name": "get-crypto-price",
@@ -11401,8 +11381,7 @@
         "name": "get-historical-analysis",
         "description": "Get historical price analysis with customizable timeframe"
       }
-    },
-    "validated": true
+    }
   },
   "ramp": {
     "category": "finance-fintech",
@@ -11423,6 +11402,7 @@
   "@xeroapi/xero-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/xeroapi-xero-mcp-server.json",
+    "validated": true,
     "tools": {
       "delete-timesheet": {
         "name": "delete-timesheet",
@@ -11628,8 +11608,7 @@
         "name": "update-tracking-options",
         "description": "Updates tracking options for a tracking category in Xero."
       }
-    },
-    "validated": true
+    }
   },
   "zerodha-kite": {
     "category": "finance-fintech",
@@ -11646,6 +11625,7 @@
   "tesouro-direto-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/tesouro-direto-mcp.json",
+    "validated": true,
     "tools": {
       "market_data": {
         "name": "market_data",
@@ -11659,8 +11639,7 @@
         "name": "search_bonds",
         "description": "Search for bonds by type (ANY,SELIC, IPCA, PREFIXADO) or maturity date range"
       }
-    },
-    "validated": true
+    }
   },
   "alpaca-trading": {
     "category": "finance-fintech",
@@ -11669,6 +11648,7 @@
   "findata-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/findata-mcp-server.json",
+    "validated": true,
     "tools": {
       "getStockQuote": {
         "name": "getStockQuote",
@@ -11678,8 +11658,7 @@
         "name": "getHistoricalData",
         "description": "Get historical data for a stock."
       }
-    },
-    "validated": true
+    }
   },
   "cb-insights": {
     "category": "finance-fintech",
@@ -11728,6 +11707,7 @@
   "mercadolibre-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/mercadolibre-mcp.json",
+    "validated": true,
     "tools": {
       "seller_reputation": {
         "name": "seller_reputation",
@@ -11741,8 +11721,7 @@
         "name": "product_description",
         "description": "Obtiene la descripción de un producto"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-server-twelve-data": {
     "category": "finance-fintech",
@@ -11783,6 +11762,7 @@
   "@coinstats/coinstats-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/coinstats-coinstats-mcp.json",
+    "validated": true,
     "tools": {
       "get-coins": {
         "name": "get-coins",
@@ -11904,8 +11884,7 @@
         "name": "get-share-token",
         "description": "Retrieves the saved portfolio share token from local cache."
       }
-    },
-    "validated": true
+    }
   },
   "square": {
     "category": "finance-fintech",
@@ -11926,6 +11905,7 @@
   "manifold-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/manifold-mcp-server.json",
+    "validated": true,
     "tools": {
       "search_markets": {
         "name": "search_markets",
@@ -11963,8 +11943,7 @@
         "name": "send_mana",
         "description": "Send mana to other users"
       }
-    },
-    "validated": true
+    }
   },
   "futu-api": {
     "category": "finance-fintech",
@@ -11985,6 +11964,7 @@
   "xero-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/xero-mcp.json",
+    "validated": true,
     "tools": {
       "authenticate": {
         "name": "authenticate",
@@ -12034,8 +12014,7 @@
         "name": "list_quotes",
         "description": "Retrieves sales quotes"
       }
-    },
-    "validated": true
+    }
   },
   "extend_ai_toolkit": {
     "category": "finance-fintech",
@@ -12044,8 +12023,8 @@
   "@getalby/nwc-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/getalby-nwc-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "luno": {
     "category": "finance-fintech",
@@ -12054,6 +12033,7 @@
   "dodopayments-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/dodopayments-mcp.json",
+    "validated": true,
     "tools": {
       "create_payments": {
         "name": "create_payments",
@@ -12283,8 +12263,7 @@
         "name": "update_images_brands",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "xtquant-ai": {
     "category": "finance-fintech",
@@ -12301,6 +12280,7 @@
   "square-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/square-mcp-server.json",
+    "validated": true,
     "tools": {
       "make_api_request": {
         "name": "make_api_request",
@@ -12314,8 +12294,7 @@
         "name": "get_service_info",
         "description": "Get information about a Square API service. Call me before trying to get type info"
       }
-    },
-    "validated": true
+    }
   },
   "adfin-financial-management": {
     "category": "finance-fintech",
@@ -12324,6 +12303,7 @@
   "lunchmoney-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/lunchmoney-mcp.json",
+    "validated": true,
     "tools": {
       "get-budget-summary": {
         "name": "get-budget-summary",
@@ -12341,8 +12321,7 @@
         "name": "get-category-spending",
         "description": "Get spending in a category"
       }
-    },
-    "validated": true
+    }
   },
   "whale-tracker": {
     "category": "finance-fintech",
@@ -12363,13 +12342,13 @@
   "fred-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/fred-mcp-server.json",
+    "validated": true,
     "tools": {
       "RRPONTSYD": {
         "name": "RRPONTSYD",
         "description": "Retrieve data for Overnight Reverse Repurchase Agreements (RRPONTSYD) from FRED"
       }
-    },
-    "validated": true
+    }
   },
   "coinmarketcap": {
     "category": "finance-fintech",
@@ -12426,6 +12405,7 @@
   "bitrefill-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/bitrefill-mcp-server.json",
+    "validated": true,
     "tools": {
       "search": {
         "name": "search",
@@ -12475,8 +12455,7 @@
         "name": "ping",
         "description": "Check if the Bitrefill API is available"
       }
-    },
-    "validated": true
+    }
   },
   "razorpay": {
     "category": "finance-fintech",
@@ -12497,6 +12476,7 @@
   "octagon-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/octagon-mcp.json",
+    "validated": true,
     "tools": {
       "octagon-agent": {
         "name": "octagon-agent",
@@ -12558,8 +12538,7 @@
         "name": "octagon-crypto-agent",
         "description": "[PUBLIC MARKET INTELLIGENCE] Specialized agent for cryptocurrency market data and analysis. Capabilities: Retrieve comprehensive cryptocurrency listings from global exchanges, access historical price data and end-of-day charts, get real-time quotes and live price snapshots, search cryptocurrency news articles, and analyze crypto market trends. Best for: Cryptocurrency research, price analysis, market monitoring, and staying updated with crypto news. Example queries: 'Get a comprehensive list of all cryptocurrencies traded on global exchanges', 'Retrieve historical end-of-day price data for BTCUSD from 2020-01-01 to 2024-12-31', 'Retrieve the real-time quote for ETHUSD', 'Retrieve a short live price snapshot for many cryptocurrencies', 'Search news articles for BTCUSD, ETHUSD from 2025-01-01 to 2025-06-13, limited to 20 results on page 0'."
       }
-    },
-    "validated": true
+    }
   },
   "coinmarket": {
     "category": "finance-fintech",
@@ -12588,8 +12567,8 @@
   "@paddle/paddle-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/paddle-paddle-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "tigerbeetle": {
     "category": "finance-fintech",
@@ -12638,19 +12617,19 @@
   "@getalby/lightning-tools-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/getalby-lightning-tools-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@akki91/ankr-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/akki91-ankr-mcp.json",
+    "validated": true,
     "tools": {
       "get_token_balances_on_network": {
         "name": "get_token_balances_on_network",
         "description": "Gets all token balances for a given address on a specific network"
       }
-    },
-    "validated": true
+    }
   },
   "norman-finance": {
     "category": "finance-fintech",
@@ -12667,8 +12646,8 @@
   "@paypal/mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/paypal-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "openregister": {
     "category": "finance-fintech",
@@ -12693,6 +12672,7 @@
   "base-network-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/base-network-mcp-server.json",
+    "validated": true,
     "tools": {
       "process_command": {
         "name": "process_command",
@@ -12710,8 +12690,7 @@
         "name": "list_wallets",
         "description": "List all available wallets"
       }
-    },
-    "validated": true
+    }
   },
   "beanquery-(beancount-ledger)": {
     "category": "finance-fintech",
@@ -12728,6 +12707,7 @@
   "search-stock-news-mcp": {
     "category": "finance-fintech",
     "path": "finance-fintech/search-stock-news-mcp.json",
+    "validated": true,
     "tools": {
       "search-stock-news": {
         "name": "search-stock-news",
@@ -12737,8 +12717,7 @@
         "name": "general-search",
         "description": "Perform a general web search using Tavily API"
       }
-    },
-    "validated": true
+    }
   },
   "minecraft-rcon": {
     "category": "gaming",
@@ -12795,13 +12774,13 @@
   "flomo-mcp": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/flomo-mcp.json",
+    "validated": true,
     "tools": {
       "write_note": {
         "name": "write_note",
         "description": "Write note to flomo"
       }
-    },
-    "validated": true
+    }
   },
   "sourcesage": {
     "category": "knowledge-memory",
@@ -12810,6 +12789,7 @@
   "sourcesyncai-mcp": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/sourcesyncai-mcp.json",
+    "validated": true,
     "tools": {
       "validateApiKey": {
         "name": "validateApiKey",
@@ -12911,8 +12891,7 @@
         "name": "fetchUrlContent",
         "description": "Fetches the content of a URL. Particularly useful for fetching parsed text file URLs."
       }
-    },
-    "validated": true
+    }
   },
   "zotero-mcp": {
     "category": "knowledge-memory",
@@ -12945,6 +12924,7 @@
   "esa-mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/esa-mcp-server.json",
+    "validated": true,
     "tools": {
       "search_esa_posts": {
         "name": "search_esa_posts",
@@ -12958,12 +12938,12 @@
         "name": "read_esa_multiple_posts",
         "description": "Read multiple posts in esa.io."
       }
-    },
-    "validated": true
+    }
   },
   "systemprompt-mcp-notion": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/systemprompt-mcp-notion.json",
+    "validated": true,
     "tools": {
       "systemprompt_list_notion_pages": {
         "name": "systemprompt_list_notion_pages",
@@ -12997,12 +12977,12 @@
         "name": "systemprompt_delete_notion_page",
         "description": "Permanently deletes a specified Notion page and all its contents. This action cannot be undone, so use with caution."
       }
-    },
-    "validated": true
+    }
   },
   "@professional-wiki/mediawiki-mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/professional-wiki-mediawiki-mcp-server.json",
+    "validated": true,
     "tools": {
       "get-page": {
         "name": "get-page",
@@ -13032,8 +13012,7 @@
         "name": "create-page",
         "description": "Creates a wiki page with the provided content."
       }
-    },
-    "validated": true
+    }
   },
   "groundx-rag": {
     "category": "knowledge-memory",
@@ -13078,6 +13057,7 @@
   "notion-mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/notion-mcp-server.json",
+    "validated": true,
     "tools": {
       "notion_pages": {
         "name": "notion_pages",
@@ -13099,14 +13079,13 @@
         "name": "notion_users",
         "description": "Perform various user operations (list, get, get bot)"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-confluence": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/mcp-confluence.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "knowledge-base": {
     "category": "knowledge-memory",
@@ -13119,6 +13098,7 @@
   "@itseasy21/mcp-knowledge-graph": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/itseasy21-mcp-knowledge-graph.json",
+    "validated": true,
     "tools": {
       "create_entities": {
         "name": "create_entities",
@@ -13164,8 +13144,7 @@
         "name": "update_relations",
         "description": "Update multiple existing relations in the knowledge graph"
       }
-    },
-    "validated": true
+    }
   },
   "logseq-mcp": {
     "category": "knowledge-memory",
@@ -13190,6 +13169,7 @@
   "tana-mcp": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/tana-mcp.json",
+    "validated": true,
     "tools": {
       "create_plain_node": {
         "name": "create_plain_node",
@@ -13235,8 +13215,7 @@
         "name": "create_field",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "code-embeddings": {
     "category": "knowledge-memory",
@@ -13253,8 +13232,8 @@
   "@myjungle/docu-mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/myjungle-docu-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "txtai": {
     "category": "knowledge-memory",
@@ -13271,6 +13250,7 @@
   "onyx-mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/onyx-mcp-server.json",
+    "validated": true,
     "tools": {
       "search_onyx": {
         "name": "search_onyx",
@@ -13280,8 +13260,7 @@
         "name": "chat_with_onyx",
         "description": "Chat with Onyx to get comprehensive answers"
       }
-    },
-    "validated": true
+    }
   },
   "memory-manager": {
     "category": "knowledge-memory",
@@ -13306,6 +13285,7 @@
   "@kj455/mcp-kibela": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/kj455-mcp-kibela.json",
+    "validated": true,
     "tools": {
       "kibela_search_notes": {
         "name": "kibela_search_notes",
@@ -13331,8 +13311,7 @@
         "name": "kibela_create_note",
         "description": "Create a new note in Kibela."
       }
-    },
-    "validated": true
+    }
   },
   "mem0.ai-memory-manager": {
     "category": "knowledge-memory",
@@ -13357,29 +13336,30 @@
   "mcp-memory-libsql": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/mcp-memory-libsql.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "obsidian-mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/obsidian-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@readwise/readwise-mcp": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/readwise-readwise-mcp.json",
+    "validated": true,
     "tools": {
       "search_readwise_highlights": {
         "name": "search_readwise_highlights",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "@gleanwork/mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/gleanwork-mcp-server.json",
+    "validated": true,
     "tools": {
       "company_search": {
         "name": "company_search",
@@ -13393,14 +13373,13 @@
         "name": "people_profile_search",
         "description": "Search for people profiles in the company\n\n        Example request:\n\n        {\n            \"query\": \"Find people named John Doe\",\n            \"filters\": {\n                \"department\": \"Engineering\",\n                \"city\": \"San Francisco\"\n            },\n            \"pageSize\": 10\n        }\n\n        "
       }
-    },
-    "validated": true
+    }
   },
   "@delorenj/mcp-qdrant-memory": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/delorenj-mcp-qdrant-memory.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "memory-service": {
     "category": "knowledge-memory",
@@ -13465,8 +13444,8 @@
   "@kazuph/mcp-obsidian": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/kazuph-mcp-obsidian.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "chat-analysis": {
     "category": "knowledge-memory",
@@ -13487,8 +13466,8 @@
   "@aindreyway/mcp-codex-keeper": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/aindreyway-mcp-codex-keeper.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "optimized-memory": {
     "category": "knowledge-memory",
@@ -13521,12 +13500,13 @@
   "@iachilles/memento": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/iachilles-memento.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@suekou/mcp-notion-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/suekou-mcp-notion-server.json",
+    "validated": true,
     "tools": {
       "notion_append_block_children": {
         "name": "notion_append_block_children",
@@ -13600,8 +13580,7 @@
         "name": "notion_search",
         "description": "Search pages or databases by title in Notion"
       }
-    },
-    "validated": true
+    }
   },
   "kakao-local": {
     "category": "location-services",
@@ -13626,6 +13605,7 @@
   "@cablate/mcp-google-map": {
     "category": "location-services",
     "path": "location-services/cablate-mcp-google-map.json",
+    "validated": true,
     "tools": {
       "search_nearby": {
         "name": "search_nearby",
@@ -13655,8 +13635,7 @@
         "name": "maps_elevation",
         "description": "獲取位置的海拔數據"
       }
-    },
-    "validated": true
+    }
   },
   "ip-geolocation": {
     "category": "location-services",
@@ -13693,13 +13672,13 @@
   "@swonixs/weatherapi-mcp": {
     "category": "location-services",
     "path": "location-services/swonixs-weatherapi-mcp.json",
+    "validated": true,
     "tools": {
       "get_weather": {
         "name": "get_weather",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "aemet_mcp": {
     "category": "location-services",
@@ -13716,6 +13695,7 @@
   "@baidumap/mcp-server-baidu-map": {
     "category": "location-services",
     "path": "location-services/baidumap-mcp-server-baidu-map.json",
+    "validated": true,
     "tools": {
       "map_geocode": {
         "name": "map_geocode",
@@ -13757,8 +13737,7 @@
         "name": "map_poi_extract",
         "description": "POI智能标注"
       }
-    },
-    "validated": true
+    }
   },
   "cep-(brazilian-postal-code)": {
     "category": "location-services",
@@ -13779,8 +13758,8 @@
   "mcp-openweathermap": {
     "category": "location-services",
     "path": "location-services/mcp-openweathermap.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "national-weather-service": {
     "category": "location-services",
@@ -13837,6 +13816,7 @@
   "instagram-engagement-mcp": {
     "category": "marketing",
     "path": "marketing/instagram-engagement-mcp.json",
+    "validated": true,
     "tools": {
       "analyze_post_comments": {
         "name": "analyze_post_comments",
@@ -13858,8 +13838,7 @@
         "name": "generate_engagement_report",
         "description": "Generate a comprehensive engagement report for an Instagram account"
       }
-    },
-    "validated": true
+    }
   },
   "meta-ads-mcp": {
     "category": "marketing",
@@ -13868,6 +13847,7 @@
   "@feedmob/jampp-reporting": {
     "category": "marketing",
     "path": "marketing/feedmob-jampp-reporting.json",
+    "validated": true,
     "tools": {
       "get_campaign_spend": {
         "name": "get_campaign_spend",
@@ -13877,8 +13857,7 @@
         "name": "get_campaign_daily_spend",
         "description": "Get the daily spend per campaign for a particular time range from Jampp Reporting API"
       }
-    },
-    "validated": true
+    }
   },
   "osp-marketing-tools": {
     "category": "marketing",
@@ -13887,6 +13866,7 @@
   "@felores/placid-mcp-server": {
     "category": "marketing",
     "path": "marketing/felores-placid-mcp-server.json",
+    "validated": true,
     "tools": {
       "placid_list_templates": {
         "name": "placid_list_templates",
@@ -13900,8 +13880,7 @@
         "name": "placid_generate_video",
         "description": "Generate a video using one or more templates and provided assets. Every 10 seconds of video uses 10 credits."
       }
-    },
-    "validated": true
+    }
   },
   "facebook-ads-library": {
     "category": "marketing",
@@ -13914,6 +13893,7 @@
   "@feedmob/singular-reporting": {
     "category": "marketing",
     "path": "marketing/feedmob-singular-reporting.json",
+    "validated": true,
     "tools": {
       "create_report": {
         "name": "create_report",
@@ -13923,14 +13903,13 @@
         "name": "get_singular_report",
         "description": "Get the complete report from Singular. Checks status and automatically downloads the CSV report data when ready."
       }
-    },
-    "validated": true
+    }
   },
   "@marketplaceadpros/amazon-ads-mcp-server": {
     "category": "marketing",
     "path": "marketing/marketplaceadpros-amazon-ads-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mailchimp": {
     "category": "marketing",
@@ -13943,6 +13922,7 @@
   "@feedmob/kayzen-reporting": {
     "category": "marketing",
     "path": "marketing/feedmob-kayzen-reporting.json",
+    "validated": true,
     "tools": {
       "list_reports": {
         "name": "list_reports",
@@ -13952,8 +13932,7 @@
         "name": "get_report_results",
         "description": "Get the results of a report from Kayzen Reporting API"
       }
-    },
-    "validated": true
+    }
   },
   "facebook-ads": {
     "category": "marketing",
@@ -13974,6 +13953,7 @@
   "@hiyorineko/mcp-rollbar-server": {
     "category": "monitoring",
     "path": "monitoring/hiyorineko-mcp-rollbar-server.json",
+    "validated": true,
     "tools": {
       "rollbar_list_items": {
         "name": "rollbar_list_items",
@@ -14027,8 +14007,7 @@
         "name": "rollbar_get_deploy",
         "description": "Get a specific deploy from Rollbar"
       }
-    },
-    "validated": true
+    }
   },
   "json-logs": {
     "category": "monitoring",
@@ -14049,6 +14028,7 @@
   "@kajirita2002/honeycomb-mcp-server": {
     "category": "monitoring",
     "path": "monitoring/kajirita2002-honeycomb-mcp-server.json",
+    "validated": true,
     "tools": {
       "honeycomb_auth": {
         "name": "honeycomb_auth",
@@ -14094,8 +14074,7 @@
         "name": "honeycomb_board_get",
         "description": "Get information about a specific board. Boards are a place to pin and save useful queries and graphs you want to retain for later reuse and reference."
       }
-    },
-    "validated": true
+    }
   },
   "victorialogs": {
     "category": "monitoring",
@@ -14112,6 +14091,7 @@
   "mcp-solarwinds": {
     "category": "monitoring",
     "path": "monitoring/mcp-solarwinds.json",
+    "validated": true,
     "tools": {
       "search_logs": {
         "name": "search_logs",
@@ -14121,14 +14101,13 @@
         "name": "visualize_logs",
         "description": "Generate a histogram visualization of log events"
       }
-    },
-    "validated": true
+    }
   },
   "@dynatrace-oss/dynatrace-mcp-server": {
     "category": "monitoring",
     "path": "monitoring/dynatrace-oss-dynatrace-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-ntopng": {
     "category": "monitoring",
@@ -14137,8 +14116,8 @@
   "@winor30/mcp-server-datadog": {
     "category": "monitoring",
     "path": "monitoring/winor30-mcp-server-datadog.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "prometheus": {
     "category": "monitoring",
@@ -14211,6 +14190,7 @@
   "sentry-issues-mcp": {
     "category": "monitoring",
     "path": "monitoring/sentry-issues-mcp.json",
+    "validated": true,
     "tools": {
       "get_single_event": {
         "name": "get_single_event",
@@ -14220,8 +14200,7 @@
         "name": "get_project_events",
         "description": "get issue events by inputting sentry organization id or slug and sentry project name or slug"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-server-aliyun-observability": {
     "category": "monitoring",
@@ -14266,6 +14245,7 @@
   "mcp-data-extractor": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-data-extractor.json",
+    "validated": true,
     "tools": {
       "extract_data": {
         "name": "extract_data",
@@ -14275,8 +14255,7 @@
         "name": "extract_svg",
         "description": "Extract SVG components from React/TypeScript/JavaScript files into individual .svg files. This tool will preserve the SVG structure and attributes while removing React-specific code. By default, the source file will be replaced with \"MIGRATED TO <target absolute path>\" and a warning message after successful extraction, making it easy to track where the SVGs were moved to. This behaviour can be disabled by setting the DISABLE_SOURCE_REPLACEMENT environment variable to 'true'. The warning message can be customized by setting the WARNING_MESSAGE environment variable."
       }
-    },
-    "validated": true
+    }
   },
   "gpt-researcher": {
     "category": "search-data-extraction",
@@ -14289,13 +14268,13 @@
   "scraperis-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/scraperis-mcp.json",
+    "validated": true,
     "tools": {
       "scrape": {
         "name": "scrape",
         "description": "Scrape a single webpage with advanced options for content extraction. \nAlways returns both markdown content and visual screenshot for rich context. \nSupports various formats including markdown, HTML, screenshots, JSON, and quick. \nThe prompt should include the website URL and what data you want to extract. \nFor example: 'Get me the top 10 products from producthunt.com' or \n'Extract all article titles and authors from techcrunch.com/news'"
       }
-    },
-    "validated": true
+    }
   },
   "perplexity-web-search": {
     "category": "search-data-extraction",
@@ -14312,6 +14291,7 @@
   "hermes-search-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/hermes-search-mcp.json",
+    "validated": true,
     "tools": {
       "search-documents": {
         "name": "search-documents",
@@ -14325,23 +14305,23 @@
         "name": "delete-index",
         "description": "Delete the Azure Cognitive Search index"
       }
-    },
-    "validated": true
+    }
   },
   "agentql-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/agentql-mcp.json",
+    "validated": true,
     "tools": {
       "extract-web-data": {
         "name": "extract-web-data",
         "description": "Extracts structured data as JSON from a web page given a URL using a Natural Language description of the data."
       }
-    },
-    "validated": true
+    }
   },
   "pickapicon-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/pickapicon-mcp.json",
+    "validated": true,
     "tools": {
       "get_icon_repos": {
         "name": "get_icon_repos",
@@ -14355,8 +14335,7 @@
         "name": "get_icon_detail_by_prefix_and_name",
         "description": "get icon detail by prefix and svg name"
       }
-    },
-    "validated": true
+    }
   },
   "oxylabs-mcp": {
     "category": "search-data-extraction",
@@ -14373,13 +14352,13 @@
   "@adenot/mcp-google-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/adenot-mcp-google-search.json",
+    "validated": true,
     "tools": {
       "search": {
         "name": "search",
         "description": "Perform a web search query"
       }
-    },
-    "validated": true
+    }
   },
   "markdown-web-crawl": {
     "category": "search-data-extraction",
@@ -14388,13 +14367,13 @@
   "octagon-deep-research-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/octagon-deep-research-mcp.json",
+    "validated": true,
     "tools": {
       "octagon-deep-research-agent": {
         "name": "octagon-deep-research-agent",
         "description": "A specialized agent for deep research and comprehensive analysis across any topic or domain. Capabilities: Multi-source data aggregation, web scraping, academic research synthesis, competitive analysis, market intelligence, technical analysis, policy research, trend analysis, and comprehensive report generation. Best for: Any research question requiring comprehensive, multi-source analysis and synthesis. Example queries: 'Research the current state of quantum computing development and commercial applications', 'Analyze the competitive landscape in the electric vehicle market focusing on battery technology and supply chains', 'Investigate recent developments in AI regulation across different countries and their potential impact', 'Research sustainable agriculture practices and their adoption rates globally', 'Analyze the gig economy's impact on traditional employment models', 'Study the evolution of remote work policies post-pandemic and their effectiveness', 'Research breakthrough medical treatments for Alzheimer's disease in the last 3 years', 'Investigate cybersecurity threats in IoT devices and mitigation strategies', 'Analyze renewable energy adoption trends and policy drivers worldwide', 'Research the impact of social media algorithms on information consumption patterns'."
       }
-    },
-    "validated": true
+    }
   },
   "fastdomaincheck": {
     "category": "search-data-extraction",
@@ -14411,13 +14390,13 @@
   "@humansean/mcp-bocha": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/humansean-mcp-bocha.json",
+    "validated": true,
     "tools": {
       "mcp-bocha_search": {
         "name": "mcp-bocha_search",
         "description": "Search the web for information"
       }
-    },
-    "validated": true
+    }
   },
   "searxng-simple-mcp": {
     "category": "search-data-extraction",
@@ -14430,6 +14409,7 @@
   "@cyanheads/pubmed-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/cyanheads-pubmed-mcp-server.json",
+    "validated": true,
     "tools": {
       "fetch_pubmed_content": {
         "name": "fetch_pubmed_content",
@@ -14451,8 +14431,7 @@
         "name": "search_pubmed_articles",
         "description": "Searches PubMed for articles using a query term and optional filters (max results, sort, date range, publication types). Uses NCBI ESearch to find PMIDs and ESummary (optional) for brief summaries. Returns a JSON object with search parameters, ESearch term, result counts, PMIDs, optional summaries (PMID, title, authors, source, dates), and E-utility URLs."
       }
-    },
-    "validated": true
+    }
   },
   "crawlab": {
     "category": "search-data-extraction",
@@ -14469,14 +14448,14 @@
   "@rebers/4o-mini-search-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/rebers-4o-mini-search-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "nexus-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/nexus-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "newshub": {
     "category": "search-data-extraction",
@@ -14489,6 +14468,7 @@
   "search1api-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/search1api-mcp.json",
+    "validated": true,
     "tools": {
       "search": {
         "name": "search",
@@ -14514,8 +14494,7 @@
         "name": "trending",
         "description": "Get trending topics from popular platforms"
       }
-    },
-    "validated": true
+    }
   },
   "typesense-candidate-search": {
     "category": "search-data-extraction",
@@ -14580,6 +14559,7 @@
   "orion-vision-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/orion-vision-mcp.json",
+    "validated": true,
     "tools": {
       "analyze-document": {
         "name": "analyze-document",
@@ -14589,8 +14569,7 @@
         "name": "extract-form-data",
         "description": "Extracts structured data from forms using Azure Form Recognizer"
       }
-    },
-    "validated": true
+    }
   },
   "youtube-dlp-server": {
     "category": "search-data-extraction",
@@ -14599,8 +14578,8 @@
   "@suthio/brave-deep-research-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/suthio-brave-deep-research-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "searxng-search": {
     "category": "search-data-extraction",
@@ -14629,13 +14608,13 @@
   "docfork": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/docfork.json",
+    "validated": true,
     "tools": {
       "get-library-docs": {
         "name": "get-library-docs",
         "description": "Retrieves up-to-date documentation and code examples for any library. This tool automatically searches for the library by name and fetches its documentation.\n\nUsage:\n1. Provide the author and library name pair (e.g., \"vercel/next.js\", \"shadcn-ui/ui\", \"vuejs/docs\")\n2. Specify a topic to focus the documentation on (e.g., \"dynamic\", \"routing\", \"authentication\")\n\nThe tool will:\n1. Automatically find and select the most relevant library based on the provided name\n2. Fetch comprehensive documentation for the selected library\n3. Return relevant sections focused on the specified topic\n\nResponse includes:\n- Library selection explanation\n- Comprehensive documentation with code examples\n- Focused content if a topic was specified"
       }
-    },
-    "validated": true
+    }
   },
   "exa-web-search": {
     "category": "search-data-extraction",
@@ -14652,6 +14631,7 @@
   "news-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/news-mcp-server.json",
+    "validated": true,
     "tools": {
       "get-latest-news": {
         "name": "get-latest-news",
@@ -14665,12 +14645,12 @@
         "name": "get-latest-crypto-news",
         "description": "Fetch the latest cryptocurrency news. Optionally, filter by specific coin (e.g. btc, eth,usdt,bnb), language (e.g. ne, en, fr) or tag (e.g. blockchain, liquidity, scam) for more tailored updates."
       }
-    },
-    "validated": true
+    }
   },
   "one-search-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/one-search-mcp.json",
+    "validated": true,
     "tools": {
       "one_search": {
         "name": "one_search",
@@ -14688,8 +14668,7 @@
         "name": "one_map",
         "description": "Discover URLs from a starting point. Can use both sitemap.xml and HTML link discovery."
       }
-    },
-    "validated": true
+    }
   },
   "pubmed-mcp-server": {
     "category": "search-data-extraction",
@@ -14726,6 +14705,7 @@
   "linkd-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/linkd-mcp.json",
+    "validated": true,
     "tools": {
       "search_for_users": {
         "name": "search_for_users",
@@ -14755,8 +14735,7 @@
         "name": "check_deep_research_status",
         "description": "Check the status of an ongoing deep research job."
       }
-    },
-    "validated": true
+    }
   },
   "mcp-simple-pubmed": {
     "category": "search-data-extraction",
@@ -14785,6 +14764,7 @@
   "mcp-server-dumplingai": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-server-dumplingai.json",
+    "validated": true,
     "tools": {
       "get-youtube-transcript": {
         "name": "get-youtube-transcript",
@@ -14894,8 +14874,7 @@
         "name": "run-python-code",
         "description": "Execute Python code in a sandbox."
       }
-    },
-    "validated": true
+    }
   },
   "bocha-search": {
     "category": "search-data-extraction",
@@ -14932,8 +14911,8 @@
   "mcp-duckduckgo-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-duckduckgo-search.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "minima-(local-rag)": {
     "category": "search-data-extraction",
@@ -14970,6 +14949,7 @@
   "better-fetch-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/better-fetch-mcp.json",
+    "validated": true,
     "tools": {
       "fetch_website_nested": {
         "name": "fetch_website_nested",
@@ -14979,8 +14959,7 @@
         "name": "fetch_website_single",
         "description": "Fetch content from a single webpage and convert to clean markdown"
       }
-    },
-    "validated": true
+    }
   },
   "elastic-semantic-search": {
     "category": "search-data-extraction",
@@ -15009,6 +14988,7 @@
   "@mcptools/mcp-tavily": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcptools-mcp-tavily.json",
+    "validated": true,
     "tools": {
       "search": {
         "name": "search",
@@ -15026,8 +15006,7 @@
         "name": "extract",
         "description": "Extract and process content from a list of URLs using Tavily API. Can handle up to 20 URLs at once."
       }
-    },
-    "validated": true
+    }
   },
   "vertex-ai-search": {
     "category": "search-data-extraction",
@@ -15064,6 +15043,7 @@
   "mcp-omnisearch": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-omnisearch.json",
+    "validated": true,
     "tools": {
       "tavily_search": {
         "name": "tavily_search",
@@ -15125,8 +15105,7 @@
         "name": "kagi_enrichment_enhance",
         "description": "Provides supplementary content from specialized indexes (Teclis for web, TinyGem for news). Ideal for discovering non-mainstream results and enriching content with specialized knowledge."
       }
-    },
-    "validated": true
+    }
   },
   "youtube-semantic-search": {
     "category": "search-data-extraction",
@@ -15155,19 +15134,19 @@
   "newsnow-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/newsnow-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_hotest_latest_news": {
         "name": "get_hotest_latest_news",
         "description": "get hotest or latest news from source by {id}, return {count: 10} news."
       }
-    },
-    "validated": true
+    }
   },
   "@hannesrudolph/mcp-ragdocs": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/hannesrudolph-mcp-ragdocs.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "search-analytics-(google-search-console-&-analytics-4)": {
     "category": "search-data-extraction",
@@ -15192,6 +15171,7 @@
   "mcp-private-github-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-private-github-search.json",
+    "validated": true,
     "tools": {
       "getFileContents": {
         "name": "getFileContents",
@@ -15209,8 +15189,7 @@
         "name": "getCommitHistory",
         "description": "Get commit history for the configured repository (MOCK/MOCK) within the last X days, focusing on actual file changes and diffs."
       }
-    },
-    "validated": true
+    }
   },
   "outscraper": {
     "category": "search-data-extraction",
@@ -15227,6 +15206,7 @@
   "mcp-tavily-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-tavily-search.json",
+    "validated": true,
     "tools": {
       "tavily_search": {
         "name": "tavily_search",
@@ -15240,8 +15220,7 @@
         "name": "tavily_qna_search",
         "description": "Get direct answers to questions using Tavily search"
       }
-    },
-    "validated": true
+    }
   },
   "wordware-research": {
     "category": "search-data-extraction",
@@ -15258,6 +15237,7 @@
   "jfk-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/jfk-mcp.json",
+    "validated": true,
     "tools": {
       "jfk-text-search": {
         "name": "jfk-text-search",
@@ -15279,8 +15259,7 @@
         "name": "jfk-get-page-png",
         "description": "Retrieve PNG images for specific pages of a JFK document"
       }
-    },
-    "validated": true
+    }
   },
   "nih-reporter": {
     "category": "search-data-extraction",
@@ -15309,13 +15288,13 @@
   "@search-intent/mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/search-intent-mcp.json",
+    "validated": true,
     "tools": {
       "search_intent_analysis": {
         "name": "search_intent_analysis",
         "description": "A tool for analyzing search intent and user behavior.\n\nFeatures:\n- Analyze search query intent\n- Identify relevant topic categories\n- Provide search suggestions\n- Offer reference links\n\nExamples:\n\"iphone 15\" → Product research/purchase intent\n\"python tutorial\" → Learning intent\n\nResponse format:\n- query: Original search term\n- intent: Search intention\n- categories: Related categories\n- suggestions: Related search terms\n- references: Reference links"
       }
-    },
-    "validated": true
+    }
   },
   "semantic-scholar": {
     "category": "search-data-extraction",
@@ -15328,6 +15307,7 @@
   "scrapeless-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/scrapeless-mcp-server.json",
+    "validated": true,
     "tools": {
       "google-search": {
         "name": "google-search",
@@ -15337,8 +15317,7 @@
         "name": "google-flights-search",
         "description": "Search for flights using Google Flights via Scrapeless API"
       }
-    },
-    "validated": true
+    }
   },
   "dappier-(real-time-data-search)": {
     "category": "search-data-extraction",
@@ -15347,28 +15326,29 @@
   "@tongxiao/common-search-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/tongxiao-common-search-mcp-server.json",
+    "validated": true,
     "tools": {
       "common_search": {
         "name": "common_search",
         "description": "标准搜索接口提供增强的网络开放域的实时搜索能力，通过大模型优化与多数据源融合的技术，查询干净、准确、多样、高质量的结果。"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-perplexity-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-perplexity-search.json",
+    "validated": true,
     "tools": {
       "chat_completion": {
         "name": "chat_completion",
         "description": "Generate chat completions using the Perplexity API"
       }
-    },
-    "validated": true
+    }
   },
   "clinicaltrialsgov-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/clinicaltrialsgov-mcp-server.json",
+    "validated": true,
     "tools": {
       "clinicaltrials_get_study": {
         "name": "clinicaltrials_get_study",
@@ -15378,19 +15358,18 @@
         "name": "clinicaltrials_list_studies",
         "description": "Searches for clinical studies using a combination of query terms and filters. Supports pagination."
       }
-    },
-    "validated": true
+    }
   },
   "mcp-jinaai-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-jinaai-search.json",
+    "validated": true,
     "tools": {
       "search": {
         "name": "search",
         "description": "Search the web and get clean, LLM-friendly content using Jina.ai Reader. Returns top 5 results with URLs and clean content."
       }
-    },
-    "validated": true
+    }
   },
   "hugging-face-hub-search": {
     "category": "search-data-extraction",
@@ -15431,6 +15410,7 @@
   "@kazuph/mcp-pocket": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/kazuph-mcp-pocket.json",
+    "validated": true,
     "tools": {
       "pocket_get_articles": {
         "name": "pocket_get_articles",
@@ -15440,8 +15420,7 @@
         "name": "pocket_mark_as_read",
         "description": "Marks a specific Pocket article as read (archived) using its item ID."
       }
-    },
-    "validated": true
+    }
   },
   "openai-websearch-mcp": {
     "category": "search-data-extraction",
@@ -15506,6 +15485,7 @@
   "jina-ai-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/jina-ai-mcp-server.json",
+    "validated": true,
     "tools": {
       "read_webpage": {
         "name": "read_webpage",
@@ -15519,12 +15499,12 @@
         "name": "fact_check",
         "description": "Fact-check a statement using Jina AI's grounding engine"
       }
-    },
-    "validated": true
+    }
   },
   "puremd-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/puremd-mcp.json",
+    "validated": true,
     "tools": {
       "unblock-url": {
         "name": "unblock-url",
@@ -15534,8 +15514,7 @@
         "name": "search-web",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "naver-openapi": {
     "category": "search-data-extraction",
@@ -15556,6 +15535,7 @@
   "mcp-server-gsc": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-server-gsc.json",
+    "validated": true,
     "tools": {
       "list_sites": {
         "name": "list_sites",
@@ -15581,8 +15561,7 @@
         "name": "submit_sitemap",
         "description": "Submit a sitemap for a site in Google Search Console"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-server-everything-search": {
     "category": "search-data-extraction",
@@ -15615,6 +15594,7 @@
   "serper-search-scrape-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/serper-search-scrape-mcp-server.json",
+    "validated": true,
     "tools": {
       "google_search": {
         "name": "google_search",
@@ -15624,8 +15604,7 @@
         "name": "scrape",
         "description": "Tool to scrape a webpage and retrieve the text and, optionally, the markdown content. It will retrieve also the JSON-LD metadata and the head metadata."
       }
-    },
-    "validated": true
+    }
   },
   "deep-research": {
     "category": "search-data-extraction",
@@ -15654,6 +15633,7 @@
   "fetchserp-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/fetchserp-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_backlinks": {
         "name": "get_backlinks",
@@ -15735,8 +15715,7 @@
         "name": "get_webpage_seo_analysis",
         "description": "Get SEO analysis for a given url"
       }
-    },
-    "validated": true
+    }
   },
   "pride-archive-search": {
     "category": "search-data-extraction",
@@ -15749,6 +15728,7 @@
   "@unifuncs/ufn-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/unifuncs-ufn-mcp-server.json",
+    "validated": true,
     "tools": {
       "web-search": {
         "name": "web-search",
@@ -15758,8 +15738,7 @@
         "name": "web-reader",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "solr-vector-search": {
     "category": "search-data-extraction",
@@ -15772,6 +15751,7 @@
   "youtube-data-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/youtube-data-mcp-server.json",
+    "validated": true,
     "tools": {
       "getVideoDetails": {
         "name": "getVideoDetails",
@@ -15809,12 +15789,12 @@
         "name": "compareVideos",
         "description": "Compares multiple videos based on their statistics. Returns a comparison of view counts, like counts, comment counts, and other metrics for the specified videos. Use this when you want to analyze the performance of multiple videos side by side."
       }
-    },
-    "validated": true
+    }
   },
   "mcp-package-version": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-package-version.json",
+    "validated": true,
     "tools": {
       "check_npm_versions": {
         "name": "check_npm_versions",
@@ -15860,8 +15840,7 @@
         "name": "check_github_actions",
         "description": "Check latest versions for GitHub Actions"
       }
-    },
-    "validated": true
+    }
   },
   "document-crawler-&-search": {
     "category": "search-data-extraction",
@@ -15878,6 +15857,7 @@
   "mcp-maigret": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-maigret.json",
+    "validated": true,
     "tools": {
       "search_username": {
         "name": "search_username",
@@ -15887,8 +15867,7 @@
         "name": "parse_url",
         "description": "Parse a URL to extract information and search for associated usernames"
       }
-    },
-    "validated": true
+    }
   },
   "python-documentation-search": {
     "category": "search-data-extraction",
@@ -15909,13 +15888,13 @@
   "@kevinwatt/mcp-server-searxng": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/kevinwatt-mcp-server-searxng.json",
+    "validated": true,
     "tools": {
       "web_search": {
         "name": "web_search",
         "description": "Performs a web search using SearXNG, ideal for general queries, news, articles and online content. Supports multiple search categories, languages, time ranges and safe search filtering. Returns relevant results from multiple search engines combined."
       }
-    },
-    "validated": true
+    }
   },
   "crawl4ai-rag": {
     "category": "search-data-extraction",
@@ -15972,6 +15951,7 @@
   "@burtthecoder/mcp-shodan": {
     "category": "security",
     "path": "security/burtthecoder-mcp-shodan.json",
+    "validated": true,
     "tools": {
       "ip_lookup": {
         "name": "ip_lookup",
@@ -16001,8 +15981,7 @@
         "name": "reverse_dns_lookup",
         "description": "Perform reverse DNS lookups to find hostnames associated with IP addresses. Supports batch lookups of multiple IP addresses in a single query. Returns all known hostnames for each IP address, with clear indication when no hostnames are found."
       }
-    },
-    "validated": true
+    }
   },
   "netbird": {
     "category": "security",
@@ -16047,6 +16026,7 @@
   "@usegrant/mcp": {
     "category": "security",
     "path": "security/usegrant-mcp.json",
+    "validated": true,
     "tools": {
       "list_providers": {
         "name": "list_providers",
@@ -16152,8 +16132,7 @@
         "name": "delete_tenant_provider_policy",
         "description": "Delete a policy for a tenant provider"
       }
-    },
-    "validated": true
+    }
   },
   "joern-(code-analysis)": {
     "category": "security",
@@ -16206,8 +16185,8 @@
   "@pangeacyber/mcp-server": {
     "category": "security",
     "path": "security/pangeacyber-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "keyfactor-command": {
     "category": "security",
@@ -16216,6 +16195,7 @@
   "keycloak-mcp": {
     "category": "security",
     "path": "security/keycloak-mcp.json",
+    "validated": true,
     "tools": {
       "create-user": {
         "name": "create-user",
@@ -16253,8 +16233,7 @@
         "name": "list-client-roles",
         "description": "List roles in a specific client"
       }
-    },
-    "validated": true
+    }
   },
   "pfsense": {
     "category": "security",
@@ -16311,6 +16290,7 @@
   "keycloak-model-context-protocol": {
     "category": "security",
     "path": "security/keycloak-model-context-protocol.json",
+    "validated": true,
     "tools": {
       "create-user": {
         "name": "create-user",
@@ -16328,8 +16308,7 @@
         "name": "list-users",
         "description": "List users in a specific realm"
       }
-    },
-    "validated": true
+    }
   },
   "semgrep": {
     "category": "security",
@@ -16414,6 +16393,7 @@
   "@burtthecoder/mcp-virustotal": {
     "category": "security",
     "path": "security/burtthecoder-mcp-virustotal.json",
+    "validated": true,
     "tools": {
       "get_url_report": {
         "name": "get_url_report",
@@ -16443,12 +16423,12 @@
         "name": "get_domain_report",
         "description": "Get a comprehensive domain analysis report including DNS records, WHOIS data, and key relationships (SSL certificates, subdomains, historical data). Optionally specify which relationships to include in the report. Returns both the basic analysis and relationship data."
       }
-    },
-    "validated": true
+    }
   },
   "@binalyze/air-mcp": {
     "category": "security",
     "path": "security/binalyze-air-mcp.json",
+    "validated": true,
     "tools": {
       "list_assets": {
         "name": "list_assets",
@@ -16914,8 +16894,7 @@
         "name": "update_banner_message",
         "description": "Update the system banner message settings"
       }
-    },
-    "validated": true
+    }
   },
   "memprocfs": {
     "category": "security",
@@ -17036,6 +17015,7 @@
   "@makeplane/plane-mcp-server": {
     "category": "support-service-management",
     "path": "support-service-management/makeplane-plane-mcp-server.json",
+    "validated": true,
     "tools": {
       "list_issue_types": {
         "name": "list_issue_types",
@@ -17221,8 +17201,7 @@
         "name": "delete_worklog",
         "description": "Delete a worklog"
       }
-    },
-    "validated": true
+    }
   },
   "smart-customer-support": {
     "category": "support-service-management",
@@ -17243,6 +17222,7 @@
   "jira-mcp": {
     "category": "support-service-management",
     "path": "support-service-management/jira-mcp.json",
+    "validated": true,
     "tools": {
       "jql_search": {
         "name": "jql_search",
@@ -17252,14 +17232,13 @@
         "name": "get_issue",
         "description": "Retrieve details about an issue by its ID or key."
       }
-    },
-    "validated": true
+    }
   },
   "feishu-project-mcp": {
     "category": "support-service-management",
     "path": "support-service-management/feishu-project-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "clickup": {
     "category": "support-service-management",
@@ -17268,8 +17247,8 @@
   "teamretro-mcp-server": {
     "category": "support-service-management",
     "path": "support-service-management/teamretro-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "hh-jira-mcp-server": {
     "category": "support-service-management",
@@ -17278,6 +17257,7 @@
   "@shortcut/mcp": {
     "category": "support-service-management",
     "path": "support-service-management/shortcut-mcp.json",
+    "validated": true,
     "tools": {
       "get-current-user": {
         "name": "get-current-user",
@@ -17407,12 +17387,12 @@
         "name": "list-workflows",
         "description": "List all Shortcut workflows"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-server-linearapp": {
     "category": "support-service-management",
     "path": "support-service-management/mcp-server-linearapp.json",
+    "validated": true,
     "tools": {
       "linear_create_issue": {
         "name": "linear_create_issue",
@@ -17490,8 +17470,7 @@
         "name": "linear_get_issue_relations",
         "description": "Get relationships for an issue in Linear"
       }
-    },
-    "validated": true
+    }
   },
   "freshdesk-mcp": {
     "category": "support-service-management",
@@ -17500,6 +17479,7 @@
   "@makingchatbots/genesys-cloud-mcp-server": {
     "category": "support-service-management",
     "path": "support-service-management/makingchatbots-genesys-cloud-mcp-server.json",
+    "validated": true,
     "tools": {
       "search_queues": {
         "name": "search_queues",
@@ -17533,8 +17513,7 @@
         "name": "conversation_transcript",
         "description": "Retrieves a structured transcript of the conversation, including speaker labels, utterance timestamps, and sentiment annotations where available. The transcript is formatted as a time-aligned list of utterances attributed to each participant (e.g., customer or agent)"
       }
-    },
-    "validated": true
+    }
   },
   "zendesk": {
     "category": "support-service-management",
@@ -17547,6 +17526,7 @@
   "@parassolanki/jira-mcp-server": {
     "category": "support-service-management",
     "path": "support-service-management/parassolanki-jira-mcp-server.json",
+    "validated": true,
     "tools": {
       "list_projects": {
         "name": "list_projects",
@@ -17568,8 +17548,7 @@
         "name": "create_issue",
         "description": "Create an issue in Jira"
       }
-    },
-    "validated": true
+    }
   },
   "rootly-mcp-server": {
     "category": "support-service-management",
@@ -17578,6 +17557,7 @@
   "mcp-linear": {
     "category": "support-service-management",
     "path": "support-service-management/mcp-linear.json",
+    "validated": true,
     "tools": {
       "create_issue": {
         "name": "create_issue",
@@ -17599,8 +17579,7 @@
         "name": "add_comment",
         "description": "Adds a comment to an existing Linear issue. Supports markdown formatting in the comment body. Can optionally specify a custom user name and avatar for the comment. Returns the created comment's details including its URL."
       }
-    },
-    "validated": true
+    }
   },
   "connectwise-manage-api": {
     "category": "support-service-management",
@@ -17609,6 +17588,7 @@
   "@cristip73/mcp-server-asana": {
     "category": "support-service-management",
     "path": "support-service-management/cristip73-mcp-server-asana.json",
+    "validated": true,
     "tools": {
       "asana_list_workspaces": {
         "name": "asana_list_workspaces",
@@ -17774,8 +17754,7 @@
         "name": "asana_download_attachment",
         "description": "Download an attachment locally"
       }
-    },
-    "validated": true
+    }
   },
   "devrev-mcp": {
     "category": "support-service-management",
@@ -17808,6 +17787,7 @@
   "clickup-mcp-server": {
     "category": "support-service-management",
     "path": "support-service-management/clickup-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_workspace_seats": {
         "name": "get_workspace_seats",
@@ -17977,8 +17957,7 @@
         "name": "create_threaded_comment",
         "description": "Create a new threaded comment (reply) to a parent comment. Supports notification settings."
       }
-    },
-    "validated": true
+    }
   },
   "linear": {
     "category": "support-service-management",
@@ -17991,6 +17970,7 @@
   "advocu-mcp-server": {
     "category": "support-service-management",
     "path": "support-service-management/advocu-mcp-server.json",
+    "validated": true,
     "tools": {
       "submit_content_creation": {
         "name": "submit_content_creation",
@@ -18020,8 +18000,7 @@
         "name": "submit_story",
         "description": "Submit a story activity draft"
       }
-    },
-    "validated": true
+    }
   },
   "testrail-mcp": {
     "category": "support-service-management",
@@ -18030,6 +18009,7 @@
   "@mcp-devtools/jira": {
     "category": "support-service-management",
     "path": "support-service-management/mcp-devtools-jira.json",
+    "validated": true,
     "tools": {
       "execute_jql": {
         "name": "execute_jql",
@@ -18091,12 +18071,12 @@
         "name": "add_attachment_from_confluence",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "deepl-mcp-server": {
     "category": "translation-services",
     "path": "translation-services/deepl-mcp-server.json",
+    "validated": true,
     "tools": {
       "get-source-languages": {
         "name": "get-source-languages",
@@ -18118,8 +18098,7 @@
         "name": "rephrase-text",
         "description": "Rephrase text in the same language using DeepL API"
       }
-    },
-    "validated": true
+    }
   },
   "youtube-translate": {
     "category": "translation-services",
@@ -18136,6 +18115,7 @@
   "@translated/lara-mcp": {
     "category": "translation-services",
     "path": "translation-services/translated-lara-mcp.json",
+    "validated": true,
     "tools": {
       "translate": {
         "name": "translate",
@@ -18177,12 +18157,12 @@
         "name": "list_languages",
         "description": "Lists all supported languages in your Lara Translate account."
       }
-    },
-    "validated": true
+    }
   },
   "@variflight-ai/variflight-mcp": {
     "category": "travel-transportation",
     "path": "travel-transportation/variflight-ai-variflight-mcp.json",
+    "validated": true,
     "tools": {
       "searchFlightsByDepArr": {
         "name": "searchFlightsByDepArr",
@@ -18216,8 +18196,7 @@
         "name": "searchFlightItineraries",
         "description": "Search for purchasable flight options and the lowest price using the departure city three-letter code, arrival city three-letter code, and departure date. (e.g. BJS for Beijing, SHA for Shanghai, CAN for Guangzhou, HFE for Hefei)."
       }
-    },
-    "validated": true
+    }
   },
   "vilnius-transport": {
     "category": "travel-transportation",
@@ -18234,6 +18213,7 @@
   "@gongrzhe/server-travelplanner-mcp": {
     "category": "travel-transportation",
     "path": "travel-transportation/gongrzhe-server-travelplanner-mcp.json",
+    "validated": true,
     "tools": {
       "create_itinerary": {
         "name": "create_itinerary",
@@ -18255,8 +18235,7 @@
         "name": "get_accommodations",
         "description": "Searches for accommodation options in a specified location"
       }
-    },
-    "validated": true
+    }
   },
   "transport-nsw": {
     "category": "travel-transportation",
@@ -18285,6 +18264,7 @@
   "@mfukushim/map-traveler-mcp": {
     "category": "travel-transportation",
     "path": "travel-transportation/mfukushim-map-traveler-mcp.json",
+    "validated": true,
     "tools": {
       "get_traveler_view_info": {
         "name": "get_traveler_view_info",
@@ -18318,8 +18298,7 @@
         "name": "stop_traveler_journey",
         "description": "Stop the traveler's journey"
       }
-    },
-    "validated": true
+    }
   },
   "flights-mcp": {
     "category": "travel-transportation",
@@ -18328,6 +18307,7 @@
   "lumbretravel-mcp": {
     "category": "travel-transportation",
     "path": "travel-transportation/lumbretravel-mcp.json",
+    "validated": true,
     "tools": {
       "get_program": {
         "name": "get_program",
@@ -18601,8 +18581,7 @@
         "name": "get_services_by_name",
         "description": "Buscar servicios por su nombre, retorna la lista de servicios encontrados."
       }
-    },
-    "validated": true
+    }
   },
   "sncf-train-journey-planner": {
     "category": "travel-transportation",
@@ -18615,6 +18594,7 @@
   "@missionsquad/mcp-github": {
     "category": "version-control",
     "path": "version-control/missionsquad-mcp-github.json",
+    "validated": true,
     "tools": {
       "create_or_update_file": {
         "name": "create_or_update_file",
@@ -18796,14 +18776,13 @@
         "name": "get_pull_request_diff",
         "description": "Get the diff for a pull request"
       }
-    },
-    "validated": true
+    }
   },
   "github-repos-manager-mcp": {
     "category": "version-control",
     "path": "version-control/github-repos-manager-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "github-repository-explorer": {
     "category": "version-control",
@@ -18836,6 +18815,7 @@
   "@yoda.digital/gitlab-mcp-server": {
     "category": "version-control",
     "path": "version-control/yoda-digital-gitlab-mcp-server.json",
+    "validated": true,
     "tools": {
       "create_or_update_file": {
         "name": "create_or_update_file",
@@ -18957,8 +18937,7 @@
         "name": "list_issue_discussions",
         "description": "Fetch all discussions (threaded comments) for a GitLab issue"
       }
-    },
-    "validated": true
+    }
   },
   "git-mcp": {
     "category": "version-control",
@@ -18971,6 +18950,7 @@
   "github-repo-mcp": {
     "category": "version-control",
     "path": "version-control/github-repo-mcp.json",
+    "validated": true,
     "tools": {
       "getRepoAllDirectories": {
         "name": "getRepoAllDirectories",
@@ -18984,8 +18964,7 @@
         "name": "getRepoFile",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "github-chat-mcp": {
     "category": "version-control",
@@ -19014,6 +18993,7 @@
   "@nexus2520/bitbucket-mcp-server": {
     "category": "version-control",
     "path": "version-control/nexus2520-bitbucket-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_pull_request": {
         "name": "get_pull_request",
@@ -19079,12 +19059,12 @@
         "name": "get_file_content",
         "description": "Get file content from a repository with smart truncation for large files"
       }
-    },
-    "validated": true
+    }
   },
   "gitee-mcp-server": {
     "category": "version-control",
     "path": "version-control/gitee-mcp-server.json",
+    "validated": true,
     "tools": {
       "create_repository": {
         "name": "create_repository",
@@ -19166,8 +19146,7 @@
         "name": "get_current_user",
         "description": "获取当前认证的 Gitee 用户信息"
       }
-    },
-    "validated": true
+    }
   },
   "github-agentic-chat": {
     "category": "version-control",
@@ -19228,13 +19207,13 @@
   "mcp-git-commit-aider": {
     "category": "version-control",
     "path": "version-control/mcp-git-commit-aider.json",
+    "validated": true,
     "tools": {
       "commit_staged": {
         "name": "commit_staged",
         "description": "Commit staged changes with a specific message, appending \"(aider)\" to the committer name."
       }
-    },
-    "validated": true
+    }
   },
   "openapi-link": {
     "category": "other-tools-and-integrations",
@@ -19287,6 +19266,7 @@
   "coda-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/coda-mcp.json",
+    "validated": true,
     "tools": {
       "coda_list_documents": {
         "name": "coda_list_documents",
@@ -19324,8 +19304,7 @@
         "name": "coda_rename_page",
         "description": "Rename a page in the current document"
       }
-    },
-    "validated": true
+    }
   },
   "tpc-server": {
     "category": "other-tools-and-integrations",
@@ -19350,6 +19329,7 @@
   "@baruchiro/paperless-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/baruchiro-paperless-mcp.json",
+    "validated": true,
     "tools": {
       "bulk_edit_documents": {
         "name": "bulk_edit_documents",
@@ -19443,8 +19423,7 @@
         "name": "bulk_edit_document_types",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "bci-mcp-(brain-computer-interface)": {
     "category": "other-tools-and-integrations",
@@ -19517,6 +19496,7 @@
   "@keegancsmith/linear-issues-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/keegancsmith-linear-issues-mcp-server.json",
+    "validated": true,
     "tools": {
       "linear_get_issue": {
         "name": "linear_get_issue",
@@ -19526,8 +19506,7 @@
         "name": "linear_get_issue_with_comments",
         "description": "Fetch a Linear issue with all its comments and complete information."
       }
-    },
-    "validated": true
+    }
   },
   "second-opinion": {
     "category": "other-tools-and-integrations",
@@ -19584,6 +19563,7 @@
   "ai-expert-workflow-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/ai-expert-workflow-mcp.json",
+    "validated": true,
     "tools": {
       "consultExpert": {
         "name": "consultExpert",
@@ -19597,8 +19577,7 @@
         "name": "expertWorkflow",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "locust": {
     "category": "other-tools-and-integrations",
@@ -19615,6 +19594,7 @@
   "heybeauty-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/heybeauty-mcp.json",
+    "validated": true,
     "tools": {
       "submit_tryon_task": {
         "name": "submit_tryon_task",
@@ -19624,8 +19604,7 @@
         "name": "query_tryon_task",
         "description": "Query a tryon task with task id"
       }
-    },
-    "validated": true
+    }
   },
   "cheerlights": {
     "category": "other-tools-and-integrations",
@@ -19634,6 +19613,7 @@
   "linear-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/linear-mcp-server.json",
+    "validated": true,
     "tools": {
       "linear_create_issue": {
         "name": "linear_create_issue",
@@ -19655,12 +19635,12 @@
         "name": "linear_add_comment",
         "description": "Adds a comment to an existing Linear issue. Supports markdown formatting in the comment body. Can optionally specify a custom user name and avatar for the comment. Returns the created comment's details including its URL."
       }
-    },
-    "validated": true
+    }
   },
   "productboard-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/productboard-mcp.json",
+    "validated": true,
     "tools": {
       "get_products": {
         "name": "get_products",
@@ -19706,8 +19686,7 @@
         "name": "get_company_detail",
         "description": "Returns detailed information about a specific company"
       }
-    },
-    "validated": true
+    }
   },
   "dicom-connectivity": {
     "category": "other-tools-and-integrations",
@@ -19752,6 +19731,7 @@
   "todoist-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/todoist-mcp-server.json",
+    "validated": true,
     "tools": {
       "listTasks": {
         "name": "listTasks",
@@ -19885,12 +19865,12 @@
         "name": "removeSharedLabel",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "promptopia-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/promptopia-mcp.json",
+    "validated": true,
     "tools": {
       "add_prompt": {
         "name": "add_prompt",
@@ -19920,8 +19900,7 @@
         "name": "add_multi_message_prompt",
         "description": "Adds a new multi-message prompt with role-based messages"
       }
-    },
-    "validated": true
+    }
   },
   "midi-output": {
     "category": "other-tools-and-integrations",
@@ -19982,6 +19961,7 @@
   "@kajirita2002/esa-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/kajirita2002-esa-mcp-server.json",
+    "validated": true,
     "tools": {
       "esa_list_posts": {
         "name": "esa_list_posts",
@@ -20019,8 +19999,7 @@
         "name": "esa_get_member",
         "description": "Get information about a specific team member"
       }
-    },
-    "validated": true
+    }
   },
   "jmeter": {
     "category": "other-tools-and-integrations",
@@ -20045,17 +20024,18 @@
   "@pinkpixel/notification-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/pinkpixel-notification-mcp.json",
+    "validated": true,
     "tools": {
       "play_notification": {
         "name": "play_notification",
         "description": "Play a notification sound to indicate task completion"
       }
-    },
-    "validated": true
+    }
   },
   "@greirson/mcp-todoist": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/greirson-mcp-todoist.json",
+    "validated": true,
     "tools": {
       "todoist_task_create": {
         "name": "todoist_task_create",
@@ -20169,8 +20149,7 @@
         "name": "todoist_test_performance",
         "description": "Measure performance and response times of Todoist API operations"
       }
-    },
-    "validated": true
+    }
   },
   "claude-api": {
     "category": "other-tools-and-integrations",
@@ -20223,8 +20202,8 @@
   "mcp-summarization-functions": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-summarization-functions.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "minizinc-complex-logic-solver": {
     "category": "other-tools-and-integrations",
@@ -20233,6 +20212,7 @@
   "mcp-server-ens": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-ens.json",
+    "validated": true,
     "tools": {
       "resolve-name": {
         "name": "resolve-name",
@@ -20266,8 +20246,7 @@
         "name": "get-registration-price",
         "description": "Get the price to register an ENS name"
       }
-    },
-    "validated": true
+    }
   },
   "aqicn-air-quality": {
     "category": "other-tools-and-integrations",
@@ -20292,6 +20271,7 @@
   "mcp-apifox": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-apifox.json",
+    "validated": true,
     "tools": {
       "get_apifox_project_id_and_api_id_from_url": {
         "name": "get_apifox_project_id_and_api_id_from_url",
@@ -20301,8 +20281,7 @@
         "name": "get_apifox_api_info",
         "description": "Get the info of Apifox API."
       }
-    },
-    "validated": true
+    }
   },
   "soundcloud-downloader": {
     "category": "other-tools-and-integrations",
@@ -20311,6 +20290,7 @@
   "@tfedorko/licensespring-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/tfedorko-licensespring-mcp-server.json",
+    "validated": true,
     "tools": {
       "activate_license": {
         "name": "activate_license",
@@ -20384,8 +20364,7 @@
         "name": "deactivate_offline",
         "description": "Deactivate a license for offline use with hardware ID and product code"
       }
-    },
-    "validated": true
+    }
   },
   "blender": {
     "category": "other-tools-and-integrations",
@@ -20418,6 +20397,7 @@
   "@inkdropapp/mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/inkdropapp-mcp-server.json",
+    "validated": true,
     "tools": {
       "read-note": {
         "name": "read-note",
@@ -20447,8 +20427,7 @@
         "name": "list-tags",
         "description": "Retrieve a list of all tags"
       }
-    },
-    "validated": true
+    }
   },
   "ynu": {
     "category": "other-tools-and-integrations",
@@ -20477,13 +20456,13 @@
   "deepseek-thinker-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/deepseek-thinker-mcp.json",
+    "validated": true,
     "tools": {
       "get-deepseek-thinker": {
         "name": "get-deepseek-thinker",
         "description": "think with deepseek"
       }
-    },
-    "validated": true
+    }
   },
   "dify-workflow": {
     "category": "other-tools-and-integrations",
@@ -20528,6 +20507,7 @@
   "@promptz/mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/promptz-mcp.json",
+    "validated": true,
     "tools": {
       "list_prompts": {
         "name": "list_prompts",
@@ -20545,8 +20525,7 @@
         "name": "get_rule",
         "description": "Get a specific project rule by name"
       }
-    },
-    "validated": true
+    }
   },
   "yolo-computer-vision": {
     "category": "other-tools-and-integrations",
@@ -20607,6 +20586,7 @@
   "@nutrient-sdk/dws-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/nutrient-sdk-dws-mcp-server.json",
+    "validated": true,
     "tools": {
       "document_processor": {
         "name": "document_processor",
@@ -20620,8 +20600,7 @@
         "name": "directory_tree",
         "description": "Returns the directory tree of a given path. All paths are resolved relative to root directory."
       }
-    },
-    "validated": true
+    }
   },
   "linkedin-job-assistant": {
     "category": "other-tools-and-integrations",
@@ -20666,6 +20645,7 @@
   "@thomaswawra/server-spotify": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/thomaswawra-server-spotify.json",
+    "validated": true,
     "tools": {
       "get_access_token": {
         "name": "get_access_token",
@@ -20771,12 +20751,12 @@
         "name": "get_category_playlists",
         "description": "Get a list of Spotify playlists tagged with a particular category"
       }
-    },
-    "validated": true
+    }
   },
   "todoist-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/todoist-mcp.json",
+    "validated": true,
     "tools": {
       "get_comments_list": {
         "name": "get_comments_list",
@@ -20918,8 +20898,7 @@
         "name": "utils_get_colors",
         "description": "Get available colors for projects, labels, filters in Todoist"
       }
-    },
-    "validated": true
+    }
   },
   "iflytek-workflow": {
     "category": "other-tools-and-integrations",
@@ -21044,6 +21023,7 @@
   "@pinkpixel/taskflow-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/pinkpixel-taskflow-mcp.json",
+    "validated": true,
     "tools": {
       "plan_task": {
         "name": "plan_task",
@@ -21113,8 +21093,7 @@
         "name": "add_dependency",
         "description": "Add a dependency to a request or task.\n\nDependencies can be libraries, tools, or other requirements needed for the project or specific tasks.\n\nIf 'taskId' is provided, the dependency will be added to that specific task. Otherwise, it will be added to the request."
       }
-    },
-    "validated": true
+    }
   },
   "revit-mcp": {
     "category": "other-tools-and-integrations",
@@ -21127,6 +21106,7 @@
   "dart-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/dart-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_config": {
         "name": "get_config",
@@ -21192,12 +21172,12 @@
         "name": "get_view",
         "description": "Retrieve an existing view by its ID. Returns the view's information including title, description, and all tasks within it."
       }
-    },
-    "validated": true
+    }
   },
   "dubco-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/dubco-mcp-server.json",
+    "validated": true,
     "tools": {
       "create_link": {
         "name": "create_link",
@@ -21211,8 +21191,7 @@
         "name": "delete_link",
         "description": "Delete a short link on dub.co"
       }
-    },
-    "validated": true
+    }
   },
   "systems-modeling": {
     "category": "other-tools-and-integrations",
@@ -21249,6 +21228,7 @@
   "@abhiz123/todoist-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/abhiz123-todoist-mcp-server.json",
+    "validated": true,
     "tools": {
       "todoist_create_task": {
         "name": "todoist_create_task",
@@ -21270,14 +21250,13 @@
         "name": "todoist_complete_task",
         "description": "Mark a task as complete by searching for it by name"
       }
-    },
-    "validated": true
+    }
   },
   "polygon-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/polygon-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "brewfather": {
     "category": "other-tools-and-integrations",
@@ -21298,8 +21277,8 @@
   "@rijk/directus-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/rijk-directus-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "sequential-story": {
     "category": "other-tools-and-integrations",
@@ -21320,6 +21299,7 @@
   "webflow-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/webflow-mcp-server.json",
+    "validated": true,
     "tools": {
       "ask_webflow_ai": {
         "name": "ask_webflow_ai",
@@ -21449,8 +21429,7 @@
         "name": "sites_publish",
         "description": "Publish a site to specified domains. This will make the latest changes live on the specified domains."
       }
-    },
-    "validated": true
+    }
   },
   "reddit": {
     "category": "other-tools-and-integrations",
@@ -21467,8 +21446,8 @@
   "mcp-server-supos": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-supos.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-slicer": {
     "category": "other-tools-and-integrations",
@@ -21501,6 +21480,7 @@
   "tianji-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/tianji-mcp-server.json",
+    "validated": true,
     "tools": {
       "tianji_get_survey_results": {
         "name": "tianji_get_survey_results",
@@ -21534,19 +21514,18 @@
         "name": "tianji_get_website_metrics",
         "description": "Get specific metrics for a website (url, referrer, browser, os, etc.)"
       }
-    },
-    "validated": true
+    }
   },
   "@automation-ai-labs/mcp-wait": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/automation-ai-labs-mcp-wait.json",
+    "validated": true,
     "tools": {
       "wait": {
         "name": "wait",
         "description": "Wait for a specified number of seconds, useful for waiting for other tasks to finish"
       }
-    },
-    "validated": true
+    }
   },
   "personal-health-tracker": {
     "category": "other-tools-and-integrations",
@@ -21571,8 +21550,8 @@
   "tts-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/tts-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "owl-mcp": {
     "category": "other-tools-and-integrations",
@@ -21605,6 +21584,7 @@
   "@missionsquad/mcp-helper-tools": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/missionsquad-mcp-helper-tools.json",
+    "validated": true,
     "tools": {
       "encodeBase64": {
         "name": "encodeBase64",
@@ -21662,8 +21642,7 @@
         "name": "compareHashes",
         "description": "Compare two hashes in constant time"
       }
-    },
-    "validated": true
+    }
   },
   "e-gonghun-(korean-military-service-records)": {
     "category": "other-tools-and-integrations",
@@ -21680,6 +21659,7 @@
   "@cyanheads/toolkit-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/cyanheads-toolkit-mcp-server.json",
+    "validated": true,
     "tools": {
       "getCurrentTime": {
         "name": "getCurrentTime",
@@ -21745,8 +21725,7 @@
         "name": "compareHashes",
         "description": "Compare two hashes in constant time"
       }
-    },
-    "validated": true
+    }
   },
   "tripo-mcp": {
     "category": "other-tools-and-integrations",
@@ -21763,6 +21742,7 @@
   "grok-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/grok-mcp.json",
+    "validated": true,
     "tools": {
       "chat_completion": {
         "name": "chat_completion",
@@ -21776,8 +21756,7 @@
         "name": "function_calling",
         "description": "Use Grok AI to call functions based on user input"
       }
-    },
-    "validated": true
+    }
   },
   "rfk-jr-gateway": {
     "category": "other-tools-and-integrations",
@@ -21834,8 +21813,8 @@
   "speech-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/speech-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "powerpoint-presentations": {
     "category": "other-tools-and-integrations",
@@ -21860,8 +21839,8 @@
   "@testomatio/mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/testomatio-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "dolphinscheduler": {
     "category": "other-tools-and-integrations",
@@ -21870,8 +21849,8 @@
   "mcp-google-calendar": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-google-calendar.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "confluence": {
     "category": "other-tools-and-integrations",
@@ -21884,6 +21863,7 @@
   "@kunihiros/patsnap-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/kunihiros-patsnap-mcp.json",
+    "validated": true,
     "tools": {
       "get_patent_trends": {
         "name": "get_patent_trends",
@@ -21925,8 +21905,7 @@
         "name": "get_portfolio_value_distribution",
         "description": "Assess the lucrativeness of a technology space based on the spread of estimated patent valuation (simple families). Higher value buckets indicate more lucrative technologies. Design patents are excluded. Note: Search must contain either keywords or IPC. If both are provided, IPC is prioritized."
       }
-    },
-    "validated": true
+    }
   },
   "hippycampus-(openapi-tools)": {
     "category": "other-tools-and-integrations",
@@ -21943,6 +21922,7 @@
   "@ibraheem4/eventbrite-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/ibraheem4-eventbrite-mcp.json",
+    "validated": true,
     "tools": {
       "search_events": {
         "name": "search_events",
@@ -21960,8 +21940,7 @@
         "name": "get_venue",
         "description": "Get information about a specific Eventbrite venue"
       }
-    },
-    "validated": true
+    }
   },
   "reaper": {
     "category": "other-tools-and-integrations",
@@ -21974,17 +21953,18 @@
   "meme-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/meme-mcp.json",
+    "validated": true,
     "tools": {
       "generateMeme": {
         "name": "generateMeme",
         "description": "Generate a meme image from Imgflip using the numeric template id and text"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-server-novacv": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-novacv.json",
+    "validated": true,
     "tools": {
       "generate_resume_from_text": {
         "name": "generate_resume_from_text",
@@ -22002,8 +21982,7 @@
         "name": "analyze_resume_text",
         "description": "对简历文本进行深度分析，提供专业评估和改进建议。系统会分析简历的完整性、关键词使用、技能匹配度等方面，并给出针对性的优化建议，帮助求职者打造更具竞争力的简历。"
       }
-    },
-    "validated": true
+    }
   },
   "dicom": {
     "category": "other-tools-and-integrations",
@@ -22028,6 +22007,7 @@
   "shopify-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/shopify-mcp-server.json",
+    "validated": true,
     "tools": {
       "get-products": {
         "name": "get-products",
@@ -22089,8 +22069,7 @@
         "name": "manage-webhook",
         "description": "Subscribe, find, or unsubscribe webhooks"
       }
-    },
-    "validated": true
+    }
   },
   "elevenlabs-text-to-speech": {
     "category": "other-tools-and-integrations",
@@ -22111,8 +22090,8 @@
   "@sanity/mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/sanity-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "hr-policy-chatbot": {
     "category": "other-tools-and-integrations",
@@ -22125,6 +22104,7 @@
   "@moralisweb3/api-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/moralisweb3-api-mcp-server.json",
+    "validated": true,
     "tools": {
       "getwalletnfts": {
         "name": "getwalletnfts",
@@ -22446,19 +22426,18 @@
         "name": "getmultipletokenanalytics",
         "description": "Fetch analytics for multiple tokens, including buy volume, sell volume, buyers, sellers, transactions, liquidity and FDV trends over time. Accepts an array of up to 200 `tokens`, each requiring `chain` and `tokenAddress`."
       }
-    },
-    "validated": true
+    }
   },
   "strateegia-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/strateegia-mcp-server.json",
+    "validated": true,
     "tools": {
       "list-projects": {
         "name": "list-projects",
         "description": "List projects from Strateegia API"
       }
-    },
-    "validated": true
+    }
   },
   "remote-bridge": {
     "category": "other-tools-and-integrations",
@@ -22503,6 +22482,7 @@
   "@wenbopan/things-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/wenbopan-things-mcp.json",
+    "validated": true,
     "tools": {
       "add_todo": {
         "name": "add_todo",
@@ -22528,8 +22508,7 @@
         "name": "export_json",
         "description": "Export complete Things database as structured JSON for debugging, backup, or data processing."
       }
-    },
-    "validated": true
+    }
   },
   "interactive-feedback": {
     "category": "other-tools-and-integrations",
@@ -22566,8 +22545,8 @@
   "agentrpc": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/agentrpc.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "joomla-articles": {
     "category": "other-tools-and-integrations",
@@ -22596,8 +22575,8 @@
   "server-wp-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/server-wp-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "genesis-world": {
     "category": "other-tools-and-integrations",
@@ -22646,6 +22625,7 @@
   "strapi-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/strapi-mcp.json",
+    "validated": true,
     "tools": {
       "list_content_types": {
         "name": "list_content_types",
@@ -22723,8 +22703,7 @@
         "name": "unpublish_entry",
         "description": "Unpublishes a specific entry."
       }
-    },
-    "validated": true
+    }
   },
   "mcpizza-(domino's-pizza)": {
     "category": "other-tools-and-integrations",
@@ -22749,6 +22728,7 @@
   "holaspirit-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/holaspirit-mcp-server.json",
+    "validated": true,
     "tools": {
       "holaspirit_list_tasks": {
         "name": "holaspirit_list_tasks",
@@ -22802,8 +22782,7 @@
         "name": "holaspirit_search_member",
         "description": "Search for a member by email"
       }
-    },
-    "validated": true
+    }
   },
   "cleanuri-url-shortener": {
     "category": "other-tools-and-integrations",
@@ -22812,6 +22791,7 @@
   "@unctad-ai/eregulations-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/unctad-ai-eregulations-mcp-server.json",
+    "validated": true,
     "tools": {
       "listProcedures": {
         "name": "listProcedures",
@@ -22829,12 +22809,12 @@
         "name": "searchProcedures",
         "description": ""
       }
-    },
-    "validated": true
+    }
   },
   "@mtane0412/perspective-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mtane0412-perspective-mcp-server.json",
+    "validated": true,
     "tools": {
       "analyze_text": {
         "name": "analyze_text",
@@ -22844,12 +22824,12 @@
         "name": "suggest_score",
         "description": "テキストに対する新しいスコアを提案します"
       }
-    },
-    "validated": true
+    }
   },
   "@tacticlaunch/mcp-linear": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/tacticlaunch-mcp-linear.json",
+    "validated": true,
     "tools": {
       "linear_getViewer": {
         "name": "linear_getViewer",
@@ -22979,8 +22959,7 @@
         "name": "linear_getComments",
         "description": "Get all comments for an issue"
       }
-    },
-    "validated": true
+    }
   },
   "claude-lmstudio-bridge": {
     "category": "other-tools-and-integrations",
@@ -23025,13 +23004,13 @@
   "@delorenj/mcp-server-ticketmaster": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/delorenj-mcp-server-ticketmaster.json",
+    "validated": true,
     "tools": {
       "search_ticketmaster": {
         "name": "search_ticketmaster",
         "description": "Search for events, venues, or attractions on Ticketmaster"
       }
-    },
-    "validated": true
+    }
   },
   "mermaid-diagram-generator": {
     "category": "other-tools-and-integrations",
