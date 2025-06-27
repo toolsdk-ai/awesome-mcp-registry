@@ -9,1234 +9,1234 @@ importers:
   .:
     dependencies:
       4oimage-mcp:
-        specifier: 1.0.5
+        specifier: latest
         version: 1.0.5
       '@abhaybabbar/retellai-mcp-server':
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2(encoding@0.1.13)
       '@abhiz123/todoist-mcp-server':
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(type-fest@4.41.0)
       '@adenot/mcp-google-search':
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0
       '@ahdev/dokploy-mcp':
-        specifier: 1.3.4
+        specifier: latest
         version: 1.3.4
       '@aindreyway/mcp-codex-keeper':
-        specifier: 1.1.10
+        specifier: latest
         version: 1.1.10
       '@aindreyway/mcp-neurolora':
-        specifier: 1.4.0
+        specifier: latest
         version: 1.4.0(encoding@0.1.13)(zod@3.25.67)
       '@akki91/ankr-mcp':
-        specifier: 0.0.1
+        specifier: latest
         version: 0.0.1
       '@alanse/mcp-neo4j-server':
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       '@anaisbetts/mcp-youtube':
-        specifier: 0.6.0
+        specifier: latest
         version: 0.6.0
       '@antv/mcp-server-chart':
-        specifier: 0.7.1
+        specifier: latest
         version: 0.7.1
       '@ashdev/discourse-mcp-server':
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       '@automatalabs/mcp-server-playwright':
-        specifier: 1.2.1
+        specifier: latest
         version: 1.2.1
       '@automation-ai-labs/mcp-wait':
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3(effect@3.16.10)
       '@awesome-ai/elasticsearch-mcp':
-        specifier: 1.0.6
+        specifier: latest
         version: 1.0.6
       '@baidumap/mcp-server-baidu-map':
-        specifier: 1.0.5
+        specifier: latest
         version: 1.0.5
       '@bankless/onchain-mcp':
-        specifier: 1.0.6
+        specifier: latest
         version: 1.0.6
       '@baruchiro/paperless-mcp':
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       '@benborla29/mcp-server-mysql':
-        specifier: 2.0.3
+        specifier: latest
         version: 2.0.3(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@binalyze/air-mcp':
-        specifier: 12.2.0
+        specifier: latest
         version: 12.2.0
       '@bnb-chain/mcp':
-        specifier: 1.4.0
+        specifier: latest
         version: 1.4.0(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@browsercatco/mcp-server':
-        specifier: 0.3.0
+        specifier: latest
         version: 0.3.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@browserstack/mcp-server':
-        specifier: 1.1.8
+        specifier: latest
         version: 1.1.8(bufferutil@4.0.9)(puppeteer-core@24.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)
       '@bujaayjaay/mcp-coincap-jj':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       '@burtthecoder/mcp-shodan':
-        specifier: 1.0.16
+        specifier: latest
         version: 1.0.16
       '@burtthecoder/mcp-virustotal':
-        specifier: 1.0.10
+        specifier: latest
         version: 1.0.10
       '@cablate/mcp-google-calendar':
-        specifier: 0.0.3
+        specifier: latest
         version: 0.0.3(encoding@0.1.13)
       '@cablate/mcp-google-map':
-        specifier: 0.0.4
+        specifier: latest
         version: 0.0.4
       '@chaindead/telegram-mcp':
-        specifier: 0.1.22
+        specifier: latest
         version: 0.1.22
       '@chanmeng666/google-news-server':
-        specifier: 1.0.0
+        specifier: latest
         version: 1.0.0
       '@chargebee/mcp':
-        specifier: 0.0.4
+        specifier: latest
         version: 0.0.4
       '@clayhq/clay-mcp':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1(effect@3.16.10)
       '@cloudflare/mcp-server-cloudflare':
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0
       '@cloudwerxlab/gpt-image-1-mcp':
-        specifier: 3.2.0
+        specifier: latest
         version: 3.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@coderide/mcp':
-        specifier: 0.3.3
+        specifier: latest
         version: 0.3.3
       '@coinstats/coinstats-mcp':
-        specifier: 1.0.6
+        specifier: latest
         version: 1.0.6
       '@createveai/nexus-mcp-server':
-        specifier: 1.0.0-preview
+        specifier: latest
         version: 1.0.0-preview
       '@cristip73/mcp-server-asana':
-        specifier: 2.0.0
+        specifier: latest
         version: 2.0.0(@babel/core@7.27.4)
       '@currents/mcp':
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3
       '@cyanheads/pubmed-mcp-server':
-        specifier: 1.2.3
+        specifier: latest
         version: 1.2.3(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@cyanheads/toolkit-mcp-server':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       '@datastax/astra-db-mcp':
-        specifier: 1.2.0
+        specifier: latest
         version: 1.2.0
       '@debugg-ai/debugg-ai-mcp':
-        specifier: 1.0.15
+        specifier: latest
         version: 1.0.15
       '@deepdataspace/dinox-mcp':
-        specifier: 0.1.4
+        specifier: latest
         version: 0.1.4
       '@delorenj/mcp-qdrant-memory':
-        specifier: 0.2.4
+        specifier: latest
         version: 0.2.4(encoding@0.1.13)(typescript@5.8.3)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@delorenj/mcp-server-ticketmaster':
-        specifier: 0.2.5
+        specifier: latest
         version: 0.2.5
       '@deventerprisesoftware/scrapi-mcp':
-        specifier: 0.0.3
+        specifier: latest
         version: 0.0.3
       '@digitalocean/mcp':
-        specifier: 0.0.13
+        specifier: latest
         version: 0.0.13
       '@dynatrace-oss/dynatrace-mcp-server':
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0(bufferutil@4.0.9)(jest-util@30.0.2)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       '@elastic/mcp-server-elasticsearch':
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0
       '@enescinar/twitter-mcp':
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@executeautomation/playwright-mcp-server':
-        specifier: 1.0.6
+        specifier: latest
         version: 1.0.6(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@f4ww4z/mcp-mysql-server':
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       '@feedmob/jampp-reporting':
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3(encoding@0.1.13)
       '@feedmob/kayzen-reporting':
-        specifier: 0.0.5
+        specifier: latest
         version: 0.0.5
       '@feedmob/singular-reporting':
-        specifier: 0.0.3
+        specifier: latest
         version: 0.0.3
       '@felixallistar/coolify-mcp':
-        specifier: 1.0.4
+        specifier: latest
         version: 1.0.4(@hey-api/openapi-ts@0.77.0(typescript@5.8.3))(@types/node@22.15.33)(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(yaml@2.8.0)
       '@felores/placid-mcp-server':
-        specifier: 1.7.0
+        specifier: latest
         version: 1.7.0
       '@gannonh/firebase-mcp':
-        specifier: 1.4.9
+        specifier: latest
         version: 1.4.9(encoding@0.1.13)
       '@gentoro/mcp-nodejs-server':
-        specifier: 0.0.7
+        specifier: latest
         version: 0.0.7
       '@getalby/lightning-tools-mcp-server':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       '@getalby/nwc-mcp-server':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       '@gleanwork/mcp-server':
-        specifier: 0.7.1
+        specifier: latest
         version: 0.7.1(@tanstack/react-query@5.81.2(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@glifxyz/mymcpspace-mcp-server':
-        specifier: 1.0.4
+        specifier: latest
         version: 1.0.4
       '@gongrzhe/server-gmail-autoauth-mcp':
-        specifier: 1.1.10
+        specifier: latest
         version: 1.1.10(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@gongrzhe/server-travelplanner-mcp':
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2
       '@grec0/mcp-s2s-asterisk':
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3
       '@greirson/mcp-todoist':
-        specifier: 0.8.2
+        specifier: latest
         version: 0.8.2(type-fest@4.41.0)
       '@growthbook/mcp':
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       '@hannesrudolph/mcp-ragdocs':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0(encoding@0.1.13)(typescript@5.8.3)(zod@3.25.67)
       '@hiyorineko/mcp-rollbar-server':
-        specifier: 1.1.5
+        specifier: latest
         version: 1.1.5
       '@horizondatawave/mcp':
-        specifier: 0.1.5
+        specifier: latest
         version: 0.1.5
       '@hubspot/mcp-server':
-        specifier: 0.4.0
+        specifier: latest
         version: 0.4.0
       '@humansean/mcp-bocha':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1(effect@3.16.10)
       '@iachilles/memento':
-        specifier: 0.4.1
+        specifier: latest
         version: 0.4.1
       '@ibraheem4/eventbrite-mcp':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       '@illuminaresolutions/n8n-mcp-server':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       '@inkdropapp/mcp-server':
-        specifier: 1.1.1
+        specifier: latest
         version: 1.1.1
       '@iqai/mcp-bamm':
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2(bufferutil@4.0.9)(effect@3.16.10)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@isaacphi/mcp-gdrive':
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0(encoding@0.1.13)
       '@itseasy21/mcp-knowledge-graph':
-        specifier: 1.0.7
+        specifier: latest
         version: 1.0.7
       '@ivotoby/contentful-management-mcp-server':
-        specifier: 1.16.1
+        specifier: latest
         version: 1.16.1
       '@jayarrowz/mcp-figma':
-        specifier: 0.6.9
+        specifier: latest
         version: 0.6.9
       '@jetbrains/mcp-proxy':
-        specifier: 1.8.0
+        specifier: latest
         version: 1.8.0
       '@jinzcdev/leetcode-mcp-server':
-        specifier: 1.2.0
+        specifier: latest
         version: 1.2.0(@types/node@22.15.33)(encoding@0.1.13)(typescript@5.8.3)
       '@joshuarileydev/supabase-mcp-server':
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       '@jsonresume/mcp':
-        specifier: 3.0.3
+        specifier: latest
         version: 3.0.3(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@kailashg101/mcp-figma-to-code':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@kajirita2002/esa-mcp-server':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       '@kajirita2002/honeycomb-mcp-server':
-        specifier: 1.0.7
+        specifier: latest
         version: 1.0.7
       '@kazuph/mcp-gmail-gas':
-        specifier: 1.1.2
+        specifier: latest
         version: 1.1.2
       '@kazuph/mcp-obsidian':
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       '@kazuph/mcp-pocket':
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3
       '@kazuph/mcp-screenshot':
-        specifier: 1.0.4
+        specifier: latest
         version: 1.0.4(encoding@0.1.13)
       '@keegancsmith/linear-issues-mcp-server':
-        specifier: 0.0.1
+        specifier: latest
         version: 0.0.1
       '@kevinwatt/mcp-server-searxng':
-        specifier: 0.3.9
+        specifier: latest
         version: 0.3.9(encoding@0.1.13)
       '@kevinwatt/mcp-webhook':
-        specifier: 0.2.2
+        specifier: latest
         version: 0.2.2
       '@kevinwatt/mysql-mcp':
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3
       '@kimtaeyoon83/mcp-server-youtube-transcript':
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       '@kj455/mcp-kibela':
-        specifier: 0.3.1
+        specifier: latest
         version: 0.3.1
       '@kunihiros/patsnap-mcp':
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2
       '@kydycode/todoist-mcp-server-ext':
-        specifier: 0.4.0
+        specifier: latest
         version: 0.4.0(type-fest@4.41.0)
       '@llmindset/mcp-hfspace':
-        specifier: 0.5.4
+        specifier: latest
         version: 0.5.4(@types/node@22.15.33)(utf-8-validate@5.0.10)
       '@llmindset/mcp-miro':
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       '@makehq/mcp-server':
-        specifier: 0.5.0
+        specifier: latest
         version: 0.5.0
       '@makeplane/plane-mcp-server':
-        specifier: 0.1.4
+        specifier: latest
         version: 0.1.4(zod@3.25.67)
       '@makingchatbots/genesys-cloud-mcp-server':
-        specifier: 0.0.13
+        specifier: latest
         version: 0.0.13
       '@malove86/mcp-mysql-server':
-        specifier: 0.2.4
+        specifier: latest
         version: 0.2.4
       '@marketplaceadpros/amazon-ads-mcp-server':
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       '@masonator/coolify-mcp':
-        specifier: 0.2.18
+        specifier: latest
         version: 0.2.18
       '@mcp-devtools/jira':
-        specifier: 0.2.6
+        specifier: latest
         version: 0.2.6
       '@mcp-get-community/server-curl':
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       '@mcp-get-community/server-llm-txt':
-        specifier: 0.6.2
+        specifier: latest
         version: 0.6.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@mcp-get-community/server-macos':
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       '@mcptools/mcp-tavily':
-        specifier: 1.0.0
+        specifier: latest
         version: 1.0.0
       '@merill/lokka':
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0(encoding@0.1.13)
       '@metamcp/mcp-server-metamcp':
-        specifier: 0.6.5
+        specifier: latest
         version: 0.6.5
       '@mfukushim/map-traveler-mcp':
-        specifier: 0.0.79
+        specifier: latest
         version: 0.0.79(@cloudflare/workers-types@4.20250627.0)(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@opentelemetry/api@1.9.0)(@types/pg@8.15.4)(@types/react@19.1.8)(better-sqlite3@11.10.0)(bufferutil@4.0.9)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(mysql2@3.14.1)(pg@8.16.2)(react@18.3.1)(rxjs@7.8.2)(sqlite3@5.1.7)(utf-8-validate@5.0.10)
       '@missionsquad/mcp-github':
-        specifier: 0.10.7
+        specifier: latest
         version: 0.10.7
       '@missionsquad/mcp-helper-tools':
-        specifier: 1.1.1
+        specifier: latest
         version: 1.1.1
       '@modelcontextprotocol/sdk':
         specifier: ^1.12.0
         version: 1.13.1
       '@modelcontextprotocol/server-aws-kb-retrieval':
-        specifier: 0.6.2
+        specifier: latest
         version: 0.6.2
       '@modelcontextprotocol/server-brave-search':
-        specifier: 0.6.2
+        specifier: latest
         version: 0.6.2
       '@modelcontextprotocol/server-everart':
-        specifier: 0.6.2
+        specifier: latest
         version: 0.6.2
       '@modelcontextprotocol/server-everything':
-        specifier: 2025.5.12
+        specifier: latest
         version: 2025.5.12
       '@modelcontextprotocol/server-filesystem':
-        specifier: 2025.3.28
+        specifier: latest
         version: 2025.3.28(zod@3.25.67)
       '@modelcontextprotocol/server-gdrive':
-        specifier: 2025.1.14
+        specifier: latest
         version: 2025.1.14(encoding@0.1.13)
       '@modelcontextprotocol/server-github':
-        specifier: 2025.4.8
+        specifier: latest
         version: 2025.4.8
       '@modelcontextprotocol/server-gitlab':
-        specifier: 2025.4.25
+        specifier: latest
         version: 2025.4.25(zod@3.25.67)
       '@modelcontextprotocol/server-google-maps':
-        specifier: 0.6.2
+        specifier: latest
         version: 0.6.2
       '@modelcontextprotocol/server-memory':
-        specifier: 2025.4.25
+        specifier: latest
         version: 2025.4.25
       '@modelcontextprotocol/server-postgres':
-        specifier: 0.6.2
+        specifier: latest
         version: 0.6.2
       '@modelcontextprotocol/server-puppeteer':
-        specifier: 2025.5.12
+        specifier: latest
         version: 2025.5.12(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/server-sequential-thinking':
-        specifier: 0.6.2
+        specifier: latest
         version: 0.6.2
       '@modelcontextprotocol/server-slack':
-        specifier: 2025.4.25
+        specifier: latest
         version: 2025.4.25
       '@moralisweb3/api-mcp-server':
-        specifier: 1.6.0
+        specifier: latest
         version: 1.6.0
       '@mtane0412/perspective-mcp-server':
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2(encoding@0.1.13)
       '@myjungle/docu-mcp-server':
-        specifier: 1.3.1
+        specifier: latest
         version: 1.3.1(apache-arrow@19.0.1)(typescript@5.8.3)
       '@mzxrai/mcp-openai':
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@netlify/mcp':
-        specifier: 1.9.12
+        specifier: latest
         version: 1.9.12(encoding@0.1.13)(rollup@4.44.1)
       '@nextdrive/github-action-trigger-mcp':
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2
       '@nexus2520/bitbucket-mcp-server':
-        specifier: 0.9.0
+        specifier: latest
         version: 0.9.0
       '@nicholmikey/chrome-tools':
-        specifier: 1.3.0
+        specifier: latest
         version: 1.3.0(@types/node@22.15.33)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@niledatabase/nile-mcp-server':
-        specifier: 1.4.0
+        specifier: latest
         version: 1.4.0
       '@niyogi/render-mcp':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       '@noditlabs/nodit-mcp-server':
-        specifier: 1.0.5
+        specifier: latest
         version: 1.0.5
       '@noveum-ai/mcp-server':
-        specifier: 1.0.4
+        specifier: latest
         version: 1.0.4
       '@nullplatform/meta-mcp-proxy':
-        specifier: 1.5.0
+        specifier: latest
         version: 1.5.0
       '@nutrient-sdk/dws-mcp-server':
-        specifier: 0.0.3
+        specifier: latest
         version: 0.0.3
       '@octomind/octomind-mcp':
-        specifier: 1.1.17
+        specifier: latest
         version: 1.1.17
       '@osaas/mcp-server':
-        specifier: 1.1.0
-        version: 1.1.0(zod@3.25.67)
+        specifier: latest
+        version: 1.2.0(zod@3.25.67)
       '@paddle/paddle-mcp':
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2(@types/node@22.15.33)
       '@pangeacyber/mcp-server':
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2
       '@parassolanki/jira-mcp-server':
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(typescript@5.8.3)
       '@paypal/mcp':
-        specifier: 0.3.4
+        specifier: latest
         version: 0.3.4(react@18.3.1)
       '@pinecone-database/mcp':
-        specifier: 0.1.15
+        specifier: latest
         version: 0.1.15
       '@pinkpixel/mindbridge':
-        specifier: 1.2.0
+        specifier: latest
         version: 1.2.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@pinkpixel/notification-mcp':
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2
       '@pinkpixel/taskflow-mcp':
-        specifier: 1.2.2
+        specifier: latest
         version: 1.2.2
       '@powerdrillai/powerdrill-mcp':
-        specifier: 0.1.11
+        specifier: latest
         version: 0.1.11
       '@prathamesh0901/zoom-mcp-server':
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       '@professional-wiki/mediawiki-mcp-server':
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       '@promptz/mcp':
-        specifier: 2.0.0
+        specifier: latest
         version: 2.0.0
       '@pubnub/mcp':
-        specifier: 1.0.84
+        specifier: latest
         version: 1.0.84(encoding@0.1.13)(react-native@0.80.0(@babel/core@7.27.4)(@types/react@19.1.8)(bufferutil@4.0.9)(react@18.3.1)(utf-8-validate@5.0.10))
       '@raygun.io/mcp-server-raygun':
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(zod@3.25.67)
       '@readwise/readwise-mcp':
-        specifier: 0.0.4
+        specifier: latest
         version: 0.0.4
       '@rebers/4o-mini-search-mcp':
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@recraft-ai/mcp-recraft-server':
-        specifier: 1.2.1
+        specifier: latest
         version: 1.2.1
       '@rijk/directus-mcp-server':
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       '@riza-io/riza-mcp':
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3(encoding@0.1.13)
       '@sanity/mcp-server':
-        specifier: 0.11.5
+        specifier: latest
         version: 0.11.5(@types/react@19.1.8)
       '@search-intent/mcp':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       '@shinzolabs/hubspot-mcp':
-        specifier: 1.7.0
+        specifier: latest
         version: 1.7.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@shortcut/mcp':
-        specifier: 0.9.0
+        specifier: latest
         version: 0.9.0(typescript@5.8.3)
       '@stabgan/openrouter-mcp-multimodal':
-        specifier: 1.5.0
+        specifier: latest
         version: 1.5.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@stakpak/mcp':
-        specifier: 0.0.4
+        specifier: latest
         version: 0.0.4
       '@steipete/macos-automator-mcp':
-        specifier: 0.4.1
+        specifier: latest
         version: 0.4.1
       '@steipete/peekaboo-mcp':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@strowk/mcp-k8s':
-        specifier: 0.3.6
-        version: 0.3.6
+        specifier: latest
+        version: 0.4.0
       '@suekou/mcp-notion-server':
-        specifier: 1.2.4
+        specifier: latest
         version: 1.2.4(@types/debug@4.1.12)(@types/node@22.15.33)(encoding@0.1.13)(jiti@2.4.2)(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0)
       '@superfaceai/mcp':
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1(@google/genai@0.6.1(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(openai@5.7.0(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67))
       '@suthio/brave-deep-research-mcp':
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@swonixs/weatherapi-mcp':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       '@taazkareem/clickup-mcp-server':
-        specifier: 0.8.2
+        specifier: latest
         version: 0.8.2
       '@tacticlaunch/mcp-linear':
-        specifier: 1.0.9
+        specifier: latest
         version: 1.0.9(encoding@0.1.13)
       '@takumi0706/google-calendar-mcp':
-        specifier: 1.0.6
+        specifier: latest
         version: 1.0.6(encoding@0.1.13)
       '@testomatio/mcp':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       '@tfedorko/licensespring-mcp-server':
-        specifier: 1.1.6
+        specifier: latest
         version: 1.1.6
       '@thomaswawra/server-spotify':
-        specifier: 0.4.12
+        specifier: latest
         version: 0.4.12
       '@tigrisdata/tigris-mcp-server':
-        specifier: 1.12.0
+        specifier: latest
         version: 1.12.0(@types/node@22.15.33)
       '@tongxiao/common-search-mcp-server':
-        specifier: 0.0.9
+        specifier: latest
         version: 0.0.9
       '@tonlab/dify-mcp-server':
-        specifier: 1.1.1
+        specifier: latest
         version: 1.1.1
       '@toolsdk.ai/mcp-mercury':
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       '@toolsdk.ai/mcp-server-google-analytics':
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(encoding@0.1.13)
       '@translated/lara-mcp':
-        specifier: 0.0.11
+        specifier: latest
         version: 0.0.11
       '@unctad-ai/eregulations-mcp-server':
-        specifier: 0.4.9
+        specifier: latest
         version: 0.4.9
       '@unifuncs/ufn-mcp-server':
-        specifier: 0.0.6
+        specifier: latest
         version: 0.0.6
       '@usegrant/mcp':
-        specifier: 1.3.0
+        specifier: latest
         version: 1.3.0
       '@variflight-ai/variflight-mcp':
-        specifier: 0.0.3
+        specifier: latest
         version: 0.0.3
       '@wangmhaha/apifox-mcp-server':
-        specifier: 1.6.7
+        specifier: latest
         version: 1.6.7(jiti@2.4.2)(typescript@5.8.3)
       '@wenbopan/things-mcp':
-        specifier: 1.0.0
+        specifier: latest
         version: 1.0.0
       '@winor30/mcp-server-datadog':
-        specifier: 1.6.0
+        specifier: latest
         version: 1.6.0(encoding@0.1.13)
       '@xeroapi/xero-mcp-server':
-        specifier: 0.0.12
+        specifier: latest
         version: 0.0.12
       '@xexr/mcp-libsql':
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@yepcode/mcp-server':
-        specifier: 0.8.0
+        specifier: latest
         version: 0.8.0
       '@yiyang.1i/sms-mcp-server':
-        specifier: 2025.2.24
+        specifier: latest
         version: 2025.2.24
       '@yoda.digital/gitlab-mcp-server':
-        specifier: 0.2.10
+        specifier: latest
         version: 0.2.10
       '@zbddev/payments-sdk-mcp':
-        specifier: 1.7.0
+        specifier: latest
         version: 1.7.0
       '@zhiweixu/excel-mcp-server':
-        specifier: 0.0.5
+        specifier: latest
         version: 0.0.5
       advocu-mcp-server:
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3
       agent-twitter-client-mcp:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       agentql-mcp:
-        specifier: 1.0.0
+        specifier: latest
         version: 1.0.0
       agentrpc:
-        specifier: 0.0.16
+        specifier: latest
         version: 0.0.16(@types/node@22.15.33)(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       ai-expert-workflow-mcp:
-        specifier: 2.3.2
+        specifier: latest
         version: 2.3.2(encoding@0.1.13)
       airtable-mcp-server:
-        specifier: 1.4.1
+        specifier: latest
         version: 1.4.1
       akave-mcp-js:
-        specifier: 1.0.9
+        specifier: latest
         version: 1.0.9
       algorand-mcp:
-        specifier: 2.7.7
+        specifier: latest
         version: 2.7.7
       alibabacloud-dataworks-mcp-server:
-        specifier: 1.0.44
+        specifier: latest
         version: 1.0.44(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       aliyun-mcp-server:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       anilist-mcp:
-        specifier: 1.2.4
+        specifier: latest
         version: 1.2.4(encoding@0.1.13)
       apisix-mcp:
-        specifier: 0.0.7
+        specifier: latest
         version: 0.0.7
       argocd-mcp:
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0
       attio-mcp-server:
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       aws-s3-mcp:
-        specifier: 0.4.0
+        specifier: latest
         version: 0.4.0(zod@3.25.67)
       base-mcp:
-        specifier: 1.0.13
+        specifier: latest
         version: 1.0.13(@azure/identity@4.10.1)(@tanstack/query-core@5.81.2)(@types/node@22.15.33)(@types/react@19.1.8)(@wagmi/core@2.17.3(@tanstack/query-core@5.81.2)(@types/react@19.1.8)(react@18.3.1)(typescript@5.8.3)(use-sync-external-store@1.4.0(react@18.3.1))(viem@2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)))(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)
       base-network-mcp-server:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(react@18.3.1)(socks@2.8.5)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       better-fetch-mcp:
-        specifier: 1.0.0
+        specifier: latest
         version: 1.0.0
       better-qdrant-mcp-server:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1(3dc34d1d69cf43de66c4eef40c5d4b0b)
       bitrefill-mcp-server:
-        specifier: 0.3.0
+        specifier: latest
         version: 0.3.0
       box-mcp-server:
-        specifier: 0.3.1
+        specifier: latest
         version: 0.3.1(encoding@0.1.13)
       brave-search-mcp:
-        specifier: 0.7.5
+        specifier: latest
         version: 0.7.5(encoding@0.1.13)
       browserloop:
-        specifier: 1.1.1
+        specifier: latest
         version: 1.1.1
       clickup-mcp-server:
-        specifier: 1.12.0
+        specifier: latest
         version: 1.12.0
       clinicaltrialsgov-mcp-server:
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       cloudinary-mcp-server:
-        specifier: 0.4.0
+        specifier: latest
         version: 0.4.0
       coda-mcp:
-        specifier: 1.4.2
+        specifier: latest
         version: 1.4.2(@hey-api/openapi-ts@0.77.0(typescript@5.8.3))
       coolify-mcp-server:
-        specifier: 0.1.11
+        specifier: latest
         version: 0.1.11
       dart-mcp-server:
-        specifier: 0.1.20
+        specifier: latest
         version: 0.1.20
       deepl-mcp-server:
-        specifier: 0.1.3-beta.0
+        specifier: latest
         version: 0.1.3-beta.0
       deepseek-thinker-mcp:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       deepsource-mcp-server:
-        specifier: 1.2.1
+        specifier: latest
         version: 1.2.1
       discogs-mcp-server:
-        specifier: 0.4.1
+        specifier: latest
         version: 0.4.1(effect@3.16.10)
       docfork:
-        specifier: v0.5.3
+        specifier: latest
         version: 0.5.3
       dodopayments-mcp:
-        specifier: 1.34.2
+        specifier: latest
         version: 1.34.2(encoding@0.1.13)
       dubco-mcp-server:
-        specifier: 1.0.5
+        specifier: latest
         version: 1.0.5
       dynamo-readonly-mcp:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       esa-mcp-server:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       exa-mcp-server:
-        specifier: 0.3.10
+        specifier: latest
         version: 0.3.10
       feishu-mcp:
-        specifier: 0.0.12
+        specifier: latest
         version: 0.0.12
       feishu-project-mcp:
-        specifier: 1.1.1
+        specifier: latest
         version: 1.1.1
       fetchserp-mcp-server:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       feuse-mcp:
-        specifier: 0.1.6
+        specifier: latest
         version: 0.1.6(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10)
       figma-mcp:
-        specifier: 0.1.4
+        specifier: latest
         version: 0.1.4
       figma-mcp-pro:
-        specifier: 3.49.0
+        specifier: latest
         version: 3.49.0
       findata-mcp-server:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(encoding@0.1.13)
       firecrawl-mcp:
-        specifier: 1.11.0
+        specifier: latest
         version: 1.11.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       flomo-mcp:
-        specifier: 0.0.1
+        specifier: latest
         version: 0.0.1
       fred-mcp-server:
-        specifier: 0.4.1
+        specifier: latest
         version: 0.4.1
       gistpad-mcp:
-        specifier: 0.4.7
+        specifier: latest
         version: 0.4.7
       gitee-mcp-server:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       github-repo-mcp:
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3
       github-repos-manager-mcp:
-        specifier: 1.2.2
+        specifier: latest
         version: 1.2.2
       graphlit-mcp-server:
-        specifier: 1.0.20250625001
+        specifier: latest
         version: 1.0.20250625001(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       grok-mcp:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       grok2-image-mcp-server:
-        specifier: 0.1.5
+        specifier: latest
         version: 0.1.5
       hackmd-mcp:
-        specifier: 1.2.8
+        specifier: latest
         version: 1.2.8
       hermes-search-mcp:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1(effect@3.16.10)
       heybeauty-mcp:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       holaspirit-mcp-server:
-        specifier: 0.3.0
+        specifier: latest
         version: 0.3.0
       hubble-mcp-tool:
-        specifier: 0.1.19
+        specifier: latest
         version: 0.1.19(@types/node@22.15.33)(typescript@5.8.3)
       hyperbrowser-mcp:
-        specifier: 1.0.25
+        specifier: latest
         version: 1.0.25(encoding@0.1.13)
       instagram-dm-mcp:
-        specifier: 1.3.5
+        specifier: latest
         version: 1.3.5
       instagram-engagement-mcp:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       jfk-mcp:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       jina-ai-mcp-server:
-        specifier: 1.0.4
+        specifier: latest
         version: 1.0.4
       jira-mcp:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       jotai-mcp-server:
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2
       keycloak-mcp:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       keycloak-model-context-protocol:
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       linear-mcp-server:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(encoding@0.1.13)
       linkd-mcp:
-        specifier: 1.0.25
+        specifier: latest
         version: 1.0.25
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
       lumbretravel-mcp:
-        specifier: 0.1.14
+        specifier: latest
         version: 0.1.14
       lunchmoney-mcp:
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       manifold-mcp-server:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       mcp-3d-printer-server:
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       mcp-apifox:
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3
       mcp-clickup:
-        specifier: 1.0.4
+        specifier: latest
         version: 1.0.4(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.8.0)
       mcp-communicator-telegram:
-        specifier: 0.2.1
+        specifier: latest
         version: 0.2.1(request@2.88.2)
       mcp-confluence:
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       mcp-crypto-price:
-        specifier: 1.2.0
+        specifier: latest
         version: 1.2.0
       mcp-data-extractor:
-        specifier: 0.1.7
+        specifier: latest
         version: 0.1.7
       mcp-dbs:
-        specifier: 1.0.4
+        specifier: latest
         version: 1.0.4(@aws-sdk/credential-providers@3.835.0)(@babel/core@7.27.4)(@jest/transform@30.0.2)(@jest/types@30.0.1)(babel-jest@30.0.2(@babel/core@7.27.4))(esbuild@0.25.5)(gcp-metadata@5.3.0(encoding@0.1.13))(jest-util@30.0.2)(jest@30.0.3(@types/node@22.15.33)(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)(typescript@5.8.3)
       mcp-developer-name:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       mcp-duckduckgo-search:
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       mcp-fathom-analytics:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       mcp-git-commit-aider:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       mcp-google-calendar:
-        specifier: 0.0.5
+        specifier: latest
         version: 0.0.5(encoding@0.1.13)(typescript@5.8.3)
       mcp-ipfs:
-        specifier: 0.1.9
+        specifier: latest
         version: 0.1.9
       mcp-jinaai-grounding:
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       mcp-jinaai-reader:
-        specifier: 0.0.4
+        specifier: latest
         version: 0.0.4
       mcp-jinaai-search:
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       mcp-linear:
-        specifier: 0.1.8
+        specifier: latest
         version: 0.1.8(encoding@0.1.13)
       mcp-llm:
-        specifier: 1.0.6
-        version: 1.0.6(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.22.4)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
+        specifier: latest
+        version: 1.0.6(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       mcp-maigret:
-        specifier: 1.0.12
+        specifier: latest
         version: 1.0.12
       mcp-mailtrap:
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       mcp-memory-libsql:
-        specifier: 0.0.14
+        specifier: latest
         version: 0.0.14(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       mcp-mongo-server:
-        specifier: 1.3.0
+        specifier: latest
         version: 1.3.0(@aws-sdk/credential-providers@3.835.0)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       mcp-mongodb-atlas:
-        specifier: 0.1.10
+        specifier: latest
         version: 0.1.10
       mcp-neovim-server:
-        specifier: 0.5.2
+        specifier: latest
         version: 0.5.2(@types/node@22.15.33)(typescript@5.8.3)
       mcp-omnisearch:
-        specifier: 0.0.5
+        specifier: latest
         version: 0.0.5
       mcp-openapi-schema-explorer:
-        specifier: 1.2.1
+        specifier: latest
         version: 1.2.1(encoding@0.1.13)
       mcp-openweathermap:
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3(effect@3.16.10)
       mcp-package-version:
-        specifier: 0.1.19
+        specifier: latest
         version: 0.1.19
       mcp-perplexity-search:
-        specifier: 0.0.5
+        specifier: latest
         version: 0.0.5
       mcp-postgres-server:
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3
       mcp-private-github-search:
-        specifier: 0.2.1
+        specifier: latest
         version: 0.2.1(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       mcp-server-axiom:
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       mcp-server-bluesky:
-        specifier: 0.4.1
+        specifier: latest
         version: 0.4.1
       mcp-server-commands:
-        specifier: 0.5.0
+        specifier: latest
         version: 0.5.0
       mcp-server-dumplingai:
-        specifier: 1.1.3
+        specifier: latest
         version: 1.1.3
       mcp-server-ens:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1(bufferutil@4.0.9)(encoding@0.1.13)(siwe@3.0.0(ethers@6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(typescript@5.8.3)(utf-8-validate@5.0.10)
       mcp-server-esa:
-        specifier: 1.0.8
+        specifier: latest
         version: 1.0.8(encoding@0.1.13)
       mcp-server-flomo:
-        specifier: 0.0.11
+        specifier: latest
         version: 0.0.11
       mcp-server-giphy:
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3
       mcp-server-gsc:
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0(encoding@0.1.13)
       mcp-server-kubernetes:
-        specifier: 2.4.3
-        version: 2.4.3(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+        specifier: latest
+        version: 2.4.5(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
       mcp-server-linearapp:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0(encoding@0.1.13)
       mcp-server-novacv:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       mcp-server-siri-shortcuts:
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       mcp-server-sqlite-npx:
-        specifier: 0.3.0
+        specifier: latest
         version: 0.3.0(zod@3.25.67)
       mcp-server-ssh-rails-runner:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       mcp-server-stability-ai:
-        specifier: 0.2.0
+        specifier: latest
         version: 0.2.0(encoding@0.1.13)
       mcp-server-supos:
-        specifier: 0.7.2
+        specifier: latest
         version: 0.7.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       mcp-shell:
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3
       mcp-solarwinds:
-        specifier: 0.1.7
+        specifier: latest
         version: 0.1.7
       mcp-summarization-functions:
-        specifier: 0.1.5
+        specifier: latest
         version: 0.1.5(encoding@0.1.13)
       mcp-sunsama:
-        specifier: 0.11.0
+        specifier: latest
         version: 0.11.0(effect@3.16.10)
       mcp-tavily-search:
-        specifier: 0.0.6
+        specifier: latest
         version: 0.0.6
       mcp-turso:
-        specifier: 0.2.1
+        specifier: latest
         version: 0.2.1(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10)
       mcp-turso-cloud:
-        specifier: 0.0.3
+        specifier: latest
         version: 0.0.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       mcprouter:
-        specifier: 0.1.7
+        specifier: latest
         version: 0.1.7
       meme-mcp:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       mercadolibre-mcp:
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3
       minimax-mcp-js:
-        specifier: 0.0.11
+        specifier: latest
         version: 0.0.11
       moneybird-mcp-server:
-        specifier: 0.6.5
+        specifier: latest
         version: 0.6.5
       mongodb-mcp-server:
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2(@aws-sdk/credential-providers@3.835.0)(@mongodb-js/oidc-plugin@1.1.8)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       mysql-mcp-server:
-        specifier: 0.1.3
+        specifier: latest
         version: 0.1.3
       mysql-query-mcp-server:
-        specifier: 1.2.0
+        specifier: latest
         version: 1.2.0
       nasa-mcp-server:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       news-mcp-server:
-        specifier: 0.0.8
+        specifier: latest
         version: 0.0.8
       newsnow-mcp-server:
-        specifier: 0.0.8
+        specifier: latest
         version: 0.0.8(effect@3.16.10)
       nexus-mcp:
-        specifier: 1.0.7
+        specifier: latest
         version: 1.0.7
       notion-mcp-server:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1(encoding@0.1.13)
       ntfy-me-mcp:
-        specifier: 1.3.4
+        specifier: latest
         version: 1.3.4
       obsidian-mcp-server:
-        specifier: 2.0.7
+        specifier: latest
         version: 2.0.7(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       octagon-deep-research-mcp:
-        specifier: 1.0.18
+        specifier: latest
         version: 1.0.18(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       octagon-mcp:
-        specifier: 1.0.21
+        specifier: latest
         version: 1.0.21(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       one-search-mcp:
-        specifier: 1.0.11
+        specifier: latest
         version: 1.0.11(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       onyx-mcp-server:
-        specifier: 1.2.2
+        specifier: latest
         version: 1.2.2
       opengov-mcp-server:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1
       orion-vision-mcp:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2(effect@3.16.10)
       outlook-meetings-scheduler:
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2(@azure/identity@4.10.1)
       pickapicon-mcp:
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3
       pinata-mcp:
-        specifier: 0.1.1
+        specifier: latest
         version: 0.1.1(typescript@5.8.3)
       polardbx-mcp:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       polygon-mcp:
-        specifier: 1.0.0
+        specifier: latest
         version: 1.0.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       productboard-mcp:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       promptopia-mcp:
-        specifier: 1.1.0
+        specifier: latest
         version: 1.1.0
       puremd-mcp:
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3
       qasphere-mcp:
-        specifier: 0.2.1
+        specifier: latest
         version: 0.2.1
       replicate-flux-mcp:
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2
       resend-mcp:
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       scrapeless-mcp-server:
-        specifier: 0.3.0
+        specifier: latest
         version: 0.3.0
       scraperis-mcp:
-        specifier: 0.1.22
+        specifier: latest
         version: 0.1.22
       search-stock-news-mcp:
-        specifier: 1.0.12
+        specifier: latest
         version: 1.0.12(effect@3.16.10)
       search1api-mcp:
-        specifier: 0.1.8
+        specifier: latest
         version: 0.1.8
       sentry-issues-mcp:
-        specifier: 1.0.5
+        specifier: latest
         version: 1.0.5
       serper-search-scrape-mcp-server:
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2(encoding@0.1.13)
       server-wp-mcp:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1
       shopify-mcp-server:
-        specifier: 1.0.1
+        specifier: latest
         version: 1.0.1(graphql@16.11.0)
       sourcesyncai-mcp:
-        specifier: 1.0.11
+        specifier: latest
         version: 1.0.11
       speech-mcp-server:
-        specifier: 1.1.2
+        specifier: latest
         version: 1.1.2
       square-mcp-server:
-        specifier: 0.1.2
+        specifier: latest
         version: 0.1.2
       strapi-mcp:
-        specifier: 0.1.8
+        specifier: latest
         version: 0.1.8
       strateegia-mcp-server:
-        specifier: 0.0.2
+        specifier: latest
         version: 0.0.2
       supabase-mcp:
-        specifier: 1.5.0
+        specifier: latest
         version: 1.5.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       systemprompt-mcp-notion:
-        specifier: 1.0.7
+        specifier: latest
         version: 1.0.7(encoding@0.1.13)
       tana-mcp:
-        specifier: 1.2.0
+        specifier: latest
         version: 1.2.0
       task-master-ai:
-        specifier: 0.18.0
+        specifier: latest
         version: 0.18.0(@types/node@22.15.33)(effect@3.16.10)(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       taskqueue-mcp:
-        specifier: 1.4.1
+        specifier: latest
         version: 1.4.1(react@18.3.1)
       tavily-mcp:
-        specifier: 0.2.4
+        specifier: latest
         version: 0.2.4
       teamretro-mcp-server:
-        specifier: 0.10.0
+        specifier: latest
         version: 0.10.0
       tesouro-direto-mcp:
-        specifier: 0.2.3
+        specifier: latest
         version: 0.2.3
       tianji-mcp-server:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       todoist-mcp:
-        specifier: 1.2.3
+        specifier: latest
         version: 1.2.3
       todoist-mcp-server:
-        specifier: 1.0.7
+        specifier: latest
         version: 1.0.7(encoding@0.1.13)
       together-mcp:
-        specifier: 0.1.7
+        specifier: latest
         version: 0.1.7
       tts-mcp:
-        specifier: 1.1.1
+        specifier: latest
         version: 1.1.1(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       typescript-mcp:
-        specifier: 0.0.14
+        specifier: latest
         version: 0.0.14(typescript@5.8.3)
       unichat-ts-mcp-server:
-        specifier: 0.2.8
+        specifier: latest
         version: 0.2.8(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       volume-wall-detector-mcp:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2(@aws-sdk/credential-providers@3.835.0)(effect@3.16.10)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.1.0)(mongodb-client-encryption@6.4.0)(socks@2.8.5)
       voyp-mcp:
-        specifier: 0.1.0
+        specifier: latest
         version: 0.1.0
       webflow-mcp-server:
-        specifier: 0.6.0
+        specifier: latest
         version: 0.6.0(@cloudflare/workers-types@4.20250627.0)(encoding@0.1.13)
       webscraping-ai-mcp:
-        specifier: 1.0.2
+        specifier: latest
         version: 1.0.2
       x-com-mcp-server:
-        specifier: 1.0.3
+        specifier: latest
         version: 1.0.3
       xcodebuildmcp:
-        specifier: 1.10.4
+        specifier: latest
         version: 1.10.4(encoding@0.1.13)
       xcodemcp:
-        specifier: 1.5.3
-        version: 1.5.3
+        specifier: latest
+        version: 1.5.4
       xero-mcp:
-        specifier: 1.3.0
+        specifier: latest
         version: 1.3.0
       youtube-data-mcp-server:
-        specifier: 1.0.16
+        specifier: latest
         version: 1.0.16(encoding@0.1.13)
       zod:
         specifier: ^3.23.30
@@ -6450,8 +6450,8 @@ packages:
   '@osaas/client-transcode@0.13.4':
     resolution: {integrity: sha512-DKFGCmghPw2wBlXoxBAUCd3VLBVYqK+OQP/96OwWAxoC8X5x039v3XVVHmxtTm8kacrwdsRS+eYd9ZUnfwTYgA==}
 
-  '@osaas/mcp-server@1.1.0':
-    resolution: {integrity: sha512-2hOJqsSA7cSyIrpuyscDeRNVmV3DbCX0J+z8r6cVipi4GKL9rhaB/IAbjYa+9r7EFXyKuHWDL6u/cBHZ5oVUdw==}
+  '@osaas/mcp-server@1.2.0':
+    resolution: {integrity: sha512-l3RX5rE5K8K1mkqiNyfnBcbxA0YYa7lXlwsoa5scf5iO1gWS946IpkFs2fCAnwXK6PeD6gKxFY5ZQGtAxiKNZQ==}
     hasBin: true
 
   '@paddle/paddle-mcp@0.1.2':
@@ -8066,38 +8066,38 @@ packages:
     os: [darwin]
     hasBin: true
 
-  '@strowk/mcp-k8s-darwin-arm64@0.3.6':
-    resolution: {integrity: sha512-qR6mqvC23J7Kb+6vAKfC6FfllPxxos3i8TCF3Ed1WdfVd/IGsuOzJiFPtAgfh+C+IL7q2oKCW/JtUj4xq4yTAA==}
+  '@strowk/mcp-k8s-darwin-arm64@0.4.0':
+    resolution: {integrity: sha512-ny44PqKWgNg7vQEyMjBiSNTvLu7xn4P+rDwx7GrHWTywm4GXt9GAgxCQDSN2ihGvcSudhrInCiZSxSZt3Qak7g==}
     cpu: [arm64]
     os: [darwin]
 
-  '@strowk/mcp-k8s-darwin-x64@0.3.6':
-    resolution: {integrity: sha512-0SDX/fuyWgpgTUk8fzzmNRW0ZYx66TiKqtcytwt9eAHsxWm/WBx8zAf8OnOE5jZ31C/r5GU0wCMXiX6he+EmHA==}
+  '@strowk/mcp-k8s-darwin-x64@0.4.0':
+    resolution: {integrity: sha512-/Eqo0WI4jI4NOfSp0yP9qNsp5tbrcF428r4uHXdvBGP0rmbUilSjELVRr7SNIdDaac87WippkeK5uPEB/nE50w==}
     cpu: [x64]
     os: [darwin]
 
-  '@strowk/mcp-k8s-linux-arm64@0.3.6':
-    resolution: {integrity: sha512-raqxtAG+f9MorbWT1+yDRBtcFgG3nCik+M/inJIgemGBYo4oCROfb1RkpuqpQA1B7IfSQaM0C79HkWu5xyKtnQ==}
+  '@strowk/mcp-k8s-linux-arm64@0.4.0':
+    resolution: {integrity: sha512-mA+p4ECG6Y/C9N1o0IMMVdKbl8wk6BUmXbFCh0c3MkwUr3+pbS4YvjHNV8Kiw15AkTRiELTlxRBCnn9IrQkcMA==}
     cpu: [arm64]
     os: [linux, freebsd]
 
-  '@strowk/mcp-k8s-linux-x64@0.3.6':
-    resolution: {integrity: sha512-xERAT5xfS44xYh3N2Jo3w6w2RfkV/EEge2JATBTC7m7ID7kcc8cSgsGvo+UwbTyt19VFemwj0NsgvQQ6r19eTw==}
+  '@strowk/mcp-k8s-linux-x64@0.4.0':
+    resolution: {integrity: sha512-WfjPqwuKgtTU3YqAjrPzyfVC/wSxITgi5M/S63hIoBABZYF4f7NIII2pNBJEbUIghMfQig07EgIRYhWrEOMwBg==}
     cpu: [x64]
     os: [linux, freebsd]
 
-  '@strowk/mcp-k8s-win32-arm64@0.3.6':
-    resolution: {integrity: sha512-LPaJqTMSKVBCKRkmupquy3DvhPbSM4xzk29QYQI6QCU8Nc1v3dwQ9V8aZo6zOsxM51UUwkJkX2ifk19z1XA2CA==}
+  '@strowk/mcp-k8s-win32-arm64@0.4.0':
+    resolution: {integrity: sha512-poxaEnX64M8iA4UyhBQgAROwYcn2zO+EpWc0Yx2WXrR3XkWZkVBuqEOjahoDMda19LOoH7mLlZ9ShUchmjrMVQ==}
     cpu: [arm64]
     os: [win32]
 
-  '@strowk/mcp-k8s-win32-x64@0.3.6':
-    resolution: {integrity: sha512-vPXA3/ZI3ADZayqoJGkiCESObIpnS4GjqO/+2dZxMlS3msT9Hykb7SgDWVjseDFXhGeRI9VJZmLg58I4yRqu3w==}
+  '@strowk/mcp-k8s-win32-x64@0.4.0':
+    resolution: {integrity: sha512-2fJSo1bBWQNtWiYvuElTIhTVr6i1xcpfbyxrPyEic9TpkhIj+UhV7ETp+bB7SlOTzvfDZch9y7TdlkGIKhly1A==}
     cpu: [x64]
     os: [win32]
 
-  '@strowk/mcp-k8s@0.3.6':
-    resolution: {integrity: sha512-GPQ1nIVgUEBFiRluCh0MvsFkZ3SKangx4x6V1s3y/T7XjQw0fmK2Gigcq+VwYpNbh1NMuUPgvEqPqeyv+hJqcg==}
+  '@strowk/mcp-k8s@0.4.0':
+    resolution: {integrity: sha512-zrDro224p6DjRpXNdPSRwOzYSL94nQO7qjFsef0Mu8nw29mPSNh6Fr5Pp2+BDK6Ney7WRbB31+/H77LogL0HTA==}
     hasBin: true
 
   '@suekou/mcp-notion-server@1.2.4':
@@ -15297,8 +15297,8 @@ packages:
     resolution: {integrity: sha512-p9Efof/vBA0JmOqwnL6Z3u+MrR5KQmmf1q33u1pxZXLb5TkE4ElCKV9kfoYVJ0hNcBrQMKKdY/7M4K6I6ia5TA==}
     hasBin: true
 
-  mcp-server-kubernetes@2.4.3:
-    resolution: {integrity: sha512-cLt9FOMYOwK/R9x9m5SNer6MSjhNZr0lAsoJLnhjwy+ZEhzBHNl4RK2885FkYoZKHEv20IY6ojfITzWvsOI1BQ==}
+  mcp-server-kubernetes@2.4.5:
+    resolution: {integrity: sha512-Bd+nycDNO6Jbek05aRbQ5/xMWEhIwzomFzGQY2AXFBltd4uQMoFkwkOOGr0+Z6iGn8DCzTKsrc5nB0b5nfh8WA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -20454,8 +20454,8 @@ packages:
     resolution: {integrity: sha512-dskciCYQ0K2a0MYWxAVK47HgGuLTjXijodZddFkxMRT4wS6p1nnBQRcXmStmTat30imPUjGQfNS6xkRzMOePjA==}
     hasBin: true
 
-  xcodemcp@1.5.3:
-    resolution: {integrity: sha512-ZY1bzZvnKkqwUSHSR0yvSomOfZG8VXCNKhLcYz4G/xjCaAAhV41uHvyRPiENvf7mIzBZ8cbEjpUJ0HTVCgwapg==}
+  xcodemcp@1.5.4:
+    resolution: {integrity: sha512-rQM7r27itR9yxtIVLZLXS0I0XEXsO/JpZW4S4ZwiCFF2vMIZfaAOABio+0Sqtb5omm2FUKmipZVh7F26s8YX5Q==}
     engines: {node: '>=18'}
     os: [darwin]
     hasBin: true
@@ -21607,7 +21607,7 @@ snapshots:
 
   '@ashdev/discourse-mcp-server@1.0.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       discourse2: 1.1.26
       zod: 3.25.67
     transitivePeerDependencies:
@@ -22951,7 +22951,7 @@ snapshots:
     dependencies:
       '@ai-sdk/openai': 1.3.22(zod@3.25.67)
       '@modelcontextprotocol/sdk': 1.8.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       mysql2: 3.14.1
       node-sql-parser: 5.3.10
@@ -23226,7 +23226,7 @@ snapshots:
 
   '@chargebee/mcp@0.0.4':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       commander: 13.1.0
       zod: 3.25.67
     transitivePeerDependencies:
@@ -23286,7 +23286,7 @@ snapshots:
       '@iarna/toml': 2.2.5
       '@modelcontextprotocol/sdk': 0.6.1
       chalk: 5.4.1
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       undici: 5.29.0
       which: 5.0.0
       xdg-app-paths: 8.3.0
@@ -24099,7 +24099,7 @@ snapshots:
   '@enescinar/twitter-mcp@0.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       twitter-api-v2: 1.23.2
       zod: 3.25.67
@@ -26521,7 +26521,7 @@ snapshots:
 
   '@kazuph/mcp-screenshot@1.0.4(encoding@0.1.13)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/sharp': 0.31.1
       applescript: 1.0.0
       axios: 1.10.0(debug@4.4.1)
@@ -26973,12 +26973,12 @@ snapshots:
       '@huggingface/transformers': 3.6.0
       gpt-tokenizer: 2.9.0
 
-  '@llamaindex/node-parser@1.0.6(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(tree-sitter@0.22.4)(web-tree-sitter@0.24.5)':
+  '@llamaindex/node-parser@1.0.6(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(tree-sitter@0.21.1)(web-tree-sitter@0.24.5)':
     dependencies:
       '@llamaindex/core': 0.5.6(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0)
       '@llamaindex/env': 0.1.29(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0)
       html-to-text: 9.0.5
-      tree-sitter: 0.22.4
+      tree-sitter: 0.21.1
       web-tree-sitter: 0.24.5
 
   '@llamaindex/ollama@0.0.46(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0)':
@@ -27770,7 +27770,7 @@ snapshots:
 
   '@modelcontextprotocol/server-everything@2025.5.12':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       express: 4.21.2
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -28323,11 +28323,11 @@ snapshots:
 
   '@niledatabase/nile-mcp-server@1.4.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/express': 5.0.3
       '@types/node': 20.19.1
       '@types/pg': 8.15.4
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       pg: 8.16.2
       ts-node: 10.9.2(@types/node@20.19.1)(typescript@5.8.3)
@@ -29017,7 +29017,7 @@ snapshots:
       chalk: 4.1.2
       minio: 8.0.5
 
-  '@osaas/mcp-server@1.1.0(zod@3.25.67)':
+  '@osaas/mcp-server@1.2.0(zod@3.25.67)':
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
       '@osaas/client-core': 0.15.1
@@ -31326,32 +31326,32 @@ snapshots:
       - supports-color
       - ws
 
-  '@strowk/mcp-k8s-darwin-arm64@0.3.6':
+  '@strowk/mcp-k8s-darwin-arm64@0.4.0':
     optional: true
 
-  '@strowk/mcp-k8s-darwin-x64@0.3.6':
+  '@strowk/mcp-k8s-darwin-x64@0.4.0':
     optional: true
 
-  '@strowk/mcp-k8s-linux-arm64@0.3.6':
+  '@strowk/mcp-k8s-linux-arm64@0.4.0':
     optional: true
 
-  '@strowk/mcp-k8s-linux-x64@0.3.6':
+  '@strowk/mcp-k8s-linux-x64@0.4.0':
     optional: true
 
-  '@strowk/mcp-k8s-win32-arm64@0.3.6':
+  '@strowk/mcp-k8s-win32-arm64@0.4.0':
     optional: true
 
-  '@strowk/mcp-k8s-win32-x64@0.3.6':
+  '@strowk/mcp-k8s-win32-x64@0.4.0':
     optional: true
 
-  '@strowk/mcp-k8s@0.3.6':
+  '@strowk/mcp-k8s@0.4.0':
     optionalDependencies:
-      '@strowk/mcp-k8s-darwin-arm64': 0.3.6
-      '@strowk/mcp-k8s-darwin-x64': 0.3.6
-      '@strowk/mcp-k8s-linux-arm64': 0.3.6
-      '@strowk/mcp-k8s-linux-x64': 0.3.6
-      '@strowk/mcp-k8s-win32-arm64': 0.3.6
-      '@strowk/mcp-k8s-win32-x64': 0.3.6
+      '@strowk/mcp-k8s-darwin-arm64': 0.4.0
+      '@strowk/mcp-k8s-darwin-x64': 0.4.0
+      '@strowk/mcp-k8s-linux-arm64': 0.4.0
+      '@strowk/mcp-k8s-linux-x64': 0.4.0
+      '@strowk/mcp-k8s-win32-arm64': 0.4.0
+      '@strowk/mcp-k8s-win32-x64': 0.4.0
 
   '@suekou/mcp-notion-server@1.2.4(@types/debug@4.1.12)(@types/node@22.15.33)(encoding@0.1.13)(jiti@2.4.2)(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0)':
     dependencies:
@@ -31965,7 +31965,7 @@ snapshots:
 
   '@toolsdk.ai/mcp-mercury@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@types/uuid': 10.0.0
       uuid: 11.1.0
       zod: 3.25.67
@@ -34244,7 +34244,7 @@ snapshots:
 
   airtable-mcp-server@1.4.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       node-fetch: 3.3.2
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
@@ -34365,9 +34365,9 @@ snapshots:
 
   anilist-mcp@1.2.4(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       '@yuna0x0/anilist-node': 1.14.8(encoding@0.1.13)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - encoding
@@ -35389,7 +35389,7 @@ snapshots:
 
   brave-search-mcp@0.7.5(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       brave-search: 0.9.0
       image-to-base64: 2.2.0(encoding@0.1.13)
       zod: 3.25.67
@@ -37913,7 +37913,7 @@ snapshots:
   everart@1.2.2:
     dependencies:
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       fs-extra: 11.3.0
       lodash: 4.17.21
       uuid: 9.0.1
@@ -37927,9 +37927,9 @@ snapshots:
 
   exa-mcp-server@0.3.10:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       yargs: 17.7.2
       zod: 3.25.67
     transitivePeerDependencies:
@@ -39365,7 +39365,7 @@ snapshots:
 
   graphlit-mcp-server@1.0.20250625001(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       graphlit-client: 1.0.20250625001(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
     transitivePeerDependencies:
       - '@fastify/websocket'
@@ -39520,8 +39520,8 @@ snapshots:
   hackmd-mcp@1.2.8:
     dependencies:
       '@hackmd/api': 2.5.0
-      '@modelcontextprotocol/sdk': 1.13.1
-      dotenv: 16.5.0
+      '@modelcontextprotocol/sdk': 1.13.2
+      dotenv: 16.6.0
       zod: 3.25.67
     transitivePeerDependencies:
       - debug
@@ -39838,10 +39838,10 @@ snapshots:
   hyperbrowser-mcp@1.0.25(encoding@0.1.13):
     dependencies:
       '@hyperbrowser/sdk': 0.39.0(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       ajv: 8.17.1
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
     transitivePeerDependencies:
       - debug
@@ -41512,12 +41512,12 @@ snapshots:
       lit-element: 4.2.0
       lit-html: 3.3.0
 
-  llamaindex@0.9.7(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.22.4)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67):
+  llamaindex@0.9.7(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67):
     dependencies:
       '@llamaindex/cloud': 3.0.7(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))
       '@llamaindex/core': 0.5.6(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0)
       '@llamaindex/env': 0.1.29(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0)
-      '@llamaindex/node-parser': 1.0.6(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(tree-sitter@0.22.4)(web-tree-sitter@0.24.5)
+      '@llamaindex/node-parser': 1.0.6(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(tree-sitter@0.21.1)(web-tree-sitter@0.24.5)
       '@llamaindex/openai': 0.1.58(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@llamaindex/workflow': 0.0.13(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0))(zod@3.25.67)
       '@types/lodash': 4.17.19
@@ -41971,10 +41971,10 @@ snapshots:
       '@actions/core': 1.11.1
       '@ai-sdk/openai': 1.3.22(zod@3.25.67)
       '@anthropic-ai/sdk': 0.8.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       ai: 4.3.16(react@18.3.1)(zod@3.25.67)
       chalk: 4.1.2
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       openai: 4.104.0(encoding@0.1.13)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       react: 18.3.1
       tsx: 4.20.3
@@ -42041,13 +42041,13 @@ snapshots:
       - encoding
       - supports-color
 
-  mcp-llm@1.0.6(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.22.4)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67):
+  mcp-llm@1.0.6(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67):
     dependencies:
       '@llamaindex/community': 0.0.88(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0)
       '@llamaindex/ollama': 0.0.46(@huggingface/transformers@3.6.0)(gpt-tokenizer@2.9.0)
       '@llamaindex/openai': 0.1.58(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
       '@modelcontextprotocol/sdk': 1.6.1
-      llamaindex: 0.9.7(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.22.4)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
+      llamaindex: 0.9.7(@huggingface/transformers@3.6.0)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.5)(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
     transitivePeerDependencies:
       - '@huggingface/transformers'
       - aws-crt
@@ -42128,7 +42128,7 @@ snapshots:
 
   mcp-openapi-schema-explorer@1.2.1(encoding@0.1.13):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       js-yaml: 4.1.0
       openapi-types: 12.1.3
       swagger2openapi: 7.0.8(encoding@0.1.13)
@@ -42275,16 +42275,16 @@ snapshots:
 
   mcp-server-flomo@0.0.11:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       zod: 3.25.67
     transitivePeerDependencies:
       - supports-color
 
   mcp-server-giphy@1.0.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -42301,7 +42301,7 @@ snapshots:
       - encoding
       - supports-color
 
-  mcp-server-kubernetes@2.4.3(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10):
+  mcp-server-kubernetes@2.4.5(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10):
     dependencies:
       '@kubernetes/client-node': 1.3.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.7.0
@@ -42371,10 +42371,10 @@ snapshots:
   mcp-server-stability-ai@0.2.0(encoding@0.1.13):
     dependencies:
       '@google-cloud/storage': 7.16.0(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.13.1
+      '@modelcontextprotocol/sdk': 1.13.2
       axios: 1.10.0(debug@4.4.1)
       body-parser: 1.20.3
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       express: 4.21.2
       open: 10.1.2
       zod: 3.25.67
@@ -47225,7 +47225,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
       axios: 1.10.0(debug@4.4.1)
-      dotenv: 16.5.0
+      dotenv: 16.6.0
       yargs: 17.7.2
     transitivePeerDependencies:
       - debug
@@ -47535,12 +47535,12 @@ snapshots:
     dependencies:
       node-addon-api: 8.4.0
       node-gyp-build: 4.8.4
-    optional: true
 
   tree-sitter@0.22.4:
     dependencies:
       node-addon-api: 8.4.0
       node-gyp-build: 4.8.4
+    optional: true
 
   treeify@1.1.0: {}
 
@@ -48899,7 +48899,7 @@ snapshots:
       - encoding
       - supports-color
 
-  xcodemcp@1.5.3:
+  xcodemcp@1.5.4:
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.1
 

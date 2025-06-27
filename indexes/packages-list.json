@@ -823,8 +823,21 @@
   "@llmindset/mcp-hfspace": {
     "category": "developer-tools",
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "available-files": {
+        "name": "available-files",
+        "description": "A list of available file and resources. If the User requests things like 'most recent image' or 'the audio' use this tool to identify the intended resource.This tool returns 'resource uri', 'name', 'size', 'last modified'  and 'mime type' in a markdown table"
+      },
+      "search-spaces": {
+        "name": "search-spaces",
+        "description": "Use semantic search to find an endpoint on the `Hugging Face Spaces` service. The search term will usually be 3-7 words describing a task or activity the Person is trying to accomplish. The results are returned in a markdown table. Present all results to the Person. Await specific guidance from the Person before making further Tool calls."
+      },
+      "FLUX_1-schnell-infer": {
+        "name": "FLUX_1-schnell-infer",
+        "description": "Call the FLUX.1-schnell endpoint /infer"
+      }
+    }
   },
   "@mcp-get-community/server-macos": {
     "category": "developer-tools",
@@ -982,7 +995,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun-io-mcp-server-raygun.json",
+    "path": "monitoring/raygun.io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
@@ -4638,6 +4651,10 @@
       "osc_create_bucket": {
         "name": "osc_create_bucket",
         "description": "Create a new bucket on Eyevinn Open Source Cloud Storage (OSC) Minio instance"
+      },
+      "osc_list_buckets": {
+        "name": "osc_list_buckets",
+        "description": "List all buckets on Eyevinn Open Source Cloud Storage (OSC) Minio instance"
       }
     }
   },
@@ -13866,21 +13883,8 @@
   "@felores/placid-mcp-server": {
     "category": "marketing",
     "path": "marketing/felores-placid-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "placid_list_templates": {
-        "name": "placid_list_templates",
-        "description": "Get a list of available Placid templates with optional filtering. Each template includes its title, ID, preview image URL, available layers, and tags."
-      },
-      "placid_generate_image": {
-        "name": "placid_generate_image",
-        "description": "Generate an image using a template and provided assets"
-      },
-      "placid_generate_video": {
-        "name": "placid_generate_video",
-        "description": "Generate a video using one or more templates and provided assets. Every 10 seconds of video uses 10 credits."
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "facebook-ads-library": {
     "category": "marketing",
@@ -20290,81 +20294,8 @@
   "@tfedorko/licensespring-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/tfedorko-licensespring-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "activate_license": {
-        "name": "activate_license",
-        "description": "Activate a license with hardware ID and product code"
-      },
-      "check_license": {
-        "name": "check_license",
-        "description": "Check license status and validity"
-      },
-      "deactivate_license": {
-        "name": "deactivate_license",
-        "description": "Deactivate a license for a specific hardware ID"
-      },
-      "add_consumption": {
-        "name": "add_consumption",
-        "description": "Add consumption units to a license"
-      },
-      "add_feature_consumption": {
-        "name": "add_feature_consumption",
-        "description": "Add consumption units to a specific feature"
-      },
-      "get_trial_key": {
-        "name": "get_trial_key",
-        "description": "Generate a trial license key for a product"
-      },
-      "get_product_details": {
-        "name": "get_product_details",
-        "description": "Get detailed information about a product"
-      },
-      "track_device_variables": {
-        "name": "track_device_variables",
-        "description": "Track custom variables for a device"
-      },
-      "get_device_variables": {
-        "name": "get_device_variables",
-        "description": "Get tracked variables for a device"
-      },
-      "floating_release": {
-        "name": "floating_release",
-        "description": "Release a floating license"
-      },
-      "floating_borrow": {
-        "name": "floating_borrow",
-        "description": "Borrow a floating license for offline use"
-      },
-      "change_password": {
-        "name": "change_password",
-        "description": "Change password for a user-based license"
-      },
-      "get_versions": {
-        "name": "get_versions",
-        "description": "Get available software versions for a product"
-      },
-      "get_installation_file": {
-        "name": "get_installation_file",
-        "description": "Get installation file download information"
-      },
-      "get_sso_url": {
-        "name": "get_sso_url",
-        "description": "Get Single Sign-On URL for customer portal access"
-      },
-      "get_customer_license_users": {
-        "name": "get_customer_license_users",
-        "description": "Get customer license users for a specific license"
-      },
-      "activate_offline": {
-        "name": "activate_offline",
-        "description": "Activate a license for offline use with hardware ID and product code"
-      },
-      "deactivate_offline": {
-        "name": "deactivate_offline",
-        "description": "Deactivate a license for offline use with hardware ID and product code"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "blender": {
     "category": "other-tools-and-integrations",
