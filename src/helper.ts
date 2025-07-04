@@ -165,30 +165,22 @@ function checkDependencyValidity(dependencyData: DependencyData, versionRange: s
 
 // 通用依赖项检查函数
 async function checkDependencies(dependencies: Record<string, string>): Promise<boolean> {
-  // 添加缓存对象
   const dependencyCache: Record<string, boolean> = {};
-
-  for (const depName in dependencies) {
-    const depVersionRange = dependencies[depName];
-
+  const checkSingleDependency = async (depName: string, depVersionRange: string): Promise<boolean> => {
     const cacheKey = `${depName}@${depVersionRange}`;
     if (dependencyCache[cacheKey] !== undefined) {
-      if (!dependencyCache[cacheKey]) {
-        console.error(`invalid or missing: ${depName} in package ${depName}`);
-        return false;
-      }
-      continue;
+      return dependencyCache[cacheKey];
     }
 
     try {
       const depResponse = await axios.get(`https://registry.npmjs.org/${depName}`, {
         timeout: 5000,
         headers: {
-          'User-Agent': 'MyToolManager/1.0 (https://mytoolmanager.com)',
+          'User-Agent': 'MyToolManager/1.0',
         },
       });
 
-      if (depResponse.status !== 200) {
+      if (depResponse.status !== 200 || !depResponse.data.versions) {
         console.error(`Failed to fetch ${depName}`);
         dependencyCache[cacheKey] = false;
         return false;
@@ -199,16 +191,22 @@ async function checkDependencies(dependencies: Record<string, string>): Promise<
 
       if (!isValid) {
         console.error(`Invalid or missing: ${depName}`);
-        return false;
       }
+
+      return isValid;
     } catch (error) {
       console.error(`Error fetching ${depName}: ${(error as Error).message}`);
       dependencyCache[cacheKey] = false;
       return false;
     }
-  }
+  };
 
-  return true;
+  const promises = Object.entries(dependencies).map(([depName, depVersionRange]) =>
+    checkSingleDependency(depName, depVersionRange),
+  );
+
+  const results = await Promise.all(promises);
+  return results.every((result) => result);
 }
 
 // 判断 npm 包及其依赖是否有效
@@ -219,7 +217,7 @@ export async function isValidNpmPackage(packageName: string): Promise<boolean> {
     const response = await axios.get(`https://registry.npmjs.org/${packageName}`, {
       timeout: 5000,
       headers: {
-        'User-Agent': 'MyToolManager/1.0 (https://mytoolmanager.com)',
+        'User-Agent': 'MyToolManager/1.0',
       },
     });
 
@@ -244,7 +242,7 @@ export async function isValidNpmPackage(packageName: string): Promise<boolean> {
       return false;
     }
 
-    console.log(`Valid package: https://registry.npmjs.org/${packageName}`);
+    console.log(`Valid package: ${packageName}`);
     return true;
   } catch (error) {
     console.error(`Error validating package ${packageName}:`, (error as Error).message);
