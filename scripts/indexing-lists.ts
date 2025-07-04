@@ -8,7 +8,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { MCPServerPackageConfigSchema, PackagesListSchema } from '../src/schema';
 import { type CategoryConfig, type MCPServerPackageConfig, type PackagesList } from '../src/types';
-import { checkNpmPackage, getActualVersion, updatePackageJsonDependencies } from '../src/helper';
+import { isValidNpmPackage, getActualVersion, updatePackageJsonDependencies } from '../src/helper';
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const categoryConfigs: CategoryConfig[] = require('../config/categories').default;
@@ -84,11 +84,7 @@ async function generatePackagesList() {
         categoriesList[categoryName].packagesList.push(key);
 
         if (parsedContent.runtime === 'node') {
-          // TODO 检验有效的才加入到packageDeps中
-          // 1. 检验npmjs package exists
-          // 2. 检验 包的状态
-          // 3. 检查 依赖的状态
-          const isValid = await checkNpmPackage(parsedContent.packageName);
+          const isValid = await isValidNpmPackage(parsedContent.packageName);
           if (isValid) {
             const version = getActualVersion(parsedContent.packageName, parsedContent.packageVersion);
             packageDeps[parsedContent.packageName] = version || 'latest';
@@ -131,4 +127,5 @@ async function generatePackagesList() {
   updatePackageJsonDependencies({ packageDeps });
 }
 
-generatePackagesList();
+await generatePackagesList();
+process.exit(0);

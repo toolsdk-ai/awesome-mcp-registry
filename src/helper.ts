@@ -107,6 +107,7 @@ export function updatePackageJsonDependencies({
   fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
 
   console.log(`Generated new package.json file at ${packageJsonFile}`);
+  return;
 }
 
 export function getActualVersion(packageName: string, configuredVersion?: string): string {
@@ -142,8 +143,11 @@ export function withTimeout<T>(ms: number, promise: Promise<T>): Promise<T> {
   });
 }
 
+interface DependencyData {
+  versions: Record<string, unknown>;
+}
 // 校验依赖项有效性
-function checkDependencyValidity(dependencyData: any, versionRange: string): boolean {
+function checkDependencyValidity(dependencyData: DependencyData, versionRange: string): boolean {
   // 兼容 "latest" 的情况
   if (versionRange === 'latest') {
     return Object.keys(dependencyData.versions).length > 0;
@@ -159,13 +163,59 @@ function checkDependencyValidity(dependencyData: any, versionRange: string): boo
   return false;
 }
 
-// 添加缓存对象
-const dependencyCache: Record<string, boolean> = {};
-const devDependencyCache: Record<string, boolean> = {};
+// 通用依赖项检查函数
+async function checkDependencies(dependencies: Record<string, string>): Promise<boolean> {
+  // 添加缓存对象
+  const dependencyCache: Record<string, boolean> = {};
+
+  for (const depName in dependencies) {
+    const depVersionRange = dependencies[depName];
+
+    const cacheKey = `${depName}@${depVersionRange}`;
+    if (dependencyCache[cacheKey] !== undefined) {
+      if (!dependencyCache[cacheKey]) {
+        console.error(`invalid or missing: ${depName} in package ${depName}`);
+        return false;
+      }
+      continue;
+    }
+
+    try {
+      const depResponse = await axios.get(`https://registry.npmjs.org/${depName}`, {
+        timeout: 5000,
+        headers: {
+          'User-Agent': 'MyToolManager/1.0 (https://mytoolmanager.com)',
+        },
+      });
+
+      if (depResponse.status !== 200) {
+        console.error(`Failed to fetch ${depName}`);
+        dependencyCache[cacheKey] = false;
+        return false;
+      }
+
+      const isValid = checkDependencyValidity(depResponse.data, depVersionRange);
+      dependencyCache[cacheKey] = isValid;
+
+      if (!isValid) {
+        console.error(`Invalid or missing: ${depName}`);
+        return false;
+      }
+    } catch (error) {
+      console.error(`Error fetching ${depName}: ${(error as Error).message}`);
+      dependencyCache[cacheKey] = false;
+      return false;
+    }
+  }
+
+  return true;
+}
+
 // 判断 npm 包及其依赖是否有效
-export async function checkNpmPackage(packageName: string): Promise<boolean> {
+export async function isValidNpmPackage(packageName: string): Promise<boolean> {
   try {
     // 检查主包是否存在
+    console.log('checking package:', packageName);
     const response = await axios.get(`https://registry.npmjs.org/${packageName}`, {
       timeout: 5000,
       headers: {
@@ -178,7 +228,6 @@ export async function checkNpmPackage(packageName: string): Promise<boolean> {
       console.error(`Package marked as unpublished: ${packageName}`);
       return false;
     }
-    console.log(`Valid package: https://registry.npmjs.org/${packageName}`);
 
     // 获取主包的最新版本信息
     const latestVersion = response.data['dist-tags'].latest;
@@ -188,84 +237,14 @@ export async function checkNpmPackage(packageName: string): Promise<boolean> {
       return false;
     }
 
-    // 检查依赖项
-    const dependencies = versionData.dependencies || {};
-    console.log('Checking dependencies...');
-    for (const depName of Object.keys(dependencies)) {
-      const depVersionRange = dependencies[depName]; // 获取依赖的版本范围
-
-      // 查询缓存
-      const cacheKey = `${depName}@${depVersionRange}`;
-      if (dependencyCache[cacheKey] !== undefined) {
-        console.log(`Using cached result for ${cacheKey}: ${dependencyCache[cacheKey]}`);
-        if (!dependencyCache[cacheKey]) {
-          console.error(`Dependency invalid or missing: ${depName} in package ${packageName}`);
-          return false;
-        }
-        continue;
-      }
-
-      const depResponse = await axios.get(`https://registry.npmjs.org/${depName}`, {
-        timeout: 5000,
-        headers: {
-          'User-Agent': 'MyToolManager/1.0 (https://mytoolmanager.com)',
-        },
-      });
-
-      if (depResponse.status !== 200) {
-        console.error(`Failed to fetch dependency info for ${depName}`);
-        dependencyCache[cacheKey] = false; // 更新缓存为无效
-        return false;
-      }
-
-      // 校验依赖项的有效性
-      const isValid = checkDependencyValidity(depResponse.data, depVersionRange);
-      dependencyCache[cacheKey] = isValid; // 更新缓存
-      if (!isValid) {
-        console.error(`Dependency invalid or missing: ${depName} in package ${packageName}`);
-        return false;
-      }
+    // 检查 dependencies 和 devDependencies
+    console.log(`Checking dependencies for ${packageName}`);
+    const dependencies = { ...versionData.dependencies, ...versionData.devDependencies };
+    if (!(await checkDependencies(dependencies))) {
+      return false;
     }
 
-    // 检查开发依赖项（如果有）
-    const devDependencies = versionData.devDependencies || {};
-    console.log('Checking devDependencies...');
-    for (const depName of Object.keys(devDependencies)) {
-      const depVersionRange = devDependencies[depName];
-
-      // 查询缓存
-      const cacheKey = `${depName}@${depVersionRange}`;
-      if (devDependencyCache[cacheKey] !== undefined) {
-        console.log(`Using cached result for ${cacheKey}: ${devDependencyCache[cacheKey]}`);
-        if (!devDependencyCache[cacheKey]) {
-          console.error(`DevDependency invalid or missing: ${depName} in package ${packageName}`);
-          return false;
-        }
-        continue;
-      }
-
-      const depResponse = await axios.get(`https://registry.npmjs.org/${depName}`, {
-        timeout: 5000,
-        headers: {
-          'User-Agent': 'MyToolManager/1.0 (https://mytoolmanager.com)',
-        },
-      });
-
-      if (depResponse.status !== 200) {
-        console.error(`Failed to fetch devDependency info for ${depName}`);
-        devDependencyCache[cacheKey] = false; // 更新缓存为无效
-        return false;
-      }
-
-      // 校验开发依赖项的有效性
-      const isValid = checkDependencyValidity(depResponse.data, depVersionRange);
-      devDependencyCache[cacheKey] = isValid; // 更新缓存
-      if (!isValid) {
-        console.error(`DevDependency invalid or missing: ${depName} in package ${packageName}`);
-        return false;
-      }
-    }
-
+    console.log(`Valid package: https://registry.npmjs.org/${packageName}`);
     return true;
   } catch (error) {
     console.error(`Error validating package ${packageName}:`, (error as Error).message);
