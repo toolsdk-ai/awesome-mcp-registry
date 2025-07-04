@@ -1,11 +1,13 @@
-import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
-import type { MCPServerPackageConfig } from "./types";
-import { Client } from "@modelcontextprotocol/sdk/client/index.js";
-import fs from "fs";
-import * as path from "path";
-import allPackagesList from "../indexes/packages-list.json";
-import assert from "assert";
-import { MCPServerPackageConfigSchema, PackagesListSchema } from "./schema";
+import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js';
+import type { MCPServerPackageConfig } from './types';
+import { Client } from '@modelcontextprotocol/sdk/client/index.js';
+import fs from 'fs';
+import axios from 'axios';
+import semver from 'semver';
+import * as path from 'path';
+import allPackagesList from '../indexes/packages-list.json';
+import assert from 'assert';
+import { MCPServerPackageConfigSchema, PackagesListSchema } from './schema';
 
 export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
 
@@ -14,14 +16,14 @@ export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfi
 
   const jsonFile = value.path;
   // read the JSON file and convert it to MCPServerPackageConfig
-  const jsonStr = fs.readFileSync(__dirname + "/../packages/" + jsonFile, "utf-8");
+  const jsonStr = fs.readFileSync(__dirname + '/../packages/' + jsonFile, 'utf-8');
   const mcpServerConfig: MCPServerPackageConfig = MCPServerPackageConfigSchema.parse(JSON.parse(jsonStr));
   return mcpServerConfig;
 }
 
 export function getPackageJSON(packageName: string) {
-  const packageJSONFilePath = __dirname + "/../node_modules/" + packageName + "/package.json";
-  const packageJSONStr = fs.readFileSync(packageJSONFilePath, "utf8");
+  const packageJSONFilePath = __dirname + '/../node_modules/' + packageName + '/package.json';
+  const packageJSONStr = fs.readFileSync(packageJSONFilePath, 'utf8');
   const packageJSON = JSON.parse(packageJSONStr);
   return packageJSON;
 }
@@ -29,12 +31,12 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
   const { packageName } = mcpServerConfig;
 
   const packageJSON = getPackageJSON(packageName);
-  let binFilePath = "";
+  let binFilePath = '';
   let binPath;
 
-  if (typeof packageJSON.bin === "string") {
+  if (typeof packageJSON.bin === 'string') {
     binPath = packageJSON.bin;
-  } else if (typeof packageJSON.bin === "object") {
+  } else if (typeof packageJSON.bin === 'object') {
     binPath = Object.values(packageJSON.bin)[0];
   } else {
     binPath = packageJSON.main;
@@ -42,7 +44,7 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
   assert(binPath, `Package ${packageName} does not have a valid bin path in package.json.`);
 
   // binFilePath = 'plugin_packages/' + packageName + `/${binPath}`;
-  binFilePath = __dirname + "/../node_modules/" + packageName + `/${binPath}`;
+  binFilePath = __dirname + '/../node_modules/' + packageName + `/${binPath}`;
 
   const mcpServerBinPath = mcpServerConfig.bin || binFilePath;
   const binArgs = mcpServerConfig.binArgs || [];
@@ -55,13 +57,13 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
   const client = new Client(
     {
       name: `mcp-server-${mcpServerConfig.name}-client`,
-      version: "1.0.0",
+      version: '1.0.0',
     },
     {
       capabilities: {
         tools: {},
       },
-    }
+    },
   );
   await client.connect(transport);
 
@@ -84,39 +86,41 @@ export function updatePackageJsonDependencies({
   enableValidation?: boolean;
 }) {
   // Write package.json dependencies
-  const packageJsonFile = "./package.json";
-  const packageJSONStr = fs.readFileSync(packageJsonFile, "utf-8");
+  const packageJsonFile = './package.json';
+  const packageJSONStr = fs.readFileSync(packageJsonFile, 'utf-8');
   const newDeps = {
-    "@modelcontextprotocol/sdk": "^1.12.0",
-    lodash: "^4.17.21",
-    zod: "^3.23.30",
+    '@modelcontextprotocol/sdk': '^1.12.0',
+    lodash: '^4.17.21',
+    zod: '^3.23.30',
+    axios: '^1.9.0',
+    semver: '^7.5.4',
   } as Record<string, string>;
 
   for (const [depName, depVer] of Object.entries(packageDeps)) {
     if (!enableValidation || typedAllPackagesList[depName]?.validated) {
-      newDeps[depName] = depVer || "latest";
+      newDeps[depName] = depVer || 'latest';
     }
   }
 
   const packageJSON = JSON.parse(packageJSONStr);
   packageJSON.dependencies = newDeps;
-  fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), "utf-8");
+  fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
 
   console.log(`Generated new package.json file at ${packageJsonFile}`);
 }
 
 export function getActualVersion(packageName: string, configuredVersion?: string): string {
-  if (configuredVersion && configuredVersion !== "latest") {
+  if (configuredVersion && configuredVersion !== 'latest') {
     return configuredVersion;
   }
 
   try {
-    const packageJsonPath = path.join(__dirname, "../node_modules", packageName, "package.json");
-    const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf-8"));
+    const packageJsonPath = path.join(__dirname, '../node_modules', packageName, 'package.json');
+    const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'));
     return packageJson.version;
   } catch (e) {
     console.warn(`Failed to read version for ${packageName}, using 'latest' by default`, (e as Error).message);
-    return "latest";
+    return 'latest';
   }
 }
 
@@ -133,7 +137,138 @@ export function withTimeout<T>(ms: number, promise: Promise<T>): Promise<T> {
       (err) => {
         clearTimeout(timer);
         reject(err);
-      }
+      },
     );
   });
+}
+
+// 校验依赖项有效性
+function checkDependencyValidity(dependencyData: any, versionRange: string): boolean {
+  // 兼容 "latest" 的情况
+  if (versionRange === 'latest') {
+    return Object.keys(dependencyData.versions).length > 0;
+  }
+
+  // 使用 semver 检查是否有满足版本范围的有效版本
+  const versions = Object.keys(dependencyData.versions);
+  for (const version of versions) {
+    if (semver.satisfies(version, versionRange)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+// 添加缓存对象
+const dependencyCache: Record<string, boolean> = {};
+const devDependencyCache: Record<string, boolean> = {};
+// 判断 npm 包及其依赖是否有效
+export async function checkNpmPackage(packageName: string): Promise<boolean> {
+  try {
+    // 检查主包是否存在
+    const response = await axios.get(`https://registry.npmjs.org/${packageName}`, {
+      timeout: 5000,
+      headers: {
+        'User-Agent': 'MyToolManager/1.0 (https://mytoolmanager.com)',
+      },
+    });
+
+    // 检查主包是否被标记为 unpublished
+    if (response.status !== 200 || !response.data?.['dist-tags']?.latest) {
+      console.error(`Package marked as unpublished: ${packageName}`);
+      return false;
+    }
+    console.log(`Valid package: https://registry.npmjs.org/${packageName}`);
+
+    // 获取主包的最新版本信息
+    const latestVersion = response.data['dist-tags'].latest;
+    const versionData = response.data?.versions?.[latestVersion];
+    if (!versionData) {
+      console.error(`Invalid package: ${packageName} - No version data found`);
+      return false;
+    }
+
+    // 检查依赖项
+    const dependencies = versionData.dependencies || {};
+    console.log('Checking dependencies...');
+    for (const depName of Object.keys(dependencies)) {
+      const depVersionRange = dependencies[depName]; // 获取依赖的版本范围
+
+      // 查询缓存
+      const cacheKey = `${depName}@${depVersionRange}`;
+      if (dependencyCache[cacheKey] !== undefined) {
+        console.log(`Using cached result for ${cacheKey}: ${dependencyCache[cacheKey]}`);
+        if (!dependencyCache[cacheKey]) {
+          console.error(`Dependency invalid or missing: ${depName} in package ${packageName}`);
+          return false;
+        }
+        continue;
+      }
+
+      const depResponse = await axios.get(`https://registry.npmjs.org/${depName}`, {
+        timeout: 5000,
+        headers: {
+          'User-Agent': 'MyToolManager/1.0 (https://mytoolmanager.com)',
+        },
+      });
+
+      if (depResponse.status !== 200) {
+        console.error(`Failed to fetch dependency info for ${depName}`);
+        dependencyCache[cacheKey] = false; // 更新缓存为无效
+        return false;
+      }
+
+      // 校验依赖项的有效性
+      const isValid = checkDependencyValidity(depResponse.data, depVersionRange);
+      dependencyCache[cacheKey] = isValid; // 更新缓存
+      if (!isValid) {
+        console.error(`Dependency invalid or missing: ${depName} in package ${packageName}`);
+        return false;
+      }
+    }
+
+    // 检查开发依赖项（如果有）
+    const devDependencies = versionData.devDependencies || {};
+    console.log('Checking devDependencies...');
+    for (const depName of Object.keys(devDependencies)) {
+      const depVersionRange = devDependencies[depName];
+
+      // 查询缓存
+      const cacheKey = `${depName}@${depVersionRange}`;
+      if (devDependencyCache[cacheKey] !== undefined) {
+        console.log(`Using cached result for ${cacheKey}: ${devDependencyCache[cacheKey]}`);
+        if (!devDependencyCache[cacheKey]) {
+          console.error(`DevDependency invalid or missing: ${depName} in package ${packageName}`);
+          return false;
+        }
+        continue;
+      }
+
+      const depResponse = await axios.get(`https://registry.npmjs.org/${depName}`, {
+        timeout: 5000,
+        headers: {
+          'User-Agent': 'MyToolManager/1.0 (https://mytoolmanager.com)',
+        },
+      });
+
+      if (depResponse.status !== 200) {
+        console.error(`Failed to fetch devDependency info for ${depName}`);
+        devDependencyCache[cacheKey] = false; // 更新缓存为无效
+        return false;
+      }
+
+      // 校验开发依赖项的有效性
+      const isValid = checkDependencyValidity(depResponse.data, depVersionRange);
+      devDependencyCache[cacheKey] = isValid; // 更新缓存
+      if (!isValid) {
+        console.error(`DevDependency invalid or missing: ${depName} in package ${packageName}`);
+        return false;
+      }
+    }
+
+    return true;
+  } catch (error) {
+    console.error(`Error validating package ${packageName}:`, (error as Error).message);
+    return false;
+  }
 }

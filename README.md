@@ -104,9 +104,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (302)
+✅: Validated and runnable tools (299)
 
-❌: Cannot be run by the MCP client (with mock environments variables (1870))
+❌: Cannot be run by the MCP client (with mock environments variables (1873))
 
 
 
@@ -1601,7 +1601,7 @@ Analyze app performance and error reports with monitoring tools.
 - [❌ cloudwatch-logs](https://github.com/serkanh/cloudwatch-logs-mcp): Provides direct access to AWS CloudWatch logs with tools for listing log groups and retrieving filtered log entries through a Python-based server using FastMCP and boto3.  (python) 
 - [❌ log-analyzer-with-cloudwatch-logs](https://github.com/awslabs/log-analyzer-with-mcp): Provides structured access to CloudWatch Logs data for searching, analyzing, and correlating logs across AWS services to help with troubleshooting and pattern identification.  (python) 
 - [❌ system-monitor](https://github.com/seekrays/mcp-monitor): Provides real-time system metrics for CPU, memory, disk, network, host, and process statistics using Go and gopsutil, enabling detailed performance monitoring and diagnostics across Windows, macOS, and Linux.  (go) 
-- [✅ @kajirita2002/honeycomb-mcp-server](https://github.com/kajirita2002/honeycomb-mcp-server): Provides a direct TypeScript-based interface for interacting with Honeycomb's observability API, enabling developers to query, create, and manage datasets, events, and monitoring resources through natural language interaction.  (11 tools) (node) 
+- [❌ @kajirita2002/honeycomb-mcp-server](https://github.com/kajirita2002/honeycomb-mcp-server): Provides a direct TypeScript-based interface for interacting with Honeycomb's observability API, enabling developers to query, create, and manage datasets, events, and monitoring resources through natural language interaction.  (node) 
 - [❌ victorialogs](https://github.com/victoriametrics-community/mcp-victorialogs): Provides a bridge between VictoriaLogs and language models for querying and analyzing log data, enabling DevOps teams to troubleshoot issues and extract insights without writing complex query syntax.  (go) 
 - [❌ mackerel](https://github.com/ryuichi1208/mackerel-mcp-server): Integrates with Mackerel server monitoring platform to retrieve host information, service details, metrics, and manage monitoring configurations through natural language conversations.  (python) 
 - [❌ gigapipe](https://github.com/gigapipehq/gigapipe-mcp): Integrates with Gigapipe's observability platform to query Prometheus metrics with PromQL, search Loki logs with LogQL, and retrieve Tempo traces by ID through unified HTTP/HTTPS access with optional authentication.  (go) 
@@ -1667,7 +1667,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ fastdomaincheck](https://github.com/bingal/fastdomaincheck-mcp-server): Provides bulk domain registration status checking through WHOIS and DNS queries, supporting up to 50 domains simultaneously with dual verification methods for reliable availability assessment.  (go) 
 - [❌ claude-deep-research](https://github.com/mcherukara/claude-deep-research): Extends research capabilities by providing unified access to web and academic information through DuckDuckGo and Semantic Scholar integrations, enabling multi-stage workflows for exploration, synthesis, and analysis with proper citations.  (python) 
 - [❌ youtube-subtitles](https://github.com/setkyar/youtube-subtitles-mcp): Integrates with YouTube to enable subtitle retrieval and analysis for content summarization, translation, or accessibility enhancement.  (python) 
-- [✅ @humansean/mcp-bocha](https://github.com/intounknown/mcp-bocha): Enables AI to perform web searches with customizable parameters including freshness filters, domain controls, and result summarization for retrieving up-to-date information from the internet.  (1 tools) (node) 
+- [❌ @humansean/mcp-bocha](https://github.com/intounknown/mcp-bocha): Enables AI to perform web searches with customizable parameters including freshness filters, domain controls, and result summarization for retrieving up-to-date information from the internet.  (node) 
 - [❌ searxng-simple-mcp](https://github.com/sacode/searxng-simple-mcp): Integrates with SearxNG privacy-focused search engine to provide web search capabilities with customizable parameters like result count, language, and time range.  (python) 
 - [❌ backlinks-mcp](https://github.com/cnych/seo-mcp): Retrieves detailed backlink data from Ahrefs including anchor text, domain rating, and URL information for SEO analysis and link building strategies.  (python) 
 - [✅ @cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server): Enables AI systems to search, retrieve, and analyze biomedical literature from PubMed for evidence-based research, citation generation, and data visualization  (5 tools) (node) 
@@ -2385,7 +2385,7 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [❌ tripo-mcp](https://github.com/vast-ai-research/tripo-mcp): Bridges AI systems with the Tripo 3D generation API, enabling text-to-3D model creation and manipulation through Blender addon integration for seamless 3D content creation workflows.  (python) 
 - [❌ raindrop.io](https://github.com/ddltn/raindrop-mcp-python): Integrates with Raindrop.io to enable natural language management of bookmarking collections and tags for streamlined organization workflows.  (python) 
 - [❌ user-feedback](https://github.com/mrexodia/user-feedback-mcp): Enable a human-in-the-loop workflow in tools like Cline and Cursor.  (python) 
-- [✅ grok-mcp](https://github.com/bob-lance/grok-mcp): Provides direct integration with Grok AI's language and vision capabilities, exposing chat completion, image understanding, and function calling tools for developers to interact with Grok's latest models.  (3 tools) (node) 
+- [❌ grok-mcp](https://github.com/bob-lance/grok-mcp): Provides direct integration with Grok AI's language and vision capabilities, exposing chat completion, image understanding, and function calling tools for developers to interact with Grok's latest models.  (node) 
 - [❌ rfk-jr-gateway](https://github.com/voitta-ai/mcp-voitta-gateway): Bridges campaign tools and data to enable dynamic tool registration, endpoint discovery, and information retrieval for RFK Jr's presidential campaign.  (python) 
 - [❌ trinity](https://github.com/kklab-com/trinity-mcp): Bridges AI systems with Trinity's formula-based tools through a Go-based server that enables access to Trinity API capabilities via JSON-RPC interface  (go) 
 - [❌ pdf-to-png](https://github.com/truaxki/mcp-pdf2png): Integrates with pdf2image to convert PDF documents to PNG images.  (python) 

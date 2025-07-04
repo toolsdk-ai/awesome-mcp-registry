@@ -14028,53 +14028,8 @@
   "@kajirita2002/honeycomb-mcp-server": {
     "category": "monitoring",
     "path": "monitoring/kajirita2002-honeycomb-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "honeycomb_auth": {
-        "name": "honeycomb_auth",
-        "description": "API Keys have various scopes permissions and belong to a specific Team or Environment. Use this to validate authentication for a key, to determine what authorizations have been granted to a key, and to determine the Team and Environment that a key belongs to."
-      },
-      "honeycomb_datasets_list": {
-        "name": "honeycomb_datasets_list",
-        "description": "List all datasets in the environment. A Dataset represents a collection of related events that come from the same source, or are related to the same source."
-      },
-      "honeycomb_dataset_get": {
-        "name": "honeycomb_dataset_get",
-        "description": "Get information about a specific dataset. A Dataset represents a collection of related events that come from the same source, or are related to the same source."
-      },
-      "honeycomb_columns_list": {
-        "name": "honeycomb_columns_list",
-        "description": "List all columns in a dataset. Columns are fields in the events you send to Honeycomb."
-      },
-      "honeycomb_query_create": {
-        "name": "honeycomb_query_create",
-        "description": "Create a query from a specification. DOES NOT run the query to retrieve results."
-      },
-      "honeycomb_query_get": {
-        "name": "honeycomb_query_get",
-        "description": "Get information about a specific query. Returns the query specification, not the query results."
-      },
-      "honeycomb_query_result_create": {
-        "name": "honeycomb_query_result_create",
-        "description": "Run a previously created query and return a query result ID that can be used to retrieve the results."
-      },
-      "honeycomb_query_result_get": {
-        "name": "honeycomb_query_result_get",
-        "description": "Get query results for a previously executed query. The response body will be a JSON object with 'complete': true and the results populated once the query is complete."
-      },
-      "honeycomb_dataset_definitions_list": {
-        "name": "honeycomb_dataset_definitions_list",
-        "description": "List dataset definitions with pagination. Dataset definitions describe the fields with special meaning in the Dataset. Honeycomb automatically creates these Dataset definition fields when the Dataset is created."
-      },
-      "honeycomb_boards_list": {
-        "name": "honeycomb_boards_list",
-        "description": "List all boards. Boards are a place to pin and save useful queries and graphs you want to retain for later reuse and reference."
-      },
-      "honeycomb_board_get": {
-        "name": "honeycomb_board_get",
-        "description": "Get information about a specific board. Boards are a place to pin and save useful queries and graphs you want to retain for later reuse and reference."
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "victorialogs": {
     "category": "monitoring",
@@ -14390,13 +14345,8 @@
   "@humansean/mcp-bocha": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/humansean-mcp-bocha.json",
-    "validated": true,
-    "tools": {
-      "mcp-bocha_search": {
-        "name": "mcp-bocha_search",
-        "description": "Search the web for information"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "searxng-simple-mcp": {
     "category": "search-data-extraction",
@@ -21742,21 +21692,8 @@
   "grok-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/grok-mcp.json",
-    "validated": true,
-    "tools": {
-      "chat_completion": {
-        "name": "chat_completion",
-        "description": "Generate a response using Grok AI chat completion"
-      },
-      "image_understanding": {
-        "name": "image_understanding",
-        "description": "Analyze images using Grok AI vision capabilities (Note: Grok 3 may support image creation)"
-      },
-      "function_calling": {
-        "name": "function_calling",
-        "description": "Use Grok AI to call functions based on user input"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "rfk-jr-gateway": {
     "category": "other-tools-and-integrations",
