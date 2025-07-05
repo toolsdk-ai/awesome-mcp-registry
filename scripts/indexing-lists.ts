@@ -58,7 +58,7 @@ async function generatePackagesList() {
   const newPackagesKeys = new Set();
   const categoriesList: Record<string, { config: CategoryConfig; packagesList: string[] }> = {};
   const packageDeps: Record<string, string> = {};
-
+  let i = 0;
   async function traverseDirectory(directory: string, categoryName: string) {
     const entries = fs.readdirSync(directory);
 
@@ -83,6 +83,7 @@ async function generatePackagesList() {
         }
         categoriesList[categoryName].packagesList.push(key);
 
+        console.log('Current package:', parsedContent.packageName, `num:${i++}`);
         if (parsedContent.runtime === 'node') {
           const isValid = await isValidNpmPackage(parsedContent.packageName);
           if (isValid) {
