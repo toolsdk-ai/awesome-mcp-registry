@@ -1,6 +1,6 @@
 {
   "name": "@toolsdk.ai/registry",
-  "version": "1.0.83",
+  "version": "1.0.84",
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "exports": {
     "./config/*": "./config/*",
@@ -39,8 +39,8 @@
     "hyperbrowser-mcp": "1.0.25",
     "exa-mcp-server": "0.3.10",
     "@modelcontextprotocol/server-puppeteer": "2025.5.12",
-    "mcp-server-kubernetes": "2.4.3",
-    "@strowk/mcp-k8s": "0.3.6",
+    "mcp-server-kubernetes": "2.4.5",
+    "@strowk/mcp-k8s": "0.4.0",
     "mcp-shell": "0.1.3",
     "mcp-server-commands": "0.5.0",
     "@enescinar/twitter-mcp": "0.2.0",
