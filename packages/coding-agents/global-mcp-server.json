@@ -1,0 +1,42 @@
+{
+  "type": "mcp-server",
+  "packageName": "global-mcp-server",
+  "description": "A modular MCP server that extends GitHub Copilot's capabilities through intelligent context compression and dynamic model routing for long-lived coding sessions.",
+  "url": "https://github.com/Apofenic/globalmcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "JIRA_URL": {
+      "description": "URL of your Jira instance",
+      "required": true
+    },
+    "GITHUB_REPO": {
+      "description": "Your default GitHub repository",
+      "required": true
+    },
+    "GITHUB_OWNER": {
+      "description": "Your GitHub username",
+      "required": true
+    },
+    "JIRA_USERNAME": {
+      "description": "Your Jira username or email",
+      "required": true
+    },
+    "JIRA_API_TOKEN": {
+      "description": "Your Jira API token",
+      "required": true
+    },
+    "MCP_SERVER_HOST": {
+      "description": "Host for the MCP server",
+      "required": true
+    },
+    "MCP_SERVER_PORT": {
+      "description": "Port for the MCP server",
+      "required": true
+    },
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "description": "Your GitHub personal access token",
+      "required": true
+    }
+  }
+}

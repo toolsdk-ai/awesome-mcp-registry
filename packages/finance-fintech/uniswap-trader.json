@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "uniswap-trader",
+  "description": "Enables AI-driven cryptocurrency trading on Uniswap across multiple blockchains, providing tools for price quotes, optimal routing, and transaction management for automated trading strategies.",
+  "url": "https://github.com/kukapay/uniswap-trader-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

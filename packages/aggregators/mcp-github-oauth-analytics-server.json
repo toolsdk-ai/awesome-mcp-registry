@@ -1,0 +1,26 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-github-oauth-analytics-server",
+  "description": "A Model Context Protocol server that enables AI models to access tools through GitHub authentication and provides comprehensive analytics tracking of tool usage, performance, and user behavior.",
+  "url": "https://github.com/bighadj22/mcp-analytics-github-oauth",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GITHUB_CLIENT_ID": {
+      "description": "GitHub OAuth App Client ID",
+      "required": true
+    },
+    "GITHUB_CLIENT_SECRET": {
+      "description": "GitHub OAuth App Client Secret",
+      "required": true
+    },
+    "COOKIE_ENCRYPTION_KEY": {
+      "description": "Random encryption key for cookies (generate with: openssl rand -hex 32)",
+      "required": true
+    },
+    "MCP_ANALYTICS_API_KEY": {
+      "description": "API key for MCP Analytics",
+      "required": true
+    }
+  }
+}

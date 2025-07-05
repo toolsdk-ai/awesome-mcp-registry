@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "corporate-dystopia-toolkit",
+  "description": "Provides a satirical corporate dystopia toolkit with HR-related tools that parody toxic workplace behaviors through functions for requesting raises, filing complaints, scheduling inconvenient meetings, and generating corporate jargon.",
+  "url": "https://github.com/adird/hilanet-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

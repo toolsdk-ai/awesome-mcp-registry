@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "base-network-mcp-server",
+  "description": "Provides a bridge to the Base blockchain network for wallet management, balance checking, and transaction execution through natural language commands, eliminating the need to manage technical blockchain details.",
+  "url": "https://github.com/fakepixels/base-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "BASE_PROVIDER_URL": {
+      "description": "https://api.developer.coinbase.com/rpc/v1/base/YOUR_API_KEY",
+      "required": true
+    },
+    "WALLET_PRIVATE_KEY": {
+      "description": "your_private_key_here",
+      "required": true
+    }
+  }
+}

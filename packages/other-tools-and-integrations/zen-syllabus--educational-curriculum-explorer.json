@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "zen-syllabus-(educational-curriculum-explorer)",
+  "description": "Provides structured access to educational curriculum data, enabling subject exploration and detailed information retrieval based on grade level and keyword filters",
+  "url": "https://github.com/sifue/zen-syllabus-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

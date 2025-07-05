@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@donggyunryu/mcp-sql",
+  "description": "Provides a bridge to SQL databases (MSSQL, MySQL, PostgreSQL) for executing queries, exploring schemas, monitoring performance, and generating reports with features like connection pooling and transaction management.",
+  "url": "https://github.com/ryudg/mcp-sql",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

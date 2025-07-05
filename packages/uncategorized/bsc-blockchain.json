@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "bsc-blockchain",
+  "description": "Provides a robust blockchain interaction layer for Binance Smart Chain, enabling secure wallet management, token transfers, and smart contract interactions through a flexible, environment-variable-configured architecture.",
+  "url": "https://github.com/termix-official/bsc-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

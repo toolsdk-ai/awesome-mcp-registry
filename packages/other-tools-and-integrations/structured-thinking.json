@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "structured-thinking",
+  "description": "Structures reasoning processes through defined thought stages, managing a history of thoughts with metadata for transparent, step-by-step problem solving and decision making.",
+  "url": "https://github.com/promptly-technologies-llc/mcp-structured-thinking",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

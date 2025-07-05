@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "second-opinion-(code-assistant)",
+  "description": "Synthesizes insights from multiple AI sources to provide enhanced coding assistance with automatic language detection and git-aware context gathering.",
+  "url": "https://github.com/politwit1984/second-opinion-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "perplexity-search",
-  "description": "Integrates with Perplexity AI search API to enable real-time web searches with customizable parameters for recency filtering, domain-specific queries, and citation support.",
-  "url": "https://github.com/chenxilol/perplexity-mcp-go",
-  "runtime": "go",
+  "description": "Enhances Claude with intelligent web search capabilities through Perplexity API, automatically selecting optimal models based on query intent while supporting customizable domain and recency filtering.",
+  "url": "https://github.com/rossh121/perplexity-mcp",
+  "runtime": "node",
   "license": "mit",
   "env": {}
 }

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-apple-calendars",
+  "description": "Provides a TypeScript-based server for reading, creating, updating, and deleting macOS calendar events through a local HTTP bridge, enabling seamless scheduling and calendar management for desktop applications.",
+  "url": "https://github.com/shadowfax92/apple-calendar-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

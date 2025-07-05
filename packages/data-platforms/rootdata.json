@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "rootdata",
+  "description": "Provides a bridge to the RootData API for searching and retrieving detailed information about blockchain projects, venture capital organizations, and industry professionals for crypto research and investment analysis.",
+  "url": "https://github.com/jincai/rootdata-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

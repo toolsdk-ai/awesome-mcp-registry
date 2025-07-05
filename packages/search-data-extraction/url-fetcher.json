@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "url-fetcher",
+  "description": "Enables fetching and processing content from URLs in various formats including HTML, JSON, Markdown, and plain text, with specialized tools for each format type and automatic content type detection for web research and data retrieval tasks.",
+  "url": "https://github.com/nathanonn/mcp-url-fetcher",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

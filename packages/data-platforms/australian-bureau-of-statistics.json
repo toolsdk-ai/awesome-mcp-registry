@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "australian-bureau-of-statistics",
+  "description": "Integrates with the Australian Bureau of Statistics API to provide access to statistical datasets for economic analysis, demographic research, and data-driven policy making.",
+  "url": "https://github.com/seansoreilly/mcp-server-abs",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

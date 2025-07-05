@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "blender",
+  "description": "Integrates with Blender's Python API to enable natural language-driven 3D modeling, scene generation, and animation scripting within the Blender environment.",
+  "url": "https://github.com/cwahlfeldt/blender-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

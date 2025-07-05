@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "playwright-lighthouse",
+  "description": "Combines Playwright's browser automation with Lighthouse's auditing capabilities to analyze website performance, generate detailed reports, and capture screenshots for web development optimization.",
+  "url": "https://github.com/kbyk004-diy/playwright-lighthouse-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

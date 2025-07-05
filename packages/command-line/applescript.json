@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "applescript",
+  "description": "Integrates AppleScript to enable natural language control of macOS applications and system functions.",
+  "url": "https://github.com/joshrutkowski/applescript-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

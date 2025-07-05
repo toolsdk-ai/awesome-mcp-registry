@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "worldpay-checkout",
+  "description": "Integrates with Worldpay's payment processing APIs to enable making and querying payments for e-commerce and financial management applications.",
+  "url": "https://github.com/simonwfarrow/worldpay-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

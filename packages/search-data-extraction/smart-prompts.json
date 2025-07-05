@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "smart-prompts",
+  "description": "Fetches prompts directly from GitHub repositories with semantic search, composition tools, and usage analytics for intelligent prompt management and discovery without local storage requirements.",
+  "url": "https://github.com/jezweb/smart-prompts-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

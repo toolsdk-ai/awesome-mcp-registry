@@ -1,0 +1,26 @@
+{
+  "type": "mcp-server",
+  "packageName": "prometheus-mcp",
+  "description": "Provides seamless integration between AI assistants and Prometheus, enabling natural language interactions with your monitoring infrastructure. This server allows for effortless querying, discovery, and analysis of metrics.",
+  "url": "https://github.com/idanfishman/prometheus-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "PROMETHEUS_URL": {
+      "description": "Prometheus server URL",
+      "required": true
+    },
+    "ENABLE_INFO_TOOLS": {
+      "description": "Set to 'false' to disable info tools",
+      "required": true
+    },
+    "ENABLE_QUERY_TOOLS": {
+      "description": "Set to 'false' to disable query tools",
+      "required": true
+    },
+    "ENABLE_DISCOVERY_TOOLS": {
+      "description": "Set to 'false' to disable discovery tools",
+      "required": true
+    }
+  }
+}

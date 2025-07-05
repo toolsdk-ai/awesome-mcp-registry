@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@agentek/mcp-server",
+  "description": "Offering tools for cryptocurrency research and Ethereum-based automation.",
+  "url": "https://github.com/nanidao/agentek/tree/HEAD/packages/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

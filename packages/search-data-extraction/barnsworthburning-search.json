@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "barnsworthburning-search",
+  "description": "Integrates with barnsworthburning.net's API to enable direct querying of website content for design, typography, and user experience information",
+  "url": "https://github.com/aias/barnsworthburning-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

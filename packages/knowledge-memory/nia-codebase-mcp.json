@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "nia-codebase-mcp",
+  "description": "Enables AI to access and understand codebases indexed in Nia's system through a lookup tool that retrieves relevant code snippets and context based on user queries.",
+  "url": "https://github.com/nozomio-labs/nia-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

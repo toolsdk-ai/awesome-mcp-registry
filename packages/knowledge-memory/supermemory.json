@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "supermemory",
+  "description": "Personal knowledge platform that helps collect, organize, and recall information from various sources with end-to-end encryption and optional self-hosting.",
+  "url": "https://github.com/supermemoryai/supermemory-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

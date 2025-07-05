@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "textwell",
+  "description": "Integrates with Textwell on macOS to enable writing text in replace, insert, or append modes via a simple, focused interface.",
+  "url": "https://github.com/worldnine/textwell-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

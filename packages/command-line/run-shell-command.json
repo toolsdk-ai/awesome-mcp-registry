@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "run-shell-command",
+  "description": "Enables direct execution of shell commands from chat interfaces, creating a bridge between natural language prompts and local system operations for quick developer workflows.",
+  "url": "https://github.com/benyue1978/run-command-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

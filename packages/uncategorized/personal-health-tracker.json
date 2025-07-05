@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "personal-health-tracker",
+  "description": "Integrates personal health data tracking with natural language querying and visualization for privacy-focused local analysis and trend insights.",
+  "url": "https://github.com/evangstav/personal-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

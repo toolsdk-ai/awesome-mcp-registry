@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vibe-eyes",
+  "description": "Enables LLMs to visualize and debug browser-based games and applications by capturing canvas content, console logs, and errors, then processing visual data into compact SVG representations for seamless debugging.",
+  "url": "https://github.com/monteslu/vibe-eyes",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cybermcp-(api-security-testing)",
+  "description": "Provides API security testing tools for authentication testing, SQL injection detection, data leakage analysis, and vulnerability scanning with detailed severity ratings and remediation recommendations.",
+  "url": "https://github.com/ricauts/cybermcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

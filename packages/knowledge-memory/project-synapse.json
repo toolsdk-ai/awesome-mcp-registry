@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "project-synapse",
+  "description": "Transforms raw text into interconnected knowledge graphs using semantic parsing, Zettelkasten methodology, and Neo4j storage to autonomously generate novel insights through pattern detection, community analysis, and semantic clustering.",
+  "url": "https://github.com/angrysky56/project-synapse-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

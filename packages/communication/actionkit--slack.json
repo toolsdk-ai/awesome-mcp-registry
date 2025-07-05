@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "actionkit-(slack)",
+  "description": "Enables interaction with Slack through ActionKit's API using TypeScript and JWT authentication, with filtered actions and user authentication via Paragon Connect Portal",
+  "url": "https://github.com/jackmuva/mcp-actionkit",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

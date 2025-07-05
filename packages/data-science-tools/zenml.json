@@ -4,6 +4,6 @@
   "description": "Integrates with ZenML to enable querying pipeline metadata, triggering new runs, and analyzing ML workflow history through Python-based tools for machine learning pipeline management",
   "url": "https://github.com/zenml-io/mcp-zenml",
   "runtime": "python",
-  "license": "unknown",
+  "license": "mit",
   "env": {}
 }

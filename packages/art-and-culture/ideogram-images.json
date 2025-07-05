@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ideogram-images",
+  "description": "Integrates with the Ideogram API to enable image generation and manipulation based on textual descriptions or parameters",
+  "url": "https://github.com/sunwood-ai-labs/ideagram-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

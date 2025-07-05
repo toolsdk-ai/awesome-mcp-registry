@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "gmail",
-  "description": "Provides direct access to Gmail accounts for reading, sending, drafting, archiving, and organizing emails through the Google API with comprehensive search and filter management capabilities.",
-  "url": "https://github.com/theposch/gmail-mcp",
-  "runtime": "python",
-  "license": "gpl-3.0",
+  "description": "Integrates with Gmail API to enable email listing, reading, and filtering of emails.",
+  "url": "https://github.com/zacco16/gmail-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
   "env": {}
 }

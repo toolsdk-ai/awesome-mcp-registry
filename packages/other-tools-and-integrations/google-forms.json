@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "google-forms",
-  "description": "Enables creation and management of Google Forms through natural language requests, converting conversational inputs into structured form elements for surveys, feedback forms, and event registrations",
-  "url": "https://github.com/adarshp14/google-form-mcp-server",
-  "runtime": "python",
+  "description": "Enables programmatic interaction with Google Forms by generating refresh tokens and establishing OAuth authentication for automating form-related workflows and data retrieval.",
+  "url": "https://github.com/masatoshi118/mcp_google_froms",
+  "runtime": "node",
   "license": "unknown",
   "env": {}
 }

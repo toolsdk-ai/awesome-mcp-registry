@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "web3-framer-plugin",
+  "description": "Integrates web3 capabilities into Framer plugins, enabling blockchain functionality like wallet connections and NFT displays in interactive prototypes and UI components.",
+  "url": "https://github.com/sheshiyer/framer-plugin-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

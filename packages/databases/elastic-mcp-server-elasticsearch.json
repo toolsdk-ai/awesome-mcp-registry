@@ -7,11 +7,11 @@
   "license": "unknown",
   "env": {
     "ES_URL": {
-      "description": "your-elasticsearch-url",
+      "description": "<your-elasticsearch-url>",
       "required": true
     },
     "ES_API_KEY": {
-      "description": "your-api-key",
+      "description": "<your-api-key>",
       "required": true
     }
   }

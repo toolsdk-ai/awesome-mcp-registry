@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "digikey",
+  "description": "Integrates with DigiKey's Product Search API to enable electronic component discovery, detailed specifications retrieval, pricing information, product substitution finding, and datasheet access for electronics engineers and procurement teams.",
+  "url": "https://github.com/bengineer19/digikey_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

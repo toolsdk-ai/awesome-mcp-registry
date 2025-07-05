@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-rss3",
+  "description": "Integrates with RSS3 API to enable querying data across decentralized chains, social media platforms, and the RSS3 network for real-time open web data access within conversations.",
+  "url": "https://github.com/rss3-network/mcp-server-rss3",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

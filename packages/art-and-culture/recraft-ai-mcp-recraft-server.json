@@ -13,6 +13,10 @@
     "IMAGE_STORAGE_DIRECTORY": {
       "description": "<YOUR_IMAGE_STORAGE_DIRECTORY>",
       "required": true
+    },
+    "RECRAFT_REMOTE_RESULTS_STORAGE": {
+      "description": "<YOUR_REMOTE_RESULTS_STORAGE_INDICATOR>",
+      "required": true
     }
   }
 }

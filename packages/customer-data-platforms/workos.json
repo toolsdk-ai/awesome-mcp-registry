@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "workos",
+  "description": "Integrates with WorkOS API to enable enterprise-grade authentication and user management features like Single Sign-On and Multi-Factor Authentication for secure, scalable identity management in AI workflows.",
+  "url": "https://github.com/zueai/workos-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

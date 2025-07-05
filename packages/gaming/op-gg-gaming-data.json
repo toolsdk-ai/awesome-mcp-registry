@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "op.gg-gaming-data",
+  "description": "Connects AI to OP.GG's gaming data services for League of Legends, Teamfight Tactics, Valorant, and esports, providing access to champion statistics, leaderboards, match histories, and meta trends.",
+  "url": "https://github.com/opgginc/opgg-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

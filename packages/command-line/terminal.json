@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "terminal",
-  "description": "Enables execution of shell commands within a designated workspace directory, capturing both standard output and error streams for file operations, script running, and command-line tool interactions directly from conversations.",
-  "url": "https://github.com/theailanguage/terminal_server",
-  "runtime": "python",
-  "license": "other",
+  "description": "Enables AI systems to execute terminal commands in local or remote environments through a TypeScript-based server supporting both standard I/O and SSE communication modes.",
+  "url": "https://github.com/weidwonder/terminal-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
   "env": {}
 }

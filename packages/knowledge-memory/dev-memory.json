@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "dev-memory",
+  "description": "Provides persistent cross-project memory storage and retrieval for maintaining development context and knowledge across sessions.",
+  "url": "https://github.com/trackerxxx23/dev_memory_mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

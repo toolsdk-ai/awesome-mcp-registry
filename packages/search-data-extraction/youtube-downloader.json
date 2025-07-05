@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "youtube-downloader",
+  "description": "Bridges AI systems with YouTube content through yt-dlp, enabling video information extraction and downloading capabilities for content analysis and media processing.",
+  "url": "https://github.com/xue160709/yt-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

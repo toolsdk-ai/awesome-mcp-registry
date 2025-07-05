@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "figma-rest-api",
+  "description": "Integrates with the Figma REST API to manage design system elements, enabling variable handling, file operations, and collaborative workflows.",
+  "url": "https://github.com/timholden/figma-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

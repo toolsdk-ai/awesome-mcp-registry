@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cursor-chat-history-mcp",
+  "description": "Analyzes local Cursor chat history to extract development patterns, usage insights, and coding best practices with tools for searching conversations, generating analytics, and exporting data in multiple formats for personalized development assistance.",
+  "url": "https://github.com/vltansky/cursor-chat-history-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-enterprise",
+  "description": "Integrates with GitHub's API to enable natural language-driven repository management, code manipulation, and issue tracking for streamlined development workflows.",
+  "url": "https://github.com/piyushgiitian/github-enterprice-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

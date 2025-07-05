@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ragdocs-(vector-documentation-search)",
+  "description": "Enables semantic documentation search and retrieval using vector databases, allowing for URL extraction, source management, and indexing queues with support for multiple embedding providers including Ollama and OpenAI.",
+  "url": "https://github.com/jumasheff/mcp-ragdoc-fork",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

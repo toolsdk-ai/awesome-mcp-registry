@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-diff-typescript",
+  "description": "Generates unified diffs between text strings with 3 lines of context, enabling precise comparison and analysis for version control and code review tasks.",
+  "url": "https://github.com/tatn/mcp-server-diff-typescript",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

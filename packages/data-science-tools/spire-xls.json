@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "spire.xls",
+  "description": "Provides Excel file manipulation through the Spire.XLS library, enabling creation, reading, modification, and conversion of Excel workbooks with support for formulas, charts, pivot tables, conditional formatting, and export to multiple formats including PDF, HTML, CSV, and images.",
+  "url": "https://github.com/eiceblue/spire-xls-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

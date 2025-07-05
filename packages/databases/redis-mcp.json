@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "redis-mcp",
+  "description": "Bridge to Redis databases, enabling fast in-memory data operations for AI workflows.",
+  "url": "https://github.com/farhankaz/redis-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

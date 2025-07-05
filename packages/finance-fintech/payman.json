@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "payman",
+  "description": "Provides a documentation retrieval and problem-solving system for developers integrating the Payman payment platform, enabling technical guidance and code examples across Node.js and Python SDKs through a flexible, cache-enabled lookup system",
+  "url": "https://github.com/vanshika-rana/payman-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

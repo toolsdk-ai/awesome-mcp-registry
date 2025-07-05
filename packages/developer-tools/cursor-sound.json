@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cursor-sound",
+  "description": "Lightweight macOS server that plays a system sound effect after code generation is complete, providing auditory feedback for developers during coding sessions.",
+  "url": "https://github.com/ericlistin/sound-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

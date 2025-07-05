@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-repository",
+  "description": "Provides a GitHub repository context retrieval tool that enables AI models to access repository structures, file contents, and filtered file lists through GitHub token authentication.",
+  "url": "https://github.com/shanksxz/gh-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

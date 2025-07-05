@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "shufersal",
+  "description": "Automates Shufersal supermarket shopping by converting recipe links into shopping lists, searching the product catalog with personalized results for logged-in users, and adding items directly to the cart through browser automation.",
+  "url": "https://github.com/matipojo/shufersal-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

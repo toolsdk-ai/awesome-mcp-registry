@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "azure-cosmos-db",
-  "description": "Enables natural language interaction with Azure Cosmos DB for querying, creating, and managing databases, containers, and items through Go-based tools supporting both key authentication and managed identities.",
-  "url": "https://github.com/abhirockzz/mcp_cosmosdb_go",
-  "runtime": "go",
-  "license": "unknown",
+  "description": "Provides a bridge between Azure Cosmos DB and natural language interaction, enabling database operations like inserting, retrieving, updating, and querying items without writing complex queries or switching contexts.",
+  "url": "https://github.com/robinong79/mcp-cosmos",
+  "runtime": "node",
+  "license": "mit",
   "env": {}
 }

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@luorivergoddess/mcp-geo",
+  "description": "Renders precise geometric images using Asymptote vector graphics language, converting mathematical code into SVG or PNG formats for technical diagrams and visualizations.",
+  "url": "https://github.com/luorivergoddess/mcp-geo",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

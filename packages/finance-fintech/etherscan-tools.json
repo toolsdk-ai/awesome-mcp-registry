@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "etherscan-tools",
+  "description": "Integrates with Etherscan's API to provide Ethereum blockchain data tools for balance checking, transaction tracking, and smart contract analysis.",
+  "url": "https://github.com/crazyrabbitltc/mcp-etherscan-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

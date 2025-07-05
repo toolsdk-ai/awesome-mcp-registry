@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "azure-resource-graph",
+  "description": "Enables querying and retrieving detailed information about Azure resources across subscriptions through Azure Resource Graph API for cloud infrastructure analysis and troubleshooting",
+  "url": "https://github.com/hardik-id/azure-resource-graph-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

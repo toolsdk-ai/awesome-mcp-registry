@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sharepoint-lists",
+  "description": "Enables AI to interact with SharePoint lists through the CLI for Microsoft 365, allowing natural language management of content without requiring SharePoint structure knowledge.",
+  "url": "https://github.com/pnp/cli-microsoft365-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

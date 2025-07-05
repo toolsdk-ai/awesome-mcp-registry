@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@upstash/context7-mcp",
+  "description": "Connects to Context7.com's documentation database to provide up-to-date library and framework documentation with intelligent project ranking and customizable token limits.",
+  "url": "https://github.com/upstash/context7",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

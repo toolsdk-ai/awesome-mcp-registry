@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "contextmanager",
+  "description": "Provides a multi-domain context management system with specialized knowledge graph tools for tracking and analyzing work and learning activities across software development, academic, and professional contexts.",
+  "url": "https://github.com/tejpalvirk/contextmanager",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

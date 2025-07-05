@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "flux-schnell-(replicate)",
+  "description": "Bridges Claude with Replicate's flux-schnell image generation model, enabling direct image creation from text prompts within conversations through a single tool that communicates with the Replicate API.",
+  "url": "https://github.com/ckz/flux-schnell-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

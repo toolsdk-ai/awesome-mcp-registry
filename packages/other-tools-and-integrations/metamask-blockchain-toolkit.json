@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "metamask-blockchain-toolkit",
+  "description": "Integrates with blockchain technologies like MetaMask, ERC20 tokens, and smart contracts, enabling wallet connections, contract deployment, transaction verification, and token management across Celo and Polygon networks.",
+  "url": "https://github.com/xiawpohr/mcpilot",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

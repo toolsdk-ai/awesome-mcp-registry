@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "browser-control",
+  "description": "Enables browser automation through a Firefox extension for tab management, webpage content extraction, history searching, and text highlighting via secure WebSocket communication.",
+  "url": "https://github.com/eyalzh/browser-control-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

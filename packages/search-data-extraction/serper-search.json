@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "serper-search",
-  "description": "Integrates with the Serper API to provide web search capabilities including web, news, images, shopping, and YouTube searches for real-time information retrieval and content research.",
-  "url": "https://github.com/diegofornalha/mcp-server-serper",
-  "runtime": "python",
+  "description": "Integrates with Serper API to provide web search capabilities through standard Google search and Deep Research tools that break complex queries into sub-queries, gather information from multiple sources, and synthesize findings with citations.",
+  "url": "https://github.com/nighttrek/serper-search-mcp",
+  "runtime": "node",
   "license": "unknown",
   "env": {}
 }

@@ -1,0 +1,26 @@
+{
+  "type": "mcp-server",
+  "packageName": "georgia-tech-mcp-server",
+  "description": "A Model Context Protocol server that provides LLMs with access to Georgia Tech's OSCAR course schedule system, enabling search for courses, subjects, and detailed course information.",
+  "url": "https://github.com/wondermuttt/gtmcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "host": {
+      "description": "Server host address",
+      "required": true
+    },
+    "port": {
+      "description": "Server port",
+      "required": true
+    },
+    "config": {
+      "description": "Path to custom config file",
+      "required": true
+    },
+    "log_level": {
+      "description": "Logging level",
+      "required": true
+    }
+  }
+}

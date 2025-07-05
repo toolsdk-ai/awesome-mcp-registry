@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "nano-currency",
+  "description": "Lightweight server for sending Nano cryptocurrency, enabling direct blockchain transactions with robust validation and error handling.",
+  "url": "https://github.com/kilkelly/nano-currency-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

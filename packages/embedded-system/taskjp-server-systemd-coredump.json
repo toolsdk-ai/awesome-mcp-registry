@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@taskjp/server-systemd-coredump",
+  "description": "Provides a bridge to systemd-coredump functionality for accessing, managing, and analyzing system core dumps in Linux environments, including listing available coredumps, retrieving information, extracting dumps, and generating stack traces using GDB.",
+  "url": "https://github.com/signal-slot/mcp-systemd-coredump",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "imessage",
-  "description": "Integrates with Apple's iMessage platform to enable sending and receiving messages.",
-  "url": "https://github.com/shirhatti/mcp-server-imessage",
-  "runtime": "python",
-  "license": "mit",
+  "description": "Enables iMessage interaction on macOS for read/send capabilities.",
+  "url": "https://github.com/tchbw/mcp-imessage",
+  "runtime": "node",
+  "license": "unknown",
   "env": {}
 }

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "coding-file-context",
+  "description": "Provides advanced file system access and code analysis capabilities, enabling efficient reading, searching, and analysis of large codebases for automated quality assessment and intelligent navigation.",
+  "url": "https://github.com/bsmi021/mcp-file-context-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

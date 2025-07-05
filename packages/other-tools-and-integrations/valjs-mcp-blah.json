@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "valjs-mcp-blah",
+  "description": "Lightweight TypeScript server for generating and calling tools, providing a simple, extensible framework with a focus on ease of use and a basic 'random_joke' tool as an example implementation.",
+  "url": "https://github.com/thomasdavis/valjs",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

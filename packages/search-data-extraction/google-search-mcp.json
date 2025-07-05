@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-search-mcp",
+  "description": "Integrates with Google Custom Search API and web scraping tools to enable web searches, content extraction, and analysis for research and data aggregation tasks.",
+  "url": "https://github.com/mixelpixx/google-search-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

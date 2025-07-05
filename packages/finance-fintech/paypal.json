@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "paypal",
+  "description": "Integrates with PayPal's APIs for payment processing, order management, invoicing, and subscription handling through TypeScript/Node.js implementation with OAuth 2.0 authentication and comprehensive validation.",
+  "url": "https://github.com/arbuthnot-eth/paypal-mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

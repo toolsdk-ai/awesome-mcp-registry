@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "retrieval-augmented-thinking",
+  "description": "Enhances AI capabilities with structured, retrieval-augmented thinking processes, enabling dynamic thought chains and recursive refinement for improved reasoning and complex problem-solving.",
+  "url": "https://github.com/stat-guy/retrieval-augmented-thinking",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

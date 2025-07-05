@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gemini-media-analysis",
+  "description": "Provides image, audio, and video analysis tools using Google's Gemini AI for content description, transcription, and understanding with file caching for improved performance.",
+  "url": "https://github.com/mario-andreschak/mcp_video_recognition",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

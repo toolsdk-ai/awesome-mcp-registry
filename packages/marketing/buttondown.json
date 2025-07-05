@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "buttondown",
+  "description": "Integrates with Buttondown newsletter API for managing email campaigns through tools for listing, creating, analyzing, and scheduling newsletters with secure API key handling and ISO 8601 datetime formatting.",
+  "url": "https://github.com/the-focus-ai/buttondown-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

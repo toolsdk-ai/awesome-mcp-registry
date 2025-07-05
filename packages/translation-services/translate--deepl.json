@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "translate-(deepl)",
+  "description": "Provides a translation service using DeepL API, enabling seamless text translation between multiple languages with dynamic language selection and easy integration into workflows.",
+  "url": "https://github.com/akramsaouri/mcp-translate",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

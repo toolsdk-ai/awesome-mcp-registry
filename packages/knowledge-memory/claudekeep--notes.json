@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "claudekeep-(notes)",
+  "description": "Integrates a personal knowledge management system for storing, retrieving, and organizing conversation notes locally.",
+  "url": "https://github.com/sdairs/claudekeep",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

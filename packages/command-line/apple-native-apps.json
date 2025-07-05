@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "apple-native-apps",
+  "description": "Enables native macOS integration with Apple applications like Contacts, Notes, Messages, Mail, Reminders, Calendar, and Maps through JXA and AppleScript for performing tasks without leaving conversation context.",
+  "url": "https://github.com/jxnl/apple-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

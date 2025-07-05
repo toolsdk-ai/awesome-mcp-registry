@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "letzai",
+  "description": "Integrates with LetzAI to enable image generation and upscaling through natural language commands with customizable parameters like dimensions, quality, and creativity.",
+  "url": "https://github.com/letz-ai/letzai-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

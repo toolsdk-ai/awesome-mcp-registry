@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@jeromyfu/app-insight-mcp",
+  "description": "Analyze data from both the Apple App Store and Google Play Store",
+  "url": "https://github.com/jiantaofu/appinsightmcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

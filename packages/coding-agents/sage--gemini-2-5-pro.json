@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sage-(gemini-2.5-pro)",
+  "description": "Provides tools for sending prompts to Gemini 2.5 Pro with full file context, enabling second opinions and expert code reviews with gitignore-aware directory traversal.",
+  "url": "https://github.com/jalehman/mcp-sage",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "macos-gui-control",
+  "description": "Enables AI assistants to control macOS applications by capturing screenshots, identifying UI elements, and automating mouse and keyboard actions through the macOS accessibility framework.",
+  "url": "https://github.com/atharva-gundawar/macos_gui",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

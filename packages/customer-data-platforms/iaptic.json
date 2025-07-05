@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "iaptic",
+  "description": "Integrates with Iaptic's customer and transaction data to enable querying, analysis, and insights for e-commerce and customer support tasks.",
+  "url": "https://github.com/iaptic/mcp-server-iaptic",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "opendigger",
+  "description": "Provides access to OpenDigger's open-source metrics data for analyzing project health, contributor influence, and community dynamics through a TypeScript tool that fetches GitHub and Gitee repository statistics.",
+  "url": "https://github.com/x-lab2017/open-digger-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

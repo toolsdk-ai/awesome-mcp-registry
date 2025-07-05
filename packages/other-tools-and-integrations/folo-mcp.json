@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "folo-mcp",
+  "description": "Integrates with Folo RSS reader to enable querying and managing feed subscriptions, retrieving filtered entries, checking unread counts, and marking entries as read for streamlined content discovery and organization.",
+  "url": "https://github.com/hyoban/folo-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

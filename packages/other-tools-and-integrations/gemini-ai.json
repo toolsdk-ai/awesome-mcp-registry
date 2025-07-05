@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gemini-ai",
+  "description": "Provides a robust interface to Google's Gemini AI models with specialized tools for content generation, chat functionality, function calling, and file/cache management.",
+  "url": "https://github.com/bsmi021/mcp-gemini-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

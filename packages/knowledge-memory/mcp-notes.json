@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-notes",
+  "description": "Integrates note-taking capabilities with AI models using TypeScript and DynamoDB for persistent memory and context management in applications.",
+  "url": "https://github.com/9ninety/mcpnotes",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

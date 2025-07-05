@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "read-images",
+  "description": "Integrates with OpenRouter's vision models to enable image analysis and content extraction through natural language queries.",
+  "url": "https://github.com/catalystneuro/mcp_read_images",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

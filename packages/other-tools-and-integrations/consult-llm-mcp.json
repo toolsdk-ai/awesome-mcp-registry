@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "consult-llm-mcp",
+  "description": "Escalates complex reasoning tasks to more powerful language models (OpenAI o3, Google Gemini 2.5 Pro, DeepSeek Reasoner) by forwarding markdown prompts with code context and git diffs, returning responses with detailed cost tracking.",
+  "url": "https://github.com/raine/consult-llm-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@anyproto/anytype-mcp",
+  "description": "Converts any OpenAPI 3.0/3.1 specification into callable tools by automatically generating schemas from REST API endpoints, handling authentication via environment variables, and supporting file uploads through multipart form-data while filtering out destructive operations.",
+  "url": "https://github.com/anyproto/anytype-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

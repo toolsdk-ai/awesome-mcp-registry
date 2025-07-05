@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "quickchart",
+  "description": "Integrates with QuickChart to enable dynamic generation of charts and graphs for data visualization tasks.",
+  "url": "https://github.com/gongrzhe/quickchart-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

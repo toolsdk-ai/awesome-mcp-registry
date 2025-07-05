@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "clerk-authentication",
+  "description": "Integrates with Clerk authentication to enable secure interactions with protected API routes and server actions for AI-driven operations.",
+  "url": "https://github.com/sokratisvidros/workers-mcp-clerk",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

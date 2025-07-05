@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "reablocks",
+  "description": "Generates React components and documentation for the Reablocks UI library through natural language descriptions, enabling rapid prototyping of dashboards, forms, tables, and custom layouts with TypeScript support and intelligent component suggestions.",
+  "url": "https://github.com/qdhenry/reablocks-mcp-server-experiment",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "kubernetes-natural-language-commander",
+  "description": "Converts natural language requests into valid kubectl commands for Kubernetes cluster management, enabling administrators to interact with their clusters without memorizing complex syntax",
+  "url": "https://github.com/jess321995/kube-core-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,8 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "@modelcontextprotocol/server-filesystem",
-  "description": "MCP server for filesystem access",
-  "url": "https://github.com/modelcontextprotocol/servers",
+  "description": "Read, write, and manipulate local files through a controlled API.",
+  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/filesystem",
   "runtime": "node",
-  "license": "MIT"
+  "license": "unknown",
+  "env": {}
 }

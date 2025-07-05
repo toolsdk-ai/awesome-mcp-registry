@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "code-runner",
+  "description": "Executes Python and JavaScript/TypeScript code snippets in isolated environments, enabling developers to test, prototype, and demonstrate programming concepts directly within conversations.",
+  "url": "https://github.com/mcpc-tech/mcpc/tree/HEAD/packages/code-runner-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

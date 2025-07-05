@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "n8n-workflow-validator",
+  "description": "Provides a validation and best practices framework for n8n workflows, enabling workflow validation, API integration, and workflow management through specialized validators for calendar integrations, documentation, error handling, naming conventions, performance, and security.",
+  "url": "https://github.com/lowprofix/n8n-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

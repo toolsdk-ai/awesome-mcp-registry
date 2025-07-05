@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "caldav",
+  "description": "Enables secure calendar data access and synchronization through CalDAV protocol, supporting flexible authentication methods for seamless integration into workflow tools.",
+  "url": "https://github.com/railmap/mcp-server-caldav",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

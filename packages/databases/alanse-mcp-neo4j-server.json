@@ -17,6 +17,10 @@
     "NEO4J_PASSWORD": {
       "description": "your-password",
       "required": true
+    },
+    "NEO4J_DATABASE": {
+      "description": "neo4j",
+      "required": true
     }
   }
 }

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "opik",
+  "description": "Interact and analyze your Opik enviroment including traces, telemetry and metrics with natural language.",
+  "url": "https://github.com/comet-ml/opik-mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

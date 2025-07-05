@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "web-llm-playwright",
+  "description": "Provides browser-based local LLM inference by running Web-LLM models entirely in a headless Chromium browser without external API dependencies, supporting multiple quantized models with dynamic switching and screenshot debugging for privacy-sensitive offline workflows.",
+  "url": "https://github.com/ragingwind/web-llm-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

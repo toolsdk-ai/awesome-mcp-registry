@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "edgeone-geo",
+  "description": "Provides lightweight geolocation retrieval by exposing an HTTP endpoint that fetches precise user location data for contextual awareness with minimal configuration overhead.",
+  "url": "https://github.com/tencentedgeone/mcp-geo",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

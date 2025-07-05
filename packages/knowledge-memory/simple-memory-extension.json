@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "simple-memory-extension",
+  "description": "Persistent key-value memory store with semantic search using SQLite and E5 embeddings, enabling contextual information retrieval and long-term memory extension for complex multi-step tasks.",
+  "url": "https://github.com/gmacev/simple-memory-extension-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

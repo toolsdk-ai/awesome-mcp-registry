@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "wordpress-gutenberg",
+  "description": "Enables WordPress site management and development through a TypeScript-powered REST API and WP-CLI toolkit for automating administrative tasks and plugin interactions",
+  "url": "https://github.com/michael-tomala/mcp-wordpress-gutenberg",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

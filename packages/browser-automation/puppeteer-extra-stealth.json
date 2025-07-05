@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "puppeteer-extra-stealth",
+  "description": "Enables stealthy web automation with Puppeteer-Extra and Stealth Plugin for navigating websites, capturing screenshots, interacting with elements, and executing JavaScript while avoiding detection as automation.",
+  "url": "https://github.com/gpaul-faldin/mcp_puppeteer_extra",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

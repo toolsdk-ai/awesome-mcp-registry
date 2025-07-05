@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "star-wars-planetary-data",
+  "description": "Integrates with Couchbase and Nebius AI to provide fast, scalable access to Star Wars planetary data with vector search capabilities and generated planet images.",
+  "url": "https://github.com/shivaylamba/mcp-nebius",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

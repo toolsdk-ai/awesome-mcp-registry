@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-rand",
+  "description": "Provides diverse random generation utilities including UUIDs, numbers, strings, passwords, and more.",
+  "url": "https://github.com/turlockmike/mcp-rand",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

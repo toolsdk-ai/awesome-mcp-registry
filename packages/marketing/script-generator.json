@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "script-generator",
+  "description": "Generates professional video scripts using a multi-agent workflow with OpenAI's GPT-4o and Tavily's research capabilities, enabling efficient content creation across various topics.",
+  "url": "https://github.com/pratik-kumar-cse/script-generation-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

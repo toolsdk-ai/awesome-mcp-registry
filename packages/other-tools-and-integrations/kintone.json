@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "kintone",
-  "description": "Enables interaction with Kintone's low/no code platform for listing apps, reading app info, and performing CRUD operations.",
-  "url": "https://github.com/macrat/mcp-server-kintone",
-  "runtime": "go",
-  "license": "mit",
+  "description": "Integrates with Kintone's low-code platform API, enabling data retrieval, record creation, and workflow automation in Kintone applications.",
+  "url": "https://github.com/r3-yamauchi/kintone-mcp-server",
+  "runtime": "node",
+  "license": "agpl-3.0",
   "env": {}
 }

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cimri-price-investigator",
+  "description": "Scrapes real-time product pricing data from Cimri.com, a Turkish price comparison website, enabling users to find current market rates without leaving their conversation interface.",
+  "url": "https://github.com/halityurttas/cimri-mcp-investigate",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

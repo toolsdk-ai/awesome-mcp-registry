@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "harvest-mcp-server-setup",
+  "description": "Integrates with Harvest's time tracking and project management features, enabling natural language interactions for managing projects, tracking time entries, and handling leave requests.",
+  "url": "https://github.com/adrian-dotco/harvest-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

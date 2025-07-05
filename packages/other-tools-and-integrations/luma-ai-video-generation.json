@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "luma-ai-video-generation",
+  "description": "Integrates with Luma AI's API to enable AI-driven video generation based on textual descriptions or parameters.",
+  "url": "https://github.com/sunwood-ai-labs/luma-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

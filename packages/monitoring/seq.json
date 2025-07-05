@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "seq",
+  "description": "Integrates with Seq's API for retrieving signals, events, and alert states, enabling real-time insights into application logs and system performance metrics.",
+  "url": "https://github.com/ahmad2x4/mcp-server-seq",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

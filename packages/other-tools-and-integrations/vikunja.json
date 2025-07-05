@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vikunja",
+  "description": "Integrates with Vikunja's API to enable task creation, retrieval, and management for automated to-do list operations and workflow integration.",
+  "url": "https://github.com/lowlyocean/mcp-vikunja",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

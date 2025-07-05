@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "memory-libsql",
+  "description": "High-performance persistent memory system for Model Context Protocol (MCP) powered by libSQL",
+  "url": "https://github.com/joleyline/mcp-memory-libsql",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

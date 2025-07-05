@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "prd-creator",
+  "description": "Streamlines PRD creation and validation with TypeScript-based templates stored in SQLite, enabling product teams to generate consistent, high-quality documentation directly within conversations.",
+  "url": "https://github.com/saml1211/prd-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@openmcprouter/mcp-server-ghibli-video",
+  "description": "Transforms static images into animated Ghibli-style videos through the GPT4O Image Generator API with tools for credit balance checking and task monitoring.",
+  "url": "https://github.com/michaelyangjson/mcp-ghibli-video",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

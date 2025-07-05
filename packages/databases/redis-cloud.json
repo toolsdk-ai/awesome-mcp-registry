@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "redis-cloud",
+  "description": "Integration with Redis Cloud's API, allowing you to manage your Redis Cloud resources using natural language.",
+  "url": "https://github.com/redis/mcp-redis-cloud",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

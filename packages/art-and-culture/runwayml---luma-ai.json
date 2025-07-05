@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "runwayml-+-luma-ai",
+  "description": "Integrates with RunwayML and Luma AI to generate, manage, and enhance videos and images with features like text-to-video conversion, image animation, and content upscaling through asynchronous progress tracking.",
+  "url": "https://github.com/wheattoast11/mcp-video-gen",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

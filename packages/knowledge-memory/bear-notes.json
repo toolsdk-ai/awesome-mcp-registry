@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "bear-notes",
-  "description": "Provides direct access to Bear App's SQLite database on macOS, enabling search and retrieval of personal notes by content, title, or tags, plus extraction of code blocks and technical documentation for knowledge discovery workflows.",
-  "url": "https://github.com/netologist/mcp-bear-notes",
-  "runtime": "python",
-  "license": "unknown",
+  "description": "Connects Claude to Bear Notes through semantic search and vector similarity, enabling powerful knowledge retrieval directly from your personal note database.",
+  "url": "https://github.com/ruanodendaal/bear-mcp-server",
+  "runtime": "node",
+  "license": "mit",
   "env": {}
 }

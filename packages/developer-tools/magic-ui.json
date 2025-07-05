@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "magic-ui",
+  "description": "Fetches and categorizes Magic UI components from GitHub, providing a standardized way for developers to discover and integrate pre-built UI elements with local caching and automatic categorization.",
+  "url": "https://github.com/idcdev/mcp-magic-ui",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

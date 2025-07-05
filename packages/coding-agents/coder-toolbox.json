@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "coder-toolbox",
+  "description": "Integrates Java code analysis, manipulation, and testing tools for efficient software development workflows and automated code operations.",
+  "url": "https://github.com/lamemind/coder-toolbox-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

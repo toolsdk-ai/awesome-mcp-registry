@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tailscale",
+  "description": "Integrates with Tailscale's CLI and REST API to provide network management capabilities including device authorization, route configuration, ACL management, DNS settings, exit node setup, and user administration for distributed infrastructure operations.",
+  "url": "https://github.com/hexsleeves/tailscale-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

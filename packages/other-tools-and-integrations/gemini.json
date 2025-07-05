@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "gemini",
-  "description": "Integrates with Google's Gemini API to enable text generation, analysis, and chat conversations through a Flask-based RESTful server that securely manages API keys via environment variables.",
-  "url": "https://github.com/amitsh06/mcp-server",
-  "runtime": "python",
-  "license": "unknown",
+  "description": "Wraps Google Gemini API with intelligent model fallback, enabling content generation, function calling, stateful chat, and file handling through a consistent tool-based interface.",
+  "url": "https://github.com/novakiki/mcp-gemini-server",
+  "runtime": "node",
+  "license": "mit",
   "env": {}
 }

@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "openapi-transformer",
-  "description": "Transforms OpenAPI specifications into ready-to-use tools that enable seamless interaction with REST APIs through automatic endpoint mapping, authentication handling, and response formatting.",
-  "url": "https://github.com/loopwork-ai/emcee",
-  "runtime": "go",
-  "license": "apache-2.0",
+  "description": "Transforms OpenAPI specifications into dynamic tool interfaces for REST API interactions, automatically handling parameter mapping, authentication, and request/response formatting without custom integration code.",
+  "url": "https://github.com/th-ad/oas-to-mcp",
+  "runtime": "node",
+  "license": "unknown",
   "env": {}
 }

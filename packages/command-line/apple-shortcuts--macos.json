@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "apple-shortcuts-(macos)",
+  "description": "Control Apple Shortcuts automations on macOS.",
+  "url": "https://github.com/recursechat/mcp-server-apple-shortcuts",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

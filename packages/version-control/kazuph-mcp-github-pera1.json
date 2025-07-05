@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kazuph/mcp-github-pera1",
+  "description": "Connects to GitHub repositories, enabling natural language queries about code structure, dependencies, and development history.",
+  "url": "https://github.com/kazuph/mcp-github-pera1",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}
