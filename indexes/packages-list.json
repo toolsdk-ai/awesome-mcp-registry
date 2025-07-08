@@ -829,8 +829,21 @@
   "@llmindset/mcp-hfspace": {
     "category": "developer-tools",
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "available-files": {
+        "name": "available-files",
+        "description": "A list of available file and resources. If the User requests things like 'most recent image' or 'the audio' use this tool to identify the intended resource.This tool returns 'resource uri', 'name', 'size', 'last modified'  and 'mime type' in a markdown table"
+      },
+      "search-spaces": {
+        "name": "search-spaces",
+        "description": "Use semantic search to find an endpoint on the `Hugging Face Spaces` service. The search term will usually be 3-7 words describing a task or activity the Person is trying to accomplish. The results are returned in a markdown table. Present all results to the Person. Await specific guidance from the Person before making further Tool calls."
+      },
+      "FLUX_1-schnell-infer": {
+        "name": "FLUX_1-schnell-infer",
+        "description": "Call the FLUX.1-schnell endpoint /infer"
+      }
+    }
   },
   "@mcp-get-community/server-macos": {
     "category": "developer-tools",
@@ -988,7 +1001,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun-io-mcp-server-raygun.json",
+    "path": "monitoring/raygun.io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
@@ -1827,7 +1840,7 @@
       },
       "chargebee_code_planner": {
         "name": "chargebee_code_planner",
-        "description": "\nAlways use this tool to get the accurate integeration code guide for Chargebee.\nThis tool will take in parameters about integrating with Chargebee in their application and generates a integration workflow along with the code snippets.\n\nIt takes the following arguments:\n- goal (string): What is the user's goal?\n- language (enum): Programming language the code to be generated in. Check the user's application language.\n"
+        "description": "\nAlways use this tool to get the accurate integration code guide for Chargebee.\nThis tool will take in parameters about integrating with Chargebee in their application and generates an integration workflow along with the code snippets.\n\nIt takes the following arguments:\n- goal (string): What is the user's goal?\n- language (enum): Programming language the code to be generated in. Check the user's application language.\n"
       }
     }
   },
@@ -2401,6 +2414,10 @@
       "list_nodit_data_apis": {
         "name": "list_nodit_data_apis",
         "description": "Lists available Nodit Data API operations."
+      },
+      "list_nodit_webhook_apis": {
+        "name": "list_nodit_webhook_apis",
+        "description": "Lists available Nodit Webhook API operations."
       },
       "list_nodit_aptos_indexer_api_query_root": {
         "name": "list_nodit_aptos_indexer_api_query_root",
@@ -3511,11 +3528,7 @@
     "tools": {
       "generate_image": {
         "name": "generate_image",
-        "description": "Generate an image using Recraft AI from a text prompt.\nYou can specify the image size, style, model, and number of images to generate.\nYou don't need to change default parameters if you don't have any specific requirements.\nYou can use styles to refine the image generation, and also to generate raster or vector images.\nGenerated images will be saved to local storage, paths to them and their previews will be returned in the response."
-      },
-      "image_to_image": {
-        "name": "image_to_image",
-        "description": "Generate an image using Recraft AI from an input image and a text prompt.\nYou can specify the reference input image, style, model, and number of images to generate.\nYou should provide the same style/substyle/styleID settings as were used for input image generation (if exists) if there are no specific requirements to change the style.\nOther parameters are recommended to keep default if you don't have any specific requirements on them.\nYou can use styles to refine the image generation, and also to generate raster or vector images.\nGenerated images will be saved to local storage, paths to them and their previews will be returned in the response."
+        "description": "Generate an image using Recraft AI from a text prompt.\nYou can specify the image size, style, model, and number of images to generate.\nYou don't need to change default parameters if you don't have any specific requirements.\nYou can use styles to refine the image generation, and also to generate raster or vector images.\nLocal paths or URLs to generated images and their previews will be returned in the response."
       },
       "create_style": {
         "name": "create_style",
@@ -3523,23 +3536,27 @@
       },
       "vectorize_image": {
         "name": "vectorize_image",
-        "description": "Vectorize an input image using Recraft AI.\nThis operation takes an input image and returns a vector SVG image, close to it.\nResulting image will be saved to local storage, path to it and its preview will be returned in the response."
+        "description": "Vectorize an input image using Recraft AI.\nThis operation takes an input image and returns a vector SVG image, close to it.\nLocal path or URL to resulting image and its preview will be returned in the response."
+      },
+      "image_to_image": {
+        "name": "image_to_image",
+        "description": "Generate an image using Recraft AI from an input image and a text prompt.\nYou can specify the reference input image, style, model, and number of images to generate.\nYou should provide the same style/substyle/styleID settings as were used for input image generation (if exists) if there are no specific requirements to change the style.\nOther parameters are recommended to keep default if you don't have any specific requirements on them.\nYou can use styles to refine the image generation, and also to generate raster or vector images.\nLocal paths or URLs to generated images and their previews will be returned in the response."
       },
       "remove_background": {
         "name": "remove_background",
-        "description": "Remove background in the input image using Recraft AI.\nThis operation takes an input image and returns the same image with detected background removed. Raster image will be always returned.\nResulting image will be saved to local storage, path to it and its preview will be returned in the response."
+        "description": "Remove background in the input image using Recraft AI.\nThis operation takes an input image and returns the same image with detected background removed. Raster image will be always returned.\nLocal path or URL to resulting image and its preview will be returned in the response."
       },
       "replace_background": {
         "name": "replace_background",
-        "description": "Generate an image using Recraft AI from an input image with its detected background replaced based on the prompt.\nYou can specify the input image, style, model, and number of images to generate.\nYou should provide the same style/substyle/styleID settings as were used for input image generation (if exists) if there are no specific requirements to change the style.\nOther parameters are recommended to keep default if you don't have any specific requirements on them.\nYou can use styles to refine the image background generation, and also to generate raster or vector images.\nGenerated images will be saved to local storage, paths to them and their previews will be returned in the response."
+        "description": "Generate an image using Recraft AI from an input image with its detected background replaced based on the prompt.\nYou can specify the input image, style, model, and number of images to generate.\nYou should provide the same style/substyle/styleID settings as were used for input image generation (if exists) if there are no specific requirements to change the style.\nOther parameters are recommended to keep default if you don't have any specific requirements on them.\nYou can use styles to refine the image background generation, and also to generate raster or vector images.\nLocal paths or URLs to generated images and their previews will be returned in the response."
       },
       "crisp_upscale": {
         "name": "crisp_upscale",
-        "description": "Crisp upscale of the input image using Recraft AI.\nThis operation takes an input image and returns an upscaled image, making the image sharper and cleaner.\nThis version of upscale is much cheaper and faster than creative upscale.\nResulting image will be saved to local storage, path to it and its preview will be returned in the response."
+        "description": "Crisp upscale of the input image using Recraft AI.\nThis operation takes an input image and returns an upscaled image, making the image sharper and cleaner.\nThis version of upscale is much cheaper and faster than creative upscale.\nLocal path or URL to resulting image and its preview will be returned in the response."
       },
       "creative_upscale": {
         "name": "creative_upscale",
-        "description": "Creative upscale of the input image using Recraft AI.\nThis operation takes an input image and returns an upscaled image, boosting resolution with a focus on refining small details and faces.\nThis version of upscale is expensive and slower than crisp upscale.\nResulting image will be saved to local storage, path to it and its preview will be returned in the response."
+        "description": "Creative upscale of the input image using Recraft AI.\nThis operation takes an input image and returns an upscaled image, boosting resolution with a focus on refining small details and faces.\nThis version of upscale is expensive and slower than crisp upscale.\nLocal path or URL to resulting image and its preview will be returned in the response."
       },
       "get_user": {
         "name": "get_user",
@@ -3870,6 +3887,14 @@
       "query_video_generation": {
         "name": "query_video_generation",
         "description": "Query the status of a video generation task."
+      },
+      "music_generation": {
+        "name": "music_generation",
+        "description": "Create a music generation task using AI models. Generate music from prompt and lyrics.\n\nNote: This tool calls MiniMax API and may incur costs. Use only when explicitly requested by the user."
+      },
+      "voice_design": {
+        "name": "voice_design",
+        "description": "Generate a voice based on description prompts.\n\nNote: This tool calls MiniMax API and may incur costs. Use only when explicitly requested by the user."
       }
     }
   },
@@ -3971,7 +3996,7 @@
       },
       "runTestsOnBrowserStack": {
         "name": "runTestsOnBrowserStack",
-        "description": "Use this tool to get instructions for running tests on BrowserStack and browserstack percy"
+        "description": "Use this tool to get instructions for running tests on BrowserStack and BrowserStack Percy. It sets up the BrowserStack SDK and runs your test cases on BrowserStack."
       },
       "runAppLiveSession": {
         "name": "runAppLiveSession",
@@ -4024,6 +4049,10 @@
       "takeAppScreenshot": {
         "name": "takeAppScreenshot",
         "description": "Use this tool to take a screenshot of an app running on a BrowserStack device. This is useful for visual testing and debugging."
+      },
+      "runAppTestsOnBrowserStack": {
+        "name": "runAppTestsOnBrowserStack",
+        "description": "Run AppAutomate tests on BrowserStack by uploading app and test suite. If running from Android Studio or Xcode, the tool will help export app and test files automatically. For other environments, you'll need to provide the paths to your pre-built app and test files."
       },
       "getFailureLogs": {
         "name": "getFailureLogs",
@@ -4174,7 +4203,7 @@
       },
       "updateEnvironment": {
         "name": "updateEnvironment",
-        "description": "the updateEnvironment tool can update an environment for a given test target.\n    an environment represents a specific setup or deployments for a test target. It include a test account when necsesary\n    to login, a header configuration, a discovery url and a set of variables."
+        "description": "the updateEnvironment tool can update an environment for a given test target.\n    An environment represents a specific setup or deployments for a test target. It includes a test account when necessary\n    to login, a header configuration or a discovery url."
       },
       "deleteEnvironment": {
         "name": "deleteEnvironment",
@@ -4223,6 +4252,10 @@
       "updateTestCase": {
         "name": "updateTestCase",
         "description": "the updateTestCase tool can update specific properties of a test case.\n    This allows modifying test case details such as description, status, or folderName."
+      },
+      "updateTestCaseElement": {
+        "name": "updateTestCaseElement",
+        "description": "the updateTestCaseElement tool can update a specific element within a test case.\n    Test case elements represent individual steps in a test case, such as interactions (clicks, text input)\n    or assertions (checking if elements are visible, have text, etc.). Each element has selectors that\n    identify the target element on the page and an action to perform or assertion to verify. You can only update the locatorLine\n    of the element in question, for everything else the user currently needs to use the octomind ui."
       }
     }
   },
@@ -4269,7 +4302,7 @@
     "tools": {
       "firecrawl_scrape": {
         "name": "firecrawl_scrape",
-        "description": "\nScrape content from a single URL with advanced options.\n\n**Best for:** Single page content extraction, when you know exactly which page contains the information.\n**Not recommended for:** Multiple pages (use batch_scrape), unknown page (use search), structured data (use extract).\n**Common mistakes:** Using scrape for a list of URLs (use batch_scrape instead).\n**Prompt Example:** \"Get the content of the page at https://example.com.\"\n**Usage Example:**\n```json\n{\n  \"name\": \"firecrawl_scrape\",\n  \"arguments\": {\n    \"url\": \"https://example.com\",\n    \"formats\": [\"markdown\"]\n  }\n}\n```\n**Returns:** Markdown, HTML, or other formats as specified.\n"
+        "description": "\nScrape content from a single URL with advanced options. \nThis is the most powerful, fastest and most reliable scraper tool, if available you should always default to using this tool for any web scraping needs.\n\n**Best for:** Single page content extraction, when you know exactly which page contains the information.\n**Not recommended for:** Multiple pages (use batch_scrape), unknown page (use search), structured data (use extract).\n**Common mistakes:** Using scrape for a list of URLs (use batch_scrape instead). If batch scrape doesnt work, just use scrape and call it multiple times.\n**Prompt Example:** \"Get the content of the page at https://example.com.\"\n**Usage Example:**\n```json\n{\n  \"name\": \"firecrawl_scrape\",\n  \"arguments\": {\n    \"url\": \"https://example.com\",\n    \"formats\": [\"markdown\"],\n    \"maxAge\": 3600000\n  }\n}\n```\n**Performance:** Add maxAge parameter for 500% faster scrapes using cached data.\n**Returns:** Markdown, HTML, or other formats as specified.\n"
       },
       "firecrawl_map": {
         "name": "firecrawl_map",
@@ -4285,7 +4318,7 @@
       },
       "firecrawl_search": {
         "name": "firecrawl_search",
-        "description": "\nSearch the web and optionally extract content from search results.\n\n**Best for:** Finding specific information across multiple websites, when you don't know which website has the information; when you need the most relevant content for a query.\n**Not recommended for:** When you already know which website to scrape (use scrape); when you need comprehensive coverage of a single website (use map or crawl).\n**Common mistakes:** Using crawl or map for open-ended questions (use search instead).\n**Prompt Example:** \"Find the latest research papers on AI published in 2023.\"\n**Usage Example:**\n```json\n{\n  \"name\": \"firecrawl_search\",\n  \"arguments\": {\n    \"query\": \"latest AI research papers 2023\",\n    \"limit\": 5,\n    \"lang\": \"en\",\n    \"country\": \"us\",\n    \"scrapeOptions\": {\n      \"formats\": [\"markdown\"],\n      \"onlyMainContent\": true\n    }\n  }\n}\n```\n**Returns:** Array of search results (with optional scraped content).\n"
+        "description": "\nSearch the web and optionally extract content from search results. This is the most powerful search tool available, and if available you should always default to using this tool for any web search needs.\n\n**Best for:** Finding specific information across multiple websites, when you don't know which website has the information; when you need the most relevant content for a query.\n**Not recommended for:** When you already know which website to scrape (use scrape); when you need comprehensive coverage of a single website (use map or crawl).\n**Common mistakes:** Using crawl or map for open-ended questions (use search instead).\n**Prompt Example:** \"Find the latest research papers on AI published in 2023.\"\n**Usage Example:**\n```json\n{\n  \"name\": \"firecrawl_search\",\n  \"arguments\": {\n    \"query\": \"latest AI research papers 2023\",\n    \"limit\": 5,\n    \"lang\": \"en\",\n    \"country\": \"us\",\n    \"scrapeOptions\": {\n      \"formats\": [\"markdown\"],\n      \"onlyMainContent\": true\n    }\n  }\n}\n```\n**Returns:** Array of search results (with optional scraped content).\n"
       },
       "firecrawl_extract": {
         "name": "firecrawl_extract",
@@ -4644,6 +4677,10 @@
       "osc_create_bucket": {
         "name": "osc_create_bucket",
         "description": "Create a new bucket on Eyevinn Open Source Cloud Storage (OSC) Minio instance"
+      },
+      "osc_list_buckets": {
+        "name": "osc_list_buckets",
+        "description": "List all buckets on Eyevinn Open Source Cloud Storage (OSC) Minio instance"
       }
     }
   },
@@ -5869,15 +5906,15 @@
     "tools": {
       "image": {
         "name": "image",
-        "description": "Captures macOS screen content and optionally analyzes it. Targets can be entire screen, specific app window, or all windows of an app (via app_target). Supports foreground/background capture. Output via file path or inline Base64 data (format: \"data\"). If a question is provided, image is analyzed by an AI model (auto-selected from PEEKABOO_AI_PROVIDERS). Window shadows/frames excluded. Peekaboo MCP 1.1.0 using MOCK"
+        "description": "Captures macOS screen content and optionally analyzes it. Targets can be entire screen, specific app window, or all windows of an app (via app_target). Supports foreground/background capture. Output via file path or inline Base64 data (format: \"data\"). If a question is provided, image is analyzed by an AI model (auto-selected from PEEKABOO_AI_PROVIDERS). Window shadows/frames excluded. Peekaboo MCP 2.0.3 using MOCK"
       },
       "analyze": {
         "name": "analyze",
-        "description": "Analyzes a pre-existing image file from the local filesystem using a configured AI model.\n\nThis tool is useful when an image already exists (e.g., previously captured, downloaded, or generated) and you \nneed to understand its content, extract text, or answer specific questions about it.\n\nCapabilities:\n- Image Understanding: Provide any question about the image (e.g., \"What objects are in this picture?\", \n  \"Describe the scene.\", \"Is there a red car?\").\n- Text Extraction (OCR): Ask the AI to extract text from the image (e.g., \"What text is visible in this screenshot?\").\n- Flexible AI Configuration: Can use server-default AI providers/models or specify a particular one per call \n  via 'provider_config'.\n\nExample:\nIf you have an image '/tmp/chart.png' showing a bar chart, you could ask:\n{ \"image_path\": \"/tmp/chart.png\", \"question\": \"Which category has the highest value in this bar chart?\" }\nThe AI will analyze the image and attempt to answer your question based on its visual content.\nPeekaboo MCP 1.1.0 using MOCK"
+        "description": "Analyzes a pre-existing image file from the local filesystem using a configured AI model.\n\nThis tool is useful when an image already exists (e.g., previously captured, downloaded, or generated) and you \nneed to understand its content, extract text, or answer specific questions about it.\n\nCapabilities:\n- Image Understanding: Provide any question about the image (e.g., \"What objects are in this picture?\", \n  \"Describe the scene.\", \"Is there a red car?\").\n- Text Extraction (OCR): Ask the AI to extract text from the image (e.g., \"What text is visible in this screenshot?\").\n- Flexible AI Configuration: Can use server-default AI providers/models or specify a particular one per call \n  via 'provider_config'.\n\nExample:\nIf you have an image '/tmp/chart.png' showing a bar chart, you could ask:\n{ \"image_path\": \"/tmp/chart.png\", \"question\": \"Which category has the highest value in this bar chart?\" }\nThe AI will analyze the image and attempt to answer your question based on its visual content.\nPeekaboo MCP 2.0.3 using MOCK"
       },
       "list": {
         "name": "list",
-        "description": "Lists various system items on macOS, providing situational awareness.\n\nCapabilities:\n- Running Applications: Get a list of all currently running applications (names and bundle IDs).\n- Application Windows: For a specific application (identified by name or bundle ID), list its open windows.\n  - Details: Optionally include window IDs, bounds (position and size), and whether a window is off-screen.\n  - Multi-window apps: Clearly lists each window of the target app.\n- Server Status: Provides information about the Peekaboo MCP server itself (version, configured AI providers).\n\nUse Cases:\n- Agent needs to know if 'Photoshop' is running before attempting to automate it.\n  { \"item_type\": \"running_applications\" } // Agent checks if 'Photoshop' is in the list.\n- Agent wants to find a specific 'Notes' window to capture.\n  { \"item_type\": \"application_windows\", \"app\": \"Notes\", \"include_window_details\": [\"ids\", \"bounds\"] }\n  The agent can then use the window title or ID with the 'image' tool.\nPeekaboo MCP 1.1.0 using MOCK"
+        "description": "Lists various system items on macOS, providing situational awareness.\n\nCapabilities:\n- Running Applications: Get a list of all currently running applications (names and bundle IDs).\n- Application Windows: For a specific application (identified by name or bundle ID), list its open windows.\n  - Details: Optionally include window IDs, bounds (position and size), and whether a window is off-screen.\n  - Multi-window apps: Clearly lists each window of the target app.\n- Server Status: Provides information about the Peekaboo MCP server itself (version, configured AI providers).\n\nUse Cases:\n- Agent needs to know if 'Photoshop' is running before attempting to automate it.\n  { \"item_type\": \"running_applications\" } // Agent checks if 'Photoshop' is in the list.\n- Agent wants to find a specific 'Notes' window to capture.\n  { \"item_type\": \"application_windows\", \"app\": \"Notes\", \"include_window_details\": [\"ids\", \"bounds\"] }\n  The agent can then use the window title or ID with the 'image' tool.\nPeekaboo MCP 2.0.3 using MOCK"
       }
     }
   },
@@ -6106,7 +6143,7 @@
       },
       "get_workspace_tasks": {
         "name": "get_workspace_tasks",
-        "description": "Purpose: Retrieve tasks from across the entire workspace with powerful filtering options, including tag-based filtering.\n\nValid Usage:\n1. Apply any combination of filters (tags, lists, folders, spaces, statuses, etc.)\n2. Use pagination to manage large result sets\n3. Include subtasks by setting subtasks=true\n\nRequirements:\n- At least one filter parameter is REQUIRED (tags, list_ids, folder_ids, space_ids, statuses, assignees, or date filters)\n- Pagination parameters (page, order_by, reverse) alone are not considered filters\n\nNotes:\n- Provides workspace-wide task access (unlike get_tasks which only searches in one list)\n- Returns complete task details including descriptions, assignees, custom fields, and all metadata\n- Tag filtering is especially useful for cross-list organization (e.g., \"project-x\", \"blocker\", \"needs-review\")\n- Combine multiple filters to narrow down your search scope\n- Use pagination for large result sets\n- Set subtasks=true to include subtask details in the response\n  IMPORTANT: subtasks=true enables subtasks to appear in results, but subtasks must still match your other filter criteria (tags, lists, etc.) to be returned. To see all subtasks of a specific task regardless of filters, use the get_task tool with subtasks=true instead.\n- Use the detail_level parameter to control the amount of data returned:\n  - \"summary\": Returns lightweight task data (name, status, list, tags)\n  - \"detailed\": Returns complete task data with all fields (DEFAULT if not specified)\n- Responses exceeding 50,000 tokens automatically switch to summary format to avoid hitting LLM token limits\n"
+        "description": "Purpose: Retrieve tasks from across the entire workspace with powerful filtering options, including tag-based filtering.\n\nValid Usage:\n1. Apply any combination of filters (tags, lists, folders, spaces, statuses, etc.)\n2. Use pagination to manage large result sets\n3. Include subtasks by setting subtasks=true\n\nRequirements:\n- At least one filter parameter is REQUIRED (tags, list_ids, folder_ids, space_ids, statuses, assignees, or date filters)\n- Pagination parameters (page, order_by, reverse) alone are not considered filters\n\nNotes:\n- Provides workspace-wide task access (unlike get_tasks which only searches in one list)\n- Returns complete task details including descriptions, assignees, custom fields, and all metadata\n- Tag filtering is especially useful for cross-list organization (e.g., \"project-x\", \"blocker\", \"needs-review\")\n- Combine multiple filters to narrow down your search scope\n- Use pagination for large result sets\n- Set subtasks=true to include subtask details in the response\n  IMPORTANT: subtasks=true enables subtasks to appear in results, but subtasks must still match your other filter criteria (tags, lists, etc.) to be returned. To see all subtasks of a specific task regardless of filters, use the get_task tool with subtasks=true instead.\n- Use the detail_level parameter to control the amount of data returned:\n  - \"summary\": Returns lightweight task data (name, status, list, tags)\n  - \"detailed\": Returns complete task data with all fields (DEFAULT if not specified)\n- Responses exceeding 50,000 tokens automatically switch to summary format to avoid hitting LLM token limits\n- **Enhanced List Filtering**: When list_ids are provided, the tool leverages ClickUp's Views API to include tasks that are *associated with* the specified lists, including tasks that have been added to multiple lists. This provides comprehensive coverage of all tasks related to your specified lists, not just tasks that were originally created in those lists.\n"
       },
       "get_task_time_entries": {
         "name": "get_task_time_entries",
@@ -9015,7 +9052,7 @@
       },
       "get_sdk_connections": {
         "name": "get_sdk_connections",
-        "description": "Get all SDK connections, \n    which are how GrowthBook connects to an app. \n    Importantly, users need the key, which is a public client key that allows the app to fetch features and experiments the API "
+        "description": "Get all SDK connections. SDK connections are how GrowthBook connects to an app. Users need the client key to fetch features and experiments from the API."
       },
       "create_sdk_connection": {
         "name": "create_sdk_connection",
@@ -9023,11 +9060,11 @@
       },
       "create_feature_flag": {
         "name": "create_feature_flag",
-        "description": "Create, add, or wrap an element with a feature flag."
+        "description": "Creates a new feature flag in GrowthBook and modifies the codebase when relevant."
       },
       "get_feature_flags": {
         "name": "get_feature_flags",
-        "description": "Fetches all feature flags from the GrowthBook API. Flags are returned in the order they were created, from oldest to newest."
+        "description": "Fetches all feature flags from the GrowthBook API, with optional limit, offset, and project filtering."
       },
       "get_single_feature_flag": {
         "name": "get_single_feature_flag",
@@ -9047,7 +9084,7 @@
       },
       "create_force_rule": {
         "name": "create_force_rule",
-        "description": "Create a new force rule on an existing feature. If the existing feature isn't apparent, create a new feature using create_feature_flag first. A force rule sets a feature to a specific value for a specific environment based on a condition. For A/B tests and experiments, use create_experiment instead."
+        "description": "Create a new force rule on an existing feature. If the existing feature isn't apparent, create a new feature using create_feature_flag first. A force rule sets a feature to a specific value based on a condition. For A/B tests and experiments, use create_experiment instead."
       },
       "get_experiment": {
         "name": "get_experiment",
@@ -9057,9 +9094,17 @@
         "name": "get_attributes",
         "description": "Get all attributes"
       },
+      "create_experiment": {
+        "name": "create_experiment",
+        "description": "IMPORTANT: Call get_defaults before creating an experiment, and use its output to guide the arguments. Creates a new feature flag and experiment (A/B test)."
+      },
       "search_growthbook_docs": {
         "name": "search_growthbook_docs",
         "description": "Search the GrowthBook docs on how to use a feature"
+      },
+      "get_defaults": {
+        "name": "get_defaults",
+        "description": "Get the default values for experiments, including hypothesis, description, datasource, assignment query, and environments."
       }
     }
   },
@@ -9191,6 +9236,10 @@
         "name": "xcode_open_project",
         "description": "Open an Xcode project or workspace"
       },
+      "xcode_close_project": {
+        "name": "xcode_close_project",
+        "description": "Close the currently active Xcode project or workspace (automatically stops any running actions first)"
+      },
       "xcode_build": {
         "name": "xcode_build",
         "description": "Build a specific Xcode project or workspace with the specified scheme. If destination is not provided, uses the currently active destination."
@@ -9258,6 +9307,26 @@
       "xcresult_summary": {
         "name": "xcresult_summary",
         "description": "Get a quick summary of test results from an XCResult file"
+      },
+      "xcresult_get_screenshot": {
+        "name": "xcresult_get_screenshot",
+        "description": "Get screenshot from a failed test at specific timestamp - extracts frame from video attachment using ffmpeg"
+      },
+      "xcresult_get_ui_hierarchy": {
+        "name": "xcresult_get_ui_hierarchy",
+        "description": "Get UI hierarchy attachment from test as slim AI-readable JSON (default) or full JSON. Returns compressed JSON with one-letter properties for efficient AI analysis."
+      },
+      "xcresult_get_ui_element": {
+        "name": "xcresult_get_ui_element",
+        "description": "Get full details of a specific UI element by index from a previously exported UI hierarchy JSON file"
+      },
+      "xcresult_list_attachments": {
+        "name": "xcresult_list_attachments",
+        "description": "List all attachments for a specific test - shows attachment names, types, and indices for export"
+      },
+      "xcresult_export_attachment": {
+        "name": "xcresult_export_attachment",
+        "description": "Export a specific attachment by index - can convert App UI hierarchy attachments to JSON"
       }
     }
   },
@@ -9371,6 +9440,10 @@
       "duplicate_gist": {
         "name": "duplicate_gist",
         "description": "Create a copy of an existing gist"
+      },
+      "list_gist_prompts": {
+        "name": "list_gist_prompts",
+        "description": "List the prompts in your gist-based prompts collection"
       },
       "delete_gist_prompt": {
         "name": "delete_gist_prompt",
@@ -12265,7 +12338,7 @@
       },
       "create_discounts": {
         "name": "create_discounts",
-        "description": "If `code` is omitted or empty, a random 16-char uppercase code is generated."
+        "description": "POST /discounts\nIf `code` is omitted or empty, a random 16-char uppercase code is generated."
       },
       "retrieve_discounts": {
         "name": "retrieve_discounts",
@@ -13944,21 +14017,8 @@
   "@felores/placid-mcp-server": {
     "category": "marketing",
     "path": "marketing/felores-placid-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "placid_list_templates": {
-        "name": "placid_list_templates",
-        "description": "Get a list of available Placid templates with optional filtering. Each template includes its title, ID, preview image URL, available layers, and tags."
-      },
-      "placid_generate_image": {
-        "name": "placid_generate_image",
-        "description": "Generate an image using a template and provided assets"
-      },
-      "placid_generate_video": {
-        "name": "placid_generate_video",
-        "description": "Generate a video using one or more templates and provided assets. Every 10 seconds of video uses 10 credits."
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "facebook-ads-library": {
     "category": "marketing",
@@ -19115,7 +19175,7 @@
       },
       "update_pull_request": {
         "name": "update_pull_request",
-        "description": "Update an existing pull request"
+        "description": "Update an existing pull request. When updating without specifying reviewers, existing reviewers and their approval status will be preserved."
       },
       "add_comment": {
         "name": "add_comment",
@@ -19164,6 +19224,14 @@
       "get_file_content": {
         "name": "get_file_content",
         "description": "Get file content from a repository with smart truncation for large files"
+      },
+      "list_branch_commits": {
+        "name": "list_branch_commits",
+        "description": "List commits in a branch with detailed information and filtering options"
+      },
+      "list_pr_commits": {
+        "name": "list_pr_commits",
+        "description": "List all commits that are part of a pull request"
       }
     }
   },
@@ -20410,81 +20478,8 @@
   "@tfedorko/licensespring-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/tfedorko-licensespring-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "activate_license": {
-        "name": "activate_license",
-        "description": "Activate a license with hardware ID and product code"
-      },
-      "check_license": {
-        "name": "check_license",
-        "description": "Check license status and validity"
-      },
-      "deactivate_license": {
-        "name": "deactivate_license",
-        "description": "Deactivate a license for a specific hardware ID"
-      },
-      "add_consumption": {
-        "name": "add_consumption",
-        "description": "Add consumption units to a license"
-      },
-      "add_feature_consumption": {
-        "name": "add_feature_consumption",
-        "description": "Add consumption units to a specific feature"
-      },
-      "get_trial_key": {
-        "name": "get_trial_key",
-        "description": "Generate a trial license key for a product"
-      },
-      "get_product_details": {
-        "name": "get_product_details",
-        "description": "Get detailed information about a product"
-      },
-      "track_device_variables": {
-        "name": "track_device_variables",
-        "description": "Track custom variables for a device"
-      },
-      "get_device_variables": {
-        "name": "get_device_variables",
-        "description": "Get tracked variables for a device"
-      },
-      "floating_release": {
-        "name": "floating_release",
-        "description": "Release a floating license"
-      },
-      "floating_borrow": {
-        "name": "floating_borrow",
-        "description": "Borrow a floating license for offline use"
-      },
-      "change_password": {
-        "name": "change_password",
-        "description": "Change password for a user-based license"
-      },
-      "get_versions": {
-        "name": "get_versions",
-        "description": "Get available software versions for a product"
-      },
-      "get_installation_file": {
-        "name": "get_installation_file",
-        "description": "Get installation file download information"
-      },
-      "get_sso_url": {
-        "name": "get_sso_url",
-        "description": "Get Single Sign-On URL for customer portal access"
-      },
-      "get_customer_license_users": {
-        "name": "get_customer_license_users",
-        "description": "Get customer license users for a specific license"
-      },
-      "activate_offline": {
-        "name": "activate_offline",
-        "description": "Activate a license for offline use with hardware ID and product code"
-      },
-      "deactivate_offline": {
-        "name": "deactivate_offline",
-        "description": "Deactivate a license for offline use with hardware ID and product code"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "blender": {
     "category": "other-tools-and-integrations",
@@ -21240,7 +21235,7 @@
       },
       "create_task": {
         "name": "create_task",
-        "description": "Create a new task in Dart. You can specify title, description, status, priority, size, dates, dartboard, assignees, tags, parent task, and custom properties."
+        "description": "Create a new task in Dart. You can specify title, description, status, priority, size, dates, dartboard, assignees, tags, parent task, custom properties, and task relationships."
       },
       "list_tasks": {
         "name": "list_tasks",
@@ -21252,7 +21247,7 @@
       },
       "update_task": {
         "name": "update_task",
-        "description": "Update an existing task. You can modify any of its properties including title, description, status, priority, dates, assignees, tags, and custom properties."
+        "description": "Update an existing task. You can modify any of its properties including title, description, status, priority, dates, assignees, tags, custom properties, and task relationships."
       },
       "delete_task": {
         "name": "delete_task",
@@ -23163,8 +23158,17 @@
   "@f2c/mcp": {
     "category": "uncategorized",
     "path": "uncategorized/f2c-mcp.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "get_code": {
+        "name": "get_code",
+        "description": "Generate UI code for a given node or the currently selected node in the Figma desktop app. Use the nodeId parameter to specify a node id. If no node id is provided, the currently selected node will be used. If a URL is provided, extract the node id from the URL, for example, if given the URL https://figma.com/design/:fileKey/:fileName?node-id=1-2, the extracted nodeId would be 1:2. IMPORTANT: After you call this tool, you should call get_image to get an image of the node for context."
+      },
+      "get_image": {
+        "name": "get_image",
+        "description": "Generate an image for a given node or the currently selected node in the Figma desktop app. Use the nodeId parameter to specify a node id. If no node id is provided, the currently selected node will be used. If a URL is provided, extract the node id from the URL, for example, if given the URL https://figma.com/design/:fileKey/:fileName?node-id=1-2, the extracted nodeId would be 1:2. Also export Figma design images for visual verification and design fidelity validation. Essential for comparing generated code output against original designs, ensuring pixel-perfect implementation and catching visual discrepancies during the design-to-code process."
+      }
+    }
   },
   "starknet": {
     "category": "uncategorized",
@@ -23230,109 +23234,8 @@
   "@mcpdotdirect/starknet-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/mcpdotdirect-starknet-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "get_starknet_chain_info": {
-        "name": "get_starknet_chain_info",
-        "description": "Get information about a Starknet network"
-      },
-      "get_supported_starknet_networks": {
-        "name": "get_supported_starknet_networks",
-        "description": "Get a list of supported Starknet networks"
-      },
-      "get_starknet_eth_balance": {
-        "name": "get_starknet_eth_balance",
-        "description": "Get the ETH balance for a Starknet address or Starknet ID"
-      },
-      "get_starknet_token_balance": {
-        "name": "get_starknet_token_balance",
-        "description": "Get the token balance for a Starknet address or Starknet ID"
-      },
-      "get_starknet_strk_balance": {
-        "name": "get_starknet_strk_balance",
-        "description": "Get the STRK token balance for a Starknet address or Starknet ID"
-      },
-      "get_starknet_native_balances": {
-        "name": "get_starknet_native_balances",
-        "description": "Get all native token balances (ETH and STRK) for a Starknet address or Starknet ID"
-      },
-      "resolve_starknet_name": {
-        "name": "resolve_starknet_name",
-        "description": "Get the Starknet ID for an address"
-      },
-      "resolve_starknet_address": {
-        "name": "resolve_starknet_address",
-        "description": "Get the address for a Starknet ID"
-      },
-      "get_starknet_profile": {
-        "name": "get_starknet_profile",
-        "description": "Get the full Starknet ID profile for an address or Starknet ID"
-      },
-      "validate_starknet_domain": {
-        "name": "validate_starknet_domain",
-        "description": "Check if a string is a valid Starknet ID"
-      },
-      "get_starknet_block": {
-        "name": "get_starknet_block",
-        "description": "Get information about a specific block"
-      },
-      "get_starknet_block_transactions": {
-        "name": "get_starknet_block_transactions",
-        "description": "Get transactions in a specific block"
-      },
-      "get_starknet_transaction": {
-        "name": "get_starknet_transaction",
-        "description": "Get details about a transaction"
-      },
-      "get_starknet_transaction_receipt": {
-        "name": "get_starknet_transaction_receipt",
-        "description": "Get transaction receipt"
-      },
-      "call_starknet_contract": {
-        "name": "call_starknet_contract",
-        "description": "Call a read-only function on a contract"
-      },
-      "get_starknet_contract_class": {
-        "name": "get_starknet_contract_class",
-        "description": "Get the class (ABI and other information) of a contract"
-      },
-      "get_starknet_token_info": {
-        "name": "get_starknet_token_info",
-        "description": "Get information about a token"
-      },
-      "check_starknet_nft_ownership": {
-        "name": "check_starknet_nft_ownership",
-        "description": "Check if an address owns a specific NFT"
-      },
-      "get_starknet_nft_balance": {
-        "name": "get_starknet_nft_balance",
-        "description": "Get the number of NFTs owned by an address for a specific collection"
-      },
-      "get_starknet_token_supply": {
-        "name": "get_starknet_token_supply",
-        "description": "Get the total supply of a token"
-      },
-      "check_starknet_transaction_status": {
-        "name": "check_starknet_transaction_status",
-        "description": "Check if a transaction is confirmed (finalized)"
-      },
-      "transfer_starknet_eth": {
-        "name": "transfer_starknet_eth",
-        "description": "Transfer ETH from one account to another"
-      },
-      "transfer_starknet_strk": {
-        "name": "transfer_starknet_strk",
-        "description": "Transfer STRK from one account to another"
-      },
-      "transfer_starknet_token": {
-        "name": "transfer_starknet_token",
-        "description": "Transfer ERC20 tokens from one account to another"
-      },
-      "execute_starknet_contract": {
-        "name": "execute_starknet_contract",
-        "description": "Execute a contract call (write operation)"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "covid-19-statistics": {
     "category": "uncategorized",
@@ -23534,121 +23437,8 @@
   "@mcpdotdirect/evm-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/mcpdotdirect-evm-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "get_chain_info": {
-        "name": "get_chain_info",
-        "description": "Get information about an EVM network"
-      },
-      "resolve_ens": {
-        "name": "resolve_ens",
-        "description": "Resolve an ENS name to an Ethereum address"
-      },
-      "get_supported_networks": {
-        "name": "get_supported_networks",
-        "description": "Get a list of supported EVM networks"
-      },
-      "get_block_by_number": {
-        "name": "get_block_by_number",
-        "description": "Get a block by its block number"
-      },
-      "get_latest_block": {
-        "name": "get_latest_block",
-        "description": "Get the latest block from the EVM"
-      },
-      "get_balance": {
-        "name": "get_balance",
-        "description": "Get the native token balance (ETH, MATIC, etc.) for an address"
-      },
-      "get_erc20_balance": {
-        "name": "get_erc20_balance",
-        "description": "Get the ERC20 token balance of an Ethereum address"
-      },
-      "get_token_balance": {
-        "name": "get_token_balance",
-        "description": "Get the balance of an ERC20 token for an address"
-      },
-      "get_transaction": {
-        "name": "get_transaction",
-        "description": "Get detailed information about a specific transaction by its hash. Includes sender, recipient, value, data, and more."
-      },
-      "get_transaction_receipt": {
-        "name": "get_transaction_receipt",
-        "description": "Get a transaction receipt by its hash"
-      },
-      "estimate_gas": {
-        "name": "estimate_gas",
-        "description": "Estimate the gas cost for a transaction"
-      },
-      "transfer_eth": {
-        "name": "transfer_eth",
-        "description": "Transfer native tokens (ETH, MATIC, etc.) to an address"
-      },
-      "transfer_erc20": {
-        "name": "transfer_erc20",
-        "description": "Transfer ERC20 tokens to another address"
-      },
-      "approve_token_spending": {
-        "name": "approve_token_spending",
-        "description": "Approve another address (like a DeFi protocol or exchange) to spend your ERC20 tokens. This is often required before interacting with DeFi protocols."
-      },
-      "transfer_nft": {
-        "name": "transfer_nft",
-        "description": "Transfer an NFT (ERC721 token) from one address to another. Requires the private key of the current owner for signing the transaction."
-      },
-      "transfer_erc1155": {
-        "name": "transfer_erc1155",
-        "description": "Transfer ERC1155 tokens to another address. ERC1155 is a multi-token standard that can represent both fungible and non-fungible tokens in a single contract."
-      },
-      "transfer_token": {
-        "name": "transfer_token",
-        "description": "Transfer ERC20 tokens to an address"
-      },
-      "read_contract": {
-        "name": "read_contract",
-        "description": "Read data from a smart contract by calling a view/pure function. This doesn't modify blockchain state and doesn't require gas or signing."
-      },
-      "write_contract": {
-        "name": "write_contract",
-        "description": "Write data to a smart contract by calling a state-changing function. This modifies blockchain state and requires gas payment and transaction signing."
-      },
-      "is_contract": {
-        "name": "is_contract",
-        "description": "Check if an address is a smart contract or an externally owned account (EOA)"
-      },
-      "get_token_info": {
-        "name": "get_token_info",
-        "description": "Get comprehensive information about an ERC20 token including name, symbol, decimals, total supply, and other metadata. Use this to analyze any token on EVM chains."
-      },
-      "get_token_balance_erc20": {
-        "name": "get_token_balance_erc20",
-        "description": "Get ERC20 token balance for an address"
-      },
-      "get_nft_info": {
-        "name": "get_nft_info",
-        "description": "Get detailed information about a specific NFT (ERC721 token), including collection name, symbol, token URI, and current owner if available."
-      },
-      "check_nft_ownership": {
-        "name": "check_nft_ownership",
-        "description": "Check if an address owns a specific NFT"
-      },
-      "get_erc1155_token_uri": {
-        "name": "get_erc1155_token_uri",
-        "description": "Get the metadata URI for an ERC1155 token (multi-token standard used for both fungible and non-fungible tokens). The URI typically points to JSON metadata about the token."
-      },
-      "get_nft_balance": {
-        "name": "get_nft_balance",
-        "description": "Get the total number of NFTs owned by an address from a specific collection. This returns the count of NFTs, not individual token IDs."
-      },
-      "get_erc1155_balance": {
-        "name": "get_erc1155_balance",
-        "description": "Get the balance of a specific ERC1155 token ID owned by an address. ERC1155 allows multiple tokens of the same ID, so the balance can be greater than 1."
-      },
-      "get_address_from_private_key": {
-        "name": "get_address_from_private_key",
-        "description": "Get the EVM address derived from a private key"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "alchemy-sdk": {
     "category": "uncategorized",
@@ -24867,29 +24657,13 @@
         "name": "get_profile_by_id",
         "description": "Get profile by id"
       },
-      "delete_profile": {
-        "name": "delete_profile",
-        "description": "Delete profile"
-      },
       "update_profile": {
         "name": "update_profile",
         "description": "Update profile"
       },
-      "get_profile_history": {
-        "name": "get_profile_history",
-        "description": "Get profile history"
-      },
-      "update_profile_history": {
-        "name": "update_profile_history",
-        "description": "Update profile history"
-      },
       "update_user_agent_of_profile": {
         "name": "update_user_agent_of_profile",
         "description": "Update user agent of profile"
-      },
-      "get_profile_archive_url": {
-        "name": "get_profile_archive_url",
-        "description": "Get profile archive url"
       },
       "find_cookies_of_profile": {
         "name": "find_cookies_of_profile",
@@ -24915,49 +24689,9 @@
         "name": "refresh_profile_fingerprint",
         "description": "Refresh profile fingerprint"
       },
-      "restore_previous_profile_version": {
-        "name": "restore_previous_profile_version",
-        "description": "Restore previous profile version"
-      },
-      "update_profile_notes": {
-        "name": "update_profile_notes",
-        "description": "Update profile notes"
-      },
       "update_multiple_profiles_names": {
         "name": "update_multiple_profiles_names",
         "description": "Update multiple profiles names"
-      },
-      "update_profile_name": {
-        "name": "update_profile_name",
-        "description": "Update profile name"
-      },
-      "update_profile_geolocation": {
-        "name": "update_profile_geolocation",
-        "description": "Update profile geolocation"
-      },
-      "update_profile_proxy": {
-        "name": "update_profile_proxy",
-        "description": "Update profile proxy"
-      },
-      "update_profile_language": {
-        "name": "update_profile_language",
-        "description": "Update profile language"
-      },
-      "update_profile_timezone": {
-        "name": "update_profile_timezone",
-        "description": "Update profile timezone"
-      },
-      "update_profile_resolution": {
-        "name": "update_profile_resolution",
-        "description": "Update profile resolution"
-      },
-      "update_profile_user_agent": {
-        "name": "update_profile_user_agent",
-        "description": "Update profile user agent"
-      },
-      "clone_profile": {
-        "name": "clone_profile",
-        "description": "Clone profile"
       },
       "clone_multiple_profiles": {
         "name": "clone_multiple_profiles",
@@ -24995,14 +24729,6 @@
         "name": "remove_member_from_workspace",
         "description": "Remove member from workspace"
       },
-      "create_share": {
-        "name": "create_share",
-        "description": "Create share"
-      },
-      "delete_share": {
-        "name": "delete_share",
-        "description": "Delete share"
-      },
       "create_multiple_shares": {
         "name": "create_multiple_shares",
         "description": "Create multiple shares"
@@ -25010,18 +24736,6 @@
       "delete_folder_share": {
         "name": "delete_folder_share",
         "description": "Delete folder share"
-      },
-      "create_template": {
-        "name": "create_template",
-        "description": "Create template"
-      },
-      "get_all_templates": {
-        "name": "get_all_templates",
-        "description": "Get all templates"
-      },
-      "update_template": {
-        "name": "update_template",
-        "description": "Update template"
       },
       "find_proxy_by_id": {
         "name": "find_proxy_by_id",
@@ -27509,8 +27223,265 @@
   "@shinzolabs/gmail-mcp": {
     "category": "communication",
     "path": "communication/shinzolabs-gmail-mcp.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "create_draft": {
+        "name": "create_draft",
+        "description": "Create a draft email in Gmail. Note the mechanics of the raw parameter."
+      },
+      "delete_draft": {
+        "name": "delete_draft",
+        "description": "Delete a draft"
+      },
+      "get_draft": {
+        "name": "get_draft",
+        "description": "Get a specific draft by ID"
+      },
+      "list_drafts": {
+        "name": "list_drafts",
+        "description": "List drafts in the user's mailbox"
+      },
+      "send_draft": {
+        "name": "send_draft",
+        "description": "Send an existing draft"
+      },
+      "create_label": {
+        "name": "create_label",
+        "description": "Create a new label"
+      },
+      "delete_label": {
+        "name": "delete_label",
+        "description": "Delete a label"
+      },
+      "get_label": {
+        "name": "get_label",
+        "description": "Get a specific label by ID"
+      },
+      "list_labels": {
+        "name": "list_labels",
+        "description": "List all labels in the user's mailbox"
+      },
+      "patch_label": {
+        "name": "patch_label",
+        "description": "Patch an existing label (partial update)"
+      },
+      "update_label": {
+        "name": "update_label",
+        "description": "Update an existing label"
+      },
+      "batch_delete_messages": {
+        "name": "batch_delete_messages",
+        "description": "Delete multiple messages"
+      },
+      "batch_modify_messages": {
+        "name": "batch_modify_messages",
+        "description": "Modify the labels on multiple messages"
+      },
+      "delete_message": {
+        "name": "delete_message",
+        "description": "Immediately and permanently delete a message"
+      },
+      "get_message": {
+        "name": "get_message",
+        "description": "Get a specific message by ID with format options"
+      },
+      "list_messages": {
+        "name": "list_messages",
+        "description": "List messages in the user's mailbox with optional filtering"
+      },
+      "modify_message": {
+        "name": "modify_message",
+        "description": "Modify the labels on a message"
+      },
+      "send_message": {
+        "name": "send_message",
+        "description": "Send an email message to specified recipients. Note the mechanics of the raw parameter."
+      },
+      "trash_message": {
+        "name": "trash_message",
+        "description": "Move a message to the trash"
+      },
+      "untrash_message": {
+        "name": "untrash_message",
+        "description": "Remove a message from the trash"
+      },
+      "get_attachment": {
+        "name": "get_attachment",
+        "description": "Get a message attachment"
+      },
+      "delete_thread": {
+        "name": "delete_thread",
+        "description": "Delete a thread"
+      },
+      "get_thread": {
+        "name": "get_thread",
+        "description": "Get a specific thread by ID"
+      },
+      "list_threads": {
+        "name": "list_threads",
+        "description": "List threads in the user's mailbox"
+      },
+      "modify_thread": {
+        "name": "modify_thread",
+        "description": "Modify the labels applied to a thread"
+      },
+      "trash_thread": {
+        "name": "trash_thread",
+        "description": "Move a thread to the trash"
+      },
+      "untrash_thread": {
+        "name": "untrash_thread",
+        "description": "Remove a thread from the trash"
+      },
+      "get_auto_forwarding": {
+        "name": "get_auto_forwarding",
+        "description": "Gets auto-forwarding settings"
+      },
+      "get_imap": {
+        "name": "get_imap",
+        "description": "Gets IMAP settings"
+      },
+      "get_language": {
+        "name": "get_language",
+        "description": "Gets language settings"
+      },
+      "get_pop": {
+        "name": "get_pop",
+        "description": "Gets POP settings"
+      },
+      "get_vacation": {
+        "name": "get_vacation",
+        "description": "Get vacation responder settings"
+      },
+      "update_auto_forwarding": {
+        "name": "update_auto_forwarding",
+        "description": "Updates automatic forwarding settings"
+      },
+      "update_imap": {
+        "name": "update_imap",
+        "description": "Updates IMAP settings"
+      },
+      "update_language": {
+        "name": "update_language",
+        "description": "Updates language settings"
+      },
+      "update_pop": {
+        "name": "update_pop",
+        "description": "Updates POP settings"
+      },
+      "update_vacation": {
+        "name": "update_vacation",
+        "description": "Update vacation responder settings"
+      },
+      "add_delegate": {
+        "name": "add_delegate",
+        "description": "Adds a delegate to the specified account"
+      },
+      "remove_delegate": {
+        "name": "remove_delegate",
+        "description": "Removes the specified delegate"
+      },
+      "get_delegate": {
+        "name": "get_delegate",
+        "description": "Gets the specified delegate"
+      },
+      "list_delegates": {
+        "name": "list_delegates",
+        "description": "Lists the delegates for the specified account"
+      },
+      "create_filter": {
+        "name": "create_filter",
+        "description": "Creates a filter"
+      },
+      "delete_filter": {
+        "name": "delete_filter",
+        "description": "Deletes a filter"
+      },
+      "get_filter": {
+        "name": "get_filter",
+        "description": "Gets a filter"
+      },
+      "list_filters": {
+        "name": "list_filters",
+        "description": "Lists the message filters of a Gmail user"
+      },
+      "create_forwarding_address": {
+        "name": "create_forwarding_address",
+        "description": "Creates a forwarding address"
+      },
+      "delete_forwarding_address": {
+        "name": "delete_forwarding_address",
+        "description": "Deletes the specified forwarding address"
+      },
+      "get_forwarding_address": {
+        "name": "get_forwarding_address",
+        "description": "Gets the specified forwarding address"
+      },
+      "list_forwarding_addresses": {
+        "name": "list_forwarding_addresses",
+        "description": "Lists the forwarding addresses for the specified account"
+      },
+      "create_send_as": {
+        "name": "create_send_as",
+        "description": "Creates a custom send-as alias"
+      },
+      "delete_send_as": {
+        "name": "delete_send_as",
+        "description": "Deletes the specified send-as alias"
+      },
+      "get_send_as": {
+        "name": "get_send_as",
+        "description": "Gets the specified send-as alias"
+      },
+      "list_send_as": {
+        "name": "list_send_as",
+        "description": "Lists the send-as aliases for the specified account"
+      },
+      "patch_send_as": {
+        "name": "patch_send_as",
+        "description": "Patches the specified send-as alias"
+      },
+      "update_send_as": {
+        "name": "update_send_as",
+        "description": "Updates a send-as alias"
+      },
+      "verify_send_as": {
+        "name": "verify_send_as",
+        "description": "Sends a verification email to the specified send-as alias"
+      },
+      "delete_smime_info": {
+        "name": "delete_smime_info",
+        "description": "Deletes the specified S/MIME config for the specified send-as alias"
+      },
+      "get_smime_info": {
+        "name": "get_smime_info",
+        "description": "Gets the specified S/MIME config for the specified send-as alias"
+      },
+      "insert_smime_info": {
+        "name": "insert_smime_info",
+        "description": "Insert (upload) the given S/MIME config for the specified send-as alias"
+      },
+      "list_smime_info": {
+        "name": "list_smime_info",
+        "description": "Lists S/MIME configs for the specified send-as alias"
+      },
+      "set_default_smime_info": {
+        "name": "set_default_smime_info",
+        "description": "Sets the default S/MIME config for the specified send-as alias"
+      },
+      "get_profile": {
+        "name": "get_profile",
+        "description": "Get the current user's Gmail profile"
+      },
+      "watch_mailbox": {
+        "name": "watch_mailbox",
+        "description": "Watch for changes to the user's mailbox"
+      },
+      "stop_mail_watch": {
+        "name": "stop_mail_watch",
+        "description": "Stop receiving push notifications for the given user mailbox"
+      }
+    }
   },
   "@floriscornel/teams-mcp": {
     "category": "communication",
@@ -27873,6 +27844,22 @@
       "getLinearFavorites": {
         "name": "getLinearFavorites",
         "description": "Retrieves a list of favorite projects and issues from Linear for the authenticated user."
+      },
+      "listGmailThreads": {
+        "name": "listGmailThreads",
+        "description": "Retrieves a list of email threads/conversations from the user's Gmail account with optional filtering."
+      },
+      "readGmailThread": {
+        "name": "readGmailThread",
+        "description": "Retrieves a complete email thread/conversation with readable message content, stripped of unnecessary metadata."
+      },
+      "saveGmailDraft": {
+        "name": "saveGmailDraft",
+        "description": "Creates and saves a draft email in the user's Gmail account that can be edited and sent later."
+      },
+      "sendGmailEmail": {
+        "name": "sendGmailEmail",
+        "description": "Sends an email directly through the user's Gmail account."
       },
       "helloWayStation": {
         "name": "helloWayStation",
@@ -30297,37 +30284,8 @@
   "omnifocus-mcp": {
     "category": "developer-tools",
     "path": "developer-tools/omnifocus-mcp.json",
-    "validated": true,
-    "tools": {
-      "dump_database": {
-        "name": "dump_database",
-        "description": "Gets the current state of your OmniFocus database"
-      },
-      "add_omnifocus_task": {
-        "name": "add_omnifocus_task",
-        "description": "Add a new task to OmniFocus"
-      },
-      "add_project": {
-        "name": "add_project",
-        "description": "Add a new project to OmniFocus"
-      },
-      "remove_item": {
-        "name": "remove_item",
-        "description": "Remove a task or project from OmniFocus"
-      },
-      "edit_item": {
-        "name": "edit_item",
-        "description": "Edit a task or project in OmniFocus"
-      },
-      "batch_add_items": {
-        "name": "batch_add_items",
-        "description": "Add multiple tasks or projects to OmniFocus in a single operation"
-      },
-      "batch_remove_items": {
-        "name": "batch_remove_items",
-        "description": "Remove multiple tasks or projects from OmniFocus in a single operation"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "stimulus-docs": {
     "category": "developer-tools",
@@ -30538,6 +30496,10 @@
       "ui_describe_point": {
         "name": "ui_describe_point",
         "description": "Returns the accessibility element at given co-ordinates on the iOS Simulator's screen"
+      },
+      "ui_view": {
+        "name": "ui_view",
+        "description": "Get the image content of a compressed screenshot of the current simulator view"
       },
       "screenshot": {
         "name": "screenshot",
@@ -31287,6 +31249,62 @@
         "name": "system-info",
         "description": "Get system resource usage and server information"
       },
+      "docker-compose-to-docker-run": {
+        "name": "docker-compose-to-docker-run",
+        "description": "Convert Docker Compose files to docker run commands"
+      },
+      "docker-reference": {
+        "name": "docker-reference",
+        "description": "Get Docker commands reference and cheatsheet"
+      },
+      "traefik-compose-generator": {
+        "name": "traefik-compose-generator",
+        "description": "Generate Traefik Docker Compose configuration"
+      },
+      "docker-compose-validator": {
+        "name": "docker-compose-validator",
+        "description": "Validate Docker Compose files for syntax and compatibility"
+      },
+      "docker-run-to-docker-compose": {
+        "name": "docker-run-to-docker-compose",
+        "description": "Convert docker run commands to Docker Compose format"
+      },
+      "ansible-reference": {
+        "name": "ansible-reference",
+        "description": "Get Ansible commands reference and cheatsheet"
+      },
+      "ansible-playbook-validator": {
+        "name": "ansible-playbook-validator",
+        "description": "Validate Ansible playbook syntax and structure"
+      },
+      "ansible-inventory-parser": {
+        "name": "ansible-inventory-parser",
+        "description": "Parse and validate Ansible inventory files"
+      },
+      "ansible-vault-encrypt": {
+        "name": "ansible-vault-encrypt",
+        "description": "Encrypt text using Ansible Vault format"
+      },
+      "ansible-vault-decrypt": {
+        "name": "ansible-vault-decrypt",
+        "description": "Decrypt Ansible Vault encrypted text"
+      },
+      "color-hex-to-rgb": {
+        "name": "color-hex-to-rgb",
+        "description": "Convert HEX color to RGB"
+      },
+      "color-rgb-to-hex": {
+        "name": "color-rgb-to-hex",
+        "description": "Convert RGB color to HEX"
+      },
+      "html-entities-extended": {
+        "name": "html-entities-extended",
+        "description": "Extended HTML entity encoding/decoding"
+      },
+      "html-encode": {
+        "name": "html-encode",
+        "description": "Encode HTML entities"
+      },
       "base64-encode": {
         "name": "base64-encode",
         "description": "Encode text to Base64"
@@ -31299,193 +31317,21 @@
         "name": "url-encode",
         "description": "URL encode text"
       },
-      "url-decode": {
-        "name": "url-decode",
-        "description": "URL decode text"
-      },
-      "html-encode": {
-        "name": "html-encode",
-        "description": "Encode HTML entities"
-      },
       "html-decode": {
         "name": "html-decode",
         "description": "Decode HTML entities"
       },
-      "html-entities-extended": {
-        "name": "html-entities-extended",
-        "description": "Extended HTML entity encoding/decoding"
+      "url-decode": {
+        "name": "url-decode",
+        "description": "URL decode text"
       },
       "text-to-binary": {
         "name": "text-to-binary",
         "description": "Convert text to binary and vice versa"
       },
-      "hash-md5": {
-        "name": "hash-md5",
-        "description": "Generate MD5 hash"
-      },
-      "hash-sha1": {
-        "name": "hash-sha1",
-        "description": "Generate SHA1 hash"
-      },
-      "hash-sha256": {
-        "name": "hash-sha256",
-        "description": "Generate SHA256 hash"
-      },
-      "hash-sha512": {
-        "name": "hash-sha512",
-        "description": "Generate SHA512 hash"
-      },
-      "hmac-generator": {
-        "name": "hmac-generator",
-        "description": "Generate HMAC (Hash-based Message Authentication Code)"
-      },
-      "jwt-decode": {
-        "name": "jwt-decode",
-        "description": "Decode JWT token (header and payload only)"
-      },
-      "basic-auth-generator": {
-        "name": "basic-auth-generator",
-        "description": "Generate HTTP Basic Authentication header"
-      },
-      "bcrypt-hash": {
-        "name": "bcrypt-hash",
-        "description": "Generate bcrypt hash or verify password against hash"
-      },
-      "bip39-generate": {
-        "name": "bip39-generate",
-        "description": "Generate BIP39 mnemonic phrases"
-      },
-      "password-generate": {
-        "name": "password-generate",
-        "description": "Generate a secure password"
-      },
-      "token-generator": {
-        "name": "token-generator",
-        "description": "Generate secure random tokens"
-      },
-      "otp-code-generator": {
-        "name": "otp-code-generator",
-        "description": "Generate Time-based One-Time Password (TOTP) codes"
-      },
-      "json-format": {
-        "name": "json-format",
-        "description": "Format and validate JSON"
-      },
-      "json-minify": {
-        "name": "json-minify",
-        "description": "Minify JSON by removing whitespace"
-      },
-      "json-to-csv": {
-        "name": "json-to-csv",
-        "description": "Convert JSON to CSV format"
-      },
-      "yaml-format": {
-        "name": "yaml-format",
-        "description": "Format and prettify YAML"
-      },
-      "xml-format": {
-        "name": "xml-format",
-        "description": "Format and prettify XML"
-      },
-      "sql-format": {
-        "name": "sql-format",
-        "description": "Format and prettify SQL queries"
-      },
-      "toml-to-json": {
-        "name": "toml-to-json",
-        "description": "Convert TOML to JSON format"
-      },
-      "json-to-toml": {
-        "name": "json-to-toml",
-        "description": "Convert JSON to TOML format"
-      },
-      "markdown-to-html": {
-        "name": "markdown-to-html",
-        "description": "Convert Markdown to HTML"
-      },
-      "html-to-markdown": {
-        "name": "html-to-markdown",
-        "description": "Convert HTML to Markdown"
-      },
-      "json-diff": {
-        "name": "json-diff",
-        "description": "Compare two JSON objects and show differences"
-      },
-      "phone-format": {
-        "name": "phone-format",
-        "description": "Parse and format phone numbers"
-      },
-      "text-uppercase": {
-        "name": "text-uppercase",
-        "description": "Convert text to uppercase"
-      },
-      "text-lowercase": {
-        "name": "text-lowercase",
-        "description": "Convert text to lowercase"
-      },
-      "text-capitalize": {
-        "name": "text-capitalize",
-        "description": "Capitalize first letter of each word"
-      },
-      "text-camelcase": {
-        "name": "text-camelcase",
-        "description": "Convert text to camelCase"
-      },
-      "text-pascalcase": {
-        "name": "text-pascalcase",
-        "description": "Convert text to PascalCase"
-      },
-      "text-kebabcase": {
-        "name": "text-kebabcase",
-        "description": "Convert text to kebab-case"
-      },
-      "text-snakecase": {
-        "name": "text-snakecase",
-        "description": "Convert text to snake_case"
-      },
-      "text-stats": {
-        "name": "text-stats",
-        "description": "Get statistics about text (character count, word count, etc.)"
-      },
-      "text-diff": {
-        "name": "text-diff",
-        "description": "Compare two texts and show differences"
-      },
-      "ascii-art-text": {
-        "name": "ascii-art-text",
-        "description": "Generate ASCII art text"
-      },
-      "text-to-nato-alphabet": {
-        "name": "text-to-nato-alphabet",
-        "description": "Convert text to NATO phonetic alphabet"
-      },
-      "string-obfuscator": {
-        "name": "string-obfuscator",
-        "description": "Obfuscate text by replacing characters with their HTML entities or other representations"
-      },
-      "slugify-string": {
-        "name": "slugify-string",
-        "description": "Convert text to URL-friendly slug format"
-      },
-      "lorem-ipsum-generator": {
-        "name": "lorem-ipsum-generator",
-        "description": "Generate Lorem Ipsum placeholder text"
-      },
-      "numeronym-generator": {
-        "name": "numeronym-generator",
-        "description": "Generate numeronyms (abbreviations with numbers) from text"
-      },
-      "text-to-unicode": {
-        "name": "text-to-unicode",
-        "description": "Convert text to Unicode code points and vice versa"
-      },
-      "emoji-search": {
-        "name": "emoji-search",
-        "description": "Search for emojis by name or category"
-      },
-      "uuid-generate": {
-        "name": "uuid-generate",
-        "description": "Generate a random UUID v4"
+      "svg-placeholder-generator": {
+        "name": "svg-placeholder-generator",
+        "description": "Generate SVG placeholder images"
       },
       "ulid-generate": {
         "name": "ulid-generate",
@@ -31495,77 +31341,209 @@
         "name": "qr-generate",
         "description": "Generate QR code for any text including URLs, WiFi networks, contact info, etc."
       },
-      "svg-placeholder-generator": {
-        "name": "svg-placeholder-generator",
-        "description": "Generate SVG placeholder images"
+      "uuid-generate": {
+        "name": "uuid-generate",
+        "description": "Generate a random UUID v4"
       },
-      "ip-subnet-calculator": {
-        "name": "ip-subnet-calculator",
-        "description": "Calculate subnet information for IPv4"
+      "hash-sha512": {
+        "name": "hash-sha512",
+        "description": "Generate SHA512 hash"
       },
-      "ipv4-subnet-calc": {
-        "name": "ipv4-subnet-calc",
-        "description": "Calculate IPv4 subnet information"
+      "bip39-generate": {
+        "name": "bip39-generate",
+        "description": "Generate BIP39 mnemonic phrases"
       },
-      "ipv6-ula-generator": {
-        "name": "ipv6-ula-generator",
-        "description": "Generate IPv6 Unique Local Address (ULA) prefix"
+      "hash-sha1": {
+        "name": "hash-sha1",
+        "description": "Generate SHA1 hash"
       },
-      "url-parse": {
-        "name": "url-parse",
-        "description": "Parse URL into components"
+      "jwt-decode": {
+        "name": "jwt-decode",
+        "description": "Decode JWT token (header and payload only)"
       },
-      "random-port": {
-        "name": "random-port",
-        "description": "Generate random port numbers"
+      "otp-code-generator": {
+        "name": "otp-code-generator",
+        "description": "Generate Time-based One-Time Password (TOTP) codes"
       },
-      "mac-address-generate": {
-        "name": "mac-address-generate",
-        "description": "Generate random MAC address"
+      "hash-md5": {
+        "name": "hash-md5",
+        "description": "Generate MD5 hash"
       },
-      "iban-validate": {
-        "name": "iban-validate",
-        "description": "Validate and parse IBAN (International Bank Account Number)"
+      "token-generator": {
+        "name": "token-generator",
+        "description": "Generate secure random tokens"
+      },
+      "bcrypt-hash": {
+        "name": "bcrypt-hash",
+        "description": "Generate bcrypt hash or verify password against hash"
+      },
+      "basic-auth-generator": {
+        "name": "basic-auth-generator",
+        "description": "Generate HTTP Basic Authentication header"
+      },
+      "hmac-generator": {
+        "name": "hmac-generator",
+        "description": "Generate HMAC (Hash-based Message Authentication Code)"
+      },
+      "password-generate": {
+        "name": "password-generate",
+        "description": "Generate a secure password"
+      },
+      "hash-sha256": {
+        "name": "hash-sha256",
+        "description": "Generate SHA256 hash"
+      },
+      "toml-to-json": {
+        "name": "toml-to-json",
+        "description": "Convert TOML to JSON format"
+      },
+      "sql-format": {
+        "name": "sql-format",
+        "description": "Format and prettify SQL queries"
+      },
+      "json-minify": {
+        "name": "json-minify",
+        "description": "Minify JSON by removing whitespace"
+      },
+      "json-diff": {
+        "name": "json-diff",
+        "description": "Compare two JSON objects and show differences"
+      },
+      "html-to-markdown": {
+        "name": "html-to-markdown",
+        "description": "Convert HTML to Markdown"
+      },
+      "phone-format": {
+        "name": "phone-format",
+        "description": "Parse and format phone numbers"
+      },
+      "yaml-format": {
+        "name": "yaml-format",
+        "description": "Format and prettify YAML"
+      },
+      "xml-format": {
+        "name": "xml-format",
+        "description": "Format and prettify XML"
+      },
+      "markdown-to-html": {
+        "name": "markdown-to-html",
+        "description": "Convert Markdown to HTML"
+      },
+      "json-to-csv": {
+        "name": "json-to-csv",
+        "description": "Convert JSON to CSV format"
+      },
+      "json-to-toml": {
+        "name": "json-to-toml",
+        "description": "Convert JSON to TOML format"
+      },
+      "json-format": {
+        "name": "json-format",
+        "description": "Format and validate JSON"
+      },
+      "emoji-search": {
+        "name": "emoji-search",
+        "description": "Search for emojis by name or category"
+      },
+      "text-to-nato-alphabet": {
+        "name": "text-to-nato-alphabet",
+        "description": "Convert text to NATO phonetic alphabet"
+      },
+      "text-snakecase": {
+        "name": "text-snakecase",
+        "description": "Convert text to snake_case"
+      },
+      "distinct-words": {
+        "name": "distinct-words",
+        "description": "Count distinct words in text and show their frequency"
+      },
+      "text-camelcase": {
+        "name": "text-camelcase",
+        "description": "Convert text to camelCase"
+      },
+      "text-uppercase": {
+        "name": "text-uppercase",
+        "description": "Convert text to uppercase"
+      },
+      "numeronym-generator": {
+        "name": "numeronym-generator",
+        "description": "Generate numeronyms (abbreviations with numbers) from text"
+      },
+      "slugify-string": {
+        "name": "slugify-string",
+        "description": "Convert text to URL-friendly slug format"
+      },
+      "text-diff": {
+        "name": "text-diff",
+        "description": "Compare two texts and show differences"
+      },
+      "ascii-art-text": {
+        "name": "ascii-art-text",
+        "description": "Generate ASCII art text"
+      },
+      "text-kebabcase": {
+        "name": "text-kebabcase",
+        "description": "Convert text to kebab-case"
+      },
+      "text-stats": {
+        "name": "text-stats",
+        "description": "Get statistics about text (character count, word count, etc.)"
+      },
+      "text-lowercase": {
+        "name": "text-lowercase",
+        "description": "Convert text to lowercase"
+      },
+      "text-capitalize": {
+        "name": "text-capitalize",
+        "description": "Capitalize first letter of each word"
+      },
+      "text-to-unicode-names": {
+        "name": "text-to-unicode-names",
+        "description": "Convert text to Unicode character names"
+      },
+      "text-pascalcase": {
+        "name": "text-pascalcase",
+        "description": "Convert text to PascalCase"
+      },
+      "string-obfuscator": {
+        "name": "string-obfuscator",
+        "description": "Obfuscate text by replacing characters with their HTML entities or other representations"
+      },
+      "lorem-ipsum-generator": {
+        "name": "lorem-ipsum-generator",
+        "description": "Generate Lorem Ipsum placeholder text"
+      },
+      "text-to-unicode": {
+        "name": "text-to-unicode",
+        "description": "Convert text to Unicode code points and vice versa"
       },
       "ssh": {
         "name": "ssh",
         "description": "Connect to a target via SSH"
       },
-      "ping": {
-        "name": "ping",
-        "description": "Ping a host to check connectivity"
-      },
-      "nslookup": {
-        "name": "nslookup",
-        "description": "Perform DNS lookup on a hostname or IP address"
-      },
       "telnet": {
         "name": "telnet",
         "description": "Test TCP connectivity to a host and port"
       },
-      "dig": {
-        "name": "dig",
-        "description": "Perform DNS lookup with dig command"
+      "url-parse": {
+        "name": "url-parse",
+        "description": "Parse URL into components"
       },
-      "ps": {
-        "name": "ps",
-        "description": "List running processes"
-      },
-      "cat": {
-        "name": "cat",
-        "description": "Display content of a file"
-      },
-      "top": {
-        "name": "top",
-        "description": "Display system processes (snapshot)"
-      },
-      "grep": {
-        "name": "grep",
-        "description": "Search for patterns in files"
+      "ip-subnet-calculator": {
+        "name": "ip-subnet-calculator",
+        "description": "Calculate subnet information for IPv4"
       },
       "head": {
         "name": "head",
         "description": "Display the beginning of a file"
+      },
+      "ipv6-ula-generator": {
+        "name": "ipv6-ula-generator",
+        "description": "Generate IPv6 Unique Local Address (ULA) prefix"
+      },
+      "curl": {
+        "name": "curl",
+        "description": "Make HTTP requests (GET, POST, etc.) like curl"
       },
       "tail": {
         "name": "tail",
@@ -31575,9 +31553,65 @@
         "name": "scp",
         "description": "Copy files to or from a remote host using SFTP (SCP-like)"
       },
-      "curl": {
-        "name": "curl",
-        "description": "Make HTTP requests (GET, POST, etc.) like curl"
+      "cidr-to-ip-range": {
+        "name": "cidr-to-ip-range",
+        "description": "Convert CIDR notation to IP address range"
+      },
+      "top": {
+        "name": "top",
+        "description": "Display system processes (snapshot)"
+      },
+      "cat": {
+        "name": "cat",
+        "description": "Display content of a file"
+      },
+      "nslookup": {
+        "name": "nslookup",
+        "description": "Perform DNS lookup on a hostname or IP address"
+      },
+      "ip-range-to-cidr": {
+        "name": "ip-range-to-cidr",
+        "description": "Convert IP address range to CIDR notation(s)"
+      },
+      "ipv6-subnet-calculator": {
+        "name": "ipv6-subnet-calculator",
+        "description": "Calculate IPv6 subnet information"
+      },
+      "ping": {
+        "name": "ping",
+        "description": "Ping a host to check connectivity"
+      },
+      "dig": {
+        "name": "dig",
+        "description": "Perform DNS lookup with dig command"
+      },
+      "ps": {
+        "name": "ps",
+        "description": "List running processes"
+      },
+      "grep": {
+        "name": "grep",
+        "description": "Search for patterns in files"
+      },
+      "mac-address-generate": {
+        "name": "mac-address-generate",
+        "description": "Generate random MAC address"
+      },
+      "random-port": {
+        "name": "random-port",
+        "description": "Generate random port numbers"
+      },
+      "ipv4-subnet-calc": {
+        "name": "ipv4-subnet-calc",
+        "description": "Calculate IPv4 subnet information"
+      },
+      "iban-validate": {
+        "name": "iban-validate",
+        "description": "Validate and parse IBAN (International Bank Account Number)"
+      },
+      "unix-timestamp-converter": {
+        "name": "unix-timestamp-converter",
+        "description": "Convert between Unix timestamps and human-readable dates"
       },
       "math-evaluate": {
         "name": "math-evaluate",
@@ -31591,17 +31625,17 @@
         "name": "roman-numeral-converter",
         "description": "Convert between Arabic numbers and Roman numerals"
       },
-      "temperature-converter": {
-        "name": "temperature-converter",
-        "description": "Convert temperatures between Celsius, Fahrenheit, and Kelvin"
-      },
       "percentage-calculator": {
         "name": "percentage-calculator",
         "description": "Calculate percentages, percentage of a number, or percentage change"
       },
-      "unix-timestamp-converter": {
-        "name": "unix-timestamp-converter",
-        "description": "Convert between Unix timestamps and human-readable dates"
+      "temperature-converter": {
+        "name": "temperature-converter",
+        "description": "Convert temperatures between Celsius, Fahrenheit, and Kelvin"
+      },
+      "rem-px-converter": {
+        "name": "rem-px-converter",
+        "description": "Convert between REM and PX units for CSS"
       },
       "email-normalizer": {
         "name": "email-normalizer",
@@ -31611,33 +31645,69 @@
         "name": "mime-types",
         "description": "Look up MIME types for file extensions"
       },
-      "device-info": {
-        "name": "device-info",
-        "description": "Get basic device/system information"
+      "css-prettifier": {
+        "name": "css-prettifier",
+        "description": "Format and prettify CSS code"
       },
       "http-status-codes": {
         "name": "http-status-codes",
         "description": "Get information about HTTP status codes"
       },
+      "device-info": {
+        "name": "device-info",
+        "description": "Get basic device/system information"
+      },
+      "port-numbers": {
+        "name": "port-numbers",
+        "description": "Look up common TCP/UDP port numbers and their services"
+      },
       "regex-tester": {
         "name": "regex-tester",
         "description": "Test regular expressions against text"
+      },
+      "markdown-toc-generator": {
+        "name": "markdown-toc-generator",
+        "description": "Generate a table of contents from Markdown headers"
+      },
+      "html-prettifier": {
+        "name": "html-prettifier",
+        "description": "Format and beautify HTML code"
       },
       "crontab-generate": {
         "name": "crontab-generate",
         "description": "Generate crontab expressions"
       },
+      "javascript-prettifier": {
+        "name": "javascript-prettifier",
+        "description": "Format and beautify JavaScript/CSS code"
+      },
       "list-converter": {
         "name": "list-converter",
         "description": "Convert between different list formats (comma-separated, line-separated, etc.)"
       },
-      "color-hex-to-rgb": {
-        "name": "color-hex-to-rgb",
-        "description": "Convert HEX color to RGB"
+      "url-fanger": {
+        "name": "url-fanger",
+        "description": "Defang or refang URLs for safe sharing (security analysis)"
       },
-      "color-rgb-to-hex": {
-        "name": "color-rgb-to-hex",
-        "description": "Convert RGB color to HEX"
+      "safelink-decoder": {
+        "name": "safelink-decoder",
+        "description": "Decode Microsoft Outlook SafeLink URLs"
+      },
+      "file-type-identifier": {
+        "name": "file-type-identifier",
+        "description": "Identify file type based on magic numbers/file signatures"
+      },
+      "angle-converter": {
+        "name": "angle-converter",
+        "description": "Convert between different angle units"
+      },
+      "energy-converter": {
+        "name": "energy-converter",
+        "description": "Convert between different energy units"
+      },
+      "power-converter": {
+        "name": "power-converter",
+        "description": "Convert between different power units"
       }
     }
   },
@@ -34474,13 +34544,13 @@
         "name": "bitcoin_price",
         "description": "Get realtime bitcoin price"
       },
-      "list_assets": {
-        "name": "list_assets",
-        "description": "Get all available crypto assets"
-      },
       "get_crypto_price": {
         "name": "get_crypto_price",
         "description": "Get realtime crypto price on crypto"
+      },
+      "list_assets": {
+        "name": "list_assets",
+        "description": "Get all available crypto assets"
       }
     }
   },
@@ -41817,9 +41887,9 @@
     "path": "other-tools-and-integrations/my-mcp-server.json",
     "validated": true,
     "tools": {
-      "file-handler": {
-        "name": "file-handler",
-        "description": "FileHandler tool description"
+      "data-processor": {
+        "name": "data-processor",
+        "description": "DataProcessor tool description"
       },
       "api-client": {
         "name": "api-client",
@@ -41829,13 +41899,13 @@
         "name": "my-tool",
         "description": "MyTool tool description"
       },
-      "data-processor": {
-        "name": "data-processor",
-        "description": "DataProcessor tool description"
-      },
       "example_tool": {
         "name": "example_tool",
         "description": "An example tool that processes messages"
+      },
+      "file-handler": {
+        "name": "file-handler",
+        "description": "FileHandler tool description"
       }
     }
   },
