@@ -68,6 +68,7 @@
     "@modelcontextprotocol/server-sequential-thinking": "0.6.2",
     "@ashdev/discourse-mcp-server": "1.0.2",
     "@toolsdk.ai/mcp-server-google-analytics": "0.1.0",
+    "@toolsdk.ai/tavily-mcp": "0.2.7",
     "@bankless/onchain-mcp": "1.0.6",
     "mcp-fathom-analytics": "1.0.2",
     "feuse-mcp": "0.1.6",

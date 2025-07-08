@@ -259,6 +259,29 @@
     "validated": false,
     "tools": {}
   },
+  "@toolsdk.ai/tavily-mcp": {
+    "category": "search-data-extraction",
+    "path": "search-data-extraction/toolsdk-ai-tavily-mcp.json",
+    "validated": true,
+    "tools": {
+      "tavily-search": {
+        "name": "tavily-search",
+        "description": "A powerful web search tool that provides comprehensive, real-time results using Tavily's AI search engine. Returns relevant web content with customizable parameters for result count, content type, and domain filtering. Ideal for gathering current information, news, and detailed web content analysis."
+      },
+      "tavily-extract": {
+        "name": "tavily-extract",
+        "description": "A powerful web content extraction tool that retrieves and processes raw content from specified URLs, ideal for data collection, content analysis, and research tasks."
+      },
+      "tavily-crawl": {
+        "name": "tavily-crawl",
+        "description": "A powerful web crawler that initiates a structured web crawl starting from a specified base URL. The crawler expands from that point like a tree, following internal links across pages. You can control how deep and wide it goes, and guide it to focus on specific sections of the site."
+      },
+      "tavily-map": {
+        "name": "tavily-map",
+        "description": "A powerful web mapping tool that creates a structured map of website URLs, allowing you to discover and analyze site structure, content organization, and navigation paths. Perfect for site audits, content discovery, and understanding website architecture."
+      }
+    }
+  },
   "@automatalabs/mcp-server-playwright": {
     "category": "browser-automation",
     "path": "browser-automation/automatalabs-mcp-server-playwright.json",
@@ -2359,8 +2382,8 @@
   "canvas-lms": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/canvas-lms.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@noditlabs/nodit-mcp-server": {
     "category": "uncategorized",
@@ -3005,14 +3028,14 @@
   "dify": {
     "category": "developer-tools",
     "path": "developer-tools/dify.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "a2a-bridge": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/a2a-bridge.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "union": {
     "category": "aggregators",
@@ -3158,8 +3181,8 @@
   "gemini-image-generator": {
     "category": "art-and-culture",
     "path": "art-and-culture/gemini-image-generator.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "nasa-mcp": {
     "category": "art-and-culture",
@@ -3800,8 +3823,8 @@
   "together-ai-image-generation": {
     "category": "art-and-culture",
     "path": "art-and-culture/together-ai-image-generation.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "trakt": {
     "category": "art-and-culture",
@@ -4090,6 +4113,7 @@
   "playwright-mcp": {
     "category": "browser-automation",
     "path": "browser-automation/playwright-mcp.json",
+    "validated": true,
     "tools": {
       "init-browser": {
         "name": "init-browser",
@@ -4111,8 +4135,7 @@
         "name": "get-context",
         "description": "Get the website context which would be used to write the testcase"
       }
-    },
-    "validated": true
+    }
   },
   "browserloop": {
     "category": "browser-automation",
@@ -4353,8 +4376,8 @@
   "fetch": {
     "category": "browser-automation",
     "path": "browser-automation/fetch.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "web-crawler": {
     "category": "browser-automation",
@@ -4387,8 +4410,8 @@
   "playwright": {
     "category": "browser-automation",
     "path": "browser-automation/playwright.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-server-chatgpt-app": {
     "category": "browser-automation",
@@ -4945,8 +4968,8 @@
   "kubernetes": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/kubernetes.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "cloudzero": {
     "category": "cloud-platforms",
@@ -5387,8 +5410,8 @@
   "aws-cli": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/aws-cli.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "vmware-esxi": {
     "category": "cloud-platforms",
@@ -5437,8 +5460,8 @@
   "matlab": {
     "category": "code-execution",
     "path": "code-execution/matlab.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "safe-local-python-executor": {
     "category": "code-execution",
@@ -5772,8 +5795,8 @@
   "terminal": {
     "category": "command-line",
     "path": "command-line/terminal.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "server": {
     "category": "command-line",
@@ -5936,8 +5959,8 @@
   "command-executor": {
     "category": "command-line",
     "path": "command-line/command-executor.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "cli-executor": {
     "category": "command-line",
@@ -6264,8 +6287,8 @@
   "imessage": {
     "category": "communication",
     "path": "communication/imessage.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@cablate/mcp-google-calendar": {
     "category": "communication",
@@ -6300,8 +6323,8 @@
   "discord": {
     "category": "communication",
     "path": "communication/discord.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "google-workspace": {
     "category": "communication",
@@ -6341,8 +6364,8 @@
   "google-calendar": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/google-calendar.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "weibo": {
     "category": "communication",
@@ -6886,8 +6909,8 @@
   "trello": {
     "category": "communication",
     "path": "communication/trello.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "instagram-dm-mcp": {
     "category": "communication",
@@ -6930,8 +6953,8 @@
   "ticktick": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/ticktick.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "imap-workflows": {
     "category": "communication",
@@ -7146,8 +7169,8 @@
   "gmail": {
     "category": "communication",
     "path": "communication/gmail.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "teamspeak-mcp": {
     "category": "communication",
@@ -7492,14 +7515,14 @@
   "sqlite": {
     "category": "databases",
     "path": "databases/sqlite.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "neo4j-graph": {
     "category": "databases",
     "path": "databases/neo4j-graph.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-server-motherduck": {
     "category": "databases",
@@ -7590,14 +7613,14 @@
   "postgresql": {
     "category": "databases",
     "path": "databases/postgresql.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "xano": {
     "category": "databases",
     "path": "databases/xano.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@kevinwatt/mysql-mcp": {
     "category": "databases",
@@ -7761,8 +7784,8 @@
   "postgresql-explorer": {
     "category": "databases",
     "path": "databases/postgresql-explorer.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@alanse/mcp-neo4j-server": {
     "category": "databases",
@@ -7813,8 +7836,8 @@
   "database-connector": {
     "category": "databases",
     "path": "databases/database-connector.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "db-query": {
     "category": "databases",
@@ -8148,8 +8171,8 @@
   "mysql": {
     "category": "databases",
     "path": "databases/mysql.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-server-bigquery": {
     "category": "databases",
@@ -8192,8 +8215,8 @@
   "azure-cosmos-db": {
     "category": "databases",
     "path": "databases/azure-cosmos-db.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "dbsnp": {
     "category": "databases",
@@ -8306,8 +8329,8 @@
   "google-sheets": {
     "category": "data-platforms",
     "path": "data-platforms/google-sheets.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "apache-gravitino": {
     "category": "data-platforms",
@@ -8929,8 +8952,8 @@
   "azure-devops": {
     "category": "developer-tools",
     "path": "developer-tools/azure-devops.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "arthas-jvm-diagnostics": {
     "category": "developer-tools",
@@ -9245,8 +9268,8 @@
   "dev.to": {
     "category": "developer-tools",
     "path": "developer-tools/dev-to.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "gdb-debugger": {
     "category": "developer-tools",
@@ -9493,8 +9516,8 @@
   "docker": {
     "category": "developer-tools",
     "path": "developer-tools/docker.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "tokenscope": {
     "category": "developer-tools",
@@ -9597,8 +9620,8 @@
   "bazel": {
     "category": "developer-tools",
     "path": "developer-tools/bazel.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "xcodebuild": {
     "category": "developer-tools",
@@ -10810,8 +10833,8 @@
   "filesystem": {
     "category": "file-systems",
     "path": "file-systems/filesystem.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "putio-mcp-server": {
     "category": "file-systems",
@@ -11290,8 +11313,8 @@
   "alpha-vantage": {
     "category": "finance-fintech",
     "path": "finance-fintech/alpha-vantage.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "optionsflow-(yahoo-finance)": {
     "category": "finance-fintech",
@@ -11648,8 +11671,8 @@
   "zerodha-kite": {
     "category": "finance-fintech",
     "path": "finance-fintech/zerodha-kite.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "ledger-cli": {
     "category": "finance-fintech",
@@ -12390,8 +12413,8 @@
   "coinmarketcap": {
     "category": "finance-fintech",
     "path": "finance-fintech/coinmarketcap.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "bitcoin-(coingecko)": {
     "category": "finance-fintech",
@@ -12432,8 +12455,8 @@
   "coingecko": {
     "category": "finance-fintech",
     "path": "finance-fintech/coingecko.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "ynab": {
     "category": "finance-fintech",
@@ -12795,8 +12818,8 @@
   "chess": {
     "category": "gaming",
     "path": "gaming/chess.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "poker-win-calculator": {
     "category": "gaming",
@@ -13196,8 +13219,8 @@
   "memory-bank": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/memory-bank.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-server-vikingdb": {
     "category": "knowledge-memory",
@@ -13273,8 +13296,8 @@
   "mem0": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/mem0.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@myjungle/docu-mcp-server": {
     "category": "knowledge-memory",
@@ -13371,8 +13394,8 @@
   "bear-notes": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/bear-notes.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "fegis-(schema-driven-memory)": {
     "category": "knowledge-memory",
@@ -13481,8 +13504,8 @@
   "think-tool": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/think-tool.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "confluence-chat": {
     "category": "knowledge-memory",
@@ -13547,8 +13570,8 @@
   "notion": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/notion.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@iachilles/memento": {
     "category": "knowledge-memory",
@@ -13915,8 +13938,8 @@
   "osp-marketing-tools": {
     "category": "marketing",
     "path": "marketing/osp-marketing-tools.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@felores/placid-mcp-server": {
     "category": "marketing",
@@ -14205,8 +14228,8 @@
   "grafana": {
     "category": "monitoring",
     "path": "monitoring/grafana.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "aws-cloudwatch": {
     "category": "monitoring",
@@ -14340,8 +14363,8 @@
   "google-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/google-search.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "youtube": {
     "category": "search-data-extraction",
@@ -14523,8 +14546,8 @@
   "searxng": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/searxng.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "search1api-mcp": {
     "category": "search-data-extraction",
@@ -14738,8 +14761,8 @@
   "brave-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/brave-search.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "higress-ai-search-mcp-server": {
     "category": "search-data-extraction",
@@ -14807,8 +14830,8 @@
   "typesense": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/typesense.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "insightslibrary": {
     "category": "search-data-extraction",
@@ -15100,8 +15123,8 @@
   "perplexity": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/perplexity.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "pubmed": {
     "category": "other-tools-and-integrations",
@@ -15230,8 +15253,8 @@
   "youtube-transcript": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/youtube-transcript.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "perplexity-mcp": {
     "category": "search-data-extraction",
@@ -15550,8 +15573,8 @@
   "perplexity-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/perplexity-search.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "jina-ai-mcp-server": {
     "category": "search-data-extraction",
@@ -15649,8 +15672,8 @@
   "duckduckgo-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/duckduckgo-search.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "naver-search": {
     "category": "search-data-extraction",
@@ -15682,8 +15705,8 @@
   "deep-research": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/deep-research.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "gemini-deepsearch-mcp": {
     "category": "search-data-extraction",
@@ -15982,8 +16005,8 @@
   "serper-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/serper-search.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "oci-registry": {
     "category": "security",
@@ -15996,8 +16019,8 @@
   "nuclei": {
     "category": "security",
     "path": "security/nuclei.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "chronicle-security-operations": {
     "category": "security",
@@ -16392,8 +16415,8 @@
   "semgrep": {
     "category": "security",
     "path": "security/semgrep.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "illumio": {
     "category": "security",
@@ -19070,8 +19093,8 @@
   "git": {
     "category": "version-control",
     "path": "version-control/git.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@nexus2520/bitbucket-mcp-server": {
     "category": "version-control",
@@ -19270,14 +19293,14 @@
   "github": {
     "category": "version-control",
     "path": "version-control/github.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "gitlab": {
     "category": "version-control",
     "path": "version-control/gitlab.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "github-pr-&-issue-analyzer": {
     "category": "version-control",
@@ -19317,8 +19340,8 @@
   "kintone": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/kintone.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "name-origin-predictor": {
     "category": "other-tools-and-integrations",
@@ -19402,8 +19425,8 @@
   "todoist": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/todoist.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "opgen-password-generator": {
     "category": "other-tools-and-integrations",
@@ -19527,8 +19550,8 @@
   "openapi-transformer": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/openapi-transformer.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mathematica-docs": {
     "category": "other-tools-and-integrations",
@@ -20275,8 +20298,8 @@
   "sequential-thinking": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/sequential-thinking.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "fal.ai": {
     "category": "other-tools-and-integrations",
@@ -20350,8 +20373,8 @@
   "gemini": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/gemini.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "todoist-taskmaster": {
     "category": "other-tools-and-integrations",
@@ -20564,8 +20587,8 @@
   "dify-workflow": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/dify-workflow.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "toolhouse": {
     "category": "other-tools-and-integrations",
@@ -20724,8 +20747,8 @@
   "notion-markdown": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/notion-markdown.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "k6-load-testing": {
     "category": "other-tools-and-integrations",
@@ -21012,8 +21035,8 @@
   "shopify": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/shopify.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "api-tester-(openai)": {
     "category": "other-tools-and-integrations",
@@ -21837,8 +21860,8 @@
   "raindrop.io": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/raindrop-io.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "user-feedback": {
     "category": "other-tools-and-integrations",
@@ -21932,8 +21955,8 @@
   "openapi": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/openapi.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "kaltura": {
     "category": "other-tools-and-integrations",
@@ -22648,8 +22671,8 @@
   "google-forms": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/google-forms.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "agentrpc": {
     "category": "other-tools-and-integrations",

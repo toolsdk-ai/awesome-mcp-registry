@@ -3080,6 +3080,7 @@
       "kagi-search",
       "@ashdev/discourse-mcp-server",
       "tavily-mcp",
+      "@toolsdk.ai/tavily-mcp",
       "azure-ai-search",
       "mcp-duckduckgo-search",
       "minima-(local-rag)",
