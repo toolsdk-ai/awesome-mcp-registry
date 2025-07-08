@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "patchright-stealth-browser",
+  "description": "Provides stealth browser automation capabilities through a containerized server that avoids anti-bot detection systems while offering essential tools for navigating websites, interacting with elements, and extracting content.",
+  "url": "https://github.com/dylangroos/patchright-mcp-lite",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

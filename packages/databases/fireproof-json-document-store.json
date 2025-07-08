@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "fireproof-json-document-store",
+  "description": "Fireproof database integration for a flexible JSON document store with CRUD operations.",
+  "url": "https://github.com/fireproof-storage/mcp-database-server",
+  "runtime": "node",
+  "license": "other",
+  "env": {}
+}

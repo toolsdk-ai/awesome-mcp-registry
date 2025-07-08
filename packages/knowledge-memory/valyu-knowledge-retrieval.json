@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "valyu-knowledge-retrieval",
+  "description": "Integrates with Valyu's knowledge retrieval and feedback APIs, enabling information search across proprietary and web sources and submission of user feedback for enhanced information retrieval and interaction scenarios.",
+  "url": "https://github.com/valyu-network/valyu-mcp-js",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

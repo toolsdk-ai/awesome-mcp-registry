@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mixpanel",
+  "description": "Integrates with Mixpanel's API to enable querying of events data, retention, and funnels for on-demand analytics and custom report generation.",
+  "url": "https://github.com/dragonkhoi/mixpanel-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

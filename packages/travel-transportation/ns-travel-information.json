@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ns-travel-information",
+  "description": "Access real-time Dutch Railways data for trip planning.",
+  "url": "https://github.com/r-huijts/ns-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

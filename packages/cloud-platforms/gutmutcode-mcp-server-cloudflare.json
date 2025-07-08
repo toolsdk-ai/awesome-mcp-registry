@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@gutmutcode/mcp-server-cloudflare",
+  "description": "Integrates with Cloudflare's API to enable management of DNS, CDN, and security configurations for web infrastructure automation.",
+  "url": "https://github.com/gutmutcode/mcp-server-cloudflare",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

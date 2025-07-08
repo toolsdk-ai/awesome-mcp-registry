@@ -5,14 +5,5 @@
   "url": "https://github.com/lupuletic/onyx-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {
-    "ONYX_API_TOKEN": {
-      "description": "your-api-token-here",
-      "required": true
-    },
-    "ONYX_API_URL": {
-      "description": "http://localhost:8080/api",
-      "required": true
-    }
-  }
+  "env": {}
 }

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sonic-pi-mcp",
+  "description": "Enables music creation and sound manipulation through Sonic Pi by sending OSC messages for playing notes with customizable synth parameters and executing arbitrary code.",
+  "url": "https://github.com/abhishekjairath/sonic-pi-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "student-knowledge-graph",
+  "description": "Manages student knowledge graphs for tracking academic progress, organizing educational resources, and structuring relationships between courses, assignments, and concepts through specialized tools for session management and entity manipulation.",
+  "url": "https://github.com/tejpalvirk/student",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "simple-postgresql",
+  "description": "Provides direct SQL query execution against PostgreSQL databases with configurable read-only and write operation modes, connection pooling, and built-in query validation for database analysis and administrative tasks.",
+  "url": "https://github.com/perrypixel/simple-postgres-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

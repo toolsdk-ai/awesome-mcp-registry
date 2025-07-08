@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "deno-playwright",
+  "description": "Integrates with Playwright and Deno to enable browser automation for web navigation, interaction, and data extraction tasks.",
+  "url": "https://github.com/jakedahn/deno2-playwright-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

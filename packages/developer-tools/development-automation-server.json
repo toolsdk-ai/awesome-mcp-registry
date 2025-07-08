@@ -2,7 +2,7 @@
   "type": "mcp-server",
   "packageName": "development-automation-server",
   "description": "Provides a development automation server with modular architecture for fetching web content, accessing documentation, analyzing project structure, and performing web searches through internet and Perplexity APIs.",
-  "url": "https://github.com/alexsmirnov/mcp-server-continue",
+  "url": "https://github.com/alexsmirnov/obsidian-second-brain-mcp",
   "runtime": "python",
   "license": "unknown",
   "env": {}

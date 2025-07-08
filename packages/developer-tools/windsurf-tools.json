@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "windsurf-tools",
+  "description": "Integrates with OpenAI's API and Puppeteer to provide screenshot capture, code architecture analysis, and code review capabilities for software development tasks.",
+  "url": "https://github.com/yeakub108/mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

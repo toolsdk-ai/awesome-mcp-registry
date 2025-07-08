@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-workflow-debugger",
+  "description": "Integrates with GitHub Actions to diagnose and fix workflow failures by fetching run data, analyzing job errors, and suggesting specific fixes for common CI/CD pipeline issues.",
+  "url": "https://github.com/maxteabag/githubworkflowmcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

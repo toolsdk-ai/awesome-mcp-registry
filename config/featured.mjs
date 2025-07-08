@@ -13,7 +13,7 @@ export default [
   "@modelcontextprotocol/server-google-maps",
   "@modelcontextprotocol/server-gitlab",
   "brave-search-mcp",
-  "tavily-mcp",
+  "@toolsdk.ai/tavily-mcp",
   "exa-mcp-server",
   "@executeautomation/playwright-mcp-server",
   "hyperbrowser-mcp",

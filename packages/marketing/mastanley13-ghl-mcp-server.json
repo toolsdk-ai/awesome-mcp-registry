@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mastanley13/ghl-mcp-server",
+  "description": "Integrates with GoHighLevel CRM to manage contacts, conversations, blog posts, calendars, workflows, and media through comprehensive API access for marketing automation and client communication workflows.",
+  "url": "https://github.com/mastanley13/gohighlevel-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

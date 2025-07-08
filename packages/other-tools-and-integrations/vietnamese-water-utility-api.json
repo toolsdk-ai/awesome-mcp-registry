@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vietnamese-water-utility-api",
+  "description": "TypeScript-based bridge to a Vietnamese water utility company's ABP Framework API, enabling employee management, breakfast registration, chemical tracking, equipment monitoring, and vehicle dispatching through a service-oriented architecture with axios HTTP requests.",
+  "url": "https://github.com/nstanw/api-service",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

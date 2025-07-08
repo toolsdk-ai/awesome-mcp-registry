@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "zig",
+  "description": "Integrates with Zig tooling to provide code optimization, analysis, and generation capabilities for efficient Zig development.",
+  "url": "https://github.com/opensvm/zig-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

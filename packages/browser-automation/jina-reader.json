@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "jina-reader",
+  "description": "Convert web content to readable Markdown format.",
+  "url": "https://github.com/wong2/mcp-jina-reader",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

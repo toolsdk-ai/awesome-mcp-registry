@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "replicate-flux",
+  "description": "Integrates with Replicate's image generation API to enable fast creation of images from text prompts using the flux-schnell model, with customizable parameters for quality and format.",
+  "url": "https://github.com/ozgrozer/mcp-replicate-flux",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

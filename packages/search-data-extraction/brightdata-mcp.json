@@ -1,0 +1,26 @@
+{
+  "type": "mcp-server",
+  "packageName": "@brightdata/mcp",
+  "description": "Integrates with Bright Data's web scraping infrastructure to provide real-time access to public web data through specialized tools for search engine scraping, webpage extraction, and structured data retrieval from popular websites.",
+  "url": "https://github.com/brightdata/brightdata-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "API_TOKEN": {
+      "description": "<insert-your-api-token-here>",
+      "required": true
+    },
+    "WEB_UNLOCKER_ZONE": {
+      "description": "<optional if you want to override the default mcp_unlocker zone name>",
+      "required": true
+    },
+    "BROWSER_ZONE": {
+      "description": "<optional browser zone name, defaults to mcp_browser>",
+      "required": true
+    },
+    "RATE_LIMIT": {
+      "description": "<optional rate limit format: limit/time+unit, e.g., 100/1h, 50/30m, 10/5s>",
+      "required": true
+    }
+  }
+}

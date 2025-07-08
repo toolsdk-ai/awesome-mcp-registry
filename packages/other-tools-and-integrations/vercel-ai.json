@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vercel-ai",
+  "description": "Integrates OpenAI and Mistral models for versatile language tasks via the Vercel AI SDK.",
+  "url": "https://github.com/itsdarianngo/mcp-vercel-ai",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

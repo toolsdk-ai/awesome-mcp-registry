@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "maya",
+  "description": "Provides a bridge between natural language commands and Autodesk Maya, enabling scene management, object creation, attribute manipulation, and viewport control through a dynamically extensible Python-based server.",
+  "url": "https://github.com/patrickpalmer/mayamcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

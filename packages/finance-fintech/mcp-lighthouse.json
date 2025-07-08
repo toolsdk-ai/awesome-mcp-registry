@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-lighthouse",
+  "description": "Integrates with Lighthouse.one cryptocurrency portfolio tracker to fetch and display detailed portfolio data including total value, asset allocations, and major holdings through secure token-based authentication.",
+  "url": "https://github.com/l3wi/mcp-lighthouse",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

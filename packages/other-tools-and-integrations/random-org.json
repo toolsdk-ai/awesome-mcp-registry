@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "random.org",
+  "description": "Generates truly random numbers using Random.org's atmospheric noise API to eliminate the deterministic bias inherent in LLM-generated randomness for applications requiring genuine unpredictability like statistical sampling, gaming, and cryptographic operations.",
+  "url": "https://github.com/maxbogo/mcp-random-number",
+  "runtime": "node",
+  "license": "gpl-3.0",
+  "env": {}
+}

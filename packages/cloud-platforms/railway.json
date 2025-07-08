@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "railway",
+  "description": "Integrates with Railway.app to enable management of deployments, monitoring of application performance, and automation of DevOps workflows within the Railway ecosystem.",
+  "url": "https://github.com/jason-tan-swe/railway-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "deepresearch",
+  "description": "Provides a stateful web research system that iteratively explores topics using Firecrawl for searches and GPT-4 for analysis, generating citation-rich reports without manual search management.",
+  "url": "https://github.com/ameeralns/deepresearchmcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@stripe/agent-toolkit",
+  "description": "Integrates with Stripe's API to enable payment processing, customer management, and financial operations for e-commerce and billing workflows.",
+  "url": "https://github.com/stripe/agent-toolkit",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

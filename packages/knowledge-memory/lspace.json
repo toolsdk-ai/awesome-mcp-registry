@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "lspace",
+  "description": "Transforms Git repositories into searchable knowledge bases through automated document processing, timeline tracking, and semantic search capabilities with OpenAI integration for content extraction and GitHub support for repository management.",
+  "url": "https://github.com/lspace-io/lspace-server",
+  "runtime": "node",
+  "license": "other",
+  "env": {}
+}

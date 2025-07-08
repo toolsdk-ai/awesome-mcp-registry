@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "atrax-(mcp-proxy)",
+  "description": "Proxy service that aggregates multiple MCP servers into a unified endpoint with configurable conflict resolution, transparent proxying, and enhanced error handling.",
+  "url": "https://github.com/metcalfc/atrax",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

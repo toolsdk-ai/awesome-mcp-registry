@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "image-generation-(flux-schnell)",
+  "description": "Enables text-to-image generation using Replicate's flux-schnell model, offering configurable parameters for on-demand image creation in various applications.",
+  "url": "https://github.com/mikeyny/ai-image-gen-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

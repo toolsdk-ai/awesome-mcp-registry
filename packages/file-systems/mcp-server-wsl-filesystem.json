@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-wsl-filesystem",
+  "description": "Provides a bridge between Windows and Linux environments by enabling access to WSL filesystem operations, allowing seamless reading, writing, editing, and management of files within WSL distributions directly from Windows.",
+  "url": "https://github.com/webconsulting/mcp-server-wsl-filesystem",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "prompts-library",
+  "description": "Manages prompt templates as markdown files with YAML frontmatter, providing structured organization, real-time file watching, and CRUD operations for systematic prompt library management and team collaboration.",
+  "url": "https://github.com/tanker327/prompts-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

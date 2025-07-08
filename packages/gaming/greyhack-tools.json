@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "greyhack-tools",
+  "description": "Provides specialized tools for Grey Hack game players to search GitHub for code examples, validate scripts against official API documentation, generate common script templates, and transpile between GreyScript and JavaScript.",
+  "url": "https://github.com/chromewillow/greyhack-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

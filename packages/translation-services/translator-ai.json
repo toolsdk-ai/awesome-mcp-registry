@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "translator-ai",
+  "description": "Translates JSON internationalization files using multiple translation providers (Google Gemini, OpenAI, Ollama/DeepSeek) with intelligent caching, deduplication across files, and format preservation to minimize API costs while maintaining exact JSON structure and consistent results across target languages.",
+  "url": "https://github.com/datanoisetv/translator-ai",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

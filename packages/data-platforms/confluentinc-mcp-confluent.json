@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@confluentinc/mcp-confluent",
+  "description": "Enables natural language management of Kafka topics, connectors, and Flink SQL statements through Confluent Cloud REST APIs for streamlined data streaming operations",
+  "url": "https://github.com/confluentinc/mcp-confluent",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

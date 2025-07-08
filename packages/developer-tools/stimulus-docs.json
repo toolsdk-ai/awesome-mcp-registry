@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "stimulus-docs",
+  "description": "Provides direct access to Stimulus JavaScript framework documentation, fetching content from GitHub with fallback mechanisms for reliable retrieval of handbook tutorials and technical reference materials.",
+  "url": "https://github.com/pinzonjulian/stimulus-docs-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

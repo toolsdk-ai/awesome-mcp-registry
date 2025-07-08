@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "agile-flow",
+  "description": "Provides project management and workflow enhancement tools for generating structured documents, breaking down complex problems, and supporting natural language commands in agile development environments.",
+  "url": "https://github.com/smian0/mcp-agile-flow",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

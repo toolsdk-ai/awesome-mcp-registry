@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "whatsapp-desktop",
+  "description": "Enables interaction with WhatsApp desktop on macOS through AppleScript automation for sending messages, checking status, and navigating the interface with keyboard shortcuts.",
+  "url": "https://github.com/gfb-47/whatsapp-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

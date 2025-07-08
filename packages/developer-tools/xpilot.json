@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "xpilot",
+  "description": "Provides a collection of development tools and resources for the MultiversX blockchain ecosystem, enabling developers to interact with API services, SDKs, and template implementations through modular server configurations.",
+  "url": "https://github.com/unievo/xpilot-mcp-library",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

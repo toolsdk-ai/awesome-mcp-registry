@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "meson-cross-chain-transfer",
+  "description": "Enables secure cross-chain cryptocurrency transfers between Ethereum, Arbitrum, Avalanche, and other blockchains using the Meson Protocol, with local private key processing for enhanced security.",
+  "url": "https://github.com/demcp/demcp-meson-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

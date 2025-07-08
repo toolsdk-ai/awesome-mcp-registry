@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "security-tools-bridge",
+  "description": "Bridges popular security tools (Nmap, Masscan, SQLMap, FFUF) with external systems for network scanning, port discovery, SQL injection testing, and web fuzzing operations",
+  "url": "https://github.com/cyproxio/mcp-for-security",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

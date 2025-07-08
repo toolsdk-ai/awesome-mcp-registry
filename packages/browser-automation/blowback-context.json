@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "blowback-context",
+  "description": "Integrates with frontend development environments to provide real-time feedback and debugging capabilities through browser automation, capturing console logs, monitoring HMR events, and enabling DOM interaction without leaving the conversation interface.",
+  "url": "https://github.com/esnark/blowback",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

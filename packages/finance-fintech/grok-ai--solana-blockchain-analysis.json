@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "grok-ai-(solana-blockchain-analysis)",
+  "description": "Integrates with xAI's Grok API to provide blockchain analysis tools for Solana, enabling transaction analysis, address investigation, image interpretation, and general queries with optional context support.",
+  "url": "https://github.com/8bitsats/grok_mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

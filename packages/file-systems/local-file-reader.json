@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "local-file-reader",
+  "description": "Provides a lightweight server for reading local text files, enabling AI tools to access file content from the filesystem without leaving the conversation interface.",
+  "url": "https://github.com/sworddut/mcp-local-file-reader",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

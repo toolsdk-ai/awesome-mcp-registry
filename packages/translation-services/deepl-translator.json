@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "deepl-translator",
+  "description": "Integrates with DeepL API to provide high-quality text translation between multiple languages with comprehensive error handling and request validation",
+  "url": "https://github.com/watchdealer-pavel/deepl-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

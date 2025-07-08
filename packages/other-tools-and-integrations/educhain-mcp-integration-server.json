@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "educhain-mcp-integration-server",
+  "description": "An MCP-compatible Flask server that integrates with the educhain Python library to dynamically generate educational content for Claude Desktop, including multiple-choice questions, lesson plans, and flashcards.",
+  "url": "https://github.com/abanindra3/educhain-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key for accessing OpenAI services",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tmdb",
+  "description": "Provides a bridge to The Movie Database (TMDB) API, enabling retrieval of movie information, trending films, details, and reviews through type-safe TypeScript resources and tools.",
+  "url": "https://github.com/shubhanshusondhiya/mcp-tmdb",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "godspeed-mcp",
+  "description": "Integrates with Godspeed Task Management API to enable listing, creating, updating, and deleting tasks directly from development environments without context switching.",
+  "url": "https://github.com/alinagy/godspeed-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

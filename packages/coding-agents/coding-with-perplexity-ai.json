@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "coding-with-perplexity-ai",
+  "description": "Integrates Perplexity AI to provide intelligent coding assistance for tasks like code analysis, generation, and problem-solving across various programming languages.",
+  "url": "https://github.com/politwit1984/mcp-perplexity-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

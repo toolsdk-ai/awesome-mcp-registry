@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "grasshopper-mcp",
+  "description": "Connects Grasshopper parametric design software with Claude through a bidirectional TCP server and Python bridge, enabling natural language control of architectural and engineering modeling workflows.",
+  "url": "https://github.com/alfredatnycu/grasshopper-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

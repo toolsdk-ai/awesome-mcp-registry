@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "a11y-mcp",
+  "description": "Perform accessibility audits on webpages using axe-core. Use the results in an agentic loop with your favorite AI assistants (Cline/Cursor/GH Copilot) and let them fix a11y issues for you.",
+  "url": "https://github.com/priyankark/a11y-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

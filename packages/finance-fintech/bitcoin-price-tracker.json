@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "bitcoin-price-tracker",
+  "description": "Provides real-time Bitcoin market data including current price, 24-hour change percentage, and market cap through dual API integration with CoinMarketCap and CoinGecko.",
+  "url": "https://github.com/riteshyaaa/mcp-btc-watch",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

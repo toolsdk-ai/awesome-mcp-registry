@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "typescribe",
+  "description": "Provides a bridge between TypeScript API documentation and natural language queries, enabling developers to search symbols, explore type hierarchies, find implementations, and examine function parameters for complex TypeScript codebases.",
+  "url": "https://github.com/yworks/mcp-typescribe",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "redmine",
+  "description": "Integrates with Redmine to enable natural language queries and updates for issue tracking, time logging, and project planning.",
+  "url": "https://github.com/yonaka15/mcp-server-redmine",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mcpservers/ragdocs",
+  "description": "Integrates Retrieval-Augmented Generation using Qdrant vector database and embeddings to enable semantic search and management of documentation.",
+  "url": "https://github.com/heltonteixeira/ragdocs",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "zbd-(bitcoin-lightning-network)",
+  "description": "Integrates with the ZBD API to enable Bitcoin Lightning Network payments, allowing instant cryptocurrency transactions to email addresses, Lightning addresses, and ZBD Gamertags directly within conversations.",
+  "url": "https://github.com/zbdpay/zbd-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

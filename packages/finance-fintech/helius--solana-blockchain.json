@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "helius-(solana-blockchain)",
+  "description": "Integrates with the Helius API to provide real-time Solana blockchain data access, enabling wallet balance checks and block height retrieval for blockchain monitoring and analysis.",
+  "url": "https://github.com/dcspark/mcp-server-helius",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

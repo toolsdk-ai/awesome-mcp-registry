@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "super-shell-mcp",
+  "description": "Enables secure execution of shell commands across Windows, macOS, and Linux with a three-tier whitelist security model for controlled system access.",
+  "url": "https://github.com/cfdude/super-shell-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

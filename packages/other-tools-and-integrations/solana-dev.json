@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "solana-dev",
+  "description": "Integrates with Solana blockchain to provide direct access to account data, transaction details, and network parameters through TypeScript-based RPC methods for developers building on the Solana ecosystem.",
+  "url": "https://github.com/solana-foundation/solana-dev-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

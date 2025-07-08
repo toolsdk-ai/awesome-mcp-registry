@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "notion-readonly-mcp-server",
+  "description": "Provides an optimized read-only interface to Notion content with parallel processing and intelligent caching for faster document analysis and knowledge retrieval.",
+  "url": "https://github.com/taewoong1378/notion-readonly-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

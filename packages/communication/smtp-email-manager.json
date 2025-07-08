@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "smtp-email-manager",
+  "description": "Provides SMTP email functionality with tools for sending individual and bulk emails, managing configurations, and creating customizable templates with variable substitution for automated, personalized email campaigns.",
+  "url": "https://github.com/samihalawa/mcp-server-smtp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

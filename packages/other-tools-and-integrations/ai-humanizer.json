@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ai-humanizer",
+  "description": "Integrates multiple AI text detection services to analyze content authenticity, writing style, and potential plagiarism.",
+  "url": "https://github.com/text2go/ai-humanizer-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

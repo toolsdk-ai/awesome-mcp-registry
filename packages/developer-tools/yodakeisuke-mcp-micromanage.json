@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@yodakeisuke/mcp-micromanage",
+  "description": "Task management system that visualizes development work as interactive flowcharts, enabling structured breakdown of tickets into minimal PRs and commits with progress tracking capabilities.",
+  "url": "https://github.com/yodakeisuke/mcp-micromanage-your-agent",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

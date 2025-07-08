@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "snyk",
+  "description": "Integrates with Snyk CLI to scan GitHub repositories and Snyk projects for security vulnerabilities directly within conversations, enabling developers to identify code security issues without context switching.",
+  "url": "https://github.com/sammcj/mcp-snyk",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

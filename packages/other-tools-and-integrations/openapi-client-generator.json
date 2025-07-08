@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "openapi-client-generator",
+  "description": "Generates API clients from OpenAPI specs, enabling rapid integration and interaction with multiple RESTful APIs.",
+  "url": "https://github.com/orhanveli/openapi-client-generator-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

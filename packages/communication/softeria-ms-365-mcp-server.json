@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@softeria/ms-365-mcp-server",
+  "description": "Provides a bridge between Microsoft 365 services and natural language interfaces, enabling access to email, calendar, OneDrive files, and Excel operations through the Microsoft Graph API with simplified authentication and parameter handling.",
+  "url": "https://github.com/softeria/ms-365-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

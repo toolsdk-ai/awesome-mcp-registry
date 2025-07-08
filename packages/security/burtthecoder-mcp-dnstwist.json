@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@burtthecoder/mcp-dnstwist",
+  "description": "Integrates with dnstwist to automate DNS fuzzing for detecting typosquatting, phishing, and corporate espionage threats.",
+  "url": "https://github.com/burtthecoder/mcp-dnstwist",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

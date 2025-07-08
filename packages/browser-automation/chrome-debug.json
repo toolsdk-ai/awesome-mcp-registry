@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "chrome-debug",
+  "description": "Provides powerful browser control capabilities through Chrome DevTools Protocol and Puppeteer, enabling advanced web automation, scraping, and testing tasks.",
+  "url": "https://github.com/robertheadley/chrome-debug-mcp",
+  "runtime": "node",
+  "license": "other",
+  "env": {}
+}

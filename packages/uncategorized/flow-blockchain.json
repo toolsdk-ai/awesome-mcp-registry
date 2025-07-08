@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "flow-blockchain",
+  "description": "Integrates with the Flow blockchain to enable direct querying of account balances, domain resolution, and transaction execution through RPC communication for seamless blockchain data access and operations.",
+  "url": "https://github.com/lmcmz/flow-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

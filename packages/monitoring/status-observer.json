@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "status-observer",
+  "description": "Provides real-time monitoring of operational status for major digital platforms like GitHub, Slack, and Discord through a command interface that delivers standardized health information and incident details without visiting separate status pages.",
+  "url": "https://github.com/imprvhub/mcp-status-observer",
+  "runtime": "node",
+  "license": "mpl-2.0",
+  "env": {}
+}

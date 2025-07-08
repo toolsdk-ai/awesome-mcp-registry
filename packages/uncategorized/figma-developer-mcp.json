@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "figma-developer-mcp",
+  "description": "Integrates with Figma's design platform API to enable AI-driven design operations, asset management, and team collaboration within Figma workflows.",
+  "url": "https://github.com/glips/figma-context-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

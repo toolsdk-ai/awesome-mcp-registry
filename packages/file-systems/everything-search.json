@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "everything-search",
+  "description": "Integrates with the Everything Search Engine to enable file search and management across large file systems using advanced query options and customizable result formatting.",
+  "url": "https://github.com/alihkhawaher/everything-search-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

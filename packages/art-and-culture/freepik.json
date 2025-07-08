@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "freepik",
+  "description": "Integrates with Freepik's API for searching and downloading icons, managing design resources, and generating images through text-to-image capabilities with job tracking and completion polling.",
+  "url": "https://github.com/freepik-company/freepik-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

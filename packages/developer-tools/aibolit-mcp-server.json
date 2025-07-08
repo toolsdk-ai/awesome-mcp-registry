@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "aibolit-mcp-server",
+  "description": "Integrates with the Aibolit Java code analyzer to identify critical design issues in Java code, focusing on maintainability, readability, and architectural concerns rather than cosmetic problems.",
+  "url": "https://github.com/cqfn/aibolit-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "marketauxmcpserver",
+  "description": "A MCP Server Implementation that integrates the Marketaux api providing search based on entity, countries, industries, symbols etc.",
+  "url": "https://github.com/Zolo-Ryan/MarketAuxMcpServer",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MARKETAUX_API_KEY": {
+      "description": "Your Marketaux API token obtained from the Marketaux dashboard",
+      "required": true
+    }
+  }
+}

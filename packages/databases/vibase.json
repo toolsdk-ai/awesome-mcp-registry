@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "vibase",
+  "description": "Easily query and mutate Postgres data using MCP. This is an open source project.",
+  "url": "https://github.com/vibase-ai/vibase",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {
+    "JWT_SECRET": {
+      "description": "Secret key used for JWT verification in the authentication plugin",
+      "required": true
+    },
+    "CONNECTION_STRING": {
+      "description": "PostgreSQL connection string in the format postgres://user:password@host:port/database",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@ragrabbit/mcp",
+  "description": "Integrates with RagRabbit to crawl websites, generate vector embeddings, and enable search and question answering from indexed content for domain-specific information retrieval.",
+  "url": "https://github.com/madarco/ragrabbit",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

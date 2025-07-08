@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "claude-code-enhanced",
+  "description": "Enables AI to execute code, manage files, run Git operations, and perform terminal commands through a robust task orchestration system with intelligent retry mechanisms and heartbeat monitoring.",
+  "url": "https://github.com/grahama1970/claude-code-mcp-enhanced",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

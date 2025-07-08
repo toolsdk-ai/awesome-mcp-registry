@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "database-explorer",
+  "description": "Provides a unified interface for exploring and managing PostgreSQL, MySQL, and Firestore databases through specialized commands for listing tables, viewing triggers, executing SQL queries, and exporting schemas or data.",
+  "url": "https://github.com/wirdes/db-mcp-tool",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

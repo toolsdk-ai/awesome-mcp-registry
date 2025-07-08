@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-ads",
+  "description": "Integrates with Google Ads API to list accounts, execute GAQL queries, and generate keyword ideas with search volume and competition metrics through automatic OAuth 2.0 authentication and token management.",
+  "url": "https://github.com/gomarble-ai/google-ads-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

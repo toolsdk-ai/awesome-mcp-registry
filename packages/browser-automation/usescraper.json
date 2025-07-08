@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "usescraper",
+  "description": "Integrates with UseScraper API to extract web content in various formats with advanced proxy options and custom data extraction capabilities.",
+  "url": "https://github.com/tanevanwifferen/usescraper-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

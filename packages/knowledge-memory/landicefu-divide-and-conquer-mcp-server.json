@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@landicefu/divide-and-conquer-mcp-server",
+  "description": "Enables breaking down complex tasks into manageable pieces with structured JSON storage for tracking progress, maintaining checklists, and preserving context across multiple conversations.",
+  "url": "https://github.com/landicefu/divide-and-conquer-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "prts-gaming-platform",
+  "description": "Provides agent messaging and web crawling capabilities for PRTS gaming platform data extraction using Puppeteer browser automation and Cheerio HTML parsing to gather structured information from web pages.",
+  "url": "https://github.com/bgsuyu/arc-ccb-ai/tree/HEAD/MCP_server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

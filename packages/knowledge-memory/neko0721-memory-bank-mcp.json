@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@neko0721/memory-bank-mcp",
+  "description": "Maintains persistent project context through a structured Memory Bank system of five markdown files that track goals, status, progress, decisions, and patterns with automatic timestamp tracking and workflow guidance for consistent documentation across development sessions.",
+  "url": "https://github.com/hoppo-chan/memory-bank-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

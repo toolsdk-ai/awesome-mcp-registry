@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "rijksmuseum-amsterdam",
+  "description": "Integrates with the Rijksmuseum API to enable artwork search, detailed information retrieval, and high-resolution image access for art research and cultural exploration.",
+  "url": "https://github.com/r-huijts/rijksmuseum-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

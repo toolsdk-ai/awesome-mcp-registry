@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "chrome-debug-mcp",
+  "description": "Provides browser automation capabilities through Chrome's debugging protocol with session persistence, enabling web scraping, testing, and automation tasks with tools for screenshots, navigation, element interaction, and content retrieval.",
+  "url": "https://github.com/rainmen-xia/chrome-debug-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

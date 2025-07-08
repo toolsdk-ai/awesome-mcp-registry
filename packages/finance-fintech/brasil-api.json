@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "brasil-api",
+  "description": "Integrates with Brasil API to provide access to Brazilian data services including postal codes, company information, banking data, geographic information, and domain registration checks.",
+  "url": "https://github.com/guilhermelirio/brasil-api-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

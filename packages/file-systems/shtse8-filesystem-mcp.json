@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@shtse8/filesystem-mcp",
+  "description": "Provides secure, controlled filesystem operations within a project's root directory, enabling safe file listing, reading, writing, and searching with robust path validation.",
+  "url": "https://github.com/sylphxltd/filesystem-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

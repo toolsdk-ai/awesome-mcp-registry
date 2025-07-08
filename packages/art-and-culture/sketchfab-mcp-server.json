@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sketchfab-mcp-server",
+  "description": "Integrates with Sketchfab to enable searching, viewing details, and downloading 3D models in various formats using an API key for authentication.",
+  "url": "https://github.com/gregkop/sketchfab-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

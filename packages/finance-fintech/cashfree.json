@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cashfree",
+  "description": "Integrates with Cashfree's payment processing APIs to enable creating payment links, managing orders, processing refunds, initiating transfers, and verifying identity information",
+  "url": "https://github.com/cashfree/cashfree-mcp",
+  "runtime": "node",
+  "license": "other",
+  "env": {}
+}

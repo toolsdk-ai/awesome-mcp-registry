@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@1mcp/agent",
+  "description": "Aggregates multiple MCP servers into a single unified interface, reducing system resource usage and simplifying configuration management with dynamic reloading and tag-based filtering capabilities.",
+  "url": "https://github.com/1mcp-app/agent",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "perplexity-insight",
+  "description": "Integrates with Perplexity AI to enable real-time question answering and web search capabilities through customizable tools for direct questions and web queries across multiple Perplexity models.",
+  "url": "https://github.com/theolawrence86/perplexity-insight-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

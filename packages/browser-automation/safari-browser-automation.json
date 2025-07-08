@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "safari-browser-automation",
+  "description": "Automates Safari browser on macOS through AppleScript integration, enabling web navigation, element interaction, form filling, JavaScript execution, and screenshot capture for testing and data extraction workflows.",
+  "url": "https://github.com/stevenayl/mcp-safari-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

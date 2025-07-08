@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "agent-server",
+  "description": "Provides a foundation for building persistent agent systems with memory storage, user authentication, and n8n workflow integration designed for SaaS deployment and monetization.",
+  "url": "https://github.com/leadbroaf/mcp-agent-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

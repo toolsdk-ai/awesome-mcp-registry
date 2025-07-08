@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "exia-voiceroid",
+  "description": "Bridges AI models with Voiceroid text-to-speech system to generate structured explanation scenarios for automated narration content.",
+  "url": "https://github.com/kokushin/exia-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

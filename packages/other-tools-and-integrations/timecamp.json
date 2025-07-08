@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "timecamp",
+  "description": "Integrates with TimeCamp's time tracking API to create, retrieve, update, and delete time entries with project and task assignments for automated timesheet management and productivity reporting.",
+  "url": "https://github.com/timecamp-org/timecamp-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kazuph/mcp-fetch",
+  "description": "Integrates web scraping and image processing capabilities to fetch, extract, and optimize web content.",
+  "url": "https://github.com/kazuph/mcp-fetch",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

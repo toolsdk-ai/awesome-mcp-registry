@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ip2location.io",
+  "description": "Integrates with IP2Location.io API to retrieve geographic location, network details, security insights, and metadata for IPv4 and IPv6 addresses with support for both free and authenticated usage tiers.",
+  "url": "https://github.com/ip2location/mcp-ip2location-io",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

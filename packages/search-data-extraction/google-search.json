@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "google-search",
-  "description": "Integrates with Google Custom Search API to perform web searches and retrieve formatted results with titles, links, and snippets for research tasks and fact-checking.",
-  "url": "https://github.com/gradusnikov/google-search-mcp-server",
-  "runtime": "python",
+  "description": "Provides Google web and image search capabilities through the Custom Search API, enabling access to current internet information with pagination and filtering options.",
+  "url": "https://github.com/hunter-arton/google_search_mcp_server",
+  "runtime": "node",
   "license": "unknown",
   "env": {}
 }

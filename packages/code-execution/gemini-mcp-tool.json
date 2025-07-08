@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gemini-mcp-tool",
+  "description": "Integrates with Google's Gemini CLI to leverage massive token windows for analyzing large files and codebases, providing general queries, sandbox-mode code execution for safe testing, and structured response handling with behavioral flags for context control.",
+  "url": "https://github.com/jamubc/gemini-mcp-tool",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

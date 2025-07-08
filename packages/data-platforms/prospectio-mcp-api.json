@@ -1,0 +1,26 @@
+{
+  "type": "mcp-server",
+  "packageName": "prospectio-mcp-api",
+  "description": "A FastAPI-based application that implements the Model Context Protocol for lead prospecting, allowing users to retrieve business leads from different data sources like Mantiks through a clean architecture.",
+  "url": "https://github.com/Kaiohz/prospectio-api-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "MASTER_KEY": {
+      "description": "General application setting for authentication/security",
+      "required": true
+    },
+    "ALLOWED_ORIGINS": {
+      "description": "List of allowed origins for CORS configuration",
+      "required": true
+    },
+    "MANTIKS_API_KEY": {
+      "description": "API key for authenticating with the Mantiks API",
+      "required": true
+    },
+    "MANTIKS_API_BASE": {
+      "description": "Base URL for the Mantiks API",
+      "required": true
+    }
+  }
+}

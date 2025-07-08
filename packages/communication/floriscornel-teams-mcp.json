@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@floriscornel/teams-mcp",
+  "description": "Integrates with Microsoft Teams through Graph API to search messages, manage chats and channels, send messages, create group chats, and handle user/team operations with device code authentication for secure access.",
+  "url": "https://github.com/floriscornel/teams-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

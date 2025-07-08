@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "aws-ses-email",
+  "description": "Enables direct email sending through Amazon SES with support for HTML content, CC/BCC recipients, and reply-to addressing while maintaining AWS security standards.",
+  "url": "https://github.com/omd01/aws-ses-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

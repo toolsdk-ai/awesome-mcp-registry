@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "developer-documentation",
+  "description": "Manages up-to-date documentation scraped from the web to support your programming workflows.",
+  "url": "https://github.com/mahawi1992/mcp-documentation-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

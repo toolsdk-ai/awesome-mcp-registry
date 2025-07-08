@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cloudflare-browser-rendering-(playwright)",
+  "description": "Enables browser automation through structured accessibility snapshots for web navigation, form-filling, element interaction, and data extraction without requiring vision models.",
+  "url": "https://github.com/cloudflare/playwright-mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

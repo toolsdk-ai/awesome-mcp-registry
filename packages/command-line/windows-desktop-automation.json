@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "windows-desktop-automation",
+  "description": "Enables Windows desktop automation through TypeScript-wrapped AutoIt functions for controlling mouse movements, keyboard input, window management, and UI elements via natural language instructions.",
+  "url": "https://github.com/mario-andreschak/mcp-windows-desktop-automation",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

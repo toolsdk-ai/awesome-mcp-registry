@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "postgresql-database-manager",
+  "description": "Integrates with PostgreSQL to provide database analysis, optimization, and troubleshooting tools for streamlined management and performance tuning.",
+  "url": "https://github.com/nahmanmate/postgresql-mcp-server",
+  "runtime": "node",
+  "license": "agpl-3.0",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-classroom",
+  "description": "Integrates with Google Classroom to retrieve courses, announcements, and assignments using OAuth2 authentication, enabling students and educators to access classroom information without switching contexts.",
+  "url": "https://github.com/faizan45640/google-classroom-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "slack",
+  "description": "Enables AI interaction with Slack workspaces through nine tools for channel management, messaging, user profiles, and reactions using both Bot and User OAuth tokens",
+  "url": "https://github.com/ubie-oss/slack-mcp-server",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

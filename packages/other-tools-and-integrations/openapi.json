@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "openapi",
-  "description": "Automatically generates MCP tools from OpenAPI specifications, enabling direct access to third-party REST APIs with authentication, validation, and error handling capabilities.",
-  "url": "https://github.com/gujord/openapi-mcp",
-  "runtime": "python",
+  "description": "Automatically generates callable tools from OpenAPI specifications, parsing Swagger documents to create HTTP request handlers with proper parameter mapping and request body handling for seamless REST API integration.",
+  "url": "https://github.com/onewalker/openapi-mcp-server",
+  "runtime": "node",
   "license": "mit",
   "env": {}
 }

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mcp-server/google-search-mcp",
+  "description": "Bypasses Google search anti-bot mechanisms with advanced browser fingerprinting and automatic CAPTCHA handling to provide real-time, multi-language search capabilities for external tools.",
+  "url": "https://github.com/modelcontextprotocol-servers/google-search-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

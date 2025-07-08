@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mantrachain-mcp",
+  "description": "Integration with the Mantra Chain blockchain.",
+  "url": "https://github.com/allthatjazzleo/mantrachain-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

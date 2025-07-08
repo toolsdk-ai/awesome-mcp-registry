@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "@rikukawa/youtube-sheets-server",
+  "description": "Integrates YouTube search with Google Sheets to automate video data collection and analysis for content creators, marketers, and researchers.",
+  "url": "https://github.com/rickyyy1116/mcp-youtube-sheets",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "YOUTUBE_API_KEY": {
+      "description": "your-youtube-api-key",
+      "required": true
+    },
+    "SPREADSHEET_ID": {
+      "description": "your-spreadsheet-id",
+      "required": true
+    }
+  }
+}

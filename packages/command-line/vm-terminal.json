@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vm-terminal",
+  "description": "Provides a secure web-based terminal interface for remote VM command execution through WebSocket connections and automatic tunnel creation, eliminating the need for direct SSH access.",
+  "url": "https://github.com/leomercier/mcp-tunnel",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "google-sheets",
-  "description": "Integrates with Google Sheets to enable spreadsheet creation, editing, and formatting capabilities through specialized Python tools built with FastMCP framework, requiring Google Cloud OAuth authentication.",
-  "url": "https://github.com/akchro/google-sheets-mcp",
-  "runtime": "python",
-  "license": "unknown",
+  "description": "Integrates with Google Sheets API to enable direct creation, reading, and editing of spreadsheets for data analysis and collaborative document management",
+  "url": "https://github.com/mkummer225/google-sheets-mcp",
+  "runtime": "node",
+  "license": "mit",
   "env": {}
 }

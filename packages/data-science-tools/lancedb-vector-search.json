@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "lancedb-vector-search",
+  "description": "Enables vector search capabilities using LanceDB and Ollama's embedding model for similarity searches on document collections without context switching.",
+  "url": "https://github.com/vurtnec/mcp-lancedb-node",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

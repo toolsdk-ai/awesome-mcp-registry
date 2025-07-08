@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "albacore",
+  "description": "Lightweight TypeScript server with Ollama integration that enables local text generation, embedding services, and optional Supabase database support for rapid prototyping of context-aware tools and resources.",
+  "url": "https://github.com/jsmiff/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

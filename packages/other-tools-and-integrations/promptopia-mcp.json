@@ -5,10 +5,5 @@
   "url": "https://github.com/lumile/promptopia-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {
-    "PROMPTS_DIR": {
-      "description": "<YOUR_PROMPTS_DIR>",
-      "required": true
-    }
-  }
+  "env": {}
 }

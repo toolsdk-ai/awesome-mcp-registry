@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "amazon-nova-reel",
+  "description": "Integrates with Amazon Nova Reel 1.1 through AWS Bedrock to generate videos from text prompts with configurable duration, frame rate, and dimensions, including job tracking, S3 storage, and detailed prompting guidelines for camera control and narrative structure.",
+  "url": "https://github.com/mirecekd/novareel-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

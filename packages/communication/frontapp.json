@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "frontapp",
+  "description": "Integrates Claude with Front customer communication platform, enabling AI to manage conversations, contacts, and accounts directly through the Front API with webhook support for real-time event handling.",
+  "url": "https://github.com/zqushair/frontapp-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

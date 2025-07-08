@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "bazel",
-  "description": "Integrates with Bazel build systems to enable target building, test running, dependency analysis, and source file identification without requiring command-line syntax knowledge.",
-  "url": "https://github.com/aaomidi/mcp-bazel",
-  "runtime": "go",
-  "license": "gpl-3.0",
+  "description": "Bridges AI with Bazel build system, enabling target building, dependency querying, test running, and workspace management even in environments with misconfigured shells.",
+  "url": "https://github.com/nacgarg/bazel-mcp-server",
+  "runtime": "node",
+  "license": "mit",
   "env": {}
 }

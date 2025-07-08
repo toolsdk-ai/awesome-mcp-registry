@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "opnsense",
+  "description": "Provides Infrastructure as Code capabilities for OPNsense firewalls with declarative management of VLANs, firewall rules, DHCP configurations, DNS blocking, HAProxy load balancing, and network topology discovery through plan/apply workflows, automatic backups, and rollback capabilities.",
+  "url": "https://github.com/vespo92/opnsensemcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

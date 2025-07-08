@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "letta",
+  "description": "Integrates with the Letta API to enable creation and management of agents, memory blocks, and tools for advanced AI-based interactions and memory management",
+  "url": "https://github.com/oculairmedia/letta-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

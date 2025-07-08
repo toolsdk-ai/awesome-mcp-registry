@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "metal-framework",
+  "description": "Integrates Metal Framework documentation search and code generation capabilities for graphics-intensive application development.",
+  "url": "https://github.com/aldrin-labs/metal-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

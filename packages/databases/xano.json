@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "xano",
-  "description": "Provides a bridge to Xano databases for exploring and managing database structures, schemas, and indexes through natural language interaction",
-  "url": "https://github.com/roboulos/simple-xano-mcp",
-  "runtime": "python",
-  "license": "mit",
+  "description": "Integrates with Xano's no-code backend platform to enable data querying, manipulation, and CRUD operations for rapid application development and prototyping.",
+  "url": "https://github.com/sarimsiddd/xano_mcp",
+  "runtime": "node",
+  "license": "unknown",
   "env": {}
 }

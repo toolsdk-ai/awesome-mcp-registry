@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "feishu",
+  "description": "Integrates with the FeiShu (Lark) API to enable document, bot, and chat services through a modular TypeScript architecture supporting dual-mode operation and robust error handling.",
+  "url": "https://github.com/sdd330/feishu-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

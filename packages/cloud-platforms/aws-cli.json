@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "aws-cli",
-  "description": "Provides a lightweight bridge to AWS CLI, enabling command documentation retrieval and execution with Unix pipe support using existing AWS credentials on the host machine.",
-  "url": "https://github.com/alexei-led/aws-mcp-server",
-  "runtime": "python",
-  "license": "mit",
+  "description": "Bridges AWS CLI with natural language interaction, enabling direct execution of AWS commands for resource management without leaving your conversation interface.",
+  "url": "https://github.com/icykallen/aws-cli-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
   "env": {}
 }

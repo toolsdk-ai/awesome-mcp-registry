@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@pinkpixel/mcpollinations",
+  "description": "Enables multimodal content generation through Pollinations APIs, providing image, text, and audio creation capabilities without requiring authentication.",
+  "url": "https://github.com/pinkpixel-dev/mcpollinations",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

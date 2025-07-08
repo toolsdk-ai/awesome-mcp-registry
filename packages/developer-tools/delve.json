@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "delve",
+  "description": "Provides a complete interface to the Delve debugger for Go programs, enabling starting debug sessions, setting breakpoints, controlling execution flow, and inspecting program state",
+  "url": "https://github.com/dwisiswant0/delve-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-pagespeed-server",
+  "description": "Integrates Google's PageSpeed Insights API to provide detailed web performance metrics and optimization recommendations for websites.",
+  "url": "https://github.com/phialsbasement/pagespeed-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

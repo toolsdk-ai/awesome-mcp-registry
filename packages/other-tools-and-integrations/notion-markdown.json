@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "notion-markdown",
-  "description": "Integrates with Notion to provide simplified access to workspace content through Markdown conversion for easy retrieval and manipulation of databases and pages.",
-  "url": "https://github.com/karaage0703/notion-mcp-light",
-  "runtime": "python",
-  "license": "mit",
+  "description": "Integrates with Notion to provide markdown-based content retrieval, searching, and processing capabilities.",
+  "url": "https://github.com/seonglae/mcp-notion",
+  "runtime": "node",
+  "license": "unknown",
   "env": {}
 }

@@ -24,8 +24,6 @@ async function main() {
       try {
         // const parsedContent: MCPServerPackageConfig= MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
 
-        // const mcpClient = await getMcpClient(mcpServerConfig, mockEnv);
-        // 创建 MCP Client 并设置 5 秒超时
         const mcpClient = await withTimeout(5000, getMcpClient(mcpServerConfig, mockEnv));
         const tools = await mcpClient.client.listTools();
         console.log(

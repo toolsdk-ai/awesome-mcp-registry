@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "code-backup",
+  "description": "Provides specialized backup and restoration for code editing tools, creating timestamped snapshots with contextual metadata that preserve both file content and agent reasoning for quick recovery from risky edits.",
+  "url": "https://github.com/hexitex/mcp-backup-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

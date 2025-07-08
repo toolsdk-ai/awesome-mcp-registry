@@ -1,11 +1,9 @@
 {
   "type": "mcp-server",
-  "name": "YouTube Subtitles",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/512px-YouTube_full-color_icon_%282017%29.svg.png?20240107144800",
   "packageName": "@anaisbetts/mcp-youtube",
-  "description": "MCP server for fetching YouTube subtitles",
+  "description": "Extract and analyze video subtitle data for content understanding.",
   "url": "https://github.com/anaisbetts/mcp-youtube",
   "runtime": "node",
-  "license": "MIT",
+  "license": "unknown",
   "env": {}
 }

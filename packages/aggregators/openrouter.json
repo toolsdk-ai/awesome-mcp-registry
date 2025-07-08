@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "openrouter",
+  "description": "Unifies access to diverse AI models via OpenRouter, enabling flexible model selection and usage for applications like chatbots and content generation.",
+  "url": "https://github.com/heltonteixeira/openrouterai",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

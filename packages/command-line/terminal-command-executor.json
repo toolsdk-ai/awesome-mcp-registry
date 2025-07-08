@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "terminal-command-executor",
+  "description": "Provides secure command-line access for executing shell commands with TypeScript validation, returning structured output and error streams through a lightweight stdio-based server.",
+  "url": "https://github.com/lizthedeveloper/terminal-mcp-idk",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "spotr-exercise-library",
+  "description": "Provides access to a fitness movement library with exercise videos categorized by muscle groups for creating personalized workout programs.",
+  "url": "https://github.com/thompson-ad/spotr-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

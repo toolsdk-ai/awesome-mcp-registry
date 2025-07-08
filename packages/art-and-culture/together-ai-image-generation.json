@@ -1,9 +1,9 @@
 {
   "type": "mcp-server",
   "packageName": "together-ai-image-generation",
-  "description": "Integrates with Together AI's Flux.1 Schnell model to generate images from text prompts for creative and visual design tasks.",
-  "url": "https://github.com/sarthakkimtani/mcp-image-gen",
-  "runtime": "python",
+  "description": "Integrates with Together AI's API to enable text-to-image generation, offering tools for creating visual content based on text prompts.",
+  "url": "https://github.com/zym9863/together-ai-image-server",
+  "runtime": "node",
   "license": "mit",
   "env": {}
 }

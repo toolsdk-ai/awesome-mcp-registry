@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "thinking-tool",
+  "description": "Provides a dedicated 'think' tool for externalizing complex reasoning processes without performing any actual operations, creating a working memory space for step-by-step problem solving.",
+  "url": "https://github.com/piotrpalek/mcp-thinking-tool",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

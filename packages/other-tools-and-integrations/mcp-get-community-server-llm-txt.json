@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mcp-get-community/server-llm-txt",
+  "description": "Access up-to-date API documentation efficiently.",
+  "url": "https://github.com/mcp-get/community-servers/tree/HEAD/src/server-llm-txt",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "linkedin-mcp-runner",
+  "description": "Integrates with LinkedIn to have post access, scheduling, and voice-tuned generation using LiGo's API.",
+  "url": "https://github.com/ertiqah/linkedin-mcp-runner",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

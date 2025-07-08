@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ton-access",
+  "description": "Provides a TON blockchain access server for developers, enabling seamless interaction with multiple networks and protocols like TonCenter API v2 and TonHub API v4 through decentralized RPC endpoints.",
+  "url": "https://github.com/aiopinions/ton-access-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

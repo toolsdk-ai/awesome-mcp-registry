@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "postgis",
+  "description": "Provides direct PostgreSQL database integration with PostGIS spatial extension support, enabling SQL query execution, spatial data analysis, geographic information systems operations, and location-based queries for both traditional relational data and geographic datasets.",
+  "url": "https://github.com/receptopalak/postgis-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

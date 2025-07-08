@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sendgrid",
+  "description": "Integrates with SendGrid's Marketing API to enable email campaign management, contact list operations, and analytics for automated marketing workflows.",
+  "url": "https://github.com/garoth/sendgrid-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}
