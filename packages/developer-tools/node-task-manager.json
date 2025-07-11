@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "task-manager",
-  "description": "Provides a bridge between AI code editors and project management capabilities, enabling complex feature planning with unlimited context window, task breakdown, code review, and plan adjustment through a Svelte UI.",
-  "url": "https://github.com/jhawkins11/task-manager-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

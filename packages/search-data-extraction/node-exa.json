@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "exa",
-  "description": "Integrates with Exa.ai to enable web searches with customizable parameters like result count and live crawling, returning structured JSON results for retrieving up-to-date information without leaving the conversation context.",
-  "url": "https://github.com/aperture147/exa-mcp-worker",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

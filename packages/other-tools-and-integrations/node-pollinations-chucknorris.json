@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@pollinations/chucknorris",
-  "description": "Enhances language models by fetching specialized prompts from the L1B3RT4S repository, supporting multiple LLMs including ChatGPT, Claude, and Gemini with fallback mechanisms for educational and research purposes.",
-  "url": "https://github.com/pollinations/chucknorris",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

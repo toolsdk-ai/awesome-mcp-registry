@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "codesavant-coding-assistant",
-  "description": "Provides a robust code management and execution interface for reading, writing, versioning, and running code across multiple projects and languages.",
-  "url": "https://github.com/twolven/mcp-codesavant",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

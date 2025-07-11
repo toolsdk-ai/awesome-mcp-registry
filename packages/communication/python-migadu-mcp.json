@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "migadu-mcp",
-  "description": "Integrates with Migadu's email hosting API to manage mailboxes, aliases, identities, and rewrite rules with bulk operations, password resets, and autoresponder configuration.",
-  "url": "https://github.com/michaelzag/migadu-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

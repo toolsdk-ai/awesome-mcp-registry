@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wcgw",
-  "description": "Access shell and filesystem in order to automate tasks and run code",
-  "url": "https://github.com/rusiaaman/wcgw/tree/HEAD/src/wcgw/client/mcp_server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

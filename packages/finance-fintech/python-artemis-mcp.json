@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "artemis-mcp",
-  "description": "Integrates with Artemis API to create and manage cryptocurrency data analysis formulas for accessing price data, fees, revenue, and other time-series metrics without switching contexts.",
-  "url": "https://github.com/artemis-xyz/artemis-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

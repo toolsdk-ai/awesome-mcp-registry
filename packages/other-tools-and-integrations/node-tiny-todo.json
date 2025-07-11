@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tiny-todo",
-  "description": "Enables persistent task management with SQLite storage, allowing creation, updating, deletion, and searching of TODOs with completion tracking and due date features beyond context limitations.",
-  "url": "https://github.com/tkc/tinyt-todo-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

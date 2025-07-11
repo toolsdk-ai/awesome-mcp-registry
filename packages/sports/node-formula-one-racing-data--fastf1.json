@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "formula-one-racing-data-(fastf1)",
-  "description": "Provides Formula One racing data through FastF1 Python library, enabling access to race calendars, event information, session results, driver statistics, lap times, telemetry data, and championship standings for motorsport analysis.",
-  "url": "https://github.com/rakeshgangwar/f1-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

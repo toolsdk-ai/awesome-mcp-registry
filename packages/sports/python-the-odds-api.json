@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "the-odds-api",
-  "description": "Provides a bridge to The Odds API for accessing sports betting data including available sports, odds comparisons across bookmakers, and quota tracking in both test and live modes.",
-  "url": "https://github.com/kitchenchem/degen-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

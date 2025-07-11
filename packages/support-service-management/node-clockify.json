@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "clockify",
-  "description": "Integrates with Clockify time tracking API to manage billable time entries, retrieve workspace information, list projects, and access user data through natural language prompts.",
-  "url": "https://github.com/https-eduardo/clockify-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

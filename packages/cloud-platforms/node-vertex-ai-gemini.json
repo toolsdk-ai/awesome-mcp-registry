@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vertex-ai-gemini",
-  "description": "Provides a bridge to Google Cloud's Vertex AI Gemini models with web search grounding, direct knowledge answering, and documentation-based responses through configurable tools and streaming support.",
-  "url": "https://github.com/shariqriazz/vertex-ai-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

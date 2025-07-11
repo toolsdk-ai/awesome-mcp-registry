@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "eigenlayer-avs-explorer",
-  "description": "Integrates with EigenLayer's API to provide detailed information about Active Validator Services (AVS) through a single tool that retrieves and analyzes validator data for users exploring the decentralized validation ecosystem.",
-  "url": "https://github.com/omarmwarraich/eigenlayer-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

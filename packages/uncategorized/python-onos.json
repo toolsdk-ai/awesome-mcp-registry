@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "onos",
-  "description": "Enables network management and control for ONOS by providing comprehensive REST API access to network topology, device configuration, flow management, and system diagnostics for software-defined networking research and prototyping.",
-  "url": "https://github.com/davidlin2k/onos-mcp-server",
-  "runtime": "python",
-  "license": "gpl-3.0",
-  "env": {}
-}

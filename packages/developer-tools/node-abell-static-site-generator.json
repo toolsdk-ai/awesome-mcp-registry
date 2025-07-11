@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "abell-static-site-generator",
-  "description": "Enables AI assistants to interact with Abell static site generator for retrieving syntax documentation and scaffolding complete applications through the create-abell package.",
-  "url": "https://github.com/saurabhdaware/abell-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

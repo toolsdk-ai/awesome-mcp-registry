@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-puppeteer",
-  "description": "Navigate websites, fill forms, and capture screenshots programmatically.",
-  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/puppeteer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

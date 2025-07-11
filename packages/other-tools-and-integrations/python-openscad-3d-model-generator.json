@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openscad-3d-model-generator",
-  "description": "Transforms natural language descriptions into parametric 3D models through a pipeline of image generation, object segmentation, 3D modeling, and OpenSCAD code conversion for customizable 3D printing.",
-  "url": "https://github.com/jhacksman/openscad-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "monad-mcp-server",
-  "description": "Provides a bridge between natural language commands and the Monad blockchain testnet, enabling token balance checks, transactions, smart contract deployment, and blockchain data retrieval without specialized tools.",
-  "url": "https://github.com/lispking/monad-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "farcaster",
-  "description": "Integrates with the Farcaster Hubble API to fetch and analyze social data, enabling real-time content monitoring and user engagement tracking on the Farcaster network.",
-  "url": "https://github.com/manimohans/farcaster-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

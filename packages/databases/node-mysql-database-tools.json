@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mysql-database-tools",
-  "description": "Enables direct SQL query execution and table exploration with MySQL databases through a simple interface for seamless data analysis and database operations.",
-  "url": "https://github.com/elber-code/database-tools",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "miro",
-  "description": "Create and manage content on Miro whiteboards.",
-  "url": "https://github.com/evalstate/mcp-miro",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

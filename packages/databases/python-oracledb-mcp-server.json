@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "oracledb-mcp-server",
-  "description": "Provides a bridge to Oracle Database, enabling dynamic table and column discovery, secure query execution, and metadata retrieval through natural language interactions for data analysts and developers.",
-  "url": "https://github.com/rahgadda/oracledb_mcp_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

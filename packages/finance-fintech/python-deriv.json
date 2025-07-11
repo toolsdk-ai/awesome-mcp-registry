@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deriv",
-  "description": "Integrates with Deriv API to enable trading operations like retrieving symbols and balances for automated trading systems and market analysis tools.",
-  "url": "https://github.com/raju-deriv/mcp-deriv-api-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

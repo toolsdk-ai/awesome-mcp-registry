@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-token-sniper",
-  "description": "Enables high-speed trading of Solana blockchain tokens through distributed WebSocket monitoring of Raydium AMM pools and Serum markets, delivering sub-second execution for early token launches across global regions.",
-  "url": "https://github.com/monostate/100ms-spl-token-sniper-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deep-research",
-  "description": "Integrates search engines, web scraping, and Gemini models to perform iterative, deep research on any topic, generating insights and detailed reports with source citations.",
-  "url": "https://github.com/ssdeanx/deep-research-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

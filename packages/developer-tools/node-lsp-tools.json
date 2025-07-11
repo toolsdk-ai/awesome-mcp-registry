@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "lsp-tools",
-  "description": "Provides regex-based text analysis capabilities for developers to precisely locate character and line positions of pattern matches within files, with robust security checks to prevent unauthorized file access.",
-  "url": "https://github.com/rajnaveen344/lsp-tools-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

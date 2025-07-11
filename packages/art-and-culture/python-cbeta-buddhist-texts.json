@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cbeta-buddhist-texts",
-  "description": "Provides access to Chinese Buddhist Electronic Text Association (CBETA) resources for text retrieval, metadata access, and content analysis of Buddhist texts through catalog browsing, search functionality, and work manipulation tools.",
-  "url": "https://github.com/tendayspace/cbetamcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

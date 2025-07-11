@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "powerpoint-manager",
-  "description": "Enables creation and manipulation of PowerPoint presentations with customizable layouts, themes, and formatting options, saving files to an accessible user directory without requiring manual PowerPoint interaction.",
-  "url": "https://github.com/h4ck4life/mcp-pptx-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "neon-postgres",
-  "description": "Provides a lightweight interface to Neon's serverless Postgres database, enabling project, branch, and endpoint management through Cloudflare Workers.",
-  "url": "https://github.com/zueai/neon-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

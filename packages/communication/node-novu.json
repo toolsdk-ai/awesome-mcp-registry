@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "novu",
-  "description": "Integrates with Novu's notification infrastructure to enable subscriber management, notification triggering, and multi-channel messaging across applications.",
-  "url": "https://github.com/novuhq/smithery-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

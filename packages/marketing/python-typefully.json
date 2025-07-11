@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "typefully",
-  "description": "Integrates with Typefully's social media scheduling platform to automate content creation, scheduling, and publishing workflows across multiple social media platforms.",
-  "url": "https://github.com/pepuscz/typefully-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "adobe-photoshop-controller",
-  "description": "Enables direct control of Adobe Photoshop through natural language commands for manipulating layers, text, images, and effects without switching contexts.",
-  "url": "https://github.com/chandrahas455/psmcp-mcp-server-for-photoshop",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

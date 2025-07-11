@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "square",
-  "description": "Integrates with Square's API to enable payment processing, business management, and e-commerce operations for AI applications.",
-  "url": "https://github.com/block/square-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

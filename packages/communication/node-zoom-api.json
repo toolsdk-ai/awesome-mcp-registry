@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "zoom-api",
-  "description": "Integrates with Zoom's API to enable scheduling meetings, managing participants, retrieving recordings, and automating administrative tasks through OAuth 2.0 authentication and structured tools.",
-  "url": "https://github.com/mattcoatsworth/zoom-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

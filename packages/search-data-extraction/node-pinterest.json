@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pinterest",
-  "description": "Pinterest image search and information retrieval",
-  "url": "https://github.com/terryso/mcp-pinterest",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

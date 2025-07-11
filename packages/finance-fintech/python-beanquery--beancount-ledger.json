@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "beanquery-(beancount-ledger)",
-  "description": "Enables querying and analyzing Beancount ledger files using Beancount Query Language (BQL) for personal finance tracking, expense analysis, and financial report generation.",
-  "url": "https://github.com/vanto/beanquery-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

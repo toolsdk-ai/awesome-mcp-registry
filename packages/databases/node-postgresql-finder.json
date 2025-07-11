@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "postgresql-finder",
-  "description": "Integrates with PostgreSQL databases to enable natural language interactions for executing SQL queries, retrieving results, and performing data analysis tasks.",
-  "url": "https://github.com/nzkdevsaider/mcp_server_postgredb_finder",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

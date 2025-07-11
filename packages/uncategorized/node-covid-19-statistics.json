@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "covid-19-statistics",
-  "description": "Provides real-time COVID-19 statistics by connecting to the disease.sh API, delivering case counts, deaths, recoveries, and testing data for any country.",
-  "url": "https://github.com/aarushkx/covid-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

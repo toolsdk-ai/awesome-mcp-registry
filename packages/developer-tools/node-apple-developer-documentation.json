@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "apple-developer-documentation",
-  "description": "Provides seamless access to Apple Developer Documentation with smart search capabilities and wildcard pattern support for iOS, macOS, SwiftUI, and UIKit development, featuring priority-based framework searching and intelligent caching for efficient API discovery and symbol documentation retrieval.",
-  "url": "https://github.com/mightydillah/apple-doc-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

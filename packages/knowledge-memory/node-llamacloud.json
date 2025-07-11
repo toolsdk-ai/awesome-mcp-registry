@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "llamacloud",
-  "description": "Query managed vector indexes for knowledge retrieval.",
-  "url": "https://github.com/run-llama/mcp-server-llamacloud",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-time",
-  "description": "MCP server providing time and timezone conversion tools for AI assistants to handle localized time data and calculations.",
-  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/time",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

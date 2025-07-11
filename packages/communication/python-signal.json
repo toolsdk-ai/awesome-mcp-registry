@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "signal",
-  "description": "Enables secure communication with Signal messaging through direct messaging, group chats, and message reception capabilities, leveraging Signal's established encryption protocol.",
-  "url": "https://github.com/rymurr/signal-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

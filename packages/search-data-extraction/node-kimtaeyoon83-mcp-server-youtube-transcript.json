@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@kimtaeyoon83/mcp-server-youtube-transcript",
-  "description": "Extract and analyze video captions and subtitles in multiple languages.",
-  "url": "https://github.com/kimtaeyoon83/mcp-server-youtube-transcript",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

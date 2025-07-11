@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-chain-of-draft-server",
-  "description": "Enables iterative reasoning through structured drafts with explicit reasoning chains, allowing for focused critiques and targeted revisions to improve problem-solving quality through systematic refinement.",
-  "url": "https://github.com/bsmi021/mcp-chain-of-draft-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

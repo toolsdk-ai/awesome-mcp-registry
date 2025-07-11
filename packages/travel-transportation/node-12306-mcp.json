@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "12306-mcp",
-  "description": "Integrates with China's 12306 railway system to search train tickets, check schedules, and retrieve route information across the Chinese railway network with real-time availability and pricing data.",
-  "url": "https://github.com/freestylefly/12306-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sequential-thinking",
-  "description": "Breaks down complex problems into manageable steps with visual tracking of thought history, enabling dynamic revision, branching, and adjustment as understanding deepens.",
-  "url": "https://github.com/zalab-inc/mcp-sequentialthinking",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

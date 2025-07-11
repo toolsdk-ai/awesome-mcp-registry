@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mistral-ocr",
-  "description": "Processes images and PDFs through Mistral AI's OCR API to extract text from visual documents, supporting both local files and URLs with Docker containerization for easy deployment.",
-  "url": "https://github.com/everaldo/mcp-mistral-ocr",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

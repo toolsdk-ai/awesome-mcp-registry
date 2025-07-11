@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-solver",
-  "description": "MCP server for Constraint Solving and Optimization",
-  "url": "https://github.com/szeider/mcp-solver",
-  "runtime": "python",
-  "license": "MIT",
-  "env": {}
-}

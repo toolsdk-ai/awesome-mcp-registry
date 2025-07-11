@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-proxy-sidecar",
-  "description": "JetBrains MCP Server fork that broadcasts real-time WebSocket monitoring of all tool calls between clients and IDEs for debugging and extending integration functionality.",
-  "url": "https://github.com/dortegau/mcp-proxy-sidecar",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

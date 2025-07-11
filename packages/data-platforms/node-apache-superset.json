@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "apache-superset",
-  "description": "Bridges Apache Superset with TypeScript to enable direct interaction with data visualization dashboards, allowing querying, analysis, and visualization without context switching.",
-  "url": "https://github.com/liuscraft/superset-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "social-media",
-  "description": "Provides team-based social media functionality enabling authentication, post creation with tags and threading, and filtered post reading for multi-agent collaboration scenarios.",
-  "url": "https://github.com/2389-research/mcp-socialmedia",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

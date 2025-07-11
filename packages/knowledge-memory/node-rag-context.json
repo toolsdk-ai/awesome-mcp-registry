@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rag-context",
-  "description": "Provides persistent memory and context management using local vector storage and SQLite database, enabling semantic search and indexed retrieval of stored information with automatic vectorization and configurable similarity thresholds for complete privacy and data control.",
-  "url": "https://github.com/notbnull/mcp-rag-context",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

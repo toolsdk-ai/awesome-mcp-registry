@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "milvus-vector-database",
-  "description": "Integrates with Milvus vector database to enable vector search, full-text search, and hybrid queries for semantic search and knowledge retrieval workflows.",
-  "url": "https://github.com/zilliztech/mcp-server-milvus",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

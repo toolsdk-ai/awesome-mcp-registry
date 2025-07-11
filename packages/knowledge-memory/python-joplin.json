@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "joplin",
-  "description": "Provides a bridge to Joplin note-taking application for searching, retrieving, creating, updating, and deleting notes directly within conversations.",
-  "url": "https://github.com/dweigend/joplin-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

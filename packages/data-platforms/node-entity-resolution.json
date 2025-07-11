@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "entity-resolution",
-  "description": "Compares entities using syntactic and semantic methods to determine if differently formatted records refer to the same real-world entity, ideal for data deduplication and customer record matching.",
-  "url": "https://github.com/u3588064/entity-resolution",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

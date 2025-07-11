@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-cli-exec",
-  "description": "Provides powerful CLI command execution capabilities, enabling structured output for shell commands with features like timeout handling, ANSI code stripping, and error management for system administration and DevOps workflows.",
-  "url": "https://github.com/jakenuts/mcp-cli-exec",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

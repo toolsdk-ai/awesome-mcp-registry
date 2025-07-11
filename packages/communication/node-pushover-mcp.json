@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pushover-mcp",
-  "description": "Integrates with Pushover.net to enable sending push notifications to various devices for real-time alerts and updates",
-  "url": "https://github.com/ashiknesin/pushover-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

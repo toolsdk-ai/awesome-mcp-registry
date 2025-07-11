@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "omniparser-autogui",
-  "description": "Integrates computer vision and automation libraries to enable AI-assisted control of desktop applications through visual analysis and GUI interactions.",
-  "url": "https://github.com/non906/omniparser-autogui-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

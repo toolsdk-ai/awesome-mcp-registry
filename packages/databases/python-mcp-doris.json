@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-doris",
-  "description": "Integrates with Apache Doris analytical database system through MySQL protocol, enabling data querying and interaction for business intelligence and data analysis workflows.",
-  "url": "https://github.com/morningman/mcp-doris",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

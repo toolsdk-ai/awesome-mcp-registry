@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "lithic",
-  "description": "Provides read-only access to Lithic's banking and card services API for fetching resources like cards, accounts, and transactions with robust error handling and Docker containerization.",
-  "url": "https://github.com/mohit-novo/mcp-lithic",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

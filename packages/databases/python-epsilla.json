@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "epsilla",
-  "description": "Integrates with Epsilla databases using pyepsilla to enable efficient creation, manipulation, and querying of vector data.",
-  "url": "https://github.com/epsilla-cloud/mcp-epsilla",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

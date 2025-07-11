@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "audio-interface",
-  "description": "Enables voice interaction with Claude through audio recording and playback capabilities, supporting customizable device selection and temporary file management for accessible spoken communication.",
-  "url": "https://github.com/gongrzhe/audio-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

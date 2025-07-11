@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sectors-financial-data",
-  "description": "Provides structured access to financial sector data through tools for retrieving subsectors, industries, index data, and company information for market research and financial analysis.",
-  "url": "https://github.com/supertypeai/sectors-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

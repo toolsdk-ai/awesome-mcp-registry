@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "better-auth",
-  "description": "Integrates with Better-Auth to simplify authentication processes.",
-  "url": "https://github.com/nahmanmate/better-auth-mcp-server",
-  "runtime": "node",
-  "license": "agpl-3.0",
-  "env": {}
-}

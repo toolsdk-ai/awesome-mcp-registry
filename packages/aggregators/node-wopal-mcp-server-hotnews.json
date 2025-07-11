@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@wopal/mcp-server-hotnews",
-  "description": "Aggregates real-time trending topics from major Chinese social platforms and news sites.",
-  "url": "https://github.com/wopal-cn/mcp-hotnews-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

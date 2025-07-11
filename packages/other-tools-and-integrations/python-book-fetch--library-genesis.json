@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "book-fetch-(library-genesis)",
-  "description": "Retrieves and processes published books from Library Genesis, delivering text content in manageable chunks with proper metadata for in-depth analysis and research.",
-  "url": "https://github.com/kinshukk/book-fetch-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

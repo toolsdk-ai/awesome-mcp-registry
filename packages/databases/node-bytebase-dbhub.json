@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@bytebase/dbhub",
-  "description": "Provides a universal database gateway for connecting to PostgreSQL, MySQL, SQLite, and DuckDB, enabling table browsing, schema inspection, and read-only SQL queries with built-in safety checks",
-  "url": "https://github.com/bytebase/dbhub",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "govee",
-  "description": "Integrates with Govee smart lighting devices to enable natural language control of brightness, color, and power settings for home automation and ambient lighting scenarios.",
-  "url": "https://github.com/mathd/govee_mcp_server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

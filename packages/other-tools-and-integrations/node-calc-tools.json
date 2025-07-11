@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "calc-tools",
-  "description": "Integrates with NumPy, SciPy, and SymPy to provide advanced calculus tools for complex mathematical calculations and analysis within applications.",
-  "url": "https://github.com/nbiish/mcp-calc-tools",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

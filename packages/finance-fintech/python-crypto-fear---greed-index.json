@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "crypto-fear-&-greed-index",
-  "description": "Provides real-time and historical cryptocurrency market sentiment data through the Fear & Greed Index API for analyzing market psychology and potential price movements.",
-  "url": "https://github.com/kukapay/crypto-feargreed-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

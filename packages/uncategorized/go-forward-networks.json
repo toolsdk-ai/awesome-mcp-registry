@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "forward-networks",
-  "description": "Integrates with Forward Networks API for network topology analysis, path tracing, device management, and configuration auditing with semantic search of network queries using embedding-based similarity matching.",
-  "url": "https://github.com/forwardnetworks/forward-mcp",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

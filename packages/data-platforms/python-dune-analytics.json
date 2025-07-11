@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dune-analytics",
-  "description": "Integrates with Dune Analytics API to provide direct access to blockchain data through tools for retrieving existing query results and executing on-demand queries in CSV format.",
-  "url": "https://github.com/kukapay/dune-analytics-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

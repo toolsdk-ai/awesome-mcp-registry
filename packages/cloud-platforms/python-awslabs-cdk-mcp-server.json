@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "awslabs.cdk-mcp-server",
-  "description": "Integration for AWS Cloud Development Kit (CDK) best practices, infrastructure as code patterns, and security compliance with CDK Nag.",
-  "url": "https://github.com/awslabs/mcp/tree/HEAD/src/cdk-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

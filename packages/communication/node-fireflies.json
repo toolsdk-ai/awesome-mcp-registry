@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fireflies",
-  "description": "Integrates with Fireflies.ai API to enable retrieval, search, and summarization of meeting transcripts for natural language processing of meeting content.",
-  "url": "https://github.com/props-labs/fireflies-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

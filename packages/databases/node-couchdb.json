@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "couchdb",
-  "description": "Integrates with CouchDB to enable database management, document operations, and Mango queries for applications requiring document-based storage and retrieval.",
-  "url": "https://github.com/robertoamoreno/couchdb-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

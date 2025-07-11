@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-twelve-data",
-  "description": "Integrates with Twelve Data API to provide real-time quotes, historical OHLCV price data, and instrument metadata for stocks, forex pairs, and cryptocurrencies across global markets.",
-  "url": "https://github.com/twelvedata/mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

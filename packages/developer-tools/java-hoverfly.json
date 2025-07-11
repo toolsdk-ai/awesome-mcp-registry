@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "hoverfly",
-  "description": "Integrates with Hoverfly service virtualization tool to enable HTTP/HTTPS mock creation, simulation management, and server lifecycle control for development and testing workflows.",
-  "url": "https://github.com/kapishmalik/hoverfly-mcp-server",
-  "runtime": "java",
-  "license": "other",
-  "env": {}
-}

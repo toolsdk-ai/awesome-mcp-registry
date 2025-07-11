@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "swagger/postman-api-explorer",
-  "description": "Simplifies API access by transforming complex OpenAPI/Swagger specifications into just four strategic tools for endpoint discovery, information retrieval, search, and authenticated request execution",
-  "url": "https://github.com/alangreyjoy/swag-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

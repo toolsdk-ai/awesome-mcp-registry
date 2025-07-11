@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "expr-lang",
-  "description": "Provides a powerful expression evaluation engine for complex data manipulations, enabling mathematical operations, array transformations, string processing, and conditional logic directly within conversations.",
-  "url": "https://github.com/ivan-saorin/mcp-expr-lang",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

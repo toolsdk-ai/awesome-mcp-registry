@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "excel-mcp-server",
-  "description": "Enables Excel file manipulation without Microsoft Excel installation using openpyxl, providing workbook operations, data validation detection, formatting, formulas, charts, pivot tables, and native Excel table support for automating spreadsheet workflows and report generation.",
-  "url": "https://github.com/haris-musa/excel-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

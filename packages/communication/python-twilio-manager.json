@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "twilio-manager",
-  "description": "Manages Twilio resources through asynchronous API interactions, enabling efficient concurrent operations for subaccounts, phone numbers, addresses, and regulatory bundles with features like resource transfers and duplication.",
-  "url": "https://github.com/errajibadr/twilio_manager_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kibana",
-  "description": "Provides direct access to Kibana's API endpoints for querying server status, executing custom requests, and exploring available endpoints through a searchable interface for monitoring Elasticsearch clusters, managing visualizations, and troubleshooting deployments.",
-  "url": "https://github.com/tocharianou/mcp-server-kibana",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

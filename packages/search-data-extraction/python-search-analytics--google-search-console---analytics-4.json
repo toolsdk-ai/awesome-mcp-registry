@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "search-analytics-(google-search-console-&-analytics-4)",
-  "description": "Integrates Google Search Console and Google Analytics 4 data through unified tools for search analytics, traffic overviews, page performance analysis, and combined insights that correlate search visibility with actual traffic metrics.",
-  "url": "https://github.com/dexter480/mcp-search-analytics",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

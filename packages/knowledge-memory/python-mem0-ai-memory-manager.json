@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mem0.ai-memory-manager",
-  "description": "Integrates with Mem0.ai's memory management system to provide structured, persistent memory across conversations through a cognitive-inspired architecture that organizes information into short-term and long-term memory types.",
-  "url": "https://github.com/ryaker/mcp-mem0-general",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

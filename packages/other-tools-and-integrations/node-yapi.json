@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "yapi",
-  "description": "Integrates with YApi for API management, enabling seamless access to API documentation for tasks like code generation, testing, and integration planning.",
-  "url": "https://github.com/lzsheng/yapi-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

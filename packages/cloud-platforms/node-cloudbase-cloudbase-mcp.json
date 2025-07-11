@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@cloudbase/cloudbase-mcp",
-  "description": "Enables AI systems to deploy, monitor, and manage full-stack applications on Tencent CloudBase through tools for cloud environments, databases, functions, hosting services, and storage resources.",
-  "url": "https://github.com/tencentcloudbase/cloudbase-ai-toolkit",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

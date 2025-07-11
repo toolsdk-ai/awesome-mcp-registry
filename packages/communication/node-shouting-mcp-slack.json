@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "shouting-mcp-slack",
-  "description": "Integrates with Slack workspaces to enable channel management, messaging, thread interactions, reaction handling, and user information retrieval for team communication platforms.",
-  "url": "https://github.com/z9905080/mcp-slack",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

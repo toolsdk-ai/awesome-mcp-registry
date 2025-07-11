@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tracxn",
-  "description": "Integrates with Tracxn's startup and investment data platform, enabling search and analysis of companies, investors, transactions, acquisitions, and business models for startup ecosystem research and competitive intelligence.",
-  "url": "https://github.com/vatsal191201/tracxn-mcp/tree/HEAD/tracxn-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

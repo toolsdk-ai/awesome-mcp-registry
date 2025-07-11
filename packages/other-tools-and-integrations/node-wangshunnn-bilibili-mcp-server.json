@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@wangshunnn/bilibili-mcp-server",
-  "description": "Integrates with Bilibili video platform to retrieve user information, video details, and perform searches without switching contexts.",
-  "url": "https://github.com/wangshunnn/bilibili-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

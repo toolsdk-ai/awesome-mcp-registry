@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kubernetes-lens",
-  "description": "Bridges Claude with the Kubernetes Lens desktop application through Playwright automation, enabling cluster analysis and management via UI interactions and console log capture.",
-  "url": "https://github.com/chenhunghan/mcp-k8s-lens",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

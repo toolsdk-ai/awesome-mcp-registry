@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "log-analyzer-mcp",
-  "description": "Analyzes Python application logs with time-based and pattern filtering, pytest output parsing, and code coverage report generation for debugging and quality monitoring workflows.",
-  "url": "https://github.com/djm81/log_analyzer_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

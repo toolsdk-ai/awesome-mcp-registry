@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tabnews",
-  "description": "Provides access to TabNews content through API tools for retrieving listings, user posts, comments, and analytics data without requiring direct API integration",
-  "url": "https://github.com/renant/mcp-tabnews",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

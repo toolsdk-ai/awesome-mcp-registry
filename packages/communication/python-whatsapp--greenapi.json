@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "whatsapp-(greenapi)",
-  "description": "Provides a bridge to the WhatsApp Business API through GreenAPI, enabling message sending, chat retrieval, and group management directly from conversations.",
-  "url": "https://github.com/msaelices/whatsapp-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

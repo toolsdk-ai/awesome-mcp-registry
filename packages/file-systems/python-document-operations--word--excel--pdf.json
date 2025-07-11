@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "document-operations-(word,-excel,-pdf)",
-  "description": "Enables document operations on Microsoft Word, Excel, and PDF files through FastMCP and Python tools for creating, editing, converting, and manipulating files without switching applications",
-  "url": "https://github.com/alejandroballesterosc/document-edit-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

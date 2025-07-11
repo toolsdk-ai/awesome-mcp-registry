@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nexusmind",
-  "description": "Scientific reasoning server that processes complex queries through an eight-stage Graph-of-Thoughts approach, maintaining a multi-layer graph structure with confidence vectors that quantify certainty across multiple dimensions.",
-  "url": "https://github.com/saptadey/nexusmind",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

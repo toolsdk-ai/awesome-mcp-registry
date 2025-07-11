@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "iot-home-automation",
-  "description": "Enables smart home automation with IoT device control and persistent memory for maintaining context across interactions through MQTT protocol",
-  "url": "https://github.com/jordy33/iot_mcp_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

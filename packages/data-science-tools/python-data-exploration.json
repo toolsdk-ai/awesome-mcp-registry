@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "data-exploration",
-  "description": "Explore and visualize CSV datasets with the power of pandas and matplotlib.",
-  "url": "https://github.com/reading-plus-ai/mcp-server-data-exploration",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

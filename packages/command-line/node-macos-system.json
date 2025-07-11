@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "macos-system",
-  "description": "Access macOS system information and send notifications.",
-  "url": "https://github.com/mcp-get/community-servers/tree/HEAD/src/server-macos",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

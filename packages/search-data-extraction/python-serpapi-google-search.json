@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "serpapi-google-search",
-  "description": "Integrates with the SerpApi Google Search API to enable access to structured search results data for SEO tools, market research, or data aggregation services.",
-  "url": "https://github.com/ilyazub/serpapi-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bilibili-search",
-  "description": "Enables search across Bilibili's Chinese video platform through a lightweight FastMCP interface that retrieves video content, user information, and other searchable data with optional authentication via session cookies.",
-  "url": "https://github.com/huccihuang/bilibili-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

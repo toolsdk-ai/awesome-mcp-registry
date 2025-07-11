@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deno-kv",
-  "description": "Provides persistent key-value storage operations through Deno KV, enabling simple data persistence between sessions without complex database setup.",
-  "url": "https://github.com/littledivy/mcp-deno-kv",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

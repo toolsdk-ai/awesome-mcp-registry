@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "flutter-documentation",
-  "description": "Provides real-time access to Flutter, Dart, and pub.dev documentation through on-demand web scraping with SQLite caching, enabling current API reference retrieval and package information lookup for Flutter development workflows.",
-  "url": "https://github.com/adamsmaka/flutter-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

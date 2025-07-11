@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "local-speech-to-text",
-  "description": "Provides local speech-to-text transcription using whisper.cpp with automatic audio format conversion, intelligent chunking for long files, speaker diarization, and multiple output formats for private transcription workflows without cloud dependencies.",
-  "url": "https://github.com/smartlittleapps/local-stt-mcp/tree/HEAD/mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

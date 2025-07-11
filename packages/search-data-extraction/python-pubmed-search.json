@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pubmed-search",
-  "description": "Integrates with PubMed to enable natural language querying and analysis of biomedical literature for research and evidence-based decision making.",
-  "url": "https://github.com/wavelovey/pubmed_search",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

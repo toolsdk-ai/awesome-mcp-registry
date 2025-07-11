@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "datadog",
-  "description": "Provides a bridge to the Datadog API, enabling metrics and logs retrieval for monitoring and observability workflows using TypeScript and Bun runtime.",
-  "url": "https://github.com/i524/datadog-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

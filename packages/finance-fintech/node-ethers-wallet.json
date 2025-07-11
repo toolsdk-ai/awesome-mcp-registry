@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ethers-wallet",
-  "description": "Integrates with Ethereum networks and smart contracts using ethers.js to enable wallet operations, transaction management, and blockchain interactions.",
-  "url": "https://github.com/crazyrabbitltc/mcp-ethers-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

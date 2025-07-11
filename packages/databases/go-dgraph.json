@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dgraph",
-  "description": "Connects language models to Dgraph graph databases, enabling DQL queries, mutations, and schema management for seamless database interactions without context switching.",
-  "url": "https://github.com/johnymontana/dgraph-mcp-server",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {}
-}

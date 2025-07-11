@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sql-server-natural-language",
-  "description": "Enables natural language querying of Microsoft SQL Server databases by translating conversational input into SQL and interpreting results for database administrators and analysts",
-  "url": "https://github.com/aman-panjwani/mcp-sql-server-natural-lang",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

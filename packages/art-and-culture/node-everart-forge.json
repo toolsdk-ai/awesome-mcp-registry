@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "everart-forge",
-  "description": "Integrates with EverArt's AI models to provide advanced vector and raster image generation capabilities, supporting various formats and offering flexible storage options.",
-  "url": "https://github.com/nickbaumann98/everart-forge-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

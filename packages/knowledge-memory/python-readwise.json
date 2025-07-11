@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "readwise",
-  "description": "Integrates with Readwise to access and manipulate reading data, enabling document search, highlight retrieval, and filtering by categories, tags, or date ranges for research and knowledge management workflows.",
-  "url": "https://github.com/kiseki-technologies/kiseki-labs-readwise-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

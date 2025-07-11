@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "payman-ai",
-  "description": "Bridges to Payman AI's payment processing API, enabling creation of payees, search functionality, payment sending, and balance checking through natural language commands.",
-  "url": "https://github.com/hrishi0102/payman_mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wecom",
-  "description": "Integrates WeCom group messaging, enabling automated sending of diverse message types and file uploads for streamlined team communication and notifications.",
-  "url": "https://github.com/gotoolkits/mcp-wecombot-server",
-  "runtime": "go",
-  "license": "gpl-3.0",
-  "env": {}
-}

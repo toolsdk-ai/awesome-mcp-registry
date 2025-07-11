@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure-java-sdk",
-  "description": "Fetches Azure Java SDK documentation and code examples from Maven Central repositories, automatically retrieving the latest version metadata and README files for any Azure SDK package to provide quick access to usage examples and API documentation.",
-  "url": "https://github.com/weidongxu-microsoft/mcp-azure-java-sdk-assist",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

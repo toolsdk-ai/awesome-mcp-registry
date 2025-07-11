@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fred-(federal-reserve-economic-data)",
-  "description": "Integrates with the Federal Reserve Economic Data (FRED) API to retrieve economic time series data with customizable parameters for date ranges, frequency aggregation, and data transformations.",
-  "url": "https://github.com/jaldekoa/mcp-fredapi",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

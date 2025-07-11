@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "code-context-provider-mcp",
-  "description": "Analyzes project directories to extract code structure and symbols using Tree-sitter parsers, providing tools for generating directory trees and performing deep code analysis of JavaScript, TypeScript, and Python files.",
-  "url": "https://github.com/ab498/code-context-provider-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

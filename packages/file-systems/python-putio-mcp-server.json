@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "putio-mcp-server",
-  "description": "Enables AI to manage put.io file transfers by listing, adding, canceling, and retrieving browser links for downloads through a simple authentication-based interface.",
-  "url": "https://github.com/putdotio/putio-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dappier-(real-time-data-search)",
-  "description": "Connects AI assistants to real-time, rights-cleared data from trusted sources through search and recommendation tools for retrieving web results, financial information, and personalized content without leaving the conversation interface.",
-  "url": "https://github.com/dappierai/dappier-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

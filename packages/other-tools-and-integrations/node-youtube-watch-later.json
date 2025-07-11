@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "youtube-watch-later",
-  "description": "Integrates with YouTube API to manage Watch Later playlists, enabling content curation, video recommendations, and automated playlist management.",
-  "url": "https://github.com/rados10/youtube-watchlater-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

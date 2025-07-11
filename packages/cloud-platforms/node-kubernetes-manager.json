@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kubernetes-manager",
-  "description": "Manage Kubernetes cluster resources and deployments.",
-  "url": "https://github.com/flux159/mcp-server-kubernetes",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

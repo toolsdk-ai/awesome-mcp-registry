@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "doc-crawler",
-  "description": "Documentation crawler service that fetches and serves technical documentation from specified sources, enabling access to up-to-date information through a structured API.",
-  "url": "https://github.com/ruan11223344/mcpdocserver",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

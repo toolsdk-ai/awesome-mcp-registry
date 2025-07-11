@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pancakeswap-poolspy",
-  "description": "Tracks newly created PancakeSwap liquidity pools in real-time, providing detailed metrics like token pairs, transaction counts, volume, and TVL for DeFi traders and analysts on BNB Smart Chain.",
-  "url": "https://github.com/kukapay/pancakeswap-poolspy-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

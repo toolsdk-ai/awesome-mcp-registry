@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "quickbooks-time",
-  "description": "Integrates with QuickBooks Time API to provide unified access for managing timesheets, users, projects, and generating reports.",
-  "url": "https://github.com/aallsbury/qb-time-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "starwind-ui",
-  "description": "Bridges AI assistants with the Starwind UI component library, enabling package detection, project initialization, component installation, and documentation retrieval for web development projects.",
-  "url": "https://github.com/starwind-ui/starwind-ui-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

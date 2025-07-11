@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pipecd",
-  "description": "Connects Claude to PipeCD's continuous delivery platform, enabling monitoring of Kubernetes application deployments, configurations, and status without leaving the conversation context.",
-  "url": "https://github.com/warashi/mcp-server-pipecd",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

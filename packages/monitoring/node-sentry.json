@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sentry",
-  "description": "Connects AI models to Sentry error tracking service, enabling detailed retrieval and analysis of error reports including stack traces, event counts, and timestamps for enhanced debugging workflows.",
-  "url": "https://github.com/zzzccs123/mcp-sentry",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

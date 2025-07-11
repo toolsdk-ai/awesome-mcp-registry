@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "local-git",
-  "description": "Lightweight Git repository management server for local operations using GitPython and Pydantic",
-  "url": "https://github.com/okdshin/local-git-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

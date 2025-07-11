@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "awslabs.nova-canvas-mcp-server",
-  "description": "Generate images using Amazon Nova Canvas.",
-  "url": "https://github.com/awslabs/mcp/tree/HEAD/src/nova-canvas-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

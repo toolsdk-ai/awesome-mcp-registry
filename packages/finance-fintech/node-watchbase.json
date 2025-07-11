@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "watchbase",
-  "description": "Integrates with WatchBase Data Feed API to provide structured access to comprehensive watch metadata including brands, collections, reference numbers, and technical details for watch enthusiasts and retailers.",
-  "url": "https://github.com/watchdealer-pavel/watchbase-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

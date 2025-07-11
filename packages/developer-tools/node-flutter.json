@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "flutter",
-  "description": "Enables Flutter applications to communicate with MCP-compatible models, facilitating AI-driven features in mobile apps.",
-  "url": "https://github.com/asmagin/mcp-server-flutter",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

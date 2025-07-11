@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "molecule-visualization-(chimerax,-pymol)",
-  "description": "Connects AI systems to molecular visualization software like PyMol and ChimeraX, enabling direct command execution and image capture of molecular structures for scientific workflows.",
-  "url": "https://github.com/chatmol/molecule-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

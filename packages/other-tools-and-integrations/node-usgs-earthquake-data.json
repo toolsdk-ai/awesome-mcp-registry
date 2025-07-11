@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "usgs-earthquake-data",
-  "description": "Integrates with USGS earthquake data to provide real-time access for querying and analyzing seismic events, enabling applications in disaster response, geological research, and risk assessment.",
-  "url": "https://github.com/blake365/usgs-quakes-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

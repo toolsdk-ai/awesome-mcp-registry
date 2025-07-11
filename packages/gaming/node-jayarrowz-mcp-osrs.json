@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@jayarrowz/mcp-osrs",
-  "description": "Provides tools for accessing Old School RuneScape game data through wiki searches and structured file queries with pagination support",
-  "url": "https://github.com/jayarrowz/mcp-osrs",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

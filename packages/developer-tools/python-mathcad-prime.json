@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mathcad-prime",
-  "description": "Integrates with PTC MathCAD Prime through the MathcadPy library, enabling worksheet management, input/output manipulation, and calculation control for engineering and scientific workflows.",
-  "url": "https://github.com/puran-water/mathcad-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "shell-command-mcp",
-  "description": "Secure shell command execution server that allows running system commands in a controlled environment through an allowlist system, returning results in YAML format.",
-  "url": "https://github.com/egoist/shell-command-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

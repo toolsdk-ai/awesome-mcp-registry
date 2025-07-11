@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "linkedin-job-search",
-  "description": "Provides a bridge between LinkedIn job listings and search capabilities through web scraping, enabling job discovery by title, location, and recency with comprehensive details including company information and URLs.",
-  "url": "https://github.com/zarif007/job-search-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

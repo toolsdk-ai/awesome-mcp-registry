@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "batchdata-real-estate",
-  "description": "Provides real estate data management through batch processing operations for handling property listings, market analytics, and property management workflows efficiently at scale.",
-  "url": "https://github.com/zellerhaus/batchdata-mcp-real-estate",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

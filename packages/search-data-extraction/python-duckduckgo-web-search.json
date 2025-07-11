@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "duckduckgo-web-search",
-  "description": "Integrates with DuckDuckGo to provide web search capabilities, enabling quick and easy text searches with customizable result limits for applications.",
-  "url": "https://github.com/okdshin/duckduckgo_web_search_mcp_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

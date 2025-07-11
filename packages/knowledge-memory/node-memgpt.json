@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memgpt",
-  "description": "Implements a multi-provider memory system for LLMs, enabling conversation history management and seamless model switching across OpenAI, Anthropic, OpenRouter, and Ollama.",
-  "url": "https://github.com/vic563/memgpt-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

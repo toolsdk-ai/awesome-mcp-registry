@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "steam-review-mcp",
-  "description": "Integrates with Steam's API to fetch and analyze game reviews and information, enabling customizable queries for player feedback, sentiment tracking, and game details.",
-  "url": "https://github.com/fenxer/steam-review-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

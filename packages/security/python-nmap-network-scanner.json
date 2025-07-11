@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nmap-network-scanner",
-  "description": "Provides a bridge to Nmap network scanning tool for performing reconnaissance, port scanning, and service identification with customizable options and proper security handling.",
-  "url": "https://github.com/christopherwoodall/nmap-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

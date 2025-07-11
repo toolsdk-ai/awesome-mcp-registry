@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "external-recon",
-  "description": "Provides network reconnaissance tools for penetration testers, enabling systematic domain enumeration, IP discovery, email security assessment, and port scanning for external security audits.",
-  "url": "https://github.com/timsonner/mcp-vscode-template",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

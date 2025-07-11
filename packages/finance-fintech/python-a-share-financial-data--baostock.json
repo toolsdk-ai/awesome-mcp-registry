@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "a-share-financial-data-(baostock)",
-  "description": "Provides financial data tools for Chinese stock market analysis through the Baostock API, enabling retrieval of historical prices, financial reports, industry classifications, index constituents, and macroeconomic indicators.",
-  "url": "https://github.com/24mlight/a-share-mcp-is-just-i-need",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

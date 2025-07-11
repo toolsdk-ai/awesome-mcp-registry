@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "exa-ai-security-scanner",
-  "description": "Integrates with Exa AI to scan projects for security vulnerabilities through a containerized JSON-RPC service that reads requests from stdin and writes responses to stdout.",
-  "url": "https://github.com/tommyn0225/anth",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

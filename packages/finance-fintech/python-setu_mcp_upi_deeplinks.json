@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "setu_mcp_upi_deeplinks",
-  "description": "Integrates Setu's UPI payment infrastructure to enable seamless generation and management of payment links for applications.",
-  "url": "https://github.com/setuhq/setu-mcps/tree/HEAD/upi-deeplinks",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

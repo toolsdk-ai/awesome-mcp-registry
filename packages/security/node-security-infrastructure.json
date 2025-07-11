@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "security-infrastructure",
-  "description": "Integrates with Splunk SIEM, CrowdStrike EDR, and Microsoft MISP to enable cross-platform threat hunting, security event searches, detection retrieval, and threat intelligence queries for SOC operations.",
-  "url": "https://github.com/jmstar85/securityinfrastructure",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

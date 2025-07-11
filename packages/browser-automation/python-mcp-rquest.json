@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-rquest",
-  "description": "Enables LLMs to make advanced HTTP requests with realistic browser emulation, bypassing anti-bot measures while supporting all HTTP methods, authentication, and automatic response handling for web scraping and API interactions.",
-  "url": "https://github.com/xxxbrian/mcp-rquest",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

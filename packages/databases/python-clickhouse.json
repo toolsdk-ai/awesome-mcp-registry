@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "clickhouse",
-  "description": "Integrates with ClickHouse databases to enable data analysis, querying, and exploration for large-scale analytical workloads.",
-  "url": "https://github.com/thomaub/clickhouse_mcp_server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

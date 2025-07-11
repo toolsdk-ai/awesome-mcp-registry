@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "llamaindex-documentation",
-  "description": "Provides a RAG-powered query interface to LlamaIndex documentation, delivering detailed responses with code examples using LlamaCloud's managed index service",
-  "url": "https://github.com/run-llama/llamacloud-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

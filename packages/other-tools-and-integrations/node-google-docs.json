@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "google-docs",
-  "description": "Provides a bridge between Google Docs and AI tools for reading document content, appending text, and applying formatting to specific text within documents.",
-  "url": "https://github.com/a-bonus/google-docs-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-make",
-  "description": "Integrates with make to enable execution of Makefile targets, automating build processes and development tasks for software projects.",
-  "url": "https://github.com/wrale/mcp-server-make",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

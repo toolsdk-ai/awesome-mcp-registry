@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ant-design-components",
-  "description": "Provides Ant Design component documentation through specialized tools for discovery, exploration, and implementation guidance in React applications",
-  "url": "https://github.com/hannesj/mcp-antd-components",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

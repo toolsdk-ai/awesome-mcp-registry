@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "supernotes-to-obsidian",
-  "description": "Automates importing Supernotes exports into Obsidian daily notes, formatting content and adding wikilinks for seamless note migration.",
-  "url": "https://github.com/al-how/supernotes-to-obsidian",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "youtube-transcript",
-  "description": "Retrieves and processes YouTube video transcripts and playlist metadata, enabling content analysis without manual transcription or viewing.",
-  "url": "https://github.com/power3xz/youtube-transcript-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

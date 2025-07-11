@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@infisical/mcp",
-  "description": "Provides a secure bridge to the Infisical secrets management platform, enabling operations like creating, updating, and retrieving secrets without exposing credentials directly",
-  "url": "https://github.com/infisical/infisical-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

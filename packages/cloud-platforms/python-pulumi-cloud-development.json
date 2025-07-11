@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pulumi-cloud-development",
-  "description": "Integrates with Pulumi's cloud development platform to streamline infrastructure-as-code operations for efficient cloud resource orchestration and deployment.",
-  "url": "https://github.com/didlawowo/mcp-collection",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tripadvisor",
-  "description": "Integrates with Tripadvisor Content API to enable location searches, detailed information retrieval, reviews access, and photo collection for hotels, restaurants, and attractions.",
-  "url": "https://github.com/pab1it0/tripadvisor-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

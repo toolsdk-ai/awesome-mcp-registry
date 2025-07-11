@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "trinity",
-  "description": "Bridges AI systems with Trinity's formula-based tools through a Go-based server that enables access to Trinity API capabilities via JSON-RPC interface",
-  "url": "https://github.com/kklab-com/trinity-mcp",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {}
-}

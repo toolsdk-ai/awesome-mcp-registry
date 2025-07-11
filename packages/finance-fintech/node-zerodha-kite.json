@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "zerodha-kite",
-  "description": "Enables natural language interaction with Zerodha Kite trading platform for executing stock orders, retrieving portfolio information, and managing market transactions",
-  "url": "https://github.com/121yaseen/zerodha-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

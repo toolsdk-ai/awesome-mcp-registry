@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp4gql",
-  "description": "Provides a bridge between MCP clients and GraphQL APIs, enabling introspection of schemas and execution of arbitrary operations with full support for queries, mutations, variables, and authentication.",
-  "url": "https://github.com/jorgeraad/mcp4gql",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

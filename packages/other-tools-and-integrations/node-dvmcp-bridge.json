@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@dvmcp/bridge",
-  "description": "Decentralizes computational tool discovery and execution by bridging Nostr's Data Vending Machine ecosystem, enabling distributed service interactions through NIP-89 announcements and direct Nostr event requests.",
-  "url": "https://github.com/gzuuus/dvmcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

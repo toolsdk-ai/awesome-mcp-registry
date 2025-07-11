@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudflare-ai-gateway",
-  "description": "Cloudflare's AI Gateway allows you to gain visibility and control over your AI apps. By connecting your apps to AI Gateway, you can gather insights on how people are using your application.",
-  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/ai-gateway",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

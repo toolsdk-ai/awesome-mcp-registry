@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "anki-mcp",
-  "description": "Integrates with Anki flashcard software to create, manage, and study flashcards through natural language interactions with your local Anki desktop application",
-  "url": "https://github.com/ujisati/anki-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

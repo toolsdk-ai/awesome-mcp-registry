@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "osp-marketing-tools",
-  "description": "Provides TypeScript tools for technical marketing content creation including value mapping, meta information generation, content editing, and SEO optimization through both stdio and HTTP/SSE transport methods.",
-  "url": "https://github.com/x51xxx/osp-marketing-tools-mcp",
-  "runtime": "node",
-  "license": "cc-by-sa-4.0",
-  "env": {}
-}

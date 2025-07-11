@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "frame0-mcp-server",
-  "description": "Provides a bridge to the Frame0 diagramming application for creating and manipulating visual elements like shapes, text, and connectors with customizable properties for diagram generation and mockup creation.",
-  "url": "https://github.com/niklauslee/frame0-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

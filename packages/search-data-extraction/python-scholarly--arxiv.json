@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "scholarly-(arxiv)",
-  "description": "Integrates with arXiv to enable keyword-based searching and retrieval of academic articles for research assistance and literature reviews.",
-  "url": "https://github.com/adityak74/mcp-scholarly",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

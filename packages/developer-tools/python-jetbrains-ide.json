@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jetbrains-ide",
-  "description": "Bridges Large Language Models with JetBrains IDEs to enable intelligent code completion, automated refactoring, and context-aware documentation generation.",
-  "url": "https://github.com/leobuskin/mcp_jetbrains_proxy",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "makesync",
-  "description": "Integrates with Make.com's automation platform to create, update, and manage workflow scenarios through natural language commands without requiring deep API knowledge.",
-  "url": "https://github.com/sparxhub/mcp-makesync",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

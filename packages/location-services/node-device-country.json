@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "device-country",
-  "description": "Provides instant access to a user's country location using Cloudflare's IP geolocation headers, enabling geography-based content customization without additional API integrations.",
-  "url": "https://github.com/epicweb-dev/device-country-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

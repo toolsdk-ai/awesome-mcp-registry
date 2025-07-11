@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openai-agents",
-  "description": "Exposes OpenAI's agent capabilities for web search, file search, and computer actions through specialized agents and a multi-agent orchestrator that coordinates between them based on task requirements.",
-  "url": "https://github.com/lroolle/openai-agents-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kali-linux-security-tools",
-  "description": "Provides Kali Linux security tools in a sandboxed Docker environment for network analysis, binary examination, and security testing through controlled execution of utilities like nmap, objdump, and wireshark.",
-  "url": "https://github.com/vermaxvr/awsome_kali_mcpservers",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "graphrag",
-  "description": "Combines Neo4j graph database and Qdrant vector database for powerful document search with semantic relevance and structural context expansion through relationship following",
-  "url": "https://github.com/rileylemm/graphrag_mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

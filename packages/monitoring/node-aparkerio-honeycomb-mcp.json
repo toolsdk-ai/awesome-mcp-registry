@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@aparkerio/honeycomb-mcp",
-  "description": "Integrates with the Honeycomb API to enable direct querying and analysis of observability data for automated performance monitoring and troubleshooting.",
-  "url": "https://github.com/honeycombio/honeycomb-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

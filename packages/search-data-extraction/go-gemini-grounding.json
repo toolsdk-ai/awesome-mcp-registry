@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gemini-grounding",
-  "description": "Integrates with Google's Gemini API grounding feature to provide web search and summarization with synthesized answers and inline citations rather than raw search results.",
-  "url": "https://github.com/ml0-1337/mcp-gemini-grounding",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

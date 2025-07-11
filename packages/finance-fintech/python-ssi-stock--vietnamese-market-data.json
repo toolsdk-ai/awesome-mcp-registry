@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ssi-stock-(vietnamese-market-data)",
-  "description": "Provides a bridge to the SSI Financial Connector Data API for accessing Vietnamese stock market data, including securities listings, stock information, index components, OHLC data, price movements, and foreign trading activities.",
-  "url": "https://github.com/archiephan78/ssi-stock-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

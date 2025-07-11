@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "os-info-mcp-server",
-  "description": "Provides real-time system information about the host computer, including CPU, memory, operating system, disk, battery, and process details for monitoring resources and troubleshooting performance issues.",
-  "url": "https://github.com/anurag-dhamala/os-info-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "google-analytics",
-  "description": "Integrates GA4 data to provide web analytics metrics and insights for analyzing website performance and user engagement.",
-  "url": "https://github.com/ruchernchong/mcp-server-google-analytics",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

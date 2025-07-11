@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-bigquery",
-  "description": "Inspect schemas and execute SQL queries on Google BigQuery.",
-  "url": "https://github.com/lucashild/mcp-server-bigquery",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

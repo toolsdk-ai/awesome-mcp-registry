@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "screenpipe",
-  "description": "Enable searching and retrieving screen recordings and associated data for productivity tracking, user behavior analysis, and workflow documentation.",
-  "url": "https://github.com/mediar-ai/screenpipe/tree/HEAD/screenpipe-integrations/screenpipe-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

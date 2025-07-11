@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@shinzolabs/gmail-mcp",
-  "description": "Manage your emails effortlessly with a standardized interface for drafting, sending, retrieving, and organizing messages. Streamline your email workflow with complete Gmail API coverage, including label and thread management.",
-  "url": "https://github.com/shinzo-labs/gmail-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

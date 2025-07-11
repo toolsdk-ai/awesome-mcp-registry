@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pagerduty_mcp_server",
-  "description": "Exposes PagerDuty API functionality to LLMs.",
-  "url": "https://github.com/wpfleger96/pagerduty-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

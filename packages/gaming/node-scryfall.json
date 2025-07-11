@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "scryfall",
-  "description": "Integrates with the Scryfall Magic: The Gathering API to enable card searches, retrieval of card details, rulings, and pricing information for deck building and game analysis.",
-  "url": "https://github.com/cryppadotta/scryfall-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

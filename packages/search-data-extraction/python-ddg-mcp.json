@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ddg-mcp",
-  "description": "Integrates with DuckDuckGo to provide web, image, news, and video search capabilities with configurable parameters for region, safesearch, and time limits.",
-  "url": "https://github.com/misanthropic-ai/ddg-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

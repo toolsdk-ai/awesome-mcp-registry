@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "stockscreen-(yahoo-finance)",
-  "description": "Integrates with Yahoo Finance to provide advanced stock screening and analysis capabilities for technical, fundamental, and options-based trading strategies.",
-  "url": "https://github.com/twolven/mcp-stockscreen",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

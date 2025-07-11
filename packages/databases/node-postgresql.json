@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "postgresql",
-  "description": "Provides secure read-only access to PostgreSQL databases for executing SQL queries and retrieving schema information.",
-  "url": "https://github.com/vignesh-codes/ai-agents-mcp-pg",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

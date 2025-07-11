@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ghost",
-  "description": "Interact with the Ghost CMS to control your blog through natural language. Manage posts, tags, users, members, and more with secure access.",
-  "url": "https://github.com/mfydev/ghost-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

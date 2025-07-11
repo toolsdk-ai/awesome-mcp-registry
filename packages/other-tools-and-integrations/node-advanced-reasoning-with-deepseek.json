@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "advanced-reasoning-with-deepseek",
-  "description": "Leverages the deepseek-r1 model to provide structured reasoning capabilities through specialized tools for analytical thinking, reflection with quality scoring, and sequential problem-solving with branching thoughts.",
-  "url": "https://github.com/kuon-dev/advanced-reason-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

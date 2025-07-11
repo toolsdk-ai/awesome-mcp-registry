@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pixabay",
-  "description": "Provides a bridge to the Pixabay image search API, enabling dynamic image retrieval with flexible filtering options like image type, orientation, and result count.",
-  "url": "https://github.com/zym9863/pixabay-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

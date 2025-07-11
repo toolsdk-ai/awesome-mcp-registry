@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "instantdb",
-  "description": "Provides a robust InstantDB server for executing database queries, retrieving results, and serving code examples across admin, CLI, and data modeling contexts.",
-  "url": "https://github.com/christophersutton/instantdb-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

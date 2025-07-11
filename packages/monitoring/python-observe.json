@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "observe",
-  "description": "Integrates with Observe platform for performance monitoring through OPAL queries, dataset management, monitor configuration, and semantic search of troubleshooting runbooks to enable natural language root cause analysis and system reliability investigations.",
-  "url": "https://github.com/rustomax/observe-experimental-mcp",
-  "runtime": "python",
-  "license": "gpl-3.0",
-  "env": {}
-}

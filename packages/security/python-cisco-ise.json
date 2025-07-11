@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cisco-ise",
-  "description": "Provides a bridge between Cisco Identity Services Engine (ISE) REST APIs and network administrators, enabling dynamic discovery and retrieval of security configurations without direct API interaction.",
-  "url": "https://github.com/automateyournetwork/ise_mcp/tree/HEAD/ise_mcp",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "macos-screenshot",
-  "description": "Captures and analyzes macOS screen content using TypeScript and OCR, enabling automated UI testing and visual data processing.",
-  "url": "https://github.com/kazuph/mcp-screenshot",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "frontend-testing-(jest-&-cypress)",
-  "description": "Enables automated frontend testing by analyzing JavaScript/TypeScript code, generating Jest and Cypress tests, and executing them in isolated environments with proper configurations and dependencies.",
-  "url": "https://github.com/studentofjs/mcp-frontend-testing",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

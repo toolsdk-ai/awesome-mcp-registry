@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kaiafun",
-  "description": "Enables interaction with the KaiaFun memecoin platform for listing, buying, selling, and managing tokens on the Kaia blockchain.",
-  "url": "https://github.com/weero-finance/kaiafun-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

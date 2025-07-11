@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "time-service",
-  "description": "Provides current time information through a lightweight Node.js service that can be deployed via Docker or managed with PM2.",
-  "url": "https://github.com/1259187996/mcp-time",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

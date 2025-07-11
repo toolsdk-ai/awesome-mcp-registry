@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-api-connect",
-  "description": "Integrates any REST API by dynamically connecting to APIs using provided documentation and keys, enabling rapid prototyping of applications with real-time external data.",
-  "url": "https://github.com/jwaldor/mcp-api-expert",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

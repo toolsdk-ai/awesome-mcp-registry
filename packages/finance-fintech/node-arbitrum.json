@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "arbitrum",
-  "description": "Integrates with Arbiscan API to provide real-time Arbitrum blockchain data analysis, enabling natural language queries for block information, transaction details, account balances and network statistics",
-  "url": "https://github.com/gfable/arbitrum_mcp_server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

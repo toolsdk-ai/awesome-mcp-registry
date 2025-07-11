@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "coding-project-structure",
-  "description": "Provides a single interface for retrieving entire project structures, enabling efficient code analysis and manipulation tasks.",
-  "url": "https://github.com/maheshdoiphode/mcp-cline-project-content-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

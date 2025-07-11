@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "horoscope",
-  "description": "Provides astrological horoscope functionality with tools for generating personalized predictions and insights based on zodiac signs and celestial positions.",
-  "url": "https://github.com/gbcui/horoscope-serve",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

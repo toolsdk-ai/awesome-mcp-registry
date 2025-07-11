@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@vectorize-io/vectorize-mcp-server",
-  "description": "Bridges Claude with Vectorize.io's vector database services for advanced document retrieval, text extraction, and research capabilities through TypeScript-based tools that handle authentication via organization IDs and API tokens.",
-  "url": "https://github.com/vectorize-io/vectorize-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

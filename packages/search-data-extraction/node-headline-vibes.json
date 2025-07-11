@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "headline-vibes",
-  "description": "Integrates with major US news sources to analyze headline sentiment, providing normalized scores and source distribution for media trend insights.",
-  "url": "https://github.com/fred-em/headline-vibes",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

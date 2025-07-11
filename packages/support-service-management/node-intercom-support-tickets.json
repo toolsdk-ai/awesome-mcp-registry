@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "intercom-support-tickets",
-  "description": "Integrates with Intercom's API to retrieve, filter, and analyze customer support tickets by date range, keywords, and status for efficient support monitoring and conversation history review.",
-  "url": "https://github.com/raoulbia-ai/mcp-server-for-intercom",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cb-insights",
-  "description": "Integrates with CB Insights' ChatCBI platform to provide direct access to market intelligence, company research, funding data, acquisitions, partnerships, and competitive analysis through conversational queries.",
-  "url": "https://github.com/cbinsights/cbi-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

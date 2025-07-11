@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-llmling",
-  "description": "Provides a YAML-based configuration system for LLM applications, enabling declarative setup of custom environments with resource management, tool execution, and prompt handling capabilities.",
-  "url": "https://github.com/phil65/mcp-server-llmling",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

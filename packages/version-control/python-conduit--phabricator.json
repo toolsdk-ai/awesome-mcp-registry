@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "conduit-(phabricator)",
-  "description": "Integrates with Phabricator and Phorge APIs to enable task management, code review operations, repository access, and project automation through the Conduit API with comprehensive error handling and secure authentication.",
-  "url": "https://github.com/mcpnow-io/conduit",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

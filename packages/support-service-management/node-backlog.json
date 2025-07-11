@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "backlog",
-  "description": "Integrates with Backlog project management API to enable issue creation and project management operations through TypeScript/Node.js endpoints that handle authentication and API communication.",
-  "url": "https://github.com/tmhr1850/backlog-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

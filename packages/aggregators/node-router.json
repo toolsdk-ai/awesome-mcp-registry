@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "router",
-  "description": "Aggregates multiple MCP resource servers into a unified proxy, enabling centralized access, request routing, and response aggregation.",
-  "url": "https://github.com/adamwattis/mcp-proxy-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

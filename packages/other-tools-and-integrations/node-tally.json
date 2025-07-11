@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tally",
-  "description": "Integrates with Tally's form building platform to create, manage, and analyze online forms with conditional logic, webhook configuration, and submission handling for automated survey and data collection workflows.",
-  "url": "https://github.com/cathrynlavery/tally-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

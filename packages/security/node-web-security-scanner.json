@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "web-security-scanner",
-  "description": "Enables automated web security testing for XSS and SQL injection vulnerabilities through Playwright-powered browser automation with screenshot capture and comprehensive error handling.",
-  "url": "https://github.com/9olidity/mcp-server-pentest",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

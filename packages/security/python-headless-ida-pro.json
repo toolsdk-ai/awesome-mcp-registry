@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "headless-ida-pro",
-  "description": "Enables reverse engineering of binary files through IDA Pro's headless mode, providing tools for function analysis, disassembly, decompilation, and code annotation for security research workflows.",
-  "url": "https://github.com/cnitlrt/headless-ida-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

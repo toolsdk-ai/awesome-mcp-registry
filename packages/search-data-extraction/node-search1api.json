@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "search1api",
-  "description": "Integrates with Search1API to enable web searches, website crawling, and content extraction with configurable parameters, featuring specialized tools for image search and integration with Coze AI for generating structured research plans.",
-  "url": "https://github.com/flow-product/doubao-search-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

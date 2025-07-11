@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@0xbeedao/mcp-taskwarrior",
-  "description": "Integrates with Taskwarrior to enable task management through adding, updating, deleting, and listing tasks with project organization and priority level support.",
-  "url": "https://github.com/0xbeedao/mcp-taskwarrior",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "test-runner",
-  "description": "Unifies test execution and result processing across multiple frameworks for streamlined cross-language testing and analysis.",
-  "url": "https://github.com/privsim/mcp-test-runner",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

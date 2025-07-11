@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mongodb-mysql-database",
-  "description": "Provides a unified interface for MySQL and MongoDB operations, enabling seamless interaction with both database systems through TypeScript and Node.js with flexible deployment options.",
-  "url": "https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

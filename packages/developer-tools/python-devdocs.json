@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "devdocs",
-  "description": "Integrates with software documentation sources to process, index, and retrieve technical content for enhanced code assistance and API exploration.",
-  "url": "https://github.com/llmian-space/devdocs-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

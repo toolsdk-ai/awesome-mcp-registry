@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wordle",
-  "description": "Fetches daily Wordle puzzle solutions from the New York Times API for any date between 2021-05-19 and 23 days into the future, enabling word pattern analysis and hint generation without spoiling the game experience.",
-  "url": "https://github.com/cr2007/mcp-wordle-go",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {}
-}

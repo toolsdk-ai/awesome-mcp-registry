@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vonage-assist",
-  "description": "Integrates with Vonage APIs to provide targeted documentation search and retrieval for developers implementing communication features like SMS, voice, verification, and video.",
-  "url": "https://github.com/micahman33/vonageaicodeassist",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "log-analyzer",
-  "description": "Debugging tool that retrieves, filters, and displays MCP logs from Claude desktop applications across macOS, Windows, and Linux for troubleshooting integration issues.",
-  "url": "https://github.com/klara-research/mcp-analyzer",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

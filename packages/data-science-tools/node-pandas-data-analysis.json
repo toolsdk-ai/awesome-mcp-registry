@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pandas-data-analysis",
-  "description": "Leverages pandas, numpy, and matplotlib to enable powerful data manipulation, statistical analysis, and visualization for data-driven projects.",
-  "url": "https://github.com/alistairwalsh/mcp_pandas",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

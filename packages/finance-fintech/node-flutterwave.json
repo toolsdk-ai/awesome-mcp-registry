@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "flutterwave",
-  "description": "Integrates with Flutterwave's payment processing API to enable creating payment links, verifying transactions, and resending failed webhooks for seamless payment processing within conversations.",
-  "url": "https://github.com/bajoski34/mcp-flutterwave",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

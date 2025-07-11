@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure-revisor",
-  "description": "Enables automated code review workflows in Azure DevOps by retrieving pull request diffs and creating inline comments using personal access tokens.",
-  "url": "https://github.com/mikhael-abdallah/mcp-revisor-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

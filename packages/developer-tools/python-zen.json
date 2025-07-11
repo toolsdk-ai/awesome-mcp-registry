@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "zen",
-  "description": "Give your development workflow access to all state of the art AI models for enhanced code analysis, problem-solving, and collaborative development.",
-  "url": "https://github.com/beehiveinnovations/zen-mcp-server",
-  "runtime": "python",
-  "license": "other",
-  "env": {}
-}

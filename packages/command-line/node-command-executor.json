@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "command-executor",
-  "description": "Enables secure execution of pre-approved system commands for automation tasks, system management, and controlled access to host resources.",
-  "url": "https://github.com/sunwood-ai-labs/command-executor-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

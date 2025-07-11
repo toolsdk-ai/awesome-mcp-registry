@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "servicenow",
-  "description": "Integrates with ServiceNow to enable incident management, user information retrieval, and knowledge base article access for automated IT service management and natural language interactions with ServiceNow data.",
-  "url": "https://github.com/michaelbuckner/servicenow-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

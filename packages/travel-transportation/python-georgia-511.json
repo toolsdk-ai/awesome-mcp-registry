@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "georgia-511",
-  "description": "Integrates with Georgia's 511 service to provide real-time traffic data, including information on cameras, signs, events, and road conditions for various applications and analyses.",
-  "url": "https://github.com/cpbrad31/mcp_ga_511",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

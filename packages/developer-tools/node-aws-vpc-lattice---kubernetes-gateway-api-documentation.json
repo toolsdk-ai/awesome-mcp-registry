@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aws-vpc-lattice-&-kubernetes-gateway-api-documentation",
-  "description": "Provides access to AWS VPC Lattice and Kubernetes Gateway API documentation sources with sample prompts for developers working with these technologies.",
-  "url": "https://github.com/rlymbur/amazon-vpc-lattice-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

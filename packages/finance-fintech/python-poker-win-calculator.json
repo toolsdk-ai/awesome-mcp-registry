@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "poker-win-calculator",
-  "description": "Calculates poker hand win probabilities through Monte Carlo simulations, providing strategic action recommendations based on statistical analysis of possible outcomes.",
-  "url": "https://github.com/watsonchua/poker_win_calculator",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cort-mcp",
-  "description": "Implements Chain-of-Recursive-Thoughts methodology that enhances reasoning by making models argue with themselves across multiple rounds, using multi-LLM inference for deeper problem-solving.",
-  "url": "https://github.com/kunihiros/cort-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

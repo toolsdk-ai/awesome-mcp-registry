@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-svelte-docs",
-  "description": "Integrates with Svelte documentation to enable efficient querying and retrieval of framework-specific content for development assistance.",
-  "url": "https://github.com/spences10/mcp-svelte-docs",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

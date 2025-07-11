@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudstack",
-  "description": "Enables natural language management of Apache CloudStack infrastructure, translating requests into API calls for VM deployment, resource management, and infrastructure operations without requiring direct API knowledge.",
-  "url": "https://github.com/walteh/cloudstack-mcp",
-  "runtime": "go",
-  "license": "apache-2.0",
-  "env": {}
-}

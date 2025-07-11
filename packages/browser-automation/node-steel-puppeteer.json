@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "steel-puppeteer",
-  "description": "Integrates Puppeteer with Steel SDK for browser automation, enabling complex web interactions and data extraction.",
-  "url": "https://github.com/steel-dev/steel-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

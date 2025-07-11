@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "opentelemetry-collector",
-  "description": "Provides a configuration interface for OpenTelemetry Collectors, enabling dynamic management of telemetry components with complete schema definitions for receivers, processors, and exporters.",
-  "url": "https://github.com/mottibec/otelcol-mcp",
-  "runtime": "node",
-  "license": "gpl-3.0",
-  "env": {}
-}

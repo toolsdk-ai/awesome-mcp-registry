@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "juce-docs",
-  "description": "Parses JUCE Framework HTML documentation from Stanford CCRMA's website, converting class details into markdown-formatted resources for developers to easily search and retrieve C++ class information.",
-  "url": "https://github.com/josmithiii/mcp-servers-jos/tree/HEAD/juce-docs-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

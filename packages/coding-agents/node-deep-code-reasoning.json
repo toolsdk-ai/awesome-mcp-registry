@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deep-code-reasoning",
-  "description": "Enables intelligent routing between Claude and Google's Gemini AI for complementary code analysis, leveraging Gemini's 1M token context window for large codebase analysis while Claude handles local operations, with conversational AI-to-AI dialogue capabilities for multi-turn problem-solving sessions.",
-  "url": "https://github.com/haasonsaas/deep-code-reasoning-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

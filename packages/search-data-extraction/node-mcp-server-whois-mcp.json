@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@mcp-server/whois-mcp",
-  "description": "Provides a lightweight server for performing WHOIS lookups using the whoiser library, enabling retrieval of domain registration and ownership information through TypeScript-based type-safe queries.",
-  "url": "https://github.com/modelcontextprotocol-servers/whois-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

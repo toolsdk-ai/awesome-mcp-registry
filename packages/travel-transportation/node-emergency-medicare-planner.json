@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "emergency-medicare-planner",
-  "description": "Integrates with Google Maps to locate and evaluate medical facilities in emergencies, providing tools for facility search, route calculation, and availability checking within a 10km radius, while implementing sequential thinking for step-by-step clinical reasoning and accurate facility matching based on patient data.",
-  "url": "https://github.com/manolaz/emergency-medicare-planner-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

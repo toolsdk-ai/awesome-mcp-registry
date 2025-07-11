@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "software-planning",
-  "description": "Enables systematic software project planning by breaking down complex tasks into manageable components, defining project structures, and creating implementation roadmaps through a Python-based FastMCP framework deployable via Docker or locally.",
-  "url": "https://github.com/jo-lion/software-planning-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

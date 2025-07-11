@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "biorxiv",
-  "description": "Provides a specialized interface for searching and retrieving bioRxiv scientific articles through keyword-based searching, advanced parameter filtering, and DOI metadata retrieval using Python's asyncio for asynchronous processing.",
-  "url": "https://github.com/jackkuo666/biorxiv-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

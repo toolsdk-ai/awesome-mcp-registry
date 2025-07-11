@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-perplexity",
-  "description": "Get chat completions with citations from Perplexity API.",
-  "url": "https://github.com/tanigami/mcp-server-perplexity",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

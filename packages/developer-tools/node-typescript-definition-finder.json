@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "typescript-definition-finder",
-  "description": "Provides TypeScript symbol definition lookup by leveraging the TypeScript Language Service to locate original definitions of imported symbols, classes, interfaces, and functions with precise file locations and code snippets.",
-  "url": "https://github.com/runninghare/ts-def-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

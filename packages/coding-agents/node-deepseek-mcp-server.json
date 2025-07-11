@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deepseek-mcp-server",
-  "description": "Integrates DeepSeek's language models, enabling AI-powered chat completions with customizable parameters for tasks like writing assistance and code generation.",
-  "url": "https://github.com/dmontgomery40/deepseek-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

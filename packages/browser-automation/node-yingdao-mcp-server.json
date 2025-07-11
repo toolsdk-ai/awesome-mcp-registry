@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "yingdao-mcp-server",
-  "description": "Bridges AI with Yingdao RPA platform to automate business processes through local and cloud-based robotic process automation applications.",
-  "url": "https://github.com/ying-dao/yingdao_mcp_server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

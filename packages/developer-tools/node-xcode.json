@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "xcode",
-  "description": "Integrates with Xcode to streamline iOS development workflows, automate build processes, and facilitate code generation for efficient app creation.",
-  "url": "https://github.com/r-huijts/xcode-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fledge-iot",
-  "description": "Bridges the Fledge IoT platform with natural language interfaces for sensor data access, system management, and real-time visualization through WebSocket streaming and containerized deployment.",
-  "url": "https://github.com/krupalp525/fledge-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

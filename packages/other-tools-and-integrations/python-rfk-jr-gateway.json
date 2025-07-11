@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rfk-jr-gateway",
-  "description": "Bridges campaign tools and data to enable dynamic tool registration, endpoint discovery, and information retrieval for RFK Jr's presidential campaign.",
-  "url": "https://github.com/voitta-ai/mcp-voitta-gateway",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

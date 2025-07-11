@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gemsuite-(google-gemini)",
-  "description": "Integrates with Google's Gemini API through specialized tools for search, reasoning, processing, and file analysis, automatically selecting optimal models based on content type.",
-  "url": "https://github.com/pv-bhat/gemsuite-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

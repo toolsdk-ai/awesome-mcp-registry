@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sqlite-database",
-  "description": "Provides a secure interface for executing validated SELECT queries on SQLite databases, enabling direct data analysis within conversation workflows.",
-  "url": "https://github.com/santos-404/mcp-server.sqlite",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

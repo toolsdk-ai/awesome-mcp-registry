@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fetch-mcp",
-  "description": "Fetches web content and YouTube video transcripts, converting HTML to Markdown and extracting timestamps for reference in conversations.",
-  "url": "https://github.com/egoist/fetch-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

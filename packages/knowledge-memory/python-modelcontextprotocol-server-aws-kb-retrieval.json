@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-aws-kb-retrieval",
-  "description": "Query and retrieve information from AWS knowledge bases using the Bedrock Agent Runtime.",
-  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/aws-kb-retrieval-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

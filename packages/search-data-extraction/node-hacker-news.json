@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "hacker-news",
-  "description": "Fetches and parses Hacker News stories using Cheerio, enabling tech news aggregation and trend analysis.",
-  "url": "https://github.com/pskill9/hn-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

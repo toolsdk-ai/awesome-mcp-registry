@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "coding-assistant",
-  "description": "Enhances coding capabilities by providing context-aware suggestions and documentation integration through code analysis, technology detection, and intelligent completion.",
-  "url": "https://github.com/avioflagos/mcp-coding-assistant",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

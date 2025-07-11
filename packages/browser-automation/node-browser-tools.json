@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "browser-tools",
-  "description": "Integrates with Chrome DevTools to provide browser debugging capabilities including console logs, network requests, screenshots, DOM inspection, and Lighthouse audits for web development without leaving the assistant interface.",
-  "url": "https://github.com/sugatraj/cursor-browser-tools-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

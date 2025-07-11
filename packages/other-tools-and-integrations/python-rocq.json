@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rocq",
-  "description": "Integrates the Coq proof assistant with natural language inputs to enable automated dependent type checking, inductive type definition, and property proving for formal verification and theorem proving tasks.",
-  "url": "https://github.com/angrysky56/mcp-rocq",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

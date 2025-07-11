@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cosense",
-  "description": "Integrates with cosense to enable retrieval and analysis of project pages for knowledge base querying and collaborative document processing.",
-  "url": "https://github.com/yosider/cosense-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

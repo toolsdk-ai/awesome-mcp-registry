@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "blender-open-mcp",
-  "description": "Integrates Blender with local AI models via Ollama, enabling natural language control of 3D modeling tasks including object creation, modification, material application, and rendering with optional PolyHaven asset integration.",
-  "url": "https://github.com/dhakalnirajan/blender-open-mcp",
-  "runtime": "python",
-  "license": "other",
-  "env": {}
-}

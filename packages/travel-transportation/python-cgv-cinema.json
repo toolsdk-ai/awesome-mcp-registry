@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cgv-cinema",
-  "description": "Integrates with CGV Cinema's API to provide movie showtimes, cinema locations, and seat availability information for planning cinema outings through conversational interfaces.",
-  "url": "https://github.com/t-rekttt/cgv-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

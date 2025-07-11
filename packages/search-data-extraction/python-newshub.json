@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "newshub",
-  "description": "Provides real-time access to news articles from various RSS feeds with tools for listing feeds, retrieving latest news by category, searching across all content, and fetching specific article details.",
-  "url": "https://github.com/ltejedor/newsfeed-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

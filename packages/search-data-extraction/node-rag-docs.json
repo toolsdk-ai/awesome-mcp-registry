@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rag-docs",
-  "description": "Integrates semantic search and retrieval of documentation using a vector database (Qdrant), enabling efficient access to large document collections.",
-  "url": "https://github.com/qpd-v/mcp-ragdocs",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

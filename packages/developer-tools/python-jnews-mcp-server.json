@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jnews-mcp-server",
-  "description": "Lightweight Python FastAPI server implementation for streamlined server-side interactions, using modern tooling like uv for dependency management and GitHub Actions for automated testing and deployment.",
-  "url": "https://github.com/juhemcp/jnews-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

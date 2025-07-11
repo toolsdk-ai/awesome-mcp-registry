@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "toast-notifications",
-  "description": "Provides cross-platform desktop notifications for important events or task completions using native Windows and macOS APIs.",
-  "url": "https://github.com/naru-sensei/-toast-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tox-testing",
-  "description": "Executes tox commands to run tests within a project using the project's tox.ini",
-  "url": "https://github.com/that1guy15/tox-testing",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "code-expert-review",
-  "description": "Provides expert-level code review through simulated personas like Martin Fowler and Uncle Bob, offering refactoring suggestions and clean code recommendations based on established software engineering principles.",
-  "url": "https://github.com/tomsiwik/mcp-experts",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

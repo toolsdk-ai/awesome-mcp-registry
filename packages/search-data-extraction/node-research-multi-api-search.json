@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "research-multi-api-search",
-  "description": "Combines multiple search APIs (Brave Search, Tavily Search, and Wikipedia) to intelligently route queries based on classification, providing web search capabilities with automatic categorization, parallel execution, and result deduplication.",
-  "url": "https://github.com/riii111/researchmcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure-fhir-mcp-server",
-  "description": "Provides secure access to Azure Health Data Services FHIR servers, enabling authenticated retrieval and search of healthcare resources across 70+ resource types for medical applications requiring standards-compliant patient data access.",
-  "url": "https://github.com/erikhoward/azure-fhir-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

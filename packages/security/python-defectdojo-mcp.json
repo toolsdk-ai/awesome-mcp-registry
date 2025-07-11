@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "defectdojo-mcp",
-  "description": "Bridges to the DefectDojo vulnerability management system, enabling interaction with security findings, products, and engagements for streamlined security workflow integration.",
-  "url": "https://github.com/jamiesonio/defectdojo-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

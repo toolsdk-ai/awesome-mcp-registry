@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "devin",
-  "description": "Integrates with Slack to enable seamless team collaboration through automated session management, thread context preservation, and channel-based conversations",
-  "url": "https://github.com/kazuph/mcp-devin",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

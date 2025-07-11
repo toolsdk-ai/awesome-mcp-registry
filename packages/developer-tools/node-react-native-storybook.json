@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "react-native-storybook",
-  "description": "Integrates with Storybook to enable retrieval and management of stories from specified configuration directories, facilitating AI-assisted story handling in React Native projects.",
-  "url": "https://github.com/dannyhw/mcp-storybook",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

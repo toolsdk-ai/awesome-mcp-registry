@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-wait-timer",
-  "description": "Introduces deliberate pauses into workflows, ensuring time-dependent operations like web page rendering, background processes, or API calls have sufficient time to complete before proceeding to subsequent steps.",
-  "url": "https://github.com/199-mcp/mcp-wait-timer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

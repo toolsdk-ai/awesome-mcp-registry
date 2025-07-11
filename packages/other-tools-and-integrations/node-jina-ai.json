@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jina-ai",
-  "description": "Integrates with Jina's AI services to provide efficient handling of language and multimodal AI requests for applications requiring natural language processing and image analysis.",
-  "url": "https://github.com/sheshiyer/jina-ai-mcp-multimodal-search",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

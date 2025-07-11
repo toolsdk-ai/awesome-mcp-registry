@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "joomla-articles",
-  "description": "Enables AI to create, update, and manage Joomla website articles through specialized tools for retrieving content, converting markdown to HTML, and controlling publication states via the Joomla Web Services API.",
-  "url": "https://github.com/nasoma/joomla-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

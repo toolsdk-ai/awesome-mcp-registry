@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "unreal-engine-analyzer",
-  "description": "Analyzes Unreal Engine codebases, enabling deep insights into class hierarchies, subsystems, and game patterns.",
-  "url": "https://github.com/ayeletstudioindia/unreal-analyzer-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

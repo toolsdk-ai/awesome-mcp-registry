@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "crawl4ai-rag",
-  "description": "Integrates web crawling with RAG functionality to enable website content retrieval, storage in vector databases, and semantic searching over crawled data for enhanced knowledge access",
-  "url": "https://github.com/coleam00/mcp-crawl4ai-rag",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

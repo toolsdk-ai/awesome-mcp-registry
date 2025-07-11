@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@zealgeo/mcp-geo-server",
-  "description": "Provides geospatial calculation capabilities for coordinate conversion and spatial analysis, enabling GIS applications and geometry processing without complex algorithm implementation.",
-  "url": "https://github.com/nodegis/geo-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

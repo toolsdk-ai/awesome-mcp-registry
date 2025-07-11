@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "naver-maps",
-  "description": "Integrates with Naver Maps and Search APIs to provide accurate geocoding and local information retrieval services specifically optimized for Korean locations",
-  "url": "https://github.com/yunkee-lee/mcp-naver-maps",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

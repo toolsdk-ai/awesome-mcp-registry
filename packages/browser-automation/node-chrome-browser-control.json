@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "chrome-browser-control",
-  "description": "Enables fine-grained control over Chrome browser instances through the Chrome DevTools Protocol, allowing web navigation, element interaction, text input, and content extraction with automatic handling of dynamic content.",
-  "url": "https://github.com/lxe/chrome-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

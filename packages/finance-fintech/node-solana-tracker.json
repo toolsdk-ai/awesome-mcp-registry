@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-tracker",
-  "description": "Provides real-time Solana token tracking and comprehensive blockchain analytics by exposing extensive data retrieval capabilities through the Solana Tracker API.",
-  "url": "https://github.com/8bitsats/solana_tracker_mcp_server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

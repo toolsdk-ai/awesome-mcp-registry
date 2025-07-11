@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memory-cache",
-  "description": "Implements an efficient in-memory caching layer, reducing token consumption and optimizing repeated data access patterns in workflows.",
-  "url": "https://github.com/tosin2013/mcp-memory-cache-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "n8n-workflow-automation",
-  "description": "Enables AI to create, manage, and execute n8n workflows using natural language commands for automating complex business processes without requiring technical knowledge of n8n's internal APIs.",
-  "url": "https://github.com/jacob-dietle/n8n-mcp-sse",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

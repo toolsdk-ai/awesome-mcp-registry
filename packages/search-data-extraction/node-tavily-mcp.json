@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tavily-mcp",
-  "description": "Integrates with Tavily API to provide real-time web search and content extraction capabilities for research, aggregation, and fact-checking tasks.",
-  "url": "https://github.com/tavily-ai/tavily-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

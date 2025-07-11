@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "trivy-security-scanner",
-  "description": "Integrates with Trivy to provide vulnerability scanning and automated remediation for projects across multiple programming languages and package managers.",
-  "url": "https://github.com/norbinsh/cursor-mcp-trivy",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

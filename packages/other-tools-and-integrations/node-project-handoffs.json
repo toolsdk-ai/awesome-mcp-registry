@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "project-handoffs",
-  "description": "Coordinates workflows across multiple sessions or models to maintain context and enable seamless handoffs for complex, multi-stage processes.",
-  "url": "https://github.com/davidorex/project-handoffs",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

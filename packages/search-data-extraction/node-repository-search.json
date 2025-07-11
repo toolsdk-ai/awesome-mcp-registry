@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "repository-search",
-  "description": "Provides efficient file search functionality within repositories, respecting ignore patterns and offering configurable text content matching for development tools and applications.",
-  "url": "https://github.com/happyzym/mcp-server-reposearch",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

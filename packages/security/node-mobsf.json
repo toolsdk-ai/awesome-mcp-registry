@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mobsf",
-  "description": "Integrates with MobSF (Mobile Security Framework) to provide automated mobile application security analysis for APK, IPA, and APPX files with vulnerability scanning, detailed reporting, and comparative analysis capabilities.",
-  "url": "https://github.com/cc-apk/mobsf-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

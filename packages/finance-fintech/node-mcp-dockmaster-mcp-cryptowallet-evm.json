@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@mcp-dockmaster/mcp-cryptowallet-evm",
-  "description": "Enables direct interaction with Ethereum and EVM-compatible blockchains for wallet creation, balance checking, transaction sending, and smart contract operations through ethers.js v5.",
-  "url": "https://github.com/dcspark/mcp-cryptowallet-evm",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

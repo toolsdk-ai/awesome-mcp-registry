@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "think_mcp",
-  "description": "Provides a lightweight 'think' tool for structured reasoning, enabling LLMs to pause, log thoughts, and improve multi-step problem solving without obtaining new information.",
-  "url": "https://github.com/rai220/think-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

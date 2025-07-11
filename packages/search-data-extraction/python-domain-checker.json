@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "domain-checker",
-  "description": "Provides domain research capabilities through multiple free APIs for domain availability checks, WHOIS lookups via RDAP protocol, DNS record retrieval, SSL certificate analysis, and expired domain discovery from sources like DomainsDB and SnapNames.",
-  "url": "https://github.com/rinadelph/domain-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

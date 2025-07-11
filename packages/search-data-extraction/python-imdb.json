@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "imdb",
-  "description": "Bridges to the IMDb API for searching movies and TV shows, retrieving detailed information about titles, and accessing curated lists like top-rated films or upcoming releases.",
-  "url": "https://github.com/uzaysozen/imdb-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "goose-fm-radio",
-  "description": "Integrates with RTL-SDR hardware to enable FM radio tuning, playback control, and audio analysis for smart home and voice-controlled applications.",
-  "url": "https://github.com/mccartykim/goose_fm",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

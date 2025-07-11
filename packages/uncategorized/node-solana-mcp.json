@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-mcp",
-  "description": "Enables blockchain interactions on Solana by providing a comprehensive server for asset retrieval, token deployment, wallet management, transfers, NFT minting, and domain resolution.",
-  "url": "https://github.com/sendaifun/solana-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

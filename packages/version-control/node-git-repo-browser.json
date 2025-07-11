@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "git-repo-browser",
-  "description": "Integrates with Git repositories to provide efficient, deterministic access for retrieving directory structures and file contents without local cloning",
-  "url": "https://github.com/razorback16/mcp-git-repo-browser",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

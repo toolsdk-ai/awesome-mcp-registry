@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "alchemy-blockchain-api",
-  "description": "Integrates with Alchemy's blockchain APIs to enable querying token prices, NFT ownership, transaction history, and token balances across multiple blockchain networks without writing code.",
-  "url": "https://github.com/alchemyplatform/alchemy-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

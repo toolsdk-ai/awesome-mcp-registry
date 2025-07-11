@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vnc-remote-control-for-macos",
-  "description": "Provides secure remote control of macOS machines through VNC protocol, enabling screenshot capture and desktop interaction with mouse and keyboard inputs for remote administration or automated testing.",
-  "url": "https://github.com/baryhuang/mcp-remote-macos-use",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pluggable-knowledge-graph-memory",
-  "description": "Provides a pluggable knowledge graph memory server for flexible storage and retrieval within compatible systems, offering enhanced customization through TypeScript-based architecture.",
-  "url": "https://github.com/izumisy/mcp-duckdb-memory-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

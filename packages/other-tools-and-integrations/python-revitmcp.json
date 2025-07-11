@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "revitmcp",
-  "description": "Enables AI to interact directly with Revit models, allowing natural language querying, element creation, and complex model manipulation for architects and engineers.",
-  "url": "https://github.com/oakplank/revitmcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

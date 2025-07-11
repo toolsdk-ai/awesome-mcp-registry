@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "meta-prompting",
-  "description": "Transforms language models into dynamic multi-agent systems where the model alternates between a Conductor role that breaks down complex problems into subtasks and specialized Expert roles that execute each subtask, enabling structured multi-perspective reasoning and self-critique for robust problem-solving workflows.",
-  "url": "https://github.com/tisu19021997/meta-prompt-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

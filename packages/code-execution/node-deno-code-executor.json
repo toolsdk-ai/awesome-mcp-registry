@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "deno-code-executor",
-  "description": "Executes TypeScript and JavaScript code in isolated Deno processes with configurable permissions for secure sandboxed code testing, educational programming assistance, and automated script execution.",
-  "url": "https://github.com/alexcong/deno-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

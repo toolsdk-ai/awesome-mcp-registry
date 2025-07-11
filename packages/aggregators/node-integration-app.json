@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "integration.app",
-  "description": "Integrates with Integration App's API to expose workflow automation capabilities as tools for triggering and managing complex business processes.",
-  "url": "https://github.com/integration-app/mcp-server",
-  "runtime": "node",
-  "license": "isc",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "volatility-3-memory-forensics",
-  "description": "Integrates the Volatility 3 memory forensics framework with Claude and other MCP-compatible LLMs.",
-  "url": "https://github.com/bornpresident/volatility-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

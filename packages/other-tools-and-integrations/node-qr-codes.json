@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "qr-codes",
-  "description": "Generates QR codes.",
-  "url": "https://github.com/1595901624/qrcode-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

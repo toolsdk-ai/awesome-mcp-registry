@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mattermost-fetch",
-  "description": "Web scraping server that fetches and processes web content with robust features like robots.txt compliance, LRU caching, and markdown conversion, supporting both autonomous and manual content retrieval modes.",
-  "url": "https://github.com/kakehashi-inc/mcp-server-mattermost",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "clipboard-image",
-  "description": "Enables access to macOS clipboard images for quick visual analysis without manual file uploads",
-  "url": "https://github.com/oxplot/clipboard-mcp",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {}
-}

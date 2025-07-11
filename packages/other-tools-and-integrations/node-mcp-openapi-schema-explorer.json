@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-openapi-schema-explorer",
-  "description": "Provides token-efficient access to OpenAPI and Swagger specifications through URI-based references, allowing exploration of API structures without loading entire specs into context windows.",
-  "url": "https://github.com/kadykov/mcp-openapi-schema-explorer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

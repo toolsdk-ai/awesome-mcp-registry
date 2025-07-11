@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "s3-tools",
-  "description": "Integrates with AWS S3 to enable bucket listing and management, facilitating cloud storage operations for applications requiring file organization or content delivery.",
-  "url": "https://github.com/sofianhamiti/mcp-server-s3",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

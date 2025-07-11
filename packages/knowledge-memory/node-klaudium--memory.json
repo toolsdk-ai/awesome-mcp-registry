@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "klaudium-(memory)",
-  "description": "Manages knowledge graphs with dynamic compression and intelligent querying capabilities for efficient information retrieval and reasoning.",
-  "url": "https://github.com/milosbastaja/mcp-klaudium",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

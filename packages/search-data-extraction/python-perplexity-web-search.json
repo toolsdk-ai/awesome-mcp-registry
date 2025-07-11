@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "perplexity-web-search",
-  "description": "Integrates with the Perplexity API to provide web search functionality, enabling real-time information retrieval with time-based filtering and result summarization.",
-  "url": "https://github.com/nachoal/perplexity-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

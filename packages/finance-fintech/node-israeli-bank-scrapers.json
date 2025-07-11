@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "israeli-bank-scrapers",
-  "description": "Connects to Israeli banking data for secure access to transactions from all major Israeli banks and credit card companies, enabling financial analysis and expense tracking across multiple institutions.",
-  "url": "https://github.com/mottibec/israeli-bank-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

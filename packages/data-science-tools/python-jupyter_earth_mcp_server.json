@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jupyter_earth_mcp_server",
-  "description": "Bridges Jupyter notebooks with Earth science data analysis by enabling direct NASA Earth Data granule downloads with temporal and geographic filtering capabilities.",
-  "url": "https://github.com/datalayer/jupyter-earth-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

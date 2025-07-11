@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "etoro-portfolio",
-  "description": "Integrates with eToro's API to fetch financial portfolios, instrument details, and search capabilities for investment analysis and portfolio tracking without CORS restrictions.",
-  "url": "https://github.com/shlomico-tr/etoroportfoliomcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cat-facts-mcp",
-  "description": "Connects to the Layer API service to provide cat facts through a stdio transport server built with the MCP SDK.",
-  "url": "https://github.com/opticayaan/cat-facts-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

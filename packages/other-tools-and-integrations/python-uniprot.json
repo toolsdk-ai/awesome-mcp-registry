@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "uniprot",
-  "description": "Integrates with UniProt API to provide cached protein information for bioinformatics applications and protein research.",
-  "url": "https://github.com/takumiy235/uniprot-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

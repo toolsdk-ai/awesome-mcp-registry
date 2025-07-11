@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "markdown-to-pdf-converter",
-  "description": "Converts Markdown to styled PDFs, enabling creation of visually appealing documents with code highlighting and typography.",
-  "url": "https://github.com/seanivore/convert-markdown-pdf-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "arista-cloudvision",
-  "description": "Enables Claude to interact with Arista CloudVision for network management tasks including device inventory, system events, connectivity monitoring, and tag creation through conversational prompts.",
-  "url": "https://github.com/noredistribution/mcp-cvp-fun",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

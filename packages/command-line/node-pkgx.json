@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pkgx",
-  "description": "Provides secure access to thousands of open-source command-line tools through pkgx, executing commands in a sandboxed environment that prevents unauthorized filesystem modifications.",
-  "url": "https://github.com/pkgxdev/mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

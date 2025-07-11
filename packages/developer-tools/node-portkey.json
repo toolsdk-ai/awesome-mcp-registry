@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "portkey",
-  "description": "Provides a comprehensive administrative interface for managing Portkey AI platform users, workspaces, configurations, and cost analytics through a TypeScript-based management API",
-  "url": "https://github.com/r-huijts/portkey-admin-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

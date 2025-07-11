@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "darp-engine",
-  "description": "Enables discovery and intelligent routing of user requests to the most appropriate MCP servers through metadata-based search capabilities, eliminating the need to know specific server connections.",
-  "url": "https://github.com/darpai/darp_engine",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

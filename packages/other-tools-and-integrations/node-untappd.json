@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "untappd",
-  "description": "Integrates with the Untappd API to enable beer search, detailed information retrieval, and user check-in access for beer-related data analysis and retrieval.",
-  "url": "https://github.com/jtucker/mcp-untappd-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

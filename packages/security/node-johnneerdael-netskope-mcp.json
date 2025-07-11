@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@johnneerdael/netskope-mcp",
-  "description": "Integrates with Netskope API to manage private access infrastructure, enabling automated publisher lifecycle, app configuration, policy creation, and traffic diagnostics.",
-  "url": "https://github.com/johnneerdael/netskope-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

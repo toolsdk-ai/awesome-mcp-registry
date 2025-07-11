@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "grumpydev-mcp",
-  "description": "Provides brutally honest, sarcastic code reviews from a simulated grumpy senior developer with 40+ years of experience, highlighting mistakes, inefficiencies, and bad practices.",
-  "url": "https://github.com/sinedied/grumpydev-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

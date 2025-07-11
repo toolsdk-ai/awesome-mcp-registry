@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "verodat",
-  "description": "Integrates Verodat's data management platform with AI systems, enabling dataset operations, custom schema creation, and AI-powered queries for enhanced data analysis and validation.",
-  "url": "https://github.com/verodat/verodat-mcp-server",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

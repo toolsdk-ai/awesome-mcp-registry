@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "filesystem",
-  "description": "Secure filesystem operations server that provides controlled access to files and directories with robust path validation and essential management capabilities.",
-  "url": "https://github.com/wayazi/mcp_file_system",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

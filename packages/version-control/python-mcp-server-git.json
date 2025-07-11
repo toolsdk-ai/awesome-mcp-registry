@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-git",
-  "description": "Interact with local Git repositories for version control tasks.",
-  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/git",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

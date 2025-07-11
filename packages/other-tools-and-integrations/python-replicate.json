@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "replicate",
-  "description": "Integrates with Replicate to provide access to AI models for image generation, with features like parameter customization and output resizing.",
-  "url": "https://github.com/tzafrir/mcp-server-replicate",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

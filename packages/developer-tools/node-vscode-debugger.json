@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vscode-debugger",
-  "description": "Integrates with VS Code's debugging capabilities to enable interactive code debugging and expression evaluation.",
-  "url": "https://github.com/jasonjmcghee/claude-debugs-for-you",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

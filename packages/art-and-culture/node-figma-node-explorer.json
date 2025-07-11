@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "figma-node-explorer",
-  "description": "Integrates with the Figma API to extract and analyze design file structures, enabling exploration of node hierarchies and supporting design system management workflows.",
-  "url": "https://github.com/moonray/mcp-figma",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

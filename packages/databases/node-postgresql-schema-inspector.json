@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "postgresql-schema-inspector",
-  "description": "Provides read-only access to PostgreSQL databases for schema inspection and data exploration without modifying content.",
-  "url": "https://github.com/vinsidious/mcp-pg-schema",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

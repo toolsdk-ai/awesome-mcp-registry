@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "node.js-code-sandbox",
-  "description": "Executes Node.js code in isolated Docker containers with automatic dependency management, file system persistence, and resource monitoring for safe code experimentation and testing.",
-  "url": "https://github.com/mozicim/node-code-sandbox-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

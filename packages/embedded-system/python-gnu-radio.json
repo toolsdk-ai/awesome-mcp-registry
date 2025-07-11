@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gnu-radio",
-  "description": "Enables direct access to GNU Radio's signal processing capabilities for creating, manipulating, and validating radio flowgraphs without leaving your conversation context.",
-  "url": "https://github.com/yoelbassin/gr-mcp",
-  "runtime": "python",
-  "license": "gpl-3.0",
-  "env": {}
-}

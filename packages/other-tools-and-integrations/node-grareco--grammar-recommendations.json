@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "grareco-(grammar-recommendations)",
-  "description": "Provides real-time grammar correction and recommendations through specialized prompts and Server-Sent Events, enabling seamless text improvement without context switching.",
-  "url": "https://github.com/iuill/mcp_grareco",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

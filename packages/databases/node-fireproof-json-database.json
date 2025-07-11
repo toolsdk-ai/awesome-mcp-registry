@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fireproof-json-database",
-  "description": "Integrates Fireproof JSON document databases with the Model Context Protocol, enabling CRUD operations and querying across multiple decentralized databases for scalable data management.",
-  "url": "https://github.com/jimpick/mcp-json-db-collection-server",
-  "runtime": "node",
-  "license": "other",
-  "env": {}
-}

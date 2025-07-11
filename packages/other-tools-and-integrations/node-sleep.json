@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sleep",
-  "description": "Provides a simple sleep/wait tool for introducing timed delays between operations, enabling scenarios like API call spacing and time-dependent process simulation.",
-  "url": "https://github.com/garoth/sleep-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

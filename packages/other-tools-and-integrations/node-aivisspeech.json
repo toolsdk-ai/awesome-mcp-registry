@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aivisspeech",
-  "description": "Enables AI systems to generate and play speech audio from text input through the AivisSpeech API, with configurable speaker settings for voice output applications.",
-  "url": "https://github.com/kentaro/aivis-speech-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

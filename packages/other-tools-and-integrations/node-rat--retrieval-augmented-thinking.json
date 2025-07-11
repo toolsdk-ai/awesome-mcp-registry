@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rat-(retrieval-augmented-thinking)",
-  "description": "Combines DeepSeek's analysis with multiple response models to enhance AI conversation quality through structured two-stage reasoning.",
-  "url": "https://github.com/newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

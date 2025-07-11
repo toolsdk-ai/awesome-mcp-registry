@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "microsoft-todo",
-  "description": "Integrates with Microsoft Todo through Graph API, enabling natural language task management including viewing lists, creating tasks with due dates, and managing checklist items with automatic token refresh.",
-  "url": "https://github.com/jhirono/todomcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

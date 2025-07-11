@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@magnetai/free-usdc-transfer",
-  "description": "Enables feeless USDC transfers on the Base blockchain through Coinbase CDP's MPC wallet integration, providing secure wallet creation and cryptocurrency transactions without gas fees.",
-  "url": "https://github.com/magnetai/mcp-free-usdc-transfer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

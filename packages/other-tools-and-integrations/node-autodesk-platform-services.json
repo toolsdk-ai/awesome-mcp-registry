@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "autodesk-platform-services",
-  "description": "Provides secure access to Autodesk Platform Services API for architecture, engineering, and construction workflows, enabling interaction with projects, documents, and construction issues through a Node.js-based server with fine-grained access control.",
-  "url": "https://github.com/petrbroz/aps-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

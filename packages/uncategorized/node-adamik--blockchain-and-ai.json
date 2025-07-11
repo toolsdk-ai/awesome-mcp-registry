@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "adamik-(blockchain-and-ai)",
-  "description": "Integrates with the Adamik API to enable blockchain operations and custom AI functionalities via Starknet, supporting secure API key management and efficient request handling.",
-  "url": "https://github.com/adamikhq/adamik-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

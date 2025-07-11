@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tecton",
-  "description": "Integrates with Tecton clusters to enable feature store management, workspace listing, and configuration retrieval for data scientists and engineers.",
-  "url": "https://github.com/tecton-ai/tecton-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

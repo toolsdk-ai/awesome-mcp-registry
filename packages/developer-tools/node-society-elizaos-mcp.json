@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "society-elizaos-mcp",
-  "description": "Connects Cursor IDE to ElizaOS agents through a local server, enabling developers to list, select, and chat with agents without leaving their coding environment.",
-  "url": "https://github.com/wearesociety/elizaos_mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

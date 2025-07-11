@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kevodb",
-  "description": "Provides a standardized key-value database interface for persistent storage with transaction support, enabling read, write, and query operations on structured data",
-  "url": "https://github.com/kevodb/kevo-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

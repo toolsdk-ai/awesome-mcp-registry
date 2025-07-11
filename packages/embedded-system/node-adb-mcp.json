@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "adb-mcp",
-  "description": "Bridges AI with Android devices through ADB, enabling device management, shell commands, app installation, file transfers, and UI inspection without requiring direct ADB knowledge.",
-  "url": "https://github.com/srmorete/adb-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

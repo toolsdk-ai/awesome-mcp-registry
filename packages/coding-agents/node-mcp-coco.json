@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-coco",
-  "description": "MCP-Coco provides a pair programming tool that guides technical discussions by transforming code snippets into structured frameworks for critical inquiry about performance, security, and maintainability.",
-  "url": "https://github.com/disdjj/mcp-coco",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

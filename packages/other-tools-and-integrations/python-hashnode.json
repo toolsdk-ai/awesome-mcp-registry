@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "hashnode",
-  "description": "Create, update, and search Hashnode articles directly through Claude or other MCP clients.",
-  "url": "https://github.com/sbmagar13/hashnode-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

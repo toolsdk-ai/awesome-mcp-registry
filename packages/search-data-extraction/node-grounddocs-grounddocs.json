@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@grounddocs/grounddocs",
-  "description": "Provides source-verified documentation lookup for Python libraries and Kubernetes resources, retrieving accurate, version-specific information from authoritative sources rather than potentially hallucinated content.",
-  "url": "https://github.com/grounddocs/grounddocs",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

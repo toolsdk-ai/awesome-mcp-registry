@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "searxng-simple-mcp",
-  "description": "Integrates with SearxNG privacy-focused search engine to provide web search capabilities with customizable parameters like result count, language, and time range.",
-  "url": "https://github.com/sacode/searxng-simple-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

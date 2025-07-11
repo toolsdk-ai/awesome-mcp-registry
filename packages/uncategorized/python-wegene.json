@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wegene",
-  "description": "Integrates with WeGene's genetic testing API to access and analyze users' genetic reports for personalized health and ancestry insights.",
-  "url": "https://github.com/xraywu/mcp-wegene-assistant",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

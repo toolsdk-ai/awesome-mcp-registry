@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "terragrunt-documentation",
-  "description": "Provides direct access to Terragrunt documentation and GitHub issues through a Deno/TypeScript server that fetches content from the official repository with fuzzy matching and normalized responses.",
-  "url": "https://github.com/excoriate/mcp-terragrunt-docs",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

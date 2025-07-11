@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "healthcare-data-hub",
-  "description": "Provides healthcare professionals and researchers with access to medical information through specialized tools for FDA drug lookups, PubMed searches, Health.gov topics, clinical trials, and ICD-10 codes.",
-  "url": "https://github.com/cicatriiz/healthcare-mcp-public",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "apollo.io",
-  "description": "Integrates with Apollo.io's API to enable access to sales intelligence data, including contact enrichment, company information, and job listings for sales teams and recruiters.",
-  "url": "https://github.com/lkm1developer/apollo-io-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

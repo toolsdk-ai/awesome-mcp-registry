@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@melaodoidao/datagov-mcp-server",
-  "description": "Integrates with Data.gov to enable searching, retrieving, and accessing U.S. government datasets for data-driven analysis and research projects.",
-  "url": "https://github.com/melaodoidao/datagov-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

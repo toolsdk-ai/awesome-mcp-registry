@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "log-analyzer-with-cloudwatch-logs",
-  "description": "Provides structured access to CloudWatch Logs data for searching, analyzing, and correlating logs across AWS services to help with troubleshooting and pattern identification.",
-  "url": "https://github.com/awslabs/log-analyzer-with-mcp",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

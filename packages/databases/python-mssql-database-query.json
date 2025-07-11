@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mssql-database-query",
-  "description": "Enables direct SQL query execution against MSSQL databases through a FastMCP-powered server with Docker containerization for seamless data analysis and manipulation.",
-  "url": "https://github.com/verssae/dbmcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "universal-robots-control-interface",
-  "description": "Provides a bridge to Universal Robots industrial robots through TCP/IP interfaces, enabling control and monitoring of robot operations including force mode, remote servoj, and kinematic transformations for automation and research applications.",
-  "url": "https://github.com/nonead/nonead-universal-robots-mcp",
-  "runtime": "python",
-  "license": "other",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "browse-together-(playwright)",
-  "description": "A co-browser controlled by both you and your AI assistant",
-  "url": "https://github.com/canadaduane/browse-together-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

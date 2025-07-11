@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "quantconnect-mcp",
-  "description": "Integrates with QuantConnect's quantitative finance platform to provide historical data retrieval, statistical analysis, portfolio optimization, universe selection, alternative data access, backtest execution, and project management for algorithmic trading research and financial analytics workflows.",
-  "url": "https://github.com/taylorwilsdon/quantconnect-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

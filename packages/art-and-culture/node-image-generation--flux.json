@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "image-generation-(flux)",
-  "description": "Bridges Claude with the Replicate API to generate images using the Flux model directly within conversations through customizable parameters and asynchronous processing.",
-  "url": "https://github.com/gongrzhe/image-generation-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

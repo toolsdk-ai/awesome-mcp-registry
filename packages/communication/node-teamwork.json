@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "teamwork",
-  "description": "Integrates with Teamwork API to manage projects, tasks, team members, and generate utilization reports for streamlined project management and collaboration workflows.",
-  "url": "https://github.com/vizioz/teamwork-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "quran.com-api",
-  "description": "Provides access to Quranic scripture, translations, commentaries, and audio recitations through the Quran.com API for seamless Islamic text reference and study.",
-  "url": "https://github.com/djalal/quran-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "device-peripherals",
-  "description": "Provides peripheral device interaction capabilities for computer hardware including cameras, printers, audio devices, and displays, enabling image and video capture, print job management, audio recording and playback, and screen recording with cross-platform support and automatic device detection.",
-  "url": "https://github.com/akshitsinha/mcp-device-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

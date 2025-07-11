@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "volcengine-knowledge-base",
-  "description": "Connects to Volcengine's knowledge base API for searching and retrieving organizational information with customizable search parameters and authentication via Volcengine credentials.",
-  "url": "https://github.com/suqidan/volcengine_knowledgebase_mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

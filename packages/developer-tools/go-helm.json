@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "helm",
-  "description": "Provides tools for interacting with Helm repositories and charts",
-  "url": "https://github.com/zekker6/mcp-helm",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

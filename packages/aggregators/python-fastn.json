@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fastn",
-  "description": "Dynamically registers and executes tools across multiple services, enabling seamless integration and real-time operations through a flexible, API-driven platform with robust logging and error handling.",
-  "url": "https://github.com/fastnai/mcp-fastn",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

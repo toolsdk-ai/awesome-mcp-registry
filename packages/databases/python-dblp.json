@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dblp",
-  "description": "Integrates with the DBLP computer science bibliography database to enable searching publications, processing citations, generating BibTeX entries, and analyzing research trends.",
-  "url": "https://github.com/szeider/mcp-dblp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

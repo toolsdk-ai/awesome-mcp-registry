@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "hide-(headless-ide)",
-  "description": "Integrates Hide's capabilities to enable agentic work on code in a headless environment.",
-  "url": "https://github.com/hide-org/hide-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ios-simulator",
-  "description": "Control iOS simulators for automated testing and app deployment.",
-  "url": "https://github.com/joshuarileydev/simulator-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

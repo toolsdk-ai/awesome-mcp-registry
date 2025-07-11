@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "glyph",
-  "description": "Extracts code symbols from multiple programming languages using tree-sitter parsing to generate structured outlines with functions, classes, variables, and hierarchical relationships at configurable detail levels.",
-  "url": "https://github.com/benmyles/glyph",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

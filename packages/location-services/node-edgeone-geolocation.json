@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "edgeone-geolocation",
-  "description": "Provides user geolocation data from EdgeOne's edge functions in structured JSON format for location-aware responses",
-  "url": "https://github.com/edgego/mcp-geo-pub",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

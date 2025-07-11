@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "zerocracy",
-  "description": "Provides a bridge between Zerocracy's project management platform and development teams, offering actionable recommendations to improve productivity and focus through AI-assisted insights.",
-  "url": "https://github.com/zerocracy/zerocracy-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

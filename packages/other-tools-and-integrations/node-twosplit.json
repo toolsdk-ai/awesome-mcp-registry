@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "twosplit",
-  "description": "Leverages multiple Claude instances to compare and combine responses, delivering optimized answers by selecting the best output or merging insights from parallel AI processing.",
-  "url": "https://github.com/lazerthings/twosplit",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

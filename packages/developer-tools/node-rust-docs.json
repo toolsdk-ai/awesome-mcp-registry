@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rust-docs",
-  "description": "Integrates with Rust documentation from docs.rs, enabling search for crates, retrieval of documentation, type information, feature flags, versions, and source code for Rust projects.",
-  "url": "https://github.com/laptou/rust-docs-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

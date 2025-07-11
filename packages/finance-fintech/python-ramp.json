@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ramp",
-  "description": "Provides a bridge to Ramp's Developer API, enabling financial data analysis through an ephemeral SQLite database that loads corporate transactions, vendors, users, and spend programs for SQL-based business intelligence tasks.",
-  "url": "https://github.com/ramp-public/ramp_mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

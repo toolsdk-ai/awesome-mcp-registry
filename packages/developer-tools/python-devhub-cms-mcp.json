@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "devhub-cms-mcp",
-  "description": "Manage and utilize content within DevHub CMS (blog posts, hours of operation and other content).",
-  "url": "https://github.com/devhub/devhub-cms-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

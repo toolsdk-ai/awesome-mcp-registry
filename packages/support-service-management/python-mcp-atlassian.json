@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-atlassian",
-  "description": "Access Confluence pages and Jira issues via Atlassian API.",
-  "url": "https://github.com/sooperset/mcp-atlassian",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

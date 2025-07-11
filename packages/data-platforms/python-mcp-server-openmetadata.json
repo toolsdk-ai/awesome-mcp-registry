@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-openmetadata",
-  "description": "Integrates with OpenMetadata to enable querying and manipulating metadata across data assets for governance, cataloging, and lineage tracking.",
-  "url": "https://github.com/yangkyeongmo/mcp-server-openmetadata",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

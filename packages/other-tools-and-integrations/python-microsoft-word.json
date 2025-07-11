@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "microsoft-word",
-  "description": "Interact with Microsoft Word.",
-  "url": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-word",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

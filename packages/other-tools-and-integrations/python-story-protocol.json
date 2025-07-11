@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "story-protocol",
-  "description": "Integrates with Story Protocol's Python SDK to enable blockchain-based intellectual property management, including minting, registering, and licensing IP assets.",
-  "url": "https://github.com/piplabs/story-mcp-hub",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

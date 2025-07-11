@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@team-jd/mcp-project-explorer",
-  "description": "Provides secure file system exploration and project analysis for TypeScript/JavaScript codebases with tools for project exploration, file search with regex support, file management operations, package dependency analysis, and directory access control through configurable allowed paths.",
-  "url": "https://github.com/mausrundung362/mcp-explorer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

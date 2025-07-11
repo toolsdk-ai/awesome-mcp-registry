@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "materialize",
-  "description": "Automatically exposes Materialize database indexes as parameterized URI endpoints for natural language querying of materialized views",
-  "url": "https://github.com/sjwiesman/mcp-materialize",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

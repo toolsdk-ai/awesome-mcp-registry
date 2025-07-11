@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "llm-gateway",
-  "description": "Unified gateway for managing multiple LLM providers with automatic model selection, semantic caching, and cost optimization features for reliable production deployments",
-  "url": "https://github.com/dicklesworthstone/ultimate_mcp_server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

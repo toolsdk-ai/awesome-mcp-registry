@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-gsuite",
-  "description": "Interact with Google Docs, Sheets, and other Workspace products.",
-  "url": "https://github.com/markuspfundstein/mcp-gsuite",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

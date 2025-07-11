@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "batchit",
-  "description": "Combine tool calls into a single batch_execute call.",
-  "url": "https://github.com/ryanjoachim/mcp-batchit",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

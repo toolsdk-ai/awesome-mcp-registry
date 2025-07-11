@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memory-service",
-  "description": "Integrates with ChromaDB using sentence transformers for efficient text embedding, enabling semantic search and content recommendation via websocket connections.",
-  "url": "https://github.com/doobidoo/mcp-memory-service",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

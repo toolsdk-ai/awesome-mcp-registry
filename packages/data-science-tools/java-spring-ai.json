@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "spring-ai",
-  "description": "Integrates Spring AI components with AI models to enable natural language processing, machine learning, and data analysis within Spring-based applications.",
-  "url": "https://github.com/cpage-pivotal/loot-mcp",
-  "runtime": "java",
-  "license": "unknown",
-  "env": {}
-}

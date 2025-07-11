@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "xiyansql-(mysql)",
-  "description": "Enables natural language interaction with MySQL databases through XiYanSQL, providing secure table listing, data reading, and query execution capabilities without direct SQL access.",
-  "url": "https://github.com/xgenerationlab/xiyan_mcp_server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

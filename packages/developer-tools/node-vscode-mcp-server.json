@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vscode-mcp-server",
-  "description": "Enables direct interaction with VS Code through bidirectional communication, providing tools for file diffing, project navigation, shell command execution, and editor information retrieval for seamless coding assistance.",
-  "url": "https://github.com/block/vscode-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

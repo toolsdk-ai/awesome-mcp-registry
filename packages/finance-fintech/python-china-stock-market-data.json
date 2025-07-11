@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "china-stock-market-data",
-  "description": "Provides real-time Chinese stock market data through AKShare, offering tools for market overviews, individual stock information, sector analysis, fund flows, and financial indicators across Chinese, Hong Kong, and US exchanges.",
-  "url": "https://github.com/peikuo/china-stock-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "world-bank-data",
-  "description": "Connects to World Bank open data API for exploring and analyzing global socioeconomic indicators and development trends.",
-  "url": "https://github.com/anshumax/world_bank_mcp_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

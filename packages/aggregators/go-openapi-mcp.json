@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openapi-mcp",
-  "description": "Transforms OpenAPI 3.x specifications into tool servers that enable interaction with any API through automatic endpoint conversion, authentication handling, and safety features",
-  "url": "https://github.com/jedisct1/openapi-mcp",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

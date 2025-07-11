@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "glide-api",
-  "description": "Bridges Glide's API with MCP to enable automated management and data operations for Glide applications.",
-  "url": "https://github.com/knmurphy/glide-api-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

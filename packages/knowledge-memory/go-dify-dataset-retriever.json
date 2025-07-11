@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dify-dataset-retriever",
-  "description": "Integrates with Dify's dataset retrieval capabilities, exposing knowledge base querying as a discoverable tool for retrieving information from Dify datasets",
-  "url": "https://github.com/wangle201210/dify-retriever-mcp",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {}
-}

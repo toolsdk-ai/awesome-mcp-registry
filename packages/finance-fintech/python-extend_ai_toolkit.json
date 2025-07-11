@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "extend_ai_toolkit",
-  "description": "Enabling agentic spend and expense management workflows using Extend's AIs",
-  "url": "https://github.com/paywithextend/extend-ai-toolkit",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

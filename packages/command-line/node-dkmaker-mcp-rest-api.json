@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dkmaker-mcp-rest-api",
-  "description": "Integrates with REST API's via Axios to provide a command-line tool for testing and debugging REST APIs with customizable requests and response analysis.",
-  "url": "https://github.com/dkmaker/mcp-rest-api",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

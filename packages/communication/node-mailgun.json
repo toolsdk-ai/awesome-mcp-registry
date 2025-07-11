@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mailgun",
-  "description": "Enables direct email sending from desktop applications using the Mailgun API, providing flexible content options like plain text and HTML for streamlined communication workflows.",
-  "url": "https://github.com/proudmars/mailgun-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

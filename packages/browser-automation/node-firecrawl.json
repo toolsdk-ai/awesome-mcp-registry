@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "firecrawl",
-  "description": "Integrates with the Firecrawl API to enable web scraping and intelligent content searching for extracting structured data and performing customizable searches.",
-  "url": "https://github.com/msparihar/mcp-server-firecrawl",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rabbitmq",
-  "description": "Integrates RabbitMQ, enabling message queue operations for distributed systems and event-driven architectures.",
-  "url": "https://github.com/kenliao94/mcp-server-rabbitmq",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

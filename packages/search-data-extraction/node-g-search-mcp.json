@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "g-search-mcp",
-  "description": "Automates parallel Google searches with intelligent CAPTCHA detection, browser state persistence, and user behavior simulation to bypass anti-bot measures while returning structured results.",
-  "url": "https://github.com/jae-jae/g-search-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "spring-io",
-  "description": "Integrates with Spring's API to provide release information and support timelines for Spring projects, enabling dependency management and upgrade planning.",
-  "url": "https://github.com/martinlippert/spring-io-api-mcp",
-  "runtime": "java",
-  "license": "apache-2.0",
-  "env": {}
-}

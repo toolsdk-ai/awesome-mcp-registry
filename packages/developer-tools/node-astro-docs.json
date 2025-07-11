@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "astro-docs",
-  "description": "Provides direct access to Astro documentation through searchable, categorized resources and curated prompts for helping developers with component architecture, content management, and deployment tasks.",
-  "url": "https://github.com/dreyfus92/astro-docs-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

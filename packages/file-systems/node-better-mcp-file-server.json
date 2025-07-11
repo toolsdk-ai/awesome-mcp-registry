@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "better-mcp-file-server",
-  "description": "Reimagined server for filesystem access with privacy-preserving path aliases and an optimized LLM-friendly API.",
-  "url": "https://github.com/martinschlott/bettermcpfileserver",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

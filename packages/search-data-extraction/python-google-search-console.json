@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "google-search-console",
-  "description": "Integrates with Google Search Console API to provide website search performance analytics, indexing status monitoring, and sitemap management for SEO professionals",
-  "url": "https://github.com/aminforou/mcp-gsc",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcpet",
-  "description": "Virtual pet simulator that lets users adopt, nurture, and play with digital pets that evolve through life stages and maintain persistent stats between sessions.",
-  "url": "https://github.com/shreyaskarnik/mcpet",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

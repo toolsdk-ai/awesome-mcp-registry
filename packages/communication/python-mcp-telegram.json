@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-telegram",
-  "description": "Enables AI interaction with Telegram messaging platform through Python-based tools for sending/editing messages, downloading media, searching conversations, and managing drafts without context switching.",
-  "url": "https://github.com/dryeab/mcp-telegram",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vidu",
-  "description": "Transforms static images into dynamic videos with customizable parameters through the Vidu AI video generation API, handling authentication, file management, and asynchronous task processing.",
-  "url": "https://github.com/el-el-san/vidu-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

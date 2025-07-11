@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dokploy",
-  "description": "Middleware layer for managing containerized applications and infrastructure through Dokploy API with advanced connection management and simplified tool organization for project, application, database, and Docker container operations.",
-  "url": "https://github.com/apple-techie/dokploy-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

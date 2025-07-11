@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "windows-365-cloud-pc",
-  "description": "Integrates with Windows 365 Cloud PC Management API to enable listing and managing cloud PCs in a tenant environment through Microsoft Graph authentication and JSON-formatted data retrieval",
-  "url": "https://github.com/complexdevel/mcp-cloud-pc",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

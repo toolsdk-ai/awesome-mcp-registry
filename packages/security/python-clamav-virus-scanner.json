@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "clamav-virus-scanner",
-  "description": "Provides virus scanning capabilities for files by integrating with the ClamAV antivirus engine, enabling secure validation of file safety before processing.",
-  "url": "https://github.com/a2amarket/mcp-clamav",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

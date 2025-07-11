@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memories-with-lessons",
-  "description": "Enables persistent memory and error tracking for assistants using a local knowledge graph structure with transactional operations, file management, and caching.",
-  "url": "https://github.com/t1nker-1220/memories-with-lessons-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

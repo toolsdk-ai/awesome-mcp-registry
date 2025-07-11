@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "li.fi",
-  "description": "Enables cross-chain token transfers and swaps through the LI.FI API, providing tools for token information, quotes, transaction status, and wallet management for DeFi operations without leaving the conversation interface.",
-  "url": "https://github.com/lifinance/lifi-mcp",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

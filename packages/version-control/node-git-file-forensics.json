@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "git-file-forensics",
-  "description": "Provides deep git file-level forensics capabilities for tracking versions, analyzing diffs, examining commit contexts, and evaluating semantic changes in individual files.",
-  "url": "https://github.com/davidorex/git-file-forensics",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

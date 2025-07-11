@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ansible-tower",
-  "description": "Bridges AI systems with Ansible Tower/AWX instances for infrastructure automation, enabling inventory, host, job template, and credential management through a secure API interface for DevOps workflows.",
-  "url": "https://github.com/a37ai/ansible-tower-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

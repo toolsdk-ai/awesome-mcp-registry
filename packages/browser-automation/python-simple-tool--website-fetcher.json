@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "simple-tool-(website-fetcher)",
-  "description": "Integrates with web servers to fetch and retrieve webpage content for analysis and processing tasks.",
-  "url": "https://github.com/myblockcities/mcp-server-heroku",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

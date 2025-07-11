@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vsegpt-image-generator",
-  "description": "Integrates with VseGPT API to generate images from English-language prompts and store them locally with timestamp-based filenames.",
-  "url": "https://github.com/janvarev/mcp-vsepgt-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

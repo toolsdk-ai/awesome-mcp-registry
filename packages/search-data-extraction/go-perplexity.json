@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "perplexity",
-  "description": "Integrates Perplexity's question-answering capabilities, enabling natural language understanding and information retrieval for applications like chatbots and research tools.",
-  "url": "https://github.com/gomcpgo/perplexity-mcp-server",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

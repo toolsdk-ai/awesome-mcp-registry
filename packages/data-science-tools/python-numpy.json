@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "numpy",
-  "description": "Provides NumPy-based mathematical operations and statistical analysis tools for advanced numerical computations, data analysis, and linear algebra operations in Python environments.",
-  "url": "https://github.com/colesmcintosh/numpy-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mongodb-database",
-  "description": "Provides a bridge between MongoDB databases and natural language, enabling collection listing, document querying, record manipulation, and aggregate operations without writing complex queries.",
-  "url": "https://github.com/manpreet2000/mcp-database-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

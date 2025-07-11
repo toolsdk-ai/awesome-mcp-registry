@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@mtane0412/twitch-mcp-server",
-  "description": "Integrates with Twitch API to provide channel info, stream details, game data, user profiles, clips, chat settings, and video comments for building Twitch-related tools and analytics platforms.",
-  "url": "https://github.com/mtane0412/twitch-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

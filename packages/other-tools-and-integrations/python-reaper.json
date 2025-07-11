@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "reaper",
-  "description": "Bridges REAPER digital audio workstation with external tools, enabling comprehensive control for music production tasks including project management, track operations, MIDI composition, and mixing without direct interface navigation.",
-  "url": "https://github.com/itsuzef/reaper-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

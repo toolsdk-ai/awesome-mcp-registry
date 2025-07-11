@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-text-editor",
-  "description": "Perform efficient line-oriented operations on text files.",
-  "url": "https://github.com/tumf/mcp-text-editor",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

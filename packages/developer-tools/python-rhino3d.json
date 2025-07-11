@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rhino3d",
-  "description": "Connects Rhino3D to Claude through a WebSocket bridge, enabling AI-assisted 3D modeling capabilities for creating and manipulating geometry, running Python scripts, and interacting with the modeling environment.",
-  "url": "https://github.com/a01110946/rhinomcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

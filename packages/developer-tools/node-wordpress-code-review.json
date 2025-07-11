@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wordpress-code-review",
-  "description": "Validates WordPress PHP and JavaScript code against configurable coding standards and security patterns fetched from web-hosted markdown files, performing automated security scans for vulnerabilities like SQL injection and XSS while enforcing WordPress best practices for plugin and theme development.",
-  "url": "https://github.com/miniorangedev/wp-code-review-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

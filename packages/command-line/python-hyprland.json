@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "hyprland",
-  "description": "Provides direct control over Hyprland window manager functionality, enabling natural language commands for managing monitors, workspaces, windows, and configuration settings without leaving conversation context.",
-  "url": "https://github.com/stefanoamorelli/hyprmcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

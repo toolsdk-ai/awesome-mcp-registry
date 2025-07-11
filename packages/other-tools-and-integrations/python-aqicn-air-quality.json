@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aqicn-air-quality",
-  "description": "Integrates with the World Air Quality Index API to retrieve real-time air quality data for cities and monitoring stations globally.",
-  "url": "https://github.com/mattmarcin/aqicn-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

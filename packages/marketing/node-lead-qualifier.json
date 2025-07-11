@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "lead-qualifier",
-  "description": "Automates sales lead qualification by extracting and scoring prospect information from conversations and seamlessly syncing qualified leads to CRM systems",
-  "url": "https://github.com/nick-wati/lead-qualifier-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

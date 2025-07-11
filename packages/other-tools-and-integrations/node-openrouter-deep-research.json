@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openrouter-deep-research",
-  "description": "Orchestrates multi-agent research by breaking complex queries into specialized sub-questions, distributing them across different models, and synthesizing findings into comprehensive reports.",
-  "url": "https://github.com/wheattoast11/openrouter-deep-research-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

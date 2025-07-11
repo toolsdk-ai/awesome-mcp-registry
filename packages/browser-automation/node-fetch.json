@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fetch",
-  "description": "Fetches and transforms web content into various formats.",
-  "url": "https://github.com/zcaceres/fetch-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

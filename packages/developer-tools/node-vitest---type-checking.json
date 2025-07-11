@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "vitest-&-type-checking",
-  "description": "Integrates Vitest and TypeScript for automated test execution and type checking in development workflows.",
-  "url": "https://github.com/tonyhschu/test-and-typecheck-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

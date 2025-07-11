@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "whereami-(ip-geolocation)",
-  "description": "Provides geolocation data based on user IP addresses through the ipapi.co API, returning location details like country, city, and coordinates in a formatted Markdown table.",
-  "url": "https://github.com/kukapay/whereami-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

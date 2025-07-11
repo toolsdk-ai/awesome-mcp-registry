@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gis-mcp",
-  "description": "Integrates with geospatial libraries to perform geometric transformations, coordinate system conversions, and spatial analyses using WKT geometry strings for map creation and location-based services.",
-  "url": "https://github.com/mahdin75/gis-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

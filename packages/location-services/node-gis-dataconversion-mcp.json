@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gis-dataconversion-mcp",
-  "description": "Provides a bridge between geographic data formats, enabling seamless conversion between WKT, GeoJSON, CSV, TopoJSON, and KML with support for reverse geocoding and topology preservation.",
-  "url": "https://github.com/ronantakizawa/gis-dataconversion-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

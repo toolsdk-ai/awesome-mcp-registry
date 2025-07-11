@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "think-mcp-server",
-  "description": "Provides a dedicated thinking space for complex reasoning with encouraging feedback, enabling step-by-step analysis and memory retention without external actions.",
-  "url": "https://github.com/marcopesani/think-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

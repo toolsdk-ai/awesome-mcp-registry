@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "reexpress-sdm-verification",
-  "description": "Enable Similarity-Distance-Magnitude statistical verification for your search, software, and data science workflows.",
-  "url": "https://github.com/reexpressai/reexpress_mcp_server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

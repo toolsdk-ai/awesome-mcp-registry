@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memprocfs",
-  "description": "Provides a bridge to memory forensics capabilities through MemProcFS for analyzing process attributes, registry hives, and keys from Windows memory dumps",
-  "url": "https://github.com/tokeii0/memprocfs-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

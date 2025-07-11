@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "macos-notification-mcp",
-  "description": "Enables macOS system notifications, banner alerts, and text-to-speech capabilities with customizable parameters like voice selection and speech rate.",
-  "url": "https://github.com/devizor/macos-notification-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "crawl4ai-web-crawler",
-  "description": "Provides a bridge to the Crawl4ai web crawling service, enabling extraction of website content with configurable parameters like depth and strategy for research, data collection, or content analysis.",
-  "url": "https://github.com/rainyheart/jcrawl4ai-mcp-server",
-  "runtime": "java",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "workato",
-  "description": "Integrates with Workato's automation platform API to enable management of integration recipes, connections, and workflows directly from conversations without switching contexts.",
-  "url": "https://github.com/jacobgoren-sb/workato-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

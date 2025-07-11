@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@heilgar/shadcn-ui-mcp-server",
-  "description": "Provides tools for managing and installing shadcn/ui components directly through assistants, enabling efficient component discovery, documentation retrieval, and installation command generation with multiple package manager support.",
-  "url": "https://github.com/heilgar/shadcn-ui-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "auto-causal-inference",
-  "description": "Automates causal inference analysis on SQLite banking data by using LLM-guided variable classification to generate causal graphs and estimate Average Treatment Effects through DoWhy statistical methods with plain-language business summaries.",
-  "url": "https://github.com/lethienhoavn/auto-causal-inference",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

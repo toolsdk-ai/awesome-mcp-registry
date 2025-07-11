@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "json-query",
-  "description": "Provides tools for efficiently querying, searching, and extracting specific information from large JSON files without processing entire structures",
-  "url": "https://github.com/mgraczyk/json-query-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

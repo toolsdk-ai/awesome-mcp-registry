@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "figma-to-react",
-  "description": "Transforms Figma designs into React components with TypeScript and Tailwind CSS, providing tools for API integration, component extraction, and accessibility enhancements.",
-  "url": "https://github.com/studentofjs/mcp-figma-to-react",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

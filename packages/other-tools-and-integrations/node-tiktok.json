@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tiktok",
-  "description": "Integrates with TikTok through TikNeuron's API to retrieve video subtitles, content details, and engagement metrics for analyzing virality factors and enabling conversational interactions with TikTok videos.",
-  "url": "https://github.com/seym0n/tiktok-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

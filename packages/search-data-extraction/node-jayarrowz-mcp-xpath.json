@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@jayarrowz/mcp-xpath",
-  "description": "Enables Claude to execute XPath queries on XML and HTML content, supporting both direct parsing and web scraping through Puppeteer for structured data extraction from documents and websites.",
-  "url": "https://github.com/thirdstrandstudio/mcp-xpath",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

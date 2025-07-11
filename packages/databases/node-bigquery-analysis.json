@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bigquery-analysis",
-  "description": "Enables safe SQL query execution on Google BigQuery datasets with built-in safeguards that prevent data manipulation and limit query size to 1 TB.",
-  "url": "https://github.com/gotalab/bigquery-analysis-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

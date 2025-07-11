@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "duckduckgo-mcp-server",
-  "description": "Integrates with DuckDuckGo to provide web search capabilities, content fetching, and parsing, with results formatted for large language model consumption.",
-  "url": "https://github.com/nickclyde/duckduckgo-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

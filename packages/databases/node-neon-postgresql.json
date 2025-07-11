@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "neon-postgresql",
-  "description": "Enables management of Neon PostgreSQL database projects, branches, and schemas through natural language interactions with the Neon REST API",
-  "url": "https://github.com/fefergrgrgrg/insight",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

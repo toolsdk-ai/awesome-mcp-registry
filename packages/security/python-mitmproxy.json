@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mitmproxy",
-  "description": "Integrates mitmproxy for network traffic analysis, debugging, and API testing.",
-  "url": "https://github.com/lucasoeth/mitmproxy-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "stellar-xdr-json",
-  "description": "Decodes Stellar blockchain data by converting complex XDR format to human-readable JSON, enabling analysis of transactions and contract events without manual binary decoding",
-  "url": "https://github.com/leighmcculloch/mcp-stellar-xdr-json",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

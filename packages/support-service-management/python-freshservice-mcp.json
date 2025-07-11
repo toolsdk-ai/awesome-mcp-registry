@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "freshservice-mcp",
-  "description": "Enable AI assistants to manage IT service tickets and operations by integrating directly with Freshservice. Automate ticket creation, updates, and asset management to streamline your IT support workflows. Accelerate routine IT service tasks with seamless AI-driven interactions.",
-  "url": "https://github.com/effytech/freshservice_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

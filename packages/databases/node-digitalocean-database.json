@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "digitalocean-database",
-  "description": "Connect AI-powered IDEs to your DigitalOcean databases",
-  "url": "https://github.com/oladejibidmus/digitalocean-database-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

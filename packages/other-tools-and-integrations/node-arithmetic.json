@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "arithmetic",
-  "description": "Provides arithmetic operations for basic calculations, enabling efficient mathematical computations in workflows and applications.",
-  "url": "https://github.com/yuheinakasaka/arithmetic-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

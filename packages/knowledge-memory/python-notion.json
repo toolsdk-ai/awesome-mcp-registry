@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "notion",
-  "description": "Integrates with Notion's API to enable document management, knowledge base interactions, and project tracking tasks.",
-  "url": "https://github.com/pbohannon/notion-api-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

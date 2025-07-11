@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "plaid",
-  "description": "Provides a robust bridge to the Plaid financial API, enabling secure access to bank account data, transactions, and authentication flows for financial analysis and personal finance tracking.",
-  "url": "https://github.com/304techmaven/plaid-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "backlinks-mcp",
-  "description": "Retrieves detailed backlink data from Ahrefs including anchor text, domain rating, and URL information for SEO analysis and link building strategies.",
-  "url": "https://github.com/cnych/seo-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gemini-context",
-  "description": "Provides persistent conversation history, semantic search, and API-level caching for Gemini models to optimize token usage and reduce costs.",
-  "url": "https://github.com/ogoldberg/gemini-context-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

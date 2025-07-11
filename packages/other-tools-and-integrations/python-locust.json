@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "locust",
-  "description": "Enables natural language control of Locust load testing operations, allowing configuration and execution of performance tests with customizable parameters for users, spawn rate, and test duration.",
-  "url": "https://github.com/qainsights/locust-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

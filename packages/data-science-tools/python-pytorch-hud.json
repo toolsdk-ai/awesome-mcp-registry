@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pytorch-hud",
-  "description": "Provides a PyTorch CI/CD analytics API for investigating build failures, analyzing test flakiness, and monitoring performance trends across the PyTorch infrastructure.",
-  "url": "https://github.com/izaitsevfb/claude-pytorch-treehugger",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

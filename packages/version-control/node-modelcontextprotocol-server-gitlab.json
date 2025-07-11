@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@modelcontextprotocol/server-gitlab",
-  "description": "Control repositories, merge requests, and issues via GitLab API.",
-  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/gitlab",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

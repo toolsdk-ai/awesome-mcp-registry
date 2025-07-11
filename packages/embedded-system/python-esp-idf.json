@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "esp-idf",
-  "description": "Streamlines ESP-IDF project building with automatic environment setup and error handling for ESP32 microcontroller development.",
-  "url": "https://github.com/horw/esp-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

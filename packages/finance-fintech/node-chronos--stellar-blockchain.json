@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "chronos-(stellar-blockchain)",
-  "description": "Enables direct interaction with the Stellar blockchain network for wallet connections, token management, balance checking, and fund transfers without requiring manual blockchain operations.",
-  "url": "https://github.com/grandmastr/chronos-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "warpcast",
-  "description": "Integrates with Warpcast to enable posting, reading, searching, and managing interactions on the Farcaster social network for automated content curation and trend analysis.",
-  "url": "https://github.com/zhangzhongnan928/mcp-warpcast-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

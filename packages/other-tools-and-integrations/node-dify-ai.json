@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dify-ai",
-  "description": "Integrates with Dify AI's chat completion API to enable natural language interactions, offering tools for restaurant recommendations and supporting conversation context and streaming responses.",
-  "url": "https://github.com/yuru-sha/mcp-server-dify",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

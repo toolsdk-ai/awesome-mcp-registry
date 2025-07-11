@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gemini-code-analysis-(openrouter)",
-  "description": "Provides codebase analysis through OpenRouter's API integration, offering code quality assessment, security vulnerability scanning with OWASP Top 10 mapping and CVE database integration, performance profiling, and automated fix suggestions for JavaScript/TypeScript projects.",
-  "url": "https://github.com/emmron/gemini-mcp",
-  "runtime": "node",
-  "license": "gpl-3.0",
-  "env": {}
-}

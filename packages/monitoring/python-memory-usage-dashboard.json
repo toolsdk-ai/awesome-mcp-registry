@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memory-usage-dashboard",
-  "description": "Provides a React-based dashboard for real-time monitoring and visualization of memory usage in MCP implementations, enabling developers to optimize performance and identify potential memory leaks.",
-  "url": "https://github.com/doobidoo/mcp-memory-dashboard",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "web3-blockchain-interface",
-  "description": "Unifies interactions with multiple blockchains like Solana and Ethereum, enabling cross-chain operations such as balance checks and token transfers.",
-  "url": "https://github.com/strangelove-ventures/web3-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "chatterbox-tts",
-  "description": "Converts text to speech using either high-quality Chatterbox TTS neural models or macOS's built-in 'say' command with configurable expressiveness controls, automatic audio file management, and specialized prompts for daily haikus and code roasts.",
-  "url": "https://github.com/digitarald/chatterbox-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

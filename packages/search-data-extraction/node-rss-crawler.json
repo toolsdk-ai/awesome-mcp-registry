@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rss-crawler",
-  "description": "Fetches, parses, and stores RSS feeds in a SQLite database, enabling seamless news and article retrieval for language models through filtering, searching, and Firecrawl-powered article access.",
-  "url": "https://github.com/mshk/mcp-rss-crawler",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

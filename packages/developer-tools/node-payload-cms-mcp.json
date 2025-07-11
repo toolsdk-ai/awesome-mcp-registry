@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "payload-cms-mcp",
-  "description": "Provides validation, query, and code generation services for Payload CMS 3.0 development, enabling developers to validate collections, execute SQL-like queries against validation rules, and scaffold complete projects with Redis integration for persistence.",
-  "url": "https://github.com/matmax-worldwide/payloadcmsmcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

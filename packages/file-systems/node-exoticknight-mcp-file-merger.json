@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@exoticknight/mcp-file-merger",
-  "description": "Merge multiple files into one.",
-  "url": "https://github.com/exoticknight/mcp-file-merger",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

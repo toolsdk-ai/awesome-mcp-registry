@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "phrases",
-  "description": "Provides a simple API for managing phrases and their authors with operations for creating, retrieving, updating, and deleting quote-like content with proper attribution.",
-  "url": "https://github.com/ronniemh/phrases-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

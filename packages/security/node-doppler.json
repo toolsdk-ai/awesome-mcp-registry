@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "doppler",
-  "description": "Integrates with Doppler's secret management platform to enable secure environment variable and configuration management, secret CRUD operations, environment promotion, service token creation, and activity log auditing across development workflows.",
-  "url": "https://github.com/kayaozkur/mcp-server-doppler",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

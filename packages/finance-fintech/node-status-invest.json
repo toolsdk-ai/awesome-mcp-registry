@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "status-invest",
-  "description": "Provides a bridge to the Status Invest platform for accessing Brazilian stock market data, including payment dates, stock information, and financial indicators through an API that scrapes the website.",
-  "url": "https://github.com/newerton/mcp-status-invest",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

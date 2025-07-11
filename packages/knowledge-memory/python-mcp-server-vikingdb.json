@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-server-vikingdb",
-  "description": "Store and search data using VikingDB vector database.",
-  "url": "https://github.com/kashiwabyte/vikingdb-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

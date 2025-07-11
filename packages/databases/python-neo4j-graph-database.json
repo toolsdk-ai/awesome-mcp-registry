@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "neo4j-graph-database",
-  "description": "Connects AI systems to Neo4j graph databases for executing Cypher queries, exploring database schemas, and performing complex graph analysis tasks like relationship mapping, path discovery, and community detection.",
-  "url": "https://github.com/ujjalcal/mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gitlab-kanban",
-  "description": "Integrates with GitLab's API to enable Kanban-style project management and issue tracking for streamlined software development workflows.",
-  "url": "https://github.com/sunwood-ai-labs/gitlab-kanban-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

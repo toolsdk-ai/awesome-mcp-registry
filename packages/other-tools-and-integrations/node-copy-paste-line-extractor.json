@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "copy-paste-line-extractor",
-  "description": "Extracts specific line ranges from text content while preserving exact formatting and newlines, ideal for working with code snippets or documentation sections",
-  "url": "https://github.com/ananddtyagi/copy-paste-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

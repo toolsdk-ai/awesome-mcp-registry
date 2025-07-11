@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bybit-crypto-exchange",
-  "description": "Provides read-only access to Bybit's cryptocurrency exchange API for retrieving real-time market data, order book information, and account details.",
-  "url": "https://github.com/sammcj/bybit-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

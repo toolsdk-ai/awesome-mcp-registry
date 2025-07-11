@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "research-orchestration",
-  "description": "Orchestrates intelligent research workflows by selecting and executing specialized tools (Brave Search, Tavily, GitHub, arXiv, news APIs) based on query context, synthesizing results into well-cited answers with iterative refinement and source attribution.",
-  "url": "https://github.com/objones25/mcp-research-tool",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "youtube",
-  "description": "Integrates with YouTube to enable video content analysis through transcript extraction, search, comment retrieval, and content summarization for research and educational insights",
-  "url": "https://github.com/prajwal-ak-0/youtube-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

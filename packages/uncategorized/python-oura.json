@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "oura",
-  "description": "Integrates with the Oura API to retrieve and analyze personal sleep, readiness, and resilience data for health and wellness tracking.",
-  "url": "https://github.com/tomekkorbak/oura-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

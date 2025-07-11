@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "razorpay",
-  "description": "Provides a bridge between natural language commands and Razorpay's payment processing APIs, enabling seamless integration for payment operations, payment links, and order management.",
-  "url": "https://github.com/razorpay/razorpay-mcp-server",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

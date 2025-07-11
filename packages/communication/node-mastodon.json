@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mastodon",
-  "description": "Integrates with Mastodon social media platforms for creating posts with customizable visibility settings and media attachments, securely managing credentials through 1Password CLI for automated content scheduling and engagement.",
-  "url": "https://github.com/the-focus-ai/mastodon-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

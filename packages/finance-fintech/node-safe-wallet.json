@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "safe-wallet",
-  "description": "Enables interaction with Safe smart contract wallets for querying transactions, retrieving multisig details, and decoding data using the Safe Transaction API.",
-  "url": "https://github.com/5ajaki/safe-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@cyanheads/filesystem-mcp-server",
-  "description": "Provides a secure interface for interacting with local filesystems, enabling file reading, writing, updating, and directory management with robust path resolution and security measures.",
-  "url": "https://github.com/cyanheads/filesystem-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

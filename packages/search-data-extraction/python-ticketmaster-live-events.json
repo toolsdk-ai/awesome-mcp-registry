@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "ticketmaster-live-events",
-  "description": "Connects AI assistants to Ticketmaster's API for searching and discovering upcoming music events by location, date range, and keywords with detailed event information and ticket links.",
-  "url": "https://github.com/mmmaaatttttt/mcp-live-events",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

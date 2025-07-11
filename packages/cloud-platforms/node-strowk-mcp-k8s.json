@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@strowk/mcp-k8s",
-  "description": "Control and monitor K8s clusters for management and debugging.",
-  "url": "https://github.com/strowk/mcp-k8s-go",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

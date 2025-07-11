@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "marginalia-search",
-  "description": "Integrates Marginalia Search to discover non-commercial and independent web content for research, trend analysis, and alternative perspectives.",
-  "url": "https://github.com/bmorphism/marginalia-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "inspire",
-  "description": "Integrates with the Inspire backend API to find similar images based on text descriptions, returning optimized JPEG images with pagination support for visual content discovery and retrieval.",
-  "url": "https://github.com/tech-inspire/mcp-server",
-  "runtime": "node",
-  "license": "gpl-3.0",
-  "env": {}
-}

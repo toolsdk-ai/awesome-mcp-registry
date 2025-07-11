@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mailchimp",
-  "description": "Integrates with Mailchimp's marketing platform API to enable email campaign management, creation, sending, and automation workflow control through the FastMCP framework.",
-  "url": "https://github.com/bryangsmith/mailchimpmcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

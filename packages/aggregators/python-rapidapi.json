@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "rapidapi",
-  "description": "Accesse thousands of APIs on the RapidAPI Hub.",
-  "url": "https://github.com/securfi/rapidapi_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

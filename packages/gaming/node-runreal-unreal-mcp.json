@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@runreal/unreal-mcp",
-  "description": "Integrates with Unreal Engine to assist with game development workflows.",
-  "url": "https://github.com/runreal/unreal-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "technical-documentation-search",
-  "description": "Connects AI assistants to technical documentation for popular libraries including LangChain, LlamaIndex, and OpenAI through targeted Google searches and content extraction.",
-  "url": "https://github.com/mathieugal/mcp-serveur",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

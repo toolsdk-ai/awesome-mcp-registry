@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloud-infrastructure-manager",
-  "description": "Provides unified cloud infrastructure management across AWS, DigitalOcean, Vultr, and Alibaba Cloud for creating virtual machines, configuring security groups, and handling DNS records through provider-specific modules that abstract underlying APIs.",
-  "url": "https://github.com/rainhan99/cloud_manage_mcp_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

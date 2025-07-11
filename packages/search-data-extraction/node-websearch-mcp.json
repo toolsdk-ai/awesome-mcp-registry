@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "websearch-mcp",
-  "description": "Provides real-time web search capabilities via a dedicated crawler service with configurable result limits, language filtering, and domain rules",
-  "url": "https://github.com/mnhlt/websearch-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

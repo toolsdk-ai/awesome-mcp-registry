@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "optuna-mcp",
-  "description": "Provides automated hyperparameter optimization and analysis using Optuna framework with support for multiple samplers, multi-objective optimization, parameter importance analysis, and interactive visualizations including optimization history and Pareto fronts.",
-  "url": "https://github.com/optuna/optuna-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "daisys-mcp",
-  "description": "Provides a bridge to the Daisys AI text-to-speech API, enabling high-quality voice audio generation with control over characteristics like gender, pace, pitch, and expression.",
-  "url": "https://github.com/daisys-ai/daisys-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "wikipedia-mcp",
-  "description": "Provides a structured interface for searching and retrieving Wikipedia articles in clean Markdown format, enabling access to up-to-date encyclopedia information without hallucinating facts.",
-  "url": "https://github.com/timjuenemann/wikipedia-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

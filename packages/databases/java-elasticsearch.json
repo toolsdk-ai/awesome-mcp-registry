@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "elasticsearch",
-  "description": "Integrates with Elasticsearch to enable cluster health checks, index mapping retrieval, alias management, and document searches using Elasticsearch's query DSL",
-  "url": "https://github.com/silbaram/elasticsearch-mcp-server",
-  "runtime": "java",
-  "license": "apache-2.0",
-  "env": {}
-}

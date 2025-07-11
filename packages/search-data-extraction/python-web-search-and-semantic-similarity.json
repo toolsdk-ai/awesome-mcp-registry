@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "web-search-and-semantic-similarity",
-  "description": "Provides web search and information extraction capabilities using SearchAPI.io for queries, Firecrawl for content scraping, and embedding models for semantic similarity matching across multiple languages.",
-  "url": "https://github.com/deepspringai/search_mcp_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

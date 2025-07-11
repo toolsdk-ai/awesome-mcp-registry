@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@automattic/mcp-wordpress-remote",
-  "description": "Bridges WordPress websites and WooCommerce data with local clients through REST API calls, enabling content access without direct streaming connections.",
-  "url": "https://github.com/automattic/mcp-wordpress-remote",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

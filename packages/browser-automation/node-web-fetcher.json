@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "web-fetcher",
-  "description": "Enables web content retrieval and processing through headless browsing with Playwright, extracting clean, readable text from complex web pages using Mozilla's Readability and Turndown for markdown conversion.",
-  "url": "https://github.com/everford/fetcher-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

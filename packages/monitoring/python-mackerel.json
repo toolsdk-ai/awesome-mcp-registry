@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mackerel",
-  "description": "Integrates with Mackerel server monitoring platform to retrieve host information, service details, metrics, and manage monitoring configurations through natural language conversations.",
-  "url": "https://github.com/ryuichi1208/mackerel-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "twitter-mcp-server",
-  "description": "Integrates with X's API to enable tweet retrieval, user interactions, and social media analysis capabilities",
-  "url": "https://github.com/taazkareem/twitter-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

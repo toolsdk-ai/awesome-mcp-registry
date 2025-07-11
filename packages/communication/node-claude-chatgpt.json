@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "claude-chatgpt",
-  "description": "Integrates Claude with the ChatGPT desktop app on macOS using AppleScript, enabling cross-assistant interactions for prompt sending, response retrieval, and conversation management.",
-  "url": "https://github.com/syedazharmbnr1/claude-chatgpt-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

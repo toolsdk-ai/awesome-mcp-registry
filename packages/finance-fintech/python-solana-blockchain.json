@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "solana-blockchain",
-  "description": "Provides a bridge to the Solana blockchain for token analysis, liquidity tracking, and risk assessment with a focus on meme tokens through Python and FastAPI endpoints.",
-  "url": "https://github.com/omaidf/solana-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

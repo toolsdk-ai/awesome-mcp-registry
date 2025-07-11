@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pipedream-workflow-components",
-  "description": "Enables AI to configure and execute Pipedream workflow components across hundreds of apps and services without writing code, handling authentication flows and user credentials securely.",
-  "url": "https://github.com/wallaceobsidian01/pipedream/tree/HEAD/modelcontextprotocol",
-  "runtime": "node",
-  "license": "other",
-  "env": {}
-}

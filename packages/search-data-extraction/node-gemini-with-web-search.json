@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gemini-with-web-search",
-  "description": "Integrates Google's Gemini model with real-time web search and YouTube data to enhance AI responses with up-to-date information from the internet.",
-  "url": "https://github.com/techkwon/mcp-gemini",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

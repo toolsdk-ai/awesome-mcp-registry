@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "image-processor",
-  "description": "Enables image retrieval, processing, and display from both URLs and local files with automatic compression and formatting for visual content integration.",
-  "url": "https://github.com/ia-programming/mcp-images",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

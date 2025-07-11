@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "marketo-forms",
-  "description": "Provides a bridge between Marketo's REST API and form management operations, enabling marketing teams to retrieve, approve, and clone forms without writing API code or switching context.",
-  "url": "https://github.com/alexleventer/marketo-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

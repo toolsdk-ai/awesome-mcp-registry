@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "proofly-mcp",
-  "description": "Enables deepfake detection in images through Proofly API integration, providing detailed analysis results including real/fake probability scores and individual model results for each detected face.",
-  "url": "https://github.com/prooflie/mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

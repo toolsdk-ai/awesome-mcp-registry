@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "skrape",
-  "description": "Converts HTML pages into clean, structured Markdown for feeding web content into language models, enabling use cases like content analysis and information extraction.",
-  "url": "https://github.com/skrapeai/skrape-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

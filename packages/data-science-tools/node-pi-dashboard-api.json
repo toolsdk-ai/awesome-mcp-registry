@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pi-dashboard-api",
-  "description": "Integrates with PI Dashboard API to enable interaction with categories, charts, and dashboard elements for data analysis, comparison, and optimization workflows.",
-  "url": "https://github.com/mingzilla/pi-api-mcp-server",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

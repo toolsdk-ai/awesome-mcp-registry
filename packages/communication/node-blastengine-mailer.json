@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "blastengine-mailer",
-  "description": "Integrates with Blastengine to enable sending emails via API, supporting automated notification and marketing campaign functionalities",
-  "url": "https://github.com/r3-yamauchi/mcp-server-blastengine-mailer",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

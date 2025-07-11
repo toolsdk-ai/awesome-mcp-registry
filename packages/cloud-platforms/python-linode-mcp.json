@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "linode-mcp",
-  "description": "Provides a bridge to the Linode cloud infrastructure API, enabling developers to query and manage cloud resources through conversational interactions with external tools.",
-  "url": "https://github.com/komer3/linode-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

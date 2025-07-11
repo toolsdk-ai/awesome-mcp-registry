@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "south-asia",
-  "description": "Provides tools and utilities for IGS South Asia team operations through a Python-based server with modular architecture and basic endpoint functionality.",
-  "url": "https://github.com/igs-pochenkuo/southasia_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

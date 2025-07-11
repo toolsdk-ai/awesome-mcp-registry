@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "swagger-explorer",
-  "description": "Analyzes and interacts with Swagger/OpenAPI specifications to enable dynamic API exploration, endpoint filtering, and schema validation for developers working with unfamiliar APIs.",
-  "url": "https://github.com/johnneerdael/swagger-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

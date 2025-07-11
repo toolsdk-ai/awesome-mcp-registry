@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "docent-(image-description)",
-  "description": "Enables AI systems to generate detailed descriptions of images for accessibility applications, content analysis, and visual media interactions.",
-  "url": "https://github.com/dongprojectteam/mcp-docent-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

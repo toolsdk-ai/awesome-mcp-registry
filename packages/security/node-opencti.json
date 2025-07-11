@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "opencti",
-  "description": "Integrates with OpenCTI to query and manipulate threat intelligence data, enabling automated analysis and enrichment of cyber threat information.",
-  "url": "https://github.com/spathodea-network/opencti-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

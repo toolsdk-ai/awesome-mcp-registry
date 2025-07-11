@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "adjust",
-  "description": "Integrates with Adjust API to enable natural language queries for marketing analytics data, including campaign performance metrics and reports without leaving your chat interface.",
-  "url": "https://github.com/bitscorp-mcp/mcp-adjust",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

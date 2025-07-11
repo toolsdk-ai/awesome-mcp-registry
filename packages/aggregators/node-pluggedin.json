@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pluggedin",
-  "description": "A unified interface for managing all your MCP servers.",
-  "url": "https://github.com/veriteknik/pluggedin-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

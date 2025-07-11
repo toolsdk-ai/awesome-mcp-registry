@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "langchain-integration",
-  "description": "Integrates Langchain with MCP tools.",
-  "url": "https://github.com/shashwat001/mcptools-langchain-integration",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

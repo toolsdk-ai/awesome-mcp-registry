@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kubeblocks-cloud",
-  "description": "Enables querying and managing KubeBlocks Cloud resources including organizations, environments, instances, and backups via the KB Cloud API for automated database operations.",
-  "url": "https://github.com/apecloud/kb-cloud-mcp-server",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

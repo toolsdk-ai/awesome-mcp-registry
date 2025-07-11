@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "fred-economic-data",
-  "description": "Integrates with FRED API to provide economic data retrieval, search, and metadata access for economic analysis and forecasting applications.",
-  "url": "https://github.com/kablewy/fred-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

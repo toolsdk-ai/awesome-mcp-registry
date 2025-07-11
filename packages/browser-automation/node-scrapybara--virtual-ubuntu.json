@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "scrapybara-(virtual-ubuntu)",
-  "description": "Provides a bridge to virtual Ubuntu desktops for browsing the web, running code, and automating tasks through a sandboxed environment with bash command execution and natural language control.",
-  "url": "https://github.com/scrapybara/scrapybara-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

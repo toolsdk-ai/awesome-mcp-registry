@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "chat-roulette",
-  "description": "Creates real-time chat rooms using tool calls and long-polling to enable chat roulette-style conversations between users through room-based pairing and message queuing.",
-  "url": "https://github.com/hbd/mcp-chat",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

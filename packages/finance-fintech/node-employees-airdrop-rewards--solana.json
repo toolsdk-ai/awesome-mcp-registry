@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "employees-airdrop-rewards-(solana)",
-  "description": "Enables HR teams to distribute Solana tokens as employee rewards by managing the entire workflow from token creation to airdrop distribution, with tools for liquidity management and custodial wallet generation through Crossmint.",
-  "url": "https://github.com/monostate/employees-airdrop-rewards-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

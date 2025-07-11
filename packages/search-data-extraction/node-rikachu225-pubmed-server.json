@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@rikachu225/pubmed-server",
-  "description": "Integrates with PubMed to enable searching, retrieving, and accessing medical research articles for evidence-based healthcare data.",
-  "url": "https://github.com/rikachu225/mcp-pubmed-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

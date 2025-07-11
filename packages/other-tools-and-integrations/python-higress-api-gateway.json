@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "higress-api-gateway",
-  "description": "Enables DevOps teams to manage Higress API gateway configurations through natural language commands with human-in-the-loop validation for sensitive operations",
-  "url": "https://github.com/higress-group/higress-ops-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

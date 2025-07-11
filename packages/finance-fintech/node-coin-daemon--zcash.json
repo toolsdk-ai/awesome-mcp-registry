@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "coin-daemon-(zcash)",
-  "description": "Integrates with cryptocurrency daemon RPC interfaces to enable secure querying and management of blockchain networks, with initial support for Zcash.",
-  "url": "https://github.com/raw391/coin_daemon_mcp",
-  "runtime": "node",
-  "license": "other",
-  "env": {}
-}

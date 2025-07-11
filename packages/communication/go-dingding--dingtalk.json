@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dingding-(dingtalk)",
-  "description": "Integrates with DingDing (DingTalk) messaging platform to enable automated notifications, team alerts, and AI-generated content delivery through multiple message formats including text, markdown, images, and interactive cards.",
-  "url": "https://github.com/hundunonline/mcp-dingdingbot-server",
-  "runtime": "go",
-  "license": "gpl-3.0",
-  "env": {}
-}

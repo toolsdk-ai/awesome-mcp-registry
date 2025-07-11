@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@dhravya/apple-mcp",
-  "description": "Integrates with Apple's native applications to enable searching contacts, managing notes, and sending messages within the macOS ecosystem.",
-  "url": "https://github.com/supermemoryai/apple-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

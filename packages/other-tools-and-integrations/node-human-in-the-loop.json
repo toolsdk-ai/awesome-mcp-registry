@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "human-in-the-loop",
-  "description": "Facilitates human-in-the-loop processes for AI workflows, enabling seamless integration of human judgment in tasks like content moderation, complex problem-solving, and ethical AI implementations.",
-  "url": "https://github.com/boorich/mcp-human-loop",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

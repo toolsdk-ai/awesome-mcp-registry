@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@pipedream/mcp",
-  "description": "Access hosted MCP servers or deploy your own for 2,500+ APIs like Slack, GitHub, Notion, Google Drive, and more, all with built-in auth and 10k tools.",
-  "url": "https://github.com/pipedreamhq/pipedream/tree/HEAD/modelcontextprotocol",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

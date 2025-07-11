@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pocketbase",
-  "description": "Provides a bridge between AI systems and PocketBase databases, enabling direct interaction with collections, records, and user authentication for applications that need to manipulate database data within conversations.",
-  "url": "https://github.com/mrwyndham/pocketbase-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

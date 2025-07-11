@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "cloudzero",
-  "description": "Integrates with CloudZero's v2 API to enable direct querying of cloud cost data, dimensions, budgets, and insights for financial teams analyzing spending patterns and optimization opportunities.",
-  "url": "https://github.com/burkestar/cloudzero-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "evm-signer",
-  "description": "Integrates with Ethereum blockchain to enable wallet management, transaction execution, and smart contract interactions via Infura, providing secure local access for blockchain operations.",
-  "url": "https://github.com/zhangzhongnan928/mcp-evm-signer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "singapore-lta",
-  "description": "Integrates with Singapore's Land Transport Authority DataMall API to provide real-time transportation information for urban mobility applications and analysis.",
-  "url": "https://github.com/arjunkmrm/mcp-sg-lta",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "file-system-tools",
-  "description": "Provides file system management tools for directory analysis, file operations, and document management through a FastMCP server implementation.",
-  "url": "https://github.com/linglai27/mcp-tools",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

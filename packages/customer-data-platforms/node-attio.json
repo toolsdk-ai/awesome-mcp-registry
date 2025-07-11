@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "attio",
-  "description": "Integrates with Attio CRM platform to enable customer relationship management operations including advanced search with filtering, batch operations for companies and people, list management, note creation, and task handling for sales automation and lead management workflows.",
-  "url": "https://github.com/kesslerio/attio-mcp-server",
-  "runtime": "node",
-  "license": "other",
-  "env": {}
-}

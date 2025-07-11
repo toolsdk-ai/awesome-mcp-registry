@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aws-cognito",
-  "description": "Integrates with AWS Cognito to provide user authentication flows including sign-up, sign-in, password management, account verification, and multi-factor authentication for secure identity management.",
-  "url": "https://github.com/gitcarrot/mcp-server-aws-cognito",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

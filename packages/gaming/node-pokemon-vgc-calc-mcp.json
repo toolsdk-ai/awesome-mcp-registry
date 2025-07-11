@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "pokemon-vgc-calc-mcp",
-  "description": "Provides Pokemon VGC damage calculation capabilities using the Smogon calc library, computing battle damage ranges, KO probabilities, and detailed combat scenarios for competitive Pokemon analysis and strategy optimization.",
-  "url": "https://github.com/jpbullalayao/pokemon-vgc-calc-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

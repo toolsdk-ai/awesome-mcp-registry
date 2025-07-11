@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "avalanche",
-  "description": "Provides a bridge to the Avalanche blockchain CLI, enabling developers to interact with blockchain configurations, network management, and VM publishing across Mainnet, Fuji Testnet, and local development environments.",
-  "url": "https://github.com/utkucy/avalanche-mcp-tools",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

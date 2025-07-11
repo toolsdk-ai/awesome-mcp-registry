@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "google-toolbox",
-  "description": "Integrates with Google services including Gmail, Calendar, Drive, and Search through OAuth 2.0 authentication, enabling email management, scheduling, document access, and web information retrieval.",
-  "url": "https://github.com/jikime/py-mcp-google-toolbox",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

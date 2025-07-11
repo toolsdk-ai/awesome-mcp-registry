@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "alchemy-sdk",
-  "description": "Integrates with the Alchemy SDK to enable blockchain and NFT operations, including retrieving metadata, fetching token balances, and querying blockchain data.",
-  "url": "https://github.com/itsanishjain/alchemy-sdk-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

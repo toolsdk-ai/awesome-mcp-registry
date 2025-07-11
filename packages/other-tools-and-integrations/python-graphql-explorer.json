@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "graphql-explorer",
-  "description": "Integrates with GraphQL APIs to enable secure data retrieval, query execution, and schema exploration for AI applications",
-  "url": "https://github.com/larshvidsten/mcp_af_graph",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

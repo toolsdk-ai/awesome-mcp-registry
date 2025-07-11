@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "okta-user-management",
-  "description": "Integrates with Okta's user management system to retrieve detailed user information including profile data, account status, employment details, and contact information through a Node.js implementation.",
-  "url": "https://github.com/kapilduraphe/okta-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

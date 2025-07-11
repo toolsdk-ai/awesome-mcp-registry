@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "server-moz-readability",
-  "description": "Integrates Mozilla's Readability algorithm to extract and transform webpage content into clean, LLM-optimized Markdown.",
-  "url": "https://github.com/emzimmer/server-moz-readability",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

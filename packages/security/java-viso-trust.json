@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "viso-trust",
-  "description": "Provides a bridge to VISO TRUST's vendor risk management API, enabling third-party assessment, relationship tracking, and vendor information querying without switching contexts.",
-  "url": "https://github.com/visotrust/viso-mcp-server",
-  "runtime": "java",
-  "license": "mit",
-  "env": {}
-}

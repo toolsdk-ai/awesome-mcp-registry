@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "kagi-search",
-  "description": "Integrates Kagi's advanced search capabilities into workflows, enabling high-quality, privacy-focused web information retrieval for informed decision-making and analysis.",
-  "url": "https://github.com/kagisearch/kagimcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

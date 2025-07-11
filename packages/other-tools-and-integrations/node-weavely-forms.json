@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "weavely-forms",
-  "description": "Generate smart forms and surveys via the Weavely API",
-  "url": "https://github.com/weavely/mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

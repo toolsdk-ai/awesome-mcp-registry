@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "alpaca-trading",
-  "description": "Integrates with the Alpaca trading API to provide algorithmic trading and portfolio management tools for account information, market data, order placement, and position tracking.",
-  "url": "https://github.com/tedlikeskix/alpaca-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

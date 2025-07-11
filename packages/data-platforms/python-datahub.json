@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "datahub",
-  "description": "Integrates with DataHub's API to enable metadata management, discovery, and governance across diverse data assets in complex ecosystems.",
-  "url": "https://github.com/acryldata/mcp-server-datahub",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

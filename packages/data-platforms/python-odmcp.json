@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "odmcp",
-  "description": "Connect to open data from millions of open government, NGO, and company datasets.",
-  "url": "https://github.com/opendatamcp/opendatamcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

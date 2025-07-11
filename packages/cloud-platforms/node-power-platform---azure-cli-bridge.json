@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "power-platform-&-azure-cli-bridge",
-  "description": "Bridges Power Platform CLI and Azure CLI commands with specialized tools for executing Dataverse environment operations, making Azure REST API requests, and performing Graph API operations.",
-  "url": "https://github.com/rajyraman/genaiscript-pac-az-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

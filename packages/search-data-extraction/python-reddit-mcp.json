@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "reddit-mcp",
-  "description": "Provides read-only access to Reddit content through PRAW for searching subreddits, retrieving posts and comments, and analyzing discussion trends",
-  "url": "https://github.com/gridfireai/reddit-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

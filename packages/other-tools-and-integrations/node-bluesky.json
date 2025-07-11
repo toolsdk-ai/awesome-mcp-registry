@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "bluesky",
-  "description": "Query and analyze data from the decentralized social network.",
-  "url": "https://github.com/laulauland/bluesky-context-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

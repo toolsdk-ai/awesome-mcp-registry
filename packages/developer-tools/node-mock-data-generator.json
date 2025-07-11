@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mock-data-generator",
-  "description": "Provides tools for generating realistic mock data including personal information, company details, and custom fields using TypeScript and Faker.js for testing and development purposes.",
-  "url": "https://github.com/rhitune2/mock-data-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

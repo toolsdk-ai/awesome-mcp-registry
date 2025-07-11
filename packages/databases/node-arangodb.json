@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "arangodb",
-  "description": "Integrates with ArangoDB to enable querying, insertion, updating, and deletion of documents using parameterized AQL queries for flexible data management and analysis.",
-  "url": "https://github.com/ravenwits/mcp-server-arangodb",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

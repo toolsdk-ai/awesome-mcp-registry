@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "airbyte-status-checker",
-  "description": "Integrates with Airbyte API to monitor data pipeline health, check connection statuses, and manage streams for real-time ETL process oversight.",
-  "url": "https://github.com/quintonwall/mcp-airbyte-list-sources",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

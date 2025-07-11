@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "brex",
-  "description": "Provides secure access to Brex financial platform data, enabling account information retrieval, transaction analysis, and budget monitoring through read-only operations with proper rate limiting.",
-  "url": "https://github.com/crazyrabbitltc/mcp-brex-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

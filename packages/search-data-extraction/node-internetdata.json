@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "internetdata",
-  "description": "Provides web data extraction and manipulation capabilities through the LSD programming language, enabling structured data retrieval from websites, web searches, and community-created extraction patterns without complex scraping code.",
-  "url": "https://github.com/lsd-so/internetdata-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

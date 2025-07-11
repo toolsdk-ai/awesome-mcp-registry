@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "typescript-refactoring",
-  "description": "Enables AI to perform complex TypeScript/JavaScript refactoring operations like renaming symbols, moving code between files, and updating import paths through ts-morph's powerful code transformation capabilities.",
-  "url": "https://github.com/sirosuzume/mcp-ts-morph",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "next-mcp-server",
-  "description": "Scans Next.js project directories to extract API route information, validation schemas, and type definitions for automated documentation and testing workflows",
-  "url": "https://github.com/vertile-ai/next-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

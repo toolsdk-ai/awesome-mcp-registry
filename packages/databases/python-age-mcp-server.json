@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "age-mcp-server",
-  "description": "Bridges Claude with PostgreSQL databases using Apache AGE graph extension, enabling natural language execution of Cypher queries for graph operations, relationship analysis, and data visualization without complex SQL.",
-  "url": "https://github.com/rioriost/homebrew-age-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@pulumi/mcp-server",
-  "description": "Enables infrastructure as code operations with Pulumi, providing tools for querying registry resources and executing CLI commands like preview, deploy, and retrieving stack outputs",
-  "url": "https://github.com/pulumi/mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

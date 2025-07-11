@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "lacylights",
-  "description": "Integrates with LacyLights theatrical lighting systems to automate DMX fixture management, generate lighting designs from script analysis, and create cue sequences with intelligent color mixing and timing optimization.",
-  "url": "https://github.com/bbernstein/lacylights-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

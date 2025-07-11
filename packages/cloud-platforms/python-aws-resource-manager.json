@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "aws-resource-manager",
-  "description": "Manage AWS S3 and DynamoDB resources.",
-  "url": "https://github.com/rishikavikondala/mcp-server-aws",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

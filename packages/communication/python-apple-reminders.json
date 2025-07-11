@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "apple-reminders",
-  "description": "Integrates with Apple's Reminders app to create, read, and manage tasks with specified parameters like titles, notes, due dates, and priority levels",
-  "url": "https://github.com/chenningling/mcp-applereminders",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

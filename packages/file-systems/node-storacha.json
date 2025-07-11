@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "storacha",
-  "description": "Provides secure, decentralized file storage with UCAN authentication for document management and persistent data sharing between applications.",
-  "url": "https://github.com/storacha/mcp-storage-server",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

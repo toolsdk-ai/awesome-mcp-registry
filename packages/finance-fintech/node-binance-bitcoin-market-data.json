@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "binance-bitcoin-market-data",
-  "description": "Provides real-time and historical Bitcoin market data from Binance including ticker data, order books, trades, price charts, and live price streams for financial analysis and market research.",
-  "url": "https://github.com/milescool/binance-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

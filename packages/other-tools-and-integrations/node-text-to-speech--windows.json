@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "text-to-speech-(windows)",
-  "description": "Integrates with Windows speech services to enable text-to-speech and speech-to-text capabilities using native system features and PowerShell commands.",
-  "url": "https://github.com/expressionsbot/ms-lucidia-voice-gateway-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "react-analyzer",
-  "description": "Enables parsing and analysis of React component structures, props, and state management patterns for code review, debugging, and understanding complex React codebases",
-  "url": "https://github.com/azer/react-analyzer-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

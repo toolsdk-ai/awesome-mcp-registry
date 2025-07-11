@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@container-inc/mcp",
-  "description": "Enables seamless deployment of containerized applications directly from code editors through a three-step workflow of GitHub authentication, repository setup, and automated Docker image publishing.",
-  "url": "https://github.com/f-inc/containerinc-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "discord-(full-api)",
-  "description": "Integrates with Discord's API to enable flexible bot development and management through simplified REST and slash command interfaces.",
-  "url": "https://github.com/hanweg/mcp-discord-raw",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "clipboard-to-supabase",
-  "description": "Monitors your clipboard for images, automatically uploads them to Supabase Storage, and writes the public URL back to the clipboard for seamless sharing across platforms.",
-  "url": "https://github.com/martinbowling/clipboard-to-supabase-mcp-helper",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

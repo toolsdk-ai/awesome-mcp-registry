@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@serendipityai/markdown2pdf-mcp",
-  "description": "Converts Markdown documents to PDF format using Lightning Network micropayments, handling payment flows with QR codes and returning downloadable PDF URLs for pay-per-use document conversion.",
-  "url": "https://github.com/serendipity-ai/markdown2pdf-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

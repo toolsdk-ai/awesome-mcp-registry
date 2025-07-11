@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "odbc-database-connector",
-  "description": "Enables secure, read-only access to any ODBC-compatible database through tools for listing connections, testing connectivity, retrieving schemas, and executing SQL queries for data analysis and business intelligence.",
-  "url": "https://github.com/tylerstoltz/mcp-odbc",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

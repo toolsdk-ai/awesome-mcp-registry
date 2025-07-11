@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openai-websearch-mcp",
-  "description": "Enables AI assistants to search the web in real-time through OpenAI's websearch functionality, retrieving up-to-date information beyond training data cutoffs with configurable search parameters.",
-  "url": "https://github.com/conechoai/openai-websearch-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

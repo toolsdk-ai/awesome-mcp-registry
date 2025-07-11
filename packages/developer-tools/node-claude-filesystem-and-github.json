@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "claude-filesystem-and-github",
-  "description": "Integrates with GitHub, Brave Search, and local filesystems to enable repository management, web searches, and file operations for code analysis, research, and document handling tasks.",
-  "url": "https://github.com/jamcam-me/claude-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

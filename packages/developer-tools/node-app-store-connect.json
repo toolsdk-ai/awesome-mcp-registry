@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "app-store-connect",
-  "description": "Manage iOS app distribution and testing workflows.",
-  "url": "https://github.com/joshuarileydev/app-store-connect-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

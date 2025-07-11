@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tfnsw-realtime-alerts",
-  "description": "Integrates with Transport for NSW's Realtime Alerts API to retrieve, filter, and summarize up-to-date public transport disruptions and alerts across the NSW network.",
-  "url": "https://github.com/piddlingtuna/tfnsw-realtime-alerts-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

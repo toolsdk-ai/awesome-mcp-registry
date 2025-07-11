@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "audio-transcriber",
-  "description": "Provides speech-to-text transcription capabilities using OpenAI's Whisper API with configurable language settings and optional file saving",
-  "url": "https://github.com/ichigo3766/audio-transcriber-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

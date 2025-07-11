@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "configuration-manager",
-  "description": "Manages configurations for multiple MCP clients across platforms, providing tools to retrieve, list, add, and remove server configurations from client configuration files.",
-  "url": "https://github.com/landicefu/mcp-client-configuration-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

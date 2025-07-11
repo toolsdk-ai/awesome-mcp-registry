@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "agentmode",
-  "description": "All-in-one server that connects your coding AI to dozens of databases, data warehouses, data pipelines, cloud services, and more.",
-  "url": "https://github.com/agentmode/server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

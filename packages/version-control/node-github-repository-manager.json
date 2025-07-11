@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github-repository-manager",
-  "description": "Integrates with GitHub's API to automate repository management through natural language commands for creating, updating, and configuring repositories.",
-  "url": "https://github.com/politwit1984/github-meta-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

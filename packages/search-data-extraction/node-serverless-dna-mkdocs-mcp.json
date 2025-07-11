@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@serverless-dna/mkdocs-mcp",
-  "description": "Enables AI to search and retrieve content from MkDocs documentation sites by leveraging existing Lunr.js indexes and converting HTML to markdown for seamless integration.",
-  "url": "https://github.com/serverless-dna/mkdocs-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

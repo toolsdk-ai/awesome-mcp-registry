@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dolphindb",
-  "description": "Provides a bridge between DolphinDB time-series database and natural language interaction, enabling data querying and manipulation without complex database code for financial analysts and data scientists.",
-  "url": "https://github.com/tradercjz/dolphindb-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

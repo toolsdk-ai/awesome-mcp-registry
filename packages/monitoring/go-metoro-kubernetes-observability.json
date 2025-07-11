@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "metoro-kubernetes-observability",
-  "description": "MCP server enabling AI assistants to query and analyze Kubernetes telemetry data collected via eBPF instrumentation for observability and optimization.",
-  "url": "https://github.com/metoro-io/metoro-mcp-server",
-  "runtime": "go",
-  "license": "mit",
-  "env": {}
-}

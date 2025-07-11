@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "github-(via-oauth)",
-  "description": "Integrates with GitHub's OAuth system to enable secure access and management of repositories, issues, and code for automated development workflows and analysis.",
-  "url": "https://github.com/nikhil-patil-ri/mcp-github-oauth",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "iterm-terminal",
-  "description": "Provides AI models with direct access to iTerm terminal sessions for reading output, writing commands, and sending control characters, enabling efficient troubleshooting and task delegation in interactive terminal environments.",
-  "url": "https://github.com/lite/iterm-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

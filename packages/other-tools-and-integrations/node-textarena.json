@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "textarena",
-  "description": "Provides a fact-checking tool that compares input facts against a predefined dataset using string similarity algorithms and integrates external services like NLTK and a poker win calculator for flexible information verification.",
-  "url": "https://github.com/arjunkmrm/textarena-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

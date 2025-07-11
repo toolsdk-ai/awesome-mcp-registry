@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "dify-workflows",
-  "description": "Integrates with the Dify API to enable AI-driven workflow execution and management for automated task processing and decision making across domains.",
-  "url": "https://github.com/gotoolkits/mcp-difyworkflow-server",
-  "runtime": "go",
-  "license": "apache-2.0",
-  "env": {}
-}

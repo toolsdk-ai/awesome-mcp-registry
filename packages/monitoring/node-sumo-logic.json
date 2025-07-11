@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sumo-logic",
-  "description": "Integrates with the Sumo Logic API to perform log searches, enabling custom queries and analysis of log data for troubleshooting, monitoring, and generating insights from application logs.",
-  "url": "https://github.com/samwang0723/mcp-sumologic",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

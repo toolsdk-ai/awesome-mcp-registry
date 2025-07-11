@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "formula-1",
-  "description": "Integrates with Formula 1 APIs to provide real-time racing data, historical results, driver information, team radio messages, weather conditions, and telemetry for building F1 statistics applications.",
-  "url": "https://github.com/panth1823/formula1-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

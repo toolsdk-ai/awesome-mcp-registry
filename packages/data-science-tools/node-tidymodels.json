@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tidymodels",
-  "description": "Provides access to the tidymodels R ecosystem, enabling function search, package exploration, template code generation, and GitHub issue tracking for data science and machine learning workflows.",
-  "url": "https://github.com/javorraca/tidymodels-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

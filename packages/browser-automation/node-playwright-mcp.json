@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "playwright-mcp",
-  "description": "Playwright MCP enables browser automation and interaction recording by capturing DOM interactions, screenshots, and page navigation events to generate reproducible test scripts through a visual, context-driven workflow.",
-  "url": "https://github.com/ashish-bansal/playwright-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

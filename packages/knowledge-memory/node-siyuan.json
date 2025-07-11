@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "siyuan",
-  "description": "Bridges to the SiYuan note-taking application, enabling interaction with notes, documents, and knowledge bases through comprehensive API operations like block manipulation, SQL queries, and template rendering.",
-  "url": "https://github.com/onigeya/siyuan-mcp-server",
-  "runtime": "node",
-  "license": "isc",
-  "env": {}
-}

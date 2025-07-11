@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "baidu-content-safety",
-  "description": "Integrates with Baidu Cloud's content safety APIs to screen text and other content for potentially harmful, inappropriate, or illegal material before processing or displaying it.",
-  "url": "https://github.com/liangjunyu2010/mcp_server_safe_content_check",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {}
-}

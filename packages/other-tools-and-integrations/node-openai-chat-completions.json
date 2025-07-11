@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openai-chat-completions",
-  "description": "Make calls to OpenAI's chat completions.",
-  "url": "https://github.com/allaboutai-yt/mcp-servers/tree/HEAD/openai-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

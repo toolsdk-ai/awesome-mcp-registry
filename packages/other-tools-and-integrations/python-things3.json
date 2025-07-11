@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "things3",
-  "description": "Integrates with Things3 task management app on macOS, enabling creation and management of tasks and projects via AppleScript and x-callback-url, with specialized functionality for Agenda synchronization.",
-  "url": "https://github.com/drjforrest/mcp-things3",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

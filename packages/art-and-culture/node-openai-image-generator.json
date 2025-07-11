@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "openai-image-generator",
-  "description": "Provides a bridge between language models and OpenAI's image generation capabilities, enabling creation and modification of images through text prompts without directly managing API complexities.",
-  "url": "https://github.com/surescaleai/openai-gpt-image-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "open-deep-research",
-  "description": "Wraps the HuggingFace Open Deep Research project, built on their smolagents library, making the project available for use with MCP clients, such as AI assistants.",
-  "url": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-open-deep-research",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

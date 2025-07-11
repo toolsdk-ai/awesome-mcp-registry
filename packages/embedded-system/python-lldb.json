@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "lldb",
-  "description": "Enable disassembly, debugging and analysis of native apps via LLDB on macOS and Linux.",
-  "url": "https://github.com/stass/lldb-mcp",
-  "runtime": "python",
-  "license": "bsd-2-clause",
-  "env": {}
-}

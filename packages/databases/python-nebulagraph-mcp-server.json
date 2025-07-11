@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "nebulagraph-mcp-server",
-  "description": "Provides a lightweight server for seamless access to NebulaGraph 3.x graph databases, enabling graph schema exploration, query execution, and advanced graph-based operations like path finding and neighbor discovery.",
-  "url": "https://github.com/nebula-contrib/nebulagraph-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "appwrite",
-  "description": "Integrates with Appwrite's database functionality, enabling AI workflows to manage databases, define schemas, perform CRUD operations, and create custom indexes for flexible data modeling and backend service integration.",
-  "url": "https://github.com/appwrite/mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

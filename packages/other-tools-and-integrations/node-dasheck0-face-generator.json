@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@dasheck0/face-generator",
-  "description": "Generates customizable human face images using thispersondoesnotexist.com, offering options for shape, dimensions, and batch processing for UI prototyping and dataset creation.",
-  "url": "https://github.com/dasheck0/face-generator",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

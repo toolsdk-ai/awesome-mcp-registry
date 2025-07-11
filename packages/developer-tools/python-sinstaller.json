@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "sinstaller",
-  "description": "Automates installation and containerization of MCP servers from GitHub repositories by analyzing codebases, generating Docker configurations, and building ready-to-run container images with automatic transport detection and client configuration generation.",
-  "url": "https://github.com/semcp/mcp-sinstaller",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

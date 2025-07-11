@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "jupiter-ultra",
-  "description": "Provides a bridge to Jupiter's Ultra API for executing token swaps on Solana blockchain with optimal routing, competitive pricing, and transaction handling for DEX and RFQ operations.",
-  "url": "https://github.com/kukapay/jupiter-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

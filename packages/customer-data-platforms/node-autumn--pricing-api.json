@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "autumn-(pricing-api)",
-  "description": "Integrates with Autumn's pricing API to enable subscription management, customer information retrieval, invoice handling, and billing portal generation for businesses using Claude and other assistants.",
-  "url": "https://github.com/sirtenzin/autumn-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

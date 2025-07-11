@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@jinzcdev/markmap-mcp-server",
-  "description": "Transforms Markdown documents into interactive mind maps with zooming, node expansion/collapse, and multi-format export capabilities for visualizing hierarchical information.",
-  "url": "https://github.com/jinzcdev/markmap-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

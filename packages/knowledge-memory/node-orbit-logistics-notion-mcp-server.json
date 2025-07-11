@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@orbit-logistics/notion-mcp-server",
-  "description": "Integrates with Notion API to enable natural language-driven content management, knowledge base interactions, and automated workspace operations.",
-  "url": "https://github.com/orbit-logistics/notion-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

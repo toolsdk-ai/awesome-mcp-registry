@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "qwen-max",
-  "description": "Integrates with Qwen Max large language model via Dashscope API for text generation and analysis tasks in applications.",
-  "url": "https://github.com/66julienmartin/mcp-server-qwen_max",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

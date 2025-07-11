@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "landiwetter",
-  "description": "Integrates with LandiWetter to provide detailed Swiss weather forecasts including temperature ranges, precipitation probability, wind conditions, and sunshine duration.",
-  "url": "https://github.com/nabossha/mcp-landiwetter",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

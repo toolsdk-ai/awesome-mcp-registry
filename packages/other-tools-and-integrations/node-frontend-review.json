@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "frontend-review",
-  "description": "Provides visual verification for UI edit requests by comparing before/after screenshots and analyzing whether changes satisfy the original requirements",
-  "url": "https://github.com/fefergrgrgrg/cs-wallet",
-  "runtime": "node",
-  "license": "gpl-2.0",
-  "env": {}
-}

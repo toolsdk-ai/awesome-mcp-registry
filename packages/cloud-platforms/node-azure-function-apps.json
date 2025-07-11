@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "azure-function-apps",
-  "description": "Enables testing of Azure Function Apps through a command-line interface supporting various HTTP methods, custom headers, and multiple authentication options.",
-  "url": "https://github.com/dkmaker/mcp-function-app-tester",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@squadai/tools",
-  "description": "Integrates with Squad's product management platform to enable feedback management, knowledge organization, and workspace operations for product teams streamlining their workflows.",
-  "url": "https://github.com/the-basilisk-ai/squad-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

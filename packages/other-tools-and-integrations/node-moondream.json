@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "moondream",
-  "description": "Provide image analysis capabilities including captioning, object detection, and visual question answering for applications like content moderation and visual search.",
-  "url": "https://github.com/nighttrek/moondream-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

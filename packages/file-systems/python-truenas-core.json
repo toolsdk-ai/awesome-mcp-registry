@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "truenas-core",
-  "description": "Integrates with TrueNAS Core storage systems to enable natural language control of user management, pool monitoring, dataset creation, ZFS properties, permissions, and Kubernetes storage provisioning with automated snapshot policies and NFS/iSCSI target configuration.",
-  "url": "https://github.com/vespo92/truenascoremcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "mcp-gdb",
-  "description": "Integrates with GDB to provide debugging capabilities for C/C++ programs, enabling breakpoint setting, code stepping, memory examination, and call stack viewing without leaving the conversation interface.",
-  "url": "https://github.com/signal-slot/mcp-gdb",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tencent-cloud-object-storage",
-  "description": "Bridges AI assistants with Tencent Cloud Object Storage services, enabling file management, metadata retrieval, and storage analytics operations",
-  "url": "https://github.com/tencent/cos-mcp",
-  "runtime": "node",
-  "license": "other",
-  "env": {}
-}

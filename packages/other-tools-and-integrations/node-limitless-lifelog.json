@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "limitless-lifelog",
-  "description": "Enables AI access to personal lifelogs recorded via the Limitless Pendant, providing tools for retrieving, listing, and searching recordings to extract summaries, action items, and key topics.",
-  "url": "https://github.com/ipvr9/mcp-limitless-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

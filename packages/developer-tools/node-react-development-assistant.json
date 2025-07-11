@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "react-development-assistant",
-  "description": "Integrates with React applications to enable AI-assisted development workflows, providing tools for project management, terminal command execution, and file operations.",
-  "url": "https://github.com/kalivaraprasad-gonapa/react-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "api-football",
-  "description": "Provides a bridge to API-Football for accessing soccer data including league standings, team fixtures, player statistics, and live match information through specialized tools that retrieve both historical and real-time data.",
-  "url": "https://github.com/obinopaul/soccer-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "archy",
-  "description": "Generates architectural diagrams from text descriptions or GitHub repositories using Mermaid syntax, supporting flowcharts, class diagrams, sequence diagrams, and repository evolution tracking.",
-  "url": "https://github.com/phxdev1/archy-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {}
-}

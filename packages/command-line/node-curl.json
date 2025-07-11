@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "curl",
-  "description": "Make HTTP requests to any URL using curl-like interface.",
-  "url": "https://github.com/mcp-get/community-servers/tree/HEAD/src/server-curl",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

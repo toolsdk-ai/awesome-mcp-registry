@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "piapi-image-generation",
-  "description": "Integrates with PiAPI to enable AI-driven image generation from text prompts for content creation and visual design tasks.",
-  "url": "https://github.com/apinetwork/piapi-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

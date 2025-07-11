@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "o'reilly-content-search",
-  "description": "Connects to O'Reilly Media's content search API for discovering relevant books, articles, and technical resources with detailed metadata and filtering capabilities.",
-  "url": "https://github.com/odewahn/orm-mcp-tools",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

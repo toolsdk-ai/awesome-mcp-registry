@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "thingsboard",
-  "description": "Connects AI to ThingsBoard IoT platforms for retrieving device telemetry data and attributes, enabling monitoring and analysis of IoT device information.",
-  "url": "https://github.com/anycontext-ai/thingsboard-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

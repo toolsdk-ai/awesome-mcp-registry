@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "biodiversity",
-  "description": "Provides a simple interface for adding numbers and generating personalized greetings using FastMCP framework and custom helper functions.",
-  "url": "https://github.com/mikkohei13/mcp-biodiversity",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}

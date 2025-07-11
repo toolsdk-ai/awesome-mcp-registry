@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "@ergut/mcp-bigquery-server",
-  "description": "Securely query and analyze Google BigQuery datasets via natural language.",
-  "url": "https://github.com/ergut/mcp-bigquery-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

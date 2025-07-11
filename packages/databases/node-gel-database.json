@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "gel-database",
-  "description": "Integrates with Gel databases to enable automated schema discovery, query validation, and execution of EdgeQL and TypeScript queries for database interactions and management tasks.",
-  "url": "https://github.com/christian561/gel-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

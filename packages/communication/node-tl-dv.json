@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "tl;dv",
-  "description": "Interact with your meeting data (to list, ask, summarize, extract - virtually anything about your meetings) across Zoom, Google Meet and MS Teams via tl;dv.",
-  "url": "https://github.com/tldv-public/tldv-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

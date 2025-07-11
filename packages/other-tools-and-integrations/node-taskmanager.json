@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "taskmanager",
-  "description": "Enables breaking down complex tasks into manageable steps with queue-based planning and execution, maintaining context across conversations through structured task tracking and visual progress monitoring.",
-  "url": "https://github.com/rudra-ravi/mcp-taskmanager",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

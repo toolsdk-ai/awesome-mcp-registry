@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "memory-pouchdb",
-  "description": "Provides a knowledge graph-based memory system using PouchDB for storing and retrieving entity relationships and observations, enabling persistent conversational context across interactions.",
-  "url": "https://github.com/bneil/mcp-memory-pouchdb",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}

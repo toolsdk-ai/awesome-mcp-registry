@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "magic-(21st.dev)",
-  "description": "Create beautiful, modern UI components instantly through natural language descriptions.",
-  "url": "https://github.com/21st-dev/magic-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

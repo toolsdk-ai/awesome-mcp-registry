@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "docker-executor",
-  "description": "Provides a secure Docker-based environment for executing code in isolated containers, enabling safe running of commands and scripts in any language with robust error handling and resource management.",
-  "url": "https://github.com/zaycruz/docker_mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {}
-}

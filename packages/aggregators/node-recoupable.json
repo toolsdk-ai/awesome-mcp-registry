@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "recoupable",
-  "description": "Retrieves and aggregates social media insights for artists by fetching comprehensive fan and post data across multiple platforms, enabling developers to easily access structured online presence information",
-  "url": "https://github.com/recoupable/mcp-vercel",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {}
-}

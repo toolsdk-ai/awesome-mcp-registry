@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "baseline-(web-platform-compatibility)",
-  "description": "Provides real-time browser compatibility status for Web Platform APIs by connecting to the WebStatus API, helping web developers make informed decisions about feature usage",
-  "url": "https://github.com/yamanoku/baseline-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {}
-}
