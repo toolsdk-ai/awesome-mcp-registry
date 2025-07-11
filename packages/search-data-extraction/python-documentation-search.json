@@ -1,9 +1,0 @@
-{
-  "type": "mcp-server",
-  "packageName": "python-documentation-search",
-  "description": "Enables AI assistants to retrieve up-to-date documentation from popular Python libraries by performing targeted Google searches within specific documentation domains and extracting relevant content.",
-  "url": "https://github.com/xpe-7/mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {}
-}
