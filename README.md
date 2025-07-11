@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4051-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4053-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 4051+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4053+ MCP servers.
 
 
 
@@ -104,9 +104,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (585)
+✅: Validated and runnable tools (586)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3466))
+❌: Cannot be run by the MCP client (with mock environments variables (3467))
 
 
 
@@ -538,7 +538,7 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 - [❌ playwright-stealth](https://github.com/pvinis/mcp-playwright-stealth): Enables stealth web browsing automation with Playwright for tasks like navigation, form filling, and screenshot capture while avoiding detection by anti-bot systems  (node) 
 - [❌ mcp_server_browser_use](https://github.com/deploya-labs/mcp-browser-use): Enables AI assistants to interact with web browsers through a FastAPI server for web browsing, content extraction, and automation tasks with configurable LLM providers and browser modes.  (python) 
 - [❌ mcp-rquest](https://github.com/xxxbrian/mcp-rquest): Enables LLMs to make advanced HTTP requests with realistic browser emulation, bypassing anti-bot measures while supporting all HTTP methods, authentication, and automatic response handling for web scraping and API interactions.  (python) 
-- [✅ gologin-mcp](https://github.com/gologinapp/gologin-mcp): Manage your GoLogin browser profiles and automation directly through AI conversations. This MCP server connects to the GoLogin API, letting you create, configure, and control browser profiles using natural language.  (77 tools) (node) 
+- [✅ gologin-mcp](https://github.com/gologinapp/gologin-mcp): Manage your GoLogin browser profiles and automation directly through AI conversations. This MCP server connects to the GoLogin API, letting you create, configure, and control browser profiles using natural language.  (58 tools) (node) 
 - [❌ web-fetcher](https://github.com/everford/fetcher-mcp): Enables web content retrieval and processing through headless browsing with Playwright, extracting clean, readable text from complex web pages using Mozilla's Readability and Turndown for markdown conversion.  (node) 
 - [❌ web-llm-playwright](https://github.com/ragingwind/web-llm-mcp-server): Provides browser-based local LLM inference by running Web-LLM models entirely in a headless Chromium browser without external API dependencies, supporting multiple quantized models with dynamic switching and screenshot debugging for privacy-sensitive offline workflows.  (node) 
 - [❌ scenic-gui-automation](https://github.com/scenic-contrib/scenic_mcp_experimental): Provides automation and testing capabilities for Scenic Elixir GUI applications through keyboard input simulation, mouse interaction, and real-time connection monitoring via a dual-architecture TCP server and TypeScript interface.  (node) 
@@ -1060,6 +1060,8 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [✅ @taazkareem/clickup-mcp-server](https://github.com/taazkareem/clickup-mcp-server): Integrates ClickUp task management with AI systems to enable automated task creation, updates, and retrieval for enhanced project workflow efficiency.  (36 tools) (node) 
 - [✅ @grec0/mcp-s2s-asterisk](https://github.com/gcorroto/mcp-s2s-asterisk): Integrates with Asterisk phone systems to enable outbound call operations, conversation monitoring, call history retrieval, and telephony system metrics tracking for business automation workflows.  (9 tools) (node) 
 - [❌ gmail-mcp](https://github.com/vinayak-mehta/gmail-mcp): Integrates with Gmail to enable email search, retrieval, and interaction for natural language-driven email management and analysis tasks.  (python) 
+- [✅ @toolsdk.ai/aws-ses-mcp](https://github.com/omd01/aws-ses-mcp): Enables direct email sending through Amazon SES with support for HTML content, CC/BCC recipients, and reply-to addressing while maintaining AWS security standards.  (1 tools) (node) 
+- [✅ @toolsdk.ai/mcp-send-email](https://github.com/resend/mcp-send-email): Integrates with the Resend API to enable sending plain text emails with scheduling options and configurable reply-to addresses through command-line or environment variable configuration.  (1 tools) (node) 
 - [❌ nostr](https://github.com/austinkelsay/nostr-mcp-server): Bridges AI with the Nostr decentralized social network, enabling interaction with user profiles, posts, and Lightning Network payments through specialized tools for retrieving and analyzing social data.  (node) 
 - [❌ mcp-email-server](https://github.com/ai-zerolab/mcp-email-server): Integrates with email providers to enable sending and receiving emails, automating workflows and managing communications via IMAP and SMTP functionality.  (python) 
 - [❌ didlogic_mcp](https://github.com/userad/didlogic_mcp): Provides a natural language interface to DIDLogic telecommunications API for managing SIP accounts, phone numbers, call history, and billing information through specialized VoIP administration tools.  (python) 
@@ -1084,7 +1086,6 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ @shinzolabs/gmail-mcp](https://github.com/shinzo-labs/gmail-mcp): Manage your emails effortlessly with a standardized interface for drafting, sending, retrieving, and organizing messages. Streamline your email workflow with complete Gmail API coverage, including label and thread management.  (node) 
 - [✅ @floriscornel/teams-mcp](https://github.com/floriscornel/teams-mcp): Integrates with Microsoft Teams through Graph API to search messages, manage chats and channels, send messages, create group chats, and handle user/team operations with device code authentication for secure access.  (19 tools) (node) 
 - [❌ discord-relay](https://github.com/emiliobool/mcp-relay): Bridges with Discord channels for automated messaging, user interaction, and response handling.  (node) 
-- [❌ resend-email](https://github.com/resend/mcp-send-email): Integrates with the Resend API to enable sending plain text emails with scheduling options and configurable reply-to addresses through command-line or environment variable configuration.  (node) 
 - [❌ outlook-email-processor](https://github.com/cam10001110101/mcp-server-outlook-email): Integrates with Outlook to provide email processing, semantic search, and metadata storage capabilities using MongoDB and SQLite, enabling advanced analysis and retrieval of email data in Windows environments.  (python) 
 - [❌ quickchat-ai-mcp](https://github.com/quickchatai/quickchat-ai-mcp): Provides a bridge between AI assistants and Quickchat's conversation platform, enabling seamless interaction with Quickchat scenarios through API key authentication and conversation state management.  (python) 
 - [❌ keep-mcp](https://github.com/feuerdev/keep-mcp): Provides a bridge to Google Keep for searching, creating, updating, and deleting notes with safety features that restrict modifications to specifically labeled content.  (python) 
@@ -1098,7 +1099,7 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ server-notify](https://github.com/cactusinhand/mcp_server_notify): Provides a cross-platform notification service that displays alerts and plays sounds when triggered by HTTP requests, enabling applications to send customizable notifications with configurable timeouts for important events without requiring constant monitoring.  (python) 
 - [❌ postal-mcp](https://github.com/tkellogg/postal-mcp): Creates a persistent mailbox system enabling asynchronous message passing between agents through send_to_agent and check_mail tools backed by SQLite storage.  (python) 
 - [❌ lark-mcp](https://github.com/lorrylockie/lark-mcp): Provides a bridge to Lark/Feishu workplace collaboration platform, enabling access to employee information and messaging capabilities with automatic authentication and token management.  (node) 
-- [✅ @waystation/mcp](https://github.com/waystation-ai/mcp): Connects productivity tools like Monday, Asana, Notion, and Slack through a secure integration hub, enabling seamless access directly from chat interfaces without switching applications.  (59 tools) (node) 
+- [✅ @waystation/mcp](https://github.com/waystation-ai/mcp): Connects productivity tools like Monday, Asana, Notion, and Slack through a secure integration hub, enabling seamless access directly from chat interfaces without switching applications.  (63 tools) (node) 
 - [❌ outlook](https://github.com/jibberish69/enhanced-outlook-mcp): Bridges Microsoft Graph API to enable seamless email, calendar, and messaging interactions through natural language commands and comprehensive management tools.  (node) 
 - [❌ voice-call-(twilio)](https://github.com/popcornspace/voice-call-mcp-server): Enables AI to make outbound phone calls via Twilio with real-time speech processing, creating natural conversations for appointment scheduling, customer service, or information gathering without human intervention.  (node) 
 - [❌ whatsapp-(greenapi)](https://github.com/msaelices/whatsapp-mcp-server): Provides a bridge to the WhatsApp Business API through GreenAPI, enabling message sending, chat retrieval, and group management directly from conversations.  (python) 
@@ -1148,7 +1149,7 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ twitter-connect](https://github.com/namrata-ami/mcp_twitter_connect): Integrates with Twitter's API to retrieve recent tweets from specified users, enabling real-time Twitter content access within conversations without requiring direct Twitter API credentials.  (node) 
 - [❌ discord-bot](https://github.com/mastra-ai/discord-mcp-server): Discord bot that provides intelligent assistance through slash commands and direct messages, creating threaded conversations and managing message chunking for comprehensive support in Discord communities  (node) 
 - [✅ @horizondatawave/mcp](https://github.com/horizondatawave/hdw-mcp-server): Bridges AI systems with LinkedIn's API for searching users, retrieving profiles, accessing posts, managing connections, and sending messages to support sales prospecting, recruitment, and professional networking workflows.  (19 tools) (node) 
-- [❌ aws-ses-email](https://github.com/omd01/aws-ses-mcp): Enables direct email sending through Amazon SES with support for HTML content, CC/BCC recipients, and reply-to addressing while maintaining AWS security standards.  (node) 
+- [✅ @toolsdk.ai/aws-ses-mcp](https://github.com/omd01/aws-ses-mcp): Enables direct email sending through Amazon SES with support for HTML content, CC/BCC recipients, and reply-to addressing while maintaining AWS security standards.  (1 tools) (node) 
 - [❌ dingding-(dingtalk)](https://github.com/hundunonline/mcp-dingdingbot-server): Integrates with DingDing (DingTalk) messaging platform to enable automated notifications, team alerts, and AI-generated content delivery through multiple message formats including text, markdown, images, and interactive cards.  (go) 
 - [❌ geekbot](https://github.com/geekbot-com/geekbot-mcp): Integrates with Geekbot API to fetch standup meeting data and generate structured reports with filtering capabilities by date ranges and users, enabling automated team activity summaries and pattern analysis.  (python) 
 - [❌ slack](https://github.com/ubie-oss/slack-mcp-server): Enables AI interaction with Slack workspaces through nine tools for channel management, messaging, user profiles, and reactions using both Bot and User OAuth tokens  (node) 
@@ -3145,6 +3146,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ kagi-search](https://github.com/kagisearch/kagimcp): Integrates Kagi's advanced search capabilities into workflows, enabling high-quality, privacy-focused web information retrieval for informed decision-making and analysis.  (python) 
 - [✅ @ashdev/discourse-mcp-server](https://github.com/ashdevfr/discourse-mcp-server): Enables searching and retrieving content from Discourse forums through a single tool that queries posts using the discourse2 npm package.  (1 tools) (node) 
 - [❌ tavily-mcp](https://github.com/tavily-ai/tavily-mcp): Integrates with Tavily API to provide real-time web search and content extraction capabilities for research, aggregation, and fact-checking tasks.  (node) 
+- [✅ @toolsdk.ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp): An MCP server that implements web search, extract, mapping, and crawling through the Tavily API.  (4 tools) (node) 
 - [❌ azure-ai-search](https://github.com/farzad528/mcp-server-azure-ai-agents): Integrates with Azure AI Search to enable keyword, vector, and hybrid search capabilities for retrieving information from search indexes in readable markdown format.  (python) 
 - [❌ mcp-duckduckgo-search](https://github.com/spences10/mcp-duckduckgo-search): Integrates DuckDuckGo search capabilities with customizable parameters for web-based information retrieval.  (node) 
 - [❌ minima-(local-rag)](https://github.com/dmayboroda/minima/tree/HEAD/mcp-server): Search and retrieve context from local files for RAG.  (python) 
@@ -3354,7 +3356,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ document-crawler-&-search](https://github.com/alizdavoodi/mcpdocsearch): Crawls websites to generate searchable Markdown documentation with vector embeddings for semantic search capabilities beyond training cutoffs  (python) 
 - [❌ mcp-searxng](https://github.com/secretiveshell/mcp-searxng): Perform privacy-preserving web searches via the SearXNG metasearch engine.  (python) 
 - [❌ bilibili-search](https://github.com/huccihuang/bilibili-mcp-server): Enables search across Bilibili's Chinese video platform through a lightweight FastMCP interface that retrieves video content, user information, and other searchable data with optional authentication via session cookies.  (python) 
-- [✅ mcp-maigret](https://github.com/burtthecoder/mcp-maigret): OSINT Maigret integration to gather user info across social networks.  (2 tools) (node) 
+- [❌ mcp-maigret](https://github.com/burtthecoder/mcp-maigret): OSINT Maigret integration to gather user info across social networks.  (node) 
 - [✅ graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server): Graphlit MCP Server for AI, RAG, OpenAI, PDF parsing and preprocessing  (64 tools) (node) 
 - [❌ python-documentation-search](https://github.com/xpe-7/mcp-server): Enables AI assistants to retrieve up-to-date documentation from popular Python libraries by performing targeted Google searches within specific documentation domains and extracting relevant content.  (python) 
 - [✅ @pinkpixel/prysm-mcp](https://github.com/pinkpixel-dev/prysm-mcp-server): Provides web scraping capabilities with three specialized tools (scrapeFocused, scrapeBalanced, scrapeDeep) for efficient content extraction, image processing, and pagination handling with customizable parameters.  (4 tools) (node) 
@@ -3409,7 +3411,7 @@ Enhance security with tools for scanning, threat detection, and secure access.
 - [❌ exploitdb](https://github.com/cyreslab-ai/exploitdb-mcp-server): Provides direct access to ExploitDB functionality for cybersecurity research, enabling exploit searches by keywords, CVE IDs, or platforms with local database caching for threat intelligence and vulnerability analysis.  (node) 
 - [❌ osint-toolkit](https://github.com/himanshusanecha/mcp-osint-server): Provides a unified interface for network reconnaissance with parallel execution of OSINT tools including WHOIS, Nmap, DNS lookups, and typosquatting detection for security researchers and network administrators.  (python) 
 - [❌ wazuh](https://github.com/gensecaihq/wazuh-mcp-server): Integrates with Wazuh security platform to provide real-time security alerts and event data from Elasticsearch indices for security operations and threat analysis workflows.  (python) 
-- [✅ @burtthecoder/mcp-dnstwist](https://github.com/burtthecoder/mcp-dnstwist): Integrates with dnstwist to automate DNS fuzzing for detecting typosquatting, phishing, and corporate espionage threats.  (1 tools) (node) 
+- [❌ @burtthecoder/mcp-dnstwist](https://github.com/burtthecoder/mcp-dnstwist): Integrates with dnstwist to automate DNS fuzzing for detecting typosquatting, phishing, and corporate espionage threats.  (node) 
 - [❌ enkryptai](https://github.com/enkryptai/enkryptai-mcp-server): Integrates with EnkryptAI platform to provide robust guardrails, policy management, model configuration, and deployment orchestration with customizable safety controls for preventing harmful outputs.  (python) 
 - [❌ urldna](https://github.com/urldna/mcp): Integrates with urlDNA's cybersecurity API to provide URL threat intelligence through scanning, phishing detection, search queries across domains and malicious status, and retrieval of existing analysis results for security workflows.  (python) 
 - [❌ blockchain-signer](https://github.com/zhangzhongnan928/mcp-blockchain-server): Enables secure blockchain interactions with user-controlled private keys and transaction signing, featuring a Node.js backend, PostgreSQL database, Redis caching, and integration with Ethereum and EVM-compatible chains via Infura.  (node) 
@@ -4195,7 +4197,7 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [❌ kicad](https://github.com/lamaalrajih/kicad-mcp): Enables Claude to analyze and validate KiCad electronic design projects through PCB visualization, design rule checking, and schematic analysis for improved troubleshooting and manufacturing preparation.  (python) 
 - [❌ swagger](https://github.com/danishjsheikh/swagger-mcp): Transforms Swagger/OpenAPI specifications into dynamic tools, enabling interaction with any REST API through automatic endpoint discovery, parameter validation, and security handling.  (go) 
 - [✅ folo-mcp](https://github.com/hyoban/folo-mcp): Integrates with Folo RSS reader to enable querying and managing feed subscriptions, retrieving filtered entries, checking unread counts, and marking entries as read for streamlined content discovery and organization.  (5 tools) (node) 
-- [✅ @stackzero-labs/mcp](https://github.com/stackzero-labs/mcp): Integrates with Stackzero Labs' commerce UI component library to browse, retrieve, and install React components optimized for e-commerce applications including ratings, image viewers, product controls, and banner blocks with installation instructions and usage examples.  (12 tools) (node) 
+- [❌ @stackzero-labs/mcp](https://github.com/stackzero-labs/mcp): Integrates with Stackzero Labs' commerce UI component library to browse, retrieve, and install React components optimized for e-commerce applications including ratings, image viewers, product controls, and banner blocks with installation instructions and usage examples.  (node) 
 - [❌ moodle](https://github.com/peancor/moodle-mcp-server): Streamlines Moodle educational workflows by providing automated tools for retrieving student information, managing assignments, and generating feedback through natural language interactions.  (node) 
 - [❌ contentful](https://github.com/tejedamiguel6/mcp-server-contenful): Enables Claude to directly interact with Contentful CMS data by providing tools to fetch content types and entries, supporting content exploration, metadata analysis, and dynamic content querying.  (node) 
 - [❌ docent-(image-description)](https://github.com/dongprojectteam/mcp-docent-server): Enables AI systems to generate detailed descriptions of images for accessibility applications, content analysis, and visual media interactions.  (node) 

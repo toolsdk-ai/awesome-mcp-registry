@@ -6,6 +6,9 @@
   "runtime": "node",
   "license": "unknown",
   "env": {
-    "RESEND_API_KEY": "YOUR_RESEND_API_KEY"
+    "RESEND_API_KEY": {
+      "description": "YOUR_RESEND_API_KEY_HERE (string, required)",
+      "required": true
+    }
   }
 }

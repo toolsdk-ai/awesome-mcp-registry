@@ -1,4 +1,26 @@
 {
+  "@toolsdk.ai/aws-ses-mcp": {
+    "category": "communication",
+    "path": "communication/aws-ses-email.json",
+    "tools": {
+      "send-email": {
+        "name": "send-email",
+        "description": "Send an email using AWS SES"
+      }
+    },
+    "validated": true
+  },
+  "@toolsdk.ai/mcp-send-email": {
+    "category": "communication",
+    "path": "communication/resend-email.json",
+    "tools": {
+      "send-email": {
+        "name": "send-email",
+        "description": "Send an email using Resend"
+      }
+    },
+    "validated": true
+  },
   "@kazuph/mcp-screenshot": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/kazuph-mcp-screenshot.json",
@@ -15955,17 +15977,8 @@
   "mcp-maigret": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-maigret.json",
-    "validated": true,
-    "tools": {
-      "search_username": {
-        "name": "search_username",
-        "description": "Search for a username across social networks and sites"
-      },
-      "parse_url": {
-        "name": "parse_url",
-        "description": "Parse a URL to extract information and search for associated usernames"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "python-documentation-search": {
     "category": "search-data-extraction",
@@ -24867,29 +24880,13 @@
         "name": "get_profile_by_id",
         "description": "Get profile by id"
       },
-      "delete_profile": {
-        "name": "delete_profile",
-        "description": "Delete profile"
-      },
       "update_profile": {
         "name": "update_profile",
         "description": "Update profile"
       },
-      "get_profile_history": {
-        "name": "get_profile_history",
-        "description": "Get profile history"
-      },
-      "update_profile_history": {
-        "name": "update_profile_history",
-        "description": "Update profile history"
-      },
       "update_user_agent_of_profile": {
         "name": "update_user_agent_of_profile",
         "description": "Update user agent of profile"
-      },
-      "get_profile_archive_url": {
-        "name": "get_profile_archive_url",
-        "description": "Get profile archive url"
       },
       "find_cookies_of_profile": {
         "name": "find_cookies_of_profile",
@@ -24915,49 +24912,9 @@
         "name": "refresh_profile_fingerprint",
         "description": "Refresh profile fingerprint"
       },
-      "restore_previous_profile_version": {
-        "name": "restore_previous_profile_version",
-        "description": "Restore previous profile version"
-      },
-      "update_profile_notes": {
-        "name": "update_profile_notes",
-        "description": "Update profile notes"
-      },
       "update_multiple_profiles_names": {
         "name": "update_multiple_profiles_names",
         "description": "Update multiple profiles names"
-      },
-      "update_profile_name": {
-        "name": "update_profile_name",
-        "description": "Update profile name"
-      },
-      "update_profile_geolocation": {
-        "name": "update_profile_geolocation",
-        "description": "Update profile geolocation"
-      },
-      "update_profile_proxy": {
-        "name": "update_profile_proxy",
-        "description": "Update profile proxy"
-      },
-      "update_profile_language": {
-        "name": "update_profile_language",
-        "description": "Update profile language"
-      },
-      "update_profile_timezone": {
-        "name": "update_profile_timezone",
-        "description": "Update profile timezone"
-      },
-      "update_profile_resolution": {
-        "name": "update_profile_resolution",
-        "description": "Update profile resolution"
-      },
-      "update_profile_user_agent": {
-        "name": "update_profile_user_agent",
-        "description": "Update profile user agent"
-      },
-      "clone_profile": {
-        "name": "clone_profile",
-        "description": "Clone profile"
       },
       "clone_multiple_profiles": {
         "name": "clone_multiple_profiles",
@@ -24995,14 +24952,6 @@
         "name": "remove_member_from_workspace",
         "description": "Remove member from workspace"
       },
-      "create_share": {
-        "name": "create_share",
-        "description": "Create share"
-      },
-      "delete_share": {
-        "name": "delete_share",
-        "description": "Delete share"
-      },
       "create_multiple_shares": {
         "name": "create_multiple_shares",
         "description": "Create multiple shares"
@@ -25010,18 +24959,6 @@
       "delete_folder_share": {
         "name": "delete_folder_share",
         "description": "Delete folder share"
-      },
-      "create_template": {
-        "name": "create_template",
-        "description": "Create template"
-      },
-      "get_all_templates": {
-        "name": "get_all_templates",
-        "description": "Get all templates"
-      },
-      "update_template": {
-        "name": "update_template",
-        "description": "Update template"
       },
       "find_proxy_by_id": {
         "name": "find_proxy_by_id",
@@ -27601,12 +27538,6 @@
     "validated": false,
     "tools": {}
   },
-  "resend-email": {
-    "category": "communication",
-    "path": "communication/resend-email.json",
-    "validated": false,
-    "tools": {}
-  },
   "zoom": {
     "category": "communication",
     "path": "communication/zoom.json",
@@ -27874,6 +27805,22 @@
         "name": "getLinearFavorites",
         "description": "Retrieves a list of favorite projects and issues from Linear for the authenticated user."
       },
+      "listGmailThreads": {
+        "name": "listGmailThreads",
+        "description": "Retrieves a list of email threads/conversations from the user's Gmail account with optional filtering."
+      },
+      "readGmailThread": {
+        "name": "readGmailThread",
+        "description": "Retrieves a complete email thread/conversation with readable message content, stripped of unnecessary metadata."
+      },
+      "saveGmailDraft": {
+        "name": "saveGmailDraft",
+        "description": "Creates and saves a draft email in the user's Gmail account that can be edited and sent later."
+      },
+      "sendGmailEmail": {
+        "name": "sendGmailEmail",
+        "description": "Sends an email directly through the user's Gmail account."
+      },
       "helloWayStation": {
         "name": "helloWayStation",
         "description": "Call this action when users says 'Hello WayStation'. It displays welcome information about WayStation to the user"
@@ -28045,8 +27992,13 @@
   "aws-ses-email": {
     "category": "communication",
     "path": "communication/aws-ses-email.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "send-email": {
+        "name": "send-email",
+        "description": "Send an email using AWS SES"
+      }
+    }
   },
   "slack": {
     "category": "communication",
@@ -38382,13 +38334,8 @@
   "@burtthecoder/mcp-dnstwist": {
     "category": "security",
     "path": "security/burtthecoder-mcp-dnstwist.json",
-    "validated": true,
-    "tools": {
-      "fuzz_domain": {
-        "name": "fuzz_domain",
-        "description": "Generate and analyze domain permutations to detect potential typosquatting, phishing, and brand impersonation"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "urldna": {
     "category": "security",
@@ -41244,57 +41191,8 @@
   "@stackzero-labs/mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/stackzero-labs-mcp.json",
-    "validated": true,
-    "tools": {
-      "getUIComponents": {
-        "name": "getUIComponents",
-        "description": "Provides a comprehensive list of all stackzero-labs/ui components."
-      },
-      "getUIBlocks": {
-        "name": "getUIBlocks",
-        "description": "Provides a comprehensive list of all stackzero-labs/ui blocks."
-      },
-      "getRatings": {
-        "name": "getRatings",
-        "description": "Provides implementation details for star-rating-basic, star-rating-fractions, upvote-rating-basic, upvote-rating-animated, face-rating-basic, face-rating-gradient components."
-      },
-      "getImages": {
-        "name": "getImages",
-        "description": "Provides implementation details for image-viewer-basic, image-viewer-motion, image-carousel-basic components."
-      },
-      "getProducts": {
-        "name": "getProducts",
-        "description": "Provides implementation details for price-format-basic, price-format-sale, quantity-input-basic, variant-color-selector-basic, variant-selector-basic, variant-selector-images, variant-selector-multiple components."
-      },
-      "getInputs": {
-        "name": "getInputs",
-        "description": "Provides implementation details for input-icon, phone-number-input-basic components."
-      },
-      "getAddresses": {
-        "name": "getAddresses",
-        "description": "Provides implementation details for address-01-block, address-02-block blocks."
-      },
-      "getBanners": {
-        "name": "getBanners",
-        "description": "Provides implementation details for banner-01-block, banner-02-block, banner-03-block, banner-04-block, banner-05-block, banner-06-block, banner-07-block, banner-08-block, banner-09-block, banner-10-block, banner-11-block, banner-12-block blocks."
-      },
-      "getProductCards": {
-        "name": "getProductCards",
-        "description": "Provides implementation details for product-card-01-block, product-card-02-block, product-card-03-block, product-card-04-block, product-card-05-block, product-card-06-block, product-card-07-block, product-card-08-block, product-card-09-block, product-card-10-block, product-card-11-block, product-card-12-block, product-card-13-block blocks."
-      },
-      "getProductVariants": {
-        "name": "getProductVariants",
-        "description": "Provides implementation details for product-variant-01-block, product-variant-02-block, product-variant-03-block, product-variant-04-block, product-variant-05-block blocks."
-      },
-      "getReviews": {
-        "name": "getReviews",
-        "description": "Provides implementation details for review-01-block, review-02-block, review-03-block, review-04-block, review-05-block, review-06-block, review-07-block, review-08-block, review-09-block, review-10-block blocks."
-      },
-      "getCarts": {
-        "name": "getCarts",
-        "description": "Provides implementation details for cart-01-block blocks."
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "moodle": {
     "category": "other-tools-and-integrations",
