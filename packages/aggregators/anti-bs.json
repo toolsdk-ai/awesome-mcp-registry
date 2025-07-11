@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "anti-bs",
+  "description": "Integrates multiple epistemological frameworks to analyze claims, validate sources, and detect manipulation for enhanced fact-checking and critical thinking.",
+  "url": "https://github.com/bmorphism/anti-bullshit-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

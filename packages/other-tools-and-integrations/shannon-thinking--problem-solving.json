@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "shannon-thinking-(problem-solving)",
+  "description": "Implements Claude Shannon's systematic problem-solving methodology to guide users through structured stages of complex problem breakdown and solution refinement.",
+  "url": "https://github.com/olaservo/shannon-thinking",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

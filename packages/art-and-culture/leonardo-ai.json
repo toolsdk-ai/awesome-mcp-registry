@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "leonardo-ai",
+  "description": "Integrates with Leonardo AI's image generation platform for creating custom images with specific models, checking job status, and managing generation history through the Leonardo API.",
+  "url": "https://github.com/ish-joshi/leonardo-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

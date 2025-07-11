@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "hypernym-semantic-analysis",
+  "description": "Provides semantic text analysis and compression tools for advanced content processing, enabling summarization, search optimization, and efficient storage while preserving core meaning.",
+  "url": "https://github.com/bmorphism/hypernym-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "lottiefiles",
+  "description": "Integrates with the LottieFiles API to enable search and retrieval of animations by keywords, popular collections, and detailed information without leaving the conversation interface.",
+  "url": "https://github.com/junmer/mcp-server-lottiefiles",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

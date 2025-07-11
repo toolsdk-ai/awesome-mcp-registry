@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pattern-language",
+  "description": "Provides structured coding instructions and testing guidelines by dynamically combining general programming principles with language-specific rules through a tool-based interface that processes markdown instruction files into executable patterns.",
+  "url": "https://github.com/markacianfrani/mcp-pattern-language",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

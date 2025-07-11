@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "restaurant-booking-(google-maps)",
+  "description": "Integrates Google Maps Places API with intelligent recommendation algorithms to provide restaurant discovery, booking assistance, and contextually relevant suggestions based on mood, event type, and user preferences.",
+  "url": "https://github.com/samwang0723/mcp-booking",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "revit-mcp",
+  "description": "Bridges Autodesk Revit with external tools for finding, creating, updating, and deleting model elements including walls, floors, levels, grids, and family instances via TCP socket connection.",
+  "url": "https://github.com/zedmoster/revit-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

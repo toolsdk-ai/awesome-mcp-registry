@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "memobase",
+  "description": "Provides a bridge between AI assistants and the MemoBase API for managing conversation context and personal knowledge through JSON-RPC over stdio, enabling persistent user data storage and contextual information retrieval during conversations.",
+  "url": "https://github.com/wuyunmei/momedb-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

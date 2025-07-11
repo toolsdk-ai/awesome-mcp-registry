@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-crypto-price",
+  "description": "Integrates with CoinCap's API to provide real-time cryptocurrency data, enabling price tracking, market analysis, and historical trend examination for financial applications.",
+  "url": "https://github.com/truss44/mcp-crypto-price",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "COINCAP_API_KEY": {
+      "description": "YOUR_API_KEY_HERE",
+      "required": true
+    }
+  }
+}

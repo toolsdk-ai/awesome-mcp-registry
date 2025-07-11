@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "langflow-document-qa",
+  "description": "Connects Claude Desktop to a Langflow-powered document question-answering system through a query_docs tool that processes document-based questions using a Mistral model.",
+  "url": "https://github.com/gongrzhe/langflow-doc-qa-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

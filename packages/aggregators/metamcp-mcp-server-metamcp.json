@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@metamcp/mcp-server-metamcp",
+  "description": "Centralizes management of multiple AI services, providing secure API key handling and unified access for streamlined interactions across diverse platforms.",
+  "url": "https://github.com/metatool-ai/mcp-server-metamcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "METAMCP_API_KEY": {
+      "description": "<your api key>",
+      "required": true
+    }
+  }
+}

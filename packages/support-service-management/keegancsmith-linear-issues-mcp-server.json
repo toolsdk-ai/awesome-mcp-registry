@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@keegancsmith/linear-issues-mcp-server",
+  "description": "Integrates with Linear issue tracking to provide read-only access to issue details and comments without switching contexts.",
+  "url": "https://github.com/keegancsmith/linear-issues-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "LINEAR_API_TOKEN": {
+      "description": "your_linear_api_token_here",
+      "required": true
+    }
+  }
+}

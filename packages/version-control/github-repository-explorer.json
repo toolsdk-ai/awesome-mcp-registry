@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-repository-explorer",
+  "description": "Extracts and provides GitHub repository information including summaries, directory structures, and file contents for seamless code analysis and reference during conversations.",
+  "url": "https://github.com/puravparab/gitingest-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

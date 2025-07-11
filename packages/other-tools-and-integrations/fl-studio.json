@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "fl-studio",
+  "description": "Enables direct AI interaction with FL Studio's MIDI and recording capabilities through encrypted MIDI messages, democratizing music creation by bridging digital audio workstations with intelligent assistants.",
+  "url": "https://github.com/veenastudio/flstudio-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

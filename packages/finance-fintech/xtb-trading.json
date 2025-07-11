@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "xtb-trading",
+  "description": "Integrates with the XTB trading platform to enable account operations, market data retrieval, trade execution, and financial calculations for automated trading strategies and portfolio management.",
+  "url": "https://github.com/sharplygroup/xtb-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

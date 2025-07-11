@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "n8n-mcp-server",
+  "description": "Integrates with n8n workflow automation platform to enable workflow management, execution monitoring, and task automation through a bridge that connects AI capabilities with n8n's powerful automation tools.",
+  "url": "https://github.com/leonardsellem/n8n-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

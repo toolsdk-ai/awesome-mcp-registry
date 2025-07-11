@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ip-geolocator",
+  "description": "Integrates with IP-API.com to provide IP geolocation services, enabling location-based insights without API keys or complex integrations.",
+  "url": "https://github.com/tedlikeskix/mcp-ip-geolocator",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

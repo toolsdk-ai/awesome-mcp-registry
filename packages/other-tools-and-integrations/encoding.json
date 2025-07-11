@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "encoding",
+  "description": "Integrates with an encoding API to enable encoding-related operations like data compression and format conversion, supporting secure API key management and efficient request handling.",
+  "url": "https://github.com/patrickkalkman/encoding-devops",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

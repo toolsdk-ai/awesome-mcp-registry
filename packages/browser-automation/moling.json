@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "moling",
+  "description": "Enables AI to interact with local system resources through a secure, configurable server that provides browser automation, file operations, and command execution with robust security measures.",
+  "url": "https://github.com/gojue/moling",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

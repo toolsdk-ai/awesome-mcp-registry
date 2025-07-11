@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "wordpress",
+  "description": "Enables direct interaction with WordPress sites for creating, retrieving, and updating posts through the WordPress REST API",
+  "url": "https://github.com/leonelberio/the-wordpress-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

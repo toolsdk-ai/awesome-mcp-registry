@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@unifuncs/ufn-mcp-server",
+  "description": "Provides a bridge to the UniFuncs API for web search and web reading capabilities through TypeScript implementation with Express and NPX commands.",
+  "url": "https://github.com/unifuncs/ufn-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "UNIFUNCS_API_KEY": {
+      "description": "sk-**********",
+      "required": true
+    }
+  }
+}

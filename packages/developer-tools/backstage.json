@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "backstage",
+  "description": "Enables AI systems to interact with Backstage developer portal for listing templates and instantiating new projects through Quarkus-based API communication.",
+  "url": "https://github.com/iocanel/backstage-mcp",
+  "runtime": "java",
+  "license": "unknown",
+  "env": {}
+}

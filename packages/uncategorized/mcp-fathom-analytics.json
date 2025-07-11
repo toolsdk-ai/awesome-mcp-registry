@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-fathom-analytics",
+  "description": "Integrates with Fathom Analytics to retrieve account information, manage sites, track events, generate reports, and monitor real-time visitor data using the @mackenly/fathom-api SDK",
+  "url": "https://github.com/mackenly/mcp-fathom-analytics",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "FATHOM_API_KEY": {
+      "description": "your_api_key_here",
+      "required": true
+    }
+  }
+}

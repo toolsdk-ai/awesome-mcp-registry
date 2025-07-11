@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gong",
+  "description": "Integrates with Gong's API to access call recordings and transcripts, enabling analysis of sales conversations and customer interactions with date filtering and speaker identification capabilities.",
+  "url": "https://github.com/kenazk/gong-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

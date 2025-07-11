@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pyodide-integration",
+  "description": "Integrates Pyodide to enable Python execution in JavaScript environments.",
+  "url": "https://github.com/yonaka15/mcp-pyodide",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

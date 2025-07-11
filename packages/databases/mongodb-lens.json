@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mongodb-lens",
+  "description": "Integrates with MongoDB databases to enable browsing collections, executing queries, running aggregation pipelines, analyzing schemas, and optimizing performance through specialized database exploration tools.",
+  "url": "https://github.com/furey/mongodb-lens",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

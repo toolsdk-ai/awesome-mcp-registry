@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "aws-service-reference",
+  "description": "Integrates with AWS Service Reference API to provide real-time access to AWS service capabilities and API actions for developers and cloud architects.",
+  "url": "https://github.com/mitchybawesome/sar-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

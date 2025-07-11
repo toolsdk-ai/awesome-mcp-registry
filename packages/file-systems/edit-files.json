@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "edit-files",
+  "description": "Provides precise line-based editing tools for text files within allowed directories, enabling safe and controlled bulk modifications across multiple files.",
+  "url": "https://github.com/oakenai/mcp-edit-file-lines",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

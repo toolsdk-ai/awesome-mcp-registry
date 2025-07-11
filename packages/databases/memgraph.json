@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "memgraph",
+  "description": "Provides a bridge between AI assistants and Memgraph database for executing Cypher queries, retrieving schema information, and performing graph-based data analysis without requiring raw query writing or connection management.",
+  "url": "https://github.com/memgraph/mcp-memgraph",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "qualitative-research-knowledge-graph",
+  "description": "Maintains a structured knowledge graph of qualitative research entities including projects, participants, interviews, codes, themes, and findings, enabling researchers to track analytical development and connect evidence to conclusions.",
+  "url": "https://github.com/tejpalvirk/qualitativeresearch",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

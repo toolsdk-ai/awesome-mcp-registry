@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "seo-inspector",
+  "description": "Automates web page SEO analysis by scanning HTML files and websites to identify critical optimization issues like missing titles, meta descriptions, and heading structures using Node.js and Cheerio.",
+  "url": "https://github.com/mgsrevolver/seo-inspector-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

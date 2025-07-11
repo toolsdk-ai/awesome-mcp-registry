@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "meme-mcp",
+  "description": "Enables meme generation through the ImgFlip API with a single tool that accepts template ID and text placeholder parameters for creating custom memes directly within conversations.",
+  "url": "https://github.com/haltakov/meme-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "IMGFLIP_USERNAME": {
+      "description": "<IMGFLIP USERNAME>",
+      "required": true
+    },
+    "IMGFLIP_PASSWORD": {
+      "description": "<IMGFLIP PASSWORD>",
+      "required": true
+    }
+  }
+}

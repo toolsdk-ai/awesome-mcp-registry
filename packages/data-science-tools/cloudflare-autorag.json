@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cloudflare-autorag",
+  "description": "Create fully-managed RAG pipelines to power your AI applications with accurate and up-to-date information.",
+  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/autorag",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

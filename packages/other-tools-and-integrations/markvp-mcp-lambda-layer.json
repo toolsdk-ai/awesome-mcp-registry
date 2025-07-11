@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@markvp/mcp-lambda-layer",
+  "description": "Lightweight AWS Lambda layer for streaming Server-Sent Events (SSE) that simplifies creating Lambda functions with complex transport and protocol handling for tool and prompt configuration.",
+  "url": "https://github.com/markvp/mcp-lambda-sam",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

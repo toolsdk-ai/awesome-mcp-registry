@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "julia-documentation",
+  "description": "Integrates Julia documentation and source code retrieval for quick reference and exploration within AI workflows.",
+  "url": "https://github.com/jonathanfischer97/juliadoc-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

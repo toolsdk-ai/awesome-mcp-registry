@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "file-converter",
+  "description": "Provides file conversion capabilities for transforming documents and images between formats like DOCX, PDF, Excel, CSV, and HTML without external tools",
+  "url": "https://github.com/wowyuarm/file-converter-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

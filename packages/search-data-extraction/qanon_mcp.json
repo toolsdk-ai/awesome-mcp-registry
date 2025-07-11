@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "qanon_mcp",
+  "description": "Enables search, exploration, and analysis of all QAnon posts/drops for sociological study",
+  "url": "https://github.com/jkingsman/qanon-mcp-server",
+  "runtime": "python",
+  "license": "MIT",
+  "env": {}
+}

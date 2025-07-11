@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "postgres-query",
+  "description": "Provides a read-only PostgreSQL query server with strict validation, 10-second timeout, and secure database access via command-line connection strings.",
+  "url": "https://github.com/rathoddarshil/mcp-postgres-query-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

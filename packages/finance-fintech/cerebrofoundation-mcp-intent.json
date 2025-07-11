@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@cerebrofoundation/mcp-intent",
+  "description": "Enables Bitcoin address generation and transaction signing using private keys in WIF format and partially signed Bitcoin transactions (PSBTs) through secure cryptographic operations.",
+  "url": "https://github.com/cerebrofoundation/mcp-intent",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

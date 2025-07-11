@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "jmeter",
+  "description": "Enables natural language execution of JMeter performance tests in both GUI and non-GUI modes, returning detailed results for automated load testing workflows.",
+  "url": "https://github.com/qainsights/jmeter-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

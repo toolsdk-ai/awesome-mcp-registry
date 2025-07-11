@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "oceanbase",
+  "description": "Provides a secure bridge to OceanBase databases for listing tables, reading data, and executing SQL queries with configurable permission levels for data analysis and administration tasks.",
+  "url": "https://github.com/yuanooo/oceanbase_mcp_server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

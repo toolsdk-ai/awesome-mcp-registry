@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "logfire-mcp",
+  "description": "Enables AI systems to query and analyze OpenTelemetry traces and metrics through Logfire's API, providing tools for finding exceptions, investigating errors, and running custom SQL queries against observability data with automatic authentication.",
+  "url": "https://github.com/pydantic/logfire-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

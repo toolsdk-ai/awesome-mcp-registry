@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "memory-graph",
+  "description": "Provides long-term memory storage for LLM conversations using Redis Graph, enabling persistent knowledge graphs for maintaining context across interactions and building complex information networks.",
+  "url": "https://github.com/samwang0723/mcp-memory",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

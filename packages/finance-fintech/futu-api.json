@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "futu-api",
+  "description": "Integrates with Futu API for financial market data and trading capabilities, enabling algorithmic trading strategies and market analysis through tools for retrieving market snapshots, historical data, and managing trading operations.",
+  "url": "https://github.com/yikaj/futu",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "moodle",
+  "description": "Streamlines Moodle educational workflows by providing automated tools for retrieving student information, managing assignments, and generating feedback through natural language interactions.",
+  "url": "https://github.com/peancor/moodle-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

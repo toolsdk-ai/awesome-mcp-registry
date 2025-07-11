@@ -1,0 +1,30 @@
+{
+  "type": "mcp-server",
+  "packageName": "gemini-mcp-server",
+  "description": "A Python-based MCP server that enables integration of Gemini AI models with MCP-compatible applications like Cursor/Claude, allowing for interaction with Gemini APIs through the Model Context Protocol.",
+  "url": "https://github.com/lucky-dersan/gemini-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "HTTP_PROXY": {
+      "description": "HTTP proxy configuration",
+      "required": true
+    },
+    "HTTPS_PROXY": {
+      "description": "HTTPS proxy configuration",
+      "required": true
+    },
+    "GEMINI_MODEL": {
+      "description": "The Gemini model to use",
+      "required": true
+    },
+    "GEMINI_API_KEY": {
+      "description": "Your Gemini API key",
+      "required": true
+    },
+    "GEMINI_BASE_URL": {
+      "description": "The base URL for Gemini API",
+      "required": true
+    }
+  }
+}

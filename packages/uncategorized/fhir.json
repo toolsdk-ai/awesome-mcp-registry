@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "fhir",
+  "description": "Integrates FHIR data into workflows, enabling seamless access and search of healthcare resources for dynamic querying and analysis.",
+  "url": "https://github.com/flexpa/mcp-fhir",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

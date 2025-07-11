@@ -1,0 +1,30 @@
+{
+  "type": "mcp-server",
+  "packageName": "swit-mcp-server",
+  "description": "A Model Context Protocol server that integrates with Swit collaboration tools, allowing LLM clients to interact with Swit workspaces, channels, and messages through OAuth authentication.",
+  "url": "https://github.com/TykanN/swit-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "OAUTH_PORT": {
+      "description": "Port for the OAuth callback server",
+      "required": true
+    },
+    "SWIT_API_TOKEN": {
+      "description": "Your Swit API token for Bearer Token authentication",
+      "required": true
+    },
+    "SWIT_CLIENT_ID": {
+      "description": "Your Swit client ID from the Swit Developer Console",
+      "required": true
+    },
+    "SWIT_API_BASE_URL": {
+      "description": "Base URL for the Swit API",
+      "required": true
+    },
+    "SWIT_CLIENT_SECRET": {
+      "description": "Your Swit client secret from the Swit Developer Console",
+      "required": true
+    }
+  }
+}

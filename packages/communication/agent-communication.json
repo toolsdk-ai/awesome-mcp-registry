@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "agent-communication",
+  "description": "Enables collaboration between specialized LLM agents across systems through a TypeScript-based server that handles agent registration, asynchronous messaging, task coordination, and context sharing with GitHub integration for complex workflows.",
+  "url": "https://github.com/mkc909/agent-communication-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

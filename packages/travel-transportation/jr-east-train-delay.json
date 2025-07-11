@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "jr-east-train-delay",
+  "description": "Provides real-time train delay information for JR East lines by scraping the official website and extracting structured status data for travelers and commuters.",
+  "url": "https://github.com/tinjyuu/mcp-jr-east-delay",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

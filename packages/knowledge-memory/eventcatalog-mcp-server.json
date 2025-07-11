@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@eventcatalog/mcp-server",
+  "description": "Provides a dynamic event catalog server for querying and retrieving architectural metadata, enabling developers to explore complex event-driven system components through predefined tools and resources.",
+  "url": "https://github.com/event-catalog/mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

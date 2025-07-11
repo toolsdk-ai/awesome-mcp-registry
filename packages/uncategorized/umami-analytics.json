@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "umami-analytics",
+  "description": "Integrates with Umami Analytics to provide website statistics, visitor metrics, page views, traffic sources, and real-time active user monitoring with period-over-period comparisons and geographic analysis.",
+  "url": "https://github.com/macawls/umami-mcp-server",
+  "runtime": "go",
+  "license": "mit",
+  "env": {}
+}

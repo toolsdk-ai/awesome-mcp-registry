@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-tinybird",
+  "description": "Query and analyze large datasets using Tinybird analytics.",
+  "url": "https://github.com/tinybirdco/mcp-tinybird",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

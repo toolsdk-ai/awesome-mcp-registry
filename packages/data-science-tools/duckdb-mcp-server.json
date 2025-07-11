@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "duckdb-mcp-server",
+  "description": "Enables AI to query and analyze data through DuckDB, an in-process analytical database optimized for OLAP workloads with direct support for CSV, Parquet, and JSON files including remote sources like S3.",
+  "url": "https://github.com/mustafahasankhan/duckdb-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

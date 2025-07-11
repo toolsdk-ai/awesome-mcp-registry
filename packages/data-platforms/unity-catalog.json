@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "unity-catalog",
+  "description": "Integrates with Unity Catalog to enable seamless execution of database functions, with tools for listing, retrieving, creating, and deleting functions within specified catalog environments.",
+  "url": "https://github.com/ognis1205/mcp-server-unitycatalog",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

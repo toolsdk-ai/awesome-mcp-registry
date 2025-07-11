@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "n8n-workflow-builder",
+  "description": "Enables creation and management of n8n workflows for simplified automation and integration tasks.",
+  "url": "https://github.com/makafeli/n8n-workflow-builder",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

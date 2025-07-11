@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ros-robot-control",
+  "description": "Provides a bridge between natural language commands and Robot Operating System (ROS) for controlling robot movement through WebSocket communication with velocity commands.",
+  "url": "https://github.com/lpigeon/ros-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

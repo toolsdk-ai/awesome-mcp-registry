@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@djyde/browser-mcp",
+  "description": "Browser extension that enables real-time interaction with web pages, allowing retrieval of content as markdown, CSS styling modifications, and browser history searches.",
+  "url": "https://github.com/djyde/browser-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

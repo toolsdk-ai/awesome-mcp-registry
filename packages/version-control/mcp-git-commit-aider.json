@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-git-commit-aider",
+  "description": "Enables AI to make Git commits on behalf of users, automatically tracking AI contributions by appending '(aider)' to committer names for codebase statistics and analysis.",
+  "url": "https://github.com/mrorz/mcp-git-commit-aider",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GIT_COMMITTER_NAME": {
+      "description": "Your Name",
+      "required": true
+    },
+    "GIT_COMMITTER_EMAIL": {
+      "description": "your.email@example.com",
+      "required": true
+    }
+  }
+}

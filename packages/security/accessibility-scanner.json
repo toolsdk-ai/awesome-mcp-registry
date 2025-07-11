@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "accessibility-scanner",
+  "description": "Integrates Axe Core with Playwright to perform automated web accessibility testing, enabling continuous integration, compliance auditing, and identification of accessibility barriers.",
+  "url": "https://github.com/justasmonkev/mcp-accessibility-scanner",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

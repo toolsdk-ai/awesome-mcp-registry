@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "aws-ireveal",
+  "description": "Integrates with AWS security services to enable incident response and investigation through CloudTrail logs, Athena queries, CloudWatch events, GuardDuty findings, and IAM Access Analyzer for comprehensive security event analysis and threat detection.",
+  "url": "https://github.com/brucedh/aws-ireveal-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

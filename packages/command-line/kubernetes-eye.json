@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "kubernetes-eye",
+  "description": "Kubernetes management tool that connects to clusters to list, analyze, and manipulate pods, execute container commands, and retrieve logs directly through conversation interfaces.",
+  "url": "https://github.com/wenhuwang/mcp-k8s-eye",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

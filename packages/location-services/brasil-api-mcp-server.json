@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "brasil-api-mcp-server",
+  "description": "Retrieve Brazilian address data via the Brasil API.",
+  "url": "https://github.com/mauricio-cantu/brasil-api-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

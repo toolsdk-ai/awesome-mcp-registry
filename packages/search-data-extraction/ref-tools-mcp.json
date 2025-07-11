@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ref-tools-mcp",
+  "description": "Integrates with Ref.tools documentation search service to provide curated technical documentation access, web search fallback, and URL-to-markdown conversion for efficient developer reference during coding workflows.",
+  "url": "https://github.com/ref-tools/ref-tools-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

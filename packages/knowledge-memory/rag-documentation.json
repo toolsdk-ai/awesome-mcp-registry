@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "rag-documentation",
+  "description": "Integrates Qdrant vector search with documentation retrieval to enable context-aware responses and semantic querying for enhanced knowledge access.",
+  "url": "https://github.com/rahulretnan/mcp-ragdocs",
+  "runtime": "node",
+  "license": "other",
+  "env": {}
+}

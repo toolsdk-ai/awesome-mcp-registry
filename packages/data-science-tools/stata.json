@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "stata",
+  "description": "Perform regression anlayses with Stata.",
+  "url": "https://github.com/sepinetam/stata-mcp",
+  "runtime": "python",
+  "license": "other",
+  "env": {}
+}

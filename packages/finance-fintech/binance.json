@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "binance",
+  "description": "Integrates with Binance cryptocurrency exchange to provide real-time market data including prices, order books, and historical information without requiring API keys",
+  "url": "https://github.com/tienan92it/binance-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

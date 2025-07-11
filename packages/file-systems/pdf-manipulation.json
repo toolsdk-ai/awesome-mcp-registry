@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pdf-manipulation",
+  "description": "Integrates PDF manipulation capabilities using Python libraries to enable merging, extraction, and content-based document retrieval tasks.",
+  "url": "https://github.com/hanweg/mcp-pdf-tools",
+  "runtime": "python",
+  "license": "unlicense",
+  "env": {}
+}

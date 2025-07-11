@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "search1api-mcp",
+  "description": "Execute web searches, news queries, and content extraction.",
+  "url": "https://github.com/fatwang2/search1api-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SEARCH1API_KEY": {
+      "description": "YOUR_SEARCH1API_KEY",
+      "required": true
+    }
+  }
+}

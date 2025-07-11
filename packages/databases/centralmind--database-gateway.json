@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "centralmind-(database-gateway)",
+  "description": "Database integration with security and compliance. Supports: PostgreSQL, MySQL, ClickHouse, Snowflake, MSSQL, BigQuery, Oracle Database, SQLite, ElasticSearch and DuckDB.",
+  "url": "https://github.com/centralmind/gateway",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

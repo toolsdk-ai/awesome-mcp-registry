@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cursor-ide-development-tools-(jira,-github,-postgresql)",
+  "description": "Provides Cursor IDE with domain-specific tools for accessing Jira, GitHub, and PostgreSQL databases through standalone TypeScript servers that enable direct interaction with development tools during AI conversations.",
+  "url": "https://github.com/michael-trullion/mcp-servers",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

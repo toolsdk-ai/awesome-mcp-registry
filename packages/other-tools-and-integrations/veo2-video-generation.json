@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "veo2-video-generation",
+  "description": "Enables video generation from text prompts or images with configurable options like aspect ratio and duration, storing results locally for easy access through MCP resources.",
+  "url": "https://github.com/mario-andreschak/mcp-veo2",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

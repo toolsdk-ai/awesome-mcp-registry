@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pump.fun",
+  "description": "Enables direct interaction with the Pump.fun platform on Solana blockchain for creating, buying, and selling tokens with customizable parameters and secure wallet management.",
+  "url": "https://github.com/noahgsolomon/pumpfun-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

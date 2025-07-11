@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "akshare_mcp",
+  "description": "Provides direct access to AKShare's financial data capabilities for retrieving and analyzing market data, economic indicators, and financial statistics from Chinese and global markets without switching contexts.",
+  "url": "https://github.com/wukan1986/akshare_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

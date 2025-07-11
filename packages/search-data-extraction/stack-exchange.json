@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "stack-exchange",
+  "description": "Provides a bridge to Stack Exchange sites for searching and retrieving questions, answers, and tags with efficient caching and rate limiting for seamless technical information access.",
+  "url": "https://github.com/jagreetdg/re-stack-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

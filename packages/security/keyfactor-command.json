@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "keyfactor-command",
+  "description": "Integrates with Keyfactor Command PKI platform to enable certificate enrollment, revocation, and search operations while combining Risk Intelligence security findings with risk assessment for enterprise certificate lifecycle management.",
+  "url": "https://github.com/keyfactor-research/command-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

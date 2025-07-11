@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tung-shing-calendar",
+  "description": "Provides cross-calendar date parsing, formatting, and manipulation for Gregorian and lunar calendars.",
+  "url": "https://github.com/baranwang/mcp-tung-shing",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

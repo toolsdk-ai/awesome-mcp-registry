@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "filesystem-(quarkus)",
+  "description": "Provides a Quarkus-based filesystem interface interactions with local file systems, enabling automated file management and data processing tasks.",
+  "url": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/filesystem",
+  "runtime": "java",
+  "license": "apache-2.0",
+  "env": {}
+}

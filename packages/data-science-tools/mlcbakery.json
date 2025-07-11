@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mlcbakery",
+  "description": "Provides a bridge between AI assistants and machine learning datasets, enabling search, validation, and retrieval of ML Croissant metadata from the MLCBakery system without switching contexts.",
+  "url": "https://github.com/jettyio/mlcbakery",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "spawn-mcp-dashboard",
+  "description": "Web interface for dynamically configuring and testing multiple MCP implementations through a unified dashboard that spawns and manages server processes in real-time",
+  "url": "https://github.com/cameronking4/spawn-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

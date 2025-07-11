@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "baidu-baike",
+  "description": "Retrieves and renders Baidu Baike encyclopedia entries directly within conversations, providing access to Chinese-language reference information through a TypeScript-based server.",
+  "url": "https://github.com/zzzccs123/mcp-baike-render",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

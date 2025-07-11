@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "vibecodermcp",
+  "description": "Guides LLMs through structured software development workflows with feature clarification, PRD generation, and phase-based tracking using a hybrid document storage system.",
+  "url": "https://github.com/crazyrabbitltc/mcp-vibecoder",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

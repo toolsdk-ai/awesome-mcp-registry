@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "aws-labs",
+  "description": "Integrates with AWS services including Bedrock Knowledge Bases, Nova Canvas, Step Functions, Lambda, IAM, and Cost Explorer to enable enterprise workflows, cost analysis, infrastructure management, and generative AI use cases through multiple specialized servers with sample applications and deployment guides.",
+  "url": "https://github.com/awslabs/mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

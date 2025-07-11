@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "jfrog",
+  "description": "Bridges to the JFrog Platform, enabling interaction with Artifactory repositories, builds, security scanning, and release management for streamlined DevOps workflows.",
+  "url": "https://github.com/jfrog/mcp-jfrog",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

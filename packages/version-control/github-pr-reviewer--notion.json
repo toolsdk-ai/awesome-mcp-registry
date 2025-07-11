@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-pr-reviewer-(notion)",
+  "description": "Integrates with GitHub's API to fetch, analyze, and document pull request changes, enabling automated code reviews and maintaining documentation of code changes in Notion.",
+  "url": "https://github.com/willianmarcel/mcp-pr-reviewer",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

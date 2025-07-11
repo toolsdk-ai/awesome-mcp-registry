@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "claude-api",
+  "description": "Integrates Claude API features, enabling direct API access, extended context windows, and advanced conversation management. Helpful to bypass standard daily limits of Claude.ai.",
+  "url": "https://github.com/mlobo2012/claude_desktop_api_use_via_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

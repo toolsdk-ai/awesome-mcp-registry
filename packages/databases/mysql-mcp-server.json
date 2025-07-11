@@ -1,0 +1,30 @@
+{
+  "type": "mcp-server",
+  "packageName": "mysql-mcp-server",
+  "description": "Provides secure, read-only access to MySQL databases for exploring schemas and executing SELECT queries with built-in safeguards against SQL injection, query timeouts, and row limits.",
+  "url": "https://github.com/dpflucas/mysql-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MYSQL_HOST": {
+      "description": "your-mysql-host",
+      "required": true
+    },
+    "MYSQL_PORT": {
+      "description": "3306",
+      "required": true
+    },
+    "MYSQL_USER": {
+      "description": "your-mysql-user",
+      "required": true
+    },
+    "MYSQL_PASSWORD": {
+      "description": "your-mysql-password",
+      "required": true
+    },
+    "MYSQL_DATABASE": {
+      "description": "your-default-database",
+      "required": true
+    }
+  }
+}

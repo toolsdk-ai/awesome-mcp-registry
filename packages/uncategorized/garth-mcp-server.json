@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "garth-mcp-server",
+  "description": "Integrates with Garmin Connect to provide access to fitness and health data including sleep statistics, daily stress, and intensity minutes with customizable date ranges.",
+  "url": "https://github.com/matin/garth-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

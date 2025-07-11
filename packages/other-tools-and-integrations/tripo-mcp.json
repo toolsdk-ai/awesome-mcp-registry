@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tripo-mcp",
+  "description": "Bridges AI systems with the Tripo 3D generation API, enabling text-to-3D model creation and manipulation through Blender addon integration for seamless 3D content creation workflows.",
+  "url": "https://github.com/vast-ai-research/tripo-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

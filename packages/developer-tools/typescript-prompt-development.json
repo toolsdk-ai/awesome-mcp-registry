@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "typescript-prompt-development",
+  "description": "Provides a TypeScript-based development environment for creating, testing, and refining structured prompts locally before production deployment.",
+  "url": "https://github.com/gpaul-mcp/mcp_prompt_localdev",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

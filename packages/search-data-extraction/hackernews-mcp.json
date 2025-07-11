@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "hackernews-mcp",
+  "description": "Integrates with Hacker News API to fetch top stories, retrieve detailed story information with markdown content extraction, get popular comments with filtering options, and search recent stories by keywords within specified time ranges.",
+  "url": "https://github.com/georgenance/hackernews-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

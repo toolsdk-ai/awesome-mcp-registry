@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@agentdesk/workflows-mcp",
+  "description": "Provides specialized software development tools through a data-driven configuration system that loads tool definitions from YAML files for thinking, coding, and GitHub integration workflows",
+  "url": "https://github.com/dx-zero/mcpn/tree/HEAD/mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

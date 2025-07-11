@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-github",
+  "description": "Manage repositories, issues, and search code via GitHub API.",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/github",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "description": "<YOUR_TOKEN>",
+      "required": true
+    }
+  }
+}

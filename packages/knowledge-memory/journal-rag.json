@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "journal-rag",
+  "description": "Enables semantic search through personal markdown journal entries using vector database technology for effortless retrieval of past experiences, thoughts, and activities.",
+  "url": "https://github.com/estevaom/md-rag-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

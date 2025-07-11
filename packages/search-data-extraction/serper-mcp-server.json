@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "serper-mcp-server",
+  "description": "Enables AI to perform Google searches via the Serper API with support for location, language, and time period filters.",
+  "url": "https://github.com/garylab/serper-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

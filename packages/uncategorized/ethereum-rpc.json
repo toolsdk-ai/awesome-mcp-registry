@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ethereum-rpc",
+  "description": "Provides a bridge to the Ethereum blockchain for querying contract bytecode, gas prices, and account balances through standard JSON-RPC calls to public endpoints.",
+  "url": "https://github.com/0xkoda/eth-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

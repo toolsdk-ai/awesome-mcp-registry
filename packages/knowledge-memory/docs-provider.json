@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "docs-provider",
+  "description": "Enables AI models to access and query local technical documentation through a stdio-based server that reads from markdown files and exposes a query-docs tool, with automatic configuration for Cursor editor integration.",
+  "url": "https://github.com/yassinetk/mcp-docs-provider",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

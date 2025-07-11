@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@chargebee/mcp",
+  "description": "Integration with Chargebee products and API services to facilitate billing for subscription businesses.",
+  "url": "https://github.com/chargebee/agentkit/tree/HEAD/modelcontextprotocol",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

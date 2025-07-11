@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "rime-mcp",
+  "description": "Text-to-speech server that converts text into spoken audio through Rime's API, streaming with optimized buffering for minimal latency between generation and playback.",
+  "url": "https://github.com/matthewdailey/rime-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

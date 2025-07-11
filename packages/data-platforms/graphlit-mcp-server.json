@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "graphlit-mcp-server",
+  "description": "Integrates with the Graphlit platform to enable natural language processing tasks and data retrieval from the Graphlit ecosystem.",
+  "url": "https://github.com/graphlit/graphlit-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

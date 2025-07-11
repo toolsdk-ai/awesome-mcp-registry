@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "revit",
+  "description": "Enables AI interaction with Autodesk Revit models for design assistance, analysis, and BIM workflow integration through a WebSocket connection.",
+  "url": "https://github.com/samllpigyandong/revit_mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "coinmarketcap-fear-&-greed-index",
+  "description": "Integrates with CoinMarketCap API to provide real-time cryptocurrency data, market metrics, and Fear & Greed Index through TypeScript tools with smart caching and detailed error handling.",
+  "url": "https://github.com/heyzgj/mcp-feargreedindex",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

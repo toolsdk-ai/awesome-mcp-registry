@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mcp-get-community/server-curl",
+  "description": "MCP server for making HTTP requests using a curl-like interface",
+  "url": "https://github.com/mcp-get/community-servers/blob/main/src/server-curl",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

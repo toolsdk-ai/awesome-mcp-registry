@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "last9-observability",
+  "description": "Integrates with Last9's observability platform to enable exception retrieval and service dependency analysis for efficient troubleshooting within monitoring environments.",
+  "url": "https://github.com/last9/last9-mcp-server",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

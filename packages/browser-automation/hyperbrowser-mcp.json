@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "hyperbrowser-mcp",
+  "description": "Enables web browsing capabilities through tools for content extraction, link following, and browser automation with customizable parameters for scraping, data collection, and web crawling tasks.",
+  "url": "https://github.com/hyperbrowserai/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "HYPERBROWSER_API_KEY": {
+      "description": "YOUR-API-KEY",
+      "required": true
+    }
+  }
+}

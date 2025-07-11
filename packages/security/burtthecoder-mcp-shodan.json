@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@burtthecoder/mcp-shodan",
+  "description": "Access Shodan API and CVEDB to query IoT device data and vulnerability information.",
+  "url": "https://github.com/burtthecoder/mcp-shodan",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SHODAN_API_KEY": {
+      "description": "your-shodan-api-key",
+      "required": true
+    }
+  }
+}

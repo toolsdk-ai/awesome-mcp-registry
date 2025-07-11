@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@iqai/mcp-iqwiki",
+  "description": "Provides structured access to IQ.wiki's blockchain encyclopedia data through GraphQL queries for retrieving specific wikis, user contributions, and detailed content change histories",
+  "url": "https://github.com/iqaicom/mcp-iqwiki",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

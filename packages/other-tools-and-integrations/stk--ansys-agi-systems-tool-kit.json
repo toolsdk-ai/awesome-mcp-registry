@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "stk-(ansys/agi-systems-tool-kit)",
+  "description": "Enables natural language control of Ansys/AGI STK for space mission planning, satellite configuration, and orbit analysis through a Python-based bridge to the simulation software.",
+  "url": "https://github.com/alti3/stk-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

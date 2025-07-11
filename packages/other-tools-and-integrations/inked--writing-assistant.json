@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "inked-(writing-assistant)",
+  "description": "Provides tools for managing and generating long-form content through conversation-based drafting and revision workflows, enabling efficient development of novels, reports, and other extensive documents.",
+  "url": "https://github.com/coldielb/inked",
+  "runtime": "node",
+  "license": "other",
+  "env": {}
+}

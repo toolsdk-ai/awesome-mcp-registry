@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "memory-plugin-(sqlite)",
+  "description": "Provides SQLite-based persistent memory storage for maintaining context across conversations, enabling long-term recall and knowledge management.",
+  "url": "https://github.com/mekanixms/mcp_memory_plugin",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

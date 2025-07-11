@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-calendar",
+  "description": "Integrates with Google Calendar to enable natural language-based event management, scheduling, and productivity insights.",
+  "url": "https://github.com/thisnick/google-calendar-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

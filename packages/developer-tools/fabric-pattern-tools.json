@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "fabric-pattern-tools",
+  "description": "Exposes Fabric design patterns as executable tools that can be discovered and run directly within development workflows, with automatic pattern recommendation based on task descriptions.",
+  "url": "https://github.com/adapoet/fabric-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

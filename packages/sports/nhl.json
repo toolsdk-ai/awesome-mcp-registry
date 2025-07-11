@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "nhl",
+  "description": "Integrates with NHL data sources to provide real-time game updates, player stats, and league standings for sports analysis and fantasy hockey applications.",
+  "url": "https://github.com/carsonjones/nhl-go",
+  "runtime": "go",
+  "license": "mit",
+  "env": {}
+}

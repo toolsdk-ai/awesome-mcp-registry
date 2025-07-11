@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@cloudflare/mcp-server-cloudflare",
+  "description": "Manage KV stores, R2 storage, D1 databases, and Workers deployments.",
+  "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

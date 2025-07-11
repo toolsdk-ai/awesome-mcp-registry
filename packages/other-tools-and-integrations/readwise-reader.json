@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "readwise-reader",
+  "description": "Integrates with Readwise Reader to retrieve saved documents from different locations (new, feed, archive, or library) based on time parameters using the FastMCP framework.",
+  "url": "https://github.com/xinthink/reader-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

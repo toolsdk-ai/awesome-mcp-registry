@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "xiaohongshu-search-and-comment",
+  "description": "Enables AI to search and analyze content from Xiaohongshu (Little Red Book) social media platform through web scraping, providing access to comments and search results for market research and trend analysis in the Chinese consumer market.",
+  "url": "https://github.com/chenningling/redbook-search-comment-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

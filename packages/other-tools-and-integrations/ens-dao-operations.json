@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ens-dao-operations",
+  "description": "Integrates with local Ethereum nodes to simplify ENS DAO operations like domain management and governance participation.",
+  "url": "https://github.com/5ajaki/veri5ight",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

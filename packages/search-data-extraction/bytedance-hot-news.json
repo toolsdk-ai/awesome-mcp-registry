@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "bytedance-hot-news",
+  "description": "Provides real-time news and trending topics through ByteDance's implementation, enabling access to current events and breaking news for building news-aware applications and content generation systems.",
+  "url": "https://github.com/wudalu/mcp-hot-news-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "iterm_mcp_server",
+  "description": "Enables AI interaction with iTerm2 terminals on macOS through AppleScript and Node.js, allowing command execution, output capture, and terminal management without context switching.",
+  "url": "https://github.com/rishabkoul/iterm-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

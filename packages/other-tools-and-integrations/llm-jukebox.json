@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "llm-jukebox",
+  "description": "Integrates with YouTube and yt-dlp to search, download, and play music with MP3 conversion, local library management, and basic playback controls for building music discovery and playback systems.",
+  "url": "https://github.com/jabberjabberjabber/llm-jukebox",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

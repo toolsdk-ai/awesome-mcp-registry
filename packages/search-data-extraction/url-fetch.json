@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "url-fetch",
+  "description": "Enables Claude to retrieve and display web content, JSON data, and images directly within conversations through specialized URL fetching tools.",
+  "url": "https://github.com/aelaguiz/mcp-url-fetch",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

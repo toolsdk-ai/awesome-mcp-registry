@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-memory",
+  "description": "Build and query persistent semantic networks for data management.",
+  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/memory",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MEMORY_FILE_PATH": {
+      "description": "/path/to/custom/memory.json",
+      "required": true
+    }
+  }
+}

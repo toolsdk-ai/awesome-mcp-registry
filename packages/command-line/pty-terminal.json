@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pty-terminal",
+  "description": "Provides a stateful terminal interface for maintaining session context and executing complex, multi-step operations across multiple interactions.",
+  "url": "https://github.com/qododavid/pty-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

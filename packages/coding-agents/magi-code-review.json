@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "magi-code-review",
+  "description": "Orchestrates code reviews through a distributed framework of three specialized agents (Melchior, Balthasar, and Casper) that evaluate submissions and deliver majority-rule verdicts on code quality.",
+  "url": "https://github.com/miki-hoshizaki/mcp-magi",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

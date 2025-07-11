@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "kanban",
+  "description": "Task management system for complex multi-session workflows, structured as kanban boards with columns and tasks that maintain state between AI agent interactions.",
+  "url": "https://github.com/eyalzh/kanban-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

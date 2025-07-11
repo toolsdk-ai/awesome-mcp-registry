@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "schwab",
+  "description": "Bridges Claude with Schwab API for accessing financial account information, stock quotes, and transaction history through OAuth authentication and nine specialized tools for retrieving financial data.",
+  "url": "https://github.com/jkoelker/schwab-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

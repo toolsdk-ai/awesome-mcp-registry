@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ansible",
+  "description": "Integrates with Ansible to enable infrastructure automation through direct execution of playbooks, ad-hoc commands, inventory management, and AWS resource operations for DevOps workflows",
+  "url": "https://github.com/tarnover/mcp-sysoperator",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

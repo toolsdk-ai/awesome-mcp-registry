@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "bigquery",
+  "description": "Enables secure, read-only access to Google BigQuery databases for data exploration and SQL query execution with built-in safeguards for cost control and performance optimization.",
+  "url": "https://github.com/takuya0206/bigquery-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "runbook-documentation",
+  "description": "Integrates with Runbook documentation systems to provide direct access to articles, books, and search functionality within Claude conversations, eliminating context switching when referencing team documentation.",
+  "url": "https://github.com/qloba/runbook-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

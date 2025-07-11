@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "packageName": "@recraft-ai/mcp-recraft-server",
+  "description": "Integrates with Recraft's image generation API to create and edit raster and vector images, apply custom styles, manipulate backgrounds, upscale images, and perform vectorization with fine-grained control over artistic properties.",
+  "url": "https://github.com/recraft-ai/mcp-recraft-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "RECRAFT_API_KEY": {
+      "description": "<YOUR_RECRAFT_API_KEY>",
+      "required": true
+    },
+    "IMAGE_STORAGE_DIRECTORY": {
+      "description": "<YOUR_IMAGE_STORAGE_DIRECTORY>",
+      "required": true
+    },
+    "RECRAFT_REMOTE_RESULTS_STORAGE": {
+      "description": "<YOUR_REMOTE_RESULTS_STORAGE_INDICATOR>",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "twitter-connect",
+  "description": "Integrates with Twitter's API to retrieve recent tweets from specified users, enabling real-time Twitter content access within conversations without requiring direct Twitter API credentials.",
+  "url": "https://github.com/namrata-ami/mcp_twitter_connect",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

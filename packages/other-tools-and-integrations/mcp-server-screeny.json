@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-screeny",
+  "description": "Privacy-focused macOS MCP server for secure, user-approved window screenshots",
+  "url": "https://github.com/rohanrav/screeny",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

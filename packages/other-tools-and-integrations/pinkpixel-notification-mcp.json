@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@pinkpixel/notification-mcp",
+  "description": "Provides audio notification system that plays platform-specific chimes when tasks complete, supporting five built-in sounds and custom audio files for non-intrusive progress alerts.",
+  "url": "https://github.com/pinkpixel-dev/notification-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MCP_NOTIFICATION_SOUND": {
+      "description": "cosmic",
+      "required": true
+    }
+  }
+}

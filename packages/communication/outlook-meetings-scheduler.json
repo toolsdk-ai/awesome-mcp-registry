@@ -1,0 +1,26 @@
+{
+  "type": "mcp-server",
+  "packageName": "outlook-meetings-scheduler",
+  "description": "Integrates with Microsoft Outlook to create, read, update, and delete calendar events, find people, and schedule meetings with specific parameters like time, location, and attendees.",
+  "url": "https://github.com/anoopt/outlook-meetings-scheduler-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "CLIENT_ID": {
+      "description": "<YOUR_CLIENT_ID>",
+      "required": true
+    },
+    "CLIENT_SECRET": {
+      "description": "<YOUR_CLIENT_SECRET>",
+      "required": true
+    },
+    "TENANT_ID": {
+      "description": "<YOUR_TENANT_ID>",
+      "required": true
+    },
+    "USER_EMAIL": {
+      "description": "<YOUR_EMAIL>",
+      "required": true
+    }
+  }
+}

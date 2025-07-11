@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "style-guidelines",
+  "description": "Integrates with development tools to enforce consistent coding standards by managing and serving programming guidelines and rules across projects.",
+  "url": "https://github.com/bartwisch/mcprules",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

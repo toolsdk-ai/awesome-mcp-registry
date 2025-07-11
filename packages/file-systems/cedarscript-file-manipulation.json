@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "cedarscript-file-manipulation",
+  "description": "Provides CEDARScript (a SQL-like language) capabilities for executing pattern matching and transformations on source code to enable automated refactoring, code generation, and static analysis tasks.",
+  "url": "https://github.com/th3w1zard1/cedarscript-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

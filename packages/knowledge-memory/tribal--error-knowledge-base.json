@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tribal-(error-knowledge-base)",
+  "description": "Stores and retrieves programming error knowledge through vector similarity search, enabling development teams to build a shared database of errors and solutions.",
+  "url": "https://github.com/agentience/tribal_mcp_server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

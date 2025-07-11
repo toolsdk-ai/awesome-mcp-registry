@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pure-storage-flashblade",
+  "description": "Integrates with Pure Storage FlashBlade arrays to enable real-time monitoring, troubleshooting, and resource management.",
+  "url": "https://github.com/jboothomas/pure-model-context-protocol",
+  "runtime": "python",
+  "license": "gpl-3.0",
+  "env": {}
+}

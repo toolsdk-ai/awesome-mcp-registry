@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tesla-fleet-api",
+  "description": "Integrates with the Tesla Fleet API to enable vehicle monitoring and control through OAuth 2.0 authentication, allowing for wake-up commands, information retrieval, and real-time data refreshing of Tesla vehicles.",
+  "url": "https://github.com/scald/tesla-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

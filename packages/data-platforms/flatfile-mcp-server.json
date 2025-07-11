@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@flatfile/mcp-server",
+  "description": "Provides direct access to Flatfile's data migration platform for managing spaces, workbooks, sheets, jobs, users, and data operations without leaving your conversation context.",
+  "url": "https://github.com/flatfilers/mcp-server-flatfile",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

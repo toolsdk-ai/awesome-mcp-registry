@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "xrp-ledger",
+  "description": "Integrates with the XRP Ledger blockchain to enable account management, transaction submission, and ledger data retrieval for XRP-related operations.",
+  "url": "https://github.com/tedlikeskix/xrpl-mcp-service",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

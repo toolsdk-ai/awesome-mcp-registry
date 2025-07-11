@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "database-connector",
+  "description": "Provides multi-database connectivity for SQLite, PostgreSQL, MySQL, and SQL Server through unified adapters that enable query execution, schema management, data export, and business memo tracking with safety validations for destructive operations.",
+  "url": "https://github.com/juanyin1/mcp-database-server-with-database",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

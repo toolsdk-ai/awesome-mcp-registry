@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "entscheidsuche",
+  "description": "Integrates with entscheidsuche.ch to provide access to Swiss court decisions through tools for searching legal documents, retrieving content, and listing courts by canton for legal research and analysis.",
+  "url": "https://github.com/self-tech-labs/entscheidsuche-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

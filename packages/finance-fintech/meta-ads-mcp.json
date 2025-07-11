@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "meta-ads-mcp",
+  "description": "Provides a bridge to Facebook's Marketing API for analyzing ad campaigns, reviewing creatives, and monitoring metrics through secure OAuth authentication",
+  "url": "https://github.com/pipeboard-co/meta-ads-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "file-modifier",
+  "description": "Enables targeted text file modifications through operations like adding, replacing, and deleting content at specific locations.",
+  "url": "https://github.com/jpinillagoshawk/mcp-server-file-modifier",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

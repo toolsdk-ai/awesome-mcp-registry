@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tpc-server",
+  "description": "TPC Server enables AI agents to document their reasoning processes, strategies, and actions through a structured system of Thoughts, Plans, and Changes, providing traceable operation history and transparent decision-making.",
+  "url": "https://github.com/suttonwilliamd/tpc-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "json-mcp-server",
+  "description": "Provides tools for splitting large JSON files into manageable chunks and merging multiple JSON files into a consolidated output for efficient data processing workflows.",
+  "url": "https://github.com/vadimnastoyashchy/json-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

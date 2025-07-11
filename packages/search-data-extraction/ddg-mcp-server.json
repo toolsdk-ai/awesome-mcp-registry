@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ddg-mcp-server",
+  "description": "Integrates with DuckDuckGo search engine to provide real-time web information retrieval for research, fact-checking, and current events updates.",
+  "url": "https://github.com/ashdevfr/duckduckgo-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

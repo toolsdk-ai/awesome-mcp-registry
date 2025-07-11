@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "aws",
+  "description": "Bridges AWS services with the AWS SDK v2, enabling secure access and management of AWS resources for cloud infrastructure and data processing tasks.",
+  "url": "https://github.com/rafalwilinski/aws-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

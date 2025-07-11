@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "hexdocs",
+  "description": "Enables AI systems to search and retrieve Elixir documentation from HexDocs across multiple packages with formatted results including titles, references, types, and content.",
+  "url": "https://github.com/v0idpwn/hexdocs-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

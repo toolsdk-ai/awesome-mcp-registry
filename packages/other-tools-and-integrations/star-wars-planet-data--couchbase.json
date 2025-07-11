@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "star-wars-planet-data-(couchbase)",
+  "description": "Integrates Couchbase vector search for semantic similarity queries on Star Wars planet data.",
+  "url": "https://github.com/shivay-couchbase/couchbase-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

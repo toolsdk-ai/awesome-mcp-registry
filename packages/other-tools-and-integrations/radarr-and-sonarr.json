@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "radarr-and-sonarr",
+  "description": "Integrates with Radarr and Sonarr to enable natural language querying and filtering of movie and TV show collections by various criteria like year, watched status, and actors.",
+  "url": "https://github.com/berrykuipers/mcp_services_radarr_sonarr",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

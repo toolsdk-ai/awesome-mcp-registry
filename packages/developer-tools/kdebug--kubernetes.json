@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "kdebug-(kubernetes)",
+  "description": "Enables natural language interaction with Kubernetes resources, allowing developers to manage clusters through conversational interfaces instead of complex kubectl commands.",
+  "url": "https://github.com/soub4i/kdebug-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {}
+}

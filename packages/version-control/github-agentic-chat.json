@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-agentic-chat",
+  "description": "Integrates with GitHub's API to enable natural language interaction with repositories, offering tools for searching, creating issues, and performing semantic searches across stored documents using PostgreSQL with pgvector.",
+  "url": "https://github.com/akhidastech/github-agentic-chat-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {}
+}

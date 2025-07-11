@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "moling-minecraft",
+  "description": "Bridges AI assistants with Minecraft servers, enabling command execution for block manipulation, entity management, and game state control through a Go implementation that automatically configures popular clients.",
+  "url": "https://github.com/gojue/moling-minecraft",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-salesforce-connector",
+  "description": "Integrates with Salesforce to enable natural language interactions for executing queries, managing records, and automating CRM workflows.",
+  "url": "https://github.com/smn2gnt/mcp-salesforce",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

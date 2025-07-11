@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "digitalocean",
+  "description": "Integrates with DigitalOcean's API to enable automated server management, scaling, and infrastructure operations through natural language commands.",
+  "url": "https://github.com/luc-io/mcp-digitalocean-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

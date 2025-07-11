@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "pokémon-data",
+  "description": "Provides a bridge to Pokémon data, enabling interaction with comprehensive information about species, abilities, moves, and game mechanics through TypeScript and Node.js.",
+  "url": "https://github.com/naveenbandarage/poke-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

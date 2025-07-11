@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "npm-package-search",
+  "description": "Provides a specialized tool for fetching detailed npm package information, offering package search and popular packages resources to support dependency analysis and software research.",
+  "url": "https://github.com/mateusribeirocampos/npm-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

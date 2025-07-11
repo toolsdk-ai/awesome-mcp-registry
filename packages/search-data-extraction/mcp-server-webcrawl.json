@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-webcrawl",
+  "description": "Advanced search and retrieval for web crawler data. Supports WARC, wget, Katana, SiteOne, and InterroBot crawlers.",
+  "url": "https://github.com/pragmar/mcp-server-webcrawl",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

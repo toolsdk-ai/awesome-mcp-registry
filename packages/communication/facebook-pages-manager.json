@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "facebook-pages-manager",
+  "description": "Integrates with Facebook Pages to enable direct management of posts, comments, and engagement metrics through the Graph API for streamlined social media management.",
+  "url": "https://github.com/hagaihen/facebook-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

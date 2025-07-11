@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "reviewwebsite-mcp-server",
+  "description": "Converts URLs to Markdown, scrapes web content, extracts links, and generates summaries of web pages for efficient content analysis and data extraction.",
+  "url": "https://github.com/mrgoonie/reviewwebsite-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

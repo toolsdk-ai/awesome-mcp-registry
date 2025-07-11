@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "coreflux-mqtt",
+  "description": "Integrates with Coreflux IoT platform through MQTT broker connections to enable dynamic discovery and execution of IoT actions, real-time device management, and automated rule generation for industrial control systems.",
+  "url": "https://github.com/corefluxcommunity/coreflux-mqtt-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

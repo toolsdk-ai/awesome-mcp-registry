@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "charles-schwab",
+  "description": "Access Charles Schwab accounts, trading data, and real-time market information.",
+  "url": "https://github.com/sudowealth/schwab-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

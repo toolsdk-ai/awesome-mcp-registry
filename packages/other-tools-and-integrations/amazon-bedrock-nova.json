@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "amazon-bedrock-nova",
+  "description": "Integrates Amazon Bedrock's Nova Canvas and Nova Reel models to create AI-generated images and videos, enabling streamlined media production for developers and content creators.",
+  "url": "https://github.com/dvejsada/mcp_media_generator",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "transport-nsw",
+  "description": "Integrates with Transport NSW API to provide real-time public transportation data, including nearby stops, service alerts, and disruptions across trains, buses, and ferries throughout New South Wales.",
+  "url": "https://github.com/danhussey/transportnsw-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

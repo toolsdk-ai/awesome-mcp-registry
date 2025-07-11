@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "sqlite",
+  "description": "Integrates with SQLite to provide database querying and BI capabilities.",
+  "url": "https://github.com/jacksteamdev/mcp-sqlite-bun-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

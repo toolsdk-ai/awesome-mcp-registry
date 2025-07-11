@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-add-weather",
+  "description": "A multi-agent system that connects a math server and weather server, allowing users to perform mathematical operations and retrieve weather information based on the numerical results.",
+  "url": "https://github.com/kasinathnalla/MCP-Add-Weather",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "GROQ_API_KEY": {
+      "description": "Your Groq API key",
+      "required": true
+    }
+  }
+}

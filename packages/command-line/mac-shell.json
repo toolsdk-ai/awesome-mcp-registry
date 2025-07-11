@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mac-shell",
+  "description": "Enables secure execution of macOS terminal commands through a ZSH shell with a whitelist system that categorizes operations as safe, requiring approval, or forbidden.",
+  "url": "https://github.com/cfdude/mac-shell-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

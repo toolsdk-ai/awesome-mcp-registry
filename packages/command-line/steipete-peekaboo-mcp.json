@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "@steipete/peekaboo-mcp",
+  "description": "Enables macOS screen capture and window management with tools for taking screenshots, analyzing images, and controlling application windows",
+  "url": "https://github.com/steipete/peekaboo",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PEEKABOO_AI_PROVIDERS": {
+      "description": "openai/gpt-4o,ollama/llava:latest",
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+      "description": "your-openai-api-key-here",
+      "required": true
+    }
+  }
+}

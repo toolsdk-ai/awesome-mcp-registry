@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcptoolkit",
+  "description": "Provides a unified Docker-based server with over 100 integrated tools spanning file operations, web search, browser automation, data analysis, and document management through a modular architecture that encapsulates domain knowledge in vertical agents for complex workflows.",
+  "url": "https://github.com/getfounded/mcp-tool-kit",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

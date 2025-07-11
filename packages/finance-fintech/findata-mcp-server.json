@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "findata-mcp-server",
+  "description": "Integrates with Alpha Vantage API to provide stock quotes and historical data for financial analysis and market research tasks.",
+  "url": "https://github.com/xbluecode/findata-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ALPHA_VANTAGE_API_KEY": {
+      "description": "PUT_YOUR_API_KEY_HERE",
+      "required": true
+    }
+  }
+}

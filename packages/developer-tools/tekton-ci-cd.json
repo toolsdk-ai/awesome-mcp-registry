@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tekton-ci/cd",
+  "description": "Enables DevOps teams to start and monitor Tekton CI/CD pipelines in Kubernetes environments through natural language commands without requiring direct cluster access.",
+  "url": "https://github.com/openshift-pipelines/mcp-tekton",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {}
+}

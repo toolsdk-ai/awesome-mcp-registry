@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "packageName": "@makingchatbots/genesys-cloud-mcp-server",
+  "description": "Provides a bridge between contact center analytics and routing data in Genesys Cloud, enabling conversational business intelligence through queue searches, conversation volume queries, call sampling, and voice quality metrics analysis.",
+  "url": "https://github.com/makingchatbots/genesys-cloud-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GENESYSCLOUD_REGION": {
+      "description": "<PUT REGION HERE>",
+      "required": true
+    },
+    "GENESYSCLOUD_OAUTHCLIENT_ID": {
+      "description": "<PUT OAUTHCLIENT ID HERE>",
+      "required": true
+    },
+    "GENESYSCLOUD_OAUTHCLIENT_SECRET": {
+      "description": "<PUT OAUTHCLIENT SECRET HERE>",
+      "required": true
+    }
+  }
+}

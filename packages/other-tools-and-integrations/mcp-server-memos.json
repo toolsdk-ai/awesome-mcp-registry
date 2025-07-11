@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-memos",
+  "description": "Integrates Memos note-taking application to automate note management, organization, and retrieval tasks.",
+  "url": "https://github.com/ryojerryyu/mcp-server-memos-py",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "soon-blockchain",
+  "description": "Bridges Claude AI with SOON blockchain networks for real-time wallet balance checks, transaction retrieval, and token holdings using Solana Web3.js library",
+  "url": "https://github.com/rkmonarch/svm-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

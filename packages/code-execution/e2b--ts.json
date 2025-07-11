@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "e2b-(ts)",
+  "description": "Execute code securely in cloud sandboxes.",
+  "url": "https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/js",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

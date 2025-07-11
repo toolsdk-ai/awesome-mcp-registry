@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "supavec",
+  "description": "Integrates with Supavec to efficiently retrieve contextually relevant embeddings and associated content for enhancing knowledge retrieval and semantic search applications.",
+  "url": "https://github.com/supavec/mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

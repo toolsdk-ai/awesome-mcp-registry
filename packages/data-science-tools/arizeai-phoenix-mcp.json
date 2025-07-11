@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@arizeai/phoenix-mcp",
+  "description": "Provides a unified interface to Arize Phoenix's capabilities for managing prompts, exploring datasets, and running experiments across different LLM providers",
+  "url": "https://github.com/arize-ai/phoenix/tree/HEAD/js/packages/phoenix-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

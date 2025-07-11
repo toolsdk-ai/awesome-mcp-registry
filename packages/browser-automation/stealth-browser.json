@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "stealth-browser",
+  "description": "Provides stealth browser capabilities using Playwright and anti-detection techniques for evading bot detection systems during web scraping and automated testing.",
+  "url": "https://github.com/newbeb/stealth-browser-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

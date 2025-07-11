@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "prisma-postgres",
+  "description": "Enables natural language management of Prisma Postgres databases, including creating instances, running schema migrations, and managing tables through the Prisma CLI",
+  "url": "https://github.com/prisma/prisma",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "chess",
+  "description": "Integrates with chess engines and libraries to provide game analysis, move generation, and position evaluation for chess applications and research.",
+  "url": "https://github.com/turlockmike/chess-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

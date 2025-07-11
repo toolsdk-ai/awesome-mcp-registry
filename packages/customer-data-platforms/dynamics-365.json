@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "dynamics-365",
+  "description": "Integrates with Microsoft Dynamics 365 CRM to retrieve and manage business data including user information, accounts, opportunities, and record creation through Azure AD authentication.",
+  "url": "https://github.com/srikanth-paladugula/mcp-dynamics365-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

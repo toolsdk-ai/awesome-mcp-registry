@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "better-fetch-mcp",
+  "description": "Fetches and processes web content with nested URL crawling capabilities. Transform any documentation site or web resource into clean, structured markdown files perfect for AI consumption and analysis.",
+  "url": "https://github.com/flutterninja9/better-fetch",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "NODE_ENV": {
+      "description": "production",
+      "required": true
+    }
+  }
+}

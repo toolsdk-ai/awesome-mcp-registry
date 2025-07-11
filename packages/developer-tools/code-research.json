@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "code-research",
+  "description": "Integrates with programming resources like Stack Overflow, MDN, GitHub, npm, and PyPI to enable efficient code lookup, documentation retrieval, and package selection.",
+  "url": "https://github.com/nahmanmate/code-research-mcp-server",
+  "runtime": "node",
+  "license": "agpl-3.0",
+  "env": {}
+}

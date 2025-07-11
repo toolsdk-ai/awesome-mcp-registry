@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "higress-ai-search-mcp-server",
+  "description": "Enhances AI model responses with real-time search results from various engines through Higress ai-search, supporting internet, academic, and internal knowledge searches.",
+  "url": "https://github.com/cr7258/higress-ai-search-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

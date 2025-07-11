@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "nih-reporter",
+  "description": "Provides a conversational interface to the NIH's research database, enabling users to search for funded projects and publications with detailed results formatted in markdown.",
+  "url": "https://github.com/jbdamask/mcp-nih-reporter",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "todo-list",
+  "description": "Provides a SQLite-based todo list API for creating, reading, updating, and deleting tasks, suitable for basic task management applications.",
+  "url": "https://github.com/regibyte/todo-list-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "slack-search",
+  "description": "Integrates with Slack workspaces to provide direct access to users, channels, messages, and search functionality through a TypeScript-based server that handles pagination and API errors automatically.",
+  "url": "https://github.com/takuya0206/slack_search_function_mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

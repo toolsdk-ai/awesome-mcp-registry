@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "flux-gitops",
+  "description": "Provides a bridge between Kubernetes GitOps operations and Flux CD ecosystem, enabling debugging, resource management, and workflow troubleshooting through specialized tools for log retrieval, reconciliation, and cluster context switching.",
+  "url": "https://github.com/controlplaneio-fluxcd/flux-operator",
+  "runtime": "go",
+  "license": "agpl-3.0",
+  "env": {}
+}

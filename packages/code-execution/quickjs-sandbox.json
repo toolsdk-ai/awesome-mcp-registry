@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "quickjs-sandbox",
+  "description": "Provides a secure JavaScript execution environment using QuickJS in WebAssembly, enabling safe execution of arbitrary JavaScript code without security risks.",
+  "url": "https://github.com/jlucaso1/mcp-javascript-sandbox",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

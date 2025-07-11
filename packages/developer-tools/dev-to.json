@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "dev.to",
+  "description": "Integrates with Dev.to's API, enabling article publishing, content retrieval, and user interactions on the platform.",
+  "url": "https://github.com/siddhant-k-code/mcp-devto-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

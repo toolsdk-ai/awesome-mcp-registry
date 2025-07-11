@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "manifold-mcp-server",
+  "description": "Integrates with Manifold Markets prediction markets, enabling market search, analysis, betting, and portfolio management with precise limit orders and advanced filtering.",
+  "url": "https://github.com/bmorphism/manifold-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MANIFOLD_API_KEY": {
+      "description": "your_api_key_here",
+      "required": true
+    }
+  }
+}

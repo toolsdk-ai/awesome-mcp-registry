@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "business-central",
+  "description": "Provides standardized development rules and real-time guidance for Business Central projects, offering rule validation, architectural suggestions, and component structure optimization for consistent coding standards and best practices.",
+  "url": "https://github.com/vanachterjacob/bc-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "feishu-mcp",
+  "description": "Integrates with Feishu (Lark) to enable document retrieval, messaging, and collaborative features directly within workplace conversations through a TypeScript implementation that runs as either a CLI or HTTP server.",
+  "url": "https://github.com/cso1z/feishu-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "FEISHU_APP_ID": {
+      "description": "<你的飞书应用ID>",
+      "required": true
+    },
+    "FEISHU_APP_SECRET": {
+      "description": "<你的飞书应用密钥>",
+      "required": true
+    }
+  }
+}

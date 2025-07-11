@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gitlab",
+  "description": "Integrates with GitLab to enable repository management, code review, CI/CD operations, and project administration through domain-specific API managers that support both cloud and self-hosted instances",
+  "url": "https://github.com/rifqi96/mcp-gitlab",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

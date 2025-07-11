@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "gitlab-code-review",
+  "description": "Integrates with GitLab to enable code review of merge requests, allowing detailed analysis of diffs, commenting, and approval directly within the developer workflow.",
+  "url": "https://github.com/mehmetakinn/gitlab-mcp-code-review",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

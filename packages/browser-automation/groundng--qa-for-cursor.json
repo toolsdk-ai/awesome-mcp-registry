@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "groundng-(qa-for-cursor)",
+  "description": "Automates web testing by putting the client in a feedback loop. Test recording, execution, and discovery with robust element identification and vision-based fallback mechanisms.",
+  "url": "https://github.com/groundng/vibeshift",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "tembo-cloud",
+  "description": "Integrates with Tembo Cloud platform API to enable database operations and data manipulation for workflows and automated analysis.",
+  "url": "https://github.com/tembo-io/mcp-server-tembo",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

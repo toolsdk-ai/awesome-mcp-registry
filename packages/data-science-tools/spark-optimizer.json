@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "spark-optimizer",
+  "description": "Optimizes Apache Spark code by analyzing PySpark queries and applying performance enhancements for resource management, execution tuning, and query optimization, resulting in significantly faster job execution.",
+  "url": "https://github.com/vgiri2015/ai-spark-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

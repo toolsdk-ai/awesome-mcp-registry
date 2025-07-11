@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "google-spreadsheets",
+  "description": "Integrates with Google Spreadsheets to enable retrieval and manipulation of spreadsheet data for analysis, reporting, and automated information management workflows.",
+  "url": "https://github.com/hosakakeigo/spreadsheet-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

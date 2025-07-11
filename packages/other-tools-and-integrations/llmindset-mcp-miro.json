@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "@llmindset/mcp-miro",
+  "description": "A Model Context Protocol server to connect to the MIRO Whiteboard Application",
+  "url": "https://github.com/evalstate/mcp-miro",
+  "runtime": "node",
+  "license": "Apache-2.0",
+  "env": {
+    "MIRO-OAUTH-KEY": {
+      "description": "Authentication token for Miro API access (can also be provided via --token argument)",
+      "required": true
+    }
+  }
+}

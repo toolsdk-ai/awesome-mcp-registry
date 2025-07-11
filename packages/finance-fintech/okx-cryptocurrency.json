@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "okx-cryptocurrency",
+  "description": "Provides real-time cryptocurrency market data from OKX exchange through API endpoints for historical candlestick patterns and current price information",
+  "url": "https://github.com/esshka/okx-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

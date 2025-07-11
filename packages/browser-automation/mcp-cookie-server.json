@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-cookie-server",
+  "description": "Provides cookie management capabilities for web automation and testing workflows, enabling storage, retrieval, and manipulation of session state and authentication cookies across different web services.",
+  "url": "https://github.com/bnookala/mcp-cookiejar",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

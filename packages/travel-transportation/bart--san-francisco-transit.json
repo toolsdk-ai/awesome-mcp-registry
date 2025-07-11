@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "bart-(san-francisco-transit)",
+  "description": "Integrates with BART's API to provide real-time train departure information in San Francisco.",
+  "url": "https://github.com/tchbw/bart-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

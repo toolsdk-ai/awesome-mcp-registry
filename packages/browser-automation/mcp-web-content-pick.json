@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-web-content-pick",
+  "description": "Extracts structured content from web pages using customizable selectors for crawling, parsing, and analyzing HTML elements without leaving the assistant interface.",
+  "url": "https://github.com/kilicmu/mcp-web-content-pick",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

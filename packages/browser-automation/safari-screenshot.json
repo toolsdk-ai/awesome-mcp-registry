@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "safari-screenshot",
+  "description": "Integrates with Safari on macOS to capture web page screenshots, enabling automated visual testing and web archiving workflows.",
+  "url": "https://github.com/rogerheykoop/mcp-safari-screenshot",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

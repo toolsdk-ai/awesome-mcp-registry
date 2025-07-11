@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "kibela",
+  "description": "Integrates with Kibela API to enable searching, retrieving, and accessing collaborative documentation for knowledge management and AI-assisted workflows.",
+  "url": "https://github.com/kiwamizamurai/mcp-kibela-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

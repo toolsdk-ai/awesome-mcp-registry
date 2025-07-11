@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "@deepdataspace/dinox-mcp",
+  "description": "Empower LLMs with fine-grained visual understanding — detect, localize, and describe anything in images with natural language prompts.",
+  "url": "https://github.com/idea-research/dino-x-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "DINOX_API_KEY": {
+      "description": "your-api-key-here",
+      "required": true
+    },
+    "IMAGE_STORAGE_DIRECTORY": {
+      "description": "/path/to/your/image/directory",
+      "required": true
+    }
+  }
+}

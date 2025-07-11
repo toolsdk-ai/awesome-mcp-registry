@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "deepseek-r1-reasoning",
+  "description": "Integrates with DeepSeek's R1 reasoning engine to enable advanced cognitive modeling and multi-step reasoning capabilities for complex problem-solving across various domains.",
+  "url": "https://github.com/moyu6027/deepseek-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {}
+}

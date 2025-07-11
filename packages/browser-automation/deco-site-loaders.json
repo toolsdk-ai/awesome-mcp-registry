@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "deco-site-loaders",
+  "description": "Transforms Deco site loaders into dynamic tools by extracting schemas from metadata, enabling seamless discovery and invocation of website capabilities through Server-Sent Events",
+  "url": "https://github.com/deco-sites/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

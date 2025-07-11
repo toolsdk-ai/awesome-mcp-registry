@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-aws-kb-retrieval",
+  "description": "MCP server for AWS Knowledge Base retrieval using Bedrock Agent Runtime",
+  "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/aws-kb-retrieval-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "browser-use",
+  "description": "Provides browser automation capabilities for capturing screenshots, retrieving HTML, executing JavaScript, and accessing console logs from web pages.",
+  "url": "https://github.com/ztobs/cline-browser-use-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

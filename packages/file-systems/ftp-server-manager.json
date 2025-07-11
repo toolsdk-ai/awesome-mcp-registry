@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "ftp-server-manager",
+  "description": "Enables direct FTP and FTPS server management through natural language commands for remote file operations including directory listing, file transfers, and folder creation.",
+  "url": "https://github.com/alxspiker/mcp-server-ftp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {}
+}

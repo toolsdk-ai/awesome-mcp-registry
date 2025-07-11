@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "school-tools-(canvas-&-gradescope)",
+  "description": "Integrates with Canvas and Gradescope to help students track assignment deadlines, add them to macOS Reminders, and manage course materials across multiple learning platforms.",
+  "url": "https://github.com/54yyyu/school-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

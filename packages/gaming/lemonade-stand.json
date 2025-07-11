@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "lemonade-stand",
+  "description": "Enables playing the classic Lemonade Stand business simulation game directly within Claude Desktop through an interactive interface that manages game state and player decisions.",
+  "url": "https://github.com/jimmcq/lemonade-stand-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}

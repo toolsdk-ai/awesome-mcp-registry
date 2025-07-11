@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "edge-text-to-speech",
+  "description": "Provides a bridge to Microsoft's Edge Text-to-Speech service for converting text into natural-sounding speech across multiple languages with customizable parameters, returning audio in MP3 format.",
+  "url": "https://github.com/yuiseki/edge_tts_mcp_server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

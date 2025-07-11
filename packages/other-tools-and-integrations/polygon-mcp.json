@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "packageName": "polygon-mcp",
+  "description": "Integrates with the Polygon blockchain to enable cryptocurrency management, smart contract interaction, and transaction signing through a secure wallet connection using the user's seed phrase.",
+  "url": "https://github.com/dablclub/polygon-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SEED_PHRASE": {
+      "description": "your twelve word seed phrase here",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-server-mas-sequential-thinking",
+  "description": "Orchestrates a team of specialized agents working in parallel to break down complex problems through structured thinking steps, enabling multi-disciplinary analysis with greater depth than single-agent approaches.",
+  "url": "https://github.com/fradser/mcp-server-mas-sequential-thinking",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {}
+}

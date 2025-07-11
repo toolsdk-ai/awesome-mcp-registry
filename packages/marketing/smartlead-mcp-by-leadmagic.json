@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "packageName": "smartlead-mcp-by-leadmagic",
+  "description": "Integrates with SmartLead's cold email outreach platform to manage campaigns, leads, email accounts, and analytics with smart tool loading that categorizes 113+ tools into essential, advanced, and administrative tiers for streamlined email automation workflows.",
+  "url": "https://github.com/leadmagic/smartlead-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SMARTLEAD_API_KEY": {
+      "description": "your_api_key",
+      "required": true
+    },
+    "SMARTLEAD_ADVANCED_TOOLS": {
+      "description": "true",
+      "required": true
+    }
+  }
+}

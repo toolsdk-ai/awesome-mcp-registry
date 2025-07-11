@@ -1,0 +1,9 @@
+{
+  "type": "mcp-server",
+  "packageName": "fitbit",
+  "description": "Integrates with Fitbit to provide access to personal health data including weight measurements, sleep logs, and profile information through OAuth 2.0 authentication for enhanced health tracking and fitness analysis.",
+  "url": "https://github.com/thedigitalninja/mcp-fitbit",
+  "runtime": "node",
+  "license": "mit",
+  "env": {}
+}
