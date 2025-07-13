@@ -5,5 +5,6 @@
   "url": "https://github.com/tisu19021997/meta-prompt-mcp-server",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Meta Prompt MCP Server"
 }

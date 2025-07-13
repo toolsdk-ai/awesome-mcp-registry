@@ -5,5 +5,6 @@
   "url": "https://github.com/lox/tmux-mcp-server",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Tmux MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/agentx-ai/agentx-mcp-servers/tree/HEAD/youtube_dlp_server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "YouTube DLP Server"
 }

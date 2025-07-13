@@ -5,5 +5,6 @@
   "url": "https://github.com/kvadratni/speech-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Speech MCP"
 }

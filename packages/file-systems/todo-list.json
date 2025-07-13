@@ -5,5 +5,6 @@
   "url": "https://github.com/regibyte/todo-list-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Todo List MCP"
 }

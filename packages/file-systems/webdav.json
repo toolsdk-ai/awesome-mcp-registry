@@ -5,5 +5,6 @@
   "url": "https://github.com/laubplusco/mcp-webdav-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "WebDAV MCP Server"
 }

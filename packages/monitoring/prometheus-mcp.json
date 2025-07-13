@@ -22,5 +22,6 @@
       "description": "Set to 'false' to disable discovery tools",
       "required": true
     }
-  }
+  },
+  "name": "Prometheus MCP"
 }

@@ -18,5 +18,6 @@
       "description": "your_admin_password",
       "required": true
     }
-  }
+  },
+  "name": "Strapi MCP"
 }

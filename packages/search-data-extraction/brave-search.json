@@ -5,5 +5,6 @@
   "url": "https://github.com/tositon/opendeepsearch",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Opendeepsearch MCP"
 }

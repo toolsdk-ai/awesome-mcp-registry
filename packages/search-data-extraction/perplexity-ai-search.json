@@ -5,5 +5,6 @@
   "url": "https://github.com/mkusaka/mcp-server-perplexity",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Perplexity AI Search MCP Server"
 }

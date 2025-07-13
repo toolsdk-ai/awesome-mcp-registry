@@ -5,5 +5,6 @@
   "url": "https://github.com/z9905080/mcp-slack",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Shouting MCP Slack"
 }

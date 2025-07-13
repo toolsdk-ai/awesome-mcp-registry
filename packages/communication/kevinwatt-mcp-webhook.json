@@ -10,5 +10,6 @@
       "description": "your-webhook-url",
       "required": true
     }
-  }
+  },
+  "name": "Webhook MCP"
 }

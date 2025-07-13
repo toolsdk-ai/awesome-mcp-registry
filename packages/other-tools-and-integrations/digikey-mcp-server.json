@@ -18,5 +18,6 @@
       "description": "Your DigiKey API client secret",
       "required": true
     }
-  }
+  },
+  "name": "DigiKey MCP Server"
 }

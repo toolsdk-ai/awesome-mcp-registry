@@ -5,5 +5,6 @@
   "url": "https://github.com/blockscout/mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Blockscout MCP Server"
 }

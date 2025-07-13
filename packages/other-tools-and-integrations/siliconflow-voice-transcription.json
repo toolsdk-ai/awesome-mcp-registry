@@ -5,5 +5,6 @@
   "url": "https://github.com/aio-2030/mcp-audio",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "MCP Audio"
 }

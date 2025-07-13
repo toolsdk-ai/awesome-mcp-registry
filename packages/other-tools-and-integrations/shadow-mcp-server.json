@@ -5,5 +5,6 @@
   "url": "https://github.com/shadowcz007/mcp_server_exe",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Shadow MCP Server"
 }

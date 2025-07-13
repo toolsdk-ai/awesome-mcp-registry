@@ -5,5 +5,6 @@
   "url": "https://github.com/vitaliiivanovspryker/spryker-package-search-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Spryker Package Search MCP"
 }

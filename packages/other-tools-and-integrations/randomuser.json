@@ -5,5 +5,6 @@
   "url": "https://github.com/rycid/randomusermcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Randomuser MCP"
 }

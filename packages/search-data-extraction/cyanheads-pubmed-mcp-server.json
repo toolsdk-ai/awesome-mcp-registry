@@ -10,5 +10,6 @@
       "description": "your_ncbi_api_key_here",
       "required": true
     }
-  }
+  },
+  "name": "PubMed MCP Server"
 }

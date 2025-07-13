@@ -5,5 +5,6 @@
   "url": "https://github.com/idcdev/mcp-magic-ui",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Magic UI MCP"
 }

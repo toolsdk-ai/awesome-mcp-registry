@@ -14,5 +14,6 @@
       "description": "123456",
       "required": true
     }
-  }
+  },
+  "name": "Box MCP Server"
 }

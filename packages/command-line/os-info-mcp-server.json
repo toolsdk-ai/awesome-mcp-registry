@@ -5,5 +5,6 @@
   "url": "https://github.com/anurag-dhamala/os-info-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Os Info MCP Server"
 }

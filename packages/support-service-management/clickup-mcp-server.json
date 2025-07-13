@@ -10,5 +10,6 @@
       "description": "YOUR_API_TOKEN_HERE",
       "required": true
     }
-  }
+  },
+  "name": "ClickUp MCP Server"
 }

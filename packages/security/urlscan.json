@@ -5,5 +5,6 @@
   "url": "https://github.com/onurucard4/scan-url-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Scan URL MCP Server"
 }

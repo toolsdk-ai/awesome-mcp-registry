@@ -5,5 +5,6 @@
   "url": "https://github.com/ai-zerolab/mcp-email-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Email Server"
 }

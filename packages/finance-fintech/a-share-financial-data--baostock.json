@@ -5,5 +5,6 @@
   "url": "https://github.com/24mlight/a-share-mcp-is-just-i-need",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "A Share MCP Is Just I Need"
 }

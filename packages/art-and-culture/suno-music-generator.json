@@ -5,5 +5,6 @@
   "url": "https://github.com/lioensky/mcp-suno",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Suno MCP"
 }

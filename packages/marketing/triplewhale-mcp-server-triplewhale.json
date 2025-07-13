@@ -5,5 +5,6 @@
   "url": "https://github.com/triple-whale/mcp-server-triplewhale",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Triple Whale"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/spathodea-network/opencti-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "OpenCTI MCP"
 }

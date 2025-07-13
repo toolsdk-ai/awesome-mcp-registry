@@ -18,5 +18,6 @@
       "description": "YOUR_REPLY_TO_EMAIL_ADDRESSES_HERE (string, optional, comma delimited)",
       "required": true
     }
-  }
+  },
+  "name": "Resend MCP"
 }

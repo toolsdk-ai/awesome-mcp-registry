@@ -5,5 +5,6 @@
   "url": "https://github.com/gravityphone/swanzmcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Swan MCP"
 }

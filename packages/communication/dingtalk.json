@@ -5,5 +5,6 @@
   "url": "https://github.com/wllcnm/dingding-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "DingTalk MCP"
 }

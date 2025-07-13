@@ -5,5 +5,6 @@
   "url": "https://github.com/oxplot/clipboard-mcp",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Clipboard MCP"
 }

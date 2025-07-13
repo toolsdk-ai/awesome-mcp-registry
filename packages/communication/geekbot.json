@@ -5,5 +5,6 @@
   "url": "https://github.com/geekbot-com/geekbot-mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Geekbot MCP"
 }

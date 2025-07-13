@@ -5,5 +5,6 @@
   "url": "https://github.com/codingthefuturewithai/screenshot_mcp_server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Screenshot Capture MCP Server"
 }

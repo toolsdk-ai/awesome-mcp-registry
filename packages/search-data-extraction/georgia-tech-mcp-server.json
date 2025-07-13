@@ -22,5 +22,6 @@
       "description": "Logging level",
       "required": true
     }
-  }
+  },
+  "name": "Georgia Tech MCP Server"
 }

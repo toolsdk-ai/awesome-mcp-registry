@@ -10,5 +10,6 @@
       "description": "INFO",
       "required": true
     }
-  }
+  },
+  "name": "xcodemcp"
 }

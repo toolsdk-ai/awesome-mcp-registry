@@ -5,5 +5,6 @@
   "url": "https://github.com/eliovp-bv/mcp-vllm-benchmark",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "VLLM Benchmark MCP"
 }

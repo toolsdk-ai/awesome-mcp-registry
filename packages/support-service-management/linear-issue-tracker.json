@@ -5,5 +5,6 @@
   "url": "https://github.com/zalab-inc/mcp-linear-app",
   "runtime": "node",
   "license": "other",
-  "env": {}
+  "env": {},
+  "name": "Linear Issue Tracker MCP"
 }

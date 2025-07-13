@@ -14,5 +14,6 @@
       "description": "your-coolify-api-token",
       "required": true
     }
-  }
+  },
+  "name": "Coolify MCP"
 }

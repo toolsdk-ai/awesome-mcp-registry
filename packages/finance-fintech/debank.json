@@ -5,5 +5,6 @@
   "url": "https://github.com/demcp/demcp-debank-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Debank MCP"
 }

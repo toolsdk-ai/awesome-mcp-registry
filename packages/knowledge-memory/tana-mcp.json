@@ -10,5 +10,6 @@
       "description": "your-api-token-here",
       "required": true
     }
-  }
+  },
+  "name": "Tana MCP"
 }

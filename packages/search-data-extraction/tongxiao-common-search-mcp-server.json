@@ -10,5 +10,6 @@
       "description": "",
       "required": true
     }
-  }
+  },
+  "name": "AlibabaCloud IQS TongXiao MCP Server"
 }

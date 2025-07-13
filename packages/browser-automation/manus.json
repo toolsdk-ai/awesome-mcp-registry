@@ -5,5 +5,6 @@
   "url": "https://github.com/mantrakp04/manusmcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Manus MCP"
 }

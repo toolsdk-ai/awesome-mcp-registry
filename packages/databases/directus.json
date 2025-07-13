@@ -5,5 +5,6 @@
   "url": "https://github.com/n0safe/directus-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Directus MCP"
 }

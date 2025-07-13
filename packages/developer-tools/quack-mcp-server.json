@@ -14,5 +14,6 @@
       "description": "Optional API key for higher rate limits",
       "required": true
     }
-  }
+  },
+  "name": "Quack MCP Server"
 }

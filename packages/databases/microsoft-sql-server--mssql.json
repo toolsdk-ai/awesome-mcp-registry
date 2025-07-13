@@ -5,5 +5,6 @@
   "url": "https://github.com/richardhan/mssql_mcp_server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MSSQL MCP Server"
 }

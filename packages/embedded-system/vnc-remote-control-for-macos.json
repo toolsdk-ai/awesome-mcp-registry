@@ -5,5 +5,6 @@
   "url": "https://github.com/baryhuang/mcp-remote-macos-use",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Remote Mac Control via VNC"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/alexsmirnov/obsidian-second-brain-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Obsidian Second Brain MCP"
 }

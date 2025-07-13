@@ -5,5 +5,6 @@
   "url": "https://github.com/boristopalov/spotify-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Spotify MCP"
 }

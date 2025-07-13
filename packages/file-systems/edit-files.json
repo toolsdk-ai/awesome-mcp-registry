@@ -5,5 +5,6 @@
   "url": "https://github.com/oakenai/mcp-edit-file-lines",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Edit File Lines MCP"
 }

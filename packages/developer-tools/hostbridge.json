@@ -5,5 +5,6 @@
   "url": "https://github.com/elblanco2/hostbridge-mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Hostbridge MCP"
 }

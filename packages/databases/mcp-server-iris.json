@@ -5,5 +5,6 @@
   "url": "https://github.com/caretdev/mcp-server-iris",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Iris"
 }

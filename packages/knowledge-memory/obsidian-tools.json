@@ -5,5 +5,6 @@
   "url": "https://github.com/jacksteamdev/obsidian-mcp-tools",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Obsidian MCP Tools"
 }

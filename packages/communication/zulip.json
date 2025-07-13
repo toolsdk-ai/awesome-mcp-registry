@@ -5,5 +5,6 @@
   "url": "https://github.com/monadical-sas/zulip-mcp",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Zulip MCP"
 }

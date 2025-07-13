@@ -22,5 +22,6 @@
       "description": "<optional rate limit format: limit/time+unit, e.g., 100/1h, 50/30m, 10/5s>",
       "required": true
     }
-  }
+  },
+  "name": "Bright Data MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/0xgval/twitter-x-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Twitter X MCP Server"
 }

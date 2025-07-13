@@ -18,5 +18,6 @@
       "description": "https://bsky.social",
       "required": true
     }
-  }
+  },
+  "name": "Bluesky MCP Server"
 }

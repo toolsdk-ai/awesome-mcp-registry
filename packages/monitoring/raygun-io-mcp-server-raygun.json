@@ -10,5 +10,6 @@
       "description": "your-pat-token-here",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server Raygun"
 }

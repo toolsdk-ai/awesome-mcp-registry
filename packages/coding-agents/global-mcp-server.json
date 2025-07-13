@@ -38,5 +38,6 @@
       "description": "Your GitHub personal access token",
       "required": true
     }
-  }
+  },
+  "name": "Global MCP Server"
 }

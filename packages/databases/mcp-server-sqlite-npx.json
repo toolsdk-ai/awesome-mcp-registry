@@ -14,5 +14,6 @@
       "description": "/absolute/path/to/node_modules",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server SQLite NPX"
 }

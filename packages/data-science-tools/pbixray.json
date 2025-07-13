@@ -5,5 +5,6 @@
   "url": "https://github.com/jonaolden/pbixray-mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "PBIXray MCP Server"
 }

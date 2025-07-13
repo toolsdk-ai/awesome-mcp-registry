@@ -5,5 +5,6 @@
   "url": "https://github.com/ujjalcal/mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Neo4j Graph Database MCP Server"
 }

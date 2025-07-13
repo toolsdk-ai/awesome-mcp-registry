@@ -10,5 +10,6 @@
       "description": "/path/to/your/obsidian/vault",
       "required": true
     }
-  }
+  },
+  "name": "MCP Obsidian"
 }

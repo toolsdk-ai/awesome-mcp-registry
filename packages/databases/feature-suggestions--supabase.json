@@ -5,5 +5,6 @@
   "url": "https://github.com/adiletd/feature-request-collection-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Feature Request Collection MCP"
 }

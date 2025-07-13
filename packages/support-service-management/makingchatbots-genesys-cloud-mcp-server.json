@@ -18,5 +18,6 @@
       "description": "<PUT OAUTHCLIENT SECRET HERE>",
       "required": true
     }
-  }
+  },
+  "name": "Genesys Cloud MCP Server"
 }

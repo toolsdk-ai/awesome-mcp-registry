@@ -5,5 +5,6 @@
   "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/sqlite",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "SQLite MCP Server"
 }

@@ -14,5 +14,6 @@
       "description": "<YOUR_SHOP>.myshopify.com",
       "required": true
     }
-  }
+  },
+  "name": "Shopify MCP Server"
 }

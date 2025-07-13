@@ -10,5 +10,6 @@
       "description": "pat123.abc123",
       "required": true
     }
-  }
+  },
+  "name": "Airtable MCP Server"
 }

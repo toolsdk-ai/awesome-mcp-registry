@@ -10,5 +10,6 @@
       "description": "10000",
       "required": true
     }
-  }
+  },
+  "name": "Docfork MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/surya-madhav/mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Web Scraper & DuckDuckGo Search MCP Server"
 }

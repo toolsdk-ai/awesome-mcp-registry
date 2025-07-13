@@ -14,5 +14,6 @@
       "description": "/path/to/your/image/directory",
       "required": true
     }
-  }
+  },
+  "name": "Dino X MCP"
 }

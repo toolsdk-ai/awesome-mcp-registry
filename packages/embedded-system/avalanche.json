@@ -5,5 +5,6 @@
   "url": "https://github.com/utkucy/avalanche-mcp-tools",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Avalanche MCP Tools"
 }

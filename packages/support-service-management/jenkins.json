@@ -5,5 +5,6 @@
   "url": "https://github.com/programmeragua/jenkins-mcp-server",
   "runtime": "java",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Jenkins MCP Server"
 }

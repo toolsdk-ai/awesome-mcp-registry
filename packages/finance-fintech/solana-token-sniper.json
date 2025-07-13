@@ -5,5 +5,6 @@
   "url": "https://github.com/monostate/100ms-spl-token-sniper-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "100ms SPL Token Sniper MCP"
 }

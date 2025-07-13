@@ -5,5 +5,6 @@
   "url": "https://github.com/inventer-dev/mcp-internet-speed-test",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Internet Speed Test MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/opensensor/bn_cline_mcp",
   "runtime": "python",
   "license": "gpl-3.0",
-  "env": {}
+  "env": {},
+  "name": "BN Cline MCP"
 }

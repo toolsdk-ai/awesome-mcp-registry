@@ -5,5 +5,6 @@
   "url": "https://github.com/kwen1510/mcp-nltk",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "NLTK MCP"
 }

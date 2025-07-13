@@ -5,5 +5,6 @@
   "url": "https://github.com/bsmi021/mcp-conversation-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "OpenRouter Conversation Manager MCP Server"
 }

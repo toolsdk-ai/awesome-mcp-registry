@@ -14,5 +14,6 @@
       "description": "your-dokploy-api-token",
       "required": true
     }
-  }
+  },
+  "name": "Dokploy MCP"
 }

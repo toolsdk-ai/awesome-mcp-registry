@@ -14,5 +14,6 @@
       "description": "your_client_secret",
       "required": true
     }
-  }
+  },
+  "name": "Jampp Reporting MCP"
 }

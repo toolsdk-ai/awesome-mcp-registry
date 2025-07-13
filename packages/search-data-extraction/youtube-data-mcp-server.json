@@ -14,5 +14,6 @@
       "description": "ko",
       "required": true
     }
-  }
+  },
+  "name": "YouTube Data MCP Server"
 }

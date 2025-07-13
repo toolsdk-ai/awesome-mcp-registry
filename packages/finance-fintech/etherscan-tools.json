@@ -5,5 +5,6 @@
   "url": "https://github.com/crazyrabbitltc/mcp-etherscan-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Etherscan MCP Server"
 }

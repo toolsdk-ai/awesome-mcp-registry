@@ -5,5 +5,6 @@
   "url": "https://github.com/bmorphism/say-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Say MCP Server"
 }

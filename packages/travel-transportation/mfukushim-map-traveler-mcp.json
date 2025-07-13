@@ -22,5 +22,6 @@
       "description": "ckpt_name='animagineXL40_v40.safetensors',denoise=0.65",
       "required": true
     }
-  }
+  },
+  "name": "Map Traveler MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/danielrsnell/postgres-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PostgreSQL Explorer MCP"
 }

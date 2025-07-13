@@ -22,5 +22,6 @@
       "description": "Your AWS secret access key",
       "required": true
     }
-  }
+  },
+  "name": "Nova Reel MCP Server"
 }

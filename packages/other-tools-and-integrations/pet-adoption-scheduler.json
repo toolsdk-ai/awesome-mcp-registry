@@ -5,5 +5,6 @@
   "url": "https://github.com/zeeroiq/pet-adoption-scheduling-service",
   "runtime": "java",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Pet Adoption Scheduling Service"
 }

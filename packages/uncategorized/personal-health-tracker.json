@@ -5,5 +5,6 @@
   "url": "https://github.com/evangstav/personal-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Personal MCP"
 }

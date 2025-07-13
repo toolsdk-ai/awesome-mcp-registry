@@ -14,5 +14,6 @@
       "description": "PostgreSQL connection string in the format postgres://user:password@host:port/database",
       "required": true
     }
-  }
+  },
+  "name": "Vibase MCP Server"
 }

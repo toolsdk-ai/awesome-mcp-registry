@@ -5,5 +5,6 @@
   "url": "https://github.com/mindsdb/mindsdb",
   "runtime": "python",
   "license": "other",
-  "env": {}
+  "env": {},
+  "name": "MindsDB MCP Server"
 }

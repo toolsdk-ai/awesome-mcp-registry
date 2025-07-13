@@ -14,5 +14,6 @@
       "description": "<your-api-hash>",
       "required": true
     }
-  }
+  },
+  "name": "Telegram MCP"
 }

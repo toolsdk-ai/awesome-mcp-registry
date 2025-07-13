@@ -18,5 +18,6 @@
       "description": "ash",
       "required": true
     }
-  }
+  },
+  "name": "Discourse MCP Server"
 }

@@ -14,5 +14,6 @@
       "description": "Authentication token for Maverick API",
       "required": true
     }
-  }
+  },
+  "name": "Maverick MCP"
 }

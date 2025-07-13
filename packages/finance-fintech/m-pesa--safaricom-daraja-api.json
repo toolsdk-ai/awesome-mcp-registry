@@ -5,5 +5,6 @@
   "url": "https://github.com/jameskanyiri/darajamcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Daraja MCP"
 }

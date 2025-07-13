@@ -5,5 +5,6 @@
   "url": "https://github.com/conao3/python-mcp-uuid",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Python MCP UUID"
 }

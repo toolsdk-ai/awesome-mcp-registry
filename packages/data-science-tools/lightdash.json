@@ -5,5 +5,6 @@
   "url": "https://github.com/syucream/lightdash-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Lightdash MCP Server"
 }

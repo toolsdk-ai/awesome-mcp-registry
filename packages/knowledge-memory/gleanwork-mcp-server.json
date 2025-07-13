@@ -14,5 +14,6 @@
       "description": "<glean api token>",
       "required": true
     }
-  }
+  },
+  "name": "Glean MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/omidsrezai/cv-mcp-tools",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "CV MCP Tools"
 }

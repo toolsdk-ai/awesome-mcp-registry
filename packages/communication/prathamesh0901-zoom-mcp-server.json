@@ -18,5 +18,6 @@
       "description": "Your Zoom Client Secret",
       "required": true
     }
-  }
+  },
+  "name": "Zoom MCP Server"
 }

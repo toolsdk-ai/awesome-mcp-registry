@@ -5,5 +5,6 @@
   "url": "https://github.com/billduke13/code-explainer-mcp",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Code Explainer MCP"
 }

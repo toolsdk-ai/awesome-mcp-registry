@@ -5,5 +5,6 @@
   "url": "https://github.com/deepsuthar496/remote-command-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Remote Command MCP"
 }

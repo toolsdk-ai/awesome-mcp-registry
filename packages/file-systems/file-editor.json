@@ -5,5 +5,6 @@
   "url": "https://github.com/arathald/mcp-editor",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "File Editor MCP"
 }

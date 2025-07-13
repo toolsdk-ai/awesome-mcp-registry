@@ -5,5 +5,6 @@
   "url": "https://github.com/r3-yamauchi/cdata-connect-cloud-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "CData Connect Cloud MCP Server"
 }

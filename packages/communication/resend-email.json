@@ -10,5 +10,6 @@
       "description": "YOUR_RESEND_API_KEY_HERE (string, required)",
       "required": true
     }
-  }
+  },
+  "name": "Resend MCP Send Email"
 }

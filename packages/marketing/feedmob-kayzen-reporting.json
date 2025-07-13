@@ -18,5 +18,6 @@
       "description": "baisc_auth_token",
       "required": true
     }
-  }
+  },
+  "name": "Kayzen Reporting MCP"
 }

@@ -10,5 +10,6 @@
       "description": "/path/to/tasks.json",
       "required": true
     }
-  }
+  },
+  "name": "Taskflow MCP"
 }

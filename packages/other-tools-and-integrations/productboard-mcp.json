@@ -10,5 +10,6 @@
       "description": "<YOUR_TOKEN>",
       "required": true
     }
-  }
+  },
+  "name": "Productboard MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/benyue1978/run-command-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Run Command MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/gkhays/mcp-sbom-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "SBOM MCP Server"
 }

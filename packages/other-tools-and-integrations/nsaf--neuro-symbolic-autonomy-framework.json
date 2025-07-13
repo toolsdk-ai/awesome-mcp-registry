@@ -5,5 +5,6 @@
   "url": "https://github.com/ariunbolor/nsaf-mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "NSAF MCP Server"
 }

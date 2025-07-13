@@ -5,5 +5,6 @@
   "url": "https://github.com/themapleseed/cube",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Cube MCP Server"
 }

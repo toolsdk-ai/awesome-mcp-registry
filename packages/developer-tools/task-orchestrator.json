@@ -5,5 +5,6 @@
   "url": "https://github.com/hrishirc/task-orchestrator",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Task Orchestrator"
 }

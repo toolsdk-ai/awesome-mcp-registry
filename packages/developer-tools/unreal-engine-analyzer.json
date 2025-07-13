@@ -5,5 +5,6 @@
   "url": "https://github.com/ayeletstudioindia/unreal-analyzer-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Unreal Analyzer MCP"
 }

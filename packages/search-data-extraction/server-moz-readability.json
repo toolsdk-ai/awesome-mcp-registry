@@ -5,5 +5,6 @@
   "url": "https://github.com/emzimmer/server-moz-readability",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Server Moz Readability"
 }

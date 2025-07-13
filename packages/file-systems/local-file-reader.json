@@ -5,5 +5,6 @@
   "url": "https://github.com/sworddut/mcp-local-file-reader",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Local File Reader MCP"
 }

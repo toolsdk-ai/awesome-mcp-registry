@@ -5,5 +5,6 @@
   "url": "https://github.com/pasie15/scenario.com-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Scenario.com MCP Server"
 }

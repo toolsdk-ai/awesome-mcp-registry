@@ -5,5 +5,6 @@
   "url": "https://github.com/studentofjs/mcp-frontend-testing",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Frontend Testing MCP"
 }

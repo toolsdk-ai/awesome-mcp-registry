@@ -5,5 +5,6 @@
   "url": "https://github.com/softeria/ms-365-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MS 365 MCP Server"
 }

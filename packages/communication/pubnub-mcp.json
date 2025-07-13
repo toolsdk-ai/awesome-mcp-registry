@@ -14,5 +14,6 @@
       "description": "YOUR_SUBSCRIBE_KEY",
       "required": true
     }
-  }
+  },
+  "name": "PubNub MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/dineshkumarramaraj/mcp-kubernetes/tree/HEAD/kubernetes-listpods",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Kubernetes ListPods"
 }

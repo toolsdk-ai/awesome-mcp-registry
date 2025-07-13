@@ -5,5 +5,6 @@
   "url": "https://github.com/inditextech/mcp-server-simulator-ios-idb",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Simulator iOS IDB MCP"
 }

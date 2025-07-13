@@ -5,5 +5,6 @@
   "url": "https://github.com/aydinfer/spline-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Spline MCP Server"
 }

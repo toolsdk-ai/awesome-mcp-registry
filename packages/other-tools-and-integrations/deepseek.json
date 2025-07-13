@@ -5,5 +5,6 @@
   "url": "https://github.com/vincentf305/mcp-server-deepseek",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Deepseek"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/cpage-pivotal/app-advisor-mcp",
   "runtime": "java",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "App Advisor MCP"
 }

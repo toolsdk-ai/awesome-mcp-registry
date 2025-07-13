@@ -5,5 +5,6 @@
   "url": "https://github.com/photosynth-inc/gitlab_review",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "GitLab Review MCP Server"
 }

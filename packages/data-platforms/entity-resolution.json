@@ -5,5 +5,6 @@
   "url": "https://github.com/u3588064/entity-resolution",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Entity Resolution"
 }

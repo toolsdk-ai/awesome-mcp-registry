@@ -10,5 +10,6 @@
       "description": "your-grok-api-key",
       "required": true
     }
-  }
+  },
+  "name": "Grok MCP"
 }

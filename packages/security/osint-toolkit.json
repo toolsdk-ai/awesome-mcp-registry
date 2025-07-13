@@ -5,5 +5,6 @@
   "url": "https://github.com/himanshusanecha/mcp-osint-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP OSINT Server"
 }

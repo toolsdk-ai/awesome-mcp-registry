@@ -5,5 +5,6 @@
   "url": "https://github.com/vgiri2015/ai-spark-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "AI Spark MCP Server"
 }

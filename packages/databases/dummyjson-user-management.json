@@ -5,5 +5,6 @@
   "url": "https://github.com/mtwn105/mcp-server-spring-java",
   "runtime": "java",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Spring Java"
 }

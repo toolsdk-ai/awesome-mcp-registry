@@ -5,5 +5,6 @@
   "url": "https://github.com/googleapis/genai-toolbox",
   "runtime": "go",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "GenAI Toolbox"
 }

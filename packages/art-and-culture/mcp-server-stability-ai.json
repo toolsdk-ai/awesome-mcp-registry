@@ -10,5 +10,6 @@
       "description": "sk-1234567890",
       "required": true
     }
-  }
+  },
+  "name": "Stability AI MCP Server"
 }

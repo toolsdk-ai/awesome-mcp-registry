@@ -5,5 +5,6 @@
   "url": "https://github.com/minhyeoky/mcp-server-ledger",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Ledger MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/dynamicendpoints/cloudflare-github-backup-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Cloudflare GitHub Backup MCP"
 }

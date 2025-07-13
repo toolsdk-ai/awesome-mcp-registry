@@ -5,5 +5,6 @@
   "url": "https://github.com/databutton/databutton-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Databutton MCP"
 }

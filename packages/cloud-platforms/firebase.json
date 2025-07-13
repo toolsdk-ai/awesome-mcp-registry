@@ -5,5 +5,6 @@
   "url": "https://github.com/gemini-dk/mcp-server-firebase",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Firebase MCP Server"
 }

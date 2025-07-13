@@ -5,5 +5,6 @@
   "url": "https://github.com/mike-pete/starbucks-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Starbucks MCP"
 }

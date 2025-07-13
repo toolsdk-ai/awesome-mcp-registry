@@ -5,5 +5,6 @@
   "url": "https://github.com/jikime/py-mcp-google-toolbox",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Google Toolbox MCP Server"
 }

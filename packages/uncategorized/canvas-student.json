@@ -5,5 +5,6 @@
   "url": "https://github.com/jon-vii/canvas-student-mcp/tree/HEAD/src/canvas-student",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Canvas Student MCP"
 }

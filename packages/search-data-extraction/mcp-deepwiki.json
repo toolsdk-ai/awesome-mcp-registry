@@ -5,5 +5,6 @@
   "url": "https://github.com/regenrek/deepwiki-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "DeepWiki MCP"
 }

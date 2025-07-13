@@ -5,5 +5,6 @@
   "url": "https://github.com/garylab/serper-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Serper MCP Server"
 }

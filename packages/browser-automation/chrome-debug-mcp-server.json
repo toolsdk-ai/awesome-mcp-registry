@@ -10,5 +10,6 @@
       "description": "The URL of the Chrome debug port",
       "required": true
     }
-  }
+  },
+  "name": "Chrome Debug MCP Server"
 }

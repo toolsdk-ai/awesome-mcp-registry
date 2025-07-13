@@ -18,5 +18,6 @@
       "description": "cn-hangzhou.log.aliyuncs.com",
       "required": true
     }
-  }
+  },
+  "name": "Aliyun MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/imankamyabi/dynamodb-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "DynamoDB MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/manolaz/emergency-medicare-planner-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Emergency Medicare Planner MCP Server"
 }

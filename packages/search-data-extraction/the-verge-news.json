@@ -5,5 +5,6 @@
   "url": "https://github.com/manimohans/verge-news-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Verge News MCP"
 }

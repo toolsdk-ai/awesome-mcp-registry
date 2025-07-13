@@ -10,5 +10,6 @@
       "description": "<YOUR_PAT>",
       "required": true
     }
-  }
+  },
+  "name": "Gistpad MCP"
 }

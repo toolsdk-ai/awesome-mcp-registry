@@ -10,5 +10,6 @@
       "description": "/path/to/credentials.json",
       "required": true
     }
-  }
+  },
+  "name": "GSC MCP Server"
 }

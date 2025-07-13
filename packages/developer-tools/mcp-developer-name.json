@@ -10,5 +10,6 @@
       "description": "Wayne Wei",
       "required": true
     }
-  }
+  },
+  "name": "Developer Name MCP"
 }

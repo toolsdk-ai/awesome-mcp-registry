@@ -5,5 +5,6 @@
   "url": "https://github.com/cam10001110101/mcp-server-outlook-email",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Outlook Email MCP Server"
 }

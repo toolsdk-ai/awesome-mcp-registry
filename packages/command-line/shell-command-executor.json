@@ -5,5 +5,6 @@
   "url": "https://github.com/sonirico/mcp-shell",
   "runtime": "go",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Shell MCP"
 }

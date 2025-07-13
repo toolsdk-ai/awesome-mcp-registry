@@ -5,5 +5,6 @@
   "url": "https://github.com/cpbrad31/mcp_ga_511",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP GA 511"
 }

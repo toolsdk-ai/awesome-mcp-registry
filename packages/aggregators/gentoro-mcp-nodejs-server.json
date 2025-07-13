@@ -18,5 +18,6 @@
       "description": "<url where gentoro is hosted>",
       "required": true
     }
-  }
+  },
+  "name": "MCP NodeJS Server"
 }

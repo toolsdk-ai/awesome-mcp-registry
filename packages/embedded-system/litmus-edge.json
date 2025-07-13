@@ -5,5 +5,6 @@
   "url": "https://github.com/litmusautomation/litmus-mcp-server",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Litmus MCP Server"
 }

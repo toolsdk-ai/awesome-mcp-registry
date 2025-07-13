@@ -5,5 +5,6 @@
   "url": "https://github.com/namrata-ami/mcp_twitter_connect",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Twitter Connect MCP"
 }

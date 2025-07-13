@@ -5,5 +5,6 @@
   "url": "https://github.com/dkmaker/mcp-function-app-tester",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP Function App Tester"
 }

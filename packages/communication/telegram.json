@@ -5,5 +5,6 @@
   "url": "https://github.com/sparfenyuk/mcp-telegram",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Telegram MCP"
 }

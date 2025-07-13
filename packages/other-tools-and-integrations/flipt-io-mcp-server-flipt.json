@@ -5,5 +5,6 @@
   "url": "https://github.com/flipt-io/mcp-server-flipt",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Flipt MCP Server"
 }

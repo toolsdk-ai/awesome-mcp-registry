@@ -18,5 +18,6 @@
       "description": "Display name for the MCP server",
       "required": true
     }
-  }
+  },
+  "name": "MCP SSE Proxy"
 }

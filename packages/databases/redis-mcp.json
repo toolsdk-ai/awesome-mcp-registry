@@ -5,5 +5,6 @@
   "url": "https://github.com/farhankaz/redis-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Redis MCP"
 }

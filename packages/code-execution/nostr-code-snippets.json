@@ -5,5 +5,6 @@
   "url": "https://github.com/nodetec/nostr-code-snippet-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Nostr Code Snippet MCP"
 }

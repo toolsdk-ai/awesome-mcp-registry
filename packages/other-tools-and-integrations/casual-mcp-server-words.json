@@ -5,5 +5,6 @@
   "url": "https://github.com/casualgenius/mcp-servers/tree/HEAD/servers/words",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Words MCP Server"
 }

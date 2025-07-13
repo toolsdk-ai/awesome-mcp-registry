@@ -5,5 +5,6 @@
   "url": "https://github.com/circleci-public/mcp-server-circleci",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server CircleCI"
 }

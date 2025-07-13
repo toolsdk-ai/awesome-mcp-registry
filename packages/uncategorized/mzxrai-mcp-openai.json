@@ -10,5 +10,6 @@
       "description": "your-api-key-here (get one from https://platform.openai.com/api-keys)",
       "required": true
     }
-  }
+  },
+  "name": "MCP OpenAI"
 }

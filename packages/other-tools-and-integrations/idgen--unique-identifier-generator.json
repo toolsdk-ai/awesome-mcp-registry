@@ -5,5 +5,6 @@
   "url": "https://github.com/syumai/mcp/tree/HEAD/idgen-mcp-server",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Idgen MCP Server"
 }

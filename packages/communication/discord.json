@@ -5,5 +5,6 @@
   "url": "https://github.com/v-3/discordmcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Discord MCP"
 }

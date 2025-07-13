@@ -22,5 +22,6 @@
       "description": "<PG_URL>",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server SUPOS"
 }

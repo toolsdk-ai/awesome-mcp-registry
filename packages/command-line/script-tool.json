@@ -5,5 +5,6 @@
   "url": "https://github.com/nguyenvanduocit/script-mcp",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Script MCP"
 }

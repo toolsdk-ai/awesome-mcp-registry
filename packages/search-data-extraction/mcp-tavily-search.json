@@ -10,5 +10,6 @@
       "description": "your-tavily-api-key",
       "required": true
     }
-  }
+  },
+  "name": "Tavily Search MCP"
 }

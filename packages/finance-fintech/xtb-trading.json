@@ -5,5 +5,6 @@
   "url": "https://github.com/sharplygroup/xtb-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "XTB MCP Server"
 }

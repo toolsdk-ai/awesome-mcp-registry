@@ -18,5 +18,6 @@
       "description": "Authentication token for the FHIR server",
       "required": true
     }
-  }
+  },
+  "name": "Fhir MCP"
 }

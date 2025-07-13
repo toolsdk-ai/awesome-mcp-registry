@@ -5,5 +5,6 @@
   "url": "https://github.com/infinitimeless/claude-lmstudio-bridge",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Claude LM Studio Bridge"
 }

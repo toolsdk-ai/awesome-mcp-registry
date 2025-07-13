@@ -14,5 +14,6 @@
       "description": "YOUR_HD_W_ACCOUNT_ID",
       "required": true
     }
-  }
+  },
+  "name": "Hdw MCP Server"
 }

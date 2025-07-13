@@ -10,5 +10,6 @@
       "description": "Your WeWork API access token",
       "required": true
     }
-  }
+  },
+  "name": "Aplus MCP"
 }

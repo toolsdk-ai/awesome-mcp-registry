@@ -5,5 +5,6 @@
   "url": "https://github.com/hrishi0102/payman_mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Payman MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/erickwendel/erickwendel-contributions-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Erick Wendel Contributions MCP"
 }

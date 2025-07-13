@@ -5,5 +5,6 @@
   "url": "https://github.com/54yyyu/school-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "School MCP"
 }

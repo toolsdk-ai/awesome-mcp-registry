@@ -18,5 +18,6 @@
       "description": "pci_00000000000000000000000000000000",
       "required": true
     }
-  }
+  },
+  "name": "Pangea MCP Server"
 }

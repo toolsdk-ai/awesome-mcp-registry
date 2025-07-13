@@ -5,5 +5,6 @@
   "url": "https://github.com/streamnative/streamnative-mcp-server",
   "runtime": "go",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "StreamNative MCP Server"
 }

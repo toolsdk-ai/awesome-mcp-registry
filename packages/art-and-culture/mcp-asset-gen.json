@@ -5,5 +5,6 @@
   "url": "https://github.com/jbrower95/mcp-asset-gen",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Asset Gen MCP"
 }

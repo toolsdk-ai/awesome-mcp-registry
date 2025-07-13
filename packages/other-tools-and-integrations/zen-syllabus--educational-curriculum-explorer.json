@@ -5,5 +5,6 @@
   "url": "https://github.com/sifue/zen-syllabus-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Zen Syllabus MCP"
 }

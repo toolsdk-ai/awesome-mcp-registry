@@ -5,5 +5,6 @@
   "url": "https://github.com/aiopinions/ton-access-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Ton Access MCP"
 }

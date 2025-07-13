@@ -5,5 +5,6 @@
   "url": "https://github.com/cfdude/mac-shell-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Mac Shell MCP"
 }

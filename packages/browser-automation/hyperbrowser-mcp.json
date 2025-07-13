@@ -10,5 +10,6 @@
       "description": "YOUR-API-KEY",
       "required": true
     }
-  }
+  },
+  "name": "Hyperbrowser MCP"
 }

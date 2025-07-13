@@ -5,5 +5,6 @@
   "url": "https://github.com/keurcien/choose-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Choose MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/mathd/govee_mcp_server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Govee MCP Server"
 }

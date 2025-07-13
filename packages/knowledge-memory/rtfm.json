@@ -5,5 +5,6 @@
   "url": "https://github.com/ryanjoachim/mcp-rtfm",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "RTFM MCP"
 }

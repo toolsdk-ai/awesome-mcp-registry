@@ -5,5 +5,6 @@
   "url": "https://github.com/xraywu/mcp-pdf-extraction-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PDF Extraction MCP Server"
 }

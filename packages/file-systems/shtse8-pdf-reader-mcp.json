@@ -5,5 +5,6 @@
   "url": "https://github.com/sylphxltd/pdf-reader-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PDF Reader MCP"
 }

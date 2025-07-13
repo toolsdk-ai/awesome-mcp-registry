@@ -5,5 +5,6 @@
   "url": "https://github.com/donghao1393/mcp-dbutils",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "DButils"
 }

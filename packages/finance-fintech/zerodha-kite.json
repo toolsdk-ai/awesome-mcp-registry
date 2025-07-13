@@ -5,5 +5,6 @@
   "url": "https://github.com/121yaseen/zerodha-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Zerodha MCP"
 }

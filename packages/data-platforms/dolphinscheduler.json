@@ -5,5 +5,6 @@
   "url": "https://github.com/ocean-zhc/dolphinscheduler-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Dolphinscheduler MCP"
 }

@@ -14,5 +14,6 @@
       "description": "<argocd_token>",
       "required": true
     }
-  }
+  },
+  "name": "Argo CD MCP"
 }

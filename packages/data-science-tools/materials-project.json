@@ -5,5 +5,6 @@
   "url": "https://github.com/fair2wise/materials_project_mcp",
   "runtime": "python",
   "license": "bsd-3-clause",
-  "env": {}
+  "env": {},
+  "name": "Materials Project MCP"
 }

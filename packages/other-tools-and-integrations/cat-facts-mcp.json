@@ -5,5 +5,6 @@
   "url": "https://github.com/opticayaan/cat-facts-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Cat Facts MCP"
 }

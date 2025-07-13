@@ -14,5 +14,6 @@
       "description": "openai",
       "required": true
     }
-  }
+  },
+  "name": "4O Mini Search MCP"
 }

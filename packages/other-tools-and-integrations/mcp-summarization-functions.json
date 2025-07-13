@@ -22,5 +22,6 @@
       "description": "default_working_directory",
       "required": true
     }
-  }
+  },
+  "name": "Summarization Functions MCP"
 }

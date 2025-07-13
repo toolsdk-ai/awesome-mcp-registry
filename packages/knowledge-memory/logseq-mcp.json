@@ -5,5 +5,6 @@
   "url": "https://github.com/apw124/logseq-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Logseq MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/brunosantoslab/spring-mcp-bridge",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Spring MCP Bridge"
 }

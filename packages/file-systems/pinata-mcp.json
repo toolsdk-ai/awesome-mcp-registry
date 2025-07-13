@@ -14,5 +14,6 @@
       "description": "example.mypinata.cloud",
       "required": true
     }
-  }
+  },
+  "name": "Pinata MCP"
 }

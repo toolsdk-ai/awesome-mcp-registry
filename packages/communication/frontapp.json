@@ -5,5 +5,6 @@
   "url": "https://github.com/zqushair/frontapp-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "FrontApp MCP"
 }

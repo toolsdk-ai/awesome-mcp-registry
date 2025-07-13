@@ -5,5 +5,6 @@
   "url": "https://github.com/mario-andreschak/mcp-gameboy",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "GameBoy MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/jacksteamdev/mcp-sqlite-bun-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP SQLite Bun Server"
 }

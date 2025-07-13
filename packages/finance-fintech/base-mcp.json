@@ -38,5 +38,6 @@
       "description": "optional_for_base_sepolia_testnet",
       "required": true
     }
-  }
+  },
+  "name": "Base MCP"
 }

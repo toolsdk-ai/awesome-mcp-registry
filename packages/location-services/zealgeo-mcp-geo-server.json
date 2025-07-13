@@ -5,5 +5,6 @@
   "url": "https://github.com/nodegis/geo-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Geo MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/openworkspace-o1/aws-ow-s3-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "AWS S3 MCP"
 }

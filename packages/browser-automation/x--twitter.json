@@ -5,5 +5,6 @@
   "url": "https://github.com/joshmayerr/mcp-x",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP X"
 }

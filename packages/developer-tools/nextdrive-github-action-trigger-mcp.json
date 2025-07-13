@@ -10,5 +10,6 @@
       "description": "your_github_token_here",
       "required": true
     }
-  }
+  },
+  "name": "GitHub Action Trigger MCP"
 }

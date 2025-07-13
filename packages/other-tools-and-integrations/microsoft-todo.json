@@ -5,5 +5,6 @@
   "url": "https://github.com/jhirono/todomcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Todo MCP"
 }

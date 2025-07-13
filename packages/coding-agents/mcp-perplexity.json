@@ -5,5 +5,6 @@
   "url": "https://github.com/daniel-lxs/mcp-perplexity",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Perplexity MCP"
 }

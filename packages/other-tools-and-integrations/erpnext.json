@@ -5,5 +5,6 @@
   "url": "https://github.com/rakeshgangwar/erpnext-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "ERPNext MCP Server"
 }

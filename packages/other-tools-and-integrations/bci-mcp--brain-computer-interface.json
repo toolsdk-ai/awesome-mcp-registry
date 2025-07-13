@@ -5,5 +5,6 @@
   "url": "https://github.com/enkhbold470/bci-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "BCI MCP"
 }

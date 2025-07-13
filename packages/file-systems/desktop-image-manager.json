@@ -5,5 +5,6 @@
   "url": "https://github.com/zhixiaoqiang/desktop-image-manager-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Desktop Image Manager MCP"
 }

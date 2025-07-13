@@ -14,5 +14,6 @@
       "description": "sandbox",
       "required": true
     }
-  }
+  },
+  "name": "Paddle MCP Server"
 }

@@ -18,5 +18,6 @@
       "description": "C01234567, C76543210",
       "required": true
     }
-  }
+  },
+  "name": "Slack MCP Server"
 }

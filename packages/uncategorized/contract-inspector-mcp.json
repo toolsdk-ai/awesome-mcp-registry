@@ -14,5 +14,6 @@
       "description": "Your Etherscan API key",
       "required": true
     }
-  }
+  },
+  "name": "ContractInfo MCP"
 }

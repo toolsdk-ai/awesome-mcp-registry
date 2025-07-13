@@ -10,5 +10,6 @@
       "description": "<YOUR_KEY>",
       "required": true
     }
-  }
+  },
+  "name": "Jina AI MCP Server"
 }

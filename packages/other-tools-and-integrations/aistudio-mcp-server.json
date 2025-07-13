@@ -30,5 +30,6 @@
       "description": "50",
       "required": true
     }
-  }
+  },
+  "name": "Aistudio MCP Server"
 }

@@ -14,5 +14,6 @@
       "description": "qwen/qwen2.5-vl-32b-instruct:free",
       "required": true
     }
-  }
+  },
+  "name": "OpenRouter MCP Multimodal"
 }

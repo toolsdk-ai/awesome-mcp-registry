@@ -5,5 +5,6 @@
   "url": "https://github.com/diganto-deb/local_file_organizer",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Local File Organizer MCP"
 }

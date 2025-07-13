@@ -18,5 +18,6 @@
       "description": "http://localhost:5000/callback",
       "required": true
     }
-  }
+  },
+  "name": "Xero MCP"
 }

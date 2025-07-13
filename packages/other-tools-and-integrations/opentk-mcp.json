@@ -5,5 +5,6 @@
   "url": "https://github.com/r-huijts/opentk-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "OpenTK MCP"
 }

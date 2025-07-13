@@ -5,5 +5,6 @@
   "url": "https://github.com/dynamicendpoints/huntress-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Huntress MCP Server"
 }

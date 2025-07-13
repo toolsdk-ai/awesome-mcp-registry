@@ -5,5 +5,6 @@
   "url": "https://github.com/mastra-ai/mastra/tree/HEAD/packages/mcp-docs-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Docs Server"
 }

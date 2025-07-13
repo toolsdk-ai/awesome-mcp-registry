@@ -10,5 +10,6 @@
       "description": "Your Freepik API Key, obtainable from freepik.com/api",
       "required": true
     }
-  }
+  },
+  "name": "Freepik MCP"
 }

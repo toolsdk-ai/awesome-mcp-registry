@@ -74,5 +74,6 @@
       "description": "Enable application operations",
       "required": true
     }
-  }
+  },
+  "name": "Microsoft Graph MCP Server"
 }

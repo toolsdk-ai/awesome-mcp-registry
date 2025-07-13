@@ -5,5 +5,6 @@
   "url": "https://github.com/padev1/nina_advanced_api_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Nina Advanced API MCP"
 }

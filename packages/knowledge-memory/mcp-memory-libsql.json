@@ -10,5 +10,6 @@
       "description": "file:/path/to/your/database.db",
       "required": true
     }
-  }
+  },
+  "name": "MCP Memory LibSQL"
 }

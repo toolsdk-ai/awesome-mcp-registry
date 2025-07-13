@@ -5,5 +5,6 @@
   "url": "https://github.com/githejie/mcp-server-calculator",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Calculator MCP Server"
 }

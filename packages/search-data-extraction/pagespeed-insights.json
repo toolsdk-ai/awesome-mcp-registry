@@ -5,5 +5,6 @@
   "url": "https://github.com/enemyrr/mcp-server-pagespeed",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "PageSpeed Insights MCP"
 }

@@ -14,5 +14,6 @@
       "description": "https://your-coolify-instance.com",
       "required": true
     }
-  }
+  },
+  "name": "Coolify MCP"
 }

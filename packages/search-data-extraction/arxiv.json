@@ -5,5 +5,6 @@
   "url": "https://github.com/ray0907/mcp-arxiv",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Arxiv MCP"
 }

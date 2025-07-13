@@ -5,5 +5,6 @@
   "url": "https://github.com/baryhuang/mcp-headless-gmail",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Headless Gmail MCP"
 }

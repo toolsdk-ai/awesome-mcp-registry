@@ -14,5 +14,6 @@
       "description": "Your GitLab personal access token with necessary permissions (api, read_repository, write_repository)",
       "required": true
     }
-  }
+  },
+  "name": "GitLab MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/samwang0723/mcp-sumologic",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Sumo Logic MCP"
 }

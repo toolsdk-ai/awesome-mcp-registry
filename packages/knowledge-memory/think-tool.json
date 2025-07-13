@@ -5,5 +5,6 @@
   "url": "https://github.com/iamwavecut/mcp-think",
   "runtime": "go",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP Think"
 }

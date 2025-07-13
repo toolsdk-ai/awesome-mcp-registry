@@ -10,5 +10,6 @@
       "description": "your-perplexity-api-key",
       "required": true
     }
-  }
+  },
+  "name": "Perplexity Search MCP"
 }

@@ -26,5 +26,6 @@
       "description": "3306",
       "required": true
     }
-  }
+  },
+  "name": "MCP MySQL Server"
 }

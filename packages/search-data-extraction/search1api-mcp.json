@@ -10,5 +10,6 @@
       "description": "YOUR_SEARCH1API_KEY",
       "required": true
     }
-  }
+  },
+  "name": "Search1API MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/ziyadmir/nba-player-stats-mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "NBA Player Stats MCP"
 }

@@ -10,5 +10,6 @@
       "description": "your_api_key_here",
       "required": true
     }
-  }
+  },
+  "name": "Fathom Analytics MCP"
 }

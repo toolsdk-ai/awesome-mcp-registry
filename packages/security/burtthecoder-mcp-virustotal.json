@@ -10,5 +10,6 @@
       "description": "your-virustotal-api-key",
       "required": true
     }
-  }
+  },
+  "name": "VirusTotal MCP"
 }

@@ -10,5 +10,6 @@
       "description": "API key for Google News search",
       "required": true
     }
-  }
+  },
+  "name": "Google News MCP Server"
 }

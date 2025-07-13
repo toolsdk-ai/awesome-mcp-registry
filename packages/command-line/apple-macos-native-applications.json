@@ -5,5 +5,6 @@
   "url": "https://github.com/jxnl/python-apple-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Apple macOS Native Applications MCP"
 }

@@ -22,5 +22,6 @@
       "description": "Base URL for the Mantiks API",
       "required": true
     }
-  }
+  },
+  "name": "Prospectio API MCP"
 }

@@ -18,5 +18,6 @@
       "description": "Path to a JSON configuration file",
       "required": true
     }
-  }
+  },
+  "name": "Asana MCP Server"
 }

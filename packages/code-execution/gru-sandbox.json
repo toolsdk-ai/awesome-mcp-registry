@@ -5,5 +5,6 @@
   "url": "https://github.com/babelcloud/gbox",
   "runtime": "go",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "GBox MCP"
 }

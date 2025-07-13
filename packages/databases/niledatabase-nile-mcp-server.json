@@ -14,5 +14,6 @@
       "description": "your_workspace_slug",
       "required": true
     }
-  }
+  },
+  "name": "Nile MCP Server"
 }

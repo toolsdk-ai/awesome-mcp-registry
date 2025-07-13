@@ -5,5 +5,6 @@
   "url": "https://github.com/xing5/mcp-google-sheets",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Google Sheets MCP"
 }

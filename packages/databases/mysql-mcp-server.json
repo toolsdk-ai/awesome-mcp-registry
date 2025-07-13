@@ -26,5 +26,6 @@
       "description": "your-default-database",
       "required": true
     }
-  }
+  },
+  "name": "MySQL MCP Server"
 }

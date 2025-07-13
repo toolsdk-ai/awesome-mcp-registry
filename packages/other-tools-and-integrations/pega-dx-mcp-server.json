@@ -38,5 +38,6 @@
       "description": "Your OAuth client secret for Pega Platform",
       "required": true
     }
-  }
+  },
+  "name": "Pega DX MCP Server"
 }

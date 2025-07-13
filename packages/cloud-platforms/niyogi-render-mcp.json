@@ -10,5 +10,6 @@
       "description": "your-render-api-key",
       "required": true
     }
-  }
+  },
+  "name": "Render MCP"
 }

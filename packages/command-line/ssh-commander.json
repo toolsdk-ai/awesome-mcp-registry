@@ -5,5 +5,6 @@
   "url": "https://github.com/kinothe-kafkaesque/ssh-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "SSH MCP Server"
 }

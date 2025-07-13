@@ -5,5 +5,6 @@
   "url": "https://github.com/errajibadr/twilio_manager_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Twilio MCP Manager"
 }

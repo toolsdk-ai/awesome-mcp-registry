@@ -5,5 +5,6 @@
   "url": "https://github.com/tobarrientos2/neo4j-mcpserver",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Neo4j MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/xxpe3/omgflux-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "OmGFlux MCP Server"
 }

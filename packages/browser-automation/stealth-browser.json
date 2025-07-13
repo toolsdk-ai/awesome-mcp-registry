@@ -5,5 +5,6 @@
   "url": "https://github.com/newbeb/stealth-browser-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Stealth Browser MCP"
 }

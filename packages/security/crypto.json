@@ -5,5 +5,6 @@
   "url": "https://github.com/kiss-kedaya/crypto_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Crypto MCP"
 }

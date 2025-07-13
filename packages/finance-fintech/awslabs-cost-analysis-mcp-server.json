@@ -5,5 +5,6 @@
   "url": "https://github.com/awslabs/mcp/tree/HEAD/src/cost-analysis-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Cost Analysis MCP Server"
 }

@@ -42,5 +42,6 @@
       "description": "nomic-embed-text",
       "required": true
     }
-  }
+  },
+  "name": "Better Qdrant MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/linkupplatform/python-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Linkup MCP Server"
 }

@@ -14,5 +14,6 @@
       "description": "tngtech/deepseek-r1t-chimera:free",
       "required": true
     }
-  }
+  },
+  "name": "AI Expert Workflow MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/lishenxydlgzs/simple-files-vectorstore",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Simple Files Vectorstore"
 }

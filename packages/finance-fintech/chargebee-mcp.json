@@ -5,5 +5,6 @@
   "url": "https://github.com/chargebee/agentkit/tree/HEAD/modelcontextprotocol",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Chargebee AgentKit MCP"
 }

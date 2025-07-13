@@ -10,5 +10,6 @@
       "description": "xAI Key",
       "required": true
     }
-  }
+  },
+  "name": "Grok2 Image MCP Server"
 }

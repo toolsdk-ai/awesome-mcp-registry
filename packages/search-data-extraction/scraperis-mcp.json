@@ -14,5 +14,6 @@
       "description": "*",
       "required": true
     }
-  }
+  },
+  "name": "Scraper.is MCP"
 }

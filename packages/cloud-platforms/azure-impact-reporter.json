@@ -5,5 +5,6 @@
   "url": "https://github.com/chand45/mcp-server-azure-impact-reporting",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Azure Impact Reporter MCP Server"
 }

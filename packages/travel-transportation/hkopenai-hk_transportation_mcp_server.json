@@ -5,5 +5,6 @@
   "url": "https://github.com/hkopenai/hk-transportation-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "HK Transportation MCP Server"
 }

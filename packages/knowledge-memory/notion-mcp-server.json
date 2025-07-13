@@ -14,5 +14,6 @@
       "description": "YOUR_PAGE_ID",
       "required": true
     }
-  }
+  },
+  "name": "Notion MCP Server"
 }

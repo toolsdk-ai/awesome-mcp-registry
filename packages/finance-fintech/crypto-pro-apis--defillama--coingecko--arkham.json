@@ -5,5 +5,6 @@
   "url": "https://github.com/0xreisearch/crypto-mcp-beta",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Crypto MCP Beta"
 }

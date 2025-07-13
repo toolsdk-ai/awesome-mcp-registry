@@ -10,5 +10,6 @@
       "description": "info",
       "required": true
     }
-  }
+  },
+  "name": "ClinicalTrialsGov MCP Server"
 }

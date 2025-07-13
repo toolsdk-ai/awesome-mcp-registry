@@ -10,5 +10,6 @@
       "description": "your_heybeauty_api_key",
       "required": true
     }
-  }
+  },
+  "name": "HeyBeauty MCP"
 }

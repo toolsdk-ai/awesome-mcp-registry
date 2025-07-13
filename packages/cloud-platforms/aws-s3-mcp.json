@@ -26,5 +26,6 @@
       "description": "your-secret-key",
       "required": true
     }
-  }
+  },
+  "name": "AWS S3 MCP"
 }

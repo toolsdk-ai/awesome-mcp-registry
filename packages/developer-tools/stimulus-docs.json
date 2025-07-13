@@ -5,5 +5,6 @@
   "url": "https://github.com/pinzonjulian/stimulus-docs-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Stimulus Docs MCP Server"
 }

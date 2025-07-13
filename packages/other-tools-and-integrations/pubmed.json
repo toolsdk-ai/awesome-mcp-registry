@@ -5,5 +5,6 @@
   "url": "https://github.com/jackkuo666/pubmed-mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "PubMed MCP Server"
 }

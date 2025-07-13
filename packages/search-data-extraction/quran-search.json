@@ -5,5 +5,6 @@
   "url": "https://github.com/octavious/mcp_sample/tree/HEAD/MCPDemo2",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Quran Search MCP"
 }

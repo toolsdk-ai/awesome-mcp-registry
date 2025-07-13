@@ -5,5 +5,6 @@
   "url": "https://github.com/cpage-pivotal/cloud-foundry-mcp",
   "runtime": "java",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Cloud Foundry MCP"
 }

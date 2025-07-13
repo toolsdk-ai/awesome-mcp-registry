@@ -5,5 +5,6 @@
   "url": "https://github.com/behole/cooper-hewitt-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Cooper Hewitt MCP"
 }

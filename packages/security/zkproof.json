@@ -5,5 +5,6 @@
   "url": "https://github.com/colygon/zkpmcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "zkproof MCP"
 }

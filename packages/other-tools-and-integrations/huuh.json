@@ -14,5 +14,6 @@
       "description": "Your HUUH API key (get this from your account settings)",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server"
 }

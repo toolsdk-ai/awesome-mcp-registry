@@ -5,5 +5,6 @@
   "url": "https://github.com/farzad528/mcp-server-azure-ai-agents",
   "runtime": "python",
   "license": "other",
-  "env": {}
+  "env": {},
+  "name": "Azure AI Search MCP Server"
 }

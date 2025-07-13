@@ -5,5 +5,6 @@
   "url": "https://github.com/rafaljanicki/x-twitter-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "X Twitter MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/jeffreygroneberg/mcp-fiar",
   "runtime": "java",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Four-in-a-Row MCP"
 }

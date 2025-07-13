@@ -5,5 +5,6 @@
   "url": "https://github.com/wopal-cn/mcp-hotnews-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Hotnews MCP Server"
 }

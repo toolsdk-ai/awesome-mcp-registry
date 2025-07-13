@@ -10,5 +10,6 @@
       "description": "Your Readwise access token from https://readwise.io/access_token",
       "required": true
     }
-  }
+  },
+  "name": "Readwise Reader MCP"
 }

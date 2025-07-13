@@ -5,5 +5,6 @@
   "url": "https://github.com/jayli52/api2mcptools",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "API2MCP Tools"
 }

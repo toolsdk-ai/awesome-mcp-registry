@@ -5,5 +5,6 @@
   "url": "https://github.com/shashwat001/mcptools-langchain-integration",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Langchain MCP Tools"
 }

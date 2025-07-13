@@ -14,5 +14,6 @@
       "description": "<YOUR_LEETCODE_SESSION_COOKIE>",
       "required": true
     }
-  }
+  },
+  "name": "LeetCode MCP Server"
 }

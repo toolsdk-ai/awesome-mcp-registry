@@ -5,5 +5,6 @@
   "url": "https://github.com/johannespettersson80/codesys-mcp-toolkit",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "CODESYS MCP Toolkit"
 }

@@ -14,5 +14,6 @@
       "description": "<your org id>",
       "required": true
     }
-  }
+  },
+  "name": "Holaspirit MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/aaronsb/apptio-target-process-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Apptio Target Process MCP"
 }

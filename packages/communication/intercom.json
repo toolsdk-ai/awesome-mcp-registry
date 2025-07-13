@@ -5,5 +5,6 @@
   "url": "https://github.com/fabian1710/mcp-intercom",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Intercom MCP"
 }

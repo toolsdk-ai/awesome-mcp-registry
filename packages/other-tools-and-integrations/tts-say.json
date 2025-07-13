@@ -5,5 +5,6 @@
   "url": "https://github.com/hirokidaichi/mcp-tts-say",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "TTS Say"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/tumf/mcp-text-editor",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Text Editor"
 }

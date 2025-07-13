@@ -5,5 +5,6 @@
   "url": "https://github.com/a01110946/rhinomcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Rhino MCP"
 }

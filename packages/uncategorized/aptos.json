@@ -5,5 +5,6 @@
   "url": "https://github.com/tlazypanda/aptos-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Aptos MCP Server"
 }

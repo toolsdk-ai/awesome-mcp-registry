@@ -10,5 +10,6 @@
       "description": "Your Marketaux API token obtained from the Marketaux dashboard",
       "required": true
     }
-  }
+  },
+  "name": "MarketAux MCP Server"
 }

@@ -10,5 +10,6 @@
       "description": "your-serpapi-api-key",
       "required": true
     }
-  }
+  },
+  "name": "DuckDuckGo Search MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/worldnine/textwell-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Textwell MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/yajihum/design-system-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Design System MCP"
 }

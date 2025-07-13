@@ -5,5 +5,6 @@
   "url": "https://github.com/self-tech-labs/entscheidsuche-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Entscheidsuche MCP Server"
 }

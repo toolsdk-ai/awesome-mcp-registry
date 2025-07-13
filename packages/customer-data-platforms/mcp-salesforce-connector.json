@@ -5,5 +5,6 @@
   "url": "https://github.com/smn2gnt/mcp-salesforce",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Salesforce MCP Connector"
 }

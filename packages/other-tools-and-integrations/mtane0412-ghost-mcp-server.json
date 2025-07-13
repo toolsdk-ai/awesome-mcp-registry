@@ -5,5 +5,6 @@
   "url": "https://github.com/mtane0412/ghost-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Ghost MCP Server"
 }

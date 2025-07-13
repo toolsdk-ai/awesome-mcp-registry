@@ -18,5 +18,6 @@
       "description": "your_tenant_id",
       "required": true
     }
-  }
+  },
+  "name": "SourceSync AI MCP"
 }

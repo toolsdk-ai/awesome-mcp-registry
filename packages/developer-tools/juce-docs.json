@@ -5,5 +5,6 @@
   "url": "https://github.com/josmithiii/mcp-servers-jos/tree/HEAD/juce-docs-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "JUCE Docs MCP Server"
 }

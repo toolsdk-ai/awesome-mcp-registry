@@ -26,5 +26,6 @@
       "description": "your_database",
       "required": true
     }
-  }
+  },
+  "name": "MySQL MCP"
 }

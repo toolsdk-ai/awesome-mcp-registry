@@ -5,5 +5,6 @@
   "url": "https://github.com/0xfreysa/trusted-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Trusted MCP Server"
 }

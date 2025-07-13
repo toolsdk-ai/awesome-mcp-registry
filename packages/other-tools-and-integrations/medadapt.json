@@ -5,5 +5,6 @@
   "url": "https://github.com/ryoureddy/medadapt-content-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MedAdapt Content Server"
 }

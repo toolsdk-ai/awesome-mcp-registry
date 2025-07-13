@@ -5,5 +5,6 @@
   "url": "https://github.com/anshumax/world_bank_mcp_server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "World Bank MCP Server"
 }

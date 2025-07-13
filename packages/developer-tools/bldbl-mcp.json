@@ -22,5 +22,6 @@
       "description": "Unique identifier for your AI assistant",
       "required": true
     }
-  }
+  },
+  "name": "Buildable MCP"
 }

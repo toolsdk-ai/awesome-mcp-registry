@@ -22,5 +22,6 @@
       "description": "your_access_token_secret",
       "required": true
     }
-  }
+  },
+  "name": "MCP Twitter Server"
 }

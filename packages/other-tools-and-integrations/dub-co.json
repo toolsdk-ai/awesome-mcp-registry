@@ -5,5 +5,6 @@
   "url": "https://github.com/gitmaxd/dubco-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Dubco MCP Server"
 }

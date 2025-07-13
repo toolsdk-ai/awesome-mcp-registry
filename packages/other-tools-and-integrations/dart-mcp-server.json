@@ -10,5 +10,6 @@
       "description": "dsa_...",
       "required": true
     }
-  }
+  },
+  "name": "Dart MCP Server"
 }

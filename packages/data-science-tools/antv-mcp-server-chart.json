@@ -10,5 +10,6 @@
       "description": "<YOUR_VIS_REQUEST_SERVER>",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server Chart"
 }

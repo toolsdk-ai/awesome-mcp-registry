@@ -5,5 +5,6 @@
   "url": "https://github.com/aliyun/alibabacloud-hologres-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Hologres MCP Server"
 }

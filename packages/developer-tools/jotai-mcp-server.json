@@ -10,5 +10,6 @@
       "description": "your_github_token",
       "required": true
     }
-  }
+  },
+  "name": "Jotai MCP Server"
 }

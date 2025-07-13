@@ -5,5 +5,6 @@
   "url": "https://github.com/bjoernbonk/letsbonk_mcp_server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "LetsBonk MCP Server"
 }

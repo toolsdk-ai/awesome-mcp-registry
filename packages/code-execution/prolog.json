@@ -5,5 +5,6 @@
   "url": "https://github.com/snoglobe/prolog_mcp",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Prolog MCP"
 }

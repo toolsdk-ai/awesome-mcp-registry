@@ -14,5 +14,6 @@
       "description": "your_actual_project_api_key",
       "required": true
     }
-  }
+  },
+  "name": "Powerdrill MCP"
 }

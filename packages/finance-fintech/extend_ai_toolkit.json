@@ -5,5 +5,6 @@
   "url": "https://github.com/paywithextend/extend-ai-toolkit",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Extend AI Toolkit"
 }

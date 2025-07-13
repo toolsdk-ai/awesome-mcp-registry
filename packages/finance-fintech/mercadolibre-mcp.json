@@ -18,5 +18,6 @@
       "description": "<YOUR_SITE_ID>",
       "required": true
     }
-  }
+  },
+  "name": "Mercadolibre MCP"
 }

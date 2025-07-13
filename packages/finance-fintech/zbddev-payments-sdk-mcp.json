@@ -10,5 +10,6 @@
       "description": "YOUR_ZBD_API_KEY",
       "required": true
     }
-  }
+  },
+  "name": "ZBD Payments SDK MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/sunwood-ai-labs/github-kanban-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "GitHub Kanban MCP Server"
 }

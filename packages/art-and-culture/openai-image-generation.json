@@ -5,5 +5,6 @@
   "url": "https://github.com/incomestreamsurfer/chatgpt-native-image-gen-mcp",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "ChatGPT Native Image Gen MCP"
 }

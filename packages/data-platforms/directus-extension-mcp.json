@@ -5,5 +5,6 @@
   "url": "https://github.com/joshthederf/directus-extension-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Directus Extension MCP"
 }

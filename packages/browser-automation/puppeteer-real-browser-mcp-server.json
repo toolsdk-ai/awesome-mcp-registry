@@ -14,5 +14,6 @@
       "description": "http://proxy:8080",
       "required": true
     }
-  }
+  },
+  "name": "Puppeteer Real Browser MCP Server"
 }

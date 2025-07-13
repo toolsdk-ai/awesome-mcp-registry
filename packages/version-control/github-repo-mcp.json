@@ -10,5 +10,6 @@
       "description": "Your_Github_Token",
       "required": true
     }
-  }
+  },
+  "name": "GitHub Repo MCP"
 }

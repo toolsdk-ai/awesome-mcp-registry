@@ -10,5 +10,6 @@
       "description": "YOUR_API_KEY_HERE",
       "required": true
     }
-  }
+  },
+  "name": "Brave Search MCP Server"
 }

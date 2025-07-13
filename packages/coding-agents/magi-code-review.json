@@ -5,5 +5,6 @@
   "url": "https://github.com/miki-hoshizaki/mcp-magi",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Magi"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/tinjyuu/mcp-jr-east-delay",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "JR East Delay MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/felores/docs_scraper_mcp",
   "runtime": "python",
   "license": "other",
-  "env": {}
+  "env": {},
+  "name": "Docs Scraper MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/cayirtepeomer/gerrit-code-review-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Gerrit Code Review MCP"
 }

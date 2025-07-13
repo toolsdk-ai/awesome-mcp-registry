@@ -5,5 +5,6 @@
   "url": "https://github.com/lzsheng/yapi-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "YApi MCP"
 }

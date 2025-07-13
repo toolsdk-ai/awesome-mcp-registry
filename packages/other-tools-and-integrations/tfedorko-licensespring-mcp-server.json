@@ -14,5 +14,6 @@
       "description": "YOUR_SHARED_KEY_OR_LEAVE_EMPTY",
       "required": true
     }
-  }
+  },
+  "name": "LicenseSpring MCP Server"
 }

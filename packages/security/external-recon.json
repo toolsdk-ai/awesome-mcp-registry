@@ -5,5 +5,6 @@
   "url": "https://github.com/timsonner/mcp-vscode-template",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Timsonner MCP VSCode Template"
 }

@@ -22,5 +22,6 @@
       "description": "your_access_token_secret_here",
       "required": true
     }
-  }
+  },
+  "name": "X MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/ryojerryyu/mcp-server-memos-py",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Memos MCP Server"
 }

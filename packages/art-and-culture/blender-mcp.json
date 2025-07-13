@@ -5,5 +5,6 @@
   "url": "https://github.com/ahujasid/blender-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Blender MCP"
 }

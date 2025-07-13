@@ -62,5 +62,6 @@
       "description": "8080",
       "required": true
     }
-  }
+  },
+  "name": "Volume Wall Detector MCP"
 }

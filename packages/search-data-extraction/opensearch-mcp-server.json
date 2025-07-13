@@ -5,5 +5,6 @@
   "url": "https://github.com/seohyunjun/opensearch-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "OpenSearch MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/bracketbotcapstone/bracketbot-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "BracketBot MCP"
 }

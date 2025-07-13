@@ -5,5 +5,6 @@
   "url": "https://github.com/islem-zaraa/mcp-powerpoint",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PowerPoint MCP"
 }

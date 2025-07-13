@@ -26,5 +26,6 @@
       "description": "your-apisix-api-key",
       "required": true
     }
-  }
+  },
+  "name": "APISIX MCP"
 }

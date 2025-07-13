@@ -18,5 +18,6 @@
       "description": "<AXIOM_ORG_ID_HERE>",
       "required": true
     }
-  }
+  },
+  "name": "Axiom MCP Server"
 }

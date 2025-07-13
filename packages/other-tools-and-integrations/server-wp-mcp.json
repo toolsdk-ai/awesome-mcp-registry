@@ -10,5 +10,6 @@
       "description": "/absolute/path/to/wp-sites.json",
       "required": true
     }
-  }
+  },
+  "name": "Server WP MCP"
 }

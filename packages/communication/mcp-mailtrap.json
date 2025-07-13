@@ -14,5 +14,6 @@
       "description": "your_sender@example.com",
       "required": true
     }
-  }
+  },
+  "name": "Mailtrap MCP"
 }

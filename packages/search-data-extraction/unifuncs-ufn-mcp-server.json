@@ -10,5 +10,6 @@
       "description": "sk-**********",
       "required": true
     }
-  }
+  },
+  "name": "UFN MCP Server"
 }

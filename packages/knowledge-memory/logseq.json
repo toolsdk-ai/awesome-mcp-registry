@@ -5,5 +5,6 @@
   "url": "https://github.com/ergut/mcp-logseq-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP LogSeq Server"
 }

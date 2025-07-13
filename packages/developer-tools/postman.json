@@ -5,5 +5,6 @@
   "url": "https://github.com/delano/postman-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Postman MCP Server"
 }

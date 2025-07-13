@@ -5,5 +5,6 @@
   "url": "https://github.com/songjiayang/eino-mcp",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Eino MCP"
 }

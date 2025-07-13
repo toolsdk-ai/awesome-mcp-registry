@@ -10,5 +10,6 @@
       "description": "<LIKE ant-design>",
       "required": true
     }
-  }
+  },
+  "name": "Pickapicon MCP"
 }

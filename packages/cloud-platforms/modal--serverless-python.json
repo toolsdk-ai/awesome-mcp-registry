@@ -5,5 +5,6 @@
   "url": "https://github.com/flux159/mcp-server-modal",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Modal MCP Server"
 }

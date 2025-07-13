@@ -5,5 +5,6 @@
   "url": "https://github.com/tech-inspire/mcp-server",
   "runtime": "node",
   "license": "gpl-3.0",
-  "env": {}
+  "env": {},
+  "name": "Inspire MCP Server"
 }

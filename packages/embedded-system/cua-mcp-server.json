@@ -5,5 +5,6 @@
   "url": "https://github.com/trycua/cua/tree/HEAD/libs/mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "CUA MCP Server"
 }

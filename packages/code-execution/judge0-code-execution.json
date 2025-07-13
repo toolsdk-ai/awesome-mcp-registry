@@ -5,5 +5,6 @@
   "url": "https://github.com/zefanhu/mcp-rapidapi-judge0-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Judge0 MCP Server"
 }

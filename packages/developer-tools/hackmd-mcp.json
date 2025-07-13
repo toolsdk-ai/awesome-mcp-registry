@@ -14,5 +14,6 @@
       "description": "HackMD API Endpoint URL (optional, defaults to https://api.hackmd.io/v1)",
       "required": false
     }
-  }
+  },
+  "name": "HackMD MCP"
 }

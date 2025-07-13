@@ -5,5 +5,6 @@
   "url": "https://github.com/timecamp-org/timecamp-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "TimeCamp MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/helixml/kodit",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Kodit"
 }

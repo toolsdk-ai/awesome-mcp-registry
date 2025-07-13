@@ -5,5 +5,6 @@
   "url": "https://github.com/jamiesonio/defectdojo-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "DefectDojo MCP"
 }

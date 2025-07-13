@@ -10,5 +10,6 @@
       "description": "YOUR_ATTIO_API_KEY",
       "required": true
     }
-  }
+  },
+  "name": "Attio MCP Server"
 }

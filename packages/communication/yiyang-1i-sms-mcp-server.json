@@ -18,5 +18,6 @@
       "description": "your_twilio_number",
       "required": true
     }
-  }
+  },
+  "name": "SMS MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/excoriate/mcp-terragrunt-docs",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Terragrunt Docs MCP"
 }

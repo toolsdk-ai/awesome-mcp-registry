@@ -18,5 +18,6 @@
       "description": "your_region",
       "required": true
     }
-  }
+  },
+  "name": "DynamoDB Read-Only MCP"
 }

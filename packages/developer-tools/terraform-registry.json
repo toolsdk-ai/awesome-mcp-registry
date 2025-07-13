@@ -5,5 +5,6 @@
   "url": "https://github.com/hashicorp/terraform-mcp-server",
   "runtime": "go",
   "license": "mpl-2.0",
-  "env": {}
+  "env": {},
+  "name": "Terraform MCP Server"
 }

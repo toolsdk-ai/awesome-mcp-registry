@@ -26,5 +26,6 @@
       "description": "Another random string for remote authentication (coming soon)",
       "required": true
     }
-  }
+  },
+  "name": "Systemprompt Code Orchestrator"
 }

@@ -22,5 +22,6 @@
       "description": "API key for MCP Analytics",
       "required": true
     }
-  }
+  },
+  "name": "MCP GitHub OAuth Analytics Server"
 }

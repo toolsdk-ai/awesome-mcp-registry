@@ -26,5 +26,6 @@
       "description": "your-password",
       "required": true
     }
-  }
+  },
+  "name": "HAL MCP"
 }

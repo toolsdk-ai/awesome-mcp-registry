@@ -5,5 +5,6 @@
   "url": "https://github.com/yzfly/mcp-python-interpreter",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Python MCP Interpreter"
 }

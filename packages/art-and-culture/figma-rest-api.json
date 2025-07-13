@@ -5,5 +5,6 @@
   "url": "https://github.com/timholden/figma-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Figma MCP Server"
 }

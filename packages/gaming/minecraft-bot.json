@@ -5,5 +5,6 @@
   "url": "https://github.com/yuniko-software/minecraft-mcp-server",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Minecraft MCP Server"
 }

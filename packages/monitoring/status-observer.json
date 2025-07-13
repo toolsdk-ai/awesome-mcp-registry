@@ -5,5 +5,6 @@
   "url": "https://github.com/imprvhub/mcp-status-observer",
   "runtime": "node",
   "license": "mpl-2.0",
-  "env": {}
+  "env": {},
+  "name": "Status Observer MCP"
 }

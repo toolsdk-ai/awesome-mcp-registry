@@ -5,5 +5,6 @@
   "url": "https://github.com/sparxhub/mcp-makesync",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MakeSync MCP"
 }

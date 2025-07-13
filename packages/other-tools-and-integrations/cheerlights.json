@@ -5,5 +5,6 @@
   "url": "https://github.com/cheerlights/cheerlights-mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "CheerLights MCP"
 }

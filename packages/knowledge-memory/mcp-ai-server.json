@@ -18,5 +18,6 @@
       "description": "Your Pinecone environment",
       "required": true
     }
-  }
+  },
+  "name": "MCP1"
 }

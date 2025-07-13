@@ -5,5 +5,6 @@
   "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/gdrive",
   "runtime": "node",
   "license": "MIT",
-  "env": {}
+  "env": {},
+  "name": "Google Drive MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/sheshiyer/framer-plugin-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Web3 Framer Plugin MCP"
 }

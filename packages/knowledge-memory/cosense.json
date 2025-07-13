@@ -5,5 +5,6 @@
   "url": "https://github.com/yosider/cosense-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Cosense MCP Server"
 }

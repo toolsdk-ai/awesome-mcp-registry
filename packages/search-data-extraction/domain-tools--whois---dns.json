@@ -5,5 +5,6 @@
   "url": "https://github.com/patrickdappollonio/mcp-domaintools",
   "runtime": "go",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "DomainTools MCP"
 }

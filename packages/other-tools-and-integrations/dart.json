@@ -5,5 +5,6 @@
   "url": "https://github.com/jmanhype/dart-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Dart MCP Server"
 }

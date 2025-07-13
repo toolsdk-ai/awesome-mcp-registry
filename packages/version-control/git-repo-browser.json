@@ -5,5 +5,6 @@
   "url": "https://github.com/razorback16/mcp-git-repo-browser",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Git Repo Browser MCP"
 }

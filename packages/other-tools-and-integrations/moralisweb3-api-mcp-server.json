@@ -10,5 +10,6 @@
       "description": "<YOUR_API_KEY>",
       "required": true
     }
-  }
+  },
+  "name": "Moralis MCP Server"
 }

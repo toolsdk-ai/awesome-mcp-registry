@@ -5,5 +5,6 @@
   "url": "https://github.com/octagonai/octagon-vc-agents",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Octagon VC Agents"
 }

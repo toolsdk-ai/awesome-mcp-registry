@@ -10,5 +10,6 @@
       "description": "YOUR TOKEN",
       "required": true
     }
-  }
+  },
+  "name": "Replicate Flux MCP"
 }

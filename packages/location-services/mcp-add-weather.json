@@ -10,5 +10,6 @@
       "description": "Your Groq API key",
       "required": true
     }
-  }
+  },
+  "name": "MCP Add Weather"
 }

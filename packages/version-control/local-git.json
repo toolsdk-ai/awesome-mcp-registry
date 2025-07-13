@@ -5,5 +5,6 @@
   "url": "https://github.com/okdshin/local-git-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Local Git MCP Server"
 }

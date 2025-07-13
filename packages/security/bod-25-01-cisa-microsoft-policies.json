@@ -5,5 +5,6 @@
   "url": "https://github.com/dynamicendpoints/automated-bod-25-01-cisa-microsoft-policies-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Automated BOD 25-01 CISA Microsoft Policies MCP"
 }

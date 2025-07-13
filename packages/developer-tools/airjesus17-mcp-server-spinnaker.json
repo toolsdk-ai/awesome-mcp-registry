@@ -5,5 +5,6 @@
   "url": "https://github.com/dion-hagan/mcp-server-spinnaker",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Spinnaker MCP Server"
 }

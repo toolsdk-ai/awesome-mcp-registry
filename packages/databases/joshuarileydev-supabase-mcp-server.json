@@ -10,5 +10,6 @@
       "description": "API_KEY_HERE",
       "required": true
     }
-  }
+  },
+  "name": "Supabase MCP Server"
 }

@@ -18,5 +18,6 @@
       "description": "octoprint",
       "required": true
     }
-  }
+  },
+  "name": "MCP 3D Printer Server"
 }

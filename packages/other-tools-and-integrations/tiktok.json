@@ -5,5 +5,6 @@
   "url": "https://github.com/seym0n/tiktok-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "TikTok MCP"
 }

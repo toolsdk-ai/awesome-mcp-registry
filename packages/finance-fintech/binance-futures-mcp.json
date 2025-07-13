@@ -14,5 +14,6 @@
       "description": "Your Binance API secret key",
       "required": true
     }
-  }
+  },
+  "name": "Binance Futures MCP Server"
 }

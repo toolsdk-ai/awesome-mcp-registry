@@ -5,5 +5,6 @@
   "url": "https://github.com/freestylefly/mcp-server-weread",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Weread MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/shimapon/mcp-server-diceroll",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "DiceRoll MCP Server"
 }

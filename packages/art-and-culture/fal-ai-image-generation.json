@@ -5,5 +5,6 @@
   "url": "https://github.com/sshtunnelvision/mcp-logo-gen",
   "runtime": "python",
   "license": "gpl-3.0",
-  "env": {}
+  "env": {},
+  "name": "Logo Gen MCP"
 }

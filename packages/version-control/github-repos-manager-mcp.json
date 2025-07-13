@@ -10,5 +10,6 @@
       "description": "ghp_YOUR_ACTUAL_TOKEN_HERE",
       "required": true
     }
-  }
+  },
+  "name": "GitHub Repos Manager MCP"
 }

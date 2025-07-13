@@ -5,5 +5,6 @@
   "url": "https://github.com/appleinmusic/baidu-search-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Baidu Search MCP"
 }

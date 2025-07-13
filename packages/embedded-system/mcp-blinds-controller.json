@@ -14,5 +14,6 @@
       "description": "Your Bond Bridge API token",
       "required": true
     }
-  }
+  },
+  "name": "Blinds MCP Controller"
 }

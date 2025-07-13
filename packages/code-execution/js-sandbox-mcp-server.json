@@ -5,5 +5,6 @@
   "url": "https://github.com/garc33/js-sandbox-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "JS Sandbox MCP Server"
 }

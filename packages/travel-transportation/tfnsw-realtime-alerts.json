@@ -5,5 +5,6 @@
   "url": "https://github.com/piddlingtuna/tfnsw-realtime-alerts-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "TF NSW Realtime Alerts MCP Server"
 }

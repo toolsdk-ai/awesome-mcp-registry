@@ -10,5 +10,6 @@
       "description": "production",
       "required": true
     }
-  }
+  },
+  "name": "Better Fetch MCP"
 }

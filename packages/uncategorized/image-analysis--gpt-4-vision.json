@@ -5,5 +5,6 @@
   "url": "https://github.com/champierre/image-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Image Analysis (GPT-4 Vision) MCP Server"
 }

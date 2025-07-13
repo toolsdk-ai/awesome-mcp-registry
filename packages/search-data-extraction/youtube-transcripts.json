@@ -5,5 +5,6 @@
   "url": "https://github.com/jkawamoto/mcp-youtube-transcript",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "YouTube Transcript MCP"
 }

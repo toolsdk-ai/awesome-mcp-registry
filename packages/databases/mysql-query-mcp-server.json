@@ -98,5 +98,6 @@
       "description": "false",
       "required": true
     }
-  }
+  },
+  "name": "MySQL Query MCP Server"
 }

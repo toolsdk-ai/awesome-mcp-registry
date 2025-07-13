@@ -10,5 +10,6 @@
       "description": "Your Goodday API token",
       "required": true
     }
-  }
+  },
+  "name": "Goodday MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/rajyraman/genaiscript-pac-az-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Genaiscript Pac Az MCP"
 }

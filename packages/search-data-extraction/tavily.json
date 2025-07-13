@@ -5,5 +5,6 @@
   "url": "https://github.com/tulong66/mcp-tavily-proxy",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Tavily MCP Proxy"
 }

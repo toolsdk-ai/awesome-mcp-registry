@@ -10,5 +10,6 @@
       "description": "your-jinaai-api-key",
       "required": true
     }
-  }
+  },
+  "name": "JinaAI Reader MCP"
 }

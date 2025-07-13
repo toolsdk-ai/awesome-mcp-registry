@@ -5,5 +5,6 @@
   "url": "https://github.com/greatscottymac/context-portal",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Context Portal MCP"
 }

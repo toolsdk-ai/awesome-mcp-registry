@@ -5,5 +5,6 @@
   "url": "https://github.com/junmer/mcp-server-lottiefiles",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "LottieFiles MCP Server"
 }

@@ -14,5 +14,6 @@
       "description": "<YOUR_ACCESS_KEY_SECRET>",
       "required": true
     }
-  }
+  },
+  "name": "Lara MCP"
 }

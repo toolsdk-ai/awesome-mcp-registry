@@ -46,5 +46,6 @@
       "description": "Server version",
       "required": true
     }
-  }
+  },
+  "name": "iRAG MCP Server"
 }

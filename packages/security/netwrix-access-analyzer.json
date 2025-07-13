@@ -5,5 +5,6 @@
   "url": "https://github.com/netwrix/mcp-server-naa",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Naa MCP Server"
 }

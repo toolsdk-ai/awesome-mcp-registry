@@ -5,5 +5,6 @@
   "url": "https://github.com/boorich/mcp-human-loop",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Human Loop MCP"
 }

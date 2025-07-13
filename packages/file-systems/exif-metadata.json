@@ -5,5 +5,6 @@
   "url": "https://github.com/stass/exif-mcp",
   "runtime": "node",
   "license": "bsd-2-clause",
-  "env": {}
+  "env": {},
+  "name": "EXIF MCP"
 }

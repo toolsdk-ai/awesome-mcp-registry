@@ -5,5 +5,6 @@
   "url": "https://github.com/operative-sh/web-eval-agent",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Web Eval Agent"
 }

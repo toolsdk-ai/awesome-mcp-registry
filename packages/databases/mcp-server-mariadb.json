@@ -5,5 +5,6 @@
   "url": "https://github.com/abel9851/mcp-server-mariadb",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server MariaDB"
 }

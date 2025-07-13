@@ -5,5 +5,6 @@
   "url": "https://github.com/happyany/latex-mathml-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Latex Mathml MCP Server"
 }

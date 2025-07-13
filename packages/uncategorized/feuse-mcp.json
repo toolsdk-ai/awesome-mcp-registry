@@ -10,5 +10,6 @@
       "description": "YOUR_FIGMA_API_KEY",
       "required": true
     }
-  }
+  },
+  "name": "Feuse MCP"
 }

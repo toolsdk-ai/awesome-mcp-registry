@@ -22,5 +22,6 @@
       "description": "developer",
       "required": true
     }
-  }
+  },
+  "name": "Sanity MCP Server"
 }

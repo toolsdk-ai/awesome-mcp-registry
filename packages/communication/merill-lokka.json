@@ -18,5 +18,6 @@
       "description": "<client-secret>",
       "required": true
     }
-  }
+  },
+  "name": "Lokka MCP"
 }

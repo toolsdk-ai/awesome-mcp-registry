@@ -10,5 +10,6 @@
       "description": "xxx",
       "required": true
     }
-  }
+  },
+  "name": "MCP Router"
 }

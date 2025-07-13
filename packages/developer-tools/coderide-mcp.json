@@ -10,5 +10,6 @@
       "description": "YOUR_CODERIDE_API_KEY_HERE",
       "required": true
     }
-  }
+  },
+  "name": "CodeRide MCP"
 }

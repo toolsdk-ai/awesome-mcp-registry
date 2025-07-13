@@ -5,5 +5,6 @@
   "url": "https://github.com/mahecode/gamethinking-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Gamethinking MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/webdevtodayjason/a2amcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "A2AMCP"
 }

@@ -10,5 +10,6 @@
       "description": "x-magicapi-key:your-api-key",
       "required": true
     }
-  }
+  },
+  "name": "API Market MCP Server"
 }

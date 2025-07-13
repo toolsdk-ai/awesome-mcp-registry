@@ -10,5 +10,6 @@
       "description": "YOUR API KEY HERE",
       "required": true
     }
-  }
+  },
+  "name": "Brave Search MCP"
 }

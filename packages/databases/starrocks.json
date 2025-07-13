@@ -5,5 +5,6 @@
   "url": "https://github.com/starrocks/mcp-server-starrocks",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "StarRocks MCP Server"
 }
