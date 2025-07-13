@@ -84,8 +84,61 @@
   "mcp-server-stability-ai": {
     "category": "art-and-culture",
     "path": "art-and-culture/mcp-server-stability-ai.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "stability-ai-generate-image": {
+        "name": "stability-ai-generate-image",
+        "description": "Generate an image of anything based on a provided prompt."
+      },
+      "stability-ai-generate-image-sd35": {
+        "name": "stability-ai-generate-image-sd35",
+        "description": "Generate an image using Stable Diffusion 3.5 models with advanced configuration options."
+      },
+      "stability-ai-remove-background": {
+        "name": "stability-ai-remove-background",
+        "description": "Remove the background from an image."
+      },
+      "stability-ai-outpaint": {
+        "name": "stability-ai-outpaint",
+        "description": "Extends an image in any direction while maintaining visual consistency."
+      },
+      "stability-ai-search-and-replace": {
+        "name": "stability-ai-search-and-replace",
+        "description": "Replace objects or elements in an image by describing what to replace and what to replace it with."
+      },
+      "stability-ai-upscale-fast": {
+        "name": "stability-ai-upscale-fast",
+        "description": "Cheap and fast tool to enhance image resolution by 4x."
+      },
+      "stability-ai-upscale-creative": {
+        "name": "stability-ai-upscale-creative",
+        "description": "Enhance image resolution up to 4K using AI with creative interpretation. This tool works best on highly degraded images and performs heavy reimagining. In general, don't use this (expensive) tool unless specifically asked to do so, usually after trying stability-ai-upscale-fast first."
+      },
+      "stability-ai-control-sketch": {
+        "name": "stability-ai-control-sketch",
+        "description": "Translate hand-drawn sketches to production-grade images."
+      },
+      "stability-ai-0-list-resources": {
+        "name": "stability-ai-0-list-resources",
+        "description": "Use this to check for files before deciding you don't have access to a file or image or resource. It pulls in a list of all of user's available Resources (i.e. image files and their URI's) so we can reference pre-existing images to manipulate or upload to Stability AI."
+      },
+      "stability-ai-search-and-recolor": {
+        "name": "stability-ai-search-and-recolor",
+        "description": "Search and recolor object(s) in an image"
+      },
+      "stability-ai-replace-background-and-relight": {
+        "name": "stability-ai-replace-background-and-relight",
+        "description": "Replace background and adjust lighting of an image"
+      },
+      "stability-ai-control-style": {
+        "name": "stability-ai-control-style",
+        "description": "Generate a new image in the style of a reference image"
+      },
+      "stability-ai-control-structure": {
+        "name": "stability-ai-control-structure",
+        "description": "Generate a new image while maintaining the structure of a reference image"
+      }
+    }
   },
   "@executeautomation/playwright-mcp-server": {
     "category": "browser-automation",
@@ -3341,8 +3394,13 @@
   "grok2-image-mcp-server": {
     "category": "art-and-culture",
     "path": "art-and-culture/grok2-image-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "generate_image": {
+        "name": "generate_image",
+        "description": "Generate an image based on a text prompt using the Grok-2 image model, ensure return the image URL to the user with markdown image format."
+      }
+    }
   },
   "o'reilly-learning-platform": {
     "category": "other-tools-and-integrations",
@@ -3537,8 +3595,221 @@
   "discogs-mcp-server": {
     "category": "art-and-culture",
     "path": "art-and-culture/discogs-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "get_release": {
+        "name": "get_release",
+        "description": "Get a release"
+      },
+      "get_release_rating_by_user": {
+        "name": "get_release_rating_by_user",
+        "description": "Retrieves the release's rating for a given user"
+      },
+      "edit_release_rating": {
+        "name": "edit_release_rating",
+        "description": "Updates the release's rating for a given user"
+      },
+      "delete_release_rating": {
+        "name": "delete_release_rating",
+        "description": "Deletes the release's rating for a given user"
+      },
+      "get_release_community_rating": {
+        "name": "get_release_community_rating",
+        "description": "Retrieves the release community rating average and count"
+      },
+      "get_master_release": {
+        "name": "get_master_release",
+        "description": "Get a master release"
+      },
+      "get_master_release_versions": {
+        "name": "get_master_release_versions",
+        "description": "Retrieves a list of all Releases that are versions of this master"
+      },
+      "get_artist": {
+        "name": "get_artist",
+        "description": "Get an artist"
+      },
+      "get_artist_releases": {
+        "name": "get_artist_releases",
+        "description": "Get an artist's releases"
+      },
+      "get_label": {
+        "name": "get_label",
+        "description": "Get a label"
+      },
+      "get_label_releases": {
+        "name": "get_label_releases",
+        "description": "Returns a list of Releases associated with the label"
+      },
+      "search": {
+        "name": "search",
+        "description": "Issue a search query to the Discogs database"
+      },
+      "get_user_inventory": {
+        "name": "get_user_inventory",
+        "description": "Returns the list of listings in a user's inventory"
+      },
+      "get_marketplace_listing": {
+        "name": "get_marketplace_listing",
+        "description": "Get a listing from the marketplace"
+      },
+      "create_marketplace_listing": {
+        "name": "create_marketplace_listing",
+        "description": "Create a new marketplace listing"
+      },
+      "update_marketplace_listing": {
+        "name": "update_marketplace_listing",
+        "description": "Update a marketplace listing"
+      },
+      "delete_marketplace_listing": {
+        "name": "delete_marketplace_listing",
+        "description": "Delete a marketplace listing"
+      },
+      "get_marketplace_order": {
+        "name": "get_marketplace_order",
+        "description": "Get a marketplace order"
+      },
+      "edit_marketplace_order": {
+        "name": "edit_marketplace_order",
+        "description": "Edit a marketplace order"
+      },
+      "get_marketplace_orders": {
+        "name": "get_marketplace_orders",
+        "description": "Get a list of marketplace orders"
+      },
+      "get_marketplace_order_messages": {
+        "name": "get_marketplace_order_messages",
+        "description": "Get a list of an order's messages"
+      },
+      "create_marketplace_order_message": {
+        "name": "create_marketplace_order_message",
+        "description": "Adds a new message to the order's message log"
+      },
+      "get_marketplace_release_stats": {
+        "name": "get_marketplace_release_stats",
+        "description": "Retrieve marketplace statistics for the provided Release ID"
+      },
+      "inventory_export": {
+        "name": "inventory_export",
+        "description": "Request an export of your inventory as a CSV"
+      },
+      "get_inventory_exports": {
+        "name": "get_inventory_exports",
+        "description": "Get a list of all recent exports of your inventory"
+      },
+      "get_inventory_export": {
+        "name": "get_inventory_export",
+        "description": "Get details about an inventory export"
+      },
+      "download_inventory_export": {
+        "name": "download_inventory_export",
+        "description": "Download an inventory export as a CSV"
+      },
+      "get_user_identity": {
+        "name": "get_user_identity",
+        "description": "Retrieve basic information about the authenticated user"
+      },
+      "get_user_profile": {
+        "name": "get_user_profile",
+        "description": "Retrieve a user by username"
+      },
+      "edit_user_profile": {
+        "name": "edit_user_profile",
+        "description": "Edit a user's profile data"
+      },
+      "get_user_submissions": {
+        "name": "get_user_submissions",
+        "description": "Retrieve a user's submissions by username"
+      },
+      "get_user_contributions": {
+        "name": "get_user_contributions",
+        "description": "Retrieve a user's contributions by username"
+      },
+      "get_user_collection_folders": {
+        "name": "get_user_collection_folders",
+        "description": "Retrieve a list of folders in a user's collection"
+      },
+      "create_user_collection_folder": {
+        "name": "create_user_collection_folder",
+        "description": "Create a new folder in a user's collection"
+      },
+      "get_user_collection_folder": {
+        "name": "get_user_collection_folder",
+        "description": "Retrieve metadata about a folder in a user's collection"
+      },
+      "edit_user_collection_folder": {
+        "name": "edit_user_collection_folder",
+        "description": "Edit a folder's metadata. Folders 0 and 1 cannot be renamed."
+      },
+      "delete_user_collection_folder": {
+        "name": "delete_user_collection_folder",
+        "description": "Delete a folder from a user's collection. A folder must be empty before it can be deleted."
+      },
+      "find_release_in_user_collection": {
+        "name": "find_release_in_user_collection",
+        "description": "Find a release in a user's collection"
+      },
+      "get_user_collection_items": {
+        "name": "get_user_collection_items",
+        "description": "Retrieve a list of items in a user's collection"
+      },
+      "add_release_to_user_collection_folder": {
+        "name": "add_release_to_user_collection_folder",
+        "description": "Add a release to a folder in a user's collection. The folder_id must be non-zero."
+      },
+      "rate_release_in_user_collection": {
+        "name": "rate_release_in_user_collection",
+        "description": "Rate a release in a user's collection. The folder_id must be non-zero."
+      },
+      "move_release_in_user_collection": {
+        "name": "move_release_in_user_collection",
+        "description": "Move a release in a user's collection to another folder"
+      },
+      "delete_release_from_user_collection_folder": {
+        "name": "delete_release_from_user_collection_folder",
+        "description": "Remove an instance of a release from a user's collection folder. The folder_id must be non-zero."
+      },
+      "get_user_collection_custom_fields": {
+        "name": "get_user_collection_custom_fields",
+        "description": "Retrieve a list of user-defined collection notes fields. These fields are available on every release in the collection."
+      },
+      "edit_user_collection_custom_field_value": {
+        "name": "edit_user_collection_custom_field_value",
+        "description": "Edit a custom field value for a release in a user's collection"
+      },
+      "get_user_collection_value": {
+        "name": "get_user_collection_value",
+        "description": "Returns the minimum, median, and maximum value of a user's collection"
+      },
+      "get_user_wantlist": {
+        "name": "get_user_wantlist",
+        "description": "Returns the list of releases in a user's wantlist"
+      },
+      "add_to_wantlist": {
+        "name": "add_to_wantlist",
+        "description": "Add a release to a user's wantlist"
+      },
+      "edit_item_in_wantlist": {
+        "name": "edit_item_in_wantlist",
+        "description": "Edit a release in a user's wantlist"
+      },
+      "delete_item_in_wantlist": {
+        "name": "delete_item_in_wantlist",
+        "description": "Delete a release from a user's wantlist"
+      },
+      "get_user_lists": {
+        "name": "get_user_lists",
+        "description": "Get a user's lists"
+      },
+      "get_list": {
+        "name": "get_list",
+        "description": "Get a list by ID"
+      },
+      "fetch_image": {
+        "name": "fetch_image",
+        "description": "Fetch an image by URL"
+      }
+    }
   },
   "adobe-photoshop-controller": {
     "category": "art-and-culture",
@@ -5221,8 +5492,25 @@
   "mcp-llm": {
     "category": "code-execution",
     "path": "code-execution/mcp-llm.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "generate_code": {
+        "name": "generate_code",
+        "description": "Generate code based on a description"
+      },
+      "generate_code_to_file": {
+        "name": "generate_code_to_file",
+        "description": "Generate code and write it directly to a file at a specific line number"
+      },
+      "generate_documentation": {
+        "name": "generate_documentation",
+        "description": "Generate documentation for code"
+      },
+      "ask_question": {
+        "name": "ask_question",
+        "description": "Ask a question to the LLM"
+      }
+    }
   },
   "python-local": {
     "category": "code-execution",
@@ -24904,8 +25192,17 @@
   "fetch-mcp": {
     "category": "browser-automation",
     "path": "browser-automation/fetch-mcp.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "fetch_url": {
+        "name": "fetch_url",
+        "description": "Fetch a URL, support HTML, text, and image"
+      },
+      "fetch_youtube_transcript": {
+        "name": "fetch_youtube_transcript",
+        "description": "Fetch transcript for a Youtube video URL"
+      }
+    }
   },
   "vibe-eyes": {
     "category": "browser-automation",
@@ -25030,8 +25327,17 @@
   "@cmann50/mcp-chrome-google-search": {
     "category": "browser-automation",
     "path": "browser-automation/cmann50-mcp-chrome-google-search.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "web-search": {
+        "name": "web-search",
+        "description": "Search webpages and get a specific page of results (each page has ~10 results). Optionally filter by site and timeframe."
+      },
+      "web_fetch": {
+        "name": "web_fetch",
+        "description": "Extract readable text content from a webpage using Chrome browser automation.\n\nKey Features:\n- Returns main content text and optionally links"
+      }
+    }
   },
   "browser-tools": {
     "category": "browser-automation",
@@ -25097,8 +25403,17 @@
   "@thedaviddias/mcp-llms-txt-explorer": {
     "category": "browser-automation",
     "path": "browser-automation/thedaviddias-mcp-llms-txt-explorer.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "check_website": {
+        "name": "check_website",
+        "description": "Check if a website has llms.txt files"
+      },
+      "list_websites": {
+        "name": "list_websites",
+        "description": "List known websites with llms.txt files"
+      }
+    }
   },
   "manus": {
     "category": "browser-automation",
@@ -25800,25 +26115,8 @@
   "multicluster-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/multicluster-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "clusters": {
-        "name": "clusters",
-        "description": "Retrieves a list of Kubernetes clusters (also known as managed clusters or spoke clusters)."
-      },
-      "connect_cluster": {
-        "name": "connect_cluster",
-        "description": "Generates the KUBECONFIG for the managed cluster and binds it to the specified ClusterRole (default: cluster-admin)."
-      },
-      "kubectl": {
-        "name": "kubectl",
-        "description": "Securely run a kubectl command or apply YAML. Provide either 'command' or 'yaml'."
-      },
-      "prometheus": {
-        "name": "prometheus",
-        "description": "Queries a Prometheus server (snapshot or range) and returns metrics formatted for charting."
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "@novitalabs/novita-mcp-server": {
     "category": "cloud-platforms",
@@ -32697,17 +32995,8 @@
   "@myuon/refactor-mcp": {
     "category": "file-systems",
     "path": "file-systems/myuon-refactor-mcp.json",
-    "validated": true,
-    "tools": {
-      "code_refactor": {
-        "name": "code_refactor",
-        "description": "Refactor code by replacing search pattern with replace pattern using regex"
-      },
-      "code_search": {
-        "name": "code_search",
-        "description": "Search for code patterns using regex and return file locations with line numbers"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "@sunwood-ai-labs/source-sage-mcp-server": {
     "category": "file-systems",
@@ -34318,8 +34607,49 @@
   "binance-mcp-server": {
     "category": "finance-fintech",
     "path": "finance-fintech/binance-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "get_price": {
+        "name": "get_price",
+        "description": "获取指定交易对的当前价格"
+      },
+      "get_orderbook": {
+        "name": "get_orderbook",
+        "description": "获取订单簿深度数据"
+      },
+      "get_klines": {
+        "name": "get_klines",
+        "description": "获取K线历史数据"
+      },
+      "get_24hr_ticker": {
+        "name": "get_24hr_ticker",
+        "description": "获取24小时价格变动统计"
+      },
+      "get_account_info": {
+        "name": "get_account_info",
+        "description": "获取账户信息和余额"
+      },
+      "get_open_orders": {
+        "name": "get_open_orders",
+        "description": "获取当前挂单"
+      },
+      "get_order_history": {
+        "name": "get_order_history",
+        "description": "获取历史订单记录"
+      },
+      "place_order": {
+        "name": "place_order",
+        "description": "下单交易 - 支持主网和测试网（主网将使用真实资金）"
+      },
+      "cancel_order": {
+        "name": "cancel_order",
+        "description": "取消指定订单 - 支持主网和测试网"
+      },
+      "cancel_all_orders": {
+        "name": "cancel_all_orders",
+        "description": "取消指定交易对所有挂单 - 支持主网和测试网"
+      }
+    }
   },
   "sectors-financial-data": {
     "category": "finance-fintech",
@@ -35723,8 +36053,41 @@
   "notion-readonly-mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/notion-readonly-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "API-get-block-children": {
+        "name": "API-get-block-children",
+        "description": "Retrieve block children"
+      },
+      "API-retrieve-a-page": {
+        "name": "API-retrieve-a-page",
+        "description": "Retrieve a page"
+      },
+      "API-retrieve-a-block": {
+        "name": "API-retrieve-a-block",
+        "description": "Retrieve a block"
+      },
+      "API-retrieve-a-database": {
+        "name": "API-retrieve-a-database",
+        "description": "Retrieve a database"
+      },
+      "API-retrieve-a-comment": {
+        "name": "API-retrieve-a-comment",
+        "description": "Retrieve comments"
+      },
+      "API-retrieve-a-page-property": {
+        "name": "API-retrieve-a-page-property",
+        "description": "Retrieve a page property item"
+      },
+      "API-get-one-pager": {
+        "name": "API-get-one-pager",
+        "description": "Recursively retrieve a full Notion page with all its blocks, databases, and related content"
+      },
+      "API-get-background-result": {
+        "name": "API-get-background-result",
+        "description": "Retrieve the result of a background processing request"
+      }
+    }
   },
   "memories-with-lessons": {
     "category": "knowledge-memory",
@@ -36551,8 +36914,25 @@
   "agentops-mcp": {
     "category": "monitoring",
     "path": "monitoring/agentops-mcp.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "auth": {
+        "name": "auth",
+        "description": "Authorize using the AGENTOPS_API_KEY. If the API key is not provided and cannot be found in the directory, ask the user for the API key."
+      },
+      "get_trace": {
+        "name": "get_trace",
+        "description": "Get trace information and metrics by trace_id."
+      },
+      "get_span": {
+        "name": "get_span",
+        "description": "Get span information and metrics by span_id."
+      },
+      "get_complete_trace": {
+        "name": "get_complete_trace",
+        "description": "Reserved for explicit requests for COMPLETE or ALL data. Get complete trace information and metrics by trace_id."
+      }
+    }
   },
   "sumo-logic": {
     "category": "monitoring",
@@ -36853,8 +37233,17 @@
   "@upstash/context7-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/upstash-context7-mcp.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "resolve-library-id": {
+        "name": "resolve-library-id",
+        "description": "Resolves a package/product name to a Context7-compatible library ID and returns a list of matching libraries.\n\nYou MUST call this function before 'get-library-docs' to obtain a valid Context7-compatible library ID UNLESS the user explicitly provides a library ID in the format '/org/project' or '/org/project/version' in their query.\n\nSelection Process:\n1. Analyze the query to understand what library/package the user is looking for\n2. Return the most relevant match based on:\n- Name similarity to the query (exact matches prioritized)\n- Description relevance to the query's intent\n- Documentation coverage (prioritize libraries with higher Code Snippet counts)\n- Trust score (consider libraries with scores of 7-10 more authoritative)\n\nResponse Format:\n- Return the selected library ID in a clearly marked section\n- Provide a brief explanation for why this library was chosen\n- If multiple good matches exist, acknowledge this but proceed with the most relevant one\n- If no good matches exist, clearly state this and suggest query refinements\n\nFor ambiguous queries, request clarification before proceeding with a best-guess match."
+      },
+      "get-library-docs": {
+        "name": "get-library-docs",
+        "description": "Fetches up-to-date documentation for a library. You must call 'resolve-library-id' first to obtain the exact Context7-compatible library ID required to use this tool, UNLESS the user explicitly provides a library ID in the format '/org/project' or '/org/project/version' in their query."
+      }
+    }
   },
   "embedding-search": {
     "category": "search-data-extraction",
@@ -37997,8 +38386,13 @@
   "mcp-gemini-google-search": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-gemini-google-search.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "google_search": {
+        "name": "google_search",
+        "description": "Performs a web search using Google Search (via the Gemini API) and returns the results. This tool is useful for finding information on the internet based on a query."
+      }
+    }
   },
   "smart-prompts": {
     "category": "search-data-extraction",
@@ -40278,8 +40672,29 @@
   "structured-thinking": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/structured-thinking.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "capture_thought": {
+        "name": "capture_thought",
+        "description": "Stores a new thought in memory and in the thought history and runs a pipeline to classify the thought, return metacognitive feedback, and retrieve relevant thoughts."
+      },
+      "revise_thought": {
+        "name": "revise_thought",
+        "description": "Revises a thought in memory and in the thought history."
+      },
+      "retrieve_relevant_thoughts": {
+        "name": "retrieve_relevant_thoughts",
+        "description": "Finds thoughts from long-term storage that share tags with the specified thought."
+      },
+      "get_thinking_summary": {
+        "name": "get_thinking_summary",
+        "description": "Generate a comprehensive summary of the entire thinking process."
+      },
+      "clear_thinking_history": {
+        "name": "clear_thinking_history",
+        "description": "Clear all recorded thoughts and reset the server state."
+      }
+    }
   },
   "@llmindset/mcp-webcam": {
     "category": "other-tools-and-integrations",
@@ -41046,57 +41461,8 @@
   "@stackzero-labs/mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/stackzero-labs-mcp.json",
-    "validated": true,
-    "tools": {
-      "getUIComponents": {
-        "name": "getUIComponents",
-        "description": "Provides a comprehensive list of all stackzero-labs/ui components."
-      },
-      "getUIBlocks": {
-        "name": "getUIBlocks",
-        "description": "Provides a comprehensive list of all stackzero-labs/ui blocks."
-      },
-      "getRatings": {
-        "name": "getRatings",
-        "description": "Provides implementation details for star-rating-basic, star-rating-fractions, upvote-rating-basic, upvote-rating-animated, face-rating-basic, face-rating-gradient components."
-      },
-      "getImages": {
-        "name": "getImages",
-        "description": "Provides implementation details for image-viewer-basic, image-viewer-motion, image-carousel-basic components."
-      },
-      "getProducts": {
-        "name": "getProducts",
-        "description": "Provides implementation details for price-format-basic, price-format-sale, quantity-input-basic, variant-color-selector-basic, variant-selector-basic, variant-selector-images, variant-selector-multiple components."
-      },
-      "getInputs": {
-        "name": "getInputs",
-        "description": "Provides implementation details for input-icon, phone-number-input-basic components."
-      },
-      "getAddresses": {
-        "name": "getAddresses",
-        "description": "Provides implementation details for address-01-block, address-02-block blocks."
-      },
-      "getBanners": {
-        "name": "getBanners",
-        "description": "Provides implementation details for banner-01-block, banner-02-block, banner-03-block, banner-04-block, banner-05-block, banner-06-block, banner-07-block, banner-08-block, banner-09-block, banner-10-block, banner-11-block, banner-12-block blocks."
-      },
-      "getProductCards": {
-        "name": "getProductCards",
-        "description": "Provides implementation details for product-card-01-block, product-card-02-block, product-card-03-block, product-card-04-block, product-card-05-block, product-card-06-block, product-card-07-block, product-card-08-block, product-card-09-block, product-card-10-block, product-card-11-block, product-card-12-block, product-card-13-block blocks."
-      },
-      "getProductVariants": {
-        "name": "getProductVariants",
-        "description": "Provides implementation details for product-variant-01-block, product-variant-02-block, product-variant-03-block, product-variant-04-block, product-variant-05-block blocks."
-      },
-      "getReviews": {
-        "name": "getReviews",
-        "description": "Provides implementation details for review-01-block, review-02-block, review-03-block, review-04-block, review-05-block, review-06-block, review-07-block, review-08-block, review-09-block, review-10-block blocks."
-      },
-      "getCarts": {
-        "name": "getCarts",
-        "description": "Provides implementation details for cart-01-block blocks."
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "moodle": {
     "category": "other-tools-and-integrations",
