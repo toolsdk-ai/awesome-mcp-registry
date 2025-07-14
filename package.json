@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --ext .ts,.tsx",
+    "lint": "eslint . --ext .ts,.tsx --ignore-pattern \"api/\"",
     "server": "node api/cli-generator.js"
   },
   "keywords": [],
@@ -397,7 +397,6 @@
     "server-cmd": "2.0.1",
     "iterm_mcp_server": "1.0.5",
     "mcp-wsl-exec": "0.0.2",
-    "@shinzolabs/gmail-mcp": "1.7.0",
     "@floriscornel/teams-mcp": "0.3.2",
     "@waystation/mcp": "0.3.1",
     "trello-mcp-server": "0.0.4",
@@ -595,6 +594,7 @@
     "@jwalsh/mcp-server-qrcode": "1.1.0",
     "@pollinations/chucknorris": "1.0.37",
     "folo-mcp": "1.0.0",
+    "@stackzero-labs/mcp": "0.4.0",
     "lighthouse-mcp": "0.1.3",
     "server-koboldai": "1.0.0",
     "mcp-hacker-news": "1.0.3",
