@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>guide.md</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="all" href="../doc-style.css" />
+  <script src="../doc-filelist.js"></script>
+  <script>
+    var relativeDir = "../";
+    var thisFile = "docs/guide.md";
+    var defaultSidebar = true;
+  </script>
+  <script src="../doc-script.js"></script>
+
+</head>
+<body>
+  <div id="sidebar_wrapper">
+    <div id="sidebar_switch">
+      <span class="tree">Files</span>
+      <span class="headings">Headings</span>
+    </div>
+    <div id="tree"></div>
+    <div id="headings">
+
+      <div class="heading h1">
+        <a href="#guide-for-toolsdk.ai-mcp-servers-registry">Guide for ToolSDK.ai MCP Servers Registry</a>
+      </div>
+
+      <div class="heading h2">
+        <a href="#how-to-submit-new-packages">How to submit new packages?</a>
+      </div>
+
+      <div class="heading h2">
+        <a href="#what-differences-about-toolsdk.ai-mcp-servers">What differences about ToolSDK.ai MCP Servers</a>
+      </div>
+
+      <div class="heading h2">
+        <a href="#config">Config</a>
+      </div>
+
+      <div class="heading h2">
+        <a href="#scripts">Scripts</a>
+      </div>
+
+    </div>
+  </div>
+  <div id="sidebar-toggle"></div>
+  <div id="container">
+    <div class="docs markdown"><div class="pilwrap" id="guide-for-toolsdk.ai-mcp-servers-registry">
+  <h1>
+    <a href="#guide-for-toolsdk.ai-mcp-servers-registry" name="guide-for-toolsdk.ai-mcp-servers-registry" class="pilcrow"></a>
+Guide for ToolSDK.ai MCP Servers Registry
+  </h1>
+</div>
+<ul>
+<li><a href="#guide-for-toolsdkai-mcp-servers-registry.html">Guide for ToolSDK.ai MCP Servers Registry</a>
+<ul>
+<li><a href="#how-to-submit-new-packages.html">How to submit new packages?</a></li>
+<li><a href="#what-differences-about-toolsdkai-mcp-servers.html">What differences about ToolSDK.ai MCP Servers</a></li>
+<li><a href="#config.html">Config</a></li>
+<li><a href="#scripts.html">Scripts</a></li>
+</ul>
+</li>
+</ul>
+<div class="pilwrap" id="how-to-submit-new-packages">
+  <h2>
+    <a href="#how-to-submit-new-packages" name="how-to-submit-new-packages" class="pilcrow"></a>
+How to submit new packages?
+  </h2>
+</div>
+<p>To submit a new package, navigate to the <a href="../packages/.html">packages directory</a> which contains categorized subdirectories for different types of MCP servers.</p>
+<pre><code>packages/
+├── uncategorized/
+├── art-and-culture/
+├── databases/
+└── ...
+</code></pre>
+<p>Select the appropriate category and fill in a configuration.</p>
+<p>The format for the configuration is as follows; this is the format of the JSON configuration:</p>
+<pre><code class="json">{
+  <span class="hljs-attr">"type"</span>: <span class="hljs-string">"mcp-server"</span>,
+  <span class="hljs-attr">"name"</span>: <span class="hljs-string">"@modelcontextprotocol/server-github"</span>,
+  <span class="hljs-attr">"description"</span>: <span class="hljs-string">"MCP server for using the GitHub API"</span>,
+  <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://github.com/modelcontextprotocol/servers/blob/main/src/github"</span>,
+  <span class="hljs-attr">"runtime"</span>: <span class="hljs-string">"node"</span>,
+  <span class="hljs-attr">"license"</span>: <span class="hljs-string">"MIT"</span>,
+  <span class="hljs-attr">"env"</span>: {
+    <span class="hljs-attr">"GITHUB_PERSONAL_ACCESS_TOKEN"</span>: {
+      <span class="hljs-attr">"description"</span>: <span class="hljs-string">"Personal access token for GitHub API access"</span>,
+      <span class="hljs-attr">"required"</span>: <span class="hljs-literal">true</span>
+    }
+  }
+}
+</code></pre>
+<p>For example, if you want to submit an MCP server package using an official GitHub MCP server, create a file named <code>modelcontextprotocol-github.json</code> in the <code>packages/code-execution</code> directory.</p>
+<p>Every file that enters this repository will be validated by Zod. You can open <a href="../types.ts.html">types.ts</a> to see the definition of the Zod schema.</p>
+<div class="pilwrap" id="what-differences-about-toolsdk.ai-mcp-servers">
+  <h2>
+    <a href="#what-differences-about-toolsdk.ai-mcp-servers" name="what-differences-about-toolsdk.ai-mcp-servers" class="pilcrow"></a>
+What differences about ToolSDK.ai MCP Servers
+  </h2>
+</div>
+<p>Currently, there are numerous MCP-related registry platforms available in the market, such as mcp.so and Smithery.</p>
+<p>However, mcp.so lacks an open API interface and functions primarily as a unified, aggregated hosting platform.</p>
+<p>In contrast, Smithery.ai has modified certain official MCP servers to create a more convenient hosting solution tailored to its needs.</p>
+<p>Projects like awesome-mcp-servers are also noteworthy, as it showcase many MCP servers in a README format.</p>
+<p>However, the information is presented in an unstructured manner, making it impossible to index via an API; users must download the entries individually.</p>
+<p>ToolSDK.ai's MCP Server Registry aims to establish a free and open community for collaboratively building an MCP server registry.</p>
+<p>Anyone can contribute MCP configuration files through community pull requests, which will automatically generate a README file, thereby facilitating the collective maintenance and innovation of the MCP ecosystem.</p>
+<p>It has the following features:</p>
+<ul>
+<li><strong>Structure JSON Config</strong>: The configuration of the registry structure using JSON files. It enables the definition of categories, tools, and their relationships in a structured format.</li>
+<li><strong>Auto README Generation</strong>: Automates the generation of README files for each category and tool in the registry. It ensures that the documentation is always up-to-date and consistent across the registry.</li>
+</ul>
+<div class="pilwrap" id="config">
+  <h2>
+    <a href="#config" name="config" class="pilcrow"></a>
+Config
+  </h2>
+</div>
+<ul>
+<li><code>config/featured.json</code></li>
+<li><code>hosting-blacklist.json</code></li>
+</ul>
+<div class="pilwrap" id="scripts">
+  <h2>
+    <a href="#scripts" name="scripts" class="pilcrow"></a>
+Scripts
+  </h2>
+</div>
+<pre><code class="bash"><span class="hljs-comment"># Generate the indexes</span>
+bun ./scripts/indexing-lists.ts
+
+<span class="hljs-comment"># Generate the README</span>
+bun ./scripts/readme-gen.ts
+</code></pre>
+</div>
+  </div>
+</body>
+</html>
