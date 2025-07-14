@@ -4,5 +4,6 @@
   "description": "An MCP server that captures screenshots and performs OCR text recognition.",
   "url": "https://github.com/kazuph/mcp-screenshot",
   "runtime": "node",
-  "license": "MIT"
+  "license": "MIT",
+  "name": "Screenshot OCR MCP Server"
 }

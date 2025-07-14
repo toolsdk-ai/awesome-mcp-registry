@@ -5,5 +5,6 @@
   "url": "https://github.com/rootly-ai-labs/rootly-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Rootly MCP Server"
 }

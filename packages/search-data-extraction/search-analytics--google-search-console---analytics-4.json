@@ -5,5 +5,6 @@
   "url": "https://github.com/dexter480/mcp-search-analytics",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Search Analytics MCP"
 }

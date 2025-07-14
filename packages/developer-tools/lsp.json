@@ -5,5 +5,6 @@
   "url": "https://github.com/tritlo/lsp-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "LSP MCP"
 }

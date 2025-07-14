@@ -5,5 +5,6 @@
   "url": "https://github.com/bsreeram08/git-commands-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Git Commands MCP"
 }

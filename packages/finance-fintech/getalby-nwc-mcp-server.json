@@ -10,5 +10,6 @@
       "description": "YOUR NWC CONNECTION STRING HERE",
       "required": true
     }
-  }
+  },
+  "name": "NWC MCP Server"
 }

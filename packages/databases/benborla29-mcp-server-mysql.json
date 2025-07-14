@@ -5,5 +5,6 @@
   "url": "https://github.com/benborla/mcp-server-mysql",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MySQL MCP Server"
 }

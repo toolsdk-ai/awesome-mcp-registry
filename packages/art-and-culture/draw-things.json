@@ -5,5 +5,6 @@
   "url": "https://github.com/jaokuohsuan/draw-things-mcp-cursor",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Draw Things MCP Server"
 }

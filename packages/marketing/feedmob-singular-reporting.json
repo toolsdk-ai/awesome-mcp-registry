@@ -14,5 +14,6 @@
       "description": "api_base_url",
       "required": true
     }
-  }
+  },
+  "name": "Singular Reporting MCP"
 }

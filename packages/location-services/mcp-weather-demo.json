@@ -10,5 +10,6 @@
       "description": "Your Anthropic API key from the Anthropic API Keys page",
       "required": true
     }
-  }
+  },
+  "name": "MCP Weather Demo"
 }

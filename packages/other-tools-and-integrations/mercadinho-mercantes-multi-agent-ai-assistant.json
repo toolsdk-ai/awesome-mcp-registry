@@ -10,5 +10,6 @@
       "description": "Your OpenAI API key for GPT-4 access",
       "required": true
     }
-  }
+  },
+  "name": "Mercadinho MCP Server"
 }

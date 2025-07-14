@@ -14,5 +14,6 @@
       "description": "true",
       "required": true
     }
-  }
+  },
+  "name": "SmartLead MCP Server"
 }

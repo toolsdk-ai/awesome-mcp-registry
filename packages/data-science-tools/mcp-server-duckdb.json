@@ -5,5 +5,6 @@
   "url": "https://github.com/ktanaka101/mcp-server-duckdb",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "DuckDB MCP Server"
 }

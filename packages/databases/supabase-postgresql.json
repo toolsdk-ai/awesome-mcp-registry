@@ -5,5 +5,6 @@
   "url": "https://github.com/stefanraath3/mcp-supabase",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Supabase MCP"
 }

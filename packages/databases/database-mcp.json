@@ -5,5 +5,6 @@
   "url": "https://github.com/theralabs/legion-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Legion MCP"
 }

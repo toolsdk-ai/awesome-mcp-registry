@@ -5,5 +5,6 @@
   "url": "https://github.com/asmagin/mcp-server-flutter",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Flutter"
 }

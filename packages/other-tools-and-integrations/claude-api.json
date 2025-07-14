@@ -5,5 +5,6 @@
   "url": "https://github.com/mlobo2012/claude_desktop_api_use_via_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Claude API MCP Server"
 }

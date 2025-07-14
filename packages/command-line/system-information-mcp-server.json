@@ -38,5 +38,6 @@
       "description": "Maximum processes to return",
       "required": true
     }
-  }
+  },
+  "name": "System Information MCP Server"
 }

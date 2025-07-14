@@ -5,5 +5,6 @@
   "url": "https://github.com/vj-presidio/specif-ai-mcp-server-archive",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Specif AI MCP Server"
 }

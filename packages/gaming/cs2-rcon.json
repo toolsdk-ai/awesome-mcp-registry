@@ -5,5 +5,6 @@
   "url": "https://github.com/v9rt3x/cs2-rcon-mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "CS2 RCON MCP"
 }

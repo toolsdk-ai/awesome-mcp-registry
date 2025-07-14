@@ -22,5 +22,6 @@
       "description": "Optional path to store session data and cookies",
       "required": true
     }
-  }
+  },
+  "name": "Telegram MCP Server"
 }

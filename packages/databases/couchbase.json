@@ -5,5 +5,6 @@
   "url": "https://github.com/hummusonrails/couchbase-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Couchbase MCP Server"
 }

@@ -14,5 +14,6 @@
       "description": "Your ThinQ account's country code",
       "required": true
     }
-  }
+  },
+  "name": "ThinQ Connect MCP Server"
 }

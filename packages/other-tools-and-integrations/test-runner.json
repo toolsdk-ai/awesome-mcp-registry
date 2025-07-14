@@ -5,5 +5,6 @@
   "url": "https://github.com/privsim/mcp-test-runner",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Test Runner MCP"
 }

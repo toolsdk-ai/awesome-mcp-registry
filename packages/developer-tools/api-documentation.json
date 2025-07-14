@@ -5,5 +5,6 @@
   "url": "https://github.com/crazyrabbitltc/mcp-expert-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Mcp Expert Server"
 }

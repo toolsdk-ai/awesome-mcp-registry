@@ -14,5 +14,6 @@
       "description": "<你的飞书应用密钥>",
       "required": true
     }
-  }
+  },
+  "name": "Feishu MCP"
 }

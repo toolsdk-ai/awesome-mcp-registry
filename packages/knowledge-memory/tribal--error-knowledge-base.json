@@ -5,5 +5,6 @@
   "url": "https://github.com/agentience/tribal_mcp_server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Tribal MCP Server"
 }

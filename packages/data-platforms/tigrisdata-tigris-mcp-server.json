@@ -18,5 +18,6 @@
       "description": "https://fly.storage.tigris.dev",
       "required": true
     }
-  }
+  },
+  "name": "Tigris MCP Server"
 }

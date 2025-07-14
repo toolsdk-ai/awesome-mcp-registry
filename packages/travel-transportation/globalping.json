@@ -5,5 +5,6 @@
   "url": "https://github.com/jsdelivr/globalping-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "GlobalPing MCP Server"
 }

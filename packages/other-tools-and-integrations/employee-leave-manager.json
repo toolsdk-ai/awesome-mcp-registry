@@ -5,5 +5,6 @@
   "url": "https://github.com/ahmad-act/local-ai-with-ollama-open-webui-mcp-on-windows",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Local AI with Ollama Open WebUI MCP on Windows"
 }

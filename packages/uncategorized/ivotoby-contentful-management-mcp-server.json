@@ -10,5 +10,6 @@
       "description": "<Your CMA token>",
       "required": true
     }
-  }
+  },
+  "name": "Contentful MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/doobidoo/mcp-memory-dashboard",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Memory Usage Dashboard"
 }

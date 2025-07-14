@@ -5,5 +5,6 @@
   "url": "https://github.com/oborchers/mcp-server-pacman",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Pacman"
 }

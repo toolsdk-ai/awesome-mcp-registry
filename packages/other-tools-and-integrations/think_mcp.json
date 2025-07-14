@@ -5,5 +5,6 @@
   "url": "https://github.com/rai220/think-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Think MCP"
 }

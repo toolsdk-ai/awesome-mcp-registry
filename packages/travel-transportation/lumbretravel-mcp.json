@@ -22,5 +22,6 @@
       "description": "<YOUR_PASSWORD>",
       "required": true
     }
-  }
+  },
+  "name": "LumbreTravel MCP"
 }

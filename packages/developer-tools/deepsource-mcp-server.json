@@ -10,5 +10,6 @@
       "description": "your-deepsource-api-key",
       "required": true
     }
-  }
+  },
+  "name": "DeepSource MCP Server"
 }

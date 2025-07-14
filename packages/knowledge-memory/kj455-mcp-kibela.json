@@ -14,5 +14,6 @@
       "description": "your-token",
       "required": true
     }
-  }
+  },
+  "name": "Kibela MCP"
 }

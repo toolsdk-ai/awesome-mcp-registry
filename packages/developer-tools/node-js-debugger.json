@@ -5,5 +5,6 @@
   "url": "https://github.com/qckfx/node-debugger-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Node Debugger MCP"
 }

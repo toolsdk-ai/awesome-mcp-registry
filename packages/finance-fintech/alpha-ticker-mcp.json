@@ -10,5 +10,6 @@
       "description": "Kukapay access token required for accessing Kukapay Services",
       "required": true
     }
-  }
+  },
+  "name": "Alpha Ticker MCP"
 }

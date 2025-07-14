@@ -10,5 +10,6 @@
       "description": "Comma-separated list of glob patterns to watch for changes that trigger a full process restart",
       "required": true
     }
-  }
+  },
+  "name": "MCP Reloader"
 }

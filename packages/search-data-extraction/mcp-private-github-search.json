@@ -18,5 +18,6 @@
       "description": "your-repo",
       "required": true
     }
-  }
+  },
+  "name": "Obsidian GitHub MCP"
 }

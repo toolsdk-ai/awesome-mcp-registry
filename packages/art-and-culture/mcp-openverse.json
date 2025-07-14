@@ -5,5 +5,6 @@
   "url": "https://github.com/neno-is-ooo/mcp-openverse",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Openverse MCP"
 }

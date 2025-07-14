@@ -5,5 +5,6 @@
   "url": "https://github.com/allaboutai-yt/mcp-servers/tree/HEAD/openai-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "OpenAI Chat Completions"
 }

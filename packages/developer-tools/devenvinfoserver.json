@@ -5,5 +5,6 @@
   "url": "https://github.com/carterlasalle/system_information_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "System Information MCP"
 }

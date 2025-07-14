@@ -18,5 +18,6 @@
       "description": "<YOUR_WORKSPACE_SLUG>",
       "required": true
     }
-  }
+  },
+  "name": "Plane MCP Server"
 }

@@ -14,5 +14,6 @@
       "description": "live_mode",
       "required": true
     }
-  }
+  },
+  "name": "Dodo Payments MCP"
 }

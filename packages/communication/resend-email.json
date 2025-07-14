@@ -1,9 +1,15 @@
 {
   "type": "mcp-server",
-  "packageName": "resend-email",
+  "packageName": "@toolsdk.ai/mcp-send-email",
   "description": "Integrates with the Resend API to enable sending plain text emails with scheduling options and configurable reply-to addresses through command-line or environment variable configuration.",
   "url": "https://github.com/resend/mcp-send-email",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {
+    "RESEND_API_KEY": {
+      "description": "YOUR_RESEND_API_KEY_HERE (string, required)",
+      "required": true
+    }
+  },
+  "name": "Resend MCP Send Email"
 }

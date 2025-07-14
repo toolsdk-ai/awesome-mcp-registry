@@ -5,5 +5,6 @@
   "url": "https://github.com/alessandrorumampuk/mcpserver",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server"
 }

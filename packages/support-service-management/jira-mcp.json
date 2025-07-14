@@ -18,5 +18,6 @@
       "description": "your-api-token",
       "required": true
     }
-  }
+  },
+  "name": "Jira MCP"
 }

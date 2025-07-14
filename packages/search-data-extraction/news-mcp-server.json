@@ -14,5 +14,6 @@
       "description": "https://newsdata.io",
       "required": true
     }
-  }
+  },
+  "name": "News MCP Server"
 }

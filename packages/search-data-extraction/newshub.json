@@ -5,5 +5,6 @@
   "url": "https://github.com/ltejedor/newsfeed-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Newsfeed MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/filesystem",
   "runtime": "java",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Filesystem MCP"
 }

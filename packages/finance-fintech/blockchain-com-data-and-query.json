@@ -5,5 +5,6 @@
   "url": "https://github.com/pavel-bc/mcp-blockchain-query",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Blockchain Query MCP"
 }

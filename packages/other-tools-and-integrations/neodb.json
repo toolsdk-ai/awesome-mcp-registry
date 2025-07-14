@@ -5,5 +5,6 @@
   "url": "https://github.com/xytangme/neodb-mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "NeoDB MCP"
 }

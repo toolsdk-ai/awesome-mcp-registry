@@ -5,5 +5,6 @@
   "url": "https://github.com/yhc984/cursor-talk-to-figma-mcp-main",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Cursor Talk to Figma MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/junjiem/dify-plugin-mcp_compat_dify_tools",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Dify Tools MCP Bridge"
 }

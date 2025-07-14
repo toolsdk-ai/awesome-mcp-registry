@@ -10,5 +10,6 @@
       "description": "<TOKEN>",
       "required": true
     }
-  }
+  },
+  "name": "PureMD MCP"
 }

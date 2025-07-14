@@ -5,5 +5,6 @@
   "url": "https://github.com/marcoeg/mcp-nvd",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP NVD"
 }

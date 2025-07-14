@@ -10,5 +10,6 @@
       "description": "Buildkite API token required for authentication. Create at https://buildkite.com/user/api-access-tokens",
       "required": true
     }
-  }
+  },
+  "name": "Buildkite MCP Server"
 }

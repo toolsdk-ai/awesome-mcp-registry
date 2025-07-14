@@ -18,5 +18,6 @@
       "description": "admin",
       "required": true
     }
-  }
+  },
+  "name": "Keycloak Model Context Protocol"
 }

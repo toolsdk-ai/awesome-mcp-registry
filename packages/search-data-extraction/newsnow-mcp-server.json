@@ -10,5 +10,6 @@
       "description": "https://newsnow.busiyi.world",
       "required": true
     }
-  }
+  },
+  "name": "NewsNow MCP Server"
 }

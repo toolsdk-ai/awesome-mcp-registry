@@ -5,5 +5,6 @@
   "url": "https://github.com/mcp-get/community-servers/blob/main/src/server-macos",
   "runtime": "node",
   "license": "MIT",
-  "env": {}
+  "env": {},
+  "name": "Community Servers macOS MCP"
 }

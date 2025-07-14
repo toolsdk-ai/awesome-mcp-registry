@@ -26,5 +26,6 @@
       "description": "optional_your_tool_names_here_ex_ListProjects",
       "required": true
     }
-  }
+  },
+  "name": "Alibaba Cloud DataWorks MCP Server"
 }

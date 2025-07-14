@@ -14,5 +14,6 @@
       "description": "SANDBOX",
       "required": true
     }
-  }
+  },
+  "name": "Agent Toolkit MCP"
 }

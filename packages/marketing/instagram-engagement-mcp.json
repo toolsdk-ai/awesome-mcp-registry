@@ -14,5 +14,6 @@
       "description": "your_instagram_password",
       "required": true
     }
-  }
+  },
+  "name": "Instagram Engagement MCP"
 }

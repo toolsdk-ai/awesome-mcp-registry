@@ -22,5 +22,6 @@
       "description": "<YOUR_EMAIL>",
       "required": true
     }
-  }
+  },
+  "name": "Outlook Meetings Scheduler MCP Server"
 }

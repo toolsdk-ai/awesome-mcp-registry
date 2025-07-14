@@ -14,5 +14,6 @@
       "description": "your_token",
       "required": true
     }
-  }
+  },
+  "name": "MCP Turso"
 }

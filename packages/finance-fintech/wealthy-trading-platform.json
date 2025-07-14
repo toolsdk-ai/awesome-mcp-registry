@@ -5,5 +5,6 @@
   "url": "https://github.com/wealthy/wealthy-mcp",
   "runtime": "go",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Wealthy MCP"
 }

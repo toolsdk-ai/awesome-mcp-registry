@@ -5,5 +5,6 @@
   "url": "https://github.com/bmorphism/penrose-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Penrose MCP"
 }

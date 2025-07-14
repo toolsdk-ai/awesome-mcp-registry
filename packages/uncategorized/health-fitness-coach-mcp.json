@@ -30,5 +30,6 @@
       "description": "Optional Redis token for enhanced performance",
       "required": true
     }
-  }
+  },
+  "name": "Fitness Coach MCP"
 }

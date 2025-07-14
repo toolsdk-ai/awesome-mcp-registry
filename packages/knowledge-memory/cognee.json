@@ -5,5 +5,6 @@
   "url": "https://github.com/topoteretes/cognee/tree/HEAD/cognee-mcp",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Cognee MCP"
 }

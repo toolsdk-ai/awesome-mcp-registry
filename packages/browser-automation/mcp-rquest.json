@@ -5,5 +5,6 @@
   "url": "https://github.com/xxxbrian/mcp-rquest",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Rquest"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/masatoshi118/mcp_google_froms",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Google Forms MCP"
 }

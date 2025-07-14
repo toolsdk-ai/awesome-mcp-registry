@@ -5,5 +5,6 @@
   "url": "https://github.com/kiwamizamurai/mcp-kibela-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Kibela MCP Server"
 }

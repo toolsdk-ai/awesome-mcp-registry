@@ -5,5 +5,6 @@
   "url": "https://github.com/jboothomas/pure-model-context-protocol",
   "runtime": "python",
   "license": "gpl-3.0",
-  "env": {}
+  "env": {},
+  "name": "Pure Model Context Protocol"
 }

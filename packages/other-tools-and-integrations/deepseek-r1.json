@@ -5,5 +5,6 @@
   "url": "https://github.com/66julienmartin/mcp-server-deepseek_r1",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Deepseek R1 MCP Server"
 }

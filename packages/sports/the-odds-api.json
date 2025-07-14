@@ -5,5 +5,6 @@
   "url": "https://github.com/kitchenchem/degen-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Degen MCP"
 }

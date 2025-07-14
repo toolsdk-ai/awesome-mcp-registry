@@ -14,5 +14,6 @@
       "description": "your_administration_id_here",
       "required": true
     }
-  }
+  },
+  "name": "Moneybird MCP Server"
 }

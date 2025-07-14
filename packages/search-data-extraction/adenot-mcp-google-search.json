@@ -14,5 +14,6 @@
       "description": "your-search-engine-id-here",
       "required": true
     }
-  }
+  },
+  "name": "Google Search MCP"
 }

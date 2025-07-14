@@ -5,5 +5,6 @@
   "url": "https://github.com/dkmaker/mcp-azure-tablestorage",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Azure Table Storage MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/ancode666/nasa-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "NASA MCP"
 }

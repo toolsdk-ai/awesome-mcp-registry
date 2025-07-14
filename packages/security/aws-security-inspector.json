@@ -5,5 +5,6 @@
   "url": "https://github.com/groovybugify/aws-security-mcp",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "AWS Security MCP"
 }

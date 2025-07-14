@@ -5,5 +5,6 @@
   "url": "https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/butler",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Butler MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/serkanh/cloudwatch-logs-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "CloudWatch Logs MCP"
 }

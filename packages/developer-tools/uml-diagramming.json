@@ -5,5 +5,6 @@
   "url": "https://github.com/swayingleaves/uml-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "UML MCP Server"
 }

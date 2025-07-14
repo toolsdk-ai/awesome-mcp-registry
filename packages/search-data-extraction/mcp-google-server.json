@@ -14,5 +14,6 @@
       "description": "Your SmartSearch endpoint",
       "required": true
     }
-  }
+  },
+  "name": "MCP Google Server"
 }

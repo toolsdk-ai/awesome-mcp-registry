@@ -5,5 +5,6 @@
   "url": "https://github.com/jamesacklin/tlon-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Tlon MCP Server"
 }

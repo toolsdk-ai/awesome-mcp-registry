@@ -5,5 +5,6 @@
   "url": "https://github.com/davidyen1124/caltrain-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Caltrain MCP"
 }

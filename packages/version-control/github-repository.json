@@ -5,5 +5,6 @@
   "url": "https://github.com/shanksxz/gh-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "GH MCP Server"
 }

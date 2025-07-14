@@ -5,5 +5,6 @@
   "url": "https://github.com/imghosty17/mcp-server-sandbox",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Sandbox"
 }

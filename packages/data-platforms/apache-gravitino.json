@@ -5,5 +5,6 @@
   "url": "https://github.com/datastrato/mcp-server-gravitino",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Gravitino MCP Server"
 }

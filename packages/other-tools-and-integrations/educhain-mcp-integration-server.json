@@ -10,5 +10,6 @@
       "description": "Your OpenAI API key for accessing OpenAI services",
       "required": true
     }
-  }
+  },
+  "name": "Educhain MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/nasoma/joomla-mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Joomla MCP Server"
 }

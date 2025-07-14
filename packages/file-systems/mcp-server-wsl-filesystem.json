@@ -5,5 +5,6 @@
   "url": "https://github.com/webconsulting/mcp-server-wsl-filesystem",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "WSL Filesystem MCP Server"
 }

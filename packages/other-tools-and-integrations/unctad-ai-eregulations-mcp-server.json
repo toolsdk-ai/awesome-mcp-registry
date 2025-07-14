@@ -10,5 +10,6 @@
       "description": "https://your-eregulations-api.com",
       "required": true
     }
-  }
+  },
+  "name": "eRegulations MCP Server"
 }

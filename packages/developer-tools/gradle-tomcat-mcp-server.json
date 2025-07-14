@@ -26,5 +26,6 @@
       "description": "Maximum log entries in memory",
       "required": true
     }
-  }
+  },
+  "name": "Gradle Tomcat MCP Server"
 }

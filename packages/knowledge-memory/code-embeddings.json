@@ -5,5 +5,6 @@
   "url": "https://github.com/davidvc/code-knowledge-mcptool",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Code Knowledge MCP Tool"
 }

@@ -10,5 +10,6 @@
       "description": "your-key-here",
       "required": true
     }
-  }
+  },
+  "name": "Guardian MCP Server"
 }

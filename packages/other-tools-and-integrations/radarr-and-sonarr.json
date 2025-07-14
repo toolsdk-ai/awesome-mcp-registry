@@ -5,5 +5,6 @@
   "url": "https://github.com/berrykuipers/mcp_services_radarr_sonarr",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Radarr and Sonarr MCP"
 }

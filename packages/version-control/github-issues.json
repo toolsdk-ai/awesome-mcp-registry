@@ -5,5 +5,6 @@
   "url": "https://github.com/timbuchinger/mcp-github",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "GitHub Issues MCP"
 }

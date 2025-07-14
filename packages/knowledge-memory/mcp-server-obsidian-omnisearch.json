@@ -5,5 +5,6 @@
   "url": "https://github.com/anpigon/mcp-server-obsidian-omnisearch",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Obsidian Omnisearch MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/aroglahcim/magick-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Magick MCP"
 }

@@ -14,5 +14,6 @@
       "description": "your-pocket-access-token",
       "required": true
     }
-  }
+  },
+  "name": "Pocket MCP"
 }

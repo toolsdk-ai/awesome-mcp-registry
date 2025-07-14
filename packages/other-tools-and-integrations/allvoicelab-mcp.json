@@ -5,5 +5,6 @@
   "url": "https://github.com/allvoicelab/allvoicelab-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "AllVoiceLab MCP"
 }

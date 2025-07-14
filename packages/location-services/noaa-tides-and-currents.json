@@ -5,5 +5,6 @@
   "url": "https://github.com/ryancardin15/noaa-tidesandcurrents-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "NOAA Tides and Currents MCP"
 }

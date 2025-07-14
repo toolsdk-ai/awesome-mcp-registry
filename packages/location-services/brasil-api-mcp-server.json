@@ -5,5 +5,6 @@
   "url": "https://github.com/mauricio-cantu/brasil-api-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Brasil API MCP Server"
 }

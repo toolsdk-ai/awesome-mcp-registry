@@ -5,5 +5,6 @@
   "url": "https://github.com/dwisiswant0/delve-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Delve MCP"
 }

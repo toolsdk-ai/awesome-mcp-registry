@@ -5,5 +5,6 @@
   "url": "https://github.com/6/mcp-server-rubygems",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server RubyGems"
 }

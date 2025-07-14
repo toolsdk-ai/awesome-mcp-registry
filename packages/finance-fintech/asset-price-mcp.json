@@ -5,5 +5,6 @@
   "url": "https://github.com/mk965/asset-price-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Asset Price MCP"
 }

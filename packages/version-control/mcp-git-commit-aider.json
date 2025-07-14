@@ -14,5 +14,6 @@
       "description": "your.email@example.com",
       "required": true
     }
-  }
+  },
+  "name": "MCP Git Commit Aider"
 }

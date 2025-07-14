@@ -5,5 +5,6 @@
   "url": "https://github.com/aashari/mcp-server-atlassian-bitbucket",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Atlassian Bitbucket"
 }

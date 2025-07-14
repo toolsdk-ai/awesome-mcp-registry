@@ -5,5 +5,6 @@
   "url": "https://github.com/sboludaf/mcp-azure-pricing",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Azure Pricing MCP"
 }

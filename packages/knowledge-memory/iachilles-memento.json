@@ -10,5 +10,6 @@
       "description": "/Path/To/Your/memory.db",
       "required": true
     }
-  }
+  },
+  "name": "Memento MCP Server"
 }

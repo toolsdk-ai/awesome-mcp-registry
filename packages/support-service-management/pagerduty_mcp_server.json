@@ -5,5 +5,6 @@
   "url": "https://github.com/wpfleger96/pagerduty-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PagerDuty MCP Server"
 }

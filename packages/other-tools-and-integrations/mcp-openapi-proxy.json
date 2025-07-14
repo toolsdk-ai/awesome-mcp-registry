@@ -5,5 +5,6 @@
   "url": "https://github.com/matthewhand/mcp-openapi-proxy",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "OpenAPI Proxy MCP"
 }

@@ -42,5 +42,6 @@
       "description": "YOUR_OLLAMA_API_KEY_HERE",
       "required": true
     }
-  }
+  },
+  "name": "Claude Task Master"
 }

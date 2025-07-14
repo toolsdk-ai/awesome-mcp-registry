@@ -5,5 +5,6 @@
   "url": "https://github.com/vignesh-codes/ai-agents-mcp-pg",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "AI Agents MCP PG"
 }

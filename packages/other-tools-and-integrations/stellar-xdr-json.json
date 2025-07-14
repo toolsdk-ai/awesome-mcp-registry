@@ -5,5 +5,6 @@
   "url": "https://github.com/leighmcculloch/mcp-stellar-xdr-json",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Stellar XDR JSON"
 }

@@ -10,5 +10,6 @@
       "description": "Optional API token for AniList",
       "required": false
     }
-  }
+  },
+  "name": "AniList MCP"
 }

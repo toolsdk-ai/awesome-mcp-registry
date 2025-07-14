@@ -5,5 +5,6 @@
   "url": "https://github.com/knight0zh/mssql-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MSSQL MCP Server"
 }

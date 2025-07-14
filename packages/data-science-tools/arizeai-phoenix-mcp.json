@@ -5,5 +5,6 @@
   "url": "https://github.com/arize-ai/phoenix/tree/HEAD/js/packages/phoenix-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Phoenix MCP"
 }

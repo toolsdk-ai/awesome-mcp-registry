@@ -5,5 +5,6 @@
   "url": "https://github.com/memgraph/mcp-memgraph",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Memgraph MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/9ninety/mcpnotes",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Notes"
 }

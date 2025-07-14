@@ -10,5 +10,6 @@
       "description": "mongodb+srv://username:password@cluster.mongodb.net/myDatabase",
       "required": true
     }
-  }
+  },
+  "name": "MongoDB MCP Server"
 }

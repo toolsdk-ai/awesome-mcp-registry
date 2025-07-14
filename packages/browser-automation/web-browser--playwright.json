@@ -5,5 +5,6 @@
   "url": "https://github.com/random-robbie/mcp-web-browser",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Web Browser MCP"
 }

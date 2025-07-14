@@ -5,5 +5,6 @@
   "url": "https://github.com/owayo/mcp-source-relation",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Source Relation MCP"
 }

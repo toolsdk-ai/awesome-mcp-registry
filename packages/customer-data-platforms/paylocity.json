@@ -5,5 +5,6 @@
   "url": "https://github.com/mz462/mcppaylocity",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Paylocity MCP"
 }

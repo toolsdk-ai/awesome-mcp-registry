@@ -14,5 +14,6 @@
       "description": "your-database-name",
       "required": true
     }
-  }
+  },
+  "name": "MCP DBS"
 }

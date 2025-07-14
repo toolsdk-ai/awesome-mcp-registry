@@ -10,5 +10,6 @@
       "description": "/path/to/reports/directory",
       "required": true
     }
-  }
+  },
+  "name": "Maigret MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/isaacgounton/brave-search-mcp-sse",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Brave Search MCP SSE"
 }

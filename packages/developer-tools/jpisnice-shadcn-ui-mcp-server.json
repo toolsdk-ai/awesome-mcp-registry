@@ -10,5 +10,6 @@
       "description": "GitHub Personal Access Token for higher rate limits (5000 requests/hour instead of 60 requests/hour)",
       "required": true
     }
-  }
+  },
+  "name": "Shadcn UI MCP Server"
 }

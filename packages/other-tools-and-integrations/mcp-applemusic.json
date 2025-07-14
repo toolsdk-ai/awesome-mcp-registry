@@ -5,5 +5,6 @@
   "url": "https://github.com/kennethreitz/mcp-applemusic",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Apple Music MCP"
 }

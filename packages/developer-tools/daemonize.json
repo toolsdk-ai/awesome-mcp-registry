@@ -5,5 +5,6 @@
   "url": "https://github.com/mackee/mcp-daemonize",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Daemonize MCP"
 }

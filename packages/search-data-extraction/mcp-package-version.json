@@ -10,5 +10,6 @@
       "description": "/path/to/mitm/cert.pem",
       "required": true
     }
-  }
+  },
+  "name": "Package Version MCP"
 }

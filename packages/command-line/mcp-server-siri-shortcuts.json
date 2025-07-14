@@ -14,5 +14,6 @@
       "description": "false",
       "required": true
     }
-  }
+  },
+  "name": "Siri Shortcuts MCP Server"
 }

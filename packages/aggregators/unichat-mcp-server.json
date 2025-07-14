@@ -5,5 +5,6 @@
   "url": "https://github.com/amidabuddha/unichat-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Unichat MCP Server"
 }

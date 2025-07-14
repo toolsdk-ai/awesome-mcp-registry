@@ -5,5 +5,6 @@
   "url": "https://github.com/fewsats/agora-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Agora MCP"
 }

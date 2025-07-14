@@ -14,5 +14,6 @@
       "description": "Varsayılan dil kodu",
       "required": true
     }
-  }
+  },
+  "name": "Career MCP Server"
 }

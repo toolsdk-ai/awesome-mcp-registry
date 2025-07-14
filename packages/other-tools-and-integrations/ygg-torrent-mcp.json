@@ -5,5 +5,6 @@
   "url": "https://github.com/philogicae/ygg-torrent-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "YggTorrent MCP"
 }

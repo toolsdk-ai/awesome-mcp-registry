@@ -5,5 +5,6 @@
   "url": "https://github.com/davidteren/play-sound-mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Play Sound MCP Server"
 }

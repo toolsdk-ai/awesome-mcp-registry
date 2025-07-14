@@ -5,5 +5,6 @@
   "url": "https://github.com/vantage-sh/vantage-mcp-server",
   "runtime": "go",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Vantage MCP Server"
 }

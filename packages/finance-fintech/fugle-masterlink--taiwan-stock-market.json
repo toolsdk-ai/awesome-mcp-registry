@@ -5,5 +5,6 @@
   "url": "https://github.com/fugle-dev/fugle-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Fugle MCP Server"
 }

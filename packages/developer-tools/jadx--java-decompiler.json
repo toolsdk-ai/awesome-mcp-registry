@@ -5,5 +5,6 @@
   "url": "https://github.com/zinja-coder/jadx-mcp-server",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "JADX MCP Server"
 }

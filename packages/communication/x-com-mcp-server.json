@@ -10,5 +10,6 @@
       "description": "your-access-token",
       "required": true
     }
-  }
+  },
+  "name": "X.com MCP Server"
 }

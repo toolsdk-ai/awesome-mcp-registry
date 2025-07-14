@@ -10,5 +10,6 @@
       "description": "/path/to/custom/memory.json",
       "required": true
     }
-  }
+  },
+  "name": "Memory MCP Server"
 }

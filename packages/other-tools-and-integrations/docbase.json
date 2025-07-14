@@ -5,5 +5,6 @@
   "url": "https://github.com/shogo-ma/docbase-mcp-server",
   "runtime": "go",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "DocBase MCP Server"
 }

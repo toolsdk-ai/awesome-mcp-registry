@@ -5,5 +5,6 @@
   "url": "https://github.com/handwriting-ocr/handwriting-ocr-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Handwriting OCR MCP Server"
 }

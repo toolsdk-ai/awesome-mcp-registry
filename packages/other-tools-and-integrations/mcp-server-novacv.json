@@ -10,5 +10,6 @@
       "description": "your_api_key",
       "required": true
     }
-  }
+  },
+  "name": "NovaCV MCP Server"
 }

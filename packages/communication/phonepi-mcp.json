@@ -5,5 +5,6 @@
   "url": "https://github.com/priyankark/phonepi-mcp/tree/HEAD/server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PhonePi MCP"
 }

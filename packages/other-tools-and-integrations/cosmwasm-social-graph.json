@@ -5,5 +5,6 @@
   "url": "https://github.com/dasein108/mcp-cw-graph",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "CosmWasm Social Graph MCP"
 }

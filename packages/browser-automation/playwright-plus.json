@@ -5,5 +5,6 @@
   "url": "https://github.com/williamvd4/playwright-plus-python-mcp",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Playwright Plus MCP"
 }

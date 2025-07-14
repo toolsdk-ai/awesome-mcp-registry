@@ -14,5 +14,6 @@
       "description": "<your Directus user token>",
       "required": true
     }
-  }
+  },
+  "name": "Directus MCP Server"
 }

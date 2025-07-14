@@ -5,5 +5,6 @@
   "url": "https://github.com/fengin/image-gen-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Image Gen Server"
 }

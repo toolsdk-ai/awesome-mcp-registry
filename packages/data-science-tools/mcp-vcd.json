@@ -5,5 +5,6 @@
   "url": "https://github.com/seanmcloughlin/mcp-vcd",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP VCD"
 }

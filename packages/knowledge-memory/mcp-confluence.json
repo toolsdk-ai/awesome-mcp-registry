@@ -18,5 +18,6 @@
       "description": "",
       "required": true
     }
-  }
+  },
+  "name": "Confluence MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/p-funk/fegis",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Fegis Schema Driven Memory"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/tght1211/http-4-mcp",
   "runtime": "node",
   "license": "mulanpsl-2.0",
-  "env": {}
+  "env": {},
+  "name": "HTTP MCP Bridge"
 }

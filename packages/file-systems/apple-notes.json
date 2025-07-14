@@ -5,5 +5,6 @@
   "url": "https://github.com/tom-semple/mcp-apple-notes-fixed",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Apple Notes MCP"
 }

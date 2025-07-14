@@ -22,5 +22,6 @@
       "description": "true",
       "required": true
     }
-  }
+  },
+  "name": "Obsidian MCP Server"
 }

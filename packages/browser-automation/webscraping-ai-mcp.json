@@ -14,5 +14,6 @@
       "description": "5",
       "required": true
     }
-  }
+  },
+  "name": "WebScraping AI MCP Server"
 }

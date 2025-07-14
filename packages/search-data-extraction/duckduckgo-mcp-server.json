@@ -5,5 +5,6 @@
   "url": "https://github.com/nickclyde/duckduckgo-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "DuckDuckGo MCP Server"
 }

@@ -10,5 +10,6 @@
       "description": "true",
       "required": true
     }
-  }
+  },
+  "name": "LSMCP"
 }

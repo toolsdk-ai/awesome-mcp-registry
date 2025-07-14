@@ -5,5 +5,6 @@
   "url": "https://github.com/yikakia/godoc-mcp-server",
   "runtime": "go",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Godoc MCP Server"
 }

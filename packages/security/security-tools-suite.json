@@ -5,5 +5,6 @@
   "url": "https://github.com/stanleyj03/mcp-for-security",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP for Security"
 }

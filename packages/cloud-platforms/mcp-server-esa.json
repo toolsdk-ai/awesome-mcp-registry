@@ -18,5 +18,6 @@
       "description": "sts_security_token optional, required when using STS Token (By default, no need to pass)",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server ESA"
 }

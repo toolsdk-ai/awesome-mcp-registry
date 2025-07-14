@@ -5,5 +5,6 @@
   "url": "https://github.com/bigsy/clj-kondo-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Clj Kondo MCP"
 }

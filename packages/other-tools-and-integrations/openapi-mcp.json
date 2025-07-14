@@ -5,5 +5,6 @@
   "url": "https://github.com/jedisct1/openapi-mcp",
   "runtime": "go",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "OpenAPI MCP"
 }

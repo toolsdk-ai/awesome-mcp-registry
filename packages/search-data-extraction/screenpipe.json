@@ -5,5 +5,6 @@
   "url": "https://github.com/mediar-ai/screenpipe/tree/HEAD/screenpipe-integrations/screenpipe-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Screenpipe MCP"
 }

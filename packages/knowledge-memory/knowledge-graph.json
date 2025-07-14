@@ -5,5 +5,6 @@
   "url": "https://github.com/shaneholloman/mcp-knowledge-graph",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Knowledge Graph MCP"
 }

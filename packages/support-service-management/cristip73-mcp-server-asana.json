@@ -14,5 +14,6 @@
       "description": "your-default-workspace-id",
       "required": true
     }
-  }
+  },
+  "name": "Asana MCP Server"
 }

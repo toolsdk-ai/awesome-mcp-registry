@@ -10,5 +10,6 @@
       "description": "testomat_YOUR_TOKEN_HERE",
       "required": true
     }
-  }
+  },
+  "name": "Testomatio MCP"
 }

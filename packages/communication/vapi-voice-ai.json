@@ -5,5 +5,6 @@
   "url": "https://github.com/matthewdcage/vapi-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Vapi MCP"
 }

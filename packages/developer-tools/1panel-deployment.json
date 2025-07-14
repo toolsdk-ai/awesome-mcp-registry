@@ -5,5 +5,6 @@
   "url": "https://github.com/ruibaby/1panel-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "1Panel MCP"
 }

@@ -18,5 +18,6 @@
       "description": "Your Bitbucket app password with Repository Read permissions",
       "required": true
     }
-  }
+  },
+  "name": "Bitbucket MCP Server"
 }

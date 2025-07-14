@@ -5,5 +5,6 @@
   "url": "https://github.com/spektraldevelopment/mcp-wiki",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Wikipedia MCP"
 }

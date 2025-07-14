@@ -5,5 +5,6 @@
   "url": "https://github.com/isaacwasserman/mcp-langchain-ts-client",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "LangChain MCP Client"
 }

@@ -14,5 +14,6 @@
       "description": "/tmp/nvim",
       "required": true
     }
-  }
+  },
+  "name": "Neovim MCP Server"
 }

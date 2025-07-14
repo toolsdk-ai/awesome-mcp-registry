@@ -5,5 +5,6 @@
   "url": "https://github.com/mightydillah/apple-doc-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Apple Doc MCP"
 }

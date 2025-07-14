@@ -5,5 +5,6 @@
   "url": "https://github.com/secretiveshell/mcp-searxng",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "SearXNG MCP"
 }

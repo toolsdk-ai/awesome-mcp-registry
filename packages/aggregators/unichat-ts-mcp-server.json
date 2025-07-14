@@ -14,5 +14,6 @@
       "description": "YOUR_VENDOR_API_KEY",
       "required": true
     }
-  }
+  },
+  "name": "Unichat MCP Server"
 }

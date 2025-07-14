@@ -5,5 +5,6 @@
   "url": "https://github.com/esnark/blowback",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Blowback Context"
 }

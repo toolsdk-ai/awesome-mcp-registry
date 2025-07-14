@@ -30,5 +30,6 @@
       "description": "http://localhost:11434",
       "required": true
     }
-  }
+  },
+  "name": "Docu MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/landicefu/mcp-client-configuration-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Configuration Manager MCP Server"
 }

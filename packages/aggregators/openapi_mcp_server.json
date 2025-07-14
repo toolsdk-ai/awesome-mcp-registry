@@ -5,5 +5,6 @@
   "url": "https://github.com/rahgadda/openapi_mcp_server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "OpenAPI MCP Server"
 }

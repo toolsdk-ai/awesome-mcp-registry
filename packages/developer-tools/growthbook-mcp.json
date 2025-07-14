@@ -22,5 +22,6 @@
       "description": "YOUR_NAME",
       "required": true
     }
-  }
+  },
+  "name": "GrowthBook MCP"
 }

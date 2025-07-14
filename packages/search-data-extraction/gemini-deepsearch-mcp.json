@@ -5,5 +5,6 @@
   "url": "https://github.com/alexcong/gemini-deepsearch-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Gemini DeepSearch MCP"
 }

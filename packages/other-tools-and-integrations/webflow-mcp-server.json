@@ -10,5 +10,6 @@
       "description": "<YOUR_WEBFLOW_TOKEN>",
       "required": true
     }
-  }
+  },
+  "name": "Webflow MCP Server"
 }

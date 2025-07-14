@@ -14,5 +14,6 @@
       "description": "你的-api-密钥",
       "required": true
     }
-  }
+  },
+  "name": "Elasticsearch MCP"
 }

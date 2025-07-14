@@ -18,5 +18,6 @@
       "description": "Neo4j database username",
       "required": true
     }
-  }
+  },
+  "name": "KnowledgeGraph MCP"
 }

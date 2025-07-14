@@ -14,5 +14,6 @@
       "description": "jira_base_url",
       "required": true
     }
-  }
+  },
+  "name": "Jira MCP Server"
 }

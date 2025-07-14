@@ -10,5 +10,6 @@
       "description": "YOUR_CLAY_API_KEY",
       "required": true
     }
-  }
+  },
+  "name": "Clay MCP"
 }

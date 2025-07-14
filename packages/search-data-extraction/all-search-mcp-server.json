@@ -26,5 +26,6 @@
       "description": "Your Azure OpenAI deployment name",
       "required": true
     }
-  }
+  },
+  "name": "VibeCoding LG MCP A2A"
 }

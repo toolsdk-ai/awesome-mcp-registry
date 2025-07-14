@@ -5,5 +5,6 @@
   "url": "https://github.com/supavec/mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Supavec MCP Server"
 }

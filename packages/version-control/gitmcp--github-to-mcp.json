@@ -5,5 +5,6 @@
   "url": "https://github.com/idosal/git-mcp",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Git MCP"
 }

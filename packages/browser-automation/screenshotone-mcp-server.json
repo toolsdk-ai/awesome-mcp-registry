@@ -5,5 +5,6 @@
   "url": "https://github.com/mrgoonie/screenshotone-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "ScreenshotOne MCP Server"
 }

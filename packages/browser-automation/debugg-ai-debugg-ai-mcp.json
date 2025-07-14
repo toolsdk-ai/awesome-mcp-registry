@@ -34,5 +34,6 @@
       "description": "/Users/you/project/index.ts",
       "required": true
     }
-  }
+  },
+  "name": "Debugg AI MCP"
 }

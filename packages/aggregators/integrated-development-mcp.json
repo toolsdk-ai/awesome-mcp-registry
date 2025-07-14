@@ -18,5 +18,6 @@
       "description": "Your Supabase anonymous key",
       "required": true
     }
-  }
+  },
+  "name": "Integrated Development MCP"
 }

@@ -14,5 +14,6 @@
       "description": "your-project-id.firebasestorage.app",
       "required": true
     }
-  }
+  },
+  "name": "Firebase MCP"
 }

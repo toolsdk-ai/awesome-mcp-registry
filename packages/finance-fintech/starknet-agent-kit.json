@@ -5,5 +5,6 @@
   "url": "https://github.com/kasarlabs/snak/tree/HEAD/mcp/snak",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Snak MCP"
 }

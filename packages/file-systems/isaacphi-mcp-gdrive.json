@@ -18,5 +18,6 @@
       "description": "/path/to/config/directory",
       "required": true
     }
-  }
+  },
+  "name": "Google Drive MCP"
 }

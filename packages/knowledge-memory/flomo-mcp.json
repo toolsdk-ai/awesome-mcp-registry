@@ -10,5 +10,6 @@
       "description": "https://flomoapp.com/iwh/xxx/xxx/",
       "required": true
     }
-  }
+  },
+  "name": "Flomo MCP"
 }

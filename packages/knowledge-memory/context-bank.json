@@ -5,5 +5,6 @@
   "url": "https://github.com/vulh1209/context-bank-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Context Bank MCP"
 }

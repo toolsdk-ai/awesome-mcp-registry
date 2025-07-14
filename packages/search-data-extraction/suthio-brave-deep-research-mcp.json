@@ -14,5 +14,6 @@
       "description": "true",
       "required": true
     }
-  }
+  },
+  "name": "Brave Deep Research MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/gbcui/horoscope-serve",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Horoscope Serve"
 }

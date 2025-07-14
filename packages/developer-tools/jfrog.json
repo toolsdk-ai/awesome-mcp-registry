@@ -5,5 +5,6 @@
   "url": "https://github.com/jfrog/mcp-jfrog",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "MCP JFrog"
 }

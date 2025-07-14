@@ -14,5 +14,6 @@
       "description": "<access_key>",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server"
 }

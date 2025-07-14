@@ -5,5 +5,6 @@
   "url": "https://github.com/21st-dev/magic-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Magic MCP"
 }

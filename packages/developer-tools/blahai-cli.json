@@ -14,5 +14,6 @@
       "description": "your_valtown_username",
       "required": true
     }
-  }
+  },
+  "name": "Blah MCP Server"
 }

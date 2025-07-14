@@ -7,8 +7,9 @@
   "license": "MIT",
   "env": {
     "SERPAPI_API_KEY": {
-      "description":"Add your SerpApi API key",
+      "description": "Add your SerpApi API key",
       "required": true
     }
-  }
+  },
+  "name": "SerpAPI MCP Server"
 }

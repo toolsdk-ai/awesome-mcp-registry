@@ -26,5 +26,6 @@
       "description": "24",
       "required": true
     }
-  }
+  },
+  "name": "Excel MCP Server"
 }

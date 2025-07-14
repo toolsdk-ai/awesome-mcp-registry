@@ -5,5 +5,6 @@
   "url": "https://github.com/catalystneuro/mcp_read_images",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Read Images MCP"
 }

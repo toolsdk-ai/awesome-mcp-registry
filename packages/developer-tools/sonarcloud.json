@@ -5,5 +5,6 @@
   "url": "https://github.com/dozzman/sonarcloud-mcp",
   "runtime": "node",
   "license": "agpl-3.0",
-  "env": {}
+  "env": {},
+  "name": "SonarCloud MCP"
 }

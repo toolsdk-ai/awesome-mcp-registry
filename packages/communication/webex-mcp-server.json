@@ -22,5 +22,6 @@
       "description": "Webex API token (without 'Bearer ' prefix)",
       "required": true
     }
-  }
+  },
+  "name": "Webex Messaging MCP Server"
 }

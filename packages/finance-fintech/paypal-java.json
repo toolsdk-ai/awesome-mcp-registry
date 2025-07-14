@@ -5,5 +5,6 @@
   "url": "https://github.com/kumartheashwani/paypal-java-mcp-server",
   "runtime": "java",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PayPal Java MCP Server"
 }

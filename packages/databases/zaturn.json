@@ -5,5 +5,6 @@
   "url": "https://github.com/kdqed/zaturn",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Zaturn"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/kmwebnet/mcp-server-for-sensor-device",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server for Sensor Device"
 }

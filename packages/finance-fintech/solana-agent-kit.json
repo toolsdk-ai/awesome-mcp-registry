@@ -5,5 +5,6 @@
   "url": "https://github.com/sendaifun/solana-agent-kit",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Solana Agent Kit"
 }

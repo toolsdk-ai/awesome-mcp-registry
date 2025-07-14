@@ -5,5 +5,6 @@
   "url": "https://github.com/pride-archive/mcp_pride_archive_search",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Pride Archive Search MCP"
 }

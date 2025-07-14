@@ -5,5 +5,6 @@
   "url": "https://github.com/bright8192/esxi-mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "ESXi MCP Server"
 }

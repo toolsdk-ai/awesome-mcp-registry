@@ -10,5 +10,6 @@
       "description": "Access token for authenticating with the S2 API",
       "required": true
     }
-  }
+  },
+  "name": "S2 SDK TypeScript MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/ahmad2x4/mcp-server-seq",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Seq MCP Server"
 }

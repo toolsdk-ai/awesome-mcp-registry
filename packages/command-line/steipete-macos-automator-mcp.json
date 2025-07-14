@@ -10,5 +10,6 @@
       "description": "DEBUG",
       "required": true
     }
-  }
+  },
+  "name": "MacOS Automator MCP"
 }

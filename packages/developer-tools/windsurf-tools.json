@@ -5,5 +5,6 @@
   "url": "https://github.com/yeakub108/mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP Server"
 }

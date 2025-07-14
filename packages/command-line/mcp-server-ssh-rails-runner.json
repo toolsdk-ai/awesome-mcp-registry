@@ -30,5 +30,6 @@
       "description": "/path/to/store/code/snippets/locally",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server SSH Rails Runner"
 }

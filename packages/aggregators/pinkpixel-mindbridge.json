@@ -26,5 +26,6 @@
       "description": "OPENROUTER_API_KEY_HERE",
       "required": true
     }
-  }
+  },
+  "name": "MindBridge MCP"
 }

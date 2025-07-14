@@ -5,5 +5,6 @@
   "url": "https://github.com/kush36agrawal/video_editor_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Video Editor MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/cyberbalsa/mcp-opensearch-js",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "OpenSearch MCP Analytics"
 }

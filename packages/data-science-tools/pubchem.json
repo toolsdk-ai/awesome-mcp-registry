@@ -5,5 +5,6 @@
   "url": "https://github.com/augmented-nature/pubchem-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "PubChem MCP Server"
 }

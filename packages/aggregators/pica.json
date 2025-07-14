@@ -10,5 +10,6 @@
       "description": "Your Pica secret key obtained from the Pica dashboard (https://app.picaos.com/settings/api-keys)",
       "required": true
     }
-  }
+  },
+  "name": "Pica MCP"
 }

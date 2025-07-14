@@ -14,5 +14,6 @@
       "description": "<IMGFLIP PASSWORD>",
       "required": true
     }
-  }
+  },
+  "name": "Meme MCP"
 }

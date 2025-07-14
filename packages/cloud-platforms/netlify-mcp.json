@@ -10,5 +10,6 @@
       "description": "YOUR-PAT-VALUE",
       "required": true
     }
-  }
+  },
+  "name": "Netlify MCP"
 }

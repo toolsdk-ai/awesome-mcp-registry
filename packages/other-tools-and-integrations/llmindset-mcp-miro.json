@@ -10,5 +10,6 @@
       "description": "Authentication token for Miro API access (can also be provided via --token argument)",
       "required": true
     }
-  }
+  },
+  "name": "MCP MIRO"
 }

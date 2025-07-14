@@ -5,5 +5,6 @@
   "url": "https://github.com/nftgo/mcp-nftgo-api",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "NFTGo MCP API"
 }

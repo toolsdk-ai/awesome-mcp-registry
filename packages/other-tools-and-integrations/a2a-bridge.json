@@ -5,5 +5,6 @@
   "url": "https://github.com/tesla0225/mcp-a2a",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "A2A Bridge"
 }

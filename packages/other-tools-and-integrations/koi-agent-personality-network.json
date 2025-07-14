@@ -5,5 +5,6 @@
   "url": "https://github.com/blockscience/koi-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "KOI MCP"
 }

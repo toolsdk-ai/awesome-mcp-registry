@@ -10,5 +10,6 @@
       "description": "af_bella",
       "required": true
     }
-  }
+  },
+  "name": "Koroko Speech MCP"
 }

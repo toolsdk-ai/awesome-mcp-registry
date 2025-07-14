@@ -5,5 +5,6 @@
   "url": "https://github.com/zenmemoryai/zenmemory-mcp-sol",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "ZenMemory MCP Solana"
 }

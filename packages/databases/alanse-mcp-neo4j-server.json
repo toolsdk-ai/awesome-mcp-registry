@@ -22,5 +22,6 @@
       "description": "neo4j",
       "required": true
     }
-  }
+  },
+  "name": "Neo4j MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/meterlong/mcp-doc",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "DocxProcessor MCP"
 }

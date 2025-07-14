@@ -18,5 +18,6 @@
       "description": "optional-default-database",
       "required": true
     }
-  }
+  },
+  "name": "Turso Cloud MCP"
 }

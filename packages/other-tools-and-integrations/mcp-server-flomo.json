@@ -10,5 +10,6 @@
       "description": "Get your Flomo API URL from [Flomo API Settings](https://v.flomoapp.com/mine)",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server Flomo"
 }

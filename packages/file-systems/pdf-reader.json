@@ -5,5 +5,6 @@
   "url": "https://github.com/trafflux/pdf-reader-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PDF Reader MCP"
 }

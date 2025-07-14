@@ -10,5 +10,6 @@
       "description": "YOUR_DO_TOKEN",
       "required": true
     }
-  }
+  },
+  "name": "DigitalOcean MCP"
 }

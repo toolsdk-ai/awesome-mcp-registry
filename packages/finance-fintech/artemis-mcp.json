@@ -5,5 +5,6 @@
   "url": "https://github.com/artemis-xyz/artemis-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Artemis MCP"
 }

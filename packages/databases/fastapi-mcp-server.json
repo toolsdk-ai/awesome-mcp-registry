@@ -38,5 +38,6 @@
       "description": "PostgreSQL connection URL for non-pooling connections",
       "required": true
     }
-  }
+  },
+  "name": "FastAPI MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/joshuatanderson/factbook-mcp",
   "runtime": "node",
   "license": "other",
-  "env": {}
+  "env": {},
+  "name": "Factbook MCP"
 }

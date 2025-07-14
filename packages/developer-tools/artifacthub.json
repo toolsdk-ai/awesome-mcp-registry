@@ -5,5 +5,6 @@
   "url": "https://github.com/alexw00/artifacthub-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Artifact Hub MCP"
 }

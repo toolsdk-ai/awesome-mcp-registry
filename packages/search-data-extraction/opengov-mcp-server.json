@@ -10,5 +10,6 @@
       "description": "https://data.cityofchicago.org",
       "required": true
     }
-  }
+  },
+  "name": "OpenGov MCP Server"
 }

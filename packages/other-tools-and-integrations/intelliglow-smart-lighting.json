@@ -5,5 +5,6 @@
   "url": "https://github.com/shree-bd/intelliglow-ai-voice-mcp-iot-platform",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "IntelliGlow AI Voice MCP IoT Platform"
 }

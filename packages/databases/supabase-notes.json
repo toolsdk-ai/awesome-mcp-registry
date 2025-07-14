@@ -5,5 +5,6 @@
   "url": "https://github.com/tengfone/supabase-nextjs-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Supabase Next.js MCP Server"
 }

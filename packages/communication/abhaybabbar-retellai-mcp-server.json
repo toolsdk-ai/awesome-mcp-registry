@@ -10,5 +10,6 @@
       "description": "<your_retellai_token>",
       "required": true
     }
-  }
+  },
+  "name": "RetellAI MCP Server"
 }

@@ -18,5 +18,6 @@
       "description": "your-local-server-password",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server"
 }

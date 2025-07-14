@@ -22,5 +22,6 @@
       "description": "<可选配置，资源生成后的提供方式, [url|local], 默认为 url>",
       "required": true
     }
-  }
+  },
+  "name": "MiniMax MCP JS"
 }

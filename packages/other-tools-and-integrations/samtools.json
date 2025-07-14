@@ -5,5 +5,6 @@
   "url": "https://github.com/sirusb/samtools_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Samtools MCP"
 }

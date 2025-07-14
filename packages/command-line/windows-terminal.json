@@ -5,5 +5,6 @@
   "url": "https://github.com/capecoma/winterm-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Winterm MCP"
 }

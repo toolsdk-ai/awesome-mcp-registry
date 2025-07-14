@@ -5,5 +5,6 @@
   "url": "https://github.com/robinong79/mcp-cosmos",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Cosmos MCP"
 }

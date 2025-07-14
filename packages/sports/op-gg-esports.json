@@ -5,5 +5,6 @@
   "url": "https://github.com/opgginc/esports-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Esports MCP"
 }

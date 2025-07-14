@@ -14,5 +14,6 @@
       "description": "<Your Base URL>",
       "required": true
     }
-  }
+  },
+  "name": "DeepSeek Thinker MCP"
 }

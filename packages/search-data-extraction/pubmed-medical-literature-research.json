@@ -5,5 +5,6 @@
   "url": "https://github.com/felixwu1110/pubmed_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PubMed MCP"
 }

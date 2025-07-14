@@ -10,5 +10,6 @@
       "description": "stdio",
       "required": true
     }
-  }
+  },
+  "name": "Wait MCP"
 }

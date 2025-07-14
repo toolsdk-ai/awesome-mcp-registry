@@ -5,5 +5,6 @@
   "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/cloudflare-one-casb",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Cloudflare One CASB"
 }

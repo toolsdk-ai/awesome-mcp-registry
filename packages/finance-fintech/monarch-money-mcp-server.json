@@ -22,5 +22,6 @@
       "description": "Set to 'true' to force a fresh login if needed",
       "required": true
     }
-  }
+  },
+  "name": "Monarch Money MCP"
 }

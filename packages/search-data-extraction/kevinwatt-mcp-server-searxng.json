@@ -18,5 +18,6 @@
       "description": "0",
       "required": true
     }
-  }
+  },
+  "name": "SearXNG MCP Server"
 }

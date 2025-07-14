@@ -10,5 +10,6 @@
       "description": "your-email@example.com",
       "required": true
     }
-  }
+  },
+  "name": "MCP IPFS"
 }

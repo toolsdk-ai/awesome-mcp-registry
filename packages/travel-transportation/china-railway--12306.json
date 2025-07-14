@@ -5,5 +5,6 @@
   "url": "https://github.com/other-blowsnow/mcp-server-chinarailway",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "China Railway 12306 MCP Server"
 }

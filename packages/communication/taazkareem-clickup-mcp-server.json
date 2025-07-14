@@ -18,5 +18,6 @@
       "description": "true",
       "required": true
     }
-  }
+  },
+  "name": "ClickUp MCP Server"
 }

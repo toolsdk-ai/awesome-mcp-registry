@@ -10,5 +10,6 @@
       "description": "<your pinecone api key>",
       "required": true
     }
-  }
+  },
+  "name": "Pinecone MCP"
 }

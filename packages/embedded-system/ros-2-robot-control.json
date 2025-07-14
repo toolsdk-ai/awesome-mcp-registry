@@ -5,5 +5,6 @@
   "url": "https://github.com/kakimochi/ros2-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "ROS 2 MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/mcollina/perm-shell-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Perm Shell MCP"
 }

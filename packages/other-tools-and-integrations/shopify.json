@@ -5,5 +5,6 @@
   "url": "https://github.com/tanush-yadav/shopify-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Shopify MCP"
 }

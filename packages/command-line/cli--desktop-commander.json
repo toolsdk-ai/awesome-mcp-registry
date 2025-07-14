@@ -5,5 +5,6 @@
   "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Desktop Commander MCP"
 }

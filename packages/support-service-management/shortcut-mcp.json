@@ -10,5 +10,6 @@
       "description": "<YOUR_SHORTCUT_API_TOKEN>",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server Shortcut"
 }

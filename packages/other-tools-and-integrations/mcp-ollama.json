@@ -5,5 +5,6 @@
   "url": "https://github.com/emgeee/mcp-ollama",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Ollama"
 }

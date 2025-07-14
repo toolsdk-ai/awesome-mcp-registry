@@ -10,5 +10,6 @@
       "description": "http://127.0.0.1:10101",
       "required": true
     }
-  }
+  },
+  "name": "AivisSpeech TTS MCP"
 }

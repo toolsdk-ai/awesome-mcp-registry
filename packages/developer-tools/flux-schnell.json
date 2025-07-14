@@ -5,5 +5,6 @@
   "url": "https://github.com/m-mcp/flux-schnell-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Flux Schnell Server"
 }

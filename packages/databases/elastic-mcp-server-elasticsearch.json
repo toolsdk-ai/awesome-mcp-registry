@@ -14,5 +14,6 @@
       "description": "<your-api-key>",
       "required": true
     }
-  }
+  },
+  "name": "Elasticsearch MCP Server"
 }

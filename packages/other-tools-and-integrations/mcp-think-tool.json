@@ -5,5 +5,6 @@
   "url": "https://github.com/dannymac180/mcp-think-tool",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Think Tool"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/kartha-ai/agentcare-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "AgentCare MCP"
 }

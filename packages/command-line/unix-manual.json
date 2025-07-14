@@ -5,5 +5,6 @@
   "url": "https://github.com/tizee/mcp-unix-manual",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Unix Manual MCP"
 }

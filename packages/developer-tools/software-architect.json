@@ -5,5 +5,6 @@
   "url": "https://github.com/squirrelogic/mcp-architect",
   "runtime": "node",
   "license": "isc",
-  "env": {}
+  "env": {},
+  "name": "MCP Architect"
 }

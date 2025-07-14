@@ -5,5 +5,6 @@
   "url": "https://github.com/agentic-ops/real-estate-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Real Estate MCP"
 }

@@ -26,5 +26,6 @@
       "description": "YOUR_API_KEY",
       "required": true
     }
-  }
+  },
+  "name": "One Search MCP"
 }

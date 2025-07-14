@@ -5,5 +5,6 @@
   "url": "https://github.com/tanevanwifferen/usescraper-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "UseScraper MCP Server"
 }

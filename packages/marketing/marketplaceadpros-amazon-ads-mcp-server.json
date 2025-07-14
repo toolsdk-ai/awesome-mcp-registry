@@ -10,5 +10,6 @@
       "description": "abcdefghijklmnop",
       "required": true
     }
-  }
+  },
+  "name": "Amazon Ads MCP Server"
 }

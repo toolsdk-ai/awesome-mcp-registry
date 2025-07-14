@@ -5,5 +5,6 @@
   "url": "https://github.com/awslabs/mcp/tree/HEAD/src/nova-canvas-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Nova Canvas MCP Server"
 }

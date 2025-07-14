@@ -5,5 +5,6 @@
   "url": "https://github.com/yuru-sha/mcp-server-dify",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Dify"
 }

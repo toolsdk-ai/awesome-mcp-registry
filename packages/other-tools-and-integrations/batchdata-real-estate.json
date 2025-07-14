@@ -5,5 +5,6 @@
   "url": "https://github.com/zellerhaus/batchdata-mcp-real-estate",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Batchdata MCP Real Estate"
 }

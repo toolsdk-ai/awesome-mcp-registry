@@ -5,5 +5,6 @@
   "url": "https://github.com/webdevtodayjason/slim-mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Slim MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/skyvern-ai/skyvern/tree/HEAD/integrations/mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Skyvern MCP"
 }

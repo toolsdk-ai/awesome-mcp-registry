@@ -5,5 +5,6 @@
   "url": "https://github.com/securfi/rapidapi_mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "RapidAPI MCP"
 }

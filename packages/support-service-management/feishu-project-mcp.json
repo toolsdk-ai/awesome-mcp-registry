@@ -18,5 +18,6 @@
       "description": "https://project.feishu.cn/open_api",
       "required": true
     }
-  }
+  },
+  "name": "Feishu Project MCP"
 }

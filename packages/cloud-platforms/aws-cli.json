@@ -5,5 +5,6 @@
   "url": "https://github.com/icykallen/aws-cli-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "AWS CLI MCP Server"
 }

@@ -14,5 +14,6 @@
       "description": "your-api-token",
       "required": true
     }
-  }
+  },
+  "name": "Coolify MCP Server"
 }

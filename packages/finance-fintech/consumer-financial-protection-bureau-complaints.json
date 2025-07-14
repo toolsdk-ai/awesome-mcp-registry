@@ -5,5 +5,6 @@
   "url": "https://github.com/ingeniousidiocy/consumer-complaint-database-mcp",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Consumer Complaint Database MCP"
 }

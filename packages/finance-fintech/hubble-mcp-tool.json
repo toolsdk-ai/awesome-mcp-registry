@@ -10,5 +10,6 @@
       "description": "your_api_key",
       "required": true
     }
-  }
+  },
+  "name": "Hubble AI MCP"
 }

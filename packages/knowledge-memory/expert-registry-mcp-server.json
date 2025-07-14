@@ -22,5 +22,6 @@
       "description": "Path to your expert system directory containing registry, expert-contexts, and performance directories",
       "required": true
     }
-  }
+  },
+  "name": "Expert Registry MCP Server"
 }

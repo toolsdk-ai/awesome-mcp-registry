@@ -5,5 +5,6 @@
   "url": "https://github.com/ravenwits/mcp-server-arangodb",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "ArangoDB MCP Server"
 }

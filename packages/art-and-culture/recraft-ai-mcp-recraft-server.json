@@ -18,5 +18,6 @@
       "description": "<YOUR_REMOTE_RESULTS_STORAGE_INDICATOR>",
       "required": true
     }
-  }
+  },
+  "name": "Recraft MCP Server"
 }

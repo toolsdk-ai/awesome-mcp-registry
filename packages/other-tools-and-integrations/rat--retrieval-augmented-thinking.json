@@ -5,5 +5,6 @@
   "url": "https://github.com/newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "DeepSeek Thinking Claude 3.5 Sonnet Cline MCP"
 }

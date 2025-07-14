@@ -14,5 +14,6 @@
       "description": "AWS region to use",
       "required": true
     }
-  }
+  },
+  "name": "Nova Canvas MCP Server"
 }

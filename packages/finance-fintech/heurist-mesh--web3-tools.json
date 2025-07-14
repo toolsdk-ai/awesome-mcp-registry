@@ -5,5 +5,6 @@
   "url": "https://github.com/heurist-network/heurist-mesh-mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Heurist Mesh MCP Server"
 }

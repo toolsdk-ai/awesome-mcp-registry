@@ -5,5 +5,6 @@
   "url": "https://github.com/grandmastr/chronos-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Chronos MCP"
 }

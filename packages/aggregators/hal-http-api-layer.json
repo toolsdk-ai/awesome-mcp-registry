@@ -54,5 +54,6 @@
       "description": "Secret GitHub token for secure substitution in requests",
       "required": true
     }
-  }
+  },
+  "name": "HAL HTTP API Layer"
 }

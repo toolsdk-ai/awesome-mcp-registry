@@ -5,5 +5,6 @@
   "url": "https://github.com/sitbon/magg",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Magg MCP Server"
 }

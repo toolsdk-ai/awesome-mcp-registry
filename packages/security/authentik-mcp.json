@@ -14,5 +14,6 @@
       "description": "The URL of your Authentik instance",
       "required": true
     }
-  }
+  },
+  "name": "Authentik MCP"
 }

@@ -18,5 +18,6 @@
       "description": "your-api-key",
       "required": true
     }
-  }
+  },
+  "name": "Taskqueue MCP"
 }

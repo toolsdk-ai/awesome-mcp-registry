@@ -5,5 +5,6 @@
   "url": "https://github.com/tanigami/mcp-server-perplexity",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Perplexity MCP Server"
 }

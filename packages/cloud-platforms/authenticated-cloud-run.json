@@ -5,5 +5,6 @@
   "url": "https://github.com/the-freetech-company/mcp-sse-authenticated-cloud-run",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "SSE Authenticated Cloud Run"
 }

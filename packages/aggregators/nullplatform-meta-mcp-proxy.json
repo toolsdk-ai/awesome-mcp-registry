@@ -14,5 +14,6 @@
       "description": "value2",
       "required": true
     }
-  }
+  },
+  "name": "Meta MCP Proxy"
 }

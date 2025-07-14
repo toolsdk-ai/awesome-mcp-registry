@@ -5,5 +5,6 @@
   "url": "https://github.com/trap-jp/mcp-traq",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP traQ Bridge"
 }

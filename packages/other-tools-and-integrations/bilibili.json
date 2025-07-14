@@ -5,5 +5,6 @@
   "url": "https://github.com/mr-house/bilibili-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Bilibili MCP Server"
 }

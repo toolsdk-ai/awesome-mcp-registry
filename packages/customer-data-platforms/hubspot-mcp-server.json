@@ -10,5 +10,6 @@
       "description": "<your-private-app-access-token>",
       "required": true
     }
-  }
+  },
+  "name": "HubSpot MCP Server"
 }

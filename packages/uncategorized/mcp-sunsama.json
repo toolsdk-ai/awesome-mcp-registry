@@ -14,5 +14,6 @@
       "description": "your-password",
       "required": true
     }
-  }
+  },
+  "name": "Sunsama MCP"
 }

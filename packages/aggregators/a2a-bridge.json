@@ -5,5 +5,6 @@
   "url": "https://github.com/regismesquita/mcp_a2a",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "A2A Bridge"
 }

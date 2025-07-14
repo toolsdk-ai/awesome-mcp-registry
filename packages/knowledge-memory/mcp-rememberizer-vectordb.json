@@ -10,5 +10,6 @@
       "description": "API token for Rememberizer Vector Store",
       "required": true
     }
-  }
+  },
+  "name": "Rememberizer Vector Store MCP"
 }

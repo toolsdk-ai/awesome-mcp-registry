@@ -10,5 +10,6 @@
       "description": "API key for Perplexity API access",
       "required": true
     }
-  }
+  },
+  "name": "Perplexity MCP Server"
 }

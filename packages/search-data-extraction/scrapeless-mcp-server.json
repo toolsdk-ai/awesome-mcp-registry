@@ -10,5 +10,6 @@
       "description": "YOUR_SCRAPELESS_KEY",
       "required": true
     }
-  }
+  },
+  "name": "Scrapeless MCP Server"
 }

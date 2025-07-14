@@ -18,5 +18,6 @@
       "description": "Base URL for the shipping API",
       "required": true
     }
-  }
+  },
+  "name": "Guoguo MCP Python"
 }

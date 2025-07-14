@@ -14,5 +14,6 @@
       "description": "--max-old-space-size=256",
       "required": true
     }
-  }
+  },
+  "name": "MCP Codex Keeper"
 }

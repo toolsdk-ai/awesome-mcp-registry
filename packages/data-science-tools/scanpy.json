@@ -5,5 +5,6 @@
   "url": "https://github.com/huang-sh/scmcp",
   "runtime": "python",
   "license": "bsd-3-clause",
-  "env": {}
+  "env": {},
+  "name": "Scanpy MCP"
 }

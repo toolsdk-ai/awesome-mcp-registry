@@ -10,5 +10,6 @@
       "description": "your_key_here",
       "required": true
     }
-  }
+  },
+  "name": "EverArt MCP Server"
 }

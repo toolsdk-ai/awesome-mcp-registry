@@ -5,5 +5,6 @@
   "url": "https://github.com/ginkgoo-ai/be-core-mcp",
   "runtime": "java",
   "license": "other",
-  "env": {}
+  "env": {},
+  "name": "BE Core MCP"
 }

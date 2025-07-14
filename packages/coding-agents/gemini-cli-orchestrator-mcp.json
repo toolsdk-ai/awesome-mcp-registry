@@ -10,5 +10,6 @@
       "description": "Path to the Gemini CLI executable. If not provided, the tool will attempt to automatically find it.",
       "required": true
     }
-  }
+  },
+  "name": "Gemini CLI Orchestrator MCP"
 }

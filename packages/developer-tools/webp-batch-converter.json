@@ -5,5 +5,6 @@
   "url": "https://github.com/mhe8mah/webp-batch-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "WebP Batch MCP"
 }

@@ -10,5 +10,6 @@
       "description": "Your Semantic Scholar API key for higher rate limits. Without an API key, you're limited to 100 requests per 5 minutes.",
       "required": true
     }
-  }
+  },
+  "name": "Semantic Scholar MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/cr2007/mcp-wordle-go",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Wordle MCP"
 }

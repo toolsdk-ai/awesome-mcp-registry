@@ -5,5 +5,6 @@
   "url": "https://github.com/z4none/rapidocr-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "RapidOCR MCP"
 }

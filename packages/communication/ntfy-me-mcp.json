@@ -10,5 +10,6 @@
       "description": "your-topic-name",
       "required": true
     }
-  }
+  },
+  "name": "ntfy me mcp"
 }

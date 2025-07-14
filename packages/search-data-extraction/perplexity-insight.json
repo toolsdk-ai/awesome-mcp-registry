@@ -5,5 +5,6 @@
   "url": "https://github.com/theolawrence86/perplexity-insight-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Perplexity Insight MCP"
 }

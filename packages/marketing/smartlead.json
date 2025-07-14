@@ -5,5 +5,6 @@
   "url": "https://github.com/jean-technologies/smartlead-mcp-server-local",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Smartlead MCP Server"
 }

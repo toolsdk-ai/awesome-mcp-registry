@@ -5,5 +5,6 @@
   "url": "https://github.com/super-i-tech/mcp_plexus",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "MCP Plexus"
 }

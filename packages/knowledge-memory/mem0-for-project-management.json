@@ -5,5 +5,6 @@
   "url": "https://github.com/kunihiros/mem0-mcp-for-pm",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Mem0 MCP for Project Management"
 }

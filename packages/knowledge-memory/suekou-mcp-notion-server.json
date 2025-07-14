@@ -10,5 +10,6 @@
       "description": "your-integration-token",
       "required": true
     }
-  }
+  },
+  "name": "Notion MCP Server"
 }

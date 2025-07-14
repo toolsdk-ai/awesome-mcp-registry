@@ -5,5 +5,6 @@
   "url": "https://github.com/cpage-pivotal/loot-mcp",
   "runtime": "java",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Loot MCP"
 }

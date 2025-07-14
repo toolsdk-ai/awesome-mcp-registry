@@ -5,5 +5,6 @@
   "url": "https://github.com/flow-product/doubao-search-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Doubao Search MCP"
 }

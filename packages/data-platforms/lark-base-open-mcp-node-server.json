@@ -5,5 +5,6 @@
   "url": "https://github.com/lark-base-team/lark-base-mcp-node-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Lark Base MCP Node Server"
 }

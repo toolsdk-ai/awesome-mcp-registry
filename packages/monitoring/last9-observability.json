@@ -5,5 +5,6 @@
   "url": "https://github.com/last9/last9-mcp-server",
   "runtime": "go",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Last9 MCP Server"
 }

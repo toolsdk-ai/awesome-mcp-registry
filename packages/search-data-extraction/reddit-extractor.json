@@ -5,5 +5,6 @@
   "url": "https://github.com/cmpxchg16/mcp-ethical-hacking/tree/HEAD/reddit-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Reddit MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/madosh/mcp-itsm",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "ITSM Integration MCP"
 }

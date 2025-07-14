@@ -5,5 +5,6 @@
   "url": "https://github.com/epicweb-dev/device-country-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Device Country MCP"
 }

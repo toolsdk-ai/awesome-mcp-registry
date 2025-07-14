@@ -5,5 +5,6 @@
   "url": "https://github.com/guanxinyuan/neo4j",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Neo4j MCP"
 }

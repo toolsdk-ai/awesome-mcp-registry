@@ -26,5 +26,6 @@
       "description": "Categoría de tabla por defecto",
       "required": true
     }
-  }
+  },
+  "name": "MCP n8n Webhook Server"
 }

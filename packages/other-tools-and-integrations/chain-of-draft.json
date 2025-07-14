@@ -5,5 +5,6 @@
   "url": "https://github.com/stat-guy/chain-of-draft",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Chain of Draft"
 }

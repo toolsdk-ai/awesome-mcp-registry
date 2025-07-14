@@ -5,5 +5,6 @@
   "url": "https://github.com/markomitranic/mcp-vegalite-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "VegaLite MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/akrasia0/s-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Stern MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/joshuayoes/ios-simulator-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "iOS Simulator MCP"
 }

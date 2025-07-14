@@ -14,5 +14,6 @@
       "description": "Enable advanced SmartLead tools",
       "required": true
     }
-  }
+  },
+  "name": "SmartLead MCP Server"
 }

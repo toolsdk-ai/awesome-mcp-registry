@@ -5,5 +5,6 @@
   "url": "https://github.com/zerubroberts/safetyculture-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "SafetyCulture MCP Server"
 }

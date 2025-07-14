@@ -5,5 +5,6 @@
   "url": "https://github.com/lyuhau/claude-mcp-repl",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Claude MCP REPL"
 }

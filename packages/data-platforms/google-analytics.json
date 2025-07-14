@@ -5,5 +5,6 @@
   "url": "https://github.com/ruchernchong/mcp-server-google-analytics",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Google Analytics MCP Server"
 }

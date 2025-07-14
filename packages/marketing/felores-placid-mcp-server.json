@@ -10,5 +10,6 @@
       "description": "your-api-token",
       "required": true
     }
-  }
+  },
+  "name": "Placid MCP Server"
 }

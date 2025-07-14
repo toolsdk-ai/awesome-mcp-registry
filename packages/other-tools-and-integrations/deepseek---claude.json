@@ -5,5 +5,6 @@
   "url": "https://github.com/niko91i/mcp-deepseek-v3-et-claude-desktop",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP DeepSeek v3 et Claude Desktop"
 }

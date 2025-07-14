@@ -5,5 +5,6 @@
   "url": "https://github.com/zilliztech/mcp-server-milvus",
   "runtime": "python",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Milvus Vector Database MCP Server"
 }

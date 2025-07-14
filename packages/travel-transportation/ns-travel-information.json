@@ -5,5 +5,6 @@
   "url": "https://github.com/r-huijts/ns-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "NS MCP Server"
 }

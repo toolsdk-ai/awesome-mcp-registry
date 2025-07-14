@@ -10,5 +10,6 @@
       "description": "your twelve word seed phrase here",
       "required": true
     }
-  }
+  },
+  "name": "Polygon MCP"
 }

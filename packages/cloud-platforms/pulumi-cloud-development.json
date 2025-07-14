@@ -5,5 +5,6 @@
   "url": "https://github.com/didlawowo/mcp-collection",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Collection"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/burakdirin/mysqldb-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MySQL DB MCP Server"
 }

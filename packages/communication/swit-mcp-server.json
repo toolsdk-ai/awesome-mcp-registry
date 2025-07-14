@@ -26,5 +26,6 @@
       "description": "Your Swit client secret from the Swit Developer Console",
       "required": true
     }
-  }
+  },
+  "name": "Swit MCP Server"
 }

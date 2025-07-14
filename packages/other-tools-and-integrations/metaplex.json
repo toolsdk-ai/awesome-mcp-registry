@@ -5,5 +5,6 @@
   "url": "https://github.com/aldrin-labs/metaplex-mcp-server",
   "runtime": "node",
   "license": "unlicense",
-  "env": {}
+  "env": {},
+  "name": "Metaplex MCP Server"
 }

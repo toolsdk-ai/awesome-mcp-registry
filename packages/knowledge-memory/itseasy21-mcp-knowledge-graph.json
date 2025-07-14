@@ -10,5 +10,6 @@
       "description": "/path/to/your/projects.jsonl",
       "required": true
     }
-  }
+  },
+  "name": "MCP Knowledge Graph"
 }

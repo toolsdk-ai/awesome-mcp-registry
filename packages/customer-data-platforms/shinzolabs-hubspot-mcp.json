@@ -10,5 +10,6 @@
       "description": "your-access-token-here",
       "required": true
     }
-  }
+  },
+  "name": "HubSpot MCP"
 }

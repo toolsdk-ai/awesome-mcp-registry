@@ -5,5 +5,6 @@
   "url": "https://github.com/wuyunmei/momedb-mcp",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Momedb MCP"
 }

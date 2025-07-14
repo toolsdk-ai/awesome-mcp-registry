@@ -5,5 +5,6 @@
   "url": "https://github.com/cteaminfo/mcp-superiorapis",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Superior APIs MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/emmron/gemini-mcp",
   "runtime": "node",
   "license": "gpl-3.0",
-  "env": {}
+  "env": {},
+  "name": "Gemini MCP"
 }

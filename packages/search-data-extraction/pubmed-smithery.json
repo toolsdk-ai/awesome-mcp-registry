@@ -5,5 +5,6 @@
   "url": "https://github.com/leescot/pubmed-mcp-smithery",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "PubMed Smithery MCP"
 }

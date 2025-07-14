@@ -5,5 +5,6 @@
   "url": "https://github.com/eiliyaabedini/aider-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Aider MCP"
 }

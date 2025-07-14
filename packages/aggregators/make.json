@@ -5,5 +5,6 @@
   "url": "https://github.com/3rzy/make-mcp-integration-issue",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Make MCP Integration"
 }

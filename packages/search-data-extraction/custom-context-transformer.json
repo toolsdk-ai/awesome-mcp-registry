@@ -5,5 +5,6 @@
   "url": "https://github.com/omer-ayhan/custom-context-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Custom Context MCP"
 }

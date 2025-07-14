@@ -5,5 +5,6 @@
   "url": "https://github.com/aallsbury/qb-time-mcp-server",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "QB Time MCP Server"
 }

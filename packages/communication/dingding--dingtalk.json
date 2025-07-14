@@ -5,5 +5,6 @@
   "url": "https://github.com/hundunonline/mcp-dingdingbot-server",
   "runtime": "go",
   "license": "gpl-3.0",
-  "env": {}
+  "env": {},
+  "name": "DingDing MCP Server"
 }

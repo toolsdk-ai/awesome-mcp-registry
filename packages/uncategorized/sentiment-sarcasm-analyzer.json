@@ -10,5 +10,6 @@
       "description": "Your Hugging Face token",
       "required": true
     }
-  }
+  },
+  "name": "Sentiment MCP"
 }

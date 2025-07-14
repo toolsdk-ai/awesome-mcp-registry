@@ -5,5 +5,6 @@
   "url": "https://github.com/marcelmarais/obsidian-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Obsidian MCP Server"
 }

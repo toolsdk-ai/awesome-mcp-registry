@@ -5,5 +5,6 @@
   "url": "https://github.com/aantti/mcp-netbird",
   "runtime": "go",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "Netbird MCP"
 }

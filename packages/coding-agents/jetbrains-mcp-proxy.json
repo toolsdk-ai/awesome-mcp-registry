@@ -10,5 +10,6 @@
       "description": "<port of IDE's built-in webserver>",
       "required": true
     }
-  }
+  },
+  "name": "MCP JetBrains"
 }

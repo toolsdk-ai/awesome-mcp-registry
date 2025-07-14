@@ -14,5 +14,6 @@
       "description": "https://gitlab.com/api/v4",
       "required": true
     }
-  }
+  },
+  "name": "GitLab MCP Server"
 }

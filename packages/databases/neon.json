@@ -5,5 +5,6 @@
   "url": "https://github.com/neondatabase-labs/mcp-server-neon",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Neon"
 }

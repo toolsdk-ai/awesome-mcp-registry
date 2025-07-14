@@ -5,5 +5,6 @@
   "url": "https://github.com/toolhouse-community/mcp-server-toolhouse",
   "runtime": "python",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Toolhouse"
 }

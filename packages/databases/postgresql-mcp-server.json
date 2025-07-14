@@ -10,5 +10,6 @@
       "description": "PostgreSQL URL (e.g. postgresql://user:pass@localhost:5432/mydb)",
       "required": true
     }
-  }
+  },
+  "name": "MCP Postgres"
 }

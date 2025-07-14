@@ -5,5 +5,6 @@
   "url": "https://github.com/tokeii0/memprocfs-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MemprocFS MCP Server"
 }

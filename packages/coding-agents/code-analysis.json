@@ -5,5 +5,6 @@
   "url": "https://github.com/saiprashanths/code-analysis-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Code Analysis MCP"
 }

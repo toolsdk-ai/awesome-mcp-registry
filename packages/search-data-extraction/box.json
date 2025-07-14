@@ -5,5 +5,6 @@
   "url": "https://github.com/box-community/mcp-server-box",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Box MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/tosin2013/mcp-codebase-insight",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Codebase Insight MCP"
 }

@@ -26,5 +26,6 @@
       "description": "Your Nango integration ID for Asana",
       "required": true
     }
-  }
+  },
+  "name": "Asana MCP"
 }

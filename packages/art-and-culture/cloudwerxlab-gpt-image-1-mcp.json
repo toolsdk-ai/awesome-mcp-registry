@@ -14,5 +14,6 @@
       "description": "OPTIONAL: PATH TO SAVE GENERATED IMAGES",
       "required": true
     }
-  }
+  },
+  "name": "GPT Image 1 MCP"
 }

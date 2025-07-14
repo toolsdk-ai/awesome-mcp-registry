@@ -26,5 +26,6 @@
       "description": "Your Mingdao application key",
       "required": true
     }
-  }
+  },
+  "name": "Hap MCP Server"
 }

@@ -10,5 +10,6 @@
       "description": "Your Haloscan API key from the Configuration API page",
       "required": true
     }
-  }
+  },
+  "name": "Haloscan MCP Server"
 }

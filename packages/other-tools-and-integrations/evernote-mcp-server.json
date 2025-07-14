@@ -14,5 +14,6 @@
       "description": "Your Evernote Developer Token required for authentication",
       "required": true
     }
-  }
+  },
+  "name": "Evernote MCP"
 }

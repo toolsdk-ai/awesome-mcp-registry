@@ -5,5 +5,6 @@
   "url": "https://github.com/wheattoast11/mcp-video-gen",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "RunwayML Luma AI Video Gen"
 }

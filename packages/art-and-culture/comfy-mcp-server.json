@@ -5,5 +5,6 @@
   "url": "https://github.com/lalanikarim/comfy-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Comfy MCP Server"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/falkordb/falkordb-mcpserver",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "FalkorDB MCP Server"
 }

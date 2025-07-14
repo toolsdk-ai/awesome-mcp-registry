@@ -5,5 +5,6 @@
   "url": "https://github.com/setkyar/youtube-subtitles-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "YouTube Subtitles MCP"
 }

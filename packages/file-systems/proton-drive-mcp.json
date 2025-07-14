@@ -10,5 +10,6 @@
       "description": "Custom path to your Proton Drive location if not in the standard location",
       "required": true
     }
-  }
+  },
+  "name": "Proton Drive MCP"
 }

@@ -10,5 +10,6 @@
       "description": "<API KEY>",
       "required": true
     }
-  }
+  },
+  "name": "Together MCP Server"
 }

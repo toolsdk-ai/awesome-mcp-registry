@@ -5,5 +5,6 @@
   "url": "https://github.com/sirosuzume/mcp-ts-morph",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "TS Morph MCP"
 }

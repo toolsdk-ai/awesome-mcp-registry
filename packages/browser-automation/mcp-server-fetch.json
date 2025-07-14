@@ -5,5 +5,6 @@
   "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/fetch",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Fetch MCP Server"
 }

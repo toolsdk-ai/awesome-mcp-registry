@@ -14,5 +14,6 @@
       "description": "your_private_key_here",
       "required": true
     }
-  }
+  },
+  "name": "Base MCP Server"
 }

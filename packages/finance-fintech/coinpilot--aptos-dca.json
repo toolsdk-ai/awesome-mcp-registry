@@ -5,5 +5,6 @@
   "url": "https://github.com/sparsh0006/mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Coinpilot Aptos DCA"
 }

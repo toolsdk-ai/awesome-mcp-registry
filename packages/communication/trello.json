@@ -5,5 +5,6 @@
   "url": "https://github.com/v4lheru/trello-mcp-server",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Trello MCP Server"
 }

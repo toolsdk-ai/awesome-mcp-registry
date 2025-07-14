@@ -5,5 +5,6 @@
   "url": "https://github.com/garethcott/enhanced-postgres-mcp-server",
   "runtime": "node",
   "license": "other",
-  "env": {}
+  "env": {},
+  "name": "Enhanced PostgreSQL MCP Server"
 }

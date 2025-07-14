@@ -5,5 +5,6 @@
   "url": "https://github.com/surescaleai/openai-gpt-image-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "OpenAI GPT Image MCP"
 }

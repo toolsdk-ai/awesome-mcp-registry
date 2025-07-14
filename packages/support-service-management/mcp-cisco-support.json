@@ -34,5 +34,6 @@
       "description": "Disables HTTP authentication entirely (development/testing only)",
       "required": true
     }
-  }
+  },
+  "name": "MCP Cisco Support"
 }

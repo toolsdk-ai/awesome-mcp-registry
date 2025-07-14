@@ -5,5 +5,6 @@
   "url": "https://github.com/markpitt/freeagent-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "FreeAgent MCP"
 }

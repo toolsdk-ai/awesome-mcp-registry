@@ -5,5 +5,6 @@
   "url": "https://github.com/ipvr9/mcp-limitless-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Limitless Server MCP"
 }

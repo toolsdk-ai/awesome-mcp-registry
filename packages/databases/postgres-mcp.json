@@ -5,5 +5,6 @@
   "url": "https://github.com/crystaldba/postgres-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Postgres MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/siddhant-k-code/mcp-devto-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Dev.to MCP Server"
 }

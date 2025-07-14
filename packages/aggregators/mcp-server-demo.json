@@ -14,5 +14,6 @@
       "description": "Your GitHub API token for authentication",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server Demo"
 }

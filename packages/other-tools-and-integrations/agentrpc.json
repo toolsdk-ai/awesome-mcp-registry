@@ -10,5 +10,6 @@
       "description": "<YOUR_API_SECRET>",
       "required": true
     }
-  }
+  },
+  "name": "AgentRPC"
 }

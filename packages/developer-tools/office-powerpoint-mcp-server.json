@@ -5,5 +5,6 @@
   "url": "https://github.com/gongrzhe/office-powerpoint-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Office PowerPoint MCP Server"
 }

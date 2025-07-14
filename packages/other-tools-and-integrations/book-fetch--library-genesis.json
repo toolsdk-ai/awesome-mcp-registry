@@ -5,5 +5,6 @@
   "url": "https://github.com/kinshukk/book-fetch-mcp",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Book Fetch MCP"
 }

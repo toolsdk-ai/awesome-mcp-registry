@@ -5,5 +5,6 @@
   "url": "https://github.com/tatn/mcp-server-fetch-typescript",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Server Fetch TypeScript"
 }

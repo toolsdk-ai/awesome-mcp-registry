@@ -26,5 +26,6 @@
       "description": "240",
       "required": true
     }
-  }
+  },
+  "name": "MCP LLM"
 }

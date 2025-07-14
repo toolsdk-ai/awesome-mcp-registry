@@ -10,5 +10,6 @@
       "description": "https://your-provider-url.com,https://your-backup-provider.com",
       "required": true
     }
-  }
+  },
+  "name": "ENS MCP Server"
 }

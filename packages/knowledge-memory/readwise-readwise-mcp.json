@@ -10,5 +10,6 @@
       "description": "XXXXXXXXX",
       "required": true
     }
-  }
+  },
+  "name": "Readwise MCP"
 }

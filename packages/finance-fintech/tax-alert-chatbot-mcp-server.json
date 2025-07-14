@@ -14,5 +14,6 @@
       "description": "Your Google API key for Gemini models",
       "required": true
     }
-  }
+  },
+  "name": "MCP Server"
 }

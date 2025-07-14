@@ -5,5 +5,6 @@
   "url": "https://github.com/misterboe/strapi-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Strapi MCP Server"
 }

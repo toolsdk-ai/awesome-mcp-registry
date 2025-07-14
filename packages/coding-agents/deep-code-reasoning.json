@@ -5,5 +5,6 @@
   "url": "https://github.com/haasonsaas/deep-code-reasoning-mcp",
   "runtime": "node",
   "license": "mit",
-  "env": {}
+  "env": {},
+  "name": "Deep Code Reasoning MCP"
 }

@@ -5,5 +5,6 @@
   "url": "https://github.com/explorium-ai/mcp-explorium",
   "runtime": "python",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "Explorium MCP Server"
 }

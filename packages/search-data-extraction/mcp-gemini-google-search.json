@@ -14,5 +14,6 @@
       "description": "gemini-2.5-flash",
       "required": true
     }
-  }
+  },
+  "name": "Gemini Google Search MCP"
 }

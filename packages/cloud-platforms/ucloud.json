@@ -5,5 +5,6 @@
   "url": "https://github.com/wangrzneu/ucloud-mcp-server",
   "runtime": "go",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "UCloud MCP Server"
 }

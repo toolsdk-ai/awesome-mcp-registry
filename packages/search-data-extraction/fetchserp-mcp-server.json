@@ -10,5 +10,6 @@
       "description": "your_fetchserp_api_token_here",
       "required": true
     }
-  }
+  },
+  "name": "FetchSERP MCP Server"
 }

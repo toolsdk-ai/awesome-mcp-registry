@@ -22,5 +22,6 @@
       "description": "YOUR_PROJECT_NAME",
       "required": true
     }
-  }
+  },
+  "name": "Rollbar MCP Server"
 }

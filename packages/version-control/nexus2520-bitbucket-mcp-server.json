@@ -14,5 +14,6 @@
       "description": "your-app-password",
       "required": true
     }
-  }
+  },
+  "name": "Bitbucket MCP Server"
 }

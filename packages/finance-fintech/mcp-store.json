@@ -5,5 +5,6 @@
   "url": "https://github.com/n0119566/mcp-store",
   "runtime": "node",
   "license": "unknown",
-  "env": {}
+  "env": {},
+  "name": "MCP Store"
 }

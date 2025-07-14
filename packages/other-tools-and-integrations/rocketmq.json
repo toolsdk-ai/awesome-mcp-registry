@@ -5,5 +5,6 @@
   "url": "https://github.com/francisoliverlee/rocketmq-mcp",
   "runtime": "java",
   "license": "apache-2.0",
-  "env": {}
+  "env": {},
+  "name": "RocketMQ MCP"
 }
