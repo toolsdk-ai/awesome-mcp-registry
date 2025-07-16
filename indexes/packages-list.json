@@ -851,8 +851,8 @@
   "@llmindset/mcp-hfspace": {
     "category": "developer-tools",
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "validated": false,
-    "tools": {}
+    "tools": {},
+    "validated": false
   },
   "@mcp-get-community/server-macos": {
     "category": "developer-tools",
@@ -15977,8 +15977,17 @@
   "mcp-maigret": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-maigret.json",
-    "validated": false,
-    "tools": {}
+    "tools": {
+      "search_username": {
+        "name": "search_username",
+        "description": "Search for a username across social networks and sites"
+      },
+      "parse_url": {
+        "name": "parse_url",
+        "description": "Parse a URL to extract information and search for associated usernames"
+      }
+    },
+    "validated": true
   },
   "python-documentation-search": {
     "category": "search-data-extraction",
@@ -26115,8 +26124,25 @@
   "multicluster-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/multicluster-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "tools": {
+      "clusters": {
+        "name": "clusters",
+        "description": "Retrieves a list of Kubernetes clusters (also known as managed clusters or spoke clusters)."
+      },
+      "connect_cluster": {
+        "name": "connect_cluster",
+        "description": "Generates the KUBECONFIG for the managed cluster and binds it to the specified ClusterRole (default: cluster-admin)."
+      },
+      "kubectl": {
+        "name": "kubectl",
+        "description": "Securely run a kubectl command or apply YAML. Provide either 'command' or 'yaml'."
+      },
+      "prometheus": {
+        "name": "prometheus",
+        "description": "Queries a Prometheus server (snapshot or range) and returns metrics formatted for charting."
+      }
+    },
+    "validated": true
   },
   "@novitalabs/novita-mcp-server": {
     "category": "cloud-platforms",
@@ -32995,8 +33021,17 @@
   "@myuon/refactor-mcp": {
     "category": "file-systems",
     "path": "file-systems/myuon-refactor-mcp.json",
-    "validated": false,
-    "tools": {}
+    "tools": {
+      "code_refactor": {
+        "name": "code_refactor",
+        "description": "Refactor code by replacing search pattern with replace pattern using regex"
+      },
+      "code_search": {
+        "name": "code_search",
+        "description": "Search for code patterns using regex and return file locations with line numbers"
+      }
+    },
+    "validated": true
   },
   "@sunwood-ai-labs/source-sage-mcp-server": {
     "category": "file-systems",
@@ -38604,8 +38639,13 @@
   "@burtthecoder/mcp-dnstwist": {
     "category": "security",
     "path": "security/burtthecoder-mcp-dnstwist.json",
-    "validated": false,
-    "tools": {}
+    "tools": {
+      "fuzz_domain": {
+        "name": "fuzz_domain",
+        "description": "Generate and analyze domain permutations to detect potential typosquatting, phishing, and brand impersonation"
+      }
+    },
+    "validated": true
   },
   "urldna": {
     "category": "security",

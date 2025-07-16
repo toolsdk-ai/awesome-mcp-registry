@@ -104,9 +104,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (587)
+✅: Validated and runnable tools (591)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3465))
+❌: Cannot be run by the MCP client (with mock environments variables (3461))
 
 
 
@@ -774,7 +774,7 @@ Integrate with cloud services to manage and interact with cloud infrastructure.
 - [❌ azure-pricing](https://github.com/sboludaf/mcp-azure-pricing): Integrates with Microsoft's Azure Retail Prices API to provide service family listings, product filtering, and monthly cost calculations for cloud pricing analysis and budget planning workflows.  (python) 
 - [❌ spring-application-advisor](https://github.com/cpage-pivotal/app-advisor-mcp): Integrates with Spring Application Advisor to provide insights and recommendations for optimizing Spring applications in Cloud Foundry environments.  (java) 
 - [❌ modal](https://github.com/smehmood/modal-mcp-server): Enables AI systems to deploy and execute serverless applications in the cloud through Modal's platform, providing tools for application deployment and function execution with custom parameters.  (python) 
-- [❌ multicluster-mcp-server](https://github.com/yanmxa/multicluster-mcp-server): Provides a bridge to Kubernetes multi-cluster environments for managing distributed resources through kubectl commands, service account connections, and seamless cross-cluster operations without switching contexts.  (node) 
+- [✅ multicluster-mcp-server](https://github.com/yanmxa/multicluster-mcp-server): Provides a bridge to Kubernetes multi-cluster environments for managing distributed resources through kubectl commands, service account connections, and seamless cross-cluster operations without switching contexts.  (4 tools) (node) 
 - [❌ nvidia-brev](https://github.com/brevdev/brev-mcp): Bridges Nvidia Brev, enabling natural language control of workspaces, deployments, and cloud resources.  (python) 
 - [✅ akave-mcp-js](https://github.com/akave-ai/akave-mcp): Integrates with Akave's S3-compatible storage platform to manage buckets and objects, upload/download files, generate signed URLs, and handle file operations with automatic text cleaning for common formats.  (13 tools) (node) 
 - [❌ @novitalabs/novita-mcp-server](https://github.com/novitalabs/novita-mcp-server): Provides direct access to Novita AI's GPU cloud infrastructure for deploying, monitoring, and managing GPU-accelerated workloads and containers without leaving your conversation context.  (node) 
@@ -2231,7 +2231,7 @@ Manage files and directories with tools for reading, writing, and organizing fil
 - [❌ docxprocessor](https://github.com/meterlong/mcp-doc): Enables creation, editing, and manipulation of Microsoft Word documents with features for text formatting, table management, content search/replace, and document styling using Python and python-docx.  (python) 
 - [❌ better-mcp-file-server](https://github.com/martinschlott/bettermcpfileserver): Reimagined server for filesystem access with privacy-preserving path aliases and an optimized LLM-friendly API.  (node) 
 - [✅ @puchunjie/doc-tools-mcp](https://github.com/puchunjie/doc-tools-mcp): Enables natural language-driven Word document creation, editing, and formatting through a Node.js server that integrates seamlessly with development environments for document automation workflows.  (7 tools) (node) 
-- [❌ @myuon/refactor-mcp](https://github.com/myuon/refactor-mcp): Provides regex-based code refactoring capabilities for bulk search-and-replace operations across file systems with pattern matching, context filtering, and glob-based file discovery to enable large-scale code transformations and migrations.  (node) 
+- [✅ @myuon/refactor-mcp](https://github.com/myuon/refactor-mcp): Provides regex-based code refactoring capabilities for bulk search-and-replace operations across file systems with pattern matching, context filtering, and glob-based file discovery to enable large-scale code transformations and migrations.  (2 tools) (node) 
 - [✅ @sunwood-ai-labs/source-sage-mcp-server](https://github.com/sunwood-ai-labs/source-sage-mcp-server): Integrates directory structure visualization and analysis tools to generate and reason about project file hierarchies for codebase understanding.  (1 tools) (node) 
 - [❌ word-document-formatter](https://github.com/cuongpham2107/word-mcp-server): Enables Microsoft Word document manipulation with text formatting and color control capabilities through python-docx and langchain-mcp-adapters.  (python) 
 - [❌ truenas-core](https://github.com/vespo92/truenascoremcp): Integrates with TrueNAS Core storage systems to enable natural language control of user management, pool monitoring, dataset creation, ZFS properties, permissions, and Kubernetes storage provisioning with automated snapshot policies and NFS/iSCSI target configuration.  (python) 
@@ -3355,7 +3355,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ document-crawler-&-search](https://github.com/alizdavoodi/mcpdocsearch): Crawls websites to generate searchable Markdown documentation with vector embeddings for semantic search capabilities beyond training cutoffs  (python) 
 - [❌ mcp-searxng](https://github.com/secretiveshell/mcp-searxng): Perform privacy-preserving web searches via the SearXNG metasearch engine.  (python) 
 - [❌ bilibili-search](https://github.com/huccihuang/bilibili-mcp-server): Enables search across Bilibili's Chinese video platform through a lightweight FastMCP interface that retrieves video content, user information, and other searchable data with optional authentication via session cookies.  (python) 
-- [❌ mcp-maigret](https://github.com/burtthecoder/mcp-maigret): OSINT Maigret integration to gather user info across social networks.  (node) 
+- [✅ mcp-maigret](https://github.com/burtthecoder/mcp-maigret): OSINT Maigret integration to gather user info across social networks.  (2 tools) (node) 
 - [✅ graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server): Graphlit MCP Server for AI, RAG, OpenAI, PDF parsing and preprocessing  (64 tools) (node) 
 - [❌ python-documentation-search](https://github.com/xpe-7/mcp-server): Enables AI assistants to retrieve up-to-date documentation from popular Python libraries by performing targeted Google searches within specific documentation domains and extracting relevant content.  (python) 
 - [✅ @pinkpixel/prysm-mcp](https://github.com/pinkpixel-dev/prysm-mcp-server): Provides web scraping capabilities with three specialized tools (scrapeFocused, scrapeBalanced, scrapeDeep) for efficient content extraction, image processing, and pagination handling with customizable parameters.  (4 tools) (node) 
@@ -3410,7 +3410,7 @@ Enhance security with tools for scanning, threat detection, and secure access.
 - [❌ exploitdb](https://github.com/cyreslab-ai/exploitdb-mcp-server): Provides direct access to ExploitDB functionality for cybersecurity research, enabling exploit searches by keywords, CVE IDs, or platforms with local database caching for threat intelligence and vulnerability analysis.  (node) 
 - [❌ osint-toolkit](https://github.com/himanshusanecha/mcp-osint-server): Provides a unified interface for network reconnaissance with parallel execution of OSINT tools including WHOIS, Nmap, DNS lookups, and typosquatting detection for security researchers and network administrators.  (python) 
 - [❌ wazuh](https://github.com/gensecaihq/wazuh-mcp-server): Integrates with Wazuh security platform to provide real-time security alerts and event data from Elasticsearch indices for security operations and threat analysis workflows.  (python) 
-- [❌ @burtthecoder/mcp-dnstwist](https://github.com/burtthecoder/mcp-dnstwist): Integrates with dnstwist to automate DNS fuzzing for detecting typosquatting, phishing, and corporate espionage threats.  (node) 
+- [✅ @burtthecoder/mcp-dnstwist](https://github.com/burtthecoder/mcp-dnstwist): Integrates with dnstwist to automate DNS fuzzing for detecting typosquatting, phishing, and corporate espionage threats.  (1 tools) (node) 
 - [❌ enkryptai](https://github.com/enkryptai/enkryptai-mcp-server): Integrates with EnkryptAI platform to provide robust guardrails, policy management, model configuration, and deployment orchestration with customizable safety controls for preventing harmful outputs.  (python) 
 - [❌ urldna](https://github.com/urldna/mcp): Integrates with urlDNA's cybersecurity API to provide URL threat intelligence through scanning, phishing detection, search queries across domains and malicious status, and retrieval of existing analysis results for security workflows.  (python) 
 - [❌ blockchain-signer](https://github.com/zhangzhongnan928/mcp-blockchain-server): Enables secure blockchain interactions with user-controlled private keys and transaction signing, featuring a Node.js backend, PostgreSQL database, Redis caching, and integration with Ethereum and EVM-compatible chains via Infura.  (node) 
@@ -3539,20 +3539,6 @@ Access sports data, results, and stats with ease.
 - [❌ surf-(stormglass)](https://github.com/ravinahp/surf-mcp): For people who surf waves and the web. Unlocks wave analysis, forecasting, and custom surf applications.  (python) 
 - [❌ the-odds-api](https://github.com/kitchenchem/degen-mcp): Provides a bridge to The Odds API for accessing sports betting data including available sports, odds comparisons across bookmakers, and quota tracking in both test and live modes.  (python) 
 - [❌ nba-player-stats](https://github.com/ziyadmir/nba-player-stats-mcp): Provides detailed NBA player statistics from basketball-reference.com through 23 specialized tools covering career stats, season comparisons, advanced metrics, game logs, awards voting, trend analysis, and all-time rankings for sports analysis and fantasy basketball applications.  (python) 
-- [❌ op.gg-esports](https://github.com/opgginc/esports-mcp): Connects to OP.GG's League of Legends esports data to fetch and format upcoming match schedules with essential details including match names, leagues, scores, and direct links.  (node) 
-- [❌ strava](https://github.com/yorrickjansen/strava-mcp): Integrates with Strava API to provide direct access to athlete activities, detailed performance metrics, segment data, and leaderboards for training analysis and progress tracking.  (python) 
-- [❌ nba-stats](https://github.com/taidgh-robinson/nba-mcp-server): Provides real-time NBA game data including scores, player statistics, and play-by-play information through the nba_api package for accessing current basketball information not in Claude's training data.  (python) 
-- [❌ formula-one-racing-data-(fastf1)](https://github.com/rakeshgangwar/f1-mcp-server): Provides Formula One racing data through FastF1 Python library, enabling access to race calendars, event information, session results, driver statistics, lap times, telemetry data, and championship standings for motorsport analysis.  (node) 
-- [❌ nhl](https://github.com/carsonjones/nhl-go): Integrates with NHL data sources to provide real-time game updates, player stats, and league standings for sports analysis and fantasy hockey applications.  (go) 
-- [❌ surf-(stormglass)](https://github.com/ravinahp/surf-mcp): For people who surf waves and the web. Unlocks wave analysis, forecasting, and custom surf applications.  (python) 
-- [❌ formula-1](https://github.com/panth1823/formula1-mcp): Integrates with Formula 1 APIs to provide real-time racing data, historical results, driver information, team radio messages, weather conditions, and telemetry for building F1 statistics applications.  (node) 
-- [❌ college-football-data](https://github.com/lenwood/cfbd-mcp-server): Integrates with College Football Data API to provide natural language querying of game results, team records, player stats, rankings, and advanced metrics.  (python) 
-- [❌ spurs-blog-(pounding-the-rock)](https://github.com/akshay23/spurs-blog-mcp-server): Provides San Antonio Spurs basketball news by scraping the Pounding The Rock blog, offering tools to retrieve articles, search content, extract game results, and get player information with recent mentions.  (python) 
-- [❌ chess.com-api](https://github.com/pab1it0/chess-mcp): Integrates with Chess.com Published Data API to access player profiles, statistics, game data, and club information in both JSON and PGN formats for chess analysis and tournament research.  (python) 
-- [❌ fpl-mcp](https://github.com/rishijatia/fantasy-pl-mcp): Integrates with Fantasy Premier League data to provide player statistics, team information, and analytical tools for making informed fantasy football management decisions.  (python) 
-- [❌ the-odds-api](https://github.com/kitchenchem/degen-mcp): Provides a bridge to The Odds API for accessing sports betting data including available sports, odds comparisons across bookmakers, and quota tracking in both test and live modes.  (python) 
-- [❌ firstcycling](https://github.com/r-huijts/firstcycling-mcp): Provides a bridge to FirstCycling.com for retrieving professional cycling statistics, race results, rider profiles, and rankings with robust error handling and data parsing  (python) 
-- [❌ nhl-stats](https://github.com/dylangroos/nhl-mcp): Provides real-time NHL sports data retrieval by bridging official web and stats APIs, enabling comprehensive access to team standings, player statistics, game schedules, and roster information through a flexible, multi-endpoint TypeScript implementation.  (node) 
 
 
 <a id="support-service-management"></a>
