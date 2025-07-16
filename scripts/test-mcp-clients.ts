@@ -1,6 +1,6 @@
 // Try to read MCP Client
 
-import fs from "fs";
+import fs from 'fs';
 import {
   getActualVersion,
   getMcpClient,
@@ -8,17 +8,24 @@ import {
   typedAllPackagesList,
   updatePackageJsonDependencies,
   withTimeout,
-} from "../src/helper";
+} from '../src/helper';
 async function main() {
   const packageDeps: Record<string, string> = {};
 
   for (const [packageKey, value] of Object.entries(typedAllPackagesList)) {
     const mcpServerConfig = await getPackageConfigByKey(packageKey);
 
-    if (mcpServerConfig.runtime === "node") {
+    if (mcpServerConfig.runtime === 'node') {
+      if (value.validated === true) {
+        // Skip already validated packages to prevent state override
+        const version = getActualVersion(mcpServerConfig.packageName, mcpServerConfig.packageVersion);
+        packageDeps[mcpServerConfig.packageName] = version || 'latest';
+        continue;
+      }
+
       const mockEnv = {};
       for (const [key, _env] of Object.entries(mcpServerConfig.env || {})) {
-        mockEnv[key] = "MOCK";
+        mockEnv[key] = 'MOCK';
       }
       console.log(`Reading MCP Client for package: ${packageKey} ${value.path}`);
       try {
@@ -27,14 +34,14 @@ async function main() {
         const mcpClient = await withTimeout(5000, getMcpClient(mcpServerConfig, mockEnv));
         const tools = await mcpClient.client.listTools();
         console.log(
-          `Read success MCP Client for package: ${packageKey} ${value.path}, tools: ${Object.keys(tools).length}`
+          `Read success MCP Client for package: ${packageKey} ${value.path}, tools: ${Object.keys(tools).length}`,
         );
 
         const saveTools = {};
         for (const [_toolKey, toolItem] of Object.entries(tools.tools)) {
           saveTools[toolItem.name] = {
             name: toolItem.name,
-            description: toolItem.description || "",
+            description: toolItem.description || '',
           };
         }
 
@@ -47,7 +54,7 @@ async function main() {
         typedAllPackagesList[packageKey].validated = true;
 
         const version = getActualVersion(mcpServerConfig.packageName, mcpServerConfig.packageVersion);
-        packageDeps[mcpServerConfig.packageName] = version || "latest";
+        packageDeps[mcpServerConfig.packageName] = version || 'latest';
       } catch (e) {
         console.error(`Error reading MCP Client for package: ${packageKey} ${value.path}`, e.message);
         typedAllPackagesList[packageKey].tools = {};
@@ -59,7 +66,7 @@ async function main() {
   }
 
   // write again with tools
-  fs.writeFileSync("indexes/packages-list.json", JSON.stringify(typedAllPackagesList, null, 2), "utf-8");
+  fs.writeFileSync('indexes/packages-list.json', JSON.stringify(typedAllPackagesList, null, 2), 'utf-8');
 
   // print, all unvalidated packages
   const unvalidatedPackages = Object.values(typedAllPackagesList).filter((value) => !value.validated);
