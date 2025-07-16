@@ -397,6 +397,7 @@
     "server-cmd": "2.0.1",
     "iterm_mcp_server": "1.0.5",
     "mcp-wsl-exec": "0.0.2",
+    "@shinzolabs/gmail-mcp": "1.7.0",
     "@floriscornel/teams-mcp": "0.3.2",
     "@waystation/mcp": "0.3.1",
     "trello-mcp-server": "0.0.4",

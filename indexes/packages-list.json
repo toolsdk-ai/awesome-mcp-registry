@@ -41461,8 +41461,57 @@
   "@stackzero-labs/mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/stackzero-labs-mcp.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "getUIComponents": {
+        "name": "getUIComponents",
+        "description": "Provides a comprehensive list of all stackzero-labs/ui components."
+      },
+      "getUIBlocks": {
+        "name": "getUIBlocks",
+        "description": "Provides a comprehensive list of all stackzero-labs/ui blocks."
+      },
+      "getRatings": {
+        "name": "getRatings",
+        "description": "Provides implementation details for star-rating-basic, star-rating-fractions, upvote-rating-basic, upvote-rating-animated, face-rating-basic, face-rating-gradient components."
+      },
+      "getImages": {
+        "name": "getImages",
+        "description": "Provides implementation details for image-viewer-basic, image-viewer-motion, image-carousel-basic components."
+      },
+      "getProducts": {
+        "name": "getProducts",
+        "description": "Provides implementation details for price-format-basic, price-format-sale, quantity-input-basic, variant-color-selector-basic, variant-selector-basic, variant-selector-images, variant-selector-multiple components."
+      },
+      "getInputs": {
+        "name": "getInputs",
+        "description": "Provides implementation details for input-icon, phone-number-input-basic components."
+      },
+      "getAddresses": {
+        "name": "getAddresses",
+        "description": "Provides implementation details for address-01-block, address-02-block blocks."
+      },
+      "getBanners": {
+        "name": "getBanners",
+        "description": "Provides implementation details for banner-01-block, banner-02-block, banner-03-block, banner-04-block, banner-05-block, banner-06-block, banner-07-block, banner-08-block, banner-09-block, banner-10-block, banner-11-block, banner-12-block blocks."
+      },
+      "getProductCards": {
+        "name": "getProductCards",
+        "description": "Provides implementation details for product-card-01-block, product-card-02-block, product-card-03-block, product-card-04-block, product-card-05-block, product-card-06-block, product-card-07-block, product-card-08-block, product-card-09-block, product-card-10-block, product-card-11-block, product-card-12-block, product-card-13-block blocks."
+      },
+      "getProductVariants": {
+        "name": "getProductVariants",
+        "description": "Provides implementation details for product-variant-01-block, product-variant-02-block, product-variant-03-block, product-variant-04-block, product-variant-05-block blocks."
+      },
+      "getReviews": {
+        "name": "getReviews",
+        "description": "Provides implementation details for review-01-block, review-02-block, review-03-block, review-04-block, review-05-block, review-06-block, review-07-block, review-08-block, review-09-block, review-10-block blocks."
+      },
+      "getCarts": {
+        "name": "getCarts",
+        "description": "Provides implementation details for cart-01-block blocks."
+      }
+    }
   },
   "moodle": {
     "category": "other-tools-and-integrations",
