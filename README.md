@@ -104,9 +104,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (586)
+✅: Validated and runnable tools (587)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3466))
+❌: Cannot be run by the MCP client (with mock environments variables (3465))
 
 
 
