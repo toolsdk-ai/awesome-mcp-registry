@@ -69,6 +69,7 @@ async function generatePackagesList() {
         const parsedContent: MCPServerPackageConfig = MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
         const key = parsedContent.key || parsedContent.packageName;
         const relativePath = path.relative(packagesDir, entryPath);
+
         newPackagesList[key] = {
           ...newPackagesList[key],
           path: relativePath,
@@ -85,11 +86,20 @@ async function generatePackagesList() {
 
         console.log('Current package:', parsedContent.packageName, `num:${i++}`);
         if (parsedContent.runtime === 'node') {
-          const isValid = await isValidNpmPackage(parsedContent.packageName);
-          if (isValid) {
-            const version = getActualVersion(parsedContent.packageName, parsedContent.packageVersion);
-            packageDeps[parsedContent.packageName] = version || 'latest';
+          const existPackage = newPackagesList[key];
+          if (Object.hasOwn(existPackage, 'validated')) {
+            if (existPackage.validated === false) {
+              continue;
+            }
+          } else {
+            const isValid = await isValidNpmPackage(parsedContent.packageName);
+            if (!isValid) {
+              continue;
+            }
           }
+
+          const version = getActualVersion(parsedContent.packageName, parsedContent.packageVersion);
+          packageDeps[parsedContent.packageName] = version || 'latest';
         }
       } else if (fs.statSync(entryPath).isDirectory()) {
         await traverseDirectory(entryPath, categoryName);
