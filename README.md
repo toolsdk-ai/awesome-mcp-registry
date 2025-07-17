@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4052-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4065-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 4052+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4065+ MCP servers.
 
 
 
@@ -104,9 +104,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (591)
+✅: Validated and runnable tools (590)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3461))
+❌: Cannot be run by the MCP client (with mock environments variables (3475))
 
 
 
@@ -1074,7 +1074,7 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ agent-communication](https://github.com/mkc909/agent-communication-mcp-server): Enables collaboration between specialized LLM agents across systems through a TypeScript-based server that handles agent registration, asynchronous messaging, task coordination, and context sharing with GitHub integration for complex workflows.  (node) 
 - [❌ pushover-mcp](https://github.com/ashiknesin/pushover-mcp): Integrates with Pushover.net to enable sending push notifications to various devices for real-time alerts and updates  (node) 
 - [❌ gensokyo](https://github.com/hoshinonyaruko/gensokyo-mcp): Bridges chat bot platforms with cross-platform support for message processing, WebSocket connectivity, and media handling across Linux, macOS, Windows, and Android environments.  (go) 
-- [❌ wweb-mcp](https://github.com/pnizer/wweb-mcp): Enables AI interaction with WhatsApp through direct client integration or API connectivity, supporting message handling, contact management, group creation, and conversation search capabilities.  (node) 
+- [❌ @pnizer/wweb-mcp](https://github.com/pnizer/wweb-mcp/tree/main/src): A Node.js application that connects WhatsApp Web with AI models through the Model Context Protocol (MCP).  (node) 
 - [❌ mcp-server-google-calendar](https://github.com/eliasuran/mcp_server_google_calendar): Integrates the Google Calendar API to enable querying, creation, and modification of calendar entries and events.  (node) 
 - [❌ shouting-mcp-slack](https://github.com/z9905080/mcp-slack): Integrates with Slack workspaces to enable channel management, messaging, thread interactions, reaction handling, and user information retrieval for team communication platforms.  (node) 
 - [❌ warpcast](https://github.com/zhangzhongnan928/mcp-warpcast-server): Integrates with Warpcast to enable posting, reading, searching, and managing interactions on the Farcaster social network for automated content curation and trend analysis.  (python) 
@@ -1156,6 +1156,7 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ microsoft-teams-notifications](https://github.com/therealjohn/microsoft-teams-mcp): Enables sending markdown-formatted notifications to Microsoft Teams channels using Azure AD authentication, specifically designed for development environment status updates and team communication.  (python) 
 - [❌ facebook-pages-manager](https://github.com/hagaihen/facebook-mcp-server): Integrates with Facebook Pages to enable direct management of posts, comments, and engagement metrics through the Graph API for streamlined social media management.  (python) 
 - [❌ smtp-email-manager](https://github.com/samihalawa/mcp-server-smtp): Provides SMTP email functionality with tools for sending individual and bulk emails, managing configurations, and creating customizable templates with variable substitution for automated, personalized email campaigns.  (node) 
+- [❌ @kacase/mcp-outlook](https://github.com/kacase/mcp-outlook/tree/main/src): A Model Context Protocol server that integrates with Microsoft Outlook through Microsoft Graph API, allowing Claude and other LLMs to check calendar events, schedule new ones, read emails, and send messages.  (node) 
 - [❌ fireflies](https://github.com/props-labs/fireflies-mcp): Integrates with Fireflies.ai API to enable retrieval, search, and summarization of meeting transcripts for natural language processing of meeting content.  (node) 
 - [❌ mcp-telegram](https://github.com/dryeab/mcp-telegram): Enables AI interaction with Telegram messaging platform through Python-based tools for sending/editing messages, downloading media, searching conversations, and managing drafts without context switching.  (python) 
 - [❌ telegram-channel-explorer](https://github.com/kfastov/telegram-mcp-server): Enables access to Telegram channels and messages for searching content by keywords, listing available channels, retrieving specific messages, and filtering with regex patterns using the MTProto protocol.  (node) 
@@ -1231,6 +1232,7 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ mattermost-fetch](https://github.com/kakehashi-inc/mcp-server-mattermost): Web scraping server that fetches and processes web content with robust features like robots.txt compliance, LRU caching, and markdown conversion, supporting both autonomous and manual content retrieval modes.  (node) 
 - [❌ x-twitter-mcp](https://github.com/rafaljanicki/x-twitter-mcp-server): Provides a bridge between Twitter's API and conversational interfaces, enabling comprehensive platform interaction including profile management, tweet operations, timeline access, and search functionality.  (python) 
 - [❌ twilio-manager](https://github.com/errajibadr/twilio_manager_mcp): Manages Twilio resources through asynchronous API interactions, enabling efficient concurrent operations for subaccounts, phone numbers, addresses, and regulatory bundles with features like resource transfers and duplication.  (python) 
+- [❌ @nspady/google-calendar-mcp](https://github.com/nspady/google-calendar-mcp): A Model Context Protocol (MCP) server that provides Google Calendar integration for AI assistants like Claude.   (node) 
 - [❌ whatsapp-desktop](https://github.com/gfb-47/whatsapp-mcp-server): Enables interaction with WhatsApp desktop on macOS through AppleScript automation for sending messages, checking status, and navigating the interface with keyboard shortcuts.  (node) 
 - [❌ ntfy.sh](https://github.com/cyanheads/ntfy-mcp-server): Bridges Claude with ntfy.sh notification service, enabling direct push notifications with support for priorities, tags, attachments, and action buttons without leaving the conversation interface.  (node) 
 - [❌ mcp-fleur](https://github.com/fleuristes/fleur-mcp): Integrates with the Fleur application to enable direct access to external apps like Gmail, Linear, and Slack without leaving the chat interface through platform-specific launch methods for macOS and Windows.  (python) 
@@ -1266,9 +1268,11 @@ Connect with messaging platforms to manage chats and interact with team tools.
 Access customer profiles and data from customer data platforms.
 
 - [✅ @hubspot/mcp-server](https://github.com/hubspot/mcp-server): Integrates with HubSpot CRM to enable secure access to contact information, company records, deal data, and task management with customizable data access through Private App scopes.  (21 tools) (node) 
+- [❌ @NaorAIdeas/hubspot-mcp-server](https://github.com/NaorAIdeas/hubspot-mcp-server/tree/main/src): A Model Context Protocol (MCP) server implementation for HubSpot, providing a standardized interface for interacting with HubSpot's API.  (node) 
 - [❌ attio](https://github.com/kesslerio/attio-mcp-server): Integrates with Attio CRM platform to enable customer relationship management operations including advanced search with filtering, batch operations for companies and people, list management, note creation, and task handling for sales automation and lead management workflows.  (node) 
 - [❌ dixa](https://github.com/ktabori/dixa-mcp): Provides a bridge to the Dixa customer support API, enabling conversation management, tagging, and retrieval capabilities for support teams through TypeScript-powered tools.  (node) 
 - [❌ integrator.io](https://github.com/yussefz/mcp-celigo): Provides a lightweight server for retrieving customer data from Integrator.io via an async HTTP client with built-in error handling and environment-based configuration.  (python) 
+- [❌ @koundinya/zd-mcp-server](https://github.com/koundinya/zd-mcp-server): A Model Context Protocol (MCP) server that provides AI assistants like Claude with seamless integration to Zendesk Support.    (node) 
 - [✅ @clayhq/clay-mcp](https://github.com/clay-inc/clay-mcp): Provides a bridge to Clay's personal CRM platform for searching, retrieving, and managing contact information, interactions, and professional relationships through natural language queries.  (11 tools) (node) 
 - [❌ paylocity](https://github.com/mz462/mcppaylocity): Integrates with Paylocity's HR and payroll API to enable secure access to employee data and payroll information directly within conversations, eliminating the need to switch to the Paylocity platform.  (python) 
 - [❌ iaptic](https://github.com/iaptic/mcp-server-iaptic): Integrates with Iaptic's customer and transaction data to enable querying, analysis, and insights for e-commerce and customer support tasks.  (node) 
@@ -1284,6 +1288,7 @@ Access customer profiles and data from customer data platforms.
 - [✅ attio-mcp-server](https://github.com/hmk/attio-mcp-server): Integrates with Attio's API for reading and writing company records and notes, enabling CRM operations without direct interface navigation.  (4 tools) (node) 
 - [❌ mcp-salesforce-connector](https://github.com/smn2gnt/mcp-salesforce): Integrates with Salesforce to enable natural language interactions for executing queries, managing records, and automating CRM workflows.  (python) 
 - [❌ mcp-server-port](https://github.com/port-labs/port-mcp-server): Integrates with Port.io's API to enable AI-assisted task management and workflow orchestration through authentication, prompt triggering, and response handling.  (python) 
+- [❌ @lkm1developer/hubspot-mcp-server](https://github.com/lkm1developer/hubspot-mcp-server/tree/main/src): A powerful Model Context Protocol (MCP) server implementation for seamless HubSpot CRM integration, enabling AI assistants to interact with your HubSpot data.  (node) 
 - [❌ apollo.io](https://github.com/lkm1developer/apollo-io-mcp-server): Integrates with Apollo.io's API to enable access to sales intelligence data, including contact enrichment, company information, and job listings for sales teams and recruiters.  (node) 
 
 
@@ -1576,6 +1581,7 @@ Tools for integrating, transforming, and managing data pipelines.
 - [❌ the-graph](https://github.com/kukapay/thegraph-mcp): Enables access to indexed blockchain data through The Graph's decentralized network for analyzing token trading volumes, monitoring liquidity pools, and identifying unusual transaction patterns  (python) 
 - [❌ agentmode](https://github.com/agentmode/server): All-in-one server that connects your coding AI to dozens of databases, data warehouses, data pipelines, cloud services, and more.  (python) 
 - [❌ @lark-base-open/mcp-node-server](https://github.com/lark-base-team/lark-base-mcp-node-server): Integrates with Lark Base (formerly Feishu Bitable) to enable data retrieval, field management, and table manipulation across collaborative spreadsheets and databases using app tokens and personal base tokens for authentication.  (node) 
+- [❌ @freema/mcp-gsheets](https://github.com/freema/mcp-gsheets): A Model Context Protocol (MCP) server for Google Sheets API integration. Enables reading, writing, and managing Google Sheets documents directly from your MCP client (e.g., Claude Desktop).  (node) 
 - [❌ eunomia](https://github.com/whataboutyou-ai/eunomia-mcp-server): Integrates with the Eunomia framework for a simple way to orchestrate data governance policies like PII detection or user access control  (python) 
 - [❌ google-spreadsheet](https://github.com/kazz187/mcp-google-spreadsheet): Integrates with Google Drive and Sheets to enable document management, file operations, and spreadsheet manipulation without switching contexts.  (go) 
 - [❌ databricks](https://github.com/rafaelcartenet/mcp-databricks-server): Integrates with Databricks to execute SQL queries, list schemas, and describe table structures using the Statement Execution API for data exploration and analysis tasks  (python) 
@@ -1634,6 +1640,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [❌ aapanel](https://github.com/aapanel/mcp-server): Bridges AI with aaPanel web hosting control panel for managing websites, databases, Docker containers, and system resources through Go-based API integration.  (go) 
 - [❌ phalcon](https://github.com/xindong888999/phalcon-mcp): Integrates with Phalcon PHP framework to enable project management, code scaffolding, and Cursor IDE data analysis through FastMCP and SQLite database capabilities  (python) 
 - [❌ hackmd-mcp](https://github.com/yuna0x0/hackmd-mcp): Integrates with HackMD API to enable document creation, reading, updating, and deletion within collaborative markdown environments through authentication-secured personal and team workflows.  (node) 
+- [❌ @mattcoatsworth/Klaviyo-MCP-Server-4-15](https://github.com/mattcoatsworth/Klaviyo-MCP-Server-4-15): A comprehensive Model Context Protocol (MCP) server for interacting with Klaviyo's API. This server provides tools and resources for managing profiles, lists, events, campaigns, flows, templates, segments, metrics, catalogs, and data privacy in Klaviyo.  (node) 
 - [❌ software-architect](https://github.com/squirrelogic/mcp-architect): Integrates architectural expertise agents to analyze and generate software designs, patterns, and solutions for development teams seeking AI-assisted architecting help.  (node) 
 - [❌ reablocks](https://github.com/qdhenry/reablocks-mcp-server-experiment): Generates React components and documentation for the Reablocks UI library through natural language descriptions, enabling rapid prototyping of dashboards, forms, tables, and custom layouts with TypeScript support and intelligent component suggestions.  (node) 
 - [✅ @fiveohhwon/workflows-mcp](https://github.com/fiveohhwon/workflows-mcp): Provides workflow management and automation through step-by-step execution with branching logic, conditional operations, template variables, and state persistence for complex multi-step processes like code reviews and data pipelines.  (9 tools) (node) 
@@ -1794,6 +1801,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [❌ word-interop](https://github.com/mario-andreschak/mcp-msoffice-interop-word): Enables automated Microsoft Word document manipulation by exposing comprehensive tools for text editing, formatting, table management, image insertion, and page setup through a Windows-specific COM Interop server.  (node) 
 - [❌ code-backup](https://github.com/hexitex/mcp-backup-server): Provides specialized backup and restoration for code editing tools, creating timestamped snapshots with contextual metadata that preserve both file content and agent reasoning for quick recovery from risky edits.  (node) 
 - [❌ devenvinfoserver](https://github.com/carterlasalle/system_information_mcp): Gathers detailed development environment data to enhance context-aware assistance in code editors, enabling tailored coding suggestions and environment-specific troubleshooting.  (python) 
+- [❌ @amir-bengherbi/shopify-mcp-server](https://github.com/amir-bengherbi/shopify-mcp-server): MCP Server for Shopify API, enabling interaction with store data through GraphQL API. This server provides tools for managing products, customers, orders, and more.  (node) 
 - [✅ @coderide/mcp](https://github.com/pixdataorg/coderide-mcp): Integrates with CodeRide's task management platform to provide project retrieval, task operations, prompt extraction, and project initialization with knowledge graphs and Mermaid diagrams for development workflows.  (6 tools) (node) 
 - [❌ aerith-admin-(rbac-dashboard)](https://github.com/albeorla/mcp): Implements a structured 5-step development workflow for building RBAC dashboard applications using FastAPI, Git integration, and browser automation capabilities  (python) 
 - [❌ scast](https://github.com/davidkingzyb/scast): Static Code Analysis and Visualization. Convert Code to UML and Flow Diagram and explain by AI.  (node) 
@@ -2016,7 +2024,6 @@ Simplify data analysis and exploration with tools for data science workflows.
 - [❌ quickchart](https://github.com/gongrzhe/quickchart-mcp-server): Integrates with QuickChart to enable dynamic generation of charts and graphs for data visualization tasks.  (node) 
 - [❌ hana-cloud-ml-bridge](https://github.com/hatrigt/hana-mcp-server): Bridges SAP HANA Cloud databases with machine learning operations through a three-layer architecture that enables model management, execution contexts, and standardized communication for both inference and training workflows.  (python) 
 - [❌ sympy](https://github.com/sdiehl/sympy-mcp): Provides a stateful symbolic mathematics engine for precise algebraic operations, calculus, vector analysis, tensor calculations, and differential equation solving without hallucinations.  (python) 
-- [✅ @cablate/mcp-doc-forge](https://github.com/cablate/mcp-doc-forge): Integrates document processing libraries to enable extraction, conversion, and manipulation across multiple file formats including PDF, DOCX, HTML, CSV, and EPUB.  (16 tools) (node) 
 - [❌ statsource-analytics](https://github.com/jamie7893/statsource-mcp): Integrates with statistical and machine learning tools to perform data analysis, calculations, and time-series forecasting on user data from various sources including CSV files and databases.  (python) 
 - [✅ @gongrzhe/server-json-mcp](https://github.com/gongrzhe/json-mcp-server): Provides a JSON manipulation interface using JSONPath syntax for querying, transforming, and analyzing structured data across diverse datasets.  (2 tools) (node) 
 - [❌ mcp-web3-stats](https://github.com/crazyrabbitltc/mcp-web3-stats): Integrates with Dune API to provide blockchain data analysis for examining wallet balances, transaction histories, token information, NFT collectibles, and holder distributions across EVM and Solana networks.  (node) 
@@ -2241,6 +2248,7 @@ Manage files and directories with tools for reading, writing, and organizing fil
 - [✅ @exoticknight/mcp-file-merger](https://github.com/exoticknight/mcp-file-merger): Merge multiple files into one.  (2 tools) (node) 
 - [❌ mcp-text-editor](https://github.com/tumf/mcp-text-editor): Perform efficient line-oriented operations on text files.  (python) 
 - [✅ @isaacphi/mcp-gdrive](https://github.com/isaacphi/mcp-gdrive): Integrates Google Drive and Sheets functionality for file operations and spreadsheet data manipulation.  (4 tools) (node) 
+- [❌ @WillDent/pipedrive-mcp-server](https://github.com/WillDent/pipedrive-mcp-server): This is a Model Context Protocol (MCP) server that connects to the Pipedrive API v2. It allows you to expose Pipedrive data and functionality to LLM applications like Claude.   (node) 
 - [❌ everything-search](https://github.com/alihkhawaher/everything-search-server): Integrates with the Everything Search Engine to enable file search and management across large file systems using advanced query options and customizable result formatting.  (node) 
 - [✅ @shtse8/filesystem-mcp](https://github.com/sylphxltd/filesystem-mcp): Provides secure, controlled filesystem operations within a project's root directory, enabling safe file listing, reading, writing, and searching with robust path validation.  (13 tools) (node) 
 - [❌ claude-conversations-to-markdown](https://github.com/29decibel/record-to-markdown): Integrates with markdown files and Apple Notes to automatically save and format Claude conversation content for easy reference and sharing.  (python) 
@@ -2403,6 +2411,7 @@ Work with financial data, market info, and trading platforms using AI tools.
 - [✅ dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp): Provides real-time cryptocurrency market data across multiple blockchain networks, including DEX listings, liquidity pools, token details, and price analytics without requiring API keys.  (11 tools) (node) 
 - [❌ payman-ai](https://github.com/hrishi0102/payman_mcp): Bridges to Payman AI's payment processing API, enabling creation of payees, search functionality, payment sending, and balance checking through natural language commands.  (node) 
 - [❌ solana-rugcheck-&-transaction-helper](https://github.com/cryptoleek-team/goat-mcp): Integrates with Solana blockchain to enable token security analysis and transaction execution through RugCheck for scam detection and TransactionHelper for retrieving transaction history.  (node) 
+- [❌ @alfork/qbconductor-mcp-server](https://github.com/alfork/qbconductor-mcp-server): A comprehensive Model Context Protocol (MCP) server that provides Claude with direct access to QuickBooks Desktop operations through the Conductor API.   (node) 
 - [❌ xtquant-ai](https://github.com/dfkai/xtquantai): Lightweight Python server for quantitative trading using XTQuant API, enabling real-time stock market interactions and AI-driven financial analysis strategies.  (python) 
 - [❌ consumer-financial-protection-bureau-complaints](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp): Provides access to the Consumer Financial Protection Bureau's complaint database for searching and retrieving banking and financial service complaints by company, product type, and result size.  (python) 
 - [❌ setu_mcp_upi_deeplinks](https://github.com/setuhq/setu-mcps/tree/HEAD/upi-deeplinks): Integrates Setu's UPI payment infrastructure to enable seamless generation and management of payment links for applications.  (python) 
@@ -2718,6 +2727,7 @@ Store and query structured information for AI models to use across sessions.
 - [❌ memories-with-lessons](https://github.com/t1nker-1220/memories-with-lessons-mcp-server): Enables persistent memory and error tracking for assistants using a local knowledge graph structure with transactional operations, file management, and caching.  (node) 
 - [❌ mem0-(autonomous-memory)](https://github.com/pinkpixel-dev/mem0-mcp): Provides autonomous memory capabilities for storing, retrieving, and utilizing conversation information across sessions, with automatic extraction and categorization of user data for enhanced contextual interactions.  (node) 
 - [❌ esa.io](https://github.com/harukikaneko/esa-mcp): Integrates with esa.io knowledge management platform to enable searching, reading, creating, updating, and deleting posts and comments with support for advanced query parameters and content management features.  (node) 
+- [❌ @makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server): This project implements an MCP server for the Notion API.   (node) 
 - [❌ markdown-library](https://github.com/lethain/library-mcp): Indexes and serves Markdown knowledge bases with specialized tools for tag-based navigation, text search, and content retrieval across large document collections.  (python) 
 - [❌ context-portal-mcp](https://github.com/greatscottymac/context-portal): Database-backed project memory management system that stores decisions, progress tracking, and system patterns in a queryable knowledge graph with vector embeddings for semantic search and comprehensive import/export functionality.  (python) 
 - [❌ obsidian-api-mcp-server](https://github.com/pmmvr/obsidian-api-mcp-server): Integrates with Obsidian vaults through the Local REST API plugin to enable advanced search with flexible filters, complete note content retrieval, and vault structure browsing for knowledge discovery and analysis workflows.  (python) 
@@ -2876,6 +2886,7 @@ Create and edit marketing content, manage metadata, and refine product positioni
 - [❌ mcp-metricool](https://github.com/metricool/mcp-metricool): Integrates with Metricool's social media analytics platform to retrieve performance metrics and schedule content across multiple networks including Instagram, Facebook, Twitter, LinkedIn, TikTok, and YouTube.  (python) 
 - [❌ smartlead-mcp-server](https://github.com/LeadMagic/smartlead-mcp-server): A Model Context Protocol server that provides AI coding assistants (Claude, Cursor, etc.) with access to SmartLead's cold email automation platform through 116+ API endpoints for campaign management, lead tracking, and email delivery.  (node) 
 - [❌ buttondown](https://github.com/the-focus-ai/buttondown-mcp): Integrates with Buttondown newsletter API for managing email campaigns through tools for listing, creating, analyzing, and scheduling newsletters with secure API key handling and ISO 8601 datetime formatting.  (node) 
+- [❌ @mattcoatsworth/mailchip-mcp-server](https://github.com/mattcoatsworth/mailchip-mcp-server/tree/main/src): A Model Context Protocol (MCP) server for interacting with the Mailchimp API.   (node) 
 - [✅ smartlead-mcp-by-leadmagic](https://github.com/leadmagic/smartlead-mcp-server): Integrates with SmartLead's cold email outreach platform to manage campaigns, leads, email accounts, and analytics with smart tool loading that categorizes 113+ tools into essential, advanced, and administrative tiers for streamlined email automation workflows.  (50 tools) (node) 
 - [✅ @feedmob/singular-reporting](https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/singular-reporting): Enables marketers to create, monitor, and download customized Singular marketing analytics reports with campaign performance metrics across different apps and sources  (2 tools) (node) 
 - [❌ transistor.fm](https://github.com/gxjansen/transistor-mcp): Integrates with Transistor.fm's API to manage podcasts, episodes, analytics, and subscribers for automating podcast workflows.  (node) 
@@ -2889,6 +2900,7 @@ Create and edit marketing content, manage metadata, and refine product positioni
 - [❌ facebook-ads](https://github.com/gomarble-ai/facebook-ads-mcp-server): Integrates with Facebook's advertising platform to retrieve and analyze ad account data, campaign metrics, ad sets, creatives, and performance insights using the Facebook Graph API.  (python) 
 - [❌ typefully](https://github.com/pepuscz/typefully-mcp-server): Integrates with Typefully's social media scheduling platform to automate content creation, scheduling, and publishing workflows across multiple social media platforms.  (python) 
 - [❌ instagram-analytics](https://github.com/duhlink/instagram-server-next-mcp): Integrates with Instagram's API and web scraping tools to enable social media analytics, account management, and content strategy insights.  (node) 
+- [❌ @Tisik79/MCP-Facebook](https://github.com/Tisik79/MCP-Facebook/tree/main/src): This project provides a Model Context Protocol (MCP) server designed to interact with the Facebook Marketing API, allowing AI assistants like Claude to manage and analyze Facebook ad campaigns, ad sets, audiences, and more.  (node) 
 - [❌ google-ads](https://github.com/cohnen/mcp-google-ads): Integrates with Google Ads API to enable direct access and management of advertising campaigns, performance analysis, and optimization within conversations.  (python) 
 - [✅ @toolsdk.ai/mcp-server-google-analytics](https://github.com/smithery-ai/mcp-server-google-analytics): An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.  (2 tools) (node) 
 - [❌ adjust](https://github.com/bitscorp-mcp/mcp-adjust): Integrates with Adjust API to enable natural language queries for marketing analytics data, including campaign performance metrics and reports without leaving your chat interface.  (node) 
@@ -3969,6 +3981,7 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [❌ ffmpeg-video-processor](https://github.com/bitscorp-mcp/mcp-ffmpeg): Enables video manipulation through FFmpeg, offering capabilities to resize videos to different resolutions and extract audio in various formats without leaving the conversation interface.  (node) 
 - [❌ gyazo](https://github.com/nota/gyazo-mcp-server): Integrates with Gyazo to retrieve Gyazo images and metadata, enabling image analysis and content processing.  (node) 
 - [✅ mcp-server-diceroll](https://github.com/shimapon/mcp-server-diceroll): Provides a simple dice rolling tool that generates random rolls with customizable dice faces and quantities, returning both individual results and their sum.  (1 tools) (node) 
+- [❌ @masatoshi118/mcp_google_froms](https://github.com/masatoshi118/mcp_google_froms/tree/main/src): This MCP server uses the Google Forms API to provide functions such as form creation, editing, and response retrieval.  (node) 
 - [✅ @greirson/mcp-todoist](https://github.com/greirson/mcp-todoist): Integrates with Todoist API to manage tasks, projects, sections, and comments with support for bulk operations, natural language search, and comprehensive CRUD functionality.  (28 tools) (node) 
 - [❌ solana-docs](https://github.com/aldrin-labs/solana-docs-mcp-server): Fetches and parses Solana blockchain documentation, enabling real-time access to development information for accurate query responses and blockchain-related assistance.  (node) 
 - [❌ claude-api](https://github.com/mlobo2012/claude_desktop_api_use_via_mcp): Integrates Claude API features, enabling direct API access, extended context windows, and advanced conversation management. Helpful to bypass standard daily limits of Claude.ai.  (python) 
@@ -4486,7 +4499,7 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [❌ solana-dev](https://github.com/solana-foundation/solana-dev-mcp): Integrates with Solana blockchain to provide direct access to account data, transaction details, and network parameters through TypeScript-based RPC methods for developers building on the Solana ecosystem.  (node) 
 - [❌ anki-mcp](https://github.com/ujisati/anki-mcp): Integrates with Anki flashcard software to create, manage, and study flashcards through natural language interactions with your local Anki desktop application  (python) 
 - [❌ tiny-todo](https://github.com/tkc/tinyt-todo-mcp): Enables persistent task management with SQLite storage, allowing creation, updating, deletion, and searching of TODOs with completion tracking and due date features beyond context limitations.  (node) 
-- [❌ google-forms](https://github.com/masatoshi118/mcp_google_froms): Enables programmatic interaction with Google Forms by generating refresh tokens and establishing OAuth authentication for automating form-related workflows and data retrieval.  (node) 
+- [❌ @matteoantoci/google-forms-mcp](https://github.com/matteoantoci/google-forms-mcp/tree/main/src): This MCP server uses the Google Forms API to provide functions such as creating, editing, and retrieving responses for forms.  (node) 
 - [❌ agentrpc](https://github.com/agentrpc/agentrpc): A universal RPC layer for AI agents. Connect to any function, any language, any framework, in minutes.  (node) 
 - [❌ pokemon-tcg-card-search](https://github.com/jlgrimes/ptcg-mcp): Enables searching and displaying Pokemon Trading Card Game cards with rich filtering capabilities for name, type, legality, and more through the Pokemon TCG API.  (node) 
 - [❌ joomla-articles](https://github.com/nasoma/joomla-mcp-server): Enables AI to create, update, and manage Joomla website articles through specialized tools for retrieving content, converting markdown to HTML, and controlling publication states via the Joomla Web Services API.  (python) 

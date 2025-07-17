@@ -851,8 +851,8 @@
   "@llmindset/mcp-hfspace": {
     "category": "developer-tools",
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@mcp-get-community/server-macos": {
     "category": "developer-tools",
@@ -15977,6 +15977,7 @@
   "mcp-maigret": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/mcp-maigret.json",
+    "validated": true,
     "tools": {
       "search_username": {
         "name": "search_username",
@@ -15986,8 +15987,7 @@
         "name": "parse_url",
         "description": "Parse a URL to extract information and search for associated usernames"
       }
-    },
-    "validated": true
+    }
   },
   "python-documentation-search": {
     "category": "search-data-extraction",
@@ -22690,12 +22690,6 @@
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/anki-mcp.json"
   },
-  "google-forms": {
-    "category": "other-tools-and-integrations",
-    "path": "other-tools-and-integrations/google-forms.json",
-    "validated": false,
-    "tools": {}
-  },
   "agentrpc": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/agentrpc.json",
@@ -26124,6 +26118,7 @@
   "multicluster-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/multicluster-mcp-server.json",
+    "validated": true,
     "tools": {
       "clusters": {
         "name": "clusters",
@@ -26141,8 +26136,7 @@
         "name": "prometheus",
         "description": "Queries a Prometheus server (snapshot or range) and returns metrics formatted for charting."
       }
-    },
-    "validated": true
+    }
   },
   "@novitalabs/novita-mcp-server": {
     "category": "cloud-platforms",
@@ -27428,12 +27422,6 @@
   "pushover-mcp": {
     "category": "communication",
     "path": "communication/pushover-mcp.json",
-    "validated": false,
-    "tools": {}
-  },
-  "wweb-mcp": {
-    "category": "communication",
-    "path": "communication/wweb-mcp.json",
     "validated": false,
     "tools": {}
   },
@@ -32018,77 +32006,6 @@
     "validated": false,
     "tools": {}
   },
-  "@cablate/mcp-doc-forge": {
-    "category": "data-science-tools",
-    "path": "data-science-tools/cablate-mcp-doc-forge.json",
-    "validated": true,
-    "tools": {
-      "document_reader": {
-        "name": "document_reader",
-        "description": "Read content from non-image document-files at specified paths, supporting various file formats: .pdf, .docx, .txt, .html, .csv"
-      },
-      "pdf_merger": {
-        "name": "pdf_merger",
-        "description": "Merge multiple PDF files into one"
-      },
-      "pdf_splitter": {
-        "name": "pdf_splitter",
-        "description": "Split a PDF file into multiple files"
-      },
-      "docx_to_pdf": {
-        "name": "docx_to_pdf",
-        "description": "Convert DOCX files to PDF format"
-      },
-      "docx_to_html": {
-        "name": "docx_to_html",
-        "description": "Convert DOCX to HTML while preserving formatting"
-      },
-      "html_cleaner": {
-        "name": "html_cleaner",
-        "description": "Clean HTML by removing unnecessary tags and attributes"
-      },
-      "html_to_text": {
-        "name": "html_to_text",
-        "description": "Convert HTML to plain text while preserving structure"
-      },
-      "html_to_markdown": {
-        "name": "html_to_markdown",
-        "description": "Convert HTML to Markdown format"
-      },
-      "html_extract_resources": {
-        "name": "html_extract_resources",
-        "description": "Extract all resources (images, videos, links) from HTML"
-      },
-      "html_formatter": {
-        "name": "html_formatter",
-        "description": "Format and beautify HTML code"
-      },
-      "text_diff": {
-        "name": "text_diff",
-        "description": "Compare two text files and show differences"
-      },
-      "text_splitter": {
-        "name": "text_splitter",
-        "description": "Split text file by specified delimiter or line count"
-      },
-      "text_formatter": {
-        "name": "text_formatter",
-        "description": "Format text with proper indentation and line spacing"
-      },
-      "text_encoding_converter": {
-        "name": "text_encoding_converter",
-        "description": "Convert text between different encodings"
-      },
-      "excel_read": {
-        "name": "excel_read",
-        "description": "Read Excel file and convert to JSON format while preserving structure"
-      },
-      "format_convert": {
-        "name": "format_convert",
-        "description": "Convert between different document formats (Markdown, HTML, XML, JSON)"
-      }
-    }
-  },
   "@gongrzhe/server-json-mcp": {
     "category": "data-science-tools",
     "path": "data-science-tools/gongrzhe-server-json-mcp.json",
@@ -33021,6 +32938,7 @@
   "@myuon/refactor-mcp": {
     "category": "file-systems",
     "path": "file-systems/myuon-refactor-mcp.json",
+    "validated": true,
     "tools": {
       "code_refactor": {
         "name": "code_refactor",
@@ -33030,8 +32948,7 @@
         "name": "code_search",
         "description": "Search for code patterns using regex and return file locations with line numbers"
       }
-    },
-    "validated": true
+    }
   },
   "@sunwood-ai-labs/source-sage-mcp-server": {
     "category": "file-systems",
@@ -38639,13 +38556,13 @@
   "@burtthecoder/mcp-dnstwist": {
     "category": "security",
     "path": "security/burtthecoder-mcp-dnstwist.json",
+    "validated": true,
     "tools": {
       "fuzz_domain": {
         "name": "fuzz_domain",
         "description": "Generate and analyze domain permutations to detect potential typosquatting, phishing, and brand impersonation"
       }
-    },
-    "validated": true
+    }
   },
   "urldna": {
     "category": "security",
@@ -43429,5 +43346,101 @@
   "browser-automation": {
     "category": "browser-automation",
     "path": "browser-automation/browser-automation.json"
+  },
+  "@pnizer/wweb-mcp": {
+    "category": "communication",
+    "path": "communication/wweb-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@kacase/mcp-outlook": {
+    "category": "communication",
+    "path": "communication/mcp-outlook.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@nspady/google-calendar-mcp": {
+    "category": "communication",
+    "path": "communication/google-calendar-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@NaorAIdeas/hubspot-mcp-server": {
+    "category": "customer-data-platforms",
+    "path": "customer-data-platforms/hubspot-mcp-api.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@koundinya/zd-mcp-server": {
+    "category": "customer-data-platforms",
+    "path": "customer-data-platforms/zd-mcp-sever.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@lkm1developer/hubspot-mcp-server": {
+    "category": "customer-data-platforms",
+    "path": "customer-data-platforms/hubspot-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@freema/mcp-gsheets": {
+    "category": "data-platforms",
+    "path": "data-platforms/gsheets.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@mattcoatsworth/Klaviyo-MCP-Server-4-15": {
+    "category": "developer-tools",
+    "path": "developer-tools/klaviyo-api.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@amir-bengherbi/shopify-mcp-server": {
+    "category": "developer-tools",
+    "path": "developer-tools/shopify-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@WillDent/pipedrive-mcp-server": {
+    "category": "file-systems",
+    "path": "file-systems/pipedrive.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@alfork/qbconductor-mcp-server": {
+    "category": "finance-fintech",
+    "path": "finance-fintech/qbconduceor.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@makenotion/notion-mcp-server": {
+    "category": "knowledge-memory",
+    "path": "knowledge-memory/notion-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@mattcoatsworth/mailchip-mcp-server": {
+    "category": "marketing",
+    "path": "marketing/mailchimp-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@Tisik79/MCP-Facebook": {
+    "category": "marketing",
+    "path": "marketing/facebook.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@masatoshi118/mcp_google_froms": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/mcp-google-forms.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@matteoantoci/google-forms-mcp": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/google-forms.json",
+    "validated": false,
+    "tools": {}
   }
 }
