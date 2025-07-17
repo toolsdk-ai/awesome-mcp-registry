@@ -1,0 +1,28 @@
+{
+  "type": "mcp-server",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/1024px-2023_Facebook_icon.svg.png",
+  "packageName": "@Tisik79/MCP-Facebook",
+  "description": "This project provides a Model Context Protocol (MCP) server designed to interact with the Facebook Marketing API, allowing AI assistants like Claude to manage and analyze Facebook ad campaigns, ad sets, audiences, and more.",
+  "url": "https://github.com/Tisik79/MCP-Facebook/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "FACEBOOK_APP_ID": {
+      "description": "your_app_id",
+      "required": true
+    },
+    "FACEBOOK_APP_SECRET": {
+      "description": "your_app_secret",
+      "required": true
+    },
+    "FACEBOOK_ACCESS_TOKEN": {
+      "description": "your_access_token",
+      "required": true
+    },
+    "FACEBOOK_ACCOUNT_ID": {
+      "description": "your_ad_account_id",
+      "required": true
+    }
+  },
+  "name": "Facebook Ads MCP"
+}

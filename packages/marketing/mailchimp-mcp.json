@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1625201824209797121/6Hm11ZED_400x400.jpg",
+  "packageName": "@mattcoatsworth/mailchip-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for interacting with the Mailchimp API. ",
+  "url": "https://github.com/mattcoatsworth/mailchip-mcp-server/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "MAILCHIMP_API_KEY": {
+      "description": "your_api_key_here",
+      "required": true
+    },
+    "MAILCHIMP_SERVER_PREFIX": {
+      "description": "us1",
+      "required": true
+    }
+  },
+  "name": "Mailchimp MCP Server"
+}

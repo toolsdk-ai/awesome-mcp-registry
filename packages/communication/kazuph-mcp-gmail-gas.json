@@ -1,5 +1,6 @@
 {
   "type": "mcp-server",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png",
   "packageName": "@kazuph/mcp-gmail-gas",
   "description": "Integrates Gmail functionality, enabling email search, message retrieval, and attachment downloads via Google Apps Script.",
   "url": "https://github.com/kazuph/mcp-gmail-gas",
@@ -15,5 +16,5 @@
       "required": true
     }
   },
-  "name": "Gmail GAS MCP"
+  "name": "Gmail MCP"
 }
