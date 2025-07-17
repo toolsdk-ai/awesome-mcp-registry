@@ -1,10 +1,11 @@
 {
   "type": "mcp-server",
+  "logo": "https://www.svix.com/resources/assets/images/color-webhook-240-1deccb0e365ff4ea493396ad28638fb7.png",
   "packageName": "@kevinwatt/mcp-webhook",
   "description": "Enables sending customizable messages to external webhook endpoints, facilitating automated notifications and workflow integrations.",
   "url": "https://github.com/kevinwatt/mcp-webhook",
   "runtime": "node",
-  "license": "unknown",
+  "license": "MIT",
   "env": {
     "WEBHOOK_URL": {
       "description": "your-webhook-url",

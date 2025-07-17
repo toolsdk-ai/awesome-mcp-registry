@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1915449242979885059/d8IWgY7S_400x400.jpg",
+  "packageName": "@amir-bengherbi/shopify-mcp-server",
+  "description": "MCP Server for Shopify API, enabling interaction with store data through GraphQL API. This server provides tools for managing products, customers, orders, and more.",
+  "url": "https://github.com/amir-bengherbi/shopify-mcp-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "SHOPIFY_ACCESS_TOKEN": {
+      "description": "<YOUR_ACCESS_TOKEN>",
+      "required": true
+    },
+    "MYSHOPIFY_DOMAIN": {
+      "description": "<YOUR_SHOP>.myshopify.com",
+      "required": true
+    }
+  },
+  "name": "Shopify MCP Server"
+}

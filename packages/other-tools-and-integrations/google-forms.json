@@ -1,10 +1,23 @@
 {
   "type": "mcp-server",
-  "packageName": "google-forms",
-  "description": "Enables programmatic interaction with Google Forms by generating refresh tokens and establishing OAuth authentication for automating form-related workflows and data retrieval.",
-  "url": "https://github.com/masatoshi118/mcp_google_froms",
+  "packageName": "@matteoantoci/google-forms-mcp",
+  "description": "This MCP server uses the Google Forms API to provide functions such as creating, editing, and retrieving responses for forms.",
+  "url": "https://github.com/matteoantoci/google-forms-mcp/tree/main/src",
   "runtime": "node",
-  "license": "unknown",
-  "env": {},
+  "license": "GNU",
+  "env": {
+    "GOOGLE_CLIENT_ID": {
+      "description": "YOUR_CLIENT_ID",
+      "required": true
+    },
+    "GOOGLE_CLIENT_SECRET": {
+      "description": "YOUR_CLIENT_SECRET",
+      "required": true
+    },
+    "GOOGLE_REFRESH_TOKEN": {
+      "description": "YOUR_REFRESH_TOKEN",
+      "required": true
+    }
+  },
   "name": "Google Forms MCP"
 }
