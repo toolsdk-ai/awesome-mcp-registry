@@ -851,21 +851,8 @@
   "@llmindset/mcp-hfspace": {
     "category": "developer-tools",
     "path": "developer-tools/llmindset-mcp-hfspace.json",
-    "validated": true,
-    "tools": {
-      "available-files": {
-        "name": "available-files",
-        "description": "A list of available file and resources. If the User requests things like 'most recent image' or 'the audio' use this tool to identify the intended resource.This tool returns 'resource uri', 'name', 'size', 'last modified'  and 'mime type' in a markdown table"
-      },
-      "search-spaces": {
-        "name": "search-spaces",
-        "description": "Use semantic search to find an endpoint on the `Hugging Face Spaces` service. The search term will usually be 3-7 words describing a task or activity the Person is trying to accomplish. The results are returned in a markdown table. Present all results to the Person. Await specific guidance from the Person before making further Tool calls."
-      },
-      "FLUX_1-schnell-infer": {
-        "name": "FLUX_1-schnell-infer",
-        "description": "Call the FLUX.1-schnell endpoint /infer"
-      }
-    }
+    "validated": false,
+    "tools": {}
   },
   "@mcp-get-community/server-macos": {
     "category": "developer-tools",
@@ -13979,8 +13966,21 @@
   "@felores/placid-mcp-server": {
     "category": "marketing",
     "path": "marketing/felores-placid-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "placid_list_templates": {
+        "name": "placid_list_templates",
+        "description": "Get a list of available Placid templates with optional filtering. Each template includes its title, ID, preview image URL, available layers, and tags."
+      },
+      "placid_generate_image": {
+        "name": "placid_generate_image",
+        "description": "Generate an image using a template and provided assets"
+      },
+      "placid_generate_video": {
+        "name": "placid_generate_video",
+        "description": "Generate a video using one or more templates and provided assets. Every 10 seconds of video uses 10 credits."
+      }
+    }
   },
   "facebook-ads-library": {
     "category": "marketing",
@@ -20432,8 +20432,81 @@
   "@tfedorko/licensespring-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/tfedorko-licensespring-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "activate_license": {
+        "name": "activate_license",
+        "description": "Activate a license with hardware ID and product code"
+      },
+      "check_license": {
+        "name": "check_license",
+        "description": "Check license status and validity"
+      },
+      "deactivate_license": {
+        "name": "deactivate_license",
+        "description": "Deactivate a license for a specific hardware ID"
+      },
+      "add_consumption": {
+        "name": "add_consumption",
+        "description": "Add consumption units to a license"
+      },
+      "add_feature_consumption": {
+        "name": "add_feature_consumption",
+        "description": "Add consumption units to a specific feature"
+      },
+      "get_trial_key": {
+        "name": "get_trial_key",
+        "description": "Generate a trial license key for a product"
+      },
+      "get_product_details": {
+        "name": "get_product_details",
+        "description": "Get detailed information about a product"
+      },
+      "track_device_variables": {
+        "name": "track_device_variables",
+        "description": "Track custom variables for a device"
+      },
+      "get_device_variables": {
+        "name": "get_device_variables",
+        "description": "Get tracked variables for a device"
+      },
+      "floating_release": {
+        "name": "floating_release",
+        "description": "Release a floating license"
+      },
+      "floating_borrow": {
+        "name": "floating_borrow",
+        "description": "Borrow a floating license for offline use"
+      },
+      "change_password": {
+        "name": "change_password",
+        "description": "Change password for a user-based license"
+      },
+      "get_versions": {
+        "name": "get_versions",
+        "description": "Get available software versions for a product"
+      },
+      "get_installation_file": {
+        "name": "get_installation_file",
+        "description": "Get installation file download information"
+      },
+      "get_sso_url": {
+        "name": "get_sso_url",
+        "description": "Get Single Sign-On URL for customer portal access"
+      },
+      "get_customer_license_users": {
+        "name": "get_customer_license_users",
+        "description": "Get customer license users for a specific license"
+      },
+      "activate_offline": {
+        "name": "activate_offline",
+        "description": "Activate a license for offline use with hardware ID and product code"
+      },
+      "deactivate_offline": {
+        "name": "deactivate_offline",
+        "description": "Deactivate a license for offline use with hardware ID and product code"
+      }
+    }
   },
   "blender": {
     "category": "other-tools-and-integrations",
@@ -22617,12 +22690,6 @@
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/anki-mcp.json"
   },
-  "google-forms": {
-    "category": "other-tools-and-integrations",
-    "path": "other-tools-and-integrations/google-forms.json",
-    "validated": false,
-    "tools": {}
-  },
   "agentrpc": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/agentrpc.json",
@@ -23188,8 +23255,109 @@
   "@mcpdotdirect/starknet-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/mcpdotdirect-starknet-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "get_starknet_chain_info": {
+        "name": "get_starknet_chain_info",
+        "description": "Get information about a Starknet network"
+      },
+      "get_supported_starknet_networks": {
+        "name": "get_supported_starknet_networks",
+        "description": "Get a list of supported Starknet networks"
+      },
+      "get_starknet_eth_balance": {
+        "name": "get_starknet_eth_balance",
+        "description": "Get the ETH balance for a Starknet address or Starknet ID"
+      },
+      "get_starknet_token_balance": {
+        "name": "get_starknet_token_balance",
+        "description": "Get the token balance for a Starknet address or Starknet ID"
+      },
+      "get_starknet_strk_balance": {
+        "name": "get_starknet_strk_balance",
+        "description": "Get the STRK token balance for a Starknet address or Starknet ID"
+      },
+      "get_starknet_native_balances": {
+        "name": "get_starknet_native_balances",
+        "description": "Get all native token balances (ETH and STRK) for a Starknet address or Starknet ID"
+      },
+      "resolve_starknet_name": {
+        "name": "resolve_starknet_name",
+        "description": "Get the Starknet ID for an address"
+      },
+      "resolve_starknet_address": {
+        "name": "resolve_starknet_address",
+        "description": "Get the address for a Starknet ID"
+      },
+      "get_starknet_profile": {
+        "name": "get_starknet_profile",
+        "description": "Get the full Starknet ID profile for an address or Starknet ID"
+      },
+      "validate_starknet_domain": {
+        "name": "validate_starknet_domain",
+        "description": "Check if a string is a valid Starknet ID"
+      },
+      "get_starknet_block": {
+        "name": "get_starknet_block",
+        "description": "Get information about a specific block"
+      },
+      "get_starknet_block_transactions": {
+        "name": "get_starknet_block_transactions",
+        "description": "Get transactions in a specific block"
+      },
+      "get_starknet_transaction": {
+        "name": "get_starknet_transaction",
+        "description": "Get details about a transaction"
+      },
+      "get_starknet_transaction_receipt": {
+        "name": "get_starknet_transaction_receipt",
+        "description": "Get transaction receipt"
+      },
+      "call_starknet_contract": {
+        "name": "call_starknet_contract",
+        "description": "Call a read-only function on a contract"
+      },
+      "get_starknet_contract_class": {
+        "name": "get_starknet_contract_class",
+        "description": "Get the class (ABI and other information) of a contract"
+      },
+      "get_starknet_token_info": {
+        "name": "get_starknet_token_info",
+        "description": "Get information about a token"
+      },
+      "check_starknet_nft_ownership": {
+        "name": "check_starknet_nft_ownership",
+        "description": "Check if an address owns a specific NFT"
+      },
+      "get_starknet_nft_balance": {
+        "name": "get_starknet_nft_balance",
+        "description": "Get the number of NFTs owned by an address for a specific collection"
+      },
+      "get_starknet_token_supply": {
+        "name": "get_starknet_token_supply",
+        "description": "Get the total supply of a token"
+      },
+      "check_starknet_transaction_status": {
+        "name": "check_starknet_transaction_status",
+        "description": "Check if a transaction is confirmed (finalized)"
+      },
+      "transfer_starknet_eth": {
+        "name": "transfer_starknet_eth",
+        "description": "Transfer ETH from one account to another"
+      },
+      "transfer_starknet_strk": {
+        "name": "transfer_starknet_strk",
+        "description": "Transfer STRK from one account to another"
+      },
+      "transfer_starknet_token": {
+        "name": "transfer_starknet_token",
+        "description": "Transfer ERC20 tokens from one account to another"
+      },
+      "execute_starknet_contract": {
+        "name": "execute_starknet_contract",
+        "description": "Execute a contract call (write operation)"
+      }
+    }
   },
   "covid-19-statistics": {
     "category": "uncategorized",
@@ -23391,8 +23559,121 @@
   "@mcpdotdirect/evm-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/mcpdotdirect-evm-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "get_chain_info": {
+        "name": "get_chain_info",
+        "description": "Get information about an EVM network"
+      },
+      "resolve_ens": {
+        "name": "resolve_ens",
+        "description": "Resolve an ENS name to an Ethereum address"
+      },
+      "get_supported_networks": {
+        "name": "get_supported_networks",
+        "description": "Get a list of supported EVM networks"
+      },
+      "get_block_by_number": {
+        "name": "get_block_by_number",
+        "description": "Get a block by its block number"
+      },
+      "get_latest_block": {
+        "name": "get_latest_block",
+        "description": "Get the latest block from the EVM"
+      },
+      "get_balance": {
+        "name": "get_balance",
+        "description": "Get the native token balance (ETH, MATIC, etc.) for an address"
+      },
+      "get_erc20_balance": {
+        "name": "get_erc20_balance",
+        "description": "Get the ERC20 token balance of an Ethereum address"
+      },
+      "get_token_balance": {
+        "name": "get_token_balance",
+        "description": "Get the balance of an ERC20 token for an address"
+      },
+      "get_transaction": {
+        "name": "get_transaction",
+        "description": "Get detailed information about a specific transaction by its hash. Includes sender, recipient, value, data, and more."
+      },
+      "get_transaction_receipt": {
+        "name": "get_transaction_receipt",
+        "description": "Get a transaction receipt by its hash"
+      },
+      "estimate_gas": {
+        "name": "estimate_gas",
+        "description": "Estimate the gas cost for a transaction"
+      },
+      "transfer_eth": {
+        "name": "transfer_eth",
+        "description": "Transfer native tokens (ETH, MATIC, etc.) to an address"
+      },
+      "transfer_erc20": {
+        "name": "transfer_erc20",
+        "description": "Transfer ERC20 tokens to another address"
+      },
+      "approve_token_spending": {
+        "name": "approve_token_spending",
+        "description": "Approve another address (like a DeFi protocol or exchange) to spend your ERC20 tokens. This is often required before interacting with DeFi protocols."
+      },
+      "transfer_nft": {
+        "name": "transfer_nft",
+        "description": "Transfer an NFT (ERC721 token) from one address to another. Requires the private key of the current owner for signing the transaction."
+      },
+      "transfer_erc1155": {
+        "name": "transfer_erc1155",
+        "description": "Transfer ERC1155 tokens to another address. ERC1155 is a multi-token standard that can represent both fungible and non-fungible tokens in a single contract."
+      },
+      "transfer_token": {
+        "name": "transfer_token",
+        "description": "Transfer ERC20 tokens to an address"
+      },
+      "read_contract": {
+        "name": "read_contract",
+        "description": "Read data from a smart contract by calling a view/pure function. This doesn't modify blockchain state and doesn't require gas or signing."
+      },
+      "write_contract": {
+        "name": "write_contract",
+        "description": "Write data to a smart contract by calling a state-changing function. This modifies blockchain state and requires gas payment and transaction signing."
+      },
+      "is_contract": {
+        "name": "is_contract",
+        "description": "Check if an address is a smart contract or an externally owned account (EOA)"
+      },
+      "get_token_info": {
+        "name": "get_token_info",
+        "description": "Get comprehensive information about an ERC20 token including name, symbol, decimals, total supply, and other metadata. Use this to analyze any token on EVM chains."
+      },
+      "get_token_balance_erc20": {
+        "name": "get_token_balance_erc20",
+        "description": "Get ERC20 token balance for an address"
+      },
+      "get_nft_info": {
+        "name": "get_nft_info",
+        "description": "Get detailed information about a specific NFT (ERC721 token), including collection name, symbol, token URI, and current owner if available."
+      },
+      "check_nft_ownership": {
+        "name": "check_nft_ownership",
+        "description": "Check if an address owns a specific NFT"
+      },
+      "get_erc1155_token_uri": {
+        "name": "get_erc1155_token_uri",
+        "description": "Get the metadata URI for an ERC1155 token (multi-token standard used for both fungible and non-fungible tokens). The URI typically points to JSON metadata about the token."
+      },
+      "get_nft_balance": {
+        "name": "get_nft_balance",
+        "description": "Get the total number of NFTs owned by an address from a specific collection. This returns the count of NFTs, not individual token IDs."
+      },
+      "get_erc1155_balance": {
+        "name": "get_erc1155_balance",
+        "description": "Get the balance of a specific ERC1155 token ID owned by an address. ERC1155 allows multiple tokens of the same ID, so the balance can be greater than 1."
+      },
+      "get_address_from_private_key": {
+        "name": "get_address_from_private_key",
+        "description": "Get the EVM address derived from a private key"
+      }
+    }
   },
   "alchemy-sdk": {
     "category": "uncategorized",
@@ -27144,12 +27425,6 @@
     "validated": false,
     "tools": {}
   },
-  "wweb-mcp": {
-    "category": "communication",
-    "path": "communication/wweb-mcp.json",
-    "validated": false,
-    "tools": {}
-  },
   "mcp-server-google-calendar": {
     "category": "communication",
     "path": "communication/mcp-server-google-calendar.json",
@@ -30226,8 +30501,37 @@
   "omnifocus-mcp": {
     "category": "developer-tools",
     "path": "developer-tools/omnifocus-mcp.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "dump_database": {
+        "name": "dump_database",
+        "description": "Gets the current state of your OmniFocus database"
+      },
+      "add_omnifocus_task": {
+        "name": "add_omnifocus_task",
+        "description": "Add a new task to OmniFocus"
+      },
+      "add_project": {
+        "name": "add_project",
+        "description": "Add a new project to OmniFocus"
+      },
+      "remove_item": {
+        "name": "remove_item",
+        "description": "Remove a task or project from OmniFocus"
+      },
+      "edit_item": {
+        "name": "edit_item",
+        "description": "Edit a task or project in OmniFocus"
+      },
+      "batch_add_items": {
+        "name": "batch_add_items",
+        "description": "Add multiple tasks or projects to OmniFocus in a single operation"
+      },
+      "batch_remove_items": {
+        "name": "batch_remove_items",
+        "description": "Remove multiple tasks or projects from OmniFocus in a single operation"
+      }
+    }
   },
   "stimulus-docs": {
     "category": "developer-tools",
@@ -31701,77 +32005,6 @@
     "path": "data-science-tools/quickchart.json",
     "validated": false,
     "tools": {}
-  },
-  "@cablate/mcp-doc-forge": {
-    "category": "data-science-tools",
-    "path": "data-science-tools/cablate-mcp-doc-forge.json",
-    "validated": true,
-    "tools": {
-      "document_reader": {
-        "name": "document_reader",
-        "description": "Read content from non-image document-files at specified paths, supporting various file formats: .pdf, .docx, .txt, .html, .csv"
-      },
-      "pdf_merger": {
-        "name": "pdf_merger",
-        "description": "Merge multiple PDF files into one"
-      },
-      "pdf_splitter": {
-        "name": "pdf_splitter",
-        "description": "Split a PDF file into multiple files"
-      },
-      "docx_to_pdf": {
-        "name": "docx_to_pdf",
-        "description": "Convert DOCX files to PDF format"
-      },
-      "docx_to_html": {
-        "name": "docx_to_html",
-        "description": "Convert DOCX to HTML while preserving formatting"
-      },
-      "html_cleaner": {
-        "name": "html_cleaner",
-        "description": "Clean HTML by removing unnecessary tags and attributes"
-      },
-      "html_to_text": {
-        "name": "html_to_text",
-        "description": "Convert HTML to plain text while preserving structure"
-      },
-      "html_to_markdown": {
-        "name": "html_to_markdown",
-        "description": "Convert HTML to Markdown format"
-      },
-      "html_extract_resources": {
-        "name": "html_extract_resources",
-        "description": "Extract all resources (images, videos, links) from HTML"
-      },
-      "html_formatter": {
-        "name": "html_formatter",
-        "description": "Format and beautify HTML code"
-      },
-      "text_diff": {
-        "name": "text_diff",
-        "description": "Compare two text files and show differences"
-      },
-      "text_splitter": {
-        "name": "text_splitter",
-        "description": "Split text file by specified delimiter or line count"
-      },
-      "text_formatter": {
-        "name": "text_formatter",
-        "description": "Format text with proper indentation and line spacing"
-      },
-      "text_encoding_converter": {
-        "name": "text_encoding_converter",
-        "description": "Convert text between different encodings"
-      },
-      "excel_read": {
-        "name": "excel_read",
-        "description": "Read Excel file and convert to JSON format while preserving structure"
-      },
-      "format_convert": {
-        "name": "format_convert",
-        "description": "Convert between different document formats (Markdown, HTML, XML, JSON)"
-      }
-    }
   },
   "@gongrzhe/server-json-mcp": {
     "category": "data-science-tools",
@@ -41762,21 +41995,21 @@
         "name": "file-handler",
         "description": "FileHandler tool description"
       },
-      "my-tool": {
-        "name": "my-tool",
-        "description": "MyTool tool description"
-      },
       "api-client": {
         "name": "api-client",
         "description": "ApiClient tool description"
       },
-      "example_tool": {
-        "name": "example_tool",
-        "description": "An example tool that processes messages"
+      "my-tool": {
+        "name": "my-tool",
+        "description": "MyTool tool description"
       },
       "data-processor": {
         "name": "data-processor",
         "description": "DataProcessor tool description"
+      },
+      "example_tool": {
+        "name": "example_tool",
+        "description": "An example tool that processes messages"
       }
     }
   },
@@ -43113,5 +43346,101 @@
   "browser-automation": {
     "category": "browser-automation",
     "path": "browser-automation/browser-automation.json"
+  },
+  "@pnizer/wweb-mcp": {
+    "category": "communication",
+    "path": "communication/wweb-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@kacase/mcp-outlook": {
+    "category": "communication",
+    "path": "communication/mcp-outlook.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@nspady/google-calendar-mcp": {
+    "category": "communication",
+    "path": "communication/google-calendar-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@NaorAIdeas/hubspot-mcp-server": {
+    "category": "customer-data-platforms",
+    "path": "customer-data-platforms/hubspot-mcp-api.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@koundinya/zd-mcp-server": {
+    "category": "customer-data-platforms",
+    "path": "customer-data-platforms/zd-mcp-sever.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@lkm1developer/hubspot-mcp-server": {
+    "category": "customer-data-platforms",
+    "path": "customer-data-platforms/hubspot-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@freema/mcp-gsheets": {
+    "category": "data-platforms",
+    "path": "data-platforms/gsheets.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@mattcoatsworth/Klaviyo-MCP-Server-4-15": {
+    "category": "developer-tools",
+    "path": "developer-tools/klaviyo-api.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@amir-bengherbi/shopify-mcp-server": {
+    "category": "developer-tools",
+    "path": "developer-tools/shopify-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@WillDent/pipedrive-mcp-server": {
+    "category": "file-systems",
+    "path": "file-systems/pipedrive.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@alfork/qbconductor-mcp-server": {
+    "category": "finance-fintech",
+    "path": "finance-fintech/qbconduceor.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@makenotion/notion-mcp-server": {
+    "category": "knowledge-memory",
+    "path": "knowledge-memory/notion-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@mattcoatsworth/mailchip-mcp-server": {
+    "category": "marketing",
+    "path": "marketing/mailchimp-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@Tisik79/MCP-Facebook": {
+    "category": "marketing",
+    "path": "marketing/facebook.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@masatoshi118/mcp_google_froms": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/mcp-google-forms.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@matteoantoci/google-forms-mcp": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/google-forms.json",
+    "validated": false,
+    "tools": {}
   }
 }

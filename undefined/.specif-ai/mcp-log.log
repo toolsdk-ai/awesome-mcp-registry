@@ -1,8 +1,0 @@
-{"level":30,"time":1752476010184,"version":"0.6.3","pid":14573,"hostname":"fv-az789-61","version":"0.6.3","msg":"Starting Specif-ai MCP Server"}
-{"level":30,"time":1752476010185,"version":"0.6.3","pid":14573,"hostname":"fv-az789-61","msg":"Initializing MCP server..."}
-{"level":30,"time":1752476010185,"version":"0.6.3","pid":14573,"hostname":"fv-az789-61","msg":"MCP server initialized"}
-{"level":30,"time":1752476010185,"version":"0.6.3","pid":14573,"hostname":"fv-az789-61","msg":"Starting MCP server..."}
-{"level":30,"time":1752476010192,"version":"0.6.3","pid":14573,"hostname":"fv-az789-61","msg":"MCP server started successfully"}
-{"level":30,"time":1752476010192,"version":"0.6.3","pid":14573,"hostname":"fv-az789-61","msg":"Specif-ai MCP Server running on stdio"}
-{"level":30,"time":1752476010209,"version":"0.6.3","pid":14573,"hostname":"fv-az789-61","msg":"Handling list tools request"}
-{"level":30,"time":1752476010211,"version":"0.6.3","pid":14573,"hostname":"fv-az789-61","msg":"Received SIGTERM. Shutting down..."}
