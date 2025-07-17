@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Google Sheets MCP",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Google_Sheets_2020_Logo.svg/120px-Google_Sheets_2020_Logo.svg.png",
+  "packageName": "@freema/mcp-gsheets",
+  "description": "A Model Context Protocol (MCP) server for Google Sheets API integration. Enables reading, writing, and managing Google Sheets documents directly from your MCP client (e.g., Claude Desktop).",
+  "url": "https://github.com/freema/mcp-gsheets",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "GOOGLE_PROJECT_ID": {
+      "description": "your-project-id",
+      "required": true
+    },
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "description": "/absolute/path/to/service-account-key.json",
+      "required": true
+    }
+  }
+}

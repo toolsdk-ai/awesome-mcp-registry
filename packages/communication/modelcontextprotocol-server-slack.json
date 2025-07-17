@@ -1,10 +1,11 @@
 {
   "type": "mcp-server",
   "packageName": "@modelcontextprotocol/server-slack",
+  "logo": "https://pbs.twimg.com/profile_images/1808594616285081605/AymaXgIX_400x400.jpg",
   "description": "Send messages, manage channels, and access workspace history.",
   "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/slack",
   "runtime": "node",
-  "license": "unknown",
+  "license": "MIT",
   "env": {
     "SLACK_BOT_TOKEN": {
       "description": "xoxb-your-bot-token",
