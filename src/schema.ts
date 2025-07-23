@@ -47,6 +47,7 @@ export const PackageConfigSchema = z.discriminatedUnion('type', [
     type: z.literal('toolapp'),
     packageName: z.string(),
     url: z.string().optional(),
+    starCount: z.number().optional(),
   }),
 ]);
 
