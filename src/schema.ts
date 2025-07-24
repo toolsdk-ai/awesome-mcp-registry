@@ -56,11 +56,11 @@ export const PackagesListSchema = z.record(
     category: z.string().optional(),
     path: z.string(),
     validated: z.boolean().optional(),
+    stars: z.number().optional(),
     tools: z.record(z.object(
       {
         name: z.string().optional(),
         description: z.string().optional(),
-
       })).optional(),
   })
 )
