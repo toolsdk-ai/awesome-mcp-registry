@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Bitbucket"
+  "name": "MCP Bitbucket",
+  "stars": 5
 }

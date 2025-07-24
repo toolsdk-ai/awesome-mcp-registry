@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Blah MCP Server"
+  "name": "Blah MCP Server",
+  "stars": 15
 }

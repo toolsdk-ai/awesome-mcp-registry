@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server Heroku"
+  "name": "MCP Server Heroku",
+  "stars": 2
 }

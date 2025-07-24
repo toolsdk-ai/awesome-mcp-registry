@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server VSCode"
+  "name": "MCP Server VSCode",
+  "stars": 333
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "ADB MCP"
+  "name": "ADB MCP",
+  "stars": 210
 }

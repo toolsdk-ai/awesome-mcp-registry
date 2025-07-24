@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Project Hub MCP Server"
+  "name": "Project Hub MCP Server",
+  "stars": 2
 }

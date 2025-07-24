@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "New Relic Logs MCP Server"
+  "name": "New Relic Logs MCP Server",
+  "stars": 21
 }

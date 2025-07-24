@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Variflight MCP"
+  "name": "Variflight MCP",
+  "stars": 12
 }

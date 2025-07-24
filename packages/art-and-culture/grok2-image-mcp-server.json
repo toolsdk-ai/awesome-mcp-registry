@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Grok2 Image MCP Server"
+  "name": "Grok2 Image MCP Server",
+  "stars": 28
 }

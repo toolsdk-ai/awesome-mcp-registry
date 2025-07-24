@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Xcode MCP Server"
+  "name": "Xcode MCP Server",
+  "stars": 292
 }

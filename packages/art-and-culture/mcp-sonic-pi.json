@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Sonic Pi MCP"
+  "name": "Sonic Pi MCP",
+  "stars": 9
 }

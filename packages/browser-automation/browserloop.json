@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "BrowserLoop"
+  "name": "BrowserLoop",
+  "stars": 17
 }

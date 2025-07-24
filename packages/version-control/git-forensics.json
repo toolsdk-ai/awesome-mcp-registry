@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Git Forensics MCP"
+  "name": "Git Forensics MCP",
+  "stars": 1
 }

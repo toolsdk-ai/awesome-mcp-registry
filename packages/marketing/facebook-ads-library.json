@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Facebook Ads Library MCP"
+  "name": "Facebook Ads Library MCP",
+  "stars": 113
 }

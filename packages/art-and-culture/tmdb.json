@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TMDB MCP Bridge"
+  "name": "TMDB MCP Bridge",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "GlobalPing MCP Server"
+  "name": "GlobalPing MCP Server",
+  "stars": 12
 }

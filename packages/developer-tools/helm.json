@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "MCP Helm"
+  "name": "MCP Helm",
+  "stars": 8
 }

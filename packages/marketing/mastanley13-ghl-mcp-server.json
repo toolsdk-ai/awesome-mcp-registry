@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "GoHighLevel MCP Server"
+  "name": "GoHighLevel MCP Server",
+  "stars": 63
 }

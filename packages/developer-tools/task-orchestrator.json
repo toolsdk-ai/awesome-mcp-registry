@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Task Orchestrator"
+  "name": "Task Orchestrator",
+  "stars": 4
 }

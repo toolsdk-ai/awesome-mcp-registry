@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "HTML Page Preview MCP"
+  "name": "HTML Page Preview MCP",
+  "stars": 19
 }

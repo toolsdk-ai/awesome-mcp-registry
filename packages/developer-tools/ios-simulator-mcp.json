@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "iOS Simulator MCP"
+  "name": "iOS Simulator MCP",
+  "stars": 783
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "GitHub PR Reviewer (Notion)"
+  "name": "GitHub PR Reviewer (Notion)",
+  "stars": 1
 }

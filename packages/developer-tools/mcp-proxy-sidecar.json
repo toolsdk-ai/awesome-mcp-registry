@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Proxy Sidecar"
+  "name": "MCP Proxy Sidecar",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Buildkite MCP Server"
+  "name": "Buildkite MCP Server",
+  "stars": 19
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "PRD MCP Server"
+  "name": "PRD MCP Server",
+  "stars": 19
 }

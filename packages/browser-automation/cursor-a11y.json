@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Cursor A11y MCP"
+  "name": "Cursor A11y MCP",
+  "stars": 0
 }

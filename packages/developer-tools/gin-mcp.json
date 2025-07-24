@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Gin MCP"
+  "name": "Gin MCP",
+  "stars": 39
 }

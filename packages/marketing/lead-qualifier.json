@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Lead Qualifier MCP"
+  "name": "Lead Qualifier MCP",
+  "stars": 3
 }

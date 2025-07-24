@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Prometheus MCP"
+  "name": "Prometheus MCP",
+  "stars": 15
 }

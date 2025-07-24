@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "macOS Tools MCP Server"
+  "name": "macOS Tools MCP Server",
+  "stars": 6
 }

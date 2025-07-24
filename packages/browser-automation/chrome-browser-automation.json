@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Chrome MCP Integration"
+  "name": "Chrome MCP Integration",
+  "stars": 3
 }

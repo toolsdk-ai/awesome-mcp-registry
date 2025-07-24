@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Sentry MCP Server"
+  "name": "Sentry MCP Server",
+  "stars": 109
 }

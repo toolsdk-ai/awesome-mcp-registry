@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Micromanage Your Agent"
+  "name": "Micromanage Your Agent",
+  "stars": 9
 }

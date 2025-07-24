@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Apple Doc MCP"
+  "name": "Apple Doc MCP",
+  "stars": 198
 }

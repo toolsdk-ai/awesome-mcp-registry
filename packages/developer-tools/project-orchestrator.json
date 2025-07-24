@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Project Orchestrator"
+  "name": "Project Orchestrator",
+  "stars": 11
 }

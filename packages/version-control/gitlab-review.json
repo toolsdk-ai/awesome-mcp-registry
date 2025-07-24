@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "GitLab Review MCP Server"
+  "name": "GitLab Review MCP Server",
+  "stars": 2
 }

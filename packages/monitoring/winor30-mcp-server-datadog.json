@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Datadog MCP Server"
+  "name": "Datadog MCP Server",
+  "stars": 84
 }

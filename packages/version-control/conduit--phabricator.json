@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Conduit MCP Server"
+  "name": "Conduit MCP Server",
+  "stars": 4
 }

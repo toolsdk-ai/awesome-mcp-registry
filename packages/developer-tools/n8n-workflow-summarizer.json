@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "n8n Workflow Summarizer MCP"
+  "name": "n8n Workflow Summarizer MCP",
+  "stars": 1
 }

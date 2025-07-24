@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Observe Experimental MCP"
+  "name": "Observe Experimental MCP",
+  "stars": 1
 }

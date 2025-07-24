@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "NASA MCP"
+  "name": "NASA MCP",
+  "stars": 2
 }

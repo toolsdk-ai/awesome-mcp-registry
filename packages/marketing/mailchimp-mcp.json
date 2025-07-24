@@ -16,5 +16,6 @@
       "required": true
     }
   },
-  "name": "Mailchimp MCP Server"
+  "name": "Mailchimp MCP Server",
+  "stars": 1
 }

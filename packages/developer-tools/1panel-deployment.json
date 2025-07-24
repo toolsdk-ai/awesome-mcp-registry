@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "1Panel MCP"
+  "name": "1Panel MCP",
+  "stars": 32
 }

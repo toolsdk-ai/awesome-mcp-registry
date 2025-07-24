@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "12306 MCP"
+  "name": "12306 MCP",
+  "stars": 9
 }

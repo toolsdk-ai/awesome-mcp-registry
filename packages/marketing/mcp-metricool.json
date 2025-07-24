@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Metricool MCP"
+  "name": "Metricool MCP",
+  "stars": 13
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "TokenScope MCP"
+  "name": "TokenScope MCP",
+  "stars": 2
 }

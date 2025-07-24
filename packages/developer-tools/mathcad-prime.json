@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MathCAD MCP"
+  "name": "MathCAD MCP",
+  "stars": 1
 }

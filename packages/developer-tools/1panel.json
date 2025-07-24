@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "gpl-3.0",
   "env": {},
-  "name": "MCP 1Panel"
+  "name": "MCP 1Panel",
+  "stars": 136
 }

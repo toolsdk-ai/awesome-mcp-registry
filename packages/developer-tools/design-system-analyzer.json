@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Design System MCP"
+  "name": "Design System MCP",
+  "stars": 15
 }

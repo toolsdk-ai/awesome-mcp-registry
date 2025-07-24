@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Git Commands MCP"
+  "name": "Git Commands MCP",
+  "stars": 0
 }

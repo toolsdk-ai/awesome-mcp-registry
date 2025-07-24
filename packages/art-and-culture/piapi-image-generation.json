@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "PiAPI MCP Server"
+  "name": "PiAPI MCP Server",
+  "stars": 53
 }

@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Dynatrace MCP Server"
+  "name": "Dynatrace MCP Server",
+  "stars": 110
 }

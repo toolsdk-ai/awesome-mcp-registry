@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Playwright Screenshot MCP"
+  "name": "Playwright Screenshot MCP",
+  "stars": 0
 }

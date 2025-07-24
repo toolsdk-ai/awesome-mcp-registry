@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Vilnius Transport MCP Server"
+  "name": "Vilnius Transport MCP Server",
+  "stars": 1
 }

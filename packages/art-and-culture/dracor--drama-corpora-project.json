@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Dracor MCP"
+  "name": "Dracor MCP",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Git Spice Help MCP"
+  "name": "Git Spice Help MCP",
+  "stars": 1
 }

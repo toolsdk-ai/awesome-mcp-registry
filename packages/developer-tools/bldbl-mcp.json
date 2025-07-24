@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Buildable MCP"
+  "name": "Buildable MCP",
+  "stars": 1
 }

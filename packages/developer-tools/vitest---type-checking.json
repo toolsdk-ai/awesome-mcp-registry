@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Test and TypeCheck MCP Server"
+  "name": "Test and TypeCheck MCP Server",
+  "stars": 0
 }

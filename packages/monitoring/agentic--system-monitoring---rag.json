@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Agentic System Monitoring & RAG"
+  "name": "Agentic System Monitoring & RAG",
+  "stars": 1
 }

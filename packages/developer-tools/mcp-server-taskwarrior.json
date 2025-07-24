@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TaskWarrior MCP Server"
+  "name": "TaskWarrior MCP Server",
+  "stars": 20
 }

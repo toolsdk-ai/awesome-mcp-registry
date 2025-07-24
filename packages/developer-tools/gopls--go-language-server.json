@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "MCP Gopls"
+  "name": "MCP Gopls",
+  "stars": 32
 }

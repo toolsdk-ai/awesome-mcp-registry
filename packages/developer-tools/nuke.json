@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Nuke MCP"
+  "name": "Nuke MCP",
+  "stars": 2
 }

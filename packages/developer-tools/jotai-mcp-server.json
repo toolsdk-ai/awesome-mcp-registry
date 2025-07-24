@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Jotai MCP Server"
+  "name": "Jotai MCP Server",
+  "stars": 29
 }

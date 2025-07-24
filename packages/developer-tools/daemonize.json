@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Daemonize MCP"
+  "name": "Daemonize MCP",
+  "stars": 6
 }

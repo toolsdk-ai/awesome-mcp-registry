@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Pulumi MCP Server"
+  "name": "Pulumi MCP Server",
+  "stars": 55
 }

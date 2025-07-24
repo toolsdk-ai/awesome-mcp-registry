@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "isc",
   "env": {},
-  "name": "BaZi MCP"
+  "name": "BaZi MCP",
+  "stars": 120
 }

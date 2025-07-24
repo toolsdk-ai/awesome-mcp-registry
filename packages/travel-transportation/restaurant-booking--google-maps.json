@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Booking"
+  "name": "MCP Booking",
+  "stars": 3
 }

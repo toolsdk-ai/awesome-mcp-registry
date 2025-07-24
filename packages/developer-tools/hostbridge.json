@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hostbridge MCP"
+  "name": "Hostbridge MCP",
+  "stars": 1
 }

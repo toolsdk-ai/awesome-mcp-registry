@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Antd Components"
+  "name": "MCP Antd Components",
+  "stars": 9
 }

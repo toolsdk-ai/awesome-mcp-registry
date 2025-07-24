@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Source Map Parser MCP"
+  "name": "Source Map Parser MCP",
+  "stars": 2
 }

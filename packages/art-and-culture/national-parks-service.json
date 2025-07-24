@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "National Parks MCP Server"
+  "name": "National Parks MCP Server",
+  "stars": 20
 }

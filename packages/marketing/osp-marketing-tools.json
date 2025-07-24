@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "cc-by-sa-4.0",
   "env": {},
-  "name": "OSP Marketing Tools MCP"
+  "name": "OSP Marketing Tools MCP",
+  "stars": 2
 }

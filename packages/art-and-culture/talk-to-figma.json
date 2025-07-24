@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Cursor Talk to Figma MCP"
+  "name": "Cursor Talk to Figma MCP",
+  "stars": 2
 }

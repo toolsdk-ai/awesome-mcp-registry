@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Illustrator MCP Server"
+  "name": "Illustrator MCP Server",
+  "stars": 23
 }

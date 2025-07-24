@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Office Word MCP Server"
+  "name": "Office Word MCP Server",
+  "stars": 427
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Starwind UI MCP"
+  "name": "Starwind UI MCP",
+  "stars": 24
 }

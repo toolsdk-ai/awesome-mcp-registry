@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "GH MCP Server"
+  "name": "GH MCP Server",
+  "stars": 2
 }

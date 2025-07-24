@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "MIT",
   "env": {},
-  "name": "OpenAPI Schema Explorer MCP"
+  "name": "OpenAPI Schema Explorer MCP",
+  "stars": 31
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Code Snippets Manager"
+  "name": "Code Snippets Manager",
+  "stars": 7
 }

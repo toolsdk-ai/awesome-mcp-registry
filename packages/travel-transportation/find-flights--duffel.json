@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Flights MCP"
+  "name": "Flights MCP",
+  "stars": 115
 }

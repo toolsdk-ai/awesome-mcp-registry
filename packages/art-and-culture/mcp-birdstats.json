@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "BirdStats MCP"
+  "name": "BirdStats MCP",
+  "stars": 1
 }

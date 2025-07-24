@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "agpl-3.0",
   "env": {},
-  "name": "Flux Operator MCP Bridge"
+  "name": "Flux Operator MCP Bridge",
+  "stars": 323
 }

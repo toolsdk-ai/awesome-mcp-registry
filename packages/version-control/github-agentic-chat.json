@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "GitHub Agentic Chat MCP"
+  "name": "GitHub Agentic Chat MCP",
+  "stars": 0
 }

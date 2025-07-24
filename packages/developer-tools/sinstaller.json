@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP SInstaller"
+  "name": "MCP SInstaller",
+  "stars": 2
 }

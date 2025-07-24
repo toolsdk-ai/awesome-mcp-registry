@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Puppeteer MCP Server"
+  "name": "Puppeteer MCP Server",
+  "stars": 109
 }

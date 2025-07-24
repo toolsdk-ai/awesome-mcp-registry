@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Flutter Tools MCP Server"
+  "name": "Flutter Tools MCP Server",
+  "stars": 5
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP NixOS"
+  "name": "MCP NixOS",
+  "stars": 196
 }

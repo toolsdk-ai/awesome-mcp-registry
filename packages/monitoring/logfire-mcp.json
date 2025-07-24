@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Logfire MCP"
+  "name": "Logfire MCP",
+  "stars": 91
 }

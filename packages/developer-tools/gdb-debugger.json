@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "GDB MCP Server"
+  "name": "GDB MCP Server",
+  "stars": 28
 }

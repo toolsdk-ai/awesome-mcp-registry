@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Image Generator MCP Server"
+  "name": "Image Generator MCP Server",
+  "stars": 10
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Find Similar GitHub Issues MCP"
+  "name": "Find Similar GitHub Issues MCP",
+  "stars": 2
 }

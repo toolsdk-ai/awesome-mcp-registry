@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Trakt MCP Server"
+  "name": "Trakt MCP Server",
+  "stars": 6
 }

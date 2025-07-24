@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Recraft MCP Server"
+  "name": "Recraft MCP Server",
+  "stars": 20
 }

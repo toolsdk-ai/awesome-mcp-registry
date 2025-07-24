@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Web LLM MCP Server"
+  "name": "Web LLM MCP Server",
+  "stars": 1
 }

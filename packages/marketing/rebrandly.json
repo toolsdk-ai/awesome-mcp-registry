@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Rebrandly MCP"
+  "name": "Rebrandly MCP",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "isc",
   "env": {},
-  "name": "MCP Architect"
+  "name": "MCP Architect",
+  "stars": 24
 }

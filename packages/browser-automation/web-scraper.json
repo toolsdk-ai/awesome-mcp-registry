@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Eget MCP"
+  "name": "Eget MCP",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Alibaba Cloud Observability MCP Server"
+  "name": "Alibaba Cloud Observability MCP Server",
+  "stars": 23
 }

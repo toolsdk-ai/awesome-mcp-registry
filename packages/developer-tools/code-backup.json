@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Backup MCP Server"
+  "name": "Backup MCP Server",
+  "stars": 8
 }

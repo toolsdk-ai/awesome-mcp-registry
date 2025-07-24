@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "ChatGPT MCP Server"
+  "name": "ChatGPT MCP Server",
+  "stars": 10
 }

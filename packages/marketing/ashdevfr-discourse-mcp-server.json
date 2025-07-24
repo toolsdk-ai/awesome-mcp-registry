@@ -20,5 +20,6 @@
       "description": "DISCOURSE API USERNAME",
       "required": true
     }
-  }
+  },
+  "stars": 5
 }

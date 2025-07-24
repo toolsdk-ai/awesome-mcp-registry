@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "SolarWinds MCP"
+  "name": "SolarWinds MCP",
+  "stars": 1
 }

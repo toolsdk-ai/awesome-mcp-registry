@@ -47,5 +47,6 @@
       "required": true
     }
   },
-  "name": "iRAG MCP Server"
+  "name": "iRAG MCP Server",
+  "stars": 0
 }

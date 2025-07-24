@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Protofmt MCP"
+  "name": "Protofmt MCP",
+  "stars": 1
 }

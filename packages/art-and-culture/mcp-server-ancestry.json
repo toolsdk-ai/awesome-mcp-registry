@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Ancestry MCP"
+  "name": "Ancestry MCP",
+  "stars": 24
 }

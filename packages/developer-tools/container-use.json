@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "Container Use"
+  "name": "Container Use",
+  "stars": 2568
 }

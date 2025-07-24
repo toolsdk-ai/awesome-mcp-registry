@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Gitingest MCP"
+  "name": "Gitingest MCP",
+  "stars": 100
 }

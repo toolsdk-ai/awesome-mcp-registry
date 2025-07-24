@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TemplateIO MCP"
+  "name": "TemplateIO MCP",
+  "stars": 0
 }

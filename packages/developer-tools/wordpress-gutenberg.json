@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "WordPress Gutenberg MCP"
+  "name": "WordPress Gutenberg MCP",
+  "stars": 3
 }

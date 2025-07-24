@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "NeuroLora Code Collector"
+  "name": "NeuroLora Code Collector",
+  "stars": 8
 }

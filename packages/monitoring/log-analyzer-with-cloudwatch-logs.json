@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Log Analyzer with MCP"
+  "name": "Log Analyzer with MCP",
+  "stars": 102
 }

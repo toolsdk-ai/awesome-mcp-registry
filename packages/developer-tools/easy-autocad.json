@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Easy AutoCAD MCP"
+  "name": "Easy AutoCAD MCP",
+  "stars": 73
 }

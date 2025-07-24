@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Source Tree Generator MCP"
+  "name": "Source Tree Generator MCP",
+  "stars": 0
 }

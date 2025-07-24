@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "mit",
   "env": {},
-  "name": "JMX MCP"
+  "name": "JMX MCP",
+  "stars": 5
 }

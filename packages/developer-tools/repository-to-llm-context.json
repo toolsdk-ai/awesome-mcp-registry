@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Repo2LLM MCP Server"
+  "name": "Repo2LLM MCP Server",
+  "stars": 9
 }

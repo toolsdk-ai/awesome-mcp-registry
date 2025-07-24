@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Shufersal MCP"
+  "name": "Shufersal MCP",
+  "stars": 9
 }

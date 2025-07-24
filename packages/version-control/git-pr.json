@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Git PR MCP"
+  "name": "Git PR MCP",
+  "stars": 1
 }

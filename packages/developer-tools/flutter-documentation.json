@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Flutter MCP"
+  "name": "Flutter MCP",
+  "stars": 34
 }

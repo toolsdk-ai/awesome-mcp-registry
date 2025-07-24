@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Grok MCP"
+  "name": "Grok MCP",
+  "stars": 8
 }

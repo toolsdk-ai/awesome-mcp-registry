@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "LLMling MCP Server"
+  "name": "LLMling MCP Server",
+  "stars": 5
 }

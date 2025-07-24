@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Abaqus MCP Server"
+  "name": "Abaqus MCP Server",
+  "stars": 40
 }

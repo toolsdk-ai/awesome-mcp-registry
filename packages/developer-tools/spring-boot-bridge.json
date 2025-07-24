@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Spring MCP Bridge"
+  "name": "Spring MCP Bridge",
+  "stars": 3
 }

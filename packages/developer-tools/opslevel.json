@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "OpsLevel MCP"
+  "name": "OpsLevel MCP",
+  "stars": 5
 }

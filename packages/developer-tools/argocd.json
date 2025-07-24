@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Argocd MCP"
+  "name": "Argocd MCP",
+  "stars": 10
 }

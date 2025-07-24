@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Smartlead MCP Server"
+  "name": "Smartlead MCP Server",
+  "stars": 14
 }

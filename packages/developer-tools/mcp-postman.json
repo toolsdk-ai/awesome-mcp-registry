@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Postman MCP"
+  "name": "Postman MCP",
+  "stars": 70
 }

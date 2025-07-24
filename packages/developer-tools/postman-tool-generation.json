@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Postman Tool Generation MCP Server"
+  "name": "Postman Tool Generation MCP Server",
+  "stars": 12
 }

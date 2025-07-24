@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Logo Gen MCP"
+  "name": "Logo Gen MCP",
+  "stars": 170
 }

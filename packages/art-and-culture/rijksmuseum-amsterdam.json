@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Rijksmuseum MCP"
+  "name": "Rijksmuseum MCP",
+  "stars": 53
 }

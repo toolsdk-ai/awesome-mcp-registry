@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Gitee MCP Bridge"
+  "name": "Gitee MCP Bridge",
+  "stars": 32
 }

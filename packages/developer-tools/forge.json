@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Forge MCP"
+  "name": "Forge MCP",
+  "stars": 0
 }

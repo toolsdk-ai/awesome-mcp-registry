@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "GitHub Issue Resolver MCP"
+  "name": "GitHub Issue Resolver MCP",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Primitive Go MCP Server"
+  "name": "Primitive Go MCP Server",
+  "stars": 11
 }

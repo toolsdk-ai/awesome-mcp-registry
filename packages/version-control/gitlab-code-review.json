@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "GitLab MCP Code Review"
+  "name": "GitLab MCP Code Review",
+  "stars": 19
 }

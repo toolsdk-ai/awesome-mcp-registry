@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "SG LTA MCP"
+  "name": "SG LTA MCP",
+  "stars": 2
 }

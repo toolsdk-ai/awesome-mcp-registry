@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Placid MCP Server"
+  "name": "Placid MCP Server",
+  "stars": 12
 }

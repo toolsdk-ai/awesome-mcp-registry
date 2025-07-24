@@ -11,5 +11,6 @@
       "description": "Personal access token for Raygun API access",
       "required": true
     }
-  }
+  },
+  "stars": 16
 }

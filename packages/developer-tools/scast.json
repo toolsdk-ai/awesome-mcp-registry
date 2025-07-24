@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "SCAST"
+  "name": "SCAST",
+  "stars": 27
 }

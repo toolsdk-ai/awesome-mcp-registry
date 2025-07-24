@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mpl-2.0",
   "env": {},
-  "name": "Terraform MCP Server"
+  "name": "Terraform MCP Server",
+  "stars": 755
 }

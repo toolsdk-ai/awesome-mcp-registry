@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "NASA MCP"
+  "name": "NASA MCP",
+  "stars": 3
 }

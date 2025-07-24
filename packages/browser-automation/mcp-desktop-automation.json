@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Desktop Automation MCP"
+  "name": "Desktop Automation MCP",
+  "stars": 8
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "End of Life API MCP"
+  "name": "End of Life API MCP",
+  "stars": 3
 }

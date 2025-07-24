@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Website Downloader MCP"
+  "name": "Website Downloader MCP",
+  "stars": 5
 }

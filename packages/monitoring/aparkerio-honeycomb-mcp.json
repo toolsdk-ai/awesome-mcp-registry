@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Honeycomb MCP"
+  "name": "Honeycomb MCP",
+  "stars": 35
 }

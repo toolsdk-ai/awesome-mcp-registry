@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "CAD MCP"
+  "name": "CAD MCP",
+  "stars": 5
 }

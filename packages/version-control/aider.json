@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unlicense",
   "env": {},
-  "name": "Aider MCP Server"
+  "name": "Aider MCP Server",
+  "stars": 34
 }

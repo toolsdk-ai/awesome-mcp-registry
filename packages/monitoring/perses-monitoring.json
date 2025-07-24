@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "Perses MCP Server"
+  "name": "Perses MCP Server",
+  "stars": 10
 }

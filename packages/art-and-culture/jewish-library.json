@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Otzaria Server"
+  "name": "MCP Otzaria Server",
+  "stars": 17
 }

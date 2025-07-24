@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "LLM Context"
+  "name": "LLM Context",
+  "stars": 251
 }

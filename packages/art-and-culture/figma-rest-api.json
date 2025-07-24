@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Figma MCP Server"
+  "name": "Figma MCP Server",
+  "stars": 131
 }

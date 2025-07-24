@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "JVM MCP Server"
+  "name": "JVM MCP Server",
+  "stars": 62
 }

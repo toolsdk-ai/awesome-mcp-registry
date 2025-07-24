@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Flightradar24 MCP Server"
+  "name": "Flightradar24 MCP Server",
+  "stars": 37
 }

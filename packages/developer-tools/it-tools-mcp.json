@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "IT Tools MCP"
+  "name": "IT Tools MCP",
+  "stars": 6
 }

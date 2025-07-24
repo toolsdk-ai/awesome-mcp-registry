@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "D2 MCP"
+  "name": "D2 MCP",
+  "stars": 5
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "bsd-2-clause",
   "env": {},
-  "name": "Hebcal MCP"
+  "name": "Hebcal MCP",
+  "stars": 4
 }

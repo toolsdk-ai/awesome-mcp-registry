@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mpl-2.0",
   "env": {},
-  "name": "Status Observer MCP"
+  "name": "Status Observer MCP",
+  "stars": 5
 }

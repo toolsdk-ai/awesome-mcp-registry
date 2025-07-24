@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Ableton MCP"
+  "name": "Ableton MCP",
+  "stars": 7
 }

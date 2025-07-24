@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Payload CMS MCP"
+  "name": "Payload CMS MCP",
+  "stars": 66
 }

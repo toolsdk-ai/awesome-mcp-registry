@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "BN Cline MCP"
+  "name": "BN Cline MCP",
+  "stars": 4
 }

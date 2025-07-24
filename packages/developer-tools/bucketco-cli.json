@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Bucket CLI"
+  "name": "Bucket CLI",
+  "stars": 12
 }

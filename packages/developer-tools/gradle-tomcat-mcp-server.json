@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "Gradle Tomcat MCP Server"
+  "name": "Gradle Tomcat MCP Server",
+  "stars": 0
 }

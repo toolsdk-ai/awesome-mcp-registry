@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Mockloop MCP"
+  "name": "Mockloop MCP",
+  "stars": 8
 }

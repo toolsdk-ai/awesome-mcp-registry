@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "JinaAI Grounding MCP"
+  "name": "JinaAI Grounding MCP",
+  "stars": 2
 }

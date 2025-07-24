@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP JetBrains Proxy"
+  "name": "MCP JetBrains Proxy",
+  "stars": 0
 }

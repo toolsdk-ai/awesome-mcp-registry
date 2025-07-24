@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Kdebug MCP"
+  "name": "Kdebug MCP",
+  "stars": 16
 }

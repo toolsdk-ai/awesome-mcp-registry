@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Runbook MCP Server"
+  "name": "Runbook MCP Server",
+  "stars": 2
 }

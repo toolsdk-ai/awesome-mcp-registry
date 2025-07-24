@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "ScreenshotOne MCP Server"
+  "name": "ScreenshotOne MCP Server",
+  "stars": 2
 }

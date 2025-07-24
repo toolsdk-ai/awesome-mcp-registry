@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Bitrise MCP"
+  "name": "Bitrise MCP",
+  "stars": 25
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Together MCP Server"
+  "name": "Together MCP Server",
+  "stars": 8
 }

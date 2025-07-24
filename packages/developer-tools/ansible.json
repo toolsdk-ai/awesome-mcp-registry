@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MCP Sysoperator"
+  "name": "MCP Sysoperator",
+  "stars": 12
 }

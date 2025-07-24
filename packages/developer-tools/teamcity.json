@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "TeamCity MCP"
+  "name": "TeamCity MCP",
+  "stars": 4
 }

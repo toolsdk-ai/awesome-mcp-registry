@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "VseGPT Image Generator MCP Server"
+  "name": "VseGPT Image Generator MCP Server",
+  "stars": 5
 }

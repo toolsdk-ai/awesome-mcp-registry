@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "MCP Git Commit Aider"
+  "name": "MCP Git Commit Aider",
+  "stars": 7
 }

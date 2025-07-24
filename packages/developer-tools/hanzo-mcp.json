@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Hanze MCP"
+  "name": "Hanze MCP",
+  "stars": 8
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PSMCP MCP Server for Photoshop"
+  "name": "PSMCP MCP Server for Photoshop",
+  "stars": 6
 }

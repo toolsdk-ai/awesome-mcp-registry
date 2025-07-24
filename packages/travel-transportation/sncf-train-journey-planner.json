@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "SNCF MCP"
+  "name": "SNCF MCP",
+  "stars": 3
 }

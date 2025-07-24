@@ -12,5 +12,6 @@
       "required": true
     }
   },
-  "name": "Klaviyo API MCP Server"
+  "name": "Klaviyo API MCP Server",
+  "stars": 2
 }

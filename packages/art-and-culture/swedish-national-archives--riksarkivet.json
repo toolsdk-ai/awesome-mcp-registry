@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Oxenstierna MCP Server"
+  "name": "Oxenstierna MCP Server",
+  "stars": 3
 }

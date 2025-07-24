@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Gerrit Code Review MCP"
+  "name": "Gerrit Code Review MCP",
+  "stars": 18
 }

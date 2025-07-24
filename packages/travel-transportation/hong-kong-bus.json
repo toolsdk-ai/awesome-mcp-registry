@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "HK Bus MCP"
+  "name": "HK Bus MCP",
+  "stars": 3
 }

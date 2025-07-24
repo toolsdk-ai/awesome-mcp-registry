@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "MCP Server Docker"
+  "name": "MCP Server Docker",
+  "stars": 546
 }

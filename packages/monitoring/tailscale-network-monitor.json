@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Tailscale MCP Server"
+  "name": "Tailscale MCP Server",
+  "stars": 9
 }

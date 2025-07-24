@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Kai Kubernetes MCP Server"
+  "name": "Kai Kubernetes MCP Server",
+  "stars": 16
 }

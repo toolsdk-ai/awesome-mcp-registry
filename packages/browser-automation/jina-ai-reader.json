@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Jina AI MCP"
+  "name": "Jina AI MCP",
+  "stars": 5
 }

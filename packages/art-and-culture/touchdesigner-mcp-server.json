@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TouchDesigner MCP Server"
+  "name": "TouchDesigner MCP Server",
+  "stars": 69
 }

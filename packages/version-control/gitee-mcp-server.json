@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Gitee MCP Server"
+  "name": "Gitee MCP Server",
+  "stars": 7
 }

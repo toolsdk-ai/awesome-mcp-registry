@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Metal MCP Server"
+  "name": "Metal MCP Server",
+  "stars": 2
 }

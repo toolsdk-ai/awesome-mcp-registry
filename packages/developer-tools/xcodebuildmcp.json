@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "XcodeBuild MCP"
+  "name": "XcodeBuild MCP",
+  "stars": 2112
 }

@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Loot MCP"
+  "name": "Loot MCP",
+  "stars": 0
 }

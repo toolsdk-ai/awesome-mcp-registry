@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "GitLab MCP Server"
+  "name": "GitLab MCP Server",
+  "stars": 1
 }

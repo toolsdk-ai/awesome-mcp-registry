@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "other",
   "env": {},
-  "name": "Hoverfly MCP Server"
+  "name": "Hoverfly MCP Server",
+  "stars": 5
 }

@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Rollbar MCP Server"
+  "name": "Rollbar MCP Server",
+  "stars": 4
 }

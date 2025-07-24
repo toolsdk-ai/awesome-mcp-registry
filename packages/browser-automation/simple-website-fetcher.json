@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Simple Website Fetcher"
+  "name": "Simple Website Fetcher",
+  "stars": 3
 }

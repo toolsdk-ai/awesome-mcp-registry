@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Together AI Image Server"
+  "name": "Together AI Image Server",
+  "stars": 4
 }

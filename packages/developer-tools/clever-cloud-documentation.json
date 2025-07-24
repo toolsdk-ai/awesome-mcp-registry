@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Clever Doc MCP Server"
+  "name": "Clever Doc MCP Server",
+  "stars": 0
 }

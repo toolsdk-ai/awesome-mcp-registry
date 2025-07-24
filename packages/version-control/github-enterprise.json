@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "GitHub Enterprise MCP"
+  "name": "GitHub Enterprise MCP",
+  "stars": 2
 }

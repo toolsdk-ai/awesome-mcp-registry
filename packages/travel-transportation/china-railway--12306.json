@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "China Railway 12306 MCP Server"
+  "name": "China Railway 12306 MCP Server",
+  "stars": 14
 }

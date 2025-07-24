@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Transport NSW MCP"
+  "name": "Transport NSW MCP",
+  "stars": 0
 }

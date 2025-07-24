@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Espresso MCP"
+  "name": "Espresso MCP",
+  "stars": 0
 }

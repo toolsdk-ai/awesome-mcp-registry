@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Sentry Issues MCP"
+  "name": "Sentry Issues MCP",
+  "stars": 6
 }

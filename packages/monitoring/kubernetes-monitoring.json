@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Kubernetes Monitoring MCP"
+  "name": "Kubernetes Monitoring MCP",
+  "stars": 7
 }

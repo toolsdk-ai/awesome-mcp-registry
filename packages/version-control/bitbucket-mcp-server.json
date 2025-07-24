@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Bitbucket MCP Server"
+  "name": "Bitbucket MCP Server",
+  "stars": 4
 }

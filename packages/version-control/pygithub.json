@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PyGitHub MCP Server"
+  "name": "PyGitHub MCP Server",
+  "stars": 1
 }

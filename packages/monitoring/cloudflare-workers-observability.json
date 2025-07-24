@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Workers Observability MCP Server"
+  "name": "Workers Observability MCP Server",
+  "stars": 2763
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Agile Flow MCP"
+  "name": "Agile Flow MCP",
+  "stars": 2
 }

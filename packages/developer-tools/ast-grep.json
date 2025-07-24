@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Ast Grep MCP"
+  "name": "Ast Grep MCP",
+  "stars": 68
 }

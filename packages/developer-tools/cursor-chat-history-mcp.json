@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Cursor Chat History MCP"
+  "name": "Cursor Chat History MCP",
+  "stars": 11
 }

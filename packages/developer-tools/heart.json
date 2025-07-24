@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Heart MCP Server"
+  "name": "Heart MCP Server",
+  "stars": 0
 }

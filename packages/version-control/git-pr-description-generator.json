@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Git Prompts MCP Server"
+  "name": "Git Prompts MCP Server",
+  "stars": 1
 }

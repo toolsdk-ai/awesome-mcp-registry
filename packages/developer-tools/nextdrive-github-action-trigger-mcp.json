@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "GitHub Action Trigger MCP"
+  "name": "GitHub Action Trigger MCP",
+  "stars": 1
 }

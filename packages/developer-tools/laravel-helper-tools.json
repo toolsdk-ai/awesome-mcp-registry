@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Laravel MCP"
+  "name": "Laravel MCP",
+  "stars": 12
 }

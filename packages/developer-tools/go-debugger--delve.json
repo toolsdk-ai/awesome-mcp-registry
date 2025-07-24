@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Go Debugger MCP"
+  "name": "Go Debugger MCP",
+  "stars": 4
 }

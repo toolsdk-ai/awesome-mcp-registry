@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "FreeCAD MCP"
+  "name": "FreeCAD MCP",
+  "stars": 212
 }

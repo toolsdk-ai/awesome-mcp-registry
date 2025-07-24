@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Bonsai MCP"
+  "name": "Bonsai MCP",
+  "stars": 11
 }

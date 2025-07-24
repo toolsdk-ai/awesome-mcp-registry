@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Terry Form MCP"
+  "name": "Terry Form MCP",
+  "stars": 4
 }

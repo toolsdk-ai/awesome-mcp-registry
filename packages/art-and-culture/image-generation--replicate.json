@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Image Gen MCP"
+  "name": "Image Gen MCP",
+  "stars": 0
 }

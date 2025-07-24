@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Figma MCP Chunked"
+  "name": "Figma MCP Chunked",
+  "stars": 2
 }

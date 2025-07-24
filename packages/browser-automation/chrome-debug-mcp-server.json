@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Chrome Debug MCP Server"
+  "name": "Chrome Debug MCP Server",
+  "stars": 7
 }

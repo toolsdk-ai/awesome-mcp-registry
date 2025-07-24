@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Datadog MCP Server"
+  "name": "Datadog MCP Server",
+  "stars": 51
 }

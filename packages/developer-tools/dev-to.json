@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Dev.to MCP Server"
+  "name": "Dev.to MCP Server",
+  "stars": 2
 }

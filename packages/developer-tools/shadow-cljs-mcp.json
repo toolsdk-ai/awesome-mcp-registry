@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Shadow CLJS MCP"
+  "name": "Shadow CLJS MCP",
+  "stars": 1
 }

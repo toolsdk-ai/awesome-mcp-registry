@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "AI Cursor Scraping Assistant"
+  "name": "AI Cursor Scraping Assistant",
+  "stars": 30
 }

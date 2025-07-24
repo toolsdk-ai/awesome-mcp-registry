@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "VictoriaMetrics MCP"
+  "name": "VictoriaMetrics MCP",
+  "stars": 55
 }

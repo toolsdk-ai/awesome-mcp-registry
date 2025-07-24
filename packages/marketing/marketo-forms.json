@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Marketo MCP"
+  "name": "Marketo MCP",
+  "stars": 2
 }

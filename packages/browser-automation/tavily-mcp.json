@@ -11,5 +11,6 @@
       "description": "API KEY for Tavily",
       "required": true
     }
-  }
+  },
+  "stars": 601
 }

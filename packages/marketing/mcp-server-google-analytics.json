@@ -20,5 +20,6 @@
       "description": "your-ga4-property-id",
       "required": true
     }
-  }
+  },
+  "stars": 0
 }

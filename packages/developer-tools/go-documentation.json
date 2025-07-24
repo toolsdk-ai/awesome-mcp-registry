@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Godoc MCP Server"
+  "name": "Godoc MCP Server",
+  "stars": 19
 }

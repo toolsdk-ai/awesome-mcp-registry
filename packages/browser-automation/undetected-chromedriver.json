@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Undetected ChromeDriver MCP"
+  "name": "Undetected ChromeDriver MCP",
+  "stars": 5
 }

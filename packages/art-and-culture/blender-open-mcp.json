@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Blender Open MCP"
+  "name": "Blender Open MCP",
+  "stars": 43
 }

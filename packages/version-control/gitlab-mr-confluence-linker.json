@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "GitLab MR Confluence Linker MCP Server"
+  "name": "GitLab MR Confluence Linker MCP Server",
+  "stars": 0
 }

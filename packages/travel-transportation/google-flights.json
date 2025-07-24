@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Google Flights MCP"
+  "name": "Google Flights MCP",
+  "stars": 3
 }

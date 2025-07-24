@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Bun S3 MCP"
+  "name": "Bun S3 MCP",
+  "stars": 0
 }

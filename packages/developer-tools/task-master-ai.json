@@ -43,5 +43,6 @@
       "required": true
     }
   },
-  "name": "Claude Task Master"
+  "name": "Claude Task Master",
+  "stars": 19334
 }

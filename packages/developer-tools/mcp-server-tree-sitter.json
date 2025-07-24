@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Tree Sitter MCP Server"
+  "name": "Tree Sitter MCP Server",
+  "stars": 125
 }

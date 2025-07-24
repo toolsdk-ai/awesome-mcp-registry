@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Sefaria MCP Server"
+  "name": "Sefaria MCP Server",
+  "stars": 22
 }

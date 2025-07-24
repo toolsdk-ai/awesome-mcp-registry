@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Grasshopper 3D MCP Server"
+  "name": "Grasshopper 3D MCP Server",
+  "stars": 16
 }

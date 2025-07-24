@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Prompt Tester"
+  "name": "Prompt Tester",
+  "stars": 0
 }

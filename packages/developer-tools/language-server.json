@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "bsd-3-clause",
   "env": {},
-  "name": "MCP Language Server"
+  "name": "MCP Language Server",
+  "stars": 716
 }

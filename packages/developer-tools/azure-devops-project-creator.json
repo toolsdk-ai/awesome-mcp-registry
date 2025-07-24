@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server Sandbox"
+  "name": "MCP Server Sandbox",
+  "stars": 0
 }

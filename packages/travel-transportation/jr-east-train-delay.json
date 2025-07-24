@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "JR East Delay MCP"
+  "name": "JR East Delay MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Weibo MCP Server"
+  "name": "Weibo MCP Server",
+  "stars": 27
 }

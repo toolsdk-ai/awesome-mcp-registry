@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Notte MCP"
+  "name": "Notte MCP",
+  "stars": 1113
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Shadcn UI MCP Server"
+  "name": "Shadcn UI MCP Server",
+  "stars": 56
 }

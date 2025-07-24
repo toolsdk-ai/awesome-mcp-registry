@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Isitdown MCP Server"
+  "name": "Isitdown MCP Server",
+  "stars": 1
 }

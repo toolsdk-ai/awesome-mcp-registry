@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Comfy MCP Server"
+  "name": "Comfy MCP Server",
+  "stars": 25
 }

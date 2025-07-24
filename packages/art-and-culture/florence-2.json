@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Florence 2 MCP"
+  "name": "Florence 2 MCP",
+  "stars": 3
 }

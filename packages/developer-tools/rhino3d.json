@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Rhino MCP"
+  "name": "Rhino MCP",
+  "stars": 9
 }

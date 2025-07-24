@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Variance Log"
+  "name": "Variance Log",
+  "stars": 4
 }

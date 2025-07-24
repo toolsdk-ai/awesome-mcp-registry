@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Wikipedia MCP"
+  "name": "Wikipedia MCP",
+  "stars": 6
 }

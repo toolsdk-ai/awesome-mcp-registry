@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "MiniMax MCP JS"
+  "name": "MiniMax MCP JS",
+  "stars": 72
 }

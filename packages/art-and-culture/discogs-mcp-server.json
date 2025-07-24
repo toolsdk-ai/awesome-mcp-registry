@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Discogs MCP Server"
+  "name": "Discogs MCP Server",
+  "stars": 33
 }

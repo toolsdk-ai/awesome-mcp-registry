@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "BC MCP"
+  "name": "BC MCP",
+  "stars": 2
 }

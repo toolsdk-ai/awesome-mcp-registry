@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Adspirer MCP Server"
+  "name": "Adspirer MCP Server",
+  "stars": 4
 }

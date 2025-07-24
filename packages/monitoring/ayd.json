@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Ayd MCP Server"
+  "name": "Ayd MCP Server",
+  "stars": 0
 }

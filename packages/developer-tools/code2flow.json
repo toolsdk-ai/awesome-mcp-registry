@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Code2Flow MCP Server"
+  "name": "Code2Flow MCP Server",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Zotero MCP"
+  "name": "Zotero MCP",
+  "stars": 260
 }

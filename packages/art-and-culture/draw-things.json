@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Draw Things MCP Server"
+  "name": "Draw Things MCP Server",
+  "stars": 10
 }

@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Apifox MCP Server"
+  "name": "Apifox MCP Server",
+  "stars": 1
 }

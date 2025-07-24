@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "SkyDeckAI Code MCP Server"
+  "name": "SkyDeckAI Code MCP Server",
+  "stars": 68
 }

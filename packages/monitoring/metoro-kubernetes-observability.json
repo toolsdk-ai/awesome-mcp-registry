@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Metoro MCP Server"
+  "name": "Metoro MCP Server",
+  "stars": 43
 }

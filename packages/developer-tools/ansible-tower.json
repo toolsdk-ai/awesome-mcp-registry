@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Ansible Tower MCP"
+  "name": "Ansible Tower MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "AutoProbe MCP"
+  "name": "AutoProbe MCP",
+  "stars": 3
 }

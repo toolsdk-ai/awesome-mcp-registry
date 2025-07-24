@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Image Gen Server"
+  "name": "Image Gen Server",
+  "stars": 188
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Prometheus MCP Server"
+  "name": "Prometheus MCP Server",
+  "stars": 158
 }

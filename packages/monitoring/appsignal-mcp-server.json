@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "AppSignal MCP Server"
+  "name": "AppSignal MCP Server",
+  "stars": 39
 }

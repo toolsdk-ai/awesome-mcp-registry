@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "HK Transportation MCP Server"
+  "name": "HK Transportation MCP Server",
+  "stars": 3
 }
