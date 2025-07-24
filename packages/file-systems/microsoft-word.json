@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server Word"
+  "name": "MCP Server Word",
+  "stars": 333
 }

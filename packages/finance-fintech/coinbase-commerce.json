@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Coinbase Commerce MCP"
+  "name": "Coinbase Commerce MCP",
+  "stars": 0
 }

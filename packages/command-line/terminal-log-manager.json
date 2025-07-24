@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Get Terminal Logs MCP"
+  "name": "Get Terminal Logs MCP",
+  "stars": 1
 }

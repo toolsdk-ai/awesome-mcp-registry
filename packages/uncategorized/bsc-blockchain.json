@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "BSC MCP"
+  "name": "BSC MCP",
+  "stars": 82
 }

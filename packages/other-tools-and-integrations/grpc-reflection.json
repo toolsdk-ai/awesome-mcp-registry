@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Grpcurl MCP"
+  "name": "Grpcurl MCP",
+  "stars": 11
 }

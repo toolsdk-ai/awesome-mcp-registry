@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Imagesorcery MCP"
+  "name": "Imagesorcery MCP",
+  "stars": 70
 }

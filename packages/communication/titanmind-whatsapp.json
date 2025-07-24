@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "TitanMind WhatsApp MCP"
+  "name": "TitanMind WhatsApp MCP",
+  "stars": 14
 }

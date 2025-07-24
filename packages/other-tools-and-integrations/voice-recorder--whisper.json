@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Voice Recorder (Whisper) MCP Server"
+  "name": "Voice Recorder (Whisper) MCP Server",
+  "stars": 6
 }

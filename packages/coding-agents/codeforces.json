@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Codeforces MCP"
+  "name": "Codeforces MCP",
+  "stars": 5
 }

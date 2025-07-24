@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "ThingsBoard MCP Server"
+  "name": "ThingsBoard MCP Server",
+  "stars": 8
 }

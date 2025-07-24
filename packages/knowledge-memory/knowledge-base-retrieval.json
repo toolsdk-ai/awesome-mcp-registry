@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unlicense",
   "env": {},
-  "name": "Knowledge Base MCP Server"
+  "name": "Knowledge Base MCP Server",
+  "stars": 20
 }

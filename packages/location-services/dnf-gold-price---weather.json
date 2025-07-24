@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Kr MCP Server"
+  "name": "Kr MCP Server",
+  "stars": 0
 }

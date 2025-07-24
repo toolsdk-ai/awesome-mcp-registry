@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "PocketBase MCP"
+  "name": "PocketBase MCP",
+  "stars": 60
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Writer Substack MCP"
+  "name": "Writer Substack MCP",
+  "stars": 16
 }

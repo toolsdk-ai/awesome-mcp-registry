@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "KB MCP Server"
+  "name": "KB MCP Server",
+  "stars": 36
 }

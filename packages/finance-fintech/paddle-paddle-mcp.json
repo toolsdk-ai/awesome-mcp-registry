@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Paddle MCP Server"
+  "name": "Paddle MCP Server",
+  "stars": 24
 }

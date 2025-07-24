@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MultiCluster MCP Server"
+  "name": "MultiCluster MCP Server",
+  "stars": 2
 }

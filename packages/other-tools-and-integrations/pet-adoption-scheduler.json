@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Pet Adoption Scheduling Service"
+  "name": "Pet Adoption Scheduling Service",
+  "stars": 1
 }

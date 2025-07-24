@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Shell MCP Server"
+  "name": "Shell MCP Server",
+  "stars": 0
 }

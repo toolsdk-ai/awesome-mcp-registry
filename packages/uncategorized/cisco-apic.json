@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server for Cisco ACI"
+  "name": "MCP Server for Cisco ACI",
+  "stars": 7
 }

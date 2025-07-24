@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Superset MCP"
+  "name": "Superset MCP",
+  "stars": 68
 }

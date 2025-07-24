@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Anti Bullshit MCP Server"
+  "name": "Anti Bullshit MCP Server",
+  "stars": 19
 }

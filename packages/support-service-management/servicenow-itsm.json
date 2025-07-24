@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "ServiceNow MCP"
+  "name": "ServiceNow MCP",
+  "stars": 109
 }

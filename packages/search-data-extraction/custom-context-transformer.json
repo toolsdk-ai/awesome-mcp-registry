@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Custom Context MCP"
+  "name": "Custom Context MCP",
+  "stars": 1
 }

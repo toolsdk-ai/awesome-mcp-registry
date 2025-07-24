@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Whois MCP"
+  "name": "Whois MCP",
+  "stars": 4
 }

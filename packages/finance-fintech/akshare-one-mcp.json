@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Akshare One MCP"
+  "name": "Akshare One MCP",
+  "stars": 25
 }

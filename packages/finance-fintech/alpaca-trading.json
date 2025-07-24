@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Alpaca MCP Server"
+  "name": "Alpaca MCP Server",
+  "stars": 23
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Oura MCP Server"
+  "name": "Oura MCP Server",
+  "stars": 20
 }

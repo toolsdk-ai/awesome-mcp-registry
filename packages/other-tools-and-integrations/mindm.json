@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MindM MCP"
+  "name": "MindM MCP",
+  "stars": 3
 }

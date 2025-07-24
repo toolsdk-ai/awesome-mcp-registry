@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP TA Tool"
+  "name": "MCP TA Tool",
+  "stars": 1
 }

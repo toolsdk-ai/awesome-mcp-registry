@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit-0",
   "env": {},
-  "name": "Traits Matcher MCP"
+  "name": "Traits Matcher MCP",
+  "stars": 1
 }

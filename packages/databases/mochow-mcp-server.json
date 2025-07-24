@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Mochow MCP Server Python"
+  "name": "Mochow MCP Server Python",
+  "stars": 3
 }

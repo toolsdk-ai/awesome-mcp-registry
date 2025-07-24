@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Nano Currency MCP Server"
+  "name": "Nano Currency MCP Server",
+  "stars": 4
 }

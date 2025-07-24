@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "GPT MCP Proxy"
+  "name": "GPT MCP Proxy",
+  "stars": 8
 }

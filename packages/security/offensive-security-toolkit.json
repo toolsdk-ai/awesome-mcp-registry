@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Offensive MCP AI"
+  "name": "Offensive MCP AI",
+  "stars": 13
 }

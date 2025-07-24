@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Things3 MCP"
+  "name": "Things3 MCP",
+  "stars": 27
 }

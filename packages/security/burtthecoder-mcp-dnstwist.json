@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "DNSTwist MCP"
+  "name": "DNSTwist MCP",
+  "stars": 31
 }

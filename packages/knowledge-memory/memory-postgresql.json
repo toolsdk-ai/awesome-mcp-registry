@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Memory PostgreSQL MCP"
+  "name": "Memory PostgreSQL MCP",
+  "stars": 35
 }

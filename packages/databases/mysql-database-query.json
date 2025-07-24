@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "AI MCP Server"
+  "name": "AI MCP Server",
+  "stars": 1
 }

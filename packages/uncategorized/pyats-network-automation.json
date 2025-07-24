@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "PyATS MCP Bridge"
+  "name": "PyATS MCP Bridge",
+  "stars": 29
 }

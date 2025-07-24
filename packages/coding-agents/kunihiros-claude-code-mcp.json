@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Claude Code MCP"
+  "name": "Claude Code MCP",
+  "stars": 25
 }

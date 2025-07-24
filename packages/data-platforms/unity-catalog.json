@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Unity Catalog MCP Server"
+  "name": "Unity Catalog MCP Server",
+  "stars": 14
 }

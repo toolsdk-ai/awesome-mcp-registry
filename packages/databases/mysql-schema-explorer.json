@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "MySQL Schema Explorer MCP"
+  "name": "MySQL Schema Explorer MCP",
+  "stars": 19
 }

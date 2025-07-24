@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Stellar XDR JSON"
+  "name": "Stellar XDR JSON",
+  "stars": 2
 }

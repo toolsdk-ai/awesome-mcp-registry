@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "LeetCode MCP Server"
+  "name": "LeetCode MCP Server",
+  "stars": 39
 }

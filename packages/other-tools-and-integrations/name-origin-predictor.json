@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Name Origin Predictor MCP"
+  "name": "Name Origin Predictor MCP",
+  "stars": 0
 }

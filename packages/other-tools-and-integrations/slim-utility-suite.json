@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Slim MCP"
+  "name": "Slim MCP",
+  "stars": 0
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "PubMed MCP Server"
+  "name": "PubMed MCP Server",
+  "stars": 11
 }

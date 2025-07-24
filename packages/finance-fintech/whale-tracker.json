@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Whale Tracker MCP"
+  "name": "Whale Tracker MCP",
+  "stars": 29
 }

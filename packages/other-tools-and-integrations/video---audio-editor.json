@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Video Audio MCP"
+  "name": "Video Audio MCP",
+  "stars": 16
 }

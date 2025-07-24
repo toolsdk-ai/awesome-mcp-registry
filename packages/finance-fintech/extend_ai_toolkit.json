@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Extend AI Toolkit"
+  "name": "Extend AI Toolkit",
+  "stars": 16
 }

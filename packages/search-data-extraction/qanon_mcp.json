@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "MIT",
   "env": {},
-  "name": "QAnon MCP Server"
+  "name": "QAnon MCP Server",
+  "stars": 1
 }

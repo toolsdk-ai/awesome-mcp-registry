@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Web Browser MCP Server"
+  "name": "Web Browser MCP Server",
+  "stars": 39
 }

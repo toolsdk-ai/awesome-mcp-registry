@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Cloud Foundry MCP"
+  "name": "Cloud Foundry MCP",
+  "stars": 3
 }

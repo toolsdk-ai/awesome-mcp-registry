@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "AWS Cost Explorer Bedrock Usage Analytics MCP Server"
+  "name": "AWS Cost Explorer Bedrock Usage Analytics MCP Server",
+  "stars": 121
 }

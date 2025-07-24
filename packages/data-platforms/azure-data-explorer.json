@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "ADX MCP Server"
+  "name": "ADX MCP Server",
+  "stars": 44
 }

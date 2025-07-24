@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Yahoo Finance MCP"
+  "name": "Yahoo Finance MCP",
+  "stars": 38
 }

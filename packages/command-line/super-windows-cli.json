@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Super Win CLI MCP Server"
+  "name": "Super Win CLI MCP Server",
+  "stars": 5
 }

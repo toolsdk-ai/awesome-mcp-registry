@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Lingo.dev MCP Server"
+  "name": "Lingo.dev MCP Server",
+  "stars": 2757
 }

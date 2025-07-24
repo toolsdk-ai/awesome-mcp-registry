@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Molecule MCP"
+  "name": "Molecule MCP",
+  "stars": 78
 }

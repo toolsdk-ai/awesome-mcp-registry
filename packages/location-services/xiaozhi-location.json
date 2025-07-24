@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Xiaozhi Location MCP"
+  "name": "Xiaozhi Location MCP",
+  "stars": 1
 }

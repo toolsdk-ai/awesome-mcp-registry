@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Duyet MCP Server"
+  "name": "Duyet MCP Server",
+  "stars": 2
 }

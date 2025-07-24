@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Taskflow MCP"
+  "name": "Taskflow MCP",
+  "stars": 15
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Windows Command Line MCP Server"
+  "name": "Windows Command Line MCP Server",
+  "stars": 5
 }

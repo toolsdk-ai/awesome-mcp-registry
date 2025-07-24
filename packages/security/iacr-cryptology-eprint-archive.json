@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "IACR MCP Server"
+  "name": "IACR MCP Server",
+  "stars": 2
 }

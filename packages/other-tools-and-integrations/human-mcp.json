@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Human MCP"
+  "name": "Human MCP",
+  "stars": 42
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Gmail & Google Calendar MCP"
+  "name": "Gmail & Google Calendar MCP",
+  "stars": 3
 }

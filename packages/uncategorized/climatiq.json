@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Climatiq MCP Server"
+  "name": "Climatiq MCP Server",
+  "stars": 5
 }

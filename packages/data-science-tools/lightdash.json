@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Lightdash MCP Server"
+  "name": "Lightdash MCP Server",
+  "stars": 17
 }

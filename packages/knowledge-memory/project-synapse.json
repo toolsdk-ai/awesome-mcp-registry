@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Project Synapse MCP"
+  "name": "Project Synapse MCP",
+  "stars": 4
 }

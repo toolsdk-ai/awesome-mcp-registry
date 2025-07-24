@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Judge0 MCP Server"
+  "name": "Judge0 MCP Server",
+  "stars": 1
 }

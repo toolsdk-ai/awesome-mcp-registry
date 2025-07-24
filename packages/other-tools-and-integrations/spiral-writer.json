@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Spiral MCP"
+  "name": "Spiral MCP",
+  "stars": 16
 }

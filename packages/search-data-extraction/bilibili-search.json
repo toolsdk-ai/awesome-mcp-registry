@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Bilibili MCP Server"
+  "name": "Bilibili MCP Server",
+  "stars": 142
 }

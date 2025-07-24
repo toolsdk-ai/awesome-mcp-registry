@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "SimpleLocalize MCP"
+  "name": "SimpleLocalize MCP",
+  "stars": 3
 }

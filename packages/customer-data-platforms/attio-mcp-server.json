@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Attio MCP Server"
+  "name": "Attio MCP Server",
+  "stars": 13
 }

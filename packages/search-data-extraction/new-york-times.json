@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "New York Times MCP"
+  "name": "New York Times MCP",
+  "stars": 12
 }

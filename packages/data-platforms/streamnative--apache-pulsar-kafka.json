@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "StreamNative MCP Server"
+  "name": "StreamNative MCP Server",
+  "stars": 18
 }

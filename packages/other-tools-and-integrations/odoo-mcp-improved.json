@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Odoo MCP Improved"
+  "name": "Odoo MCP Improved",
+  "stars": 10
 }

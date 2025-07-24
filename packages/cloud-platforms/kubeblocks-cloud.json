@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "KB Cloud MCP Server"
+  "name": "KB Cloud MCP Server",
+  "stars": 2
 }

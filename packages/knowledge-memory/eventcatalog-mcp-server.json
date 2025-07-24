@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Event Catalog MCP Server"
+  "name": "Event Catalog MCP Server",
+  "stars": 16
 }

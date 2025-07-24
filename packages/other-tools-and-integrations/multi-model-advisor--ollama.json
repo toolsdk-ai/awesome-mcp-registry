@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Multi AI Advisor MCP"
+  "name": "Multi AI Advisor MCP",
+  "stars": 54
 }

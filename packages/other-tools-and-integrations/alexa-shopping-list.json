@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Alexa Shopping List MCP Server"
+  "name": "Alexa Shopping List MCP Server",
+  "stars": 7
 }

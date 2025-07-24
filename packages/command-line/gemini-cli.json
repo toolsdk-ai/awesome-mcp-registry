@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Gemini CLI MCP"
+  "name": "Gemini CLI MCP",
+  "stars": 6
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "eBay MCP Server"
+  "name": "eBay MCP Server",
+  "stars": 4
 }

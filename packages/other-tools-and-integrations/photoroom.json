@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Photoroom MCP"
+  "name": "Photoroom MCP",
+  "stars": 0
 }

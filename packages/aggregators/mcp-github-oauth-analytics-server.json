@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "MCP GitHub OAuth Analytics Server"
+  "name": "MCP GitHub OAuth Analytics Server",
+  "stars": 2
 }

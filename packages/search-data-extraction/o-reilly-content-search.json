@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "ORM MCP Tools"
+  "name": "ORM MCP Tools",
+  "stars": 1
 }

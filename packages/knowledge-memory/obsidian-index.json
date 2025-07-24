@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Obsidian Index MCP"
+  "name": "Obsidian Index MCP",
+  "stars": 5
 }

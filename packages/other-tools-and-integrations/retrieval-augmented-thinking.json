@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Retrieval Augmented Thinking"
+  "name": "Retrieval Augmented Thinking",
+  "stars": 15
 }

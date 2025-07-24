@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Umami MCP Server"
+  "name": "Umami MCP Server",
+  "stars": 0
 }

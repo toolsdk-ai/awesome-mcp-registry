@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "lgpl-2.1",
   "env": {},
-  "name": "DICOM MCP Server"
+  "name": "DICOM MCP Server",
+  "stars": 2
 }

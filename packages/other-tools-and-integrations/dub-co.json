@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Dubco MCP Server"
+  "name": "Dubco MCP Server",
+  "stars": 0
 }

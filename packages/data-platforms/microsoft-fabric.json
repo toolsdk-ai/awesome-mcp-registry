@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MS Fabric MCP"
+  "name": "MS Fabric MCP",
+  "stars": 11
 }

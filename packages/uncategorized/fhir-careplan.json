@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Fhir MCP"
+  "name": "Fhir MCP",
+  "stars": 1
 }

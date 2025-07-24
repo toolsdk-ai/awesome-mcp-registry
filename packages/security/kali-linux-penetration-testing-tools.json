@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Kali MCP Server"
+  "name": "Kali MCP Server",
+  "stars": 95
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Context7 MCP"
+  "name": "Context7 MCP",
+  "stars": 21992
 }

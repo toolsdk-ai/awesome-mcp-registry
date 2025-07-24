@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "SearXNG MCP"
+  "name": "SearXNG MCP",
+  "stars": 15
 }

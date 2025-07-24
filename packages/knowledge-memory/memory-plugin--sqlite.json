@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Memory Plugin"
+  "name": "MCP Memory Plugin",
+  "stars": 3
 }

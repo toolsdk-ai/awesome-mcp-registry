@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Terminal MCP"
+  "name": "Terminal MCP",
+  "stars": 13
 }

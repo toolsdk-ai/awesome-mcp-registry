@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Luno MCP"
+  "name": "Luno MCP",
+  "stars": 11
 }

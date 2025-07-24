@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Opnsense MCP"
+  "name": "Opnsense MCP",
+  "stars": 10
 }

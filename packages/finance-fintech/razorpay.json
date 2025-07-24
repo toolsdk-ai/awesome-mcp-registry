@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Razorpay MCP Server"
+  "name": "Razorpay MCP Server",
+  "stars": 196
 }

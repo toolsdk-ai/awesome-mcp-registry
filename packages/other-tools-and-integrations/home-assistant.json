@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hass MCP"
+  "name": "Hass MCP",
+  "stars": 134
 }

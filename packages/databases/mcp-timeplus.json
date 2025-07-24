@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Timeplus MCP"
+  "name": "Timeplus MCP",
+  "stars": 10
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Log Analysis SQLite MCP"
+  "name": "Log Analysis SQLite MCP",
+  "stars": 0
 }

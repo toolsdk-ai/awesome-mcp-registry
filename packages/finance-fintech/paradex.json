@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Paradex MCP"
+  "name": "Paradex MCP",
+  "stars": 7
 }

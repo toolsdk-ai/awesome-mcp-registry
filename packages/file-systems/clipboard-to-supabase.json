@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Clipboard to Supabase MCP Helper"
+  "name": "Clipboard to Supabase MCP Helper",
+  "stars": 1
 }

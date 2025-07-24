@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server Pacman"
+  "name": "MCP Server Pacman",
+  "stars": 5
 }

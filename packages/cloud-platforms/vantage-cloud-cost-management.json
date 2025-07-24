@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Vantage MCP Server"
+  "name": "Vantage MCP Server",
+  "stars": 72
 }

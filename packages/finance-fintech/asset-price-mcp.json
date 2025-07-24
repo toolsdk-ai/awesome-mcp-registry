@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Asset Price MCP"
+  "name": "Asset Price MCP",
+  "stars": 2
 }

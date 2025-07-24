@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Locust MCP Server"
+  "name": "Locust MCP Server",
+  "stars": 5
 }

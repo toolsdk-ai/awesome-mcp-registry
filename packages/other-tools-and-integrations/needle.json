@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Needle MCP"
+  "name": "Needle MCP",
+  "stars": 68
 }

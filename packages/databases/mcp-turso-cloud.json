@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Turso Cloud MCP"
+  "name": "Turso Cloud MCP",
+  "stars": 8
 }

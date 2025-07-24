@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Uniquity MCP"
+  "name": "Uniquity MCP",
+  "stars": 0
 }

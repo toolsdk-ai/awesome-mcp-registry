@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "DBLP MCP"
+  "name": "DBLP MCP",
+  "stars": 10
 }

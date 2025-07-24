@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Dgraph MCP Server"
+  "name": "Dgraph MCP Server",
+  "stars": 2
 }

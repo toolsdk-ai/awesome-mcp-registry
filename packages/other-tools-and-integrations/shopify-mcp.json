@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Shopify MCP"
+  "name": "Shopify MCP",
+  "stars": 65
 }

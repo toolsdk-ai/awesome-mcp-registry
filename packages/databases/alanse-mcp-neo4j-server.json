@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Neo4j MCP Server"
+  "name": "Neo4j MCP Server",
+  "stars": 51
 }

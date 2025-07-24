@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Coder Toolbox MCP Server"
+  "name": "Coder Toolbox MCP Server",
+  "stars": 2
 }

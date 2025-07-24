@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Notion API MCP"
+  "name": "Notion API MCP",
+  "stars": 27
 }

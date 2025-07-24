@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "TeamSpeak MCP"
+  "name": "TeamSpeak MCP",
+  "stars": 6
 }

@@ -39,5 +39,6 @@
       "required": true
     }
   },
-  "name": "Base MCP"
+  "name": "Base MCP",
+  "stars": 263
 }

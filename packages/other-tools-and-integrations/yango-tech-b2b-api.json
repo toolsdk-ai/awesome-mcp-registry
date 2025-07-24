@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Yango Tech B2B API MCP"
+  "name": "Yango Tech B2B API MCP",
+  "stars": 11
 }

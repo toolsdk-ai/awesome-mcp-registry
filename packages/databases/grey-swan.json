@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Swan MCP"
+  "name": "Swan MCP",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CryptoPanic MCP Server"
+  "name": "CryptoPanic MCP Server",
+  "stars": 47
 }

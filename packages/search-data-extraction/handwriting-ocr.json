@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Handwriting OCR MCP Server"
+  "name": "Handwriting OCR MCP Server",
+  "stars": 5
 }

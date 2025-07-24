@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "RSS MCP"
+  "name": "RSS MCP",
+  "stars": 5
 }

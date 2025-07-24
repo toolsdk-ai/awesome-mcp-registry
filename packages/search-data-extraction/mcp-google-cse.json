@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Google CSE MCP"
+  "name": "Google CSE MCP",
+  "stars": 28
 }

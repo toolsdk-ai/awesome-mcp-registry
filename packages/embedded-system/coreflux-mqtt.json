@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Coreflux MQTT MCP Server"
+  "name": "Coreflux MQTT MCP Server",
+  "stars": 2
 }

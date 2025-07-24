@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MySQL MCP Server Pro"
+  "name": "MySQL MCP Server Pro",
+  "stars": 231
 }

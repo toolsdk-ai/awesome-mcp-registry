@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Tradovate MCP"
+  "name": "Tradovate MCP",
+  "stars": 6
 }

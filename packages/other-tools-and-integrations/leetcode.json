@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "LeetCode MCP Server"
+  "name": "LeetCode MCP Server",
+  "stars": 17
 }

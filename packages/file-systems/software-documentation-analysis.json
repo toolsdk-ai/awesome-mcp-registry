@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Documind MCP Server"
+  "name": "Documind MCP Server",
+  "stars": 0
 }

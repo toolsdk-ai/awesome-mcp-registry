@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Web3 Jobs MCP"
+  "name": "Web3 Jobs MCP",
+  "stars": 2
 }

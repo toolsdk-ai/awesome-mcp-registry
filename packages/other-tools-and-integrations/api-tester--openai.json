@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Api Tester MCP"
+  "name": "Api Tester MCP",
+  "stars": 0
 }

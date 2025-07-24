@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Axiom MCP Server"
+  "name": "Axiom MCP Server",
+  "stars": 51
 }

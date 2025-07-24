@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Calculator MCP Server"
+  "name": "Calculator MCP Server",
+  "stars": 96
 }

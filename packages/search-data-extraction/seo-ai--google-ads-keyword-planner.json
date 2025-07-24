@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "SEO AI Google Ads Keyword Planner"
+  "name": "SEO AI Google Ads Keyword Planner",
+  "stars": 19
 }

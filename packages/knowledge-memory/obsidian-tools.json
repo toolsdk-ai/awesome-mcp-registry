@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Obsidian MCP Tools"
+  "name": "Obsidian MCP Tools",
+  "stars": 247
 }

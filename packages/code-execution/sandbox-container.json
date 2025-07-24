@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Sandbox Container MCP Server"
+  "name": "Sandbox Container MCP Server",
+  "stars": 2763
 }

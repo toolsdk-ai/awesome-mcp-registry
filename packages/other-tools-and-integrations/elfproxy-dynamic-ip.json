@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "mit",
   "env": {},
-  "name": "Proxy Pool MCP Server"
+  "name": "Proxy Pool MCP Server",
+  "stars": 1
 }

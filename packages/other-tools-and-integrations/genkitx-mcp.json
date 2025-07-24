@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Genkit MCP Server"
+  "name": "Genkit MCP Server",
+  "stars": 2612
 }

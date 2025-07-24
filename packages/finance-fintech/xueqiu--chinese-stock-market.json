@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Xueqiu MCP"
+  "name": "Xueqiu MCP",
+  "stars": 43
 }

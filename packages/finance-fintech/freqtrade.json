@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Freqtrade MCP"
+  "name": "Freqtrade MCP",
+  "stars": 61
 }

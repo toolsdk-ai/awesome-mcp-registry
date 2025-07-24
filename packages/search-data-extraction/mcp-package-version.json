@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Package Version MCP"
+  "name": "Package Version MCP",
+  "stars": 109
 }

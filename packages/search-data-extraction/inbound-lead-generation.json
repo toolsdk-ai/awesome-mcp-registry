@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Inbound MCP"
+  "name": "Inbound MCP",
+  "stars": 7
 }

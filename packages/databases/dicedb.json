@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "DiceDB MCP"
+  "name": "DiceDB MCP",
+  "stars": 5
 }

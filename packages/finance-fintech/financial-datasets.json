@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Financial Datasets MCP Server"
+  "name": "Financial Datasets MCP Server",
+  "stars": 434
 }

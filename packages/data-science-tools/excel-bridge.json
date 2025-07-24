@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Excel MCP Server"
+  "name": "Excel MCP Server",
+  "stars": 4
 }

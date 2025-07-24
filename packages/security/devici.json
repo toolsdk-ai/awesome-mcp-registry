@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Devici MCP"
+  "name": "Devici MCP",
+  "stars": 3
 }

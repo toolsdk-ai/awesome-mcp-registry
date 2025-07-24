@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Perplexity Deep Research"
+  "name": "Perplexity Deep Research",
+  "stars": 6
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Research MCP Tool"
+  "name": "Research MCP Tool",
+  "stars": 5
 }

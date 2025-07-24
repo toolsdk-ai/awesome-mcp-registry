@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Australian Bureau of Statistics MCP Server"
+  "name": "Australian Bureau of Statistics MCP Server",
+  "stars": 4
 }

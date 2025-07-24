@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Snowflake MCP Server"
+  "name": "Snowflake MCP Server",
+  "stars": 138
 }

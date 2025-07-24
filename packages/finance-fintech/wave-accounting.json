@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Wave MCP"
+  "name": "Wave MCP",
+  "stars": 2
 }

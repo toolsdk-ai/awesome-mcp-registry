@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "ROS 2 MCP Server"
+  "name": "ROS 2 MCP Server",
+  "stars": 55
 }

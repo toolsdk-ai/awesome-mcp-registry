@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Thirdweb MCP"
+  "name": "Thirdweb MCP",
+  "stars": 15
 }

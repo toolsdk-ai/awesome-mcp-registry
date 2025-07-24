@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Volcengine Knowledgebase MCP"
+  "name": "Volcengine Knowledgebase MCP",
+  "stars": 0
 }

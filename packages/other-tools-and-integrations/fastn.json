@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Fastn MCP"
+  "name": "Fastn MCP",
+  "stars": 11
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "QQ Music MCP Server"
+  "name": "QQ Music MCP Server",
+  "stars": 3
 }

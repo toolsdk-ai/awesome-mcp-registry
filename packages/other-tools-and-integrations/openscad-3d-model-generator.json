@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "OpenSCAD MCP Server"
+  "name": "OpenSCAD MCP Server",
+  "stars": 63
 }

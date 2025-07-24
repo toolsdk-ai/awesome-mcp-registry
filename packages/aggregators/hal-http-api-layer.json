@@ -55,5 +55,6 @@
       "required": true
     }
   },
-  "name": "HAL HTTP API Layer"
+  "name": "HAL HTTP API Layer",
+  "stars": 30
 }

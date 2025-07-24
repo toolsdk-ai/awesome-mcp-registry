@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "SearxNG Simple MCP"
+  "name": "SearxNG Simple MCP",
+  "stars": 4
 }

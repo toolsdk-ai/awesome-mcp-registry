@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "OR-Tools MCP"
+  "name": "OR-Tools MCP",
+  "stars": 13
 }

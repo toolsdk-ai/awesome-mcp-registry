@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Multi LLM Cross Check MCP Server"
+  "name": "Multi LLM Cross Check MCP Server",
+  "stars": 11
 }

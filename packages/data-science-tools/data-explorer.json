@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Claude MCP Data Explorer"
+  "name": "Claude MCP Data Explorer",
+  "stars": 7
 }

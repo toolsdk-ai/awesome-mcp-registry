@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Advisor"
+  "name": "MCP Advisor",
+  "stars": 53
 }

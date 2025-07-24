@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Remote Command MCP"
+  "name": "Remote Command MCP",
+  "stars": 0
 }

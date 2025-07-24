@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Strands Agents MCP"
+  "name": "Strands Agents MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "OpenAI Chat Completions"
+  "name": "OpenAI Chat Completions",
+  "stars": 76
 }

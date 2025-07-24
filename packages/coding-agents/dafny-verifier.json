@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Dafny MCP"
+  "name": "Dafny MCP",
+  "stars": 2
 }

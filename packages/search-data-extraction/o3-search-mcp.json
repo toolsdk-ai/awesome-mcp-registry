@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "O3 Search MCP"
+  "name": "O3 Search MCP",
+  "stars": 187
 }

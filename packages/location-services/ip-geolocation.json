@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "IP Geolocation MCP"
+  "name": "IP Geolocation MCP",
+  "stars": 26
 }

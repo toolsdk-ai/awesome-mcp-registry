@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Novita MCP Server"
+  "name": "Novita MCP Server",
+  "stars": 11
 }

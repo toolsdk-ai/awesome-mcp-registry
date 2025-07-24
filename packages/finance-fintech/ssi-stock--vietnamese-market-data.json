@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "SSI Stock MCP Server"
+  "name": "SSI Stock MCP Server",
+  "stars": 13
 }

@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "PubNub MCP Server"
+  "name": "PubNub MCP Server",
+  "stars": 7
 }

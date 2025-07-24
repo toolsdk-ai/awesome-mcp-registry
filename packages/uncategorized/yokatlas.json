@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "YokAtlas MCP"
+  "name": "YokAtlas MCP",
+  "stars": 33
 }

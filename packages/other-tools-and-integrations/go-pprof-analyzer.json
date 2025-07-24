@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "PPROF Analyzer MCP"
+  "name": "PPROF Analyzer MCP",
+  "stars": 21
 }

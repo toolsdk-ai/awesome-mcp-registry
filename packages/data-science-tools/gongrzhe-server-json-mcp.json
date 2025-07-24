@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "JSON MCP Server"
+  "name": "JSON MCP Server",
+  "stars": 67
 }

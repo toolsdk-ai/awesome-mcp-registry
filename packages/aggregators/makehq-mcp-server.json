@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Make MCP Server"
+  "name": "Make MCP Server",
+  "stars": 118
 }

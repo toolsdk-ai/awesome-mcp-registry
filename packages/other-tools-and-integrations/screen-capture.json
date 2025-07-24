@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Claude MCP Server"
+  "name": "Claude MCP Server",
+  "stars": 26
 }

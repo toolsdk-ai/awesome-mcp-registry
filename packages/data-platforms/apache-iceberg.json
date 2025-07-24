@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Iceberg MCP Service"
+  "name": "Iceberg MCP Service",
+  "stars": 6
 }

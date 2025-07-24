@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP EDA"
+  "name": "MCP EDA",
+  "stars": 12
 }

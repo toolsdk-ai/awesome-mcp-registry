@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Polygon MCP"
+  "name": "Polygon MCP",
+  "stars": 4
 }

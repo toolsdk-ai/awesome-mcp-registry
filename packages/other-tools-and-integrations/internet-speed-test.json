@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Internet Speed Test MCP"
+  "name": "Internet Speed Test MCP",
+  "stars": 7
 }

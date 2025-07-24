@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Neo4j Graph MCP"
+  "name": "Neo4j Graph MCP",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "X Twitter MCP Server"
+  "name": "X Twitter MCP Server",
+  "stars": 8
 }

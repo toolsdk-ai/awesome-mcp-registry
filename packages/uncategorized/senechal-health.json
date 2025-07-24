@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Senechal MCP"
+  "name": "Senechal MCP",
+  "stars": 0
 }

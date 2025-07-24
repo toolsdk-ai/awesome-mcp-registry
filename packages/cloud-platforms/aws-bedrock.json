@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP on AWS Bedrock"
+  "name": "MCP on AWS Bedrock",
+  "stars": 52
 }

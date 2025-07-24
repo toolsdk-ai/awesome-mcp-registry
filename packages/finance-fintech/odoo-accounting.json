@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Model Context Protocol MCP Odoo"
+  "name": "Model Context Protocol MCP Odoo",
+  "stars": 6
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Linear MCP"
+  "name": "Linear MCP",
+  "stars": 6
 }

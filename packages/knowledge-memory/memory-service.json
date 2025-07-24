@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Memory Service"
+  "name": "MCP Memory Service",
+  "stars": 472
 }

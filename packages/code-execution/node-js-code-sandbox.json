@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Node Code Sandbox MCP"
+  "name": "Node Code Sandbox MCP",
+  "stars": 4
 }

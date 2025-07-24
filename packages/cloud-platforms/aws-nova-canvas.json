@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "AWS Nova Canvas MCP"
+  "name": "AWS Nova Canvas MCP",
+  "stars": 4
 }

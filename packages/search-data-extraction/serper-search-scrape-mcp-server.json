@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Serper MCP Server"
+  "name": "Serper MCP Server",
+  "stars": 80
 }

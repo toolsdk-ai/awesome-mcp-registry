@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Sherlock MCP"
+  "name": "Sherlock MCP",
+  "stars": 1
 }

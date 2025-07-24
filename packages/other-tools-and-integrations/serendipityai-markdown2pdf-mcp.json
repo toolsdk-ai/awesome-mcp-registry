@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Markdown2PDF MCP"
+  "name": "Markdown2PDF MCP",
+  "stars": 7
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CodeAlive MCP"
+  "name": "CodeAlive MCP",
+  "stars": 48
 }

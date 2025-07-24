@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "EVM Blockchain Bridge MCP"
+  "name": "EVM Blockchain Bridge MCP",
+  "stars": 0
 }

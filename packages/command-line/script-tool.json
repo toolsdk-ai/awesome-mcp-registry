@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Script MCP"
+  "name": "Script MCP",
+  "stars": 0
 }

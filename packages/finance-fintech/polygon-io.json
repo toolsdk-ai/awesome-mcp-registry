@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Polygon MCP"
+  "name": "Polygon MCP",
+  "stars": 30
 }

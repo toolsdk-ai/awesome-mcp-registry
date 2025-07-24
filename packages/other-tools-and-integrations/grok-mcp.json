@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Grok MCP"
+  "name": "Grok MCP",
+  "stars": 13
 }

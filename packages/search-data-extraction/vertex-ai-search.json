@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Vertex AI Search MCP"
+  "name": "Vertex AI Search MCP",
+  "stars": 23
 }

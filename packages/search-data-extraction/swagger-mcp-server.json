@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Swagger MCP Server"
+  "name": "Swagger MCP Server",
+  "stars": 13
 }

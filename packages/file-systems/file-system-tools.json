@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Tools"
+  "name": "MCP Tools",
+  "stars": 0
 }

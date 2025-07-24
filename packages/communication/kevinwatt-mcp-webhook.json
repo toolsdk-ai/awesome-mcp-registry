@@ -12,5 +12,6 @@
       "required": true
     }
   },
-  "name": "Webhook MCP"
+  "name": "Webhook MCP",
+  "stars": 23
 }

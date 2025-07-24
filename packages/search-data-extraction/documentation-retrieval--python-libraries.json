@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "DocRet MCP Server"
+  "name": "DocRet MCP Server",
+  "stars": 1
 }

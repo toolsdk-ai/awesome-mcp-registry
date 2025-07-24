@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "SD Elements MCP"
+  "name": "SD Elements MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "SlideSpeak MCP"
+  "name": "SlideSpeak MCP",
+  "stars": 7
 }

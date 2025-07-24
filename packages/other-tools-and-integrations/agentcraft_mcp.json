@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "AgentCraft MCP"
+  "name": "AgentCraft MCP",
+  "stars": 1
 }

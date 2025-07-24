@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Coinpilot Aptos DCA"
+  "name": "Coinpilot Aptos DCA",
+  "stars": 0
 }

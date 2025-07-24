@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Google Analytics MCP"
+  "name": "Google Analytics MCP",
+  "stars": 96
 }

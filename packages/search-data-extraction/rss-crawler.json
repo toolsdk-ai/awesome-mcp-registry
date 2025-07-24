@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP RSS Crawler"
+  "name": "MCP RSS Crawler",
+  "stars": 12
 }

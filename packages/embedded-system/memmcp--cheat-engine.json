@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MemMCP Cheat Engine"
+  "name": "MemMCP Cheat Engine",
+  "stars": 14
 }

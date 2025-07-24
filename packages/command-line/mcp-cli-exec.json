@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "CLI Exec MCP"
+  "name": "CLI Exec MCP",
+  "stars": 4
 }

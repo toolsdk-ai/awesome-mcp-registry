@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "macOS GUI Control"
+  "name": "macOS GUI Control",
+  "stars": 10
 }

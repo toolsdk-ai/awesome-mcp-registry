@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Zen Syllabus MCP"
+  "name": "Zen Syllabus MCP",
+  "stars": 5
 }

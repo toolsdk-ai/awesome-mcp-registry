@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "DuckDuckGo MCP"
+  "name": "DuckDuckGo MCP",
+  "stars": 5
 }

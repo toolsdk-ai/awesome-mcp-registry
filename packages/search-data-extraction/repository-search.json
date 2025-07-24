@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "RepoSearch MCP Server"
+  "name": "RepoSearch MCP Server",
+  "stars": 9
 }

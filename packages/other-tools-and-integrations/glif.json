@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Glif MCP Server"
+  "name": "Glif MCP Server",
+  "stars": 24
 }

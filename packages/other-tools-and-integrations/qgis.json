@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "QGIS MCP"
+  "name": "QGIS MCP",
+  "stars": 569
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Apache Airflow MCP Server"
+  "name": "Apache Airflow MCP Server",
+  "stars": 68
 }

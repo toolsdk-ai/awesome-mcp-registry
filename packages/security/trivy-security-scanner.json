@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Cursor MCP Trivy"
+  "name": "Cursor MCP Trivy",
+  "stars": 9
 }

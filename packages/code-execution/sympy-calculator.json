@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "SymPy Calculator MCP Server"
+  "name": "SymPy Calculator MCP Server",
+  "stars": 4
 }

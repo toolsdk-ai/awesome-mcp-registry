@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "EnkryptAI MCP Server"
+  "name": "EnkryptAI MCP Server",
+  "stars": 2
 }

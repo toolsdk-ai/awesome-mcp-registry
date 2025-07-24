@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Tavily MCP"
+  "name": "Tavily MCP",
+  "stars": 601
 }

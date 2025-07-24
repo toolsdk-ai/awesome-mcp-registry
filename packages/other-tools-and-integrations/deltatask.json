@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "DeltaTask MCP Server"
+  "name": "DeltaTask MCP Server",
+  "stars": 7
 }

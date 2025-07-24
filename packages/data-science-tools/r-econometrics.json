@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "R Econometrics MCP"
+  "name": "R Econometrics MCP",
+  "stars": 27
 }

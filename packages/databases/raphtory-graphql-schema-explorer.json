@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Raphtory GraphQL Schema Explorer"
+  "name": "Raphtory GraphQL Schema Explorer",
+  "stars": 0
 }

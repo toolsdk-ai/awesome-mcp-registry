@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Dataset Viewer MCP"
+  "name": "Dataset Viewer MCP",
+  "stars": 24
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Samtools MCP"
+  "name": "Samtools MCP",
+  "stars": 0
 }

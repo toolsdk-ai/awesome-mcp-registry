@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Edit File Lines MCP"
+  "name": "Edit File Lines MCP",
+  "stars": 27
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "PulseMCP Server"
+  "name": "PulseMCP Server",
+  "stars": 18
 }

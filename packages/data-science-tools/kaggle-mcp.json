@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Kaggle MCP"
+  "name": "Kaggle MCP",
+  "stars": 14
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Filesystem Access MCP Server"
+  "name": "Filesystem Access MCP Server",
+  "stars": 8
 }

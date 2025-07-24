@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Warpcast MCP Server"
+  "name": "Warpcast MCP Server",
+  "stars": 3
 }

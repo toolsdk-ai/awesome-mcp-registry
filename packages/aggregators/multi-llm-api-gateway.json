@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Multi LLM API Gateway"
+  "name": "Multi LLM API Gateway",
+  "stars": 10
 }

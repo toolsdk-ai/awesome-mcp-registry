@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Directus Extension MCP"
+  "name": "Directus Extension MCP",
+  "stars": 6
 }

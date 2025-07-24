@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "File Search Service MCP"
+  "name": "File Search Service MCP",
+  "stars": 0
 }

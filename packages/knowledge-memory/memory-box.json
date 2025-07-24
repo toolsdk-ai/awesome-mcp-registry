@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Memory Box MCP"
+  "name": "Memory Box MCP",
+  "stars": 5
 }

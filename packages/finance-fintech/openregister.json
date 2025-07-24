@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "OpenRegister MCP"
+  "name": "OpenRegister MCP",
+  "stars": 8
 }

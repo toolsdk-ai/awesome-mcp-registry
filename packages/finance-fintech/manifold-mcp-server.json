@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Manifold MCP Server"
+  "name": "Manifold MCP Server",
+  "stars": 6
 }

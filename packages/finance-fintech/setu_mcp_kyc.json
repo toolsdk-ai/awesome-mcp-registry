@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Setu MCP KYC"
+  "name": "Setu MCP KYC",
+  "stars": 2
 }

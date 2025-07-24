@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Ntropy MCP"
+  "name": "Ntropy MCP",
+  "stars": 3
 }

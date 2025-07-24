@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "NewsNow MCP Server"
+  "name": "NewsNow MCP Server",
+  "stars": 7
 }

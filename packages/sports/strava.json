@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Strava MCP"
+  "name": "Strava MCP",
+  "stars": 3
 }

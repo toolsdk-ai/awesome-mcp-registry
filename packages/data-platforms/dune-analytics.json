@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Dune Analytics MCP"
+  "name": "Dune Analytics MCP",
+  "stars": 22
 }

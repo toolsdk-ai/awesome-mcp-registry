@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "SailFish AI Agent Kit"
+  "name": "SailFish AI Agent Kit",
+  "stars": 6
 }

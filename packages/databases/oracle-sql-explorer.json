@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Oracle MCP Server"
+  "name": "Oracle MCP Server",
+  "stars": 11
 }

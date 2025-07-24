@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "GraphQL MCP"
+  "name": "GraphQL MCP",
+  "stars": 8
 }

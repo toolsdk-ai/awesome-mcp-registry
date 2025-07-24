@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "NHL Go"
+  "name": "NHL Go",
+  "stars": 1
 }

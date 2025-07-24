@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Nuanced MCP"
+  "name": "Nuanced MCP",
+  "stars": 11
 }

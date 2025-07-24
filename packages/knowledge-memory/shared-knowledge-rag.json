@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Shared Knowledge MCP"
+  "name": "Shared Knowledge MCP",
+  "stars": 3
 }

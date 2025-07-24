@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "ElevenLabs MCP Server"
+  "name": "ElevenLabs MCP Server",
+  "stars": 104
 }

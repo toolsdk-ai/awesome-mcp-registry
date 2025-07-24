@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "LlamaCloud MCP"
+  "name": "LlamaCloud MCP",
+  "stars": 198
 }

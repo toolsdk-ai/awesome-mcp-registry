@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Geo MCP Server"
+  "name": "Geo MCP Server",
+  "stars": 2
 }

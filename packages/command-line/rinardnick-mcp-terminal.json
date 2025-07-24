@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Terminal"
+  "name": "MCP Terminal",
+  "stars": 6
 }

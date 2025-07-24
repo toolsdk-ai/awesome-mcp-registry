@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "DuckDuckGo MCP Server"
+  "name": "DuckDuckGo MCP Server",
+  "stars": 51
 }

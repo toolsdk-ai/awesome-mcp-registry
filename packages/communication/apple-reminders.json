@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Apple Reminders MCP"
+  "name": "Apple Reminders MCP",
+  "stars": 11
 }

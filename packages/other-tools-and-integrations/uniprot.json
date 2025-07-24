@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "UniProt MCP Server"
+  "name": "UniProt MCP Server",
+  "stars": 8
 }

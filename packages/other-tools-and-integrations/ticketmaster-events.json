@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Local Events MCP Server"
+  "name": "Local Events MCP Server",
+  "stars": 2
 }

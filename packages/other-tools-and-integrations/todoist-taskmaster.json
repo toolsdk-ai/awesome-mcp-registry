@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Taskmaster Todoist MCP"
+  "name": "Taskmaster Todoist MCP",
+  "stars": 37
 }

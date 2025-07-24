@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Railway MCP"
+  "name": "Railway MCP",
+  "stars": 50
 }

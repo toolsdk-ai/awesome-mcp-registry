@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Crypto Trading MCP"
+  "name": "Crypto Trading MCP",
+  "stars": 6
 }

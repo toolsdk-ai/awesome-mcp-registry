@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MS Sentinel MCP Server"
+  "name": "MS Sentinel MCP Server",
+  "stars": 7
 }

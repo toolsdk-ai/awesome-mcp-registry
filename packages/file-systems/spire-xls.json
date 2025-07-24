@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Spire XLS MCP Server"
+  "name": "Spire XLS MCP Server",
+  "stars": 5
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Apple Music MCP"
+  "name": "Apple Music MCP",
+  "stars": 43
 }

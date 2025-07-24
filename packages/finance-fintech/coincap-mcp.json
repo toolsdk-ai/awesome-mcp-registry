@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Coincap MCP"
+  "name": "Coincap MCP",
+  "stars": 80
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "MCP Konnect"
+  "name": "MCP Konnect",
+  "stars": 33
 }

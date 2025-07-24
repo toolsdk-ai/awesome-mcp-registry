@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Putio MCP Server"
+  "name": "Putio MCP Server",
+  "stars": 9
 }

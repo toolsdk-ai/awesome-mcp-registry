@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "AlphaVantage MCP"
+  "name": "AlphaVantage MCP",
+  "stars": 0
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "MCP Data Extractor"
+  "name": "MCP Data Extractor",
+  "stars": 6
 }

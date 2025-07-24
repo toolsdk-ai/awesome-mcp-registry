@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Caiyun Weather MCP"
+  "name": "Caiyun Weather MCP",
+  "stars": 5
 }

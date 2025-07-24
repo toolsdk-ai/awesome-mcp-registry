@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Everything Search MCP Server"
+  "name": "Everything Search MCP Server",
+  "stars": 220
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Port MCP Server"
+  "name": "Port MCP Server",
+  "stars": 10
 }

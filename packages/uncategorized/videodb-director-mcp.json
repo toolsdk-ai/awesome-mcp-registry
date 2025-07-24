@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "VideoDB Director MCP"
+  "name": "VideoDB Director MCP",
+  "stars": 33
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Ultimate MCP Server"
+  "name": "Ultimate MCP Server",
+  "stars": 88
 }

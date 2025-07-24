@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP X402 Task Scheduler"
+  "name": "MCP X402 Task Scheduler",
+  "stars": 2
 }

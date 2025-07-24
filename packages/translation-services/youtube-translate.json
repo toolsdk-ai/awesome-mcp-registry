@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "YouTube Translate MCP"
+  "name": "YouTube Translate MCP",
+  "stars": 1
 }

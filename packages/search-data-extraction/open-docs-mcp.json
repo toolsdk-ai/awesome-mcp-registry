@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Open Docs MCP"
+  "name": "Open Docs MCP",
+  "stars": 7
 }

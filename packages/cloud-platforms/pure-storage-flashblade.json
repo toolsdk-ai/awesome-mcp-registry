@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Pure Model Context Protocol"
+  "name": "Pure Model Context Protocol",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Kakao Bot MCP Server"
+  "name": "Kakao Bot MCP Server",
+  "stars": 6
 }

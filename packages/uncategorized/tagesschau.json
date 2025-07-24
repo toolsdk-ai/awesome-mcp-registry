@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Tagesschau MCP Server"
+  "name": "Tagesschau MCP Server",
+  "stars": 2
 }

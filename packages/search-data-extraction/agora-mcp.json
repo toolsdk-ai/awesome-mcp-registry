@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Agora MCP"
+  "name": "Agora MCP",
+  "stars": 1
 }

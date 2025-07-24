@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Nile MCP Server"
+  "name": "Nile MCP Server",
+  "stars": 16
 }

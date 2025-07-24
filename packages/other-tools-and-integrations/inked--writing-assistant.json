@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "Inked Writing Assistant"
+  "name": "Inked Writing Assistant",
+  "stars": 12
 }

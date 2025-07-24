@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Giphy MCP Server"
+  "name": "Giphy MCP Server",
+  "stars": 14
 }

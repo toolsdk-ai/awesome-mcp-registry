@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "UCloud MCP Server"
+  "name": "UCloud MCP Server",
+  "stars": 0
 }

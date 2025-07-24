@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "MCP Router"
+  "name": "MCP Router",
+  "stars": 3
 }

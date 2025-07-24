@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Root Signals MCP"
+  "name": "Root Signals MCP",
+  "stars": 7
 }

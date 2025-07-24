@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Ton Access MCP"
+  "name": "Ton Access MCP",
+  "stars": 0
 }

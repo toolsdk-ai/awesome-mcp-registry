@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "URL Fetch MCP"
+  "name": "URL Fetch MCP",
+  "stars": 1
 }

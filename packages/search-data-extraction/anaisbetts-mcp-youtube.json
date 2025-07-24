@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP YouTube"
+  "name": "MCP YouTube",
+  "stars": 411
 }

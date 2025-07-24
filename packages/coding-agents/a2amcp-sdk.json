@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "A2AMCP"
+  "name": "A2AMCP",
+  "stars": 14
 }

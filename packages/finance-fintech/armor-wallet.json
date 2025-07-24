@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Armor Crypto MCP"
+  "name": "Armor Crypto MCP",
+  "stars": 178
 }

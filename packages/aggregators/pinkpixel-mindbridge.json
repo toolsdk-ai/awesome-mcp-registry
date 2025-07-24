@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "MindBridge MCP"
+  "name": "MindBridge MCP",
+  "stars": 16
 }

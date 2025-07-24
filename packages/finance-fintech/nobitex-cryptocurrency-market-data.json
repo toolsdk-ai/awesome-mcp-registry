@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Nobitex MCP Server"
+  "name": "Nobitex MCP Server",
+  "stars": 23
 }

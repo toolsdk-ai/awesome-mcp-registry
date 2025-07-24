@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Code Knowledge MCP Tool"
+  "name": "Code Knowledge MCP Tool",
+  "stars": 16
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Tasks Organizer MCP"
+  "name": "Tasks Organizer MCP",
+  "stars": 10
 }

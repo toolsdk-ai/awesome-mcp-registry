@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "NPM MCP Server"
+  "name": "NPM MCP Server",
+  "stars": 0
 }

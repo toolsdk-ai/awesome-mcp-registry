@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "KS MCP Server"
+  "name": "KS MCP Server",
+  "stars": 11
 }

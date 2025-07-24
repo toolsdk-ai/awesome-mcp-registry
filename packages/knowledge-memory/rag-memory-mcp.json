@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Rag Memory MCP"
+  "name": "Rag Memory MCP",
+  "stars": 14
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "NSAF MCP Server"
+  "name": "NSAF MCP Server",
+  "stars": 1
 }

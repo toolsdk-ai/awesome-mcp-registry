@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Database Bulk Update MCP Server"
+  "name": "Database Bulk Update MCP Server",
+  "stars": 0
 }

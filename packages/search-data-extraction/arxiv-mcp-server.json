@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Arxiv MCP Server"
+  "name": "Arxiv MCP Server",
+  "stars": 1472
 }

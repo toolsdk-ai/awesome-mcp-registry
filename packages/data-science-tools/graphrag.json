@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "GraphRAG MCP"
+  "name": "GraphRAG MCP",
+  "stars": 32
 }

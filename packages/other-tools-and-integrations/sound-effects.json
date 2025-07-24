@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Sound Effects MCP"
+  "name": "Sound Effects MCP",
+  "stars": 1
 }

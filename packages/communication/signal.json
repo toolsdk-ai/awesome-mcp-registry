@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Signal MCP"
+  "name": "Signal MCP",
+  "stars": 12
 }

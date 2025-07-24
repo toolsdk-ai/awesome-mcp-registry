@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Africa’s Talking Airtime MCP"
+  "name": "Africa’s Talking Airtime MCP",
+  "stars": 1
 }

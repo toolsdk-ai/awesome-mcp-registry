@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "DaVinci Resolve MCP"
+  "name": "DaVinci Resolve MCP",
+  "stars": 6
 }

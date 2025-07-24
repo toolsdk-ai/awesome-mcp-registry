@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "GemForge MCP"
+  "name": "GemForge MCP",
+  "stars": 4
 }

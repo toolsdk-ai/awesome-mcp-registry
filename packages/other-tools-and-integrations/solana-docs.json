@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unlicense",
   "env": {},
-  "name": "Solana Docs MCP Server"
+  "name": "Solana Docs MCP Server",
+  "stars": 4
 }

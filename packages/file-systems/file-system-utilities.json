@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "MCP Server Developer Tool"
+  "name": "MCP Server Developer Tool",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "apache-2.0",
   "env": {},
-  "name": "Jenkins MCP Server"
+  "name": "Jenkins MCP Server",
+  "stars": 0
 }

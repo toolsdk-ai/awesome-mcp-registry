@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Insights Library"
+  "name": "Insights Library",
+  "stars": 3
 }

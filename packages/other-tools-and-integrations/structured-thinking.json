@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Structured Thinking MCP"
+  "name": "Structured Thinking MCP",
+  "stars": 18
 }

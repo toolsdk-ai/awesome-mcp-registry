@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Israeli Bank MCP"
+  "name": "Israeli Bank MCP",
+  "stars": 19
 }

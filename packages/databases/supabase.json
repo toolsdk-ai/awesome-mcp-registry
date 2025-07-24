@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Supabase MCP"
+  "name": "Supabase MCP",
+  "stars": 0
 }

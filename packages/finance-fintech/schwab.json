@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Schwab MCP"
+  "name": "Schwab MCP",
+  "stars": 10
 }

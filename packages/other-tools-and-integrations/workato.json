@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Workato MCP Server"
+  "name": "Workato MCP Server",
+  "stars": 0
 }

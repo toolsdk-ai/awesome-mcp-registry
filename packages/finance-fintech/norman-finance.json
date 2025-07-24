@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Norman MCP Server"
+  "name": "Norman MCP Server",
+  "stars": 6
 }

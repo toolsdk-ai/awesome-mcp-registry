@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Solana MCP"
+  "name": "Solana MCP",
+  "stars": 3
 }

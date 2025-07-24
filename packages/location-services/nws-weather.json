@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Snapshot MCP Server"
+  "name": "Snapshot MCP Server",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Roadrecon MCP Server"
+  "name": "Roadrecon MCP Server",
+  "stars": 42
 }

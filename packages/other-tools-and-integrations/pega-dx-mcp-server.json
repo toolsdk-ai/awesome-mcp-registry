@@ -39,5 +39,6 @@
       "required": true
     }
   },
-  "name": "Pega DX MCP Server"
+  "name": "Pega DX MCP Server",
+  "stars": 0
 }

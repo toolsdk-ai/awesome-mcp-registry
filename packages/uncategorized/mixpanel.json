@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Mixpanel MCP"
+  "name": "Mixpanel MCP",
+  "stars": 15
 }

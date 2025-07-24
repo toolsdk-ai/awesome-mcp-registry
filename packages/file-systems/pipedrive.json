@@ -12,5 +12,6 @@
       "required": true
     }
   },
-  "name": "Pipedrive MCP Server"
+  "name": "Pipedrive MCP Server",
+  "stars": 14
 }

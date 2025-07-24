@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "JavaConferences MCP Server"
+  "name": "JavaConferences MCP Server",
+  "stars": 3
 }

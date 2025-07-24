@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "n8n MCP SSE"
+  "name": "n8n MCP SSE",
+  "stars": 5
 }

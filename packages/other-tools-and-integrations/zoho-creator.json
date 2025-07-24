@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Scaflog Zoho MCP Server"
+  "name": "Scaflog Zoho MCP Server",
+  "stars": 1
 }

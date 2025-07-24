@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "InfluxDB MCP Server"
+  "name": "InfluxDB MCP Server",
+  "stars": 20
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "isc",
   "env": {},
-  "name": "SiYuan MCP Server"
+  "name": "SiYuan MCP Server",
+  "stars": 29
 }

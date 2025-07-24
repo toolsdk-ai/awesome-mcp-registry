@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Frame0 MCP Server"
+  "name": "Frame0 MCP Server",
+  "stars": 33
 }

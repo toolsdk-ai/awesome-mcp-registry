@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Database MCP Server"
+  "name": "Database MCP Server",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "MIT",
   "env": {},
-  "name": "MCP Solver"
+  "name": "MCP Solver",
+  "stars": 99
 }

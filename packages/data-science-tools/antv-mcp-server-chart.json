@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "MCP Server Chart"
+  "name": "MCP Server Chart",
+  "stars": 2095
 }

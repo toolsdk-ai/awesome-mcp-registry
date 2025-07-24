@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "MySQL MCP Server"
+  "name": "MySQL MCP Server",
+  "stars": 41
 }

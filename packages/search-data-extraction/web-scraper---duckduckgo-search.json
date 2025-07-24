@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Web Scraper & DuckDuckGo Search MCP Server"
+  "name": "Web Scraper & DuckDuckGo Search MCP Server",
+  "stars": 0
 }

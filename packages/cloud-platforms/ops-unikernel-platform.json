@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "Ops MCP"
+  "name": "Ops MCP",
+  "stars": 2
 }

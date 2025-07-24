@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "KubeVirt MCP Server"
+  "name": "KubeVirt MCP Server",
+  "stars": 2
 }

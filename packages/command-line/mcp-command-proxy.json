@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Command Proxy"
+  "name": "MCP Command Proxy",
+  "stars": 9
 }

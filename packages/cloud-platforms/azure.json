@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Azure MCP Server"
+  "name": "Azure MCP Server",
+  "stars": 5
 }

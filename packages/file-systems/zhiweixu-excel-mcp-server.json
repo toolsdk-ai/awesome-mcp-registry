@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "Excel MCP Server"
+  "name": "Excel MCP Server",
+  "stars": 34
 }

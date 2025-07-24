@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "PipeCD MCP Server"
+  "name": "PipeCD MCP Server",
+  "stars": 4
 }

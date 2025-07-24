@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "ClickUp MCP Server"
+  "name": "ClickUp MCP Server",
+  "stars": 18
 }

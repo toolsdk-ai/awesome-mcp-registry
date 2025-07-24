@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Solana Agent Kit"
+  "name": "Solana Agent Kit",
+  "stars": 1435
 }

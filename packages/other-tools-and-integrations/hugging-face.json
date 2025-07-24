@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hugging Face MCP Server"
+  "name": "Hugging Face MCP Server",
+  "stars": 54
 }

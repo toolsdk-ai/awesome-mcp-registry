@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Ethers MCP Server"
+  "name": "Ethers MCP Server",
+  "stars": 8
 }

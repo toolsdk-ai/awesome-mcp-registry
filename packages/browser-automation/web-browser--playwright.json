@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Web Browser MCP"
+  "name": "Web Browser MCP",
+  "stars": 20
 }

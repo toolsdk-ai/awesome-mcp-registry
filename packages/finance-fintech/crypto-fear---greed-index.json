@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Crypto Fear & Greed MCP"
+  "name": "Crypto Fear & Greed MCP",
+  "stars": 33
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "bsd-3-clause",
   "env": {},
-  "name": "Materials Project MCP"
+  "name": "Materials Project MCP",
+  "stars": 1
 }

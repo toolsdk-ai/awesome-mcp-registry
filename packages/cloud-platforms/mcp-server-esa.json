@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "MCP Server ESA"
+  "name": "MCP Server ESA",
+  "stars": 24
 }

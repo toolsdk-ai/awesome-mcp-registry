@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PDF Processor MCP"
+  "name": "PDF Processor MCP",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Code Review MCP"
+  "name": "Code Review MCP",
+  "stars": 12
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "WebDAV MCP Server"
+  "name": "WebDAV MCP Server",
+  "stars": 6
 }

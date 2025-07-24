@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "DuckDuckGo Search MCP"
+  "name": "DuckDuckGo Search MCP",
+  "stars": 3
 }

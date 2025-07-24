@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "MCP Gopls Bridge"
+  "name": "MCP Gopls Bridge",
+  "stars": 35
 }

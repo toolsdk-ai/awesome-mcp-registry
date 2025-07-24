@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Google Maps MCP Server"
+  "name": "Google Maps MCP Server",
+  "stars": 109
 }

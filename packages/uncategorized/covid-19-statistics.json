@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Covid MCP Server"
+  "name": "Covid MCP Server",
+  "stars": 3
 }

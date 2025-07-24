@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Xingchen MCP Server"
+  "name": "Xingchen MCP Server",
+  "stars": 3
 }

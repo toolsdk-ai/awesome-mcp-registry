@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Nylas API MCP"
+  "name": "Nylas API MCP",
+  "stars": 2
 }

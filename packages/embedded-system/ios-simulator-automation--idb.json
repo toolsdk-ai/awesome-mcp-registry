@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Simulator iOS IDB MCP"
+  "name": "Simulator iOS IDB MCP",
+  "stars": 213
 }

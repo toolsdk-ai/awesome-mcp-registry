@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "IETF RFC Documents MCP Server"
+  "name": "IETF RFC Documents MCP Server",
+  "stars": 5
 }

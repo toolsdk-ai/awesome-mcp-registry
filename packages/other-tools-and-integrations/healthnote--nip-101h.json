@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Healthnote API"
+  "name": "Healthnote API",
+  "stars": 2
 }

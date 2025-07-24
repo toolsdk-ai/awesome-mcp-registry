@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unlicense",
   "env": {},
-  "name": "DexScreener MCP Server"
+  "name": "DexScreener MCP Server",
+  "stars": 13
 }

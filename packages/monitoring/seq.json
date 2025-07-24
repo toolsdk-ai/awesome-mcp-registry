@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Seq MCP Server"
+  "name": "Seq MCP Server",
+  "stars": 5
 }

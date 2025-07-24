@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Datagovmy MCP"
+  "name": "Datagovmy MCP",
+  "stars": 8
 }

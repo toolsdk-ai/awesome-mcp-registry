@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Pydantic AI Run Python MCP Server"
+  "name": "Pydantic AI Run Python MCP Server",
+  "stars": 11221
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MLC Bakery"
+  "name": "MLC Bakery",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Vercel AI"
+  "name": "MCP Vercel AI",
+  "stars": 7
 }

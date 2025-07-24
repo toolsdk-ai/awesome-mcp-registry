@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "DB MCP Server"
+  "name": "DB MCP Server",
+  "stars": 247
 }

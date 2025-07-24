@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Dappier MCP"
+  "name": "Dappier MCP",
+  "stars": 24
 }

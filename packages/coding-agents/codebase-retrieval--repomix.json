@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Codebase MCP"
+  "name": "Codebase MCP",
+  "stars": 45
 }

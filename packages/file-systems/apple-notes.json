@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Apple Notes MCP"
+  "name": "Apple Notes MCP",
+  "stars": 8
 }

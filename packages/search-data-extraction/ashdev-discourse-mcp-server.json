@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Discourse MCP Server"
+  "name": "Discourse MCP Server",
+  "stars": 5
 }

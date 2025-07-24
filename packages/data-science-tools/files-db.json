@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Files DB MCP"
+  "name": "Files DB MCP",
+  "stars": 3
 }

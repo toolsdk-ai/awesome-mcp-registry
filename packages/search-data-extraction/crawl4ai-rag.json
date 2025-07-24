@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Crawl4AI RAG MCP"
+  "name": "Crawl4AI RAG MCP",
+  "stars": 1389
 }

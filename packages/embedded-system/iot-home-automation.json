@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "IoT Home Automation MCP Server"
+  "name": "IoT Home Automation MCP Server",
+  "stars": 2
 }

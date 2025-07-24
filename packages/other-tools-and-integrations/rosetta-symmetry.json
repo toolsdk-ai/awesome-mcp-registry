@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Rosetta MCP"
+  "name": "Rosetta MCP",
+  "stars": 0
 }

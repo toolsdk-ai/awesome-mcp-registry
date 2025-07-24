@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Memory Journal MCP Server"
+  "name": "Memory Journal MCP Server",
+  "stars": 20
 }

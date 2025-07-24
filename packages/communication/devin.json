@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Devin MCP"
+  "name": "Devin MCP",
+  "stars": 4
 }

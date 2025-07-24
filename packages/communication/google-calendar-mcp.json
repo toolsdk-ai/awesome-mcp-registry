@@ -12,5 +12,6 @@
       "required": true
     }
   },
-  "name": "Google Calendar MCP Server"
+  "name": "Google Calendar MCP Server",
+  "stars": 482
 }

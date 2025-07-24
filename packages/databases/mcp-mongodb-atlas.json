@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "MongoDB Atlas MCP"
+  "name": "MongoDB Atlas MCP",
+  "stars": 11
 }

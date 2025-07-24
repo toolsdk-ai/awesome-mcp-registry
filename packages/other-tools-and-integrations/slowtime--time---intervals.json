@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Slowtime MCP Server"
+  "name": "Slowtime MCP Server",
+  "stars": 2
 }

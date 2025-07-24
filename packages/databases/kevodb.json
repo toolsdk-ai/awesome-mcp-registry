@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Kevo MCP"
+  "name": "Kevo MCP",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mpl-2.0",
   "env": {},
-  "name": "Minima Local RAG MCP Server"
+  "name": "Minima Local RAG MCP Server",
+  "stars": 769
 }

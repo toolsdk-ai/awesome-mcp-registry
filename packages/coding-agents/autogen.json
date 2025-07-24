@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "AutoGen MCP"
+  "name": "AutoGen MCP",
+  "stars": 12
 }

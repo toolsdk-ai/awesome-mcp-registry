@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Glean MCP Server"
+  "name": "Glean MCP Server",
+  "stars": 44
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Poker Win Calculator"
+  "name": "Poker Win Calculator",
+  "stars": 0
 }

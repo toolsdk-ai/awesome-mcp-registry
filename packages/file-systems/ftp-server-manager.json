@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "FTP MCP Server"
+  "name": "FTP MCP Server",
+  "stars": 8
 }

@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "BMAD Agent FastMCP"
+  "name": "BMAD Agent FastMCP",
+  "stars": 1
 }

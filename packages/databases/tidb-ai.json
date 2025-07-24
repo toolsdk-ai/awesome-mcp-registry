@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "TiDB AI MCP"
+  "name": "TiDB AI MCP",
+  "stars": 3
 }

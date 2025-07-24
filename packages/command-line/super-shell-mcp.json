@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Super Shell MCP"
+  "name": "Super Shell MCP",
+  "stars": 6
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Ayx MCP Wrapper"
+  "name": "Ayx MCP Wrapper",
+  "stars": 8
 }

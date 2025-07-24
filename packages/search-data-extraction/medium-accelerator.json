@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Medium Accelerator MCP"
+  "name": "Medium Accelerator MCP",
+  "stars": 2
 }

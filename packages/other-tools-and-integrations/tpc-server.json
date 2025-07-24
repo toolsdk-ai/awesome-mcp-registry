@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "TPC Server"
+  "name": "TPC Server",
+  "stars": 1
 }

@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Telegram MCP Server"
+  "name": "Telegram MCP Server",
+  "stars": 13
 }

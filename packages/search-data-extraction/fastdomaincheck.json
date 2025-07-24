@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Fast Domain Check MCP Server"
+  "name": "Fast Domain Check MCP Server",
+  "stars": 24
 }

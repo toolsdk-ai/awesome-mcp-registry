@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Supabase MCP Server"
+  "name": "Supabase MCP Server",
+  "stars": 42
 }

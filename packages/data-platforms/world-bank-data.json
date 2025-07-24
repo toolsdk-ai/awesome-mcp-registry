@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "World Bank MCP Server"
+  "name": "World Bank MCP Server",
+  "stars": 34
 }

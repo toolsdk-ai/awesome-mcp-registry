@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "AgentQL MCP"
+  "name": "AgentQL MCP",
+  "stars": 89
 }

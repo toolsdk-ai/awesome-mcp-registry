@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Spheron MCP Plugin"
+  "name": "Spheron MCP Plugin",
+  "stars": 5
 }

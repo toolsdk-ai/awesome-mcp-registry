@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Mem0 MCP"
+  "name": "Mem0 MCP",
+  "stars": 66
 }

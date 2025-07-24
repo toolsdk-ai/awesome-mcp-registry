@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Advanced Reason MCP"
+  "name": "Advanced Reason MCP",
+  "stars": 27
 }

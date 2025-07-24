@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Iaptic MCP Server"
+  "name": "Iaptic MCP Server",
+  "stars": 4
 }

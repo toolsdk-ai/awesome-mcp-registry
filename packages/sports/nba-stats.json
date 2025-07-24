@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "NBA MCP Server"
+  "name": "NBA MCP Server",
+  "stars": 7
 }

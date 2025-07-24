@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "KOSPI KOSDAQ Stock Server"
+  "name": "KOSPI KOSDAQ Stock Server",
+  "stars": 38
 }

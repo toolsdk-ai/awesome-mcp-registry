@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Claude MCP Think Tool"
+  "name": "Claude MCP Think Tool",
+  "stars": 30
 }

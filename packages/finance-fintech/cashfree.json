@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "Cashfree MCP"
+  "name": "Cashfree MCP",
+  "stars": 8
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "CodeChecker MCP"
+  "name": "CodeChecker MCP",
+  "stars": 2
 }

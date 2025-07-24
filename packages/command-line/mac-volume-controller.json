@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Onesies"
+  "name": "Onesies",
+  "stars": 0
 }

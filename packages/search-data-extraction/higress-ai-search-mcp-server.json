@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Higress AI Search MCP Server"
+  "name": "Higress AI Search MCP Server",
+  "stars": 5
 }

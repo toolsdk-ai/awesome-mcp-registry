@@ -24,5 +24,6 @@
       "required": true
     }
   },
-  "name": "Salesforce MCP Server"
+  "name": "Salesforce MCP Server",
+  "stars": 75
 }

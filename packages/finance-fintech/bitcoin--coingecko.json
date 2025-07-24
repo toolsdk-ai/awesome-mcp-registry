@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "MCP Spring Test"
+  "name": "MCP Spring Test",
+  "stars": 0
 }

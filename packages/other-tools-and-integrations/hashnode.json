@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hashnode MCP Server"
+  "name": "Hashnode MCP Server",
+  "stars": 3
 }

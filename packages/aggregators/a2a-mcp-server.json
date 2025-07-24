@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "A2A MCP Server"
+  "name": "A2A MCP Server",
+  "stars": 65
 }

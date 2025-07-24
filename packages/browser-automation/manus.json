@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Manus MCP"
+  "name": "Manus MCP",
+  "stars": 77
 }

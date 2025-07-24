@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "KiCAD MCP Server"
+  "name": "KiCAD MCP Server",
+  "stars": 61
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Optuna MCP"
+  "name": "Optuna MCP",
+  "stars": 39
 }

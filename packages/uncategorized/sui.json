@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Sui MCP"
+  "name": "Sui MCP",
+  "stars": 3
 }

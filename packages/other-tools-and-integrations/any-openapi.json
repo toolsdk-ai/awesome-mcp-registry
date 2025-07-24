@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Any OpenAPI MCP Server"
+  "name": "Any OpenAPI MCP Server",
+  "stars": 61
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "pkgx MCP"
+  "name": "pkgx MCP",
+  "stars": 14
 }

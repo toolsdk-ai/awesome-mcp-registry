@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Thinking Tool MCP"
+  "name": "Thinking Tool MCP",
+  "stars": 1
 }

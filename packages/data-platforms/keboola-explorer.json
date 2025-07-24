@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Keboola MCP Server"
+  "name": "Keboola MCP Server",
+  "stars": 67
 }

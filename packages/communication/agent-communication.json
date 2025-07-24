@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Agent Communication MCP Server"
+  "name": "Agent Communication MCP Server",
+  "stars": 6
 }

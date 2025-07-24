@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "ClickHouse MCP Server"
+  "name": "ClickHouse MCP Server",
+  "stars": 1
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Dumpling AI MCP Server"
+  "name": "Dumpling AI MCP Server",
+  "stars": 22
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Docling MCP"
+  "name": "Docling MCP",
+  "stars": 12
 }

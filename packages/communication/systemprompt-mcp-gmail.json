@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Systemprompt MCP Gmail"
+  "name": "Systemprompt MCP Gmail",
+  "stars": 8
 }

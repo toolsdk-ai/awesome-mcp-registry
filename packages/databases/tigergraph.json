@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "TigerGraph MCP"
+  "name": "TigerGraph MCP",
+  "stars": 5
 }

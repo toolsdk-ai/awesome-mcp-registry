@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "MeterSphere MCP Server"
+  "name": "MeterSphere MCP Server",
+  "stars": 7
 }

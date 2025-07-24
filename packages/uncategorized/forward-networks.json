@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Forward MCP"
+  "name": "Forward MCP",
+  "stars": 2
 }

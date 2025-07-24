@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "AQICN MCP"
+  "name": "AQICN MCP",
+  "stars": 1
 }

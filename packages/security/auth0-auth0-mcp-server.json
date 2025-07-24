@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Auth0 MCP Server"
+  "name": "Auth0 MCP Server",
+  "stars": 67
 }

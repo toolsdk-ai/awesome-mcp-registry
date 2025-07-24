@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Goal Story MCP"
+  "name": "Goal Story MCP",
+  "stars": 15
 }

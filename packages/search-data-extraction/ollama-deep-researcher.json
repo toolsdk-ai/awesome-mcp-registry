@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Ollama Deep Researcher MCP Server"
+  "name": "Ollama Deep Researcher MCP Server",
+  "stars": 13
 }

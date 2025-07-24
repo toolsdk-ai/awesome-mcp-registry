@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "GreptimeDB MCP Server"
+  "name": "GreptimeDB MCP Server",
+  "stars": 21
 }

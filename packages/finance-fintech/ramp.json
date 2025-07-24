@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Ramp MCP"
+  "name": "Ramp MCP",
+  "stars": 24
 }

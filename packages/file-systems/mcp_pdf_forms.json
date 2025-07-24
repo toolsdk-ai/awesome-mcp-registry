@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP PDF Forms"
+  "name": "MCP PDF Forms",
+  "stars": 6
 }

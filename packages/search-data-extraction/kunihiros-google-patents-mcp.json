@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Google Patents MCP"
+  "name": "Google Patents MCP",
+  "stars": 8
 }

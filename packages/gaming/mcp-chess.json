@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Chess"
+  "name": "MCP Chess",
+  "stars": 13
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Glean MCP Server"
+  "name": "Glean MCP Server",
+  "stars": 8
 }

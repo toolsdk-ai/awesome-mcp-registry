@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "MCP Think"
+  "name": "MCP Think",
+  "stars": 14
 }

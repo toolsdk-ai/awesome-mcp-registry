@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Blue Perfumery MCP Server"
+  "name": "Blue Perfumery MCP Server",
+  "stars": 2
 }

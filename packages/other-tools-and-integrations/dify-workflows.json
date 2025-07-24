@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "Dify MCP Workflow Server"
+  "name": "Dify MCP Workflow Server",
+  "stars": 52
 }

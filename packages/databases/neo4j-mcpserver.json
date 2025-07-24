@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Neo4j MCP Server"
+  "name": "Neo4j MCP Server",
+  "stars": 4
 }

@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Aliyun MCP Server"
+  "name": "Aliyun MCP Server",
+  "stars": 2
 }

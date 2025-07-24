@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Todoist MCP Server Ext"
+  "name": "Todoist MCP Server Ext",
+  "stars": 3
 }

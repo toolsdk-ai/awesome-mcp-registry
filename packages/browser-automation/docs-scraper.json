@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Docs Scraper MCP"
+  "name": "Docs Scraper MCP",
+  "stars": 1
 }

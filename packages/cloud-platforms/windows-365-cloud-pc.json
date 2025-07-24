@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Cloud PC"
+  "name": "MCP Cloud PC",
+  "stars": 0
 }

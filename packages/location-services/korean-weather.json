@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Py MCP Ko Weather"
+  "name": "Py MCP Ko Weather",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Baseline MCP Server"
+  "name": "Baseline MCP Server",
+  "stars": 33
 }

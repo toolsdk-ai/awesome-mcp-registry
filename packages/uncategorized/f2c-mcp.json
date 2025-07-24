@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "F2C MCP"
+  "name": "F2C MCP",
+  "stars": 205
 }

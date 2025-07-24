@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Rami Levy MCP"
+  "name": "Rami Levy MCP",
+  "stars": 9
 }

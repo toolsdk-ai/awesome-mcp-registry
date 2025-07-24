@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "OS MCP Bridge"
+  "name": "OS MCP Bridge",
+  "stars": 2
 }

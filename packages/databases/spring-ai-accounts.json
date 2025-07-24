@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Spring AI MCP"
+  "name": "Spring AI MCP",
+  "stars": 26
 }

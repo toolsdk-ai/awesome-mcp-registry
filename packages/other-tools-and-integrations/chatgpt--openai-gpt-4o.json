@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "ChatGPT MCP"
+  "name": "ChatGPT MCP",
+  "stars": 5
 }

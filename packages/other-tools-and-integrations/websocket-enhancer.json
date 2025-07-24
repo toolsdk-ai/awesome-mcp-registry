@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "WebSocket MCP"
+  "name": "WebSocket MCP",
+  "stars": 21
 }

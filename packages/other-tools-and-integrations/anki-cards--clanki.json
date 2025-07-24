@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Clanki MCP Server"
+  "name": "Clanki MCP Server",
+  "stars": 7
 }

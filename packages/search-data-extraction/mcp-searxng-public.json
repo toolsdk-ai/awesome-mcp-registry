@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "SearXNG Public MCP"
+  "name": "SearXNG Public MCP",
+  "stars": 14
 }

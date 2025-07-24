@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "cc0-1.0",
   "env": {},
-  "name": "QGIS MCP Modify1"
+  "name": "QGIS MCP Modify1",
+  "stars": 5
 }

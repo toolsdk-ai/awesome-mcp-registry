@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "mit",
   "env": {},
-  "name": "Steam MCP Server"
+  "name": "Steam MCP Server",
+  "stars": 2
 }

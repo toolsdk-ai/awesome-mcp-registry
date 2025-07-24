@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Formula 1 MCP"
+  "name": "Formula 1 MCP",
+  "stars": 11
 }

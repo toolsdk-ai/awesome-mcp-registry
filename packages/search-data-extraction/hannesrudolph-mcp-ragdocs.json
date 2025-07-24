@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "MCP RAGDocs"
+  "name": "MCP RAGDocs",
+  "stars": 210
 }

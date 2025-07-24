@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "ClinicalTrials.gov MCP Server"
+  "name": "ClinicalTrials.gov MCP Server",
+  "stars": 9
 }

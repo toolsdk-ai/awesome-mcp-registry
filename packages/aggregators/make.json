@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Make MCP Integration"
+  "name": "Make MCP Integration",
+  "stars": 0
 }

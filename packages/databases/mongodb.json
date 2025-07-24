@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Mongo MCP Go"
+  "name": "Mongo MCP Go",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Memory Bank MCP"
+  "name": "Memory Bank MCP",
+  "stars": 17
 }

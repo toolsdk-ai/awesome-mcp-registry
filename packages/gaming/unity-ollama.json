@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Unity MCP Ollama"
+  "name": "Unity MCP Ollama",
+  "stars": 5
 }

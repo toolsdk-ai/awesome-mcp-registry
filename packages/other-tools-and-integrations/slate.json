@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "other",
   "env": {},
-  "name": "BE Core MCP"
+  "name": "BE Core MCP",
+  "stars": 0
 }

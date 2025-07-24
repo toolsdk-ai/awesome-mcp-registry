@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "AI Humanizer MCP Server"
+  "name": "AI Humanizer MCP Server",
+  "stars": 28
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "UploadThing MCP"
+  "name": "UploadThing MCP",
+  "stars": 2
 }

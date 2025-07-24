@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PyMOL MCP"
+  "name": "PyMOL MCP",
+  "stars": 20
 }

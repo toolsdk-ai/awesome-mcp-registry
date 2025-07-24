@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "SecOps MCP"
+  "name": "SecOps MCP",
+  "stars": 6
 }

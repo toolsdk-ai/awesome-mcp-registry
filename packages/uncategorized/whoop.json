@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Whoop MCP Server"
+  "name": "Whoop MCP Server",
+  "stars": 8
 }

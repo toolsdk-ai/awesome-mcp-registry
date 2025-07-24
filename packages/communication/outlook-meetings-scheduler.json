@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Outlook Meetings Scheduler MCP Server"
+  "name": "Outlook Meetings Scheduler MCP Server",
+  "stars": 7
 }

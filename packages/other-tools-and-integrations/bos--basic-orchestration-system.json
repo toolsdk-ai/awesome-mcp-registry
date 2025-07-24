@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP BOS"
+  "name": "MCP BOS",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Tasks MCP Server"
+  "name": "Tasks MCP Server",
+  "stars": 0
 }

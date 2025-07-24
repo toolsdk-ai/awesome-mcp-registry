@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "ZoomEye MCP"
+  "name": "ZoomEye MCP",
+  "stars": 35
 }

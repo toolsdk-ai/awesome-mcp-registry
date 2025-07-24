@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Dart MCP Server"
+  "name": "Dart MCP Server",
+  "stars": 107
 }

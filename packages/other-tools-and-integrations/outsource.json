@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Outsource MCP"
+  "name": "Outsource MCP",
+  "stars": 9
 }

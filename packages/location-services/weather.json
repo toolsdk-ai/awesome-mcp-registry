@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Weather MCP"
+  "name": "Weather MCP",
+  "stars": 7
 }

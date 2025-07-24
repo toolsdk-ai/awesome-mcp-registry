@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "MarkItDown MCP NPX"
+  "name": "MarkItDown MCP NPX",
+  "stars": 6
 }

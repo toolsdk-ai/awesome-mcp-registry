@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Salesforce MCP Connector"
+  "name": "Salesforce MCP Connector",
+  "stars": 121
 }

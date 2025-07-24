@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Datagouv MCP Server"
+  "name": "Datagouv MCP Server",
+  "stars": 8
 }

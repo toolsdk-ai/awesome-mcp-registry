@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Magick MCP"
+  "name": "Magick MCP",
+  "stars": 2
 }

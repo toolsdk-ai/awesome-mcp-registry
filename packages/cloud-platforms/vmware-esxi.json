@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "ESXi MCP Server"
+  "name": "ESXi MCP Server",
+  "stars": 32
 }

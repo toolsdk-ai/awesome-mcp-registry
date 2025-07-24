@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Sequential Thinking Tools"
+  "name": "Sequential Thinking Tools",
+  "stars": 295
 }

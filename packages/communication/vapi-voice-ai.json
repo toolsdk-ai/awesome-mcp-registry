@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Vapi MCP"
+  "name": "Vapi MCP",
+  "stars": 3
 }

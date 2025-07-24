@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Pocket MCP Manager"
+  "name": "Pocket MCP Manager",
+  "stars": 4
 }

@@ -7,5 +7,6 @@
   "runtime": "node",
   "license": "MIT",
   "env": {},
-  "name": "Gmail MCP"
+  "name": "Gmail MCP",
+  "stars": 21
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "isc",
   "env": {},
-  "name": "Integration App MCP Server"
+  "name": "Integration App MCP Server",
+  "stars": 25
 }

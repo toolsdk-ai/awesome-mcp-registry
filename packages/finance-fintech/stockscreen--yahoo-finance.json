@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Stockscreen Yahoo Finance"
+  "name": "Stockscreen Yahoo Finance",
+  "stars": 26
 }

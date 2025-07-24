@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Spring Boot AI Confluence MCP Server"
+  "name": "Spring Boot AI Confluence MCP Server",
+  "stars": 3
 }

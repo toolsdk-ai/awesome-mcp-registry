@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Authentik MCP"
+  "name": "Authentik MCP",
+  "stars": 1
 }

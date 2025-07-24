@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Database Explorer MCP"
+  "name": "Database Explorer MCP",
+  "stars": 5
 }

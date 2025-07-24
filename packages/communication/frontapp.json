@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "FrontApp MCP"
+  "name": "FrontApp MCP",
+  "stars": 4
 }

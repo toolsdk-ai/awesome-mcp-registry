@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Langflow Doc QA Server"
+  "name": "Langflow Doc QA Server",
+  "stars": 13
 }

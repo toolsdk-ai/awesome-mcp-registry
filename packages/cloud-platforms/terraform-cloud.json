@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Terraform Cloud MCP"
+  "name": "Terraform Cloud MCP",
+  "stars": 14
 }

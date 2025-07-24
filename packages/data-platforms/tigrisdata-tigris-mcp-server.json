@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Tigris MCP Server"
+  "name": "Tigris MCP Server",
+  "stars": 3
 }

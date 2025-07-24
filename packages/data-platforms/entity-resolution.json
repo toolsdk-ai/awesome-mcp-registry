@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Entity Resolution"
+  "name": "Entity Resolution",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Langchain MCP Tools"
+  "name": "Langchain MCP Tools",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Waldzell MCP"
+  "name": "Waldzell MCP",
+  "stars": 144
 }

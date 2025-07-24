@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "IFC Building Information Modeling MCP"
+  "name": "IFC Building Information Modeling MCP",
+  "stars": 12
 }

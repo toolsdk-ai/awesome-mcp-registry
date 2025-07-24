@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "Fireproof JSON Document Store MCP Server"
+  "name": "Fireproof JSON Document Store MCP Server",
+  "stars": 19
 }

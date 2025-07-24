@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Android ADB MCP Server"
+  "name": "Android ADB MCP Server",
+  "stars": 25
 }

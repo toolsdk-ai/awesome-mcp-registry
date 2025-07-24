@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Playwright MCP"
+  "name": "Playwright MCP",
+  "stars": 101
 }

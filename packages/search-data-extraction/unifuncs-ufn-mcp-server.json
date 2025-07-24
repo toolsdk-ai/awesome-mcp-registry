@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "UFN MCP Server"
+  "name": "UFN MCP Server",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Prompts MCP Server"
+  "name": "Prompts MCP Server",
+  "stars": 7
 }

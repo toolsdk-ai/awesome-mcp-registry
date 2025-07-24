@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Dbt MCP"
+  "name": "Dbt MCP",
+  "stars": 313
 }

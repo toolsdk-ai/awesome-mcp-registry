@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "ClickSend MCP"
+  "name": "ClickSend MCP",
+  "stars": 2
 }

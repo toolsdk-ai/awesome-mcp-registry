@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Random Number MCP"
+  "name": "Random Number MCP",
+  "stars": 5
 }

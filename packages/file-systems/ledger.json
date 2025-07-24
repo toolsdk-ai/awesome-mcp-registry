@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Ledger MCP Server"
+  "name": "Ledger MCP Server",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "OneSignal MCP"
+  "name": "OneSignal MCP",
+  "stars": 2
 }

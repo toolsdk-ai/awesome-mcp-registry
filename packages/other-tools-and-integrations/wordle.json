@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Wordle MCP"
+  "name": "Wordle MCP",
+  "stars": 2
 }

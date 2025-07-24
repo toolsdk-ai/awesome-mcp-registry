@@ -27,5 +27,6 @@
       "description": "REPLY_TO_EMAILS_COMMA_SEPARATED",
       "required": true
     }
-  }
+  },
+  "stars": 2
 }

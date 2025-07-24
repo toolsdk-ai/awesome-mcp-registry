@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Host Use"
+  "name": "MCP Host Use",
+  "stars": 7
 }

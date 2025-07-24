@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PancakeSwap PoolSpy MCP"
+  "name": "PancakeSwap PoolSpy MCP",
+  "stars": 5
 }

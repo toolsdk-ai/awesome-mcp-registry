@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "MCP Postgres Server"
+  "name": "MCP Postgres Server",
+  "stars": 5
 }

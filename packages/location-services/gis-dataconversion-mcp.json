@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "GIS DataConversion MCP"
+  "name": "GIS DataConversion MCP",
+  "stars": 10
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Jina AI MCP Server"
+  "name": "Jina AI MCP Server",
+  "stars": 28
 }

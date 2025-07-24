@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "bsd-2-clause",
   "env": {},
-  "name": "LLDB MCP"
+  "name": "LLDB MCP",
+  "stars": 49
 }

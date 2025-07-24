@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Any Chat Completions MCP"
+  "name": "Any Chat Completions MCP",
+  "stars": 138
 }

@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Moneybird MCP Server"
+  "name": "Moneybird MCP Server",
+  "stars": 11
 }

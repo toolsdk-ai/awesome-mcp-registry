@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Websearch MCP"
+  "name": "Websearch MCP",
+  "stars": 14
 }

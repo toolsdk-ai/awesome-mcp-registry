@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Postmark MCP"
+  "name": "Postmark MCP",
+  "stars": 9
 }

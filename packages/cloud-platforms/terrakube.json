@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Terrakube MCP Server"
+  "name": "Terrakube MCP Server",
+  "stars": 2
 }

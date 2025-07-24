@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "Harvester MCP Server"
+  "name": "Harvester MCP Server",
+  "stars": 0
 }

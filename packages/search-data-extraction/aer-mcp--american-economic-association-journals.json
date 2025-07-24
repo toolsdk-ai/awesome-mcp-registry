@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "AER MCP"
+  "name": "AER MCP",
+  "stars": 3
 }

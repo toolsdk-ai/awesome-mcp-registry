@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "ETF Flow MCP"
+  "name": "ETF Flow MCP",
+  "stars": 4
 }

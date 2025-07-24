@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "OpenRouter Conversation Manager MCP Server"
+  "name": "OpenRouter Conversation Manager MCP Server",
+  "stars": 1
 }

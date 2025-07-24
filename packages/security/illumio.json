@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Illumio MCP Server"
+  "name": "Illumio MCP Server",
+  "stars": 2
 }

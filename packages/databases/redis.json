@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Redis MCP Server"
+  "name": "Redis MCP Server",
+  "stars": 2
 }

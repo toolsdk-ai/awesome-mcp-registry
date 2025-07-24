@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Reader MCP Server"
+  "name": "Reader MCP Server",
+  "stars": 9
 }

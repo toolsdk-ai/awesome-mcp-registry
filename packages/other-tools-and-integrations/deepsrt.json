@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Deepsrt MCP"
+  "name": "Deepsrt MCP",
+  "stars": 44
 }

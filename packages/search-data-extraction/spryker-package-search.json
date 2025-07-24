@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Spryker Package Search MCP"
+  "name": "Spryker Package Search MCP",
+  "stars": 2
 }

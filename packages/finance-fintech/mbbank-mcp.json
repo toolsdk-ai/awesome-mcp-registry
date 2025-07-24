@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MBBank MCP"
+  "name": "MBBank MCP",
+  "stars": 8
 }

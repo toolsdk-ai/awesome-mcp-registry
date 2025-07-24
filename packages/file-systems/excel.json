@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Excel MCP"
+  "name": "Excel MCP",
+  "stars": 5
 }

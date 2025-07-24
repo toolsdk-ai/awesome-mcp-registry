@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "RagChatbot MCP Server"
+  "name": "RagChatbot MCP Server",
+  "stars": 5
 }

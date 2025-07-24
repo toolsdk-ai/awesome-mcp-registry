@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "SVG Converter MCP"
+  "name": "SVG Converter MCP",
+  "stars": 2
 }

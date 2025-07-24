@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Pipedream MCP Server"
+  "name": "Pipedream MCP Server",
+  "stars": 10239
 }

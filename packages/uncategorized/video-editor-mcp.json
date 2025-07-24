@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Video Editing MCP"
+  "name": "Video Editing MCP",
+  "stars": 184
 }

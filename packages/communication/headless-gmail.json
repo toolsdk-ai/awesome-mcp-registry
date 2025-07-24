@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Headless Gmail MCP"
+  "name": "Headless Gmail MCP",
+  "stars": 46
 }

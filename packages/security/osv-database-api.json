@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "OSV MCP"
+  "name": "OSV MCP",
+  "stars": 2
 }

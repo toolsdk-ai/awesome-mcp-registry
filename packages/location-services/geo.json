@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Geo MCP"
+  "name": "Geo MCP",
+  "stars": 22
 }

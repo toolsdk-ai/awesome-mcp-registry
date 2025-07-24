@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Dify Retriever MCP"
+  "name": "Dify Retriever MCP",
+  "stars": 10
 }

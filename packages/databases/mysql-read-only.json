@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MySQL Read-Only MCP Server"
+  "name": "MySQL Read-Only MCP Server",
+  "stars": 1
 }

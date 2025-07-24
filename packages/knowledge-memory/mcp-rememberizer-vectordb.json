@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Rememberizer Vector Store MCP"
+  "name": "Rememberizer Vector Store MCP",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Binance Bitcoin Market Data MCP"
+  "name": "Binance Bitcoin Market Data MCP",
+  "stars": 1
 }

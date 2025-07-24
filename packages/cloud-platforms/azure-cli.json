@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "mit",
   "env": {},
-  "name": "Azure CLI MCP"
+  "name": "Azure CLI MCP",
+  "stars": 73
 }

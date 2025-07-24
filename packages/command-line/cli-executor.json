@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCPExec"
+  "name": "MCPExec",
+  "stars": 0
 }

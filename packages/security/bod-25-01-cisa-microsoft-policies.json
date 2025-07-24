@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Automated BOD 25-01 CISA Microsoft Policies MCP"
+  "name": "Automated BOD 25-01 CISA Microsoft Policies MCP",
+  "stars": 2
 }

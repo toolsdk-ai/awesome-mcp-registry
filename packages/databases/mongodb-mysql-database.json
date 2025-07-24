@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MongoDB MySQL MCP Server"
+  "name": "MongoDB MySQL MCP Server",
+  "stars": 6
 }

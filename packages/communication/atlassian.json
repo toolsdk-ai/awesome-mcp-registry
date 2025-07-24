@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Atlassian Cursor MCP"
+  "name": "Atlassian Cursor MCP",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "TigerBeetle MCP"
+  "name": "TigerBeetle MCP",
+  "stars": 0
 }

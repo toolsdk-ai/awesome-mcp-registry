@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Neo4j MCP"
+  "name": "Neo4j MCP",
+  "stars": 2
 }

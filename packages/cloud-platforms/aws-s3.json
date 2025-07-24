@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "AWS S3 MCP"
+  "name": "AWS S3 MCP",
+  "stars": 2
 }

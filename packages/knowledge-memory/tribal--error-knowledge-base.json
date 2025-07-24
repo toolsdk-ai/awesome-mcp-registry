@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Tribal MCP Server"
+  "name": "Tribal MCP Server",
+  "stars": 4
 }

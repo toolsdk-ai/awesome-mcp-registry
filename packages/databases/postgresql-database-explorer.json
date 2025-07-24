@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "QueryCraft MCP"
+  "name": "QueryCraft MCP",
+  "stars": 1
 }

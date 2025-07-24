@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Keyfactor Command MCP"
+  "name": "Keyfactor Command MCP",
+  "stars": 4
 }

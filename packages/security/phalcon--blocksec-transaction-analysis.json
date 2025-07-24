@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Phalcon MCP"
+  "name": "Phalcon MCP",
+  "stars": 6
 }

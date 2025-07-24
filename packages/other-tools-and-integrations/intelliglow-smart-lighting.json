@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "IntelliGlow AI Voice MCP IoT Platform"
+  "name": "IntelliGlow AI Voice MCP IoT Platform",
+  "stars": 1
 }

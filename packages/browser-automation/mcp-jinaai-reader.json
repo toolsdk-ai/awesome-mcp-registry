@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "JinaAI Reader MCP"
+  "name": "JinaAI Reader MCP",
+  "stars": 30
 }

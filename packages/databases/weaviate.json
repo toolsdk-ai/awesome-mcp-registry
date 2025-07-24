@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Weaviate MCP Server"
+  "name": "Weaviate MCP Server",
+  "stars": 137
 }

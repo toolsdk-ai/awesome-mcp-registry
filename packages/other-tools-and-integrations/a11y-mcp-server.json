@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "A11y MCP Server"
+  "name": "A11y MCP Server",
+  "stars": 19
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "GraphQL AF Graph"
+  "name": "GraphQL AF Graph",
+  "stars": 0
 }

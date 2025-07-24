@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MRP Calculation"
+  "name": "MRP Calculation",
+  "stars": 0
 }

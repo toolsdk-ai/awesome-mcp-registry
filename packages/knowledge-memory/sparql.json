@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "MCP RDF Server"
+  "name": "MCP RDF Server",
+  "stars": 2
 }

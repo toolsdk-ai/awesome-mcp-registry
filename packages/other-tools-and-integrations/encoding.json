@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Encoding DevOps"
+  "name": "Encoding DevOps",
+  "stars": 1
 }

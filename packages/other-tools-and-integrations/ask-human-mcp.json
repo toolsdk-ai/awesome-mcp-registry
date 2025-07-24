@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Ask Human MCP"
+  "name": "Ask Human MCP",
+  "stars": 145
 }

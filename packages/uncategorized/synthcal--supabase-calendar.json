@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Synth Scheduler MCP"
+  "name": "Synth Scheduler MCP",
+  "stars": 1
 }

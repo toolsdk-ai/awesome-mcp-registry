@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "mit",
   "env": {},
-  "name": "Jcrawl4ai MCP Server"
+  "name": "Jcrawl4ai MCP Server",
+  "stars": 2
 }

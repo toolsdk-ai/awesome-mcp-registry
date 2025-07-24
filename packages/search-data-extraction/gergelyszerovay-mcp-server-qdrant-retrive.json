@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Qdrant MCP Server"
+  "name": "Qdrant MCP Server",
+  "stars": 0
 }

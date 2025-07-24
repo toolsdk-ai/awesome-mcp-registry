@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Think Tool"
+  "name": "MCP Think Tool",
+  "stars": 121
 }

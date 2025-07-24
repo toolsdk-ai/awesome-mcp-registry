@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "DingTalk MCP V2"
+  "name": "DingTalk MCP V2",
+  "stars": 4
 }

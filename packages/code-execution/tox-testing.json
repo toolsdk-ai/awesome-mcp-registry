@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Tox Testing"
+  "name": "Tox Testing",
+  "stars": 5
 }

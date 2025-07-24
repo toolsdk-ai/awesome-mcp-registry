@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Flowise"
+  "name": "MCP Flowise",
+  "stars": 40
 }

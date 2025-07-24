@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Outscraper MCP"
+  "name": "Outscraper MCP",
+  "stars": 1
 }

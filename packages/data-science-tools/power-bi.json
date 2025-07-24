@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Power BI MCP"
+  "name": "Power BI MCP",
+  "stars": 30
 }

@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "HAL MCP"
+  "name": "HAL MCP",
+  "stars": 30
 }

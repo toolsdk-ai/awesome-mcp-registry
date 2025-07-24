@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Qiniu MCP Server"
+  "name": "Qiniu MCP Server",
+  "stars": 21
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mpl-2.0",
   "env": {},
-  "name": "Datetime MCP"
+  "name": "Datetime MCP",
+  "stars": 2
 }

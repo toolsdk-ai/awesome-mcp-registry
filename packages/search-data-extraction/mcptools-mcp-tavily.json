@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Tavily MCP"
+  "name": "Tavily MCP",
+  "stars": 6
 }

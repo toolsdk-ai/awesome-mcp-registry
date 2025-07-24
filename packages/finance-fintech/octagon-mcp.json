@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Octagon MCP Server"
+  "name": "Octagon MCP Server",
+  "stars": 55
 }

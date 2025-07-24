@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Argus MCP"
+  "name": "Argus MCP",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "XTQuant AI"
+  "name": "XTQuant AI",
+  "stars": 81
 }

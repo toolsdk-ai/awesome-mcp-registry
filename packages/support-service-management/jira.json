@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP JIRA"
+  "name": "MCP JIRA",
+  "stars": 6
 }

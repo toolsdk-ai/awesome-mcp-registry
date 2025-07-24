@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Timsonner MCP VSCode Template"
+  "name": "Timsonner MCP VSCode Template",
+  "stars": 7
 }

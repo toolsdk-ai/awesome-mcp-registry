@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Contentstack MCP"
+  "name": "Contentstack MCP",
+  "stars": 3
 }

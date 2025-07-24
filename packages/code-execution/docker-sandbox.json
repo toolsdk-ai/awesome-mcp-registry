@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Docker Sandbox MCP"
+  "name": "Docker Sandbox MCP",
+  "stars": 10
 }

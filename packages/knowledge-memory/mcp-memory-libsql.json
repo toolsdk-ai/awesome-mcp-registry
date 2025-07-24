@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "MCP Memory LibSQL"
+  "name": "MCP Memory LibSQL",
+  "stars": 63
 }

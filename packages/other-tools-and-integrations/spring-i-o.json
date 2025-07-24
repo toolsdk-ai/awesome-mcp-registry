@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Spring I/O MCP"
+  "name": "Spring I/O MCP",
+  "stars": 10
 }

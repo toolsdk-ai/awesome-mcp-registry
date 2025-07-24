@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Asana MCP Server"
+  "name": "Asana MCP Server",
+  "stars": 90
 }

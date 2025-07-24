@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PowerShell Exec MCP"
+  "name": "PowerShell Exec MCP",
+  "stars": 45
 }

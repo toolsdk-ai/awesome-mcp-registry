@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Hyperbolic MCP"
+  "name": "Hyperbolic MCP",
+  "stars": 13
 }

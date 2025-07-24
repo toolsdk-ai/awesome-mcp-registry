@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "UseScraper MCP Server"
+  "name": "UseScraper MCP Server",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "VegaLite MCP Server"
+  "name": "VegaLite MCP Server",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Prolog MCP"
+  "name": "Prolog MCP",
+  "stars": 19
 }

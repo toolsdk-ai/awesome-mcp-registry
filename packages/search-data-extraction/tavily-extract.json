@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Tavily Extract"
+  "name": "Tavily Extract",
+  "stars": 0
 }

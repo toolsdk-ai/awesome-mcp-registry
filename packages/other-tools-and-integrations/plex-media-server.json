@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Plex MCP Server"
+  "name": "Plex MCP Server",
+  "stars": 22
 }

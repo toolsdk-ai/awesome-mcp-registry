@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Things FastMCP"
+  "name": "Things FastMCP",
+  "stars": 26
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Task Manager MCP"
+  "name": "Task Manager MCP",
+  "stars": 1
 }

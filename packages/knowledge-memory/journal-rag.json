@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Journal RAG MCP"
+  "name": "Journal RAG MCP",
+  "stars": 7
 }

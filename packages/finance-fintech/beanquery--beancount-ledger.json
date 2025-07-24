@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "BeanQuery MCP"
+  "name": "BeanQuery MCP",
+  "stars": 24
 }

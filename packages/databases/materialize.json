@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Materialize MCP"
+  "name": "Materialize MCP",
+  "stars": 0
 }

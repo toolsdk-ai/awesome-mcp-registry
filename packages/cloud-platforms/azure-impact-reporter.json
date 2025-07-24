@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Azure Impact Reporter MCP Server"
+  "name": "Azure Impact Reporter MCP Server",
+  "stars": 2
 }

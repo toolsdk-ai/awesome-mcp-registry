@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Veri5ight"
+  "name": "Veri5ight",
+  "stars": 1
 }

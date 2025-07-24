@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Claude Post"
+  "name": "Claude Post",
+  "stars": 90
 }

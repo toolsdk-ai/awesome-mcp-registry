@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server Code Assist"
+  "name": "MCP Server Code Assist",
+  "stars": 1
 }

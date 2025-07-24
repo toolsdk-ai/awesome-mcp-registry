@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Mcpdocsearch"
+  "name": "Mcpdocsearch",
+  "stars": 21
 }

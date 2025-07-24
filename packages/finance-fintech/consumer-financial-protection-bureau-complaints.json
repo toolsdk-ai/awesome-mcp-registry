@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Consumer Complaint Database MCP"
+  "name": "Consumer Complaint Database MCP",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "monday.com MCP"
+  "name": "monday.com MCP",
+  "stars": 290
 }

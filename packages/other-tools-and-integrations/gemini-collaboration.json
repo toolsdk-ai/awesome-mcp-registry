@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Claude Code Gemini MCP"
+  "name": "Claude Code Gemini MCP",
+  "stars": 204
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Eclass MCP Server"
+  "name": "Eclass MCP Server",
+  "stars": 5
 }

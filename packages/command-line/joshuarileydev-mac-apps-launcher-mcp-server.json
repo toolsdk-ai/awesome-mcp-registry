@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Mac Apps Launcher MCP Server"
+  "name": "Mac Apps Launcher MCP Server",
+  "stars": 14
 }

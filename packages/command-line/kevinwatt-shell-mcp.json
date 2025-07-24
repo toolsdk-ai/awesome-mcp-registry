@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Shell MCP"
+  "name": "Shell MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "InfluxDB MCP"
+  "name": "InfluxDB MCP",
+  "stars": 3
 }

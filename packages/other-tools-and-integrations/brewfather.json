@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Brewfather MCP"
+  "name": "Brewfather MCP",
+  "stars": 1
 }

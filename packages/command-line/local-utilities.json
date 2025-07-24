@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Local Utils MCP Server"
+  "name": "Local Utils MCP Server",
+  "stars": 2
 }

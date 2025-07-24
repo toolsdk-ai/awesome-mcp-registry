@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Brightsy MCP"
+  "name": "Brightsy MCP",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Baidu MCP Server"
+  "name": "Baidu MCP Server",
+  "stars": 9
 }

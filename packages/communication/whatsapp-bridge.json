@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "WhatsApp MCP"
+  "name": "WhatsApp MCP",
+  "stars": 4530
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Gotify MCP"
+  "name": "Gotify MCP",
+  "stars": 3
 }

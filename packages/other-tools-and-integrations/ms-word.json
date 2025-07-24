@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server Office"
+  "name": "MCP Server Office",
+  "stars": 20
 }

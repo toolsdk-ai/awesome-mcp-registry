@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "PatSnap MCP"
+  "name": "PatSnap MCP",
+  "stars": 3
 }

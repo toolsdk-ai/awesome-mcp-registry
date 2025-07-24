@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Alibaba Cloud Lindorm MCP Server"
+  "name": "Alibaba Cloud Lindorm MCP Server",
+  "stars": 3
 }

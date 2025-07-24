@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Nomad MCP"
+  "name": "Nomad MCP",
+  "stars": 34
 }

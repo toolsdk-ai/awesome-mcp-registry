@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "ITSM Integration MCP"
+  "name": "ITSM Integration MCP",
+  "stars": 1
 }

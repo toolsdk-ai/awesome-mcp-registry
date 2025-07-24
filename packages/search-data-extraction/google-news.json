@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Google News MCP Server"
+  "name": "Google News MCP Server",
+  "stars": 68
 }

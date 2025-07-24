@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "NPM Sentinel MCP"
+  "name": "NPM Sentinel MCP",
+  "stars": 4
 }

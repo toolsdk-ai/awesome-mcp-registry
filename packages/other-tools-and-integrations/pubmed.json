@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PubMed MCP Server"
+  "name": "PubMed MCP Server",
+  "stars": 43
 }

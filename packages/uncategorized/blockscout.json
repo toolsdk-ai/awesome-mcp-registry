@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Blockscout MCP Server"
+  "name": "Blockscout MCP Server",
+  "stars": 10
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "G Search MCP"
+  "name": "G Search MCP",
+  "stars": 180
 }

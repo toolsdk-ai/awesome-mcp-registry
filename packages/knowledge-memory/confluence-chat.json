@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Confluence Chat MCP Service"
+  "name": "Confluence Chat MCP Service",
+  "stars": 0
 }

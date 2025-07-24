@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Cort MCP"
+  "name": "Cort MCP",
+  "stars": 6
 }

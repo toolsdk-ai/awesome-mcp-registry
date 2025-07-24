@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Stripe MCP"
+  "name": "Stripe MCP",
+  "stars": 37
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "LinkedIn MCP"
+  "name": "LinkedIn MCP",
+  "stars": 17
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "QR Code MCP"
+  "name": "QR Code MCP",
+  "stars": 5
 }

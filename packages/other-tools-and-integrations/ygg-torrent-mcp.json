@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "YggTorrent MCP"
+  "name": "YggTorrent MCP",
+  "stars": 11
 }

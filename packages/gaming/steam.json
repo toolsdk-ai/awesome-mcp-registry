@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Steam MCP"
+  "name": "Steam MCP",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "CSV MCP Server"
+  "name": "CSV MCP Server",
+  "stars": 1
 }

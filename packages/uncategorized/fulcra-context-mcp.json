@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Fulcra Context MCP"
+  "name": "Fulcra Context MCP",
+  "stars": 1
 }

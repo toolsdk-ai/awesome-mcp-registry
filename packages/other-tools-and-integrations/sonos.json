@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Sonos MCP Server"
+  "name": "Sonos MCP Server",
+  "stars": 3
 }

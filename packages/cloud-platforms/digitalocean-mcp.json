@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "DigitalOcean MCP"
+  "name": "DigitalOcean MCP",
+  "stars": 64
 }

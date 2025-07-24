@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Python MCP UUID"
+  "name": "Python MCP UUID",
+  "stars": 2
 }

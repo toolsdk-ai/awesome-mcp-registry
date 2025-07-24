@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "AlphaVantage Trader MCP"
+  "name": "AlphaVantage Trader MCP",
+  "stars": 2
 }

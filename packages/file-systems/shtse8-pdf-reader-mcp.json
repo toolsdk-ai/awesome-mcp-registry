@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "PDF Reader MCP"
+  "name": "PDF Reader MCP",
+  "stars": 180
 }

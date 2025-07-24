@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Cmd Line MCP"
+  "name": "Cmd Line MCP",
+  "stars": 4
 }

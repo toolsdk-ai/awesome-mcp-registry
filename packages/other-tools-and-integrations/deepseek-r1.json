@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Deepseek R1 MCP Server"
+  "name": "Deepseek R1 MCP Server",
+  "stars": 64
 }

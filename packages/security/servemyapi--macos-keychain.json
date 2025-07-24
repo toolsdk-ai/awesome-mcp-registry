@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "ServeMyAPI macOS Keychain"
+  "name": "ServeMyAPI macOS Keychain",
+  "stars": 18
 }

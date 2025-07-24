@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Chat Roulette MCP"
+  "name": "Chat Roulette MCP",
+  "stars": 4
 }

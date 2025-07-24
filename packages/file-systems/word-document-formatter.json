@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Word MCP Server"
+  "name": "Word MCP Server",
+  "stars": 1
 }

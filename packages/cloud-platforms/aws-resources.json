@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server AWS Resources Python"
+  "name": "MCP Server AWS Resources Python",
+  "stars": 17
 }

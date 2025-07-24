@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Anki Connect MCP"
+  "name": "Anki Connect MCP",
+  "stars": 10
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "Consciousness Bridge MCP Server"
+  "name": "Consciousness Bridge MCP Server",
+  "stars": 8
 }

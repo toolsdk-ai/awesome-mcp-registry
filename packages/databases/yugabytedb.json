@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "YugabyteDB MCP Server"
+  "name": "YugabyteDB MCP Server",
+  "stars": 3
 }

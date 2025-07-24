@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Puzzlebox"
+  "name": "Puzzlebox",
+  "stars": 17
 }

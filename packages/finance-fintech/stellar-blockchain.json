@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Stellar MCP Server"
+  "name": "Stellar MCP Server",
+  "stars": 3
 }

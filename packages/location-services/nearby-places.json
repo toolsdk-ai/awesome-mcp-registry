@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Nearby Search MCP"
+  "name": "Nearby Search MCP",
+  "stars": 12
 }

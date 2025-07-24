@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Jadx MCP Plugin"
+  "name": "Jadx MCP Plugin",
+  "stars": 69
 }

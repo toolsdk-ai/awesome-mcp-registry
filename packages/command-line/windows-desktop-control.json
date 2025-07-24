@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Windows MCP"
+  "name": "Windows MCP",
+  "stars": 409
 }

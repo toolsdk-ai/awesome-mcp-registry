@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Slack MCP Server"
+  "name": "Slack MCP Server",
+  "stars": 352
 }

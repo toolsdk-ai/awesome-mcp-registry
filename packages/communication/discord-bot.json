@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Discord MCP Server"
+  "name": "Discord MCP Server",
+  "stars": 1
 }

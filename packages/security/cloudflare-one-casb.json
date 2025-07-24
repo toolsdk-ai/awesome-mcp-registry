@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Cloudflare One CASB"
+  "name": "Cloudflare One CASB",
+  "stars": 2763
 }

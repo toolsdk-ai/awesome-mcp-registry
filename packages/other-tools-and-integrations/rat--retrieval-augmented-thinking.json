@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "DeepSeek Thinking Claude 3.5 Sonnet Cline MCP"
+  "name": "DeepSeek Thinking Claude 3.5 Sonnet Cline MCP",
+  "stars": 107
 }

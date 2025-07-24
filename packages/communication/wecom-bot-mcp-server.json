@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "WeCom Bot MCP Server"
+  "name": "WeCom Bot MCP Server",
+  "stars": 49
 }

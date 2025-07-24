@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Gmail and Google Calendar MCP Server"
+  "name": "Gmail and Google Calendar MCP Server",
+  "stars": 1
 }

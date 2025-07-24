@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "BloodHound MCP"
+  "name": "BloodHound MCP",
+  "stars": 152
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "SMCP Proxy OIDC"
+  "name": "SMCP Proxy OIDC",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "MIT",
   "env": {},
-  "name": "AWS Knowledge Base Retrieval Server for MCP"
+  "name": "AWS Knowledge Base Retrieval Server for MCP",
+  "stars": 61203
 }

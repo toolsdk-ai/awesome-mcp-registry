@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Bedrock KB Retrieval MCP Server"
+  "name": "Bedrock KB Retrieval MCP Server",
+  "stars": 4942
 }

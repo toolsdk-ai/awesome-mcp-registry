@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Finance Tools MCP"
+  "name": "Finance Tools MCP",
+  "stars": 40
 }

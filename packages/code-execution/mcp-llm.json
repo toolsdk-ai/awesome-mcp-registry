@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "MCP LLM"
+  "name": "MCP LLM",
+  "stars": 57
 }

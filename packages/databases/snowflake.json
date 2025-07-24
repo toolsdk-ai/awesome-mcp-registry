@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Snowflake MCP"
+  "name": "Snowflake MCP",
+  "stars": 0
 }

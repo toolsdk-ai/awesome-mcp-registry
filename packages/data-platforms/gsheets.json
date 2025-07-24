@@ -16,5 +16,6 @@
       "description": "/absolute/path/to/service-account-key.json",
       "required": true
     }
-  }
+  },
+  "stars": 15
 }

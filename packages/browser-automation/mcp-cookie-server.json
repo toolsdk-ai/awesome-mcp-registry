@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Cookiejar MCP Server"
+  "name": "Cookiejar MCP Server",
+  "stars": 1
 }

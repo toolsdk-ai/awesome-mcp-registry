@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Expr Lang MCP"
+  "name": "Expr Lang MCP",
+  "stars": 1
 }

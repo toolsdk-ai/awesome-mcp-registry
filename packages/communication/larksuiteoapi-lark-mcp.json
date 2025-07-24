@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Lark MCP"
+  "name": "Lark MCP",
+  "stars": 162
 }

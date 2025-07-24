@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MCP Geo"
+  "name": "MCP Geo",
+  "stars": 20
 }

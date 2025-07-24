@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Expose MCP Server"
+  "name": "Expose MCP Server",
+  "stars": 16
 }

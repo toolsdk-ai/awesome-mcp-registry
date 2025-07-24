@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Optimized Memory MCP Server"
+  "name": "Optimized Memory MCP Server",
+  "stars": 6
 }

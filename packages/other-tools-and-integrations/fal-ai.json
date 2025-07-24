@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Fal MCP Bridge"
+  "name": "Fal MCP Bridge",
+  "stars": 48
 }

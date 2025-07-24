@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Dida MCP Server"
+  "name": "Dida MCP Server",
+  "stars": 0
 }

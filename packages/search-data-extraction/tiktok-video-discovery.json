@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "TikTok MCP"
+  "name": "TikTok MCP",
+  "stars": 45
 }

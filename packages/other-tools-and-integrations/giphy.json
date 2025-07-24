@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "GIPHY MCP Server"
+  "name": "GIPHY MCP Server",
+  "stars": 333
 }

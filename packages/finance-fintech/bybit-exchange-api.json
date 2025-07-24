@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Bybit MCP Server"
+  "name": "Bybit MCP Server",
+  "stars": 6
 }

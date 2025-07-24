@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Shouting MCP Slack"
+  "name": "Shouting MCP Slack",
+  "stars": 1
 }

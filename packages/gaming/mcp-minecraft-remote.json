@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Minecraft Remote"
+  "name": "MCP Minecraft Remote",
+  "stars": 8
 }

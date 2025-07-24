@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "Three.js MCP"
+  "name": "Three.js MCP",
+  "stars": 12
 }

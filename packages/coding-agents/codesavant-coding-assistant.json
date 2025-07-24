@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CodeSavant MCP"
+  "name": "CodeSavant MCP",
+  "stars": 9
 }

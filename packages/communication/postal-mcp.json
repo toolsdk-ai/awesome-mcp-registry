@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Postal MCP"
+  "name": "Postal MCP",
+  "stars": 4
 }

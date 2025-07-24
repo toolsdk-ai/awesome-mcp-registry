@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "YouTube MCP"
+  "name": "YouTube MCP",
+  "stars": 11
 }

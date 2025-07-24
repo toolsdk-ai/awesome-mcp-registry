@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "OpenDota MCP Server"
+  "name": "OpenDota MCP Server",
+  "stars": 4
 }

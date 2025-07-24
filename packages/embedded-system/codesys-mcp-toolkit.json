@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "CODESYS MCP Toolkit"
+  "name": "CODESYS MCP Toolkit",
+  "stars": 4
 }

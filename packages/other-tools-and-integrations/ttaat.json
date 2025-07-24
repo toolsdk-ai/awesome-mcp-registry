@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Two Truths and a Twist"
+  "name": "Two Truths and a Twist",
+  "stars": 5
 }

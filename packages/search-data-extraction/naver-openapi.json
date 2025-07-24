@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Py MCP Naver"
+  "name": "Py MCP Naver",
+  "stars": 108
 }

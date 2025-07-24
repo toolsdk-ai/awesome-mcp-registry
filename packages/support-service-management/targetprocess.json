@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Apptio Target Process MCP"
+  "name": "Apptio Target Process MCP",
+  "stars": 5
 }

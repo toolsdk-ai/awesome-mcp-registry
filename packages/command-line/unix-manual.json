@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Unix Manual MCP"
+  "name": "Unix Manual MCP",
+  "stars": 1
 }

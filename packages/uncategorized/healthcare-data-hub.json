@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Healthcare MCP Public"
+  "name": "Healthcare MCP Public",
+  "stars": 16
 }

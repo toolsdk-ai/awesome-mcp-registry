@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Remote Mac Control via VNC"
+  "name": "Remote Mac Control via VNC",
+  "stars": 277
 }

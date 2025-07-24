@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Eino MCP"
+  "name": "Eino MCP",
+  "stars": 3
 }

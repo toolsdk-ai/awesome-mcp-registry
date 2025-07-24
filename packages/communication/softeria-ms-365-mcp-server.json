@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MS 365 MCP Server"
+  "name": "MS 365 MCP Server",
+  "stars": 172
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "TrueNAS Core MCP"
+  "name": "TrueNAS Core MCP",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "DomainTools MCP"
+  "name": "DomainTools MCP",
+  "stars": 5
 }

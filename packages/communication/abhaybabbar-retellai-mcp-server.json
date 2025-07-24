@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "RetellAI MCP Server"
+  "name": "RetellAI MCP Server",
+  "stars": 11
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Open Deep Research MCP Server"
+  "name": "Open Deep Research MCP Server",
+  "stars": 333
 }

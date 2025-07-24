@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "IDA MCP Server"
+  "name": "IDA MCP Server",
+  "stars": 462
 }

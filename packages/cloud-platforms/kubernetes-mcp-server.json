@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "Apache-2.0",
   "env": {},
-  "name": "Kubernetes MCP Server"
+  "name": "Kubernetes MCP Server",
+  "stars": 399
 }

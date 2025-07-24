@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hypr MCP"
+  "name": "Hypr MCP",
+  "stars": 9
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Findata MCP Server"
+  "name": "Findata MCP Server",
+  "stars": 7
 }

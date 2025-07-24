@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "iFlytek Workflow MCP Server"
+  "name": "iFlytek Workflow MCP Server",
+  "stars": 25
 }

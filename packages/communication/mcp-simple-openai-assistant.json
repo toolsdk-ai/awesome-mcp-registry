@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Simple OpenAI Assistant MCP"
+  "name": "Simple OpenAI Assistant MCP",
+  "stars": 33
 }

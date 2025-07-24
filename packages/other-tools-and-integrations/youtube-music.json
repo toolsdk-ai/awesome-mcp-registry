@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "YouTube Music MCP Server"
+  "name": "YouTube Music MCP Server",
+  "stars": 11
 }

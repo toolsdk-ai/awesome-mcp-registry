@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "ZBD MCP Server"
+  "name": "ZBD MCP Server",
+  "stars": 3
 }

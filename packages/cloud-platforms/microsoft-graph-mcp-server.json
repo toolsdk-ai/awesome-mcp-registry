@@ -75,5 +75,6 @@
       "required": true
     }
   },
-  "name": "Microsoft Graph MCP Server"
+  "name": "Microsoft Graph MCP Server",
+  "stars": 1
 }

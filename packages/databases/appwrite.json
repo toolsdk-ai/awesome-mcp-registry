@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Appwrite MCP"
+  "name": "Appwrite MCP",
+  "stars": 46
 }

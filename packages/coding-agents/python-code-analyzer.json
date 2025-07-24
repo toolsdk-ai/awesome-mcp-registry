@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Python Code Analyzer MCP"
+  "name": "Python Code Analyzer MCP",
+  "stars": 13
 }

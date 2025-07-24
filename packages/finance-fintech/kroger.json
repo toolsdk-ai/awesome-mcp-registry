@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Kroger MCP"
+  "name": "Kroger MCP",
+  "stars": 1
 }

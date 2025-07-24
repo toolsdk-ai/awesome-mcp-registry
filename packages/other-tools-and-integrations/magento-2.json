@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Magento 2 MCP"
+  "name": "Magento 2 MCP",
+  "stars": 31
 }

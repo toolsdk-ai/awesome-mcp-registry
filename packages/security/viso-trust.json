@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "mit",
   "env": {},
-  "name": "Viso MCP Server"
+  "name": "Viso MCP Server",
+  "stars": 5
 }

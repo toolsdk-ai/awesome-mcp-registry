@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Investment Portfolio MCP"
+  "name": "Investment Portfolio MCP",
+  "stars": 3
 }

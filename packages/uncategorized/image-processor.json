@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Image Processing MCP"
+  "name": "Image Processing MCP",
+  "stars": 6
 }

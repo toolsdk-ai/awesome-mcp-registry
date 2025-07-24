@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PayPal Account Updater Subscription Connector"
+  "name": "PayPal Account Updater Subscription Connector",
+  "stars": 0
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Lightning Tools MCP Server"
+  "name": "Lightning Tools MCP Server",
+  "stars": 1
 }

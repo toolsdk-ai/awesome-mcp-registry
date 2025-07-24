@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Memory Server"
+  "name": "MCP Memory Server",
+  "stars": 0
 }

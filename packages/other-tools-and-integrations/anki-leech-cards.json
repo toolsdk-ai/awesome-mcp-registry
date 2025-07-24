@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Anki MCP Server"
+  "name": "Anki MCP Server",
+  "stars": 0
 }

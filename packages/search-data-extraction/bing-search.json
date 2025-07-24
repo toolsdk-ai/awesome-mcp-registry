@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Bing Search MCP"
+  "name": "Bing Search MCP",
+  "stars": 53
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Geekbot MCP"
+  "name": "Geekbot MCP",
+  "stars": 10
 }

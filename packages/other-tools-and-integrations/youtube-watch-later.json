@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "YouTube Watch Later MCP"
+  "name": "YouTube Watch Later MCP",
+  "stars": 7
 }

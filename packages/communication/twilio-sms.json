@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Twilio MCP Python"
+  "name": "Twilio MCP Python",
+  "stars": 0
 }

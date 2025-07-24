@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Uniswap PoolSpy MCP"
+  "name": "Uniswap PoolSpy MCP",
+  "stars": 5
 }

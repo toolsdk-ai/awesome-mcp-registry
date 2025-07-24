@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Mackerel MCP Server"
+  "name": "Mackerel MCP Server",
+  "stars": 2
 }

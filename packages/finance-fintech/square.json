@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Square MCP"
+  "name": "Square MCP",
+  "stars": 3
 }

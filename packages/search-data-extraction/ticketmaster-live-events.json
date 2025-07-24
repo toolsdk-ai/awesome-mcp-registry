@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Live Events MCP"
+  "name": "Live Events MCP",
+  "stars": 2
 }

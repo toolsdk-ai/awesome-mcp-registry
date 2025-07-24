@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "LLM Jukebox"
+  "name": "LLM Jukebox",
+  "stars": 3
 }

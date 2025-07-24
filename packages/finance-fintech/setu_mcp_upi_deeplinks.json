@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Setu UPI DeepLinks MCP"
+  "name": "Setu UPI DeepLinks MCP",
+  "stars": 2
 }

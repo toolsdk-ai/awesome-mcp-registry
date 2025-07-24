@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Research MCP"
+  "name": "Research MCP",
+  "stars": 1
 }

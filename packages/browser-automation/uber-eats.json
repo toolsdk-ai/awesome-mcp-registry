@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Uber Eats MCP Server"
+  "name": "Uber Eats MCP Server",
+  "stars": 188
 }

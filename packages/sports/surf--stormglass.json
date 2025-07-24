@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Surf MCP"
+  "name": "Surf MCP",
+  "stars": 12
 }

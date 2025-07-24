@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "VirusTotal MCP"
+  "name": "VirusTotal MCP",
+  "stars": 71
 }

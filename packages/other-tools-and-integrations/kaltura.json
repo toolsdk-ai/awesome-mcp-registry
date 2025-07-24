@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Kaltura MCP"
+  "name": "Kaltura MCP",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Yfinance Trader MCP"
+  "name": "Yfinance Trader MCP",
+  "stars": 18
 }

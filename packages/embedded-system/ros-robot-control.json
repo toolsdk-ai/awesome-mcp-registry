@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "ROS MCP Server"
+  "name": "ROS MCP Server",
+  "stars": 143
 }

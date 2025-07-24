@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Crawl4AI MCP Server"
+  "name": "Crawl4AI MCP Server",
+  "stars": 95
 }

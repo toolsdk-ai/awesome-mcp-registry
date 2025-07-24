@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Evolution WhatsApp API MCP"
+  "name": "Evolution WhatsApp API MCP",
+  "stars": 16
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Fred MCP Server"
+  "name": "Fred MCP Server",
+  "stars": 30
 }

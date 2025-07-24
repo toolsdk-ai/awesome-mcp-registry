@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "AEMET MCP"
+  "name": "AEMET MCP",
+  "stars": 2
 }

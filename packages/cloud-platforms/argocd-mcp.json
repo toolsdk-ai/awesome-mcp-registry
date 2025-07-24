@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Argo CD MCP"
+  "name": "Argo CD MCP",
+  "stars": 182
 }

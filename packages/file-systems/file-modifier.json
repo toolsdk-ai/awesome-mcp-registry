@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "File Modifier MCP Server"
+  "name": "File Modifier MCP Server",
+  "stars": 2
 }

@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Resend MCP"
+  "name": "Resend MCP",
+  "stars": 2
 }

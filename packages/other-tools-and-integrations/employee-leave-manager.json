@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Local AI with Ollama Open WebUI MCP on Windows"
+  "name": "Local AI with Ollama Open WebUI MCP on Windows",
+  "stars": 5
 }

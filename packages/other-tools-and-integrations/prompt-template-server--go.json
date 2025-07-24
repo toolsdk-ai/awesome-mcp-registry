@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Prompt MCP Server Go"
+  "name": "Prompt MCP Server Go",
+  "stars": 32
 }

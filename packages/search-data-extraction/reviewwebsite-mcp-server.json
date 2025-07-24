@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "ReviewWebsite MCP Server"
+  "name": "ReviewWebsite MCP Server",
+  "stars": 5
 }

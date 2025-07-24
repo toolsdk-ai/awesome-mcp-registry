@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Unipile MCP"
+  "name": "Unipile MCP",
+  "stars": 11
 }

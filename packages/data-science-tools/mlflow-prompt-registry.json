@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MLflow Prompt Registry MCP Server"
+  "name": "MLflow Prompt Registry MCP Server",
+  "stars": 2
 }

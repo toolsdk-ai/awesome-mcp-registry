@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "apache-2.0",
   "env": {},
-  "name": "MCP Server Spring Java"
+  "name": "MCP Server Spring Java",
+  "stars": 3
 }

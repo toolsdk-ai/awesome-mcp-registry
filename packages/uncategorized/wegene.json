@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "WeGene MCP Assistant"
+  "name": "WeGene MCP Assistant",
+  "stars": 3
 }

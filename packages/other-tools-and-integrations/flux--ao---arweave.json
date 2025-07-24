@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Flux AO & Arweave"
+  "name": "Flux AO & Arweave",
+  "stars": 3
 }

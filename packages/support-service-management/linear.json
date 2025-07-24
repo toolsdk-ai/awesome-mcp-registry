@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Linear MCP"
+  "name": "Linear MCP",
+  "stars": 6
 }

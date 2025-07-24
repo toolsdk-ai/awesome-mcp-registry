@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "apache-2.0",
   "env": {},
-  "name": "Focus SQL MCP"
+  "name": "Focus SQL MCP",
+  "stars": 32
 }

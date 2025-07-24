@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Databricks MCP Server"
+  "name": "Databricks MCP Server",
+  "stars": 17
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Trinity MCP"
+  "name": "Trinity MCP",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Salesforce MCP Server"
+  "name": "Salesforce MCP Server",
+  "stars": 12
 }

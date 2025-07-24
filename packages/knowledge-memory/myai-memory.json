@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MyAI Memory MCP"
+  "name": "MyAI Memory MCP",
+  "stars": 8
 }

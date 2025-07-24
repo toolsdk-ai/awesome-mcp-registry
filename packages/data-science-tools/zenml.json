@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "ZenML MCP"
+  "name": "ZenML MCP",
+  "stars": 23
 }

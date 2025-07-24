@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Dan Vega Courses MCP"
+  "name": "Dan Vega Courses MCP",
+  "stars": 10
 }

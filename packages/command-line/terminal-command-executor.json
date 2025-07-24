@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Terminal MCP IDK"
+  "name": "Terminal MCP IDK",
+  "stars": 2
 }

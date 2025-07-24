@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Scryfall MCP"
+  "name": "Scryfall MCP",
+  "stars": 7
 }

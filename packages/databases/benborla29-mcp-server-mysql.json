@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MySQL MCP Server"
+  "name": "MySQL MCP Server",
+  "stars": 657
 }

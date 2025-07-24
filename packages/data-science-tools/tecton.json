@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Tecton MCP"
+  "name": "Tecton MCP",
+  "stars": 3
 }

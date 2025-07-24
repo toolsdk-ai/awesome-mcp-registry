@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP RAG"
+  "name": "MCP RAG",
+  "stars": 3
 }

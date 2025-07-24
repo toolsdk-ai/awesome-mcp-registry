@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hydra MCP"
+  "name": "Hydra MCP",
+  "stars": 7
 }

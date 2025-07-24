@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Azure MCP"
+  "name": "Azure MCP",
+  "stars": 13
 }

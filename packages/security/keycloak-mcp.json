@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Keycloak MCP"
+  "name": "Keycloak MCP",
+  "stars": 2
 }

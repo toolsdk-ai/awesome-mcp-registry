@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Polymarket MCP"
+  "name": "Polymarket MCP",
+  "stars": 32
 }

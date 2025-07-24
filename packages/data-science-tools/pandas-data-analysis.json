@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Pandas MCP"
+  "name": "Pandas MCP",
+  "stars": 5
 }

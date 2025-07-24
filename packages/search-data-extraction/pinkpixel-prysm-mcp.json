@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Prysm MCP Server"
+  "name": "Prysm MCP Server",
+  "stars": 2
 }

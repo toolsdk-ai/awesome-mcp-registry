@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "biorxiv MCP server"
+  "name": "biorxiv MCP server",
+  "stars": 17
 }

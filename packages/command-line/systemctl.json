@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Systemctl MCP Server"
+  "name": "Systemctl MCP Server",
+  "stars": 0
 }

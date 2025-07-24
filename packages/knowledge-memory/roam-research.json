@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Roam MCP"
+  "name": "Roam MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Meilisearch MCP"
+  "name": "Meilisearch MCP",
+  "stars": 114
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Domain Tools MCP Server"
+  "name": "Domain Tools MCP Server",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Xiaoai MapMCP"
+  "name": "Xiaoai MapMCP",
+  "stars": 6
 }

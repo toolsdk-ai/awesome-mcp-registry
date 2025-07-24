@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PubMed Searcher"
+  "name": "PubMed Searcher",
+  "stars": 61
 }

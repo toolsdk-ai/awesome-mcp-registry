@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "VikingDB MCP Server"
+  "name": "VikingDB MCP Server",
+  "stars": 3
 }

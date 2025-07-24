@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Scan URL MCP Server"
+  "name": "Scan URL MCP Server",
+  "stars": 0
 }

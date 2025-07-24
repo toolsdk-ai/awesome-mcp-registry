@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server Ollama"
+  "name": "MCP Server Ollama",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TimeCamp MCP Server"
+  "name": "TimeCamp MCP Server",
+  "stars": 0
 }

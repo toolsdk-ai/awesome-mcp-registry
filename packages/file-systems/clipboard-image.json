@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Clipboard MCP"
+  "name": "Clipboard MCP",
+  "stars": 2
 }

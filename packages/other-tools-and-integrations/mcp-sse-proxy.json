@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "MCP SSE Proxy"
+  "name": "MCP SSE Proxy",
+  "stars": 4
 }

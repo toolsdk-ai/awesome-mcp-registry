@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Instagram DM MCP"
+  "name": "Instagram DM MCP",
+  "stars": 111
 }

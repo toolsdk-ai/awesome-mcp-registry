@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "AWS Pricing MCP"
+  "name": "AWS Pricing MCP",
+  "stars": 12
 }

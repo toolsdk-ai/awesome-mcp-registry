@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server on RasPi"
+  "name": "MCP Server on RasPi",
+  "stars": 1
 }

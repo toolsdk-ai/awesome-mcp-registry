@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Scientific Paper Analyzer (Gemini) MCP Server"
+  "name": "Scientific Paper Analyzer (Gemini) MCP Server",
+  "stars": 3
 }

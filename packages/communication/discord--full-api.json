@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Discord Raw MCP"
+  "name": "Discord Raw MCP",
+  "stars": 7
 }

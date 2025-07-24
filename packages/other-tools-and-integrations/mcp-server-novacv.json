@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "NovaCV MCP Server"
+  "name": "NovaCV MCP Server",
+  "stars": 3
 }

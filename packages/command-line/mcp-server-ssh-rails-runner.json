@@ -31,5 +31,6 @@
       "required": true
     }
   },
-  "name": "MCP Server SSH Rails Runner"
+  "name": "MCP Server SSH Rails Runner",
+  "stars": 10
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Google Sheets MCP"
+  "name": "Google Sheets MCP",
+  "stars": 292
 }

@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "YouTube Data MCP Server"
+  "name": "YouTube Data MCP Server",
+  "stars": 42
 }

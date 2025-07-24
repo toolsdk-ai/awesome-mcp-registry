@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "OpenAPI Proxy MCP"
+  "name": "OpenAPI Proxy MCP",
+  "stars": 107
 }

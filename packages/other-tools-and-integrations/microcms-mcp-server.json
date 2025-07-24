@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MicroCMS MCP Server"
+  "name": "MicroCMS MCP Server",
+  "stars": 11
 }

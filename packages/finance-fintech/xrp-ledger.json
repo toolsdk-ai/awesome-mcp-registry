@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "XRPL MCP Service"
+  "name": "XRPL MCP Service",
+  "stars": 2
 }

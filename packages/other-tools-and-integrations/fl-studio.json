@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "FL Studio MCP"
+  "name": "FL Studio MCP",
+  "stars": 46
 }

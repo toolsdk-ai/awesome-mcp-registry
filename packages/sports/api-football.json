@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Soccer MCP Server"
+  "name": "Soccer MCP Server",
+  "stars": 3
 }

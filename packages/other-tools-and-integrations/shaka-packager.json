@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Shaka Packager MCP Server"
+  "name": "Shaka Packager MCP Server",
+  "stars": 3
 }

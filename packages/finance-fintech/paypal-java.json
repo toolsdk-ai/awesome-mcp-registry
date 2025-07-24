@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "PayPal Java MCP Server"
+  "name": "PayPal Java MCP Server",
+  "stars": 0
 }

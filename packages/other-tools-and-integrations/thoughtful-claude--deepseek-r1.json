@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Thoughtful Claude"
+  "name": "Thoughtful Claude",
+  "stars": 54
 }

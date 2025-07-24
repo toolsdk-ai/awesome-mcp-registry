@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "isc",
   "env": {},
-  "name": "SwitchBot MCP"
+  "name": "SwitchBot MCP",
+  "stars": 3
 }

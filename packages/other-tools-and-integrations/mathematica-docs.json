@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MMA Docs MCP"
+  "name": "MMA Docs MCP",
+  "stars": 7
 }

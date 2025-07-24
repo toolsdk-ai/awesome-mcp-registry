@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Swagger MCP"
+  "name": "Swagger MCP",
+  "stars": 55
 }

@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "MCP IPFS"
+  "name": "MCP IPFS",
+  "stars": 10
 }

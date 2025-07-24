@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Play Sound MCP Server"
+  "name": "Play Sound MCP Server",
+  "stars": 0
 }

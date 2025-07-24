@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "RSS Markdown Converter"
+  "name": "RSS Markdown Converter",
+  "stars": 0
 }

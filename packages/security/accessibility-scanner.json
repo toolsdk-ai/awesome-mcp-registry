@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Accessibility Scanner MCP"
+  "name": "Accessibility Scanner MCP",
+  "stars": 14
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Meilisearch Hybrid Search MCP"
+  "name": "Meilisearch Hybrid Search MCP",
+  "stars": 11
 }

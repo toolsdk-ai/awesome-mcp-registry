@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Shell MCP"
+  "name": "Shell MCP",
+  "stars": 9
 }

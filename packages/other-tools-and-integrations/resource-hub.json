@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Resource Hub Server"
+  "name": "Resource Hub Server",
+  "stars": 2
 }

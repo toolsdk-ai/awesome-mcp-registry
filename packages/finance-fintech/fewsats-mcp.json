@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Fewsats MCP"
+  "name": "Fewsats MCP",
+  "stars": 17
 }

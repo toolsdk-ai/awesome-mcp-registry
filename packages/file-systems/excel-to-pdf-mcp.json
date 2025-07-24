@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Excel to PDF MCP"
+  "name": "Excel to PDF MCP",
+  "stars": 1
 }

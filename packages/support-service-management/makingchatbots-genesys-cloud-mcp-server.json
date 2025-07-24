@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Genesys Cloud MCP Server"
+  "name": "Genesys Cloud MCP Server",
+  "stars": 6
 }

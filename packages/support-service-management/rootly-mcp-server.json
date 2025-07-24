@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Rootly MCP Server"
+  "name": "Rootly MCP Server",
+  "stars": 28
 }

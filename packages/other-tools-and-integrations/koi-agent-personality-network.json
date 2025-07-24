@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "KOI MCP"
+  "name": "KOI MCP",
+  "stars": 1
 }

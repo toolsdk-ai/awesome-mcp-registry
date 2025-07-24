@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Solana Vault MCP"
+  "name": "Solana Vault MCP",
+  "stars": 6
 }

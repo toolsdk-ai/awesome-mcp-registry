@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "IMDb MCP Server"
+  "name": "IMDb MCP Server",
+  "stars": 3
 }

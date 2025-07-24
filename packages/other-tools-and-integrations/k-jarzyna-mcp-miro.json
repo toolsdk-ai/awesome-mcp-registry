@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Miro MCP"
+  "name": "Miro MCP",
+  "stars": 26
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "nREPL MCP"
+  "name": "nREPL MCP",
+  "stars": 1
 }

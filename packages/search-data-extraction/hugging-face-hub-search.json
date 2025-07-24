@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hub Semantic Search MCP"
+  "name": "Hub Semantic Search MCP",
+  "stars": 16
 }

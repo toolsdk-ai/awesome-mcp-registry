@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Kagi MCP"
+  "name": "Kagi MCP",
+  "stars": 135
 }

@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "X MCP Server"
+  "name": "X MCP Server",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Linear Regression MCP"
+  "name": "Linear Regression MCP",
+  "stars": 11
 }

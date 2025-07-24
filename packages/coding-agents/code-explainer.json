@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Code Explainer MCP"
+  "name": "Code Explainer MCP",
+  "stars": 4
 }

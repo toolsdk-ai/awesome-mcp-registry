@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Crypto MCP"
+  "name": "Crypto MCP",
+  "stars": 1
 }

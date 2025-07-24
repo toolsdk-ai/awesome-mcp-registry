@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "NBA Player Stats MCP"
+  "name": "NBA Player Stats MCP",
+  "stars": 0
 }

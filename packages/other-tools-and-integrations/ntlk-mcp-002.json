@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "NLTK MCP"
+  "name": "NLTK MCP",
+  "stars": 0
 }

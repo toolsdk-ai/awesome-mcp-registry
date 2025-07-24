@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Cost Analysis MCP Server"
+  "name": "Cost Analysis MCP Server",
+  "stars": 4941
 }

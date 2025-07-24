@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Google Workspace MCP"
+  "name": "Google Workspace MCP",
+  "stars": 330
 }

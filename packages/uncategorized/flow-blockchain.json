@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Flow MCP Server"
+  "name": "Flow MCP Server",
+  "stars": 1
 }

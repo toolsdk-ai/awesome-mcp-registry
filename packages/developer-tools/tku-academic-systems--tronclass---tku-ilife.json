@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "TKU Academic Systems MCP"
+  "name": "TKU Academic Systems MCP",
+  "stars": 1
 }

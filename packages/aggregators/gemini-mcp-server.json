@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "Gemini MCP Server"
+  "name": "Gemini MCP Server",
+  "stars": 1
 }

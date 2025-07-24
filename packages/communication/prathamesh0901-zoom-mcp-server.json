@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Zoom MCP Server"
+  "name": "Zoom MCP Server",
+  "stars": 5
 }

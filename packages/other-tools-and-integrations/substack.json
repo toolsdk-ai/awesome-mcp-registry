@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Substack MCP"
+  "name": "Substack MCP",
+  "stars": 6
 }

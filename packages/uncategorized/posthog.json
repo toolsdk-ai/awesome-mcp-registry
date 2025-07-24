@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "PostHog MCP"
+  "name": "PostHog MCP",
+  "stars": 80
 }

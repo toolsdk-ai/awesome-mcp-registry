@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TwoSplit"
+  "name": "TwoSplit",
+  "stars": 0
 }

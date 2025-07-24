@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Claude LM Studio Bridge"
+  "name": "Claude LM Studio Bridge",
+  "stars": 8
 }

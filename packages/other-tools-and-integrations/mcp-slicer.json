@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Slicer"
+  "name": "MCP Slicer",
+  "stars": 14
 }

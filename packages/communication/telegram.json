@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Telegram MCP"
+  "name": "Telegram MCP",
+  "stars": 122
 }

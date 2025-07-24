@@ -6,5 +6,6 @@
   "url": "https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol",
   "runtime": "node",
   "license": "MIT",
-  "env": {}
+  "env": {},
+  "stars": 11
 }

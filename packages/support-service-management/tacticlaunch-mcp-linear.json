@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Linear MCP Bridge"
+  "name": "Linear MCP Bridge",
+  "stars": 94
 }

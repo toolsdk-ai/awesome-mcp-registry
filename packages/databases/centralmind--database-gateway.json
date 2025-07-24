@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "Database Gateway MCP"
+  "name": "Database Gateway MCP",
+  "stars": 431
 }

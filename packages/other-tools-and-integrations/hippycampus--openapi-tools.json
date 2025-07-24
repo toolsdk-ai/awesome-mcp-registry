@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hippy Campus"
+  "name": "Hippy Campus",
+  "stars": 17
 }

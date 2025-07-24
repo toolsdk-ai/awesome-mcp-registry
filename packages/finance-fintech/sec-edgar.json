@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "SEC EDGAR MCP"
+  "name": "SEC EDGAR MCP",
+  "stars": 76
 }

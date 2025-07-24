@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP JavaScript Sandbox"
+  "name": "MCP JavaScript Sandbox",
+  "stars": 4
 }

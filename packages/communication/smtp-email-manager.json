@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "SMTP Email Manager MCP"
+  "name": "SMTP Email Manager MCP",
+  "stars": 4
 }

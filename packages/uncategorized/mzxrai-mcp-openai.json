@@ -12,5 +12,6 @@
       "required": true
     }
   },
-  "name": "MCP OpenAI"
+  "name": "MCP OpenAI",
+  "stars": 54
 }

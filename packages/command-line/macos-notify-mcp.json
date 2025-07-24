@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "macOS Notify MCP"
+  "name": "macOS Notify MCP",
+  "stars": 4
 }

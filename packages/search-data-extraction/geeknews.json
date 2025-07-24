@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "GeekNews MCP Server"
+  "name": "GeekNews MCP Server",
+  "stars": 14
 }

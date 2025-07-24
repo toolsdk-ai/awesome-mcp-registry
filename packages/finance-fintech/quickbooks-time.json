@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "QB Time MCP Server"
+  "name": "QB Time MCP Server",
+  "stars": 6
 }

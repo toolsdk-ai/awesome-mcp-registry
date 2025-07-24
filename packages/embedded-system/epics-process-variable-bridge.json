@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "EPICS MCP Server"
+  "name": "EPICS MCP Server",
+  "stars": 2
 }

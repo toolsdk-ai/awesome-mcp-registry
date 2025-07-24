@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "HWP MCP"
+  "name": "HWP MCP",
+  "stars": 138
 }

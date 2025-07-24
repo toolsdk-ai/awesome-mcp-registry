@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "unknown",
   "env": {},
-  "name": "Stock MCP"
+  "name": "Stock MCP",
+  "stars": 2
 }

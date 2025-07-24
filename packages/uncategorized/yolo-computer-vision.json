@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "YOLO MCP Server"
+  "name": "YOLO MCP Server",
+  "stars": 17
 }

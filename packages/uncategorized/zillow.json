@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Zillow MCP Server"
+  "name": "Zillow MCP Server",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Screeny MCP Server"
+  "name": "Screeny MCP Server",
+  "stars": 2
 }

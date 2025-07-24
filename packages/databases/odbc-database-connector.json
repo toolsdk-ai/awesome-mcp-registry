@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP ODBC"
+  "name": "MCP ODBC",
+  "stars": 1
 }

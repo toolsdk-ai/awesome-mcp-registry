@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Telegram MCP Communicator"
+  "name": "Telegram MCP Communicator",
+  "stars": 37
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Geoapify MCP"
+  "name": "Geoapify MCP",
+  "stars": 3
 }

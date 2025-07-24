@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Box MCP Server"
+  "name": "Box MCP Server",
+  "stars": 7
 }

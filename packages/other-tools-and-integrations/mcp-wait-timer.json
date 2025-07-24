@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Wait Timer MCP"
+  "name": "Wait Timer MCP",
+  "stars": 0
 }

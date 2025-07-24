@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Unichat MCP Server"
+  "name": "Unichat MCP Server",
+  "stars": 11
 }

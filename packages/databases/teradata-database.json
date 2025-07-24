@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Teradata MCP Server"
+  "name": "Teradata MCP Server",
+  "stars": 14
 }

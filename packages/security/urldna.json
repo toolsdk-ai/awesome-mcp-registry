@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "URLDNA MCP"
+  "name": "URLDNA MCP",
+  "stars": 2
 }

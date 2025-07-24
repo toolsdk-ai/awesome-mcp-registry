@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "WebSearch MCP Server"
+  "name": "WebSearch MCP Server",
+  "stars": 12
 }

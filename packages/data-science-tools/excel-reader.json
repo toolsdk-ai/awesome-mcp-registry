@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "MCP Excel Reader Server"
+  "name": "MCP Excel Reader Server",
+  "stars": 5
 }

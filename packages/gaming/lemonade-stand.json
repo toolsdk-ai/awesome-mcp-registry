@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Lemonade Stand MCP Server"
+  "name": "Lemonade Stand MCP Server",
+  "stars": 6
 }

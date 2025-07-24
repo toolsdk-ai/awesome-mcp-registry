@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mpl-2.0",
   "env": {},
-  "name": "Notmuch Sendmail MCP"
+  "name": "Notmuch Sendmail MCP",
+  "stars": 2
 }

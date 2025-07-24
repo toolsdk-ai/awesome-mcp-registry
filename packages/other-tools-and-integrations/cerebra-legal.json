@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Cerebra Legal MCP Server"
+  "name": "Cerebra Legal MCP Server",
+  "stars": 10
 }

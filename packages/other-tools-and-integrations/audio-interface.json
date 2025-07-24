@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Audio MCP Server"
+  "name": "Audio MCP Server",
+  "stars": 3
 }

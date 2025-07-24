@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Creator"
+  "name": "MCP Creator",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit-0",
   "env": {},
-  "name": "Waifu Queue MCP Server"
+  "name": "Waifu Queue MCP Server",
+  "stars": 1
 }

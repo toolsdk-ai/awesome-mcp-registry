@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "XTB MCP Server"
+  "name": "XTB MCP Server",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "N8n Workflow Builder"
+  "name": "N8n Workflow Builder",
+  "stars": 296
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "POX MCP Server"
+  "name": "POX MCP Server",
+  "stars": 1
 }

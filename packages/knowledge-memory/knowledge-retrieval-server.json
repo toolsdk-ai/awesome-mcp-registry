@@ -35,5 +35,6 @@
       "required": true
     }
   },
-  "name": "Keyword RAG MCP"
+  "name": "Keyword RAG MCP",
+  "stars": 1
 }

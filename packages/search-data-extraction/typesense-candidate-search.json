@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Typesense MCP Server"
+  "name": "Typesense MCP Server",
+  "stars": 4
 }

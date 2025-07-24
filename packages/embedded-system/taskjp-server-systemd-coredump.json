@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "systemd coredump MCP"
+  "name": "systemd coredump MCP",
+  "stars": 2
 }

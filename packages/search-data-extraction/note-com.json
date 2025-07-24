@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Note MCP"
+  "name": "Note MCP",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "100ms SPL Token Sniper MCP"
+  "name": "100ms SPL Token Sniper MCP",
+  "stars": 6
 }

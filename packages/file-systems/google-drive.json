@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Google Drive MCP Server"
+  "name": "Google Drive MCP Server",
+  "stars": 5
 }

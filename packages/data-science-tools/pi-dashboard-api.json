@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "PI API MCP Server"
+  "name": "PI API MCP Server",
+  "stars": 4
 }

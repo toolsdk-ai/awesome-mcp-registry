@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "DefectDojo MCP"
+  "name": "DefectDojo MCP",
+  "stars": 4
 }

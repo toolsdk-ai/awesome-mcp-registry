@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MedAdapt Content Server"
+  "name": "MedAdapt Content Server",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server macOS Defaults"
+  "name": "MCP Server macOS Defaults",
+  "stars": 11
 }

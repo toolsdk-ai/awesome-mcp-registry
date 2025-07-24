@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Browse Together MCP"
+  "name": "Browse Together MCP",
+  "stars": 3
 }

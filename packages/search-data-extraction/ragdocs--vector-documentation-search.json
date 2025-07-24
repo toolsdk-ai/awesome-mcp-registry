@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "RagDocs Vector Documentation Search"
+  "name": "RagDocs Vector Documentation Search",
+  "stars": 0
 }

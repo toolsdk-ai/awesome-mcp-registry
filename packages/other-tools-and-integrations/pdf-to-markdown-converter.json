@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PDF2MD MCP"
+  "name": "PDF2MD MCP",
+  "stars": 9
 }

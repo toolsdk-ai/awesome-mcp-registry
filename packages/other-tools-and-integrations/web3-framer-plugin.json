@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Web3 Framer Plugin MCP"
+  "name": "Web3 Framer Plugin MCP",
+  "stars": 20
 }

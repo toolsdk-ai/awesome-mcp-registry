@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server Adfin"
+  "name": "MCP Server Adfin",
+  "stars": 7
 }

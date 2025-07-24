@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server OpenAI"
+  "name": "MCP Server OpenAI",
+  "stars": 2
 }

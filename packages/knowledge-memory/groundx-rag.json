@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "RAG Based MCP"
+  "name": "RAG Based MCP",
+  "stars": 1
 }

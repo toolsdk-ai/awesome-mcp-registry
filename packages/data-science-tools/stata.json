@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Stata MCP"
+  "name": "Stata MCP",
+  "stars": 26
 }

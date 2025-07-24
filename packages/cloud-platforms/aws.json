@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "AWS MCP Bridge"
+  "name": "AWS MCP Bridge",
+  "stars": 280
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MCP Function App Tester"
+  "name": "MCP Function App Tester",
+  "stars": 4
 }

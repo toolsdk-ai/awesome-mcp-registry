@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TailorKit MCP"
+  "name": "TailorKit MCP",
+  "stars": 6
 }

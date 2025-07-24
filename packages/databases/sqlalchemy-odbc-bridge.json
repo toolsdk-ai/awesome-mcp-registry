@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "SQLAlchemy MCP Server"
+  "name": "SQLAlchemy MCP Server",
+  "stars": 14
 }

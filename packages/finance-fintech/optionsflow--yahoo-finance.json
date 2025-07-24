@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "OptionsFlow MCP"
+  "name": "OptionsFlow MCP",
+  "stars": 12
 }

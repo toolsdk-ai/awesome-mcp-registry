@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "LI.FI MCP"
+  "name": "LI.FI MCP",
+  "stars": 3
 }

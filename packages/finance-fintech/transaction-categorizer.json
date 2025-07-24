@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Transaction Categorizer MCP"
+  "name": "Transaction Categorizer MCP",
+  "stars": 0
 }

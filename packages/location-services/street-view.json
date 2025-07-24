@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Street View MCP"
+  "name": "Street View MCP",
+  "stars": 4
 }

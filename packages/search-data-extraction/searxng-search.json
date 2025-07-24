@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "SearxNG Search MCP"
+  "name": "SearxNG Search MCP",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Chain of Draft Prompt Tool MCP"
+  "name": "Chain of Draft Prompt Tool MCP",
+  "stars": 12
 }

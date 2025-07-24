@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Social Media MCP"
+  "name": "Social Media MCP",
+  "stars": 2
 }

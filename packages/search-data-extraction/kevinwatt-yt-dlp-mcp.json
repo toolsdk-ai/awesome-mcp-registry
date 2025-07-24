@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "yt-dlp MCP"
+  "name": "yt-dlp MCP",
+  "stars": 49
 }

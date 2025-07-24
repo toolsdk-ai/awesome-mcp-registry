@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Everything MCP Server"
+  "name": "Everything MCP Server",
+  "stars": 61200
 }

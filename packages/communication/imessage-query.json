@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "iMessage Query FastMCP MCP Server"
+  "name": "iMessage Query FastMCP MCP Server",
+  "stars": 61
 }

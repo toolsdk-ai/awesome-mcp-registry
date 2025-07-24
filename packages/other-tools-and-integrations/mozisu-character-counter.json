@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Mozisu MCP Server"
+  "name": "Mozisu MCP Server",
+  "stars": 4
 }

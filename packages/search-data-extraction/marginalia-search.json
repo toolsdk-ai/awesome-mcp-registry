@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Marginalia MCP Server"
+  "name": "Marginalia MCP Server",
+  "stars": 2
 }

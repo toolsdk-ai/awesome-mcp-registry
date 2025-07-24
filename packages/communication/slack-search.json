@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Slack Search Function MCP"
+  "name": "Slack Search Function MCP",
+  "stars": 4
 }

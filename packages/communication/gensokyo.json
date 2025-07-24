@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Gensokyo MCP"
+  "name": "Gensokyo MCP",
+  "stars": 34
 }

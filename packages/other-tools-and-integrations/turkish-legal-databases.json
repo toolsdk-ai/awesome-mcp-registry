@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Yargi MCP"
+  "name": "Yargi MCP",
+  "stars": 392
 }

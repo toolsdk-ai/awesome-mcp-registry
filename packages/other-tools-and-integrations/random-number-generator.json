@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Wallpaper MCP"
+  "name": "Wallpaper MCP",
+  "stars": 3
 }

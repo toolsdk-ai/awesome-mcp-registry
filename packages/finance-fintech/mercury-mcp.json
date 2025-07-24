@@ -12,5 +12,6 @@
       "description": "YOUR_MERCURY_API_KEY",
       "required": true
     }
-  }
+  },
+  "stars": 2
 }

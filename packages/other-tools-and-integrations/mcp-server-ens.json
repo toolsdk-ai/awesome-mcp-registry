@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "ENS MCP Server"
+  "name": "ENS MCP Server",
+  "stars": 8
 }

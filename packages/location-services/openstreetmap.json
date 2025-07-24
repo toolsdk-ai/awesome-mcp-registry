@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "OSM MCP"
+  "name": "OSM MCP",
+  "stars": 26
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "IP Geolocator MCP"
+  "name": "IP Geolocator MCP",
+  "stars": 1
 }

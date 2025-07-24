@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "CData Connect Cloud MCP Server"
+  "name": "CData Connect Cloud MCP Server",
+  "stars": 0
 }

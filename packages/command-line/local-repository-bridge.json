@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Local Repository Bridge MCP Server"
+  "name": "Local Repository Bridge MCP Server",
+  "stars": 2
 }

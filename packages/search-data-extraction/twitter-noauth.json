@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Twitter NoAuth MCP"
+  "name": "Twitter NoAuth MCP",
+  "stars": 0
 }

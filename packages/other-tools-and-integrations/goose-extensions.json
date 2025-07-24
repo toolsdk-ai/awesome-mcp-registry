@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "gpl-3.0",
   "env": {},
-  "name": "Goose MCP Extensions"
+  "name": "Goose MCP Extensions",
+  "stars": 10
 }

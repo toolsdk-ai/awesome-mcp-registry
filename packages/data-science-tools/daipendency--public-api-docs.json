@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Daipendency MCP"
+  "name": "Daipendency MCP",
+  "stars": 58
 }

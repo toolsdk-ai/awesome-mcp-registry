@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "CV MCP Tools"
+  "name": "CV MCP Tools",
+  "stars": 1
 }

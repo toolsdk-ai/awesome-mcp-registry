@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Facebook MCP Server"
+  "name": "Facebook MCP Server",
+  "stars": 26
 }

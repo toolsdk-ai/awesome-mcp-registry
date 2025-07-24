@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "GNews MCP"
+  "name": "GNews MCP",
+  "stars": 1
 }

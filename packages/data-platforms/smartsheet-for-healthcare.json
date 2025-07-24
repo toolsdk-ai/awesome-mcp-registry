@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Smartsheet MCP"
+  "name": "Smartsheet MCP",
+  "stars": 9
 }

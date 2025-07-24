@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Bitable MCP"
+  "name": "Bitable MCP",
+  "stars": 2
 }

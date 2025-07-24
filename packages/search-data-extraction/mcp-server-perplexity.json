@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Perplexity MCP Server"
+  "name": "Perplexity MCP Server",
+  "stars": 74
 }

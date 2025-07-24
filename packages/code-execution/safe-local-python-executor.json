@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Safe Local Python Executor MCP"
+  "name": "Safe Local Python Executor MCP",
+  "stars": 30
 }

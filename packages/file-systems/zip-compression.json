@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Zip MCP"
+  "name": "Zip MCP",
+  "stars": 10
 }

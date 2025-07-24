@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Terminal Shop MCP"
+  "name": "Terminal Shop MCP",
+  "stars": 1
 }

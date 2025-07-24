@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "FirstCycling MCP"
+  "name": "FirstCycling MCP",
+  "stars": 13
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Mcp Server Weibo"
+  "name": "Mcp Server Weibo",
+  "stars": 13
 }

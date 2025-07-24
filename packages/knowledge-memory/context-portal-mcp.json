@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Context Portal MCP"
+  "name": "Context Portal MCP",
+  "stars": 508
 }

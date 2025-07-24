@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Fleur MCP"
+  "name": "Fleur MCP",
+  "stars": 2
 }

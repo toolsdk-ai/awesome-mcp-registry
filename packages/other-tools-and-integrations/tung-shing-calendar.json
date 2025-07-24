@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Tung Shing Calendar"
+  "name": "Tung Shing Calendar",
+  "stars": 30
 }

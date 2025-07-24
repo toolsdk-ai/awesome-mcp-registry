@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Story MCP Hub"
+  "name": "Story MCP Hub",
+  "stars": 14
 }

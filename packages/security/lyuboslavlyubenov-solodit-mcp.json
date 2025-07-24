@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Search Solodit MCP"
+  "name": "Search Solodit MCP",
+  "stars": 23
 }

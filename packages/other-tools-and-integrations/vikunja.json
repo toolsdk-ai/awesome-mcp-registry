@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Vikunja MCP"
+  "name": "Vikunja MCP",
+  "stars": 5
 }

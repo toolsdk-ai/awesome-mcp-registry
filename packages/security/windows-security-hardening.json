@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "WinSec MCP"
+  "name": "WinSec MCP",
+  "stars": 3
 }

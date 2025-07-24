@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MalloryAI MCP Server"
+  "name": "MalloryAI MCP Server",
+  "stars": 5
 }

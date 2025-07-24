@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "MCP 3D Printer Server"
+  "name": "MCP 3D Printer Server",
+  "stars": 78
 }

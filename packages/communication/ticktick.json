@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "TickTick MCP"
+  "name": "TickTick MCP",
+  "stars": 24
 }

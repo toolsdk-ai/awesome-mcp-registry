@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Canon Camera MCP"
+  "name": "Canon Camera MCP",
+  "stars": 1
 }

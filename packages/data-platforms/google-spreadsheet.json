@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Google Spreadsheet MCP"
+  "name": "Google Spreadsheet MCP",
+  "stars": 36
 }

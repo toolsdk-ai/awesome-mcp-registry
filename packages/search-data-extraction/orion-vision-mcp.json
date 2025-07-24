@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Orion Vision MCP"
+  "name": "Orion Vision MCP",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Claude ChatGPT MCP"
+  "name": "Claude ChatGPT MCP",
+  "stars": 706
 }

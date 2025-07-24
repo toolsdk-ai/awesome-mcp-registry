@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PyODBC MCP Server"
+  "name": "PyODBC MCP Server",
+  "stars": 3
 }

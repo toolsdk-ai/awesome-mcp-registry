@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Smart Customer Support MCP"
+  "name": "Smart Customer Support MCP",
+  "stars": 2
 }

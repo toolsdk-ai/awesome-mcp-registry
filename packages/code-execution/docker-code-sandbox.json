@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Docker Code Sandbox"
+  "name": "Docker Code Sandbox",
+  "stars": 2
 }

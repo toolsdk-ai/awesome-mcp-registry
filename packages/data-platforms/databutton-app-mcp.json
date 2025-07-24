@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Databutton App MCP"
+  "name": "Databutton App MCP",
+  "stars": 1
 }

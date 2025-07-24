@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "FindMine MCP"
+  "name": "FindMine MCP",
+  "stars": 1
 }

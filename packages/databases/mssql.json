@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MSSQL MCP Server"
+  "name": "MSSQL MCP Server",
+  "stars": 5
 }

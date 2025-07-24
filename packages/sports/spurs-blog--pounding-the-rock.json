@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Spurs Blog MCP Server"
+  "name": "Spurs Blog MCP Server",
+  "stars": 2
 }

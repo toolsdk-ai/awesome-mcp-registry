@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Agent Construct"
+  "name": "Agent Construct",
+  "stars": 12
 }

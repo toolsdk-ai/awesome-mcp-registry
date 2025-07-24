@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "GenAI Toolbox"
+  "name": "GenAI Toolbox",
+  "stars": 7742
 }

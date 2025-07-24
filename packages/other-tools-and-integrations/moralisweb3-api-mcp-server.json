@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Moralis MCP Server"
+  "name": "Moralis MCP Server",
+  "stars": 6
 }

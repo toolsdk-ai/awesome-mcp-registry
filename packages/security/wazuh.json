@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Wazuh MCP Server"
+  "name": "Wazuh MCP Server",
+  "stars": 43
 }

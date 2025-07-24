@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Trino MCP Python"
+  "name": "Trino MCP Python",
+  "stars": 18
 }

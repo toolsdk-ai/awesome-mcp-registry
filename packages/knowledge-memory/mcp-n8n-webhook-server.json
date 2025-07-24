@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "MCP n8n Webhook Server"
+  "name": "MCP n8n Webhook Server",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "DuckDB MCP Server"
+  "name": "DuckDB MCP Server",
+  "stars": 139
 }

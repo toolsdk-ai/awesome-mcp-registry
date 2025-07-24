@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "WordPress MCP Server"
+  "name": "WordPress MCP Server",
+  "stars": 70
 }

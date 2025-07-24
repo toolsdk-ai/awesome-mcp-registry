@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "FFmpeg MCP"
+  "name": "FFmpeg MCP",
+  "stars": 10
 }

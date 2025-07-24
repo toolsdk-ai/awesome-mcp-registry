@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Grok MCP"
+  "name": "Grok MCP",
+  "stars": 7
 }

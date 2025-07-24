@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "User Prompt MCP"
+  "name": "User Prompt MCP",
+  "stars": 16
 }

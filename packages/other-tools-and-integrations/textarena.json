@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TextArena MCP"
+  "name": "TextArena MCP",
+  "stars": 0
 }

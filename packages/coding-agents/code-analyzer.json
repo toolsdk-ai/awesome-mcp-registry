@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Anthropic MCP Code Analyzer"
+  "name": "Anthropic MCP Code Analyzer",
+  "stars": 6
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Atla MCP Server"
+  "name": "Atla MCP Server",
+  "stars": 16
 }

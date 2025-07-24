@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "OpenAPI MCP"
+  "name": "OpenAPI MCP",
+  "stars": 58
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "LLM Bridge MCP"
+  "name": "LLM Bridge MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Universal Robots MCP"
+  "name": "Universal Robots MCP",
+  "stars": 3
 }

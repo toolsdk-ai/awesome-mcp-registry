@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Spotify MCP"
+  "name": "Spotify MCP",
+  "stars": 0
 }

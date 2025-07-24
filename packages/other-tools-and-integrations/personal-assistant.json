@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP PA AI Agent"
+  "name": "MCP PA AI Agent",
+  "stars": 13
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "Grpc MCP"
+  "name": "Grpc MCP",
+  "stars": 19
 }

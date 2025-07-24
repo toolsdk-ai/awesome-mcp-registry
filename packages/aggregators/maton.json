@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Maton MCP Server"
+  "name": "Maton MCP Server",
+  "stars": 27
 }

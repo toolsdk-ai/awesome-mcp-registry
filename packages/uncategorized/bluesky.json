@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Bluesky MCP"
+  "name": "Bluesky MCP",
+  "stars": 13
 }

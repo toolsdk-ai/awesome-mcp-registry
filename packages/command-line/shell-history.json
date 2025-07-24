@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Histfile"
+  "name": "MCP Histfile",
+  "stars": 1
 }

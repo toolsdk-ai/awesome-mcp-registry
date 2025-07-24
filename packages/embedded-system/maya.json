@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Maya MCP"
+  "name": "Maya MCP",
+  "stars": 18
 }

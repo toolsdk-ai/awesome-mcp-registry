@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "E2B MCP Server Python"
+  "name": "E2B MCP Server Python",
+  "stars": 296
 }

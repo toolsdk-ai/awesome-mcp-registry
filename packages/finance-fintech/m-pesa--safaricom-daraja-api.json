@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Daraja MCP"
+  "name": "Daraja MCP",
+  "stars": 13
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Student Knowledge Graph"
+  "name": "Student Knowledge Graph",
+  "stars": 0
 }

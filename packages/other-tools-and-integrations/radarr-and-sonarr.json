@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Radarr and Sonarr MCP"
+  "name": "Radarr and Sonarr MCP",
+  "stars": 11
 }

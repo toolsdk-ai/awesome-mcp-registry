@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "CodeRag MCP Server"
+  "name": "CodeRag MCP Server",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Scholarly MCP"
+  "name": "Scholarly MCP",
+  "stars": 138
 }

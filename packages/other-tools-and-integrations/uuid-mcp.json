@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "UUID MCP"
+  "name": "UUID MCP",
+  "stars": 1
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Simple Postgres MCP"
+  "name": "Simple Postgres MCP",
+  "stars": 6
 }

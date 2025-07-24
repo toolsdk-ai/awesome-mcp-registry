@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Palantir Foundry MCP Server"
+  "name": "Palantir Foundry MCP Server",
+  "stars": 8
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Websearch Tools"
+  "name": "Websearch Tools",
+  "stars": 1
 }

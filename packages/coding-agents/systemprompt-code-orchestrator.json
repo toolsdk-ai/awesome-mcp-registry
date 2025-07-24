@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "SystemPrompt Code Orchestrator"
+  "name": "SystemPrompt Code Orchestrator",
+  "stars": 93
 }

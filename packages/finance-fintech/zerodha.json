@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Zerodha MCP"
+  "name": "Zerodha MCP",
+  "stars": 10
 }

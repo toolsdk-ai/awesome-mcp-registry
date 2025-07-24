@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP SQLExpress"
+  "name": "MCP SQLExpress",
+  "stars": 4
 }

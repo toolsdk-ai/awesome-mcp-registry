@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Supabase MCP"
+  "name": "Supabase MCP",
+  "stars": 2
 }

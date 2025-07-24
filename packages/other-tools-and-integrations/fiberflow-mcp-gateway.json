@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Fiberflow MCP Gateway"
+  "name": "Fiberflow MCP Gateway",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Congress.gov MCP"
+  "name": "Congress.gov MCP",
+  "stars": 9
 }

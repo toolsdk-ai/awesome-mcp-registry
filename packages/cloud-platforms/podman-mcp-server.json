@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Podman MCP Server"
+  "name": "Podman MCP Server",
+  "stars": 22
 }

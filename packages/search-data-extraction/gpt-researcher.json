@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "GPT Researcher MCP"
+  "name": "GPT Researcher MCP",
+  "stars": 212
 }

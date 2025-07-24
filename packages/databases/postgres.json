@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "PostgreSQL MCP"
+  "name": "PostgreSQL MCP",
+  "stars": 6
 }

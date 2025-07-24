@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Gmail MCP Server"
+  "name": "Gmail MCP Server",
+  "stars": 1
 }

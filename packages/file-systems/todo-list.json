@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Todo List MCP"
+  "name": "Todo List MCP",
+  "stars": 22
 }

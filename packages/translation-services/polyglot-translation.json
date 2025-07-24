@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Polyglot MCP"
+  "name": "Polyglot MCP",
+  "stars": 3
 }

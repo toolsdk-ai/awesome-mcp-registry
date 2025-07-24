@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Artemis MCP"
+  "name": "Artemis MCP",
+  "stars": 2
 }

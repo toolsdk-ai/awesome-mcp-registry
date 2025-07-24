@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "MediaWiki MCP Server"
+  "name": "MediaWiki MCP Server",
+  "stars": 10
 }

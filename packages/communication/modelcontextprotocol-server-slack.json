@@ -20,5 +20,6 @@
       "required": true
     }
   },
-  "name": "Slack MCP Server"
+  "name": "Slack MCP Server",
+  "stars": 109
 }

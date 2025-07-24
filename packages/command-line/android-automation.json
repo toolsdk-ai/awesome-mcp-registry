@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Android MCP"
+  "name": "Android MCP",
+  "stars": 18
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "SQLite Literature Management FastMCP MCP Server"
+  "name": "SQLite Literature Management FastMCP MCP Server",
+  "stars": 11
 }

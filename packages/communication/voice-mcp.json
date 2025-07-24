@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Voice MCP"
+  "name": "Voice MCP",
+  "stars": 128
 }

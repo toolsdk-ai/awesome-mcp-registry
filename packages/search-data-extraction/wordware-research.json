@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Wordware MCP"
+  "name": "Wordware MCP",
+  "stars": 0
 }

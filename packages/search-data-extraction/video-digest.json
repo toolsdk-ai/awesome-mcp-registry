@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Video Digest MCP"
+  "name": "Video Digest MCP",
+  "stars": 20
 }

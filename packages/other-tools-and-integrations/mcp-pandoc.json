@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Pandoc MCP"
+  "name": "Pandoc MCP",
+  "stars": 332
 }

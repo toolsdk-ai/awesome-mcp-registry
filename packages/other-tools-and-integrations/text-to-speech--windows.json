@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Ms Lucidia Voice Gateway MCP"
+  "name": "Ms Lucidia Voice Gateway MCP",
+  "stars": 4
 }

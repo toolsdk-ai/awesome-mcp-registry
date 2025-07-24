@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "YouTube DLP Server"
+  "name": "YouTube DLP Server",
+  "stars": 9
 }

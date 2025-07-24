@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Nia MCP"
+  "name": "Nia MCP",
+  "stars": 5
 }

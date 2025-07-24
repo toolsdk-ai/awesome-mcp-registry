@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP NVD"
+  "name": "MCP NVD",
+  "stars": 5
 }

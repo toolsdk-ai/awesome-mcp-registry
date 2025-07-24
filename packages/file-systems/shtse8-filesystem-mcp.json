@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Filesystem MCP"
+  "name": "Filesystem MCP",
+  "stars": 6
 }

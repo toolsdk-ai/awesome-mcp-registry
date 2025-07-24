@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "Coin Daemon MCP"
+  "name": "Coin Daemon MCP",
+  "stars": 1
 }

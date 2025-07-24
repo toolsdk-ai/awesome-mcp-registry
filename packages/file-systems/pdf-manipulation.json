@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unlicense",
   "env": {},
-  "name": "PDF Manipulation MCP"
+  "name": "PDF Manipulation MCP",
+  "stars": 57
 }

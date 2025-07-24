@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Cursor Browser Tools MCP"
+  "name": "Cursor Browser Tools MCP",
+  "stars": 0
 }

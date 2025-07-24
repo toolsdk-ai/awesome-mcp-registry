@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "PDF to PNG MCP"
+  "name": "PDF to PNG MCP",
+  "stars": 5
 }

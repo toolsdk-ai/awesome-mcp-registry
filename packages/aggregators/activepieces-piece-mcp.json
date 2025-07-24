@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Activepieces MCP Server"
+  "name": "Activepieces MCP Server",
+  "stars": 15941
 }

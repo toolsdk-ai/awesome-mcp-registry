@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "SingleStore MCP Server"
+  "name": "SingleStore MCP Server",
+  "stars": 25
 }

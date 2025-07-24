@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "AIO MCP"
+  "name": "AIO MCP",
+  "stars": 23
 }

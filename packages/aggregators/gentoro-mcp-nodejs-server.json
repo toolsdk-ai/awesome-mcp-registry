@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "MCP NodeJS Server"
+  "name": "MCP NodeJS Server",
+  "stars": 5
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Human Loop MCP"
+  "name": "Human Loop MCP",
+  "stars": 14
 }

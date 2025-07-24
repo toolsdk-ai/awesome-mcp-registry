@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "YouTube Search MCP Server"
+  "name": "YouTube Search MCP Server",
+  "stars": 3
 }

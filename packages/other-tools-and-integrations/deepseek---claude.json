@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MCP DeepSeek v3 et Claude Desktop"
+  "name": "MCP DeepSeek v3 et Claude Desktop",
+  "stars": 2
 }

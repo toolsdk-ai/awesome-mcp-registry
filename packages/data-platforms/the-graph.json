@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "The Graph MCP"
+  "name": "The Graph MCP",
+  "stars": 5
 }

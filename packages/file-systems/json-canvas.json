@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Obsidian JSON Canvas MCP Server"
+  "name": "Obsidian JSON Canvas MCP Server",
+  "stars": 6
 }

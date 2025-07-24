@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "ACI MCP"
+  "name": "ACI MCP",
+  "stars": 233
 }

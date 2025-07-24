@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "PagerDuty MCP Server"
+  "name": "PagerDuty MCP Server",
+  "stars": 6
 }

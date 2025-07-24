@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Crypto MCP Beta"
+  "name": "Crypto MCP Beta",
+  "stars": 5
 }

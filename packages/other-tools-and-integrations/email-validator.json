@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Email Verify"
+  "name": "MCP Email Verify",
+  "stars": 2
 }

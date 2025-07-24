@@ -27,5 +27,6 @@
       "required": true
     }
   },
-  "name": "Systemprompt Code Orchestrator"
+  "name": "Systemprompt Code Orchestrator",
+  "stars": 93
 }

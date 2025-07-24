@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Filesystem Android"
+  "name": "Filesystem Android",
+  "stars": 0
 }

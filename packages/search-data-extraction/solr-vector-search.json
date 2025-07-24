@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Solr MCP"
+  "name": "Solr MCP",
+  "stars": 10
 }

@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Elasticsearch MCP"
+  "name": "Elasticsearch MCP",
+  "stars": 12
 }

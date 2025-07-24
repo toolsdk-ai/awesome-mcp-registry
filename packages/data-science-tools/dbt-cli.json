@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "dbt CLI MCP"
+  "name": "dbt CLI MCP",
+  "stars": 15
 }

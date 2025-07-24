@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "GemSuite Google Gemini MCP"
+  "name": "GemSuite Google Gemini MCP",
+  "stars": 16
 }

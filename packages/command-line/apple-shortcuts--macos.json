@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Apple Shortcuts MCP Server"
+  "name": "Apple Shortcuts MCP Server",
+  "stars": 216
 }

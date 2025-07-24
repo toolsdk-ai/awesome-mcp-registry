@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Multi Agent With MCP"
+  "name": "Multi Agent With MCP",
+  "stars": 34
 }

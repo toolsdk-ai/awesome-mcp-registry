@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "TaskManager MCP"
+  "name": "TaskManager MCP",
+  "stars": 5
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Think MCP"
+  "name": "Think MCP",
+  "stars": 49
 }

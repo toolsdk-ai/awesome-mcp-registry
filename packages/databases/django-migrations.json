@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Django Migrations MCP"
+  "name": "Django Migrations MCP",
+  "stars": 5
 }

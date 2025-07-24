@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Naver Maps MCP"
+  "name": "Naver Maps MCP",
+  "stars": 0
 }

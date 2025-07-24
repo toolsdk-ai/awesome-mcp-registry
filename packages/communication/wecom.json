@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "gpl-3.0",
   "env": {},
-  "name": "WeComBot MCP Server"
+  "name": "WeComBot MCP Server",
+  "stars": 26
 }

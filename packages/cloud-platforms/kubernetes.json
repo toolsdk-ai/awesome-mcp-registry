@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Kubernetes Interactive MCP"
+  "name": "Kubernetes Interactive MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Azure Resource Manager"
+  "name": "MCP Azure Resource Manager",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Rqbit MCP"
+  "name": "Rqbit MCP",
+  "stars": 3
 }

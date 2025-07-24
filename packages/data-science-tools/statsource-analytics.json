@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Statsource MCP"
+  "name": "Statsource MCP",
+  "stars": 1
 }

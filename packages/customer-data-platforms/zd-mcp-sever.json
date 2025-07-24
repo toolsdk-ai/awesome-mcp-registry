@@ -20,5 +20,6 @@
       "required": true
     }
   },
-  "name": "Zendesk MCP Server"
+  "name": "Zendesk MCP Server",
+  "stars": 4
 }

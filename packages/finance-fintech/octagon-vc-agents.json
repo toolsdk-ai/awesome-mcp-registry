@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Octagon VC Agents"
+  "name": "Octagon VC Agents",
+  "stars": 13
 }

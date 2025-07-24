@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "BigQuery MCP Server"
+  "name": "BigQuery MCP Server",
+  "stars": 0
 }

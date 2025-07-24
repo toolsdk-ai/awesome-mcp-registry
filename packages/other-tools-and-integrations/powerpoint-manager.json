@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "PPTX Server MCP"
+  "name": "PPTX Server MCP",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server Mas Sequential Thinking"
+  "name": "MCP Server Mas Sequential Thinking",
+  "stars": 216
 }

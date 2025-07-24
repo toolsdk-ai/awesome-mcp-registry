@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Google Calendar MCP"
+  "name": "Google Calendar MCP",
+  "stars": 2
 }

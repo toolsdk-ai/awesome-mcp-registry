@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Awsome Kali MCP Server"
+  "name": "Awsome Kali MCP Server",
+  "stars": 65
 }

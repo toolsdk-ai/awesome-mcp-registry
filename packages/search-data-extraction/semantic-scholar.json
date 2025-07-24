@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Semantic Scholar MCP Server"
+  "name": "Semantic Scholar MCP Server",
+  "stars": 55
 }

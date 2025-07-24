@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MedRxiv MCP Server"
+  "name": "MedRxiv MCP Server",
+  "stars": 5
 }

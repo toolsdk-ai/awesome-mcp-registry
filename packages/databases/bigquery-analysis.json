@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "BigQuery Analysis MCP Server"
+  "name": "BigQuery Analysis MCP Server",
+  "stars": 1
 }

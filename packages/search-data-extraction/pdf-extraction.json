@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "PDF Extraction MCP Server"
+  "name": "PDF Extraction MCP Server",
+  "stars": 17
 }

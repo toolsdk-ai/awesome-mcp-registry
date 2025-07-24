@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Txtai Assistant MCP"
+  "name": "Txtai Assistant MCP",
+  "stars": 6
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Genesis MCP"
+  "name": "Genesis MCP",
+  "stars": 3
 }

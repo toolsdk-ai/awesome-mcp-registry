@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Chat Analysis MCP Server"
+  "name": "Chat Analysis MCP Server",
+  "stars": 11
 }

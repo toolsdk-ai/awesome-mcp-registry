@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Google Chat MCP Server"
+  "name": "Google Chat MCP Server",
+  "stars": 8
 }

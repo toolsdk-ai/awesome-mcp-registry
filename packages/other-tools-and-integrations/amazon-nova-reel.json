@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "NovaReel MCP"
+  "name": "NovaReel MCP",
+  "stars": 1
 }

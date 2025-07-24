@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "MCP Trends Hub"
+  "name": "MCP Trends Hub",
+  "stars": 135
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Observer Server"
+  "name": "MCP Observer Server",
+  "stars": 14
 }

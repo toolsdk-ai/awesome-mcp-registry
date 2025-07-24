@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Gospy"
+  "name": "Gospy",
+  "stars": 91
 }

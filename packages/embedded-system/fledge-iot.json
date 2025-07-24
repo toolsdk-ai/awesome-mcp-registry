@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Fledge MCP"
+  "name": "Fledge MCP",
+  "stars": 0
 }

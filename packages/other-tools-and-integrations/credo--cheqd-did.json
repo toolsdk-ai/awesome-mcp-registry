@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Credo MCP Server"
+  "name": "Credo MCP Server",
+  "stars": 0
 }

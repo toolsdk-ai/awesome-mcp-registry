@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "File Converter MCP"
+  "name": "File Converter MCP",
+  "stars": 15
 }

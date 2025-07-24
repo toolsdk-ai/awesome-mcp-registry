@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "HubSpot MCP"
+  "name": "HubSpot MCP",
+  "stars": 17
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Fetch Browser"
+  "name": "Fetch Browser",
+  "stars": 11
 }

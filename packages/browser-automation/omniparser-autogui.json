@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "OmniParser AutoGUI MCP"
+  "name": "OmniParser AutoGUI MCP",
+  "stars": 51
 }

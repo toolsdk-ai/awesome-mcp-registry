@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Darp Engine"
+  "name": "Darp Engine",
+  "stars": 9
 }

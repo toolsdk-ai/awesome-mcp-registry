@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Basic Memory"
+  "name": "Basic Memory",
+  "stars": 1369
 }

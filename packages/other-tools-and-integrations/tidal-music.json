@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "TIDAL Music MCP"
+  "name": "TIDAL Music MCP",
+  "stars": 15
 }

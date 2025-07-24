@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Unconventional Thinking MCP"
+  "name": "Unconventional Thinking MCP",
+  "stars": 17
 }

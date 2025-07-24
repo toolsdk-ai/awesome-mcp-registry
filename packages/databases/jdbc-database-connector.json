@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "mit",
   "env": {},
-  "name": "JDBC MCP Server"
+  "name": "JDBC MCP Server",
+  "stars": 3
 }

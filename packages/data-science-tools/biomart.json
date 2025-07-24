@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Biomart MCP"
+  "name": "Biomart MCP",
+  "stars": 5
 }

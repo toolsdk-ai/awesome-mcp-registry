@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP TimeServer"
+  "name": "MCP TimeServer",
+  "stars": 38
 }

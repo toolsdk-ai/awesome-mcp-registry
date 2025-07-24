@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "MCP TTS"
+  "name": "MCP TTS",
+  "stars": 17
 }

@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Bitrefill MCP Server"
+  "name": "Bitrefill MCP Server",
+  "stars": 5
 }

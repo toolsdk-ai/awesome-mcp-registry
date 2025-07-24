@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Ticketmaster MCP Server"
+  "name": "Ticketmaster MCP Server",
+  "stars": 20
 }

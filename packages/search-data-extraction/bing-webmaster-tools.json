@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Bing Webmaster Tools MCP Server"
+  "name": "Bing Webmaster Tools MCP Server",
+  "stars": 3
 }

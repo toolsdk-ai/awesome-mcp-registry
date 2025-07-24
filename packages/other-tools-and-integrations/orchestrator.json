@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Orchestrator Server"
+  "name": "Orchestrator Server",
+  "stars": 22
 }

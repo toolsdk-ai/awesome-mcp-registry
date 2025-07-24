@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "AllVoiceLab MCP"
+  "name": "AllVoiceLab MCP",
+  "stars": 39
 }

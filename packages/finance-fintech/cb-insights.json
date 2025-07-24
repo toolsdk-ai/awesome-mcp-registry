@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "CB Insights MCP Server"
+  "name": "CB Insights MCP Server",
+  "stars": 5
 }

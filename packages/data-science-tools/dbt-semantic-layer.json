@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "DBT Semantic Layer MCP Server"
+  "name": "DBT Semantic Layer MCP Server",
+  "stars": 10
 }

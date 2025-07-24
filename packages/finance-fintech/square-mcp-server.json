@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Square MCP Server"
+  "name": "Square MCP Server",
+  "stars": 74
 }

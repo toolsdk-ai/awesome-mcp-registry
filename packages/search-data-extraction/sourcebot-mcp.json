@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Sourcebot MCP Server"
+  "name": "Sourcebot MCP Server",
+  "stars": 2009
 }

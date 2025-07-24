@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Interact MCP"
+  "name": "Interact MCP",
+  "stars": 1
 }

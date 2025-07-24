@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Binance MCP"
+  "name": "Binance MCP",
+  "stars": 11
 }

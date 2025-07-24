@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Web3 Stats MCP"
+  "name": "Web3 Stats MCP",
+  "stars": 2
 }

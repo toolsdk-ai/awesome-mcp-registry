@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Starbucks MCP"
+  "name": "Starbucks MCP",
+  "stars": 0
 }

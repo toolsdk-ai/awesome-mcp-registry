@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "RDF Explorer MCP"
+  "name": "RDF Explorer MCP",
+  "stars": 17
 }

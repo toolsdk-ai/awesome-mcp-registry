@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "DocBase MCP Server"
+  "name": "DocBase MCP Server",
+  "stars": 5
 }

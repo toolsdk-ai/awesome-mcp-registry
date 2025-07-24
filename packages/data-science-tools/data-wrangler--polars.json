@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Data Wrangler MCP"
+  "name": "Data Wrangler MCP",
+  "stars": 6
 }

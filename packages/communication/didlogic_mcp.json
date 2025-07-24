@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "DIDLogic MCP"
+  "name": "DIDLogic MCP",
+  "stars": 1
 }

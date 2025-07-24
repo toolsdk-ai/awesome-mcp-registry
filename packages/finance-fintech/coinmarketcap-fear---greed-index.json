@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Fear Greed Index MCP"
+  "name": "Fear Greed Index MCP",
+  "stars": 2
 }

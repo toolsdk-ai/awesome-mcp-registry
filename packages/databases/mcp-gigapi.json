@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "GigAPI MCP"
+  "name": "GigAPI MCP",
+  "stars": 5
 }

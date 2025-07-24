@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Confluence MCP"
+  "name": "Confluence MCP",
+  "stars": 12
 }

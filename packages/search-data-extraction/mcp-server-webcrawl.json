@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "WebCrawl MCP Server"
+  "name": "WebCrawl MCP Server",
+  "stars": 16
 }

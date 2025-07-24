@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Scrapezy MCP"
+  "name": "Scrapezy MCP",
+  "stars": 5
 }

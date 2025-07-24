@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "MCP Twitter Server"
+  "name": "MCP Twitter Server",
+  "stars": 17
 }

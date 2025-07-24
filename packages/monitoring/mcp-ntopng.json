@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Ntopng"
+  "name": "MCP Ntopng",
+  "stars": 0
 }

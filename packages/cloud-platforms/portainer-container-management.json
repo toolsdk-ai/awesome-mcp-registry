@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "zlib",
   "env": {},
-  "name": "Portainer MCP Bridge"
+  "name": "Portainer MCP Bridge",
+  "stars": 47
 }

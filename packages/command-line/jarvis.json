@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Jarvis MCP Server"
+  "name": "Jarvis MCP Server",
+  "stars": 2
 }

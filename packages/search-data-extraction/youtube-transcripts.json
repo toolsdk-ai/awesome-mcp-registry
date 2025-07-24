@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "YouTube Transcript MCP"
+  "name": "YouTube Transcript MCP",
+  "stars": 46
 }

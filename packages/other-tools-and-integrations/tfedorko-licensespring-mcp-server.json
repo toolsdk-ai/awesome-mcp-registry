@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "LicenseSpring MCP Server"
+  "name": "LicenseSpring MCP Server",
+  "stars": 2
 }

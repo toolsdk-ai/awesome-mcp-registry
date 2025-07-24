@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Twist MCP Server"
+  "name": "Twist MCP Server",
+  "stars": 39
 }

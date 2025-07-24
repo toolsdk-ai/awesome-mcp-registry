@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "NumPy MCP"
+  "name": "NumPy MCP",
+  "stars": 2
 }

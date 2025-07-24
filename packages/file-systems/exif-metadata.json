@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "bsd-2-clause",
   "env": {},
-  "name": "EXIF MCP"
+  "name": "EXIF MCP",
+  "stars": 14
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Script Generation MCP"
+  "name": "Script Generation MCP",
+  "stars": 0
 }

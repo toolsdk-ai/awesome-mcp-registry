@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Chain of Draft"
+  "name": "Chain of Draft",
+  "stars": 11
 }

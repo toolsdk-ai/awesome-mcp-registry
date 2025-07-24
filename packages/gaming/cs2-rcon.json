@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CS2 RCON MCP"
+  "name": "CS2 RCON MCP",
+  "stars": 4
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Blockchain MCP Server"
+  "name": "Blockchain MCP Server",
+  "stars": 9
 }

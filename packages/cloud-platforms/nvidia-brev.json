@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Brev MCP"
+  "name": "Brev MCP",
+  "stars": 3
 }

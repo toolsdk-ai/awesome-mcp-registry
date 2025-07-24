@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "AITable MCP Server"
+  "name": "AITable MCP Server",
+  "stars": 2
 }

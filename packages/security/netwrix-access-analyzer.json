@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Naa MCP Server"
+  "name": "Naa MCP Server",
+  "stars": 0
 }

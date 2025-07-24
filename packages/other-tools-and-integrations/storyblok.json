@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Storyblok MCP Server"
+  "name": "Storyblok MCP Server",
+  "stars": 21
 }

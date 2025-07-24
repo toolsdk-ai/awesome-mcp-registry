@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Fillout MCP Server"
+  "name": "Fillout MCP Server",
+  "stars": 0
 }

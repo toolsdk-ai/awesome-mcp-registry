@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Zipcode Search MCP"
+  "name": "Zipcode Search MCP",
+  "stars": 3
 }

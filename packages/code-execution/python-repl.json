@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Claude MCP REPL"
+  "name": "Claude MCP REPL",
+  "stars": 0
 }

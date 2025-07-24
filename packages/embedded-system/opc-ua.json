@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "OPC UA MCP"
+  "name": "OPC UA MCP",
+  "stars": 13
 }

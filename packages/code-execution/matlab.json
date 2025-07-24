@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Matlab MCP Server"
+  "name": "Matlab MCP Server",
+  "stars": 34
 }

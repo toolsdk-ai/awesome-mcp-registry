@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Shodan MCP"
+  "name": "Shodan MCP",
+  "stars": 65
 }

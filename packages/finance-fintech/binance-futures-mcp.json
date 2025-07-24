@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Binance Futures MCP Server"
+  "name": "Binance Futures MCP Server",
+  "stars": 1
 }

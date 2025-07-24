@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "OpenGenes MCP"
+  "name": "OpenGenes MCP",
+  "stars": 6
 }

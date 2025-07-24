@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Wealthy MCP"
+  "name": "Wealthy MCP",
+  "stars": 27
 }

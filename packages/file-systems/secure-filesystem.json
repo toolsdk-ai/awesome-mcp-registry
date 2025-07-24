@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Secure Filesystem Server"
+  "name": "Secure Filesystem Server",
+  "stars": 1
 }

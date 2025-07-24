@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Celigo"
+  "name": "MCP Celigo",
+  "stars": 0
 }

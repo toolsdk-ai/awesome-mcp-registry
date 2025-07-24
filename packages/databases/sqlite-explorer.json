@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "SQLite MCP Server"
+  "name": "SQLite MCP Server",
+  "stars": 7
 }

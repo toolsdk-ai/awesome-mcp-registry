@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Twelve Data MCP"
+  "name": "Twelve Data MCP",
+  "stars": 17
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Sourcesage"
+  "name": "Sourcesage",
+  "stars": 5
 }

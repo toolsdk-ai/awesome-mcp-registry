@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "UltimateCoder MCP"
+  "name": "UltimateCoder MCP",
+  "stars": 11
 }

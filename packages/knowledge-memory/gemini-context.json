@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Gemini Context MCP Server"
+  "name": "Gemini Context MCP Server",
+  "stars": 24
 }

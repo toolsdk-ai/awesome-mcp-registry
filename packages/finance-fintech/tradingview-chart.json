@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "TradingView Chart MCP"
+  "name": "TradingView Chart MCP",
+  "stars": 21
 }

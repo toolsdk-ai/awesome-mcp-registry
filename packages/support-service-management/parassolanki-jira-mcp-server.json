@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Jira MCP Server"
+  "name": "Jira MCP Server",
+  "stars": 2
 }

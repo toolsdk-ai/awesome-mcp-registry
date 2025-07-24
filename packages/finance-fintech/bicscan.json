@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "BICScan MCP"
+  "name": "BICScan MCP",
+  "stars": 6
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Promptopia MCP"
+  "name": "Promptopia MCP",
+  "stars": 1
 }

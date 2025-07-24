@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Short Video Maker"
+  "name": "Short Video Maker",
+  "stars": 535
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Feature Request Collection MCP"
+  "name": "Feature Request Collection MCP",
+  "stars": 0
 }

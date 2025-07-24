@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "PRIDE Archive Search MCP"
+  "name": "PRIDE Archive Search MCP",
+  "stars": 2
 }

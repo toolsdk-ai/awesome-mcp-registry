@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "MetaMCP Server"
+  "name": "MetaMCP Server",
+  "stars": 141
 }

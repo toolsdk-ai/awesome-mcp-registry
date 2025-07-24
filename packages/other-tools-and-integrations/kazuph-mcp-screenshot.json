@@ -5,5 +5,6 @@
   "url": "https://github.com/kazuph/mcp-screenshot",
   "runtime": "node",
   "license": "MIT",
-  "name": "Screenshot OCR MCP Server"
+  "name": "Screenshot OCR MCP Server",
+  "stars": 20
 }

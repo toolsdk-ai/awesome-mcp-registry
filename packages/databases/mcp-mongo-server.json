@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "MCP Mongo Server"
+  "name": "MCP Mongo Server",
+  "stars": 257
 }

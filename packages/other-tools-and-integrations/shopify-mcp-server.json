@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Shopify MCP Server"
+  "name": "Shopify MCP Server",
+  "stars": 11
 }

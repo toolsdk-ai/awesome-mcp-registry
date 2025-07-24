@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Context7 HTTP"
+  "name": "Context7 HTTP",
+  "stars": 11
 }

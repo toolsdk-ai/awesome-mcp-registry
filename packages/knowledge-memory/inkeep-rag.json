@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Inkeep RAG MCP Server"
+  "name": "Inkeep RAG MCP Server",
+  "stars": 18
 }

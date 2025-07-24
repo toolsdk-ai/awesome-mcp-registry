@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Obsidian Omnisearch MCP Server"
+  "name": "Obsidian Omnisearch MCP Server",
+  "stars": 17
 }

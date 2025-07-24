@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Neovim MCP Server"
+  "name": "Neovim MCP Server",
+  "stars": 187
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Proxmox MCP Plus"
+  "name": "Proxmox MCP Plus",
+  "stars": 4
 }

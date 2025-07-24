@@ -99,5 +99,6 @@
       "required": true
     }
   },
-  "name": "MySQL Query MCP Server"
+  "name": "MySQL Query MCP Server",
+  "stars": 7
 }

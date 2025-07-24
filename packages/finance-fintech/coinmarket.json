@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CoinMarket MCP Server"
+  "name": "CoinMarket MCP Server",
+  "stars": 36
 }

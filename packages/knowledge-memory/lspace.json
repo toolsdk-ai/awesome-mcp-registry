@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "LSpace Server"
+  "name": "LSpace Server",
+  "stars": 5
 }

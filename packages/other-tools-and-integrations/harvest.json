@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Harvest MCP Server"
+  "name": "Harvest MCP Server",
+  "stars": 6
 }

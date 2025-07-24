@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Model Context Protocol"
+  "name": "Model Context Protocol",
+  "stars": 19
 }

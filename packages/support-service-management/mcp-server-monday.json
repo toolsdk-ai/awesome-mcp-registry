@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP Server Monday"
+  "name": "MCP Server Monday",
+  "stars": 31
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Perplexity MCP"
+  "name": "Perplexity MCP",
+  "stars": 0
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Waldur MCP Server"
+  "name": "Waldur MCP Server",
+  "stars": 1
 }

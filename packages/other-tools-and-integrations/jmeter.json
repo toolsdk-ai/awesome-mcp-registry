@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "JMeter MCP Server"
+  "name": "JMeter MCP Server",
+  "stars": 36
 }

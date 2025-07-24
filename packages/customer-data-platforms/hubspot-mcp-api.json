@@ -12,5 +12,6 @@
       "required": true
     }
   },
-  "name": "HubSpot MCP Server"
+  "name": "HubSpot MCP Server",
+  "stars": 1
 }

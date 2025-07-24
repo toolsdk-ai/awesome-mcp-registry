@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CCXT Cryptocurrency Exchange"
+  "name": "CCXT Cryptocurrency Exchange",
+  "stars": 52
 }

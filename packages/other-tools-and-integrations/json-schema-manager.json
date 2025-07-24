@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "JSON Schema MCP"
+  "name": "JSON Schema MCP",
+  "stars": 1
 }

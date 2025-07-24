@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "CMR MCP"
+  "name": "CMR MCP",
+  "stars": 3
 }

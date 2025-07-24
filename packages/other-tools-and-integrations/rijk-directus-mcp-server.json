@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "Directus MCP Server"
+  "name": "Directus MCP Server",
+  "stars": 28
 }

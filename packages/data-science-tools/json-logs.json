@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit-0",
   "env": {},
-  "name": "Json Logs MCP Server"
+  "name": "Json Logs MCP Server",
+  "stars": 3
 }

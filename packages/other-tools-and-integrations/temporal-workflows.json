@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "unknown",
   "env": {},
-  "name": "Temporal MCP"
+  "name": "Temporal MCP",
+  "stars": 25
 }

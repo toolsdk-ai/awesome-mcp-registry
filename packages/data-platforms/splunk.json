@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Splunk MCP Server2"
+  "name": "Splunk MCP Server2",
+  "stars": 10
 }

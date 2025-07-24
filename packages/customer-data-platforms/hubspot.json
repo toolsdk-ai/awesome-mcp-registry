@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "HubSpot MCP"
+  "name": "HubSpot MCP",
+  "stars": 0
 }

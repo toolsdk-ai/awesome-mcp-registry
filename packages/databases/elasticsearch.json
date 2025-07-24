@@ -6,5 +6,6 @@
   "runtime": "java",
   "license": "apache-2.0",
   "env": {},
-  "name": "Elasticsearch MCP Server"
+  "name": "Elasticsearch MCP Server",
+  "stars": 3
 }

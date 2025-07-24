@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Heroicons MCP"
+  "name": "Heroicons MCP",
+  "stars": 0
 }

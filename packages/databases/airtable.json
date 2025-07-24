@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Airtable MCP"
+  "name": "Airtable MCP",
+  "stars": 25
 }

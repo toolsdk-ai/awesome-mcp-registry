@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Lighthouse MCP"
+  "name": "Lighthouse MCP",
+  "stars": 24
 }

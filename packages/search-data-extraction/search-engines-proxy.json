@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Search Server"
+  "name": "Search Server",
+  "stars": 71
 }

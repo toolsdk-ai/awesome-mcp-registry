@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Dify Tools MCP Bridge"
+  "name": "Dify Tools MCP Bridge",
+  "stars": 22
 }

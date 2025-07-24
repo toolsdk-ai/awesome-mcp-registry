@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hetzner MCP"
+  "name": "Hetzner MCP",
+  "stars": 30
 }

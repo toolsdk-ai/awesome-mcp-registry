@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Hot News MCP Server"
+  "name": "Hot News MCP Server",
+  "stars": 2
 }

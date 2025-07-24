@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Obsidian MCP Server"
+  "name": "Obsidian MCP Server",
+  "stars": 146
 }

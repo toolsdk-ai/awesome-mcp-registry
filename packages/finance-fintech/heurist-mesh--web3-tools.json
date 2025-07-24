@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Heurist Mesh MCP Server"
+  "name": "Heurist Mesh MCP Server",
+  "stars": 53
 }

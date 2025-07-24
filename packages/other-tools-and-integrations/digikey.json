@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "DigiKey MCP"
+  "name": "DigiKey MCP",
+  "stars": 8
 }

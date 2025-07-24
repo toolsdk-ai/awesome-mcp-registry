@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Zenn MCP Server"
+  "name": "Zenn MCP Server",
+  "stars": 0
 }

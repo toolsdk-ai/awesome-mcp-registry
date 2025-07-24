@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Amap MCP Server"
+  "name": "Amap MCP Server",
+  "stars": 2
 }

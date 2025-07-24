@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "OpenCTI MCP"
+  "name": "OpenCTI MCP",
+  "stars": 19
 }

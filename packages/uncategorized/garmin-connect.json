@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Garmin MCP"
+  "name": "Garmin MCP",
+  "stars": 56
 }

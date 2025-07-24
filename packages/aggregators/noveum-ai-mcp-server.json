@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "API Market MCP Server"
+  "name": "API Market MCP Server",
+  "stars": 2
 }

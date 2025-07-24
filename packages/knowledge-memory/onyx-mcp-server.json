@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Onyx MCP Server"
+  "name": "Onyx MCP Server",
+  "stars": 14
 }

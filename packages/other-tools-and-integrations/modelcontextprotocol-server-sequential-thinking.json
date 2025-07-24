@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Sequential Thinking MCP Server"
+  "name": "Sequential Thinking MCP Server",
+  "stars": 61200
 }

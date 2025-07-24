@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "Kestra MCP Server"
+  "name": "Kestra MCP Server",
+  "stars": 2
 }

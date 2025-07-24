@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Lumenx MCP"
+  "name": "Lumenx MCP",
+  "stars": 2
 }

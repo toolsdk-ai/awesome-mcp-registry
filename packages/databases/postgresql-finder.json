@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "PostgreSQL Finder MCP Server"
+  "name": "PostgreSQL Finder MCP Server",
+  "stars": 0
 }

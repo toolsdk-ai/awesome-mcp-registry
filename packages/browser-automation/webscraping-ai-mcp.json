@@ -15,5 +15,6 @@
       "required": true
     }
   },
-  "name": "WebScraping AI MCP Server"
+  "name": "WebScraping AI MCP Server",
+  "stars": 20
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Glyph"
+  "name": "Glyph",
+  "stars": 4
 }

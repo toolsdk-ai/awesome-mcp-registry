@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "RapidAPI MCP"
+  "name": "RapidAPI MCP",
+  "stars": 2
 }

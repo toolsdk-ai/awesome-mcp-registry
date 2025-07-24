@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Docs Vectorize MCP"
+  "name": "Docs Vectorize MCP",
+  "stars": 2763
 }

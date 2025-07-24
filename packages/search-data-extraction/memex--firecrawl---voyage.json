@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Memex MCP"
+  "name": "Memex MCP",
+  "stars": 9
 }

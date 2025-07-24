@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "other",
   "env": {},
-  "name": "Enhanced PostgreSQL MCP Server"
+  "name": "Enhanced PostgreSQL MCP Server",
+  "stars": 7
 }

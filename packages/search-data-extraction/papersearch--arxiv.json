@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "PaperSearch MCP"
+  "name": "PaperSearch MCP",
+  "stars": 4
 }

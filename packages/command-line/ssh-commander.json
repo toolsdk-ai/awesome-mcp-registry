@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "SSH MCP Server"
+  "name": "SSH MCP Server",
+  "stars": 8
 }

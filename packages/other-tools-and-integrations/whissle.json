@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Whissle MCP"
+  "name": "Whissle MCP",
+  "stars": 1
 }

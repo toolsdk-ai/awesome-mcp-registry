@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Pinecone MCP"
+  "name": "Pinecone MCP",
+  "stars": 28
 }

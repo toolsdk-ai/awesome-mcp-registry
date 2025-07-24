@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "gpl-3.0",
   "env": {},
-  "name": "DingDing MCP Server"
+  "name": "DingDing MCP Server",
+  "stars": 20
 }

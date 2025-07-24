@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Database Tools"
+  "name": "Database Tools",
+  "stars": 4
 }

@@ -43,5 +43,6 @@
       "required": true
     }
   },
-  "name": "Better Qdrant MCP Server"
+  "name": "Better Qdrant MCP Server",
+  "stars": 0
 }

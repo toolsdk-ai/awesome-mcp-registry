@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Toast MCP Server"
+  "name": "Toast MCP Server",
+  "stars": 3
 }

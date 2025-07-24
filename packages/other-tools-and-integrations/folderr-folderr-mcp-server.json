@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Folderr MCP Server"
+  "name": "Folderr MCP Server",
+  "stars": 1
 }

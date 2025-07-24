@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Azure FHIR MCP Server"
+  "name": "Azure FHIR MCP Server",
+  "stars": 10
 }

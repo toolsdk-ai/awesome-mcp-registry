@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "apache-2.0",
   "env": {},
-  "name": "Logpush MCP"
+  "name": "Logpush MCP",
+  "stars": 2763
 }

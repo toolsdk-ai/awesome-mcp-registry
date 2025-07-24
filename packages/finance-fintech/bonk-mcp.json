@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "LetsBonk MCP Server"
+  "name": "LetsBonk MCP Server",
+  "stars": 14
 }

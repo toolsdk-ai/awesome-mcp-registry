@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Canvas MCP"
+  "name": "Canvas MCP",
+  "stars": 6
 }

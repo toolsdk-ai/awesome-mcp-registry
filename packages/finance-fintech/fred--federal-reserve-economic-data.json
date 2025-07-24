@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Fred MCP"
+  "name": "Fred MCP",
+  "stars": 2
 }

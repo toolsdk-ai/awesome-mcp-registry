@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Chatterbox MCP"
+  "name": "Chatterbox MCP",
+  "stars": 7
 }

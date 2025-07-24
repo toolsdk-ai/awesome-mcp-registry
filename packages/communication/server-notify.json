@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server Notify"
+  "name": "MCP Server Notify",
+  "stars": 29
 }

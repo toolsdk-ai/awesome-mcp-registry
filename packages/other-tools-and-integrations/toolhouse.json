@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server Toolhouse"
+  "name": "MCP Server Toolhouse",
+  "stars": 13
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "DDG Search MCP"
+  "name": "DDG Search MCP",
+  "stars": 8
 }

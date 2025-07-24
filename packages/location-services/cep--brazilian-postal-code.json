@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CEP Brazilian Postal Code"
+  "name": "CEP Brazilian Postal Code",
+  "stars": 4
 }

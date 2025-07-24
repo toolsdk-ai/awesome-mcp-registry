@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "MCP OSINT Server"
+  "name": "MCP OSINT Server",
+  "stars": 26
 }

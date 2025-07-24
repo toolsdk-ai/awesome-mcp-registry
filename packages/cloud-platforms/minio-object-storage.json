@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MinIO Python MCP"
+  "name": "MinIO Python MCP",
+  "stars": 3
 }

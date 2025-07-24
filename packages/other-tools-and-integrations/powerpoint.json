@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "PowerPoint MCP"
+  "name": "PowerPoint MCP",
+  "stars": 121
 }

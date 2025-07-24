@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Teams MCP"
+  "name": "Teams MCP",
+  "stars": 7
 }

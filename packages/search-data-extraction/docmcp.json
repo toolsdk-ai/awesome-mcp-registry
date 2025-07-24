@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "DocMCP"
+  "name": "DocMCP",
+  "stars": 5
 }

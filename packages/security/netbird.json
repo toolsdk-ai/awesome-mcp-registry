@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "apache-2.0",
   "env": {},
-  "name": "Netbird MCP"
+  "name": "Netbird MCP",
+  "stars": 37
 }

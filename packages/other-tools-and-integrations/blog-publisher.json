@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Blog Publisher MCP Server"
+  "name": "Blog Publisher MCP Server",
+  "stars": 0
 }

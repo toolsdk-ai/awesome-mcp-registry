@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Tavily MCP Proxy"
+  "name": "Tavily MCP Proxy",
+  "stars": 2
 }

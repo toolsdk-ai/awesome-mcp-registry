@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MongoDB Lens"
+  "name": "MongoDB Lens",
+  "stars": 173
 }

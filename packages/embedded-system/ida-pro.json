@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "IDA Pro MCP Server Plugin"
+  "name": "IDA Pro MCP Server Plugin",
+  "stars": 136
 }

@@ -6,5 +6,6 @@
   "runtime": "go",
   "license": "mit",
   "env": {},
-  "name": "Todo MCP Server"
+  "name": "Todo MCP Server",
+  "stars": 4
 }

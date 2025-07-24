@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Consult LLM MCP"
+  "name": "Consult LLM MCP",
+  "stars": 12
 }

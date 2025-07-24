@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "SBOM MCP Server"
+  "name": "SBOM MCP Server",
+  "stars": 2
 }

@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Mastodon MCP"
+  "name": "Mastodon MCP",
+  "stars": 1
 }

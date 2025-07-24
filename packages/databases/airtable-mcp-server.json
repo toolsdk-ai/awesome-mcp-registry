@@ -11,5 +11,6 @@
       "required": true
     }
   },
-  "name": "Airtable MCP Server"
+  "name": "Airtable MCP Server",
+  "stars": 220
 }

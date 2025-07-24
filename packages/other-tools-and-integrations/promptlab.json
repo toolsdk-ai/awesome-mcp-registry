@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "apache-2.0",
   "env": {},
-  "name": "PromptLab MCP Server"
+  "name": "PromptLab MCP Server",
+  "stars": 6
 }

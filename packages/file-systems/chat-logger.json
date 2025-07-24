@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Chat Logger MCP"
+  "name": "Chat Logger MCP",
+  "stars": 4
 }

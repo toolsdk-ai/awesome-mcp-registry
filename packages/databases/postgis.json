@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "PostGIS MCP"
+  "name": "PostGIS MCP",
+  "stars": 4
 }

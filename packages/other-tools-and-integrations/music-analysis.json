@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Music Analysis MCP"
+  "name": "Music Analysis MCP",
+  "stars": 15
 }

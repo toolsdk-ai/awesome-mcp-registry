@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Latex Mathml MCP Server"
+  "name": "Latex Mathml MCP Server",
+  "stars": 3
 }

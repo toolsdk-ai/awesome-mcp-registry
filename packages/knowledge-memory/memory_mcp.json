@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Claude Memory MCP"
+  "name": "Claude Memory MCP",
+  "stars": 25
 }

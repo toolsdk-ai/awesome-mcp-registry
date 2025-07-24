@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Joe Sandbox MCP"
+  "name": "Joe Sandbox MCP",
+  "stars": 6
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Google Docs MCP"
+  "name": "Google Docs MCP",
+  "stars": 11
 }

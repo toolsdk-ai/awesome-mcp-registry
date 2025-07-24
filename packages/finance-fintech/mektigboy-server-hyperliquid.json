@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Hyperliquid MCP Server"
+  "name": "Hyperliquid MCP Server",
+  "stars": 25
 }

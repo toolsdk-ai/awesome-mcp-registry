@@ -23,5 +23,6 @@
       "required": true
     }
   },
-  "name": "Prospectio API MCP"
+  "name": "Prospectio API MCP",
+  "stars": 15
 }

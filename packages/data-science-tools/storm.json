@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Serverless RAG MCP Server"
+  "name": "Serverless RAG MCP Server",
+  "stars": 36
 }

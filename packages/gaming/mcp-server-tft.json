@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "TFT MCP Server"
+  "name": "TFT MCP Server",
+  "stars": 8
 }

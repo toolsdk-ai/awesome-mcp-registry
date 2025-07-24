@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Outlook MCP Server"
+  "name": "Outlook MCP Server",
+  "stars": 28
 }

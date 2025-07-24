@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "PBS MCP Server"
+  "name": "PBS MCP Server",
+  "stars": 1
 }

@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "MCP S2S Asterisk"
+  "name": "MCP S2S Asterisk",
+  "stars": 2
 }

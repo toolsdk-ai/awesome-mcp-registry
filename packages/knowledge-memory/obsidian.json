@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "isc",
   "env": {},
-  "name": "Obsidian MCP"
+  "name": "Obsidian MCP",
+  "stars": 2
 }

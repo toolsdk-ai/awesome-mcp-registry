@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Homebrew MCP"
+  "name": "Homebrew MCP",
+  "stars": 10
 }

@@ -19,5 +19,6 @@
       "required": true
     }
   },
-  "name": "Axiom MCP Server"
+  "name": "Axiom MCP Server",
+  "stars": 1
 }

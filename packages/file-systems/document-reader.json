@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Document Reader MCP"
+  "name": "Document Reader MCP",
+  "stars": 4
 }

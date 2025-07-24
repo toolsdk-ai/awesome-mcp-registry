@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "MCP Server Dify"
+  "name": "MCP Server Dify",
+  "stars": 10
 }

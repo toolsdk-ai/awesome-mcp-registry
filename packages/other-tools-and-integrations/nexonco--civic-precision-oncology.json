@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Nexonco MCP"
+  "name": "Nexonco MCP",
+  "stars": 52
 }

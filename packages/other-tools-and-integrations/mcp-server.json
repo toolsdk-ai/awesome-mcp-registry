@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Spark Mango"
+  "name": "Spark Mango",
+  "stars": 3
 }

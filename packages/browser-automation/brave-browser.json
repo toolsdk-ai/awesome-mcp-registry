@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Brave MCP"
+  "name": "Brave MCP",
+  "stars": 1
 }

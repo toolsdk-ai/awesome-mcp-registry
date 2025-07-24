@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "DeepSeek MCP Server"
+  "name": "DeepSeek MCP Server",
+  "stars": 0
 }

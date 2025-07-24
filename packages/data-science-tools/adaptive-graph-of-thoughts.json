@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Adaptive Graph of Thoughts MCP Server"
+  "name": "Adaptive Graph of Thoughts MCP Server",
+  "stars": 13
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CFBD MCP Server"
+  "name": "CFBD MCP Server",
+  "stars": 17
 }

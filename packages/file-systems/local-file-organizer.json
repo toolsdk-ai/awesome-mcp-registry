@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Local File Organizer MCP"
+  "name": "Local File Organizer MCP",
+  "stars": 1
 }

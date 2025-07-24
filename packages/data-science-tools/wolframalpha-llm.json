@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "WolframAlpha LLM MCP"
+  "name": "WolframAlpha LLM MCP",
+  "stars": 34
 }

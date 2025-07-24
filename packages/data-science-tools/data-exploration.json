@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Data Exploration MCP Server"
+  "name": "Data Exploration MCP Server",
+  "stars": 437
 }

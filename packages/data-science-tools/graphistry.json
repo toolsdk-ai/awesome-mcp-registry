@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Graphistry MCP"
+  "name": "Graphistry MCP",
+  "stars": 8
 }

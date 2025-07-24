@@ -6,5 +6,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Local STT MCP"
+  "name": "Local STT MCP",
+  "stars": 2
 }

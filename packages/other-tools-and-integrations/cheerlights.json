@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "CheerLights MCP"
+  "name": "CheerLights MCP",
+  "stars": 1
 }

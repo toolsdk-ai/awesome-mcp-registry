@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Qdrant OpenAI MCP"
+  "name": "Qdrant OpenAI MCP",
+  "stars": 3
 }

@@ -6,5 +6,6 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "SQL Server Natural Language MCP"
+  "name": "SQL Server Natural Language MCP",
+  "stars": 1
 }
