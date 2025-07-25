@@ -1,10 +1,11 @@
 {
   "type": "mcp-server",
+  "logo": "https://camo.githubusercontent.com/ed0f5d6cde35aa477d513956a1b782bae7c3fc10b615c5ab4eef59e288dbd375/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64693763746c6f77782f696d6167652f75706c6f61642f76313734343236393139342f6c6f676f5f6768616c78712e706e67",
   "packageName": "@pinkpixel/mindbridge",
   "description": "Bridges multiple LLM providers including OpenAI, Anthropic, Google, DeepSeek, OpenRouter, and Ollama through a unified interface, enabling comparison of responses and leveraging specialized reasoning capabilities across different models.",
   "url": "https://github.com/pinkpixel-dev/mindbridge-mcp",
   "runtime": "node",
-  "license": "unknown",
+  "license": "MIT",
   "env": {
     "OPENAI_API_KEY": {
       "description": "OPENAI_API_KEY_HERE",

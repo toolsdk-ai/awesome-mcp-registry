@@ -1,0 +1,28 @@
+{
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1785701767357120512/d0vRt0Gk_400x400.png",
+  "packageName": "@cosmix/jira-mcp",
+  "description": "A Model Context Protocol (MCP) server implementation that provides access to JIRA data with relationship tracking, optimized data payloads, and data cleaning for AI context windows.",
+  "url": "https://github.com/cosmix/jira-mcp/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "JIRA_API_TOKEN": {
+      "description": "your_api_token",
+      "required": true
+    },
+    "JIRA_BASE_URL": {
+      "description": "your_jira_instance_url",
+      "required": true
+    },
+    "JIRA_USER_EMAIL": {
+      "description": "your_email",
+      "required": true
+    },
+    "JIRA_TYPE": {
+      "description": "cloud",
+      "required": true
+    }
+  },
+  "name": "JIRA MCP Server"
+}

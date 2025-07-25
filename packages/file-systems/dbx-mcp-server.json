@@ -1,0 +1,76 @@
+{
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1412502625350676480/VEKgUKGn_400x400.png",
+  "packageName": "@amgadabdelhafez/dbx-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that provides integration with Dropbox, allowing MCP-compatible clients to interact with Dropbox through a set of powerful tools.",
+  "url": "https://github.com/amgadabdelhafez/dbx-mcp-server/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "DROPBOX_APP_KEY": {
+      "description": "Your app key from the Dropbox App Console",
+      "required": true
+    },
+    "DROPBOX_APP_SECRET": {
+      "description": "Your app secret from the Dropbox App Console",
+      "required": true
+    },
+    "DROPBOX_REDIRECT_URI": {
+      "description": "OAuth redirect URI (e.g., http://localhost:3000/callback)",
+      "required": true
+    },
+    "DROPBOX_ACCESS_TOKEN": {
+      "description": "(Optional) Direct access token if not using OAuth flow",
+      "required": true
+    },
+    "TOKEN_ENCRYPTION_KEY": {
+      "description": "32+ character encryption key for token storage",
+      "required": true
+    },
+    "CORS_ALLOWED_ORIGINS": {
+      "description": "Comma-separated list of allowed CORS origins (e.g., http://localhost:3000)",
+      "required": true
+    },
+    "TOKEN_REFRESH_THRESHOLD_MINUTES": {
+      "description": "5",
+      "required": true
+    },
+    "MAX_TOKEN_REFRESH_RETRIES": {
+      "description": "3",
+      "required": true
+    },
+    "TOKEN_REFRESH_RETRY_DELAY_MS": {
+      "description": "1000",
+      "required": true
+    },
+    "LOG_LEVEL": {
+      "description": "info",
+      "required": true
+    },
+    "NODE_ENV=": {
+      "description": "development",
+      "required": true
+    },
+    "DBX_RECYCLE_BIN_PATH": {
+      "description": "/.recycle_bin",
+      "required": true
+    },
+    "DBX_MAX_DELETES_PER_DAY": {
+      "description": "100",
+      "required": true
+    },
+    "DBX_RETENTION_DAYS": {
+      "description": "30",
+      "required": true
+    },
+    "DBX_ALLOWED_PATHS": {
+      "description": "/",
+      "required": true
+    },
+    "DBX_BLOCKED_PATHS": {
+      "description": "/.recycle_bin,/.system",
+      "required": true
+    }
+  },
+  "name": "Dropbox MCP Server"
+}
