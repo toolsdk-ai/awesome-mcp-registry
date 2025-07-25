@@ -708,65 +708,6 @@
     "validated": false,
     "tools": {}
   },
-  "airtable-mcp-server": {
-    "category": "databases",
-    "path": "databases/airtable-mcp-server.json",
-    "validated": true,
-    "tools": {
-      "list_records": {
-        "name": "list_records",
-        "description": "List records from a table"
-      },
-      "search_records": {
-        "name": "search_records",
-        "description": "Search for records containing specific text"
-      },
-      "list_bases": {
-        "name": "list_bases",
-        "description": "List all accessible Airtable bases"
-      },
-      "list_tables": {
-        "name": "list_tables",
-        "description": "List all tables in a specific base"
-      },
-      "describe_table": {
-        "name": "describe_table",
-        "description": "Get detailed information about a specific table"
-      },
-      "get_record": {
-        "name": "get_record",
-        "description": "Get a specific record by ID"
-      },
-      "create_record": {
-        "name": "create_record",
-        "description": "Create a new record in a table"
-      },
-      "update_records": {
-        "name": "update_records",
-        "description": "Update up to 10 records in a table"
-      },
-      "delete_records": {
-        "name": "delete_records",
-        "description": "Delete records from a table"
-      },
-      "create_table": {
-        "name": "create_table",
-        "description": "Create a new table in a base"
-      },
-      "update_table": {
-        "name": "update_table",
-        "description": "Update a table's name or description"
-      },
-      "create_field": {
-        "name": "create_field",
-        "description": "Create a new field in a table"
-      },
-      "update_field": {
-        "name": "update_field",
-        "description": "Update a field's name or description"
-      }
-    }
-  },
   "@benborla29/mcp-server-mysql": {
     "category": "databases",
     "path": "databases/benborla29-mcp-server-mysql.json",
@@ -7733,37 +7674,6 @@
     "category": "databases",
     "path": "databases/opensearch.json"
   },
-  "mcp-mongodb-atlas": {
-    "category": "databases",
-    "path": "databases/mcp-mongodb-atlas.json",
-    "validated": true,
-    "tools": {
-      "create_atlas_cluster": {
-        "name": "create_atlas_cluster",
-        "description": "Creates a new Atlas cluster in an existing Atlas project."
-      },
-      "setup_atlas_network_access": {
-        "name": "setup_atlas_network_access",
-        "description": "Sets up network access for an existing Atlas project. Accepts list of IP addresses or CIDR blocks."
-      },
-      "create_atlas_user": {
-        "name": "create_atlas_user",
-        "description": "Creates a new database user for an existing Atlas project. User will have atlasAdmin role."
-      },
-      "get_atlas_connection_strings": {
-        "name": "get_atlas_connection_strings",
-        "description": "Retrieves connection strings for a cluster in an existing Atlas project."
-      },
-      "list_atlas_projects": {
-        "name": "list_atlas_projects",
-        "description": "Lists all Atlas projects that the API key has access to."
-      },
-      "list_atlas_clusters": {
-        "name": "list_atlas_clusters",
-        "description": "Lists all clusters in an Atlas project."
-      }
-    }
-  },
   "@joshuarileydev/supabase-mcp-server": {
     "category": "databases",
     "path": "databases/joshuarileydev-supabase-mcp-server.json",
@@ -8255,37 +8165,6 @@
   "mcp-trino-python": {
     "category": "databases",
     "path": "databases/mcp-trino-python.json"
-  },
-  "mcp-postgres-server": {
-    "category": "databases",
-    "path": "databases/mcp-postgres-server.json",
-    "validated": true,
-    "tools": {
-      "connect_db": {
-        "name": "connect_db",
-        "description": "Connect to PostgreSQL database. NOTE: Default connection exists - only use when requested or if other commands fail"
-      },
-      "query": {
-        "name": "query",
-        "description": "Execute a SELECT query"
-      },
-      "execute": {
-        "name": "execute",
-        "description": "Execute an INSERT, UPDATE, or DELETE query"
-      },
-      "list_schemas": {
-        "name": "list_schemas",
-        "description": "List all schemas in the database"
-      },
-      "list_tables": {
-        "name": "list_tables",
-        "description": "List tables in the database"
-      },
-      "describe_table": {
-        "name": "describe_table",
-        "description": "Get table structure"
-      }
-    }
   },
   "mysql-database-manager": {
     "category": "databases",
@@ -28146,12 +28025,6 @@
     "validated": false,
     "tools": {}
   },
-  "cal.com-calendar": {
-    "category": "communication",
-    "path": "communication/cal-com-calendar.json",
-    "validated": false,
-    "tools": {}
-  },
   "webex-mcp-server": {
     "category": "communication",
     "path": "communication/webex-mcp-server.json",
@@ -29128,65 +29001,6 @@
     "path": "databases/falkordb.json",
     "validated": false,
     "tools": {}
-  },
-  "redis-mcp": {
-    "category": "databases",
-    "path": "databases/redis-mcp.json",
-    "validated": true,
-    "tools": {
-      "hmset": {
-        "name": "hmset",
-        "description": "Set multiple hash fields to multiple values"
-      },
-      "hget": {
-        "name": "hget",
-        "description": "Get the value of a hash field"
-      },
-      "hgetall": {
-        "name": "hgetall",
-        "description": "Get all the fields and values in a hash"
-      },
-      "scan": {
-        "name": "scan",
-        "description": "Scan Redis keys matching a pattern"
-      },
-      "set": {
-        "name": "set",
-        "description": "Set string value with optional NX (only if not exists) and PX (expiry in milliseconds) options"
-      },
-      "get": {
-        "name": "get",
-        "description": "Get string value"
-      },
-      "del": {
-        "name": "del",
-        "description": "Delete a key"
-      },
-      "zadd": {
-        "name": "zadd",
-        "description": "Add one or more members to a sorted set"
-      },
-      "zrange": {
-        "name": "zrange",
-        "description": "Return a range of members from a sorted set by index"
-      },
-      "zrangebyscore": {
-        "name": "zrangebyscore",
-        "description": "Return members from a sorted set with scores between min and max"
-      },
-      "zrem": {
-        "name": "zrem",
-        "description": "Remove one or more members from a sorted set"
-      },
-      "sadd": {
-        "name": "sadd",
-        "description": "Add one or more members to a set"
-      },
-      "smembers": {
-        "name": "smembers",
-        "description": "Get all members in a set"
-      }
-    }
   },
   "schemaflow": {
     "category": "databases",
@@ -43442,5 +43256,125 @@
     "path": "other-tools-and-integrations/google-forms.json",
     "validated": false,
     "tools": {}
+  },
+  "@ifmelate/n8n-workflow-builder-mcp": {
+    "category": "aggregators",
+    "path": "aggregators/n8n-workflow-builder-mcp.json",
+    "tools": {},
+    "validated": false
+  },
+  "@nikolausm/huggingface-mcp-server": {
+    "category": "art-and-culture",
+    "path": "art-and-culture/huggingface-mcp-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "@jar285/mcp-discord": {
+    "category": "communication",
+    "path": "communication/mcp-discord.json",
+    "tools": {},
+    "validated": false
+  },
+  "@jeroensmink98/telegram-mcp": {
+    "category": "communication",
+    "path": "communication/telegram-mcp.json",
+    "tools": {},
+    "validated": false
+  },
+  "@v4lheru/trello-mcp-server": {
+    "category": "communication",
+    "path": "communication/v4lheru-trello-mcp-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "@mumunha/cal_dot_com_mcpserver": {
+    "category": "communication",
+    "path": "communication/cal-com-calendar.json",
+    "tools": {},
+    "validated": false
+  },
+  "@Bob-lance/instagram-engagement-mcp": {
+    "category": "communication",
+    "path": "communication/instagram-engagement-mcp.json",
+    "tools": {},
+    "validated": false
+  },
+  "@domdomegg/airtable-mcp-server": {
+    "category": "databases",
+    "path": "databases/airtable-mcp-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "@farhankaz/redis-mcp": {
+    "category": "databases",
+    "path": "databases/redis-mcp.json",
+    "tools": {},
+    "validated": false
+  },
+  "@mcp-postgres-server": {
+    "category": "databases",
+    "path": "databases/mcp-postgres-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "@mcp-mongodb-atlas": {
+    "category": "databases",
+    "path": "databases/mcp-mongodb-atlas.json",
+    "tools": {},
+    "validated": false
+  },
+  "@toolprint/mcp-graphql-forge": {
+    "category": "data-platforms",
+    "path": "data-platforms/mcp-graphql-forge.json",
+    "tools": {},
+    "validated": false
+  },
+  "@amgadabdelhafez/dbx-mcp-server": {
+    "category": "file-systems",
+    "path": "file-systems/dbx-mcp-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "@paypal/agent-toolkit": {
+    "category": "finance-fintech",
+    "path": "finance-fintech/paypal-mcp-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "@stripe/agent-toolkit/tree/main/modelcontextprotocol": {
+    "category": "finance-fintech",
+    "path": "finance-fintech/stripe-mcp.json",
+    "tools": {},
+    "validated": false
+  },
+  "@Dishant27/linkedin-mcp-server": {
+    "category": "marketing",
+    "path": "marketing/linkedin-mcp-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "@cosmix/jira-mcp": {
+    "category": "support-service-management",
+    "path": "support-service-management/cosmix-jira-mcp.json",
+    "tools": {},
+    "validated": false
+  },
+  "@yoda-digital/mcp-gitlab-server": {
+    "category": "version-control",
+    "path": "version-control/mcp-gitlab-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "@EvalsOne/mcp-connect": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/mcp-connect.json",
+    "tools": {},
+    "validated": false
+  },
+  "@lkm1developer/google-docs-mcp-server": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/google-docs-mcp-server.json",
+    "tools": {},
+    "validated": false
   }
 }
