@@ -1,0 +1,32 @@
+{
+  "type": "mcp-server",
+  "logo": "https://www.gstatic.com/marketing-cms/assets/images/43/09/e8c725b745a6a588b1f27e51a4a1/google-docs.webp",
+  "packageName": "@lkm1developer/google-docs-mcp-server",
+  "description": "A powerful Model Context Protocol (MCP) server implementation for seamless Google Docs API integration, enabling AI assistants to create, read, update, and manage Google Docs.",
+  "url": "https://github.com/lkm1developer/google-docs-mcp-server/tree/master/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "GOOGLE_CLOUD_PROJECT_ID": {
+      "description": "your-project-id",
+      "required": true
+    },
+    "GOOGLE_API_KEY": {
+      "description": "your-api-key",
+      "required": true
+    },
+    "CLIENT_ID": {
+      "description": "your-oauth-client-id",
+      "required": true
+    },
+    "CLIENT_SECRET": {
+      "description": "your-oauth-client-secret",
+      "required": true
+    },
+    "REFRESH_TOKEN": {
+      "description": "your-oauth-refresh-token",
+      "required": true
+    }
+  },
+  "name": "Google Docs MCP Server"
+}
