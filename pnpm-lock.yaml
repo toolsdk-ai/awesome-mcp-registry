@@ -2541,6 +2541,10 @@ packages:
     resolution: {integrity: sha512-t8og+lRCIIy5nlId0bScNpCkif8sc0LhmtaKsbm0ZPm3sCa/WhCbSZibjbZ28FNjVCV+p0D9RYZx0VDDbtWyjw==}
     engines: {node: '>=18.0.0'}
 
+  '@aws-sdk/region-config-resolver@3.840.0':
+    resolution: {integrity: sha512-Qjnxd/yDv9KpIMWr90ZDPtRj0v75AqGC92Lm9+oHXZ8p1MjG5JE2CW0HL8JRgK9iKzgKBL7pPQRXI8FkvEVfrA==}
+    engines: {node: '>=18.0.0'}
+
   '@aws-sdk/s3-request-presigner@3.837.0':
     resolution: {integrity: sha512-h/D/cqeciBPGFSHIHRQm0q/CDvToV4rUoPef3tWzYtfoKzqfYaqRO175FnDv/4XgOYpdoqv6q36bx8KueVQ62w==}
     engines: {node: '>=18.0.0'}
@@ -5705,32 +5709,32 @@ packages:
     resolution: {integrity: sha512-PE5U1py8lj2TjgB705H6ENl/khQAjEskQ+HzfqGhYZ2xXO9DC7meJahbxa8NyEh5vLXweKc0Inj3tLtGpL88uQ==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-cli@0.16.1':
-    resolution: {integrity: sha512-Y8EKrCQz8mO6/267UpQ4y94PB/WqTIDG0jQ/puyV2LoQWQzjwTr3ORMLAgfDHoxkhqOPldzlNs4s+DzYDsp8tw==}
+  '@modelcontextprotocol/inspector-cli@0.16.2':
+    resolution: {integrity: sha512-CqxrElv3RJBVGrJ9QIQ/Elw5z7f+SltxOzk0OI4KOb1IdkZ+4RNVnfvTD8Ius+dvVGpKZooQma2yZj34AKj3XQ==}
     hasBin: true
 
   '@modelcontextprotocol/inspector-client@0.10.2':
     resolution: {integrity: sha512-gZfdkhtLEVjQslzKyyxTppm4iV2psuw6hkTtx+RULEopj+0dwE3mX4Ddl4uGcrz6eNv0bj/u7DE6azISIHSGXA==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-client@0.16.1':
-    resolution: {integrity: sha512-ysbsCsBGhceADF3wBmjM/xnZV5xuzh2GcyF1GnF5AYzhr62qSkurMFXlSLClP6fyy95NW9QLQBhNpdR+3le2Dw==}
+  '@modelcontextprotocol/inspector-client@0.16.2':
+    resolution: {integrity: sha512-urS9dnT2gwMMQA5/E2cjwRC4S119xPTRKckQ751C+GtS6mtVmpvKHHh7CeKnb3SXB/3kak63dl4cPb6uW8AvnA==}
     hasBin: true
 
   '@modelcontextprotocol/inspector-server@0.10.2':
     resolution: {integrity: sha512-VXXMIdOlzyZ0eGG22glkfMH1cWOoHqrgEN6QvFaleXvRSaCp5WVe3M2gLXOyHRFVHimrDWKsGB0NjeXxb6xYuw==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-server@0.16.1':
-    resolution: {integrity: sha512-niwKEZAK8jREUoioLuvCG59/7rbonlLa7qs4Bcx448m8vpTtsSRIGJum6TObZCx5/JWdngXBqoPBwjkNnf1eHQ==}
+  '@modelcontextprotocol/inspector-server@0.16.2':
+    resolution: {integrity: sha512-bnns/7q7s2NKU2BbwNIgw9QegaJ5eVcxjbnzsxWXUE9LqdLCLw1LTUs/E2bh+w0PTvE5pO2G1XMzoSFXsjG89Q==}
     hasBin: true
 
   '@modelcontextprotocol/inspector@0.10.2':
     resolution: {integrity: sha512-P/ag1MJz7mdOpmlE5OUozehzw0AYDi1cuXUctcPBpNvbufpnmmIwpD79I0lN41ydH1vnH4c8MTork75KWmP/hQ==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector@0.16.1':
-    resolution: {integrity: sha512-QbNAozion5x4aBbA/X75P0zOQBJHO1JIhHa0GS/6qXU3limpswRYACa8N57QmFi/D+JIx0qqfoyraPi8POwCuw==}
+  '@modelcontextprotocol/inspector@0.16.2':
+    resolution: {integrity: sha512-D7/DXVfvp+5e9Z2N2wFKe48TQx39FPpOg2jPWL0aK6vVNY0kBFFB9VX5QqNTN3ZADOyU4ukjMCJ5URXdKzSJfQ==}
     engines: {node: '>=22.7.5'}
     hasBin: true
 
@@ -8476,6 +8480,10 @@ packages:
     resolution: {integrity: sha512-AMtBR5pHppYMVD7z7G+OlHHAcgAN7v0kVKEpHuTO4Gb199Gowh0taYi9oDStFeUhetkeP55JLSVlTW1n9rFtUw==}
     engines: {node: '>=18.0.0'}
 
+  '@smithy/fetch-http-handler@5.1.0':
+    resolution: {integrity: sha512-mADw7MS0bYe2OGKkHYMaqarOXuDwRbO6ArD91XhHcl2ynjGCFF+hvqf0LyQcYxkA1zaWjefSkU7Ne9mqgApSgQ==}
+    engines: {node: '>=18.0.0'}
+
   '@smithy/hash-blob-browser@4.0.4':
     resolution: {integrity: sha512-WszRiACJiQV3QG6XMV44i5YWlkrlsM5Yxgz4jvsksuu7LDXA6wAtypfPajtNTadzpJy3KyJPoWehYpmZGKUFIQ==}
     engines: {node: '>=18.0.0'}
@@ -8542,6 +8550,10 @@ packages:
 
   '@smithy/node-http-handler@4.0.6':
     resolution: {integrity: sha512-NqbmSz7AW2rvw4kXhKGrYTiJVDHnMsFnX4i+/FzcZAfbOBauPYs2ekuECkSbtqaxETLLTu9Rl/ex6+I2BKErPA==}
+    engines: {node: '>=18.0.0'}
+
+  '@smithy/node-http-handler@4.1.0':
+    resolution: {integrity: sha512-vqfSiHz2v8b3TTTrdXi03vNz1KLYYS3bhHCDv36FYDqxT7jvTll1mMnCrkD+gOvgwybuunh/2VmvOMqwBegxEg==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/property-provider@4.0.4':
@@ -8670,6 +8682,10 @@ packages:
 
   '@smithy/util-stream@4.2.2':
     resolution: {integrity: sha512-aI+GLi7MJoVxg24/3J1ipwLoYzgkB4kUfogZfnslcYlynj3xsQ0e7vk4TnTro9hhsS5PvX1mwmkRqqHQjwcU7w==}
+    engines: {node: '>=18.0.0'}
+
+  '@smithy/util-stream@4.2.3':
+    resolution: {integrity: sha512-cQn412DWHHFNKrQfbHY8vSFI3nTROY1aIKji9N0tpp8gUABRilr7wdf8fqBbSlXresobM+tQFNk6I+0LXK/YZg==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/util-uri-escape@1.1.0':
@@ -10778,6 +10794,12 @@ packages:
   aws-sign2@0.7.0:
     resolution: {integrity: sha512-08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==}
 
+  aws-sign@0.2.0:
+    resolution: {integrity: sha512-6P7/Ls5F6++DsKu7iacris7qq/AZSWaX+gT4dtSyUxM82ePxWxaP7Slo82ZO3ZTx6GSKxQHAQlmFvM8e+Dd8ZA==}
+
+  aws-sign@0.3.0:
+    resolution: {integrity: sha512-pEMJAknifcXqXqYVXzGPIu8mJvxtJxIdpVpAs8HNS+paT+9srRUDMQn+3hULS7WbLmttcmvgMvnDcFujqXJyPw==}
+
   aws-ssl-profiles@1.1.2:
     resolution: {integrity: sha512-NZKeq9AfyQvEeNlN0zSYAaWrmBffJh3IELMZfRpJVWgrpEbtEpnjvzqBPf+mxoI287JohRDoa+/nsfqqiZmF6g==}
     engines: {node: '>= 6.0.0'}
@@ -11118,6 +11140,16 @@ packages:
   boolean@3.2.0:
     resolution: {integrity: sha512-d0II/GO9uf9lfUHH2BQsjxzRJZBdsjgsBiW4BvhWk/3qoKwQFjIDVN19PfX8F2D/r9PCMTtLWjYVCFrpeYUzsw==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
+  boom@0.3.8:
+    resolution: {integrity: sha512-wTAE8aPTB971DLEE1Xfaw/5uSDqm7wGEJqUIza150BTelZieRvvzkLZO7fK3BeaiYClpJ5OYunQHqp5Jp7xrSQ==}
+    engines: {node: 0.8.x}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+
+  boom@0.4.2:
+    resolution: {integrity: sha512-OvfN8y1oAxxphzkl2SnCS+ztV/uVKTATtgLjWYg/7KwcNyf3rzpHxNQJZCKtsZd4+MteKczhWbSjtEX4bGgU9g==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
 
   boom@2.10.1:
     resolution: {integrity: sha512-KbiZEa9/vofNcVJXGwdWWn25reQ3V3dHBWbS07FTF3/TOehLnm9GEhJV4T6ZvGPkShRpmUqYwnaCrkj0mRnP6Q==}
@@ -11976,6 +12008,10 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
+  concat-stream@1.4.11:
+    resolution: {integrity: sha512-X3JMh8+4je3U1cQpG87+f9lXHDrqcb2MVLg9L7o8b1UZ0DzhRrUpdn65ttzu10PpJPPI3MQNkis+oha6TSA9Mw==}
+    engines: {'0': node >= 0.8}
+
   concat-stream@1.5.2:
     resolution: {integrity: sha512-H6xsIBfQ94aESBG8jGHXQ7i5AEpy5ZeVaLDOisDICiTCKpqEfr34/KmTrspKQNoLKNu9gTkovlpQcUi630AKiQ==}
     engines: {'0': node >= 0.8}
@@ -12266,6 +12302,16 @@ packages:
 
   crypt@0.0.2:
     resolution: {integrity: sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==}
+
+  cryptiles@0.1.3:
+    resolution: {integrity: sha512-YI0PphzKlfxoNvaUPpkf8x+TUssMJimL1pPIEgj+8WSx0PQtfesYms/dua8Rn+KZWqoCL4AxcxHZJS9nd/oLPw==}
+    engines: {node: 0.8.x}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+
+  cryptiles@0.2.2:
+    resolution: {integrity: sha512-gvWSbgqP+569DdslUiCelxIv3IYK5Lgmq1UrRnk+s1WxQOQ16j3GPDcjdtgL5Au65DU/xQi6q3xPtf5Kta+3IQ==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
 
   cryptiles@2.0.5:
     resolution: {integrity: sha512-FFN5KwpvvQTTS5hWPxrU8/QE4kQUc6uwZcrnlMBN82t1MgAtq8mnoDwINBly9Tdr02seeIIhtdF+UH1feBYGog==}
@@ -12819,6 +12865,10 @@ packages:
   delay@6.0.0:
     resolution: {integrity: sha512-2NJozoOHQ4NuZuVIr5CWd0iiLVIRSDepakaovIN+9eIDHEhdCAEvSy2cuf1DCrPPQLvHmbqTHODlhHg8UCy4zw==}
     engines: {node: '>=16'}
+
+  delayed-stream@0.0.5:
+    resolution: {integrity: sha512-v+7uBd1pqe5YtgPacIIbZ8HuHeLFVNe4mUEyFDXL6KiqzEykjbw+5mXZXpGFgNVasdL4jWKgaKIXrEHiynN1LA==}
+    engines: {node: '>=0.4.0'}
 
   delayed-stream@1.0.0:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
@@ -15885,6 +15935,9 @@ packages:
   is@3.3.0:
     resolution: {integrity: sha512-nW24QBoPcFGGHJGUwnfpI7Yc5CdqWNdsyHQszVE/z2pKHXzh7FZ5GWhJqSyaQ9wMkQnsTx+kAI8bHlCX4tKdbg==}
 
+  isarray@0.0.1:
+    resolution: {integrity: sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==}
+
   isarray@1.0.0:
     resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
 
@@ -16323,6 +16376,9 @@ packages:
   just-performance@4.3.0:
     resolution: {integrity: sha512-L7RjvtJsL0QO8xFs5wEoDDzzJwoiowRw6Rn/GnvldlchS2JQr9wFYPiwZcDfrbbujEKqKN0tvENdbjXdYhDp5Q==}
 
+  jwa@1.0.2:
+    resolution: {integrity: sha512-3InPmrUtackTvLXsoN6NtvgNMYDUd+dFQJ3od4GmMonXIPpxV9AYl4LyH/7Pb9GwaXtBpwVgAu8ue+uVrG65Lg==}
+
   jwa@1.4.2:
     resolution: {integrity: sha512-eeH5JO+21J78qMvTIDdBXidBd6nG2kZjg5Ohz/1fpa28Z4CcsWUzJ1ZZyFq/3z3N17aZy+ZuBoHljASbL1WfOw==}
 
@@ -16751,6 +16807,9 @@ packages:
 
   lodash.defaults@4.2.0:
     resolution: {integrity: sha512-qjxPLHd3r5DnsdGacqOMU6pb/avJzdh9tFX2ymgoZE27BmjXrNy/y4LoaiTeAb+O3gL8AfpJGtqfX/ae2leYYQ==}
+
+  lodash.defaultsdeep@4.6.1:
+    resolution: {integrity: sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==}
 
   lodash.difference@4.5.0:
     resolution: {integrity: sha512-dS2j+W26TQ7taQBGN8Lbbq04ssV3emRw4NY58WErlTO29pIqS0HmoT5aJ9+TUQ1N3G+JOZSji4eugsWwGp9yPA==}
@@ -18523,6 +18582,9 @@ packages:
 
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
+
+  node-rsa@0.2.30:
+    resolution: {integrity: sha512-Tg5XrlbigFm6rek1UoIIPRHRbisJL8MhVvzx6xl/bNMaW3qRKQYJSswHsQOnoa/zTLaRG/uKht+XisA71P8U4Q==}
 
   node-rsa@0.4.2:
     resolution: {integrity: sha512-Bvso6Zi9LY4otIZefYrscsUpo2mUpiAVIEmSZV2q41sP8tHZoert3Yu6zv4f/RXJqMNZQKCtnhDugIuCma23YA==}
@@ -21494,6 +21556,16 @@ packages:
   snappyjs@0.6.1:
     resolution: {integrity: sha512-YIK6I2lsH072UE0aOFxxY1dPDCS43I5ktqHpeAsuLNYWkE5pGxRGWfDM4/vSUfNzXjC1Ivzt3qx31PCLmc9yqg==}
 
+  sntp@0.1.4:
+    resolution: {integrity: sha512-v90tkW8VIdXwY35BJAWIpZWd/h+WC7TufizgUO2jtOY21isIo8IP85f1zJ8mKF8o77Vxo5k+GJmUZ4H6phVt1g==}
+    engines: {node: 0.8.x}
+    deprecated: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+
+  sntp@0.2.4:
+    resolution: {integrity: sha512-bDLrKa/ywz65gCl+LmOiIhteP1bhEsAAzhfMedPoiHP3dyYnAevlaJshdqb9Yu0sRifyP/fRqSt8t+5qGIWlGQ==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+
   sntp@1.0.9:
     resolution: {integrity: sha512-7bgVOAnPj3XjrKY577S+puCKGCRlUrcrEdsMeRXlg9Ghf5df/xNi6sONUa43WrHUd3TjJBF7O04jYoiY0FVa0A==}
     engines: {node: '>=0.8.0'}
@@ -22322,6 +22394,9 @@ packages:
   tiny-secp256k1@2.2.4:
     resolution: {integrity: sha512-FoDTcToPqZE454Q04hH9o2EhxWsm7pOSpicyHkgTwKhdKWdsTUuqfP5MLq3g+VjAtl2vSx6JpXGdwA2qpYkI0Q==}
     engines: {node: '>=14.0.0'}
+
+  tiny-warning@1.0.3:
+    resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
 
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
@@ -24346,12 +24421,12 @@ snapshots:
 
   '@agent-infra/logger@0.0.2-beta.2': {}
 
-  '@agentek/mcp-server@0.1.20(viem@2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.67)':
+  '@agentek/mcp-server@0.1.20(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67))(zod@3.25.67)':
     dependencies:
-      '@agentek/tools': 0.1.15(viem@2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.67)
+      '@agentek/tools': 0.1.15(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67))(zod@3.25.67)
       '@modelcontextprotocol/sdk': 1.7.0
       node-fetch: 3.3.2
-      viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
+      viem: 1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
     transitivePeerDependencies:
@@ -24360,7 +24435,7 @@ snapshots:
   '@agentek/tools@0.1.15(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67))(zod@3.25.67)':
     dependencies:
       cheerio: 1.1.0
-      viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
+      viem: 1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
       zod: 3.25.67
 
   '@ahdev/dokploy-mcp@1.3.4':
@@ -26224,6 +26299,15 @@ snapshots:
       '@smithy/util-middleware': 4.0.4
       tslib: 2.8.1
 
+  '@aws-sdk/region-config-resolver@3.840.0':
+    dependencies:
+      '@aws-sdk/types': 3.840.0
+      '@smithy/node-config-provider': 4.1.3
+      '@smithy/types': 4.3.1
+      '@smithy/util-config-provider': 4.0.0
+      '@smithy/util-middleware': 4.0.4
+      tslib: 2.8.1
+
   '@aws-sdk/s3-request-presigner@3.837.0':
     dependencies:
       '@aws-sdk/signature-v4-multi-region': 3.835.0
@@ -27818,7 +27902,7 @@ snapshots:
       graphql-request: 6.1.0(encoding@0.1.13)(graphql@16.11.0)
       pako: 2.1.0
       ts-pattern: 5.7.1
-      viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
+      viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
     transitivePeerDependencies:
       - encoding
       - typescript
@@ -30316,7 +30400,7 @@ snapshots:
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       qs: 6.12.0
       siwe: 3.0.0(ethers@6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
+      viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
     transitivePeerDependencies:
       - debug
 
@@ -31362,7 +31446,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@modelcontextprotocol/inspector-cli@0.16.1':
+  '@modelcontextprotocol/inspector-cli@0.16.2':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.0
       commander: 13.1.0
@@ -31402,7 +31486,7 @@ snapshots:
       - supports-color
       - tailwindcss
 
-  '@modelcontextprotocol/inspector-client@0.16.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))':
+  '@modelcontextprotocol/inspector-client@0.16.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.0
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -31447,7 +31531,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector-server@0.16.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector-server@0.16.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.0
       cors: 2.8.5
@@ -31482,11 +31566,11 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector@0.16.1(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector@0.16.2(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/inspector-cli': 0.16.1
-      '@modelcontextprotocol/inspector-client': 0.16.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))
-      '@modelcontextprotocol/inspector-server': 0.16.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/inspector-cli': 0.16.2
+      '@modelcontextprotocol/inspector-client': 0.16.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))
+      '@modelcontextprotocol/inspector-server': 0.16.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.17.0
       concurrently: 9.2.0
       open: 10.1.2
@@ -35451,6 +35535,14 @@ snapshots:
       '@smithy/util-base64': 4.0.0
       tslib: 2.8.1
 
+  '@smithy/fetch-http-handler@5.1.0':
+    dependencies:
+      '@smithy/protocol-http': 5.1.2
+      '@smithy/querystring-builder': 4.0.4
+      '@smithy/types': 4.3.1
+      '@smithy/util-base64': 4.0.0
+      tslib: 2.8.1
+
   '@smithy/hash-blob-browser@4.0.4':
     dependencies:
       '@smithy/chunked-blob-reader': 5.0.0
@@ -35566,6 +35658,14 @@ snapshots:
       tslib: 2.8.1
 
   '@smithy/node-http-handler@4.0.6':
+    dependencies:
+      '@smithy/abort-controller': 4.0.4
+      '@smithy/protocol-http': 5.1.2
+      '@smithy/querystring-builder': 4.0.4
+      '@smithy/types': 4.3.1
+      tslib: 2.8.1
+
+  '@smithy/node-http-handler@4.1.0':
     dependencies:
       '@smithy/abort-controller': 4.0.4
       '@smithy/protocol-http': 5.1.2
@@ -35772,6 +35872,17 @@ snapshots:
     dependencies:
       '@smithy/fetch-http-handler': 5.0.4
       '@smithy/node-http-handler': 4.0.6
+      '@smithy/types': 4.3.1
+      '@smithy/util-base64': 4.0.0
+      '@smithy/util-buffer-from': 4.0.0
+      '@smithy/util-hex-encoding': 4.0.0
+      '@smithy/util-utf8': 4.0.0
+      tslib: 2.8.1
+
+  '@smithy/util-stream@4.2.3':
+    dependencies:
+      '@smithy/fetch-http-handler': 5.1.0
+      '@smithy/node-http-handler': 4.1.0
       '@smithy/types': 4.3.1
       '@smithy/util-base64': 4.0.0
       '@smithy/util-buffer-from': 4.0.0
@@ -36997,8 +37108,7 @@ snapshots:
     dependencies:
       '@types/node': 22.15.33
 
-  '@types/retry@0.12.0':
-    optional: true
+  '@types/retry@0.12.0': {}
 
   '@types/retry@0.12.2': {}
 
@@ -38925,6 +39035,10 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
+  aws-sign@0.2.0: {}
+
+  aws-sign@0.3.0: {}
+
   aws-ssl-profiles@1.1.2: {}
 
   aws4@1.12.0: {}
@@ -40567,6 +40681,12 @@ snapshots:
 
   concat-map@0.0.1: {}
 
+  concat-stream@1.4.11:
+    dependencies:
+      inherits: 2.0.4
+      readable-stream: 1.1.14
+      typedarray: 0.0.6
+
   concat-stream@1.5.2:
     dependencies:
       inherits: 2.0.4
@@ -40894,11 +41014,11 @@ snapshots:
 
   cron-parser@4.9.0:
     dependencies:
-      luxon: 3.6.1
+      luxon: 3.7.1
 
   cron-parser@5.3.0:
     dependencies:
-      luxon: 3.6.1
+      luxon: 3.7.1
 
   cron-schedule@5.0.4: {}
 
@@ -40945,6 +41065,14 @@ snapshots:
       uncrypto: 0.1.3
 
   crypt@0.0.2: {}
+
+  cryptiles@0.1.3:
+    dependencies:
+      boom: 0.3.8
+
+  cryptiles@0.2.2:
+    dependencies:
+      boom: 0.4.2
 
   cryptiles@2.0.5:
     dependencies:
@@ -41558,6 +41686,8 @@ snapshots:
       robust-predicates: 3.0.2
 
   delay@6.0.0: {}
+
+  delayed-stream@0.0.5: {}
 
   delayed-stream@1.0.0: {}
 
@@ -42775,7 +42905,7 @@ snapshots:
       '@types/luxon': 3.6.2
       batch-cluster: 13.0.0
       he: 1.2.0
-      luxon: 3.6.1
+      luxon: 3.7.1
     optionalDependencies:
       exiftool-vendored.exe: 13.26.0
       exiftool-vendored.pl: 13.26.0
@@ -42975,7 +43105,7 @@ snapshots:
 
   fastmcp@1.27.7(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.15.1
+      '@modelcontextprotocol/sdk': 1.17.0
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 20.5.0
@@ -45518,6 +45648,8 @@ snapshots:
 
   is@3.3.0: {}
 
+  isarray@0.0.1: {}
+
   isarray@1.0.0: {}
 
   isarray@2.0.5: {}
@@ -46164,6 +46296,12 @@ snapshots:
 
   just-performance@4.3.0: {}
 
+  jwa@1.0.2:
+    dependencies:
+      base64url: 0.0.6
+      buffer-equal-constant-time: 1.0.1
+      ecdsa-sig-formatter: 1.0.11
+
   jwa@1.4.2:
     dependencies:
       buffer-equal-constant-time: 1.0.1
@@ -46708,6 +46846,8 @@ snapshots:
   lodash.debounce@4.0.8: {}
 
   lodash.defaults@4.2.0: {}
+
+  lodash.defaultsdeep@4.6.1: {}
 
   lodash.difference@4.5.0: {}
 
@@ -47416,7 +47556,7 @@ snapshots:
 
   mcp-firebird@2.2.2(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(encoding@0.1.13)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/inspector': 0.16.1(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/inspector': 0.16.2(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.15.0
       cors: 2.8.5
       dotenv: 16.6.1
@@ -47827,7 +47967,7 @@ snapshots:
       cross-env: 7.0.3
       dotenv: 16.6.1
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67)
+      viem: 2.31.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - bufferutil
@@ -49608,6 +49748,11 @@ snapshots:
 
   node-releases@2.0.19: {}
 
+  node-rsa@0.2.30:
+    dependencies:
+      asn1: 0.2.3
+      lodash: 3.3.0
+
   node-rsa@0.4.2:
     dependencies:
       asn1: 0.2.3
@@ -50492,7 +50637,6 @@ snapshots:
     dependencies:
       '@types/retry': 0.12.0
       retry: 0.13.1
-    optional: true
 
   p-retry@6.2.1:
     dependencies:
@@ -53549,6 +53693,14 @@ snapshots:
 
   snappyjs@0.6.1: {}
 
+  sntp@0.1.4:
+    dependencies:
+      hoek: 0.7.6
+
+  sntp@0.2.4:
+    dependencies:
+      hoek: 0.9.1
+
   sntp@1.0.9:
     dependencies:
       hoek: 2.16.3
@@ -54666,6 +54818,8 @@ snapshots:
     dependencies:
       uint8array-tools: 0.0.7
 
+  tiny-warning@1.0.3: {}
+
   tinybench@2.9.0: {}
 
   tinycolor2@1.6.0: {}
@@ -55666,8 +55820,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  uuid@10.0.0:
-    optional: true
+  uuid@10.0.0: {}
 
   uuid@11.1.0: {}
 
