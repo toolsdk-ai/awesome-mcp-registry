@@ -98,7 +98,7 @@ async function addStar(token?: string, forceUpdate = false): Promise<void> {
  * GITHUB_TOKEN=your_token node scripts/add-star.js --force
  */
 async function main() {
-  const token = process.env.GITHUB_TOKEN || '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';
+  const token = process.env.GITHUB_TOKEN || '';
   const forceUpdate = process.argv.includes('--force');
 
   if (!token) {
