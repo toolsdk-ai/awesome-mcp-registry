@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Forms_2020_Logo.svg/800px-Google_Forms_2020_Logo.svg.png",
+  "logo": "https://www.gstatic.com/marketing-cms/assets/images/50/7a/8c35784d4710bcf02c439413c7e2/google-forms.webp",
   "packageName": "@masatoshi118/mcp_google_froms",
   "description": "This MCP server uses the Google Forms API to provide functions such as form creation, editing, and response retrieval.",
   "url": "https://github.com/masatoshi118/mcp_google_froms/tree/main/src",

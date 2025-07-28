@@ -1,10 +1,11 @@
 {
   "type": "mcp-server",
-  "packageName": "redis-mcp",
+  "logo": "https://pbs.twimg.com/profile_images/1777412927425060864/kxNqq_Gc_400x400.jpg",
+  "packageName": "@farhankaz/redis-mcp",
   "description": "Bridge to Redis databases, enabling fast in-memory data operations for AI workflows.",
   "url": "https://github.com/farhankaz/redis-mcp",
   "runtime": "node",
-  "license": "unknown",
+  "license": "MIT",
   "env": {},
   "name": "Redis MCP",
   "stars": 6

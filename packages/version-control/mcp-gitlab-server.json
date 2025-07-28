@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "logo": "https://github.com/yoda-digital/mcp-gitlab-server/raw/main/assets/repo-logo.png",
+  "packageName": "@yoda-digital/mcp-gitlab-server",
+  "description": "A powerful Model Context Protocol (MCP) server for GitLab integration, enabling AI assistants to interact with your GitLab resources.",
+  "url": "https://github.com/yoda-digital/mcp-gitlab-server/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "GITLAB_PERSONAL_ACCESS_TOKEN": {
+      "description": "your_token_here",
+      "required": true
+    },
+    "GITLAB_API_URL": {
+      "description": "https://gitlab.com/api/v4",
+      "required": true
+    }
+  },
+  "name": "GitLab MCP Server"
+}

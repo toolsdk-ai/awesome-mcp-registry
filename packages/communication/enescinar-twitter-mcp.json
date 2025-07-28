@@ -1,10 +1,11 @@
 {
   "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_400x400.jpg",
   "packageName": "@enescinar/twitter-mcp",
   "description": "Interact with X (Twitter) by posting tweets and searching for tweets through the X API.",
   "url": "https://github.com/enescinr/twitter-mcp",
   "runtime": "node",
-  "license": "unknown",
+  "license": "MIT",
   "env": {
     "API_KEY": {
       "description": "your_api_key_here",
@@ -23,6 +24,6 @@
       "required": true
     }
   },
-  "name": "Twitter MCP",
+  "name": "X (Twitter) MCP",
   "stars": 253
 }
