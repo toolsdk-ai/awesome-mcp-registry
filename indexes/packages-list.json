@@ -43260,68 +43260,68 @@
   "@ifmelate/n8n-workflow-builder-mcp": {
     "category": "aggregators",
     "path": "aggregators/n8n-workflow-builder-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@nikolausm/huggingface-mcp-server": {
     "category": "art-and-culture",
     "path": "art-and-culture/huggingface-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@jar285/mcp-discord": {
     "category": "communication",
     "path": "communication/mcp-discord.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@jeroensmink98/telegram-mcp": {
     "category": "communication",
     "path": "communication/telegram-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@v4lheru/trello-mcp-server": {
     "category": "communication",
     "path": "communication/v4lheru-trello-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@mumunha/cal_dot_com_mcpserver": {
     "category": "communication",
     "path": "communication/cal-com-calendar.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@Bob-lance/instagram-engagement-mcp": {
     "category": "communication",
     "path": "communication/instagram-engagement-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@domdomegg/airtable-mcp-server": {
     "category": "databases",
     "path": "databases/airtable-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@farhankaz/redis-mcp": {
     "category": "databases",
     "path": "databases/redis-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@mcp-postgres-server": {
     "category": "databases",
     "path": "databases/mcp-postgres-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@mcp-mongodb-atlas": {
     "category": "databases",
     "path": "databases/mcp-mongodb-atlas.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@toolprint/mcp-graphql-forge": {
     "category": "data-platforms",
@@ -43332,49 +43332,55 @@
   "@amgadabdelhafez/dbx-mcp-server": {
     "category": "file-systems",
     "path": "file-systems/dbx-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@paypal/agent-toolkit": {
     "category": "finance-fintech",
     "path": "finance-fintech/paypal-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@stripe/agent-toolkit/tree/main/modelcontextprotocol": {
     "category": "finance-fintech",
     "path": "finance-fintech/stripe-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@Dishant27/linkedin-mcp-server": {
     "category": "marketing",
     "path": "marketing/linkedin-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@cosmix/jira-mcp": {
     "category": "support-service-management",
     "path": "support-service-management/cosmix-jira-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@yoda-digital/mcp-gitlab-server": {
     "category": "version-control",
     "path": "version-control/mcp-gitlab-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@EvalsOne/mcp-connect": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-connect.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@lkm1developer/google-docs-mcp-server": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/google-docs-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
+  },
+  "@cocal/google-calendar-mcp": {
+    "category": "communication",
+    "path": "communication/cocal-google-calendar-mcp.json",
+    "validated": false,
+    "tools": {}
   }
 }

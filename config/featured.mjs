@@ -24,7 +24,7 @@ export default [
   '@notionhq/notion-mcp-server',
   '@cocal/google-calendar-mcp',
   '@niledatabase/nile-mcp-server',
-  'Resend MCP Send Email',
+  '@toolsdk.ai/mcp-send-email',
   'linkedin-mcp-runner',
   'deepl-mcp-server',
   '@Tisik79/MCP-Facebook',
