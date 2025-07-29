@@ -14,14 +14,6 @@
     "PGRAPHQL_AUTH_HEADER": {
       "description": "Bearer your-token-here",
       "required": true
-    },
-    "SCHEMA_PATH": {
-      "description": "./schema.json",
-      "required": true
-    },
-    "PORT": {
-      "description": "3000",
-      "required": true
     }
   },
   "name": "MCP GraphQL Forge"

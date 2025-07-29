@@ -1,5 +1,6 @@
 {
   "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c_400x400.jpg",
   "packageName": "@notionhq/notion-mcp-server",
   "description": "Bridges to the Notion API for searching content, querying databases, and managing pages and comments without requiring complex API interaction code",
   "url": "https://github.com/makenotion/notion-mcp-server",
