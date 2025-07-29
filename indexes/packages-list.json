@@ -43326,8 +43326,8 @@
   "@toolprint/mcp-graphql-forge": {
     "category": "data-platforms",
     "path": "data-platforms/mcp-graphql-forge.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@amgadabdelhafez/dbx-mcp-server": {
     "category": "file-systems",
