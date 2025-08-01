@@ -18874,9 +18874,6 @@ packages:
     resolution: {integrity: sha512-y0W+X7Ppo7oZX6eovsRkuzcSM40Bicg2JEJkDJ4irIt1wsYAP5MLSNv+QAogO8xivMffw/9OvV3um1pxXgt1uA==}
     engines: {node: ^10.13.0 || >=12.0.0}
 
-  okay-error@1.0.2:
-    resolution: {integrity: sha512-jbaUyzfqiOlVmrqNzxJhjNwdB2zDCtXFfIfYz49CHemPbOldo6mA7iDELiSZJkbxYj4KCmS8GdmGE6hhcjZ+Qg==}
-
   okay-error@1.0.3:
     resolution: {integrity: sha512-1GZkj84Uw2STYhwcGhEkgvNXkremOEmTwSgufKm9CcprjwKFuF6md5f1CIvWJgtYlyfR6BbZYnjr6HCfhUuCpQ==}
 
@@ -34873,7 +34870,7 @@ snapshots:
       express: 5.1.0
       json-schema: 0.4.0
       lodash: 4.17.21
-      okay-error: 1.0.2
+      okay-error: 1.0.3
       openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       uuid: 11.1.0
       zod: 3.25.76
@@ -34892,7 +34889,7 @@ snapshots:
       express: 5.1.0
       json-schema: 0.4.0
       lodash: 4.17.21
-      okay-error: 1.0.2
+      okay-error: 1.0.3
       openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       uuid: 11.1.0
       zod: 3.25.76
@@ -36500,7 +36497,8 @@ snapshots:
     dependencies:
       '@types/node': 22.15.33
 
-  '@types/retry@0.12.0': {}
+  '@types/retry@0.12.0':
+    optional: true
 
   '@types/retry@0.12.2': {}
 
@@ -36568,7 +36566,8 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@types/uuid@10.0.0': {}
+  '@types/uuid@10.0.0':
+    optional: true
 
   '@types/uuid@9.0.8': {}
 
@@ -49565,8 +49564,6 @@ snapshots:
 
   oidc-token-hash@5.1.0: {}
 
-  okay-error@1.0.2: {}
-
   okay-error@1.0.3: {}
 
   ollama@0.5.16:
@@ -50085,6 +50082,7 @@ snapshots:
     dependencies:
       '@types/retry': 0.12.0
       retry: 0.13.1
+    optional: true
 
   p-retry@6.2.1:
     dependencies:
@@ -55270,7 +55268,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  uuid@10.0.0: {}
+  uuid@10.0.0:
+    optional: true
 
   uuid@11.1.0: {}
 
