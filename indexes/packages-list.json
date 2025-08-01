@@ -43382,5 +43382,31 @@
     "path": "communication/cocal-google-calendar-mcp.json",
     "validated": false,
     "tools": {}
+  },
+  "@kwp-lab/mcp-fetch": {
+    "category": "browser-automation",
+    "path": "browser-automation/kwp-lab-mcp-fetch.json",
+    "tools": {
+      "fetch": {
+        "name": "fetch",
+        "description": "Retrieves URLs from the Internet and extracts their content as markdown. If images are found, their URLs will be included in the response."
+      }
+    },
+    "validated": true
+  },
+  "@mem0/mcp-server": {
+    "category": "knowledge-memory",
+    "path": "knowledge-memory/mem0-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "add-memory": {
+        "name": "add-memory",
+        "description": "Add a new memory. This method is called everytime the user informs anything about themselves, their preferences, or anything that has any relevent information whcih can be useful in the future conversation. This can also be called when the user asks you to remember something."
+      },
+      "search-memories": {
+        "name": "search-memories",
+        "description": "Search through stored memories. This method is called ANYTIME the user asks anything."
+      }
+    }
   }
 }

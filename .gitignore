@@ -2,3 +2,13 @@
 node_modules
 logs
 dist
+
+# MCP Client Test
+mcp-server.log
+js-sandbox.log
+mcp-log.log
+terminal-security.json
+terminal-tool.json
+docs-config.json
+.clinerules-*
+doc/docs/*

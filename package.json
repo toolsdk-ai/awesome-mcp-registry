@@ -617,7 +617,9 @@
     "@pinkpixel/mcpollinations": "1.1.1",
     "pulsemcp-server": "0.1.2",
     "mcp-chain-of-draft-server": "1.1.0",
-    "a11y-mcp-server": "1.0.14"
+    "a11y-mcp-server": "1.0.14",
+    "@kwp-lab/mcp-fetch": "0.9.5",
+    "@mem0/mcp-server": "0.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",

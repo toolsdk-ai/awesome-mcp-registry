@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "@kwp-lab/mcp-fetch",
+  "description": "A Model Context Protocol server that provides web content fetching capabilities",
+  "url": "https://github.com/kwp-lab/mcp-fetch",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {},
+  "name": "MCP Fetch"
+}
