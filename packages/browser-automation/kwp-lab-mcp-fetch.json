@@ -5,5 +5,6 @@
   "url": "https://github.com/kwp-lab/mcp-fetch",
   "runtime": "node",
   "license": "MIT",
+  "env": {},
   "name": "MCP Fetch"
 }

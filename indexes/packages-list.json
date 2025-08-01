@@ -43386,13 +43386,13 @@
   "@kwp-lab/mcp-fetch": {
     "category": "browser-automation",
     "path": "browser-automation/kwp-lab-mcp-fetch.json",
-    "validated": true,
     "tools": {
       "fetch": {
         "name": "fetch",
         "description": "Retrieves URLs from the Internet and extracts their content as markdown. If images are found, their URLs will be included in the response."
       }
-    }
+    },
+    "validated": true
   },
   "@mem0/mcp-server": {
     "category": "knowledge-memory",
