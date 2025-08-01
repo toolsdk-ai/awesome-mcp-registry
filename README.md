@@ -1,12 +1,12 @@
 # Awesome MCP Registry
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4081-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4083-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 4081+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4083+ MCP servers.
 
 
 
@@ -104,7 +104,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (586)
+✅: Validated and runnable tools (588)
 
 ❌: Cannot be run by the MCP client (with mock environments variables (3495))
 
@@ -567,6 +567,7 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 - [❌ website-downloader-(windows)](https://github.com/angrysky56/mcp-windows-website-downloader): Windows-compatible website downloader for efficient web content retrieval and storage, leveraging asynchronous processing and concurrent downloads for tasks like web scraping and content archiving.  (python) 
 - [❌ website-to-markdown-converter](https://github.com/tolik-unicornrider/mcp_scraper): Converts web content to high-quality Markdown using Mozilla's Readability and TurndownService, enabling clean extraction of meaningful content from URLs or HTML files for analysis and document conversion.  (node) 
 - [❌ notte-browser](https://github.com/nottelabs/notte/tree/HEAD/packages/notte-mcp): Provides a bridge between AI and Notte's cloud browser technology, enabling web automation, scraping, and autonomous task completion on websites without direct browser management.  (python) 
+- [✅ @kwp-lab/mcp-fetch](https://github.com/kwp-lab/mcp-fetch): A Model Context Protocol server that provides web content fetching capabilities  (1 tools) (node) 
 - [✅ @modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/puppeteer): Navigate websites, fill forms, and capture screenshots programmatically.  (7 tools) (node) 
 - [❌ browser-scraping-&-search](https://github.com/raghu6798/browser_scrape_mcp): Enables web scraping, internet searching, and local file interactions through Playwright, Firecrawl, and Tavily integrations for comprehensive content retrieval and manipulation.  (python) 
 - [❌ computer-control-mcp](https://github.com/ab498/computer-control-mcp): Enables desktop automation through mouse control, keyboard input, screenshots, OCR, and window management for direct interaction with graphical user interfaces  (python) 
@@ -2626,6 +2627,7 @@ Store and query structured information for AI models to use across sessions.
 - [❌ glean](https://github.com/longyi1207/glean-mcp-server): Integrates Glean's search and chat APIs to enable natural language interactions with organizational knowledge bases and chatbots.  (node) 
 - [❌ mcp-codebase-insight](https://github.com/tosin2013/mcp-codebase-insight): Provides deep code analysis capabilities for software repositories, enabling pattern detection, architecture understanding, and knowledge management through a FastAPI server with Qdrant vector database integration.  (python) 
 - [❌ knowledge-base-retrieval](https://github.com/jeanibarz/knowledge-base-mcp-server): Integrates with knowledge bases to enable efficient content retrieval and vectorization for question answering and information retrieval tasks  (node) 
+- [✅ @mem0/mcp-server](https://github.com/mem0ai/mem0-mcp): A Model Context Protocol (MCP) server that provides memory storage and retrieval capabilities using Mem0. This tool allows you to store and search through memories, making it useful for maintaining context and making informed decisions based on past interactions.  (2 tools) (node) 
 - [❌ notion-(via-dify)](https://github.com/rickydata-indexer/notion_mcp_server): Bridges Cline and Notion knowledge bases via Dify API, enabling direct querying of Notion databases for seamless documentation access during coding.  (python) 
 - [❌ @orbit-logistics/notion-mcp-server](https://github.com/orbit-logistics/notion-mcp-server): Integrates with Notion API to enable natural language-driven content management, knowledge base interactions, and automated workspace operations.  (node) 
 - [❌ confluence-wiki](https://github.com/windiechai/confluence-wiki-mcp-server-extension): Bridges VSCode/Cursor with Confluence Wiki, enabling direct access and automatic conversion of wiki content to markdown format within AI conversations.  (node) 

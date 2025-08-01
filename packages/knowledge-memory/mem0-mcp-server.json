@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mem0/mcp-server",
+  "description": "A Model Context Protocol (MCP) server that provides memory storage and retrieval capabilities using Mem0. This tool allows you to store and search through memories, making it useful for maintaining context and making informed decisions based on past interactions.",
+  "url": "https://github.com/mem0ai/mem0-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "MEM0_API_KEY": {
+      "description": "YOUR-API-KEY-HERE",
+      "required": true  
+    }
+  },
+  "name": "Mem0 MCP Server"
+}

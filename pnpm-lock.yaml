@@ -389,6 +389,9 @@ importers:
       '@kunihiros/patsnap-mcp':
         specifier: 0.1.2
         version: 0.1.2
+      '@kwp-lab/mcp-fetch':
+        specifier: 0.9.5
+        version: 0.9.5(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10)
       '@kydycode/todoist-mcp-server-ext':
         specifier: 0.4.0
         version: 0.4.0(type-fest@4.41.0)
@@ -464,6 +467,9 @@ importers:
       '@melaodoidao/datagov-mcp-server':
         specifier: 0.1.1
         version: 0.1.1
+      '@mem0/mcp-server':
+        specifier: latest
+        version: 0.0.1(@anthropic-ai/sdk@0.56.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.8.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.62(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.202.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.8.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)))(@mistralai/mistralai@1.7.2(zod@3.25.67))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.50.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(jiti@2.4.2)(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(postcss@8.5.6)(redis@5.5.6)(sqlite3@5.1.7)(tsx@4.20.3)(typescript@5.8.3)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(yaml@2.8.0)
       '@metamcp/mcp-server-metamcp':
         specifier: 0.6.5
         version: 0.6.5
@@ -773,9 +779,6 @@ importers:
       '@tongxiao/common-search-mcp-server':
         specifier: 0.0.9
         version: 0.0.9
-      '@toolprint/mcp-graphql-forge':
-        specifier: latest
-        version: 0.1.0(encoding@0.1.13)
       '@toolsdk.ai/aws-ses-mcp':
         specifier: 1.0.1
         version: 1.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -4814,6 +4817,10 @@ packages:
     resolution: {integrity: sha512-aQIfHDq33ExsN4jP1NWGXhxgQ/wixs60gDiKO+XVMd8Mn0NWPWgc34ZQDTb2jKaUWQ7MuwoitXAsN2XVXNMpAw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
+  '@jest/expect-utils@29.7.0':
+    resolution: {integrity: sha512-GlsNBWiFQFCVi9QVSx7f5AgMeLxe9YCCs5PuP2O2LdjDAA8Jh9eX7lA1Jq/xdXw3Wb3hyvlFNfZIfcRetSzYcA==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
   '@jest/fake-timers@29.7.0':
     resolution: {integrity: sha512-q4DH1Ha4TTFPdxLsqDXK1d3+ioSL7yL5oCMJZgDYm6i+6CygW5E5xVr/D1HdsGxjt1ZWSfUAs9OxSB/BNelWrQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -5127,6 +5134,10 @@ packages:
   '@kurkle/color@0.3.4':
     resolution: {integrity: sha512-M5UknZPHRu3DEDWoipU6sE8PdkZ6Z/S+v4dD+Ke8IaNlpdSQah50lz1KtcFBa2vsdOnwbbnxJwVM4wty6udA5w==}
 
+  '@kwp-lab/mcp-fetch@0.9.5':
+    resolution: {integrity: sha512-0UK6fDofciq32U+D/KFZ2lJ6zNwIQl+sgPrkDGQWmjgk5p53xwkLp2xfY5Sc1HnQL4ieCW0juHMg4aUBgXMvQw==}
+    hasBin: true
+
   '@kwsites/file-exists@1.1.1':
     resolution: {integrity: sha512-m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==}
 
@@ -5431,6 +5442,10 @@ packages:
     resolution: {integrity: sha512-G/4t3vaHjbE+ERUpTvDO9DPMC72lnEI9edYyuhz8tw0pFXUu8KqF/129PFJ3gZ7Ruqr8tHw/s+1NafxTJs2CWw==}
     hasBin: true
 
+  '@mem0/mcp-server@0.0.1':
+    resolution: {integrity: sha512-jbAcu44J7p8XVSH4AydPckKQZpUQ4aAFFl50VR+9oXilgviZiph35kuR7eOSF9PR8NxOZ+W9LiirBxX26ijAbw==}
+    hasBin: true
+
   '@mendable/firecrawl-js@1.27.0':
     resolution: {integrity: sha512-Wm/9UTe1AjIeh/kwufXtoziL2JH0jQMcQ+HwsZkOiZCBPiCjykPNCneCQjfyem6aBC5n4j38ZrXSRvSl1owPeA==}
     engines: {node: '>=22.0.0'}
@@ -5666,6 +5681,10 @@ packages:
 
   '@modelcontextprotocol/sdk@1.17.0':
     resolution: {integrity: sha512-qFfbWFA7r1Sd8D697L7GkTd36yqDuTkvz0KfOGkgXR8EUhQn3/EDNIR/qUdQNMT8IjmasBvHWuXeisxtXTQT2g==}
+    engines: {node: '>=18'}
+
+  '@modelcontextprotocol/sdk@1.17.1':
+    resolution: {integrity: sha512-CPle1OQehbWqd25La9Ack5B07StKIxh4+Bf19qnpZKJC1oI22Y0czZHbifjw1UoczIfKBwBDAp/dFxvHG13B5A==}
     engines: {node: '>=18'}
 
   '@modelcontextprotocol/sdk@1.3.1':
@@ -7189,6 +7208,16 @@ packages:
     resolution: {integrity: sha512-runQjoXoue6REyKvbvoGYlhTaKongt7OOIrS4q09rN9OCn4hXf+bQ3rzRB55dAGybe+n/hhzWwyyrSNd39snww==}
     hasBin: true
 
+  '@qdrant/js-client-rest@1.13.0':
+    resolution: {integrity: sha512-bewMtnXlGvhhnfXsp0sLoLXOGvnrCM15z9lNlG0Snp021OedNAnRtKkerjk5vkOcbQWUmJHXYCuxDfcT93aSkA==}
+    engines: {node: '>=18.0.0', pnpm: '>=8'}
+    peerDependencies:
+      typescript: '>=4.7'
+
+  '@qdrant/openapi-typescript-fetch@1.2.6':
+    resolution: {integrity: sha512-oQG/FejNpItrxRHoyctYvT3rwGZOnK4jr3JdppO/c78ktDvkWiPXPHNsrDf33K9sZdRb6PR7gi4noIapu5q4HA==}
+    engines: {node: '>=18.0.0', pnpm: '>=8'}
+
   '@qpd-v/mcp-delete@0.1.0':
     resolution: {integrity: sha512-Bn7q4xZCEQlMHvE8Ygh1nmksPKKsd4PzFLW/DWx7HSSzsHTWIkBTz2Y6QGZPBXYbq54tt8I0Xt/ZxLzE/Ly4XQ==}
     hasBin: true
@@ -8190,6 +8219,9 @@ packages:
     deprecated: Ownership of this package is being transitioned to the AWS Powertools team to become the official MCP Server for AWS Powertools for Lambda.  This package will remain functional while we work on releasing the Official version.  Github links will take you to the Powertools project where you can stay up to date.
     hasBin: true
 
+  '@sevinf/maybe@0.5.0':
+    resolution: {integrity: sha512-ARhyoYDnY1LES3vYI0fiG6e9esWfTNcXcO6+MPJJXcnyMV3bim4lnFt45VXouV7y82F4x3YH8nOQ6VztuvUiWg==}
+
   '@shinshin86/mcp-simple-aivisspeech@0.1.3':
     resolution: {integrity: sha512-CkumXKWqOdNZit+cVmDvN7WXhl1wILd7Tdt4bXdDEQSpxBq0KbhnyBe7fTIJ1VHGbnw4lFKm0r+RhNTeBqJCqw==}
     engines: {node: '>=18.0.0'}
@@ -8972,10 +9004,6 @@ packages:
     resolution: {integrity: sha512-tQT5hQ1GQMgaDa0ggtV6GLMUzEtAEobNSmaNxo/+ZPFcV5qT9EziyUgbQd9HEWikgzZedqoKqf8PBK7IW762Yw==}
     hasBin: true
 
-  '@toolprint/mcp-graphql-forge@0.1.0':
-    resolution: {integrity: sha512-Ri7GNzuj+BIQuqFXQBpqPXEd9sfNxLEvpajdCxP64bXC8PNn+Wf/4X1njAP24O3m25w8Rwd9E69cPrMsXi2FjQ==}
-    hasBin: true
-
   '@toolsdk.ai/aws-ses-mcp@1.0.1':
     resolution: {integrity: sha512-GaJS0Br/MxZFu8ixrghjvRtrUE33z2DzggIDbQ03s/xLAFuHLoQcTj61QhzSqp82B1Pa41qY6LlOlux/DlHYLA==}
 
@@ -9265,6 +9293,9 @@ packages:
   '@types/istanbul-reports@3.0.4':
     resolution: {integrity: sha512-pk2B1NWalF9toCRu6gjBzR69syFjP4Od8WRAX+0mmf9lAjCRicLOWc+ZrxZHx/0XRjotgkF9t6iaMJ+aXcOdZQ==}
 
+  '@types/jest@29.5.14':
+    resolution: {integrity: sha512-ZN+4sdnLUbo8EVvVc2ao0GFW6oVrQRPn4K2lglySj7APvSrgzxHiNNK99us4WDMi57xxA2yggblIAMNhXOotLQ==}
+
   '@types/js-yaml@4.0.9':
     resolution: {integrity: sha512-k4MGaQl5TGo/iipqb2UDG2UwjXziSWkh0uysQelTlJpX1qGlpUZYm8PnO4DxG1qBomtJUdYJ6qR6xdIah10JLg==}
 
@@ -9298,8 +9329,8 @@ packages:
   '@types/luxon@3.6.2':
     resolution: {integrity: sha512-R/BdP7OxEMc44l2Ex5lSXHoIXTB2JLNa3y2QISIbr58U/YcsffyQrYW//hZSdrfxrjRZj3GcUoxMPGdO8gSYuw==}
 
-  '@types/luxon@3.7.0':
-    resolution: {integrity: sha512-zNduyjkTXTttOp0KUG7ueFORgq6eyFsjbCZ/B8UfrVmfkHD1V9xC9wN/Vk0XUg0R/k/aIX1NeFwZgwe5hsDXfA==}
+  '@types/luxon@3.7.1':
+    resolution: {integrity: sha512-H3iskjFIAn5SlJU7OuxUmTEpebK6TKB8rxZShDslBMZJ5u9S//KM1sbdAisiSrqwLQncVjnpi2OK2J51h+4lsg==}
 
   '@types/markdown-it@14.1.2':
     resolution: {integrity: sha512-promo4eFwuiW+TfGxhi+0x3czqTYJkG8qB17ZUJiVF10Xm7NLVRSLUsfRTU/6h1e24VvRnXCx+hG7li58lkzog==}
@@ -9470,6 +9501,9 @@ packages:
 
   '@types/sinonjs__fake-timers@8.1.5':
     resolution: {integrity: sha512-mQkU2jY8jJEF7YHjHvsQO8+3ughTL1mcnn96igfhONmR+fUPSKIkefQYpSe8bsly2Ep7oQbn/6VG5/9/0qcArQ==}
+
+  '@types/sqlite3@3.1.11':
+    resolution: {integrity: sha512-KYF+QgxAnnAh7DWPdNDroxkDI3/MspH1NMx6m/N/6fT1G6+jvsw4/ZePt8R8cr7ta58aboeTfYFBDxTJ5yv15w==}
 
   '@types/ssh2@1.15.5':
     resolution: {integrity: sha512-N1ASjp/nXH3ovBHddRJpli4ozpk6UdDYIX4RJWFa9L1YKnzdhTlVmiGHm4DZnj/jLbqZpes4aeR30EFGQtvhQQ==}
@@ -10661,6 +10695,9 @@ packages:
   axios@1.6.0:
     resolution: {integrity: sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==}
 
+  axios@1.7.7:
+    resolution: {integrity: sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==}
+
   axios@1.8.1:
     resolution: {integrity: sha512-NN+fvwH/kV01dYUQ3PTOZns4LWtWhOFCAhQ/pHb88WQ1hNe5V/dvFwc4VJcDL11LT9xSX0QtsR8sWUuyOuOq7g==}
 
@@ -11594,6 +11631,9 @@ packages:
   clone@2.1.2:
     resolution: {integrity: sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==}
     engines: {node: '>=0.8'}
+
+  cloudflare@4.5.0:
+    resolution: {integrity: sha512-fPcbPKx4zF45jBvQ0z7PCdgejVAPBBCZxwqk1k7krQNfpM07Cfj97/Q6wBzvYqlWXx/zt1S9+m8vnfCe06umbQ==}
 
   cloudinary-core@2.13.1:
     resolution: {integrity: sha512-z53GPNWnvU0Zi+ns8CIVbZBfj7ps/++zDvwIyiFuq5p1MoK+KUCg0k5mBceDDHTnx1gHmHUd9aohS+gDxPNt6w==}
@@ -12835,6 +12875,10 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
+  diff-sequences@29.6.3:
+    resolution: {integrity: sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
   diff@4.0.2:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
     engines: {node: '>=0.3.1'}
@@ -13708,6 +13752,10 @@ packages:
   expect-type@1.2.1:
     resolution: {integrity: sha512-/kP8CAwxzLVEeFrMm4kMmy4CCDlpipyA7MYLVrdJIkV0fYF0UaigQHRsxHiuY/GEea+bh4KSv3TIlgr+2UL6bw==}
     engines: {node: '>=12.0.0'}
+
+  expect@29.7.0:
+    resolution: {integrity: sha512-2Zks0hf1VLFYI1kbh0I5jP3KHHyCHpkfyHBzsSXRFgl/Bg9mWYfMW8oD+PdMPlEwy5HNsR9JutYy6pMeOh61nw==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
   exponential-backoff@3.1.2:
     resolution: {integrity: sha512-8QxYTVXUkuy7fIIoitQkPwGonB8F3Zj8eEO8Sqg9Zv/bkI7RJAzowee4gr81Hak/dUTpA2Z7VfQgoijjPNlUZA==}
@@ -15834,6 +15882,10 @@ packages:
   javascript-natural-sort@0.7.1:
     resolution: {integrity: sha512-nO6jcEfZWQXDhOiBtG2KvKyEptz7RVbpGP4vTD2hLBdmNQSsCiicO2Ioinv6UI4y9ukqnBpy+XZ9H6uLNgJTlw==}
 
+  jest-diff@29.7.0:
+    resolution: {integrity: sha512-LMIgiIrhigmPrs03JHpxUh2yISK3vLFPkAodPeo0+BuF7wA2FoQbkEg1u8gBYBThncu7e1oEDUfIXVuTqLRUjw==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
   jest-environment-node@29.7.0:
     resolution: {integrity: sha512-DOSwCRqXirTOyheM+4d5YZOrWcdu0LNZ87ewUoywbcb2XR4wKgqiG8vNeYwhjFMbEkfju7wx2GYH0P2gevGvFw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -15844,6 +15896,10 @@ packages:
 
   jest-haste-map@29.7.0:
     resolution: {integrity: sha512-fP8u2pyfqx0K1rGn1R9pyE0/KTn+G7PxktWidOBTqFPLYX0b9ksaMFkhK5vrS3DVun09pckLdlx90QthlW7AmA==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
+  jest-matcher-utils@29.7.0:
+    resolution: {integrity: sha512-sBkD+Xi9DtcChsI3L3u0+N0opgPYnCRPtGcQYrgXmR+hmt/fYfWAL0xRXYU8eWOdfuLgBe0YCW3AFtnRLagq/g==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
   jest-message-util@29.7.0:
@@ -17482,6 +17538,28 @@ packages:
   meilisearch@0.50.0:
     resolution: {integrity: sha512-9IzIkobvnuS18Eg4dq/eJB9W+eXqeLZjNRgq/kKMswSmVYYSQsXqGgSuCA0JkF+o5RwJlwIsieQee6rh313VhA==}
 
+  mem0ai@2.1.36:
+    resolution: {integrity: sha512-27XlW43M18QYGkHpKC5Im8mVQUi2A7mRtFmCace8lovO3fd1g1ijHrOe9wzmsnIT+slFUs1qOOY6EEDgPNtZjw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@anthropic-ai/sdk': ^0.40.1
+      '@cloudflare/workers-types': ^4.20250504.0
+      '@google/genai': ^1.2.0
+      '@langchain/core': ^0.3.44
+      '@mistralai/mistralai': ^1.5.2
+      '@qdrant/js-client-rest': 1.13.0
+      '@supabase/supabase-js': ^2.49.1
+      '@types/jest': 29.5.14
+      '@types/pg': 8.11.0
+      '@types/sqlite3': 3.1.11
+      cloudflare: ^4.2.0
+      groq-sdk: 0.3.0
+      neo4j-driver: ^5.28.1
+      ollama: ^0.5.14
+      pg: 8.11.3
+      redis: ^4.6.13
+      sqlite3: 5.1.7
+
   meme-mcp@1.0.1:
     resolution: {integrity: sha512-4K++94p6kSzsG6DMNMAvV1frnijquxu4UCrL5mAUyxT0bbkgGTYo4J1VHICwyA1xitI+UPe6QFfOox4vUHsTUw==}
     hasBin: true
@@ -18186,6 +18264,15 @@ packages:
 
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
+
+  neo4j-driver-bolt-connection@5.28.1:
+    resolution: {integrity: sha512-nY8GBhjOW7J0rDtpiyJn6kFdk2OiNVZZhZrO8//mwNXnf5VQJ6HqZQTDthH/9pEaX0Jvbastz1xU7ZL8xzqY0w==}
+
+  neo4j-driver-core@5.28.1:
+    resolution: {integrity: sha512-14vN8TlxC0JvJYfjWic5PwjsZ38loQLOKFTXwk4fWLTbCk6VhrhubB2Jsy9Rz+gM6PtTor4+6ClBEFDp1q/c8g==}
+
+  neo4j-driver@5.28.1:
+    resolution: {integrity: sha512-jbyBwyM0a3RLGcP43q3hIxPUPxA+1bE04RovOKdNAS42EtBMVCKcPSeOvWiHxgXp1ZFd0a8XqK+7LtguInOLUg==}
 
   neovim@5.3.0:
     resolution: {integrity: sha512-32Cypq6qh7vzJ5wuVPPzIsBdOlvwo0do8/3jxLu+RGdneFSJjh5CYi0ScHHAw/2HLtIjRKhRjJMXeze21M+uyw==}
@@ -22688,6 +22775,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   ua-parser-js@1.0.40:
     resolution: {integrity: sha512-z6PJ8Lml+v3ichVojCiB8toQJBuwR42ySM4ezjXIqXK3M0HczmKQ3LF4rhU55PfD99KEEXQG6yb7iOMyvYuHew==}
     hasBin: true
@@ -22776,6 +22868,10 @@ packages:
 
   undici-types@7.8.0:
     resolution: {integrity: sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==}
+
+  undici@5.28.5:
+    resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
+    engines: {node: '>=14.0'}
 
   undici@5.29.0:
     resolution: {integrity: sha512-raqeBD6NQK4SkWhQzeYKd1KmIG6dllBOTt55Rmkt4HtI9mwdWtJljnrXjAFUBLTSN67HWrOIZ3EPF4kjUw80Bg==}
@@ -26440,8 +26536,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@cfworker/json-schema@4.1.1':
-    optional: true
+  '@cfworker/json-schema@4.1.1': {}
 
   '@cgize/mcp-think-tool@1.0.1':
     dependencies:
@@ -26714,7 +26809,7 @@ snapshots:
 
   '@coderide/mcp@0.3.3':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       axios: 1.10.0(debug@4.4.1)
       dotenv: 16.6.1
       nanoid: 5.1.5
@@ -26979,13 +27074,13 @@ snapshots:
 
   '@cyanheads/toolkit-mcp-server@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
-      '@types/luxon': 3.7.0
+      '@modelcontextprotocol/sdk': 1.17.1
+      '@types/luxon': 3.7.1
       '@types/node': 24.1.0
       luxon: 3.7.1
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
-      typescript: 5.8.3
+      typescript: 5.9.2
     transitivePeerDependencies:
       - supports-color
 
@@ -27772,7 +27867,7 @@ snapshots:
 
   '@exoticknight/mcp-file-merger@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
     transitivePeerDependencies:
@@ -28199,6 +28294,20 @@ snapshots:
     transitivePeerDependencies:
       - encoding
       - supports-color
+
+  '@google/genai@1.8.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)':
+    dependencies:
+      google-auth-library: 9.15.1(encoding@0.1.13)
+      ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
+    optionalDependencies:
+      '@modelcontextprotocol/sdk': 1.13.1
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - supports-color
+      - utf-8-validate
 
   '@google/genai@1.8.0(@modelcontextprotocol/sdk@1.15.0)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)':
     dependencies:
@@ -29418,6 +29527,10 @@ snapshots:
       '@types/node': 22.15.33
       jest-mock: 29.7.0
 
+  '@jest/expect-utils@29.7.0':
+    dependencies:
+      jest-get-type: 29.6.3
+
   '@jest/fake-timers@29.7.0':
     dependencies:
       '@jest/types': 29.6.3
@@ -29993,6 +30106,22 @@ snapshots:
 
   '@kurkle/color@0.3.4': {}
 
+  '@kwp-lab/mcp-fetch@0.9.5(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10)':
+    dependencies:
+      '@modelcontextprotocol/sdk': 1.17.1
+      '@mozilla/readability': 0.5.0
+      jsdom: 24.1.3(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10)
+      node-fetch-native: 1.6.6
+      robots-parser: 3.0.1
+      turndown: 7.2.0
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - utf-8-validate
+
   '@kwsites/file-exists@1.1.1':
     dependencies:
       debug: 4.4.1
@@ -30036,7 +30165,6 @@ snapshots:
       - '@opentelemetry/exporter-trace-otlp-proto'
       - '@opentelemetry/sdk-trace-base'
       - openai
-    optional: true
 
   '@lazydino/ccxt-mcp@0.4.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
@@ -30501,6 +30629,43 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
+  '@mem0/mcp-server@0.0.1(@anthropic-ai/sdk@0.56.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.8.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.62(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.202.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.8.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)))(@mistralai/mistralai@1.7.2(zod@3.25.67))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.50.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(jiti@2.4.2)(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(postcss@8.5.6)(redis@5.5.6)(sqlite3@5.1.7)(tsx@4.20.3)(typescript@5.8.3)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(yaml@2.8.0)':
+    dependencies:
+      '@modelcontextprotocol/sdk': 1.17.1
+      dotenv: 16.6.1
+      mem0ai: 2.1.36(@anthropic-ai/sdk@0.56.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.8.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.62(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.202.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.8.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)))(@mistralai/mistralai@1.7.2(zod@3.25.67))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.50.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(redis@5.5.6)(sqlite3@5.1.7)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      tsup: 8.5.0(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.8.0)
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - '@anthropic-ai/sdk'
+      - '@cloudflare/workers-types'
+      - '@google/genai'
+      - '@langchain/core'
+      - '@microsoft/api-extractor'
+      - '@mistralai/mistralai'
+      - '@qdrant/js-client-rest'
+      - '@supabase/supabase-js'
+      - '@swc/core'
+      - '@types/jest'
+      - '@types/pg'
+      - '@types/sqlite3'
+      - cloudflare
+      - debug
+      - encoding
+      - groq-sdk
+      - jiti
+      - neo4j-driver
+      - ollama
+      - pg
+      - postcss
+      - redis
+      - sqlite3
+      - supports-color
+      - tsx
+      - typescript
+      - ws
+      - yaml
+
   '@mendable/firecrawl-js@1.27.0':
     dependencies:
       axios: 1.10.0(debug@4.4.1)
@@ -30716,13 +30881,13 @@ snapshots:
 
   '@missionsquad/mcp-helper-tools@1.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
-      '@types/luxon': 3.7.0
+      '@modelcontextprotocol/sdk': 1.17.1
+      '@types/luxon': 3.7.1
       '@types/node': 24.1.0
       luxon: 3.7.1
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
-      typescript: 5.8.3
+      typescript: 5.9.2
     transitivePeerDependencies:
       - supports-color
 
@@ -30730,7 +30895,6 @@ snapshots:
     dependencies:
       zod: 3.25.67
       zod-to-json-schema: 3.24.6(zod@3.25.67)
-    optional: true
 
   '@mixmark-io/domino@2.2.0': {}
 
@@ -30768,7 +30932,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.10.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
@@ -30776,7 +30940,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.16.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
@@ -30784,7 +30948,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-client@0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -30816,7 +30980,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-client@0.16.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -30849,7 +31013,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -30861,7 +31025,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.16.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -30876,7 +31040,7 @@ snapshots:
       '@modelcontextprotocol/inspector-cli': 0.10.2
       '@modelcontextprotocol/inspector-client': 0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))
       '@modelcontextprotocol/inspector-server': 0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       concurrently: 9.2.0
       shell-quote: 1.8.3
       spawn-rx: 5.1.2
@@ -30899,7 +31063,7 @@ snapshots:
       '@modelcontextprotocol/inspector-cli': 0.16.2
       '@modelcontextprotocol/inspector-client': 0.16.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3)))
       '@modelcontextprotocol/inspector-server': 0.16.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       concurrently: 9.2.0
       open: 10.1.2
       shell-quote: 1.8.3
@@ -31164,6 +31328,23 @@ snapshots:
       - supports-color
 
   '@modelcontextprotocol/sdk@1.17.0':
+    dependencies:
+      ajv: 6.12.6
+      content-type: 1.0.5
+      cors: 2.8.5
+      cross-spawn: 7.0.6
+      eventsource: 3.0.7
+      eventsource-parser: 3.0.3
+      express: 5.1.0
+      express-rate-limit: 7.5.1(express@5.1.0)
+      pkce-challenge: 5.0.0
+      raw-body: 3.0.0
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@modelcontextprotocol/sdk@1.17.1':
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
@@ -32665,7 +32846,7 @@ snapshots:
 
   '@opentofu/opentofu-mcp-server@0.1.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       semver: 7.7.2
       zod: 3.25.76
     transitivePeerDependencies:
@@ -33191,6 +33372,15 @@ snapshots:
       '@modelcontextprotocol/sdk': 1.15.0
     transitivePeerDependencies:
       - supports-color
+
+  '@qdrant/js-client-rest@1.13.0(typescript@5.8.3)':
+    dependencies:
+      '@qdrant/openapi-typescript-fetch': 1.2.6
+      '@sevinf/maybe': 0.5.0
+      typescript: 5.8.3
+      undici: 5.28.5
+
+  '@qdrant/openapi-typescript-fetch@1.2.6': {}
 
   '@qpd-v/mcp-delete@0.1.0':
     dependencies:
@@ -34568,6 +34758,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@sevinf/maybe@0.5.0': {}
+
   '@shinshin86/mcp-simple-aivisspeech@0.1.3':
     dependencies:
       '@modelcontextprotocol/sdk': 0.4.0
@@ -34676,7 +34868,7 @@ snapshots:
   '@smithery/sdk@1.4.3(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       ai: 4.3.16(react@18.3.1)(zod@3.25.76)
       express: 5.1.0
       json-schema: 0.4.0
@@ -34695,7 +34887,7 @@ snapshots:
   '@smithery/sdk@1.5.2(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       ai: 4.3.16(react@18.3.1)(zod@3.25.76)
       express: 5.1.0
       json-schema: 0.4.0
@@ -34714,7 +34906,7 @@ snapshots:
   '@smithery/sdk@1.5.5(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       ai: 4.3.16(react@18.3.1)(zod@3.25.76)
       express: 5.1.0
       json-schema: 0.4.0
@@ -35733,18 +35925,6 @@ snapshots:
       '@types/node-fetch': 2.6.12
       node-fetch: 3.3.2
 
-  '@toolprint/mcp-graphql-forge@0.1.0(encoding@0.1.13)':
-    dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
-      commander: 11.1.0
-      express: 4.21.2
-      graphql: 16.11.0
-      graphql-request: 6.1.0(encoding@0.1.13)(graphql@16.11.0)
-      zod: 3.25.76
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
-
   '@toolsdk.ai/aws-ses-mcp@1.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
@@ -36110,6 +36290,11 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-report': 3.0.3
 
+  '@types/jest@29.5.14':
+    dependencies:
+      expect: 29.7.0
+      pretty-format: 29.7.0
+
   '@types/js-yaml@4.0.9': {}
 
   '@types/jsdom@21.1.7':
@@ -36145,7 +36330,7 @@ snapshots:
 
   '@types/luxon@3.6.2': {}
 
-  '@types/luxon@3.7.0': {}
+  '@types/luxon@3.7.1': {}
 
   '@types/markdown-it@14.1.2':
     dependencies:
@@ -36315,8 +36500,7 @@ snapshots:
     dependencies:
       '@types/node': 22.15.33
 
-  '@types/retry@0.12.0':
-    optional: true
+  '@types/retry@0.12.0': {}
 
   '@types/retry@0.12.2': {}
 
@@ -36346,6 +36530,10 @@ snapshots:
   '@types/shimmer@1.2.0': {}
 
   '@types/sinonjs__fake-timers@8.1.5': {}
+
+  '@types/sqlite3@3.1.11':
+    dependencies:
+      '@types/node': 22.15.33
 
   '@types/ssh2@1.15.5':
     dependencies:
@@ -36380,8 +36568,7 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@types/uuid@10.0.0':
-    optional: true
+  '@types/uuid@10.0.0': {}
 
   '@types/uuid@9.0.8': {}
 
@@ -37647,7 +37834,7 @@ snapshots:
 
   agents@0.0.59(@cloudflare/workers-types@4.20250627.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       cron-schedule: 5.0.4
       nanoid: 5.1.5
       partyserver: 0.0.66(@cloudflare/workers-types@4.20250627.0)
@@ -38321,6 +38508,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
+  axios@1.7.7:
+    dependencies:
+      follow-redirects: 1.15.9(debug@4.4.1)
+      form-data: 4.0.3
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+
   axios@1.8.1:
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.1)
@@ -38465,7 +38660,7 @@ snapshots:
 
   base-network-mcp-server@0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(immer@10.1.1)(ioredis@5.5.0)(kerberos@2.2.2)(mongodb-client-encryption@6.4.0)(react@18.3.1)(snappy@7.2.2)(socks@2.8.5)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.2.4(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(zod@3.25.67):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       '@wagmi/core': 1.4.13(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(immer@10.1.1)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.2.4(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67))(zod@3.25.67)
       dotenv: 16.6.1
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -39661,13 +39856,25 @@ snapshots:
 
   clone@2.1.2: {}
 
+  cloudflare@4.5.0(encoding@0.1.13):
+    dependencies:
+      '@types/node': 18.19.112
+      '@types/node-fetch': 2.6.12
+      abort-controller: 3.0.0
+      agentkeepalive: 4.6.0
+      form-data-encoder: 1.7.2
+      formdata-node: 4.4.1
+      node-fetch: 2.7.0(encoding@0.1.13)
+    transitivePeerDependencies:
+      - encoding
+
   cloudinary-core@2.13.1(lodash@4.17.21):
     dependencies:
       lodash: 4.17.21
 
   cloudinary-mcp-server@0.4.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       cloudinary: 1.41.3
       dotenv: 16.6.1
       zod: 3.25.76
@@ -39995,7 +40202,6 @@ snapshots:
   console-table-printer@2.14.6:
     dependencies:
       simple-wcswidth: 1.1.2
-    optional: true
 
   constant-case@3.0.4:
     dependencies:
@@ -41043,6 +41249,8 @@ snapshots:
       zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
+
+  diff-sequences@29.6.3: {}
 
   diff@4.0.2: {}
 
@@ -42124,6 +42332,14 @@ snapshots:
 
   expect-type@1.2.1: {}
 
+  expect@29.7.0:
+    dependencies:
+      '@jest/expect-utils': 29.7.0
+      jest-get-type: 29.6.3
+      jest-matcher-utils: 29.7.0
+      jest-message-util: 29.7.0
+      jest-util: 29.7.0
+
   exponential-backoff@3.1.2: {}
 
   express-openapi-validator@5.5.7(express@4.21.2):
@@ -42313,7 +42529,7 @@ snapshots:
 
   fastmcp@1.27.7(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.15.1
+      '@modelcontextprotocol/sdk': 1.17.0
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 20.5.0
@@ -43605,7 +43821,6 @@ snapshots:
       node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
-    optional: true
 
   growly@1.3.0: {}
 
@@ -44452,7 +44667,7 @@ snapshots:
 
   instagram-engagement-mcp@0.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       axios: 1.10.0(debug@4.4.1)
       dotenv: 16.6.1
       instagram-private-api: 1.46.1
@@ -44996,6 +45211,13 @@ snapshots:
 
   javascript-natural-sort@0.7.1: {}
 
+  jest-diff@29.7.0:
+    dependencies:
+      chalk: 4.1.2
+      diff-sequences: 29.6.3
+      jest-get-type: 29.6.3
+      pretty-format: 29.7.0
+
   jest-environment-node@29.7.0:
     dependencies:
       '@jest/environment': 29.7.0
@@ -45022,6 +45244,13 @@ snapshots:
       walker: 1.0.8
     optionalDependencies:
       fsevents: 2.3.3
+
+  jest-matcher-utils@29.7.0:
+    dependencies:
+      chalk: 4.1.2
+      jest-diff: 29.7.0
+      jest-get-type: 29.6.3
+      pretty-format: 29.7.0
 
   jest-message-util@29.7.0:
     dependencies:
@@ -45697,7 +45926,6 @@ snapshots:
       '@opentelemetry/exporter-trace-otlp-proto': 0.202.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.30.1(@opentelemetry/api@1.9.0)
       openai: 5.8.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)
-    optional: true
 
   latest-version@9.0.0:
     dependencies:
@@ -45804,7 +46032,7 @@ snapshots:
 
   lighthouse-mcp@0.1.3(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       chrome-launcher: 0.15.2
       lighthouse: 12.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -46214,7 +46442,7 @@ snapshots:
 
   lumbretravel-mcp@0.1.14:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       '@types/moment': 2.13.0
       dotenv: 17.2.1
       node-fetch: 3.3.2
@@ -46658,7 +46886,7 @@ snapshots:
   mcp-deepwiki@0.0.9(jiti@2.4.2)(typescript@5.8.3)(vitest@3.0.9(@types/debug@4.1.12)(@types/node@22.15.33)(happy-dom@17.6.3)(jiti@2.4.2)(jsdom@26.1.0(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10))(less@2.7.3)(lightningcss@1.30.1)(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0)):
     dependencies:
       '@chatmcp/sdk': 1.0.6
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       '@vitest/eslint-plugin': 1.3.4(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.0.9(@types/debug@4.1.12)(@types/node@22.15.33)(happy-dom@17.6.3)(jiti@2.4.2)(jsdom@26.1.0(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10))(less@2.7.3)(lightningcss@1.30.1)(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0))
       citty: 0.1.6
       eslint: 9.29.0(jiti@2.4.2)
@@ -47015,7 +47243,7 @@ snapshots:
 
   mcp-postman@1.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       newman: 6.2.1
       zod: 3.25.76
     transitivePeerDependencies:
@@ -47037,7 +47265,7 @@ snapshots:
 
   mcp-proxy@2.14.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -47045,7 +47273,7 @@ snapshots:
 
   mcp-proxy@3.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -47053,7 +47281,7 @@ snapshots:
 
   mcp-proxy@5.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       eventsource: 4.0.0
       yargs: 18.0.0
     transitivePeerDependencies:
@@ -47571,6 +47799,34 @@ snapshots:
 
   meilisearch@0.50.0: {}
 
+  mem0ai@2.1.36(@anthropic-ai/sdk@0.56.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.8.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.62(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.202.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.8.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67)))(@mistralai/mistralai@1.7.2(zod@3.25.67))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.50.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(redis@5.5.6)(sqlite3@5.1.7)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+    dependencies:
+      '@anthropic-ai/sdk': 0.56.0
+      '@cloudflare/workers-types': 4.20250627.0
+      '@google/genai': 1.8.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      '@langchain/core': 0.3.62(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.202.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.8.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.67))
+      '@mistralai/mistralai': 1.7.2(zod@3.25.67)
+      '@qdrant/js-client-rest': 1.13.0(typescript@5.8.3)
+      '@supabase/supabase-js': 2.50.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@types/jest': 29.5.14
+      '@types/pg': 8.15.4
+      '@types/sqlite3': 3.1.11
+      axios: 1.7.7
+      cloudflare: 4.5.0(encoding@0.1.13)
+      groq-sdk: 0.25.0(encoding@0.1.13)
+      neo4j-driver: 5.28.1
+      ollama: 0.5.16
+      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      pg: 8.16.2
+      redis: 5.5.6
+      sqlite3: 5.1.7
+      uuid: 9.0.1
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - debug
+      - encoding
+      - ws
+
   meme-mcp@1.0.1:
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
@@ -47678,7 +47934,7 @@ snapshots:
 
   meta-mcp-server@1.5.4:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
     transitivePeerDependencies:
       - supports-color
 
@@ -48699,6 +48955,20 @@ snapshots:
 
   neo-async@2.6.2: {}
 
+  neo4j-driver-bolt-connection@5.28.1:
+    dependencies:
+      buffer: 6.0.3
+      neo4j-driver-core: 5.28.1
+      string_decoder: 1.3.0
+
+  neo4j-driver-core@5.28.1: {}
+
+  neo4j-driver@5.28.1:
+    dependencies:
+      neo4j-driver-bolt-connection: 5.28.1
+      neo4j-driver-core: 5.28.1
+      rxjs: 7.8.2
+
   neovim@5.3.0:
     dependencies:
       '@msgpack/msgpack': 2.8.0
@@ -49396,7 +49666,7 @@ snapshots:
 
   onyx-mcp-server@1.2.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       axios: 1.10.0(debug@4.4.1)
     transitivePeerDependencies:
       - debug
@@ -49577,7 +49847,7 @@ snapshots:
 
   opentrons-mcp@1.0.24:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.0
+      '@modelcontextprotocol/sdk': 1.17.1
       axios: 1.10.0(debug@4.4.1)
       nats: 2.29.3
     transitivePeerDependencies:
@@ -49815,7 +50085,6 @@ snapshots:
     dependencies:
       '@types/retry': 0.12.0
       retry: 0.13.1
-    optional: true
 
   p-retry@6.2.1:
     dependencies:
@@ -52756,8 +53025,7 @@ snapshots:
     dependencies:
       is-arrayish: 0.3.2
 
-  simple-wcswidth@1.1.2:
-    optional: true
+  simple-wcswidth@1.1.2: {}
 
   simple-xml-to-json@1.2.3: {}
 
@@ -53101,7 +53369,6 @@ snapshots:
     transitivePeerDependencies:
       - bluebird
       - supports-color
-    optional: true
 
   sqlstring@2.3.1: {}
 
@@ -54564,6 +54831,8 @@ snapshots:
 
   typescript@5.8.3: {}
 
+  typescript@5.9.2: {}
+
   ua-parser-js@1.0.40: {}
 
   uc.micro@2.1.0: {}
@@ -54687,6 +54956,10 @@ snapshots:
   undici-types@6.21.0: {}
 
   undici-types@7.8.0: {}
+
+  undici@5.28.5:
+    dependencies:
+      '@fastify/busboy': 2.1.1
 
   undici@5.29.0:
     dependencies:
@@ -54997,8 +55270,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  uuid@10.0.0:
-    optional: true
+  uuid@10.0.0: {}
 
   uuid@11.1.0: {}
 

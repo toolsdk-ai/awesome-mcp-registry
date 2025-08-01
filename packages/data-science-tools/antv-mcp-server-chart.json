@@ -1,10 +1,10 @@
 {
   "type": "mcp-server",
   "packageName": "@antv/mcp-server-chart",
-  "description": "Enables AI to generate data visualizations using AntV's charting capabilities, supporting various chart types from structured data without requiring direct knowledge of visualization libraries.",
+  "description": "A visualization mcp contains 25+ visual charts using @antvis. Using for chart generation and data analysis.",
   "url": "https://github.com/antvis/mcp-server-chart",
   "runtime": "node",
-  "license": "unknown",
+  "license": "MIT",
   "env": {
     "VIS_REQUEST_SERVER": {
       "description": "<YOUR_VIS_REQUEST_SERVER>",
