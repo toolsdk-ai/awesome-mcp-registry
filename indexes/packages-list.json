@@ -43397,6 +43397,7 @@
   "@mem0/mcp-server": {
     "category": "knowledge-memory",
     "path": "knowledge-memory/mem0-mcp-server.json",
+    "validated": true,
     "tools": {
       "add-memory": {
         "name": "add-memory",
@@ -43406,7 +43407,6 @@
         "name": "search-memories",
         "description": "Search through stored memories. This method is called ANYTIME the user asks anything."
       }
-    },
-    "validated": true
+    }
   }
 }
