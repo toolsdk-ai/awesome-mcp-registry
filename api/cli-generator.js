@@ -23,15 +23,14 @@ const inputPath = args.input;
 const outputDir = args.output;
 const logFile = args.log || 'conversion.log';
 
+// Inicializar el logger con la ruta de salida y el nombre del archivo (si se proporcionó outputDir)
+const logger = outputDir ? getLogger(outputDir, logFile) : console;
 
 if (!inputPath || !outputDir) {
   logger.error('❌ Debes proporcionar la ruta del JSON y la ruta de salida como argumentos');
   logger.info('ℹ️ Uso: node ./api/cli-generator.js --input="/ruta/entrada.json" --output="/ruta/salida/" --log="nombre_log.txt"');
   process.exit(1);
-}
-
-// Inicializar el logger con la ruta de salida y el nombre del archivo
-const logger = getLogger(outputDir, logFile); 
+} 
 
 
 const run = async () => {
