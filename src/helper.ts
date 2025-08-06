@@ -23,6 +23,12 @@ export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfi
 
 export function getPackageJSON(packageName: string) {
   const packageJSONFilePath = __dirname + '/../node_modules/' + packageName + '/package.json';
+  
+  // Check if the package exists in node_modules
+  if (!fs.existsSync(packageJSONFilePath)) {
+    throw new Error(`Package '${packageName}' not found in node_modules. Install it first with: pnpm add ${packageName}`);
+  }
+  
   const packageJSONStr = fs.readFileSync(packageJSONFilePath, 'utf8');
   const packageJSON = JSON.parse(packageJSONStr);
   return packageJSON;

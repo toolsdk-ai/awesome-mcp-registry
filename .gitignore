@@ -1,4 +1,4 @@
-
+*.log
 node_modules
 logs
 dist
@@ -12,3 +12,7 @@ terminal-tool.json
 docs-config.json
 .clinerules-*
 doc/docs/*
+
+meilisearch
+*.pid
+data.ms/
