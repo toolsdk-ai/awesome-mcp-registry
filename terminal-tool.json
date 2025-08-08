@@ -1,6 +1,0 @@
-{
-  "allowedPaths": [
-    "/path/to/your/first/allowed/directory",
-    "/path/to/your/second/allowed/directory"
-  ]
-}
