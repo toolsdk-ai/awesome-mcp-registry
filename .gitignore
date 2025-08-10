@@ -3,6 +3,8 @@ node_modules
 logs
 dist
 
+.env.local
+
 # MCP Client Test
 mcp-server.log
 js-sandbox.log

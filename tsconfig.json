@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es6", // Output JavaScript version
-    "module": "commonjs", // Module system
+    "target": "es2017", // Output JavaScript version
+    "module": "esnext", // Module system
     "declaration": true,
     "outDir": "./dist", // Output directory
     "rootDir": "./src", // Source file directory
     "resolveJsonModule": true,
+    "moduleResolution": "bundler",
     "strict": true, // Enable all strict type-checking options
     "esModuleInterop": true, // Allow default imports from non-ES modules
     "skipLibCheck": true, // Skip type checking of declaration files
