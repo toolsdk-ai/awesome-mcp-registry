@@ -5,7 +5,7 @@
 
 
 Welcome to the Awesome MCP Registry.
-
+ 
 An open, high-quality, well-structured and developer-friendly list of 4081+ MCP servers.
 
 
