@@ -7,7 +7,7 @@ interface ExecuteToolResponse {
   error?: string;
 }
 
-export class ToolSO {
+export class PackageSO {
   async executeTool(request: ToolExecute): Promise<ExecuteToolResponse> {
     try {
       const mcpServerConfig = getPackageConfigByKey(request.packageName);

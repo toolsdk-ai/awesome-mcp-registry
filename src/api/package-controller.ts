@@ -1,5 +1,5 @@
 import { Context } from 'hono';
-import { ToolSO } from './package-so';
+import { PackageSO } from './package-so';
 import type { ToolExecute } from '../types';
 
 export const packageController = {
@@ -12,7 +12,7 @@ export const packageController = {
     try {
       const requestBody: ToolExecute = await c.req.json();
 
-      const toolSO = new ToolSO();
+      const toolSO = new PackageSO();
       const result = await toolSO.executeTool(requestBody);
 
       const statusCode = result.success ? 200 : 500;

@@ -1,11 +1,11 @@
 // npx vitest run src/api/tool.test.ts
 
 import { describe, it, expect } from 'vitest';
-import { ToolSO } from './package-so';
+import { PackageSO } from './package-so';
 
-describe('ToolSO', () => {
+describe('PackageSO', () => {
   it('should execute tool successfully', async () => {
-    const toolSO = new ToolSO();
+    const toolSO = new PackageSO();
     const request = {
       packageName: 'mcp-starter',
       toolKey: 'hello_tool',
@@ -23,7 +23,7 @@ describe('ToolSO', () => {
   });
 
   it('should handle tool execution failure', async () => {
-    const toolSO = new ToolSO();
+    const toolSO = new PackageSO();
     const request = {
       packageName: 'mcp-starter',
       toolKey: 'no_hello_tool',
