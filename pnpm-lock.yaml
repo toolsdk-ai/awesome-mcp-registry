@@ -46587,7 +46587,7 @@ snapshots:
       markmap-lib: 0.18.12(markmap-common@0.18.9)
       markmap-render: 0.18.12(markmap-common@0.18.9)
       markmap-toolbar: 0.18.12(markmap-common@0.18.9)
-      open: 10.1.2
+      open: 10.2.0
       portfinder: 1.0.37
       read-package-up: 11.0.0
       update-notifier: 7.3.1
