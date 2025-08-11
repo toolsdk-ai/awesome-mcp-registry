@@ -7,6 +7,8 @@ export const packageRoutes = new Hono();
 
 packageRoutes.post('/packages/run', packageController.executeTool);
 
+packageRoutes.get('/packages/detail', packageController.getPackageDetail);
+
 packageRoutes.get('/config/categories', (c) => {
   const categories: CategoryConfig[] = require('../../config/categories.mjs').default;
   return c.json(categories);

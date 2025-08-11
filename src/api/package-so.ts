@@ -1,9 +1,17 @@
-import { getPackageConfigByKey, getMcpClient } from '../helper.js';
-import type { ToolExecute } from '../types';
+import fs from 'fs';
+import path from 'path';
+import { getPackageConfigByKey, getMcpClient, typedAllPackagesList } from '../helper.js';
+import type { MCPServerPackageConfig, ToolExecute } from '../types';
 
 interface ExecuteToolResponse {
   success: boolean;
   data?: unknown;
+  error?: string;
+}
+
+interface PackageDetailResponse {
+  success: boolean;
+  data?: MCPServerPackageConfig;
   error?: string;
 }
 
@@ -32,6 +40,33 @@ export class PackageSO {
       return {
         success: false,
         error: 'Tool execution failed',
+      };
+    }
+  }
+
+  async getPackageDetail(packageName: string): Promise<PackageDetailResponse> {
+    try {
+      const packageInfo = typedAllPackagesList[packageName];
+      if (!packageInfo) {
+        return {
+          success: false,
+          error: `Package ${packageName} not found`,
+        };
+      }
+
+      const jsonFilePath = path.join(__dirname, '../../packages/', packageInfo.path);
+      const jsonStr = fs.readFileSync(jsonFilePath, 'utf-8');
+      const packageConfig: MCPServerPackageConfig = JSON.parse(jsonStr);
+
+      return {
+        success: true,
+        data: packageConfig,
+      };
+    } catch (error) {
+      console.error(`Failed to get package detail: ${error}`);
+      return {
+        success: false,
+        error: `Failed to get package detail: ${error}`,
       };
     }
   }

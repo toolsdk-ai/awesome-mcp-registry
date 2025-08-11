@@ -3,7 +3,7 @@
 import { describe, it, expect } from 'vitest';
 import { PackageSO } from './package-so';
 
-describe('PackageSO', () => {
+describe('PackageSO - MCP Tool Execution Service Test', () => {
   it('should execute tool successfully', async () => {
     const toolSO = new PackageSO();
     const request = {
