@@ -27,4 +27,4 @@ CMD ["pnpm", "start"]
 # 构建镜像
 # docker build -t awesome-mcp-registry .
 # 运行容器
-# docker run -p 3003:3003 awesome-mcp-registry
+# docker run -d -p 3003:3003 --name mcp-registry awesome-mcp-registry
