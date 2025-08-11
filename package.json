@@ -612,7 +612,6 @@
     "uniquity-mcp": "0.1.4",
     "uuid-mcp": "1.0.0",
     "vibe-eyes": "1.0.1",
-    "vitest": "^1.6.1",
     "voyp-mcp": "0.1.0",
     "vscode-mcp-server": "0.2.0",
     "webdev-mcp": "0.1.2",
@@ -635,6 +634,7 @@
     "eslint": "^9.27.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.2.0",
+    "vitest": "^3.2.4",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.33.0"

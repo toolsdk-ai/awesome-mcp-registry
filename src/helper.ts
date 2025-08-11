@@ -94,7 +94,6 @@ export function updatePackageJsonDependencies({
     lodash: '^4.17.21',
     zod: '^3.23.30',
     axios: '^1.9.0',
-    vitest: '^1.6.0',
     hono: '4.8.3',
     toolsdk: '1.5.6-alpha.46',
     semver: '^7.5.4',
