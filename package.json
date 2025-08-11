@@ -612,6 +612,7 @@
     "uniquity-mcp": "0.1.4",
     "uuid-mcp": "1.0.0",
     "vibe-eyes": "1.0.1",
+    "vitest": "^1.6.1",
     "voyp-mcp": "0.1.0",
     "vscode-mcp-server": "0.2.0",
     "webdev-mcp": "0.1.2",

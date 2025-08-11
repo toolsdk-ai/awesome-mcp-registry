@@ -90,12 +90,13 @@ export function updatePackageJsonDependencies({
   const packageJSONStr = fs.readFileSync(packageJsonFile, 'utf-8');
   const newDeps = {
     '@modelcontextprotocol/sdk': '^1.12.0',
-    "@hono/node-server": "1.15.0",
+    '@hono/node-server': '1.15.0',
     lodash: '^4.17.21',
     zod: '^3.23.30',
     axios: '^1.9.0',
-    hono: "4.8.3",
-    toolsdk: "1.5.6-alpha.46",
+    vitest: '^1.6.0',
+    hono: '4.8.3',
+    toolsdk: '1.5.6-alpha.46',
     semver: '^7.5.4',
   } as Record<string, string>;
 
