@@ -1,7 +1,8 @@
 import { Context } from 'hono';
-import { ToolSO, type ExecuteToolRequest } from './tool-so';
+import { ToolSO } from './package-so';
+import type { ToolExecute } from '../types';
 
-export const toolController = {
+export const packageController = {
   /**
    * 执行工具的控制器方法
    * @param c Hono上下文
@@ -9,7 +10,7 @@ export const toolController = {
    */
   executeTool: async (c: Context) => {
     try {
-      const requestBody: ExecuteToolRequest = await c.req.json();
+      const requestBody: ToolExecute = await c.req.json();
 
       const toolSO = new ToolSO();
       const result = await toolSO.executeTool(requestBody);
