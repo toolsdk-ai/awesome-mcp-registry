@@ -40,7 +40,6 @@ runs:
     # ${{ steps.commit_message_step.outputs.version }}
     - name: Build and push toolsdk-registry docker
       uses: docker/build-push-action@v5
-      if: ${{ inputs.pushDockerHub == 'false' }}
       with:
         file: ${{ inputs.dockerfile }}
         context: .
