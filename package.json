@@ -1,6 +1,6 @@
 {
   "name": "@toolsdk.ai/registry",
-  "version": "1.0.94",
+  "version": "1.0.95",
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "exports": {
     "./config/*": "./config/*",
@@ -620,7 +620,8 @@
     "mcp-chain-of-draft-server": "1.1.0",
     "a11y-mcp-server": "1.0.14",
     "@kwp-lab/mcp-fetch": "0.9.5",
-    "@mem0/mcp-server": "0.0.1"
+    "@mem0/mcp-server": "0.0.1",
+    "inner-monologue-mcp": "1.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",
