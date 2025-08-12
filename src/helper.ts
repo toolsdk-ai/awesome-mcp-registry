@@ -104,7 +104,14 @@ export function updatePackageJsonDependencies({
       newDeps[depName] = depVer || 'latest';
     }
   }
-
+  
+  const blacklistDeps = new Set(['@mcp-server/google-search-mcp', '@executeautomation/playwright-mcp-server']);
+  for (const dep of blacklistDeps) {
+    if (newDeps[dep]) {
+      delete newDeps[dep];
+    }
+  }
+  
   const packageJSON = JSON.parse(packageJSONStr);
   packageJSON.dependencies = newDeps;
   fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
