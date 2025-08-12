@@ -11,3 +11,6 @@ build:
 	bun scripts/readme-gen.ts
 	pnpm run lint
 	pnpm run build
+
+dev:
+	pnpm run dev

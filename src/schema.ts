@@ -6,6 +6,13 @@ export const HostingBlackListSchema = z.array(PackageKeySchema);
 
 export const FeaturedListSchema = z.array(PackageKeySchema);
 
+export const ToolExecuteSchema = z.object({
+  packageName: z.string(),
+  toolKey: z.string(),
+  inputData: z.record(z.unknown()),
+  envs: z.record(z.string()).optional(),
+});
+
 export const CategoryConfigSchema = z.object({
   key: z.string(),
   name: z.string(),

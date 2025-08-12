@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+build
+
+# Environment files
+.env.local
+
+# Logs
+logs
+*.log
+
+# Runtime data
+tmp
+temp
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Git files
+.git
+.gitignore
+
+# Testing
+coverage
+.nyc_output
+
+# Others
+*.md
+.DS_Store
+Thumbs.db
+
+# Cache directories
+.cache
+.npm
+.yarn/cache
+
+# Build tools
+.pnpm-store

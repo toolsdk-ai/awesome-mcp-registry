@@ -1,26 +1,20 @@
-# Usa una imagen base de Node.js, ideal para proyectos web y Puppeteer.
-FROM node:20-alpine
+FROM node:22-alpine
 
-# Instala las dependencias del sistema necesarias para que Chromium funcione.
-# Para Alpine, esta lista es más compacta. `chromium` es el paquete principal.
-RUN apk add --no-cache \
-    chromium \
-    nss \
-    freetype \
-    harfbuzz \
-    ca-certificates \
-    ttf-freefont \
-    && fc-cache -f
-
-# Establece el directorio de trabajo dentro del contenedor.
 WORKDIR /app
 
-# Copia solo los archivos de dependencias para aprovechar el cache de Docker.
-COPY package*.json ./
+RUN npm install -g pnpm
 
-# Instala las dependencias de Node.js.
-RUN npm install
+COPY package.json pnpm-lock.yaml ./
 
-# Copia el resto del código al contenedor.
+RUN pnpm install --frozen-lockfile
+
 COPY . .
 
+RUN pnpm run build
+
+EXPOSE 3003
+
+CMD ["pnpm", "start"]
+
+# docker build -t awesome-mcp-registry .
+# docker run -d -p 3003:3003 --name mcp-registry awesome-mcp-registry

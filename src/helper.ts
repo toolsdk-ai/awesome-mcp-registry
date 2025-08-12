@@ -13,6 +13,9 @@ export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
 
 export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfig {
   const value = typedAllPackagesList[packageKey];
+  if (!value) {
+    throw new Error(`Package '${packageKey}' not found in packages list.`);
+  }
 
   const jsonFile = value.path;
   // read the JSON file and convert it to MCPServerPackageConfig
@@ -90,9 +93,11 @@ export function updatePackageJsonDependencies({
   const packageJSONStr = fs.readFileSync(packageJsonFile, 'utf-8');
   const newDeps = {
     '@modelcontextprotocol/sdk': '^1.12.0',
+    '@hono/node-server': '1.15.0',
     lodash: '^4.17.21',
     zod: '^3.23.30',
     axios: '^1.9.0',
+    hono: '4.8.3',
     semver: '^7.5.4',
   } as Record<string, string>;
 
@@ -101,14 +106,14 @@ export function updatePackageJsonDependencies({
       newDeps[depName] = depVer || 'latest';
     }
   }
-  
+
   const blacklistDeps = new Set(['@mcp-server/google-search-mcp', '@executeautomation/playwright-mcp-server']);
   for (const dep of blacklistDeps) {
     if (newDeps[dep]) {
       delete newDeps[dep];
     }
   }
-  
+
   const packageJSON = JSON.parse(packageJSONStr);
   packageJSON.dependencies = newDeps;
   fs.writeFileSync(packageJsonFile, JSON.stringify(packageJSON, null, 2), 'utf-8');
