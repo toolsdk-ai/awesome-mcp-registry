@@ -1,0 +1,37 @@
+name: Deploy toolsdk-registry
+
+env:
+  GITHUB_BUILD_NUMBER: ${{ github.run_number }}
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Dockerfile'
+      - '**/*.ts'
+      - '.github/**'
+  workflow_dispatch:
+
+# Using concurrency to cancel previous runs
+concurrency:
+  group: '${{ github.workflow }}@${{  github.head_ref || github.ref }}' # Grouping all runs by deploy
+  cancel-in-progress: false # This cancels in-starting job within the same group
+
+jobs:
+  deploy-toolsdk-ai:
+    name: Build and push docker (toolsdk-registry)
+    runs-on: ubuntu
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build Docker (toolsdk-registry)
+        uses: ./.github/actions/build-push-docker
+        with:
+          dockerfile: Dockerfile
+          image: toolsdk-registry
+          edition: toolsdk
+          username: vikadata
+          password: ${{ secrets.CR_PAT }}
+          pushDockerHub: ${{ github.event_name == 'workflow_dispatch' }}
