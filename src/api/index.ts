@@ -16,12 +16,12 @@ app.get('/', (c) => {
 });
 
 app.notFound((c) => {
-  return c.json({ success: false, message: 'Route not found' }, 404);
+  return c.json({ success: false, code: 404, message: 'Route not found' }, 404);
 });
 
 app.onError((err, c) => {
   console.error('Server Error:', err);
-  return c.json({ success: false, error: 'Internal server error' }, 500);
+  return c.json({ success: false, code: 500, message: 'Internal server error' }, 500);
 });
 
 const port = process.env.MCP_SERVER_PORT ? parseInt(process.env.MCP_SERVER_PORT) : 3000;
