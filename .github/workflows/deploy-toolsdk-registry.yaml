@@ -21,7 +21,7 @@ concurrency:
 jobs:
   deploy-toolsdk-ai:
     name: Build and push docker (toolsdk-registry)
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
