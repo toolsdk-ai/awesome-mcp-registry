@@ -1,12 +1,14 @@
 # Awesome MCP Registry
 
+[![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily)](https://www.producthunt.com/products/toolsdk-ai)
+
 ![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4081-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 4081+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4082+ MCP servers.
 
 
 
@@ -104,7 +106,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (586)
+✅: Validated and runnable tools (587)
 
 ❌: Cannot be run by the MCP client (with mock environments variables (3495))
 
@@ -206,6 +208,7 @@ Tools that haven’t been sorted into a category yet. AI will categorize it late
 - [❌ itemit](https://github.com/umin-ai/itemit-mcp): Integrates with itemit's asset management platform to enable searching, creating, and managing physical assets and locations with item tracking, location lookup, and reminder retrieval capabilities.  (node) 
 - [❌ umami-analytics](https://github.com/macawls/umami-mcp-server): Integrates with Umami Analytics to provide website statistics, visitor metrics, page views, traffic sources, and real-time active user monitoring with period-over-period comparisons and geographic analysis.  (go) 
 - [❌ agentcare-(fhir-emr)](https://github.com/kartha-ai/agentcare-mcp): Integrates with FHIR-enabled EMR systems to provide healthcare tools for patient data retrieval, medical research integration, and AI-assisted clinical analysis.  (node) 
+- [✅ gologin-mcp](https://github.com/gologinapp/gologin-mcp): Manage your GoLogin browser profiles and automation directly through AI conversations. This MCP server connects to the GoLogin API, letting you create, configure, and control browser profiles using natural language.  (58 tools) (node) 
 - [❌ fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp): Integrates with Fulcra Context personal data through OAuth2 authentication to retrieve health metrics, workout data, sleep cycles, location information, and user profile details from Apple Health and other connected sources for personal health analysis and fitness tracking.  (python) 
 - [❌ oura](https://github.com/tomekkorbak/oura-mcp-server): Integrates with the Oura API to retrieve and analyze personal sleep, readiness, and resilience data for health and wellness tracking.  (python) 
 - [❌ aptos](https://github.com/tlazypanda/aptos-mcp-server): Integrates with the Aptos blockchain ecosystem to enable smart contract development, testing, and deployment through natural language interactions for generating components, managing projects, and automating gas station creation  (python) 
@@ -220,6 +223,7 @@ Tools that haven’t been sorted into a category yet. AI will categorize it late
 - [❌ amplitude-analytics](https://github.com/moonbirdai/amplitude-mcp-server): Track analytics events in Amplitude, supporting custom events, page views, user properties, and revenue tracking.  (node) 
 - [❌ bsc-blockchain](https://github.com/termix-official/bsc-mcp): Provides a robust blockchain interaction layer for Binance Smart Chain, enabling secure wallet management, token transfers, and smart contract interactions through a flexible, environment-variable-configured architecture.  (node) 
 - [❌ climatiq](https://github.com/jagan-shanmugam/climatiq-mcp-server): Provides a bridge to the Climatiq API for calculating precise carbon emissions across electricity usage, travel, cloud computing, and procurement domains using detailed environmental impact measurement tools.  (python) 
+- [✅ inner-monologue-mcp](https://github.com/abhinav-mangla/inner-monologue-mcp): An MCP (Model Context Protocol) server that implements a cognitive reasoning tool inspired by Google DeepMind's Inner Monologue research.  (1 tools) (node) 
 - [❌ music-analysis](https://github.com/hugohow/mcp-music-analysis): Integrates librosa's audio processing capabilities to provide detailed music and audio analysis tools for extracting features like tempo, spectral characteristics, and onset detection directly within conversations.  (python) 
 - [❌ image-analysis-(gpt-4-vision)](https://github.com/champierre/image-mcp-server): Enables image analysis using GPT-4-turbo's vision capabilities for extracting information, generating descriptions, and answering questions about visual content  (node) 
 - [❌ @mastergo/magic-mcp](https://github.com/mastergo-design/mastergo-magic-mcp): Extracts design file metadata from MasterGo files using a personal access token, enabling direct retrieval of design element details for analysis and code generation.  (node) 

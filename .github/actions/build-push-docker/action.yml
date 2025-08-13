@@ -5,7 +5,7 @@ inputs:
     description: Where is the Dockerfile?
     default: 'Dockerfile'
   image:
-    description: Image name, default "web"
+    description: Image name, default "toolsdk-registry"
     default: toolsdk-registry
   username:
     description: repository_owner?
@@ -30,12 +30,6 @@ runs:
         username: ${{ inputs.username }}
         password: ${{ inputs.password }}
 
-    - name: Login to Docker Hub
-      uses: docker/login-action@v3
-      with:
-        registry: docker.io
-        username: ${{ inputs.username }}
-        password: ${{ inputs.password }}
     - name: Get Version Number
       id: get_version_step
       shell: bash
@@ -44,16 +38,14 @@ runs:
         echo "prerelease=$(grep -o '"version": *"[^"]*"' package.json | cut -d '"' -f 4 | cut -d '.' -f 3 | cut -d '-' -f 2)"  >> $GITHUB_OUTPUT
 
     # ${{ steps.commit_message_step.outputs.version }}
-    - name: Build and push web docker
+    - name: Build and push toolsdk-registry docker
       uses: docker/build-push-action@v5
-      if: ${{ inputs.pushDockerHub == 'false' }}
       with:
         file: ${{ inputs.dockerfile }}
         context: .
         push: true
         # Tags, :latest,  :latest-alpha,  :0.5.3-alpha.1
         tags: ghcr.io/toolsdk-ai/${{ inputs.image }}:latest,ghcr.io/toolsdk-ai/${{ inputs.image }}:latest-${{ steps.get_version_step.outputs.prerelease }},ghcr.io/toolsdk-ai/${{ inputs.image }}:${{ steps.get_version_step.outputs.version }}
-        build-args: RELEASE_DATE=${{ steps.get_date_step.outputs.release_date }}
         # cache-from: type=gha
         # cache-to: type=gha,mode=max
     - name: trigger deploy-toolsdk-registry repository_dispatch

@@ -43262,5 +43262,16 @@
         "description": "Search through stored memories. This method is called ANYTIME the user asks anything."
       }
     }
+  },
+  "inner-monologue-mcp": {
+    "category": "uncategorized",
+    "path": "uncategorized/inner-monologue-mcp.json",
+    "validated": true,
+    "tools": {
+      "inner-monologue": {
+        "name": "inner-monologue",
+        "description": "This tool serves as a silent workspace for internal reasoning. It simulates the inner monologue of a language model, allowing structured thoughts to be processed without affecting external output or triggering any actions. Use this tool when reflecting, analyzing, verifying, comparing, or planning. It does not fetch data or produce visible results directly, but supports deeper understanding and controlled thought flow.\n  \n        Args:\n        thought: A line of reasoning, mental check, intuition breakdown, or problem-solving step to be considered internally.\n  \n        Behavior:\n        The thought is evaluated privately, with no immediate response to the user.\n        Useful for breaking down complex logic, evaluating potential outcomes, or mentally iterating through alternatives before committing to a response.\n  \n        <example>\n        {\n          \"thought\": \"Why does this bug keep appearing even after I fixed the logic? I walked through the control flow twice, and everything looks correct on paper. Did I miss a condition? Maybe there's a path where a flag isn't being reset properly. Or perhaps one of the edge cases I assumed wouldn't happen is actually happening under a specific load. Maybe there's a race condition somewhere. Could two threads be touching the same variable without proper synchronization? I should check for shared state access and see if any part of this runs asynchronously. Also, maybe I'm relying too heavily on logs that aren't giving the full picture. It might help to add more logging around the entry and exit points of that function and watch for timing anomalies.\"\n        }\n        </example>\n  \n        <example>\n        {\n          \"thought\": \"To solve this equation, I need to isolate the variable on one side. The equation is 3x + 5 = 20. First, subtract 5 from both sides, then divide by 3. That gives x = 5.\"\n        }\n        </example>"
+      }
+    }
   }
 }
