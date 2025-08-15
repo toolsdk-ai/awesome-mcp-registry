@@ -26,6 +26,32 @@ export class PackageSO {
     }
   }
 
+  async listTools(packageName: string): Promise<Response<unknown>> {
+    const mcpServerConfig = getPackageConfigByKey(packageName);
+
+    const mockEnvs: Record<string, string> = {};
+    if (mcpServerConfig.env) {
+      Object.keys(mcpServerConfig.env).forEach((key) => {
+        mockEnvs[key] = 'mock_value';
+      });
+    }
+
+    const { client, closeConnection } = await getMcpClient(mcpServerConfig, mockEnvs);
+    try {
+      const { tools } = await client.listTools();
+
+      console.log(`Tools list retrieved successfully for package ${packageName}`);
+      return {
+        success: true,
+        code: 200,
+        message: 'Tools list retrieved successfully',
+        data: tools,
+      };
+    } finally {
+      await closeConnection();
+    }
+  }
+
   async getPackageDetail(packageName: string): Promise<Response<MCPServerPackageConfig>> {
     const packageInfo = typedAllPackagesList[packageName];
     if (!packageInfo) {
