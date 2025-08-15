@@ -9,6 +9,8 @@ packageRoutes.post('/packages/run', packageHandler.executeTool);
 
 packageRoutes.get('/packages/detail', packageHandler.getPackageDetail);
 
+packageRoutes.get('/packages/tools', packageHandler.listTools);
+
 packageRoutes.get('/config/categories', (c) => {
   const categories: CategoryConfig[] = require('../../config/categories.mjs').default;
   const response: Response<CategoryConfig[]> = {

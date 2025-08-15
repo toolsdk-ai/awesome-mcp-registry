@@ -46,4 +46,37 @@ export const packageHandler = {
     const statusCode = result.success ? 200 : 404;
     return c.json(result, statusCode);
   },
+
+  listTools: async (c: Context) => {
+    const packageName = c.req.query('packageName');
+    if (!packageName) {
+      return c.json(
+        {
+          success: false,
+          code: 400,
+          message: 'Missing packageName query parameter',
+        },
+        400,
+      );
+    }
+
+    try {
+      const toolSO = new PackageSO();
+      const result: Response<unknown> = await toolSO.listTools(packageName);
+      const statusCode = result.success ? 200 : 500;
+      return c.json(result, statusCode);
+    } catch (error) {
+      if (error instanceof Error && error.message.includes('not found')) {
+        return c.json(
+          {
+            success: false,
+            code: 404,
+            message: `Package '${packageName}' not found`,
+          },
+          404,
+        );
+      }
+      throw error;
+    }
+  },
 };
