@@ -6,6 +6,7 @@ import type {
   PackagesListSchema,
   ToolExecuteSchema,
 } from './schema';
+import type { Tool } from '@modelcontextprotocol/sdk/types.js';
 
 export type MCPServerPackageConfig = z.infer<typeof MCPServerPackageConfigSchema>;
 export type PackageConfig = z.infer<typeof PackageConfigSchema>;
@@ -19,3 +20,7 @@ export interface Response<T> {
   message: string;
   data?: T;
 }
+
+export type MCPServerPackageConfigWithTools = MCPServerPackageConfig & {
+  tools?: Tool[];
+};

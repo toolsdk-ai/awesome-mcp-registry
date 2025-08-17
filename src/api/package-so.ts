@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { getPackageConfigByKey, getMcpClient, typedAllPackagesList } from '../helper.js';
-import type { MCPServerPackageConfig, ToolExecute, Response } from '../types';
+import type { MCPServerPackageConfig, ToolExecute, Response, MCPServerPackageConfigWithTools } from '../types';
+import type { Tool } from '@modelcontextprotocol/sdk/types.js';
 
 export class PackageSO {
   async executeTool(request: ToolExecute): Promise<Response<unknown>> {
@@ -26,7 +27,7 @@ export class PackageSO {
     }
   }
 
-  async listTools(packageName: string): Promise<Response<unknown>> {
+  async listTools(packageName: string): Promise<Response<Tool[]>> {
     const mcpServerConfig = getPackageConfigByKey(packageName);
 
     const mockEnvs: Record<string, string> = {};
@@ -66,11 +67,27 @@ export class PackageSO {
     const jsonStr = fs.readFileSync(jsonFilePath, 'utf-8');
     const packageConfig: MCPServerPackageConfig = JSON.parse(jsonStr);
 
+    let tools;
+    try {
+      const toolList = await this.listTools(packageName);
+      tools = toolList.success ? toolList.data : undefined;
+    } catch (error) {
+      console.warn(`Warn retrieving tools for package ${packageName}:`, (error as Error).message);
+      // 如果无法获取工具列表，则将tools设置为undefined
+      tools = undefined;
+    }
+
+    // const toolList = await this.listTools(packageName);
+    const packageConfigWithTools: MCPServerPackageConfigWithTools = {
+      ...packageConfig,
+      tools,
+    };
+
     return {
       success: true,
       code: 200,
       message: 'Package detail retrieved successfully',
-      data: packageConfig,
+      data: packageConfigWithTools,
     };
   }
 }

@@ -1,6 +1,6 @@
 import { Context } from 'hono';
 import { PackageSO } from './package-so';
-import type { ToolExecute, Response, MCPServerPackageConfig } from '../types';
+import type { ToolExecute, Response, MCPServerPackageConfigWithTools } from '../types';
 
 export const packageHandler = {
   executeTool: async (c: Context) => {
@@ -42,7 +42,7 @@ export const packageHandler = {
     }
 
     const toolSO = new PackageSO();
-    const result: Response<MCPServerPackageConfig> = await toolSO.getPackageDetail(packageName);
+    const result: Response<MCPServerPackageConfigWithTools> = await toolSO.getPackageDetail(packageName);
     const statusCode = result.success ? 200 : 404;
     return c.json(result, statusCode);
   },
