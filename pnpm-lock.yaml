@@ -6701,32 +6701,32 @@ packages:
     resolution: {integrity: sha512-PE5U1py8lj2TjgB705H6ENl/khQAjEskQ+HzfqGhYZ2xXO9DC7meJahbxa8NyEh5vLXweKc0Inj3tLtGpL88uQ==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-cli@0.16.3':
-    resolution: {integrity: sha512-6Hbh+QVRsEDel7hA9qiRklwWEoW4dQXHw4Ltr8JdsU1ziqem4/ERgGxthg/d+qrmbVwW9shOqPIaGoRFaZ264g==}
+  '@modelcontextprotocol/inspector-cli@0.16.4':
+    resolution: {integrity: sha512-UleTsJYe17zm67pupBB2nLpKADtnUrC/WYNN0DhGPCRYkL39D49JYXNxsCSwk/IFJJqFgXxDuiw/iMvEulsTGg==}
     hasBin: true
 
   '@modelcontextprotocol/inspector-client@0.10.2':
     resolution: {integrity: sha512-gZfdkhtLEVjQslzKyyxTppm4iV2psuw6hkTtx+RULEopj+0dwE3mX4Ddl4uGcrz6eNv0bj/u7DE6azISIHSGXA==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-client@0.16.3':
-    resolution: {integrity: sha512-BbFyNUesmZrl9FcM+TeogAo2DM6lA1+NJSSszd9+xtuumdX8WxEynv4quBgfxW/R+nHv6+D5h/ftQ3x9hwgskQ==}
+  '@modelcontextprotocol/inspector-client@0.16.4':
+    resolution: {integrity: sha512-iC76R/BNsHP3cFHoGVbkAg0o7tj68qe1v5yMGqDw0rnvi87+Shkdskt631G7oKHfA75RtqUIv3XXXaMxGdfDuQ==}
     hasBin: true
 
   '@modelcontextprotocol/inspector-server@0.10.2':
     resolution: {integrity: sha512-VXXMIdOlzyZ0eGG22glkfMH1cWOoHqrgEN6QvFaleXvRSaCp5WVe3M2gLXOyHRFVHimrDWKsGB0NjeXxb6xYuw==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-server@0.16.3':
-    resolution: {integrity: sha512-7chp1jSSzM/7YswfQXA0CoBoWwEzUyKBe9s4H3e8DOBJPho6IxYgouHccHHmghWkd7e2W6ir3xwQBkLRnkt2nQ==}
+  '@modelcontextprotocol/inspector-server@0.16.4':
+    resolution: {integrity: sha512-XVJ46kC/FJ/o5Clo3DiggzJT9dAGSxFfsiw3kJUNlf2PxgUUQsMJWRhCgfMJSL4gtI/yVScmByJk+fYXSjX0+A==}
     hasBin: true
 
   '@modelcontextprotocol/inspector@0.10.2':
     resolution: {integrity: sha512-P/ag1MJz7mdOpmlE5OUozehzw0AYDi1cuXUctcPBpNvbufpnmmIwpD79I0lN41ydH1vnH4c8MTork75KWmP/hQ==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector@0.16.3':
-    resolution: {integrity: sha512-9zOf8piPYNz/8vLEMHzmp8kBYQ/FZ1WP1Ao7fXHqkNcSbyw6d7CfTgZvI2Uj1Cb5VFxZ2jWvCD7J80q8G4okjg==}
+  '@modelcontextprotocol/inspector@0.16.4':
+    resolution: {integrity: sha512-CbG5ymBVi9QCM8hDteWtX4EN8vqJNLOf4Sr/05WyDm4fTNN2ybN69GSh8CjLuQReWIqz0Kw4NauhoGC6m3IgSA==}
     engines: {node: '>=22.7.5'}
     hasBin: true
 
@@ -6812,6 +6812,10 @@ packages:
 
   '@modelcontextprotocol/sdk@1.17.2':
     resolution: {integrity: sha512-EFLRNXR/ixpXQWu6/3Cu30ndDFIFNaqUXcTqsGebujeMan9FzhAaFFswLRiFj61rgygDRr8WO1N+UijjgRxX9g==}
+    engines: {node: '>=18'}
+
+  '@modelcontextprotocol/sdk@1.17.3':
+    resolution: {integrity: sha512-JPwUKWSsbzx+DLFznf/QZ32Qa+ptfbUlHhRLrBQBAFu9iI1iYvizM4p+zhhRDceSsPutXp4z+R/HPVphlIiclg==}
     engines: {node: '>=18'}
 
   '@modelcontextprotocol/sdk@1.3.1':
@@ -11555,6 +11559,9 @@ packages:
 
   '@types/node@24.2.1':
     resolution: {integrity: sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==}
+
+  '@types/node@24.3.0':
+    resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -31435,7 +31442,7 @@ snapshots:
 
   '@coderide/mcp@0.4.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       axios: 1.10.0
       dotenv: 16.6.1
       nanoid: 5.1.5
@@ -31726,9 +31733,9 @@ snapshots:
 
   '@cyanheads/toolkit-mcp-server@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       '@types/luxon': 3.7.1
-      '@types/node': 24.2.1
+      '@types/node': 24.3.0
       luxon: 3.7.1
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
@@ -32512,7 +32519,7 @@ snapshots:
 
   '@exoticknight/mcp-file-merger@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
     transitivePeerDependencies:
@@ -35977,9 +35984,9 @@ snapshots:
 
   '@missionsquad/mcp-helper-tools@1.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       '@types/luxon': 3.7.1
-      '@types/node': 24.2.1
+      '@types/node': 24.3.0
       luxon: 3.7.1
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
@@ -36028,15 +36035,15 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.10.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
       - supports-color
 
-  '@modelcontextprotocol/inspector-cli@0.16.3':
+  '@modelcontextprotocol/inspector-cli@0.16.4':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
@@ -36044,7 +36051,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-client@0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -36074,9 +36081,9 @@ snapshots:
       - supports-color
       - tailwindcss
 
-  '@modelcontextprotocol/inspector-client@0.16.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))':
+  '@modelcontextprotocol/inspector-client@0.16.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -36109,7 +36116,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -36119,9 +36126,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector-server@0.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector-server@0.16.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -36154,12 +36161,12 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector@0.16.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector@0.16.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/inspector-cli': 0.16.3
-      '@modelcontextprotocol/inspector-client': 0.16.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))
-      '@modelcontextprotocol/inspector-server': 0.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/inspector-cli': 0.16.4
+      '@modelcontextprotocol/inspector-client': 0.16.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))
+      '@modelcontextprotocol/inspector-server': 0.16.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/sdk': 1.17.3
       concurrently: 9.2.0
       open: 10.2.0
       shell-quote: 1.8.3
@@ -36442,6 +36449,23 @@ snapshots:
       - supports-color
 
   '@modelcontextprotocol/sdk@1.17.2':
+    dependencies:
+      ajv: 6.12.6
+      content-type: 1.0.5
+      cors: 2.8.5
+      cross-spawn: 7.0.6
+      eventsource: 3.0.7
+      eventsource-parser: 3.0.3
+      express: 5.1.0
+      express-rate-limit: 7.5.1(express@5.1.0)
+      pkce-challenge: 5.0.0
+      raw-body: 3.0.0
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@modelcontextprotocol/sdk@1.17.3':
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
@@ -39187,7 +39211,7 @@ snapshots:
 
   '@opentofu/opentofu-mcp-server@0.1.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       semver: 7.7.2
       zod: 3.25.76
     transitivePeerDependencies:
@@ -41339,7 +41363,7 @@ snapshots:
   '@smithery/sdk@1.5.5(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       ai: 4.3.19(react@18.3.1)(zod@3.25.76)
       express: 5.1.0
       json-schema: 0.4.0
@@ -43004,6 +43028,10 @@ snapshots:
     dependencies:
       undici-types: 7.10.0
 
+  '@types/node@24.3.0':
+    dependencies:
+      undici-types: 7.10.0
+
   '@types/normalize-package-data@2.4.4': {}
 
   '@types/offscreencanvas@2019.3.0': {}
@@ -44635,7 +44663,7 @@ snapshots:
 
   agents@0.0.59(@cloudflare/workers-types@4.20250627.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       cron-schedule: 5.0.4
       nanoid: 5.1.5
       partyserver: 0.0.66(@cloudflare/workers-types@4.20250627.0)
@@ -46052,7 +46080,7 @@ snapshots:
 
   base-network-mcp-server@0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(immer@10.1.1)(ioredis@5.5.0)(kerberos@2.2.2)(mongodb-client-encryption@6.4.0)(react@18.3.1)(snappy@7.2.2)(socks@2.8.5)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.2.4(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(zod@3.25.67):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       '@wagmi/core': 1.4.13(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(immer@10.1.1)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.2.4(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.67))(zod@3.25.67)
       dotenv: 16.6.1
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -47350,7 +47378,7 @@ snapshots:
 
   cloudinary-mcp-server@0.4.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       cloudinary: 1.41.3
       dotenv: 16.6.1
       zod: 3.25.76
@@ -52436,7 +52464,7 @@ snapshots:
 
   instagram-engagement-mcp@0.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       axios: 1.10.0
       dotenv: 16.6.1
       instagram-private-api: 1.46.1
@@ -53920,7 +53948,7 @@ snapshots:
 
   lighthouse-mcp@0.1.3(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       chrome-launcher: 0.15.2
       lighthouse: 12.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -54358,7 +54386,7 @@ snapshots:
 
   lumbretravel-mcp@0.1.14:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       '@types/moment': 2.13.0
       dotenv: 17.2.1
       node-fetch: 3.3.2
@@ -54875,7 +54903,7 @@ snapshots:
 
   mcp-firebird@2.2.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(encoding@0.1.13)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/inspector': 0.16.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/inspector': 0.16.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.17.2
       cors: 2.8.5
       dotenv: 16.6.1
@@ -55142,7 +55170,7 @@ snapshots:
 
   mcp-postman@1.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       newman: 6.2.1
       zod: 3.25.76
     transitivePeerDependencies:
@@ -55172,7 +55200,7 @@ snapshots:
 
   mcp-proxy@3.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -55180,7 +55208,7 @@ snapshots:
 
   mcp-proxy@5.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       eventsource: 4.0.0
       yargs: 18.0.0
     transitivePeerDependencies:
@@ -55842,7 +55870,7 @@ snapshots:
 
   meta-mcp-server@1.5.4:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
     transitivePeerDependencies:
       - supports-color
 
@@ -57822,7 +57850,7 @@ snapshots:
 
   onyx-mcp-server@1.2.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       axios: 1.10.0
     transitivePeerDependencies:
       - debug
@@ -58026,7 +58054,7 @@ snapshots:
 
   opentrons-mcp@1.0.24:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.2
+      '@modelcontextprotocol/sdk': 1.17.3
       axios: 1.10.0
       nats: 2.29.3
     transitivePeerDependencies:
