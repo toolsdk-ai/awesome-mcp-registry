@@ -1,6 +1,7 @@
 import { Context } from 'hono';
 import { PackageSO } from './package-so';
-import type { ToolExecute, Response, MCPServerPackageConfig } from '../types';
+import type { ToolExecute, Response, MCPServerPackageConfigWithTools } from '../types';
+import type { Tool } from '@modelcontextprotocol/sdk/types.js';
 
 export const packageHandler = {
   executeTool: async (c: Context) => {
@@ -8,10 +9,16 @@ export const packageHandler = {
 
     try {
       const toolSO = new PackageSO();
-      const result: Response<unknown> = await toolSO.executeTool(requestBody);
+      const result = await toolSO.executeTool(requestBody);
 
-      const statusCode = result.success ? 200 : 500;
-      return c.json(result, statusCode);
+      const response: Response<unknown> = {
+        success: true,
+        code: 200,
+        message: 'Tool executed successfully',
+        data: result,
+      };
+
+      return c.json(response, 200);
     } catch (error) {
       if (error instanceof Error && (error.message.includes('not found') || error.message.includes('Unknown tool'))) {
         return c.json(
@@ -41,9 +48,68 @@ export const packageHandler = {
       );
     }
 
-    const toolSO = new PackageSO();
-    const result: Response<MCPServerPackageConfig> = await toolSO.getPackageDetail(packageName);
-    const statusCode = result.success ? 200 : 404;
-    return c.json(result, statusCode);
+    try {
+      const toolSO = new PackageSO();
+      const result: MCPServerPackageConfigWithTools = await toolSO.getPackageDetail(packageName);
+
+      const response: Response<MCPServerPackageConfigWithTools> = {
+        success: true,
+        code: 200,
+        message: 'Package detail retrieved successfully',
+        data: result,
+      };
+      return c.json(response, 200);
+    } catch (error) {
+      if (error instanceof Error && error.message.includes('not found')) {
+        return c.json(
+          {
+            success: false,
+            code: 404,
+            message: `Package '${packageName}' not found`,
+          },
+          404,
+        );
+      }
+      throw error;
+    }
+  },
+
+  listTools: async (c: Context) => {
+    const packageName = c.req.query('packageName');
+    if (!packageName) {
+      return c.json(
+        {
+          success: false,
+          code: 400,
+          message: 'Missing packageName query parameter',
+        },
+        400,
+      );
+    }
+
+    try {
+      const toolSO = new PackageSO();
+      const result: Tool[] = await toolSO.listTools(packageName);
+
+      const response: Response<Tool[]> = {
+        success: true,
+        code: 200,
+        message: 'Tools list retrieved successfully',
+        data: result,
+      };
+      return c.json(response, 200);
+    } catch (error) {
+      if (error instanceof Error && error.message.includes('not found')) {
+        return c.json(
+          {
+            success: false,
+            code: 404,
+            message: `Package '${packageName}' not found`,
+          },
+          404,
+        );
+      }
+      throw error;
+    }
   },
 };
