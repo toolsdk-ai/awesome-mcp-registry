@@ -15,6 +15,12 @@ app.get('/', (c) => {
   return c.text('MCP Registry API Server is running!');
 });
 
+app.get('/api/meta', (c) => {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const packageJson = require('../../package.json');
+  return c.json({ version: packageJson.version });
+});
+
 app.notFound((c) => {
   return c.json({ success: false, code: 404, message: 'Route not found' }, 404);
 });
