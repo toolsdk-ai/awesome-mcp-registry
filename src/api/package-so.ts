@@ -5,7 +5,7 @@ import type { MCPServerPackageConfig, ToolExecute, MCPServerPackageConfigWithToo
 import type { Tool } from '@modelcontextprotocol/sdk/types.js';
 
 export class PackageSO {
-  async executeTool(request: ToolExecute) {
+  async executeTool(request: ToolExecute): Promise<unknown> {
     const mcpServerConfig = getPackageConfigByKey(request.packageName);
 
     const { client, closeConnection } = await getMcpClient(mcpServerConfig, request.envs || {});
@@ -58,7 +58,7 @@ export class PackageSO {
       tools = await this.listTools(packageName);
     } catch (error) {
       console.warn(`Warn retrieving tools for package ${packageName}:`, (error as Error).message);
-      // 如果无法获取工具列表，则将tools设置为undefined
+      // if tools cannot be retrieved, set tools to undefined
       tools = undefined;
     }
 

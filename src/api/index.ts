@@ -1,13 +1,14 @@
 import dotenv from 'dotenv';
 import path from 'path';
-import { Hono } from 'hono';
 import { serve } from '@hono/node-server';
 import { packageRoutes } from './package-route';
+import { OpenAPIHono } from '@hono/zod-openapi';
+import { swaggerUI } from '@hono/swagger-ui';
 
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 
-const app = new Hono();
+const app: OpenAPIHono = new OpenAPIHono();
 
 app.route('/api/v1', packageRoutes);
 
@@ -20,6 +21,16 @@ app.get('/api/meta', (c) => {
   const packageJson = require('../../package.json');
   return c.json({ version: packageJson.version });
 });
+
+app.doc('/api/v1/doc', {
+  openapi: '3.0.0',
+  info: {
+    version: '1.0.0',
+    title: 'MCP Registry API',
+  },
+});
+
+app.get('/swagger', swaggerUI({ url: '/api/v1/doc' }));
 
 app.notFound((c) => {
   return c.json({ success: false, code: 404, message: 'Route not found' }, 404);
