@@ -2,6 +2,7 @@ import { Context } from 'hono';
 import { PackageSO } from './package-so';
 import type { ToolExecute, Response, MCPServerPackageConfigWithTools } from '../types';
 import type { Tool } from '@modelcontextprotocol/sdk/types.js';
+import { createErrorResponse, createResponse } from '../utils';
 
 export const packageHandler = {
   executeTool: async (c: Context) => {
@@ -11,25 +12,23 @@ export const packageHandler = {
       const toolSO = new PackageSO();
       const result = await toolSO.executeTool(requestBody);
 
-      const response: Response<unknown> = {
-        success: true,
-        code: 200,
-        message: 'Tool executed successfully',
-        data: result,
-      };
-
+      const response: Response<unknown> = createResponse(result);
       return c.json(response, 200);
     } catch (error) {
-      if (error instanceof Error && (error.message.includes('not found') || error.message.includes('Unknown tool'))) {
-        return c.json(
-          {
-            success: false,
-            code: 404,
-            message: `Package '${requestBody.packageName}' or tool '${requestBody.toolKey}' not found`,
-          },
-          404,
-        );
+      if (error instanceof Error) {
+        if (error.message.includes('not found')) {
+          const errorResponse = createErrorResponse(`Package '${requestBody.packageName}' not found`, 404);
+          return c.json(errorResponse, 404);
+        }
+        if (error.message.includes('Unknown tool')) {
+          const errorResponse = createErrorResponse(
+            `Tool '${requestBody.toolKey}' not found in package '${requestBody.packageName}`,
+            404,
+          );
+          return c.json(errorResponse, 404);
+        }
       }
+
       // Other errors are still thrown
       throw error;
     }
@@ -38,37 +37,20 @@ export const packageHandler = {
   getPackageDetail: async (c: Context) => {
     const packageName = c.req.query('packageName');
     if (!packageName) {
-      return c.json(
-        {
-          success: false,
-          code: 400,
-          message: 'Missing packageName query parameter',
-        },
-        400,
-      );
+      const errorResponse = createErrorResponse('Missing packageName query parameter', 400);
+      return c.json(errorResponse, 400);
     }
 
     try {
       const toolSO = new PackageSO();
       const result: MCPServerPackageConfigWithTools = await toolSO.getPackageDetail(packageName);
 
-      const response: Response<MCPServerPackageConfigWithTools> = {
-        success: true,
-        code: 200,
-        message: 'Package detail retrieved successfully',
-        data: result,
-      };
+      const response = createResponse(result);
       return c.json(response, 200);
     } catch (error) {
       if (error instanceof Error && error.message.includes('not found')) {
-        return c.json(
-          {
-            success: false,
-            code: 404,
-            message: `Package '${packageName}' not found`,
-          },
-          404,
-        );
+        const errorResponse = createErrorResponse(`Package '${packageName}' not found`, 404);
+        return c.json(errorResponse, 404);
       }
       throw error;
     }
@@ -77,37 +59,20 @@ export const packageHandler = {
   listTools: async (c: Context) => {
     const packageName = c.req.query('packageName');
     if (!packageName) {
-      return c.json(
-        {
-          success: false,
-          code: 400,
-          message: 'Missing packageName query parameter',
-        },
-        400,
-      );
+      const errorResponse = createErrorResponse('Missing packageName query parameter', 400);
+      return c.json(errorResponse, 400);
     }
 
     try {
       const toolSO = new PackageSO();
       const result: Tool[] = await toolSO.listTools(packageName);
 
-      const response: Response<Tool[]> = {
-        success: true,
-        code: 200,
-        message: 'Tools list retrieved successfully',
-        data: result,
-      };
+      const response = createResponse(result);
       return c.json(response, 200);
     } catch (error) {
       if (error instanceof Error && error.message.includes('not found')) {
-        return c.json(
-          {
-            success: false,
-            code: 404,
-            message: `Package '${packageName}' not found`,
-          },
-          404,
-        );
+        const errorResponse = createErrorResponse(`Package '${packageName}' not found`, 404);
+        return c.json(errorResponse, 404);
       }
       throw error;
     }
