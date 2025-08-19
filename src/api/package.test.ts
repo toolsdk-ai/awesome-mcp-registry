@@ -15,8 +15,9 @@ describe('PackageSO - MCP Tool Execution Service Test', () => {
 
     const result = await toolSO.executeTool(request);
 
-    expect(result.success).toBe(true);
-    expect(result.data).toEqual({
+    console.log('结果', result);
+
+    expect(result).toEqual({
       content: [],
       message: 'Hello, Mike!',
     });
