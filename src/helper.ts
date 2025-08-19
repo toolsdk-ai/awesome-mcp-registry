@@ -94,6 +94,7 @@ export function updatePackageJsonDependencies({
   const newDeps = {
     '@modelcontextprotocol/sdk': '^1.12.0',
     '@hono/node-server': '1.15.0',
+    '@hono/swagger-ui': '^0.5.2',
     '@hono/zod-openapi': '^0.16.4',
     lodash: '^4.17.21',
     zod: '^3.25.67',
