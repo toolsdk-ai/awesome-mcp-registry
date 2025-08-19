@@ -37,7 +37,18 @@ export const createRouteResponses = <T extends z.ZodTypeAny>(
 ) => {
   const { successDescription = 'Success', includeErrorResponses = false } = options || {};
 
-  const responses: Record<number, any> = {
+  const responses: Record<
+    number,
+    {
+      content: Record<
+        string,
+        {
+          schema: z.ZodTypeAny;
+        }
+      >;
+      description: string;
+    }
+  > = {
     200: {
       content: {
         'application/json': {
