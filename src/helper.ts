@@ -97,7 +97,7 @@ export function updatePackageJsonDependencies({
     '@hono/swagger-ui': '^0.5.2',
     '@hono/zod-openapi': '^0.16.4',
     lodash: '^4.17.21',
-    zod: '^3.25.67',
+    zod: '^3.23.30',
     axios: '^1.9.0',
     hono: '4.8.3',
     semver: '^7.5.4',
