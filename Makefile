@@ -14,3 +14,9 @@ build:
 
 dev:
 	pnpm run dev
+
+docker-build:
+	docker build -t awesome-mcp-registry .
+
+docker-run:
+	docker run -d -p 3003:3003 --name mcp-registry awesome-mcp-registry
