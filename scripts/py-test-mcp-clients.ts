@@ -1,3 +1,27 @@
+/*
+This script is used to test Python MCP clients by connecting to each Python-based MCP server
+and retrieving their available tools.
+
+Main workflow:
+1. Retrieve all Python dependencies from the registry
+2. Filter out packages that need to be temporarily ignored
+3. For each Python MCP package:
+   - Create a client connection using StdioClientTransport
+   - Mock required environment variables
+   - Connect to the MCP server
+   - List available tools
+   - Store tool information
+   - Close the connection
+4. Update package list with validation results
+5. Save the updated information to packages-list.json
+6. Output the list of successfully validated packages
+
+Error handling:
+- Packages that fail validation are marked with validated: false
+- Connection errors are caught and logged
+- Client connections are properly closed even in case of errors
+*/
+
 import fs from 'fs';
 import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
@@ -54,7 +78,7 @@ async function main() {
   const pythonDeps = getPythonDependencies();
 
   for (const depName of pythonDeps) {
-    // 跳过需要临时忽略的包
+    // Skip packages that need temporary ignore
     if (TEMP_IGNORE_DEP_NAMES.includes(depName)) {
       continue;
     }
@@ -93,17 +117,16 @@ async function main() {
         typedAllPackagesList[depName].validated = true;
       }
 
-      console.log(`✅ ${depName} validated, tools: ${Object.keys(saveTools).length}`);
+      console.log(`✓ ${depName} validated, tools: ${Object.keys(saveTools).length}`);
     } catch (e: any) {
       packageConfig[depName] = {
         ...mcpServerConfig,
         tools: {},
         validated: false,
       };
-      console.error(`❌ Error validating Python MCP Client for ${depName}:`, e.message);
+      console.error(`✗ Error validating Python MCP Client for ${depName}:`, e.message);
 
-      // ~~更新 typedAllPackagesList 中的验证状态~~
-      // validated: false 的 Python MCP 暂不做处理
+      // Not processing Python MCPs with validated: false for now
       // if (typedAllPackagesList[depName]) {
       //   typedAllPackagesList[depName].tools = {};
       //   typedAllPackagesList[depName].validated = false;
@@ -111,14 +134,14 @@ async function main() {
     }
   }
 
-  // console.log('校验的 python 包: \n', packageConfig);
-  // 将更新后的包列表写入文件
+  // console.log('Validated python packages: \n', packageConfig);
+  // Write the updated package list to file
   fs.writeFileSync('indexes/packages-list.json', JSON.stringify(typedAllPackagesList, null, 2), 'utf-8');
 
   const validatedPackages = Object.entries(packageConfig)
     .filter(([_, v]) => v.validated)
     .map(([packageName, _]) => packageName);
-  console.log('校验通过的 python 包: \n', validatedPackages);
+  console.log('Successfully validated python packages: \n', validatedPackages);
 }
 
 await main();

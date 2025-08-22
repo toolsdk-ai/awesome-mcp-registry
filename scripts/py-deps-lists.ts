@@ -1,26 +1,38 @@
 /*
-1. 遍历所有包列表
-1.1 筛选出runtime为python的包
-1.2 使用isValidPEP508验证包名是否符合PEP 508规范
-1.3 检查包是否存在于PyPI仓库中
-2. 收集有效的Python包
-2.1 对包名进行去重处理
-3. 生成依赖安装脚本
-3.1 创建bash脚本文件
-3.2 使用uv工具逐一添加依赖项
-3.3 确保在干净的环境中安装依赖（删除旧的锁文件）
+This script is used to automatically collect and install Python dependencies from the MCP Registry
+
+Main functions:
+1. Iterate through all registered MCP packages
+   - Filter packages with Python runtime
+   - Validate package names against PEP 508 specification
+   - Check if packages exist in the PyPI repository
+   
+2. Collect valid Python packages
+   - Deduplicate package names
+   - Record package version information (if specified)
+
+3. Generate dependency installation script
+   - Create bash script file
+   - Use uv tool to add dependencies one by one
+   - Ensure dependencies are installed in a clean environment (remove old lock file)
+   
+Usage flow:
+1. Scan all package configuration files
+2. Filter packages with runtime === 'python'
+3. Validate package validity
+4. Generate and execute installation script
 */
 
 import fs from 'fs';
 import { typedAllPackagesList, getPackageConfigByKey } from '../src/helper';
 import axios from 'axios';
 
-// 验证依赖项是否符合 PEP 508 规范的简单检查函数
+// Simple validation function to check if dependency conforms to PEP 508 specification
 function isValidPEP508(dependency: string): boolean {
   return /^[a-zA-Z0-9._-]+$/.test(dependency);
 }
 
-// 检查包是否在 PyPI 上存在
+// Check if package exists on PyPI
 async function isPackageOnPyPI(packageName: string): Promise<boolean> {
   try {
     const response = await axios.get(`https://pypi.org/pypi/${packageName}/json`, {
@@ -29,20 +41,22 @@ async function isPackageOnPyPI(packageName: string): Promise<boolean> {
     return response.status === 200;
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (error) {
-    // 包不存在或者请求失败
+    // Package doesn't exist or request failed
     return false;
   }
 }
 
-// 收集所有符合条件的Python包
+// Collect all eligible Python packages
 async function collectPythonPackages(maxPackages: number = 100): Promise<string[]> {
   const pythonPackages: string[] = [];
   let pythonPackageCount = 0;
 
   for (const [packageKey, value] of Object.entries(typedAllPackagesList)) {
-    // 如果已达到最大数量限制，则停止处理
+    // If maximum quantity limit has been reached, stop processing
     if (pythonPackageCount >= maxPackages) {
-      console.log(`已达到最大Python包处理数量限制 (${maxPackages})，停止处理更多包`);
+      console.log(
+        `Reached maximum Python package processing limit (${maxPackages}), stopping processing more packages`,
+      );
       break;
     }
 
@@ -53,12 +67,12 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
         const packageName = mcpServerConfig.packageName;
 
         if (!isValidPEP508(packageName)) {
-          console.log(`✗ 跳过无效包名: ${packageName} (${value.path})`);
+          console.log(`✗ Skipping invalid package name: ${packageName} (${value.path})`);
           continue;
         }
 
         if (!(await isPackageOnPyPI(packageName))) {
-          console.log(`✗ 跳过不存在于 PyPI 的包: ${packageName} (${value.path})`);
+          console.log(`✗ Skipping package not found on PyPI: ${packageName} (${value.path})`);
           continue;
         }
 
@@ -67,66 +81,65 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
         const fullName = version && version !== 'latest' ? `${packageName}==${version}` : packageName;
 
         pythonPackages.push(fullName);
-        console.log(`✓ 添加包${pythonPackageCount}: ${fullName} (${value.path})`);
+        console.log(`✓ Added package ${pythonPackageCount}: ${fullName} (${value.path})`);
       }
     } catch (error) {
-      console.error(`处理包 ${packageKey} 时出错:`, error);
+      console.error(`Error processing package ${packageKey}:`, error);
     }
   }
 
   return pythonPackages;
 }
 
-// 生成安装脚本内容
+// Generate installation script content
 function generateInstallScript(packages: string[]): string {
   const installCommands = packages.map((pkg) => `uv add ${pkg}`).join('\n');
 
-  return `#!/bin/bash
-# x打印每个命令
+  return `# x: print each command
 set -x
 cd python-mcp
 
-# 如果 pyproject.toml 不存在，初始化项目
+# initialize the project if pyproject.toml does not exist
 if [ ! -f pyproject.toml ]; then
   uv init
 fi
 
-# 删除旧的锁文件，保证干净安装
+# delete old lock file to ensure a clean installation
 rm -f uv.lock
 
-# 逐一添加依赖
+# add dependencies one by one
 ${installCommands}
 
-echo "所有 Python 依赖安装完成"
+echo "All Python dependencies have been installed successfully."
 `;
 }
 
-// 写入安装脚本文件
+// Write installation script file
 function writeInstallScript(scriptContent: string, filePath: string): void {
   fs.writeFileSync(filePath, scriptContent, 'utf-8');
   fs.chmodSync(filePath, 0o755);
 }
 
-// 主函数
+// Main function
 async function main() {
-  // 收集所有runtime: python 的包，并验证它们是否在 PyPI 上存在
+  // Collect all packages with runtime: python, and verify they exist on PyPI
   const pythonPackages: string[] = await collectPythonPackages();
 
   if (pythonPackages.length === 0) {
-    console.log('没有需要添加的新 Python 包依赖');
+    console.log('No new Python package dependencies to add');
     return;
   }
 
-  // 去重处理
+  // Deduplication
   const uniquePythonPackages = [...new Set(pythonPackages)];
-  console.log(`收集到 ${uniquePythonPackages.length} 个唯一的 Python 包`);
+  console.log(`Collected ${uniquePythonPackages.length} unique Python packages`);
 
-  // 生成并写入安装脚本
+  // Generate and write installation script
   const installScript = generateInstallScript(uniquePythonPackages);
   writeInstallScript(installScript, './install-python-deps.sh');
 
-  console.log(`\n已生成安装脚本: install-python-deps.sh`);
-  console.log('运行以下命令来安装 Python 依赖:');
+  console.log(`\nInstallation script generated: install-python-deps.sh`);
+  console.log('Run the following command to install Python dependencies:');
   console.log('  ./install-python-deps.sh');
 }
 
