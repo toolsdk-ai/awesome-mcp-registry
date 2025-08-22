@@ -115,8 +115,9 @@ async function main() {
   // 将更新后的包列表写入文件
   fs.writeFileSync('indexes/packages-list.json', JSON.stringify(typedAllPackagesList, null, 2), 'utf-8');
 
-  // 过滤掉validated: false的包
-  const validatedPackages = Object.fromEntries(Object.entries(packageConfig).filter(([_, v]) => v.validated));
+  const validatedPackages = Object.entries(packageConfig)
+    .filter(([_, v]) => v.validated)
+    .map(([packageName, _]) => packageName);
   console.log('校验通过的 python 包: \n', validatedPackages);
 }
 

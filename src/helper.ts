@@ -31,7 +31,10 @@ export function getPackageJSON(packageName: string) {
   return packageJSON;
 }
 export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
-  const { packageName } = mcpServerConfig;
+  const { packageName, runtime } = mcpServerConfig;
+  if (runtime === 'python') {
+    return getPyMcpClient(mcpServerConfig, env);
+  }
 
   const packageJSON = getPackageJSON(packageName);
   let binFilePath = '';
@@ -55,6 +58,49 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
     command: process.execPath,
     args: [mcpServerBinPath, ...binArgs],
     env: env || {},
+  });
+
+  const client = new Client(
+    {
+      name: `mcp-server-${mcpServerConfig.name}-client`,
+      version: '1.0.0',
+    },
+    {
+      capabilities: {
+        tools: {},
+      },
+    },
+  );
+  await client.connect(transport);
+
+  const closeConnection = async () => {
+    try {
+      await client.close();
+    } catch (e) {
+      console.warn(`${packageName} mcp client close failure.`, e);
+    }
+  };
+
+  return { client, transport, closeConnection };
+}
+
+export async function getPyMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
+  const { packageName } = mcpServerConfig;
+
+  // Convert package name from kebab-case to snake_case for Python modules
+  // const pythonModuleName = packageName.replace(/-/g, '_');
+  const pythonModuleName = packageName;
+
+  const transport = new StdioClientTransport({
+    command: 'uv',
+    args: ['run', '--directory', './python-mcp', pythonModuleName],
+    env: {
+      ...(Object.fromEntries(Object.entries(process.env).filter(([_, v]) => v !== undefined)) as Record<
+        string,
+        string
+      >),
+      ...env,
+    },
   });
 
   const client = new Client(
