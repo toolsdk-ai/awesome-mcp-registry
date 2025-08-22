@@ -24,45 +24,19 @@ export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfi
   return mcpServerConfig;
 }
 
-export function getPackageJSON(packageName: string) {
+function getPackageJSON(packageName: string) {
   const packageJSONFilePath = __dirname + '/../node_modules/' + packageName + '/package.json';
   const packageJSONStr = fs.readFileSync(packageJSONFilePath, 'utf8');
   const packageJSON = JSON.parse(packageJSONStr);
   return packageJSON;
 }
-export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
-  const { packageName, runtime } = mcpServerConfig;
-  if (runtime === 'python') {
-    return getPyMcpClient(mcpServerConfig, env);
-  }
 
-  const packageJSON = getPackageJSON(packageName);
-  let binFilePath = '';
-  let binPath;
-
-  if (typeof packageJSON.bin === 'string') {
-    binPath = packageJSON.bin;
-  } else if (typeof packageJSON.bin === 'object') {
-    binPath = Object.values(packageJSON.bin)[0];
-  } else {
-    binPath = packageJSON.main;
-  }
-  assert(binPath, `Package ${packageName} does not have a valid bin path in package.json.`);
-
-  // binFilePath = 'plugin_packages/' + packageName + `/${binPath}`;
-  binFilePath = __dirname + '/../node_modules/' + packageName + `/${binPath}`;
-
-  const mcpServerBinPath = mcpServerConfig.bin || binFilePath;
-  const binArgs = mcpServerConfig.binArgs || [];
-  const transport = new StdioClientTransport({
-    command: process.execPath,
-    args: [mcpServerBinPath, ...binArgs],
-    env: env || {},
-  });
+async function createMcpClient(mcpServerConfig: MCPServerPackageConfig, transport: StdioClientTransport) {
+  const { packageName, name } = mcpServerConfig;
 
   const client = new Client(
     {
-      name: `mcp-server-${mcpServerConfig.name}-client`,
+      name: `mcp-server-${name}-client`,
       version: '1.0.0',
     },
     {
@@ -84,11 +58,37 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
   return { client, transport, closeConnection };
 }
 
-export async function getPyMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
+async function getNodeMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
+  const { packageName } = mcpServerConfig;
+  const packageJSON = getPackageJSON(packageName);
+  let binFilePath = '';
+  let binPath;
+
+  if (typeof packageJSON.bin === 'string') {
+    binPath = packageJSON.bin;
+  } else if (typeof packageJSON.bin === 'object') {
+    binPath = Object.values(packageJSON.bin)[0];
+  } else {
+    binPath = packageJSON.main;
+  }
+  assert(binPath, `Package ${packageName} does not have a valid bin path in package.json.`);
+
+  binFilePath = __dirname + '/../node_modules/' + packageName + `/${binPath}`;
+
+  const mcpServerBinPath = mcpServerConfig.bin || binFilePath;
+  const binArgs = mcpServerConfig.binArgs || [];
+  const transport = new StdioClientTransport({
+    command: process.execPath,
+    args: [mcpServerBinPath, ...binArgs],
+    env: env || {},
+  });
+
+  return createMcpClient(mcpServerConfig, transport);
+}
+
+async function getPyMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
   const { packageName } = mcpServerConfig;
 
-  // Convert package name from kebab-case to snake_case for Python modules
-  // const pythonModuleName = packageName.replace(/-/g, '_');
   const pythonModuleName = packageName;
 
   const transport = new StdioClientTransport({
@@ -103,28 +103,15 @@ export async function getPyMcpClient(mcpServerConfig: MCPServerPackageConfig, en
     },
   });
 
-  const client = new Client(
-    {
-      name: `mcp-server-${mcpServerConfig.name}-client`,
-      version: '1.0.0',
-    },
-    {
-      capabilities: {
-        tools: {},
-      },
-    },
-  );
-  await client.connect(transport);
+  return createMcpClient(mcpServerConfig, transport);
+}
 
-  const closeConnection = async () => {
-    try {
-      await client.close();
-    } catch (e) {
-      console.warn(`${packageName} mcp client close failure.`, e);
-    }
-  };
-
-  return { client, transport, closeConnection };
+export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
+  const { runtime } = mcpServerConfig;
+  if (runtime === 'python') {
+    return getPyMcpClient(mcpServerConfig, env);
+  }
+  return getNodeMcpClient(mcpServerConfig, env);
 }
 
 export function updatePackageJsonDependencies({
