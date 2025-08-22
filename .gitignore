@@ -1,18 +1,20 @@
 
 node_modules
 logs
+*.log
 dist
 
 .env.local
 
 # MCP Client Test
-mcp-server.log
-js-sandbox.log
-mcp-log.log
 terminal-security.json
 terminal-tool.json
 docs-config.json
 .clinerules-*
 doc/docs/*
-query_12306.log
 sqlite_mcp_server.db
+
+# Python Virtual Environment
+.venv/
+uv.lock
+main.py
