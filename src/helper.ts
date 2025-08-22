@@ -7,6 +7,7 @@ import semver from 'semver';
 import * as path from 'path';
 import allPackagesList from '../indexes/packages-list.json';
 import assert from 'assert';
+import toml from 'toml';
 import { MCPServerPackageConfigSchema, PackagesListSchema } from './schema';
 
 export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
@@ -16,7 +17,6 @@ export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfi
   if (!value) {
     throw new Error(`Package '${packageKey}' not found in packages list.`);
   }
-
   const jsonFile = value.path;
   // read the JSON file and convert it to MCPServerPackageConfig
   const jsonStr = fs.readFileSync(__dirname + '/../packages/' + jsonFile, 'utf-8');
@@ -97,6 +97,7 @@ export function updatePackageJsonDependencies({
     '@hono/swagger-ui': '^0.5.2',
     '@hono/zod-openapi': '^0.16.4',
     lodash: '^4.17.21',
+    toml: '^3.0.0',
     zod: '^3.25.67',
     axios: '^1.9.0',
     hono: '4.8.3',
@@ -160,7 +161,7 @@ export function withTimeout<T>(ms: number, promise: Promise<T>): Promise<T> {
 interface DependencyData {
   versions: Record<string, unknown>;
 }
-// 校验依赖项有效性
+
 function checkDependencyValidity(dependencyData: DependencyData, versionRange: string): boolean {
   // 兼容 "latest" 的情况
   if (versionRange === 'latest') {
@@ -177,7 +178,6 @@ function checkDependencyValidity(dependencyData: DependencyData, versionRange: s
   return false;
 }
 
-// 通用依赖项检查函数
 async function checkDependencies(dependencies: Record<string, string>): Promise<boolean> {
   const dependencyCache: Record<string, boolean> = {};
   const checkSingleDependency = async (depName: string, depVersionRange: string): Promise<boolean> => {
@@ -223,7 +223,6 @@ async function checkDependencies(dependencies: Record<string, string>): Promise<
   return results.every((result) => result);
 }
 
-// 判断 npm 包及其依赖是否有效
 export async function isValidNpmPackage(packageName: string): Promise<boolean> {
   try {
     // 检查主包是否存在
@@ -262,4 +261,11 @@ export async function isValidNpmPackage(packageName: string): Promise<boolean> {
     console.error(`Error validating package ${packageName}:`, (error as Error).message);
     return false;
   }
+}
+
+export function getPythonDependencies(): string[] {
+  const content = fs.readFileSync('./python-mcp/pyproject.toml', 'utf-8');
+  const data = toml.parse(content);
+  const deps = data.project?.dependencies || [];
+  return deps.map((dep: string) => dep.split(/[=<>!]/)[0].trim());
 }
