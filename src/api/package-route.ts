@@ -13,6 +13,7 @@ import {
   packageNameQuerySchema,
 } from '../schema';
 import { createResponse, createRouteResponses } from '../utils';
+import { getPythonDependencies } from '../helper';
 
 export const packageRoutes: OpenAPIHono = new OpenAPIHono();
 
@@ -49,6 +50,18 @@ const packagesListRoute = createRoute({
 packageRoutes.openapi(packagesListRoute, async (c) => {
   const packagesList: PackagesList = (await import('../../indexes/packages-list.json')).default;
   const response = createResponse(packagesList);
+  return c.json(response, 200);
+});
+
+const pythonTomlRoute = createRoute({
+  method: 'get',
+  path: '/python-mcp/pyproject',
+  responses: createRouteResponses(PackagesListResponseSchema),
+});
+
+packageRoutes.openapi(pythonTomlRoute, async (c) => {
+  const pythonDependencies = getPythonDependencies();
+  const response = createResponse(pythonDependencies);
   return c.json(response, 200);
 });
 

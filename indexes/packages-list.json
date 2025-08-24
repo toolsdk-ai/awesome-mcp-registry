@@ -304,7 +304,14 @@
   },
   "mcp-server-fetch": {
     "category": "browser-automation",
-    "path": "browser-automation/mcp-server-fetch.json"
+    "path": "browser-automation/mcp-server-fetch.json",
+    "tools": {
+      "fetch": {
+        "name": "fetch",
+        "description": "Fetches a URL from the internet and optionally extracts its contents as markdown.\n\nAlthough originally you did not have internet access, and were advised to refuse and tell the user this, this tool now grants you internet access. Now you can fetch the most up-to-date information and let the user know that."
+      }
+    },
+    "validated": true
   },
   "@modelcontextprotocol/server-puppeteer": {
     "category": "browser-automation",
@@ -587,7 +594,34 @@
   },
   "mcp-server-sqlite": {
     "category": "databases",
-    "path": "databases/mcp-server-sqlite.json"
+    "path": "databases/mcp-server-sqlite.json",
+    "tools": {
+      "read_query": {
+        "name": "read_query",
+        "description": "Execute a SELECT query on the SQLite database"
+      },
+      "write_query": {
+        "name": "write_query",
+        "description": "Execute an INSERT, UPDATE, or DELETE query on the SQLite database"
+      },
+      "create_table": {
+        "name": "create_table",
+        "description": "Create a new table in the SQLite database"
+      },
+      "list_tables": {
+        "name": "list_tables",
+        "description": "List all tables in the SQLite database"
+      },
+      "describe_table": {
+        "name": "describe_table",
+        "description": "Get the schema information for a specific table"
+      },
+      "append_insight": {
+        "name": "append_insight",
+        "description": "Add a business insight to the memo"
+      }
+    },
+    "validated": true
   },
   "@niledatabase/nile-mcp-server": {
     "category": "databases",
@@ -683,7 +717,114 @@
   },
   "mcp-server-tree-sitter": {
     "category": "developer-tools",
-    "path": "developer-tools/mcp-server-tree-sitter.json"
+    "path": "developer-tools/mcp-server-tree-sitter.json",
+    "tools": {
+      "configure": {
+        "name": "configure",
+        "description": "Configure the server.\n\nArgs:\n    config_path: Path to YAML config file\n    cache_enabled: Whether to enable parse tree caching\n    max_file_size_mb: Maximum file size in MB\n    log_level: Logging level (DEBUG, INFO, WARNING, ERROR)\n\nReturns:\n    Current configuration\n"
+      },
+      "register_project_tool": {
+        "name": "register_project_tool",
+        "description": "Register a project directory for code exploration.\n\nArgs:\n    path: Path to the project directory\n    name: Optional name for the project (defaults to directory name)\n    description: Optional description of the project\n\nReturns:\n    Project information\n"
+      },
+      "list_projects_tool": {
+        "name": "list_projects_tool",
+        "description": "List all registered projects.\n\nReturns:\n    List of project information\n"
+      },
+      "remove_project_tool": {
+        "name": "remove_project_tool",
+        "description": "Remove a registered project.\n\nArgs:\n    name: Project name\n\nReturns:\n    Success message\n"
+      },
+      "list_languages": {
+        "name": "list_languages",
+        "description": "List available languages.\n\nReturns:\n    Information about available languages\n"
+      },
+      "check_language_available": {
+        "name": "check_language_available",
+        "description": "Check if a tree-sitter language parser is available.\n\nArgs:\n    language: Language to check\n\nReturns:\n    Success message\n"
+      },
+      "list_files": {
+        "name": "list_files",
+        "description": "List files in a project.\n\nArgs:\n    project: Project name\n    pattern: Optional glob pattern (e.g., \"**/*.py\")\n    max_depth: Maximum directory depth\n    extensions: List of file extensions to include (without dot)\n\nReturns:\n    List of file paths\n"
+      },
+      "get_file": {
+        "name": "get_file",
+        "description": "Get content of a file.\n\nArgs:\n    project: Project name\n    path: File path relative to project root\n    max_lines: Maximum number of lines to return\n    start_line: First line to include (0-based)\n\nReturns:\n    File content\n"
+      },
+      "get_file_metadata": {
+        "name": "get_file_metadata",
+        "description": "Get metadata for a file.\n\nArgs:\n    project: Project name\n    path: File path relative to project root\n\nReturns:\n    File metadata\n"
+      },
+      "get_ast": {
+        "name": "get_ast",
+        "description": "Get abstract syntax tree for a file.\n\nArgs:\n    project: Project name\n    path: File path relative to project root\n    max_depth: Maximum depth of the tree (default: 5)\n    include_text: Whether to include node text\n\nReturns:\n    AST as a nested dictionary\n"
+      },
+      "get_node_at_position": {
+        "name": "get_node_at_position",
+        "description": "Find the AST node at a specific position.\n\nArgs:\n    project: Project name\n    path: File path relative to project root\n    row: Line number (0-based)\n    column: Column number (0-based)\n\nReturns:\n    Node information or None if not found\n"
+      },
+      "find_text": {
+        "name": "find_text",
+        "description": "Search for text pattern in project files.\n\nArgs:\n    project: Project name\n    pattern: Text pattern to search for\n    file_pattern: Optional glob pattern (e.g., \"**/*.py\")\n    max_results: Maximum number of results\n    case_sensitive: Whether to do case-sensitive matching\n    whole_word: Whether to match whole words only\n    use_regex: Whether to treat pattern as a regular expression\n    context_lines: Number of context lines to include\n\nReturns:\n    List of matches with file, line number, and text\n"
+      },
+      "run_query": {
+        "name": "run_query",
+        "description": "Run a tree-sitter query on project files.\n\nArgs:\n    project: Project name\n    query: Tree-sitter query string\n    file_path: Optional specific file to query\n    language: Language to use (required if file_path not provided)\n    max_results: Maximum number of results\n\nReturns:\n    List of query matches\n"
+      },
+      "get_query_template_tool": {
+        "name": "get_query_template_tool",
+        "description": "Get a predefined tree-sitter query template.\n\nArgs:\n    language: Language name\n    template_name: Template name (e.g., \"functions\", \"classes\")\n\nReturns:\n    Query template information\n"
+      },
+      "list_query_templates_tool": {
+        "name": "list_query_templates_tool",
+        "description": "List available query templates.\n\nArgs:\n    language: Optional language to filter by\n\nReturns:\n    Available templates\n"
+      },
+      "build_query": {
+        "name": "build_query",
+        "description": "Build a tree-sitter query from templates or patterns.\n\nArgs:\n    language: Language name\n    patterns: List of template names or custom patterns\n    combine: How to combine patterns (\"or\" or \"and\")\n\nReturns:\n    Combined query\n"
+      },
+      "adapt_query": {
+        "name": "adapt_query",
+        "description": "Adapt a query from one language to another.\n\nArgs:\n    query: Original query string\n    from_language: Source language\n    to_language: Target language\n\nReturns:\n    Adapted query\n"
+      },
+      "get_node_types": {
+        "name": "get_node_types",
+        "description": "Get descriptions of common node types for a language.\n\nArgs:\n    language: Language name\n\nReturns:\n    Dictionary of node types and descriptions\n"
+      },
+      "get_symbols": {
+        "name": "get_symbols",
+        "description": "Extract symbols from a file.\n\nArgs:\n    project: Project name\n    file_path: Path to the file\n    symbol_types: Types of symbols to extract (functions, classes, imports, etc.)\n\nReturns:\n    Dictionary of symbols by type\n"
+      },
+      "analyze_project": {
+        "name": "analyze_project",
+        "description": "Analyze overall project structure.\n\nArgs:\n    project: Project name\n    scan_depth: Depth of detailed analysis (higher is slower)\n    ctx: Optional MCP context for progress reporting\n\nReturns:\n    Project analysis\n"
+      },
+      "get_dependencies": {
+        "name": "get_dependencies",
+        "description": "Find dependencies of a file.\n\nArgs:\n    project: Project name\n    file_path: Path to the file\n\nReturns:\n    Dictionary of imports/includes\n"
+      },
+      "analyze_complexity": {
+        "name": "analyze_complexity",
+        "description": "Analyze code complexity.\n\nArgs:\n    project: Project name\n    file_path: Path to the file\n\nReturns:\n    Complexity metrics\n"
+      },
+      "find_similar_code": {
+        "name": "find_similar_code",
+        "description": "Find similar code to a snippet.\n\nArgs:\n    project: Project name\n    snippet: Code snippet to find\n    language: Language of the snippet\n    threshold: Similarity threshold (0.0-1.0)\n    max_results: Maximum number of results\n\nReturns:\n    List of similar code locations\n"
+      },
+      "find_usage": {
+        "name": "find_usage",
+        "description": "Find usage of a symbol.\n\nArgs:\n    project: Project name\n    symbol: Symbol name to find\n    file_path: Optional file to look in (for local symbols)\n    language: Language to search in\n\nReturns:\n    List of usage locations\n"
+      },
+      "clear_cache": {
+        "name": "clear_cache",
+        "description": "Clear the parse tree cache.\n\nArgs:\n    project: Optional project to clear cache for\n    file_path: Optional specific file to clear cache for\n\nReturns:\n    Status message\n"
+      },
+      "diagnose_config": {
+        "name": "diagnose_config",
+        "description": "Diagnose issues with YAML configuration loading.\n\nArgs:\n    config_path: Path to YAML config file\n\nReturns:\n    Diagnostic information\n"
+      }
+    },
+    "validated": true
   },
   "docker-mcp": {
     "category": "developer-tools",
@@ -1454,7 +1595,14 @@
   },
   "mcp-server-perplexity": {
     "category": "other-tools-and-integrations",
-    "path": "other-tools-and-integrations/mcp-server-perplexity.json"
+    "path": "other-tools-and-integrations/mcp-server-perplexity.json",
+    "tools": {
+      "ask_perplexity": {
+        "name": "ask_perplexity",
+        "description": "\nPerplexity equips agents with a specialized tool for efficiently\ngathering source-backed information from the internet, ideal for\nscenarios requiring research, fact-checking, or contextual data to\ninform decisions and responses.\nEach response includes citations, which provide transparent references\nto the sources used for the generated answer, and choices, which\ncontain the model's suggested responses, enabling users to access\nreliable information and diverse perspectives.\nThis function may encounter timeout errors due to long processing times,\nbut retrying the operation can lead to successful completion.\n[Response structure]\n- id: An ID generated uniquely for each response.\n- model: The model used to generate the response.\n- object: The object type, which always equals `chat.completion`.\n- created: The Unix timestamp (in seconds) of when the completion was\n  created.\n- citations[]: Citations for the generated answer.\n- choices[]: The list of completion choices the model generated for the\n  input prompt.\n- usage: Usage statistics for the completion request.\n"
+      }
+    },
+    "validated": true
   },
   "@kimtaeyoon83/mcp-server-youtube-transcript": {
     "category": "search-data-extraction",
@@ -1642,7 +1790,62 @@
   },
   "mcp-server-git": {
     "category": "version-control",
-    "path": "version-control/mcp-server-git.json"
+    "path": "version-control/mcp-server-git.json",
+    "tools": {
+      "git_status": {
+        "name": "git_status",
+        "description": "Shows the working tree status"
+      },
+      "git_diff_unstaged": {
+        "name": "git_diff_unstaged",
+        "description": "Shows changes in the working directory that are not yet staged"
+      },
+      "git_diff_staged": {
+        "name": "git_diff_staged",
+        "description": "Shows changes that are staged for commit"
+      },
+      "git_diff": {
+        "name": "git_diff",
+        "description": "Shows differences between branches or commits"
+      },
+      "git_commit": {
+        "name": "git_commit",
+        "description": "Records changes to the repository"
+      },
+      "git_add": {
+        "name": "git_add",
+        "description": "Adds file contents to the staging area"
+      },
+      "git_reset": {
+        "name": "git_reset",
+        "description": "Unstages all staged changes"
+      },
+      "git_log": {
+        "name": "git_log",
+        "description": "Shows the commit logs"
+      },
+      "git_create_branch": {
+        "name": "git_create_branch",
+        "description": "Creates a new branch from an optional base branch"
+      },
+      "git_checkout": {
+        "name": "git_checkout",
+        "description": "Switches branches"
+      },
+      "git_show": {
+        "name": "git_show",
+        "description": "Shows the contents of a commit"
+      },
+      "git_init": {
+        "name": "git_init",
+        "description": "Initialize a new Git repository"
+      },
+      "git_branch": {
+        "name": "git_branch",
+        "description": "List Git branches"
+      }
+    },
+    "validated": true
   },
   "@chargebee/mcp": {
     "category": "other-tools-and-integrations",
@@ -1689,7 +1892,18 @@
   },
   "mcp-server-time": {
     "category": "other-tools-and-integrations",
-    "path": "other-tools-and-integrations/mcp-server-time.json"
+    "path": "other-tools-and-integrations/mcp-server-time.json",
+    "tools": {
+      "get_current_time": {
+        "name": "get_current_time",
+        "description": "Get current time in a specific timezones"
+      },
+      "convert_time": {
+        "name": "convert_time",
+        "description": "Convert time between timezones"
+      }
+    },
+    "validated": true
   },
   "@ashdev/discourse-mcp-server": {
     "category": "search-data-extraction",
@@ -1969,7 +2183,130 @@
   },
   "garth-mcp-server": {
     "category": "uncategorized",
-    "path": "uncategorized/garth-mcp-server.json"
+    "path": "uncategorized/garth-mcp-server.json",
+    "tools": {
+      "user_profile": {
+        "name": "user_profile",
+        "description": "\nGet user profile information using Garth's UserProfile data class.\n"
+      },
+      "user_settings": {
+        "name": "user_settings",
+        "description": "\nGet user settings using Garth's UserSettings data class.\n"
+      },
+      "weekly_intensity_minutes": {
+        "name": "weekly_intensity_minutes",
+        "description": "\nGet weekly intensity minutes data for a given date and number of weeks.\nIf no date is provided, the current date will be used.\nIf no weeks are provided, 1 week will be used.\n"
+      },
+      "daily_body_battery": {
+        "name": "daily_body_battery",
+        "description": "\nGet daily body battery data for a given date and number of days.\nIf no date is provided, the current date will be used.\nIf no days are provided, 1 day will be used.\n"
+      },
+      "daily_hydration": {
+        "name": "daily_hydration",
+        "description": "\nGet daily hydration data for a given date and number of days.\nIf no date is provided, the current date will be used.\nIf no days are provided, 1 day will be used.\n"
+      },
+      "daily_steps": {
+        "name": "daily_steps",
+        "description": "\nGet daily steps data for a given date and number of days.\nIf no date is provided, the current date will be used.\nIf no days are provided, 1 day will be used.\n"
+      },
+      "weekly_steps": {
+        "name": "weekly_steps",
+        "description": "\nGet weekly steps data for a given date and number of weeks.\nIf no date is provided, the current date will be used.\nIf no weeks are provided, 1 week will be used.\n"
+      },
+      "daily_hrv": {
+        "name": "daily_hrv",
+        "description": "\nGet daily heart rate variability data for a given date and number of days.\nIf no date is provided, the current date will be used.\nIf no days are provided, 1 day will be used.\n"
+      },
+      "hrv_data": {
+        "name": "hrv_data",
+        "description": "\nGet detailed HRV data for a given date and number of days.\nIf no date is provided, the current date will be used.\nIf no days are provided, 1 day will be used.\n"
+      },
+      "daily_sleep": {
+        "name": "daily_sleep",
+        "description": "\nGet daily sleep summary data for a given date and number of days.\nIf no date is provided, the current date will be used.\nIf no days are provided, 1 day will be used.\n"
+      },
+      "get_activities": {
+        "name": "get_activities",
+        "description": "\nGet list of activities from Garmin Connect.\nstart_date: Start date for activities (YYYY-MM-DD format)\nlimit: Maximum number of activities to return\n"
+      },
+      "get_activities_by_date": {
+        "name": "get_activities_by_date",
+        "description": "\nGet activities for a specific date from Garmin Connect.\ndate: Date for activities (YYYY-MM-DD format)\n"
+      },
+      "get_activity_details": {
+        "name": "get_activity_details",
+        "description": "\nGet detailed information for a specific activity.\nactivity_id: Garmin Connect activity ID\n"
+      },
+      "get_activity_splits": {
+        "name": "get_activity_splits",
+        "description": "\nGet lap/split data for a specific activity.\nactivity_id: Garmin Connect activity ID\n"
+      },
+      "get_activity_weather": {
+        "name": "get_activity_weather",
+        "description": "\nGet weather data for a specific activity.\nactivity_id: Garmin Connect activity ID\n"
+      },
+      "get_body_composition": {
+        "name": "get_body_composition",
+        "description": "\nGet body composition data from Garmin Connect.\ndate: Date for body composition data (YYYY-MM-DD format), if not provided returns latest\n"
+      },
+      "get_respiration_data": {
+        "name": "get_respiration_data",
+        "description": "\nGet respiration data from Garmin Connect.\ndate: Date for respiration data (YYYY-MM-DD format)\n"
+      },
+      "get_spo2_data": {
+        "name": "get_spo2_data",
+        "description": "\nGet SpO2 (blood oxygen) data from Garmin Connect.\ndate: Date for SpO2 data (YYYY-MM-DD format)\n"
+      },
+      "get_blood_pressure": {
+        "name": "get_blood_pressure",
+        "description": "\nGet blood pressure readings from Garmin Connect.\ndate: Date for blood pressure data (YYYY-MM-DD format)\n"
+      },
+      "get_devices": {
+        "name": "get_devices",
+        "description": "\nGet connected devices from Garmin Connect.\n"
+      },
+      "get_device_settings": {
+        "name": "get_device_settings",
+        "description": "\nGet settings for a specific device.\ndevice_id: Device ID from Garmin Connect\n"
+      },
+      "get_gear": {
+        "name": "get_gear",
+        "description": "\nGet gear information from Garmin Connect.\n"
+      },
+      "get_gear_stats": {
+        "name": "get_gear_stats",
+        "description": "\nGet usage statistics for specific gear.\ngear_uuid: UUID of the gear item\n"
+      },
+      "get_connectapi_endpoint": {
+        "name": "get_connectapi_endpoint",
+        "description": "\nGet the data from a given Garmin Connect API endpoint.\nThis is a generic tool that can be used to get data from any Garmin Connect API endpoint.\n"
+      },
+      "nightly_sleep": {
+        "name": "nightly_sleep",
+        "description": "\nGet sleep stats for a given date and number of nights.\nIf no date is provided, the current date will be used.\nIf no nights are provided, 1 night will be used.\nsleep_movement provides detailed sleep movement data. If looking at\nmultiple nights, it'll be a lot of data.\n"
+      },
+      "daily_stress": {
+        "name": "daily_stress",
+        "description": "\nGet daily stress data for a given date and number of days.\nIf no date is provided, the current date will be used.\nIf no days are provided, 1 day will be used.\n"
+      },
+      "weekly_stress": {
+        "name": "weekly_stress",
+        "description": "\nGet weekly stress data for a given date and number of weeks.\nIf no date is provided, the current date will be used.\nIf no weeks are provided, 1 week will be used.\n"
+      },
+      "daily_intensity_minutes": {
+        "name": "daily_intensity_minutes",
+        "description": "\nGet daily intensity minutes data for a given date and number of days.\nIf no date is provided, the current date will be used.\nIf no days are provided, 1 day will be used.\n"
+      },
+      "monthly_activity_summary": {
+        "name": "monthly_activity_summary",
+        "description": "\nGet the monthly activity summary for a given month and year.\n"
+      },
+      "snapshot": {
+        "name": "snapshot",
+        "description": "\nGet the snapshot for a given date range. This is a good starting point for\ngetting data for a given date range. It can be used in combination with\nthe get_connectapi_endpoint tool to get data from any Garmin Connect API\nendpoint.\n"
+      }
+    },
+    "validated": true
   },
   "oura": {
     "category": "uncategorized",
@@ -2152,7 +2489,26 @@
   },
   "videodb-director-mcp": {
     "category": "uncategorized",
-    "path": "uncategorized/videodb-director-mcp.json"
+    "path": "uncategorized/videodb-director-mcp.json",
+    "tools": {
+      "doc_assistant": {
+        "name": "doc_assistant",
+        "description": "Context for creating video applications using VideoDB"
+      },
+      "code_assistant": {
+        "name": "code_assistant",
+        "description": "Will give you data related to VideoDB SDK which allows developers to use videodb in python. IMPORTANT: Whenever user wants to write code related to videos, youtube videos or VideoDB specifically, always call this tool."
+      },
+      "play_video": {
+        "name": "play_video",
+        "description": "Play the video of the given stream link"
+      },
+      "call_director": {
+        "name": "call_director",
+        "description": "The Director tool orchestrates specialized agents within the VideoDB server, efficiently handling multimedia and video-related queries. Clients should send queries that Director can interpret clearly, specifying tasks in natural language. Director will then delegate these queries to appropriate agents for optimized results, utilizing defaults and contextual information if explicit parameters are not provided.\n\nDirector handles queries such as:\n\n- Uploading & Downloading:\n  - Upload media from URLs or local paths (supported media: video, audio, image)\n  - Download the VideoDB generated video streams.\n\n- Indexing & Search:\n  - Index spoken words or scenes in videos (spoken_words, scene indexing; scene indexing supports shot or time-based type)\n  - Search VideoDB collections semantically or by keyword (semantic, keyword search; indexing types: spoken_word, scene)\n\n- Summarization & Subtitles:\n  - Summarize video content based on custom prompts\n  - Add subtitles in various languages\n\n- Dubbing:\n  - Dub videos into target languages\n\n- Creating Videos:\n  - Generate videos using specific models or engines (Fal, StabilityAI; job types: text_to_video, image_to_video)\n  - Compare multiple video generation models (video_generation_comparison)\n\n- Audio Generation & Editing:\n  - Generate speech, sound effects, or background music (engines: ElevenLabs for speech/sound effects, Beatoven for music)\n  - Clone voices from audio sources or overlay cloned voices onto videos\n  - Censor the video on given prompt\n\n- Image and Frame Generation:\n  - Generate static image frames from videos at specified timestamps\n  - Create or enhance images using GenAI models (job types: text_to_image, image_to_image using Fal, Replicate)\n\n- Video Editing & Clip Generation:\n  - Edit or combine multiple videos and audio files\n  - Generate targeted video clips from user prompts\n\n- Streaming & Web Search:\n  - Stream videos by video ID or URL\n  - Search for relevant online videos (engine: Serp)\n\n- Transcription:\n  - Generate transcripts for videos\n\n- Pricing & Usage Information:\n  - Provide detailed cost information and usage estimates\n\n- Meeting Recording & Analysis:\n  - Record meetings\n  - Deploy recording bots to Zoom, Google Meet, or Microsoft Teams\n  - Analyze recorded meetings for AI-driven insights\n  - Intelligently index and summarize meetings\n\nClients should provide queries clearly aligned with Director's capabilities, allowing Director to use contextual defaults when explicit parameters like IDs or collection details are not specified.\n\nIMPORTANT: if you have a previous response of this method with an appropriate session_id, please provide that session_id in the next request to continue the conversation.\nIMPORTANT: It is MANDATORY to send the `session_id` param if any earlier response from this method exists with a `session_id` in its output"
+      }
+    },
+    "validated": true
   },
   "mcp-server-garmincn": {
     "category": "uncategorized",
@@ -2824,7 +3180,74 @@
   },
   "acp-mcp-server": {
     "category": "aggregators",
-    "path": "aggregators/acp-mcp-server.json"
+    "path": "aggregators/acp-mcp-server.json",
+    "tools": {
+      "get_server_info": {
+        "name": "get_server_info",
+        "description": "Get information about the ACP-MCP bridge server"
+      },
+      "discover_acp_agents": {
+        "name": "discover_acp_agents",
+        "description": "Discover all available ACP agents and register them as resources"
+      },
+      "get_agent_info": {
+        "name": "get_agent_info",
+        "description": "Get detailed information about a specific ACP agent"
+      },
+      "convert_acp_message": {
+        "name": "convert_acp_message",
+        "description": "Convert ACP message format to MCP-compatible format"
+      },
+      "analyze_message_content": {
+        "name": "analyze_message_content",
+        "description": "Analyze the content types and structure of an ACP message"
+      },
+      "run_acp_agent": {
+        "name": "run_acp_agent",
+        "description": "Execute an ACP agent with specified mode"
+      },
+      "get_async_run_result": {
+        "name": "get_async_run_result",
+        "description": "Get the result of an asynchronous run"
+      },
+      "list_active_runs": {
+        "name": "list_active_runs",
+        "description": "List all active runs"
+      },
+      "smart_route_request": {
+        "name": "smart_route_request",
+        "description": "Intelligently route a request to the best ACP agent"
+      },
+      "add_routing_rule": {
+        "name": "add_routing_rule",
+        "description": "Add a new routing rule to a strategy"
+      },
+      "list_routing_strategies": {
+        "name": "list_routing_strategies",
+        "description": "List all available routing strategies and their rules"
+      },
+      "test_routing": {
+        "name": "test_routing",
+        "description": "Test routing without executing - shows which agent would be selected"
+      },
+      "start_interactive_agent": {
+        "name": "start_interactive_agent",
+        "description": "Start an interactive ACP agent that may require user input"
+      },
+      "provide_user_input": {
+        "name": "provide_user_input",
+        "description": "Provide user input to resume a waiting interactive agent"
+      },
+      "list_pending_interactions": {
+        "name": "list_pending_interactions",
+        "description": "List all pending interactive agents waiting for input"
+      },
+      "cancel_interaction": {
+        "name": "cancel_interaction",
+        "description": "Cancel a pending interactive agent"
+      }
+    },
+    "validated": true
   },
   "gpt-mcp-proxy": {
     "category": "aggregators",
@@ -2930,7 +3353,78 @@
   },
   "blender-mcp": {
     "category": "art-and-culture",
-    "path": "art-and-culture/blender-mcp.json"
+    "path": "art-and-culture/blender-mcp.json",
+    "tools": {
+      "get_scene_info": {
+        "name": "get_scene_info",
+        "description": "Get detailed information about the current Blender scene"
+      },
+      "get_object_info": {
+        "name": "get_object_info",
+        "description": "\nGet detailed information about a specific object in the Blender scene.\n\nParameters:\n- object_name: The name of the object to get information about\n"
+      },
+      "get_viewport_screenshot": {
+        "name": "get_viewport_screenshot",
+        "description": "\nCapture a screenshot of the current Blender 3D viewport.\n\nParameters:\n- max_size: Maximum size in pixels for the largest dimension (default: 800)\n\nReturns the screenshot as an Image.\n"
+      },
+      "execute_blender_code": {
+        "name": "execute_blender_code",
+        "description": "\nExecute arbitrary Python code in Blender. Make sure to do it step-by-step by breaking it into smaller chunks.\n\nParameters:\n- code: The Python code to execute\n"
+      },
+      "get_polyhaven_categories": {
+        "name": "get_polyhaven_categories",
+        "description": "\nGet a list of categories for a specific asset type on Polyhaven.\n\nParameters:\n- asset_type: The type of asset to get categories for (hdris, textures, models, all)\n"
+      },
+      "search_polyhaven_assets": {
+        "name": "search_polyhaven_assets",
+        "description": "\nSearch for assets on Polyhaven with optional filtering.\n\nParameters:\n- asset_type: Type of assets to search for (hdris, textures, models, all)\n- categories: Optional comma-separated list of categories to filter by\n\nReturns a list of matching assets with basic information.\n"
+      },
+      "download_polyhaven_asset": {
+        "name": "download_polyhaven_asset",
+        "description": "\nDownload and import a Polyhaven asset into Blender.\n\nParameters:\n- asset_id: The ID of the asset to download\n- asset_type: The type of asset (hdris, textures, models)\n- resolution: The resolution to download (e.g., 1k, 2k, 4k)\n- file_format: Optional file format (e.g., hdr, exr for HDRIs; jpg, png for textures; gltf, fbx for models)\n\nReturns a message indicating success or failure.\n"
+      },
+      "set_texture": {
+        "name": "set_texture",
+        "description": "\nApply a previously downloaded Polyhaven texture to an object.\n\nParameters:\n- object_name: Name of the object to apply the texture to\n- texture_id: ID of the Polyhaven texture to apply (must be downloaded first)\n\nReturns a message indicating success or failure.\n"
+      },
+      "get_polyhaven_status": {
+        "name": "get_polyhaven_status",
+        "description": "\nCheck if PolyHaven integration is enabled in Blender.\nReturns a message indicating whether PolyHaven features are available.\n"
+      },
+      "get_hyper3d_status": {
+        "name": "get_hyper3d_status",
+        "description": "\nCheck if Hyper3D Rodin integration is enabled in Blender.\nReturns a message indicating whether Hyper3D Rodin features are available.\n\nDon't emphasize the key type in the returned message, but sliently remember it. \n"
+      },
+      "get_sketchfab_status": {
+        "name": "get_sketchfab_status",
+        "description": "\nCheck if Sketchfab integration is enabled in Blender.\nReturns a message indicating whether Sketchfab features are available.\n"
+      },
+      "search_sketchfab_models": {
+        "name": "search_sketchfab_models",
+        "description": "\nSearch for models on Sketchfab with optional filtering.\n\nParameters:\n- query: Text to search for\n- categories: Optional comma-separated list of categories\n- count: Maximum number of results to return (default 20)\n- downloadable: Whether to include only downloadable models (default True)\n\nReturns a formatted list of matching models.\n"
+      },
+      "download_sketchfab_model": {
+        "name": "download_sketchfab_model",
+        "description": "\nDownload and import a Sketchfab model by its UID.\n\nParameters:\n- uid: The unique identifier of the Sketchfab model\n\nReturns a message indicating success or failure.\nThe model must be downloadable and you must have proper access rights.\n"
+      },
+      "generate_hyper3d_model_via_text": {
+        "name": "generate_hyper3d_model_via_text",
+        "description": "\nGenerate 3D asset using Hyper3D by giving description of the desired asset, and import the asset into Blender.\nThe 3D asset has built-in materials.\nThe generated model has a normalized size, so re-scaling after generation can be useful.\n\nParameters:\n- text_prompt: A short description of the desired model in **English**.\n- bbox_condition: Optional. If given, it has to be a list of floats of length 3. Controls the ratio between [Length, Width, Height] of the model.\n\nReturns a message indicating success or failure.\n"
+      },
+      "generate_hyper3d_model_via_images": {
+        "name": "generate_hyper3d_model_via_images",
+        "description": "\nGenerate 3D asset using Hyper3D by giving images of the wanted asset, and import the generated asset into Blender.\nThe 3D asset has built-in materials.\nThe generated model has a normalized size, so re-scaling after generation can be useful.\n\nParameters:\n- input_image_paths: The **absolute** paths of input images. Even if only one image is provided, wrap it into a list. Required if Hyper3D Rodin in MAIN_SITE mode.\n- input_image_urls: The URLs of input images. Even if only one image is provided, wrap it into a list. Required if Hyper3D Rodin in FAL_AI mode.\n- bbox_condition: Optional. If given, it has to be a list of ints of length 3. Controls the ratio between [Length, Width, Height] of the model.\n\nOnly one of {input_image_paths, input_image_urls} should be given at a time, depending on the Hyper3D Rodin's current mode.\nReturns a message indicating success or failure.\n"
+      },
+      "poll_rodin_job_status": {
+        "name": "poll_rodin_job_status",
+        "description": "\nCheck if the Hyper3D Rodin generation task is completed.\n\nFor Hyper3D Rodin mode MAIN_SITE:\n    Parameters:\n    - subscription_key: The subscription_key given in the generate model step.\n\n    Returns a list of status. The task is done if all status are \"Done\".\n    If \"Failed\" showed up, the generating process failed.\n    This is a polling API, so only proceed if the status are finally determined (\"Done\" or \"Canceled\").\n\nFor Hyper3D Rodin mode FAL_AI:\n    Parameters:\n    - request_id: The request_id given in the generate model step.\n\n    Returns the generation task status. The task is done if status is \"COMPLETED\".\n    The task is in progress if status is \"IN_PROGRESS\".\n    If status other than \"COMPLETED\", \"IN_PROGRESS\", \"IN_QUEUE\" showed up, the generating process might be failed.\n    This is a polling API, so only proceed if the status are finally determined (\"COMPLETED\" or some failed state).\n"
+      },
+      "import_generated_asset": {
+        "name": "import_generated_asset",
+        "description": "\nImport the asset generated by Hyper3D Rodin after the generation task is completed.\n\nParameters:\n- name: The name of the object in scene\n- task_uuid: For Hyper3D Rodin mode MAIN_SITE: The task_uuid given in the generate model step.\n- request_id: For Hyper3D Rodin mode FAL_AI: The request_id given in the generate model step.\n\nOnly give one of {task_uuid, request_id} based on the Hyper3D Rodin Mode!\nReturn if the asset has been imported successfully.\n"
+      }
+    },
+    "validated": true
   },
   "ableton-live": {
     "category": "art-and-culture",
@@ -2996,7 +3490,42 @@
   },
   "grasshopper-mcp": {
     "category": "other-tools-and-integrations",
-    "path": "other-tools-and-integrations/grasshopper-mcp.json"
+    "path": "other-tools-and-integrations/grasshopper-mcp.json",
+    "tools": {
+      "add_component": {
+        "name": "add_component",
+        "description": "\nAdd a component to the Grasshopper canvas\n\nArgs:\n    component_type: Component type (point, curve, circle, line, panel, slider)\n    x: X coordinate on the canvas\n    y: Y coordinate on the canvas\n\nReturns:\n    Result of adding the component\n"
+      },
+      "clear_document": {
+        "name": "clear_document",
+        "description": "Clear the Grasshopper document"
+      },
+      "save_document": {
+        "name": "save_document",
+        "description": "\nSave the Grasshopper document\n\nArgs:\n    path: Save path\n\nReturns:\n    Result of the save operation\n"
+      },
+      "load_document": {
+        "name": "load_document",
+        "description": "\nLoad a Grasshopper document\n\nArgs:\n    path: Document path\n\nReturns:\n    Result of the load operation\n"
+      },
+      "get_document_info": {
+        "name": "get_document_info",
+        "description": "Get information about the Grasshopper document"
+      },
+      "connect_components": {
+        "name": "connect_components",
+        "description": "\nConnect two components in the Grasshopper canvas\n\nArgs:\n    source_id: ID of the source component (output)\n    target_id: ID of the target component (input)\n    source_param: Name of the source parameter (optional)\n    target_param: Name of the target parameter (optional)\n    source_param_index: Index of the source parameter (optional, used if source_param is not provided)\n    target_param_index: Index of the target parameter (optional, used if target_param is not provided)\n\nReturns:\n    Result of connecting the components\n"
+      },
+      "create_pattern": {
+        "name": "create_pattern",
+        "description": "\nCreate a pattern of components based on a high-level description\n\nArgs:\n    description: High-level description of what to create (e.g., '3D voronoi cube')\n\nReturns:\n    Result of creating the pattern\n"
+      },
+      "get_available_patterns": {
+        "name": "get_available_patterns",
+        "description": "\nGet a list of available patterns that match a query\n\nArgs:\n    query: Query to search for patterns\n\nReturns:\n    List of available patterns\n"
+      }
+    },
+    "validated": true
   },
   "mcp-server-ancestry": {
     "category": "art-and-culture",
@@ -3187,7 +3716,26 @@
   },
   "mcp-sonic-pi": {
     "category": "art-and-culture",
-    "path": "art-and-culture/mcp-sonic-pi.json"
+    "path": "art-and-culture/mcp-sonic-pi.json",
+    "tools": {
+      "initialize_sonic_pi": {
+        "name": "initialize_sonic_pi",
+        "description": "Initialize the Sonic Pi server\n\nReturns:\n    The system prompt for the server\n"
+      },
+      "play_music": {
+        "name": "play_music",
+        "description": "Play music using Sonic Pi code.\n\nArgs:\n    code: Sonic Pi Ruby code\n\nReturns:\n    A confirmation message\n"
+      },
+      "stop_music": {
+        "name": "stop_music",
+        "description": "Stop all currently playing Sonic Pi music.\n\nReturns:\n    A confirmation message\n"
+      },
+      "get_beat_pattern": {
+        "name": "get_beat_pattern",
+        "description": "Get drum beat patterns for Sonic Pi.\n\nArgs:\n    style: Beat style (blues, rock, jazz, hiphop, etc.)\n\nReturns:\n    Sonic Pi code for the requested beat pattern\n"
+      }
+    },
+    "validated": true
   },
   "florence-2": {
     "category": "art-and-culture",
@@ -3392,7 +3940,74 @@
   },
   "ableton-mcp": {
     "category": "art-and-culture",
-    "path": "art-and-culture/ableton-mcp.json"
+    "path": "art-and-culture/ableton-mcp.json",
+    "tools": {
+      "get_session_info": {
+        "name": "get_session_info",
+        "description": "Get detailed information about the current Ableton session"
+      },
+      "get_track_info": {
+        "name": "get_track_info",
+        "description": "\nGet detailed information about a specific track in Ableton.\n\nParameters:\n- track_index: The index of the track to get information about\n"
+      },
+      "create_midi_track": {
+        "name": "create_midi_track",
+        "description": "\nCreate a new MIDI track in the Ableton session.\n\nParameters:\n- index: The index to insert the track at (-1 = end of list)\n"
+      },
+      "set_track_name": {
+        "name": "set_track_name",
+        "description": "\nSet the name of a track.\n\nParameters:\n- track_index: The index of the track to rename\n- name: The new name for the track\n"
+      },
+      "create_clip": {
+        "name": "create_clip",
+        "description": "\nCreate a new MIDI clip in the specified track and clip slot.\n\nParameters:\n- track_index: The index of the track to create the clip in\n- clip_index: The index of the clip slot to create the clip in\n- length: The length of the clip in beats (default: 4.0)\n"
+      },
+      "add_notes_to_clip": {
+        "name": "add_notes_to_clip",
+        "description": "\nAdd MIDI notes to a clip.\n\nParameters:\n- track_index: The index of the track containing the clip\n- clip_index: The index of the clip slot containing the clip\n- notes: List of note dictionaries, each with pitch, start_time, duration, velocity, and mute\n"
+      },
+      "set_clip_name": {
+        "name": "set_clip_name",
+        "description": "\nSet the name of a clip.\n\nParameters:\n- track_index: The index of the track containing the clip\n- clip_index: The index of the clip slot containing the clip\n- name: The new name for the clip\n"
+      },
+      "set_tempo": {
+        "name": "set_tempo",
+        "description": "\nSet the tempo of the Ableton session.\n\nParameters:\n- tempo: The new tempo in BPM\n"
+      },
+      "load_instrument_or_effect": {
+        "name": "load_instrument_or_effect",
+        "description": "\nLoad an instrument or effect onto a track using its URI.\n\nParameters:\n- track_index: The index of the track to load the instrument on\n- uri: The URI of the instrument or effect to load (e.g., 'query:Synths#Instrument%20Rack:Bass:FileId_5116')\n"
+      },
+      "fire_clip": {
+        "name": "fire_clip",
+        "description": "\nStart playing a clip.\n\nParameters:\n- track_index: The index of the track containing the clip\n- clip_index: The index of the clip slot containing the clip\n"
+      },
+      "stop_clip": {
+        "name": "stop_clip",
+        "description": "\nStop playing a clip.\n\nParameters:\n- track_index: The index of the track containing the clip\n- clip_index: The index of the clip slot containing the clip\n"
+      },
+      "start_playback": {
+        "name": "start_playback",
+        "description": "Start playing the Ableton session."
+      },
+      "stop_playback": {
+        "name": "stop_playback",
+        "description": "Stop playing the Ableton session."
+      },
+      "get_browser_tree": {
+        "name": "get_browser_tree",
+        "description": "\nGet a hierarchical tree of browser categories from Ableton.\n\nParameters:\n- category_type: Type of categories to get ('all', 'instruments', 'sounds', 'drums', 'audio_effects', 'midi_effects')\n"
+      },
+      "get_browser_items_at_path": {
+        "name": "get_browser_items_at_path",
+        "description": "\nGet browser items at a specific path in Ableton's browser.\n\nParameters:\n- path: Path in the format \"category/folder/subfolder\"\n        where category is one of the available browser categories in Ableton\n"
+      },
+      "load_drum_kit": {
+        "name": "load_drum_kit",
+        "description": "\nLoad a drum rack and then load a specific drum kit into it.\n\nParameters:\n- track_index: The index of the track to load on\n- rack_uri: The URI of the drum rack to load (e.g., 'Drums/Drum Rack')\n- kit_path: Path to the drum kit inside the browser (e.g., 'drums/acoustic/kit1')\n"
+      }
+    },
+    "validated": true
   },
   "apple-books-mcp": {
     "category": "art-and-culture",
@@ -3723,7 +4338,50 @@
   },
   "penpot-mcp": {
     "category": "other-tools-and-integrations",
-    "path": "other-tools-and-integrations/penpot-mcp.json"
+    "path": "other-tools-and-integrations/penpot-mcp.json",
+    "tools": {
+      "list_projects": {
+        "name": "list_projects",
+        "description": "Retrieve a list of all available Penpot projects."
+      },
+      "get_project_files": {
+        "name": "get_project_files",
+        "description": "Get all files contained within a specific Penpot project.\n\nArgs:\n    project_id: The ID of the Penpot project\n"
+      },
+      "get_file": {
+        "name": "get_file",
+        "description": "Retrieve a Penpot file by its ID and cache it. Don't use this tool for code generation, use 'get_object_tree' instead.\n\nArgs:\n    file_id: The ID of the Penpot file\n"
+      },
+      "export_object": {
+        "name": "export_object",
+        "description": "Export a Penpot design object as an image.\n\nArgs:\n    file_id: The ID of the Penpot file\n    page_id: The ID of the page containing the object\n    object_id: The ID of the object to export\n    export_type: Image format (png, svg, etc.)\n    scale: Scale factor for the exported image\n"
+      },
+      "get_object_tree": {
+        "name": "get_object_tree",
+        "description": "Get the object tree structure for a Penpot object (\"tree\" field) with rendered screenshot image of the object (\"image.mcp_uri\" field).\nArgs:\n    file_id: The ID of the Penpot file\n    object_id: The ID of the object to retrieve\n    fields: Specific fields to include in the tree (call \"penpot_tree_schema\" resource/tool for available fields)\n    depth: How deep to traverse the object tree (-1 for full depth)\n    format: Output format ('json' or 'yaml')\n"
+      },
+      "search_object": {
+        "name": "search_object",
+        "description": "Search for objects within a Penpot file by name.\n\nArgs:\n    file_id: The ID of the Penpot file to search in\n    query: Search string (supports regex patterns)\n"
+      },
+      "penpot_schema": {
+        "name": "penpot_schema",
+        "description": "Provide the Penpot API schema as JSON."
+      },
+      "penpot_tree_schema": {
+        "name": "penpot_tree_schema",
+        "description": "Provide the Penpot object tree schema as JSON."
+      },
+      "get_rendered_component": {
+        "name": "get_rendered_component",
+        "description": "Return a rendered component image by its ID."
+      },
+      "get_cached_files": {
+        "name": "get_cached_files",
+        "description": "List all files currently stored in the cache."
+      }
+    },
+    "validated": true
   },
   "undetected-chromedriver": {
     "category": "browser-automation",
@@ -3766,7 +4424,18 @@
   },
   "scrapling-fetch-mcp": {
     "category": "browser-automation",
-    "path": "browser-automation/scrapling-fetch-mcp.json"
+    "path": "browser-automation/scrapling-fetch-mcp.json",
+    "tools": {
+      "s-fetch-page": {
+        "name": "s-fetch-page",
+        "description": "Fetches a complete web page with pagination support. Retrieves content from websites with bot-detection avoidance. For best performance, start with 'basic' mode (fastest), then only escalate to 'stealth' or 'max-stealth' modes if basic mode fails. Content is returned as 'METADATA: {json}\\n\\n[content]' where metadata includes length information and truncation status."
+      },
+      "s-fetch-pattern": {
+        "name": "s-fetch-pattern",
+        "description": "Extracts content matching regex patterns from web pages. Retrieves specific content from websites with bot-detection avoidance. For best performance, start with 'basic' mode (fastest), then only escalate to 'stealth' or 'max-stealth' modes if basic mode fails. Returns matched content as 'METADATA: {json}\\n\\n[content]' where metadata includes match statistics and truncation information. Each matched content chunk is delimited with '॥๛॥' and prefixed with '[Position: start-end]' indicating its byte position in the original document, allowing targeted follow-up requests with s-fetch-page using specific start_index values."
+      }
+    },
+    "validated": true
   },
   "moling": {
     "category": "browser-automation",
@@ -3896,7 +4565,14 @@
   },
   "mcp-playwright-scraper": {
     "category": "browser-automation",
-    "path": "browser-automation/mcp-playwright-scraper.json"
+    "path": "browser-automation/mcp-playwright-scraper.json",
+    "tools": {
+      "scrape_to_markdown": {
+        "name": "scrape_to_markdown",
+        "description": "Scrape a URL and convert the content to markdown"
+      }
+    },
+    "validated": true
   },
   "omniparser": {
     "category": "browser-automation",
@@ -3912,7 +4588,50 @@
   },
   "mcp-rquest": {
     "category": "browser-automation",
-    "path": "browser-automation/mcp-rquest.json"
+    "path": "browser-automation/mcp-rquest.json",
+    "tools": {
+      "http_get": {
+        "name": "http_get",
+        "description": "Make an HTTP GET request to the specified URL"
+      },
+      "http_post": {
+        "name": "http_post",
+        "description": "Make an HTTP POST request to the specified URL"
+      },
+      "http_put": {
+        "name": "http_put",
+        "description": "Make an HTTP PUT request to the specified URL"
+      },
+      "http_delete": {
+        "name": "http_delete",
+        "description": "Make an HTTP DELETE request to the specified URL"
+      },
+      "http_patch": {
+        "name": "http_patch",
+        "description": "Make an HTTP PATCH request to the specified URL"
+      },
+      "http_head": {
+        "name": "http_head",
+        "description": "Make an HTTP HEAD request to retrieve only headers from the specified URL"
+      },
+      "http_options": {
+        "name": "http_options",
+        "description": "Make an HTTP OPTIONS request to retrieve options for the specified URL"
+      },
+      "http_trace": {
+        "name": "http_trace",
+        "description": "Make an HTTP TRACE request for diagnostic tracing of the specified URL"
+      },
+      "get_stored_response": {
+        "name": "get_stored_response",
+        "description": "Retrieve a stored HTTP response by its ID"
+      },
+      "get_stored_response_with_markdown": {
+        "name": "get_stored_response_with_markdown",
+        "description": "Retrieve a stored HTTP response by its ID, converted to Markdown if HTML"
+      }
+    },
+    "validated": true
   },
   "browser-use": {
     "category": "browser-automation",
@@ -4243,7 +4962,14 @@
   },
   "mcp-server-chatgpt-app": {
     "category": "browser-automation",
-    "path": "browser-automation/mcp-server-chatgpt-app.json"
+    "path": "browser-automation/mcp-server-chatgpt-app.json",
+    "tools": {
+      "ask_chatgpt": {
+        "name": "ask_chatgpt",
+        "description": "\nSend a prompt to ChatGPT macOS app using Shortcuts.\n\nArgs:\n    prompt: The text to send to ChatGPT\n    wait_for_output: Whether to wait for ChatGPT to respond\nReturns:\n    Dict containing operation status and response\n"
+      }
+    },
+    "validated": true
   },
   "web-browser-(playwright)": {
     "category": "browser-automation",
@@ -4406,7 +5132,114 @@
   },
   "alibabacloud-mcp-server": {
     "category": "cloud-platforms",
-    "path": "cloud-platforms/alibabacloud-mcp-server.json"
+    "path": "cloud-platforms/alibabacloud-mcp-server.json",
+    "tools": {
+      "RunCommand": {
+        "name": "RunCommand",
+        "description": "批量在多台ECS实例上运行云助手命令，适用于需要同时管理多台ECS实例的场景，如应用程序管理和资源标记操作等。"
+      },
+      "StartInstances": {
+        "name": "StartInstances",
+        "description": "批量启动ECS实例，适用于需要同时管理和启动多台ECS实例的场景，例如应用部署和高可用性场景。"
+      },
+      "StopInstances": {
+        "name": "StopInstances",
+        "description": "批量停止ECS实例，适用于需要同时管理和停止多台ECS实例的场景。"
+      },
+      "RebootInstances": {
+        "name": "RebootInstances",
+        "description": "批量重启ECS实例，适用于需要同时管理和重启多台ECS实例的场景。"
+      },
+      "RunInstances": {
+        "name": "RunInstances",
+        "description": "批量创建ECS实例，适用于需要同时创建多台ECS实例的场景，例如应用部署和高可用性场景。"
+      },
+      "ResetPassword": {
+        "name": "ResetPassword",
+        "description": "批量修改ECS实例的密码，请注意，本操作将会重启ECS实例"
+      },
+      "ReplaceSystemDisk": {
+        "name": "ReplaceSystemDisk",
+        "description": "批量替换ECS实例的系统盘，更换操作系统"
+      },
+      "GetCpuUsageData": {
+        "name": "GetCpuUsageData",
+        "description": "获取ECS实例的CPU使用率数据"
+      },
+      "GetCpuLoadavgData": {
+        "name": "GetCpuLoadavgData",
+        "description": "获取CPU一分钟平均负载指标数据"
+      },
+      "GetCpuloadavg5mData": {
+        "name": "GetCpuloadavg5mData",
+        "description": "获取CPU五分钟平均负载指标数据"
+      },
+      "GetCpuloadavg15mData": {
+        "name": "GetCpuloadavg15mData",
+        "description": "获取CPU十五分钟平均负载指标数据"
+      },
+      "GetMemUsedData": {
+        "name": "GetMemUsedData",
+        "description": "获取内存使用量指标数据"
+      },
+      "GetMemUsageData": {
+        "name": "GetMemUsageData",
+        "description": "获取内存利用率指标数据"
+      },
+      "GetDiskUsageData": {
+        "name": "GetDiskUsageData",
+        "description": "获取磁盘利用率指标数据"
+      },
+      "GetDiskTotalData": {
+        "name": "GetDiskTotalData",
+        "description": "获取磁盘分区总容量指标数据"
+      },
+      "GetDiskUsedData": {
+        "name": "GetDiskUsedData",
+        "description": "获取磁盘分区使用量指标数据"
+      },
+      "DescribeInstances": {
+        "name": "DescribeInstances",
+        "description": "本接口支持根据不同请求条件查询实例列表，并关联查询实例的详细信息。"
+      },
+      "DescribeRegions": {
+        "name": "DescribeRegions",
+        "description": "根据计费方式、资源类型等参数查询地域信息列表。"
+      },
+      "DescribeZones": {
+        "name": "DescribeZones",
+        "description": "根据地域ID、计费方式等参数查询可用区信息列表。"
+      },
+      "DescribeAccountAttributes": {
+        "name": "DescribeAccountAttributes",
+        "description": "查询您在一个阿里云地域下能创建的ECS资源配额。包括您能创建的安全组数量、弹性网卡数量、按量付费vCPU核数、抢占式实例vCPU核数、按量付费云盘总容量配额、专用宿主机数量、网络类型以及账号是否已完成实名认证。"
+      },
+      "DescribeAvailableResource": {
+        "name": "DescribeAvailableResource",
+        "description": "查询可用区的资源库存状态。您可以在某一可用区创建实例（RunInstances）或者修改实例规格（ModifyInstanceSpec）时查询该可用区的资源库存状态。"
+      },
+      "DescribeImages": {
+        "name": "DescribeImages",
+        "description": "指定ImageId、镜像被使用场景、Filter过滤等参数，查询您可以使用的镜像资源列表。"
+      },
+      "DescribeSecurityGroups": {
+        "name": "DescribeSecurityGroups",
+        "description": "本接口用于查询安全组基本信息列表，支持您通过地域、安全组ID、安全组类型等不同参数查询。"
+      },
+      "DeleteInstances": {
+        "name": "DeleteInstances",
+        "description": "本接口用于批量删除或者释放按量付费实例或者到期的包年包月实例，支持通过参数设置决定云盘是否释放或转换为按量付费保留。"
+      },
+      "DescribeVpcs": {
+        "name": "DescribeVpcs",
+        "description": "查询已创建的VPC。"
+      },
+      "DescribeVSwitches": {
+        "name": "DescribeVSwitches",
+        "description": "查询可组网的信息，内网按vswitch进行组网。"
+      }
+    },
+    "validated": true
   },
   "pipecd": {
     "category": "cloud-platforms",
@@ -5283,7 +6116,22 @@
   },
   "mcp-python": {
     "category": "code-execution",
-    "path": "code-execution/mcp-python.json"
+    "path": "code-execution/mcp-python.json",
+    "tools": {
+      "execute_python": {
+        "name": "execute_python",
+        "description": "Execute Python code and return the output. Variables persist between executions."
+      },
+      "list_variables": {
+        "name": "list_variables",
+        "description": "List all variables in the current session"
+      },
+      "install_package": {
+        "name": "install_package",
+        "description": "Install a Python package using uv"
+      }
+    },
+    "validated": true
   },
   "matlab": {
     "category": "code-execution",
@@ -5320,7 +6168,14 @@
   },
   "python-local": {
     "category": "code-execution",
-    "path": "code-execution/python-local.json"
+    "path": "code-execution/python-local.json",
+    "tools": {
+      "python_repl": {
+        "name": "python_repl",
+        "description": "Interactive Python REPL that maintains session state. NOTE THE USER DOES NOT SEE THE STDOUT/STDERR OUTPUT, MAKE SURE TO FORMAT/SUMMARIZEc IT APPROPRIATELY IN YOUR RESPONSE TO THE USER"
+      }
+    },
+    "validated": true
   },
   "jupyter-notebook-bridge": {
     "category": "code-execution",
@@ -5443,7 +6298,78 @@
   },
   "mcp-server-code-assist": {
     "category": "coding-agents",
-    "path": "coding-agents/mcp-server-code-assist.json"
+    "path": "coding-agents/mcp-server-code-assist.json",
+    "tools": {
+      "list_directory": {
+        "name": "list_directory",
+        "description": "Lists contents of a directory"
+      },
+      "file_create": {
+        "name": "file_create",
+        "description": "Creates a new file with content"
+      },
+      "file_delete": {
+        "name": "file_delete",
+        "description": "Deletes a file"
+      },
+      "file_modify": {
+        "name": "file_modify",
+        "description": "Modifies file content using search/replace"
+      },
+      "file_rewrite": {
+        "name": "file_rewrite",
+        "description": "Rewrites entire file content"
+      },
+      "file_read": {
+        "name": "file_read",
+        "description": "Reads contents of a file"
+      },
+      "git_status": {
+        "name": "git_status",
+        "description": "Shows the working tree status"
+      },
+      "git_diff_unstaged": {
+        "name": "git_diff_unstaged",
+        "description": "Shows changes in the working directory that are not yet staged"
+      },
+      "git_diff_staged": {
+        "name": "git_diff_staged",
+        "description": "Shows changes that are staged for commit"
+      },
+      "git_diff": {
+        "name": "git_diff",
+        "description": "Shows differences between branches or commits"
+      },
+      "git_commit": {
+        "name": "git_commit",
+        "description": "Records changes to the repository"
+      },
+      "git_add": {
+        "name": "git_add",
+        "description": "Adds file contents to the staging area"
+      },
+      "git_reset": {
+        "name": "git_reset",
+        "description": "Unstages all staged changes"
+      },
+      "git_log": {
+        "name": "git_log",
+        "description": "Shows the commit logs"
+      },
+      "git_create_branch": {
+        "name": "git_create_branch",
+        "description": "Creates a new branch from an optional base branch"
+      },
+      "git_checkout": {
+        "name": "git_checkout",
+        "description": "Switches branches"
+      },
+      "git_show": {
+        "name": "git_show",
+        "description": "Shows the contents of a commit"
+      }
+    },
+    "validated": true
   },
   "gopls": {
     "category": "coding-agents",
@@ -7378,7 +8304,22 @@
   },
   "adb-mysql-mcp-server": {
     "category": "databases",
-    "path": "databases/adb-mysql-mcp-server.json"
+    "path": "databases/adb-mysql-mcp-server.json",
+    "tools": {
+      "execute_sql": {
+        "name": "execute_sql",
+        "description": "Execute a SQL query in the Adb MySQL Cluster"
+      },
+      "get_query_plan": {
+        "name": "get_query_plan",
+        "description": "Get the query plan for a SQL query"
+      },
+      "get_execution_plan": {
+        "name": "get_execution_plan",
+        "description": "Get the actual execution plan with runtime statistics for a SQL query"
+      }
+    },
+    "validated": true
   },
   "mcp-timeplus": {
     "category": "databases",
@@ -43273,5 +44214,17 @@
         "description": "This tool serves as a silent workspace for internal reasoning. It simulates the inner monologue of a language model, allowing structured thoughts to be processed without affecting external output or triggering any actions. Use this tool when reflecting, analyzing, verifying, comparing, or planning. It does not fetch data or produce visible results directly, but supports deeper understanding and controlled thought flow.\n  \n        Args:\n        thought: A line of reasoning, mental check, intuition breakdown, or problem-solving step to be considered internally.\n  \n        Behavior:\n        The thought is evaluated privately, with no immediate response to the user.\n        Useful for breaking down complex logic, evaluating potential outcomes, or mentally iterating through alternatives before committing to a response.\n  \n        <example>\n        {\n          \"thought\": \"Why does this bug keep appearing even after I fixed the logic? I walked through the control flow twice, and everything looks correct on paper. Did I miss a condition? Maybe there's a path where a flag isn't being reset properly. Or perhaps one of the edge cases I assumed wouldn't happen is actually happening under a specific load. Maybe there's a race condition somewhere. Could two threads be touching the same variable without proper synchronization? I should check for shared state access and see if any part of this runs asynchronously. Also, maybe I'm relying too heavily on logs that aren't giving the full picture. It might help to add more logging around the entry and exit points of that function and watch for timing anomalies.\"\n        }\n        </example>\n  \n        <example>\n        {\n          \"thought\": \"To solve this equation, I need to isolate the variable on one side. The equation is 3x + 5 = 20. First, subtract 5 from both sides, then divide by 3. That gives x = 5.\"\n        }\n        </example>"
       }
     }
+  },
+  "mcp_12306": {
+    "category": "travel-transportation",
+    "path": "travel-transportation/py-train-12306.json"
+  },
+  "mcp-12306": {
+    "category": "travel-transportation",
+    "path": "travel-transportation/py-mcp-12306.json"
+  },
+  "mcp-server-12306": {
+    "category": "travel-transportation",
+    "path": "travel-transportation/py-12306-mcp-server.json"
   }
 }

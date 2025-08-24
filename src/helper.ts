@@ -7,6 +7,7 @@ import semver from 'semver';
 import * as path from 'path';
 import allPackagesList from '../indexes/packages-list.json';
 import assert from 'assert';
+import toml from 'toml';
 import { MCPServerPackageConfigSchema, PackagesListSchema } from './schema';
 
 export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
@@ -16,7 +17,6 @@ export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfi
   if (!value) {
     throw new Error(`Package '${packageKey}' not found in packages list.`);
   }
-
   const jsonFile = value.path;
   // read the JSON file and convert it to MCPServerPackageConfig
   const jsonStr = fs.readFileSync(__dirname + '/../packages/' + jsonFile, 'utf-8');
@@ -24,42 +24,19 @@ export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfi
   return mcpServerConfig;
 }
 
-export function getPackageJSON(packageName: string) {
+function getPackageJSON(packageName: string) {
   const packageJSONFilePath = __dirname + '/../node_modules/' + packageName + '/package.json';
   const packageJSONStr = fs.readFileSync(packageJSONFilePath, 'utf8');
   const packageJSON = JSON.parse(packageJSONStr);
   return packageJSON;
 }
-export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
-  const { packageName } = mcpServerConfig;
 
-  const packageJSON = getPackageJSON(packageName);
-  let binFilePath = '';
-  let binPath;
-
-  if (typeof packageJSON.bin === 'string') {
-    binPath = packageJSON.bin;
-  } else if (typeof packageJSON.bin === 'object') {
-    binPath = Object.values(packageJSON.bin)[0];
-  } else {
-    binPath = packageJSON.main;
-  }
-  assert(binPath, `Package ${packageName} does not have a valid bin path in package.json.`);
-
-  // binFilePath = 'plugin_packages/' + packageName + `/${binPath}`;
-  binFilePath = __dirname + '/../node_modules/' + packageName + `/${binPath}`;
-
-  const mcpServerBinPath = mcpServerConfig.bin || binFilePath;
-  const binArgs = mcpServerConfig.binArgs || [];
-  const transport = new StdioClientTransport({
-    command: process.execPath,
-    args: [mcpServerBinPath, ...binArgs],
-    env: env || {},
-  });
+async function createMcpClient(mcpServerConfig: MCPServerPackageConfig, transport: StdioClientTransport) {
+  const { packageName, name } = mcpServerConfig;
 
   const client = new Client(
     {
-      name: `mcp-server-${mcpServerConfig.name}-client`,
+      name: `mcp-server-${name}-client`,
       version: '1.0.0',
     },
     {
@@ -81,6 +58,62 @@ export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?
   return { client, transport, closeConnection };
 }
 
+async function getNodeMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
+  const { packageName } = mcpServerConfig;
+  const packageJSON = getPackageJSON(packageName);
+  let binFilePath = '';
+  let binPath;
+
+  if (typeof packageJSON.bin === 'string') {
+    binPath = packageJSON.bin;
+  } else if (typeof packageJSON.bin === 'object') {
+    binPath = Object.values(packageJSON.bin)[0];
+  } else {
+    binPath = packageJSON.main;
+  }
+  assert(binPath, `Package ${packageName} does not have a valid bin path in package.json.`);
+
+  binFilePath = __dirname + '/../node_modules/' + packageName + `/${binPath}`;
+
+  const mcpServerBinPath = mcpServerConfig.bin || binFilePath;
+  const binArgs = mcpServerConfig.binArgs || [];
+  const transport = new StdioClientTransport({
+    command: process.execPath,
+    args: [mcpServerBinPath, ...binArgs],
+    env: env || {},
+  });
+
+  return createMcpClient(mcpServerConfig, transport);
+}
+
+async function getPyMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
+  const { packageName } = mcpServerConfig;
+
+  const pythonModuleName = packageName;
+
+  const transport = new StdioClientTransport({
+    command: 'uv',
+    args: ['run', '--directory', './python-mcp', pythonModuleName],
+    env: {
+      ...(Object.fromEntries(Object.entries(process.env).filter(([_, v]) => v !== undefined)) as Record<
+        string,
+        string
+      >),
+      ...env,
+    },
+  });
+
+  return createMcpClient(mcpServerConfig, transport);
+}
+
+export async function getMcpClient(mcpServerConfig: MCPServerPackageConfig, env?: Record<string, string>) {
+  const { runtime } = mcpServerConfig;
+  if (runtime === 'python') {
+    return getPyMcpClient(mcpServerConfig, env);
+  }
+  return getNodeMcpClient(mcpServerConfig, env);
+}
+
 export function updatePackageJsonDependencies({
   packageDeps,
   enableValidation = false,
@@ -97,6 +130,7 @@ export function updatePackageJsonDependencies({
     '@hono/swagger-ui': '^0.5.2',
     '@hono/zod-openapi': '^0.16.4',
     lodash: '^4.17.21',
+    toml: '^3.0.0',
     zod: '^3.23.30',
     axios: '^1.9.0',
     hono: '4.8.3',
@@ -160,7 +194,7 @@ export function withTimeout<T>(ms: number, promise: Promise<T>): Promise<T> {
 interface DependencyData {
   versions: Record<string, unknown>;
 }
-// 校验依赖项有效性
+
 function checkDependencyValidity(dependencyData: DependencyData, versionRange: string): boolean {
   // 兼容 "latest" 的情况
   if (versionRange === 'latest') {
@@ -177,7 +211,6 @@ function checkDependencyValidity(dependencyData: DependencyData, versionRange: s
   return false;
 }
 
-// 通用依赖项检查函数
 async function checkDependencies(dependencies: Record<string, string>): Promise<boolean> {
   const dependencyCache: Record<string, boolean> = {};
   const checkSingleDependency = async (depName: string, depVersionRange: string): Promise<boolean> => {
@@ -223,7 +256,6 @@ async function checkDependencies(dependencies: Record<string, string>): Promise<
   return results.every((result) => result);
 }
 
-// 判断 npm 包及其依赖是否有效
 export async function isValidNpmPackage(packageName: string): Promise<boolean> {
   try {
     // 检查主包是否存在
@@ -262,4 +294,11 @@ export async function isValidNpmPackage(packageName: string): Promise<boolean> {
     console.error(`Error validating package ${packageName}:`, (error as Error).message);
     return false;
   }
+}
+
+export function getPythonDependencies(): string[] {
+  const content = fs.readFileSync('./python-mcp/pyproject.toml', 'utf-8');
+  const data = toml.parse(content);
+  const deps = data.project?.dependencies || [];
+  return deps.map((dep: string) => dep.split(/[=<>!]/)[0].trim());
 }
