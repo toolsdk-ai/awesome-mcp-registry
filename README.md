@@ -106,9 +106,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (611)
+✅: Validated and runnable tools (612)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3474))
+❌: Cannot be run by the MCP client (with mock environments variables (3473))
 
 
 
@@ -200,7 +200,7 @@ Tools that haven’t been sorted into a category yet. AI will categorize it late
 - [❌ layerzero-oft](https://github.com/thomasfevre/layerzero_mcp): Deploys and manages LayerZero OFT tokens across multiple blockchain networks with automated cross-chain bridging, consistent address deployment using CREATE2 factories, and seamless token transfers between Arbitrum Sepolia and Base Sepolia testnets.  (node) 
 - [❌ @mastergo/magic-mcp](https://github.com/mastergo-design/mastergo-magic-mcp): Extracts design file metadata from MasterGo files using a personal access token, enabling direct retrieval of design element details for analysis and code generation.  (node) 
 - [❌ polygon-mcp](https://github.com/dablclub/polygon-mcp): Integrates with the Polygon blockchain to enable cryptocurrency management, smart contract interaction, and transaction signing through a secure wallet connection using the user's seed phrase.  (node) 
-- [❌ mixpanel-analytics](https://github.com/moonbirdai/mixpanel-mcp-server): Track analytics events in Mixpanel, supporting custom events, page views, user profiles, and signups.  (node) 
+- [✅ mixpanel-mcp-server](https://github.com/moonbirdai/mixpanel-mcp-server): A Model Context Protocol (MCP) server for integrating Mixpanel analytics into AI workflows. This server allows AI assistants like Claude to track events, page views, user signups, and update user profiles in Mixpanel.  (4 tools) (node) 
 - [✅ mcp-cook](https://github.com/disdjj/mcp-cook): Provides access to a collection of over 200 food and cocktail recipes, enabling dish information retrieval and ingredient-based meal suggestions.  (2 tools) (node) 
 - [❌ bluesky](https://github.com/laulauland/bluesky-context-server): Query and analyze data from the decentralized social network.  (node) 
 - [❌ tailscale](https://github.com/hexsleeves/tailscale-mcp): Integrates with Tailscale's CLI and REST API to provide network management capabilities including device authorization, route configuration, ACL management, DNS settings, exit node setup, and user administration for distributed infrastructure operations.  (node) 

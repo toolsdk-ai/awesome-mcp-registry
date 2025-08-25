@@ -89,7 +89,7 @@
       "layerzero-oft",
       "@mastergo/magic-mcp",
       "polygon-mcp",
-      "mixpanel-analytics",
+      "mixpanel-mcp-server",
       "mcp-cook",
       "bluesky",
       "tailscale",

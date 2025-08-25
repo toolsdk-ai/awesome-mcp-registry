@@ -6382,8 +6382,8 @@
   "autogen": {
     "category": "coding-agents",
     "path": "coding-agents/autogen.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "kontxt": {
     "category": "coding-agents",
@@ -24055,12 +24055,6 @@
   "pbs-api": {
     "category": "uncategorized",
     "path": "uncategorized/pbs-api.json",
-    "validated": false,
-    "tools": {}
-  },
-  "mixpanel-analytics": {
-    "category": "uncategorized",
-    "path": "uncategorized/mixpanel-analytics.json",
     "validated": false,
     "tools": {}
   },
@@ -44111,6 +44105,7 @@
   "mcp-postgres-server": {
     "category": "databases",
     "path": "databases/mcp-postgres-server.json",
+    "validated": true,
     "tools": {
       "connect_db": {
         "name": "connect_db",
@@ -44136,8 +44131,7 @@
         "name": "describe_table",
         "description": "Get table structure"
       }
-    },
-    "validated": true
+    }
   },
   "@mcp-mongodb-atlas": {
     "category": "databases",
@@ -44253,5 +44247,28 @@
   "mcp-server-12306": {
     "category": "travel-transportation",
     "path": "travel-transportation/py-12306-mcp-server.json"
+  },
+  "mixpanel-mcp-server": {
+    "category": "uncategorized",
+    "path": "uncategorized/mixpanel-analytics.json",
+    "tools": {
+      "mixpanel_track_event": {
+        "name": "mixpanel_track_event",
+        "description": "Track a custom event in Mixpanel"
+      },
+      "mixpanel_track_pageview": {
+        "name": "mixpanel_track_pageview",
+        "description": "Track a page view event in Mixpanel"
+      },
+      "mixpanel_track_signup": {
+        "name": "mixpanel_track_signup",
+        "description": "Track a signup event and create a user profile in Mixpanel"
+      },
+      "mixpanel_set_user_profile": {
+        "name": "mixpanel_set_user_profile",
+        "description": "Update a user's profile properties in Mixpanel"
+      }
+    },
+    "validated": true
   }
 }
