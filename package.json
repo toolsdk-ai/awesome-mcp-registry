@@ -20,7 +20,6 @@
 	],
 	"scripts": {
 		"build": "tsc",
-		"lint": "eslint . --ext .ts,.tsx --ignore-pattern \"api/\"",
 		"dev": "tsx watch src/api/index.ts",
 		"start": "NODE_ENV=production tsx src/api/index.ts",
 		"check": "biome check . --write",
