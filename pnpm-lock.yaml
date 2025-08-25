@@ -1800,6 +1800,9 @@ importers:
         specifier: ^3.23.30
         version: 3.25.76
     devDependencies:
+      '@biomejs/biome':
+        specifier: 2.2.2
+        version: 2.2.2
       '@eslint/js':
         specifier: ^9.27.0
         version: 9.29.0
@@ -3443,8 +3446,19 @@ packages:
     resolution: {integrity: sha512-mGjigNeS4FJrHYJLMJkL0ii3p974mjGFEkyLZk8pHYfHBiTqUThDg50ZW+RkfVhbmIGzz0B2Z1TM1JtD4Z38OA==}
     hasBin: true
 
+  '@biomejs/biome@2.2.2':
+    resolution: {integrity: sha512-j1omAiQWCkhuLgwpMKisNKnsM6W8Xtt1l0WZmqY/dFj8QPNkIoTvk4tSsi40FaAAkBE1PU0AFG2RWFBWenAn+w==}
+    engines: {node: '>=14.21.3'}
+    hasBin: true
+
   '@biomejs/cli-darwin-arm64@1.9.4':
     resolution: {integrity: sha512-bFBsPWrNvkdKrNCYeAp+xo2HecOGPAy9WyNyB/jKnnedgzl4W4Hb9ZMzYNbf8dMCGmUdSavlYHiR01QaYR58cw==}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@biomejs/cli-darwin-arm64@2.2.2':
+    resolution: {integrity: sha512-6ePfbCeCPryWu0CXlzsWNZgVz/kBEvHiPyNpmViSt6A2eoDf4kXs3YnwQPzGjy8oBgQulrHcLnJL0nkCh80mlQ==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
@@ -3455,14 +3469,56 @@ packages:
     cpu: [x64]
     os: [darwin]
 
+  '@biomejs/cli-darwin-x64@2.2.2':
+    resolution: {integrity: sha512-Tn4JmVO+rXsbRslml7FvKaNrlgUeJot++FkvYIhl1OkslVCofAtS35MPlBMhXgKWF9RNr9cwHanrPTUUXcYGag==}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@biomejs/cli-linux-arm64-musl@2.2.2':
+    resolution: {integrity: sha512-/MhYg+Bd6renn6i1ylGFL5snYUn/Ct7zoGVKhxnro3bwekiZYE8Kl39BSb0MeuqM+72sThkQv4TnNubU9njQRw==}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@biomejs/cli-linux-arm64@2.2.2':
+    resolution: {integrity: sha512-JfrK3gdmWWTh2J5tq/rcWCOsImVyzUnOS2fkjhiYKCQ+v8PqM+du5cfB7G1kXas+7KQeKSWALv18iQqdtIMvzw==}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@biomejs/cli-linux-x64-musl@2.2.2':
+    resolution: {integrity: sha512-ZCLXcZvjZKSiRY/cFANKg+z6Fhsf9MHOzj+NrDQcM+LbqYRT97LyCLWy2AS+W2vP+i89RyRM+kbGpUzbRTYWig==}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [linux]
+
   '@biomejs/cli-linux-x64@1.9.4':
     resolution: {integrity: sha512-lRCJv/Vi3Vlwmbd6K+oQ0KhLHMAysN8lXoCI7XeHlxaajk06u7G+UsFSO01NAs5iYuWKmVZjmiOzJ0OJmGsMwg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
 
+  '@biomejs/cli-linux-x64@2.2.2':
+    resolution: {integrity: sha512-Ogb+77edO5LEP/xbNicACOWVLt8mgC+E1wmpUakr+O4nKwLt9vXe74YNuT3T1dUBxC/SnrVmlzZFC7kQJEfquQ==}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [linux]
+
+  '@biomejs/cli-win32-arm64@2.2.2':
+    resolution: {integrity: sha512-wBe2wItayw1zvtXysmHJQoQqXlTzHSpQRyPpJKiNIR21HzH/CrZRDFic1C1jDdp+zAPtqhNExa0owKMbNwW9cQ==}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [win32]
+
   '@biomejs/cli-win32-x64@1.9.4':
     resolution: {integrity: sha512-8Y5wMhVIPaWe6jw2H+KlEm4wP/f7EW3810ZLmDlrEEy5KvBsb9ECEfu/kMWD484ijfQ8+nIi0giMgu9g1UAuuA==}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [win32]
+
+  '@biomejs/cli-win32-x64@2.2.2':
+    resolution: {integrity: sha512-DAuHhHekGfiGb6lCcsT4UyxQmVwQiBCBUMwVra/dcOSs9q8OhfaZgey51MlekT3p8UwRqtXQfFuEJBhJNdLZwg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
@@ -6818,6 +6874,10 @@ packages:
 
   '@modelcontextprotocol/sdk@1.17.3':
     resolution: {integrity: sha512-JPwUKWSsbzx+DLFznf/QZ32Qa+ptfbUlHhRLrBQBAFu9iI1iYvizM4p+zhhRDceSsPutXp4z+R/HPVphlIiclg==}
+    engines: {node: '>=18'}
+
+  '@modelcontextprotocol/sdk@1.17.4':
+    resolution: {integrity: sha512-zq24hfuAmmlNZvik0FLI58uE5sriN0WWsQzIlYnzSuKDAHFqJtBFrl/LfB1NLgJT5Y7dEBzaX4yAKqOPrcetaw==}
     engines: {node: '>=18'}
 
   '@modelcontextprotocol/sdk@1.3.1':
@@ -18627,8 +18687,8 @@ packages:
   jpeg-js@0.4.4:
     resolution: {integrity: sha512-WZzeDOEtTOBK4Mdsar0IqEU5sMr3vSV2RqkAIzUEV2BHnUfKGyswWFPFwK5EeDo93K3FohSHbLAjj0s1Wzd+dg==}
 
-  jq-web@https://github.com/stainless-api/jq-web/releases/download/v0.8.2/jq-web.tar.gz:
-    resolution: {tarball: https://github.com/stainless-api/jq-web/releases/download/v0.8.2/jq-web.tar.gz}
+  jq-web@https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A00Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A17%3A36Z&ske=2025-08-25T08%3A18%3A00Z&sks=b&skv=2018-11-09&sig=WGU3BXjoKmxQagMTAjtecIZkDbcK%2FaI5dqNUfJPDN8E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwNzM1NSwibmJmIjoxNzU2MTA3MDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.l4Yc05gMx3TsA2ykVaw5N_3c5Sjyn8Cv_2aYrh34Egk&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream:
+    resolution: {tarball: https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A00Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A17%3A36Z&ske=2025-08-25T08%3A18%3A00Z&sks=b&skv=2018-11-09&sig=WGU3BXjoKmxQagMTAjtecIZkDbcK%2FaI5dqNUfJPDN8E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwNzM1NSwibmJmIjoxNzU2MTA3MDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.l4Yc05gMx3TsA2ykVaw5N_3c5Sjyn8Cv_2aYrh34Egk&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream}
     version: 0.8.2
 
   js-1sat-ord@0.1.82:
@@ -30416,16 +30476,51 @@ snapshots:
       - debug
       - supports-color
 
+  '@biomejs/biome@2.2.2':
+    optionalDependencies:
+      '@biomejs/cli-darwin-arm64': 2.2.2
+      '@biomejs/cli-darwin-x64': 2.2.2
+      '@biomejs/cli-linux-arm64': 2.2.2
+      '@biomejs/cli-linux-arm64-musl': 2.2.2
+      '@biomejs/cli-linux-x64': 2.2.2
+      '@biomejs/cli-linux-x64-musl': 2.2.2
+      '@biomejs/cli-win32-arm64': 2.2.2
+      '@biomejs/cli-win32-x64': 2.2.2
+
   '@biomejs/cli-darwin-arm64@1.9.4':
+    optional: true
+
+  '@biomejs/cli-darwin-arm64@2.2.2':
     optional: true
 
   '@biomejs/cli-darwin-x64@1.9.4':
     optional: true
 
+  '@biomejs/cli-darwin-x64@2.2.2':
+    optional: true
+
+  '@biomejs/cli-linux-arm64-musl@2.2.2':
+    optional: true
+
+  '@biomejs/cli-linux-arm64@2.2.2':
+    optional: true
+
+  '@biomejs/cli-linux-x64-musl@2.2.2':
+    optional: true
+
   '@biomejs/cli-linux-x64@1.9.4':
     optional: true
 
+  '@biomejs/cli-linux-x64@2.2.2':
+    optional: true
+
+  '@biomejs/cli-win32-arm64@2.2.2':
+    optional: true
+
   '@biomejs/cli-win32-x64@1.9.4':
+    optional: true
+
+  '@biomejs/cli-win32-x64@2.2.2':
     optional: true
 
   '@bnb-chain/greenfield-cosmos-types@0.4.0-alpha.32':
@@ -30993,7 +31088,7 @@ snapshots:
 
   '@coderide/mcp@0.4.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       axios: 1.10.0
       dotenv: 16.6.1
       nanoid: 5.1.5
@@ -31284,7 +31379,7 @@ snapshots:
 
   '@cyanheads/toolkit-mcp-server@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       '@types/luxon': 3.7.1
       '@types/node': 24.3.0
       luxon: 3.7.1
@@ -32070,7 +32165,7 @@ snapshots:
 
   '@exoticknight/mcp-file-merger@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
     transitivePeerDependencies:
@@ -35551,7 +35646,7 @@ snapshots:
 
   '@missionsquad/mcp-helper-tools@1.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       '@types/luxon': 3.7.1
       '@types/node': 24.3.0
       luxon: 3.7.1
@@ -36033,6 +36128,23 @@ snapshots:
       - supports-color
 
   '@modelcontextprotocol/sdk@1.17.3':
+    dependencies:
+      ajv: 6.12.6
+      content-type: 1.0.5
+      cors: 2.8.5
+      cross-spawn: 7.0.6
+      eventsource: 3.0.7
+      eventsource-parser: 3.0.3
+      express: 5.1.0
+      express-rate-limit: 7.5.1(express@5.1.0)
+      pkce-challenge: 5.0.0
+      raw-body: 3.0.0
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@modelcontextprotocol/sdk@1.17.4':
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
@@ -38778,7 +38890,7 @@ snapshots:
 
   '@opentofu/opentofu-mcp-server@0.1.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       semver: 7.7.2
       zod: 3.25.76
     transitivePeerDependencies:
@@ -45592,7 +45704,7 @@ snapshots:
 
   base-network-mcp-server@0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(immer@10.1.1)(ioredis@5.5.0)(kerberos@2.2.2)(mongodb-client-encryption@6.4.0)(react@18.3.1)(snappy@7.2.2)(socks@2.8.5)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.2.4(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)(zod@3.25.76):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       '@wagmi/core': 1.4.13(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(immer@10.1.1)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.2.4(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
       dotenv: 16.6.1
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -46847,7 +46959,7 @@ snapshots:
 
   cloudinary-mcp-server@0.4.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       cloudinary: 1.41.3
       dotenv: 16.6.1
       zod: 3.25.76
@@ -48374,7 +48486,7 @@ snapshots:
       '@cloudflare/cabidela': 0.2.4
       '@modelcontextprotocol/sdk': 1.17.2
       dodopayments: 1.47.0(encoding@0.1.13)
-      jq-web: https://github.com/stainless-api/jq-web/releases/download/v0.8.2/jq-web.tar.gz
+      jq-web: https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A00Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A17%3A36Z&ske=2025-08-25T08%3A18%3A00Z&sks=b&skv=2018-11-09&sig=WGU3BXjoKmxQagMTAjtecIZkDbcK%2FaI5dqNUfJPDN8E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwNzM1NSwibmJmIjoxNzU2MTA3MDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.l4Yc05gMx3TsA2ykVaw5N_3c5Sjyn8Cv_2aYrh34Egk&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream
       yargs: 17.7.2
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
@@ -51796,7 +51908,7 @@ snapshots:
 
   instagram-engagement-mcp@0.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       axios: 1.10.0
       dotenv: 16.6.1
       instagram-private-api: 1.46.1
@@ -52532,7 +52644,7 @@ snapshots:
 
   jpeg-js@0.4.4: {}
 
-  jq-web@https://github.com/stainless-api/jq-web/releases/download/v0.8.2/jq-web.tar.gz: {}
+  jq-web@https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A00Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A17%3A36Z&ske=2025-08-25T08%3A18%3A00Z&sks=b&skv=2018-11-09&sig=WGU3BXjoKmxQagMTAjtecIZkDbcK%2FaI5dqNUfJPDN8E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwNzM1NSwibmJmIjoxNzU2MTA3MDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.l4Yc05gMx3TsA2ykVaw5N_3c5Sjyn8Cv_2aYrh34Egk&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream: {}
 
   js-1sat-ord@0.1.82(@bsv/sdk@1.6.10)(typescript@5.8.3):
     dependencies:
@@ -53251,7 +53363,7 @@ snapshots:
 
   lighthouse-mcp@0.1.3(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       chrome-launcher: 0.15.2
       lighthouse: 12.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -53682,7 +53794,7 @@ snapshots:
 
   lumbretravel-mcp@0.1.14:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       '@types/moment': 2.13.0
       dotenv: 17.2.1
       node-fetch: 3.3.2
@@ -54447,7 +54559,7 @@ snapshots:
 
   mcp-postman@1.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       newman: 6.2.1
       zod: 3.25.76
     transitivePeerDependencies:
@@ -55140,7 +55252,7 @@ snapshots:
 
   meta-mcp-server@1.5.4:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
     transitivePeerDependencies:
       - supports-color
 
@@ -57094,7 +57206,7 @@ snapshots:
 
   onyx-mcp-server@1.2.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       axios: 1.10.0
     transitivePeerDependencies:
       - debug
@@ -57252,7 +57364,7 @@ snapshots:
 
   opentrons-mcp@1.0.24:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       axios: 1.10.0
       nats: 2.29.3
     transitivePeerDependencies:
