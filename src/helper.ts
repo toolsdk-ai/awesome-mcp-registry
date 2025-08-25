@@ -1,9 +1,9 @@
+import assert from "node:assert";
+import fs from "node:fs";
+import * as path from "node:path";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
-import assert from "assert";
 import axios from "axios";
-import fs from "fs";
-import * as path from "path";
 import semver from "semver";
 import toml from "toml";
 import allPackagesList from "../indexes/packages-list.json";
@@ -22,7 +22,7 @@ export function getPackageConfigByKey(
 	const jsonFile = value.path;
 	// read the JSON file and convert it to MCPServerPackageConfig
 	const jsonStr = fs.readFileSync(
-		__dirname + "/../packages/" + jsonFile,
+		`${__dirname}/../packages/${jsonFile}`,
 		"utf-8",
 	);
 	const mcpServerConfig: MCPServerPackageConfig =
@@ -31,8 +31,7 @@ export function getPackageConfigByKey(
 }
 
 function getPackageJSON(packageName: string) {
-	const packageJSONFilePath =
-		__dirname + "/../node_modules/" + packageName + "/package.json";
+	const packageJSONFilePath = `${__dirname}/../node_modules/${packageName}/package.json`;
 	const packageJSONStr = fs.readFileSync(packageJSONFilePath, "utf8");
 	const packageJSON = JSON.parse(packageJSONStr);
 	return packageJSON;
@@ -75,12 +74,12 @@ async function getNodeMcpClient(
 	const { packageName } = mcpServerConfig;
 	const packageJSON = getPackageJSON(packageName);
 	let binFilePath = "";
-	let binPath;
+	let binPath: string | undefined;
 
 	if (typeof packageJSON.bin === "string") {
 		binPath = packageJSON.bin;
 	} else if (typeof packageJSON.bin === "object") {
-		binPath = Object.values(packageJSON.bin)[0];
+		binPath = Object.values(packageJSON.bin)[0] as string | undefined;
 	} else {
 		binPath = packageJSON.main;
 	}
@@ -89,7 +88,7 @@ async function getNodeMcpClient(
 		`Package ${packageName} does not have a valid bin path in package.json.`,
 	);
 
-	binFilePath = __dirname + "/../node_modules/" + packageName + `/${binPath}`;
+	binFilePath = `${__dirname}/../node_modules/${packageName}/${binPath}`;
 
 	const mcpServerBinPath = mcpServerConfig.bin || binFilePath;
 	const binArgs = mcpServerConfig.binArgs || [];

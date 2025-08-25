@@ -1,6 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import fs from "fs";
-import path from "path";
 import {
 	getMcpClient,
 	getPackageConfigByKey,
@@ -73,7 +73,7 @@ export class PackageSO {
 		const jsonStr = fs.readFileSync(jsonFilePath, "utf-8");
 		const packageConfig: MCPServerPackageConfig = JSON.parse(jsonStr);
 
-		let tools;
+		let tools: Tool[] | undefined;
 		try {
 			tools = await this.listTools(packageName);
 		} catch (error) {

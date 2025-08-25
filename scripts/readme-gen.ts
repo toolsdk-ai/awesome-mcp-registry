@@ -3,9 +3,9 @@
 // 2. Iterate through the categories, then recursively read the specified directory (all JSON files under packages/{categoryName}), and validate with zod MCPServerConfigSchema.parse
 // 3. Start with let README: string, README += the content of all MCP server files under the category
 // 4. Read README template(docs/README.tpl.md). Write to the README file (README.md)
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
 import _ from "lodash";
-import { join } from "path";
 import categoriesList from "../indexes/categories-list.json";
 import allPackagesList from "../indexes/packages-list.json";
 import { MCPServerPackageConfigSchema } from "../src/schema";

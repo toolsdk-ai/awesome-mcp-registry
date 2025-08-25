@@ -22,9 +22,9 @@ Error handling:
 - Client connections are properly closed even in case of errors
 */
 
+import fs from "node:fs";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
-import fs from "fs";
 import {
 	getPackageConfigByKey,
 	getPythonDependencies,
@@ -46,7 +46,7 @@ const TEMP_IGNORE_DEP_NAMES = [
 ];
 
 async function getPythonMcpClient(
-	mcpServerConfig: any,
+	mcpServerConfig: MCPServerPackageConfig,
 	mockEnv: Record<string, string>,
 ) {
 	const { packageName } = mcpServerConfig;
@@ -80,7 +80,13 @@ async function getPythonMcpClient(
 }
 
 async function main() {
-	const packageConfig: Record<string, any> = {};
+	const packageConfig: Record<
+		string,
+		MCPServerPackageConfig & {
+			tools: Record<string, { name: string; description: string }>;
+			validated: boolean;
+		}
+	> = {};
 	const pythonDeps = getPythonDependencies();
 
 	for (const depName of pythonDeps) {
@@ -103,7 +109,8 @@ async function main() {
 			const mcpClient = await getPythonMcpClient(mcpServerConfig, mockEnv);
 			const toolsResp = await mcpClient.client.listTools();
 
-			const saveTools: Record<string, any> = {};
+			const saveTools: Record<string, { name: string; description: string }> =
+				{};
 			for (const toolItem of toolsResp.tools) {
 				saveTools[toolItem.name] = {
 					name: toolItem.name,
@@ -127,7 +134,7 @@ async function main() {
 			console.log(
 				`✓ ${depName} validated, tools: ${Object.keys(saveTools).length}`,
 			);
-		} catch (e: any) {
+		} catch (e) {
 			packageConfig[depName] = {
 				...mcpServerConfig,
 				tools: {},
@@ -135,7 +142,7 @@ async function main() {
 			};
 			console.error(
 				`✗ Error validating Python MCP Client for ${depName}:`,
-				e.message,
+				(e as Error).message,
 			);
 
 			// Not processing Python MCPs with validated: false for now

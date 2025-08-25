@@ -4,8 +4,8 @@
 // It also associates the packages with their respective categories and ensures no duplicate keys exist.
 // Finally, it writes the generated data to the specified output files in the collections directory.
 
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import {
 	getActualVersion,
 	isValidNpmPackage,

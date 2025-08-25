@@ -1,6 +1,6 @@
 // Try to read MCP Client
 
-import fs from "fs";
+import fs from "node:fs";
 import {
 	getActualVersion,
 	getMcpClient,

@@ -23,8 +23,8 @@ Usage flow:
 4. Generate and execute installation script
 */
 
+import fs from "node:fs";
 import axios from "axios";
-import fs from "fs";
 import { getPackageConfigByKey, typedAllPackagesList } from "../src/helper";
 
 // Simple validation function to check if dependency conforms to PEP 508 specification
@@ -43,7 +43,7 @@ async function isPackageOnPyPI(packageName: string): Promise<boolean> {
 		);
 		return response.status === 200;
 		// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	} catch (error) {
+	} catch (_error) {
 		// Package doesn't exist or request failed
 		return false;
 	}
@@ -56,7 +56,9 @@ async function collectPythonPackages(
 	const pythonPackages: string[] = [];
 	let pythonPackageCount = 0;
 
-	for (const [packageKey, value] of Object.entries(typedAllPackagesList)) {
+	for (const [packageKey, value] of Object.entries(
+		typedAllPackagesList as Record<string, { path: string }>,
+	)) {
 		// If maximum quantity limit has been reached, stop processing
 		if (pythonPackageCount >= maxPackages) {
 			console.log(

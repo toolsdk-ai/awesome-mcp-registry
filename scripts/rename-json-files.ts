@@ -1,5 +1,5 @@
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 
 const LANGUAGE_PREFIXES = ["node", "python", "java", "go"];
 // const BASE_DIR = '/home/username/mcp/awesome-mcp-registry/packages';

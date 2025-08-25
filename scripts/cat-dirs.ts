@@ -3,8 +3,8 @@
 // If a folder does not exist, it creates one.
 // Additionally, it removes any folders in the categories directory that are not listed in the configuration.
 // This script is intended to be executed using Bun.
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import type { CategoryConfig } from "../src/types";
 
 // Define the paths
