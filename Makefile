@@ -9,7 +9,7 @@ build:
 	pnpm install --no-frozen-lockfile
 	bun scripts/test-mcp-clients.ts
 	bun scripts/readme-gen.ts
-	pnpm run lint
+	pnpm run check
 	pnpm run build
 
 dev:
