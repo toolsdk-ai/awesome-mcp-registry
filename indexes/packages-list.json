@@ -6382,8 +6382,8 @@
   "autogen": {
     "category": "coding-agents",
     "path": "coding-agents/autogen.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "kontxt": {
     "category": "coding-agents",
