@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "shell-command-runner",
-	"description": "Enables AI systems to execute shell commands and scripts securely with proper output handling for system automation, file manipulation, and command-line tool integration.",
-	"url": "https://github.com/hdcola/mcp-server-cli",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Server CLI"
+  "type": "mcp-server",
+  "packageName": "shell-command-runner",
+  "description": "Enables AI systems to execute shell commands and scripts securely with proper output handling for system automation, file manipulation, and command-line tool integration.",
+  "url": "https://github.com/hdcola/mcp-server-cli",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Server CLI"
 }

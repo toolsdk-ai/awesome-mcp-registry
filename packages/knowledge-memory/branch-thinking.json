@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "branch-thinking",
-	"description": "Organizes complex thought processes into structured branches with cross-references, semantic relationships, and analytics for tracking idea evolution, contradiction detection, and multi-perspective reasoning.",
-	"url": "https://github.com/ssdeanx/branch-thinking",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Branch Thinking"
+  "type": "mcp-server",
+  "packageName": "branch-thinking",
+  "description": "Organizes complex thought processes into structured branches with cross-references, semantic relationships, and analytics for tracking idea evolution, contradiction detection, and multi-perspective reasoning.",
+  "url": "https://github.com/ssdeanx/branch-thinking",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Branch Thinking"
 }

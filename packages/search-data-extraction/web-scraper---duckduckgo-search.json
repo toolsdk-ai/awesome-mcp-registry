@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "web-scraper-&-duckduckgo-search",
-	"description": "Provides web scraping and DuckDuckGo search capabilities for retrieving and processing web content as markdown.",
-	"url": "https://github.com/surya-madhav/mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Web Scraper & DuckDuckGo Search MCP Server"
+  "type": "mcp-server",
+  "packageName": "web-scraper-&-duckduckgo-search",
+  "description": "Provides web scraping and DuckDuckGo search capabilities for retrieving and processing web content as markdown.",
+  "url": "https://github.com/surya-madhav/mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Web Scraper & DuckDuckGo Search MCP Server"
 }

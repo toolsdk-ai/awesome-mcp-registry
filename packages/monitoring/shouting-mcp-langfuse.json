@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "shouting-mcp-langfuse",
-	"description": "Connects AI models to Langfuse analytics workspaces, enabling access to LLM performance metrics by time range for monitoring and analysis.",
-	"url": "https://github.com/z9905080/mcp-langfuse",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Langfuse MCP"
+  "type": "mcp-server",
+  "packageName": "shouting-mcp-langfuse",
+  "description": "Connects AI models to Langfuse analytics workspaces, enabling access to LLM performance metrics by time range for monitoring and analysis.",
+  "url": "https://github.com/z9905080/mcp-langfuse",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Langfuse MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "image-download-and-optimize",
-	"description": "Integrates image downloading and optimization tools for efficient retrieval, resizing, and format conversion of web images.",
-	"url": "https://github.com/qpd-v/mcp-image-downloader",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Image Downloader MCP"
+  "type": "mcp-server",
+  "packageName": "image-download-and-optimize",
+  "description": "Integrates image downloading and optimization tools for efficient retrieval, resizing, and format conversion of web images.",
+  "url": "https://github.com/qpd-v/mcp-image-downloader",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Image Downloader MCP"
 }

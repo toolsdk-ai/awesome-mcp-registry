@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@moralisweb3/api-mcp-server",
-	"description": "Integrates with Moralis Web3 API to enable blockchain data access, token analysis, and smart contract interactions without requiring deep Web3 development knowledge",
-	"url": "https://github.com/moralisweb3/moralis-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"MORALIS_API_KEY": {
-			"description": "<YOUR_API_KEY>",
-			"required": true
-		}
-	},
-	"name": "Moralis MCP Server"
+  "type": "mcp-server",
+  "packageName": "@moralisweb3/api-mcp-server",
+  "description": "Integrates with Moralis Web3 API to enable blockchain data access, token analysis, and smart contract interactions without requiring deep Web3 development knowledge",
+  "url": "https://github.com/moralisweb3/moralis-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MORALIS_API_KEY": {
+      "description": "<YOUR_API_KEY>",
+      "required": true
+    }
+  },
+  "name": "Moralis MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "turbo-docs",
-	"description": "Provides AI access to Hotwire Turbo documentation, exposing individual files as tools for targeted retrieval of specific features like Drive, Frames, Streams, and page refreshes.",
-	"url": "https://github.com/pinzonjulian/turbo-docs-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Turbo Docs MCP Server"
+  "type": "mcp-server",
+  "packageName": "turbo-docs",
+  "description": "Provides AI access to Hotwire Turbo documentation, exposing individual files as tools for targeted retrieval of specific features like Drive, Frames, Streams, and page refreshes.",
+  "url": "https://github.com/pinzonjulian/turbo-docs-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Turbo Docs MCP Server"
 }

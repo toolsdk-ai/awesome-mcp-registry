@@ -1,24 +1,24 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1658935698399928321/bucygNAU_400x400.jpg",
-	"packageName": "@koundinya/zd-mcp-server",
-	"description": "A Model Context Protocol (MCP) server that provides AI assistants like Claude with seamless integration to Zendesk Support.  ",
-	"url": "https://github.com/koundinya/zd-mcp-server",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"ZENDESK_EMAIL": {
-			"description": "your-email@company.com",
-			"required": true
-		},
-		"ZENDESK_TOKEN": {
-			"description": "your-zendesk-api-token",
-			"required": true
-		},
-		"ZENDESK_SUBDOMAIN": {
-			"description": "your-company",
-			"required": true
-		}
-	},
-	"name": "Zendesk MCP Server"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1658935698399928321/bucygNAU_400x400.jpg",
+  "packageName": "@koundinya/zd-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that provides AI assistants like Claude with seamless integration to Zendesk Support.  ",
+  "url": "https://github.com/koundinya/zd-mcp-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "ZENDESK_EMAIL": {
+      "description": "your-email@company.com",
+      "required": true
+    },
+    "ZENDESK_TOKEN": {
+      "description": "your-zendesk-api-token",
+      "required": true
+    },
+    "ZENDESK_SUBDOMAIN": {
+      "description": "your-company",
+      "required": true
+    }
+  },
+  "name": "Zendesk MCP Server"
 }

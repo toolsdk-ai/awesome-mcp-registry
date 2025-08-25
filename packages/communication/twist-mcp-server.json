@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "twist-mcp-server",
-	"description": "Integrates with Twist's team messaging platform to manage channels, threads, and messages with support for creating discussions, posting replies, and retrieving conversation history with pagination and filtering.",
-	"url": "https://github.com/pulsemcp/mcp-servers/tree/HEAD/experimental/twist",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Twist MCP Server"
+  "type": "mcp-server",
+  "packageName": "twist-mcp-server",
+  "description": "Integrates with Twist's team messaging platform to manage channels, threads, and messages with support for creating discussions, posting replies, and retrieving conversation history with pagination and filtering.",
+  "url": "https://github.com/pulsemcp/mcp-servers/tree/HEAD/experimental/twist",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Twist MCP Server"
 }

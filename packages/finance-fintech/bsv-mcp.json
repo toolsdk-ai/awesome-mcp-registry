@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "bsv-mcp",
-	"description": "Integrates with Bitcoin SV blockchain to enable wallet operations, transaction management, and NFT interactions while maintaining local private key security",
-	"url": "https://github.com/b-open-io/bsv-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "BSV MCP"
+  "type": "mcp-server",
+  "packageName": "bsv-mcp",
+  "description": "Integrates with Bitcoin SV blockchain to enable wallet operations, transaction management, and NFT interactions while maintaining local private key security",
+  "url": "https://github.com/b-open-io/bsv-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "BSV MCP"
 }

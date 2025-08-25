@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "nutanix-prism-central",
-	"description": "Bridges to Nutanix's Prism Central API, enabling infrastructure teams to query and monitor virtualized resources like VMs, clusters, hosts, and networks without switching to the Prism web interface.",
-	"url": "https://github.com/thunderboltsid/mcp-nutanix",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Nutanix MCP Bridge"
+  "type": "mcp-server",
+  "packageName": "nutanix-prism-central",
+  "description": "Bridges to Nutanix's Prism Central API, enabling infrastructure teams to query and monitor virtualized resources like VMs, clusters, hosts, and networks without switching to the Prism web interface.",
+  "url": "https://github.com/thunderboltsid/mcp-nutanix",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Nutanix MCP Bridge"
 }

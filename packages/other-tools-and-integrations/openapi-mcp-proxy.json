@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "openapi-mcp-proxy",
-	"description": "Transforms OpenAPI specifications into MCP tools, enabling AI assistants to interact with existing REST APIs without custom implementations for each service",
-	"url": "https://github.com/jaceromri/openapi-mcp-proxy",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "OpenAPI MCP Proxy"
+  "type": "mcp-server",
+  "packageName": "openapi-mcp-proxy",
+  "description": "Transforms OpenAPI specifications into MCP tools, enabling AI assistants to interact with existing REST APIs without custom implementations for each service",
+  "url": "https://github.com/jaceromri/openapi-mcp-proxy",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "OpenAPI MCP Proxy"
 }

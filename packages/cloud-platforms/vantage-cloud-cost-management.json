@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "vantage-cloud-cost-management",
-	"description": "Provides real-time cloud cost management data across multiple providers (AWS, Azure, etc.) for analyzing spending patterns, tracking budgets, detecting anomalies, and optimizing cloud infrastructure costs.",
-	"url": "https://github.com/vantage-sh/vantage-mcp-server",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Vantage MCP Server"
+  "type": "mcp-server",
+  "packageName": "vantage-cloud-cost-management",
+  "description": "Provides real-time cloud cost management data across multiple providers (AWS, Azure, etc.) for analyzing spending patterns, tracking budgets, detecting anomalies, and optimizing cloud infrastructure costs.",
+  "url": "https://github.com/vantage-sh/vantage-mcp-server",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Vantage MCP Server"
 }

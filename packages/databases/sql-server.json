@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sql-server",
-	"description": "Provides a bridge to Microsoft SQL Server databases for executing queries, exploring schemas, and managing data through natural language interaction with Windows authentication security",
-	"url": "https://github.com/dennismartis/sql_mcp_server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "SQL MCP Server"
+  "type": "mcp-server",
+  "packageName": "sql-server",
+  "description": "Provides a bridge to Microsoft SQL Server databases for executing queries, exploring schemas, and managing data through natural language interaction with Windows authentication security",
+  "url": "https://github.com/dennismartis/sql_mcp_server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "SQL MCP Server"
 }

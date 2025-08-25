@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-postgres-multi-schema",
-	"description": "Provides read-only access to PostgreSQL databases with enhanced multi-schema support, enabling schema inspection, query execution, and isolation across multiple namespaces.",
-	"url": "https://github.com/harjjotsinghh/mcp-server-postgres-multi-schema",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server Postgres Multi Schema"
+  "type": "mcp-server",
+  "packageName": "mcp-server-postgres-multi-schema",
+  "description": "Provides read-only access to PostgreSQL databases with enhanced multi-schema support, enabling schema inspection, query execution, and isolation across multiple namespaces.",
+  "url": "https://github.com/harjjotsinghh/mcp-server-postgres-multi-schema",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server Postgres Multi Schema"
 }

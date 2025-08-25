@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@thomaswawra/server-spotify",
-	"description": "Integrates with Spotify Web API to enable music search, playback control, and playlist management for applications needing music data and content access.",
-	"url": "https://github.com/superseoworld/mcp-spotify",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"SPOTIFY_CLIENT_ID": {
-			"description": "your_client_id",
-			"required": true
-		},
-		"SPOTIFY_CLIENT_SECRET": {
-			"description": "your_client_secret",
-			"required": true
-		}
-	},
-	"name": "Spotify MCP"
+  "type": "mcp-server",
+  "packageName": "@thomaswawra/server-spotify",
+  "description": "Integrates with Spotify Web API to enable music search, playback control, and playlist management for applications needing music data and content access.",
+  "url": "https://github.com/superseoworld/mcp-spotify",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SPOTIFY_CLIENT_ID": {
+      "description": "your_client_id",
+      "required": true
+    },
+    "SPOTIFY_CLIENT_SECRET": {
+      "description": "your_client_secret",
+      "required": true
+    }
+  },
+  "name": "Spotify MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "language-server",
-	"description": "Provides intelligent code analysis and manipulation across multiple programming languages through language server protocols, enabling developers to explore, understand, and refactor complex codebases.",
-	"url": "https://github.com/isaacphi/mcp-language-server",
-	"runtime": "go",
-	"license": "bsd-3-clause",
-	"env": {},
-	"name": "MCP Language Server"
+  "type": "mcp-server",
+  "packageName": "language-server",
+  "description": "Provides intelligent code analysis and manipulation across multiple programming languages through language server protocols, enabling developers to explore, understand, and refactor complex codebases.",
+  "url": "https://github.com/isaacphi/mcp-language-server",
+  "runtime": "go",
+  "license": "bsd-3-clause",
+  "env": {},
+  "name": "MCP Language Server"
 }

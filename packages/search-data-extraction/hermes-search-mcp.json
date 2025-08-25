@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "hermes-search-mcp",
-	"description": "Provides a bridge to Azure Cognitive Search for executing search queries, indexing documents, and managing search indexes with filtering options",
-	"url": "https://github.com/cognitive-stack/hermes-search-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"AZURE_SEARCH_ENDPOINT": {
-			"description": "your-search-endpoint",
-			"required": true
-		},
-		"AZURE_SEARCH_API_KEY": {
-			"description": "your-api-key",
-			"required": true
-		},
-		"AZURE_SEARCH_INDEX_NAME": {
-			"description": "your-index-name",
-			"required": true
-		}
-	},
-	"name": "Hermes Search MCP"
+  "type": "mcp-server",
+  "packageName": "hermes-search-mcp",
+  "description": "Provides a bridge to Azure Cognitive Search for executing search queries, indexing documents, and managing search indexes with filtering options",
+  "url": "https://github.com/cognitive-stack/hermes-search-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "AZURE_SEARCH_ENDPOINT": {
+      "description": "your-search-endpoint",
+      "required": true
+    },
+    "AZURE_SEARCH_API_KEY": {
+      "description": "your-api-key",
+      "required": true
+    },
+    "AZURE_SEARCH_INDEX_NAME": {
+      "description": "your-index-name",
+      "required": true
+    }
+  },
+  "name": "Hermes Search MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "powerpoint-presentations",
-	"description": "Enables creation and manipulation of PowerPoint presentations with tools for adding text, shapes, images, and rendering slides to PNG using LibreOffice",
-	"url": "https://github.com/samos123/pptx-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "PPTX MCP"
+  "type": "mcp-server",
+  "packageName": "powerpoint-presentations",
+  "description": "Enables creation and manipulation of PowerPoint presentations with tools for adding text, shapes, images, and rendering slides to PNG using LibreOffice",
+  "url": "https://github.com/samos123/pptx-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "PPTX MCP"
 }

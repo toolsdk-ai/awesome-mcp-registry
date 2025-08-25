@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "vercel-api",
-	"description": "Integrates with Vercel's platform to manage deployments, DNS records, domains, projects, and environment variables through natural language interactions without navigating the Vercel dashboard or API.",
-	"url": "https://github.com/smileycointools/smileyco.in",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Smileyco In"
+  "type": "mcp-server",
+  "packageName": "vercel-api",
+  "description": "Integrates with Vercel's platform to manage deployments, DNS records, domains, projects, and environment variables through natural language interactions without navigating the Vercel dashboard or API.",
+  "url": "https://github.com/smileycointools/smileyco.in",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Smileyco In"
 }

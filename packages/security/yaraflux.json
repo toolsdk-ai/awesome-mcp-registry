@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "yaraflux",
-	"description": "Provides YARA-based malware scanning capabilities with support for local and MinIO storage backends, enabling security professionals to manage rules, scan files/URLs, and analyze results for threat detection.",
-	"url": "https://github.com/threatflux/yaraflux",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "YARAFlux"
+  "type": "mcp-server",
+  "packageName": "yaraflux",
+  "description": "Provides YARA-based malware scanning capabilities with support for local and MinIO storage backends, enabling security professionals to manage rules, scan files/URLs, and analyze results for threat detection.",
+  "url": "https://github.com/threatflux/yaraflux",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "YARAFlux"
 }

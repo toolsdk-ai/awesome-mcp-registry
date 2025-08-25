@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "server",
-	"description": "Provides a simple text-to-speech interface for MacOS using the built-in 'say' command, enabling voice output for AI models.",
-	"url": "https://github.com/mccartykim/honk_mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Honk MCP"
+  "type": "mcp-server",
+  "packageName": "server",
+  "description": "Provides a simple text-to-speech interface for MacOS using the built-in 'say' command, enabling voice output for AI models.",
+  "url": "https://github.com/mccartykim/honk_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Honk MCP"
 }

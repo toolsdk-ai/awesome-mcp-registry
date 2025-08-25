@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "aws-cli",
-	"description": "Bridges AWS CLI with natural language interaction, enabling direct execution of AWS commands for resource management without leaving your conversation interface.",
-	"url": "https://github.com/icykallen/aws-cli-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "AWS CLI MCP Server"
+  "type": "mcp-server",
+  "packageName": "aws-cli",
+  "description": "Bridges AWS CLI with natural language interaction, enabling direct execution of AWS commands for resource management without leaving your conversation interface.",
+  "url": "https://github.com/icykallen/aws-cli-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "AWS CLI MCP Server"
 }

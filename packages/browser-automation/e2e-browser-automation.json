@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "e2e-browser-automation",
-	"description": "Enables end-to-end testing and web automation through browser interaction capabilities for extracting content, following links, and executing automated browsing workflows with configurable headless operation.",
-	"url": "https://github.com/m2rads/limetest",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "LimeTest MCP"
+  "type": "mcp-server",
+  "packageName": "e2e-browser-automation",
+  "description": "Enables end-to-end testing and web automation through browser interaction capabilities for extracting content, following links, and executing automated browsing workflows with configurable headless operation.",
+  "url": "https://github.com/m2rads/limetest",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "LimeTest MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "traq",
-	"description": "Provides a bridge to the traQ chat platform, enabling flexible querying and interaction with channels, messages, users, stamps, and pins using Deno and a type-safe API implementation.",
-	"url": "https://github.com/trap-jp/mcp-traq",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCP traQ Bridge"
+  "type": "mcp-server",
+  "packageName": "traq",
+  "description": "Provides a bridge to the traQ chat platform, enabling flexible querying and interaction with channels, messages, users, stamps, and pins using Deno and a type-safe API implementation.",
+  "url": "https://github.com/trap-jp/mcp-traq",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP traQ Bridge"
 }

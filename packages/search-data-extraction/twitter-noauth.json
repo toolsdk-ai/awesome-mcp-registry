@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "twitter-noauth",
-	"description": "Provides Twitter API access without local credential setup through a decoupled architecture where clients handle OAuth flows independently and pass credentials as context for core Twitter operations.",
-	"url": "https://github.com/baryhuang/mcp-twitter-noauth",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Twitter NoAuth MCP"
+  "type": "mcp-server",
+  "packageName": "twitter-noauth",
+  "description": "Provides Twitter API access without local credential setup through a decoupled architecture where clients handle OAuth flows independently and pass credentials as context for core Twitter operations.",
+  "url": "https://github.com/baryhuang/mcp-twitter-noauth",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Twitter NoAuth MCP"
 }

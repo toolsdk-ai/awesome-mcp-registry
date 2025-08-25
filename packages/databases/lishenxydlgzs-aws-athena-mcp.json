@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@lishenxydlgzs/aws-athena-mcp",
-	"description": "Integrates with AWS SDK to execute SQL queries against Athena databases, enabling large-scale data analysis and business intelligence for AWS data lakes.",
-	"url": "https://github.com/lishenxydlgzs/aws-athena-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "AWS Athena MCP"
+  "type": "mcp-server",
+  "packageName": "@lishenxydlgzs/aws-athena-mcp",
+  "description": "Integrates with AWS SDK to execute SQL queries against Athena databases, enabling large-scale data analysis and business intelligence for AWS data lakes.",
+  "url": "https://github.com/lishenxydlgzs/aws-athena-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "AWS Athena MCP"
 }

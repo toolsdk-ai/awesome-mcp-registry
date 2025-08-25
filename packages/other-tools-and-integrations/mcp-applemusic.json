@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-applemusic",
-	"description": "Integrates with Apple Music on macOS using Python and AppleScript to enable music playback control, library searching, playlist creation, and metadata retrieval.",
-	"url": "https://github.com/kennethreitz/mcp-applemusic",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Apple Music MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-applemusic",
+  "description": "Integrates with Apple Music on macOS using Python and AppleScript to enable music playback control, library searching, playlist creation, and metadata retrieval.",
+  "url": "https://github.com/kennethreitz/mcp-applemusic",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Apple Music MCP"
 }

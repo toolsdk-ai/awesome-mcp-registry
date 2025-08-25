@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@thedaviddias/mcp-llms-txt-explorer",
-	"description": "Provides a bridge for exploring websites with llms.txt files, enabling fetching and parsing of website-specific language model instructions for context-aware interactions in web-based environments.",
-	"url": "https://github.com/thedaviddias/mcp-llms-txt-explorer",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "LLMs Txt Explorer MCP"
+  "type": "mcp-server",
+  "packageName": "@thedaviddias/mcp-llms-txt-explorer",
+  "description": "Provides a bridge for exploring websites with llms.txt files, enabling fetching and parsing of website-specific language model instructions for context-aware interactions in web-based environments.",
+  "url": "https://github.com/thedaviddias/mcp-llms-txt-explorer",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "LLMs Txt Explorer MCP"
 }

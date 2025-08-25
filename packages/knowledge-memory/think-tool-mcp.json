@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "think-tool-mcp",
-	"description": "Provides a structured thought process management system for maintaining explicit reasoning steps, policy verification, and tool output analysis through persistent memory storage",
-	"url": "https://github.com/abhinav-mangla/think-tool-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Think Tool MCP"
+  "type": "mcp-server",
+  "packageName": "think-tool-mcp",
+  "description": "Provides a structured thought process management system for maintaining explicit reasoning steps, policy verification, and tool output analysis through persistent memory storage",
+  "url": "https://github.com/abhinav-mangla/think-tool-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Think Tool MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "tlon-urbit-messenger",
-	"description": "Provides a bridge between Urbit's social networking services and conversational interfaces, enabling direct message communication with support for ship IDs and human-readable nicknames.",
-	"url": "https://github.com/jamesacklin/tlon-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Tlon MCP Server"
+  "type": "mcp-server",
+  "packageName": "tlon-urbit-messenger",
+  "description": "Provides a bridge between Urbit's social networking services and conversational interfaces, enabling direct message communication with support for ship IDs and human-readable nicknames.",
+  "url": "https://github.com/jamesacklin/tlon-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Tlon MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "lanalyzer",
-	"description": "Python static taint analysis tool that tracks untrusted data flow from sources like user input to dangerous sinks like SQL queries through advanced cross-function propagation and path-sensitive analysis to identify security vulnerabilities in codebases.",
-	"url": "https://github.com/bayuncao/lanalyzer",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Lanalyzer"
+  "type": "mcp-server",
+  "packageName": "lanalyzer",
+  "description": "Python static taint analysis tool that tracks untrusted data flow from sources like user input to dangerous sinks like SQL queries through advanced cross-function propagation and path-sensitive analysis to identify security vulnerabilities in codebases.",
+  "url": "https://github.com/bayuncao/lanalyzer",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Lanalyzer"
 }

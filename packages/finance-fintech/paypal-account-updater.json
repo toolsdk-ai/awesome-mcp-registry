@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "paypal-account-updater",
-	"description": "Integrates with PayPal's Account Updater service to automatically maintain current payment card information for merchants across multiple environments through subscription management and webhook processing.",
-	"url": "https://github.com/rishabh17081/paypal-au-subscription-connector",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "PayPal Account Updater Subscription Connector"
+  "type": "mcp-server",
+  "packageName": "paypal-account-updater",
+  "description": "Integrates with PayPal's Account Updater service to automatically maintain current payment card information for merchants across multiple environments through subscription management and webhook processing.",
+  "url": "https://github.com/rishabh17081/paypal-au-subscription-connector",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "PayPal Account Updater Subscription Connector"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mysql",
-	"description": "Connects AI systems to MySQL databases for executing SQL queries and performing complex data operations without direct database access.",
-	"url": "https://github.com/xianzong85/mysql-server-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MySQL Server MCP"
+  "type": "mcp-server",
+  "packageName": "mysql",
+  "description": "Connects AI systems to MySQL databases for executing SQL queries and performing complex data operations without direct database access.",
+  "url": "https://github.com/xianzong85/mysql-server-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MySQL Server MCP"
 }

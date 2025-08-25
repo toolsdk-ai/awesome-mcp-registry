@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-restart",
-	"description": "Enables automated restarts of Claude Desktop on macOS by leveraging psutil to safely terminate and relaunch the application process.",
-	"url": "https://github.com/non-dirty/mcp-server-restart",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server Restart"
+  "type": "mcp-server",
+  "packageName": "mcp-server-restart",
+  "description": "Enables automated restarts of Claude Desktop on macOS by leveraging psutil to safely terminate and relaunch the application process.",
+  "url": "https://github.com/non-dirty/mcp-server-restart",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server Restart"
 }

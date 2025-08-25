@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "glif",
-	"description": "Enables Claude to run visual AI workflows from glif.app, providing tools to execute, manage, and save Glif workflows directly within conversations.",
-	"url": "https://github.com/glifxyz/glif-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Glif MCP Server"
+  "type": "mcp-server",
+  "packageName": "glif",
+  "description": "Enables Claude to run visual AI workflows from glif.app, providing tools to execute, manage, and save Glif workflows directly within conversations.",
+  "url": "https://github.com/glifxyz/glif-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Glif MCP Server"
 }

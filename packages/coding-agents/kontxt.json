@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "kontxt",
-	"description": "Provides AI-driven codebase analysis by connecting to local repositories and using Gemini 2.0 Flash's 1M input window to generate context based on user queries without manual indexing.",
-	"url": "https://github.com/reyneill/kontxt",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Kontxt"
+  "type": "mcp-server",
+  "packageName": "kontxt",
+  "description": "Provides AI-driven codebase analysis by connecting to local repositories and using Gemini 2.0 Flash's 1M input window to generate context based on user queries without manual indexing.",
+  "url": "https://github.com/reyneill/kontxt",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Kontxt"
 }

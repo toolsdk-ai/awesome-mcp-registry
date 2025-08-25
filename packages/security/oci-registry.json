@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "oci-registry",
-	"description": "Integrates with OCI registries to retrieve container image metadata, list repository tags, access manifests and configurations, and perform security analysis with support for multiple authentication methods.",
-	"url": "https://github.com/stackloklabs/ocireg-mcp",
-	"runtime": "go",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "OCI Registry MCP"
+  "type": "mcp-server",
+  "packageName": "oci-registry",
+  "description": "Integrates with OCI registries to retrieve container image metadata, list repository tags, access manifests and configurations, and perform security analysis with support for multiple authentication methods.",
+  "url": "https://github.com/stackloklabs/ocireg-mcp",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "OCI Registry MCP"
 }

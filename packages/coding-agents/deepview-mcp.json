@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "deepview-mcp",
-	"description": "Enables AI-powered code analysis by loading entire codebases into Gemini's large context window, allowing developers to query and understand complex repositories through natural language interactions.",
-	"url": "https://github.com/ai-1st/deepview-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Deepview MCP"
+  "type": "mcp-server",
+  "packageName": "deepview-mcp",
+  "description": "Enables AI-powered code analysis by loading entire codebases into Gemini's large context window, allowing developers to query and understand complex repositories through natural language interactions.",
+  "url": "https://github.com/ai-1st/deepview-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Deepview MCP"
 }

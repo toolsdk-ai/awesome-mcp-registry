@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "llama3-terminal",
-	"description": "Integrates with Ollama's Llama3 model to provide a terminal-based chat interface with persistent context management and YouTube search capabilities via Node.js and Socket.IO",
-	"url": "https://github.com/alessandrorumampuk/mcpserver",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server"
+  "type": "mcp-server",
+  "packageName": "llama3-terminal",
+  "description": "Integrates with Ollama's Llama3 model to provide a terminal-based chat interface with persistent context management and YouTube search capabilities via Node.js and Socket.IO",
+  "url": "https://github.com/alessandrorumampuk/mcpserver",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server"
 }

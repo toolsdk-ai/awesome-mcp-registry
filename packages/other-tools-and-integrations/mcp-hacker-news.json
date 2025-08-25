@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-hacker-news",
-	"description": "Integrates with Hacker News through the Firebase API to retrieve stories, comments, user profiles, and job postings with filtering options for top/new/Ask HN/Show HN content, comment thread exploration, and formatted responses including discussion links.",
-	"url": "https://github.com/paablolc/mcp-hacker-news",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Hacker News MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-hacker-news",
+  "description": "Integrates with Hacker News through the Firebase API to retrieve stories, comments, user profiles, and job postings with filtering options for top/new/Ask HN/Show HN content, comment thread exploration, and formatted responses including discussion links.",
+  "url": "https://github.com/paablolc/mcp-hacker-news",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Hacker News MCP"
 }

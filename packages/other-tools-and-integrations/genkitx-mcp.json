@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "genkitx-mcp",
-	"description": "Consume MCP resources or expose Genkit tools as server.",
-	"url": "https://github.com/firebase/genkit/tree/HEAD/js/plugins/mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Genkit MCP Server"
+  "type": "mcp-server",
+  "packageName": "genkitx-mcp",
+  "description": "Consume MCP resources or expose Genkit tools as server.",
+  "url": "https://github.com/firebase/genkit/tree/HEAD/js/plugins/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Genkit MCP Server"
 }

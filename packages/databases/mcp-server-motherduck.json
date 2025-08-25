@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-motherduck",
-	"description": "Integrates MotherDuck and local DuckDB databases for flexible querying and analysis of structured data in MCP-compatible environments.",
-	"url": "https://github.com/motherduckdb/mcp-server-motherduck",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MotherDuck MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-motherduck",
+  "description": "Integrates MotherDuck and local DuckDB databases for flexible querying and analysis of structured data in MCP-compatible environments.",
+  "url": "https://github.com/motherduckdb/mcp-server-motherduck",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MotherDuck MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "postmark",
-	"description": "Integrates with Postmark's email delivery service to send transactional emails with template support, track delivery status, and manage bounces for reliable email operations.",
-	"url": "https://github.com/activecampaign/postmark-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Postmark MCP"
+  "type": "mcp-server",
+  "packageName": "postmark",
+  "description": "Integrates with Postmark's email delivery service to send transactional emails with template support, track delivery status, and manage bounces for reliable email operations.",
+  "url": "https://github.com/activecampaign/postmark-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Postmark MCP"
 }

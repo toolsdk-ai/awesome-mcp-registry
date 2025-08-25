@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "latex-mathml",
-	"description": "Converts LaTeX mathematical expressions to MathML using MathJax-node, enabling seamless mathematical notation translation for scientific and technical documentation.",
-	"url": "https://github.com/happyany/latex-mathml-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Latex Mathml MCP Server"
+  "type": "mcp-server",
+  "packageName": "latex-mathml",
+  "description": "Converts LaTeX mathematical expressions to MathML using MathJax-node, enabling seamless mathematical notation translation for scientific and technical documentation.",
+  "url": "https://github.com/happyany/latex-mathml-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Latex Mathml MCP Server"
 }

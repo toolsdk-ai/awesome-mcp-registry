@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "investor-agent",
-	"description": "Provides real-time financial analysis tools leveraging market data from yfinance and CNN's Fear & Greed Index for investment research, portfolio analysis, and market sentiment evaluation.",
-	"url": "https://github.com/ferdousbhai/investor-agent",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Investor Agent"
+  "type": "mcp-server",
+  "packageName": "investor-agent",
+  "description": "Provides real-time financial analysis tools leveraging market data from yfinance and CNN's Fear & Greed Index for investment research, portfolio analysis, and market sentiment evaluation.",
+  "url": "https://github.com/ferdousbhai/investor-agent",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Investor Agent"
 }

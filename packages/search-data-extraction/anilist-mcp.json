@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "anilist-mcp",
-	"description": "MCP server that interfaces with the AniList API, allowing LLM clients to access and interact with anime, manga, character, staff, and user data from AniList",
-	"url": "https://github.com/yuna0x0/anilist-mcp",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"ANILIST_TOKEN": {
-			"description": "Optional API token for AniList",
-			"required": false
-		}
-	},
-	"name": "AniList MCP"
+  "type": "mcp-server",
+  "packageName": "anilist-mcp",
+  "description": "MCP server that interfaces with the AniList API, allowing LLM clients to access and interact with anime, manga, character, staff, and user data from AniList",
+  "url": "https://github.com/yuna0x0/anilist-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "ANILIST_TOKEN": {
+      "description": "Optional API token for AniList",
+      "required": false
+    }
+  },
+  "name": "AniList MCP"
 }

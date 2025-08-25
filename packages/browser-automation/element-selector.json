@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "element-selector",
-	"description": "Chrome extension that enables developers to interactively select, capture, and store web page DOM elements with their HTML structure, computed styles, and screenshots for design analysis and debugging.",
-	"url": "https://github.com/stonega/element-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Element MCP"
+  "type": "mcp-server",
+  "packageName": "element-selector",
+  "description": "Chrome extension that enables developers to interactively select, capture, and store web page DOM elements with their HTML structure, computed styles, and screenshots for design analysis and debugging.",
+  "url": "https://github.com/stonega/element-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Element MCP"
 }

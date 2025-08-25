@@ -15,35 +15,30 @@ let TOC = "";
 let README = "";
 const COUNT = Object.keys(allPackagesList).length;
 const VALIDATED_COUNT = Object.values(allPackagesList as PackagesList).filter(
-	(pkg) => pkg.validated,
+  (pkg) => pkg.validated,
 ).length;
 
 for (const [_key, categoryList] of Object.entries(categoriesList)) {
-	const packagesList = categoryList.packagesList;
+  const packagesList = categoryList.packagesList;
 
-	if (!packagesList || packagesList.length === 0) continue;
+  if (!packagesList || packagesList.length === 0) continue;
 
-	TOC += `  - [${categoryList.config.name}](#${categoryList.config.key})\n`;
+  TOC += `  - [${categoryList.config.name}](#${categoryList.config.key})\n`;
 
-	README += `\n\n<a id="${categoryList.config.key}"></a>\n## ${categoryList.config.name}\n`;
-	README += `\n${categoryList.config.description}\n\n`;
+  README += `\n\n<a id="${categoryList.config.key}"></a>\n## ${categoryList.config.name}\n`;
+  README += `\n${categoryList.config.description}\n\n`;
 
-	for (const packageKey of packagesList) {
-		const packageInfo = allPackagesList[packageKey];
+  for (const packageKey of packagesList) {
+    const packageInfo = allPackagesList[packageKey];
 
-		const filePath = join(__dirname, `../packages/`, packageInfo.path);
-		const fileContent = readFileSync(filePath, "utf-8");
-		const parsedContent = MCPServerPackageConfigSchema.parse(
-			JSON.parse(fileContent),
-		);
-		const validated = packageInfo.validated ? "✅" : "❌";
-		const toolsCount =
-			packageInfo.tools === undefined
-				? 0
-				: Object.keys(packageInfo.tools).length;
-		const toolsCountLabel = toolsCount > 0 ? ` (${toolsCount} tools)` : "";
-		README += `- [${validated} ${parsedContent.key || parsedContent.packageName}](${parsedContent.url || "#"}): ${parsedContent.description} ${toolsCountLabel} (${parsedContent.runtime}) \n`;
-	}
+    const filePath = join(__dirname, `../packages/`, packageInfo.path);
+    const fileContent = readFileSync(filePath, "utf-8");
+    const parsedContent = MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
+    const validated = packageInfo.validated ? "✅" : "❌";
+    const toolsCount = packageInfo.tools === undefined ? 0 : Object.keys(packageInfo.tools).length;
+    const toolsCountLabel = toolsCount > 0 ? ` (${toolsCount} tools)` : "";
+    README += `- [${validated} ${parsedContent.key || parsedContent.packageName}](${parsedContent.url || "#"}): ${parsedContent.description} ${toolsCountLabel} (${parsedContent.runtime}) \n`;
+  }
 }
 const templatePath = join(__dirname, "../docs/README.tpl.md");
 const templateContent = readFileSync(templatePath, "utf-8");

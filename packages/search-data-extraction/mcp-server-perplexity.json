@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-perplexity",
-	"description": "MCP Server for the Perplexity API",
-	"url": "https://github.com/tanigami/mcp-server-perplexity",
-	"runtime": "python",
-	"license": "MIT",
-	"env": {
-		"PERPLEXITY_API_KEY": {
-			"description": "API key for Perplexity API access",
-			"required": true
-		}
-	},
-	"name": "Perplexity MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-perplexity",
+  "description": "MCP Server for the Perplexity API",
+  "url": "https://github.com/tanigami/mcp-server-perplexity",
+  "runtime": "python",
+  "license": "MIT",
+  "env": {
+    "PERPLEXITY_API_KEY": {
+      "description": "API key for Perplexity API access",
+      "required": true
+    }
+  },
+  "name": "Perplexity MCP Server"
 }

@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "@prathamesh0901/zoom-mcp-server",
-	"description": "Provides a bridge between Zoom API and virtual meeting management, enabling creation, updating, deletion, and fetching of meetings without navigating the Zoom interface or handling authentication flows.",
-	"url": "https://github.com/prathamesh0901/zoom-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"ZOOM_ACCOUNT_ID": {
-			"description": "Your Zoom Account ID",
-			"required": true
-		},
-		"ZOOM_CLIENT_ID": {
-			"description": "Your Zoom Client ID",
-			"required": true
-		},
-		"ZOOM_CLIENT_SECRET": {
-			"description": "Your Zoom Client Secret",
-			"required": true
-		}
-	},
-	"name": "Zoom MCP Server"
+  "type": "mcp-server",
+  "packageName": "@prathamesh0901/zoom-mcp-server",
+  "description": "Provides a bridge between Zoom API and virtual meeting management, enabling creation, updating, deletion, and fetching of meetings without navigating the Zoom interface or handling authentication flows.",
+  "url": "https://github.com/prathamesh0901/zoom-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ZOOM_ACCOUNT_ID": {
+      "description": "Your Zoom Account ID",
+      "required": true
+    },
+    "ZOOM_CLIENT_ID": {
+      "description": "Your Zoom Client ID",
+      "required": true
+    },
+    "ZOOM_CLIENT_SECRET": {
+      "description": "Your Zoom Client Secret",
+      "required": true
+    }
+  },
+  "name": "Zoom MCP Server"
 }

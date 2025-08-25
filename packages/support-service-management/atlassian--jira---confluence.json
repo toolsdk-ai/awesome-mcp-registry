@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "atlassian-(jira-&-confluence)",
-	"description": "Integrates with Atlassian's Jira and Confluence to enable natural language interaction with project management tools, allowing users to read resources and perform actions like creating issues, transitioning workflows, and generating documentation without context-switching.",
-	"url": "https://github.com/phuc-nt/mcp-atlassian-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Atlassian MCP Server"
+  "type": "mcp-server",
+  "packageName": "atlassian-(jira-&-confluence)",
+  "description": "Integrates with Atlassian's Jira and Confluence to enable natural language interaction with project management tools, allowing users to read resources and perform actions like creating issues, transitioning workflows, and generating documentation without context-switching.",
+  "url": "https://github.com/phuc-nt/mcp-atlassian-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Atlassian MCP Server"
 }

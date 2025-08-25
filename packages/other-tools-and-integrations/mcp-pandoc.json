@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-pandoc",
-	"description": "Document format conversion using Pandoc, enabling transformation of content between PDF, HTML, Markdown, .docx, .rst, .epuc, .latex, and more. ",
-	"url": "https://github.com/vivekvells/mcp-pandoc",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Pandoc MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-pandoc",
+  "description": "Document format conversion using Pandoc, enabling transformation of content between PDF, HTML, Markdown, .docx, .rst, .epuc, .latex, and more. ",
+  "url": "https://github.com/vivekvells/mcp-pandoc",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Pandoc MCP"
 }

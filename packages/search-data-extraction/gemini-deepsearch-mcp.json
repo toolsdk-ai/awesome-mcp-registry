@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gemini-deepsearch-mcp",
-	"description": "Performs automated multi-step web research using Google Search API and Gemini models to generate diverse search queries, conduct parallel searches, and synthesize comprehensive answers with proper source citations through configurable research depth levels.",
-	"url": "https://github.com/alexcong/gemini-deepsearch-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Gemini DeepSearch MCP"
+  "type": "mcp-server",
+  "packageName": "gemini-deepsearch-mcp",
+  "description": "Performs automated multi-step web research using Google Search API and Gemini models to generate diverse search queries, conduct parallel searches, and synthesize comprehensive answers with proper source citations through configurable research depth levels.",
+  "url": "https://github.com/alexcong/gemini-deepsearch-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Gemini DeepSearch MCP"
 }

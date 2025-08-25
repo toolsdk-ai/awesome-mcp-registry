@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "aws-amplify-data",
-	"description": "Bridges AI systems with AWS Amplify Data APIs, enabling GraphQL-based data model interaction without requiring complex query writing",
-	"url": "https://github.com/dbsmith7491/aws-amplify-data-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "AWS Amplify Data MCP"
+  "type": "mcp-server",
+  "packageName": "aws-amplify-data",
+  "description": "Bridges AI systems with AWS Amplify Data APIs, enabling GraphQL-based data model interaction without requiring complex query writing",
+  "url": "https://github.com/dbsmith7491/aws-amplify-data-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "AWS Amplify Data MCP"
 }

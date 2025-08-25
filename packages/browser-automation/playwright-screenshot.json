@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "playwright-screenshot",
-	"description": "Enables webpage screenshot capture using Playwright and CDP to connect with remote Chrome instances for visual testing and content analysis",
-	"url": "https://github.com/veryint/mcp-playwright-screenshot",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Playwright Screenshot MCP"
+  "type": "mcp-server",
+  "packageName": "playwright-screenshot",
+  "description": "Enables webpage screenshot capture using Playwright and CDP to connect with remote Chrome instances for visual testing and content analysis",
+  "url": "https://github.com/veryint/mcp-playwright-screenshot",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Playwright Screenshot MCP"
 }

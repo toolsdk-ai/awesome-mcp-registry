@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "openapi-mcp-server",
-	"description": "Convert OpenAPI specs into usable MCP endpoints.",
-	"url": "https://github.com/janwilmake/openapi-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "OpenAPI MCP Server"
+  "type": "mcp-server",
+  "packageName": "openapi-mcp-server",
+  "description": "Convert OpenAPI specs into usable MCP endpoints.",
+  "url": "https://github.com/janwilmake/openapi-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "OpenAPI MCP Server"
 }

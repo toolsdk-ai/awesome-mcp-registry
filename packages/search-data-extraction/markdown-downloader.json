@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "markdown-downloader",
-	"description": "Downloads and processes Markdown content from URLs, enabling tasks like content aggregation, documentation management, and text analysis.",
-	"url": "https://github.com/dazeb/markdown-downloader",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Markdown Downloader"
+  "type": "mcp-server",
+  "packageName": "markdown-downloader",
+  "description": "Downloads and processes Markdown content from URLs, enabling tasks like content aggregation, documentation management, and text analysis.",
+  "url": "https://github.com/dazeb/markdown-downloader",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Markdown Downloader"
 }

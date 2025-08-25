@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "google-chat",
-	"description": "Lightweight Google Chat integration server enabling OAuth2-authenticated access to chat spaces and messages with flexible date-based filtering for developers.",
-	"url": "https://github.com/chy168/google-chat-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Google Chat MCP Server"
+  "type": "mcp-server",
+  "packageName": "google-chat",
+  "description": "Lightweight Google Chat integration server enabling OAuth2-authenticated access to chat spaces and messages with flexible date-based filtering for developers.",
+  "url": "https://github.com/chy168/google-chat-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Google Chat MCP Server"
 }

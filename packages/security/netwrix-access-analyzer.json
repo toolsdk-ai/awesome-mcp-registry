@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "netwrix-access-analyzer",
-	"description": "Enables security administrators to analyze file system permissions, identify excessive access rights, and detect shadow access paths in enterprise environments through SQL Server database queries.",
-	"url": "https://github.com/netwrix/mcp-server-naa",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Naa MCP Server"
+  "type": "mcp-server",
+  "packageName": "netwrix-access-analyzer",
+  "description": "Enables security administrators to analyze file system permissions, identify excessive access rights, and detect shadow access paths in enterprise environments through SQL Server database queries.",
+  "url": "https://github.com/netwrix/mcp-server-naa",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Naa MCP Server"
 }

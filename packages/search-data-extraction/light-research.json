@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "light-research",
-	"description": "Provides web content search and extraction through DuckDuckGo and GitHub Code Search APIs, converting web pages into clean Markdown format using browser automation and content sanitization for research and documentation tasks.",
-	"url": "https://github.com/code-hex/light-research-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Light Research MCP"
+  "type": "mcp-server",
+  "packageName": "light-research",
+  "description": "Provides web content search and extraction through DuckDuckGo and GitHub Code Search APIs, converting web pages into clean Markdown format using browser automation and content sanitization for research and documentation tasks.",
+  "url": "https://github.com/code-hex/light-research-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Light Research MCP"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "buildkite-mcp-server",
-	"description": "Official MCP Server for Buildkite.",
-	"url": "https://github.com/buildkite/buildkite-mcp-server",
-	"runtime": "go",
-	"license": "mit",
-	"env": {
-		"BUILDKITE_API_TOKEN": {
-			"description": "Buildkite API token required for authentication. Create at https://buildkite.com/user/api-access-tokens",
-			"required": true
-		}
-	},
-	"name": "Buildkite MCP Server"
+  "type": "mcp-server",
+  "packageName": "buildkite-mcp-server",
+  "description": "Official MCP Server for Buildkite.",
+  "url": "https://github.com/buildkite/buildkite-mcp-server",
+  "runtime": "go",
+  "license": "mit",
+  "env": {
+    "BUILDKITE_API_TOKEN": {
+      "description": "Buildkite API token required for authentication. Create at https://buildkite.com/user/api-access-tokens",
+      "required": true
+    }
+  },
+  "name": "Buildkite MCP Server"
 }

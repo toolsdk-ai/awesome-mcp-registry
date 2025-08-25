@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "github-repo-mcp",
-	"description": "Provides a bridge between AI and GitHub repositories, enabling access to repository contents for code analysis and reference during conversations.",
-	"url": "https://github.com/ryan0204/github-repo-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GITHUB_TOKEN": {
-			"description": "Your_Github_Token",
-			"required": true
-		}
-	},
-	"name": "GitHub Repo MCP"
+  "type": "mcp-server",
+  "packageName": "github-repo-mcp",
+  "description": "Provides a bridge between AI and GitHub repositories, enabling access to repository contents for code analysis and reference during conversations.",
+  "url": "https://github.com/ryan0204/github-repo-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GITHUB_TOKEN": {
+      "description": "Your_Github_Token",
+      "required": true
+    }
+  },
+  "name": "GitHub Repo MCP"
 }

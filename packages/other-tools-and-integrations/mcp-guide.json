@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-guide",
-	"description": "Interactive tutorial and tools for understanding, implementing, and exploring MCP concepts and capabilities.",
-	"url": "https://github.com/qpd-v/mcp-guide",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Guide"
+  "type": "mcp-server",
+  "packageName": "mcp-guide",
+  "description": "Interactive tutorial and tools for understanding, implementing, and exploring MCP concepts and capabilities.",
+  "url": "https://github.com/qpd-v/mcp-guide",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Guide"
 }

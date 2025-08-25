@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "github-repository-browser",
-	"description": "Integrates with the GitHub API to provide file browsing, content retrieval, and directory navigation capabilities for analyzing and accessing repository contents.",
-	"url": "https://github.com/loglmhq/mcp-server-github-repo",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "GitHub Repository Browser MCP Server"
+  "type": "mcp-server",
+  "packageName": "github-repository-browser",
+  "description": "Integrates with the GitHub API to provide file browsing, content retrieval, and directory navigation capabilities for analyzing and accessing repository contents.",
+  "url": "https://github.com/loglmhq/mcp-server-github-repo",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "GitHub Repository Browser MCP Server"
 }

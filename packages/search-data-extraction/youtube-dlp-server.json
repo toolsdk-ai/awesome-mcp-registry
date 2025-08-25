@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "youtube-dlp-server",
-	"description": "Extracts YouTube video metadata, subtitles in multiple languages, and top comments using yt-dlp with proxy support for content analysis and accessibility workflows.",
-	"url": "https://github.com/agentx-ai/agentx-mcp-servers/tree/HEAD/youtube_dlp_server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "YouTube DLP Server"
+  "type": "mcp-server",
+  "packageName": "youtube-dlp-server",
+  "description": "Extracts YouTube video metadata, subtitles in multiple languages, and top comments using yt-dlp with proxy support for content analysis and accessibility workflows.",
+  "url": "https://github.com/agentx-ai/agentx-mcp-servers/tree/HEAD/youtube_dlp_server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "YouTube DLP Server"
 }

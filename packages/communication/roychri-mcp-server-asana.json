@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@roychri/mcp-server-asana",
-	"description": "Integrates with Asana to enable task automation, project tracking, and team collaboration through the Asana API.",
-	"url": "https://github.com/roychri/mcp-server-asana",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Asana MCP Server"
+  "type": "mcp-server",
+  "packageName": "@roychri/mcp-server-asana",
+  "description": "Integrates with Asana to enable task automation, project tracking, and team collaboration through the Asana API.",
+  "url": "https://github.com/roychri/mcp-server-asana",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Asana MCP Server"
 }

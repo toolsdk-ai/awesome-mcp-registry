@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "choreograph-(playwright-browser-&-electron-automation)",
-	"description": "Automates web browsers and Electron desktop applications using Playwright with support for Chromium, Firefox, and WebKit, enabling clicking, typing, screenshots, JavaScript evaluation, navigation, window management, and file system operations for testing and application interaction workflows.",
-	"url": "https://github.com/snowfort-ai/circuit-mcp",
-	"runtime": "node",
-	"license": "other",
-	"env": {},
-	"name": "Circuit MCP"
+  "type": "mcp-server",
+  "packageName": "choreograph-(playwright-browser-&-electron-automation)",
+  "description": "Automates web browsers and Electron desktop applications using Playwright with support for Chromium, Firefox, and WebKit, enabling clicking, typing, screenshots, JavaScript evaluation, navigation, window management, and file system operations for testing and application interaction workflows.",
+  "url": "https://github.com/snowfort-ai/circuit-mcp",
+  "runtime": "node",
+  "license": "other",
+  "env": {},
+  "name": "Circuit MCP"
 }

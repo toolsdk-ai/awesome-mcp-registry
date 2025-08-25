@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "@mcp-devtools/jira",
-	"description": "Integrates with Jira and Linear issue tracking systems to enable retrieval and interaction with tickets directly within conversations, eliminating context switching when accessing project management data.",
-	"url": "https://github.com/dxheroes/mcp-devtools",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"JIRA_URL": {
-			"description": "https://your-domain.atlassian.net",
-			"required": true
-		},
-		"JIRA_API_MAIL": {
-			"description": "your.email@example.com",
-			"required": true
-		},
-		"JIRA_API_KEY": {
-			"description": "your-api-token",
-			"required": true
-		}
-	},
-	"name": "MCP DevTools"
+  "type": "mcp-server",
+  "packageName": "@mcp-devtools/jira",
+  "description": "Integrates with Jira and Linear issue tracking systems to enable retrieval and interaction with tickets directly within conversations, eliminating context switching when accessing project management data.",
+  "url": "https://github.com/dxheroes/mcp-devtools",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "JIRA_URL": {
+      "description": "https://your-domain.atlassian.net",
+      "required": true
+    },
+    "JIRA_API_MAIL": {
+      "description": "your.email@example.com",
+      "required": true
+    },
+    "JIRA_API_KEY": {
+      "description": "your-api-token",
+      "required": true
+    }
+  },
+  "name": "MCP DevTools"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@pinecone-database/mcp",
-	"description": "Develop with Pinecone, the vector database built for knowledgeable AI.",
-	"url": "https://github.com/pinecone-io/pinecone-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"PINECONE_API_KEY": {
-			"description": "<your pinecone api key>",
-			"required": true
-		}
-	},
-	"name": "Pinecone MCP"
+  "type": "mcp-server",
+  "packageName": "@pinecone-database/mcp",
+  "description": "Develop with Pinecone, the vector database built for knowledgeable AI.",
+  "url": "https://github.com/pinecone-io/pinecone-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PINECONE_API_KEY": {
+      "description": "<your pinecone api key>",
+      "required": true
+    }
+  },
+  "name": "Pinecone MCP"
 }

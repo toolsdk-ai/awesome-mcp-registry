@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "kick",
-	"description": "Integrates with Kick.com streaming platform for channel management, chat interactions, stream control, and webhook handling with features like request caching and rate limiting.",
-	"url": "https://github.com/nosytlabs/kickmcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Kick MCP"
+  "type": "mcp-server",
+  "packageName": "kick",
+  "description": "Integrates with Kick.com streaming platform for channel management, chat interactions, stream control, and webhook handling with features like request caching and rate limiting.",
+  "url": "https://github.com/nosytlabs/kickmcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Kick MCP"
 }

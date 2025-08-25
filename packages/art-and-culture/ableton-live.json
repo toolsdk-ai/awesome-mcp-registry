@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ableton-live",
-	"description": "Integrates with Ableton Live to enable music production control including session management, track creation, MIDI editing, and audio effect manipulation for enhanced creative workflows.",
-	"url": "https://github.com/itsuzef/ableton-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Ableton MCP"
+  "type": "mcp-server",
+  "packageName": "ableton-live",
+  "description": "Integrates with Ableton Live to enable music production control including session management, track creation, MIDI editing, and audio effect manipulation for enhanced creative workflows.",
+  "url": "https://github.com/itsuzef/ableton-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Ableton MCP"
 }

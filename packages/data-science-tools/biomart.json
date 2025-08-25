@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "biomart",
-	"description": "Integrates with Biomart to enable advanced biological data queries, including gene information retrieval, ID translation, and dataset exploration using the pybiomart package.",
-	"url": "https://github.com/jzinno/biomart-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Biomart MCP"
+  "type": "mcp-server",
+  "packageName": "biomart",
+  "description": "Integrates with Biomart to enable advanced biological data queries, including gene information retrieval, ID translation, and dataset exploration using the pybiomart package.",
+  "url": "https://github.com/jzinno/biomart-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Biomart MCP"
 }

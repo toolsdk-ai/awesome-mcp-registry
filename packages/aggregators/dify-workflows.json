@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dify-workflows",
-	"description": "Enables dynamic tool discovery and execution across multiple Dify AI applications by automatically loading application configurations and converting input parameters to JSON schemas for robust workflow management.",
-	"url": "https://github.com/jerryokk/dify-workflow-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Dify Workflow MCP"
+  "type": "mcp-server",
+  "packageName": "dify-workflows",
+  "description": "Enables dynamic tool discovery and execution across multiple Dify AI applications by automatically loading application configurations and converting input parameters to JSON schemas for robust workflow management.",
+  "url": "https://github.com/jerryokk/dify-workflow-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Dify Workflow MCP"
 }

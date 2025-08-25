@@ -1,31 +1,31 @@
 {
-	"type": "mcp-server",
-	"packageName": "reviewer-mcp",
-	"description": "An MCP service that provides AI-powered development workflow tools including specification generation, code review, and project management with support for both OpenAI and Ollama models.",
-	"url": "https://github.com/jaggederest/mcp_reviewer",
-	"runtime": "node",
-	"license": "mit",
-	"env": {
-		"AI_PROVIDER": {
-			"description": "The AI provider to use (options: openai, ollama)",
-			"required": true
-		},
-		"OLLAMA_MODEL": {
-			"description": "The Ollama model to use",
-			"required": true
-		},
-		"OPENAI_MODEL": {
-			"description": "The OpenAI model to use",
-			"required": true
-		},
-		"OPENAI_API_KEY": {
-			"description": "Your OpenAI API key",
-			"required": true
-		},
-		"OLLAMA_BASE_URL": {
-			"description": "The base URL for the Ollama API",
-			"required": true
-		}
-	},
-	"name": "Reviewer MCP"
+  "type": "mcp-server",
+  "packageName": "reviewer-mcp",
+  "description": "An MCP service that provides AI-powered development workflow tools including specification generation, code review, and project management with support for both OpenAI and Ollama models.",
+  "url": "https://github.com/jaggederest/mcp_reviewer",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "AI_PROVIDER": {
+      "description": "The AI provider to use (options: openai, ollama)",
+      "required": true
+    },
+    "OLLAMA_MODEL": {
+      "description": "The Ollama model to use",
+      "required": true
+    },
+    "OPENAI_MODEL": {
+      "description": "The OpenAI model to use",
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key",
+      "required": true
+    },
+    "OLLAMA_BASE_URL": {
+      "description": "The base URL for the Ollama API",
+      "required": true
+    }
+  },
+  "name": "Reviewer MCP"
 }

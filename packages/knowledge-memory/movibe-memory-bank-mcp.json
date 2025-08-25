@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@movibe/memory-bank-mcp",
-	"description": "TypeScript-based server for tracking project context across sessions, enabling persistent knowledge sharing through modular, markdown-based memory management with support for multiple development modes.",
-	"url": "https://github.com/movibe/memory-bank-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Memory Bank MCP"
+  "type": "mcp-server",
+  "packageName": "@movibe/memory-bank-mcp",
+  "description": "TypeScript-based server for tracking project context across sessions, enabling persistent knowledge sharing through modular, markdown-based memory management with support for multiple development modes.",
+  "url": "https://github.com/movibe/memory-bank-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Memory Bank MCP"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@missionsquad/mcp-github",
-	"description": "Integrates with GitHub's API to enable repository operations, file management, issue tracking, and code search directly within conversations through flexible authentication and over 30 specialized tools.",
-	"url": "https://github.com/missionsquad/mcp-github",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GITHUB_PERSONAL_ACCESS_TOKEN": {
-			"description": "<YOUR_TOKEN>",
-			"required": true
-		}
-	},
-	"name": "MCP GitHub"
+  "type": "mcp-server",
+  "packageName": "@missionsquad/mcp-github",
+  "description": "Integrates with GitHub's API to enable repository operations, file management, issue tracking, and code search directly within conversations through flexible authentication and over 30 specialized tools.",
+  "url": "https://github.com/missionsquad/mcp-github",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "description": "<YOUR_TOKEN>",
+      "required": true
+    }
+  },
+  "name": "MCP GitHub"
 }

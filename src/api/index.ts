@@ -14,45 +14,40 @@ const app: OpenAPIHono = new OpenAPIHono();
 app.route("/api/v1", packageRoutes);
 
 app.get("/", (c: Context) => {
-	return c.text("MCP Registry API Server is running!");
+  return c.text("MCP Registry API Server is running!");
 });
 
 app.get("/api/meta", (c: Context) => {
-	// eslint-disable-next-line @typescript-eslint/no-require-imports
-	const packageJson = require("../../package.json");
-	return c.json({ version: packageJson.version });
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const packageJson = require("../../package.json");
+  return c.json({ version: packageJson.version });
 });
 
 app.doc("/api/v1/doc", {
-	openapi: "3.0.0",
-	info: {
-		version: "1.0.0",
-		title: "MCP Registry API",
-	},
+  openapi: "3.0.0",
+  info: {
+    version: "1.0.0",
+    title: "MCP Registry API",
+  },
 });
 
 app.get("/swagger", swaggerUI({ url: "/api/v1/doc" }));
 
 app.notFound((c: Context) => {
-	return c.json({ success: false, code: 404, message: "Route not found" }, 404);
+  return c.json({ success: false, code: 404, message: "Route not found" }, 404);
 });
 
 app.onError((err: Error, c: Context) => {
-	console.error("Server Error:", err);
-	return c.json(
-		{ success: false, code: 500, message: "Internal server error" },
-		500,
-	);
+  console.error("Server Error:", err);
+  return c.json({ success: false, code: 500, message: "Internal server error" }, 500);
 });
 
-const port = process.env.MCP_SERVER_PORT
-	? parseInt(process.env.MCP_SERVER_PORT, 10)
-	: 3000;
+const port = process.env.MCP_SERVER_PORT ? parseInt(process.env.MCP_SERVER_PORT, 10) : 3000;
 console.log(`Server is running on: http://localhost:${port}`);
 
 serve({
-	fetch: app.fetch,
-	port,
+  fetch: app.fetch,
+  port,
 });
 
 export default app;

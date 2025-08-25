@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "searxng-search",
-	"description": "Enables web searches through a user-specified SearxNG instance, returning structured results with titles, URLs, and content snippets for private or customized search capabilities.",
-	"url": "https://github.com/jay4242/mcp_searxng_search",
-	"runtime": "python",
-	"license": "gpl-3.0",
-	"env": {},
-	"name": "SearxNG Search MCP"
+  "type": "mcp-server",
+  "packageName": "searxng-search",
+  "description": "Enables web searches through a user-specified SearxNG instance, returning structured results with titles, URLs, and content snippets for private or customized search capabilities.",
+  "url": "https://github.com/jay4242/mcp_searxng_search",
+  "runtime": "python",
+  "license": "gpl-3.0",
+  "env": {},
+  "name": "SearxNG Search MCP"
 }

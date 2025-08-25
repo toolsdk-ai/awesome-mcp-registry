@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "attendee-bot",
-	"description": "Automates meeting attendance and transcription across platforms like Zoom and Google Meet, enabling automated note-taking, compliance documentation, and accessibility support through bot deployment.",
-	"url": "https://github.com/rexposadas/attendee-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Attendee MCP"
+  "type": "mcp-server",
+  "packageName": "attendee-bot",
+  "description": "Automates meeting attendance and transcription across platforms like Zoom and Google Meet, enabling automated note-taking, compliance documentation, and accessibility support through bot deployment.",
+  "url": "https://github.com/rexposadas/attendee-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Attendee MCP"
 }

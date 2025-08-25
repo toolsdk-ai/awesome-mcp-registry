@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@kazuph/mcp-pocket",
-	"description": "Integrates with the Pocket API to enable natural language-based retrieval and management of saved articles.",
-	"url": "https://github.com/kazuph/mcp-pocket",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"POCKET_CONSUMER_KEY": {
-			"description": "your-pocket-consumer-key",
-			"required": true
-		},
-		"POCKET_ACCESS_TOKEN": {
-			"description": "your-pocket-access-token",
-			"required": true
-		}
-	},
-	"name": "Pocket MCP"
+  "type": "mcp-server",
+  "packageName": "@kazuph/mcp-pocket",
+  "description": "Integrates with the Pocket API to enable natural language-based retrieval and management of saved articles.",
+  "url": "https://github.com/kazuph/mcp-pocket",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "POCKET_CONSUMER_KEY": {
+      "description": "your-pocket-consumer-key",
+      "required": true
+    },
+    "POCKET_ACCESS_TOKEN": {
+      "description": "your-pocket-access-token",
+      "required": true
+    }
+  },
+  "name": "Pocket MCP"
 }

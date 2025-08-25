@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "schemaflow",
-	"description": "Provides real-time PostgreSQL schema access through cloud-based caching, delivering cached database structure information including tables, columns, relationships, functions, triggers, enums, and indexes with schema validation and performance insights.",
-	"url": "https://github.com/cryptoradi/schemaflow-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "SchemaFlow MCP Server"
+  "type": "mcp-server",
+  "packageName": "schemaflow",
+  "description": "Provides real-time PostgreSQL schema access through cloud-based caching, delivering cached database structure information including tables, columns, relationships, functions, triggers, enums, and indexes with schema validation and performance insights.",
+  "url": "https://github.com/cryptoradi/schemaflow-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "SchemaFlow MCP Server"
 }

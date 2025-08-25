@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@mektigboy/server-hyperliquid",
-	"description": "Integrates with the Hyperliquid SDK to provide real-time cryptocurrency market data, including mid prices, historical candlesticks, and L2 order book information for traders and analysts.",
-	"url": "https://github.com/mektigboy/server-hyperliquid",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Hyperliquid MCP Server"
+  "type": "mcp-server",
+  "packageName": "@mektigboy/server-hyperliquid",
+  "description": "Integrates with the Hyperliquid SDK to provide real-time cryptocurrency market data, including mid prices, historical candlesticks, and L2 order book information for traders and analysts.",
+  "url": "https://github.com/mektigboy/server-hyperliquid",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Hyperliquid MCP Server"
 }

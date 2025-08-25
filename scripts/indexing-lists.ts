@@ -6,178 +6,138 @@
 
 import * as fs from "node:fs";
 import * as path from "node:path";
-import {
-	getActualVersion,
-	isValidNpmPackage,
-	updatePackageJsonDependencies,
-} from "../src/helper";
-import {
-	MCPServerPackageConfigSchema,
-	PackagesListSchema,
-} from "../src/schema";
-import type {
-	CategoryConfig,
-	MCPServerPackageConfig,
-	PackagesList,
-} from "../src/types";
+import { getActualVersion, isValidNpmPackage, updatePackageJsonDependencies } from "../src/helper";
+import { MCPServerPackageConfigSchema, PackagesListSchema } from "../src/schema";
+import type { CategoryConfig, MCPServerPackageConfig, PackagesList } from "../src/types";
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const categoryConfigs: CategoryConfig[] =
-	require("../config/categories").default;
+const categoryConfigs: CategoryConfig[] = require("../config/categories").default;
 
 const packagesDir = "./packages";
 const packagesListFile = "./indexes/packages-list.json";
 // Read the current packages list from the json file
 const previousPackagesList: PackagesList = PackagesListSchema.parse(
-	JSON.parse(fs.readFileSync(packagesListFile, "utf-8")),
+  JSON.parse(fs.readFileSync(packagesListFile, "utf-8")),
 ) as PackagesList;
 
 const categoriesListFile = "./indexes/categories-list.json";
 // Compare check `newPackagesList` with `previousPackagesList`, print the differences
-function comparePackagesLists(
-	previousPackagesList: PackagesList,
-	newPackagesList: PackagesList,
-) {
-	const currentKeys = new Set(Object.keys(previousPackagesList));
-	const newKeys = new Set(Object.keys(newPackagesList));
+function comparePackagesLists(previousPackagesList: PackagesList, newPackagesList: PackagesList) {
+  const currentKeys = new Set(Object.keys(previousPackagesList));
+  const newKeys = new Set(Object.keys(newPackagesList));
 
-	const addedKeys = [...newKeys].filter((key) => !currentKeys.has(key));
-	const removedKeys = [...currentKeys].filter((key) => !newKeys.has(key));
-	const commonKeys = [...newKeys].filter((key) => currentKeys.has(key));
+  const addedKeys = [...newKeys].filter((key) => !currentKeys.has(key));
+  const removedKeys = [...currentKeys].filter((key) => !newKeys.has(key));
+  const commonKeys = [...newKeys].filter((key) => currentKeys.has(key));
 
-	if (addedKeys.length > 0) {
-		console.log(`Added packages (${addedKeys.length}):`, addedKeys);
-	}
+  if (addedKeys.length > 0) {
+    console.log(`Added packages (${addedKeys.length}):`, addedKeys);
+  }
 
-	if (removedKeys.length > 0) {
-		console.log(`Removed packages (${removedKeys.length}):`, removedKeys);
-	}
+  if (removedKeys.length > 0) {
+    console.log(`Removed packages (${removedKeys.length}):`, removedKeys);
+  }
 
-	const modifiedKeys = commonKeys.filter((key) => {
-		const current = previousPackagesList[key];
-		const updated = newPackagesList[key];
-		return JSON.stringify(current) !== JSON.stringify(updated);
-	});
+  const modifiedKeys = commonKeys.filter((key) => {
+    const current = previousPackagesList[key];
+    const updated = newPackagesList[key];
+    return JSON.stringify(current) !== JSON.stringify(updated);
+  });
 
-	if (modifiedKeys.length > 0) {
-		console.log(`Modified packages (${modifiedKeys.length}):`, modifiedKeys);
-	}
+  if (modifiedKeys.length > 0) {
+    console.log(`Modified packages (${modifiedKeys.length}):`, modifiedKeys);
+  }
 
-	if (
-		addedKeys.length === 0 &&
-		removedKeys.length === 0 &&
-		modifiedKeys.length === 0
-	) {
-		console.log("No changes detected in packages list.");
-	}
+  if (addedKeys.length === 0 && removedKeys.length === 0 && modifiedKeys.length === 0) {
+    console.log("No changes detected in packages list.");
+  }
 }
 
 async function generatePackagesList() {
-	const newPackagesList: PackagesList = JSON.parse(
-		JSON.stringify(previousPackagesList),
-	);
-	const newPackagesKeys = new Set();
-	const categoriesList: Record<
-		string,
-		{ config: CategoryConfig; packagesList: string[] }
-	> = {};
-	const packageDeps: Record<string, string> = {};
-	let i = 0;
-	async function traverseDirectory(directory: string, categoryName: string) {
-		const entries = fs.readdirSync(directory);
+  const newPackagesList: PackagesList = JSON.parse(JSON.stringify(previousPackagesList));
+  const newPackagesKeys = new Set();
+  const categoriesList: Record<string, { config: CategoryConfig; packagesList: string[] }> = {};
+  const packageDeps: Record<string, string> = {};
+  let i = 0;
+  async function traverseDirectory(directory: string, categoryName: string) {
+    const entries = fs.readdirSync(directory);
 
-		for (const entry of entries) {
-			const entryPath = path.join(directory, entry);
-			if (fs.statSync(entryPath).isFile() && entry.endsWith(".json")) {
-				const fileContent = fs.readFileSync(entryPath, "utf-8");
-				const parsedContent: MCPServerPackageConfig =
-					MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
-				const key = parsedContent.key || parsedContent.packageName;
-				const relativePath = path.relative(packagesDir, entryPath);
+    for (const entry of entries) {
+      const entryPath = path.join(directory, entry);
+      if (fs.statSync(entryPath).isFile() && entry.endsWith(".json")) {
+        const fileContent = fs.readFileSync(entryPath, "utf-8");
+        const parsedContent: MCPServerPackageConfig = MCPServerPackageConfigSchema.parse(
+          JSON.parse(fileContent),
+        );
+        const key = parsedContent.key || parsedContent.packageName;
+        const relativePath = path.relative(packagesDir, entryPath);
 
-				newPackagesList[key] = {
-					...newPackagesList[key],
-					path: relativePath,
-					category: categoryName,
-				};
+        newPackagesList[key] = {
+          ...newPackagesList[key],
+          path: relativePath,
+          category: categoryName,
+        };
 
-				newPackagesKeys.add(key);
+        newPackagesKeys.add(key);
 
-				// Add to the category's packages list
-				if (!categoriesList[categoryName]) {
-					throw new Error(
-						`Category "${categoryName}" not found in categories list.`,
-					);
-				}
-				categoriesList[categoryName].packagesList.push(key);
+        // Add to the category's packages list
+        if (!categoriesList[categoryName]) {
+          throw new Error(`Category "${categoryName}" not found in categories list.`);
+        }
+        categoriesList[categoryName].packagesList.push(key);
 
-				console.log(
-					"Current package:",
-					parsedContent.packageName,
-					`num:${i++}`,
-				);
-				if (parsedContent.runtime === "node") {
-					const existPackage = newPackagesList[key];
-					if (Object.hasOwn(existPackage, "validated")) {
-						if (existPackage.validated === false) {
-							continue;
-						}
-					} else {
-						const isValid = await isValidNpmPackage(parsedContent.packageName);
-						if (!isValid) {
-							continue;
-						}
-					}
+        console.log("Current package:", parsedContent.packageName, `num:${i++}`);
+        if (parsedContent.runtime === "node") {
+          const existPackage = newPackagesList[key];
+          if (Object.hasOwn(existPackage, "validated")) {
+            if (existPackage.validated === false) {
+              continue;
+            }
+          } else {
+            const isValid = await isValidNpmPackage(parsedContent.packageName);
+            if (!isValid) {
+              continue;
+            }
+          }
 
-					const version = getActualVersion(
-						parsedContent.packageName,
-						parsedContent.packageVersion,
-					);
-					packageDeps[parsedContent.packageName] = version || "latest";
-				}
-			} else if (fs.statSync(entryPath).isDirectory()) {
-				await traverseDirectory(entryPath, categoryName);
-			}
-		}
-	}
+          const version = getActualVersion(parsedContent.packageName, parsedContent.packageVersion);
+          packageDeps[parsedContent.packageName] = version || "latest";
+        }
+      } else if (fs.statSync(entryPath).isDirectory()) {
+        await traverseDirectory(entryPath, categoryName);
+      }
+    }
+  }
 
-	// const categoryConfigs: CategoryConfig[] = (await import(categoryCfg)).default;
+  // const categoryConfigs: CategoryConfig[] = (await import(categoryCfg)).default;
 
-	for (const category of categoryConfigs) {
-		categoriesList[category.key] = { config: category, packagesList: [] };
+  for (const category of categoryConfigs) {
+    categoriesList[category.key] = { config: category, packagesList: [] };
 
-		const categoryDir = path.join(packagesDir, category.key);
-		if (fs.existsSync(categoryDir)) {
-			await traverseDirectory(categoryDir, category.key);
-		}
-	}
+    const categoryDir = path.join(packagesDir, category.key);
+    if (fs.existsSync(categoryDir)) {
+      await traverseDirectory(categoryDir, category.key);
+    }
+  }
 
-	// delete packages that are not in the new packages list, base on `newPackagesKeys`
-	for (const key in newPackagesList) {
-		if (!newPackagesKeys.has(key)) {
-			delete newPackagesList[key];
-			console.log(`Removed redundant package: ${key}, not exist anymore`);
-		}
-	}
+  // delete packages that are not in the new packages list, base on `newPackagesKeys`
+  for (const key in newPackagesList) {
+    if (!newPackagesKeys.has(key)) {
+      delete newPackagesList[key];
+      console.log(`Removed redundant package: ${key}, not exist anymore`);
+    }
+  }
 
-	fs.writeFileSync(
-		packagesListFile,
-		JSON.stringify(newPackagesList, null, 2),
-		"utf-8",
-	);
-	fs.writeFileSync(
-		categoriesListFile,
-		JSON.stringify(categoriesList, null, 2),
-		"utf-8",
-	);
-	console.log(`Generated packages list at ${packagesListFile}`);
-	console.log(`Generated categories list at ${categoriesListFile}`);
+  fs.writeFileSync(packagesListFile, JSON.stringify(newPackagesList, null, 2), "utf-8");
+  fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), "utf-8");
+  console.log(`Generated packages list at ${packagesListFile}`);
+  console.log(`Generated categories list at ${categoriesListFile}`);
 
-	// compare previous and new packages lists
-	comparePackagesLists(previousPackagesList, newPackagesList);
+  // compare previous and new packages lists
+  comparePackagesLists(previousPackagesList, newPackagesList);
 
-	// Write package.json dependencies
-	updatePackageJsonDependencies({ packageDeps });
+  // Write package.json dependencies
+  updatePackageJsonDependencies({ packageDeps });
 }
 
 await generatePackagesList();

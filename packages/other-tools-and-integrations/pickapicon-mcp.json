@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "pickapicon-mcp",
-	"description": "Provides a bridge to the Iconify API for searching and retrieving SVG icons from various collections, enabling quick integration of icons into projects.",
-	"url": "https://github.com/leee62/pickapicon-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"PREFIX": {
-			"description": "<LIKE ant-design>",
-			"required": true
-		}
-	},
-	"name": "Pickapicon MCP"
+  "type": "mcp-server",
+  "packageName": "pickapicon-mcp",
+  "description": "Provides a bridge to the Iconify API for searching and retrieving SVG icons from various collections, enabling quick integration of icons into projects.",
+  "url": "https://github.com/leee62/pickapicon-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PREFIX": {
+      "description": "<LIKE ant-design>",
+      "required": true
+    }
+  },
+  "name": "Pickapicon MCP"
 }

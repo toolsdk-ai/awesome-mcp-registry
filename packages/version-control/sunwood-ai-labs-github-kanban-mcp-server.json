@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@sunwood-ai-labs/github-kanban-mcp-server",
-	"description": "Integrates with GitHub's API to enable Kanban-style project management and issue tracking for streamlined software development workflows.",
-	"url": "https://github.com/sunwood-ai-labs/github-kanban-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "GitHub Kanban MCP Server"
+  "type": "mcp-server",
+  "packageName": "@sunwood-ai-labs/github-kanban-mcp-server",
+  "description": "Integrates with GitHub's API to enable Kanban-style project management and issue tracking for streamlined software development workflows.",
+  "url": "https://github.com/sunwood-ai-labs/github-kanban-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "GitHub Kanban MCP Server"
 }

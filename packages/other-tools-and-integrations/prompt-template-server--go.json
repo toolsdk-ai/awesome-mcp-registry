@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "prompt-template-server-(go)",
-	"description": "Lightweight Go server that loads and serves YAML-formatted prompt templates from a file system for easy organization and management of standardized prompts to AI models.",
-	"url": "https://github.com/smallnest/mcp-prompt-server-go",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Prompt MCP Server Go"
+  "type": "mcp-server",
+  "packageName": "prompt-template-server-(go)",
+  "description": "Lightweight Go server that loads and serves YAML-formatted prompt templates from a file system for easy organization and management of standardized prompts to AI models.",
+  "url": "https://github.com/smallnest/mcp-prompt-server-go",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Prompt MCP Server Go"
 }

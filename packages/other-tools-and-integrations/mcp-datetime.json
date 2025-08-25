@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-datetime",
-	"description": "Provides flexible, timezone-aware date and time formatting across various locales.",
-	"url": "https://github.com/zeparhyfar/mcp-datetime",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Datetime MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-datetime",
+  "description": "Provides flexible, timezone-aware date and time formatting across various locales.",
+  "url": "https://github.com/zeparhyfar/mcp-datetime",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Datetime MCP"
 }

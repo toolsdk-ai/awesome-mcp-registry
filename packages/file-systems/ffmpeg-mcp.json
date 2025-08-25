@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ffmpeg-mcp",
-	"description": "Enables video manipulation through natural language commands, providing functionality for searching, retrieving metadata, cutting clips, and concatenating videos without direct interaction with FFmpeg command line tools.",
-	"url": "https://github.com/video-creator/ffmpeg-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "FFmpeg MCP"
+  "type": "mcp-server",
+  "packageName": "ffmpeg-mcp",
+  "description": "Enables video manipulation through natural language commands, providing functionality for searching, retrieving metadata, cutting clips, and concatenating videos without direct interaction with FFmpeg command line tools.",
+  "url": "https://github.com/video-creator/ffmpeg-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "FFmpeg MCP"
 }

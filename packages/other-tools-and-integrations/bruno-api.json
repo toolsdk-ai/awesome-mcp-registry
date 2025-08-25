@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "bruno-api",
-	"description": "Bridges AI systems with Bruno API collections, enabling direct execution of HTTP requests defined in .bru format with automatic environment variable parsing and schema generation for API testing and workflow automation.",
-	"url": "https://github.com/djkz/bruno-api-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Bruno API MCP"
+  "type": "mcp-server",
+  "packageName": "bruno-api",
+  "description": "Bridges AI systems with Bruno API collections, enabling direct execution of HTTP requests defined in .bru format with automatic environment variable parsing and schema generation for API testing and workflow automation.",
+  "url": "https://github.com/djkz/bruno-api-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Bruno API MCP"
 }

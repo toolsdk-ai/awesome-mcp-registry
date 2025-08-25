@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "http-oauth-auth0",
-	"description": "Provides secure OAuth 2.0 authentication for MCP implementations with flexible token storage and horizontal scalability through Auth0 integration.",
-	"url": "https://github.com/napthaai/http-oauth-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "HTTP OAuth MCP Server"
+  "type": "mcp-server",
+  "packageName": "http-oauth-auth0",
+  "description": "Provides secure OAuth 2.0 authentication for MCP implementations with flexible token storage and horizontal scalability through Auth0 integration.",
+  "url": "https://github.com/napthaai/http-oauth-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "HTTP OAuth MCP Server"
 }

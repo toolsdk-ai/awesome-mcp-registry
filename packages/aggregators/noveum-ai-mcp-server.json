@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@noveum-ai/mcp-server",
-	"description": "Converts OpenAPI specifications from API.market into tools for accessing over 200 services including image generation, geocoding, and content detection through a unified authentication system",
-	"url": "https://github.com/noveum/api-market-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"API_HEADERS": {
-			"description": "x-magicapi-key:your-api-key",
-			"required": true
-		}
-	},
-	"name": "API Market MCP Server"
+  "type": "mcp-server",
+  "packageName": "@noveum-ai/mcp-server",
+  "description": "Converts OpenAPI specifications from API.market into tools for accessing over 200 services including image generation, geocoding, and content detection through a unified authentication system",
+  "url": "https://github.com/noveum/api-market-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "API_HEADERS": {
+      "description": "x-magicapi-key:your-api-key",
+      "required": true
+    }
+  },
+  "name": "API Market MCP Server"
 }

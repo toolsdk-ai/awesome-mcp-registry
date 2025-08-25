@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "scientific-paper-analyzer-(gemini)",
-	"description": "Integrates with Google's Gemini API to enable searching, analyzing and exploring academic research papers with tools for citation graphs and detailed paper information retrieval",
-	"url": "https://github.com/priteshshah96/mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Scientific Paper Analyzer (Gemini) MCP Server"
+  "type": "mcp-server",
+  "packageName": "scientific-paper-analyzer-(gemini)",
+  "description": "Integrates with Google's Gemini API to enable searching, analyzing and exploring academic research papers with tools for citation graphs and detailed paper information retrieval",
+  "url": "https://github.com/priteshshah96/mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Scientific Paper Analyzer (Gemini) MCP Server"
 }

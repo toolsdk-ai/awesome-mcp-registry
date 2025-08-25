@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "stellar-blockchain",
-	"description": "Integrates with Stellar blockchain to enable wallet management, token deployment, and smart contract interactions on the Stellar testnet through dynamically generated tools",
-	"url": "https://github.com/kalepail/stellar-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Stellar MCP Server"
+  "type": "mcp-server",
+  "packageName": "stellar-blockchain",
+  "description": "Integrates with Stellar blockchain to enable wallet management, token deployment, and smart contract interactions on the Stellar testnet through dynamically generated tools",
+  "url": "https://github.com/kalepail/stellar-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Stellar MCP Server"
 }

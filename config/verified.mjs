@@ -8,11 +8,11 @@
  */
 
 export default [
-	"@modelcontextprotocol/server-brave-search",
-	"@modelcontextprotocol/server-github",
-	"@modelcontextprotocol/server-gitlab",
-	"@modelcontextprotocol/server-sequential-thinking",
-	"@modelcontextprotocol/server-everart",
-	"@modelcontextprotocol/server-slack",
-	"@modelcontextprotocol/server-google-maps",
+  "@modelcontextprotocol/server-brave-search",
+  "@modelcontextprotocol/server-github",
+  "@modelcontextprotocol/server-gitlab",
+  "@modelcontextprotocol/server-sequential-thinking",
+  "@modelcontextprotocol/server-everart",
+  "@modelcontextprotocol/server-slack",
+  "@modelcontextprotocol/server-google-maps",
 ];

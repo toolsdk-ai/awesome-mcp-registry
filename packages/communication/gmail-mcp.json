@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gmail-mcp",
-	"description": "Integrates with Gmail to enable email search, retrieval, and interaction for natural language-driven email management and analysis tasks.",
-	"url": "https://github.com/vinayak-mehta/gmail-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Gmail MCP"
+  "type": "mcp-server",
+  "packageName": "gmail-mcp",
+  "description": "Integrates with Gmail to enable email search, retrieval, and interaction for natural language-driven email management and analysis tasks.",
+  "url": "https://github.com/vinayak-mehta/gmail-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Gmail MCP"
 }

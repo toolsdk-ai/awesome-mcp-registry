@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "aws-bedrock",
-	"description": "Integrates AWS Bedrock, enabling natural language processing and task automation.",
-	"url": "https://github.com/davidshtian/mcp-on-aws-bedrock",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "MCP on AWS Bedrock"
+  "type": "mcp-server",
+  "packageName": "aws-bedrock",
+  "description": "Integrates AWS Bedrock, enabling natural language processing and task automation.",
+  "url": "https://github.com/davidshtian/mcp-on-aws-bedrock",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "MCP on AWS Bedrock"
 }

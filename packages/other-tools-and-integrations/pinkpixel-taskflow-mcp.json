@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@pinkpixel/taskflow-mcp",
-	"description": "Task management system that breaks down user requests into structured tasks with subtasks, dependencies, and notes, requiring explicit approval before proceeding to ensure systematic tracking and user control.",
-	"url": "https://github.com/pinkpixel-dev/taskflow-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TASK_MANAGER_FILE_PATH": {
-			"description": "/path/to/tasks.json",
-			"required": true
-		}
-	},
-	"name": "Taskflow MCP"
+  "type": "mcp-server",
+  "packageName": "@pinkpixel/taskflow-mcp",
+  "description": "Task management system that breaks down user requests into structured tasks with subtasks, dependencies, and notes, requiring explicit approval before proceeding to ensure systematic tracking and user control.",
+  "url": "https://github.com/pinkpixel-dev/taskflow-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TASK_MANAGER_FILE_PATH": {
+      "description": "/path/to/tasks.json",
+      "required": true
+    }
+  },
+  "name": "Taskflow MCP"
 }

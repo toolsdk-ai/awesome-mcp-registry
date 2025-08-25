@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "google-sheets",
-	"description": "Integrates with Google Sheets API to enable direct creation, reading, and editing of spreadsheets for data analysis and collaborative document management",
-	"url": "https://github.com/mkummer225/google-sheets-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Google Sheets MCP"
+  "type": "mcp-server",
+  "packageName": "google-sheets",
+  "description": "Integrates with Google Sheets API to enable direct creation, reading, and editing of spreadsheets for data analysis and collaborative document management",
+  "url": "https://github.com/mkummer225/google-sheets-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Google Sheets MCP"
 }

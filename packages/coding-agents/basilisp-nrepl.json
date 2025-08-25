@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "basilisp-nrepl",
-	"description": "Bridges Anthropic's Model Control Protocol with Basilisp's nREPL server, enabling direct execution of Basilisp code, documentation retrieval, namespace exploration, and Python interoperability.",
-	"url": "https://github.com/cat-state/nrepl-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "nREPL MCP"
+  "type": "mcp-server",
+  "packageName": "basilisp-nrepl",
+  "description": "Bridges Anthropic's Model Control Protocol with Basilisp's nREPL server, enabling direct execution of Basilisp code, documentation retrieval, namespace exploration, and Python interoperability.",
+  "url": "https://github.com/cat-state/nrepl-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "nREPL MCP"
 }

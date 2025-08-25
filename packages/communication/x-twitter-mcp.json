@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "x-twitter-mcp",
-	"description": "Provides a bridge between Twitter's API and conversational interfaces, enabling comprehensive platform interaction including profile management, tweet operations, timeline access, and search functionality.",
-	"url": "https://github.com/rafaljanicki/x-twitter-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "X Twitter MCP Server"
+  "type": "mcp-server",
+  "packageName": "x-twitter-mcp",
+  "description": "Provides a bridge between Twitter's API and conversational interfaces, enabling comprehensive platform interaction including profile management, tweet operations, timeline access, and search functionality.",
+  "url": "https://github.com/rafaljanicki/x-twitter-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "X Twitter MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "whatsapp-bridge",
-	"description": "Provides a secure bridge to your WhatsApp account, enabling message search, contact management, and sending capabilities while keeping all data stored locally on your device.",
-	"url": "https://github.com/lharries/whatsapp-mcp",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "WhatsApp MCP"
+  "type": "mcp-server",
+  "packageName": "whatsapp-bridge",
+  "description": "Provides a secure bridge to your WhatsApp account, enabling message search, contact management, and sending capabilities while keeping all data stored locally on your device.",
+  "url": "https://github.com/lharries/whatsapp-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "WhatsApp MCP"
 }

@@ -1,16 +1,16 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_400x400.jpg",
-	"packageName": "@mzxrai/mcp-openai",
-	"description": "Generate text using OpenAI's language models.",
-	"url": "https://github.com/mzxrai/mcp-openai",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"OPENAI_API_KEY": {
-			"description": "your-api-key-here (get one from https://platform.openai.com/api-keys)",
-			"required": true
-		}
-	},
-	"name": "MCP OpenAI"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_400x400.jpg",
+  "packageName": "@mzxrai/mcp-openai",
+  "description": "Generate text using OpenAI's language models.",
+  "url": "https://github.com/mzxrai/mcp-openai",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "your-api-key-here (get one from https://platform.openai.com/api-keys)",
+      "required": true
+    }
+  },
+  "name": "MCP OpenAI"
 }

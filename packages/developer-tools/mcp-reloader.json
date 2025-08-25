@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-reloader",
-	"description": "A hot-reload development tool that enables real-time development of MCP (Model Context Protocol) servers by automatically reloading tools as they're modified without requiring manual restarts.",
-	"url": "https://github.com/mizchi/mcp-reloader",
-	"runtime": "node",
-	"license": "mit",
-	"env": {
-		"MCP_HOT_RELOAD_INCLUDE": {
-			"description": "Comma-separated list of glob patterns to watch for changes that trigger a full process restart",
-			"required": true
-		}
-	},
-	"name": "MCP Reloader"
+  "type": "mcp-server",
+  "packageName": "mcp-reloader",
+  "description": "A hot-reload development tool that enables real-time development of MCP (Model Context Protocol) servers by automatically reloading tools as they're modified without requiring manual restarts.",
+  "url": "https://github.com/mizchi/mcp-reloader",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "MCP_HOT_RELOAD_INCLUDE": {
+      "description": "Comma-separated list of glob patterns to watch for changes that trigger a full process restart",
+      "required": true
+    }
+  },
+  "name": "MCP Reloader"
 }

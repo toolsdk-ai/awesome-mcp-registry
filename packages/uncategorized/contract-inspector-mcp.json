@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "contract-inspector-mcp",
-	"description": "A local Ethereum contract analysis tool that retrieves on-chain information, integrates Etherscan and RPC data, and automatically executes view functions to provide comprehensive contract insights.",
-	"url": "https://github.com/ACaiSec/ContractInfoMCP",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {
-		"RPC_URL": {
-			"description": "Your Ethereum RPC node address (e.g., from Infura, Alchemy, etc.)",
-			"required": true
-		},
-		"ETHERSCAN_API_KEY": {
-			"description": "Your Etherscan API key",
-			"required": true
-		}
-	},
-	"name": "ContractInfo MCP"
+  "type": "mcp-server",
+  "packageName": "contract-inspector-mcp",
+  "description": "A local Ethereum contract analysis tool that retrieves on-chain information, integrates Etherscan and RPC data, and automatically executes view functions to provide comprehensive contract insights.",
+  "url": "https://github.com/ACaiSec/ContractInfoMCP",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "RPC_URL": {
+      "description": "Your Ethereum RPC node address (e.g., from Infura, Alchemy, etc.)",
+      "required": true
+    },
+    "ETHERSCAN_API_KEY": {
+      "description": "Your Etherscan API key",
+      "required": true
+    }
+  },
+  "name": "ContractInfo MCP"
 }

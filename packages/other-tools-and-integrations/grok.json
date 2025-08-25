@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "grok",
-	"description": "Provides access to Grok API for chat completions, text completions, embeddings, and model operations with robust request validation and error handling.",
-	"url": "https://github.com/brewmytech/grok-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Grok MCP"
+  "type": "mcp-server",
+  "packageName": "grok",
+  "description": "Provides access to Grok API for chat completions, text completions, embeddings, and model operations with robust request validation and error handling.",
+  "url": "https://github.com/brewmytech/grok-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Grok MCP"
 }

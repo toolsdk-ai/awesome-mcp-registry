@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "bod-25-01-cisa-microsoft-policies",
-	"description": "Integrates with Microsoft Graph API to enforce CISA Directive 25-01 security controls for Microsoft 365, enabling automated policy management and compliance monitoring.",
-	"url": "https://github.com/dynamicendpoints/automated-bod-25-01-cisa-microsoft-policies-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Automated BOD 25-01 CISA Microsoft Policies MCP"
+  "type": "mcp-server",
+  "packageName": "bod-25-01-cisa-microsoft-policies",
+  "description": "Integrates with Microsoft Graph API to enforce CISA Directive 25-01 security controls for Microsoft 365, enabling automated policy management and compliance monitoring.",
+  "url": "https://github.com/dynamicendpoints/automated-bod-25-01-cisa-microsoft-policies-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Automated BOD 25-01 CISA Microsoft Policies MCP"
 }

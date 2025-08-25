@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "excalidraw",
-	"description": "Enables LLMs to create and manipulate Excalidraw diagrams through a Node.js API that provides tools for element creation, modification, querying, and organization for AI-assisted diagramming and visual collaboration.",
-	"url": "https://github.com/yctimlin/mcp_excalidraw",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Excalidraw MCP"
+  "type": "mcp-server",
+  "packageName": "excalidraw",
+  "description": "Enables LLMs to create and manipulate Excalidraw diagrams through a Node.js API that provides tools for element creation, modification, querying, and organization for AI-assisted diagramming and visual collaboration.",
+  "url": "https://github.com/yctimlin/mcp_excalidraw",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Excalidraw MCP"
 }

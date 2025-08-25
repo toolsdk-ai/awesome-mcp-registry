@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "shell-command",
-	"description": "Provides a secure Docker container environment for executing shell commands with Kubernetes tools, enabling isolated DevOps workflows and infrastructure management tasks.",
-	"url": "https://github.com/kaznak/shell-command-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Shell Command MCP"
+  "type": "mcp-server",
+  "packageName": "shell-command",
+  "description": "Provides a secure Docker container environment for executing shell commands with Kubernetes tools, enabling isolated DevOps workflows and infrastructure management tasks.",
+  "url": "https://github.com/kaznak/shell-command-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Shell Command MCP"
 }

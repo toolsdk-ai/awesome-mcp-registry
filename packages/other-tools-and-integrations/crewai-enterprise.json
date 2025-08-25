@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "crewai-enterprise",
-	"description": "Connects to CrewAI Enterprise workflows, enabling kickoff and monitoring of collaborative agent teams for complex task delegation without leaving your interface.",
-	"url": "https://github.com/crewaiinc/enterprise-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Enterprise MCP Server"
+  "type": "mcp-server",
+  "packageName": "crewai-enterprise",
+  "description": "Connects to CrewAI Enterprise workflows, enabling kickoff and monitoring of collaborative agent teams for complex task delegation without leaving your interface.",
+  "url": "https://github.com/crewaiinc/enterprise-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Enterprise MCP Server"
 }

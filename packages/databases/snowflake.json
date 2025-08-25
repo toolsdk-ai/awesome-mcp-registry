@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "snowflake",
-	"description": "Integrates with Snowflake databases through external browser authentication, enabling secure schema exploration and SQL query execution without storing credentials on disk.",
-	"url": "https://github.com/oxplot/snowflake-mcp",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "Snowflake MCP"
+  "type": "mcp-server",
+  "packageName": "snowflake",
+  "description": "Integrates with Snowflake databases through external browser authentication, enabling secure schema exploration and SQL query execution without storing credentials on disk.",
+  "url": "https://github.com/oxplot/snowflake-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "Snowflake MCP"
 }

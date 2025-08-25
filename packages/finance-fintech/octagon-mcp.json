@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "octagon-mcp",
-	"description": "Provides specialized investment research tools for analyzing SEC filings, earnings calls, financial data, stock market information, private company details, funding rounds, M&A transactions, and web scraping capabilities.",
-	"url": "https://github.com/octagonai/octagon-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"OCTAGON_API_KEY": {
-			"description": "YOUR_API_KEY_HERE",
-			"required": true
-		}
-	},
-	"name": "Octagon MCP Server"
+  "type": "mcp-server",
+  "packageName": "octagon-mcp",
+  "description": "Provides specialized investment research tools for analyzing SEC filings, earnings calls, financial data, stock market information, private company details, funding rounds, M&A transactions, and web scraping capabilities.",
+  "url": "https://github.com/octagonai/octagon-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OCTAGON_API_KEY": {
+      "description": "YOUR_API_KEY_HERE",
+      "required": true
+    }
+  },
+  "name": "Octagon MCP Server"
 }

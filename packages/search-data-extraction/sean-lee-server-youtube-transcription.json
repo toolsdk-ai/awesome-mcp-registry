@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@sean.lee/server-youtube-transcription",
-	"description": "Extracts transcriptions from YouTube videos by accepting a video URL and returning the full transcript text using the youtube-transcript library",
-	"url": "https://github.com/seanlee10/server-youtube-transcription",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Server YouTube Transcription"
+  "type": "mcp-server",
+  "packageName": "@sean.lee/server-youtube-transcription",
+  "description": "Extracts transcriptions from YouTube videos by accepting a video URL and returning the full transcript text using the youtube-transcript library",
+  "url": "https://github.com/seanlee10/server-youtube-transcription",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Server YouTube Transcription"
 }

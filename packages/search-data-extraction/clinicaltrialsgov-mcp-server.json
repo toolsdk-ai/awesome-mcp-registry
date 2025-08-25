@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "clinicaltrialsgov-mcp-server",
-	"description": "Integrates with ClinicalTrials.gov REST API to search clinical trials by conditions, interventions, locations, and status, plus retrieve detailed study information by NCT ID with automatic data cleaning and local backup storage.",
-	"url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"MCP_LOG_LEVEL": {
-			"description": "info",
-			"required": true
-		}
-	},
-	"name": "ClinicalTrials.gov MCP Server"
+  "type": "mcp-server",
+  "packageName": "clinicaltrialsgov-mcp-server",
+  "description": "Integrates with ClinicalTrials.gov REST API to search clinical trials by conditions, interventions, locations, and status, plus retrieve detailed study information by NCT ID with automatic data cleaning and local backup storage.",
+  "url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MCP_LOG_LEVEL": {
+      "description": "info",
+      "required": true
+    }
+  },
+  "name": "ClinicalTrials.gov MCP Server"
 }

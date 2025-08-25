@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "teamcity",
-	"description": "Integrates with JetBrains TeamCity for complete CI/CD pipeline management, enabling build triggering, cancellation, pinning, artifact downloads, tag management, and advanced build search with status, branch, and date filtering.",
-	"url": "https://github.com/itcaat/teamcity-mcp",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "TeamCity MCP"
+  "type": "mcp-server",
+  "packageName": "teamcity",
+  "description": "Integrates with JetBrains TeamCity for complete CI/CD pipeline management, enabling build triggering, cancellation, pinning, artifact downloads, tag management, and advanced build search with status, branch, and date filtering.",
+  "url": "https://github.com/itcaat/teamcity-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "TeamCity MCP"
 }

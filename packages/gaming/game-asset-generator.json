@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "game-asset-generator",
-	"description": "Connects to Hugging Face Spaces to generate 2D pixel art sprites and 3D game assets from text prompts using specialized AI models for rapid game development prototyping.",
-	"url": "https://github.com/mubarakhalketbi/game-asset-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Game Asset MCP"
+  "type": "mcp-server",
+  "packageName": "game-asset-generator",
+  "description": "Connects to Hugging Face Spaces to generate 2D pixel art sprites and 3D game assets from text prompts using specialized AI models for rapid game development prototyping.",
+  "url": "https://github.com/mubarakhalketbi/game-asset-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Game Asset MCP"
 }

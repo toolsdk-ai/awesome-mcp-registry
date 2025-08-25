@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@promptz/mcp",
-	"description": "Provides a bridge to the promptz.dev platform, enabling direct access and seamless integration of prompts into developer workflows without manual copy-pasting.",
-	"url": "https://github.com/cremich/promptz-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"PROMPTZ_API_URL": {
-			"description": "your-api-url-from-promptz.dev",
-			"required": true
-		},
-		"PROMPTZ_API_KEY": {
-			"description": "your-api-key-from-promptz.dev",
-			"required": true
-		}
-	},
-	"name": "Promptz MCP"
+  "type": "mcp-server",
+  "packageName": "@promptz/mcp",
+  "description": "Provides a bridge to the promptz.dev platform, enabling direct access and seamless integration of prompts into developer workflows without manual copy-pasting.",
+  "url": "https://github.com/cremich/promptz-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PROMPTZ_API_URL": {
+      "description": "your-api-url-from-promptz.dev",
+      "required": true
+    },
+    "PROMPTZ_API_KEY": {
+      "description": "your-api-key-from-promptz.dev",
+      "required": true
+    }
+  },
+  "name": "Promptz MCP"
 }

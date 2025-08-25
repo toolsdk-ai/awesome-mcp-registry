@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "hebcal-(jewish-calendar)",
-	"description": "Integrates with Hebrew calendar libraries to provide date conversions, yahrzeit calculations, and Torah portion information for Jewish religious observances.",
-	"url": "https://github.com/hebcal/hebcal-mcp",
-	"runtime": "node",
-	"license": "bsd-2-clause",
-	"env": {},
-	"name": "Hebcal MCP"
+  "type": "mcp-server",
+  "packageName": "hebcal-(jewish-calendar)",
+  "description": "Integrates with Hebrew calendar libraries to provide date conversions, yahrzeit calculations, and Torah portion information for Jewish religious observances.",
+  "url": "https://github.com/hebcal/hebcal-mcp",
+  "runtime": "node",
+  "license": "bsd-2-clause",
+  "env": {},
+  "name": "Hebcal MCP"
 }

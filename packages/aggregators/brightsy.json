@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "brightsy",
-	"description": "Provides a bridge to an OpenAI-compatible agent for seamless integration of task automation, natural language processing, and interactive chat functionalities within larger systems or applications.",
-	"url": "https://github.com/mattlevine/brightsy-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Brightsy MCP"
+  "type": "mcp-server",
+  "packageName": "brightsy",
+  "description": "Provides a bridge to an OpenAI-compatible agent for seamless integration of task automation, natural language processing, and interactive chat functionalities within larger systems or applications.",
+  "url": "https://github.com/mattlevine/brightsy-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Brightsy MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "github-project-manager",
-	"description": "Integrates with GitHub Projects V2 to enable natural language management of project boards, issues, milestones, and sprints.",
-	"url": "https://github.com/kunwarvivek/mcp-github-project-manager",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "GitHub Project MCP"
+  "type": "mcp-server",
+  "packageName": "github-project-manager",
+  "description": "Integrates with GitHub Projects V2 to enable natural language management of project boards, issues, milestones, and sprints.",
+  "url": "https://github.com/kunwarvivek/mcp-github-project-manager",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "GitHub Project MCP"
 }

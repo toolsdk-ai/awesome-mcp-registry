@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gensokyo",
-	"description": "Bridges chat bot platforms with cross-platform support for message processing, WebSocket connectivity, and media handling across Linux, macOS, Windows, and Android environments.",
-	"url": "https://github.com/hoshinonyaruko/gensokyo-mcp",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "Gensokyo MCP"
+  "type": "mcp-server",
+  "packageName": "gensokyo",
+  "description": "Bridges chat bot platforms with cross-platform support for message processing, WebSocket connectivity, and media handling across Linux, macOS, Windows, and Android environments.",
+  "url": "https://github.com/hoshinonyaruko/gensokyo-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "Gensokyo MCP"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "chrome-debug-mcp-server",
-	"description": "A Model Context Protocol server that connects to Chrome debugging ports, enabling browser automation with persistent login sessions.",
-	"url": "https://github.com/Rainmen-xia/chrome-debug-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {
-		"REMOTE_HOST": {
-			"description": "The URL of the Chrome debug port",
-			"required": true
-		}
-	},
-	"name": "Chrome Debug MCP Server"
+  "type": "mcp-server",
+  "packageName": "chrome-debug-mcp-server",
+  "description": "A Model Context Protocol server that connects to Chrome debugging ports, enabling browser automation with persistent login sessions.",
+  "url": "https://github.com/Rainmen-xia/chrome-debug-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "REMOTE_HOST": {
+      "description": "The URL of the Chrome debug port",
+      "required": true
+    }
+  },
+  "name": "Chrome Debug MCP Server"
 }

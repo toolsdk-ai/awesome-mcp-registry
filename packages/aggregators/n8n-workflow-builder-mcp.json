@@ -1,56 +1,56 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1536335358803251202/-gASF0c6_400x400.png",
-	"packageName": "@ifmelate/n8n-workflow-builder-mcp",
-	"description": "MCP server that allow LLM in agent mode builds n8n workflows for you",
-	"url": "https://github.com/ifmelate/n8n-workflow-builder-mcp/tree/main/src",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"N8N_API_URL": {
-			"description": "http://localhost:5678",
-			"required": true
-		},
-		"N8N_API_KEY": {
-			"description": "your-n8n-api-key-here",
-			"required": true
-		},
-		"PORT": {
-			"description": "3000",
-			"required": true
-		},
-		"NODE_ENV": {
-			"description": "development",
-			"required": true
-		},
-		"JWT_SECRET": {
-			"description": "your_jwt_secret_key",
-			"required": true
-		},
-		"JWT_EXPIRES_IN": {
-			"description": "1d",
-			"required": true
-		},
-		"API_KEYS": {
-			"description": "key1,key2,key3",
-			"required": true
-		},
-		"ENCRYPTION_KEY": {
-			"description": "your_32_byte_encryption_key_in_hex_format",
-			"required": true
-		},
-		"KEY_ROTATION_INTERVAL": {
-			"description": "30",
-			"required": true
-		},
-		"LOG_LEVEL=": {
-			"description": "info",
-			"required": true
-		},
-		"CREDENTIALS_DIR": {
-			"description": "./config/credentials",
-			"required": true
-		}
-	},
-	"name": "n8n Workflow Builder MCP"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1536335358803251202/-gASF0c6_400x400.png",
+  "packageName": "@ifmelate/n8n-workflow-builder-mcp",
+  "description": "MCP server that allow LLM in agent mode builds n8n workflows for you",
+  "url": "https://github.com/ifmelate/n8n-workflow-builder-mcp/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "N8N_API_URL": {
+      "description": "http://localhost:5678",
+      "required": true
+    },
+    "N8N_API_KEY": {
+      "description": "your-n8n-api-key-here",
+      "required": true
+    },
+    "PORT": {
+      "description": "3000",
+      "required": true
+    },
+    "NODE_ENV": {
+      "description": "development",
+      "required": true
+    },
+    "JWT_SECRET": {
+      "description": "your_jwt_secret_key",
+      "required": true
+    },
+    "JWT_EXPIRES_IN": {
+      "description": "1d",
+      "required": true
+    },
+    "API_KEYS": {
+      "description": "key1,key2,key3",
+      "required": true
+    },
+    "ENCRYPTION_KEY": {
+      "description": "your_32_byte_encryption_key_in_hex_format",
+      "required": true
+    },
+    "KEY_ROTATION_INTERVAL": {
+      "description": "30",
+      "required": true
+    },
+    "LOG_LEVEL=": {
+      "description": "info",
+      "required": true
+    },
+    "CREDENTIALS_DIR": {
+      "description": "./config/credentials",
+      "required": true
+    }
+  },
+  "name": "n8n Workflow Builder MCP"
 }

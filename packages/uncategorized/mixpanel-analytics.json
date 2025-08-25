@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mixpanel-analytics",
-	"description": "Track analytics events in Mixpanel, supporting custom events, page views, user profiles, and signups.",
-	"url": "https://github.com/moonbirdai/mixpanel-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Mixpanel MCP Server"
+  "type": "mcp-server",
+  "packageName": "mixpanel-analytics",
+  "description": "Track analytics events in Mixpanel, supporting custom events, page views, user profiles, and signups.",
+  "url": "https://github.com/moonbirdai/mixpanel-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Mixpanel MCP Server"
 }

@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-ai-server",
-	"description": "A modular tool that combines RAG-based retrieval with Pinecone vector storage to create intelligent assistants capable of answering domain-specific questions from your knowledge base.",
-	"url": "https://github.com/MeetRathodNitsan/MCP1",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {
-		"OPENAI_API_KEY": {
-			"description": "Your OpenAI API key",
-			"required": true
-		},
-		"PINECONE_API_KEY": {
-			"description": "Your Pinecone API key",
-			"required": true
-		},
-		"PINECONE_ENVIRONMENT": {
-			"description": "Your Pinecone environment",
-			"required": true
-		}
-	},
-	"name": "MCP1"
+  "type": "mcp-server",
+  "packageName": "mcp-ai-server",
+  "description": "A modular tool that combines RAG-based retrieval with Pinecone vector storage to create intelligent assistants capable of answering domain-specific questions from your knowledge base.",
+  "url": "https://github.com/MeetRathodNitsan/MCP1",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key",
+      "required": true
+    },
+    "PINECONE_API_KEY": {
+      "description": "Your Pinecone API key",
+      "required": true
+    },
+    "PINECONE_ENVIRONMENT": {
+      "description": "Your Pinecone environment",
+      "required": true
+    }
+  },
+  "name": "MCP1"
 }

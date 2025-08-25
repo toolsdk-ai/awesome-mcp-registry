@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-time",
-	"description": "Utility to retrive current UTC using Node",
-	"url": "https://github.com/phialsbasement/mcp-time",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Time"
+  "type": "mcp-server",
+  "packageName": "mcp-time",
+  "description": "Utility to retrive current UTC using Node",
+  "url": "https://github.com/phialsbasement/mcp-time",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Time"
 }

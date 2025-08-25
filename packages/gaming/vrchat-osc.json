@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "vrchat-osc",
-	"description": "Provides a bridge between AI assistants and VRChat, enabling direct avatar parameter manipulation, movement control, and interaction through WebSocket and OSC protocols.",
-	"url": "https://github.com/krekun/vrchat-mcp-osc",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "VRChat MCP OSC"
+  "type": "mcp-server",
+  "packageName": "vrchat-osc",
+  "description": "Provides a bridge between AI assistants and VRChat, enabling direct avatar parameter manipulation, movement control, and interaction through WebSocket and OSC protocols.",
+  "url": "https://github.com/krekun/vrchat-mcp-osc",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "VRChat MCP OSC"
 }

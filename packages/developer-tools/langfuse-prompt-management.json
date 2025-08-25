@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "langfuse-prompt-management",
-	"description": "Integrates with Langfuse to enable dynamic prompt management, version control, and retrieval for AI applications",
-	"url": "https://github.com/langfuse/mcp-server-langfuse",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Langfuse MCP Server"
+  "type": "mcp-server",
+  "packageName": "langfuse-prompt-management",
+  "description": "Integrates with Langfuse to enable dynamic prompt management, version control, and retrieval for AI applications",
+  "url": "https://github.com/langfuse/mcp-server-langfuse",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Langfuse MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "binance-spot-trading",
-	"description": "Integrates with Binance spot trading API to enable automated cryptocurrency trading strategies using SQLite for data storage and secure credential management.",
-	"url": "https://github.com/kydlikebtc/mcp-server-bn",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Binance Spot Trading MCP"
+  "type": "mcp-server",
+  "packageName": "binance-spot-trading",
+  "description": "Integrates with Binance spot trading API to enable automated cryptocurrency trading strategies using SQLite for data storage and secure credential management.",
+  "url": "https://github.com/kydlikebtc/mcp-server-bn",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Binance Spot Trading MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cheerlights",
-	"description": "Connects Claude to the CheerLights IoT ecosystem, enabling retrieval of current colors and history from the global light synchronization project through the ThingSpeak API.",
-	"url": "https://github.com/cheerlights/cheerlights-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "CheerLights MCP"
+  "type": "mcp-server",
+  "packageName": "cheerlights",
+  "description": "Connects Claude to the CheerLights IoT ecosystem, enabling retrieval of current colors and history from the global light synchronization project through the ThingSpeak API.",
+  "url": "https://github.com/cheerlights/cheerlights-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "CheerLights MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "contentstack-brandkit",
-	"description": "Provides a bridge to Contentstack's BrandKit product for managing knowledge vault content through CRUD operations for adding, updating, deleting, and searching content.",
-	"url": "https://github.com/viveksingh-ctrl/mcp-contentstack",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Contentstack MCP"
+  "type": "mcp-server",
+  "packageName": "contentstack-brandkit",
+  "description": "Provides a bridge to Contentstack's BrandKit product for managing knowledge vault content through CRUD operations for adding, updating, deleting, and searching content.",
+  "url": "https://github.com/viveksingh-ctrl/mcp-contentstack",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Contentstack MCP"
 }

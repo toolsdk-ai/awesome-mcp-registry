@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "memory-box",
-	"description": "Integrates with Memory Box to provide persistent, context-aware interactions through semantic memory storage and retrieval using vector embeddings and search capabilities.",
-	"url": "https://github.com/amotivv/memory-box-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Memory Box MCP"
+  "type": "mcp-server",
+  "packageName": "memory-box",
+  "description": "Integrates with Memory Box to provide persistent, context-aware interactions through semantic memory storage and retrieval using vector embeddings and search capabilities.",
+  "url": "https://github.com/amotivv/memory-box-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Memory Box MCP"
 }

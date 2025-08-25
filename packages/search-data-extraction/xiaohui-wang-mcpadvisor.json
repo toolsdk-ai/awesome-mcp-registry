@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@xiaohui-wang/mcpadvisor",
-	"description": "Discovery and recommendation service that helps find and understand available MCP services based on natural language queries, supporting multiple search backends for exploring servers by semantic similarity.",
-	"url": "https://github.com/istarwyh/mcpadvisor",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Advisor"
+  "type": "mcp-server",
+  "packageName": "@xiaohui-wang/mcpadvisor",
+  "description": "Discovery and recommendation service that helps find and understand available MCP services based on natural language queries, supporting multiple search backends for exploring servers by semantic similarity.",
+  "url": "https://github.com/istarwyh/mcpadvisor",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Advisor"
 }

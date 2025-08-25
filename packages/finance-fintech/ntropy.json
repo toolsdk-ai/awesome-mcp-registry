@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ntropy",
-	"description": "Integrates with Ntropy's API to enrich banking data, enabling detailed financial transaction analysis and categorization for AI applications.",
-	"url": "https://github.com/ntropy-network/ntropy-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Ntropy MCP"
+  "type": "mcp-server",
+  "packageName": "ntropy",
+  "description": "Integrates with Ntropy's API to enrich banking data, enabling detailed financial transaction analysis and categorization for AI applications.",
+  "url": "https://github.com/ntropy-network/ntropy-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Ntropy MCP"
 }

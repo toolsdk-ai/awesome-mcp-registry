@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cloudflare-documentation",
-	"description": "Connects AI systems to Cloudflare's documentation through Vectorize, enabling semantic search and retrieval of relevant content about Cloudflare products and services.",
-	"url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/docs-vectorize",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Docs Vectorize MCP"
+  "type": "mcp-server",
+  "packageName": "cloudflare-documentation",
+  "description": "Connects AI systems to Cloudflare's documentation through Vectorize, enabling semantic search and retrieval of relevant content about Cloudflare products and services.",
+  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/docs-vectorize",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Docs Vectorize MCP"
 }

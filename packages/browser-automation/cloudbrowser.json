@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cloudbrowser",
-	"description": "Provides an anti-association fingerprint browser environment and automated interaction APIs.",
-	"url": "https://github.com/clpublic/mcp-server-cloudbrowser",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Cloudbrowser MCP Server"
+  "type": "mcp-server",
+  "packageName": "cloudbrowser",
+  "description": "Provides an anti-association fingerprint browser environment and automated interaction APIs.",
+  "url": "https://github.com/clpublic/mcp-server-cloudbrowser",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Cloudbrowser MCP Server"
 }

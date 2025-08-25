@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-ollama",
-	"description": "Integrates with Ollama for local large language model inference, enabling text generation and model management without relying on cloud APIs.",
-	"url": "https://github.com/emgeee/mcp-ollama",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Ollama"
+  "type": "mcp-server",
+  "packageName": "mcp-ollama",
+  "description": "Integrates with Ollama for local large language model inference, enabling text generation and model management without relying on cloud APIs.",
+  "url": "https://github.com/emgeee/mcp-ollama",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Ollama"
 }

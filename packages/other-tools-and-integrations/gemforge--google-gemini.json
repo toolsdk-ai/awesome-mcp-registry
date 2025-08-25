@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gemforge-(google-gemini)",
-	"description": "Provides a specialized server that connects to Google's Gemini models with optimized tools for search, reasoning, code analysis, and file operations, automatically selecting the best model based on task requirements.",
-	"url": "https://github.com/pv-bhat/gemforge-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "GemForge MCP"
+  "type": "mcp-server",
+  "packageName": "gemforge-(google-gemini)",
+  "description": "Provides a specialized server that connects to Google's Gemini models with optimized tools for search, reasoning, code analysis, and file operations, automatically selecting the best model based on task requirements.",
+  "url": "https://github.com/pv-bhat/gemforge-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "GemForge MCP"
 }

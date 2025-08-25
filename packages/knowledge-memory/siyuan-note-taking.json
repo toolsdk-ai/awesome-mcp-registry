@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "siyuan-note-taking",
-	"description": "Integrates with SiYuan note-taking application to enable reading, writing, searching, and querying functionality directly within your knowledge management workflows.",
-	"url": "https://github.com/opaqueglass/syplugin-anmcpserver",
-	"runtime": "node",
-	"license": "agpl-3.0",
-	"env": {},
-	"name": "Siyuan Note Taking MCP Server"
+  "type": "mcp-server",
+  "packageName": "siyuan-note-taking",
+  "description": "Integrates with SiYuan note-taking application to enable reading, writing, searching, and querying functionality directly within your knowledge management workflows.",
+  "url": "https://github.com/opaqueglass/syplugin-anmcpserver",
+  "runtime": "node",
+  "license": "agpl-3.0",
+  "env": {},
+  "name": "Siyuan Note Taking MCP Server"
 }

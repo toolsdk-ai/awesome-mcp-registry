@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@tokenizin-com/mcp-server-nativewind",
-	"description": "Transforms Tailwind components to NativeWind 4 for React Native.",
-	"url": "https://github.com/tokenizin-agency/mcp-nativewind",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP NativeWind"
+  "type": "mcp-server",
+  "packageName": "@tokenizin-com/mcp-server-nativewind",
+  "description": "Transforms Tailwind components to NativeWind 4 for React Native.",
+  "url": "https://github.com/tokenizin-agency/mcp-nativewind",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP NativeWind"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dice-thrower",
-	"description": "Simulates dice rolls with configurable number and sides for tabletop gaming and random number generation",
-	"url": "https://github.com/atuinturtle/dice-thrower-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Dice Thrower MCP Server"
+  "type": "mcp-server",
+  "packageName": "dice-thrower",
+  "description": "Simulates dice rolls with configurable number and sides for tabletop gaming and random number generation",
+  "url": "https://github.com/atuinturtle/dice-thrower-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Dice Thrower MCP Server"
 }

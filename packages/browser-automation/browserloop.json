@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "browserloop",
-	"description": "Captures web page screenshots using Playwright with support for full-page, element-specific, and viewport screenshots in PNG, JPEG, and WebP formats, featuring cookie authentication, domain filtering, and configurable quality settings for web testing and visual verification workflows.",
-	"url": "https://github.com/mattiasw/browserloop",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"BROWSERLOOP_DEFAULT_COOKIES": {
-			"description": "/home/username/.config/browserloop/cookies.json",
-			"required": true
-		},
-		"BROWSERLOOP_DEFAULT_FORMAT": {
-			"description": "webp",
-			"required": true
-		},
-		"BROWSERLOOP_DEFAULT_QUALITY": {
-			"description": "85",
-			"required": true
-		}
-	},
-	"name": "BrowserLoop"
+  "type": "mcp-server",
+  "packageName": "browserloop",
+  "description": "Captures web page screenshots using Playwright with support for full-page, element-specific, and viewport screenshots in PNG, JPEG, and WebP formats, featuring cookie authentication, domain filtering, and configurable quality settings for web testing and visual verification workflows.",
+  "url": "https://github.com/mattiasw/browserloop",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "BROWSERLOOP_DEFAULT_COOKIES": {
+      "description": "/home/username/.config/browserloop/cookies.json",
+      "required": true
+    },
+    "BROWSERLOOP_DEFAULT_FORMAT": {
+      "description": "webp",
+      "required": true
+    },
+    "BROWSERLOOP_DEFAULT_QUALITY": {
+      "description": "85",
+      "required": true
+    }
+  },
+  "name": "BrowserLoop"
 }

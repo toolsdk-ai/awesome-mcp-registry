@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "duckduckgo-search",
-	"description": "Lightweight TypeScript-based DuckDuckGo search server that enables developers to retrieve search results programmatically using the duck-duck-scrape library with minimal configuration.",
-	"url": "https://github.com/zhsama/duckduckgo-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "DuckDuckGo MCP Server"
+  "type": "mcp-server",
+  "packageName": "duckduckgo-search",
+  "description": "Lightweight TypeScript-based DuckDuckGo search server that enables developers to retrieve search results programmatically using the duck-duck-scrape library with minimal configuration.",
+  "url": "https://github.com/zhsama/duckduckgo-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "DuckDuckGo MCP Server"
 }

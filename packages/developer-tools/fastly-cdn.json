@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "fastly-cdn",
-	"description": "Enables management of Fastly CDN services through authenticated API requests and CLI commands for DevOps teams using natural language interactions.",
-	"url": "https://github.com/arodoid/fastlymcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Fastly MCP"
+  "type": "mcp-server",
+  "packageName": "fastly-cdn",
+  "description": "Enables management of Fastly CDN services through authenticated API requests and CLI commands for DevOps teams using natural language interactions.",
+  "url": "https://github.com/arodoid/fastlymcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Fastly MCP"
 }

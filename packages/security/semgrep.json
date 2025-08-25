@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "semgrep",
-	"description": "Integrates Semgrep for static code analysis, enabling AI-driven security scanning, vulnerability detection, and code quality improvement across multiple programming languages.",
-	"url": "https://github.com/szowesgad/mcp-server-semgrep",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Semgrep MCP Server"
+  "type": "mcp-server",
+  "packageName": "semgrep",
+  "description": "Integrates Semgrep for static code analysis, enabling AI-driven security scanning, vulnerability detection, and code quality improvement across multiple programming languages.",
+  "url": "https://github.com/szowesgad/mcp-server-semgrep",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Semgrep MCP Server"
 }

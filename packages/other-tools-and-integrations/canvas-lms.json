@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "canvas-lms",
-	"description": "Manage courses and assignments in Canvas learning system.",
-	"url": "https://github.com/dmontgomery40/mcp-canvas-lms",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Canvas LMS MCP"
+  "type": "mcp-server",
+  "packageName": "canvas-lms",
+  "description": "Manage courses and assignments in Canvas learning system.",
+  "url": "https://github.com/dmontgomery40/mcp-canvas-lms",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Canvas LMS MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "smartlead",
-	"description": "Integrates with Smartlead's email marketing API to manage campaigns, track leads, and optimize email deliverability through a tiered licensing system with multiple operation modes.",
-	"url": "https://github.com/jean-technologies/smartlead-mcp-server-local",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Smartlead MCP Server"
+  "type": "mcp-server",
+  "packageName": "smartlead",
+  "description": "Integrates with Smartlead's email marketing API to manage campaigns, track leads, and optimize email deliverability through a tiered licensing system with multiple operation modes.",
+  "url": "https://github.com/jean-technologies/smartlead-mcp-server-local",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Smartlead MCP Server"
 }

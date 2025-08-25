@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "tongyi-wanx",
-	"description": "Enables image generation through Alibaba's Tongyi Wanx API, handling authentication, communication, and response formatting for applications requiring AI-generated visuals.",
-	"url": "https://github.com/suixinlei/tongyi-wanx-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Tongyi Wanx MCP Server"
+  "type": "mcp-server",
+  "packageName": "tongyi-wanx",
+  "description": "Enables image generation through Alibaba's Tongyi Wanx API, handling authentication, communication, and response formatting for applications requiring AI-generated visuals.",
+  "url": "https://github.com/suixinlei/tongyi-wanx-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Tongyi Wanx MCP Server"
 }

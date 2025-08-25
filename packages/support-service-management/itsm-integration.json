@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "itsm-integration",
-	"description": "Integrates with multiple IT Service Management systems (ServiceNow, Jira, Zendesk, Ivanti Neurons, and Cherwell) to enable ticket creation, retrieval, updates, assignment, and knowledge base searches through a unified interface.",
-	"url": "https://github.com/madosh/mcp-itsm",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "ITSM Integration MCP"
+  "type": "mcp-server",
+  "packageName": "itsm-integration",
+  "description": "Integrates with multiple IT Service Management systems (ServiceNow, Jira, Zendesk, Ivanti Neurons, and Cherwell) to enable ticket creation, retrieval, updates, assignment, and knowledge base searches through a unified interface.",
+  "url": "https://github.com/madosh/mcp-itsm",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "ITSM Integration MCP"
 }

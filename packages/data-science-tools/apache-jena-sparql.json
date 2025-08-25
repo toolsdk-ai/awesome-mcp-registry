@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "apache-jena-sparql",
-	"description": "Provides a bridge between AI agents and Apache Jena for executing SPARQL queries, performing updates, and accessing RDF data stored in Jena Fuseki servers with secure API key authentication.",
-	"url": "https://github.com/ramuzes/mcp-jena",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Jena"
+  "type": "mcp-server",
+  "packageName": "apache-jena-sparql",
+  "description": "Provides a bridge between AI agents and Apache Jena for executing SPARQL queries, performing updates, and accessing RDF data stored in Jena Fuseki servers with secure API key authentication.",
+  "url": "https://github.com/ramuzes/mcp-jena",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Jena"
 }

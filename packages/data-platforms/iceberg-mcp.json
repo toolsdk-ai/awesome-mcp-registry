@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "iceberg-mcp",
-	"description": "Provides direct access to Apache Iceberg tables stored in AWS, enabling exploration of catalogs, schemas, properties, and partition information without complex queries or code.",
-	"url": "https://github.com/ryft-io/iceberg-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Iceberg MCP"
+  "type": "mcp-server",
+  "packageName": "iceberg-mcp",
+  "description": "Provides direct access to Apache Iceberg tables stored in AWS, enabling exploration of catalogs, schemas, properties, and partition information without complex queries or code.",
+  "url": "https://github.com/ryft-io/iceberg-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Iceberg MCP"
 }

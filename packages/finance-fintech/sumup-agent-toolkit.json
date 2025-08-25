@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sumup-agent-toolkit",
-	"description": "Develop payment products with SumUp. Interact with the SumUp API and search developer documentation.",
-	"url": "https://github.com/sumup/sumup-agent-toolkit/tree/HEAD/mcp",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "SumUp Agent Toolkit MCP"
+  "type": "mcp-server",
+  "packageName": "sumup-agent-toolkit",
+  "description": "Develop payment products with SumUp. Interact with the SumUp API and search developer documentation.",
+  "url": "https://github.com/sumup/sumup-agent-toolkit/tree/HEAD/mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "SumUp Agent Toolkit MCP"
 }

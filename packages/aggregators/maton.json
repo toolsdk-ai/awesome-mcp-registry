@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "maton",
-	"description": "Integrate with Maton APIs through function calling. This protocol supports various apps and actions to interact with different Maton services.",
-	"url": "https://github.com/maton-ai/agent-toolkit/tree/HEAD/modelcontextprotocol",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Maton MCP Server"
+  "type": "mcp-server",
+  "packageName": "maton",
+  "description": "Integrate with Maton APIs through function calling. This protocol supports various apps and actions to interact with different Maton services.",
+  "url": "https://github.com/maton-ai/agent-toolkit/tree/HEAD/modelcontextprotocol",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Maton MCP Server"
 }

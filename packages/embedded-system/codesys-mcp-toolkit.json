@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@codesys/mcp-toolkit",
-	"description": "Integrates with CODESYS V3 automation programming environments through Python scripting to enable project management, POU creation and editing, code manipulation, and compilation tasks for PLC development workflows.",
-	"url": "https://github.com/johannespettersson80/codesys-mcp-toolkit",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "CODESYS MCP Toolkit"
+  "type": "mcp-server",
+  "packageName": "@codesys/mcp-toolkit",
+  "description": "Integrates with CODESYS V3 automation programming environments through Python scripting to enable project management, POU creation and editing, code manipulation, and compilation tasks for PLC development workflows.",
+  "url": "https://github.com/johannespettersson80/codesys-mcp-toolkit",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "CODESYS MCP Toolkit"
 }

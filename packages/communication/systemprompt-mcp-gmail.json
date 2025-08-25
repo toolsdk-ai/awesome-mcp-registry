@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "systemprompt-mcp-gmail",
-	"description": "Integrates with Gmail to enable natural language-based email management, including searching, reading, deleting, and sending emails with attachment support and conversation threading.",
-	"url": "https://github.com/ejb503/systemprompt-mcp-gmail",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Systemprompt MCP Gmail"
+  "type": "mcp-server",
+  "packageName": "systemprompt-mcp-gmail",
+  "description": "Integrates with Gmail to enable natural language-based email management, including searching, reading, deleting, and sending emails with attachment support and conversation threading.",
+  "url": "https://github.com/ejb503/systemprompt-mcp-gmail",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Systemprompt MCP Gmail"
 }

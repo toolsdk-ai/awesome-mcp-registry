@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "markdown-web-crawl",
-	"description": "Python-based web crawler extracts website content into markdown files, enabling efficient content aggregation and site archiving.",
-	"url": "https://github.com/jmh108/md-webcrawl-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Markdown WebCrawl MCP"
+  "type": "mcp-server",
+  "packageName": "markdown-web-crawl",
+  "description": "Python-based web crawler extracts website content into markdown files, enabling efficient content aggregation and site archiving.",
+  "url": "https://github.com/jmh108/md-webcrawl-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Markdown WebCrawl MCP"
 }

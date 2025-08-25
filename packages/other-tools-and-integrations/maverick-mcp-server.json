@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "maverick-mcp-server",
-	"description": "An MCP server that enables Amazon Q CLI users to create, query, and manage Maverick sites through natural language commands.",
-	"url": "https://github.com/VigneshR1812/Maverick-MCP",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {
-		"MAVERICK_BASE_URL": {
-			"description": "Base URL for Maverick API",
-			"required": true
-		},
-		"MAVERICK_API_TOKEN": {
-			"description": "Authentication token for Maverick API",
-			"required": true
-		}
-	},
-	"name": "Maverick MCP"
+  "type": "mcp-server",
+  "packageName": "maverick-mcp-server",
+  "description": "An MCP server that enables Amazon Q CLI users to create, query, and manage Maverick sites through natural language commands.",
+  "url": "https://github.com/VigneshR1812/Maverick-MCP",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "MAVERICK_BASE_URL": {
+      "description": "Base URL for Maverick API",
+      "required": true
+    },
+    "MAVERICK_API_TOKEN": {
+      "description": "Authentication token for Maverick API",
+      "required": true
+    }
+  },
+  "name": "Maverick MCP"
 }

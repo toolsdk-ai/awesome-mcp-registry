@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dataforseo",
-	"description": "Bridges DataForSEO's SEO APIs with natural language interactions, enabling comprehensive search engine data retrieval and business intelligence analysis through intelligent tool integration.",
-	"url": "https://github.com/skobyn/dataforseo-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "DataForSEO MCP Server"
+  "type": "mcp-server",
+  "packageName": "dataforseo",
+  "description": "Bridges DataForSEO's SEO APIs with natural language interactions, enabling comprehensive search engine data retrieval and business intelligence analysis through intelligent tool integration.",
+  "url": "https://github.com/skobyn/dataforseo-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "DataForSEO MCP Server"
 }

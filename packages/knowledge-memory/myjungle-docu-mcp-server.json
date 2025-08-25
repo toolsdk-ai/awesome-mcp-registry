@@ -1,35 +1,35 @@
 {
-	"type": "mcp-server",
-	"packageName": "@myjungle/docu-mcp-server",
-	"description": "RAG-enabled documentation server that integrates with vector databases to provide semantic search capabilities for code, documentation, and diagrams without data leaving your environment.",
-	"url": "https://github.com/yannicktm/docu-mcp/tree/HEAD/mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"VECTOR_DB_PROVIDER": {
-			"description": "qdrant",
-			"required": true
-		},
-		"QDRANT_URL": {
-			"description": "http://localhost:6333",
-			"required": true
-		},
-		"EMBEDDING_PROVIDER": {
-			"description": "ollama",
-			"required": true
-		},
-		"EMBEDDING_MODEL": {
-			"description": "bge-m3:latest",
-			"required": true
-		},
-		"EMBEDDING_DIMENSION": {
-			"description": "1024",
-			"required": true
-		},
-		"OLLAMA_URL": {
-			"description": "http://localhost:11434",
-			"required": true
-		}
-	},
-	"name": "Docu MCP Server"
+  "type": "mcp-server",
+  "packageName": "@myjungle/docu-mcp-server",
+  "description": "RAG-enabled documentation server that integrates with vector databases to provide semantic search capabilities for code, documentation, and diagrams without data leaving your environment.",
+  "url": "https://github.com/yannicktm/docu-mcp/tree/HEAD/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "VECTOR_DB_PROVIDER": {
+      "description": "qdrant",
+      "required": true
+    },
+    "QDRANT_URL": {
+      "description": "http://localhost:6333",
+      "required": true
+    },
+    "EMBEDDING_PROVIDER": {
+      "description": "ollama",
+      "required": true
+    },
+    "EMBEDDING_MODEL": {
+      "description": "bge-m3:latest",
+      "required": true
+    },
+    "EMBEDDING_DIMENSION": {
+      "description": "1024",
+      "required": true
+    },
+    "OLLAMA_URL": {
+      "description": "http://localhost:11434",
+      "required": true
+    }
+  },
+  "name": "Docu MCP Server"
 }

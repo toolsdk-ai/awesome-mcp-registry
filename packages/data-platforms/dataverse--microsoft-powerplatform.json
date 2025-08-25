@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dataverse-(microsoft-powerplatform)",
-	"description": "Integrates with Microsoft's PowerPlatform API to enable querying and interaction with Dataverse entities, providing access to metadata, attributes, relationships, and records through authenticated requests without navigating complex API structures.",
-	"url": "https://github.com/bonanip512/dataversemcpserver",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Dataverse MCP Server"
+  "type": "mcp-server",
+  "packageName": "dataverse-(microsoft-powerplatform)",
+  "description": "Integrates with Microsoft's PowerPlatform API to enable querying and interaction with Dataverse entities, providing access to metadata, attributes, relationships, and records through authenticated requests without navigating complex API structures.",
+  "url": "https://github.com/bonanip512/dataversemcpserver",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Dataverse MCP Server"
 }

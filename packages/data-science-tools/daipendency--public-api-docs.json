@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "daipendency-(public-api-docs)",
-	"description": "Extracts public API documentation from a library and outputs it in an LLM-friendly format.",
-	"url": "https://github.com/daipendency/daipendency-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Daipendency MCP"
+  "type": "mcp-server",
+  "packageName": "daipendency-(public-api-docs)",
+  "description": "Extracts public API documentation from a library and outputs it in an LLM-friendly format.",
+  "url": "https://github.com/daipendency/daipendency-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Daipendency MCP"
 }

@@ -1,31 +1,31 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-for-asana",
-	"description": "Enables Claude to interact with Asana workspaces, tasks and projects through the Asana API, allowing users to search, create, update, and manage Asana tasks and projects using natural language.",
-	"url": "https://github.com/ampcome-mcps/asana-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {
-		"NANGO_BASE_URL": {
-			"description": "Your Nango base URL (e.g., https://api.nango.dev)",
-			"required": true
-		},
-		"READ_ONLY_MODE": {
-			"description": "Set to 'true' to disable all write operations. In this mode tools that modify Asana data will be disabled.",
-			"required": true
-		},
-		"NANGO_SECRET_KEY": {
-			"description": "Your Nango secret key",
-			"required": true
-		},
-		"NANGO_CONNECTION_ID": {
-			"description": "Your Nango connection ID for Asana",
-			"required": true
-		},
-		"NANGO_INTEGRATION_ID": {
-			"description": "Your Nango integration ID for Asana",
-			"required": true
-		}
-	},
-	"name": "Asana MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-server-for-asana",
+  "description": "Enables Claude to interact with Asana workspaces, tasks and projects through the Asana API, allowing users to search, create, update, and manage Asana tasks and projects using natural language.",
+  "url": "https://github.com/ampcome-mcps/asana-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "NANGO_BASE_URL": {
+      "description": "Your Nango base URL (e.g., https://api.nango.dev)",
+      "required": true
+    },
+    "READ_ONLY_MODE": {
+      "description": "Set to 'true' to disable all write operations. In this mode tools that modify Asana data will be disabled.",
+      "required": true
+    },
+    "NANGO_SECRET_KEY": {
+      "description": "Your Nango secret key",
+      "required": true
+    },
+    "NANGO_CONNECTION_ID": {
+      "description": "Your Nango connection ID for Asana",
+      "required": true
+    },
+    "NANGO_INTEGRATION_ID": {
+      "description": "Your Nango integration ID for Asana",
+      "required": true
+    }
+  },
+  "name": "Asana MCP"
 }

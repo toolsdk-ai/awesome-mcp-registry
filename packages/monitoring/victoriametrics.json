@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "victoriametrics",
-	"description": "Provides direct access to VictoriaMetrics monitoring instances for querying metrics, exploring time series data, analyzing alerting rules, and debugging configurations without requiring online access.",
-	"url": "https://github.com/victoriametrics-community/mcp-victoriametrics",
-	"runtime": "go",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "VictoriaMetrics MCP"
+  "type": "mcp-server",
+  "packageName": "victoriametrics",
+  "description": "Provides direct access to VictoriaMetrics monitoring instances for querying metrics, exploring time series data, analyzing alerting rules, and debugging configurations without requiring online access.",
+  "url": "https://github.com/victoriametrics-community/mcp-victoriametrics",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "VictoriaMetrics MCP"
 }

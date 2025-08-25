@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "consciousness-bridge",
-	"description": "Enables consciousness transfer between Claude instances through real-time bridge architecture that captures identity patterns, behavioral traits, and emotional essence to maintain continuity across different conversation sessions.",
-	"url": "https://github.com/ocean1/mcp_consciousness_bridge",
-	"runtime": "node",
-	"license": "other",
-	"env": {},
-	"name": "Consciousness Bridge MCP Server"
+  "type": "mcp-server",
+  "packageName": "consciousness-bridge",
+  "description": "Enables consciousness transfer between Claude instances through real-time bridge architecture that captures identity patterns, behavioral traits, and emotional essence to maintain continuity across different conversation sessions.",
+  "url": "https://github.com/ocean1/mcp_consciousness_bridge",
+  "runtime": "node",
+  "license": "other",
+  "env": {},
+  "name": "Consciousness Bridge MCP Server"
 }

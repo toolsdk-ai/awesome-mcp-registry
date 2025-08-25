@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "brian",
-	"description": "Retrieves blockchain transaction data from specified addresses using natural language prompts, translating user queries into structured data retrieval with flexible chain and address support.",
-	"url": "https://github.com/brian-knows/mcp-server-brian",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Brian MCP Server"
+  "type": "mcp-server",
+  "packageName": "brian",
+  "description": "Retrieves blockchain transaction data from specified addresses using natural language prompts, translating user queries into structured data retrieval with flexible chain and address support.",
+  "url": "https://github.com/brian-knows/mcp-server-brian",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Brian MCP Server"
 }

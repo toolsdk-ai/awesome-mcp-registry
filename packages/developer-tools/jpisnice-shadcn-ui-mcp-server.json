@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "jpisnice-shadcn-ui-mcp-server",
-	"description": "A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation",
-	"url": "https://github.com/Jpisnice/shadcn-ui-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {
-		"GITHUB_PERSONAL_ACCESS_TOKEN": {
-			"description": "GitHub Personal Access Token for higher rate limits (5000 requests/hour instead of 60 requests/hour)",
-			"required": true
-		}
-	},
-	"name": "Shadcn UI MCP Server"
+  "type": "mcp-server",
+  "packageName": "jpisnice-shadcn-ui-mcp-server",
+  "description": "A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation",
+  "url": "https://github.com/Jpisnice/shadcn-ui-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": {
+      "description": "GitHub Personal Access Token for higher rate limits (5000 requests/hour instead of 60 requests/hour)",
+      "required": true
+    }
+  },
+  "name": "Shadcn UI MCP Server"
 }

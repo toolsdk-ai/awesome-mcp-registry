@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gitlab-review",
-	"description": "Integrates with GitLab's API to automate code review processes, enabling retrieval of merge request details and posting of discussion comments.",
-	"url": "https://github.com/photosynth-inc/gitlab_review",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "GitLab Review MCP Server"
+  "type": "mcp-server",
+  "packageName": "gitlab-review",
+  "description": "Integrates with GitLab's API to automate code review processes, enabling retrieval of merge request details and posting of discussion comments.",
+  "url": "https://github.com/photosynth-inc/gitlab_review",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "GitLab Review MCP Server"
 }

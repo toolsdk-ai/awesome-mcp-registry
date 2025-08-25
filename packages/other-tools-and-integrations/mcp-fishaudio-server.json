@@ -1,39 +1,39 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-fishaudio-server",
-	"description": "An MCP (Model Context Protocol) server that provides seamless integration between Fish Audio's Text-to-Speech API and LLMs like Claude, enabling natural language-driven speech synthesis.",
-	"url": "https://github.com/da-okazaki/mcp-fish-audio-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {
-		"FISH_API_KEY": {
-			"description": "Your Fish Audio API key",
-			"required": true
-		},
-		"FISH_MODEL_ID": {
-			"description": "TTS model to use (s1, speech-1.5, speech-1.6)",
-			"required": true
-		},
-		"FISH_STREAMING": {
-			"description": "Enable streaming by default",
-			"required": true
-		},
-		"AUDIO_OUTPUT_DIR": {
-			"description": "Directory for audio file output",
-			"required": true
-		},
-		"FISH_MP3_BITRATE": {
-			"description": "MP3 bitrate (64, 128, 192)",
-			"required": true
-		},
-		"FISH_REFERENCE_ID": {
-			"description": "Default voice reference ID",
-			"required": true
-		},
-		"FISH_OUTPUT_FORMAT": {
-			"description": "Default audio format (mp3, wav, pcm, opus)",
-			"required": true
-		}
-	},
-	"name": "MCP Fish Audio Server"
+  "type": "mcp-server",
+  "packageName": "mcp-fishaudio-server",
+  "description": "An MCP (Model Context Protocol) server that provides seamless integration between Fish Audio's Text-to-Speech API and LLMs like Claude, enabling natural language-driven speech synthesis.",
+  "url": "https://github.com/da-okazaki/mcp-fish-audio-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "FISH_API_KEY": {
+      "description": "Your Fish Audio API key",
+      "required": true
+    },
+    "FISH_MODEL_ID": {
+      "description": "TTS model to use (s1, speech-1.5, speech-1.6)",
+      "required": true
+    },
+    "FISH_STREAMING": {
+      "description": "Enable streaming by default",
+      "required": true
+    },
+    "AUDIO_OUTPUT_DIR": {
+      "description": "Directory for audio file output",
+      "required": true
+    },
+    "FISH_MP3_BITRATE": {
+      "description": "MP3 bitrate (64, 128, 192)",
+      "required": true
+    },
+    "FISH_REFERENCE_ID": {
+      "description": "Default voice reference ID",
+      "required": true
+    },
+    "FISH_OUTPUT_FORMAT": {
+      "description": "Default audio format (mp3, wav, pcm, opus)",
+      "required": true
+    }
+  },
+  "name": "MCP Fish Audio Server"
 }

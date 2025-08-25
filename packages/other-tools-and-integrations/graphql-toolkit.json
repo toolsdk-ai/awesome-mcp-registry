@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "graphql-toolkit",
-	"description": "Enables LLMs to interact with GraphQL APIs through schema introspection and query execution, with security measures like disabled mutations and support for authentication headers.",
-	"url": "https://github.com/kailashappdev/graphql-mcp-toolkit",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "GraphQL MCP Toolkit"
+  "type": "mcp-server",
+  "packageName": "graphql-toolkit",
+  "description": "Enables LLMs to interact with GraphQL APIs through schema introspection and query execution, with security measures like disabled mutations and support for authentication headers.",
+  "url": "https://github.com/kailashappdev/graphql-mcp-toolkit",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "GraphQL MCP Toolkit"
 }

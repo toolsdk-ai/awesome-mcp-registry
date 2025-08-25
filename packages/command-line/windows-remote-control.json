@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "windows-remote-control",
-	"description": "Enables remote automation of Windows systems for controlling mouse, keyboard, and screen capture via nut.js.",
-	"url": "https://github.com/claude-did-this/mcpcontrol",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCPControl"
+  "type": "mcp-server",
+  "packageName": "windows-remote-control",
+  "description": "Enables remote automation of Windows systems for controlling mouse, keyboard, and screen capture via nut.js.",
+  "url": "https://github.com/claude-did-this/mcpcontrol",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCPControl"
 }

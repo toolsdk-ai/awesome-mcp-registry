@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "codealive",
-	"description": "Provides a bridge to CodeAlive's platform for semantic code search, repository exploration, and context-aware chat completions that leverage deep understanding of entire codebases including documentation and dependencies.",
-	"url": "https://github.com/codealive-ai/codealive-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "CodeAlive MCP"
+  "type": "mcp-server",
+  "packageName": "codealive",
+  "description": "Provides a bridge to CodeAlive's platform for semantic code search, repository exploration, and context-aware chat completions that leverage deep understanding of entire codebases including documentation and dependencies.",
+  "url": "https://github.com/codealive-ai/codealive-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "CodeAlive MCP"
 }

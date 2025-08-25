@@ -1,31 +1,31 @@
 {
-	"type": "mcp-server",
-	"packageName": "aws-s3-mcp",
-	"description": "Provides direct access to Amazon S3 storage for listing buckets, browsing objects, and retrieving file contents with automatic text extraction from PDFs and other file types.",
-	"url": "https://github.com/samuraikun/aws-s3-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"AWS_REGION": {
-			"description": "us-east-1",
-			"required": true
-		},
-		"S3_BUCKETS": {
-			"description": "bucket1,bucket2,bucket3",
-			"required": true
-		},
-		"S3_MAX_BUCKETS": {
-			"description": "5",
-			"required": true
-		},
-		"AWS_ACCESS_KEY_ID": {
-			"description": "your-access-key",
-			"required": true
-		},
-		"AWS_SECRET_ACCESS_KEY": {
-			"description": "your-secret-key",
-			"required": true
-		}
-	},
-	"name": "AWS S3 MCP"
+  "type": "mcp-server",
+  "packageName": "aws-s3-mcp",
+  "description": "Provides direct access to Amazon S3 storage for listing buckets, browsing objects, and retrieving file contents with automatic text extraction from PDFs and other file types.",
+  "url": "https://github.com/samuraikun/aws-s3-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "AWS_REGION": {
+      "description": "us-east-1",
+      "required": true
+    },
+    "S3_BUCKETS": {
+      "description": "bucket1,bucket2,bucket3",
+      "required": true
+    },
+    "S3_MAX_BUCKETS": {
+      "description": "5",
+      "required": true
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "description": "your-access-key",
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "description": "your-secret-key",
+      "required": true
+    }
+  },
+  "name": "AWS S3 MCP"
 }

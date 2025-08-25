@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "google-tasks",
-	"description": "Integrates with Google Tasks API to enable task management capabilities like listing, creating, and updating tasks.",
-	"url": "https://github.com/zcaceres/gtasks-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Gtasks MCP"
+  "type": "mcp-server",
+  "packageName": "google-tasks",
+  "description": "Integrates with Google Tasks API to enable task management capabilities like listing, creating, and updating tasks.",
+  "url": "https://github.com/zcaceres/gtasks-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Gtasks MCP"
 }

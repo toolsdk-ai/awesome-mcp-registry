@@ -1,31 +1,31 @@
 {
-	"type": "mcp-server",
-	"packageName": "hal-mcp",
-	"description": "Transforms OpenAPI/Swagger specifications into dynamic HTTP tools with secret management and URL restrictions, enabling secure API integration through automatic tool generation from API documentation.",
-	"url": "https://github.com/deanward/hal",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"HAL_SWAGGER_FILE": {
-			"description": "/path/to/your/openapi.json",
-			"required": true
-		},
-		"HAL_API_BASE_URL": {
-			"description": "https://api.example.com",
-			"required": true
-		},
-		"HAL_SECRET_API_KEY": {
-			"description": "your-secret-api-key",
-			"required": true
-		},
-		"HAL_SECRET_USERNAME": {
-			"description": "your-username",
-			"required": true
-		},
-		"HAL_SECRET_PASSWORD": {
-			"description": "your-password",
-			"required": true
-		}
-	},
-	"name": "HAL MCP"
+  "type": "mcp-server",
+  "packageName": "hal-mcp",
+  "description": "Transforms OpenAPI/Swagger specifications into dynamic HTTP tools with secret management and URL restrictions, enabling secure API integration through automatic tool generation from API documentation.",
+  "url": "https://github.com/deanward/hal",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "HAL_SWAGGER_FILE": {
+      "description": "/path/to/your/openapi.json",
+      "required": true
+    },
+    "HAL_API_BASE_URL": {
+      "description": "https://api.example.com",
+      "required": true
+    },
+    "HAL_SECRET_API_KEY": {
+      "description": "your-secret-api-key",
+      "required": true
+    },
+    "HAL_SECRET_USERNAME": {
+      "description": "your-username",
+      "required": true
+    },
+    "HAL_SECRET_PASSWORD": {
+      "description": "your-password",
+      "required": true
+    }
+  },
+  "name": "HAL MCP"
 }

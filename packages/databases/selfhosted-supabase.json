@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "selfhosted-supabase",
-	"description": "Provides a bridge between development environments and self-hosted Supabase instances for database introspection, migration management, and storage operations through direct RPC calls and database connections.",
-	"url": "https://github.com/henkdz/selfhosted-supabase-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Selfhosted Supabase MCP"
+  "type": "mcp-server",
+  "packageName": "selfhosted-supabase",
+  "description": "Provides a bridge between development environments and self-hosted Supabase instances for database introspection, migration management, and storage operations through direct RPC calls and database connections.",
+  "url": "https://github.com/henkdz/selfhosted-supabase-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Selfhosted Supabase MCP"
 }

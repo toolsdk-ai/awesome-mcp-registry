@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "codepipeline",
-	"description": "Enables AI assistants to manage and monitor AWS CodePipeline services through natural language commands, providing tools for pipeline execution, action approval, and metrics retrieval.",
-	"url": "https://github.com/cuongdev/mcp-codepipeline-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "CodePipeline MCP Server"
+  "type": "mcp-server",
+  "packageName": "codepipeline",
+  "description": "Enables AI assistants to manage and monitor AWS CodePipeline services through natural language commands, providing tools for pipeline execution, action approval, and metrics retrieval.",
+  "url": "https://github.com/cuongdev/mcp-codepipeline-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "CodePipeline MCP Server"
 }

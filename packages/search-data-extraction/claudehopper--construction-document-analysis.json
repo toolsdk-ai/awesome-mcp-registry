@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "claudehopper-(construction-document-analysis)",
-	"description": "Integrates with Claude Desktop to analyze construction documents, enabling semantic search across architectural drawings and specifications through LanceDB vector storage and Ollama local processing.",
-	"url": "https://github.com/arborist-ai/claudehopper",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "ClaudeHopper"
+  "type": "mcp-server",
+  "packageName": "claudehopper-(construction-document-analysis)",
+  "description": "Integrates with Claude Desktop to analyze construction documents, enabling semantic search across architectural drawings and specifications through LanceDB vector storage and Ollama local processing.",
+  "url": "https://github.com/arborist-ai/claudehopper",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "ClaudeHopper"
 }

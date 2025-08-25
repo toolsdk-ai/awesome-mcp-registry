@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "webflow",
-	"description": "Integration with the Webflow Data API.",
-	"url": "https://github.com/webflow/mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Webflow MCP Server"
+  "type": "mcp-server",
+  "packageName": "webflow",
+  "description": "Integration with the Webflow Data API.",
+  "url": "https://github.com/webflow/mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Webflow MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "whatsapp-messenger",
-	"description": "Enables sending formatted WhatsApp messages to specified recipients through Twilio's API for automated notifications and customer service workflows.",
-	"url": "https://github.com/wubbyweb/mcp-generated",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "WhatsApp MCP Server"
+  "type": "mcp-server",
+  "packageName": "whatsapp-messenger",
+  "description": "Enables sending formatted WhatsApp messages to specified recipients through Twilio's API for automated notifications and customer service workflows.",
+  "url": "https://github.com/wubbyweb/mcp-generated",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "WhatsApp MCP Server"
 }

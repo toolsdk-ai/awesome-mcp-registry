@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ntfy-notifications",
-	"description": "Enables real-time notifications through ntfy.sh, allowing assistants to send customizable alerts with titles and summaries to users for task completions, errors, or important events.",
-	"url": "https://github.com/teddyzxcv/ntfy-mcp",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Ntfy MCP"
+  "type": "mcp-server",
+  "packageName": "ntfy-notifications",
+  "description": "Enables real-time notifications through ntfy.sh, allowing assistants to send customizable alerts with titles and summaries to users for task completions, errors, or important events.",
+  "url": "https://github.com/teddyzxcv/ntfy-mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Ntfy MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "just-prompt-(multi-llm-provider)",
-	"description": "Unified interface for interacting with multiple LLM providers including OpenAI, Anthropic, Google Gemini, Groq, DeepSeek, and Ollama with parallel prompt sending and response file saving capabilities.",
-	"url": "https://github.com/disler/just-prompt",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Just Prompt"
+  "type": "mcp-server",
+  "packageName": "just-prompt-(multi-llm-provider)",
+  "description": "Unified interface for interacting with multiple LLM providers including OpenAI, Anthropic, Google Gemini, Groq, DeepSeek, and Ollama with parallel prompt sending and response file saving capabilities.",
+  "url": "https://github.com/disler/just-prompt",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Just Prompt"
 }

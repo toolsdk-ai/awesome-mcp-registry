@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "@merill/lokka",
-	"description": "Provides a bridge between Microsoft Graph API and natural language interaction, enabling conversational management of Microsoft 365 tenants without complex API calls.",
-	"url": "https://github.com/merill/lokka/tree/HEAD/src/mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TENANT_ID": {
-			"description": "<tenant-id>",
-			"required": true
-		},
-		"CLIENT_ID": {
-			"description": "<client-id>",
-			"required": true
-		},
-		"CLIENT_SECRET": {
-			"description": "<client-secret>",
-			"required": true
-		}
-	},
-	"name": "Lokka MCP"
+  "type": "mcp-server",
+  "packageName": "@merill/lokka",
+  "description": "Provides a bridge between Microsoft Graph API and natural language interaction, enabling conversational management of Microsoft 365 tenants without complex API calls.",
+  "url": "https://github.com/merill/lokka/tree/HEAD/src/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TENANT_ID": {
+      "description": "<tenant-id>",
+      "required": true
+    },
+    "CLIENT_ID": {
+      "description": "<client-id>",
+      "required": true
+    },
+    "CLIENT_SECRET": {
+      "description": "<client-secret>",
+      "required": true
+    }
+  },
+  "name": "Lokka MCP"
 }

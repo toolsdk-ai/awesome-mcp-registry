@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "reference-mcp",
-	"description": "Integrates with CiteAs and Google Scholar to retrieve BibTeX-formatted citation data using DOIs, URLs, or keywords for seamless research citation workflows.",
-	"url": "https://github.com/ndchikin/reference-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Reference MCP"
+  "type": "mcp-server",
+  "packageName": "reference-mcp",
+  "description": "Integrates with CiteAs and Google Scholar to retrieve BibTeX-formatted citation data using DOIs, URLs, or keywords for seamless research citation workflows.",
+  "url": "https://github.com/ndchikin/reference-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Reference MCP"
 }

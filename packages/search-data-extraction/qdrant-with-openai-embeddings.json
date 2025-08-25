@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "qdrant-with-openai-embeddings",
-	"description": "Connects AI systems to Qdrant vector databases for semantic search using OpenAI embeddings, enabling contextual document retrieval and knowledge base querying.",
-	"url": "https://github.com/amansingh0311/mcp-qdrant-openai",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Qdrant OpenAI MCP"
+  "type": "mcp-server",
+  "packageName": "qdrant-with-openai-embeddings",
+  "description": "Connects AI systems to Qdrant vector databases for semantic search using OpenAI embeddings, enabling contextual document retrieval and knowledge base querying.",
+  "url": "https://github.com/amansingh0311/mcp-qdrant-openai",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Qdrant OpenAI MCP"
 }

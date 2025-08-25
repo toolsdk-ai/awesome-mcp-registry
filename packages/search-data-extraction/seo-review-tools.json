@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "seo-review-tools",
-	"description": "Integrates with SEO Review Tools API for website traffic analysis, authority scoring, backlink discovery, SERP data retrieval, keyword research, and content optimization recommendations.",
-	"url": "https://github.com/seo-review-tools/seo-api-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "SEO API MCP"
+  "type": "mcp-server",
+  "packageName": "seo-review-tools",
+  "description": "Integrates with SEO Review Tools API for website traffic analysis, authority scoring, backlink discovery, SERP data retrieval, keyword research, and content optimization recommendations.",
+  "url": "https://github.com/seo-review-tools/seo-api-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "SEO API MCP"
 }

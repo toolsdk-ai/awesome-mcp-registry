@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gyazo",
-	"description": "Integrates with Gyazo to retrieve Gyazo images and metadata, enabling image analysis and content processing.",
-	"url": "https://github.com/nota/gyazo-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Gyazo MCP Server"
+  "type": "mcp-server",
+  "packageName": "gyazo",
+  "description": "Integrates with Gyazo to retrieve Gyazo images and metadata, enabling image analysis and content processing.",
+  "url": "https://github.com/nota/gyazo-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Gyazo MCP Server"
 }

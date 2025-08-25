@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "azure-devops-project-creator",
-	"description": "Integrates with Azure DevOps to automate project creation and infrastructure setup through FastAPI, eliminating the need for manual portal interaction.",
-	"url": "https://github.com/imghosty17/mcp-server-sandbox",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server Sandbox"
+  "type": "mcp-server",
+  "packageName": "azure-devops-project-creator",
+  "description": "Integrates with Azure DevOps to automate project creation and infrastructure setup through FastAPI, eliminating the need for manual portal interaction.",
+  "url": "https://github.com/imghosty17/mcp-server-sandbox",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server Sandbox"
 }

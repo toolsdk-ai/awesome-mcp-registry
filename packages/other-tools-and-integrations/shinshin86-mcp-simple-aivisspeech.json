@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@shinshin86/mcp-simple-aivisspeech",
-	"description": "Integrates with AivisSpeech engine to provide Japanese text-to-speech synthesis with customizable voice parameters including speed, pitch, intonation, and volume for building voice-enabled applications.",
-	"url": "https://github.com/shinshin86/mcp-simple-aivisspeech",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"AIVISSPEECH_URL": {
-			"description": "http://127.0.0.1:10101",
-			"required": true
-		}
-	},
-	"name": "AivisSpeech TTS MCP"
+  "type": "mcp-server",
+  "packageName": "@shinshin86/mcp-simple-aivisspeech",
+  "description": "Integrates with AivisSpeech engine to provide Japanese text-to-speech synthesis with customizable voice parameters including speed, pitch, intonation, and volume for building voice-enabled applications.",
+  "url": "https://github.com/shinshin86/mcp-simple-aivisspeech",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "AIVISSPEECH_URL": {
+      "description": "http://127.0.0.1:10101",
+      "required": true
+    }
+  },
+  "name": "AivisSpeech TTS MCP"
 }

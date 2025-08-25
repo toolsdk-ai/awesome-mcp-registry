@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "gistpad-mcp",
-	"description": "Transforms GitHub Gists into a personal knowledge management system with specialized handling for daily notes, reusable prompts with frontmatter support, and comprehensive gist operations including creation, updating, archiving, and commenting for version-controlled knowledge storage.",
-	"url": "https://github.com/lostintangent/gistpad-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GITHUB_TOKEN": {
-			"description": "<YOUR_PAT>",
-			"required": true
-		}
-	},
-	"name": "Gistpad MCP"
+  "type": "mcp-server",
+  "packageName": "gistpad-mcp",
+  "description": "Transforms GitHub Gists into a personal knowledge management system with specialized handling for daily notes, reusable prompts with frontmatter support, and comprehensive gist operations including creation, updating, archiving, and commenting for version-controlled knowledge storage.",
+  "url": "https://github.com/lostintangent/gistpad-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GITHUB_TOKEN": {
+      "description": "<YOUR_PAT>",
+      "required": true
+    }
+  },
+  "name": "Gistpad MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mindsdb",
-	"description": "MindsDB allows applications to answer questions over large-scale federated data—spanning databases, data warehouses, and SaaS applications.",
-	"url": "https://github.com/mindsdb/mindsdb",
-	"runtime": "python",
-	"license": "other",
-	"env": {},
-	"name": "MindsDB MCP Server"
+  "type": "mcp-server",
+  "packageName": "mindsdb",
+  "description": "MindsDB allows applications to answer questions over large-scale federated data—spanning databases, data warehouses, and SaaS applications.",
+  "url": "https://github.com/mindsdb/mindsdb",
+  "runtime": "python",
+  "license": "other",
+  "env": {},
+  "name": "MindsDB MCP Server"
 }

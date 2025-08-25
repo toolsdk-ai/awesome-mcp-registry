@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-12306",
-	"description": "12306 MCP Server is a high-performance train ticket query backend based on the Model Context Protocol (MCP). It supports official 12306 services such as remaining ticket inquiries, station information, stopover details, and transfer queries, as well as intelligent time tools. It is adaptable to scenarios such as AI, automation, and intelligent assistants. With a user-friendly interface, it is easy to integrate and ready to use out of the box.",
-	"url": "https://github.com/drfccv/mcp-server-12306",
-	"runtime": "python",
-	"license": "MIT",
-	"env": {},
-	"name": "12306 MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-12306",
+  "description": "12306 MCP Server is a high-performance train ticket query backend based on the Model Context Protocol (MCP). It supports official 12306 services such as remaining ticket inquiries, station information, stopover details, and transfer queries, as well as intelligent time tools. It is adaptable to scenarios such as AI, automation, and intelligent assistants. With a user-friendly interface, it is easy to integrate and ready to use out of the box.",
+  "url": "https://github.com/drfccv/mcp-server-12306",
+  "runtime": "python",
+  "license": "MIT",
+  "env": {},
+  "name": "12306 MCP Server"
 }

@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-private-github-search",
-	"description": "Provides authenticated access to a specific private GitHub repository for file content retrieval, code search, issue search, and detailed commit history with file diffs.",
-	"url": "https://github.com/hint-services/obsidian-github-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GITHUB_TOKEN": {
-			"description": "your-token",
-			"required": true
-		},
-		"GITHUB_OWNER": {
-			"description": "your-owner",
-			"required": true
-		},
-		"GITHUB_REPO": {
-			"description": "your-repo",
-			"required": true
-		}
-	},
-	"name": "Obsidian GitHub MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-private-github-search",
+  "description": "Provides authenticated access to a specific private GitHub repository for file content retrieval, code search, issue search, and detailed commit history with file diffs.",
+  "url": "https://github.com/hint-services/obsidian-github-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GITHUB_TOKEN": {
+      "description": "your-token",
+      "required": true
+    },
+    "GITHUB_OWNER": {
+      "description": "your-owner",
+      "required": true
+    },
+    "GITHUB_REPO": {
+      "description": "your-repo",
+      "required": true
+    }
+  },
+  "name": "Obsidian GitHub MCP"
 }

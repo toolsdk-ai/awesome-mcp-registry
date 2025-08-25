@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "finance-market-data",
-	"description": "Provides real-time financial data and news through tools for stock market information, market indices tracking, and financial news updates",
-	"url": "https://github.com/guangxiangdebizi/financemcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Finance MCP"
+  "type": "mcp-server",
+  "packageName": "finance-market-data",
+  "description": "Provides real-time financial data and news through tools for stock market information, market indices tracking, and financial news updates",
+  "url": "https://github.com/guangxiangdebizi/financemcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Finance MCP"
 }

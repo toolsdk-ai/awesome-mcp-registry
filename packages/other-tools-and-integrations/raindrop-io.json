@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "raindrop.io",
-	"description": "Integrates with Raindrop.io API to enable creating, searching, and managing bookmarks with features like tag filtering.",
-	"url": "https://github.com/hiromitsusasaki/raindrop-io-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Raindrop.io MCP Server"
+  "type": "mcp-server",
+  "packageName": "raindrop.io",
+  "description": "Integrates with Raindrop.io API to enable creating, searching, and managing bookmarks with features like tag filtering.",
+  "url": "https://github.com/hiromitsusasaki/raindrop-io-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Raindrop.io MCP Server"
 }

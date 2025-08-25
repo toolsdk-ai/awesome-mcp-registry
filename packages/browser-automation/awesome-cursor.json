@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "awesome-cursor",
-	"description": "Built for Cursor, integrates screenshot capture, web page structure analysis, and code review capabilities for automated UI testing, web scraping, and code quality checks.",
-	"url": "https://github.com/kleneway/awesome-cursor-mpc-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Awesome Cursor MCP Server"
+  "type": "mcp-server",
+  "packageName": "awesome-cursor",
+  "description": "Built for Cursor, integrates screenshot capture, web page structure analysis, and code review capabilities for automated UI testing, web scraping, and code quality checks.",
+  "url": "https://github.com/kleneway/awesome-cursor-mpc-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Awesome Cursor MCP Server"
 }

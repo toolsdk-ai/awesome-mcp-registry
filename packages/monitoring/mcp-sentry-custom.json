@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-sentry-custom",
-	"description": "Connects to Sentry.io for error monitoring and debugging, enabling retrieval and analysis of specific issues or entire project lists with detailed stack traces, error frequencies, and timestamps.",
-	"url": "https://github.com/javader/mcp-sentry-custom",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Sentry Custom MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-sentry-custom",
+  "description": "Connects to Sentry.io for error monitoring and debugging, enabling retrieval and analysis of specific issues or entire project lists with detailed stack traces, error frequencies, and timestamps.",
+  "url": "https://github.com/javader/mcp-sentry-custom",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Sentry Custom MCP"
 }

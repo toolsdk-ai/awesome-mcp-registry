@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "code-review",
-	"description": "Enables automated code reviews through multiple LLM providers by analyzing repository structures and evaluating code for security, performance, quality, and maintainability with structured output containing issues, strengths, and recommendations.",
-	"url": "https://github.com/crazyrabbitltc/mcp-code-review-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Code Review MCP Server"
+  "type": "mcp-server",
+  "packageName": "code-review",
+  "description": "Enables automated code reviews through multiple LLM providers by analyzing repository structures and evaluating code for security, performance, quality, and maintainability with structured output containing issues, strengths, and recommendations.",
+  "url": "https://github.com/crazyrabbitltc/mcp-code-review-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Code Review MCP Server"
 }

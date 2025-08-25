@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "upload-file",
-	"description": "Provides a bridge for efficient file uploads within AI-assisted workflows, enabling seamless integration of file handling capabilities into existing systems.",
-	"url": "https://github.com/sujianqingfeng/mcp-upload-file",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Upload File MCP"
+  "type": "mcp-server",
+  "packageName": "upload-file",
+  "description": "Provides a bridge for efficient file uploads within AI-assisted workflows, enabling seamless integration of file handling capabilities into existing systems.",
+  "url": "https://github.com/sujianqingfeng/mcp-upload-file",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Upload File MCP"
 }

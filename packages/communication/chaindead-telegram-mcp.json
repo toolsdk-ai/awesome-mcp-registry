@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@chaindead/telegram-mcp",
-	"description": "Bridges AI with Telegram to enable monitoring, organizing, and responding to messages through account access, dialog management, and conversation handling capabilities",
-	"url": "https://github.com/chaindead/telegram-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TG_APP_ID": {
-			"description": "<your-api-id>",
-			"required": true
-		},
-		"TG_API_HASH": {
-			"description": "<your-api-hash>",
-			"required": true
-		}
-	},
-	"name": "Telegram MCP"
+  "type": "mcp-server",
+  "packageName": "@chaindead/telegram-mcp",
+  "description": "Bridges AI with Telegram to enable monitoring, organizing, and responding to messages through account access, dialog management, and conversation handling capabilities",
+  "url": "https://github.com/chaindead/telegram-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TG_APP_ID": {
+      "description": "<your-api-id>",
+      "required": true
+    },
+    "TG_API_HASH": {
+      "description": "<your-api-hash>",
+      "required": true
+    }
+  },
+  "name": "Telegram MCP"
 }

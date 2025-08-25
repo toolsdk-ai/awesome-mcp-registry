@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-actor-critic-thinking",
-	"description": "Provides dual-perspective analysis through alternating actor and critic viewpoints for evaluating creative works, strategic decisions, and complex scenarios requiring both empathetic understanding and objective assessment.",
-	"url": "https://github.com/aquarius-wing/actor-critic-thinking-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Actor Critic Thinking MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-server-actor-critic-thinking",
+  "description": "Provides dual-perspective analysis through alternating actor and critic viewpoints for evaluating creative works, strategic decisions, and complex scenarios requiring both empathetic understanding and objective assessment.",
+  "url": "https://github.com/aquarius-wing/actor-critic-thinking-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Actor Critic Thinking MCP"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@modelcontextprotocol/server-google-maps",
-	"description": "Access location data, geocoding, and place details through Maps API.",
-	"url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/google-maps",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GOOGLE_MAPS_API_KEY": {
-			"description": "<YOUR_API_KEY>",
-			"required": true
-		}
-	},
-	"name": "Google Maps MCP Server"
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-google-maps",
+  "description": "Access location data, geocoding, and place details through Maps API.",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/google-maps",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GOOGLE_MAPS_API_KEY": {
+      "description": "<YOUR_API_KEY>",
+      "required": true
+    }
+  },
+  "name": "Google Maps MCP Server"
 }

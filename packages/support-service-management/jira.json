@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "jira",
-	"description": "Enables interaction with JIRA tasks and workflows for automated project management and intelligent task tracking.",
-	"url": "https://github.com/warzuponus/mcp-jira",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "MCP JIRA"
+  "type": "mcp-server",
+  "packageName": "jira",
+  "description": "Enables interaction with JIRA tasks and workflows for automated project management and intelligent task tracking.",
+  "url": "https://github.com/warzuponus/mcp-jira",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "MCP JIRA"
 }

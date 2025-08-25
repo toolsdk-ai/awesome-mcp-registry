@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gnews",
-	"description": "Integrates with the GNews API to enable news search, headline retrieval, and topic-specific article fetching across multiple languages and countries",
-	"url": "https://github.com/algonacci/mcp-gnews",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "GNews MCP"
+  "type": "mcp-server",
+  "packageName": "gnews",
+  "description": "Integrates with the GNews API to enable news search, headline retrieval, and topic-specific article fetching across multiple languages and countries",
+  "url": "https://github.com/algonacci/mcp-gnews",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "GNews MCP"
 }

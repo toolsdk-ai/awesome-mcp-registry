@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dall-e",
-	"description": "Integrates with OpenAI's DALL-E API to enable image generation with fine-grained control over parameters including model selection, size, quality, and style through a command-line interface.",
-	"url": "https://github.com/jezweb/openai-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "OpenAI MCP"
+  "type": "mcp-server",
+  "packageName": "dall-e",
+  "description": "Integrates with OpenAI's DALL-E API to enable image generation with fine-grained control over parameters including model selection, size, quality, and style through a command-line interface.",
+  "url": "https://github.com/jezweb/openai-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "OpenAI MCP"
 }

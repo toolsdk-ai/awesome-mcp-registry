@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@modelcontextprotocol/server-filesystem",
-	"description": "Read, write, and manipulate local files through a controlled API.",
-	"url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/filesystem",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Filesystem MCP Server"
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-filesystem",
+  "description": "Read, write, and manipulate local files through a controlled API.",
+  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/filesystem",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Filesystem MCP Server"
 }

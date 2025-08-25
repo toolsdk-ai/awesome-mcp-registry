@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-port",
-	"description": "Integrates with Port.io's API to enable AI-assisted task management and workflow orchestration through authentication, prompt triggering, and response handling.",
-	"url": "https://github.com/port-labs/port-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Port MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-port",
+  "description": "Integrates with Port.io's API to enable AI-assisted task management and workflow orchestration through authentication, prompt triggering, and response handling.",
+  "url": "https://github.com/port-labs/port-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Port MCP Server"
 }

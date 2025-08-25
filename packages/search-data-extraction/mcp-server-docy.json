@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-docy",
-	"description": "Provides direct access to technical documentation from configured sources, enabling real-time search, retrieval, and navigation through documentation content without leaving the conversation context.",
-	"url": "https://github.com/oborchers/mcp-server-docy",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Docy MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-docy",
+  "description": "Provides direct access to technical documentation from configured sources, enabling real-time search, retrieval, and navigation through documentation content without leaving the conversation context.",
+  "url": "https://github.com/oborchers/mcp-server-docy",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Docy MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "inbound-lead-generation",
-	"description": "Automates lead generation and enrichment by combining Google CSE discovery, Hunter.io and Clearbit data enrichment, and LinkedIn scraping into a unified API with Redis caching and asynchronous processing for high concurrency.",
-	"url": "https://github.com/bashirk/inbound-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Inbound MCP"
+  "type": "mcp-server",
+  "packageName": "inbound-lead-generation",
+  "description": "Automates lead generation and enrichment by combining Google CSE discovery, Hunter.io and Clearbit data enrichment, and LinkedIn scraping into a unified API with Redis caching and asynchronous processing for high concurrency.",
+  "url": "https://github.com/bashirk/inbound-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Inbound MCP"
 }

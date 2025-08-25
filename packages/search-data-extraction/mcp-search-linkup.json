@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-search-linkup",
-	"description": "Integrates with Linkup Technologies' API to enable web searches for information gathering, fact-checking, and research tasks.",
-	"url": "https://github.com/linkupplatform/python-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Linkup MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-search-linkup",
+  "description": "Integrates with Linkup Technologies' API to enable web searches for information gathering, fact-checking, and research tasks.",
+  "url": "https://github.com/linkupplatform/python-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Linkup MCP Server"
 }

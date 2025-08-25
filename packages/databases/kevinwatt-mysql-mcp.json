@@ -1,32 +1,32 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1255113654049128448/J5Yt92WW_400x400.png",
-	"packageName": "@kevinwatt/mysql-mcp",
-	"description": "Provides secure MySQL database access for LLMs, enabling read/write operations with transaction support and security features for AI-assisted data management tasks.",
-	"url": "https://github.com/kevinwatt/mysql-mcp",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"MYSQL_HOST": {
-			"description": "127.0.0.1",
-			"required": true
-		},
-		"MYSQL_PORT": {
-			"description": "3306",
-			"required": true
-		},
-		"MYSQL_USER": {
-			"description": "root",
-			"required": true
-		},
-		"MYSQL_PASS": {
-			"description": "",
-			"required": true
-		},
-		"MYSQL_DB": {
-			"description": "your_database",
-			"required": true
-		}
-	},
-	"name": "MySQL MCP Server"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1255113654049128448/J5Yt92WW_400x400.png",
+  "packageName": "@kevinwatt/mysql-mcp",
+  "description": "Provides secure MySQL database access for LLMs, enabling read/write operations with transaction support and security features for AI-assisted data management tasks.",
+  "url": "https://github.com/kevinwatt/mysql-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "MYSQL_HOST": {
+      "description": "127.0.0.1",
+      "required": true
+    },
+    "MYSQL_PORT": {
+      "description": "3306",
+      "required": true
+    },
+    "MYSQL_USER": {
+      "description": "root",
+      "required": true
+    },
+    "MYSQL_PASS": {
+      "description": "",
+      "required": true
+    },
+    "MYSQL_DB": {
+      "description": "your_database",
+      "required": true
+    }
+  },
+  "name": "MySQL MCP Server"
 }

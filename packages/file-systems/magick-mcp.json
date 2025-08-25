@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "magick-mcp",
-	"description": "Integrates with ImageMagick's CLI to enable image processing and manipulation tasks like resizing, format conversion, and applying filters or effects.",
-	"url": "https://github.com/aroglahcim/magick-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Magick MCP"
+  "type": "mcp-server",
+  "packageName": "magick-mcp",
+  "description": "Integrates with ImageMagick's CLI to enable image processing and manipulation tasks like resizing, format conversion, and applying filters or effects.",
+  "url": "https://github.com/aroglahcim/magick-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Magick MCP"
 }

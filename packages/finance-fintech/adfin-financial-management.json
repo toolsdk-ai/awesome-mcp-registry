@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "adfin-financial-management",
-	"description": "Integrates with Adfin's financial management platform to enable credit control checks, invoice creation, and document uploads through dynamically generated API tools and specialized file system capabilities.",
-	"url": "https://github.com/adfin-engineering/mcp-server-adfin",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server Adfin"
+  "type": "mcp-server",
+  "packageName": "adfin-financial-management",
+  "description": "Integrates with Adfin's financial management platform to enable credit control checks, invoice creation, and document uploads through dynamically generated API tools and specialized file system capabilities.",
+  "url": "https://github.com/adfin-engineering/mcp-server-adfin",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server Adfin"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "postgresql-database",
-	"description": "Enables interaction with PostgreSQL databases for executing SQL queries, exploring table schemas, and performing data analysis with robust error handling and connection pooling.",
-	"url": "https://github.com/endaoment/endaoment-postgres-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Endaoment Postgres MCP"
+  "type": "mcp-server",
+  "packageName": "postgresql-database",
+  "description": "Enables interaction with PostgreSQL databases for executing SQL queries, exploring table schemas, and performing data analysis with robust error handling and connection pooling.",
+  "url": "https://github.com/endaoment/endaoment-postgres-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Endaoment Postgres MCP"
 }

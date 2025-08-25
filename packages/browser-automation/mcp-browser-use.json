@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-browser-use",
-	"description": "Enables web browsing capabilities for any MCP client through a simple command that leverages your existing LLM configuration without additional API costs.",
-	"url": "https://github.com/vinayak-mehta/mcp-browser-use",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Browser Use"
+  "type": "mcp-server",
+  "packageName": "mcp-browser-use",
+  "description": "Enables web browsing capabilities for any MCP client through a simple command that leverages your existing LLM configuration without additional API costs.",
+  "url": "https://github.com/vinayak-mehta/mcp-browser-use",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Browser Use"
 }

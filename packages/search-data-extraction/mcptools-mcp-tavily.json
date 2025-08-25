@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@mcptools/mcp-tavily",
-	"description": "Integrates with the Tavily API to enable advanced search and content extraction operations, facilitating web research and up-to-date information access for AI applications.",
-	"url": "https://github.com/kshern/mcp-tavily",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TAVILY_API_KEY": {
-			"description": "your-api-key",
-			"required": true
-		}
-	},
-	"name": "Tavily MCP"
+  "type": "mcp-server",
+  "packageName": "@mcptools/mcp-tavily",
+  "description": "Integrates with the Tavily API to enable advanced search and content extraction operations, facilitating web research and up-to-date information access for AI applications.",
+  "url": "https://github.com/kshern/mcp-tavily",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TAVILY_API_KEY": {
+      "description": "your-api-key",
+      "required": true
+    }
+  },
+  "name": "Tavily MCP"
 }

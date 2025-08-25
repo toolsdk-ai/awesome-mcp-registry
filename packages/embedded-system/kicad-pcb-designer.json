@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "kicad-pcb-designer",
-	"description": "Enables LLMs to directly interact with KiCAD for printed circuit board design.",
-	"url": "https://github.com/mixelpixx/kicad-mcp-server",
-	"runtime": "python",
-	"license": "other",
-	"env": {},
-	"name": "KiCAD MCP Server"
+  "type": "mcp-server",
+  "packageName": "kicad-pcb-designer",
+  "description": "Enables LLMs to directly interact with KiCAD for printed circuit board design.",
+  "url": "https://github.com/mixelpixx/kicad-mcp-server",
+  "runtime": "python",
+  "license": "other",
+  "env": {},
+  "name": "KiCAD MCP Server"
 }

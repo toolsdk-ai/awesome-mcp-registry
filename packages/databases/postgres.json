@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "postgres",
-	"description": "Connects to PostgreSQL databases to enable secure, read-only SQL querying and resource exploration for data analysis applications",
-	"url": "https://github.com/ipfans/postgres-mcp",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "PostgreSQL MCP"
+  "type": "mcp-server",
+  "packageName": "postgres",
+  "description": "Connects to PostgreSQL databases to enable secure, read-only SQL querying and resource exploration for data analysis applications",
+  "url": "https://github.com/ipfans/postgres-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "PostgreSQL MCP"
 }

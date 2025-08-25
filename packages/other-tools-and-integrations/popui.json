@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "popui",
-	"description": "Enables Claude Desktop to create and interact with dynamic visual interfaces through a bi-directional Electron bridge, allowing real-time manipulation of shared visual components for collaborative experiences like control panels, games, and visualization tools.",
-	"url": "https://github.com/kelnishi/popui",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "PopUI MCP Server"
+  "type": "mcp-server",
+  "packageName": "popui",
+  "description": "Enables Claude Desktop to create and interact with dynamic visual interfaces through a bi-directional Electron bridge, allowing real-time manipulation of shared visual components for collaborative experiences like control panels, games, and visualization tools.",
+  "url": "https://github.com/kelnishi/popui",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "PopUI MCP Server"
 }

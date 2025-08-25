@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "rhino-8",
-	"description": "Enables direct control of Rhino 8's 3D modeling environment through a C# SDK-based server that exposes modeling operations for design workflow automation and conversational interfaces.",
-	"url": "https://github.com/jingcheng-chen/rhinomcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Rhino MCP"
+  "type": "mcp-server",
+  "packageName": "rhino-8",
+  "description": "Enables direct control of Rhino 8's 3D modeling environment through a C# SDK-based server that exposes modeling operations for design workflow automation and conversational interfaces.",
+  "url": "https://github.com/jingcheng-chen/rhinomcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Rhino MCP"
 }

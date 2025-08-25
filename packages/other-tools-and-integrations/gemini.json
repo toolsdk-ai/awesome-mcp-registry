@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gemini",
-	"description": "Wraps Google Gemini API with intelligent model fallback, enabling content generation, function calling, stateful chat, and file handling through a consistent tool-based interface.",
-	"url": "https://github.com/novakiki/mcp-gemini-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Gemini MCP Server"
+  "type": "mcp-server",
+  "packageName": "gemini",
+  "description": "Wraps Google Gemini API with intelligent model fallback, enabling content generation, function calling, stateful chat, and file handling through a consistent tool-based interface.",
+  "url": "https://github.com/novakiki/mcp-gemini-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Gemini MCP Server"
 }

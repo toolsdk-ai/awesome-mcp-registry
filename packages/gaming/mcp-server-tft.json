@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-tft",
-	"description": "Integration for Team Fight Tactics (TFT) that provides access to TFT game data through various tools.",
-	"url": "https://github.com/geli2001/tft-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "TFT MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-tft",
+  "description": "Integration for Team Fight Tactics (TFT) that provides access to TFT game data through various tools.",
+  "url": "https://github.com/geli2001/tft-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "TFT MCP Server"
 }

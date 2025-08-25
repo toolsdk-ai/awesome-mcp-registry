@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "perplexity-deep-research",
-	"description": "Integrates with Perplexity's sonar-deep-research model to enable web searches with citation support and optional recency filtering for up-to-date information retrieval.",
-	"url": "https://github.com/arjunkmrm/perplexity-deep-research",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Perplexity Deep Research"
+  "type": "mcp-server",
+  "packageName": "perplexity-deep-research",
+  "description": "Integrates with Perplexity's sonar-deep-research model to enable web searches with citation support and optional recency filtering for up-to-date information retrieval.",
+  "url": "https://github.com/arjunkmrm/perplexity-deep-research",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Perplexity Deep Research"
 }

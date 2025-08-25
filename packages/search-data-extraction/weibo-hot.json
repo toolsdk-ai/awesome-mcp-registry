@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "weibo-hot",
-	"description": "Provides real-time access to Weibo trending topics through a TypeScript/Node.js server that delivers Chinese social media insights for conversation workflows requiring current information.",
-	"url": "https://github.com/wangtsiao/pulse-cn-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Pulse CN MCP"
+  "type": "mcp-server",
+  "packageName": "weibo-hot",
+  "description": "Provides real-time access to Weibo trending topics through a TypeScript/Node.js server that delivers Chinese social media insights for conversation workflows requiring current information.",
+  "url": "https://github.com/wangtsiao/pulse-cn-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Pulse CN MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ifc-building-information-modeling",
-	"description": "Integrates with IFC (Industry Foundation Classes) building information modeling files to extract entities, properties, spatial relationships, and geometric data for construction professionals analyzing architectural and engineering information.",
-	"url": "https://github.com/smartaec/ifcmcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "IFC Building Information Modeling MCP"
+  "type": "mcp-server",
+  "packageName": "ifc-building-information-modeling",
+  "description": "Integrates with IFC (Industry Foundation Classes) building information modeling files to extract entities, properties, spatial relationships, and geometric data for construction professionals analyzing architectural and engineering information.",
+  "url": "https://github.com/smartaec/ifcmcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "IFC Building Information Modeling MCP"
 }

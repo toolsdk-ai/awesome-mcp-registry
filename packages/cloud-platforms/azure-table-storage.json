@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "azure-table-storage",
-	"description": "Enable efficient storage, retrieval, and querying of structured data in the cloud for large-scale applications.",
-	"url": "https://github.com/dkmaker/mcp-azure-tablestorage",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Azure Table Storage MCP"
+  "type": "mcp-server",
+  "packageName": "azure-table-storage",
+  "description": "Enable efficient storage, retrieval, and querying of structured data in the cloud for large-scale applications.",
+  "url": "https://github.com/dkmaker/mcp-azure-tablestorage",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Azure Table Storage MCP"
 }

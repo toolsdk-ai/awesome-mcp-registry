@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-calculator",
-	"description": "Provides a secure mathematical expression evaluation service using Python's AST module for basic operations without relying on eval(), enabling quick calculations within conversations.",
-	"url": "https://github.com/githejie/mcp-server-calculator",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Calculator MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-calculator",
+  "description": "Provides a secure mathematical expression evaluation service using Python's AST module for basic operations without relying on eval(), enabling quick calculations within conversations.",
+  "url": "https://github.com/githejie/mcp-server-calculator",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Calculator MCP Server"
 }

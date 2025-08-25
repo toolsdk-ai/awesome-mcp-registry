@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "nasa-mcp",
-	"description": "Integrates with NASA APIs to provide real-time astronomical data, space weather information, Earth imagery, and exoplanet research capabilities without requiring technical knowledge of NASA's API structure.",
-	"url": "https://github.com/ancode666/nasa-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "NASA MCP"
+  "type": "mcp-server",
+  "packageName": "nasa-mcp",
+  "description": "Integrates with NASA APIs to provide real-time astronomical data, space weather information, Earth imagery, and exoplanet research capabilities without requiring technical knowledge of NASA's API structure.",
+  "url": "https://github.com/ancode666/nasa-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "NASA MCP"
 }

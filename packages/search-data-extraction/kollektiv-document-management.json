@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "kollektiv-document-management",
-	"description": "Enables AI to search and analyze user-uploaded documents through Kollektiv's document management system with secure OAuth authentication and natural language querying capabilities.",
-	"url": "https://github.com/alexander-zuev/kollektiv-mcp",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Kollektiv MCP"
+  "type": "mcp-server",
+  "packageName": "kollektiv-document-management",
+  "description": "Enables AI to search and analyze user-uploaded documents through Kollektiv's document management system with secure OAuth authentication and natural language querying capabilities.",
+  "url": "https://github.com/alexander-zuev/kollektiv-mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Kollektiv MCP"
 }

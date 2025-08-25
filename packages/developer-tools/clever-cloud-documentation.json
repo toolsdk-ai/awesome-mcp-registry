@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "clever-cloud-documentation",
-	"description": "Exposes Clever Cloud's documentation for querying and accessing content, enabling automated lookup and integration with development workflows.",
-	"url": "https://github.com/lostinbrittany/clever-doc-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Clever Doc MCP Server"
+  "type": "mcp-server",
+  "packageName": "clever-cloud-documentation",
+  "description": "Exposes Clever Cloud's documentation for querying and accessing content, enabling automated lookup and integration with development workflows.",
+  "url": "https://github.com/lostinbrittany/clever-doc-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Clever Doc MCP Server"
 }

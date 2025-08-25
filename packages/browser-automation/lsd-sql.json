@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "lsd-sql",
-	"description": "Enables querqying and analyzing web content using LSD SQL, a DSL for extracting structured data from websites in real-time.",
-	"url": "https://github.com/lsd-so/lsd-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "LSD MCP"
+  "type": "mcp-server",
+  "packageName": "lsd-sql",
+  "description": "Enables querqying and analyzing web content using LSD SQL, a DSL for extracting structured data from websites in real-time.",
+  "url": "https://github.com/lsd-so/lsd-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "LSD MCP"
 }

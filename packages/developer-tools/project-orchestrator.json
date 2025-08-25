@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "project-orchestrator",
-	"description": "Streamlines software project creation by analyzing user input to select appropriate structures, generate documentation with Mermaid diagrams, and provide tools for setup and management.",
-	"url": "https://github.com/sparesparrow/mcp-project-orchestrator",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Project Orchestrator"
+  "type": "mcp-server",
+  "packageName": "project-orchestrator",
+  "description": "Streamlines software project creation by analyzing user input to select appropriate structures, generate documentation with Mermaid diagrams, and provide tools for setup and management.",
+  "url": "https://github.com/sparesparrow/mcp-project-orchestrator",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Project Orchestrator"
 }
