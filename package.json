@@ -626,7 +626,8 @@
     "@kwp-lab/mcp-fetch": "0.9.5",
     "@mem0/mcp-server": "0.0.1",
     "inner-monologue-mcp": "1.0.2",
-    "mixpanel-mcp-server": "2.0.2"
+    "mixpanel-mcp-server": "2.0.2",
+    "discord-mcp": "2.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",

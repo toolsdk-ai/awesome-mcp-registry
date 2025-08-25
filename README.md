@@ -2,13 +2,13 @@
 
 [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily)](https://www.producthunt.com/products/toolsdk-ai)
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4085-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4087-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 4085+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4087+ MCP servers.
 
 
 
@@ -106,9 +106,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (612)
+✅: Validated and runnable tools (613)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3473))
+❌: Cannot be run by the MCP client (with mock environments variables (3474))
 
 
 
@@ -1165,6 +1165,7 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ devin](https://github.com/kazuph/mcp-devin): Integrates with Slack to enable seamless team collaboration through automated session management, thread context preservation, and channel-based conversations  (node) 
 - [❌ outlook-email](https://github.com/wallisking1991/outlook-mcp-server): Enables direct access to Microsoft Outlook email functionality for reading, searching, composing, and managing emails without leaving the conversation context.  (python) 
 - [❌ @pnizer/wweb-mcp](https://github.com/pnizer/wweb-mcp/tree/main/src): A Node.js application that connects WhatsApp Web with AI models through the Model Context Protocol (MCP).  (node) 
+- [✅ discord-mcp](https://github.com/mastra-ai/discord-mcp-server): A Model Context Protocol (MCP) server that provides Discord integration capabilities, including full file attachment support, rate limiting, and comprehensive Discord API features. Built with the official @modelcontextprotocol/sdk for maximum compatibility with Claude Code and other MCP clients.  (19 tools) (node) 
 - [❌ weibo](https://github.com/qinyuanpei/mcp-server-weibo): Bridges to China's Weibo social media platform, enabling user search, profile retrieval, and post extraction through the mobile API with pagination support for monitoring trends and researching content.  (python) 
 - [❌ onesignal](https://github.com/weirdbrains/onesignal-mcp): Integrates with OneSignal to manage push notifications, emails, and SMS across multiple applications with support for device management, segmentation, and template operations.  (python) 
 - [❌ didlogic_mcp](https://github.com/userad/didlogic_mcp): Provides a natural language interface to DIDLogic telecommunications API for managing SIP accounts, phone numbers, call history, and billing information through specialized VoIP administration tools.  (python) 
@@ -1254,6 +1255,7 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ feishu-mcp](https://github.com/cso1z/feishu-mcp): Integrates with Feishu (Lark) to enable document retrieval, messaging, and collaborative features directly within workplace conversations through a TypeScript implementation that runs as either a CLI or HTTP server.  (node) 
 - [❌ slack-conversations](https://github.com/korotovsky/slack-mcp-server): Bridges AI with Slack's messaging platform, enabling access to conversation history from channels through secure authentication and flexible transport modes.  (go) 
 - [❌ mcp-wechat-moments](https://github.com/geminiwen/mcp-wechat-moments): Enables publishing content to WeChat Moments on macOS through AppleScript automation and mouse event emulation, providing a server interface for social media management workflows.  (python) 
+- [❌ discord-mcp-server](https://github.com/mastra-ai/discord-mcp-server): A Model Context Protocol (MCP) server that enables LLMs to interact with Discord channels, allowing them to send and read messages through Discord's API. Using this server, LLMs like Claude can directly interact with Discord channels while maintaining user control and security.  (node) 
 - [✅ @waystation/mcp](https://github.com/waystation-ai/mcp): Connects productivity tools like Monday, Asana, Notion, and Slack through a secure integration hub, enabling seamless access directly from chat interfaces without switching applications.  (63 tools) (node) 
 - [❌ @roychri/mcp-server-asana](https://github.com/roychri/mcp-server-asana): Integrates with Asana to enable task automation, project tracking, and team collaboration through the Asana API.  (node) 
 - [❌ microsoft-365](https://github.com/elyxlz/microsoft-mcp): Integrates with Microsoft 365 services including Outlook, Calendar, OneDrive, and Contacts to enable email management, calendar operations, file handling, and contact management with multi-account authentication and advanced search capabilities.  (python) 
