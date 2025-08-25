@@ -8,9 +8,9 @@ build:
   # Install dependencies based on the updated `package.json`
 	pnpm install --no-frozen-lockfile
 	bun scripts/test-mcp-clients.ts
-	bun scripts/readme-gen.ts
+	pnpm install --no-frozen-lockfile
 	pnpm prune
-	pnpm install --frozen-lockfile
+	bun scripts/readme-gen.ts
 	pnpm run check
 	pnpm run build
 
