@@ -1,0 +1,15 @@
+# https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
+
+pre-commit:
+  parallel: true
+  commands:
+    biome-format:
+      run: npx biome format {staged_files} --write
+      stage_fixed: true
+    biome-check:
+      run: npx biome check {staged_files}
+
+pre-push:
+  commands:
+    biome-full-check:
+      run: npx biome check .

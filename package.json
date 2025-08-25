@@ -24,7 +24,8 @@
 		"dev": "tsx watch src/api/index.ts",
 		"start": "NODE_ENV=production tsx src/api/index.ts",
 		"check": "biome check . --write",
-		"fmt": "biome format . --write"
+		"fmt": "biome format . --write",
+		"prepare": "lefthook install"
 	},
 	"keywords": [],
 	"author": "",
@@ -641,6 +642,7 @@
 		"typescript": "^5.8.3",
 		"typescript-eslint": "^8.33.0",
 		"vitest": "^3.2.4",
-		"@biomejs/biome": "2.2.2"
+		"@biomejs/biome": "2.2.2",
+		"lefthook": "1.7.14"
 	}
 }
