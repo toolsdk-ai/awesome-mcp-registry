@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "neo4j-knowledge-graph",
-	"description": "Provides a Neo4j-powered knowledge graph storage solution for maintaining complex relationships between data points with persistent memory across conversations and efficient fuzzy search capabilities.",
-	"url": "https://github.com/jovanhsu/mcp-neo4j-memory-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Neo4j Knowledge Graph MCP Server"
+  "type": "mcp-server",
+  "packageName": "neo4j-knowledge-graph",
+  "description": "Provides a Neo4j-powered knowledge graph storage solution for maintaining complex relationships between data points with persistent memory across conversations and efficient fuzzy search capabilities.",
+  "url": "https://github.com/jovanhsu/mcp-neo4j-memory-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Neo4j Knowledge Graph MCP Server"
 }

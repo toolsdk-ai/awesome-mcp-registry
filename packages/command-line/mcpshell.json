@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcpshell",
-	"description": "Provides a secure bridge between language models and operating system commands through a configurable YAML interface with constraint-based security, multiple sandboxing options, and robust error handling.",
-	"url": "https://github.com/inercia/mcpshell",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "MCPShell"
+  "type": "mcp-server",
+  "packageName": "mcpshell",
+  "description": "Provides a secure bridge between language models and operating system commands through a configurable YAML interface with constraint-based security, multiple sandboxing options, and robust error handling.",
+  "url": "https://github.com/inercia/mcpshell",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "MCPShell"
 }

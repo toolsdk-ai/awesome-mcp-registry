@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "api-tester-(openai)",
-	"description": "Integrates with OpenAI's APIs to provide tools for API testing, text generation, image creation, and HTTP request handling within applications.",
-	"url": "https://github.com/vikrant-khedkar/api-tester-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Api Tester MCP"
+  "type": "mcp-server",
+  "packageName": "api-tester-(openai)",
+  "description": "Integrates with OpenAI's APIs to provide tools for API testing, text generation, image creation, and HTTP request handling within applications.",
+  "url": "https://github.com/vikrant-khedkar/api-tester-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Api Tester MCP"
 }

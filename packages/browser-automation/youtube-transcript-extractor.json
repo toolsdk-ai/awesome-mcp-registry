@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "youtube-transcript-extractor",
-	"description": "Extracts YouTube video transcripts from various URL formats using a command-line tool, enabling content analysis and subtitle generation.",
-	"url": "https://github.com/tlofreso/mcp-youtube-transcripts",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "YouTube MCP Transcripts"
+  "type": "mcp-server",
+  "packageName": "youtube-transcript-extractor",
+  "description": "Extracts YouTube video transcripts from various URL formats using a command-line tool, enabling content analysis and subtitle generation.",
+  "url": "https://github.com/tlofreso/mcp-youtube-transcripts",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "YouTube MCP Transcripts"
 }

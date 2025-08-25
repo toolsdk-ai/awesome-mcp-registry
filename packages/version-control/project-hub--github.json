@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "project-hub-(github)",
-	"description": "Integrates local project management with GitHub repositories, enabling streamlined version control, automated commits, and multi-account support for efficient development workflows.",
-	"url": "https://github.com/peterparker57/project-hub-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Project Hub MCP Server"
+  "type": "mcp-server",
+  "packageName": "project-hub-(github)",
+  "description": "Integrates local project management with GitHub repositories, enabling streamlined version control, automated commits, and multi-account support for efficient development workflows.",
+  "url": "https://github.com/peterparker57/project-hub-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Project Hub MCP Server"
 }

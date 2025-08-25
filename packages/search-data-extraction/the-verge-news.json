@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "the-verge-news",
-	"description": "Integrates with The Verge's RSS feed to provide up-to-date technology news, offering tools for fetching daily and weekly updates and searching specific topics within customizable time ranges.",
-	"url": "https://github.com/manimohans/verge-news-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Verge News MCP"
+  "type": "mcp-server",
+  "packageName": "the-verge-news",
+  "description": "Integrates with The Verge's RSS feed to provide up-to-date technology news, offering tools for fetching daily and weekly updates and searching specific topics within customizable time ranges.",
+  "url": "https://github.com/manimohans/verge-news-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Verge News MCP"
 }

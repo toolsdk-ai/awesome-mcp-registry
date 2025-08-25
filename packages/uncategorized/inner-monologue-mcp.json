@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "inner-monologue-mcp",
-	"description": "An MCP (Model Context Protocol) server that implements a cognitive reasoning tool inspired by Google DeepMind's Inner Monologue research.",
-	"url": "https://github.com/abhinav-mangla/inner-monologue-mcp",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {},
-	"name": "Inner Monologue MCP Server"
+  "type": "mcp-server",
+  "packageName": "inner-monologue-mcp",
+  "description": "An MCP (Model Context Protocol) server that implements a cognitive reasoning tool inspired by Google DeepMind's Inner Monologue research.",
+  "url": "https://github.com/abhinav-mangla/inner-monologue-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {},
+  "name": "Inner Monologue MCP Server"
 }

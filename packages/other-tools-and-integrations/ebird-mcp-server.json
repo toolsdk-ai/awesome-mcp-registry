@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ebird-mcp-server",
-	"description": "Integrates with the eBird API to provide real-time bird observation data, including recent sightings, notable observations, hotspots, and taxonomy information by region or geographic coordinates.",
-	"url": "https://github.com/moonbirdai/ebird-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "EBird MCP Server"
+  "type": "mcp-server",
+  "packageName": "ebird-mcp-server",
+  "description": "Integrates with the eBird API to provide real-time bird observation data, including recent sightings, notable observations, hotspots, and taxonomy information by region or geographic coordinates.",
+  "url": "https://github.com/moonbirdai/ebird-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "EBird MCP Server"
 }

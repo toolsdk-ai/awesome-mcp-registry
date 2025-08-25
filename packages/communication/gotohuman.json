@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gotohuman",
-	"description": "Enables AI agents to request human reviews through the gotoHuman platform, creating asynchronous workflows for content approval and critical action validation with webhook-based responses.",
-	"url": "https://github.com/gotohuman/gotohuman-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "gotoHuman MCP Server"
+  "type": "mcp-server",
+  "packageName": "gotohuman",
+  "description": "Enables AI agents to request human reviews through the gotoHuman platform, creating asynchronous workflows for content approval and critical action validation with webhook-based responses.",
+  "url": "https://github.com/gotohuman/gotohuman-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "gotoHuman MCP Server"
 }

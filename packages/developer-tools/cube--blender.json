@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cube-(blender)",
-	"description": "Enables remote control of Blender 3D software through a socket connection for creating and manipulating 3D objects, materials, and scenes with support for code execution and viewport streaming.",
-	"url": "https://github.com/themapleseed/cube",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Cube MCP Server"
+  "type": "mcp-server",
+  "packageName": "cube-(blender)",
+  "description": "Enables remote control of Blender 3D software through a socket connection for creating and manipulating 3D objects, materials, and scenes with support for code execution and viewport streaming.",
+  "url": "https://github.com/themapleseed/cube",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Cube MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cloudflare-api",
-	"description": "Integrates with Cloudflare's REST API to enable management of DNS records, cache purging, KV namespaces, R2 buckets, Workers domains, Hyperdrive databases, and Workflow instances through natural language interactions.",
-	"url": "https://github.com/smileycointools/coinspace",
-	"runtime": "node",
-	"license": "gpl-2.0",
-	"env": {},
-	"name": "Coinspace MCP Server"
+  "type": "mcp-server",
+  "packageName": "cloudflare-api",
+  "description": "Integrates with Cloudflare's REST API to enable management of DNS records, cache purging, KV namespaces, R2 buckets, Workers domains, Hyperdrive databases, and Workflow instances through natural language interactions.",
+  "url": "https://github.com/smileycointools/coinspace",
+  "runtime": "node",
+  "license": "gpl-2.0",
+  "env": {},
+  "name": "Coinspace MCP Server"
 }

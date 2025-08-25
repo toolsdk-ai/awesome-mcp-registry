@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "1inch-cross-chain-swap",
-	"description": "Execute cross-chain token swaps using 1inch Fusion+",
-	"url": "https://github.com/vaibhavgeek/one_inch_mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "One Inch MCP"
+  "type": "mcp-server",
+  "packageName": "1inch-cross-chain-swap",
+  "description": "Execute cross-chain token swaps using 1inch Fusion+",
+  "url": "https://github.com/vaibhavgeek/one_inch_mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "One Inch MCP"
 }

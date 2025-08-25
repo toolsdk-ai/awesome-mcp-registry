@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "instantly",
-	"description": "Integrates with Instantly API v2 to enable email campaign management, lead tracking, and account health monitoring for automated outreach workflows.",
-	"url": "https://github.com/bcharleson/instantly-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Instantly MCP"
+  "type": "mcp-server",
+  "packageName": "instantly",
+  "description": "Integrates with Instantly API v2 to enable email campaign management, lead tracking, and account health monitoring for automated outreach workflows.",
+  "url": "https://github.com/bcharleson/instantly-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Instantly MCP"
 }

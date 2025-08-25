@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gemini-cli",
-	"description": "Integrates with Google's Gemini CLI tool to enable conversational interactions, content generation with configurable temperature settings, and model discovery through command-line interface calls.",
-	"url": "https://github.com/blesscat/gemini-cli-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Gemini CLI MCP"
+  "type": "mcp-server",
+  "packageName": "gemini-cli",
+  "description": "Integrates with Google's Gemini CLI tool to enable conversational interactions, content generation with configurable temperature settings, and model discovery through command-line interface calls.",
+  "url": "https://github.com/blesscat/gemini-cli-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Gemini CLI MCP"
 }

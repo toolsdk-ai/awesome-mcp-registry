@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-starrocks",
-	"description": "Enables AI models to interact with StarRocks databases by providing read and write access to tables, schemas, and data through a Python-based server with configurable modes.",
-	"url": "https://github.com/hagsmand/mcp-server-starrocks",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server StarRocks"
+  "type": "mcp-server",
+  "packageName": "mcp-server-starrocks",
+  "description": "Enables AI models to interact with StarRocks databases by providing read and write access to tables, schemas, and data through a Python-based server with configurable modes.",
+  "url": "https://github.com/hagsmand/mcp-server-starrocks",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server StarRocks"
 }

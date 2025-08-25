@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "spring-i/o",
-	"description": "Provides access to Spring I/O 2025 conference session data including talks, workshops, speakers, room assignments, and scheduling details for building conference navigation tools and scheduling assistants.",
-	"url": "https://github.com/danvega/spring-io-mcp",
-	"runtime": "java",
-	"license": "unknown",
-	"env": {},
-	"name": "Spring I/O MCP"
+  "type": "mcp-server",
+  "packageName": "spring-i/o",
+  "description": "Provides access to Spring I/O 2025 conference session data including talks, workshops, speakers, room assignments, and scheduling details for building conference navigation tools and scheduling assistants.",
+  "url": "https://github.com/danvega/spring-io-mcp",
+  "runtime": "java",
+  "license": "unknown",
+  "env": {},
+  "name": "Spring I/O MCP"
 }

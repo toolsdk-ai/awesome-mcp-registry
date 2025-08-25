@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "multicluster-mcp-server",
-	"description": "Provides a bridge to Kubernetes multi-cluster environments for managing distributed resources through kubectl commands, service account connections, and seamless cross-cluster operations without switching contexts.",
-	"url": "https://github.com/yanmxa/multicluster-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MultiCluster MCP Server"
+  "type": "mcp-server",
+  "packageName": "multicluster-mcp-server",
+  "description": "Provides a bridge to Kubernetes multi-cluster environments for managing distributed resources through kubectl commands, service account connections, and seamless cross-cluster operations without switching contexts.",
+  "url": "https://github.com/yanmxa/multicluster-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MultiCluster MCP Server"
 }

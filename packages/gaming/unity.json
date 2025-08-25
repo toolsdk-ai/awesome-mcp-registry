@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "unity",
-	"description": "Automates Unity game development through 38 tools for C# script generation, asset creation across Built-in/URP/HDRP pipelines, ProBuilder 3D modeling, package management, and cross-platform builds with template-based code generation and batch operations for rapid prototyping and consistent project structure.",
-	"url": "https://github.com/zabaglione/mcp-server-unity",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Server Unity"
+  "type": "mcp-server",
+  "packageName": "unity",
+  "description": "Automates Unity game development through 38 tools for C# script generation, asset creation across Built-in/URP/HDRP pipelines, ProBuilder 3D modeling, package management, and cross-platform builds with template-based code generation and batch operations for rapid prototyping and consistent project structure.",
+  "url": "https://github.com/zabaglione/mcp-server-unity",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Server Unity"
 }

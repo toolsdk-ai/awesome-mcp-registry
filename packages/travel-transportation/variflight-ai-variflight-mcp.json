@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@variflight-ai/variflight-mcp",
-	"description": "Integrates with Variflight API to provide real-time flight information, schedules, aircraft tracking, airport weather forecasts, and comfort metrics for travel planning and aviation monitoring applications.",
-	"url": "https://github.com/variflight/variflight-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"VARIFLIGHT_API_KEY": {
-			"description": "your_api_key_here",
-			"required": true
-		}
-	},
-	"name": "Variflight MCP"
+  "type": "mcp-server",
+  "packageName": "@variflight-ai/variflight-mcp",
+  "description": "Integrates with Variflight API to provide real-time flight information, schedules, aircraft tracking, airport weather forecasts, and comfort metrics for travel planning and aviation monitoring applications.",
+  "url": "https://github.com/variflight/variflight-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "VARIFLIGHT_API_KEY": {
+      "description": "your_api_key_here",
+      "required": true
+    }
+  },
+  "name": "Variflight MCP"
 }

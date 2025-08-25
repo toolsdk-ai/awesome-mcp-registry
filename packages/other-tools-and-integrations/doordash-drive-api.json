@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "doordash-drive-api",
-	"description": "Provides a bridge to the DoorDash Drive API for managing delivery services, creating quotes, handling business operations, and store management without writing complex API interaction code",
-	"url": "https://github.com/jordandalton/doordash-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "DoorDash MCP Server"
+  "type": "mcp-server",
+  "packageName": "doordash-drive-api",
+  "description": "Provides a bridge to the DoorDash Drive API for managing delivery services, creating quotes, handling business operations, and store management without writing complex API interaction code",
+  "url": "https://github.com/jordandalton/doordash-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "DoorDash MCP Server"
 }

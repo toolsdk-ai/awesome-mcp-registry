@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-qdrant",
-	"description": "Store and retrieve vector-based memories for AI systems.",
-	"url": "https://github.com/qdrant/mcp-server-qdrant",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server Qdrant"
+  "type": "mcp-server",
+  "packageName": "mcp-server-qdrant",
+  "description": "Store and retrieve vector-based memories for AI systems.",
+  "url": "https://github.com/qdrant/mcp-server-qdrant",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server Qdrant"
 }

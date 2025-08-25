@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "tana-mcp",
-	"description": "Integrates with Tana's Input API, enabling creation and manipulation of structured data in Tana workspaces for enhanced note-taking and automated data input tasks.",
-	"url": "https://github.com/tim-mcdonnell/tana-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TANA_API_TOKEN": {
-			"description": "your-api-token-here",
-			"required": true
-		}
-	},
-	"name": "Tana MCP"
+  "type": "mcp-server",
+  "packageName": "tana-mcp",
+  "description": "Integrates with Tana's Input API, enabling creation and manipulation of structured data in Tana workspaces for enhanced note-taking and automated data input tasks.",
+  "url": "https://github.com/tim-mcdonnell/tana-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TANA_API_TOKEN": {
+      "description": "your-api-token-here",
+      "required": true
+    }
+  },
+  "name": "Tana MCP"
 }

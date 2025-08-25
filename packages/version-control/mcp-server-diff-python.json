@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-diff-python",
-	"description": "Integrates with Python's difflib to generate unified diffs for efficient text comparison and version control tasks.",
-	"url": "https://github.com/tatn/mcp-server-diff-python",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server Diff Python"
+  "type": "mcp-server",
+  "packageName": "mcp-server-diff-python",
+  "description": "Integrates with Python's difflib to generate unified diffs for efficient text comparison and version control tasks.",
+  "url": "https://github.com/tatn/mcp-server-diff-python",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server Diff Python"
 }

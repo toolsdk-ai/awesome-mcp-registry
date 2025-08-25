@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "website-downloader",
-	"description": "Integrates wget-based website downloading capabilities to enable offline archiving and analysis of web content while preserving site structure.",
-	"url": "https://github.com/pskill9/website-downloader",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Website Downloader MCP"
+  "type": "mcp-server",
+  "packageName": "website-downloader",
+  "description": "Integrates wget-based website downloading capabilities to enable offline archiving and analysis of web content while preserving site structure.",
+  "url": "https://github.com/pskill9/website-downloader",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Website Downloader MCP"
 }

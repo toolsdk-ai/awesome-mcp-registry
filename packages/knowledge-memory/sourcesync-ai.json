@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sourcesync.ai",
-	"description": "Integrates with SourceSync.ai's knowledge management platform to enable namespace management, content ingestion, document retrieval, and semantic search capabilities for efficient information discovery and knowledge base interactions.",
-	"url": "https://github.com/pbteja1998/sourcesyncai-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "SourceSync AI MCP"
+  "type": "mcp-server",
+  "packageName": "sourcesync.ai",
+  "description": "Integrates with SourceSync.ai's knowledge management platform to enable namespace management, content ingestion, document retrieval, and semantic search capabilities for efficient information discovery and knowledge base interactions.",
+  "url": "https://github.com/pbteja1998/sourcesyncai-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "SourceSync AI MCP"
 }

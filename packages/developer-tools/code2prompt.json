@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "code2prompt",
-	"description": "Transforms complex codebases into structured summaries optimized for language models, enabling better code understanding for analysis, documentation, and technical assistance workflows.",
-	"url": "https://github.com/odancona/code2prompt-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Code2Prompt MCP"
+  "type": "mcp-server",
+  "packageName": "code2prompt",
+  "description": "Transforms complex codebases into structured summaries optimized for language models, enabling better code understanding for analysis, documentation, and technical assistance workflows.",
+  "url": "https://github.com/odancona/code2prompt-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Code2Prompt MCP"
 }

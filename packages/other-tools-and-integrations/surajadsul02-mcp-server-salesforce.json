@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@surajadsul02/mcp-server-salesforce",
-	"description": "Integrates Claude with Salesforce, enabling natural language interactions for object management, schema exploration, data querying, and manipulation across Salesforce objects.",
-	"url": "https://github.com/surajadsul/mcp-server-salesforce",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Salesforce MCP Server"
+  "type": "mcp-server",
+  "packageName": "@surajadsul02/mcp-server-salesforce",
+  "description": "Integrates Claude with Salesforce, enabling natural language interactions for object management, schema exploration, data querying, and manipulation across Salesforce objects.",
+  "url": "https://github.com/surajadsul/mcp-server-salesforce",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Salesforce MCP Server"
 }

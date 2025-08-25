@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "myai-memory",
-	"description": "Synchronizes personal memory templates across Claude interfaces, enabling consistent user preferences and response styles without manual copying.",
-	"url": "https://github.com/jktfe/myaimemory-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MyAI Memory MCP"
+  "type": "mcp-server",
+  "packageName": "myai-memory",
+  "description": "Synchronizes personal memory templates across Claude interfaces, enabling consistent user preferences and response styles without manual copying.",
+  "url": "https://github.com/jktfe/myaimemory-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MyAI Memory MCP"
 }

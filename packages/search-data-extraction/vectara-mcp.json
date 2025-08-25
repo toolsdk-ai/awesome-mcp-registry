@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "vectara-mcp",
-	"description": "Provides a bridge between conversational interfaces and Vectara's Retrieval-Augmented Generation capabilities, enabling powerful search queries that return both relevant results and generated responses with customizable parameters.",
-	"url": "https://github.com/vectara/vectara-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Vectara MCP"
+  "type": "mcp-server",
+  "packageName": "vectara-mcp",
+  "description": "Provides a bridge between conversational interfaces and Vectara's Retrieval-Augmented Generation capabilities, enabling powerful search queries that return both relevant results and generated responses with customizable parameters.",
+  "url": "https://github.com/vectara/vectara-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Vectara MCP"
 }

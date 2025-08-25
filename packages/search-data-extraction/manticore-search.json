@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "manticore-search",
-	"description": "Integrates with Manticore Search to provide full-text search capabilities, document management, table operations, and cluster administration with advanced query features like boolean search, highlighting, and fuzzy matching.",
-	"url": "https://github.com/krajcik/manticore-mcp-server",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "Manticore MCP Server"
+  "type": "mcp-server",
+  "packageName": "manticore-search",
+  "description": "Integrates with Manticore Search to provide full-text search capabilities, document management, table operations, and cluster administration with advanced query features like boolean search, highlighting, and fuzzy matching.",
+  "url": "https://github.com/krajcik/manticore-mcp-server",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "Manticore MCP Server"
 }

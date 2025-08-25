@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "aws-security-inspector",
-	"description": "Enables security professionals to inspect and analyze AWS infrastructure for security issues through natural language queries about GuardDuty findings, IAM permissions, S3 buckets, and CloudFront distributions.",
-	"url": "https://github.com/groovybugify/aws-security-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "AWS Security MCP"
+  "type": "mcp-server",
+  "packageName": "aws-security-inspector",
+  "description": "Enables security professionals to inspect and analyze AWS infrastructure for security issues through natural language queries about GuardDuty findings, IAM permissions, S3 buckets, and CloudFront distributions.",
+  "url": "https://github.com/groovybugify/aws-security-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "AWS Security MCP"
 }

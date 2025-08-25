@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "registry",
-	"description": "Provides a bridge to the MCP Registry service for checking server health, listing entries, retrieving details, and publishing new server implementations",
-	"url": "https://github.com/redhat-ai-tools/mcp-registry-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Registry MCP"
+  "type": "mcp-server",
+  "packageName": "registry",
+  "description": "Provides a bridge to the MCP Registry service for checking server health, listing entries, retrieving details, and publishing new server implementations",
+  "url": "https://github.com/redhat-ai-tools/mcp-registry-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Registry MCP"
 }

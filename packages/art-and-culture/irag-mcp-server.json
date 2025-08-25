@@ -1,51 +1,51 @@
 {
-	"type": "mcp-server",
-	"packageName": "irag-mcp-server",
-	"description": "A Model Context Protocol server that enables Claude Desktop to generate images using Baidu's iRAG image generation API through a standardized interface.",
-	"url": "https://github.com/kuai0901/irag-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"MODEL": {
-			"description": "Default model to use: irag-1.0 or flux.1-schnell",
-			"required": true
-		},
-		"LOG_FILE": {
-			"description": "Log file path",
-			"required": true
-		},
-		"BASE_PATH": {
-			"description": "Custom save path for images (optional, defaults to desktop/irag-images)",
-			"required": true
-		},
-		"LOG_LEVEL": {
-			"description": "Logging level",
-			"required": true
-		},
-		"API_TIMEOUT": {
-			"description": "API timeout in milliseconds",
-			"required": true
-		},
-		"MAX_RETRIES": {
-			"description": "Maximum number of API call retries",
-			"required": true
-		},
-		"SERVER_NAME": {
-			"description": "Server name",
-			"required": true
-		},
-		"BAIDU_API_KEY": {
-			"description": "Baidu API Key (format: bce-v3/ALTAK-****/****)",
-			"required": true
-		},
-		"RESOURCE_MODE": {
-			"description": "Image resource mode: 'local' to save files locally, 'url' to only return URL and base64",
-			"required": true
-		},
-		"SERVER_VERSION": {
-			"description": "Server version",
-			"required": true
-		}
-	},
-	"name": "iRAG MCP Server"
+  "type": "mcp-server",
+  "packageName": "irag-mcp-server",
+  "description": "A Model Context Protocol server that enables Claude Desktop to generate images using Baidu's iRAG image generation API through a standardized interface.",
+  "url": "https://github.com/kuai0901/irag-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MODEL": {
+      "description": "Default model to use: irag-1.0 or flux.1-schnell",
+      "required": true
+    },
+    "LOG_FILE": {
+      "description": "Log file path",
+      "required": true
+    },
+    "BASE_PATH": {
+      "description": "Custom save path for images (optional, defaults to desktop/irag-images)",
+      "required": true
+    },
+    "LOG_LEVEL": {
+      "description": "Logging level",
+      "required": true
+    },
+    "API_TIMEOUT": {
+      "description": "API timeout in milliseconds",
+      "required": true
+    },
+    "MAX_RETRIES": {
+      "description": "Maximum number of API call retries",
+      "required": true
+    },
+    "SERVER_NAME": {
+      "description": "Server name",
+      "required": true
+    },
+    "BAIDU_API_KEY": {
+      "description": "Baidu API Key (format: bce-v3/ALTAK-****/****)",
+      "required": true
+    },
+    "RESOURCE_MODE": {
+      "description": "Image resource mode: 'local' to save files locally, 'url' to only return URL and base64",
+      "required": true
+    },
+    "SERVER_VERSION": {
+      "description": "Server version",
+      "required": true
+    }
+  },
+  "name": "iRAG MCP Server"
 }

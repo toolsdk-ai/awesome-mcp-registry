@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gitmcp-(github-to-mcp)",
-	"description": "Transform any GitHub project (repositories or GitHub pages) into a documentation hub. Allows AI tools like Cursor to access up-to-date documentation and code, ending hallucinations.",
-	"url": "https://github.com/idosal/git-mcp",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Git MCP"
+  "type": "mcp-server",
+  "packageName": "gitmcp-(github-to-mcp)",
+  "description": "Transform any GitHub project (repositories or GitHub pages) into a documentation hub. Allows AI tools like Cursor to access up-to-date documentation and code, ending hallucinations.",
+  "url": "https://github.com/idosal/git-mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Git MCP"
 }

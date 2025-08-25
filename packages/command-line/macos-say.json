@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "macos-say",
-	"description": "Leverages macOS 'say' command for customizable text-to-speech functionality, enabling dynamic voice output.",
-	"url": "https://github.com/bmorphism/say-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Say MCP Server"
+  "type": "mcp-server",
+  "packageName": "macos-say",
+  "description": "Leverages macOS 'say' command for customizable text-to-speech functionality, enabling dynamic voice output.",
+  "url": "https://github.com/bmorphism/say-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Say MCP Server"
 }

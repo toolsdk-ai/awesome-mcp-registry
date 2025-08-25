@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "apple-notifier-mcp",
-	"description": "Enables interaction with macOS notifications and system dialogs for desktop alerts, user input, and system operations.",
-	"url": "https://github.com/turlockmike/apple-notifier-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Apple Notifier MCP"
+  "type": "mcp-server",
+  "packageName": "apple-notifier-mcp",
+  "description": "Enables interaction with macOS notifications and system dialogs for desktop alerts, user input, and system operations.",
+  "url": "https://github.com/turlockmike/apple-notifier-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Apple Notifier MCP"
 }

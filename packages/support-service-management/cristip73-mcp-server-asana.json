@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@cristip73/mcp-server-asana",
-	"description": "Integrates with Asana's API to enable task management, project organization, and collaboration workflows through 30+ tools for searching, creating, and visualizing projects and tasks.",
-	"url": "https://github.com/cristip73/mcp-server-asana",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"ASANA_ACCESS_TOKEN": {
-			"description": "your-asana-access-token",
-			"required": true
-		},
-		"DEFAULT_WORKSPACE_ID": {
-			"description": "your-default-workspace-id",
-			"required": true
-		}
-	},
-	"name": "Asana MCP Server"
+  "type": "mcp-server",
+  "packageName": "@cristip73/mcp-server-asana",
+  "description": "Integrates with Asana's API to enable task management, project organization, and collaboration workflows through 30+ tools for searching, creating, and visualizing projects and tasks.",
+  "url": "https://github.com/cristip73/mcp-server-asana",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ASANA_ACCESS_TOKEN": {
+      "description": "your-asana-access-token",
+      "required": true
+    },
+    "DEFAULT_WORKSPACE_ID": {
+      "description": "your-default-workspace-id",
+      "required": true
+    }
+  },
+  "name": "Asana MCP Server"
 }

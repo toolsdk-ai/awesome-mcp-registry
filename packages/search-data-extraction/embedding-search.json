@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "embedding-search",
-	"description": "Provides embedding search capabilities for transcripts using a SQLite database, enabling efficient semantic retrieval of relevant text segments for applications like podcast analysis or content recommendation.",
-	"url": "https://github.com/spences10/mcp-embedding-search",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Embedding Search MCP"
+  "type": "mcp-server",
+  "packageName": "embedding-search",
+  "description": "Provides embedding search capabilities for transcripts using a SQLite database, enabling efficient semantic retrieval of relevant text segments for applications like podcast analysis or content recommendation.",
+  "url": "https://github.com/spences10/mcp-embedding-search",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Embedding Search MCP"
 }

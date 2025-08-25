@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "coingecko-crypto-trader",
-	"description": "Provides real-time cryptocurrency market data through CoinGecko API for accessing prices, market information, historical charts, search functionality, trending coins, and global statistics.",
-	"url": "https://github.com/saintdoresh/crypto-trader-mcp-claudedesktop",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Crypto Trader MCP"
+  "type": "mcp-server",
+  "packageName": "coingecko-crypto-trader",
+  "description": "Provides real-time cryptocurrency market data through CoinGecko API for accessing prices, market information, historical charts, search functionality, trending coins, and global statistics.",
+  "url": "https://github.com/saintdoresh/crypto-trader-mcp-claudedesktop",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Crypto Trader MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ios-simulator-automation-(idb)",
-	"description": "Enables iOS simulator automation via Facebook's IDB tool, allowing control of simulators, app launching, screenshot capture, and UI interactions through natural language commands",
-	"url": "https://github.com/inditextech/mcp-server-simulator-ios-idb",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Simulator iOS IDB MCP"
+  "type": "mcp-server",
+  "packageName": "ios-simulator-automation-(idb)",
+  "description": "Enables iOS simulator automation via Facebook's IDB tool, allowing control of simulators, app launching, screenshot capture, and UI interactions through natural language commands",
+  "url": "https://github.com/inditextech/mcp-server-simulator-ios-idb",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Simulator iOS IDB MCP"
 }

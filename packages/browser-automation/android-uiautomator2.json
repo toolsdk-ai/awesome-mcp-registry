@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "android-uiautomator2",
-	"description": "Provides a bridge between Android devices and automation tools for controlling apps, interacting with UI elements, and capturing screenshots through UIAutomator2 technology.",
-	"url": "https://github.com/nim444/mcp-android-server-python",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Android Server Python"
+  "type": "mcp-server",
+  "packageName": "android-uiautomator2",
+  "description": "Provides a bridge between Android devices and automation tools for controlling apps, interacting with UI elements, and capturing screenshots through UIAutomator2 technology.",
+  "url": "https://github.com/nim444/mcp-android-server-python",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Android Server Python"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "random-number-mcp",
-	"description": "Provides random number generation utilities including pseudorandom and cryptographically secure operations for integers, floats, weighted selections, list shuffling, and secure token generation.",
-	"url": "https://github.com/zazencodes/random-number-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Random Number MCP"
+  "type": "mcp-server",
+  "packageName": "random-number-mcp",
+  "description": "Provides random number generation utilities including pseudorandom and cryptographically secure operations for integers, floats, weighted selections, list shuffling, and secure token generation.",
+  "url": "https://github.com/zazencodes/random-number-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Random Number MCP"
 }

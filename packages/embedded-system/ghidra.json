@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ghidra",
-	"description": "Decompile and analyze binaries in Ghidra.",
-	"url": "https://github.com/lauriewired/ghidramcp",
-	"runtime": "java",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Ghidra MCP"
+  "type": "mcp-server",
+  "packageName": "ghidra",
+  "description": "Decompile and analyze binaries in Ghidra.",
+  "url": "https://github.com/lauriewired/ghidramcp",
+  "runtime": "java",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Ghidra MCP"
 }

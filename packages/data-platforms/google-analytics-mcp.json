@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "google-analytics-mcp",
-	"description": "Integrates with Google Analytics 4 to retrieve metrics, dimensions, and customized reports with flexible date ranges for analyzing website performance and user behavior patterns.",
-	"url": "https://github.com/surendranb/google-analytics-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Google Analytics MCP"
+  "type": "mcp-server",
+  "packageName": "google-analytics-mcp",
+  "description": "Integrates with Google Analytics 4 to retrieve metrics, dimensions, and customized reports with flexible date ranges for analyzing website performance and user behavior patterns.",
+  "url": "https://github.com/surendranb/google-analytics-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Google Analytics MCP"
 }

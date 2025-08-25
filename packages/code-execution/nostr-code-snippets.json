@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "nostr-code-snippets",
-	"description": "Enables AI to fetch and retrieve code snippets from the decentralized Nostr protocol network for accessing community-shared programming solutions.",
-	"url": "https://github.com/nodetec/nostr-code-snippet-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Nostr Code Snippet MCP"
+  "type": "mcp-server",
+  "packageName": "nostr-code-snippets",
+  "description": "Enables AI to fetch and retrieve code snippets from the decentralized Nostr protocol network for accessing community-shared programming solutions.",
+  "url": "https://github.com/nodetec/nostr-code-snippet-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Nostr Code Snippet MCP"
 }

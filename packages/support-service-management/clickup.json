@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "clickup",
-	"description": "Integrates with ClickUp to enable task management, project tracking, and workflow optimization within the platform's ecosystem.",
-	"url": "https://github.com/noah-vh/mcp-server-clickup",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "ClickUp MCP Server"
+  "type": "mcp-server",
+  "packageName": "clickup",
+  "description": "Integrates with ClickUp to enable task management, project tracking, and workflow optimization within the platform's ecosystem.",
+  "url": "https://github.com/noah-vh/mcp-server-clickup",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "ClickUp MCP Server"
 }

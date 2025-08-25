@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "flightradar24",
-	"description": "Integrates Flightradar24 data to provide real-time flight tracking capabilities.",
-	"url": "https://github.com/sunsetcoder/flightradar24-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Flightradar24 MCP Server"
+  "type": "mcp-server",
+  "packageName": "flightradar24",
+  "description": "Integrates Flightradar24 data to provide real-time flight tracking capabilities.",
+  "url": "https://github.com/sunsetcoder/flightradar24-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Flightradar24 MCP Server"
 }

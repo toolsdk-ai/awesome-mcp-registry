@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "terrakube",
-	"description": "Provides a bridge to Terrakube infrastructure for managing workspaces, variables, modules, and organization resources through natural language interaction",
-	"url": "https://github.com/terrakube-io/mcp-server-terrakube",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Terrakube MCP Server"
+  "type": "mcp-server",
+  "packageName": "terrakube",
+  "description": "Provides a bridge to Terrakube infrastructure for managing workspaces, variables, modules, and organization resources through natural language interaction",
+  "url": "https://github.com/terrakube-io/mcp-server-terrakube",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Terrakube MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "notion-markdown",
-	"description": "Integrates with Notion to provide markdown-based content retrieval, searching, and processing capabilities.",
-	"url": "https://github.com/seonglae/mcp-notion",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Notion MCP"
+  "type": "mcp-server",
+  "packageName": "notion-markdown",
+  "description": "Integrates with Notion to provide markdown-based content retrieval, searching, and processing capabilities.",
+  "url": "https://github.com/seonglae/mcp-notion",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Notion MCP"
 }

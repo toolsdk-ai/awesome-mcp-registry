@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "together-ai-image-generation",
-	"description": "Integrates with Together AI's API to enable text-to-image generation, offering tools for creating visual content based on text prompts.",
-	"url": "https://github.com/zym9863/together-ai-image-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Together AI Image Server"
+  "type": "mcp-server",
+  "packageName": "together-ai-image-generation",
+  "description": "Integrates with Together AI's API to enable text-to-image generation, offering tools for creating visual content based on text prompts.",
+  "url": "https://github.com/zym9863/together-ai-image-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Together AI Image Server"
 }

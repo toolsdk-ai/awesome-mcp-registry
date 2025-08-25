@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "webp-batch-converter",
-	"description": "Converts images to WebP format using Sharp or libwebp-tools with batch processing, glob pattern matching, and configurable quality settings for web optimization and asset pipeline automation.",
-	"url": "https://github.com/mhe8mah/webp-batch-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "WebP Batch MCP"
+  "type": "mcp-server",
+  "packageName": "webp-batch-converter",
+  "description": "Converts images to WebP format using Sharp or libwebp-tools with batch processing, glob pattern matching, and configurable quality settings for web optimization and asset pipeline automation.",
+  "url": "https://github.com/mhe8mah/webp-batch-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "WebP Batch MCP"
 }

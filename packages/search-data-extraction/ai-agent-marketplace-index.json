@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ai-agent-marketplace-index",
-	"description": "Provides a searchable marketplace index of AI agents with detailed information including descriptions, websites, and performance metrics to help users discover specialized agents for specific tasks.",
-	"url": "https://github.com/ai-agent-hub/ai-agent-marketplace-index-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "AI Agent Marketplace Index MCP"
+  "type": "mcp-server",
+  "packageName": "ai-agent-marketplace-index",
+  "description": "Provides a searchable marketplace index of AI agents with detailed information including descriptions, websites, and performance metrics to help users discover specialized agents for specific tasks.",
+  "url": "https://github.com/ai-agent-hub/ai-agent-marketplace-index-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "AI Agent Marketplace Index MCP"
 }

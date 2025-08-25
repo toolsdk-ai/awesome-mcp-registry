@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "browser",
-	"description": "Provides a headless browser interface for testing and analyzing frontend applications, enabling screenshot capture, DOM extraction, CSS analysis, accessibility testing, and responsive design verification across different viewports.",
-	"url": "https://github.com/neoforge-dev/mcp-browser",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Browser MCP"
+  "type": "mcp-server",
+  "packageName": "browser",
+  "description": "Provides a headless browser interface for testing and analyzing frontend applications, enabling screenshot capture, DOM extraction, CSS analysis, accessibility testing, and responsive design verification across different viewports.",
+  "url": "https://github.com/neoforge-dev/mcp-browser",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Browser MCP"
 }

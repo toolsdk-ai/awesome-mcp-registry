@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "docker-compose",
-	"description": "Manage Docker containers, bridged by the Docker SDK for Python.",
-	"url": "https://github.com/ckreiling/mcp-server-docker",
-	"runtime": "python",
-	"license": "gpl-3.0",
-	"env": {},
-	"name": "MCP Server Docker"
+  "type": "mcp-server",
+  "packageName": "docker-compose",
+  "description": "Manage Docker containers, bridged by the Docker SDK for Python.",
+  "url": "https://github.com/ckreiling/mcp-server-docker",
+  "runtime": "python",
+  "license": "gpl-3.0",
+  "env": {},
+  "name": "MCP Server Docker"
 }

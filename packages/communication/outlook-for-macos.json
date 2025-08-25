@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "outlook-for-macos",
-	"description": "Integrates with Microsoft Outlook for macOS using AppleScript to enable email, calendar, and contact management operations for automated workflows and scheduling assistance.",
-	"url": "https://github.com/syedazharmbnr1/claude-outlook-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Claude Outlook MCP"
+  "type": "mcp-server",
+  "packageName": "outlook-for-macos",
+  "description": "Integrates with Microsoft Outlook for macOS using AppleScript to enable email, calendar, and contact management operations for automated workflows and scheduling assistance.",
+  "url": "https://github.com/syedazharmbnr1/claude-outlook-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Claude Outlook MCP"
 }

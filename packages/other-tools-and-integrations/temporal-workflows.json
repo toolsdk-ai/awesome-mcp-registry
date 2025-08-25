@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "temporal-workflows",
-	"description": "Exposes Temporal workflows as tools for AI assistants, enabling organizations to leverage existing workflow infrastructure without custom integration code.",
-	"url": "https://github.com/mocksi/temporal-mcp",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "Temporal MCP"
+  "type": "mcp-server",
+  "packageName": "temporal-workflows",
+  "description": "Exposes Temporal workflows as tools for AI assistants, enabling organizations to leverage existing workflow infrastructure without custom integration code.",
+  "url": "https://github.com/mocksi/temporal-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "Temporal MCP"
 }

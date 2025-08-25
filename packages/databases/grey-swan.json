@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "grey-swan",
-	"description": "Provides a MongoDB-integrated platform for systematically documenting and analyzing AI safety challenges, tracking LLM vulnerabilities through detailed thread, message, and model metadata across testing sessions.",
-	"url": "https://github.com/gravityphone/swanzmcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Swan MCP"
+  "type": "mcp-server",
+  "packageName": "grey-swan",
+  "description": "Provides a MongoDB-integrated platform for systematically documenting and analyzing AI safety challenges, tracking LLM vulnerabilities through detailed thread, message, and model metadata across testing sessions.",
+  "url": "https://github.com/gravityphone/swanzmcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Swan MCP"
 }

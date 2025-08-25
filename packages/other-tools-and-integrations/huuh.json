@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "huuh",
-	"description": "huuh.me is AI-native Youtube\n- dead easy AI for people with stuff to do\n- collaborative AI projects for teams\n- public AI-native knowledge sharing\n- monetization of AI-native content streams",
-	"url": "https://github.com/infolab-ai/mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {
-		"LOG_LEVEL": {
-			"description": "Optional: Set logging level",
-			"required": true
-		},
-		"HUUH_APIK_KEY": {
-			"description": "Your HUUH API key (get this from your account settings)",
-			"required": true
-		}
-	},
-	"name": "MCP Server"
+  "type": "mcp-server",
+  "packageName": "huuh",
+  "description": "huuh.me is AI-native Youtube\n- dead easy AI for people with stuff to do\n- collaborative AI projects for teams\n- public AI-native knowledge sharing\n- monetization of AI-native content streams",
+  "url": "https://github.com/infolab-ai/mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "LOG_LEVEL": {
+      "description": "Optional: Set logging level",
+      "required": true
+    },
+    "HUUH_APIK_KEY": {
+      "description": "Your HUUH API key (get this from your account settings)",
+      "required": true
+    }
+  },
+  "name": "MCP Server"
 }

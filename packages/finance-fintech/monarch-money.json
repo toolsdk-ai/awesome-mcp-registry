@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "monarch-money",
-	"description": "Integrates with Monarch Money's personal finance platform to retrieve account balances, transaction history, and budget data for automated expense tracking and financial analysis.",
-	"url": "https://github.com/colvint/monarch-money-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Monarch Money MCP"
+  "type": "mcp-server",
+  "packageName": "monarch-money",
+  "description": "Integrates with Monarch Money's personal finance platform to retrieve account balances, transaction history, and budget data for automated expense tracking and financial analysis.",
+  "url": "https://github.com/colvint/monarch-money-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Monarch Money MCP"
 }

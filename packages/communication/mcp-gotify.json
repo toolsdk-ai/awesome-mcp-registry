@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-gotify",
-	"description": "Sends push notifications with customized titles and messages to any Gotify server through environment variable configuration.",
-	"url": "https://github.com/secretiveshell/mcp-gotify",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Gotify MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-gotify",
+  "description": "Sends push notifications with customized titles and messages to any Gotify server through environment variable configuration.",
+  "url": "https://github.com/secretiveshell/mcp-gotify",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Gotify MCP"
 }

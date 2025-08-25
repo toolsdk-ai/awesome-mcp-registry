@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "flux-image-generator-(black-forest-lab)",
-	"description": "Provides a bridge to Black Forest Lab's FLUX model for generating images with customizable parameters like dimensions and safety settings through natural language requests",
-	"url": "https://github.com/frankdeno/flux-image-generator-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Flux Image Generator MCP"
+  "type": "mcp-server",
+  "packageName": "flux-image-generator-(black-forest-lab)",
+  "description": "Provides a bridge to Black Forest Lab's FLUX model for generating images with customizable parameters like dimensions and safety settings through natural language requests",
+  "url": "https://github.com/frankdeno/flux-image-generator-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Flux Image Generator MCP"
 }

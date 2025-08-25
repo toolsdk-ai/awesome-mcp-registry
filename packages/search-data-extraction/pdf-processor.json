@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "pdf-processor",
-	"description": "Extracts text content and mathematical equations from PDF documents using PyMuPDF for text processing and pix2tex for LaTeX OCR, enabling analysis of academic papers and technical documents with specialized equation recognition.",
-	"url": "https://github.com/michaellevinson/mcp_pdf_processor",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "PDF Processor MCP"
+  "type": "mcp-server",
+  "packageName": "pdf-processor",
+  "description": "Extracts text content and mathematical equations from PDF documents using PyMuPDF for text processing and pix2tex for LaTeX OCR, enabling analysis of academic papers and technical documents with specialized equation recognition.",
+  "url": "https://github.com/michaellevinson/mcp_pdf_processor",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "PDF Processor MCP"
 }

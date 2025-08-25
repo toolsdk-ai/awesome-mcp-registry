@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "zaj-mysql",
-	"description": "Integrates with MySQL databases to enable SQL query execution, schema analysis, and automated business insight generation through data reading, writing, and continuous memo updates.",
-	"url": "https://github.com/zajtools/zaj-mysql-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Zaj MySQL MCP"
+  "type": "mcp-server",
+  "packageName": "zaj-mysql",
+  "description": "Integrates with MySQL databases to enable SQL query execution, schema analysis, and automated business insight generation through data reading, writing, and continuous memo updates.",
+  "url": "https://github.com/zajtools/zaj-mysql-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Zaj MySQL MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "quran-search",
-	"description": "Provides a specialized Quran search interface that connects to a local SQLite database, allowing users to find and retrieve verses containing specific words or phrases for religious study or textual analysis.",
-	"url": "https://github.com/octavious/mcp_sample/tree/HEAD/MCPDemo2",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Quran Search MCP"
+  "type": "mcp-server",
+  "packageName": "quran-search",
+  "description": "Provides a specialized Quran search interface that connects to a local SQLite database, allowing users to find and retrieve verses containing specific words or phrases for religious study or textual analysis.",
+  "url": "https://github.com/octavious/mcp_sample/tree/HEAD/MCPDemo2",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Quran Search MCP"
 }

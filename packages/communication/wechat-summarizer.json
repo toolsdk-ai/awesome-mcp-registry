@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "wechat-summarizer",
-	"description": "Hook into your WeChat history and pull summaries of conversations.",
-	"url": "https://github.com/chatmcp/mcp-server-chatsum",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "ChatSum MCP Server"
+  "type": "mcp-server",
+  "packageName": "wechat-summarizer",
+  "description": "Hook into your WeChat history and pull summaries of conversations.",
+  "url": "https://github.com/chatmcp/mcp-server-chatsum",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "ChatSum MCP Server"
 }

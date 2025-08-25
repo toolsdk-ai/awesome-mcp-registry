@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mythic",
-	"description": "Integrates with the Mythic Command and Control framework for penetration testing, enabling shell command execution, file operations, and security tool deployment through specialized prompt templates for automated security workflows.",
-	"url": "https://github.com/xpn/mythic_mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Mythic MCP"
+  "type": "mcp-server",
+  "packageName": "mythic",
+  "description": "Integrates with the Mythic Command and Control framework for penetration testing, enabling shell command execution, file operations, and security tool deployment through specialized prompt templates for automated security workflows.",
+  "url": "https://github.com/xpn/mythic_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Mythic MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@joshuarileydev/mac-apps-launcher-mcp-server",
-	"description": "Launch and control macOS applications.",
-	"url": "https://github.com/joshuarileydev/mac-apps-launcher",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Mac Apps Launcher MCP Server"
+  "type": "mcp-server",
+  "packageName": "@joshuarileydev/mac-apps-launcher-mcp-server",
+  "description": "Launch and control macOS applications.",
+  "url": "https://github.com/joshuarileydev/mac-apps-launcher",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Mac Apps Launcher MCP Server"
 }

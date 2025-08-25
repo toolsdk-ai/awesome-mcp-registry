@@ -1,40 +1,38 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import type { z } from "zod";
 import type {
-	BaseResponseSchema,
-	CategoriesResponseSchema,
-	CategoryConfigSchema,
-	ErrorResponseSchema,
-	ExecuteToolResponseSchema,
-	FeaturedResponseSchema,
-	MCPServerPackageConfigSchema,
-	PackageConfigSchema,
-	PackageDetailDataSchema,
-	PackageDetailResponseSchema,
-	PackagesListResponseSchema,
-	PackagesListSchema,
-	ToolDataSchema,
-	ToolExecuteSchema,
-	ToolsResponseSchema,
+  BaseResponseSchema,
+  CategoriesResponseSchema,
+  CategoryConfigSchema,
+  ErrorResponseSchema,
+  ExecuteToolResponseSchema,
+  FeaturedResponseSchema,
+  MCPServerPackageConfigSchema,
+  PackageConfigSchema,
+  PackageDetailDataSchema,
+  PackageDetailResponseSchema,
+  PackagesListResponseSchema,
+  PackagesListSchema,
+  ToolDataSchema,
+  ToolExecuteSchema,
+  ToolsResponseSchema,
 } from "./schema";
 
-export type MCPServerPackageConfig = z.infer<
-	typeof MCPServerPackageConfigSchema
->;
+export type MCPServerPackageConfig = z.infer<typeof MCPServerPackageConfigSchema>;
 export type PackageConfig = z.infer<typeof PackageConfigSchema>;
 export type CategoryConfig = z.infer<typeof CategoryConfigSchema>;
 export type PackagesList = z.infer<typeof PackagesListSchema>;
 export type ToolExecute = z.infer<typeof ToolExecuteSchema>;
 
 export interface Response<T> {
-	success: boolean;
-	code: number;
-	message: string;
-	data?: T;
+  success: boolean;
+  code: number;
+  message: string;
+  data?: T;
 }
 
 export type MCPServerPackageConfigWithTools = MCPServerPackageConfig & {
-	tools?: Tool[];
+  tools?: Tool[];
 };
 
 // API Response Types

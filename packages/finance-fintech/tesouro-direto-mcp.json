@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "tesouro-direto-mcp",
-	"description": "Provides real-time access to Brazil's Treasury Direct bond market data, enabling users to retrieve market status, search bonds by type and maturity date, and access detailed information for investment analysis.",
-	"url": "https://github.com/atilioa/tesouro-direto-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"USE_MCP_CACHE": {
-			"description": "true",
-			"required": true
-		}
-	},
-	"name": "Tesouro Direto MCP"
+  "type": "mcp-server",
+  "packageName": "tesouro-direto-mcp",
+  "description": "Provides real-time access to Brazil's Treasury Direct bond market data, enabling users to retrieve market status, search bonds by type and maturity date, and access detailed information for investment analysis.",
+  "url": "https://github.com/atilioa/tesouro-direto-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "USE_MCP_CACHE": {
+      "description": "true",
+      "required": true
+    }
+  },
+  "name": "Tesouro Direto MCP"
 }

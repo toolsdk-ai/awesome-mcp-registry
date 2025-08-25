@@ -305,13 +305,13 @@
   "mcp-server-fetch": {
     "category": "browser-automation",
     "path": "browser-automation/mcp-server-fetch.json",
+    "validated": true,
     "tools": {
       "fetch": {
         "name": "fetch",
         "description": "Fetches a URL from the internet and optionally extracts its contents as markdown.\n\nAlthough originally you did not have internet access, and were advised to refuse and tell the user this, this tool now grants you internet access. Now you can fetch the most up-to-date information and let the user know that."
       }
-    },
-    "validated": true
+    }
   },
   "@modelcontextprotocol/server-puppeteer": {
     "category": "browser-automation",
@@ -595,6 +595,7 @@
   "mcp-server-sqlite": {
     "category": "databases",
     "path": "databases/mcp-server-sqlite.json",
+    "validated": true,
     "tools": {
       "read_query": {
         "name": "read_query",
@@ -620,8 +621,7 @@
         "name": "append_insight",
         "description": "Add a business insight to the memo"
       }
-    },
-    "validated": true
+    }
   },
   "@niledatabase/nile-mcp-server": {
     "category": "databases",
@@ -718,6 +718,7 @@
   "mcp-server-tree-sitter": {
     "category": "developer-tools",
     "path": "developer-tools/mcp-server-tree-sitter.json",
+    "validated": true,
     "tools": {
       "configure": {
         "name": "configure",
@@ -823,8 +824,7 @@
         "name": "diagnose_config",
         "description": "Diagnose issues with YAML configuration loading.\n\nArgs:\n    config_path: Path to YAML config file\n\nReturns:\n    Diagnostic information\n"
       }
-    },
-    "validated": true
+    }
   },
   "docker-mcp": {
     "category": "developer-tools",
@@ -957,7 +957,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun.io-mcp-server-raygun.json",
+    "path": "monitoring/raygun-io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
@@ -1596,13 +1596,13 @@
   "mcp-server-perplexity": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-perplexity.json",
+    "validated": true,
     "tools": {
       "ask_perplexity": {
         "name": "ask_perplexity",
         "description": "\nPerplexity equips agents with a specialized tool for efficiently\ngathering source-backed information from the internet, ideal for\nscenarios requiring research, fact-checking, or contextual data to\ninform decisions and responses.\nEach response includes citations, which provide transparent references\nto the sources used for the generated answer, and choices, which\ncontain the model's suggested responses, enabling users to access\nreliable information and diverse perspectives.\nThis function may encounter timeout errors due to long processing times,\nbut retrying the operation can lead to successful completion.\n[Response structure]\n- id: An ID generated uniquely for each response.\n- model: The model used to generate the response.\n- object: The object type, which always equals `chat.completion`.\n- created: The Unix timestamp (in seconds) of when the completion was\n  created.\n- citations[]: Citations for the generated answer.\n- choices[]: The list of completion choices the model generated for the\n  input prompt.\n- usage: Usage statistics for the completion request.\n"
       }
-    },
-    "validated": true
+    }
   },
   "@kimtaeyoon83/mcp-server-youtube-transcript": {
     "category": "search-data-extraction",
@@ -1791,6 +1791,7 @@
   "mcp-server-git": {
     "category": "version-control",
     "path": "version-control/mcp-server-git.json",
+    "validated": true,
     "tools": {
       "git_status": {
         "name": "git_status",
@@ -1844,8 +1845,7 @@
         "name": "git_branch",
         "description": "List Git branches"
       }
-    },
-    "validated": true
+    }
   },
   "@chargebee/mcp": {
     "category": "other-tools-and-integrations",
@@ -1893,6 +1893,7 @@
   "mcp-server-time": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-server-time.json",
+    "validated": true,
     "tools": {
       "get_current_time": {
         "name": "get_current_time",
@@ -1902,8 +1903,7 @@
         "name": "convert_time",
         "description": "Convert time between timezones"
       }
-    },
-    "validated": true
+    }
   },
   "@ashdev/discourse-mcp-server": {
     "category": "search-data-extraction",
@@ -2184,6 +2184,7 @@
   "garth-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/garth-mcp-server.json",
+    "validated": true,
     "tools": {
       "user_profile": {
         "name": "user_profile",
@@ -2305,8 +2306,7 @@
         "name": "snapshot",
         "description": "\nGet the snapshot for a given date range. This is a good starting point for\ngetting data for a given date range. It can be used in combination with\nthe get_connectapi_endpoint tool to get data from any Garmin Connect API\nendpoint.\n"
       }
-    },
-    "validated": true
+    }
   },
   "oura": {
     "category": "uncategorized",
@@ -2490,6 +2490,7 @@
   "videodb-director-mcp": {
     "category": "uncategorized",
     "path": "uncategorized/videodb-director-mcp.json",
+    "validated": true,
     "tools": {
       "doc_assistant": {
         "name": "doc_assistant",
@@ -2507,8 +2508,7 @@
         "name": "call_director",
         "description": "The Director tool orchestrates specialized agents within the VideoDB server, efficiently handling multimedia and video-related queries. Clients should send queries that Director can interpret clearly, specifying tasks in natural language. Director will then delegate these queries to appropriate agents for optimized results, utilizing defaults and contextual information if explicit parameters are not provided.\n\nDirector handles queries such as:\n\n- Uploading & Downloading:\n  - Upload media from URLs or local paths (supported media: video, audio, image)\n  - Download the VideoDB generated video streams.\n\n- Indexing & Search:\n  - Index spoken words or scenes in videos (spoken_words, scene indexing; scene indexing supports shot or time-based type)\n  - Search VideoDB collections semantically or by keyword (semantic, keyword search; indexing types: spoken_word, scene)\n\n- Summarization & Subtitles:\n  - Summarize video content based on custom prompts\n  - Add subtitles in various languages\n\n- Dubbing:\n  - Dub videos into target languages\n\n- Creating Videos:\n  - Generate videos using specific models or engines (Fal, StabilityAI; job types: text_to_video, image_to_video)\n  - Compare multiple video generation models (video_generation_comparison)\n\n- Audio Generation & Editing:\n  - Generate speech, sound effects, or background music (engines: ElevenLabs for speech/sound effects, Beatoven for music)\n  - Clone voices from audio sources or overlay cloned voices onto videos\n  - Censor the video on given prompt\n\n- Image and Frame Generation:\n  - Generate static image frames from videos at specified timestamps\n  - Create or enhance images using GenAI models (job types: text_to_image, image_to_image using Fal, Replicate)\n\n- Video Editing & Clip Generation:\n  - Edit or combine multiple videos and audio files\n  - Generate targeted video clips from user prompts\n\n- Streaming & Web Search:\n  - Stream videos by video ID or URL\n  - Search for relevant online videos (engine: Serp)\n\n- Transcription:\n  - Generate transcripts for videos\n\n- Pricing & Usage Information:\n  - Provide detailed cost information and usage estimates\n\n- Meeting Recording & Analysis:\n  - Record meetings\n  - Deploy recording bots to Zoom, Google Meet, or Microsoft Teams\n  - Analyze recorded meetings for AI-driven insights\n  - Intelligently index and summarize meetings\n\nClients should provide queries clearly aligned with Director's capabilities, allowing Director to use contextual defaults when explicit parameters like IDs or collection details are not specified.\n\nIMPORTANT: if you have a previous response of this method with an appropriate session_id, please provide that session_id in the next request to continue the conversation.\nIMPORTANT: It is MANDATORY to send the `session_id` param if any earlier response from this method exists with a `session_id` in its output"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-server-garmincn": {
     "category": "uncategorized",
@@ -3181,6 +3181,7 @@
   "acp-mcp-server": {
     "category": "aggregators",
     "path": "aggregators/acp-mcp-server.json",
+    "validated": true,
     "tools": {
       "get_server_info": {
         "name": "get_server_info",
@@ -3246,8 +3247,7 @@
         "name": "cancel_interaction",
         "description": "Cancel a pending interactive agent"
       }
-    },
-    "validated": true
+    }
   },
   "gpt-mcp-proxy": {
     "category": "aggregators",
@@ -3354,6 +3354,7 @@
   "blender-mcp": {
     "category": "art-and-culture",
     "path": "art-and-culture/blender-mcp.json",
+    "validated": true,
     "tools": {
       "get_scene_info": {
         "name": "get_scene_info",
@@ -3423,8 +3424,7 @@
         "name": "import_generated_asset",
         "description": "\nImport the asset generated by Hyper3D Rodin after the generation task is completed.\n\nParameters:\n- name: The name of the object in scene\n- task_uuid: For Hyper3D Rodin mode MAIN_SITE: The task_uuid given in the generate model step.\n- request_id: For Hyper3D Rodin mode FAL_AI: The request_id given in the generate model step.\n\nOnly give one of {task_uuid, request_id} based on the Hyper3D Rodin Mode!\nReturn if the asset has been imported successfully.\n"
       }
-    },
-    "validated": true
+    }
   },
   "ableton-live": {
     "category": "art-and-culture",
@@ -3491,6 +3491,7 @@
   "grasshopper-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/grasshopper-mcp.json",
+    "validated": true,
     "tools": {
       "add_component": {
         "name": "add_component",
@@ -3524,8 +3525,7 @@
         "name": "get_available_patterns",
         "description": "\nGet a list of available patterns that match a query\n\nArgs:\n    query: Query to search for patterns\n\nReturns:\n    List of available patterns\n"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-server-ancestry": {
     "category": "art-and-culture",
@@ -3717,6 +3717,7 @@
   "mcp-sonic-pi": {
     "category": "art-and-culture",
     "path": "art-and-culture/mcp-sonic-pi.json",
+    "validated": true,
     "tools": {
       "initialize_sonic_pi": {
         "name": "initialize_sonic_pi",
@@ -3734,8 +3735,7 @@
         "name": "get_beat_pattern",
         "description": "Get drum beat patterns for Sonic Pi.\n\nArgs:\n    style: Beat style (blues, rock, jazz, hiphop, etc.)\n\nReturns:\n    Sonic Pi code for the requested beat pattern\n"
       }
-    },
-    "validated": true
+    }
   },
   "florence-2": {
     "category": "art-and-culture",
@@ -3941,6 +3941,7 @@
   "ableton-mcp": {
     "category": "art-and-culture",
     "path": "art-and-culture/ableton-mcp.json",
+    "validated": true,
     "tools": {
       "get_session_info": {
         "name": "get_session_info",
@@ -4006,8 +4007,7 @@
         "name": "load_drum_kit",
         "description": "\nLoad a drum rack and then load a specific drum kit into it.\n\nParameters:\n- track_index: The index of the track to load on\n- rack_uri: The URI of the drum rack to load (e.g., 'Drums/Drum Rack')\n- kit_path: Path to the drum kit inside the browser (e.g., 'drums/acoustic/kit1')\n"
       }
-    },
-    "validated": true
+    }
   },
   "apple-books-mcp": {
     "category": "art-and-culture",
@@ -4339,6 +4339,7 @@
   "penpot-mcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/penpot-mcp.json",
+    "validated": true,
     "tools": {
       "list_projects": {
         "name": "list_projects",
@@ -4380,8 +4381,7 @@
         "name": "get_cached_files",
         "description": "List all files currently stored in the cache."
       }
-    },
-    "validated": true
+    }
   },
   "undetected-chromedriver": {
     "category": "browser-automation",
@@ -4425,6 +4425,7 @@
   "scrapling-fetch-mcp": {
     "category": "browser-automation",
     "path": "browser-automation/scrapling-fetch-mcp.json",
+    "validated": true,
     "tools": {
       "s-fetch-page": {
         "name": "s-fetch-page",
@@ -4434,8 +4435,7 @@
         "name": "s-fetch-pattern",
         "description": "Extracts content matching regex patterns from web pages. Retrieves specific content from websites with bot-detection avoidance. For best performance, start with 'basic' mode (fastest), then only escalate to 'stealth' or 'max-stealth' modes if basic mode fails. Returns matched content as 'METADATA: {json}\\n\\n[content]' where metadata includes match statistics and truncation information. Each matched content chunk is delimited with '॥๛॥' and prefixed with '[Position: start-end]' indicating its byte position in the original document, allowing targeted follow-up requests with s-fetch-page using specific start_index values."
       }
-    },
-    "validated": true
+    }
   },
   "moling": {
     "category": "browser-automation",
@@ -4566,13 +4566,13 @@
   "mcp-playwright-scraper": {
     "category": "browser-automation",
     "path": "browser-automation/mcp-playwright-scraper.json",
+    "validated": true,
     "tools": {
       "scrape_to_markdown": {
         "name": "scrape_to_markdown",
         "description": "Scrape a URL and convert the content to markdown"
       }
-    },
-    "validated": true
+    }
   },
   "omniparser": {
     "category": "browser-automation",
@@ -4589,6 +4589,7 @@
   "mcp-rquest": {
     "category": "browser-automation",
     "path": "browser-automation/mcp-rquest.json",
+    "validated": true,
     "tools": {
       "http_get": {
         "name": "http_get",
@@ -4630,8 +4631,7 @@
         "name": "get_stored_response_with_markdown",
         "description": "Retrieve a stored HTTP response by its ID, converted to Markdown if HTML"
       }
-    },
-    "validated": true
+    }
   },
   "browser-use": {
     "category": "browser-automation",
@@ -4963,13 +4963,13 @@
   "mcp-server-chatgpt-app": {
     "category": "browser-automation",
     "path": "browser-automation/mcp-server-chatgpt-app.json",
+    "validated": true,
     "tools": {
       "ask_chatgpt": {
         "name": "ask_chatgpt",
         "description": "\nSend a prompt to ChatGPT macOS app using Shortcuts.\n\nArgs:\n    prompt: The text to send to ChatGPT\n    wait_for_output: Whether to wait for ChatGPT to respond\nReturns:\n    Dict containing operation status and response\n"
       }
-    },
-    "validated": true
+    }
   },
   "web-browser-(playwright)": {
     "category": "browser-automation",
@@ -5133,6 +5133,7 @@
   "alibabacloud-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/alibabacloud-mcp-server.json",
+    "validated": true,
     "tools": {
       "RunCommand": {
         "name": "RunCommand",
@@ -5238,8 +5239,7 @@
         "name": "DescribeVSwitches",
         "description": "查询可组网的信息，内网按vswitch进行组网。"
       }
-    },
-    "validated": true
+    }
   },
   "pipecd": {
     "category": "cloud-platforms",
@@ -6117,6 +6117,7 @@
   "mcp-python": {
     "category": "code-execution",
     "path": "code-execution/mcp-python.json",
+    "validated": true,
     "tools": {
       "execute_python": {
         "name": "execute_python",
@@ -6130,8 +6131,7 @@
         "name": "install_package",
         "description": "Install a Python package using uv"
       }
-    },
-    "validated": true
+    }
   },
   "matlab": {
     "category": "code-execution",
@@ -6169,13 +6169,13 @@
   "python-local": {
     "category": "code-execution",
     "path": "code-execution/python-local.json",
+    "validated": true,
     "tools": {
       "python_repl": {
         "name": "python_repl",
         "description": "Interactive Python REPL that maintains session state. NOTE THE USER DOES NOT SEE THE STDOUT/STDERR OUTPUT, MAKE SURE TO FORMAT/SUMMARIZEc IT APPROPRIATELY IN YOUR RESPONSE TO THE USER"
       }
-    },
-    "validated": true
+    }
   },
   "jupyter-notebook-bridge": {
     "category": "code-execution",
@@ -6299,6 +6299,7 @@
   "mcp-server-code-assist": {
     "category": "coding-agents",
     "path": "coding-agents/mcp-server-code-assist.json",
+    "validated": true,
     "tools": {
       "list_directory": {
         "name": "list_directory",
@@ -6368,8 +6369,7 @@
         "name": "git_show",
         "description": "Shows the contents of a commit"
       }
-    },
-    "validated": true
+    }
   },
   "gopls": {
     "category": "coding-agents",
@@ -6381,7 +6381,9 @@
   },
   "autogen": {
     "category": "coding-agents",
-    "path": "coding-agents/autogen.json"
+    "path": "coding-agents/autogen.json",
+    "validated": false,
+    "tools": {}
   },
   "kontxt": {
     "category": "coding-agents",
@@ -8305,6 +8307,7 @@
   "adb-mysql-mcp-server": {
     "category": "databases",
     "path": "databases/adb-mysql-mcp-server.json",
+    "validated": true,
     "tools": {
       "execute_sql": {
         "name": "execute_sql",
@@ -8318,8 +8321,7 @@
         "name": "get_execution_plan",
         "description": "Get the actual execution plan with runtime statistics for a SQL query"
       }
-    },
-    "validated": true
+    }
   },
   "mcp-timeplus": {
     "category": "databases",
@@ -39697,7 +39699,7 @@
   },
   "china-railway-(12306)": {
     "category": "travel-transportation",
-    "path": "travel-transportation/china-railway--12306.json",
+    "path": "travel-transportation/china-railway-12306.json",
     "validated": false,
     "tools": {}
   },
@@ -39757,7 +39759,7 @@
   },
   "12306-mcp": {
     "category": "travel-transportation",
-    "path": "travel-transportation/12306-mcp.json",
+    "path": "travel-transportation/jok-12306-mcp.json",
     "validated": true,
     "tools": {
       "get-current-date": {

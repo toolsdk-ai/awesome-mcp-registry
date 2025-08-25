@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "roo-code-memory-bank",
-	"description": "Implements a file-based project context management system that maintains persistent memory across sessions through structured markdown files for tracking progress, decisions, and system patterns.",
-	"url": "https://github.com/incomestreamsurfer/roo-code-memory-bank-mcp-server",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Roo Code Memory Bank MCP Server"
+  "type": "mcp-server",
+  "packageName": "roo-code-memory-bank",
+  "description": "Implements a file-based project context management system that maintains persistent memory across sessions through structured markdown files for tracking progress, decisions, and system patterns.",
+  "url": "https://github.com/incomestreamsurfer/roo-code-memory-bank-mcp-server",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Roo Code Memory Bank MCP Server"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "docfork",
-	"description": "Retrieves up-to-date documentation and code examples for any software library through the Docfork API, automatically selecting relevant libraries and providing topic-focused documentation with configurable response size limits.",
-	"url": "https://github.com/docfork/docfork-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"DEFAULT_MINIMUM_TOKENS": {
-			"description": "10000",
-			"required": true
-		}
-	},
-	"name": "Docfork MCP"
+  "type": "mcp-server",
+  "packageName": "docfork",
+  "description": "Retrieves up-to-date documentation and code examples for any software library through the Docfork API, automatically selecting relevant libraries and providing topic-focused documentation with configurable response size limits.",
+  "url": "https://github.com/docfork/docfork-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "DEFAULT_MINIMUM_TOKENS": {
+      "description": "10000",
+      "required": true
+    }
+  },
+  "name": "Docfork MCP"
 }

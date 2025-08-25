@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-sqlite-npx",
-	"description": "Implements SQLite functionality in Node.js.",
-	"url": "https://github.com/johnnyoshika/mcp-server-sqlite-npx",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"PATH": {
-			"description": "/absolute/path/to/executables",
-			"required": true
-		},
-		"NODE_PATH": {
-			"description": "/absolute/path/to/node_modules",
-			"required": true
-		}
-	},
-	"name": "MCP Server SQLite NPX"
+  "type": "mcp-server",
+  "packageName": "mcp-server-sqlite-npx",
+  "description": "Implements SQLite functionality in Node.js.",
+  "url": "https://github.com/johnnyoshika/mcp-server-sqlite-npx",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PATH": {
+      "description": "/absolute/path/to/executables",
+      "required": true
+    },
+    "NODE_PATH": {
+      "description": "/absolute/path/to/node_modules",
+      "required": true
+    }
+  },
+  "name": "MCP Server SQLite NPX"
 }

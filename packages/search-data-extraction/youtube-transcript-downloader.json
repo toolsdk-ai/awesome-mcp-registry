@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "youtube-transcript-downloader",
-	"description": "Bridges YouTube API to download closed captions, enabling video transcript analysis and content processing.",
-	"url": "https://github.com/sparfenyuk/mcp-youtube",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "YouTube MCP"
+  "type": "mcp-server",
+  "packageName": "youtube-transcript-downloader",
+  "description": "Bridges YouTube API to download closed captions, enabling video transcript analysis and content processing.",
+  "url": "https://github.com/sparfenyuk/mcp-youtube",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "YouTube MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "smallest.ai-knowledge-base",
-	"description": "Provides direct access to Smallest.ai knowledge base API for listing, creating, and retrieving knowledge bases without leaving the conversation context",
-	"url": "https://github.com/vinayaktiwari1103/mcp-smallest-ai",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Smallest AI"
+  "type": "mcp-server",
+  "packageName": "smallest.ai-knowledge-base",
+  "description": "Provides direct access to Smallest.ai knowledge base API for listing, creating, and retrieving knowledge bases without leaving the conversation context",
+  "url": "https://github.com/vinayaktiwari1103/mcp-smallest-ai",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Smallest AI"
 }

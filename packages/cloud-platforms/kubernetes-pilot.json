@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "kubernetes-pilot",
-	"description": "Enables AI to manage Kubernetes clusters through a comprehensive set of tools for contexts, namespaces, pods, deployments, services, and other resources with optimized performance and context-aware operations.",
-	"url": "https://github.com/bourbonkk/k8s-pilot",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Kubernetes Pilot"
+  "type": "mcp-server",
+  "packageName": "kubernetes-pilot",
+  "description": "Enables AI to manage Kubernetes clusters through a comprehensive set of tools for contexts, namespaces, pods, deployments, services, and other resources with optimized performance and context-aware operations.",
+  "url": "https://github.com/bourbonkk/k8s-pilot",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Kubernetes Pilot"
 }

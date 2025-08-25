@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "python-run",
-	"description": "Provides a RESTful API for remote execution of Python code snippets.",
-	"url": "https://github.com/topherbc/python-run-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Python Run MCP"
+  "type": "mcp-server",
+  "packageName": "python-run",
+  "description": "Provides a RESTful API for remote execution of Python code snippets.",
+  "url": "https://github.com/topherbc/python-run-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Python Run MCP"
 }

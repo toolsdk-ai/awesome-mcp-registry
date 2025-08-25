@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "oracle-mcp-server",
-	"description": "Connects to Oracle databases with intelligent caching and lazy loading to provide schema exploration, query execution with explain plans, and cross-schema operations for efficient database management without loading entire schemas upfront.",
-	"url": "https://github.com/zhengwanbo/oracle-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Oracle MCP Server"
+  "type": "mcp-server",
+  "packageName": "oracle-mcp-server",
+  "description": "Connects to Oracle databases with intelligent caching and lazy loading to provide schema exploration, query execution with explain plans, and cross-schema operations for efficient database management without loading entire schemas upfront.",
+  "url": "https://github.com/zhengwanbo/oracle-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Oracle MCP Server"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-dumplingai",
-	"description": "Provides a bridge to Dumpling AI's data extraction API for performing web searches, scraping content, extracting structured data, and processing various document formats through 20+ specialized tools.",
-	"url": "https://github.com/dumpling-ai/mcp-server-dumplingai",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"DUMPLING_API_KEY": {
-			"description": "<your-api-key>",
-			"required": true
-		}
-	},
-	"name": "Dumpling AI MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-dumplingai",
+  "description": "Provides a bridge to Dumpling AI's data extraction API for performing web searches, scraping content, extracting structured data, and processing various document formats through 20+ specialized tools.",
+  "url": "https://github.com/dumpling-ai/mcp-server-dumplingai",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "DUMPLING_API_KEY": {
+      "description": "<your-api-key>",
+      "required": true
+    }
+  },
+  "name": "Dumpling AI MCP Server"
 }

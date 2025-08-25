@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "tidb-ai",
-	"description": "Integrates with TiDB AI to enable direct querying and response streaming within code editors through a lightweight Go-based bridge.",
-	"url": "https://github.com/siddontang/tidb-ai-mcp",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "TiDB AI MCP"
+  "type": "mcp-server",
+  "packageName": "tidb-ai",
+  "description": "Integrates with TiDB AI to enable direct querying and response streaming within code editors through a lightweight Go-based bridge.",
+  "url": "https://github.com/siddontang/tidb-ai-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "TiDB AI MCP"
 }

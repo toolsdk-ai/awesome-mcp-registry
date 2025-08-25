@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-tavily",
-	"description": "Search and retrieve AI-enhanced web results via Tavily.",
-	"url": "https://github.com/ramxx/mcp-tavily",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Tavily MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-tavily",
+  "description": "Search and retrieve AI-enhanced web results via Tavily.",
+  "url": "https://github.com/ramxx/mcp-tavily",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Tavily MCP"
 }

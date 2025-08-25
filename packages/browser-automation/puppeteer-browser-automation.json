@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "puppeteer-browser-automation",
-	"description": "Integrates with Puppeteer to provide browser automation capabilities for web navigation, interaction, and data extraction.",
-	"url": "https://github.com/twolven/mcp-server-puppeteer-py",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Puppeteer Browser Automation"
+  "type": "mcp-server",
+  "packageName": "puppeteer-browser-automation",
+  "description": "Integrates with Puppeteer to provide browser automation capabilities for web navigation, interaction, and data extraction.",
+  "url": "https://github.com/twolven/mcp-server-puppeteer-py",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Puppeteer Browser Automation"
 }

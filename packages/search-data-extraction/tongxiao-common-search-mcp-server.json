@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@tongxiao/common-search-mcp-server",
-	"description": "Integrates with TongXiao's IQS APIs to provide enhanced real-time web search capabilities that deliver clean, accurate, and diverse results through multiple data sources optimized with large language models.",
-	"url": "https://github.com/aliyun/alibabacloud-iqs-tongxiao-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TONGXIAO_API_KEY": {
-			"description": "",
-			"required": true
-		}
-	},
-	"name": "AlibabaCloud IQS TongXiao MCP Server"
+  "type": "mcp-server",
+  "packageName": "@tongxiao/common-search-mcp-server",
+  "description": "Integrates with TongXiao's IQS APIs to provide enhanced real-time web search capabilities that deliver clean, accurate, and diverse results through multiple data sources optimized with large language models.",
+  "url": "https://github.com/aliyun/alibabacloud-iqs-tongxiao-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TONGXIAO_API_KEY": {
+      "description": "",
+      "required": true
+    }
+  },
+  "name": "AlibabaCloud IQS TongXiao MCP Server"
 }

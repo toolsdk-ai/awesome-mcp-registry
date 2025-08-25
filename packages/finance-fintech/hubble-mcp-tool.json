@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "hubble-mcp-tool",
-	"description": "Provides a bridge to Solana blockchain data through natural language queries, enabling analytics searches, chart generation, and image downloads for visualizing transaction patterns, price movements, and token distributions.",
-	"url": "https://github.com/hubblevision/hubble-ai-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"HUBBLE_API_KEY": {
-			"description": "your_api_key",
-			"required": true
-		}
-	},
-	"name": "Hubble AI MCP"
+  "type": "mcp-server",
+  "packageName": "hubble-mcp-tool",
+  "description": "Provides a bridge to Solana blockchain data through natural language queries, enabling analytics searches, chart generation, and image downloads for visualizing transaction patterns, price movements, and token distributions.",
+  "url": "https://github.com/hubblevision/hubble-ai-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "HUBBLE_API_KEY": {
+      "description": "your_api_key",
+      "required": true
+    }
+  },
+  "name": "Hubble AI MCP"
 }

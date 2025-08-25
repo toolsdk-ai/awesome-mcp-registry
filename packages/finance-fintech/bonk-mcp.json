@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "bonk-mcp",
-	"description": "Enables token creation and management on the Solana blockchain through the LetsBonk launchpad, handling IPFS metadata, image uploads, and Raydium integration for seamless meme token launches.",
-	"url": "https://github.com/bjoernbonk/letsbonk_mcp_server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "LetsBonk MCP Server"
+  "type": "mcp-server",
+  "packageName": "bonk-mcp",
+  "description": "Enables token creation and management on the Solana blockchain through the LetsBonk launchpad, handling IPFS metadata, image uploads, and Raydium integration for seamless meme token launches.",
+  "url": "https://github.com/bjoernbonk/letsbonk_mcp_server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "LetsBonk MCP Server"
 }

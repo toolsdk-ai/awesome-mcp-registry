@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "crewai-workflow",
-	"description": "Lightweight Python server for dynamically loading CrewAI multi-agent workflows from YAML configurations, enabling flexible task orchestration with minimal custom code and seamless tool integration.",
-	"url": "https://github.com/adam-paterson/mcp-crew-ai",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Crew AI"
+  "type": "mcp-server",
+  "packageName": "crewai-workflow",
+  "description": "Lightweight Python server for dynamically loading CrewAI multi-agent workflows from YAML configurations, enabling flexible task orchestration with minimal custom code and seamless tool integration.",
+  "url": "https://github.com/adam-paterson/mcp-crew-ai",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Crew AI"
 }

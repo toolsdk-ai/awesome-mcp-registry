@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "frankfurtermcp",
-	"description": "Integrates with the Frankfurter API to provide real-time currency exchange rates, historical rate data, and currency conversion capabilities for financial applications and currency analysis workflows.",
-	"url": "https://github.com/anirbanbasu/frankfurtermcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Frankfurter MCP"
+  "type": "mcp-server",
+  "packageName": "frankfurtermcp",
+  "description": "Integrates with the Frankfurter API to provide real-time currency exchange rates, historical rate data, and currency conversion capabilities for financial applications and currency analysis workflows.",
+  "url": "https://github.com/anirbanbasu/frankfurtermcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Frankfurter MCP"
 }

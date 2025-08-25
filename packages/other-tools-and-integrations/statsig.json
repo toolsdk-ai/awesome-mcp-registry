@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "statsig",
-	"description": "Integrates with Statsig's feature flag and experimentation platform by automatically generating tools from their OpenAPI specification, enabling management of feature flags, A/B tests, and experiment analysis with dynamic parameter validation and flexible authentication.",
-	"url": "https://github.com/statsig-io/mcp-stdio",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Statsig MCP"
+  "type": "mcp-server",
+  "packageName": "statsig",
+  "description": "Integrates with Statsig's feature flag and experimentation platform by automatically generating tools from their OpenAPI specification, enabling management of feature flags, A/B tests, and experiment analysis with dynamic parameter validation and flexible authentication.",
+  "url": "https://github.com/statsig-io/mcp-stdio",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Statsig MCP"
 }

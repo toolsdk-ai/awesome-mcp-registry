@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "compiler-explorer-mcp",
-	"description": "Connects to Compiler Explorer API for listing programming languages, retrieving available compilers, and compiling source code with customizable options, enabling developers to compare compiler behaviors and explore language features without context switching.",
-	"url": "https://github.com/torshepherd/compiler-explorer-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Compiler Explorer MCP"
+  "type": "mcp-server",
+  "packageName": "compiler-explorer-mcp",
+  "description": "Connects to Compiler Explorer API for listing programming languages, retrieving available compilers, and compiling source code with customizable options, enabling developers to compare compiler behaviors and explore language features without context switching.",
+  "url": "https://github.com/torshepherd/compiler-explorer-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Compiler Explorer MCP"
 }

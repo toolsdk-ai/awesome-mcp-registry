@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-feishu-proj",
-	"description": "Integrates with Feishu Project management API, enabling direct interaction with project data, tasks, and resources through environment variable authentication and stdio-based transport.",
-	"url": "https://github.com/roland0511/mcp-feishu-proj",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Feishu Project MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-feishu-proj",
+  "description": "Integrates with Feishu Project management API, enabling direct interaction with project data, tasks, and resources through environment variable authentication and stdio-based transport.",
+  "url": "https://github.com/roland0511/mcp-feishu-proj",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Feishu Project MCP"
 }

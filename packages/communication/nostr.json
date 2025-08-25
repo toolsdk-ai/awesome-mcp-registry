@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "nostr",
-	"description": "Bridges AI with the Nostr decentralized social network, enabling interaction with user profiles, posts, and Lightning Network payments through specialized tools for retrieving and analyzing social data.",
-	"url": "https://github.com/austinkelsay/nostr-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Nostr MCP Server"
+  "type": "mcp-server",
+  "packageName": "nostr",
+  "description": "Bridges AI with the Nostr decentralized social network, enabling interaction with user profiles, posts, and Lightning Network payments through specialized tools for retrieving and analyzing social data.",
+  "url": "https://github.com/austinkelsay/nostr-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Nostr MCP Server"
 }

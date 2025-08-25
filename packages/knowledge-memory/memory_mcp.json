@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "memory_mcp",
-	"description": "Provides persistent memory capabilities through sentence transformers and vector similarity search, enabling storage and retrieval of conversations, facts, documents, and code snippets across sessions",
-	"url": "https://github.com/whenmoon-afk/claude-memory-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Claude Memory MCP"
+  "type": "mcp-server",
+  "packageName": "memory_mcp",
+  "description": "Provides persistent memory capabilities through sentence transformers and vector similarity search, enabling storage and retrieval of conversations, facts, documents, and code snippets across sessions",
+  "url": "https://github.com/whenmoon-afk/claude-memory-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Claude Memory MCP"
 }

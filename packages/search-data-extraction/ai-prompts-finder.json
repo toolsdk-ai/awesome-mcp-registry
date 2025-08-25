@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ai-prompts-finder",
-	"description": "Provides a searchable repository of AI prompts with fuzzy matching capabilities for quick retrieval based on specific rules or search criteria.",
-	"url": "https://github.com/instructa/ai-prompts-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "AI Prompts MCP"
+  "type": "mcp-server",
+  "packageName": "ai-prompts-finder",
+  "description": "Provides a searchable repository of AI prompts with fuzzy matching capabilities for quick retrieval based on specific rules or search criteria.",
+  "url": "https://github.com/instructa/ai-prompts-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "AI Prompts MCP"
 }

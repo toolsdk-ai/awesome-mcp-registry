@@ -1,27 +1,27 @@
 {
-	"type": "mcp-server",
-	"packageName": "@f4ww4z/mcp-mysql-server",
-	"description": "Interact with MySQL databases to execute queries and manage connections.",
-	"url": "https://github.com/f4ww4z/mcp-mysql-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"MYSQL_HOST": {
-			"description": "your_host",
-			"required": true
-		},
-		"MYSQL_USER": {
-			"description": "your_user",
-			"required": true
-		},
-		"MYSQL_PASSWORD": {
-			"description": "your_password",
-			"required": true
-		},
-		"MYSQL_DATABASE": {
-			"description": "your_database",
-			"required": true
-		}
-	},
-	"name": "MCP MySQL Server"
+  "type": "mcp-server",
+  "packageName": "@f4ww4z/mcp-mysql-server",
+  "description": "Interact with MySQL databases to execute queries and manage connections.",
+  "url": "https://github.com/f4ww4z/mcp-mysql-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MYSQL_HOST": {
+      "description": "your_host",
+      "required": true
+    },
+    "MYSQL_USER": {
+      "description": "your_user",
+      "required": true
+    },
+    "MYSQL_PASSWORD": {
+      "description": "your_password",
+      "required": true
+    },
+    "MYSQL_DATABASE": {
+      "description": "your_database",
+      "required": true
+    }
+  },
+  "name": "MCP MySQL Server"
 }

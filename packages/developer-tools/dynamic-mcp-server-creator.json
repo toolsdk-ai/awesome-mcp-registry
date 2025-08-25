@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dynamic-mcp-server-creator",
-	"description": "Creates and manages dynamic MCP servers on-demand, enabling flexible tool execution and server lifecycle control through a TypeScript-based controller that runs in Docker for optimal isolation and security.",
-	"url": "https://github.com/tesla0225/mcp-create",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Create"
+  "type": "mcp-server",
+  "packageName": "dynamic-mcp-server-creator",
+  "description": "Creates and manages dynamic MCP servers on-demand, enabling flexible tool execution and server lifecycle control through a TypeScript-based controller that runs in Docker for optimal isolation and security.",
+  "url": "https://github.com/tesla0225/mcp-create",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Create"
 }

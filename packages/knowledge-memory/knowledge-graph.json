@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "knowledge-graph",
-	"description": "Enables persistent memory and structured knowledge management for enhanced personalization and context retention in natural language interactions through a local graph database.",
-	"url": "https://github.com/shaneholloman/mcp-knowledge-graph",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Knowledge Graph MCP"
+  "type": "mcp-server",
+  "packageName": "knowledge-graph",
+  "description": "Enables persistent memory and structured knowledge management for enhanced personalization and context retention in natural language interactions through a local graph database.",
+  "url": "https://github.com/shaneholloman/mcp-knowledge-graph",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Knowledge Graph MCP"
 }

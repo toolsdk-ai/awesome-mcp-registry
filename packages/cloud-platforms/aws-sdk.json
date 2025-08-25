@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "aws-sdk",
-	"description": "Enables direct interaction with AWS services through the AWS SDK v2, allowing users to query environments, manage resources, and analyze cloud infrastructure using credential management and sandboxed JavaScript execution.",
-	"url": "https://github.com/ihatesea69/aws-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Aws MCP"
+  "type": "mcp-server",
+  "packageName": "aws-sdk",
+  "description": "Enables direct interaction with AWS services through the AWS SDK v2, allowing users to query environments, manage resources, and analyze cloud infrastructure using credential management and sandboxed JavaScript execution.",
+  "url": "https://github.com/ihatesea69/aws-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Aws MCP"
 }

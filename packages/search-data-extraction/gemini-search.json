@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gemini-search",
-	"description": "Integrates with Google Gemini API to enable powerful web searches with advanced language understanding capabilities.",
-	"url": "https://github.com/lorhlona/geminiserchmcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Gemini Search MCP"
+  "type": "mcp-server",
+  "packageName": "gemini-search",
+  "description": "Integrates with Google Gemini API to enable powerful web searches with advanced language understanding capabilities.",
+  "url": "https://github.com/lorhlona/geminiserchmcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Gemini Search MCP"
 }

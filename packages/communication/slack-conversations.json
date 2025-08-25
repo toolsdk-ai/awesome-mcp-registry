@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "slack-conversations",
-	"description": "Bridges AI with Slack's messaging platform, enabling access to conversation history from channels through secure authentication and flexible transport modes.",
-	"url": "https://github.com/korotovsky/slack-mcp-server",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Slack MCP Server"
+  "type": "mcp-server",
+  "packageName": "slack-conversations",
+  "description": "Bridges AI with Slack's messaging platform, enabling access to conversation history from channels through secure authentication and flexible transport modes.",
+  "url": "https://github.com/korotovsky/slack-mcp-server",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Slack MCP Server"
 }

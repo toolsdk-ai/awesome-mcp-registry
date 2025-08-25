@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "rapidocr-mcp",
-	"description": "Extracts text from images using RapidOCR library through base64-encoded data or file paths for automated document processing workflows.",
-	"url": "https://github.com/z4none/rapidocr-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "RapidOCR MCP"
+  "type": "mcp-server",
+  "packageName": "rapidocr-mcp",
+  "description": "Extracts text from images using RapidOCR library through base64-encoded data or file paths for automated document processing workflows.",
+  "url": "https://github.com/z4none/rapidocr-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "RapidOCR MCP"
 }

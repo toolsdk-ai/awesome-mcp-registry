@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-reddit",
-	"description": "Integrates with Reddit's API to fetch and retrieve diverse content including posts, comments, and subreddit information for data analysis and content curation.",
-	"url": "https://github.com/hawstein/mcp-server-reddit",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Reddit MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-reddit",
+  "description": "Integrates with Reddit's API to fetch and retrieve diverse content including posts, comments, and subreddit information for data analysis and content curation.",
+  "url": "https://github.com/hawstein/mcp-server-reddit",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Reddit MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "zillow",
-	"description": "Integrates with Zillow's real estate API to provide property searches, detailed information, Zestimates, market trends analysis, and mortgage calculations for home buying decisions.",
-	"url": "https://github.com/rohitsingh-iitd/zillow-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Zillow MCP Server"
+  "type": "mcp-server",
+  "packageName": "zillow",
+  "description": "Integrates with Zillow's real estate API to provide property searches, detailed information, Zestimates, market trends analysis, and mortgage calculations for home buying decisions.",
+  "url": "https://github.com/rohitsingh-iitd/zillow-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Zillow MCP Server"
 }

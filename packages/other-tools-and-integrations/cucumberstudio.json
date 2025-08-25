@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cucumberstudio",
-	"description": "Bridges CucumberStudio API with natural language interaction, enabling conversational management of BDD test scenarios including creation, updating, and deletion without leaving your chat interface.",
-	"url": "https://github.com/rizaqpratama/mcp-cucumberstudio",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "CucumberStudio MCP"
+  "type": "mcp-server",
+  "packageName": "cucumberstudio",
+  "description": "Bridges CucumberStudio API with natural language interaction, enabling conversational management of BDD test scenarios including creation, updating, and deletion without leaving your chat interface.",
+  "url": "https://github.com/rizaqpratama/mcp-cucumberstudio",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "CucumberStudio MCP"
 }

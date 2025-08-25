@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "canon-camera-control",
-	"description": "Provides direct control over Canon cameras through the Canon Camera Control API, enabling remote adjustment of shooting settings like aperture, shutter speed, and ISO while retrieving live view images for real-time feedback on setting changes.",
-	"url": "https://github.com/ish-joshi/canon-camera-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Canon Camera MCP"
+  "type": "mcp-server",
+  "packageName": "canon-camera-control",
+  "description": "Provides direct control over Canon cameras through the Canon Camera Control API, enabling remote adjustment of shooting settings like aperture, shutter speed, and ISO while retrieving live view images for real-time feedback on setting changes.",
+  "url": "https://github.com/ish-joshi/canon-camera-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Canon Camera MCP"
 }

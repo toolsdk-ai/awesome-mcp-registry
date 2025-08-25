@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@yepcode/mcp-server",
-	"description": "Enables secure execution of LLM-generated scripts and processes in isolated environments with environment variable management for teams needing to run code directly from AI assistants.",
-	"url": "https://github.com/yepcode/mcp-server-js",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"YEPCODE_API_TOKEN": {
-			"description": "your_api_token_here",
-			"required": true
-		}
-	},
-	"name": "YepCode MCP Server"
+  "type": "mcp-server",
+  "packageName": "@yepcode/mcp-server",
+  "description": "Enables secure execution of LLM-generated scripts and processes in isolated environments with environment variable management for teams needing to run code directly from AI assistants.",
+  "url": "https://github.com/yepcode/mcp-server-js",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "YEPCODE_API_TOKEN": {
+      "description": "your_api_token_here",
+      "required": true
+    }
+  },
+  "name": "YepCode MCP Server"
 }

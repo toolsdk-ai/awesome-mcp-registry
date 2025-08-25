@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "zoom",
-	"description": "Enables AI to create and manage Zoom meetings with customizable settings through server-to-server OAuth authentication with the Zoom API.",
-	"url": "https://github.com/javaprogrammerlb/zoom-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Zoom MCP Server"
+  "type": "mcp-server",
+  "packageName": "zoom",
+  "description": "Enables AI to create and manage Zoom meetings with customizable settings through server-to-server OAuth authentication with the Zoom API.",
+  "url": "https://github.com/javaprogrammerlb/zoom-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Zoom MCP Server"
 }

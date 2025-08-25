@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@shtse8/pdf-reader-mcp",
-	"description": "Securely extracts text, metadata, and page information from PDF files within a project directory using pdfjs-dist for both local files and remote URLs.",
-	"url": "https://github.com/sylphxltd/pdf-reader-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "PDF Reader MCP"
+  "type": "mcp-server",
+  "packageName": "@shtse8/pdf-reader-mcp",
+  "description": "Securely extracts text, metadata, and page information from PDF files within a project directory using pdfjs-dist for both local files and remote URLs.",
+  "url": "https://github.com/sylphxltd/pdf-reader-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "PDF Reader MCP"
 }

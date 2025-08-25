@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@cyanheads/pubmed-mcp-server",
-	"description": "Enables AI systems to search, retrieve, and analyze biomedical literature from PubMed for evidence-based research, citation generation, and data visualization",
-	"url": "https://github.com/cyanheads/pubmed-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"NCBI_API_KEY": {
-			"description": "your_ncbi_api_key_here",
-			"required": true
-		}
-	},
-	"name": "PubMed MCP Server"
+  "type": "mcp-server",
+  "packageName": "@cyanheads/pubmed-mcp-server",
+  "description": "Enables AI systems to search, retrieve, and analyze biomedical literature from PubMed for evidence-based research, citation generation, and data visualization",
+  "url": "https://github.com/cyanheads/pubmed-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "NCBI_API_KEY": {
+      "description": "your_ncbi_api_key_here",
+      "required": true
+    }
+  },
+  "name": "PubMed MCP Server"
 }

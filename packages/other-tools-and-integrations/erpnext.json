@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "erpnext",
-	"description": "Integrates with ERPNext/Frappe API to enable document operations, report generation, and metadata discovery for enterprise resource planning data access without direct database interaction.",
-	"url": "https://github.com/rakeshgangwar/erpnext-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "ERPNext MCP Server"
+  "type": "mcp-server",
+  "packageName": "erpnext",
+  "description": "Integrates with ERPNext/Frappe API to enable document operations, report generation, and metadata discovery for enterprise resource planning data access without direct database interaction.",
+  "url": "https://github.com/rakeshgangwar/erpnext-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "ERPNext MCP Server"
 }

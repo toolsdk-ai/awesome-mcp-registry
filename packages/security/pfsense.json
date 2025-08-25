@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "pfsense",
-	"description": "Integrates with pfSense firewall systems through REST API, XML-RPC, and SSH to enable natural language control of security operations, IP blocking, firewall rule management, compliance checking for PCI-DSS and HIPAA frameworks, threat analysis, and emergency incident response including network isolation and panic mode activation.",
-	"url": "https://github.com/gensecaihq/pfsense-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "pfSense MCP Server"
+  "type": "mcp-server",
+  "packageName": "pfsense",
+  "description": "Integrates with pfSense firewall systems through REST API, XML-RPC, and SSH to enable natural language control of security operations, IP blocking, firewall rule management, compliance checking for PCI-DSS and HIPAA frameworks, threat analysis, and emergency incident response including network isolation and panic mode activation.",
+  "url": "https://github.com/gensecaihq/pfsense-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "pfSense MCP Server"
 }

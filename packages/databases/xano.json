@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "xano",
-	"description": "Integrates with Xano's no-code backend platform to enable data querying, manipulation, and CRUD operations for rapid application development and prototyping.",
-	"url": "https://github.com/sarimsiddd/xano_mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Xano MCP"
+  "type": "mcp-server",
+  "packageName": "xano",
+  "description": "Integrates with Xano's no-code backend platform to enable data querying, manipulation, and CRUD operations for rapid application development and prototyping.",
+  "url": "https://github.com/sarimsiddd/xano_mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Xano MCP"
 }

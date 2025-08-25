@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-deepwiki",
-	"description": "Converts DeepWiki repositories into well-formatted Markdown, maintaining links between pages while removing headers, footers, navigation elements, and ads for clean documentation extraction.",
-	"url": "https://github.com/regenrek/deepwiki-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "DeepWiki MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-deepwiki",
+  "description": "Converts DeepWiki repositories into well-formatted Markdown, maintaining links between pages while removing headers, footers, navigation elements, and ads for clean documentation extraction.",
+  "url": "https://github.com/regenrek/deepwiki-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "DeepWiki MCP"
 }

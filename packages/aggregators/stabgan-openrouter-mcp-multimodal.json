@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@stabgan/openrouter-mcp-multimodal",
-	"description": "Provides seamless access to OpenRouter's diverse AI models, enabling multimodal interactions across vision and language models with intelligent model selection, caching, and robust error handling.",
-	"url": "https://github.com/stabgan/openrouter-mcp-multimodal",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"OPENROUTER_API_KEY": {
-			"description": "your-api-key-here",
-			"required": true
-		},
-		"DEFAULT_MODEL": {
-			"description": "qwen/qwen2.5-vl-32b-instruct:free",
-			"required": true
-		}
-	},
-	"name": "OpenRouter MCP Multimodal"
+  "type": "mcp-server",
+  "packageName": "@stabgan/openrouter-mcp-multimodal",
+  "description": "Provides seamless access to OpenRouter's diverse AI models, enabling multimodal interactions across vision and language models with intelligent model selection, caching, and robust error handling.",
+  "url": "https://github.com/stabgan/openrouter-mcp-multimodal",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OPENROUTER_API_KEY": {
+      "description": "your-api-key-here",
+      "required": true
+    },
+    "DEFAULT_MODEL": {
+      "description": "qwen/qwen2.5-vl-32b-instruct:free",
+      "required": true
+    }
+  },
+  "name": "OpenRouter MCP Multimodal"
 }

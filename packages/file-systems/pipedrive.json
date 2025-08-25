@@ -1,16 +1,16 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1567800176021995521/IytS-L9i_400x400.jpg",
-	"packageName": "@WillDent/pipedrive-mcp-server",
-	"description": "This is a Model Context Protocol (MCP) server that connects to the Pipedrive API v2. It allows you to expose Pipedrive data and functionality to LLM applications like Claude. ",
-	"url": "https://github.com/WillDent/pipedrive-mcp-server",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"PIPEDRIVE_API_TOKEN": {
-			"description": "your_api_token_here",
-			"required": true
-		}
-	},
-	"name": "Pipedrive MCP Server"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1567800176021995521/IytS-L9i_400x400.jpg",
+  "packageName": "@WillDent/pipedrive-mcp-server",
+  "description": "This is a Model Context Protocol (MCP) server that connects to the Pipedrive API v2. It allows you to expose Pipedrive data and functionality to LLM applications like Claude. ",
+  "url": "https://github.com/WillDent/pipedrive-mcp-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "PIPEDRIVE_API_TOKEN": {
+      "description": "your_api_token_here",
+      "required": true
+    }
+  },
+  "name": "Pipedrive MCP Server"
 }

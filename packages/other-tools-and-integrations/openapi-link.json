@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "openapi-link",
-	"description": "Transforms OpenAPI specifications into tool endpoints, enabling seamless interaction with any API described in OpenAPI format without custom adapter development.",
-	"url": "https://github.com/automation-ai-labs/mcp-link",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Link"
+  "type": "mcp-server",
+  "packageName": "openapi-link",
+  "description": "Transforms OpenAPI specifications into tool endpoints, enabling seamless interaction with any API described in OpenAPI format without custom adapter development.",
+  "url": "https://github.com/automation-ai-labs/mcp-link",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Link"
 }

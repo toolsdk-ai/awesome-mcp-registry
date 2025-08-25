@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "healthnote-(nip-101h)",
-	"description": "Integrates with Nostr decentralized protocol to enable discovery, preparation, and publishing of standardized health and fitness data events while maintaining user privacy and control over sensitive information.",
-	"url": "https://github.com/healthnotelabs/modular-health-nips/tree/HEAD/packages/healthnote-api",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Healthnote API"
+  "type": "mcp-server",
+  "packageName": "healthnote-(nip-101h)",
+  "description": "Integrates with Nostr decentralized protocol to enable discovery, preparation, and publishing of standardized health and fitness data events while maintaining user privacy and control over sensitive information.",
+  "url": "https://github.com/healthnotelabs/modular-health-nips/tree/HEAD/packages/healthnote-api",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Healthnote API"
 }

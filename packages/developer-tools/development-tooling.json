@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "development-tooling",
-	"description": "Integrates with Docker, Git, and development tools to enable software project management, code analysis, and automated workflows across languages and frameworks.",
-	"url": "https://github.com/dillip285/mcp-dev-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Dev Server"
+  "type": "mcp-server",
+  "packageName": "development-tooling",
+  "description": "Integrates with Docker, Git, and development tools to enable software project management, code analysis, and automated workflows across languages and frameworks.",
+  "url": "https://github.com/dillip285/mcp-dev-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Dev Server"
 }

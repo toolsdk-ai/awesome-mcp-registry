@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "babashka",
-	"description": "Integrates with Babashka to enable dynamic Clojure code execution and interaction for scripting, data processing, and system automation tasks.",
-	"url": "https://github.com/bmorphism/babashka-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Babashka MCP Server"
+  "type": "mcp-server",
+  "packageName": "babashka",
+  "description": "Integrates with Babashka to enable dynamic Clojure code execution and interaction for scripting, data processing, and system automation tasks.",
+  "url": "https://github.com/bmorphism/babashka-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Babashka MCP Server"
 }

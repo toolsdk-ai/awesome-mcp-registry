@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "scenic-gui-automation",
-	"description": "Provides automation and testing capabilities for Scenic Elixir GUI applications through keyboard input simulation, mouse interaction, and real-time connection monitoring via a dual-architecture TCP server and TypeScript interface.",
-	"url": "https://github.com/scenic-contrib/scenic_mcp_experimental",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Scenic MCP Experimental"
+  "type": "mcp-server",
+  "packageName": "scenic-gui-automation",
+  "description": "Provides automation and testing capabilities for Scenic Elixir GUI applications through keyboard input simulation, mouse interaction, and real-time connection monitoring via a dual-architecture TCP server and TypeScript interface.",
+  "url": "https://github.com/scenic-contrib/scenic_mcp_experimental",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Scenic MCP Experimental"
 }

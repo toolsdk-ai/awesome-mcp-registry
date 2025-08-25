@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cryptopanic",
-	"description": "Integrates with CryptoPanic to provide real-time cryptocurrency news, analysis, and video content with configurable pagination for financial analysis and investment decision support.",
-	"url": "https://github.com/kukapay/cryptopanic-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "CryptoPanic MCP Server"
+  "type": "mcp-server",
+  "packageName": "cryptopanic",
+  "description": "Integrates with CryptoPanic to provide real-time cryptocurrency news, analysis, and video content with configurable pagination for financial analysis and investment decision support.",
+  "url": "https://github.com/kukapay/cryptopanic-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "CryptoPanic MCP Server"
 }

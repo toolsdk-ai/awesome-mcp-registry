@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "or-tools",
-	"description": "Integrates Google's OR-Tools to solve constraint satisfaction and optimization problems for decision-making in logistics and operations research.",
-	"url": "https://github.com/jacck/mcp-ortools",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "OR-Tools MCP"
+  "type": "mcp-server",
+  "packageName": "or-tools",
+  "description": "Integrates Google's OR-Tools to solve constraint satisfaction and optimization problems for decision-making in logistics and operations research.",
+  "url": "https://github.com/jacck/mcp-ortools",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "OR-Tools MCP"
 }

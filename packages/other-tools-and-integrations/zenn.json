@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "zenn",
-	"description": "Integrates with Zenn.dev's developer API to fetch and filter technical articles and books from the popular Japanese publication platform.",
-	"url": "https://github.com/shibuiwilliam/mcp-server-zenn",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Zenn MCP Server"
+  "type": "mcp-server",
+  "packageName": "zenn",
+  "description": "Integrates with Zenn.dev's developer API to fetch and filter technical articles and books from the popular Japanese publication platform.",
+  "url": "https://github.com/shibuiwilliam/mcp-server-zenn",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Zenn MCP Server"
 }

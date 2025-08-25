@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "microsoft-fabric",
-	"description": "Integrates with Microsoft Fabric APIs to explore and document data assets including workspaces, lakehouses, warehouses, tables, and semantic models with Azure authentication and markdown formatting.",
-	"url": "https://github.com/aci-labs/ms-fabric-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MS Fabric MCP"
+  "type": "mcp-server",
+  "packageName": "microsoft-fabric",
+  "description": "Integrates with Microsoft Fabric APIs to explore and document data assets including workspaces, lakehouses, warehouses, tables, and semantic models with Azure authentication and markdown formatting.",
+  "url": "https://github.com/aci-labs/ms-fabric-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MS Fabric MCP"
 }

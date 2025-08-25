@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-pinot-server",
-	"description": "Integrates with Apache Pinot to enable real-time analytics queries through SQL execution, table schema inspection, segment analysis, and cluster metadata access for operational monitoring and business intelligence workflows.",
-	"url": "https://github.com/startreedata/mcp-pinot",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Pinot MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-pinot-server",
+  "description": "Integrates with Apache Pinot to enable real-time analytics queries through SQL execution, table schema inspection, segment analysis, and cluster metadata access for operational monitoring and business intelligence workflows.",
+  "url": "https://github.com/startreedata/mcp-pinot",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Pinot MCP Server"
 }

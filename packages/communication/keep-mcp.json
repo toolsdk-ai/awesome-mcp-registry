@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "keep-mcp",
-	"description": "Provides a bridge to Google Keep for searching, creating, updating, and deleting notes with safety features that restrict modifications to specifically labeled content.",
-	"url": "https://github.com/feuerdev/keep-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Keep MCP"
+  "type": "mcp-server",
+  "packageName": "keep-mcp",
+  "description": "Provides a bridge to Google Keep for searching, creating, updating, and deleting notes with safety features that restrict modifications to specifically labeled content.",
+  "url": "https://github.com/feuerdev/keep-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Keep MCP"
 }

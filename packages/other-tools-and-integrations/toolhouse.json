@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "toolhouse",
-	"description": "Allows you to connect MCP clients with Toolhouse.ai's tools",
-	"url": "https://github.com/toolhouse-community/mcp-server-toolhouse",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Server Toolhouse"
+  "type": "mcp-server",
+  "packageName": "toolhouse",
+  "description": "Allows you to connect MCP clients with Toolhouse.ai's tools",
+  "url": "https://github.com/toolhouse-community/mcp-server-toolhouse",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Server Toolhouse"
 }

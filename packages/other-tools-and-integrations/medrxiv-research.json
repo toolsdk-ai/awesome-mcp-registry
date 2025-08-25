@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "medrxiv-research",
-	"description": "Provides a specialized interface for searching and retrieving medical research articles from medRxiv using keyword-based searches, advanced filtering, and DOI metadata retrieval.",
-	"url": "https://github.com/jackkuo666/medrxiv-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MedRxiv MCP Server"
+  "type": "mcp-server",
+  "packageName": "medrxiv-research",
+  "description": "Provides a specialized interface for searching and retrieving medical research articles from medRxiv using keyword-based searches, advanced filtering, and DOI metadata retrieval.",
+  "url": "https://github.com/jackkuo666/medrxiv-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MedRxiv MCP Server"
 }

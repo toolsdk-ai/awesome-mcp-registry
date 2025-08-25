@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "terraform-registry",
-	"description": "Integrates with HashiCorp's Terraform Registry APIs to enable provider documentation retrieval, module search, and infrastructure configuration discovery for Terraform workflows.",
-	"url": "https://github.com/hashicorp/terraform-mcp-server",
-	"runtime": "go",
-	"license": "mpl-2.0",
-	"env": {},
-	"name": "Terraform MCP Server"
+  "type": "mcp-server",
+  "packageName": "terraform-registry",
+  "description": "Integrates with HashiCorp's Terraform Registry APIs to enable provider documentation retrieval, module search, and infrastructure configuration discovery for Terraform workflows.",
+  "url": "https://github.com/hashicorp/terraform-mcp-server",
+  "runtime": "go",
+  "license": "mpl-2.0",
+  "env": {},
+  "name": "Terraform MCP Server"
 }

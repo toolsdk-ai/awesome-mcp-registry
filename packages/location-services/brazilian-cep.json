@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "brazilian-cep",
-	"description": "Integrates with Brazilian postal code (CEP) APIs to retrieve address details for location validation and geolocation services in Node.js applications.",
-	"url": "https://github.com/guilhermelirio/brazilian-cep-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Brazilian CEP MCP"
+  "type": "mcp-server",
+  "packageName": "brazilian-cep",
+  "description": "Integrates with Brazilian postal code (CEP) APIs to retrieve address details for location validation and geolocation services in Node.js applications.",
+  "url": "https://github.com/guilhermelirio/brazilian-cep-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Brazilian CEP MCP"
 }

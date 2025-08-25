@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "undetected-chromedriver",
-	"description": "Provides a browser automation server that bypasses anti-bot measures for web scraping, automated testing, and data collection from sophisticated websites.",
-	"url": "https://github.com/dragons96/mcp-undetected-chromedriver",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Undetected ChromeDriver MCP"
+  "type": "mcp-server",
+  "packageName": "undetected-chromedriver",
+  "description": "Provides a browser automation server that bypasses anti-bot measures for web scraping, automated testing, and data collection from sophisticated websites.",
+  "url": "https://github.com/dragons96/mcp-undetected-chromedriver",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Undetected ChromeDriver MCP"
 }

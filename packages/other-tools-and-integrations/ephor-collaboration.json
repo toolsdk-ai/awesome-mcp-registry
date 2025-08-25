@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ephor-collaboration",
-	"description": "Facilitates collaborative debates between multiple agents through a Node.js/TypeScript server that manages multi-turn conversations in a session-based architecture for reaching consensus on user prompts.",
-	"url": "https://github.com/kstrikis/ephor-mcp-collaboration",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Ephor MCP Collaboration"
+  "type": "mcp-server",
+  "packageName": "ephor-collaboration",
+  "description": "Facilitates collaborative debates between multiple agents through a Node.js/TypeScript server that manages multi-turn conversations in a session-based architecture for reaching consensus on user prompts.",
+  "url": "https://github.com/kstrikis/ephor-mcp-collaboration",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Ephor MCP Collaboration"
 }

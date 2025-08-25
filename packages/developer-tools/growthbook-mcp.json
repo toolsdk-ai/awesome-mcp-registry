@@ -1,27 +1,27 @@
 {
-	"type": "mcp-server",
-	"packageName": "@growthbook/mcp",
-	"description": "Enables AI to manage feature flags, experiments, environments, and SDK connections in GrowthBook, providing tools for searching documentation, creating targeting rules, and generating implementation code for various programming languages.",
-	"url": "https://github.com/growthbook/growthbook-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GB_API_KEY": {
-			"description": "YOUR_API_KEY",
-			"required": true
-		},
-		"GB_API_URL": {
-			"description": "YOUR_API_URL",
-			"required": true
-		},
-		"GB_APP_ORIGIN": {
-			"description": "YOUR_APP_ORIGIN",
-			"required": true
-		},
-		"GB_USER": {
-			"description": "YOUR_NAME",
-			"required": true
-		}
-	},
-	"name": "GrowthBook MCP"
+  "type": "mcp-server",
+  "packageName": "@growthbook/mcp",
+  "description": "Enables AI to manage feature flags, experiments, environments, and SDK connections in GrowthBook, providing tools for searching documentation, creating targeting rules, and generating implementation code for various programming languages.",
+  "url": "https://github.com/growthbook/growthbook-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GB_API_KEY": {
+      "description": "YOUR_API_KEY",
+      "required": true
+    },
+    "GB_API_URL": {
+      "description": "YOUR_API_URL",
+      "required": true
+    },
+    "GB_APP_ORIGIN": {
+      "description": "YOUR_APP_ORIGIN",
+      "required": true
+    },
+    "GB_USER": {
+      "description": "YOUR_NAME",
+      "required": true
+    }
+  },
+  "name": "GrowthBook MCP"
 }

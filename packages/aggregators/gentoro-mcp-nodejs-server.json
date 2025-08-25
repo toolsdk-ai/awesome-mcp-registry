@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "@gentoro/mcp-nodejs-server",
-	"description": "Connect agentic systems to enterprise systems with Gentoro.",
-	"url": "https://github.com/gentoro-gt/mcp-nodejs-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GENTORO_API_KEY": {
-			"description": "<your api key>",
-			"required": true
-		},
-		"GENTORO_BRIDGE_UID": {
-			"description": "<your bridge uid>",
-			"required": true
-		},
-		"GENTORO_BASE_URL": {
-			"description": "<url where gentoro is hosted>",
-			"required": true
-		}
-	},
-	"name": "MCP NodeJS Server"
+  "type": "mcp-server",
+  "packageName": "@gentoro/mcp-nodejs-server",
+  "description": "Connect agentic systems to enterprise systems with Gentoro.",
+  "url": "https://github.com/gentoro-gt/mcp-nodejs-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GENTORO_API_KEY": {
+      "description": "<your api key>",
+      "required": true
+    },
+    "GENTORO_BRIDGE_UID": {
+      "description": "<your bridge uid>",
+      "required": true
+    },
+    "GENTORO_BASE_URL": {
+      "description": "<url where gentoro is hosted>",
+      "required": true
+    }
+  },
+  "name": "MCP NodeJS Server"
 }

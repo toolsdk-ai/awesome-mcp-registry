@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "pdf-knowledge-base",
-	"description": "Enables semantic search across PDF documents through automatic processing, chunking, and vectorization for intelligent querying and knowledge extraction",
-	"url": "https://github.com/hyson666/pdf-rag-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "PDF RAG MCP Server"
+  "type": "mcp-server",
+  "packageName": "pdf-knowledge-base",
+  "description": "Enables semantic search across PDF documents through automatic processing, chunking, and vectorization for intelligent querying and knowledge extraction",
+  "url": "https://github.com/hyson666/pdf-rag-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "PDF RAG MCP Server"
 }

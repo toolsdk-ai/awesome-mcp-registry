@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sakura-cloud",
-	"description": "Enables management of Sakura Cloud infrastructure resources including servers, disks, networks, and containerized applications through natural language commands.",
-	"url": "https://github.com/hidenorigoto/sacloud-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Sacloud MCP"
+  "type": "mcp-server",
+  "packageName": "sakura-cloud",
+  "description": "Enables management of Sakura Cloud infrastructure resources including servers, disks, networks, and containerized applications through natural language commands.",
+  "url": "https://github.com/hidenorigoto/sacloud-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Sacloud MCP"
 }

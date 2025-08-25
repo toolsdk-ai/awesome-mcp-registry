@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "tts-say",
-	"description": "Integrates with OpenAI's API and local sound playback to convert text into audible speech, enabling voice output for various applications.",
-	"url": "https://github.com/hirokidaichi/mcp-tts-say",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "TTS Say"
+  "type": "mcp-server",
+  "packageName": "tts-say",
+  "description": "Integrates with OpenAI's API and local sound playback to convert text into audible speech, enabling voice output for various applications.",
+  "url": "https://github.com/hirokidaichi/mcp-tts-say",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "TTS Say"
 }

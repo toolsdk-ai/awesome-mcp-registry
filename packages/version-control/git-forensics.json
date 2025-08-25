@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "git-forensics",
-	"description": "Provides deep git repository analysis tools for branch overview, time period examination, and merge recommendations to optimize development workflows.",
-	"url": "https://github.com/davidorex/git-forensics-mcp",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Git Forensics MCP"
+  "type": "mcp-server",
+  "packageName": "git-forensics",
+  "description": "Provides deep git repository analysis tools for branch overview, time period examination, and merge recommendations to optimize development workflows.",
+  "url": "https://github.com/davidorex/git-forensics-mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Git Forensics MCP"
 }

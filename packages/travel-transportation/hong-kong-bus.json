@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "hong-kong-bus",
-	"description": "Provides real-time Hong Kong bus information through KMB API integration, enabling users to find routes, locate stops, and check arrival times through conversational queries.",
-	"url": "https://github.com/kennyckk/mcp_hkbus",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "HK Bus MCP"
+  "type": "mcp-server",
+  "packageName": "hong-kong-bus",
+  "description": "Provides real-time Hong Kong bus information through KMB API integration, enabling users to find routes, locate stops, and check arrival times through conversational queries.",
+  "url": "https://github.com/kennyckk/mcp_hkbus",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "HK Bus MCP"
 }

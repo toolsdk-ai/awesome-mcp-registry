@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "union",
-	"description": "Connects AI assistants to Union's tasks, workflows, and apps, enabling access to distributed computing capabilities through customizable tools and resources.",
-	"url": "https://github.com/unionai-oss/union-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Union MCP"
+  "type": "mcp-server",
+  "packageName": "union",
+  "description": "Connects AI assistants to Union's tasks, workflows, and apps, enabling access to distributed computing capabilities through customizable tools and resources.",
+  "url": "https://github.com/unionai-oss/union-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Union MCP"
 }

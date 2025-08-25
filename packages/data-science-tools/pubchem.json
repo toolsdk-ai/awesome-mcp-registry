@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "pubchem",
-	"description": "Integrates with PubChem chemical database to provide compound search, structure analysis, property calculation, bioassay data, safety information, and cross-references for drug discovery, chemical research, and regulatory compliance workflows.",
-	"url": "https://github.com/augmented-nature/pubchem-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "PubChem MCP Server"
+  "type": "mcp-server",
+  "packageName": "pubchem",
+  "description": "Integrates with PubChem chemical database to provide compound search, structure analysis, property calculation, bioassay data, safety information, and cross-references for drug discovery, chemical research, and regulatory compliance workflows.",
+  "url": "https://github.com/augmented-nature/pubchem-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "PubChem MCP Server"
 }

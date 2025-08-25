@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "file-system-observer",
-	"description": "Monitors file system changes and sends real-time notifications when watched files or directories are modified, enabling live document editing and configuration monitoring workflows.",
-	"url": "https://github.com/hesreallyhim/mcp-observer-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Observer Server"
+  "type": "mcp-server",
+  "packageName": "file-system-observer",
+  "description": "Monitors file system changes and sends real-time notifications when watched files or directories are modified, enabling live document editing and configuration monitoring workflows.",
+  "url": "https://github.com/hesreallyhim/mcp-observer-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Observer Server"
 }

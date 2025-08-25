@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "enhanced-postgresql",
-	"description": "Enables full PostgreSQL database management with read/write operations, transaction handling, and schema modifications through parameterized queries that prevent SQL injection.",
-	"url": "https://github.com/garethcott/enhanced-postgres-mcp-server",
-	"runtime": "node",
-	"license": "other",
-	"env": {},
-	"name": "Enhanced PostgreSQL MCP Server"
+  "type": "mcp-server",
+  "packageName": "enhanced-postgresql",
+  "description": "Enables full PostgreSQL database management with read/write operations, transaction handling, and schema modifications through parameterized queries that prevent SQL injection.",
+  "url": "https://github.com/garethcott/enhanced-postgres-mcp-server",
+  "runtime": "node",
+  "license": "other",
+  "env": {},
+  "name": "Enhanced PostgreSQL MCP Server"
 }

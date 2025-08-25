@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "anki-cards-(clanki)",
-	"description": "Integrates with Anki flashcards to provide card creation and deck management capabilities.",
-	"url": "https://github.com/jasperket/clanki",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Clanki MCP Server"
+  "type": "mcp-server",
+  "packageName": "anki-cards-(clanki)",
+  "description": "Integrates with Anki flashcards to provide card creation and deck management capabilities.",
+  "url": "https://github.com/jasperket/clanki",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Clanki MCP Server"
 }

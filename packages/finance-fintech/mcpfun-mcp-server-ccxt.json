@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@mcpfun/mcp-server-ccxt",
-	"description": "High-performance CCXT MCP server for cryptocurrency exchange integration.",
-	"url": "https://github.com/doggybee/mcp-server-ccxt",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server CCXT"
+  "type": "mcp-server",
+  "packageName": "@mcpfun/mcp-server-ccxt",
+  "description": "High-performance CCXT MCP server for cryptocurrency exchange integration.",
+  "url": "https://github.com/doggybee/mcp-server-ccxt",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server CCXT"
 }

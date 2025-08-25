@@ -1,27 +1,27 @@
 {
-	"type": "mcp-server",
-	"packageName": "@mbelinky/x-mcp-server",
-	"description": "Integrates with Twitter/X API using dual OAuth authentication (1.0a and 2.0) to enable tweet posting with media attachments, tweet searching, and tweet deletion with intelligent rate limiting designed for free-tier API usage.",
-	"url": "https://github.com/mbelinky/x-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"API_KEY": {
-			"description": "your_api_key_here",
-			"required": true
-		},
-		"API_SECRET_KEY": {
-			"description": "your_api_secret_key_here",
-			"required": true
-		},
-		"ACCESS_TOKEN": {
-			"description": "your_access_token_here",
-			"required": true
-		},
-		"ACCESS_TOKEN_SECRET": {
-			"description": "your_access_token_secret_here",
-			"required": true
-		}
-	},
-	"name": "X MCP Server"
+  "type": "mcp-server",
+  "packageName": "@mbelinky/x-mcp-server",
+  "description": "Integrates with Twitter/X API using dual OAuth authentication (1.0a and 2.0) to enable tweet posting with media attachments, tweet searching, and tweet deletion with intelligent rate limiting designed for free-tier API usage.",
+  "url": "https://github.com/mbelinky/x-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "API_KEY": {
+      "description": "your_api_key_here",
+      "required": true
+    },
+    "API_SECRET_KEY": {
+      "description": "your_api_secret_key_here",
+      "required": true
+    },
+    "ACCESS_TOKEN": {
+      "description": "your_access_token_here",
+      "required": true
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "description": "your_access_token_secret_here",
+      "required": true
+    }
+  },
+  "name": "X MCP Server"
 }

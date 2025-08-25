@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "discord-bot",
-	"description": "Discord bot that provides intelligent assistance through slash commands and direct messages, creating threaded conversations and managing message chunking for comprehensive support in Discord communities",
-	"url": "https://github.com/mastra-ai/discord-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Discord MCP Server"
+  "type": "mcp-server",
+  "packageName": "discord-bot",
+  "description": "Discord bot that provides intelligent assistance through slash commands and direct messages, creating threaded conversations and managing message chunking for comprehensive support in Discord communities",
+  "url": "https://github.com/mastra-ai/discord-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Discord MCP Server"
 }

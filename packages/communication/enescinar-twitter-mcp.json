@@ -1,28 +1,28 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_400x400.jpg",
-	"packageName": "@enescinar/twitter-mcp",
-	"description": "Interact with X (Twitter) by posting tweets and searching for tweets through the X API.",
-	"url": "https://github.com/enescinr/twitter-mcp",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"API_KEY": {
-			"description": "your_api_key_here",
-			"required": true
-		},
-		"API_SECRET_KEY": {
-			"description": "your_api_secret_key_here",
-			"required": true
-		},
-		"ACCESS_TOKEN": {
-			"description": "your_access_token_here",
-			"required": true
-		},
-		"ACCESS_TOKEN_SECRET": {
-			"description": "your_access_token_secret_here",
-			"required": true
-		}
-	},
-	"name": "X (Twitter) MCP"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_400x400.jpg",
+  "packageName": "@enescinar/twitter-mcp",
+  "description": "Interact with X (Twitter) by posting tweets and searching for tweets through the X API.",
+  "url": "https://github.com/enescinr/twitter-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "API_KEY": {
+      "description": "your_api_key_here",
+      "required": true
+    },
+    "API_SECRET_KEY": {
+      "description": "your_api_secret_key_here",
+      "required": true
+    },
+    "ACCESS_TOKEN": {
+      "description": "your_access_token_here",
+      "required": true
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "description": "your_access_token_secret_here",
+      "required": true
+    }
+  },
+  "name": "X (Twitter) MCP"
 }

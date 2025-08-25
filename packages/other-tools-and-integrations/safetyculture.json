@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "safetyculture",
-	"description": "Provides a bridge to the SafetyCulture API, enabling querying and analysis of workplace safety inspection data for managers and compliance teams to gain actionable insights across different time periods.",
-	"url": "https://github.com/zerubroberts/safetyculture-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "SafetyCulture MCP Server"
+  "type": "mcp-server",
+  "packageName": "safetyculture",
+  "description": "Provides a bridge to the SafetyCulture API, enabling querying and analysis of workplace safety inspection data for managers and compliance teams to gain actionable insights across different time periods.",
+  "url": "https://github.com/zerubroberts/safetyculture-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "SafetyCulture MCP Server"
 }

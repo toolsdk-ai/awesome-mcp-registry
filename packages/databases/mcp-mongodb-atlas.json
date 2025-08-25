@@ -1,20 +1,20 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1452637606559326217/GFz_P-5e_400x400.png",
-	"packageName": "@mcp-mongodb-atlas",
-	"description": "Integrates with MongoDB Atlas to enable creating and managing database resources including clusters, network access, users, and connection strings using TypeScript and the MongoDB Atlas API.",
-	"url": "https://github.com/mongodb-developer/mcp-mongodb-atlas",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"ATLAS_PUBLIC_KEY": {
-			"description": "your-public-key",
-			"required": true
-		},
-		"ATLAS_PRIVATE_KEY": {
-			"description": "your-private-key",
-			"required": true
-		}
-	},
-	"name": "MongoDB Atlas MCP Server"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1452637606559326217/GFz_P-5e_400x400.png",
+  "packageName": "@mcp-mongodb-atlas",
+  "description": "Integrates with MongoDB Atlas to enable creating and managing database resources including clusters, network access, users, and connection strings using TypeScript and the MongoDB Atlas API.",
+  "url": "https://github.com/mongodb-developer/mcp-mongodb-atlas",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "ATLAS_PUBLIC_KEY": {
+      "description": "your-public-key",
+      "required": true
+    },
+    "ATLAS_PRIVATE_KEY": {
+      "description": "your-private-key",
+      "required": true
+    }
+  },
+  "name": "MongoDB Atlas MCP Server"
 }

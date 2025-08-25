@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@datastax/astra-db-mcp",
-	"description": "Integrates with Astra DB, enabling cloud-native database operations for scalable data storage and retrieval in AI applications.",
-	"url": "https://github.com/datastax/astra-db-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"ASTRA_DB_APPLICATION_TOKEN": {
-			"description": "your_astra_db_token",
-			"required": true
-		},
-		"ASTRA_DB_API_ENDPOINT": {
-			"description": "your_astra_db_endpoint",
-			"required": true
-		}
-	},
-	"name": "Astra DB MCP"
+  "type": "mcp-server",
+  "packageName": "@datastax/astra-db-mcp",
+  "description": "Integrates with Astra DB, enabling cloud-native database operations for scalable data storage and retrieval in AI applications.",
+  "url": "https://github.com/datastax/astra-db-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ASTRA_DB_APPLICATION_TOKEN": {
+      "description": "your_astra_db_token",
+      "required": true
+    },
+    "ASTRA_DB_API_ENDPOINT": {
+      "description": "your_astra_db_endpoint",
+      "required": true
+    }
+  },
+  "name": "Astra DB MCP"
 }

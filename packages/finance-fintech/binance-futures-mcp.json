@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "binance-futures-mcp",
-	"description": "Comprehensive Binance Futures trading MCP server with 41 professional trading tools across account management, order execution, market data, and risk management. Features smart ticker caching, secure authentication, and Docker support for seamless integration with MCP clients.",
-	"url": "https://github.com/alexcandrabersiva/bin-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {
-		"BINANCE_API_KEY": {
-			"description": "Your Binance API key with Futures Trading and Futures Reading permissions",
-			"required": true
-		},
-		"BINANCE_SECRET_KEY": {
-			"description": "Your Binance API secret key",
-			"required": true
-		}
-	},
-	"name": "Binance Futures MCP Server"
+  "type": "mcp-server",
+  "packageName": "binance-futures-mcp",
+  "description": "Comprehensive Binance Futures trading MCP server with 41 professional trading tools across account management, order execution, market data, and risk management. Features smart ticker caching, secure authentication, and Docker support for seamless integration with MCP clients.",
+  "url": "https://github.com/alexcandrabersiva/bin-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {
+    "BINANCE_API_KEY": {
+      "description": "Your Binance API key with Futures Trading and Futures Reading permissions",
+      "required": true
+    },
+    "BINANCE_SECRET_KEY": {
+      "description": "Your Binance API secret key",
+      "required": true
+    }
+  },
+  "name": "Binance Futures MCP Server"
 }

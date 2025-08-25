@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "memmcp-(cheat-engine)",
-	"description": "Memory scanning and modification tool that enables Cheat Engine-like functionality for manipulating application memory in Python",
-	"url": "https://github.com/un4ckn0wl3z/memmcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MemMCP Cheat Engine"
+  "type": "mcp-server",
+  "packageName": "memmcp-(cheat-engine)",
+  "description": "Memory scanning and modification tool that enables Cheat Engine-like functionality for manipulating application memory in Python",
+  "url": "https://github.com/un4ckn0wl3z/memmcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MemMCP Cheat Engine"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "figma-design-processor",
-	"description": "Transforms Figma designs into structured data for React implementation, providing tools to extract component details, styles, and layout properties through the Figma API.",
-	"url": "https://github.com/sanjeev23oct/figma-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Figma MCP"
+  "type": "mcp-server",
+  "packageName": "figma-design-processor",
+  "description": "Transforms Figma designs into structured data for React implementation, providing tools to extract component details, styles, and layout properties through the Figma API.",
+  "url": "https://github.com/sanjeev23oct/figma-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Figma MCP"
 }

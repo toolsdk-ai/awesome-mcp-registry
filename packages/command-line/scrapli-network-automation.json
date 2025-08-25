@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "scrapli-network-automation",
-	"description": "Integrates the Scrapli network automation library to enable SSH command execution on Cisco IOS XE devices for network configuration and troubleshooting tasks",
-	"url": "https://github.com/carlmontanari/scrapli-mcp",
-	"runtime": "python",
-	"license": "other",
-	"env": {},
-	"name": "Scrapli MCP"
+  "type": "mcp-server",
+  "packageName": "scrapli-network-automation",
+  "description": "Integrates the Scrapli network automation library to enable SSH command execution on Cisco IOS XE devices for network configuration and troubleshooting tasks",
+  "url": "https://github.com/carlmontanari/scrapli-mcp",
+  "runtime": "python",
+  "license": "other",
+  "env": {},
+  "name": "Scrapli MCP"
 }

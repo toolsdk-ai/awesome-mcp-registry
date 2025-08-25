@@ -1,28 +1,28 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1268205537637748736/jyoK_62Q_400x400.jpg",
-	"packageName": "@tsmztech/mcp-server-salesforce",
-	"description": "Integrates with Salesforce CRM for natural language-driven data management, querying, and administration tasks.",
-	"url": "https://github.com/tsmztech/mcp-server-salesforce",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"SALESFORCE_CONNECTION_TYPE": {
-			"description": "OAuth_2.0_Client_Credentials",
-			"required": true
-		},
-		"SALESFORCE_CLIENT_ID": {
-			"description": "your_client_id",
-			"required": true
-		},
-		"SALESFORCE_CLIENT_SECRET": {
-			"description": "your_client_secret",
-			"required": true
-		},
-		"SALESFORCE_INSTANCE_URL": {
-			"description": "https://your-domain.my.salesforce.com",
-			"required": true
-		}
-	},
-	"name": "Salesforce MCP Server"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1268205537637748736/jyoK_62Q_400x400.jpg",
+  "packageName": "@tsmztech/mcp-server-salesforce",
+  "description": "Integrates with Salesforce CRM for natural language-driven data management, querying, and administration tasks.",
+  "url": "https://github.com/tsmztech/mcp-server-salesforce",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "SALESFORCE_CONNECTION_TYPE": {
+      "description": "OAuth_2.0_Client_Credentials",
+      "required": true
+    },
+    "SALESFORCE_CLIENT_ID": {
+      "description": "your_client_id",
+      "required": true
+    },
+    "SALESFORCE_CLIENT_SECRET": {
+      "description": "your_client_secret",
+      "required": true
+    },
+    "SALESFORCE_INSTANCE_URL": {
+      "description": "https://your-domain.my.salesforce.com",
+      "required": true
+    }
+  },
+  "name": "Salesforce MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-timeplus",
-	"description": "Integrates with Timeplus to enable SQL query execution and database information retrieval for real-time analytics and data exploration.",
-	"url": "https://github.com/jovezhong/mcp-timeplus",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Timeplus MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-timeplus",
+  "description": "Integrates with Timeplus to enable SQL query execution and database information retrieval for real-time analytics and data exploration.",
+  "url": "https://github.com/jovezhong/mcp-timeplus",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Timeplus MCP"
 }

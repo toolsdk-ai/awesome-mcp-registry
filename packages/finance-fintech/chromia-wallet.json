@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "chromia-wallet",
-	"description": "Integrates with the Chromia blockchain to enable cryptocurrency transactions and wallet operations for automated financial workflows.",
-	"url": "https://github.com/chromindscan/chromia-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Chromia MCP"
+  "type": "mcp-server",
+  "packageName": "chromia-wallet",
+  "description": "Integrates with the Chromia blockchain to enable cryptocurrency transactions and wallet operations for automated financial workflows.",
+  "url": "https://github.com/chromindscan/chromia-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Chromia MCP"
 }

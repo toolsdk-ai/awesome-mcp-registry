@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "clickup-mcp-server",
-	"description": "Integrates with ClickUp API to enable workspace, task, document, and checklist management directly from conversations through Node.js-based tools and URI template resources.",
-	"url": "https://github.com/nsxdavid/clickup-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"CLICKUP_API_TOKEN": {
-			"description": "YOUR_API_TOKEN_HERE",
-			"required": true
-		}
-	},
-	"name": "ClickUp MCP Server"
+  "type": "mcp-server",
+  "packageName": "clickup-mcp-server",
+  "description": "Integrates with ClickUp API to enable workspace, task, document, and checklist management directly from conversations through Node.js-based tools and URI template resources.",
+  "url": "https://github.com/nsxdavid/clickup-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "CLICKUP_API_TOKEN": {
+      "description": "YOUR_API_TOKEN_HERE",
+      "required": true
+    }
+  },
+  "name": "ClickUp MCP Server"
 }

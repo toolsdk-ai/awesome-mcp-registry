@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "personal-assistant",
-	"description": "Integrates with external services like Google APIs, Home Assistant, and DuckDuckGo to provide a modular framework for calendar management, task tracking, email handling, knowledge retrieval, and smart home control.",
-	"url": "https://github.com/zhangzhongnan928/mcp-pa-ai-agent",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP PA AI Agent"
+  "type": "mcp-server",
+  "packageName": "personal-assistant",
+  "description": "Integrates with external services like Google APIs, Home Assistant, and DuckDuckGo to provide a modular framework for calendar management, task tracking, email handling, knowledge retrieval, and smart home control.",
+  "url": "https://github.com/zhangzhongnan928/mcp-pa-ai-agent",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP PA AI Agent"
 }

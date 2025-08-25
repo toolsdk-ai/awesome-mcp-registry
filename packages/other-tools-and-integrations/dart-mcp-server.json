@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "dart-mcp-server",
-	"description": "Integrates with Dart's project management platform, enabling direct task and document management through a set of tools for creating, retrieving, updating, and filtering work items by various attributes.",
-	"url": "https://github.com/its-dart/dart-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"DART_TOKEN": {
-			"description": "dsa_...",
-			"required": true
-		}
-	},
-	"name": "Dart MCP Server"
+  "type": "mcp-server",
+  "packageName": "dart-mcp-server",
+  "description": "Integrates with Dart's project management platform, enabling direct task and document management through a set of tools for creating, retrieving, updating, and filtering work items by various attributes.",
+  "url": "https://github.com/its-dart/dart-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "DART_TOKEN": {
+      "description": "dsa_...",
+      "required": true
+    }
+  },
+  "name": "Dart MCP Server"
 }

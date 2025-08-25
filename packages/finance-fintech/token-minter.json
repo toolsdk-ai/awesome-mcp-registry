@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "token-minter",
-	"description": "Enables AI assistants to deploy and manage ERC-20 tokens across multiple blockchain networks, providing tools for token creation, balance checking, and transfers using ethers.js and smart contracts.",
-	"url": "https://github.com/kukapay/token-minter-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Token Minter MCP"
+  "type": "mcp-server",
+  "packageName": "token-minter",
+  "description": "Enables AI assistants to deploy and manage ERC-20 tokens across multiple blockchain networks, providing tools for token creation, balance checking, and transfers using ethers.js and smart contracts.",
+  "url": "https://github.com/kukapay/token-minter-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Token Minter MCP"
 }

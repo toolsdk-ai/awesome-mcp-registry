@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "microsoft-teams-notifications",
-	"description": "Enables sending markdown-formatted notifications to Microsoft Teams channels using Azure AD authentication, specifically designed for development environment status updates and team communication.",
-	"url": "https://github.com/therealjohn/microsoft-teams-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Microsoft Teams MCP"
+  "type": "mcp-server",
+  "packageName": "microsoft-teams-notifications",
+  "description": "Enables sending markdown-formatted notifications to Microsoft Teams channels using Azure AD authentication, specifically designed for development environment status updates and team communication.",
+  "url": "https://github.com/therealjohn/microsoft-teams-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Microsoft Teams MCP"
 }

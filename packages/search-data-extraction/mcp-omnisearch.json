@@ -1,35 +1,35 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-omnisearch",
-	"description": "Unifies search and content processing by dynamically selecting optimal providers like Tavily, Brave, and Perplexity to enable flexible information retrieval and enhancement across multiple domains.",
-	"url": "https://github.com/spences10/mcp-omnisearch",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TAVILY_API_KEY": {
-			"description": "your-tavily-key",
-			"required": true
-		},
-		"PERPLEXITY_API_KEY": {
-			"description": "your-perplexity-key",
-			"required": true
-		},
-		"KAGI_API_KEY": {
-			"description": "your-kagi-key",
-			"required": true
-		},
-		"JINA_AI_API_KEY": {
-			"description": "your-jina-key",
-			"required": true
-		},
-		"BRAVE_API_KEY": {
-			"description": "your-brave-key",
-			"required": true
-		},
-		"FIRECRAWL_API_KEY": {
-			"description": "your-firecrawl-key",
-			"required": true
-		}
-	},
-	"name": "OmniSearch MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-omnisearch",
+  "description": "Unifies search and content processing by dynamically selecting optimal providers like Tavily, Brave, and Perplexity to enable flexible information retrieval and enhancement across multiple domains.",
+  "url": "https://github.com/spences10/mcp-omnisearch",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TAVILY_API_KEY": {
+      "description": "your-tavily-key",
+      "required": true
+    },
+    "PERPLEXITY_API_KEY": {
+      "description": "your-perplexity-key",
+      "required": true
+    },
+    "KAGI_API_KEY": {
+      "description": "your-kagi-key",
+      "required": true
+    },
+    "JINA_AI_API_KEY": {
+      "description": "your-jina-key",
+      "required": true
+    },
+    "BRAVE_API_KEY": {
+      "description": "your-brave-key",
+      "required": true
+    },
+    "FIRECRAWL_API_KEY": {
+      "description": "your-firecrawl-key",
+      "required": true
+    }
+  },
+  "name": "OmniSearch MCP"
 }

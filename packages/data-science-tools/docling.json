@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "docling",
-	"description": "Integrates with the Docling library to provide document processing capabilities, including conversion to markdown, table extraction, and image handling with OCR support, enabling efficient analysis of structured and unstructured data from various document formats.",
-	"url": "https://github.com/zanetworker/mcp-docling",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Docling MCP"
+  "type": "mcp-server",
+  "packageName": "docling",
+  "description": "Integrates with the Docling library to provide document processing capabilities, including conversion to markdown, table extraction, and image handling with OCR support, enabling efficient analysis of structured and unstructured data from various document formats.",
+  "url": "https://github.com/zanetworker/mcp-docling",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Docling MCP"
 }

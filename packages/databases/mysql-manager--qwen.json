@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mysql-manager-(qwen)",
-	"description": "Provides MySQL database management through natural language interfaces, enabling users to query, manipulate schemas, and analyze data using conversational commands instead of direct SQL.",
-	"url": "https://github.com/floatdreamwithsong/mysql-mcp-server-qwen-manager",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MySQL MCP Server Qwen Manager"
+  "type": "mcp-server",
+  "packageName": "mysql-manager-(qwen)",
+  "description": "Provides MySQL database management through natural language interfaces, enabling users to query, manipulate schemas, and analyze data using conversational commands instead of direct SQL.",
+  "url": "https://github.com/floatdreamwithsong/mysql-mcp-server-qwen-manager",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MySQL MCP Server Qwen Manager"
 }

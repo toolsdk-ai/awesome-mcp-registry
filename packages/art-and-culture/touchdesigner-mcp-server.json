@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "touchdesigner-mcp-server",
-	"description": "Provides a bridge between TouchDesigner visual programming environment and natural language commands, enabling real-time control of nodes, properties, and Python script execution for interactive digital art and installations.",
-	"url": "https://github.com/8beeeaaat/touchdesigner-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "TouchDesigner MCP Server"
+  "type": "mcp-server",
+  "packageName": "touchdesigner-mcp-server",
+  "description": "Provides a bridge between TouchDesigner visual programming environment and natural language commands, enabling real-time control of nodes, properties, and Python script execution for interactive digital art and installations.",
+  "url": "https://github.com/8beeeaaat/touchdesigner-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "TouchDesigner MCP Server"
 }

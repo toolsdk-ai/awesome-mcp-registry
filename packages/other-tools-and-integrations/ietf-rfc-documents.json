@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ietf-rfc-documents",
-	"description": "Provides access to IETF RFC documents, enabling efficient listing, searching, and retrieval with pagination and local caching for internet standards and protocol analysis.",
-	"url": "https://github.com/tizee/mcp-server-ietf",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "IETF RFC Documents MCP Server"
+  "type": "mcp-server",
+  "packageName": "ietf-rfc-documents",
+  "description": "Provides access to IETF RFC documents, enabling efficient listing, searching, and retrieval with pagination and local caching for internet standards and protocol analysis.",
+  "url": "https://github.com/tizee/mcp-server-ietf",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "IETF RFC Documents MCP Server"
 }

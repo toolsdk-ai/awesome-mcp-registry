@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@tgomareli/macos-tools-mcp",
-	"description": "Provides macOS system monitoring with SQLite-based historical data storage and enhanced file search with tagging support, collecting real-time CPU, memory, disk, and network metrics while offering content-based file searching with regex support and macOS file tagging operations through native utilities like Spotlight and extended attributes.",
-	"url": "https://github.com/tornikegomareli/macos-tools-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "macOS Tools MCP Server"
+  "type": "mcp-server",
+  "packageName": "@tgomareli/macos-tools-mcp",
+  "description": "Provides macOS system monitoring with SQLite-based historical data storage and enhanced file search with tagging support, collecting real-time CPU, memory, disk, and network metrics while offering content-based file searching with regex support and macOS file tagging operations through native utilities like Spotlight and extended attributes.",
+  "url": "https://github.com/tornikegomareli/macos-tools-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "macOS Tools MCP Server"
 }

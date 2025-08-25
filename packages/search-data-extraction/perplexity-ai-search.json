@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "perplexity-ai-search",
-	"description": "Integrates with Perplexity AI's search capabilities to enable AI-powered web search queries using TypeScript and the OpenAI SDK.",
-	"url": "https://github.com/mkusaka/mcp-server-perplexity",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Perplexity AI Search MCP Server"
+  "type": "mcp-server",
+  "packageName": "perplexity-ai-search",
+  "description": "Integrates with Perplexity AI's search capabilities to enable AI-powered web search queries using TypeScript and the OpenAI SDK.",
+  "url": "https://github.com/mkusaka/mcp-server-perplexity",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Perplexity AI Search MCP Server"
 }

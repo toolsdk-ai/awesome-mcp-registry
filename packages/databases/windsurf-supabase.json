@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "windsurf-supabase",
-	"description": "Enhances Supabase integration with improved error handling, SQL processing, and response formatting for natural language database interactions and real-time query validation in the Windsurf ecosystem.",
-	"url": "https://github.com/hertzfelt/windsurf-supabase-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Windsurf Supabase MCP"
+  "type": "mcp-server",
+  "packageName": "windsurf-supabase",
+  "description": "Enhances Supabase integration with improved error handling, SQL processing, and response formatting for natural language database interactions and real-time query validation in the Windsurf ecosystem.",
+  "url": "https://github.com/hertzfelt/windsurf-supabase-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Windsurf Supabase MCP"
 }

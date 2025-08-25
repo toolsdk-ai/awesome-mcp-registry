@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "real-estate-data-manager",
-	"description": "Provides mock real estate data management with property listings, agent profiles, client databases, and market analytics for Riverside, California, enabling property search, client-property matching, market analysis, and area comparisons.",
-	"url": "https://github.com/agentic-ops/real-estate-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Real Estate MCP"
+  "type": "mcp-server",
+  "packageName": "real-estate-data-manager",
+  "description": "Provides mock real estate data management with property listings, agent profiles, client databases, and market analytics for Riverside, California, enabling property search, client-property matching, market analysis, and area comparisons.",
+  "url": "https://github.com/agentic-ops/real-estate-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Real Estate MCP"
 }

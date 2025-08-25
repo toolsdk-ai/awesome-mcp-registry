@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "software-architect",
-	"description": "Integrates architectural expertise agents to analyze and generate software designs, patterns, and solutions for development teams seeking AI-assisted architecting help.",
-	"url": "https://github.com/squirrelogic/mcp-architect",
-	"runtime": "node",
-	"license": "isc",
-	"env": {},
-	"name": "MCP Architect"
+  "type": "mcp-server",
+  "packageName": "software-architect",
+  "description": "Integrates architectural expertise agents to analyze and generate software designs, patterns, and solutions for development teams seeking AI-assisted architecting help.",
+  "url": "https://github.com/squirrelogic/mcp-architect",
+  "runtime": "node",
+  "license": "isc",
+  "env": {},
+  "name": "MCP Architect"
 }

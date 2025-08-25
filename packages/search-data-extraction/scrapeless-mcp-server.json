@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "scrapeless-mcp-server",
-	"description": "Provides a bridge to the Scrapeless API for performing Google searches with customizable parameters including query text, country code, and language preferences.",
-	"url": "https://github.com/scrapeless-ai/scrapeless-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"SCRAPELESS_KEY": {
-			"description": "YOUR_SCRAPELESS_KEY",
-			"required": true
-		}
-	},
-	"name": "Scrapeless MCP Server"
+  "type": "mcp-server",
+  "packageName": "scrapeless-mcp-server",
+  "description": "Provides a bridge to the Scrapeless API for performing Google searches with customizable parameters including query text, country code, and language preferences.",
+  "url": "https://github.com/scrapeless-ai/scrapeless-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SCRAPELESS_KEY": {
+      "description": "YOUR_SCRAPELESS_KEY",
+      "required": true
+    }
+  },
+  "name": "Scrapeless MCP Server"
 }

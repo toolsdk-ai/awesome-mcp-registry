@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@myuon/refactor-mcp",
-	"description": "Provides regex-based code refactoring capabilities for bulk search-and-replace operations across file systems with pattern matching, context filtering, and glob-based file discovery to enable large-scale code transformations and migrations.",
-	"url": "https://github.com/myuon/refactor-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Refactor MCP"
+  "type": "mcp-server",
+  "packageName": "@myuon/refactor-mcp",
+  "description": "Provides regex-based code refactoring capabilities for bulk search-and-replace operations across file systems with pattern matching, context filtering, and glob-based file discovery to enable large-scale code transformations and migrations.",
+  "url": "https://github.com/myuon/refactor-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Refactor MCP"
 }

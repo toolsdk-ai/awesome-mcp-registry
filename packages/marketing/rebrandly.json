@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "rebrandly",
-	"description": "Integrates with Rebrandly's URL shortening service to create branded short links with custom slashtags, titles, and workspace organization for marketing campaigns and content distribution tracking.",
-	"url": "https://github.com/rebrandly/rebrandly-mcp",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Rebrandly MCP"
+  "type": "mcp-server",
+  "packageName": "rebrandly",
+  "description": "Integrates with Rebrandly's URL shortening service to create branded short links with custom slashtags, titles, and workspace organization for marketing campaigns and content distribution tracking.",
+  "url": "https://github.com/rebrandly/rebrandly-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Rebrandly MCP"
 }

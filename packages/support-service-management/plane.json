@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "plane",
-	"description": "Integrates with Plane.so project management platform, enabling listing projects, creating and updating issues, filtering by priority, and managing assignees with user approval for data modifications.",
-	"url": "https://github.com/kelvin6365/plane-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Plane MCP Server"
+  "type": "mcp-server",
+  "packageName": "plane",
+  "description": "Integrates with Plane.so project management platform, enabling listing projects, creating and updating issues, filtering by priority, and managing assignees with user approval for data modifications.",
+  "url": "https://github.com/kelvin6365/plane-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Plane MCP Server"
 }

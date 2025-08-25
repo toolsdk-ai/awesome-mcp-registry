@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sound-mcp",
-	"description": "Plays customizable audio notifications for key interaction points in development environments, alerting users when AI assistance requires attention or completes tasks.",
-	"url": "https://github.com/ks0318-p/sound-notification-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Sound Notification MCP"
+  "type": "mcp-server",
+  "packageName": "sound-mcp",
+  "description": "Plays customizable audio notifications for key interaction points in development environments, alerting users when AI assistance requires attention or completes tasks.",
+  "url": "https://github.com/ks0318-p/sound-notification-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Sound Notification MCP"
 }

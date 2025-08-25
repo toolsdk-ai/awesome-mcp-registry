@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "jupyter_mcp_server",
-	"description": "Integrates Jupyter notebooks with MCP to enable code execution, content manipulation, and interactive data exploration within notebook environments.",
-	"url": "https://github.com/datalayer/jupyter-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Jupyter MCP Server"
+  "type": "mcp-server",
+  "packageName": "jupyter_mcp_server",
+  "description": "Integrates Jupyter notebooks with MCP to enable code execution, content manipulation, and interactive data exploration within notebook environments.",
+  "url": "https://github.com/datalayer/jupyter-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Jupyter MCP Server"
 }

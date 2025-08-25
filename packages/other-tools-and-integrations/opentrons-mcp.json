@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "opentrons-mcp",
-	"description": "Integrates with Opentrons laboratory robots to enable natural language control of protocol upload, run management, hardware operations, and system monitoring for both OT-2 and Flex platforms.",
-	"url": "https://github.com/yerbymatey/opentrons-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Opentrons MCP"
+  "type": "mcp-server",
+  "packageName": "opentrons-mcp",
+  "description": "Integrates with Opentrons laboratory robots to enable natural language control of protocol upload, run management, hardware operations, and system monitoring for both OT-2 and Flex platforms.",
+  "url": "https://github.com/yerbymatey/opentrons-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Opentrons MCP"
 }

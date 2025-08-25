@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "remote-bridge",
-	"description": "Containerized HTTP bridge for accessing MCP functionality remotely, enabling distributed deployment without requiring direct library integration in client applications.",
-	"url": "https://github.com/dhso/remote-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Remote MCP"
+  "type": "mcp-server",
+  "packageName": "remote-bridge",
+  "description": "Containerized HTTP bridge for accessing MCP functionality remotely, enabling distributed deployment without requiring direct library integration in client applications.",
+  "url": "https://github.com/dhso/remote-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Remote MCP"
 }

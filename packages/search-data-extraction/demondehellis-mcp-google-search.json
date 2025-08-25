@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@demondehellis/mcp-google-search",
-	"description": "Provides web search capabilities and webpage content extraction through Google Custom Search API, enabling access to search results and cleaned webpage content with minimal setup.",
-	"url": "https://github.com/mcp-for-dev/mcp-google-search",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Google Search MCP"
+  "type": "mcp-server",
+  "packageName": "@demondehellis/mcp-google-search",
+  "description": "Provides web search capabilities and webpage content extraction through Google Custom Search API, enabling access to search results and cleaned webpage content with minimal setup.",
+  "url": "https://github.com/mcp-for-dev/mcp-google-search",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Google Search MCP"
 }

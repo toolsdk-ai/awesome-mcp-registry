@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "d&d-5e-tabletop-gaming",
-	"description": "Provides D&D 5e tabletop gaming mechanics including dice rolling, character management, combat resolution, and persistent game state storage for dungeon master assistance and solo gaming experiences.",
-	"url": "https://github.com/mnehmos/rpg-mcp-servers",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "RPG MCP Servers"
+  "type": "mcp-server",
+  "packageName": "d&d-5e-tabletop-gaming",
+  "description": "Provides D&D 5e tabletop gaming mechanics including dice rolling, character management, combat resolution, and persistent game state storage for dungeon master assistance and solo gaming experiences.",
+  "url": "https://github.com/mnehmos/rpg-mcp-servers",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "RPG MCP Servers"
 }

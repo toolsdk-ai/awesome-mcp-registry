@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@llmindset/mcp-webcam",
-	"description": "Enables capturing and analyzing live webcam images and screenshots for real-time visual context in AI applications.",
-	"url": "https://github.com/evalstate/mcp-webcam",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Webcam"
+  "type": "mcp-server",
+  "packageName": "@llmindset/mcp-webcam",
+  "description": "Enables capturing and analyzing live webcam images and screenshots for real-time visual context in AI applications.",
+  "url": "https://github.com/evalstate/mcp-webcam",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Webcam"
 }

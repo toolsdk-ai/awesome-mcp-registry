@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "frontend-review-mcp",
-	"description": "Integrates with Hyperbolic's AI models to perform visual reviews of UI edit requests, providing automated visual QA for frontend development workflows.",
-	"url": "https://github.com/zueai/frontend-review-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Frontend Review MCP"
+  "type": "mcp-server",
+  "packageName": "frontend-review-mcp",
+  "description": "Integrates with Hyperbolic's AI models to perform visual reviews of UI edit requests, providing automated visual QA for frontend development workflows.",
+  "url": "https://github.com/zueai/frontend-review-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Frontend Review MCP"
 }

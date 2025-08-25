@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "elevenlabs",
-	"description": "Integrates with ElevenLabs API to provide text-to-speech capabilities for generating high-quality audio from text using multiple voices and customizable speech parameters.",
-	"url": "https://github.com/mamertofabian/elevenlabs-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "ElevenLabs MCP Server"
+  "type": "mcp-server",
+  "packageName": "elevenlabs",
+  "description": "Integrates with ElevenLabs API to provide text-to-speech capabilities for generating high-quality audio from text using multiple voices and customizable speech parameters.",
+  "url": "https://github.com/mamertofabian/elevenlabs-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "ElevenLabs MCP Server"
 }

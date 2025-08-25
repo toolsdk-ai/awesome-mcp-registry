@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "atla",
-	"description": "Provides a standardized interface for evaluating LLM responses against single or multiple criteria, returning both numerical scores and textual critiques",
-	"url": "https://github.com/atla-ai/atla-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Atla MCP Server"
+  "type": "mcp-server",
+  "packageName": "atla",
+  "description": "Provides a standardized interface for evaluating LLM responses against single or multiple criteria, returning both numerical scores and textual critiques",
+  "url": "https://github.com/atla-ai/atla-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Atla MCP Server"
 }

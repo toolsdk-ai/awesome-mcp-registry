@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "adobe-creative-suite",
-	"description": "Bridges Adobe Creative Suite applications including Photoshop, Premiere Pro, and InDesign through WebSocket connections and UXP plugins, enabling natural language control of layer manipulation, filter application, video editing with transitions and effects, and document creation workflows.",
-	"url": "https://github.com/mikechambers/adb-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "ADB MCP"
+  "type": "mcp-server",
+  "packageName": "adobe-creative-suite",
+  "description": "Bridges Adobe Creative Suite applications including Photoshop, Premiere Pro, and InDesign through WebSocket connections and UXP plugins, enabling natural language control of layer manipulation, filter application, video editing with transitions and effects, and document creation workflows.",
+  "url": "https://github.com/mikechambers/adb-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "ADB MCP"
 }

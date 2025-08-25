@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-cook",
-	"description": "Provides access to a collection of over 200 food and cocktail recipes, enabling dish information retrieval and ingredient-based meal suggestions.",
-	"url": "https://github.com/disdjj/mcp-cook",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Cook"
+  "type": "mcp-server",
+  "packageName": "mcp-cook",
+  "description": "Provides access to a collection of over 200 food and cocktail recipes, enabling dish information retrieval and ingredient-based meal suggestions.",
+  "url": "https://github.com/disdjj/mcp-cook",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Cook"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "jdbc-database-explorer",
-	"description": "Enables interaction with databases via JDBC connections, supporting querying, modification, and exploration of various database types without direct infrastructure access.",
-	"url": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/jdbc",
-	"runtime": "java",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "JDBC Database Explorer"
+  "type": "mcp-server",
+  "packageName": "jdbc-database-explorer",
+  "description": "Enables interaction with databases via JDBC connections, supporting querying, modification, and exploration of various database types without direct infrastructure access.",
+  "url": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/jdbc",
+  "runtime": "java",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "JDBC Database Explorer"
 }

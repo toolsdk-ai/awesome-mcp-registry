@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "speech-mcp-server",
-	"description": "Provides text-to-speech capabilities using the Kokoro TTS model, enabling natural-sounding voice output with customizable playback speed and voice selection through robust error handling and temporary file management.",
-	"url": "https://github.com/hammeiam/koroko-speech-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"MCP_DEFAULT_VOICE": {
-			"description": "af_bella",
-			"required": true
-		}
-	},
-	"name": "Koroko Speech MCP"
+  "type": "mcp-server",
+  "packageName": "speech-mcp-server",
+  "description": "Provides text-to-speech capabilities using the Kokoro TTS model, enabling natural-sounding voice output with customizable playback speed and voice selection through robust error handling and temporary file management.",
+  "url": "https://github.com/hammeiam/koroko-speech-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MCP_DEFAULT_VOICE": {
+      "description": "af_bella",
+      "required": true
+    }
+  },
+  "name": "Koroko Speech MCP"
 }

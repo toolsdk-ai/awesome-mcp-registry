@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "axiom-query",
-	"description": "Axiom's MCP server enables AI agents to query and analyze large datasets in real-time using Axiom Processing Language.",
-	"url": "https://github.com/axiomhq/mcp-server-axiom",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Axiom MCP Server"
+  "type": "mcp-server",
+  "packageName": "axiom-query",
+  "description": "Axiom's MCP server enables AI agents to query and analyze large datasets in real-time using Axiom Processing Language.",
+  "url": "https://github.com/axiomhq/mcp-server-axiom",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Axiom MCP Server"
 }

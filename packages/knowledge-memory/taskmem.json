@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "taskmem",
-	"description": "Provides AI assistants with persistent memory and task management capabilities through semantic search, project organization, and task tracking with priorities and statuses.",
-	"url": "https://github.com/sage-hq/agentcortex-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "AgentCortex MCP"
+  "type": "mcp-server",
+  "packageName": "taskmem",
+  "description": "Provides AI assistants with persistent memory and task management capabilities through semantic search, project organization, and task tracking with priorities and statuses.",
+  "url": "https://github.com/sage-hq/agentcortex-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "AgentCortex MCP"
 }

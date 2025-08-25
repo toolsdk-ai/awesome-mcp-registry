@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "wireshark-network-analysis",
-	"description": "Integrates with Wireshark's tshark tool to capture and analyze network packets with configurable filters, SSL decryption support, and multiple output formats for network troubleshooting and security analysis.",
-	"url": "https://github.com/kriztalz/sharkmcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Shark MCP"
+  "type": "mcp-server",
+  "packageName": "wireshark-network-analysis",
+  "description": "Integrates with Wireshark's tshark tool to capture and analyze network packets with configurable filters, SSL decryption support, and multiple output formats for network troubleshooting and security analysis.",
+  "url": "https://github.com/kriztalz/sharkmcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Shark MCP"
 }

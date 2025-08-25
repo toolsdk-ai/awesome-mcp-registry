@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "daytona-python-interpreter",
-	"description": "Integrates with Daytona's secure Python execution environment to enable isolated code running and workspace management for testing and educational purposes.",
-	"url": "https://github.com/nibzard/daytona-mcp-interpreter",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Daytona MCP Interpreter"
+  "type": "mcp-server",
+  "packageName": "daytona-python-interpreter",
+  "description": "Integrates with Daytona's secure Python execution environment to enable isolated code running and workspace management for testing and educational purposes.",
+  "url": "https://github.com/nibzard/daytona-mcp-interpreter",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Daytona MCP Interpreter"
 }

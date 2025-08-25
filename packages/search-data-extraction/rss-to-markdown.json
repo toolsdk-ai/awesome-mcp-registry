@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "rss-to-markdown",
-	"description": "Converts RSS feeds into structured Markdown documents with feed titles, descriptions, and clickable item links for content aggregation and news summarization workflows.",
-	"url": "https://github.com/taweili/mcp-rss-md",
-	"runtime": "node",
-	"license": "other",
-	"env": {},
-	"name": "RSS Markdown Converter"
+  "type": "mcp-server",
+  "packageName": "rss-to-markdown",
+  "description": "Converts RSS feeds into structured Markdown documents with feed titles, descriptions, and clickable item links for content aggregation and news summarization workflows.",
+  "url": "https://github.com/taweili/mcp-rss-md",
+  "runtime": "node",
+  "license": "other",
+  "env": {},
+  "name": "RSS Markdown Converter"
 }

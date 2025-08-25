@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "new-york-times",
-	"description": "Access and analyze recent news articles from the NYT API.",
-	"url": "https://github.com/angheljf/nyt",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "New York Times MCP"
+  "type": "mcp-server",
+  "packageName": "new-york-times",
+  "description": "Access and analyze recent news articles from the NYT API.",
+  "url": "https://github.com/angheljf/nyt",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "New York Times MCP"
 }

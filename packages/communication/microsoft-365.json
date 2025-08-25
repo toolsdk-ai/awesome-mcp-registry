@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "microsoft-365",
-	"description": "Integrates with Microsoft 365 services including Outlook, Calendar, OneDrive, and Contacts to enable email management, calendar operations, file handling, and contact management with multi-account authentication and advanced search capabilities.",
-	"url": "https://github.com/elyxlz/microsoft-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Microsoft MCP"
+  "type": "mcp-server",
+  "packageName": "microsoft-365",
+  "description": "Integrates with Microsoft 365 services including Outlook, Calendar, OneDrive, and Contacts to enable email management, calendar operations, file handling, and contact management with multi-account authentication and advanced search capabilities.",
+  "url": "https://github.com/elyxlz/microsoft-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Microsoft MCP"
 }

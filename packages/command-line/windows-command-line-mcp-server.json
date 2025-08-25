@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "windows-command-line-mcp-server",
-	"description": "This server creates a secure bridge between Claude and your computer's command-line functionality.",
-	"url": "https://github.com/alxspiker/windows-command-line-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Windows Command Line MCP Server"
+  "type": "mcp-server",
+  "packageName": "windows-command-line-mcp-server",
+  "description": "This server creates a secure bridge between Claude and your computer's command-line functionality.",
+  "url": "https://github.com/alxspiker/windows-command-line-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Windows Command Line MCP Server"
 }

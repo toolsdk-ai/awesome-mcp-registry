@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dall-e-image-generation",
-	"description": "Integrates with OpenAI's DALL-E API to generate and save images from text descriptions.",
-	"url": "https://github.com/prasanthmj/primitive-go-mcp-server",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Primitive Go MCP Server"
+  "type": "mcp-server",
+  "packageName": "dall-e-image-generation",
+  "description": "Integrates with OpenAI's DALL-E API to generate and save images from text descriptions.",
+  "url": "https://github.com/prasanthmj/primitive-go-mcp-server",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Primitive Go MCP Server"
 }

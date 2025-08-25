@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-code-assist",
-	"description": "Enables code modification and generation tasks through file operations, search-and-replace, and version control integration for automated refactoring and codebase maintenance.",
-	"url": "https://github.com/abhishekbhakat/mcp_server_code_assist",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server Code Assist"
+  "type": "mcp-server",
+  "packageName": "mcp-server-code-assist",
+  "description": "Enables code modification and generation tasks through file operations, search-and-replace, and version control integration for automated refactoring and codebase maintenance.",
+  "url": "https://github.com/abhishekbhakat/mcp_server_code_assist",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server Code Assist"
 }

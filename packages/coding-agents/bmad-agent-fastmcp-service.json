@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "bmad-agent-fastmcp-service",
-	"description": "A professional AI agent system that provides 10+ specialized agents and 25+ MCP tools to support development workflows in Cursor IDE, with dual LLM mode support (built-in and DeepSeek API).",
-	"url": "https://github.com/2799662352/bmad-agent-fastmcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {
-		"USE_BUILTIN_LLM": {
-			"description": "Whether to use the built-in LLM (Cursor IDE's LLM) or external API",
-			"required": true
-		},
-		"DEEPSEEK_API_KEY": {
-			"description": "DeepSeek API Key for external LLM mode",
-			"required": true
-		},
-		"PYTHONIOENCODING": {
-			"description": "Character encoding for Python I/O",
-			"required": true
-		}
-	},
-	"name": "BMAD Agent FastMCP"
+  "type": "mcp-server",
+  "packageName": "bmad-agent-fastmcp-service",
+  "description": "A professional AI agent system that provides 10+ specialized agents and 25+ MCP tools to support development workflows in Cursor IDE, with dual LLM mode support (built-in and DeepSeek API).",
+  "url": "https://github.com/2799662352/bmad-agent-fastmcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {
+    "USE_BUILTIN_LLM": {
+      "description": "Whether to use the built-in LLM (Cursor IDE's LLM) or external API",
+      "required": true
+    },
+    "DEEPSEEK_API_KEY": {
+      "description": "DeepSeek API Key for external LLM mode",
+      "required": true
+    },
+    "PYTHONIOENCODING": {
+      "description": "Character encoding for Python I/O",
+      "required": true
+    }
+  },
+  "name": "BMAD Agent FastMCP"
 }

@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "holaspirit-mcp-server",
-	"description": "Integrates with Holaspirit's API to provide access to organizational data for tasks like structure analysis, role management, and policy review.",
-	"url": "https://github.com/syucream/holaspirit-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"HOLASPIRIT_API_TOKEN": {
-			"description": "<your token>",
-			"required": true
-		},
-		"HOLASPIRIT_ORGANIZATION_ID": {
-			"description": "<your org id>",
-			"required": true
-		}
-	},
-	"name": "Holaspirit MCP Server"
+  "type": "mcp-server",
+  "packageName": "holaspirit-mcp-server",
+  "description": "Integrates with Holaspirit's API to provide access to organizational data for tasks like structure analysis, role management, and policy review.",
+  "url": "https://github.com/syucream/holaspirit-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "HOLASPIRIT_API_TOKEN": {
+      "description": "<your token>",
+      "required": true
+    },
+    "HOLASPIRIT_ORGANIZATION_ID": {
+      "description": "<your org id>",
+      "required": true
+    }
+  },
+  "name": "Holaspirit MCP Server"
 }

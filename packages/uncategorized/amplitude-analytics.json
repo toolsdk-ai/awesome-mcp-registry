@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "amplitude-analytics",
-	"description": "Track analytics events in Amplitude, supporting custom events, page views, user properties, and revenue tracking.",
-	"url": "https://github.com/moonbirdai/amplitude-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Amplitude MCP Server"
+  "type": "mcp-server",
+  "packageName": "amplitude-analytics",
+  "description": "Track analytics events in Amplitude, supporting custom events, page views, user properties, and revenue tracking.",
+  "url": "https://github.com/moonbirdai/amplitude-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Amplitude MCP Server"
 }

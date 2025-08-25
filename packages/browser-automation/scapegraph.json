@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "scapegraph",
-	"description": "Integrates with ScapeGraph API to enable web scraping and graph-based data analysis for efficient extraction and processing of large-scale web data.",
-	"url": "https://github.com/scrapegraphai/scrapegraph-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "ScrapeGraph MCP"
+  "type": "mcp-server",
+  "packageName": "scapegraph",
+  "description": "Integrates with ScapeGraph API to enable web scraping and graph-based data analysis for efficient extraction and processing of large-scale web data.",
+  "url": "https://github.com/scrapegraphai/scrapegraph-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "ScrapeGraph MCP"
 }

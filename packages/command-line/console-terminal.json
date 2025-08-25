@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "console-terminal",
-	"description": "Provides a bridge between AI assistants and system terminals, enabling command execution and output retrieval through an Electron-based application",
-	"url": "https://github.com/nexon33/console-terminal-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Console Terminal MCP Server"
+  "type": "mcp-server",
+  "packageName": "console-terminal",
+  "description": "Provides a bridge between AI assistants and system terminals, enabling command execution and output retrieval through an Electron-based application",
+  "url": "https://github.com/nexon33/console-terminal-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Console Terminal MCP Server"
 }

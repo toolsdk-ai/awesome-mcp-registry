@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@flipt-io/mcp-server-flipt",
-	"description": "Integrates with Flipt feature flag management to enable listing, creating, updating, and deleting namespaces, flags, segments, and rules for controlling feature rollouts with constraints, variants, and distributions.",
-	"url": "https://github.com/flipt-io/mcp-server-flipt",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Flipt MCP Server"
+  "type": "mcp-server",
+  "packageName": "@flipt-io/mcp-server-flipt",
+  "description": "Integrates with Flipt feature flag management to enable listing, creating, updating, and deleting namespaces, flags, segments, and rules for controlling feature rollouts with constraints, variants, and distributions.",
+  "url": "https://github.com/flipt-io/mcp-server-flipt",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Flipt MCP Server"
 }

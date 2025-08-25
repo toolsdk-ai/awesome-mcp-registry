@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@magicuidesign/mcp",
-	"description": "Provides structured access to Magic UI's component library for generating accurate code suggestions with proper installation instructions for implementing visually appealing UI elements in web applications.",
-	"url": "https://github.com/magicuidesign/mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Magic UI MCP"
+  "type": "mcp-server",
+  "packageName": "@magicuidesign/mcp",
+  "description": "Provides structured access to Magic UI's component library for generating accurate code suggestions with proper installation instructions for implementing visually appealing UI elements in web applications.",
+  "url": "https://github.com/magicuidesign/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Magic UI MCP"
 }

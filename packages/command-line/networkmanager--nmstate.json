@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "networkmanager-(nmstate)",
-	"description": "Integrates with Linux NetworkManager through libnmstate library to query current network interface configurations and apply declarative YAML-based network state changes for system administration and troubleshooting.",
-	"url": "https://github.com/rajeshrah22/nmstate-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Nmstate MCP"
+  "type": "mcp-server",
+  "packageName": "networkmanager-(nmstate)",
+  "description": "Integrates with Linux NetworkManager through libnmstate library to query current network interface configurations and apply declarative YAML-based network state changes for system administration and troubleshooting.",
+  "url": "https://github.com/rajeshrah22/nmstate-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Nmstate MCP"
 }

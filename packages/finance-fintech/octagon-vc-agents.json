@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "octagon-vc-agents",
-	"description": "Simulate top venture capitalists for realistic deal diligence, negotiation advice, and API-driven insights. The roster includes Reid Hoffman, Josh Kopelman, Alfred Lin, Keith Rabois, Bill Gurley, Peter Thiel, Marc Andreessen, Fred Wilson.",
-	"url": "https://github.com/octagonai/octagon-vc-agents",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Octagon VC Agents"
+  "type": "mcp-server",
+  "packageName": "octagon-vc-agents",
+  "description": "Simulate top venture capitalists for realistic deal diligence, negotiation advice, and API-driven insights. The roster includes Reid Hoffman, Josh Kopelman, Alfred Lin, Keith Rabois, Bill Gurley, Peter Thiel, Marc Andreessen, Fred Wilson.",
+  "url": "https://github.com/octagonai/octagon-vc-agents",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Octagon VC Agents"
 }

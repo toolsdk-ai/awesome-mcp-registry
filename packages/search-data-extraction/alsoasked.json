@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "alsoasked",
-	"description": "Integrates with Google's AlsoAsked API to retrieve hierarchical \"People Also Ask\" question data for SEO research and content optimization with configurable language, region, depth, and freshness parameters.",
-	"url": "https://github.com/metehan777/alsoasked-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "AlsoAsked MCP"
+  "type": "mcp-server",
+  "packageName": "alsoasked",
+  "description": "Integrates with Google's AlsoAsked API to retrieve hierarchical \"People Also Ask\" question data for SEO research and content optimization with configurable language, region, depth, and freshness parameters.",
+  "url": "https://github.com/metehan777/alsoasked-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "AlsoAsked MCP"
 }

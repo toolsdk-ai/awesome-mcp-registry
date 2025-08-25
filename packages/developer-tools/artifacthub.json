@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "artifacthub",
-	"description": "Provides a bridge to Artifact Hub's Helm chart repository, enabling quick retrieval, searching, and analysis of Helm chart configurations, templates, and default values directly within conversations.",
-	"url": "https://github.com/alexw00/artifacthub-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Artifact Hub MCP"
+  "type": "mcp-server",
+  "packageName": "artifacthub",
+  "description": "Provides a bridge to Artifact Hub's Helm chart repository, enabling quick retrieval, searching, and analysis of Helm chart configurations, templates, and default values directly within conversations.",
+  "url": "https://github.com/alexw00/artifacthub-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Artifact Hub MCP"
 }

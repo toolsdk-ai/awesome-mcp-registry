@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@greirson/mcp-todoist",
-	"description": "Integrates with Todoist API to manage tasks, projects, sections, and comments with support for bulk operations, natural language search, and comprehensive CRUD functionality.",
-	"url": "https://github.com/greirson/mcp-todoist",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TODOIST_API_TOKEN": {
-			"description": "your_api_token_here",
-			"required": true
-		}
-	},
-	"name": "Todoist MCP"
+  "type": "mcp-server",
+  "packageName": "@greirson/mcp-todoist",
+  "description": "Integrates with Todoist API to manage tasks, projects, sections, and comments with support for bulk operations, natural language search, and comprehensive CRUD functionality.",
+  "url": "https://github.com/greirson/mcp-todoist",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TODOIST_API_TOKEN": {
+      "description": "your_api_token_here",
+      "required": true
+    }
+  },
+  "name": "Todoist MCP"
 }

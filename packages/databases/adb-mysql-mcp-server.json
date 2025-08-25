@@ -1,31 +1,31 @@
 {
-	"type": "mcp-server",
-	"packageName": "adb-mysql-mcp-server",
-	"description": "Connects to Alibaba Cloud's Adb MySQL databases for executing SQL queries, analyzing query plans, and retrieving database metadata with minimal configuration requirements",
-	"url": "https://github.com/aliyun/alibabacloud-adb-mysql-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {
-		"ADB_MYSQL_HOST": {
-			"description": "host",
-			"required": true
-		},
-		"ADB_MYSQL_PORT": {
-			"description": "port",
-			"required": true
-		},
-		"ADB_MYSQL_USER": {
-			"description": "database_user",
-			"required": true
-		},
-		"ADB_MYSQL_PASSWORD": {
-			"description": "database_password",
-			"required": true
-		},
-		"ADB_MYSQL_DATABASE": {
-			"description": "database",
-			"required": true
-		}
-	},
-	"name": "Alibaba Cloud Adb MySQL MCP Server"
+  "type": "mcp-server",
+  "packageName": "adb-mysql-mcp-server",
+  "description": "Connects to Alibaba Cloud's Adb MySQL databases for executing SQL queries, analyzing query plans, and retrieving database metadata with minimal configuration requirements",
+  "url": "https://github.com/aliyun/alibabacloud-adb-mysql-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "ADB_MYSQL_HOST": {
+      "description": "host",
+      "required": true
+    },
+    "ADB_MYSQL_PORT": {
+      "description": "port",
+      "required": true
+    },
+    "ADB_MYSQL_USER": {
+      "description": "database_user",
+      "required": true
+    },
+    "ADB_MYSQL_PASSWORD": {
+      "description": "database_password",
+      "required": true
+    },
+    "ADB_MYSQL_DATABASE": {
+      "description": "database",
+      "required": true
+    }
+  },
+  "name": "Alibaba Cloud Adb MySQL MCP Server"
 }

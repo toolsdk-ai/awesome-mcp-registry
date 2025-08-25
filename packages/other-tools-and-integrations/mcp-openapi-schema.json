@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-openapi-schema",
-	"description": "Transforms OpenAPI specifications into YAML-formatted tools for exploring API paths, operations, parameters, schemas, and security definitions, enabling seamless API documentation navigation and understanding.",
-	"url": "https://github.com/hannesj/mcp-openapi-schema",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP OpenAPI Schema"
+  "type": "mcp-server",
+  "packageName": "mcp-openapi-schema",
+  "description": "Transforms OpenAPI specifications into YAML-formatted tools for exploring API paths, operations, parameters, schemas, and security definitions, enabling seamless API documentation navigation and understanding.",
+  "url": "https://github.com/hannesj/mcp-openapi-schema",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP OpenAPI Schema"
 }

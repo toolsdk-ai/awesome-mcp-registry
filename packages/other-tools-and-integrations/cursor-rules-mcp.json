@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cursor-rules-mcp",
-	"description": "Provides a bridge to Playbooks Rules API for listing, searching, and retrieving rules with tools for processing URL-based slugs and formatting rule files with metadata",
-	"url": "https://github.com/iannuttall/cursor-rules-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Cursor Rules MCP"
+  "type": "mcp-server",
+  "packageName": "cursor-rules-mcp",
+  "description": "Provides a bridge to Playbooks Rules API for listing, searching, and retrieving rules with tools for processing URL-based slugs and formatting rule files with metadata",
+  "url": "https://github.com/iannuttall/cursor-rules-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Cursor Rules MCP"
 }

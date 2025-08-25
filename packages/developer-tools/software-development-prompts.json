@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "software-development-prompts",
-	"description": "Provides pre-defined YAML prompts for common software development tasks as tools, including code review, refactoring, API documentation, test generation, and architecture assistance through a configurable Node.js server.",
-	"url": "https://github.com/gdli6177/mcp-prompt-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Prompt Server"
+  "type": "mcp-server",
+  "packageName": "software-development-prompts",
+  "description": "Provides pre-defined YAML prompts for common software development tasks as tools, including code review, refactoring, API documentation, test generation, and architecture assistance through a configurable Node.js server.",
+  "url": "https://github.com/gdli6177/mcp-prompt-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Prompt Server"
 }

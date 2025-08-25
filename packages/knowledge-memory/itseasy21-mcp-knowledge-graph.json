@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@itseasy21/mcp-knowledge-graph",
-	"description": "Provides persistent memory for Claude through a local knowledge graph that stores entities with observations and relations, enabling structured information retrieval and complex context retention across conversations.",
-	"url": "https://github.com/itseasy21/mcp-knowledge-graph",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"MEMORY_FILE_PATH": {
-			"description": "/path/to/your/projects.jsonl",
-			"required": true
-		}
-	},
-	"name": "MCP Knowledge Graph"
+  "type": "mcp-server",
+  "packageName": "@itseasy21/mcp-knowledge-graph",
+  "description": "Provides persistent memory for Claude through a local knowledge graph that stores entities with observations and relations, enabling structured information retrieval and complex context retention across conversations.",
+  "url": "https://github.com/itseasy21/mcp-knowledge-graph",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MEMORY_FILE_PATH": {
+      "description": "/path/to/your/projects.jsonl",
+      "required": true
+    }
+  },
+  "name": "MCP Knowledge Graph"
 }

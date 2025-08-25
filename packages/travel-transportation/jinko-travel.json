@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "jinko-travel",
-	"description": "Start selling 2M+ hotels in your AI agents instantly.",
-	"url": "https://github.com/jinkoso/jinko-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Jinko MCP"
+  "type": "mcp-server",
+  "packageName": "jinko-travel",
+  "description": "Start selling 2M+ hotels in your AI agents instantly.",
+  "url": "https://github.com/jinkoso/jinko-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Jinko MCP"
 }

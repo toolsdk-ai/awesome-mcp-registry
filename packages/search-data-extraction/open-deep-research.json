@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "open-deep-research",
-	"description": "Performs iterative, deep research on any topic by combining search engines, web scraping, and large language models to generate comprehensive markdown reports.",
-	"url": "https://github.com/ozamatash/deep-research-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Deep Research MCP"
+  "type": "mcp-server",
+  "packageName": "open-deep-research",
+  "description": "Performs iterative, deep research on any topic by combining search engines, web scraping, and large language models to generate comprehensive markdown reports.",
+  "url": "https://github.com/ozamatash/deep-research-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Deep Research MCP"
 }

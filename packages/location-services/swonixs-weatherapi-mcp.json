@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@swonixs/weatherapi-mcp",
-	"description": "Provides current weather and air quality data for any city through WeatherAPI.com, requiring only an API key for temperature, humidity, wind speed, and optional air quality metrics.",
-	"url": "https://github.com/swonixs/weatherapi-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"WEATHER_API_KEY": {
-			"description": "YOUR_API_KEY_HERE",
-			"required": true
-		}
-	},
-	"name": "WeatherAPI MCP"
+  "type": "mcp-server",
+  "packageName": "@swonixs/weatherapi-mcp",
+  "description": "Provides current weather and air quality data for any city through WeatherAPI.com, requiring only an API key for temperature, humidity, wind speed, and optional air quality metrics.",
+  "url": "https://github.com/swonixs/weatherapi-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "WEATHER_API_KEY": {
+      "description": "YOUR_API_KEY_HERE",
+      "required": true
+    }
+  },
+  "name": "WeatherAPI MCP"
 }

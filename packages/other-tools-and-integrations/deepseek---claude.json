@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "deepseek-+-claude",
-	"description": "Combines DeepSeek's reasoning capabilities with Claude 3.5 Sonnet's response generation through OpenRouter to leverage both models' strengths in a single conversation flow",
-	"url": "https://github.com/niko91i/mcp-deepseek-v3-et-claude-desktop",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCP DeepSeek v3 et Claude Desktop"
+  "type": "mcp-server",
+  "packageName": "deepseek-+-claude",
+  "description": "Combines DeepSeek's reasoning capabilities with Claude 3.5 Sonnet's response generation through OpenRouter to leverage both models' strengths in a single conversation flow",
+  "url": "https://github.com/niko91i/mcp-deepseek-v3-et-claude-desktop",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP DeepSeek v3 et Claude Desktop"
 }

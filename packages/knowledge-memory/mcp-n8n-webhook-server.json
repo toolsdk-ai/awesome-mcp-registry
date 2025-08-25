@@ -1,31 +1,31 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-n8n-webhook-server",
-	"description": "A Model Context Protocol server that allows AI assistants to save structured information to n8n via webhooks for storage, indexing, and retrieval.",
-	"url": "https://github.com/gcorroto/mcp-n8n-webhook",
-	"runtime": "node",
-	"license": "mit",
-	"env": {
-		"N8N_API_KEY": {
-			"description": "Clave de API para autenticación",
-			"required": true
-		},
-		"N8N_INDEX_NAME": {
-			"description": "Nombre del índice por defecto",
-			"required": true
-		},
-		"N8N_WEBHOOK_ID": {
-			"description": "ID único del webhook",
-			"required": true
-		},
-		"N8N_WEBHOOK_URL": {
-			"description": "URL base del webhook de n8n",
-			"required": true
-		},
-		"N8N_TABLE_CATEGORY": {
-			"description": "Categoría de tabla por defecto",
-			"required": true
-		}
-	},
-	"name": "MCP n8n Webhook Server"
+  "type": "mcp-server",
+  "packageName": "mcp-n8n-webhook-server",
+  "description": "A Model Context Protocol server that allows AI assistants to save structured information to n8n via webhooks for storage, indexing, and retrieval.",
+  "url": "https://github.com/gcorroto/mcp-n8n-webhook",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "N8N_API_KEY": {
+      "description": "Clave de API para autenticación",
+      "required": true
+    },
+    "N8N_INDEX_NAME": {
+      "description": "Nombre del índice por defecto",
+      "required": true
+    },
+    "N8N_WEBHOOK_ID": {
+      "description": "ID único del webhook",
+      "required": true
+    },
+    "N8N_WEBHOOK_URL": {
+      "description": "URL base del webhook de n8n",
+      "required": true
+    },
+    "N8N_TABLE_CATEGORY": {
+      "description": "Categoría de tabla por defecto",
+      "required": true
+    }
+  },
+  "name": "MCP n8n Webhook Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "talk-to-figma",
-	"description": "Enables AI interaction with Figma designs through a WebSocket bridge that allows reading and modifying elements with tools for creation, styling, layout management, and exporting.",
-	"url": "https://github.com/yhc984/cursor-talk-to-figma-mcp-main",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Cursor Talk to Figma MCP"
+  "type": "mcp-server",
+  "packageName": "talk-to-figma",
+  "description": "Enables AI interaction with Figma designs through a WebSocket bridge that allows reading and modifying elements with tools for creation, styling, layout management, and exporting.",
+  "url": "https://github.com/yhc984/cursor-talk-to-figma-mcp-main",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Cursor Talk to Figma MCP"
 }

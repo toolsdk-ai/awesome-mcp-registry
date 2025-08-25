@@ -1,16 +1,16 @@
 {
-	"type": "mcp-server",
-	"logo": "https://www.gstatic.com/marketing-cms/assets/images/cf/3c/0d56042f479fac9ad22d06855578/calender.webp",
-	"packageName": "@cocal/google-calendar-mcp",
-	"description": "A Model Context Protocol (MCP) server that provides Google Calendar integration for AI assistants like Claude. ",
-	"url": "https://github.com/nspady/google-calendar-mcp",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"GOOGLE_OAUTH_CREDENTIALS": {
-			"description": "/path/to/your/gcp-oauth.keys.json",
-			"required": true
-		}
-	},
-	"name": "Google Calendar MCP Server"
+  "type": "mcp-server",
+  "logo": "https://www.gstatic.com/marketing-cms/assets/images/cf/3c/0d56042f479fac9ad22d06855578/calender.webp",
+  "packageName": "@cocal/google-calendar-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides Google Calendar integration for AI assistants like Claude. ",
+  "url": "https://github.com/nspady/google-calendar-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "GOOGLE_OAUTH_CREDENTIALS": {
+      "description": "/path/to/your/gcp-oauth.keys.json",
+      "required": true
+    }
+  },
+  "name": "Google Calendar MCP Server"
 }

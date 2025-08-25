@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@browsercatco/mcp-server",
-	"description": "Enables LLMs to interact with web pages through cloud-based browser automation for navigation, screenshot capture, element interaction, and JavaScript execution without local browser installation.",
-	"url": "https://github.com/browsercat/browsercat-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"BROWSERCAT_API_KEY": {
-			"description": "your-api-key-here",
-			"required": true
-		}
-	},
-	"name": "BrowserCat MCP Server"
+  "type": "mcp-server",
+  "packageName": "@browsercatco/mcp-server",
+  "description": "Enables LLMs to interact with web pages through cloud-based browser automation for navigation, screenshot capture, element interaction, and JavaScript execution without local browser installation.",
+  "url": "https://github.com/browsercat/browsercat-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "BROWSERCAT_API_KEY": {
+      "description": "your-api-key-here",
+      "required": true
+    }
+  },
+  "name": "BrowserCat MCP Server"
 }

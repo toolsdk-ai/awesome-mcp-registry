@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "logseq",
-	"description": "Integrates with LogSeq API to enable automated note-taking, content searching, and knowledge management tasks.",
-	"url": "https://github.com/ergut/mcp-logseq-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP LogSeq Server"
+  "type": "mcp-server",
+  "packageName": "logseq",
+  "description": "Integrates with LogSeq API to enable automated note-taking, content searching, and knowledge management tasks.",
+  "url": "https://github.com/ergut/mcp-logseq-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP LogSeq Server"
 }

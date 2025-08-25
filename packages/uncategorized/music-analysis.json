@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "music-analysis",
-	"description": "Integrates librosa's audio processing capabilities to provide detailed music and audio analysis tools for extracting features like tempo, spectral characteristics, and onset detection directly within conversations.",
-	"url": "https://github.com/hugohow/mcp-music-analysis",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Music Analysis MCP"
+  "type": "mcp-server",
+  "packageName": "music-analysis",
+  "description": "Integrates librosa's audio processing capabilities to provide detailed music and audio analysis tools for extracting features like tempo, spectral characteristics, and onset detection directly within conversations.",
+  "url": "https://github.com/hugohow/mcp-music-analysis",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Music Analysis MCP"
 }

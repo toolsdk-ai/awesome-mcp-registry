@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "google-spreadsheet",
-	"description": "Integrates with Google Drive and Sheets to enable document management, file operations, and spreadsheet manipulation without switching contexts.",
-	"url": "https://github.com/kazz187/mcp-google-spreadsheet",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Google Spreadsheet MCP"
+  "type": "mcp-server",
+  "packageName": "google-spreadsheet",
+  "description": "Integrates with Google Drive and Sheets to enable document management, file operations, and spreadsheet manipulation without switching contexts.",
+  "url": "https://github.com/kazz187/mcp-google-spreadsheet",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Google Spreadsheet MCP"
 }

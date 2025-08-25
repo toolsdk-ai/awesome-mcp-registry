@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@circleci/mcp-server-circleci",
-	"description": "Enables agents to talk to CircleCI. Fetch build failure logs to fix issues.",
-	"url": "https://github.com/circleci-public/mcp-server-circleci",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server CircleCI"
+  "type": "mcp-server",
+  "packageName": "@circleci/mcp-server-circleci",
+  "description": "Enables agents to talk to CircleCI. Fetch build failure logs to fix issues.",
+  "url": "https://github.com/circleci-public/mcp-server-circleci",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server CircleCI"
 }

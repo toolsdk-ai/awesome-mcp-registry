@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "unicode-steganography-puzzles",
-	"description": "Creates and manages steganography puzzles that hide messages within Unicode characters, offering template-based generation with configurable difficulty levels and persistent storage of puzzle metadata.",
-	"url": "https://github.com/szowesgad/mcp-unicode-puzzles",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Unicode Steganography Puzzles"
+  "type": "mcp-server",
+  "packageName": "unicode-steganography-puzzles",
+  "description": "Creates and manages steganography puzzles that hide messages within Unicode characters, offering template-based generation with configurable difficulty levels and persistent storage of puzzle metadata.",
+  "url": "https://github.com/szowesgad/mcp-unicode-puzzles",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Unicode Steganography Puzzles"
 }

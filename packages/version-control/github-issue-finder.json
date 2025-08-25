@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "github-issue-finder",
-	"description": "Integrates with GitHub's API to find similar issues using Jaccard similarity, streamlining support workflows and reducing response times in project management.",
-	"url": "https://github.com/jake-mok-nelson/mcp-find-similar-github-issues",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Find Similar GitHub Issues MCP"
+  "type": "mcp-server",
+  "packageName": "github-issue-finder",
+  "description": "Integrates with GitHub's API to find similar issues using Jaccard similarity, streamlining support workflows and reducing response times in project management.",
+  "url": "https://github.com/jake-mok-nelson/mcp-find-similar-github-issues",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Find Similar GitHub Issues MCP"
 }

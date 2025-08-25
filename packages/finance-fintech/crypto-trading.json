@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "crypto-trading",
-	"description": "Provides a bridge to multiple cryptocurrency exchanges (Upbit, Gate.io, and Binance) for spot trading operations, market data retrieval, and portfolio management across different platforms.",
-	"url": "https://github.com/vkdnjznd/crypto-trading-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Crypto Trading MCP"
+  "type": "mcp-server",
+  "packageName": "crypto-trading",
+  "description": "Provides a bridge to multiple cryptocurrency exchanges (Upbit, Gate.io, and Binance) for spot trading operations, market data retrieval, and portfolio management across different platforms.",
+  "url": "https://github.com/vkdnjznd/crypto-trading-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Crypto Trading MCP"
 }

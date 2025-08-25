@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@binalyze/air-mcp",
-	"description": "Bridges to the Binalyze AIR digital forensics platform, enabling security teams to query endpoint data, monitor status, and manage investigations through a secure API connection.",
-	"url": "https://github.com/binalyze/air-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"AIR_HOST": {
-			"description": "your-api-host.com",
-			"required": true
-		},
-		"AIR_API_TOKEN": {
-			"description": "your-api-token",
-			"required": true
-		}
-	},
-	"name": "Air MCP"
+  "type": "mcp-server",
+  "packageName": "@binalyze/air-mcp",
+  "description": "Bridges to the Binalyze AIR digital forensics platform, enabling security teams to query endpoint data, monitor status, and manage investigations through a secure API connection.",
+  "url": "https://github.com/binalyze/air-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "AIR_HOST": {
+      "description": "your-api-host.com",
+      "required": true
+    },
+    "AIR_API_TOKEN": {
+      "description": "your-api-token",
+      "required": true
+    }
+  },
+  "name": "Air MCP"
 }

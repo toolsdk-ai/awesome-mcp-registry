@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "websocket-enhancer",
-	"description": "Combines a standard server with WebSocket functionality to enable real-time data updates and efficient asynchronous operations for applications requiring both traditional interactions and data streaming capabilities.",
-	"url": "https://github.com/virajsharma2000/mcp-websocket",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "WebSocket MCP"
+  "type": "mcp-server",
+  "packageName": "websocket-enhancer",
+  "description": "Combines a standard server with WebSocket functionality to enable real-time data updates and efficient asynchronous operations for applications requiring both traditional interactions and data streaming capabilities.",
+  "url": "https://github.com/virajsharma2000/mcp-websocket",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "WebSocket MCP"
 }

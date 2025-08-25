@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "root-signals-evaluators",
-	"description": "Exposes Root Signals evaluators as tools for AI assistants & agents, allowing them to evaluate responses against various quality criteria.",
-	"url": "https://github.com/root-signals/root-signals-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Root Signals MCP"
+  "type": "mcp-server",
+  "packageName": "root-signals-evaluators",
+  "description": "Exposes Root Signals evaluators as tools for AI assistants & agents, allowing them to evaluate responses against various quality criteria.",
+  "url": "https://github.com/root-signals/root-signals-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Root Signals MCP"
 }

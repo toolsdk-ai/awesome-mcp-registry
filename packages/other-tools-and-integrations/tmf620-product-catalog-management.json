@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "tmf620-product-catalog-management",
-	"description": "Integrates with TMF620 Product Catalog Management API to enable listing, retrieving, and creating catalogs, product offerings, and specifications for e-commerce or telecom service providers.",
-	"url": "https://github.com/oopsyz/mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "TMF620 Product Catalog MCP"
+  "type": "mcp-server",
+  "packageName": "tmf620-product-catalog-management",
+  "description": "Integrates with TMF620 Product Catalog Management API to enable listing, retrieving, and creating catalogs, product offerings, and specifications for e-commerce or telecom service providers.",
+  "url": "https://github.com/oopsyz/mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "TMF620 Product Catalog MCP"
 }

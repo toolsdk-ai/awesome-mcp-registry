@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "terminal-control",
-	"description": "Provides a cross-platform terminal control server that executes shell commands and retrieves terminal information, with specialized support for macOS environments including AppleScript and iTerm2 integration.",
-	"url": "https://github.com/sichang824/mcp-terminal",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Terminal MCP"
+  "type": "mcp-server",
+  "packageName": "terminal-control",
+  "description": "Provides a cross-platform terminal control server that executes shell commands and retrieves terminal information, with specialized support for macOS environments including AppleScript and iTerm2 integration.",
+  "url": "https://github.com/sichang824/mcp-terminal",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Terminal MCP"
 }

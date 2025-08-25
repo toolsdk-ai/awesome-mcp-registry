@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "scanpy",
-	"description": "Provides natural language access to single-cell RNA sequencing analysis through Scanpy, enabling bioinformatics workflows like clustering, dimensionality reduction, and cell type annotation without writing code.",
-	"url": "https://github.com/huang-sh/scmcp",
-	"runtime": "python",
-	"license": "bsd-3-clause",
-	"env": {},
-	"name": "Scanpy MCP"
+  "type": "mcp-server",
+  "packageName": "scanpy",
+  "description": "Provides natural language access to single-cell RNA sequencing analysis through Scanpy, enabling bioinformatics workflows like clustering, dimensionality reduction, and cell type annotation without writing code.",
+  "url": "https://github.com/huang-sh/scmcp",
+  "runtime": "python",
+  "license": "bsd-3-clause",
+  "env": {},
+  "name": "Scanpy MCP"
 }

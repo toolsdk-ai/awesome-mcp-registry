@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "screenshot-website-fast",
-	"description": "Captures full-page website screenshots using Puppeteer and automatically splits them into 1072x1072 pixel tiles optimized for vision model processing with robust error handling and retry logic.",
-	"url": "https://github.com/just-every/mcp-screenshot-website-fast",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Screenshot Website Fast"
+  "type": "mcp-server",
+  "packageName": "screenshot-website-fast",
+  "description": "Captures full-page website screenshots using Puppeteer and automatically splits them into 1072x1072 pixel tiles optimized for vision model processing with robust error handling and retry logic.",
+  "url": "https://github.com/just-every/mcp-screenshot-website-fast",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Screenshot Website Fast"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dingtalk-v2",
-	"description": "Provides integration with the DingTalk API, enabling easy deployment and scaling of services like chatbots and data processing pipelines.",
-	"url": "https://github.com/wllcnm/dingding_mcp_v2",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "DingTalk MCP V2"
+  "type": "mcp-server",
+  "packageName": "dingtalk-v2",
+  "description": "Provides integration with the DingTalk API, enabling easy deployment and scaling of services like chatbots and data processing pipelines.",
+  "url": "https://github.com/wllcnm/dingding_mcp_v2",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "DingTalk MCP V2"
 }

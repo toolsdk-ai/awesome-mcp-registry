@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "terraform-mcp-server",
-	"description": "Integrates with the Terraform Registry API to enable provider lookup, resource usage examples, module recommendations, and schema details retrieval for infrastructure-as-code development.",
-	"url": "https://github.com/thrashr888/terraform-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Terraform MCP Server"
+  "type": "mcp-server",
+  "packageName": "terraform-mcp-server",
+  "description": "Integrates with the Terraform Registry API to enable provider lookup, resource usage examples, module recommendations, and schema details retrieval for infrastructure-as-code development.",
+  "url": "https://github.com/thrashr888/terraform-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Terraform MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "github-mapper",
-	"description": "Integrates with GitHub to analyze repositories, generate file structure maps, and enable code analysis workflows using TypeScript and the Octokit REST API.",
-	"url": "https://github.com/dazeb/mcp-github-mapper",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "GitHub Mapper MCP"
+  "type": "mcp-server",
+  "packageName": "github-mapper",
+  "description": "Integrates with GitHub to analyze repositories, generate file structure maps, and enable code analysis workflows using TypeScript and the Octokit REST API.",
+  "url": "https://github.com/dazeb/mcp-github-mapper",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "GitHub Mapper MCP"
 }

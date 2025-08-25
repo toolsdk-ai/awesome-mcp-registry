@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "rtfm",
-	"description": "Transforms unstructured documentation into an intelligent, searchable knowledge base.",
-	"url": "https://github.com/ryanjoachim/mcp-rtfm",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "RTFM MCP"
+  "type": "mcp-server",
+  "packageName": "rtfm",
+  "description": "Transforms unstructured documentation into an intelligent, searchable knowledge base.",
+  "url": "https://github.com/ryanjoachim/mcp-rtfm",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "RTFM MCP"
 }

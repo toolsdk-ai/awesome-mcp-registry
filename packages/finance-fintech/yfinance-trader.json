@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "yfinance-trader",
-	"description": "Provides real-time stock market data and trading capabilities through yfinance, offering tools for retrieving quotes, company overviews, historical prices, symbol searches, analyst recommendations, and insider transactions.",
-	"url": "https://github.com/saintdoresh/yfinance-trader-mcp-claudedesktop",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Yfinance Trader MCP"
+  "type": "mcp-server",
+  "packageName": "yfinance-trader",
+  "description": "Provides real-time stock market data and trading capabilities through yfinance, offering tools for retrieving quotes, company overviews, historical prices, symbol searches, analyst recommendations, and insider transactions.",
+  "url": "https://github.com/saintdoresh/yfinance-trader-mcp-claudedesktop",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Yfinance Trader MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sonarqube-mcp-server",
-	"description": "Integrates with SonarQube to provide code quality metrics, issue tracking, and quality gate status information for software development projects",
-	"url": "https://github.com/sapientpants/sonarqube-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "SonarQube MCP Server"
+  "type": "mcp-server",
+  "packageName": "sonarqube-mcp-server",
+  "description": "Integrates with SonarQube to provide code quality metrics, issue tracking, and quality gate status information for software development projects",
+  "url": "https://github.com/sapientpants/sonarqube-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "SonarQube MCP Server"
 }

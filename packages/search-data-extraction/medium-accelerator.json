@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "medium-accelerator",
-	"description": "Accelerates Medium article research by extracting article links from archive pages, scraping full content for summarization, and maintaining a persistent local database of article summaries with metadata for efficient content discovery and organization.",
-	"url": "https://github.com/crtdaniele/mcp-medium-accelerator",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Medium Accelerator MCP"
+  "type": "mcp-server",
+  "packageName": "medium-accelerator",
+  "description": "Accelerates Medium article research by extracting article links from archive pages, scraping full content for summarization, and maintaining a persistent local database of article summaries with metadata for efficient content discovery and organization.",
+  "url": "https://github.com/crtdaniele/mcp-medium-accelerator",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Medium Accelerator MCP"
 }

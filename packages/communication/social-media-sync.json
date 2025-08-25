@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "social-media-sync",
-	"description": "Enables cross-platform social media content creation by integrating Twitter, Mastodon, and LinkedIn through a unified server that leverages multiple AI models for generating and posting content with robust platform-specific formatting and research capabilities.",
-	"url": "https://github.com/tayler-id/social-media-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Social Media MCP"
+  "type": "mcp-server",
+  "packageName": "social-media-sync",
+  "description": "Enables cross-platform social media content creation by integrating Twitter, Mastodon, and LinkedIn through a unified server that leverages multiple AI models for generating and posting content with robust platform-specific formatting and research capabilities.",
+  "url": "https://github.com/tayler-id/social-media-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Social Media MCP"
 }

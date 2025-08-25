@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "safe-local-python-executor",
-	"description": "Wraps LocalPythonExecutor from HuggingFace's smolagents framework. The runtime combines the ease of setup (compared to docker, VM, cloud runtimes) while providing safeguards and limiting operations/imports that are allowed inside the runtime.",
-	"url": "https://github.com/maxim-saplin/mcp_safe_local_python_executor",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Safe Local Python Executor MCP"
+  "type": "mcp-server",
+  "packageName": "safe-local-python-executor",
+  "description": "Wraps LocalPythonExecutor from HuggingFace's smolagents framework. The runtime combines the ease of setup (compared to docker, VM, cloud runtimes) while providing safeguards and limiting operations/imports that are allowed inside the runtime.",
+  "url": "https://github.com/maxim-saplin/mcp_safe_local_python_executor",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Safe Local Python Executor MCP"
 }

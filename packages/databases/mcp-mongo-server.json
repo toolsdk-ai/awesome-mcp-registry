@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-mongo-server",
-	"description": "Query and analyze MongoDB databases.",
-	"url": "https://github.com/kiliczsh/mcp-mongo-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"MCP_MONGODB_URI": {
-			"description": "mongodb://muhammed:kilic@localhost:27017/database",
-			"required": true
-		},
-		"MCP_MONGODB_READONLY": {
-			"description": "true",
-			"required": true
-		}
-	},
-	"name": "MCP Mongo Server"
+  "type": "mcp-server",
+  "packageName": "mcp-mongo-server",
+  "description": "Query and analyze MongoDB databases.",
+  "url": "https://github.com/kiliczsh/mcp-mongo-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "MCP_MONGODB_URI": {
+      "description": "mongodb://muhammed:kilic@localhost:27017/database",
+      "required": true
+    },
+    "MCP_MONGODB_READONLY": {
+      "description": "true",
+      "required": true
+    }
+  },
+  "name": "MCP Mongo Server"
 }

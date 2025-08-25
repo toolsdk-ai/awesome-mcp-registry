@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "kakao-local",
-	"description": "Integrates with Kakao's mapping APIs to provide location information within South Korea, enabling address geocoding, place searching, and detailed location data retrieval including reviews and photos.",
-	"url": "https://github.com/yunkee-lee/mcp-kakao-local",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Kakao Local MCP"
+  "type": "mcp-server",
+  "packageName": "kakao-local",
+  "description": "Integrates with Kakao's mapping APIs to provide location information within South Korea, enabling address geocoding, place searching, and detailed location data retrieval including reviews and photos.",
+  "url": "https://github.com/yunkee-lee/mcp-kakao-local",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Kakao Local MCP"
 }

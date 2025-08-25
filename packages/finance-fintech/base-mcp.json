@@ -1,43 +1,43 @@
 {
-	"type": "mcp-server",
-	"packageName": "base-mcp",
-	"description": "Enables Claude to interact with the Base blockchain and Coinbase API for cryptocurrency operations including wallet management, fund transfers, and smart contract deployments.",
-	"url": "https://github.com/base/base-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"COINBASE_API_KEY_NAME": {
-			"description": "your_api_key_name",
-			"required": true
-		},
-		"COINBASE_API_PRIVATE_KEY": {
-			"description": "your_private_key",
-			"required": true
-		},
-		"SEED_PHRASE": {
-			"description": "your seed phrase here",
-			"required": true
-		},
-		"COINBASE_PROJECT_ID": {
-			"description": "your_project_id",
-			"required": true
-		},
-		"ALCHEMY_API_KEY": {
-			"description": "your_alchemy_api_key",
-			"required": true
-		},
-		"PINATA_JWT": {
-			"description": "your_pinata_jwt",
-			"required": true
-		},
-		"OPENROUTER_API_KEY": {
-			"description": "your_openrouter_api_key",
-			"required": true
-		},
-		"CHAIN_ID": {
-			"description": "optional_for_base_sepolia_testnet",
-			"required": true
-		}
-	},
-	"name": "Base MCP"
+  "type": "mcp-server",
+  "packageName": "base-mcp",
+  "description": "Enables Claude to interact with the Base blockchain and Coinbase API for cryptocurrency operations including wallet management, fund transfers, and smart contract deployments.",
+  "url": "https://github.com/base/base-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "COINBASE_API_KEY_NAME": {
+      "description": "your_api_key_name",
+      "required": true
+    },
+    "COINBASE_API_PRIVATE_KEY": {
+      "description": "your_private_key",
+      "required": true
+    },
+    "SEED_PHRASE": {
+      "description": "your seed phrase here",
+      "required": true
+    },
+    "COINBASE_PROJECT_ID": {
+      "description": "your_project_id",
+      "required": true
+    },
+    "ALCHEMY_API_KEY": {
+      "description": "your_alchemy_api_key",
+      "required": true
+    },
+    "PINATA_JWT": {
+      "description": "your_pinata_jwt",
+      "required": true
+    },
+    "OPENROUTER_API_KEY": {
+      "description": "your_openrouter_api_key",
+      "required": true
+    },
+    "CHAIN_ID": {
+      "description": "optional_for_base_sepolia_testnet",
+      "required": true
+    }
+  },
+  "name": "Base MCP"
 }

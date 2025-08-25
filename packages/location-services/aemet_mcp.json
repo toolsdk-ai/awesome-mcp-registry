@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "aemet_mcp",
-	"description": "Provides direct access to Spain's State Meteorological Agency (AEMET) data for querying historical climate data, monthly summaries, and beach conditions across Spanish weather stations.",
-	"url": "https://github.com/ancode666/aemet-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "AEMET MCP"
+  "type": "mcp-server",
+  "packageName": "aemet_mcp",
+  "description": "Provides direct access to Spain's State Meteorological Agency (AEMET) data for querying historical climate data, monthly summaries, and beach conditions across Spanish weather stations.",
+  "url": "https://github.com/ancode666/aemet-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "AEMET MCP"
 }

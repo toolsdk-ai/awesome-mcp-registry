@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "geo",
-	"description": "Integrates multiple geocoding services to provide flexible location-based operations including forward/reverse geocoding and address information retrieval.",
-	"url": "https://github.com/webcoderz/mcp-geo",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Geo MCP"
+  "type": "mcp-server",
+  "packageName": "geo",
+  "description": "Integrates multiple geocoding services to provide flexible location-based operations including forward/reverse geocoding and address information retrieval.",
+  "url": "https://github.com/webcoderz/mcp-geo",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Geo MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "goose-extensions",
-	"description": "Extends Goose AI assistant with five specialized servers for Plex Media Server interaction, Rotten Tomatoes scraping, eBay sales data retrieval, SearxNG web searches, and Taskwarrior task management.",
-	"url": "https://github.com/jay4242/goose_mcp",
-	"runtime": "python",
-	"license": "gpl-3.0",
-	"env": {},
-	"name": "Goose MCP Extensions"
+  "type": "mcp-server",
+  "packageName": "goose-extensions",
+  "description": "Extends Goose AI assistant with five specialized servers for Plex Media Server interaction, Rotten Tomatoes scraping, eBay sales data retrieval, SearxNG web searches, and Taskwarrior task management.",
+  "url": "https://github.com/jay4242/goose_mcp",
+  "runtime": "python",
+  "license": "gpl-3.0",
+  "env": {},
+  "name": "Goose MCP Extensions"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "nextflow-developer-tools",
-	"description": "Streamlines Nextflow development by providing tools for building, testing, and executing pipelines directly from local repositories.",
-	"url": "https://github.com/adamrtalbot/mcp-nextflow",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Nextflow"
+  "type": "mcp-server",
+  "packageName": "nextflow-developer-tools",
+  "description": "Streamlines Nextflow development by providing tools for building, testing, and executing pipelines directly from local repositories.",
+  "url": "https://github.com/adamrtalbot/mcp-nextflow",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Nextflow"
 }

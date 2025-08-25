@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-svg-converter",
-	"description": "Converts SVG files to PNG and JPG formats with customizable parameters like scale factor, quality, and background color using TypeScript and the Sharp library for high-quality image processing.",
-	"url": "https://github.com/surferdot/mcp-svg-converter",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "SVG Converter MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-svg-converter",
+  "description": "Converts SVG files to PNG and JPG formats with customizable parameters like scale factor, quality, and background color using TypeScript and the Sharp library for high-quality image processing.",
+  "url": "https://github.com/surferdot/mcp-svg-converter",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "SVG Converter MCP"
 }

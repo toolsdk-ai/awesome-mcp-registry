@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "discord-relay",
-	"description": "Bridges with Discord channels for automated messaging, user interaction, and response handling.",
-	"url": "https://github.com/emiliobool/mcp-relay",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Discord Relay MCP"
+  "type": "mcp-server",
+  "packageName": "discord-relay",
+  "description": "Bridges with Discord channels for automated messaging, user interaction, and response handling.",
+  "url": "https://github.com/emiliobool/mcp-relay",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Discord Relay MCP"
 }

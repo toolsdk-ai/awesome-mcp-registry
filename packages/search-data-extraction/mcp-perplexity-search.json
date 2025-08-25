@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-perplexity-search",
-	"description": "Integrates with Perplexity's web search API to enable real-time fact-checking, research, and content generation using up-to-date information.",
-	"url": "https://github.com/spences10/mcp-perplexity-search",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"PERPLEXITY_API_KEY": {
-			"description": "your-perplexity-api-key",
-			"required": true
-		}
-	},
-	"name": "Perplexity Search MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-perplexity-search",
+  "description": "Integrates with Perplexity's web search API to enable real-time fact-checking, research, and content generation using up-to-date information.",
+  "url": "https://github.com/spences10/mcp-perplexity-search",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PERPLEXITY_API_KEY": {
+      "description": "your-perplexity-api-key",
+      "required": true
+    }
+  },
+  "name": "Perplexity Search MCP"
 }

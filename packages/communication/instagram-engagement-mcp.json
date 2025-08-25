@@ -1,20 +1,20 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1526231349354303489/3Bg-2ZsT_400x400.jpg",
-	"packageName": "@Bob-lance/instagram-engagement-mcp",
-	"description": "An MCP server that provides tools for analyzing Instagram engagement metrics, extracting demographic insights, and identifying potential leads from Instagram posts and accounts.",
-	"url": "https://github.com/Bob-lance/instagram-engagement-mcp/tree/main/src",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"INSTAGRAM_USERNAME": {
-			"description": "your_instagram_username",
-			"required": true
-		},
-		"INSTAGRAM_PASSWORD": {
-			"description": "your_instagram_password",
-			"required": true
-		}
-	},
-	"name": "Instagram Engagement MCP"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1526231349354303489/3Bg-2ZsT_400x400.jpg",
+  "packageName": "@Bob-lance/instagram-engagement-mcp",
+  "description": "An MCP server that provides tools for analyzing Instagram engagement metrics, extracting demographic insights, and identifying potential leads from Instagram posts and accounts.",
+  "url": "https://github.com/Bob-lance/instagram-engagement-mcp/tree/main/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "INSTAGRAM_USERNAME": {
+      "description": "your_instagram_username",
+      "required": true
+    },
+    "INSTAGRAM_PASSWORD": {
+      "description": "your_instagram_password",
+      "required": true
+    }
+  },
+  "name": "Instagram Engagement MCP"
 }

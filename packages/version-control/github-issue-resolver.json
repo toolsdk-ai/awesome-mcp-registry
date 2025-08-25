@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "github-issue-resolver",
-	"description": "Automates GitHub issue resolution by analyzing repository code, creating resolution plans, and implementing solutions through pull requests with user approval.",
-	"url": "https://github.com/nimishchaudhari/github-issue-resolver-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "GitHub Issue Resolver MCP"
+  "type": "mcp-server",
+  "packageName": "github-issue-resolver",
+  "description": "Automates GitHub issue resolution by analyzing repository code, creating resolution plans, and implementing solutions through pull requests with user approval.",
+  "url": "https://github.com/nimishchaudhari/github-issue-resolver-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "GitHub Issue Resolver MCP"
 }

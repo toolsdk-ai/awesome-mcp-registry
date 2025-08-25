@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "typesense",
-	"description": "Integrates with Typesense search engine instances to enable efficient searching and listing of collections as resources, supporting both local and remote connections.",
-	"url": "https://github.com/suhail-ak-s/mcp-typesense-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Typesense MCP Server"
+  "type": "mcp-server",
+  "packageName": "typesense",
+  "description": "Integrates with Typesense search engine instances to enable efficient searching and listing of collections as resources, supporting both local and remote connections.",
+  "url": "https://github.com/suhail-ak-s/mcp-typesense-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Typesense MCP Server"
 }

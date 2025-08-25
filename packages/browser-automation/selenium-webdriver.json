@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "selenium-webdriver",
-	"description": "Enables automated web interactions through Selenium WebDriver operations for navigation, element manipulation, screenshot capture, and local storage management in Chrome and Firefox browsers.",
-	"url": "https://github.com/jyothishkumarav/selenium-mcp-server-python",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Selenium WebDriver MCP Server"
+  "type": "mcp-server",
+  "packageName": "selenium-webdriver",
+  "description": "Enables automated web interactions through Selenium WebDriver operations for navigation, element manipulation, screenshot capture, and local storage management in Chrome and Firefox browsers.",
+  "url": "https://github.com/jyothishkumarav/selenium-mcp-server-python",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Selenium WebDriver MCP Server"
 }

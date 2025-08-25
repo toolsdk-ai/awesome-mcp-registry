@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "d2-diagramming",
-	"description": "Integrates with Terrastruct's D2 diagramming language to generate technical diagrams, flowcharts, and architectural visualizations in SVG, PNG, and PDF formats through natural language requests.",
-	"url": "https://github.com/i2y/d2mcp",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "D2 MCP"
+  "type": "mcp-server",
+  "packageName": "d2-diagramming",
+  "description": "Integrates with Terrastruct's D2 diagramming language to generate technical diagrams, flowcharts, and architectural visualizations in SVG, PNG, and PDF formats through natural language requests.",
+  "url": "https://github.com/i2y/d2mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "D2 MCP"
 }

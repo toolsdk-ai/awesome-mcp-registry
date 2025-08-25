@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "youtube-music",
-	"description": "Enables YouTube Music playback via Google Chrome, allowing voice-activated song selection and mood-based playlists without direct user interaction.",
-	"url": "https://github.com/mondweep/youtube-music-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "YouTube Music MCP Server"
+  "type": "mcp-server",
+  "packageName": "youtube-music",
+  "description": "Enables YouTube Music playback via Google Chrome, allowing voice-activated song selection and mood-based playlists without direct user interaction.",
+  "url": "https://github.com/mondweep/youtube-music-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "YouTube Music MCP Server"
 }

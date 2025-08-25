@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-shell",
-	"description": "Secure shell command execution server for AI models to interact with local systems while maintaining strict security controls.",
-	"url": "https://github.com/hdresearch/mcp-shell",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Shell"
+  "type": "mcp-server",
+  "packageName": "mcp-shell",
+  "description": "Secure shell command execution server for AI models to interact with local systems while maintaining strict security controls.",
+  "url": "https://github.com/hdresearch/mcp-shell",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Shell"
 }

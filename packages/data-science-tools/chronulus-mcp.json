@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "chronulus-mcp",
-	"description": "Integrates with Chronulus AI's forecasting API to enable time series analysis, prediction generation, and visualization of forecasting data through natural language commands.",
-	"url": "https://github.com/chronulusai/chronulus-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Chronulus MCP"
+  "type": "mcp-server",
+  "packageName": "chronulus-mcp",
+  "description": "Integrates with Chronulus AI's forecasting API to enable time series analysis, prediction generation, and visualization of forecasting data through natural language commands.",
+  "url": "https://github.com/chronulusai/chronulus-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Chronulus MCP"
 }

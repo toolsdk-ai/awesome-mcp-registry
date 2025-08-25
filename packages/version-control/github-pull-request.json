@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "github-pull-request",
-	"description": "Retrieves detailed GitHub pull request information including files, diffs, comments, and reviews for code review assistance, PR summarization, or change analysis workflows.",
-	"url": "https://github.com/gourav221b/github-pr-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "GitHub PR MCP Server"
+  "type": "mcp-server",
+  "packageName": "github-pull-request",
+  "description": "Retrieves detailed GitHub pull request information including files, diffs, comments, and reviews for code review assistance, PR summarization, or change analysis workflows.",
+  "url": "https://github.com/gourav221b/github-pr-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "GitHub PR MCP Server"
 }

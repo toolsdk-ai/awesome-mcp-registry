@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "databricks",
-	"description": "Integrates with Databricks to execute SQL queries, list schemas, and describe table structures using the Statement Execution API for data exploration and analysis tasks",
-	"url": "https://github.com/rafaelcartenet/mcp-databricks-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Databricks MCP Server"
+  "type": "mcp-server",
+  "packageName": "databricks",
+  "description": "Integrates with Databricks to execute SQL queries, list schemas, and describe table structures using the Statement Execution API for data exploration and analysis tasks",
+  "url": "https://github.com/rafaelcartenet/mcp-databricks-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Databricks MCP Server"
 }

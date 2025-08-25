@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "confluence-wiki",
-	"description": "Bridges VSCode/Cursor with Confluence Wiki, enabling direct access and automatic conversion of wiki content to markdown format within AI conversations.",
-	"url": "https://github.com/windiechai/confluence-wiki-mcp-server-extension",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Confluence Wiki MCP Server Extension"
+  "type": "mcp-server",
+  "packageName": "confluence-wiki",
+  "description": "Bridges VSCode/Cursor with Confluence Wiki, enabling direct access and automatic conversion of wiki content to markdown format within AI conversations.",
+  "url": "https://github.com/windiechai/confluence-wiki-mcp-server-extension",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Confluence Wiki MCP Server Extension"
 }

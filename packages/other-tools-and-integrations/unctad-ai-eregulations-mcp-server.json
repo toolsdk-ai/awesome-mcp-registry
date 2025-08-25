@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@unctad-ai/eregulations-mcp-server",
-	"description": "Transforms complex eRegulations API data into accessible formats for answering user questions about government administrative procedures without context switching.",
-	"url": "https://github.com/unctad-ai/eregulations-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"EREGULATIONS_API_URL": {
-			"description": "https://your-eregulations-api.com",
-			"required": true
-		}
-	},
-	"name": "eRegulations MCP Server"
+  "type": "mcp-server",
+  "packageName": "@unctad-ai/eregulations-mcp-server",
+  "description": "Transforms complex eRegulations API data into accessible formats for answering user questions about government administrative procedures without context switching.",
+  "url": "https://github.com/unctad-ai/eregulations-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "EREGULATIONS_API_URL": {
+      "description": "https://your-eregulations-api.com",
+      "required": true
+    }
+  },
+  "name": "eRegulations MCP Server"
 }
