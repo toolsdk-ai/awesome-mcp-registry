@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "code-analyzer",
-  "description": "Integrates with open source projects to analyze codebases, detect patterns, and generate intelligent merge strategies for streamlined integration and refactoring.",
-  "url": "https://github.com/kivo360/anthropic-mcp-code-analyzer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Anthropic MCP Code Analyzer"
+	"type": "mcp-server",
+	"packageName": "code-analyzer",
+	"description": "Integrates with open source projects to analyze codebases, detect patterns, and generate intelligent merge strategies for streamlined integration and refactoring.",
+	"url": "https://github.com/kivo360/anthropic-mcp-code-analyzer",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Anthropic MCP Code Analyzer"
 }

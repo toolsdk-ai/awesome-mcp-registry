@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "image-analysis-(gpt-4-vision)",
-  "description": "Enables image analysis using GPT-4-turbo's vision capabilities for extracting information, generating descriptions, and answering questions about visual content",
-  "url": "https://github.com/champierre/image-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Image Analysis (GPT-4 Vision) MCP Server"
+	"type": "mcp-server",
+	"packageName": "image-analysis-(gpt-4-vision)",
+	"description": "Enables image analysis using GPT-4-turbo's vision capabilities for extracting information, generating descriptions, and answering questions about visual content",
+	"url": "https://github.com/champierre/image-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Image Analysis (GPT-4 Vision) MCP Server"
 }

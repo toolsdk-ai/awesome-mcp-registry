@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "unichat-ts-mcp-server",
-  "description": "Integrates multiple language models via the unified Unichat tool, enabling seamless interaction across OpenAI, MistralAI, Anthropic, xAI, and Google AI platforms.",
-  "url": "https://github.com/amidabuddha/unichat-ts-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "UNICHAT_MODEL": {
-      "description": "YOUR_PREFERRED_MODEL_NAME",
-      "required": true
-    },
-    "UNICHAT_API_KEY": {
-      "description": "YOUR_VENDOR_API_KEY",
-      "required": true
-    }
-  },
-  "name": "Unichat MCP Server"
+	"type": "mcp-server",
+	"packageName": "unichat-ts-mcp-server",
+	"description": "Integrates multiple language models via the unified Unichat tool, enabling seamless interaction across OpenAI, MistralAI, Anthropic, xAI, and Google AI platforms.",
+	"url": "https://github.com/amidabuddha/unichat-ts-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"UNICHAT_MODEL": {
+			"description": "YOUR_PREFERRED_MODEL_NAME",
+			"required": true
+		},
+		"UNICHAT_API_KEY": {
+			"description": "YOUR_VENDOR_API_KEY",
+			"required": true
+		}
+	},
+	"name": "Unichat MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "plausible-analytics",
-  "description": "Connects to Plausible Analytics API to retrieve website metrics like visitors, pageviews, bounce rates, and conversion data across customizable date ranges for generating reports and monitoring performance trends.",
-  "url": "https://github.com/avimbu/plausible-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Plausible MCP Server"
+	"type": "mcp-server",
+	"packageName": "plausible-analytics",
+	"description": "Connects to Plausible Analytics API to retrieve website metrics like visitors, pageviews, bounce rates, and conversion data across customizable date ranges for generating reports and monitoring performance trends.",
+	"url": "https://github.com/avimbu/plausible-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Plausible MCP Server"
 }

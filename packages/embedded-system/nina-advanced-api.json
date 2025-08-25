@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nina-advanced-api",
-  "description": "Provides a bridge between natural language commands and N.I.N.A. astronomical software, enabling control of cameras, mounts, focusers, filter wheels, and domes for automated imaging sessions.",
-  "url": "https://github.com/padev1/nina_advanced_api_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Nina Advanced API MCP"
+	"type": "mcp-server",
+	"packageName": "nina-advanced-api",
+	"description": "Provides a bridge between natural language commands and N.I.N.A. astronomical software, enabling control of cameras, mounts, focusers, filter wheels, and domes for automated imaging sessions.",
+	"url": "https://github.com/padev1/nina_advanced_api_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Nina Advanced API MCP"
 }

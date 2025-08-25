@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-fleur",
-  "description": "Integrates with the Fleur application to enable direct access to external apps like Gmail, Linear, and Slack without leaving the chat interface through platform-specific launch methods for macOS and Windows.",
-  "url": "https://github.com/fleuristes/fleur-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Fleur MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-fleur",
+	"description": "Integrates with the Fleur application to enable direct access to external apps like Gmail, Linear, and Slack without leaving the chat interface through platform-specific launch methods for macOS and Windows.",
+	"url": "https://github.com/fleuristes/fleur-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Fleur MCP"
 }

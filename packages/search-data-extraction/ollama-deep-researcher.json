@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ollama-deep-researcher",
-  "description": "Leverage Ollama as your LLM, and Tavily or Perplexity to do your deep web research",
-  "url": "https://github.com/cam10001110101/mcp-server-ollama-deep-researcher",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Ollama Deep Researcher MCP Server"
+	"type": "mcp-server",
+	"packageName": "ollama-deep-researcher",
+	"description": "Leverage Ollama as your LLM, and Tavily or Perplexity to do your deep web research",
+	"url": "https://github.com/cam10001110101/mcp-server-ollama-deep-researcher",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Ollama Deep Researcher MCP Server"
 }

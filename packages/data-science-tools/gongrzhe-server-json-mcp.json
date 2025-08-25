@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@gongrzhe/server-json-mcp",
-  "description": "Provides a JSON manipulation interface using JSONPath syntax for querying, transforming, and analyzing structured data across diverse datasets.",
-  "url": "https://github.com/gongrzhe/json-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "JSON MCP Server"
+	"type": "mcp-server",
+	"packageName": "@gongrzhe/server-json-mcp",
+	"description": "Provides a JSON manipulation interface using JSONPath syntax for querying, transforming, and analyzing structured data across diverse datasets.",
+	"url": "https://github.com/gongrzhe/json-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "JSON MCP Server"
 }

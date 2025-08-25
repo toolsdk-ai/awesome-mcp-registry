@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "blogger",
-  "description": "Connects to Google's Blogger API for creating, updating, and managing blog posts through TypeScript-based Node.js implementation with Google authentication support.",
-  "url": "https://github.com/niyonabil/blogger-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Blogger MCP Server"
+	"type": "mcp-server",
+	"packageName": "blogger",
+	"description": "Connects to Google's Blogger API for creating, updating, and managing blog posts through TypeScript-based Node.js implementation with Google authentication support.",
+	"url": "https://github.com/niyonabil/blogger-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Blogger MCP Server"
 }

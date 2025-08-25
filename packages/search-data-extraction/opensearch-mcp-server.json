@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "opensearch-mcp-server",
-  "description": "Enables natural language interaction with OpenSearch clusters for index operations, document searches, and cluster management without requiring complex query syntax.",
-  "url": "https://github.com/seohyunjun/opensearch-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "OpenSearch MCP Server"
+	"type": "mcp-server",
+	"packageName": "opensearch-mcp-server",
+	"description": "Enables natural language interaction with OpenSearch clusters for index operations, document searches, and cluster management without requiring complex query syntax.",
+	"url": "https://github.com/seohyunjun/opensearch-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "OpenSearch MCP Server"
 }

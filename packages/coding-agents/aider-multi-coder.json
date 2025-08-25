@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "aider-multi-coder",
-  "description": "Provides a bridge between Aider pair programming tool and AI models, enabling parallel execution of multiple coding tasks with configurable file access permissions and comprehensive error handling.",
-  "url": "https://github.com/eiliyaabedini/aider-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Aider MCP"
+	"type": "mcp-server",
+	"packageName": "aider-multi-coder",
+	"description": "Provides a bridge between Aider pair programming tool and AI models, enabling parallel execution of multiple coding tasks with configurable file access permissions and comprehensive error handling.",
+	"url": "https://github.com/eiliyaabedini/aider-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Aider MCP"
 }

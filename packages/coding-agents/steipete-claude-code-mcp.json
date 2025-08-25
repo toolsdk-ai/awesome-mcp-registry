@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@steipete/claude-code-mcp",
-  "description": "Provides a streamlined interface for executing complex coding tasks including file operations, Git commands, and web searches without permission interruptions by automatically bypassing constraints.",
-  "url": "https://github.com/steipete/claude-code-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Claude Code MCP"
+	"type": "mcp-server",
+	"packageName": "@steipete/claude-code-mcp",
+	"description": "Provides a streamlined interface for executing complex coding tasks including file operations, Git commands, and web searches without permission interruptions by automatically bypassing constraints.",
+	"url": "https://github.com/steipete/claude-code-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Claude Code MCP"
 }

@@ -1,39 +1,39 @@
 {
-  "type": "mcp-server",
-  "packageName": "@debugg-ai/debugg-ai-mcp",
-  "description": "Provides zero-configuration end-to-end testing for web applications by creating secure tunnels to local development servers and spawning testing agents that interact with web interfaces through natural language descriptions, returning detailed test results with execution recordings and screenshots.",
-  "url": "https://github.com/debugg-ai/debugg-ai-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "DEBUGGAI_API_KEY": {
-      "description": "YOUR_API_KEY",
-      "required": true
-    },
-    "TEST_USERNAME_EMAIL": {
-      "description": "test@example.com",
-      "required": true
-    },
-    "TEST_USER_PASSWORD": {
-      "description": "supersecure",
-      "required": true
-    },
-    "DEBUGGAI_LOCAL_REPO_NAME": {
-      "description": "org/project",
-      "required": true
-    },
-    "DEBUGGAI_LOCAL_BRANCH_NAME": {
-      "description": "main",
-      "required": true
-    },
-    "DEBUGGAI_LOCAL_REPO_PATH": {
-      "description": "/Users/you/project",
-      "required": true
-    },
-    "DEBUGGAI_LOCAL_FILE_PATH": {
-      "description": "/Users/you/project/index.ts",
-      "required": true
-    }
-  },
-  "name": "Debugg AI MCP"
+	"type": "mcp-server",
+	"packageName": "@debugg-ai/debugg-ai-mcp",
+	"description": "Provides zero-configuration end-to-end testing for web applications by creating secure tunnels to local development servers and spawning testing agents that interact with web interfaces through natural language descriptions, returning detailed test results with execution recordings and screenshots.",
+	"url": "https://github.com/debugg-ai/debugg-ai-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"DEBUGGAI_API_KEY": {
+			"description": "YOUR_API_KEY",
+			"required": true
+		},
+		"TEST_USERNAME_EMAIL": {
+			"description": "test@example.com",
+			"required": true
+		},
+		"TEST_USER_PASSWORD": {
+			"description": "supersecure",
+			"required": true
+		},
+		"DEBUGGAI_LOCAL_REPO_NAME": {
+			"description": "org/project",
+			"required": true
+		},
+		"DEBUGGAI_LOCAL_BRANCH_NAME": {
+			"description": "main",
+			"required": true
+		},
+		"DEBUGGAI_LOCAL_REPO_PATH": {
+			"description": "/Users/you/project",
+			"required": true
+		},
+		"DEBUGGAI_LOCAL_FILE_PATH": {
+			"description": "/Users/you/project/index.ts",
+			"required": true
+		}
+	},
+	"name": "Debugg AI MCP"
 }

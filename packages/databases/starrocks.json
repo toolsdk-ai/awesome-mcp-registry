@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "starrocks",
-  "description": "Integrates with StarRocks databases to enable efficient data querying and manipulation through customizable connection settings and support for both read and write operations.",
-  "url": "https://github.com/starrocks/mcp-server-starrocks",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "StarRocks MCP Server"
+	"type": "mcp-server",
+	"packageName": "starrocks",
+	"description": "Integrates with StarRocks databases to enable efficient data querying and manipulation through customizable connection settings and support for both read and write operations.",
+	"url": "https://github.com/starrocks/mcp-server-starrocks",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "StarRocks MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "medadapt",
-  "description": "Provides medical students and educators with curated educational resources from PubMed and NCBI Bookshelf through a FastMCP-powered system that enables searching, generating topic overviews, creating learning plans, and extracting key points from medical literature.",
-  "url": "https://github.com/ryoureddy/medadapt-content-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "MedAdapt Content Server"
+	"type": "mcp-server",
+	"packageName": "medadapt",
+	"description": "Provides medical students and educators with curated educational resources from PubMed and NCBI Bookshelf through a FastMCP-powered system that enables searching, generating topic overviews, creating learning plans, and extracting key points from medical literature.",
+	"url": "https://github.com/ryoureddy/medadapt-content-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "MedAdapt Content Server"
 }

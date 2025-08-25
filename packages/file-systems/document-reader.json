@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "document-reader",
-  "description": "Enables interaction with PDF and EPUB documents for reading, analyzing content, and extracting information from document files.",
-  "url": "https://github.com/jbchouinard/mcp-document-reader",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Document Reader MCP"
+	"type": "mcp-server",
+	"packageName": "document-reader",
+	"description": "Enables interaction with PDF and EPUB documents for reading, analyzing content, and extracting information from document files.",
+	"url": "https://github.com/jbchouinard/mcp-document-reader",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Document Reader MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "phonepi-mcp",
-  "description": "Control your phone (SMS, calls, contacts) from your favorite AI apps.",
-  "url": "https://github.com/priyankark/phonepi-mcp/tree/HEAD/server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "PhonePi MCP"
+	"type": "mcp-server",
+	"packageName": "phonepi-mcp",
+	"description": "Control your phone (SMS, calls, contacts) from your favorite AI apps.",
+	"url": "https://github.com/priyankark/phonepi-mcp/tree/HEAD/server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "PhonePi MCP"
 }

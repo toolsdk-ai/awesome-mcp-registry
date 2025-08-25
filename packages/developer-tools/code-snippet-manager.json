@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "code-snippet-manager",
-  "description": "Manages and stores code snippets across languages, enabling creation, listing, and deletion with flexible filtering and tagging.",
-  "url": "https://github.com/ngeojiajun/mcp-code-snippets",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Code Snippets Manager"
+	"type": "mcp-server",
+	"packageName": "code-snippet-manager",
+	"description": "Manages and stores code snippets across languages, enabling creation, listing, and deletion with flexible filtering and tagging.",
+	"url": "https://github.com/ngeojiajun/mcp-code-snippets",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Code Snippets Manager"
 }

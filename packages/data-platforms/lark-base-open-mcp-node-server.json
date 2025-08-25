@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@lark-base-open/mcp-node-server",
-  "description": "Integrates with Lark Base (formerly Feishu Bitable) to enable data retrieval, field management, and table manipulation across collaborative spreadsheets and databases using app tokens and personal base tokens for authentication.",
-  "url": "https://github.com/lark-base-team/lark-base-mcp-node-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Lark Base MCP Node Server"
+	"type": "mcp-server",
+	"packageName": "@lark-base-open/mcp-node-server",
+	"description": "Integrates with Lark Base (formerly Feishu Bitable) to enable data retrieval, field management, and table manipulation across collaborative spreadsheets and databases using app tokens and personal base tokens for authentication.",
+	"url": "https://github.com/lark-base-team/lark-base-mcp-node-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Lark Base MCP Node Server"
 }

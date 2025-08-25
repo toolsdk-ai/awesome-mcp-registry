@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "obs-studio",
-  "description": "Enables control of OBS Studio through WebSocket protocol, allowing scene management, source control, streaming operations, and transitions for automated broadcasting workflows.",
-  "url": "https://github.com/royshil/obs-mcp",
-  "runtime": "node",
-  "license": "gpl-2.0",
-  "env": {},
-  "name": "OBS MCP"
+	"type": "mcp-server",
+	"packageName": "obs-studio",
+	"description": "Enables control of OBS Studio through WebSocket protocol, allowing scene management, source control, streaming operations, and transitions for automated broadcasting workflows.",
+	"url": "https://github.com/royshil/obs-mcp",
+	"runtime": "node",
+	"license": "gpl-2.0",
+	"env": {},
+	"name": "OBS MCP"
 }

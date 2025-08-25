@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "easy-model-deployer",
-  "description": "Bridges Claude with the Easy Model Deployer tool to enable listing, deploying, managing, and invoking machine learning models on AWS services through simple conversational commands.",
-  "url": "https://github.com/yanbasic/emd-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "EMD MCP"
+	"type": "mcp-server",
+	"packageName": "easy-model-deployer",
+	"description": "Bridges Claude with the Easy Model Deployer tool to enable listing, deploying, managing, and invoking machine learning models on AWS services through simple conversational commands.",
+	"url": "https://github.com/yanbasic/emd-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "EMD MCP"
 }

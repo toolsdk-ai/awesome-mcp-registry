@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "aitable-mcp-server",
-  "description": "AITable.ai Model Context Protocol Server enables AI agents to connect and work with AITable datasheets.",
-  "url": "https://github.com/apitable/aitable-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "AITABLE_API_KEY": {
-      "description": "Your AITable personal access token",
-      "required": true
-    },
-    "AITABLE_BASE_URL": {
-      "description": "The base URL of the AITable API. You can set it to your custom base URL if using APITable (the open-source version of AITable)",
-      "required": true
-    }
-  },
-  "name": "AITable MCP Server"
+	"type": "mcp-server",
+	"packageName": "aitable-mcp-server",
+	"description": "AITable.ai Model Context Protocol Server enables AI agents to connect and work with AITable datasheets.",
+	"url": "https://github.com/apitable/aitable-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"AITABLE_API_KEY": {
+			"description": "Your AITable personal access token",
+			"required": true
+		},
+		"AITABLE_BASE_URL": {
+			"description": "The base URL of the AITable API. You can set it to your custom base URL if using APITable (the open-source version of AITable)",
+			"required": true
+		}
+	},
+	"name": "AITable MCP Server"
 }

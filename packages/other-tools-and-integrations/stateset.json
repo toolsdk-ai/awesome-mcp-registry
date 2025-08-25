@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "stateset",
-  "description": "Integrates with StateSet's issue operations system, enabling management of returns, orders, warranties, shipments, and manufacturing processes through a robust set of tools for creating and updating business records.",
-  "url": "https://github.com/stateset/stateset-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "StateSet MCP Server"
+	"type": "mcp-server",
+	"packageName": "stateset",
+	"description": "Integrates with StateSet's issue operations system, enabling management of returns, orders, warranties, shipments, and manufacturing processes through a robust set of tools for creating and updating business records.",
+	"url": "https://github.com/stateset/stateset-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "StateSet MCP Server"
 }

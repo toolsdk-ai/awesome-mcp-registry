@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "materials-project",
-  "description": "Integrates with the Materials Project database to search materials by elements or formula and retrieve detailed properties including formation energies, band gaps, crystal systems, and stability data for computational materials science research.",
-  "url": "https://github.com/fair2wise/materials_project_mcp",
-  "runtime": "python",
-  "license": "bsd-3-clause",
-  "env": {},
-  "name": "Materials Project MCP"
+	"type": "mcp-server",
+	"packageName": "materials-project",
+	"description": "Integrates with the Materials Project database to search materials by elements or formula and retrieve detailed properties including formation energies, band gaps, crystal systems, and stability data for computational materials science research.",
+	"url": "https://github.com/fair2wise/materials_project_mcp",
+	"runtime": "python",
+	"license": "bsd-3-clause",
+	"env": {},
+	"name": "Materials Project MCP"
 }

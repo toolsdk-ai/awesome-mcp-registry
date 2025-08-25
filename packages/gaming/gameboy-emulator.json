@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gameboy-emulator",
-  "description": "Enables interaction with GameBoy emulator through button controls, ROM management, and screen capture for playing and analyzing games via natural language commands.",
-  "url": "https://github.com/mario-andreschak/mcp-gameboy",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "GameBoy MCP"
+	"type": "mcp-server",
+	"packageName": "gameboy-emulator",
+	"description": "Enables interaction with GameBoy emulator through button controls, ROM management, and screen capture for playing and analyzing games via natural language commands.",
+	"url": "https://github.com/mario-andreschak/mcp-gameboy",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "GameBoy MCP"
 }

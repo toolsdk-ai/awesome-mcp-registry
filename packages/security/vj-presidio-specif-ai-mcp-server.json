@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@vj-presidio/specif-ai-mcp-server",
-  "description": "Provides a bridge for interacting with specif-ai services over stdio, focusing on secure API key management, error handling, and flexible deployment options.",
-  "url": "https://github.com/vj-presidio/specif-ai-mcp-server-archive",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Specif AI MCP Server"
+	"type": "mcp-server",
+	"packageName": "@vj-presidio/specif-ai-mcp-server",
+	"description": "Provides a bridge for interacting with specif-ai services over stdio, focusing on secure API key management, error handling, and flexible deployment options.",
+	"url": "https://github.com/vj-presidio/specif-ai-mcp-server-archive",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Specif AI MCP Server"
 }

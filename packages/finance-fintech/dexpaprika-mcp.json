@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dexpaprika-mcp",
-  "description": "Provides real-time cryptocurrency market data across multiple blockchain networks, including DEX listings, liquidity pools, token details, and price analytics without requiring API keys.",
-  "url": "https://github.com/coinpaprika/dexpaprika-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Dexpaprika MCP"
+	"type": "mcp-server",
+	"packageName": "dexpaprika-mcp",
+	"description": "Provides real-time cryptocurrency market data across multiple blockchain networks, including DEX listings, liquidity pools, token details, and price analytics without requiring API keys.",
+	"url": "https://github.com/coinpaprika/dexpaprika-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Dexpaprika MCP"
 }

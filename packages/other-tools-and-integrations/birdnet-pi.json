@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "birdnet-pi",
-  "description": "Integrates BirdNet-Pi's bird detection capabilities with a JSON-RPC interface, enabling retrieval and analysis of acoustic monitoring data for ornithological research and conservation efforts.",
-  "url": "https://github.com/dmontgomery40/mcp-local-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Local Server"
+	"type": "mcp-server",
+	"packageName": "birdnet-pi",
+	"description": "Integrates BirdNet-Pi's bird detection capabilities with a JSON-RPC interface, enabling retrieval and analysis of acoustic monitoring data for ornithological research and conservation efforts.",
+	"url": "https://github.com/dmontgomery40/mcp-local-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Local Server"
 }

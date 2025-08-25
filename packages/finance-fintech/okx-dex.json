@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "okx-dex",
-  "description": "Integrates with OKX's decentralized exchange and cross-chain bridge to enable token swapping, liquidity management, price quotes, and cross-chain transfers across multiple blockchains including Solana.",
-  "url": "https://github.com/0xobedient/okx-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "OKX MCP"
+	"type": "mcp-server",
+	"packageName": "okx-dex",
+	"description": "Integrates with OKX's decentralized exchange and cross-chain bridge to enable token swapping, liquidity management, price quotes, and cross-chain transfers across multiple blockchains including Solana.",
+	"url": "https://github.com/0xobedient/okx-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "OKX MCP"
 }

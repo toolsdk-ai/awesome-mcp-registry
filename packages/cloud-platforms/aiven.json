@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "aiven",
-  "description": "Provides direct access to Aiven's cloud database and messaging services, enabling management of PostgreSQL, Kafka, ClickHouse, Valkey, and OpenSearch infrastructure through the Aiven API.",
-  "url": "https://github.com/aiven-open/mcp-aiven",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "MCP Aiven"
+	"type": "mcp-server",
+	"packageName": "aiven",
+	"description": "Provides direct access to Aiven's cloud database and messaging services, enabling management of PostgreSQL, Kafka, ClickHouse, Valkey, and OpenSearch infrastructure through the Aiven API.",
+	"url": "https://github.com/aiven-open/mcp-aiven",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "MCP Aiven"
 }

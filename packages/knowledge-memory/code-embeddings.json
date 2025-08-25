@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "code-embeddings",
-  "description": "A knowledge management tool for code repositories using vector embeddings.",
-  "url": "https://github.com/davidvc/code-knowledge-mcptool",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Code Knowledge MCP Tool"
+	"type": "mcp-server",
+	"packageName": "code-embeddings",
+	"description": "A knowledge management tool for code repositories using vector embeddings.",
+	"url": "https://github.com/davidvc/code-knowledge-mcptool",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Code Knowledge MCP Tool"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@lazydino/ccxt-mcp",
-  "description": "Bridges the CCXT cryptocurrency trading library with natural language interfaces, enabling monitoring, analysis, and trading operations across 100+ exchanges",
-  "url": "https://github.com/lazy-dinosaur/ccxt-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "CCXT MCP"
+	"type": "mcp-server",
+	"packageName": "@lazydino/ccxt-mcp",
+	"description": "Bridges the CCXT cryptocurrency trading library with natural language interfaces, enabling monitoring, analysis, and trading operations across 100+ exchanges",
+	"url": "https://github.com/lazy-dinosaur/ccxt-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "CCXT MCP"
 }

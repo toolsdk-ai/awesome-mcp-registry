@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "google-custom-search",
-  "description": "Integrates with Google Custom Search Engine to enable automated web crawling, content extraction, and search result parsing for data collection and analysis at scale.",
-  "url": "https://github.com/weidwonder/crawl4ai-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Crawl4AI MCP Server"
+	"type": "mcp-server",
+	"packageName": "google-custom-search",
+	"description": "Integrates with Google Custom Search Engine to enable automated web crawling, content extraction, and search result parsing for data collection and analysis at scale.",
+	"url": "https://github.com/weidwonder/crawl4ai-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Crawl4AI MCP Server"
 }

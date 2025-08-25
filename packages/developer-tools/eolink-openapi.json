@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "eolink-openapi",
-  "description": "Integrates with Eolink OpenAPI to provide API discovery, exploration, and testing capabilities within development environments, enabling developers to search across projects, test endpoints, and access detailed documentation.",
-  "url": "https://github.com/scarqin/mcp-apikit",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Eolink OpenAPI MCP Server"
+	"type": "mcp-server",
+	"packageName": "eolink-openapi",
+	"description": "Integrates with Eolink OpenAPI to provide API discovery, exploration, and testing capabilities within development environments, enabling developers to search across projects, test endpoints, and access detailed documentation.",
+	"url": "https://github.com/scarqin/mcp-apikit",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Eolink OpenAPI MCP Server"
 }

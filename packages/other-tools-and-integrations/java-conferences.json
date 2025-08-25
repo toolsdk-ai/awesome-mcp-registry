@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "java-conferences",
-  "description": "Provides access to Java conference information by parsing GitHub-hosted markdown files, enabling filtering by year to discover upcoming events, track CFP deadlines, and find conferences in specific locations.",
-  "url": "https://github.com/miliariadnane/javaconf-mcp-server",
-  "runtime": "java",
-  "license": "unknown",
-  "env": {},
-  "name": "JavaConferences MCP Server"
+	"type": "mcp-server",
+	"packageName": "java-conferences",
+	"description": "Provides access to Java conference information by parsing GitHub-hosted markdown files, enabling filtering by year to discover upcoming events, track CFP deadlines, and find conferences in specific locations.",
+	"url": "https://github.com/miliariadnane/javaconf-mcp-server",
+	"runtime": "java",
+	"license": "unknown",
+	"env": {},
+	"name": "JavaConferences MCP Server"
 }

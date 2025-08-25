@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "congress.gov",
-  "description": "Integrates with the Congress.gov API to retrieve US legislative data including bills, amendments, voting records, committee information, member details, and congressional communications for political research and policy analysis workflows.",
-  "url": "https://github.com/ashwinsundar/congress_gov_mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Congress.gov MCP"
+	"type": "mcp-server",
+	"packageName": "congress.gov",
+	"description": "Integrates with the Congress.gov API to retrieve US legislative data including bills, amendments, voting records, committee information, member details, and congressional communications for political research and policy analysis workflows.",
+	"url": "https://github.com/ashwinsundar/congress_gov_mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Congress.gov MCP"
 }

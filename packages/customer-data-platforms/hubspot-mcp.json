@@ -1,16 +1,16 @@
 {
-  "type": "mcp-server",
-  "logo": "https://pbs.twimg.com/profile_images/1500923494665797632/VytKgxOP_400x400.jpg",
-  "packageName": "@lkm1developer/hubspot-mcp-server",
-  "description": "A powerful Model Context Protocol (MCP) server implementation for seamless HubSpot CRM integration, enabling AI assistants to interact with your HubSpot data.",
-  "url": "https://github.com/lkm1developer/hubspot-mcp-server/tree/main/src",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "HUBSPOT_ACCESS_TOKEN": {
-      "description": "your-access-token",
-      "required": true
-    }
-  },
-  "name": "HubSpot MCP Server"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1500923494665797632/VytKgxOP_400x400.jpg",
+	"packageName": "@lkm1developer/hubspot-mcp-server",
+	"description": "A powerful Model Context Protocol (MCP) server implementation for seamless HubSpot CRM integration, enabling AI assistants to interact with your HubSpot data.",
+	"url": "https://github.com/lkm1developer/hubspot-mcp-server/tree/main/src",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"HUBSPOT_ACCESS_TOKEN": {
+			"description": "your-access-token",
+			"required": true
+		}
+	},
+	"name": "HubSpot MCP Server"
 }

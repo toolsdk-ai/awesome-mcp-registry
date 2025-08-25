@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "figma-design-system",
-  "description": "Bridges Figma's design ecosystem by extracting design system components, styles, and UI copy, enabling advanced design workflow analysis and documentation generation.",
-  "url": "https://github.com/mohammeduvaiz/figma-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Figma MCP Server"
+	"type": "mcp-server",
+	"packageName": "figma-design-system",
+	"description": "Bridges Figma's design ecosystem by extracting design system components, styles, and UI copy, enabling advanced design workflow analysis and documentation generation.",
+	"url": "https://github.com/mohammeduvaiz/figma-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Figma MCP Server"
 }

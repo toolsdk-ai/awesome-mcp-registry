@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "earthdata_mcp_server",
-  "description": "Provides a bridge to NASA's Earthdata platform for searching and retrieving Earth science datasets and data granules based on keywords, temporal ranges, and geographic boundaries.",
-  "url": "https://github.com/datalayer/earthdata-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Earthdata MCP Server"
+	"type": "mcp-server",
+	"packageName": "earthdata_mcp_server",
+	"description": "Provides a bridge to NASA's Earthdata platform for searching and retrieving Earth science datasets and data granules based on keywords, temporal ranges, and geographic boundaries.",
+	"url": "https://github.com/datalayer/earthdata-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Earthdata MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "authenticated-cloud-run",
-  "description": "Enables secure hosting on Google Cloud Run with user-based IAM authentication, providing controlled access to custom servers over the internet for team collaboration.",
-  "url": "https://github.com/the-freetech-company/mcp-sse-authenticated-cloud-run",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "SSE Authenticated Cloud Run"
+	"type": "mcp-server",
+	"packageName": "authenticated-cloud-run",
+	"description": "Enables secure hosting on Google Cloud Run with user-based IAM authentication, providing controlled access to custom servers over the internet for team collaboration.",
+	"url": "https://github.com/the-freetech-company/mcp-sse-authenticated-cloud-run",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "SSE Authenticated Cloud Run"
 }

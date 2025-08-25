@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-nixos",
-  "description": "Provides a server for accessing NixOS packages, system options, Home Manager, and nix-darwin configurations with multi-level caching and advanced search capabilities",
-  "url": "https://github.com/utensils/mcp-nixos",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP NixOS"
+	"type": "mcp-server",
+	"packageName": "mcp-nixos",
+	"description": "Provides a server for accessing NixOS packages, system options, Home Manager, and nix-darwin configurations with multi-level caching and advanced search capabilities",
+	"url": "https://github.com/utensils/mcp-nixos",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP NixOS"
 }

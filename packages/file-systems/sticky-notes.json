@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sticky-notes",
-  "description": "Enables creation, reading, and management of personal notes directly within conversations through a lightweight text-based storage system",
-  "url": "https://github.com/anish-1101-lab/mcp-notes-making",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Notes Making"
+	"type": "mcp-server",
+	"packageName": "sticky-notes",
+	"description": "Enables creation, reading, and management of personal notes directly within conversations through a lightweight text-based storage system",
+	"url": "https://github.com/anish-1101-lab/mcp-notes-making",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Notes Making"
 }

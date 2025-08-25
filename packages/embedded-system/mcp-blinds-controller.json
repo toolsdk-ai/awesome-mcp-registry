@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-blinds-controller",
-  "description": "Allows control of motorized window blinds through the Bond Bridge API, enabling users to open, close, or stop blinds with filtering by name, location, or row.",
-  "url": "https://github.com/mvellayan/mcp_blinds",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "MY_IP": {
-      "description": "IP address of your Bond Bridge device (e.g. 192.168.x.x)",
-      "required": true
-    },
-    "MY_TOKEN": {
-      "description": "Your Bond Bridge API token",
-      "required": true
-    }
-  },
-  "name": "Blinds MCP Controller"
+	"type": "mcp-server",
+	"packageName": "mcp-blinds-controller",
+	"description": "Allows control of motorized window blinds through the Bond Bridge API, enabling users to open, close, or stop blinds with filtering by name, location, or row.",
+	"url": "https://github.com/mvellayan/mcp_blinds",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"MY_IP": {
+			"description": "IP address of your Bond Bridge device (e.g. 192.168.x.x)",
+			"required": true
+		},
+		"MY_TOKEN": {
+			"description": "Your Bond Bridge API token",
+			"required": true
+		}
+	},
+	"name": "Blinds MCP Controller"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "logseq-knowledge-graph",
-  "description": "Integrates with Logseq knowledge graphs to enable retrieval, analysis, and manipulation of personal knowledge bases through tools for page content access, journal summaries, connection analysis, and concept linking.",
-  "url": "https://github.com/joelhooks/logseq-mcp-tools",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Logseq MCP Tools"
+	"type": "mcp-server",
+	"packageName": "logseq-knowledge-graph",
+	"description": "Integrates with Logseq knowledge graphs to enable retrieval, analysis, and manipulation of personal knowledge bases through tools for page content access, journal summaries, connection analysis, and concept linking.",
+	"url": "https://github.com/joelhooks/logseq-mcp-tools",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Logseq MCP Tools"
 }

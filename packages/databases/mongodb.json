@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mongodb",
-  "description": "Enables natural language interaction with MongoDB databases for collection management, document operations, and index manipulation without writing complex queries.",
-  "url": "https://github.com/thinking-bzf/mongo-mcp-go",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {},
-  "name": "Mongo MCP Go"
+	"type": "mcp-server",
+	"packageName": "mongodb",
+	"description": "Enables natural language interaction with MongoDB databases for collection management, document operations, and index manipulation without writing complex queries.",
+	"url": "https://github.com/thinking-bzf/mongo-mcp-go",
+	"runtime": "go",
+	"license": "unknown",
+	"env": {},
+	"name": "Mongo MCP Go"
 }

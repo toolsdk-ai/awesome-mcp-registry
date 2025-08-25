@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "interactive-feedback",
-  "description": "Launches a cross-platform desktop feedback window that displays custom messages and collects user text input, enabling human-in-the-loop interactions during AI workflows.",
-  "url": "https://github.com/nhatpm3124/interact-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Interact MCP"
+	"type": "mcp-server",
+	"packageName": "interactive-feedback",
+	"description": "Launches a cross-platform desktop feedback window that displays custom messages and collects user text input, enabling human-in-the-loop interactions during AI workflows.",
+	"url": "https://github.com/nhatpm3124/interact-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Interact MCP"
 }

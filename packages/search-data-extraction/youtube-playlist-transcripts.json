@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "youtube-playlist-transcripts",
-  "description": "Fetches and indexes YouTube playlist transcripts for quick search through vector embeddings, enabling efficient content discovery without watching hours of video.",
-  "url": "https://github.com/luebken/playlist-mcp",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Playlist MCP"
+	"type": "mcp-server",
+	"packageName": "youtube-playlist-transcripts",
+	"description": "Fetches and indexes YouTube playlist transcripts for quick search through vector embeddings, enabling efficient content discovery without watching hours of video.",
+	"url": "https://github.com/luebken/playlist-mcp",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Playlist MCP"
 }

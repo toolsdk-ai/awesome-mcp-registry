@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pocket-mcp-manager",
-  "description": "Unified management system for multiple MCP servers that allows users to add, launch, and control servers through a central proxy, eliminating the need to reconfigure connection settings when switching between servers.",
-  "url": "https://github.com/dailydaniel/pocket-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Pocket MCP Manager"
+	"type": "mcp-server",
+	"packageName": "pocket-mcp-manager",
+	"description": "Unified management system for multiple MCP servers that allows users to add, launch, and control servers through a central proxy, eliminating the need to reconfigure connection settings when switching between servers.",
+	"url": "https://github.com/dailydaniel/pocket-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Pocket MCP Manager"
 }

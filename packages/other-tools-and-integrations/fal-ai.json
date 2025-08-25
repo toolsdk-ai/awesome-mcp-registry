@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "fal.ai",
-  "description": "Bridges AI systems with fal.ai's machine learning models and services, enabling image generation, media processing, and specialized AI capabilities through direct or queued execution modes with authentication and file management support.",
-  "url": "https://github.com/am0y/mcp-fal",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Fal MCP Bridge"
+	"type": "mcp-server",
+	"packageName": "fal.ai",
+	"description": "Bridges AI systems with fal.ai's machine learning models and services, enabling image generation, media processing, and specialized AI capabilities through direct or queued execution modes with authentication and file management support.",
+	"url": "https://github.com/am0y/mcp-fal",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Fal MCP Bridge"
 }

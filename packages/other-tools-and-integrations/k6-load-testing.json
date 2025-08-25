@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "k6-load-testing",
-  "description": "Enables natural language-driven k6 load testing with configurable parameters for duration and virtual user count, bridging conversational interfaces with performance testing workflows.",
-  "url": "https://github.com/qainsights/k6-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "k6 MCP Server"
+	"type": "mcp-server",
+	"packageName": "k6-load-testing",
+	"description": "Enables natural language-driven k6 load testing with configurable parameters for duration and virtual user count, bridging conversational interfaces with performance testing workflows.",
+	"url": "https://github.com/qainsights/k6-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "k6 MCP Server"
 }

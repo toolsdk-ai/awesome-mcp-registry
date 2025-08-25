@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "container-use",
-  "description": "Provides containerized development environments that persist state across interactions through git-based storage and Dagger's container runtime, enabling isolated environments with custom toolchains, background services, and the ability to checkpoint environments as publishable container images.",
-  "url": "https://github.com/dagger/container-use",
-  "runtime": "go",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Container Use"
+	"type": "mcp-server",
+	"packageName": "container-use",
+	"description": "Provides containerized development environments that persist state across interactions through git-based storage and Dagger's container runtime, enabling isolated environments with custom toolchains, background services, and the ability to checkpoint environments as publishable container images.",
+	"url": "https://github.com/dagger/container-use",
+	"runtime": "go",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Container Use"
 }

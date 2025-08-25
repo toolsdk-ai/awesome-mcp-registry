@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "openfga",
-  "description": "Enables large language models to interact with OpenFGA authorization stores by providing tools to read, search, and manipulate fine-grained access control policies with support for checking permissions and generating access decision explanations.",
-  "url": "https://github.com/evansims/openfga-mcp",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "OpenFGA MCP"
+	"type": "mcp-server",
+	"packageName": "openfga",
+	"description": "Enables large language models to interact with OpenFGA authorization stores by providing tools to read, search, and manipulate fine-grained access control policies with support for checking permissions and generating access decision explanations.",
+	"url": "https://github.com/evansims/openfga-mcp",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "OpenFGA MCP"
 }

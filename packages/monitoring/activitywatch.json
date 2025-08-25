@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "activitywatch",
-  "description": "Integrates with ActivityWatch to enable LLMs to interact with time tracking data, providing tools for listing buckets, executing AQL queries, and retrieving raw events for enhanced productivity analysis and time management.",
-  "url": "https://github.com/8bitgentleman/activitywatch-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "ActivityWatch MCP Server"
+	"type": "mcp-server",
+	"packageName": "activitywatch",
+	"description": "Integrates with ActivityWatch to enable LLMs to interact with time tracking data, providing tools for listing buckets, executing AQL queries, and retrieving raw events for enhanced productivity analysis and time management.",
+	"url": "https://github.com/8bitgentleman/activitywatch-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "ActivityWatch MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "aws-lambda",
-  "description": "Enables LLMs to interact with AWS Lambda functions, providing access to private resources, AWS services, and Lambda's capabilities for data processing and external API integration.",
-  "url": "https://github.com/danilop/mcp2lambda",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "MCP2Lambda"
+	"type": "mcp-server",
+	"packageName": "aws-lambda",
+	"description": "Enables LLMs to interact with AWS Lambda functions, providing access to private resources, AWS services, and Lambda's capabilities for data processing and external API integration.",
+	"url": "https://github.com/danilop/mcp2lambda",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "MCP2Lambda"
 }

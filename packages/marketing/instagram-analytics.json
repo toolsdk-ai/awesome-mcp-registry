@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "instagram-analytics",
-  "description": "Integrates with Instagram's API and web scraping tools to enable social media analytics, account management, and content strategy insights.",
-  "url": "https://github.com/duhlink/instagram-server-next-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Instagram MCP Analytics"
+	"type": "mcp-server",
+	"packageName": "instagram-analytics",
+	"description": "Integrates with Instagram's API and web scraping tools to enable social media analytics, account management, and content strategy insights.",
+	"url": "https://github.com/duhlink/instagram-server-next-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Instagram MCP Analytics"
 }

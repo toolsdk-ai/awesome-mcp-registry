@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "outlook-email-processor",
-  "description": "Integrates with Outlook to provide email processing, semantic search, and metadata storage capabilities using MongoDB and SQLite, enabling advanced analysis and retrieval of email data in Windows environments.",
-  "url": "https://github.com/cam10001110101/mcp-server-outlook-email",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Outlook Email MCP Server"
+	"type": "mcp-server",
+	"packageName": "outlook-email-processor",
+	"description": "Integrates with Outlook to provide email processing, semantic search, and metadata storage capabilities using MongoDB and SQLite, enabling advanced analysis and retrieval of email data in Windows environments.",
+	"url": "https://github.com/cam10001110101/mcp-server-outlook-email",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Outlook Email MCP Server"
 }

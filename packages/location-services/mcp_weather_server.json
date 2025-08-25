@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp_weather_server",
-  "description": "Provides real-time weather information for any city through the Open-Meteo API without requiring API keys or complex setup.",
-  "url": "https://github.com/isdaniel/mcp_weather_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Weather MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp_weather_server",
+	"description": "Provides real-time weather information for any city through the Open-Meteo API without requiring API keys or complex setup.",
+	"url": "https://github.com/isdaniel/mcp_weather_server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Weather MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mentor-(deepseek)",
-  "description": "Integrates with Deepseek API to provide AI-powered mentorship capabilities for code review, design critique, writing feedback, and idea brainstorming.",
-  "url": "https://github.com/cyanheads/mentor-mcp-server",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Mentor MCP Server"
+	"type": "mcp-server",
+	"packageName": "mentor-(deepseek)",
+	"description": "Integrates with Deepseek API to provide AI-powered mentorship capabilities for code review, design critique, writing feedback, and idea brainstorming.",
+	"url": "https://github.com/cyanheads/mentor-mcp-server",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Mentor MCP Server"
 }

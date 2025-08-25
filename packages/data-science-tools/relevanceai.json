@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "relevanceai",
-  "description": "Bridges Claude with RelevanceAI's API, enabling direct access to RelevanceAI tools within conversations through environment variable authentication and stdio transport.",
-  "url": "https://github.com/rleek/poc-mcp-proxy",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "POC MCP Proxy"
+	"type": "mcp-server",
+	"packageName": "relevanceai",
+	"description": "Bridges Claude with RelevanceAI's API, enabling direct access to RelevanceAI tools within conversations through environment variable authentication and stdio transport.",
+	"url": "https://github.com/rleek/poc-mcp-proxy",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "POC MCP Proxy"
 }

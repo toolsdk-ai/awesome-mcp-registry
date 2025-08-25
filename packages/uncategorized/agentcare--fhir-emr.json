@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "agentcare-(fhir-emr)",
-  "description": "Integrates with FHIR-enabled EMR systems to provide healthcare tools for patient data retrieval, medical research integration, and AI-assisted clinical analysis.",
-  "url": "https://github.com/kartha-ai/agentcare-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "AgentCare MCP"
+	"type": "mcp-server",
+	"packageName": "agentcare-(fhir-emr)",
+	"description": "Integrates with FHIR-enabled EMR systems to provide healthcare tools for patient data retrieval, medical research integration, and AI-assisted clinical analysis.",
+	"url": "https://github.com/kartha-ai/agentcare-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "AgentCare MCP"
 }

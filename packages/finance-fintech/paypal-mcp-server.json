@@ -1,20 +1,20 @@
 {
-  "type": "mcp-server",
-  "logo":"https://pbs.twimg.com/profile_images/1831523218831634432/dtvuvsNM_400x400.jpg",
-  "packageName": "@paypal/agent-toolkit",
-  "description": "The PayPal Model Context Protocol server allows you to integrate with PayPal APIs through function calling.",
-  "url": "https://github.com/paypal/agent-toolkit/tree/main/modelcontextprotocol",
-  "runtime": "node",
-  "license": "Apache-2.0",
-  "env": {
-    "PAYPAL_ACCESS_TOKEN": {
-      "description": "YOUR_PAYPAL_ACCESS_TOKEN",
-      "required": true
-    },
-    "PAYPAL_ENVIRONMENT": {
-      "description": "SANDBOX",
-      "required": true
-    }
-  },
-  "name": "PayPal MCP"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1831523218831634432/dtvuvsNM_400x400.jpg",
+	"packageName": "@paypal/agent-toolkit",
+	"description": "The PayPal Model Context Protocol server allows you to integrate with PayPal APIs through function calling.",
+	"url": "https://github.com/paypal/agent-toolkit/tree/main/modelcontextprotocol",
+	"runtime": "node",
+	"license": "Apache-2.0",
+	"env": {
+		"PAYPAL_ACCESS_TOKEN": {
+			"description": "YOUR_PAYPAL_ACCESS_TOKEN",
+			"required": true
+		},
+		"PAYPAL_ENVIRONMENT": {
+			"description": "SANDBOX",
+			"required": true
+		}
+	},
+	"name": "PayPal MCP"
 }

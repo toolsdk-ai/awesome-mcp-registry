@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "jewish-library",
-  "description": "Integrates Jewish texts using Tantivy search engine to provide insights, answer questions, and analyze themes from religious Jewish literature.",
-  "url": "https://github.com/sivan22/mcp-otzaria-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Otzaria Server"
+	"type": "mcp-server",
+	"packageName": "jewish-library",
+	"description": "Integrates Jewish texts using Tantivy search engine to provide insights, answer questions, and analyze themes from religious Jewish literature.",
+	"url": "https://github.com/sivan22/mcp-otzaria-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Otzaria Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "name-origin-predictor",
-  "description": "Predicts the national origin of names using the Nationalize.io API, offering both individual and batch processing with probability scores for demographic analysis and cultural research.",
-  "url": "https://github.com/allglenn/mcp-name-origin-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Name Origin Predictor MCP"
+	"type": "mcp-server",
+	"packageName": "name-origin-predictor",
+	"description": "Predicts the national origin of names using the Nationalize.io API, offering both individual and batch processing with probability scores for demographic analysis and cultural research.",
+	"url": "https://github.com/allglenn/mcp-name-origin-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Name Origin Predictor MCP"
 }

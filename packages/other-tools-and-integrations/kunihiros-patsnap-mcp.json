@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kunihiros/patsnap-mcp",
-  "description": "Integrates with PatSnap's patent analytics API to provide structured access to patent trends, competitive intelligence, and innovation research through specialized tools for technology scouting and landscape analysis.",
-  "url": "https://github.com/kunihiros/patsnap-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "PATSNAP_CLIENT_ID": {
-      "description": "your_patsnap_client_id_here",
-      "required": true
-    },
-    "PATSNAP_CLIENT_SECRET": {
-      "description": "your_patsnap_client_secret_here",
-      "required": true
-    }
-  },
-  "name": "PatSnap MCP"
+	"type": "mcp-server",
+	"packageName": "@kunihiros/patsnap-mcp",
+	"description": "Integrates with PatSnap's patent analytics API to provide structured access to patent trends, competitive intelligence, and innovation research through specialized tools for technology scouting and landscape analysis.",
+	"url": "https://github.com/kunihiros/patsnap-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"PATSNAP_CLIENT_ID": {
+			"description": "your_patsnap_client_id_here",
+			"required": true
+		},
+		"PATSNAP_CLIENT_SECRET": {
+			"description": "your_patsnap_client_secret_here",
+			"required": true
+		}
+	},
+	"name": "PatSnap MCP"
 }

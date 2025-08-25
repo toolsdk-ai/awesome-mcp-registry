@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sola",
-  "description": "Integrates with the Social Layer (Sola) platform API to retrieve event details, search events by date ranges and keywords, fetch group information, user profiles, and venue data for event discovery and community management.",
-  "url": "https://github.com/sociallayer-im/sola-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Sola MCP"
+	"type": "mcp-server",
+	"packageName": "sola",
+	"description": "Integrates with the Social Layer (Sola) platform API to retrieve event details, search events by date ranges and keywords, fetch group information, user profiles, and venue data for event discovery and community management.",
+	"url": "https://github.com/sociallayer-im/sola-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Sola MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dify-workflow",
-  "description": "Integrates with Dify to enable text generation, data analysis, and conversational flow management through Dify's API, streamlining AI-powered application development.",
-  "url": "https://github.com/localsummer/dify-workflow-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Dify Workflow MCP"
+	"type": "mcp-server",
+	"packageName": "dify-workflow",
+	"description": "Integrates with Dify to enable text generation, data analysis, and conversational flow management through Dify's API, streamlining AI-powered application development.",
+	"url": "https://github.com/localsummer/dify-workflow-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Dify Workflow MCP"
 }

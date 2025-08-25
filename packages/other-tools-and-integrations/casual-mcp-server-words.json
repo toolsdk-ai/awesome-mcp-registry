@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "casual-mcp-server-words",
-  "description": "Provides English word definitions, synonyms, and example usage through the Free Dictionary API for writing assistance and vocabulary building applications.",
-  "url": "https://github.com/casualgenius/mcp-servers/tree/HEAD/servers/words",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Words MCP Server"
+	"type": "mcp-server",
+	"packageName": "casual-mcp-server-words",
+	"description": "Provides English word definitions, synonyms, and example usage through the Free Dictionary API for writing assistance and vocabulary building applications.",
+	"url": "https://github.com/casualgenius/mcp-servers/tree/HEAD/servers/words",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Words MCP Server"
 }

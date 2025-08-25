@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@gergelyszerovay/mcp-server-qdrant-retrive",
-  "description": "Enables semantic search across multiple document collections using Qdrant vector database integration, allowing natural language queries with configurable result counts and collection tracking.",
-  "url": "https://github.com/gergelyszerovay/mcp-server-qdrant-retrieve",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Qdrant MCP Server"
+	"type": "mcp-server",
+	"packageName": "@gergelyszerovay/mcp-server-qdrant-retrive",
+	"description": "Enables semantic search across multiple document collections using Qdrant vector database integration, allowing natural language queries with configurable result counts and collection tracking.",
+	"url": "https://github.com/gergelyszerovay/mcp-server-qdrant-retrieve",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Qdrant MCP Server"
 }

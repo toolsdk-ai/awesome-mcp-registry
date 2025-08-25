@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-pinecone",
-  "description": "Leverage Pinecone vector databases for semantic search and RAG.",
-  "url": "https://github.com/sirmews/mcp-pinecone",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Pinecone MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-pinecone",
+	"description": "Leverage Pinecone vector databases for semantic search and RAG.",
+	"url": "https://github.com/sirmews/mcp-pinecone",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Pinecone MCP"
 }

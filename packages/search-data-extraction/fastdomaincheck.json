@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "fastdomaincheck",
-  "description": "Provides bulk domain registration status checking through WHOIS and DNS queries, supporting up to 50 domains simultaneously with dual verification methods for reliable availability assessment.",
-  "url": "https://github.com/bingal/fastdomaincheck-mcp-server",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "Fast Domain Check MCP Server"
+	"type": "mcp-server",
+	"packageName": "fastdomaincheck",
+	"description": "Provides bulk domain registration status checking through WHOIS and DNS queries, supporting up to 50 domains simultaneously with dual verification methods for reliable availability assessment.",
+	"url": "https://github.com/bingal/fastdomaincheck-mcp-server",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "Fast Domain Check MCP Server"
 }

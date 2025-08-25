@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "yolo-computer-vision",
-  "description": "Enables computer vision capabilities using YOLO models for object detection, segmentation, classification, and pose estimation on images and camera feeds",
-  "url": "https://github.com/gongrzhe/yolo-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "YOLO MCP Server"
+	"type": "mcp-server",
+	"packageName": "yolo-computer-vision",
+	"description": "Enables computer vision capabilities using YOLO models for object detection, segmentation, classification, and pose estimation on images and camera feeds",
+	"url": "https://github.com/gongrzhe/yolo-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "YOLO MCP Server"
 }

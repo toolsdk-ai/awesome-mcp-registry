@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tmux-mcp",
-  "description": "Interact with and view tmux session content.",
-  "url": "https://github.com/nickgnd/tmux-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Tmux MCP"
+	"type": "mcp-server",
+	"packageName": "tmux-mcp",
+	"description": "Interact with and view tmux session content.",
+	"url": "https://github.com/nickgnd/tmux-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Tmux MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dodo-payments",
-  "description": "Provides a bridge to the Dodo Payments API for processing payments, managing subscriptions, and handling licensing through over 40 specialized tools for customer and product management.",
-  "url": "https://github.com/dodopayments/dodopayments-node",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Dodo Payments MCP Server"
+	"type": "mcp-server",
+	"packageName": "dodo-payments",
+	"description": "Provides a bridge to the Dodo Payments API for processing payments, managing subscriptions, and handling licensing through over 40 specialized tools for customer and product management.",
+	"url": "https://github.com/dodopayments/dodopayments-node",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Dodo Payments MCP Server"
 }

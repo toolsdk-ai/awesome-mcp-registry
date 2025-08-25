@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "openweathermap-(weekly-weather)",
-  "description": "Integrates with OpenWeatherMap API to provide global weather forecasts and current conditions for location-specific planning and alerts.",
-  "url": "https://github.com/rossshannon/weekly-weather-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Weekly Weather MCP"
+	"type": "mcp-server",
+	"packageName": "openweathermap-(weekly-weather)",
+	"description": "Integrates with OpenWeatherMap API to provide global weather forecasts and current conditions for location-specific planning and alerts.",
+	"url": "https://github.com/rossshannon/weekly-weather-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Weekly Weather MCP"
 }

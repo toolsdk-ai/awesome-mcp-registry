@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "consolespy",
-  "description": "Captures browser console logs and makes them available in an IDE through a server, browser extension, and web interface for seamless integration into development workflows.",
-  "url": "https://github.com/mgsrevolver/consolespy",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "ConsoleSpy"
+	"type": "mcp-server",
+	"packageName": "consolespy",
+	"description": "Captures browser console logs and makes them available in an IDE through a server, browser extension, and web interface for seamless integration into development workflows.",
+	"url": "https://github.com/mgsrevolver/consolespy",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "ConsoleSpy"
 }

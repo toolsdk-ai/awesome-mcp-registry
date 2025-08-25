@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@gongrzhe/server-redis-mcp",
-  "description": "Integrates with Redis databases to enable fast, in-memory key-value operations for caching, session management, and real-time data processing.",
-  "url": "https://github.com/gongrzhe/redis-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Redis MCP Server"
+	"type": "mcp-server",
+	"packageName": "@gongrzhe/server-redis-mcp",
+	"description": "Integrates with Redis databases to enable fast, in-memory key-value operations for caching, session management, and real-time data processing.",
+	"url": "https://github.com/gongrzhe/redis-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Redis MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ableton-mcp",
-  "description": "Enables control of Ableton Live music production software through a bidirectional communication system that supports track creation, MIDI editing, playback control, instrument loading, and library browsing for music composition and sound design workflows.",
-  "url": "https://github.com/ahujasid/ableton-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Ableton MCP"
+	"type": "mcp-server",
+	"packageName": "ableton-mcp",
+	"description": "Enables control of Ableton Live music production software through a bidirectional communication system that supports track creation, MIDI editing, playback control, instrument loading, and library browsing for music composition and sound design workflows.",
+	"url": "https://github.com/ahujasid/ableton-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Ableton MCP"
 }

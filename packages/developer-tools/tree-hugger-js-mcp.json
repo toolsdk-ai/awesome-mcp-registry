@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tree-hugger-js-mcp",
-  "description": "Provides JavaScript and TypeScript code analysis through AST parsing for function extraction, scope analysis, identifier renaming, unused import removal, and code transformation with safety previews and history tracking.",
-  "url": "https://github.com/qckfx/tree-hugger-js-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Tree Hugger JS MCP"
+	"type": "mcp-server",
+	"packageName": "tree-hugger-js-mcp",
+	"description": "Provides JavaScript and TypeScript code analysis through AST parsing for function extraction, scope analysis, identifier renaming, unused import removal, and code transformation with safety previews and history tracking.",
+	"url": "https://github.com/qckfx/tree-hugger-js-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Tree Hugger JS MCP"
 }

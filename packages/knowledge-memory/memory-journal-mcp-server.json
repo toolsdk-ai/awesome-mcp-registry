@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "memory-journal-mcp-server",
-  "description": "Integrates with local iCloud Photos libraries on macOS to enable efficient searching and retrieval of photo metadata based on various criteria like dates, locations, people, and labels.",
-  "url": "https://github.com/siddhant-k-code/memory-journal-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Memory Journal MCP Server"
+	"type": "mcp-server",
+	"packageName": "memory-journal-mcp-server",
+	"description": "Integrates with local iCloud Photos libraries on macOS to enable efficient searching and retrieval of photo metadata based on various criteria like dates, locations, people, and labels.",
+	"url": "https://github.com/siddhant-k-code/memory-journal-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Memory Journal MCP Server"
 }

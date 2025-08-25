@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "memex-(firecrawl-&-voyage)",
-  "description": "Integration to analyze web content, extract key information, and build a personalized Markdown-based knowledge base for efficient information retrieval and organization.",
-  "url": "https://github.com/narphorium/mcp-memex",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Memex MCP"
+	"type": "mcp-server",
+	"packageName": "memex-(firecrawl-&-voyage)",
+	"description": "Integration to analyze web content, extract key information, and build a personalized Markdown-based knowledge base for efficient information retrieval and organization.",
+	"url": "https://github.com/narphorium/mcp-memex",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Memex MCP"
 }

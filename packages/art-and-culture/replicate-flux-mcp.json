@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "replicate-flux-mcp",
-  "description": "Integrates with Replicate's Flux image generation model, enabling image creation capabilities within conversation interfaces through a simple API token setup and TypeScript implementation available as both an npm module and Docker container.",
-  "url": "https://github.com/awkoy/replicate-flux-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "REPLICATE_API_TOKEN": {
-      "description": "YOUR TOKEN",
-      "required": true
-    }
-  },
-  "name": "Replicate Flux MCP"
+	"type": "mcp-server",
+	"packageName": "replicate-flux-mcp",
+	"description": "Integrates with Replicate's Flux image generation model, enabling image creation capabilities within conversation interfaces through a simple API token setup and TypeScript implementation available as both an npm module and Docker container.",
+	"url": "https://github.com/awkoy/replicate-flux-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"REPLICATE_API_TOKEN": {
+			"description": "YOUR TOKEN",
+			"required": true
+		}
+	},
+	"name": "Replicate Flux MCP"
 }

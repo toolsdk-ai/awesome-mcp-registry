@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "quickbase",
-  "description": "Integrates with QuickBase API for complete database operations including application, table, field, and record management with support for all field types, bulk operations, text search, report execution, and automated relationship creation.",
-  "url": "https://github.com/lawrencecirillo/quickbase-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "QuickBase MCP Server"
+	"type": "mcp-server",
+	"packageName": "quickbase",
+	"description": "Integrates with QuickBase API for complete database operations including application, table, field, and record management with support for all field types, bulk operations, text search, report execution, and automated relationship creation.",
+	"url": "https://github.com/lawrencecirillo/quickbase-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "QuickBase MCP Server"
 }

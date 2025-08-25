@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "akshare-one-mcp",
-  "description": "Provides access to Chinese stock market data including historical prices, real-time information, financial statements, and news from sources like Eastmoney, Sina, and Xueqiu.",
-  "url": "https://github.com/zwldarren/akshare-one-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Akshare One MCP"
+	"type": "mcp-server",
+	"packageName": "akshare-one-mcp",
+	"description": "Provides access to Chinese stock market data including historical prices, real-time information, financial statements, and news from sources like Eastmoney, Sina, and Xueqiu.",
+	"url": "https://github.com/zwldarren/akshare-one-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Akshare One MCP"
 }

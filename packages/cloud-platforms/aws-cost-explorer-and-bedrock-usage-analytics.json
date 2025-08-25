@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "aws-cost-explorer-and-bedrock-usage-analytics",
-  "description": "Integrates with AWS Cost Explorer and CloudWatch to analyze cloud spending patterns and Bedrock model usage statistics for detailed cost monitoring and optimization.",
-  "url": "https://github.com/aarora79/aws-cost-explorer-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "AWS Cost Explorer Bedrock Usage Analytics MCP Server"
+	"type": "mcp-server",
+	"packageName": "aws-cost-explorer-and-bedrock-usage-analytics",
+	"description": "Integrates with AWS Cost Explorer and CloudWatch to analyze cloud spending patterns and Bedrock model usage statistics for detailed cost monitoring and optimization.",
+	"url": "https://github.com/aarora79/aws-cost-explorer-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "AWS Cost Explorer Bedrock Usage Analytics MCP Server"
 }

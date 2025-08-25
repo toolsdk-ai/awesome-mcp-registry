@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "bitrefill-mcp-server",
-  "description": "Integrates with Bitrefill's platform to search and retrieve information about gift cards, mobile refills, eSIMs, and digital services available for cryptocurrency purchases.",
-  "url": "https://github.com/bitrefill/bitrefill-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "BITREFILL_API_SECRET": {
-      "description": "your_api_key_here",
-      "required": true
-    },
-    "BITREFILL_API_ID": {
-      "description": "your_api_id_here",
-      "required": true
-    }
-  },
-  "name": "Bitrefill MCP Server"
+	"type": "mcp-server",
+	"packageName": "bitrefill-mcp-server",
+	"description": "Integrates with Bitrefill's platform to search and retrieve information about gift cards, mobile refills, eSIMs, and digital services available for cryptocurrency purchases.",
+	"url": "https://github.com/bitrefill/bitrefill-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"BITREFILL_API_SECRET": {
+			"description": "your_api_key_here",
+			"required": true
+		},
+		"BITREFILL_API_ID": {
+			"description": "your_api_id_here",
+			"required": true
+		}
+	},
+	"name": "Bitrefill MCP Server"
 }

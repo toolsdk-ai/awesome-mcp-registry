@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mtg-deck-manager",
-  "description": "Integrates with Magic: The Gathering resources to enable deck management, card drawing, hand manipulation, and Scryfall API searches for comprehensive card information retrieval and game simulation.",
-  "url": "https://github.com/artillect/mtg-mcp-servers",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MTG MCP Server"
+	"type": "mcp-server",
+	"packageName": "mtg-deck-manager",
+	"description": "Integrates with Magic: The Gathering resources to enable deck management, card drawing, hand manipulation, and Scryfall API searches for comprehensive card information retrieval and game simulation.",
+	"url": "https://github.com/artillect/mtg-mcp-servers",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MTG MCP Server"
 }

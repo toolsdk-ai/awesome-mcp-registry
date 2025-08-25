@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "microcms",
-  "description": "Connects Claude to MicroCMS headless content management system, enabling direct content retrieval, creation, and management operations within conversations.",
-  "url": "https://github.com/springmt/microcms-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "MicroCMS MCP Server"
+	"type": "mcp-server",
+	"packageName": "microcms",
+	"description": "Connects Claude to MicroCMS headless content management system, enabling direct content retrieval, creation, and management operations within conversations.",
+	"url": "https://github.com/springmt/microcms-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "MicroCMS MCP Server"
 }

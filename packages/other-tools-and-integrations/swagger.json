@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "swagger",
-  "description": "Transforms Swagger/OpenAPI specifications into dynamic tools, enabling interaction with any REST API through automatic endpoint discovery, parameter validation, and security handling.",
-  "url": "https://github.com/danishjsheikh/swagger-mcp",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "Swagger MCP"
+	"type": "mcp-server",
+	"packageName": "swagger",
+	"description": "Transforms Swagger/OpenAPI specifications into dynamic tools, enabling interaction with any REST API through automatic endpoint discovery, parameter validation, and security handling.",
+	"url": "https://github.com/danishjsheikh/swagger-mcp",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "Swagger MCP"
 }

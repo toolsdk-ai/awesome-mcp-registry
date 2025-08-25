@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "airtable",
-  "description": "Integrates with Airtable to enable database operations like listing bases, browsing tables, and performing CRUD operations on records directly within code editors.",
-  "url": "https://github.com/rashidazarang/airtable-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Airtable MCP"
+	"type": "mcp-server",
+	"packageName": "airtable",
+	"description": "Integrates with Airtable to enable database operations like listing bases, browsing tables, and performing CRUD operations on records directly within code editors.",
+	"url": "https://github.com/rashidazarang/airtable-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Airtable MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "codebase-retrieval-(repomix)",
-  "description": "Integrates with RepoMix to enable codebase retrieval and analysis for tasks like code review, dependency tracking, and automated documentation generation.",
-  "url": "https://github.com/dedeveloper23/codebase-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Codebase MCP"
+	"type": "mcp-server",
+	"packageName": "codebase-retrieval-(repomix)",
+	"description": "Integrates with RepoMix to enable codebase retrieval and analysis for tasks like code review, dependency tracking, and automated documentation generation.",
+	"url": "https://github.com/dedeveloper23/codebase-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Codebase MCP"
 }

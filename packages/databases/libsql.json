@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "libsql",
-  "description": "Integrates with LibSQL databases to enable schema retrieval and table querying for real-time data access and analysis.",
-  "url": "https://github.com/nicholasq/mcp-server-libsql",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "LibSQL MCP Server"
+	"type": "mcp-server",
+	"packageName": "libsql",
+	"description": "Integrates with LibSQL databases to enable schema retrieval and table querying for real-time data access and analysis.",
+	"url": "https://github.com/nicholasq/mcp-server-libsql",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "LibSQL MCP Server"
 }

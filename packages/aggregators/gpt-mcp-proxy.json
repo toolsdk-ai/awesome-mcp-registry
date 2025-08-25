@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gpt-mcp-proxy",
-  "description": "Bridges HTTP clients with tool servers, enabling tool discovery and execution via REST endpoints, featuring automatic HTTPS exposure and OpenAPI 3.1.0 specification for seamless integration with custom GPTs and AI-assisted applications.",
-  "url": "https://github.com/wricardo/gpt-mcp-proxy",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {},
-  "name": "GPT MCP Proxy"
+	"type": "mcp-server",
+	"packageName": "gpt-mcp-proxy",
+	"description": "Bridges HTTP clients with tool servers, enabling tool discovery and execution via REST endpoints, featuring automatic HTTPS exposure and OpenAPI 3.1.0 specification for seamless integration with custom GPTs and AI-assisted applications.",
+	"url": "https://github.com/wricardo/gpt-mcp-proxy",
+	"runtime": "go",
+	"license": "unknown",
+	"env": {},
+	"name": "GPT MCP Proxy"
 }

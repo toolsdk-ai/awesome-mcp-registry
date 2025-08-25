@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "google-flights",
-  "description": "Leverages the fast-flights API to enable advanced flight search and travel planning capabilities, providing tools for searching one-way and round-trip flights, retrieving airport information, and generating travel recommendations.",
-  "url": "https://github.com/salamentic/google-flights-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Google Flights MCP"
+	"type": "mcp-server",
+	"packageName": "google-flights",
+	"description": "Leverages the fast-flights API to enable advanced flight search and travel planning capabilities, providing tools for searching one-way and round-trip flights, retrieving airport information, and generating travel recommendations.",
+	"url": "https://github.com/salamentic/google-flights-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Google Flights MCP"
 }

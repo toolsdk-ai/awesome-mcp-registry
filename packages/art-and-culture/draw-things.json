@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "draw-things",
-  "description": "Integrates with the Draw Things API to convert text prompts or JSON inputs into JSON-RPC requests, enabling AI image generation capabilities with automatic saving and error handling.",
-  "url": "https://github.com/jaokuohsuan/draw-things-mcp-cursor",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Draw Things MCP Server"
+	"type": "mcp-server",
+	"packageName": "draw-things",
+	"description": "Integrates with the Draw Things API to convert text prompts or JSON inputs into JSON-RPC requests, enabling AI image generation capabilities with automatic saving and error handling.",
+	"url": "https://github.com/jaokuohsuan/draw-things-mcp-cursor",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Draw Things MCP Server"
 }

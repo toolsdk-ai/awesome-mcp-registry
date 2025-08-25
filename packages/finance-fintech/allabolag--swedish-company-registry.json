@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "allabolag-(swedish-company-registry)",
-  "description": "Provides a bridge to the Swedish company registry database for searching companies by name or location and retrieving detailed business information including revenue, employee count, and industry classification.",
-  "url": "https://github.com/paliago/allabolag-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Allabolag MCP"
+	"type": "mcp-server",
+	"packageName": "allabolag-(swedish-company-registry)",
+	"description": "Provides a bridge to the Swedish company registry database for searching companies by name or location and retrieving detailed business information including revenue, employee count, and industry classification.",
+	"url": "https://github.com/paliago/allabolag-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Allabolag MCP"
 }

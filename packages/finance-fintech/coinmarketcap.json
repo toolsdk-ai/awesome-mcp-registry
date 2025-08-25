@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "coinmarketcap",
-  "description": "Provides real-time cryptocurrency data from CoinMarketCap's API, enabling market listings, price quotes, ID mappings, metadata, global metrics, and exchange information retrieval for market analysis and research.",
-  "url": "https://github.com/szcharlesji/crypto-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Crypto MCP"
+	"type": "mcp-server",
+	"packageName": "coinmarketcap",
+	"description": "Provides real-time cryptocurrency data from CoinMarketCap's API, enabling market listings, price quotes, ID mappings, metadata, global metrics, and exchange information retrieval for market analysis and research.",
+	"url": "https://github.com/szcharlesji/crypto-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Crypto MCP"
 }

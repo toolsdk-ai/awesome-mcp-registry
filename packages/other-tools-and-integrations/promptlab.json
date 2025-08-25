@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "promptlab",
-  "description": "Transforms basic user queries into optimized prompts for AI systems by automatically detecting content type and applying tailored templates from a YAML-based system.",
-  "url": "https://github.com/irahulpandey/promptlab",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "PromptLab MCP Server"
+	"type": "mcp-server",
+	"packageName": "promptlab",
+	"description": "Transforms basic user queries into optimized prompts for AI systems by automatically detecting content type and applying tailored templates from a YAML-based system.",
+	"url": "https://github.com/irahulpandey/promptlab",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "PromptLab MCP Server"
 }

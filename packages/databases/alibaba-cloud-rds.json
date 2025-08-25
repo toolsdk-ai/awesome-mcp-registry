@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "alibaba-cloud-rds",
-  "description": "Provides a bridge to Alibaba Cloud's Relational Database Service (RDS) for managing database instances, monitoring performance, and configuring network settings through natural language interactions.",
-  "url": "https://github.com/aliyun/alibabacloud-rds-openapi-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Alibaba Cloud RDS MCP Server"
+	"type": "mcp-server",
+	"packageName": "alibaba-cloud-rds",
+	"description": "Provides a bridge to Alibaba Cloud's Relational Database Service (RDS) for managing database instances, monitoring performance, and configuring network settings through natural language interactions.",
+	"url": "https://github.com/aliyun/alibabacloud-rds-openapi-mcp-server",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Alibaba Cloud RDS MCP Server"
 }

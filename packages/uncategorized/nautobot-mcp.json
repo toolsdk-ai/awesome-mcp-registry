@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nautobot-mcp",
-  "description": "Integrates with Nautobot network infrastructure management platform, enabling querying and interaction with network data through tools for retrieving information about devices, interfaces, circuits, IP addresses, and locations.",
-  "url": "https://github.com/gt732/nautobot-app-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Nautobot MCP"
+	"type": "mcp-server",
+	"packageName": "nautobot-mcp",
+	"description": "Integrates with Nautobot network infrastructure management platform, enabling querying and interaction with network data through tools for retrieving information about devices, interfaces, circuits, IP addresses, and locations.",
+	"url": "https://github.com/gt732/nautobot-app-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Nautobot MCP"
 }

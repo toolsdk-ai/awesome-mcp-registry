@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "devici",
-  "description": "Integrates with the Devici threat modeling platform to manage security workflows including user and team management, threat model creation, component analysis, threat identification, mitigation planning, and dashboard reporting across the complete threat modeling lifecycle.",
-  "url": "https://github.com/geoffwhittington/devici-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Devici MCP"
+	"type": "mcp-server",
+	"packageName": "devici",
+	"description": "Integrates with the Devici threat modeling platform to manage security workflows including user and team management, threat model creation, component analysis, threat identification, mitigation planning, and dashboard reporting across the complete threat modeling lifecycle.",
+	"url": "https://github.com/geoffwhittington/devici-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Devici MCP"
 }

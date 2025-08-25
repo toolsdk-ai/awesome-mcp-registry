@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cloud-foundry-butler",
-  "description": "Cleanup stale apps and services on a Cloud Foundry foundation.",
-  "url": "https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/butler",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Butler MCP"
+	"type": "mcp-server",
+	"packageName": "cloud-foundry-butler",
+	"description": "Cleanup stale apps and services on a Cloud Foundry foundation.",
+	"url": "https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/butler",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Butler MCP"
 }

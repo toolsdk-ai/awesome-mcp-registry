@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "amap-navigator",
-  "description": "Integrates with Amap API to provide location-based services including geocoding, weather information, driving routes, and location suggestions for applications requiring real-time geographic data in the Chinese market.",
-  "url": "https://github.com/rickeylaiii/xiaoai_mapmcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Xiaoai MapMCP"
+	"type": "mcp-server",
+	"packageName": "amap-navigator",
+	"description": "Integrates with Amap API to provide location-based services including geocoding, weather information, driving routes, and location suggestions for applications requiring real-time geographic data in the Chinese market.",
+	"url": "https://github.com/rickeylaiii/xiaoai_mapmcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Xiaoai MapMCP"
 }

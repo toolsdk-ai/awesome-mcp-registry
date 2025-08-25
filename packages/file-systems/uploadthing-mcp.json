@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "uploadthing-mcp",
-  "description": "Enables AI assistants to upload files to UploadThing's cloud storage from local paths or URLs via a Node.js bridge requiring token authentication.",
-  "url": "https://github.com/toolbase-ai/uploadthing-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "UploadThing MCP"
+	"type": "mcp-server",
+	"packageName": "uploadthing-mcp",
+	"description": "Enables AI assistants to upload files to UploadThing's cloud storage from local paths or URLs via a Node.js bridge requiring token authentication.",
+	"url": "https://github.com/toolbase-ai/uploadthing-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "UploadThing MCP"
 }

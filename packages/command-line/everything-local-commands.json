@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "everything-local-commands",
-  "description": "Provides system-level operations for file handling, information retrieval, HTTP requests, and command execution, enabling versatile system management and task automation.",
-  "url": "https://github.com/ronalddegsa/server-everything",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Everything Local Commands MCP Server"
+	"type": "mcp-server",
+	"packageName": "everything-local-commands",
+	"description": "Provides system-level operations for file handling, information retrieval, HTTP requests, and command execution, enabling versatile system management and task automation.",
+	"url": "https://github.com/ronalddegsa/server-everything",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Everything Local Commands MCP Server"
 }

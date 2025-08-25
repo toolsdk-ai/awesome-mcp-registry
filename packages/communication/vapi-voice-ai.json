@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "vapi-voice-ai",
-  "description": "Integrates Vapi's voice AI capabilities with code editors, enabling outbound calls, voice assistant management, and conversation transcript retrieval for automated customer outreach and support interactions.",
-  "url": "https://github.com/matthewdcage/vapi-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Vapi MCP"
+	"type": "mcp-server",
+	"packageName": "vapi-voice-ai",
+	"description": "Integrates Vapi's voice AI capabilities with code editors, enabling outbound calls, voice assistant management, and conversation transcript retrieval for automated customer outreach and support interactions.",
+	"url": "https://github.com/matthewdcage/vapi-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Vapi MCP"
 }

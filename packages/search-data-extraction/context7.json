@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "context7",
-  "description": "HTTP streaming access to Context7's documentation platform for searching and retrieving software library documentation",
-  "url": "https://github.com/lrstanley/context7-http",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "Context7 HTTP"
+	"type": "mcp-server",
+	"packageName": "context7",
+	"description": "HTTP streaming access to Context7's documentation platform for searching and retrieving software library documentation",
+	"url": "https://github.com/lrstanley/context7-http",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "Context7 HTTP"
 }

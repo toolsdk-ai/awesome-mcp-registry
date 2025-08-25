@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-aliyun-observability",
-  "description": "Integrates with Alibaba Cloud's monitoring and logging services, enabling log structure queries, log searches, application monitoring, and trace data analysis for troubleshooting cloud applications",
-  "url": "https://github.com/aliyun/alibabacloud-observability-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Alibaba Cloud Observability MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-server-aliyun-observability",
+	"description": "Integrates with Alibaba Cloud's monitoring and logging services, enabling log structure queries, log searches, application monitoring, and trace data analysis for troubleshooting cloud applications",
+	"url": "https://github.com/aliyun/alibabacloud-observability-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Alibaba Cloud Observability MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "perplexity-advanced-mcp",
-  "description": "Command-line interface for interacting with Perplexity and OpenRouter APIs, supporting both simple queries and complex file attachments with easy provider switching through a containerized Docker implementation.",
-  "url": "https://github.com/code-yeongyu/perplexity-advanced-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Perplexity Advanced MCP"
+	"type": "mcp-server",
+	"packageName": "perplexity-advanced-mcp",
+	"description": "Command-line interface for interacting with Perplexity and OpenRouter APIs, supporting both simple queries and complex file attachments with easy provider switching through a containerized Docker implementation.",
+	"url": "https://github.com/code-yeongyu/perplexity-advanced-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Perplexity Advanced MCP"
 }

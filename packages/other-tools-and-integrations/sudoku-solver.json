@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sudoku-solver",
-  "description": "Enables users to add, solve, and store Sudoku puzzles with advanced parsing, solving, and grid management tools for puzzle enthusiasts and game developers.",
-  "url": "https://github.com/skywalker-harrison/mcp-soduku",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Sudoku Solver MCP"
+	"type": "mcp-server",
+	"packageName": "sudoku-solver",
+	"description": "Enables users to add, solve, and store Sudoku puzzles with advanced parsing, solving, and grid management tools for puzzle enthusiasts and game developers.",
+	"url": "https://github.com/skywalker-harrison/mcp-soduku",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Sudoku Solver MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@sunwood-ai-labs/source-sage-mcp-server",
-  "description": "Integrates directory structure visualization and analysis tools to generate and reason about project file hierarchies for codebase understanding.",
-  "url": "https://github.com/sunwood-ai-labs/source-sage-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Source Sage MCP Server"
+	"type": "mcp-server",
+	"packageName": "@sunwood-ai-labs/source-sage-mcp-server",
+	"description": "Integrates directory structure visualization and analysis tools to generate and reason about project file hierarchies for codebase understanding.",
+	"url": "https://github.com/sunwood-ai-labs/source-sage-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Source Sage MCP Server"
 }

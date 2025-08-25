@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "unreal-engine-binary-reader",
-  "description": "Analyzes Unreal Engine asset files and generic binary structures, enabling metadata extraction and file format inspection for game development and digital forensics.",
-  "url": "https://github.com/berlinbra/binary-reader-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Binary Reader MCP"
+	"type": "mcp-server",
+	"packageName": "unreal-engine-binary-reader",
+	"description": "Analyzes Unreal Engine asset files and generic binary structures, enabling metadata extraction and file format inspection for game development and digital forensics.",
+	"url": "https://github.com/berlinbra/binary-reader-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Binary Reader MCP"
 }

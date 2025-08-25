@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "shopify-mcp",
-  "description": "Bridges to the Shopify GraphQL Admin API, enabling product searches, customer information retrieval, order management, and inventory updates without leaving your workflow.",
-  "url": "https://github.com/geli2001/shopify-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Shopify MCP"
+	"type": "mcp-server",
+	"packageName": "shopify-mcp",
+	"description": "Bridges to the Shopify GraphQL Admin API, enabling product searches, customer information retrieval, order management, and inventory updates without leaving your workflow.",
+	"url": "https://github.com/geli2001/shopify-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Shopify MCP"
 }

@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@translated/lara-mcp",
-  "description": "Bridges to the Lara Translation API for accurate, context-aware text translations between languages with automatic language detection capabilities.",
-  "url": "https://github.com/translated/lara-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "LARA_ACCESS_KEY_ID": {
-      "description": "<YOUR_ACCESS_KEY_ID>",
-      "required": true
-    },
-    "LARA_ACCESS_KEY_SECRET": {
-      "description": "<YOUR_ACCESS_KEY_SECRET>",
-      "required": true
-    }
-  },
-  "name": "Lara MCP"
+	"type": "mcp-server",
+	"packageName": "@translated/lara-mcp",
+	"description": "Bridges to the Lara Translation API for accurate, context-aware text translations between languages with automatic language detection capabilities.",
+	"url": "https://github.com/translated/lara-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"LARA_ACCESS_KEY_ID": {
+			"description": "<YOUR_ACCESS_KEY_ID>",
+			"required": true
+		},
+		"LARA_ACCESS_KEY_SECRET": {
+			"description": "<YOUR_ACCESS_KEY_SECRET>",
+			"required": true
+		}
+	},
+	"name": "Lara MCP"
 }

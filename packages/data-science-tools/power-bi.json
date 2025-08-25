@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "power-bi",
-  "description": "Integrates with Power BI datasets through XMLA endpoints to enable natural language data analysis by automatically translating questions into executable DAX queries and interpreting results for business intelligence workflows.",
-  "url": "https://github.com/sulaiman013/powerbi-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Power BI MCP"
+	"type": "mcp-server",
+	"packageName": "power-bi",
+	"description": "Integrates with Power BI datasets through XMLA endpoints to enable natural language data analysis by automatically translating questions into executable DAX queries and interpreting results for business intelligence workflows.",
+	"url": "https://github.com/sulaiman013/powerbi-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Power BI MCP"
 }

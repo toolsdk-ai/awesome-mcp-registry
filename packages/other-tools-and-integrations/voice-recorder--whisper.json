@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "voice-recorder-(whisper)",
-  "description": "Integrates with OpenAI's Whisper model to provide voice recording and transcription capabilities for applications requiring speech-to-text functionality.",
-  "url": "https://github.com/defibax/mcp_servers",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Voice Recorder (Whisper) MCP Server"
+	"type": "mcp-server",
+	"packageName": "voice-recorder-(whisper)",
+	"description": "Integrates with OpenAI's Whisper model to provide voice recording and transcription capabilities for applications requiring speech-to-text functionality.",
+	"url": "https://github.com/defibax/mcp_servers",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Voice Recorder (Whisper) MCP Server"
 }

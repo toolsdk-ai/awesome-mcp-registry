@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "terminal",
-  "description": "Enables AI systems to execute terminal commands in local or remote environments through a TypeScript-based server supporting both standard I/O and SSE communication modes.",
-  "url": "https://github.com/weidwonder/terminal-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Terminal MCP Server"
+	"type": "mcp-server",
+	"packageName": "terminal",
+	"description": "Enables AI systems to execute terminal commands in local or remote environments through a TypeScript-based server supporting both standard I/O and SSE communication modes.",
+	"url": "https://github.com/weidwonder/terminal-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Terminal MCP Server"
 }

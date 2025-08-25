@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "word-interop",
-  "description": "Enables automated Microsoft Word document manipulation by exposing comprehensive tools for text editing, formatting, table management, image insertion, and page setup through a Windows-specific COM Interop server.",
-  "url": "https://github.com/mario-andreschak/mcp-msoffice-interop-word",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "MCP MSOffice Interop Word"
+	"type": "mcp-server",
+	"packageName": "word-interop",
+	"description": "Enables automated Microsoft Word document manipulation by exposing comprehensive tools for text editing, formatting, table management, image insertion, and page setup through a Windows-specific COM Interop server.",
+	"url": "https://github.com/mario-andreschak/mcp-msoffice-interop-word",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "MCP MSOffice Interop Word"
 }

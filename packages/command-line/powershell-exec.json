@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "powershell-exec",
-  "description": "Enables real-time execution of PowerShell scripts through a lightweight Python server, bridging AI tools with PowerShell functionality for data analysis, Windows task automation, and module interaction.",
-  "url": "https://github.com/dfinke/mcp-powershell-exec",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "PowerShell Exec MCP"
+	"type": "mcp-server",
+	"packageName": "powershell-exec",
+	"description": "Enables real-time execution of PowerShell scripts through a lightweight Python server, bridging AI tools with PowerShell functionality for data analysis, Windows task automation, and module interaction.",
+	"url": "https://github.com/dfinke/mcp-powershell-exec",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "PowerShell Exec MCP"
 }

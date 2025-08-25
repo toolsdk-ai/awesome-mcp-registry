@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "academic-author-network",
-  "description": "Aggregates academic data from Semantic Scholar, OpenAlex, Crossref, and Google Scholar to discover research collaborators with collaboration frequency counts and extract research keywords from scholar profiles for academic network analysis and collaboration mapping.",
-  "url": "https://github.com/alperenkocyigit/authorprofilemcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "AuthorProfile MCP"
+	"type": "mcp-server",
+	"packageName": "academic-author-network",
+	"description": "Aggregates academic data from Semantic Scholar, OpenAlex, Crossref, and Google Scholar to discover research collaborators with collaboration frequency counts and extract research keywords from scholar profiles for academic network analysis and collaboration mapping.",
+	"url": "https://github.com/alperenkocyigit/authorprofilemcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "AuthorProfile MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ios-simulator-mcp",
-  "description": "Enables Claude to control iOS simulators for testing and debugging applications by providing tools for UI interaction, element inspection, and device information retrieval through Facebook's IDB tool.",
-  "url": "https://github.com/joshuayoes/ios-simulator-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "iOS Simulator MCP"
+	"type": "mcp-server",
+	"packageName": "ios-simulator-mcp",
+	"description": "Enables Claude to control iOS simulators for testing and debugging applications by providing tools for UI interaction, element inspection, and device information retrieval through Facebook's IDB tool.",
+	"url": "https://github.com/joshuayoes/ios-simulator-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "iOS Simulator MCP"
 }

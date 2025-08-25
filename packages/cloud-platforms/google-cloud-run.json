@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "google-cloud-run",
-  "description": "Deploys applications to Google Cloud Run through automated containerization, project setup, and service management with support for both local files and provided content.",
-  "url": "https://github.com/googlecloudplatform/cloud-run-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Cloud Run MCP"
+	"type": "mcp-server",
+	"packageName": "google-cloud-run",
+	"description": "Deploys applications to Google Cloud Run through automated containerization, project setup, and service management with support for both local files and provided content.",
+	"url": "https://github.com/googlecloudplatform/cloud-run-mcp",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Cloud Run MCP"
 }

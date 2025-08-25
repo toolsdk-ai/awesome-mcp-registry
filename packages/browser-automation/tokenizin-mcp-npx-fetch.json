@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@tokenizin/mcp-npx-fetch",
-  "description": "Fetches and converts web content to Markdown using JSDOM and Turndown.",
-  "url": "https://github.com/tokenizin-agency/mcp-npx-fetch",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP NPX Fetch"
+	"type": "mcp-server",
+	"packageName": "@tokenizin/mcp-npx-fetch",
+	"description": "Fetches and converts web content to Markdown using JSDOM and Turndown.",
+	"url": "https://github.com/tokenizin-agency/mcp-npx-fetch",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP NPX Fetch"
 }

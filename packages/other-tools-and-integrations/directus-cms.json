@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "directus-cms",
-  "description": "Connects AI systems to Directus headless CMS, enabling content management operations like retrieving, creating, updating, and deleting items from collections through a TypeScript-based API bridge.",
-  "url": "https://github.com/pixelsock/directus-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Directus MCP"
+	"type": "mcp-server",
+	"packageName": "directus-cms",
+	"description": "Connects AI systems to Directus headless CMS, enabling content management operations like retrieving, creating, updating, and deleting items from collections through a TypeScript-based API bridge.",
+	"url": "https://github.com/pixelsock/directus-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Directus MCP"
 }

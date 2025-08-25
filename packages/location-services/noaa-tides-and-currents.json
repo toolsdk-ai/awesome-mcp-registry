@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "noaa-tides-and-currents",
-  "description": "Integrates with NOAA's oceanographic and meteorological APIs to provide access to water level data, tide predictions, currents, weather measurements, station information, and celestial calculations for maritime applications.",
-  "url": "https://github.com/ryancardin15/noaa-tidesandcurrents-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "NOAA Tides and Currents MCP"
+	"type": "mcp-server",
+	"packageName": "noaa-tides-and-currents",
+	"description": "Integrates with NOAA's oceanographic and meteorological APIs to provide access to water level data, tide predictions, currents, weather measurements, station information, and celestial calculations for maritime applications.",
+	"url": "https://github.com/ryancardin15/noaa-tidesandcurrents-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "NOAA Tides and Currents MCP"
 }

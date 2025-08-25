@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kazuph/mcp-obsidian",
-  "description": "Integrates with Obsidian vaults, enabling natural language queries and updates to notes through secure read/write access.",
-  "url": "https://github.com/kazuph/mcp-obsidian",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "OBSIDIAN_VAULT_PATH": {
-      "description": "/path/to/your/obsidian/vault",
-      "required": true
-    }
-  },
-  "name": "MCP Obsidian"
+	"type": "mcp-server",
+	"packageName": "@kazuph/mcp-obsidian",
+	"description": "Integrates with Obsidian vaults, enabling natural language queries and updates to notes through secure read/write access.",
+	"url": "https://github.com/kazuph/mcp-obsidian",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"OBSIDIAN_VAULT_PATH": {
+			"description": "/path/to/your/obsidian/vault",
+			"required": true
+		}
+	},
+	"name": "MCP Obsidian"
 }

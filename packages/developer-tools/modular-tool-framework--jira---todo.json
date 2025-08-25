@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "modular-tool-framework-(jira-&-todo)",
-  "description": "TypeScript framework for building modular MCP servers with Jira and Todo tool integrations, featuring Zod schema validation and a clean architecture for easy extension with custom tools.",
-  "url": "https://github.com/rahulrana0707/mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Modular Tool Framework Jira Todo"
+	"type": "mcp-server",
+	"packageName": "modular-tool-framework-(jira-&-todo)",
+	"description": "TypeScript framework for building modular MCP servers with Jira and Todo tool integrations, featuring Zod schema validation and a clean architecture for easy extension with custom tools.",
+	"url": "https://github.com/rahulrana0707/mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Modular Tool Framework Jira Todo"
 }

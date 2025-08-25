@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ygg-torrent-mcp",
-  "description": "Provides secure access to YggTorrent through an unofficial API wrapper, enabling torrent searching with category filtering, detailed metadata retrieval, and magnet link generation with automatic passkey injection for authenticated downloads.",
-  "url": "https://github.com/philogicae/ygg-torrent-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "YggTorrent MCP"
+	"type": "mcp-server",
+	"packageName": "ygg-torrent-mcp",
+	"description": "Provides secure access to YggTorrent through an unofficial API wrapper, enabling torrent searching with category filtering, detailed metadata retrieval, and magnet link generation with automatic passkey injection for authenticated downloads.",
+	"url": "https://github.com/philogicae/ygg-torrent-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "YggTorrent MCP"
 }

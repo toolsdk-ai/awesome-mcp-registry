@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ms-word",
-  "description": "Integrates with Microsoft Word documents to enable reading, writing, and editing of text, tables, and images for automated document processing and content generation.",
-  "url": "https://github.com/famano/mcp-server-office",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Server Office"
+	"type": "mcp-server",
+	"packageName": "ms-word",
+	"description": "Integrates with Microsoft Word documents to enable reading, writing, and editing of text, tables, and images for automated document processing and content generation.",
+	"url": "https://github.com/famano/mcp-server-office",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Server Office"
 }

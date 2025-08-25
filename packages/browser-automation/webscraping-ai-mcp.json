@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "webscraping-ai-mcp",
-  "description": "Provides web scraping capabilities with proxy support, JavaScript rendering, and structured data extraction for robust web content retrieval and analysis.",
-  "url": "https://github.com/webscraping-ai/webscraping-ai-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "WEBSCRAPING_AI_API_KEY": {
-      "description": "your-api-key",
-      "required": true
-    },
-    "WEBSCRAPING_AI_CONCURRENCY_LIMIT": {
-      "description": "5",
-      "required": true
-    }
-  },
-  "name": "WebScraping AI MCP Server"
+	"type": "mcp-server",
+	"packageName": "webscraping-ai-mcp",
+	"description": "Provides web scraping capabilities with proxy support, JavaScript rendering, and structured data extraction for robust web content retrieval and analysis.",
+	"url": "https://github.com/webscraping-ai/webscraping-ai-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"WEBSCRAPING_AI_API_KEY": {
+			"description": "your-api-key",
+			"required": true
+		},
+		"WEBSCRAPING_AI_CONCURRENCY_LIMIT": {
+			"description": "5",
+			"required": true
+		}
+	},
+	"name": "WebScraping AI MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "yelp-fusion-ai",
-  "description": "Collection of specialized servers for Google TypeScript style analysis, Yelp Fusion API integration, systematic thinking frameworks, and probabilistic decision-making algorithms, each containerized with Docker for independent deployment.",
-  "url": "https://github.com/waldzellai/waldzell-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Waldzell MCP"
+	"type": "mcp-server",
+	"packageName": "yelp-fusion-ai",
+	"description": "Collection of specialized servers for Google TypeScript style analysis, Yelp Fusion API integration, systematic thinking frameworks, and probabilistic decision-making algorithms, each containerized with Docker for independent deployment.",
+	"url": "https://github.com/waldzellai/waldzell-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Waldzell MCP"
 }

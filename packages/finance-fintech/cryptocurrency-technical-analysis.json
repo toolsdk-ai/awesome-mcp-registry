@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cryptocurrency-technical-analysis",
-  "description": "Provides real-time cryptocurrency technical analysis through FastMCP, calculating 12 and 26-period EMAs for Binance trading pairs using MongoDB-stored OHLCV data and Server-Sent Events.",
-  "url": "https://github.com/lumif-ai/mcp-ta-tool",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP TA Tool"
+	"type": "mcp-server",
+	"packageName": "cryptocurrency-technical-analysis",
+	"description": "Provides real-time cryptocurrency technical analysis through FastMCP, calculating 12 and 26-period EMAs for Binance trading pairs using MongoDB-stored OHLCV data and Server-Sent Events.",
+	"url": "https://github.com/lumif-ai/mcp-ta-tool",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP TA Tool"
 }

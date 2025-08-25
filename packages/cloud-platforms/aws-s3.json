@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "aws-s3",
-  "description": "Provides secure, pre-signed URL-based access to AWS S3 bucket operations with configurable expiration times for simplified cloud storage interactions.",
-  "url": "https://github.com/openworkspace-o1/aws-ow-s3-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "AWS S3 MCP"
+	"type": "mcp-server",
+	"packageName": "aws-s3",
+	"description": "Provides secure, pre-signed URL-based access to AWS S3 bucket operations with configurable expiration times for simplified cloud storage interactions.",
+	"url": "https://github.com/openworkspace-o1/aws-ow-s3-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "AWS S3 MCP"
 }

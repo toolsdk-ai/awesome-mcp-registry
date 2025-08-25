@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "uniquity-mcp",
-  "description": "Analyzes GitHub repositories for code similarities, returning detailed reports in Markdown format",
-  "url": "https://github.com/kunihiros/uniquity-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Uniquity MCP"
+	"type": "mcp-server",
+	"packageName": "uniquity-mcp",
+	"description": "Analyzes GitHub repositories for code similarities, returning detailed reports in Markdown format",
+	"url": "https://github.com/kunihiros/uniquity-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Uniquity MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "docs-scraper",
-  "description": "Scrapes web-based documentation through multiple crawling strategies like sitemap traversal and menu navigation, enabling structured content extraction with rate limiting and robots.txt compliance",
-  "url": "https://github.com/felores/docs_scraper_mcp",
-  "runtime": "python",
-  "license": "other",
-  "env": {},
-  "name": "Docs Scraper MCP"
+	"type": "mcp-server",
+	"packageName": "docs-scraper",
+	"description": "Scrapes web-based documentation through multiple crawling strategies like sitemap traversal and menu navigation, enabling structured content extraction with rate limiting and robots.txt compliance",
+	"url": "https://github.com/felores/docs_scraper_mcp",
+	"runtime": "python",
+	"license": "other",
+	"env": {},
+	"name": "Docs Scraper MCP"
 }

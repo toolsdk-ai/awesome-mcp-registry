@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nws-weather",
-  "description": "Integrates with the National Weather Service API to retrieve weather alerts by state and forecasts by coordinates for basic weather information access.",
-  "url": "https://github.com/crazyrabbitltc/mcp-snapshot-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Snapshot MCP Server"
+	"type": "mcp-server",
+	"packageName": "nws-weather",
+	"description": "Integrates with the National Weather Service API to retrieve weather alerts by state and forecasts by coordinates for basic weather information access.",
+	"url": "https://github.com/crazyrabbitltc/mcp-snapshot-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Snapshot MCP Server"
 }

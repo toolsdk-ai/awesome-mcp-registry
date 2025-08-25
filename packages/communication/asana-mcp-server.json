@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "asana-mcp-server",
-  "description": "An MCP (Multi-Agent Conversation Protocol) Server that enables interaction with the Asana API, auto-generated using AG2's MCP builder.",
-  "url": "https://github.com/sonichi/asana",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "CONFIG": {
-      "description": "A JSON string containing the configuration",
-      "required": true
-    },
-    "SECURITY": {
-      "description": "Environment variables for security parameters (e.g., API keys)",
-      "required": true
-    },
-    "CONFIG_PATH": {
-      "description": "Path to a JSON configuration file",
-      "required": true
-    }
-  },
-  "name": "Asana MCP Server"
+	"type": "mcp-server",
+	"packageName": "asana-mcp-server",
+	"description": "An MCP (Multi-Agent Conversation Protocol) Server that enables interaction with the Asana API, auto-generated using AG2's MCP builder.",
+	"url": "https://github.com/sonichi/asana",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"CONFIG": {
+			"description": "A JSON string containing the configuration",
+			"required": true
+		},
+		"SECURITY": {
+			"description": "Environment variables for security parameters (e.g., API keys)",
+			"required": true
+		},
+		"CONFIG_PATH": {
+			"description": "Path to a JSON configuration file",
+			"required": true
+		}
+	},
+	"name": "Asana MCP Server"
 }

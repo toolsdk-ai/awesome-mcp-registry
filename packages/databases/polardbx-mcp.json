@@ -1,31 +1,31 @@
 {
-  "type": "mcp-server",
-  "packageName": "polardbx-mcp",
-  "description": "Integrates with Alibaba Cloud's PolarDB-X distributed database system to provide SQL query execution, database status monitoring, and schema exploration capabilities for database administration and development workflows.",
-  "url": "https://github.com/aliyun/alibabacloud-polardbx-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "POLARDB_X_HOST": {
-      "description": "your_database_host",
-      "required": true
-    },
-    "POLARDB_X_PORT": {
-      "description": "your_database_port",
-      "required": true
-    },
-    "POLARDB_X_USER": {
-      "description": "your_database_user",
-      "required": true
-    },
-    "POLARDB_X_PASSWORD": {
-      "description": "your_database_password",
-      "required": true
-    },
-    "POLARDB_X_DATABASE": {
-      "description": "your_database_name",
-      "required": true
-    }
-  },
-  "name": "PolarDB-X MCP Server"
+	"type": "mcp-server",
+	"packageName": "polardbx-mcp",
+	"description": "Integrates with Alibaba Cloud's PolarDB-X distributed database system to provide SQL query execution, database status monitoring, and schema exploration capabilities for database administration and development workflows.",
+	"url": "https://github.com/aliyun/alibabacloud-polardbx-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"POLARDB_X_HOST": {
+			"description": "your_database_host",
+			"required": true
+		},
+		"POLARDB_X_PORT": {
+			"description": "your_database_port",
+			"required": true
+		},
+		"POLARDB_X_USER": {
+			"description": "your_database_user",
+			"required": true
+		},
+		"POLARDB_X_PASSWORD": {
+			"description": "your_database_password",
+			"required": true
+		},
+		"POLARDB_X_DATABASE": {
+			"description": "your_database_name",
+			"required": true
+		}
+	},
+	"name": "PolarDB-X MCP Server"
 }

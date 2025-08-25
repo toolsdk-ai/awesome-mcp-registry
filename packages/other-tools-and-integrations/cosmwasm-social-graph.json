@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cosmwasm-social-graph",
-  "description": "Enables interaction with CosmWasm-based social graph smart contracts for creating, updating, querying, and deleting decentralized relationship data through blockchain transactions.",
-  "url": "https://github.com/dasein108/mcp-cw-graph",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "CosmWasm Social Graph MCP"
+	"type": "mcp-server",
+	"packageName": "cosmwasm-social-graph",
+	"description": "Enables interaction with CosmWasm-based social graph smart contracts for creating, updating, querying, and deleting decentralized relationship data through blockchain transactions.",
+	"url": "https://github.com/dasein108/mcp-cw-graph",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "CosmWasm Social Graph MCP"
 }

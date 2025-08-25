@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "voicevox",
-  "description": "Enables AI to generate natural-sounding Japanese voice audio from text through integration with the VOICEVOX engine, supporting configurable parameters like speaker ID and speech speed.",
-  "url": "https://github.com/yuki10kobayashi/voicevox-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Voicevox MCP"
+	"type": "mcp-server",
+	"packageName": "voicevox",
+	"description": "Enables AI to generate natural-sounding Japanese voice audio from text through integration with the VOICEVOX engine, supporting configurable parameters like speaker ID and speech speed.",
+	"url": "https://github.com/yuki10kobayashi/voicevox-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Voicevox MCP"
 }

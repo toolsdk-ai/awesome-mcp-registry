@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "votars",
-  "description": "Integrates with Votars platform to provide access to meeting transcripts, enabling retrieval and analysis of voice recordings through transcript fetching tools.",
-  "url": "https://github.com/scarletlabs-ai/votars-mcp",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {},
-  "name": "Votars MCP"
+	"type": "mcp-server",
+	"packageName": "votars",
+	"description": "Integrates with Votars platform to provide access to meeting transcripts, enabling retrieval and analysis of voice recordings through transcript fetching tools.",
+	"url": "https://github.com/scarletlabs-ai/votars-mcp",
+	"runtime": "go",
+	"license": "unknown",
+	"env": {},
+	"name": "Votars MCP"
 }

@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "teamretro-mcp-server",
-  "description": "Provides a bridge to TeamRetro's team management platform for creating and managing teams, users, and members through natural language commands with authentication support.",
-  "url": "https://github.com/adepanges/teamretro-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "TEAMRETRO_AUTH_TYPE": {
-      "description": "apiKey",
-      "required": true
-    },
-    "TEAMRETRO_API_KEY": {
-      "description": "your-api-key",
-      "required": true
-    }
-  },
-  "name": "TeamRetro MCP Server"
+	"type": "mcp-server",
+	"packageName": "teamretro-mcp-server",
+	"description": "Provides a bridge to TeamRetro's team management platform for creating and managing teams, users, and members through natural language commands with authentication support.",
+	"url": "https://github.com/adepanges/teamretro-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"TEAMRETRO_AUTH_TYPE": {
+			"description": "apiKey",
+			"required": true
+		},
+		"TEAMRETRO_API_KEY": {
+			"description": "your-api-key",
+			"required": true
+		}
+	},
+	"name": "TeamRetro MCP Server"
 }

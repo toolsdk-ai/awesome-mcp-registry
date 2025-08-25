@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "swagger-mcp-server",
-  "description": "Loads and explores Swagger/OpenAPI specifications from URLs or files, providing endpoint discovery, documentation access, and natural language summaries for API integration workflows.",
-  "url": "https://github.com/gulbaki/swagger-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Swagger MCP Server"
+	"type": "mcp-server",
+	"packageName": "swagger-mcp-server",
+	"description": "Loads and explores Swagger/OpenAPI specifications from URLs or files, providing endpoint discovery, documentation access, and natural language summaries for API integration workflows.",
+	"url": "https://github.com/gulbaki/swagger-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Swagger MCP Server"
 }

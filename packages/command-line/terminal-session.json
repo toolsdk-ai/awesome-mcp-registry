@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "terminal-session",
-  "description": "Provides stateful, TUI-compatible terminal sessions for executing commands and running interactive applications, enabling persistent interaction with command-line interfaces and programs.",
-  "url": "https://github.com/dwrtz/mcpterm",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {},
-  "name": "Mcpterm"
+	"type": "mcp-server",
+	"packageName": "terminal-session",
+	"description": "Provides stateful, TUI-compatible terminal sessions for executing commands and running interactive applications, enabling persistent interaction with command-line interfaces and programs.",
+	"url": "https://github.com/dwrtz/mcpterm",
+	"runtime": "go",
+	"license": "unknown",
+	"env": {},
+	"name": "Mcpterm"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "heurist-mesh-(web3-tools)",
-  "description": "Connects Claude to specialized Web3 and blockchain tools including CoinGecko, DexScreener, GoPlus, Exa, and Firecrawl for cryptocurrency research, token security verification, and Web3 data analysis.",
-  "url": "https://github.com/heurist-network/heurist-mesh-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Heurist Mesh MCP Server"
+	"type": "mcp-server",
+	"packageName": "heurist-mesh-(web3-tools)",
+	"description": "Connects Claude to specialized Web3 and blockchain tools including CoinGecko, DexScreener, GoPlus, Exa, and Firecrawl for cryptocurrency research, token security verification, and Web3 data analysis.",
+	"url": "https://github.com/heurist-network/heurist-mesh-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Heurist Mesh MCP Server"
 }

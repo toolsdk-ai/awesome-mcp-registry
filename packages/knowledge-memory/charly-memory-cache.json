@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "charly-memory-cache",
-  "description": "Caches data between language model queries to optimize token consumption and reduce costs in AI interactions.",
-  "url": "https://github.com/ibproduct/ib-mcp-cache-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "IB MCP Cache Server"
+	"type": "mcp-server",
+	"packageName": "charly-memory-cache",
+	"description": "Caches data between language model queries to optimize token consumption and reduce costs in AI interactions.",
+	"url": "https://github.com/ibproduct/ib-mcp-cache-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "IB MCP Cache Server"
 }

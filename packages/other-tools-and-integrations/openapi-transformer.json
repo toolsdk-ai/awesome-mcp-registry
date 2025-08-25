@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "openapi-transformer",
-  "description": "Transforms OpenAPI specifications into dynamic tool interfaces for REST API interactions, automatically handling parameter mapping, authentication, and request/response formatting without custom integration code.",
-  "url": "https://github.com/th-ad/oas-to-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "OAS to MCP"
+	"type": "mcp-server",
+	"packageName": "openapi-transformer",
+	"description": "Transforms OpenAPI specifications into dynamic tool interfaces for REST API interactions, automatically handling parameter mapping, authentication, and request/response formatting without custom integration code.",
+	"url": "https://github.com/th-ad/oas-to-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "OAS to MCP"
 }

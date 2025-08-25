@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "genesis-world",
-  "description": "Bridges AI assistants with Genesis World simulations, enabling execution of customizable agent-based simulations and virtual world creation for analyzing emergent behaviors directly within conversations.",
-  "url": "https://github.com/dustland/genesis-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Genesis MCP"
+	"type": "mcp-server",
+	"packageName": "genesis-world",
+	"description": "Bridges AI assistants with Genesis World simulations, enabling execution of customizable agent-based simulations and virtual world creation for analyzing emergent behaviors directly within conversations.",
+	"url": "https://github.com/dustland/genesis-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Genesis MCP"
 }

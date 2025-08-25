@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nuclei",
-  "description": "Provides a bridge to the Nuclei vulnerability scanning tool, enabling automated security scans on target URLs with configurable parameters like severity, rate limiting, and proxy settings.",
-  "url": "https://github.com/spritualkb/nuclei-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Nuclei MCP"
+	"type": "mcp-server",
+	"packageName": "nuclei",
+	"description": "Provides a bridge to the Nuclei vulnerability scanning tool, enabling automated security scans on target URLs with configurable parameters like severity, rate limiting, and proxy settings.",
+	"url": "https://github.com/spritualkb/nuclei-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Nuclei MCP"
 }

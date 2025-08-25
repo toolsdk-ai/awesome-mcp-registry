@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "github-pr-diff",
-  "description": "Integrates with GitHub's Pull Request API to extract diff content, enabling automated code review and analysis workflows.",
-  "url": "https://github.com/highlight-ing/highlight-github-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "GitHub PR Diff MCP"
+	"type": "mcp-server",
+	"packageName": "github-pr-diff",
+	"description": "Integrates with GitHub's Pull Request API to extract diff content, enabling automated code review and analysis workflows.",
+	"url": "https://github.com/highlight-ing/highlight-github-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "GitHub PR Diff MCP"
 }

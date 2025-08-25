@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "lightweight-cloudflare-worker",
-  "description": "Lightweight Cloudflare Workers-based MCP server implementation that enables custom API interactions with a basic greeting functionality, easily extendable for integration with external services.",
-  "url": "https://github.com/sivakumarl/my-mcp-worker",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "My MCP Worker"
+	"type": "mcp-server",
+	"packageName": "lightweight-cloudflare-worker",
+	"description": "Lightweight Cloudflare Workers-based MCP server implementation that enables custom API interactions with a basic greeting functionality, easily extendable for integration with external services.",
+	"url": "https://github.com/sivakumarl/my-mcp-worker",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "My MCP Worker"
 }

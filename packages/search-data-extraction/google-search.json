@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "google-search",
-  "description": "Provides Google web and image search capabilities through the Custom Search API, enabling access to current internet information with pagination and filtering options.",
-  "url": "https://github.com/hunter-arton/google_search_mcp_server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Google Search MCP Server"
+	"type": "mcp-server",
+	"packageName": "google-search",
+	"description": "Provides Google web and image search capabilities through the Custom Search API, enabling access to current internet information with pagination and filtering options.",
+	"url": "https://github.com/hunter-arton/google_search_mcp_server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Google Search MCP Server"
 }

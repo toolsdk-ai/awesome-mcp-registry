@@ -1,28 +1,28 @@
 {
-  "type": "mcp-server",
-  "logo": "https://pbs.twimg.com/profile_images/1136345387181076481/0gjKiHmL_400x400.png",
-  "packageName": "@kacase/mcp-outlook",
-  "description": "A Model Context Protocol server that integrates with Microsoft Outlook through Microsoft Graph API, allowing Claude and other LLMs to check calendar events, schedule new ones, read emails, and send messages.",
-  "url": "https://github.com/kacase/mcp-outlook/tree/main/src",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "AUTHORITY": {
-      "description": "your-authority-id",
-      "required": true
-    },
-    "CLIENT_ID": {
-      "description": "your-client-id",
-      "required": true
-    },
-    "MCP_SERVER_NAME": {
-      "description": "MCP_SERVER_NAME",
-      "required": true
-    },
-    "MCP_SERVER_VERSION": {
-      "description": "1.0.0",
-      "required": true
-    }
-  },
-  "name": "Outlook Forms MCP Server"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1136345387181076481/0gjKiHmL_400x400.png",
+	"packageName": "@kacase/mcp-outlook",
+	"description": "A Model Context Protocol server that integrates with Microsoft Outlook through Microsoft Graph API, allowing Claude and other LLMs to check calendar events, schedule new ones, read emails, and send messages.",
+	"url": "https://github.com/kacase/mcp-outlook/tree/main/src",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"AUTHORITY": {
+			"description": "your-authority-id",
+			"required": true
+		},
+		"CLIENT_ID": {
+			"description": "your-client-id",
+			"required": true
+		},
+		"MCP_SERVER_NAME": {
+			"description": "MCP_SERVER_NAME",
+			"required": true
+		},
+		"MCP_SERVER_VERSION": {
+			"description": "1.0.0",
+			"required": true
+		}
+	},
+	"name": "Outlook Forms MCP Server"
 }

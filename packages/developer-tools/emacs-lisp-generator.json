@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "emacs-lisp-generator",
-  "description": "Enables AI to interact with Emacs by generating and executing Elisp code for buffer manipulation, text editing, and configuration changes without requiring users to write Elisp themselves.",
-  "url": "https://github.com/vivekhaldar/emacs-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Emacs MCP Server"
+	"type": "mcp-server",
+	"packageName": "emacs-lisp-generator",
+	"description": "Enables AI to interact with Emacs by generating and executing Elisp code for buffer manipulation, text editing, and configuration changes without requiring users to write Elisp themselves.",
+	"url": "https://github.com/vivekhaldar/emacs-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Emacs MCP Server"
 }

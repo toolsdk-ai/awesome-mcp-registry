@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "server-dice-roll",
-  "description": "Provides cryptographically secure dice rolling with standard notation and Fate/Fudge dice support for tabletop RPGs and games requiring reliable random number generation.",
-  "url": "https://github.com/lpbayliss/server-dice-roll",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Server Dice Roll"
+	"type": "mcp-server",
+	"packageName": "server-dice-roll",
+	"description": "Provides cryptographically secure dice rolling with standard notation and Fate/Fudge dice support for tabletop RPGs and games requiring reliable random number generation.",
+	"url": "https://github.com/lpbayliss/server-dice-roll",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Server Dice Roll"
 }

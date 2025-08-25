@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "rami-levy",
-  "description": "Provides a bridge to the Rami Levy online grocery shopping platform in Israel, enabling product searches, shopping cart management, and checkout functionality through TypeScript-based API integration.",
-  "url": "https://github.com/shilomagen/rami-levy-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Rami Levy MCP"
+	"type": "mcp-server",
+	"packageName": "rami-levy",
+	"description": "Provides a bridge to the Rami Levy online grocery shopping platform in Israel, enabling product searches, shopping cart management, and checkout functionality through TypeScript-based API integration.",
+	"url": "https://github.com/shilomagen/rami-levy-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Rami Levy MCP"
 }

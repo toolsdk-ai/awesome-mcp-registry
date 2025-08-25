@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-neovim-server",
-  "description": "Integrates Claude Desktop with Neovim, enabling AI-enhanced coding assistance within the familiar Vim environment through direct interaction with buffers and commands.",
-  "url": "https://github.com/bigcodegen/mcp-neovim-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "ALLOW_SHELL_COMMANDS": {
-      "description": "true",
-      "required": true
-    },
-    "NVIM_SOCKET_PATH": {
-      "description": "/tmp/nvim",
-      "required": true
-    }
-  },
-  "name": "Neovim MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-neovim-server",
+	"description": "Integrates Claude Desktop with Neovim, enabling AI-enhanced coding assistance within the familiar Vim environment through direct interaction with buffers and commands.",
+	"url": "https://github.com/bigcodegen/mcp-neovim-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"ALLOW_SHELL_COMMANDS": {
+			"description": "true",
+			"required": true
+		},
+		"NVIM_SOCKET_PATH": {
+			"description": "/tmp/nvim",
+			"required": true
+		}
+	},
+	"name": "Neovim MCP Server"
 }

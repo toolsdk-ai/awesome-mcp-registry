@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-dingding-bot",
-  "description": "Integrates with DingDing (Dingtalk) to enable sending text and markdown messages to group chats through custom robot webhooks, supporting user mentions and formatted content for automated notification workflows.",
-  "url": "https://github.com/shawyeok/mcp-dingding-bot",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "DingDing Bot MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-dingding-bot",
+	"description": "Integrates with DingDing (Dingtalk) to enable sending text and markdown messages to group chats through custom robot webhooks, supporting user mentions and formatted content for automated notification workflows.",
+	"url": "https://github.com/shawyeok/mcp-dingding-bot",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "DingDing Bot MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "apex-(twitter)",
-  "description": "Integrates with X (Twitter) through Apex's social media infrastructure to enable tweet retrieval, search operations, reply generation, content posting, and direct reply management without requiring Twitter API keys.",
-  "url": "https://github.com/xonack/apex-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Apex MCP"
+	"type": "mcp-server",
+	"packageName": "apex-(twitter)",
+	"description": "Integrates with X (Twitter) through Apex's social media infrastructure to enable tweet retrieval, search operations, reply generation, content posting, and direct reply management without requiring Twitter API keys.",
+	"url": "https://github.com/xonack/apex-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Apex MCP"
 }

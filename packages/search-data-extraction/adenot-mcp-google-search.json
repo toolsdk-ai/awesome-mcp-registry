@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@adenot/mcp-google-search",
-  "description": "Integrates Google Custom Search API to enable web searches for fact-checking, research, and content generation tasks.",
-  "url": "https://github.com/adenot/mcp-google-search",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "GOOGLE_API_KEY": {
-      "description": "your-api-key-here",
-      "required": true
-    },
-    "GOOGLE_SEARCH_ENGINE_ID": {
-      "description": "your-search-engine-id-here",
-      "required": true
-    }
-  },
-  "name": "Google Search MCP"
+	"type": "mcp-server",
+	"packageName": "@adenot/mcp-google-search",
+	"description": "Integrates Google Custom Search API to enable web searches for fact-checking, research, and content generation tasks.",
+	"url": "https://github.com/adenot/mcp-google-search",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"GOOGLE_API_KEY": {
+			"description": "your-api-key-here",
+			"required": true
+		},
+		"GOOGLE_SEARCH_ENGINE_ID": {
+			"description": "your-search-engine-id-here",
+			"required": true
+		}
+	},
+	"name": "Google Search MCP"
 }

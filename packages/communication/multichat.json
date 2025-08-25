@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "multichat",
-  "description": "Enables parallel communication with multiple unichat-based servers, allowing users to query different language models simultaneously and compare their responses through organized message routing and storage.",
-  "url": "https://github.com/kurror/mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Multichat MCP Server"
+	"type": "mcp-server",
+	"packageName": "multichat",
+	"description": "Enables parallel communication with multiple unichat-based servers, allowing users to query different language models simultaneously and compare their responses through organized message routing and storage.",
+	"url": "https://github.com/kurror/mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Multichat MCP Server"
 }

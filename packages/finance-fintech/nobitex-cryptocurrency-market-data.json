@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nobitex-cryptocurrency-market-data",
-  "description": "Provides real-time cryptocurrency market data from Nobitex exchange, enabling users to access current prices, trading statistics, and overall market information for informed trading decisions.",
-  "url": "https://github.com/xmannii/nobitex-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Nobitex MCP Server"
+	"type": "mcp-server",
+	"packageName": "nobitex-cryptocurrency-market-data",
+	"description": "Provides real-time cryptocurrency market data from Nobitex exchange, enabling users to access current prices, trading statistics, and overall market information for informed trading decisions.",
+	"url": "https://github.com/xmannii/nobitex-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Nobitex MCP Server"
 }

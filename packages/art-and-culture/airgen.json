@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "airgen",
-  "description": "Generates visual assets like images, logos, icons, and SVGs using OpenAI's DALL-E models, providing designers and developers with a streamlined tool for intelligent asset creation across various styles and sizes.",
-  "url": "https://github.com/ricardolx/airgen-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Airgen MCP"
+	"type": "mcp-server",
+	"packageName": "airgen",
+	"description": "Generates visual assets like images, logos, icons, and SVGs using OpenAI's DALL-E models, providing designers and developers with a streamlined tool for intelligent asset creation across various styles and sizes.",
+	"url": "https://github.com/ricardolx/airgen-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Airgen MCP"
 }

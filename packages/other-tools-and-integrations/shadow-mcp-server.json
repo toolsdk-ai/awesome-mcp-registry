@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "shadow-mcp-server",
-  "description": "Standalone MCP server executable for Windows, macOS, and other platforms that uses JavaScript configuration files to define resources, tools, and prompts without requiring Node.js installation.",
-  "url": "https://github.com/shadowcz007/mcp_server_exe",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Shadow MCP Server"
+	"type": "mcp-server",
+	"packageName": "shadow-mcp-server",
+	"description": "Standalone MCP server executable for Windows, macOS, and other platforms that uses JavaScript configuration files to define resources, tools, and prompts without requiring Node.js installation.",
+	"url": "https://github.com/shadowcz007/mcp_server_exe",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Shadow MCP Server"
 }

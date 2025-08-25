@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "zoomeye",
-  "description": "Integrates with ZoomEye API to enable network asset reconnaissance through specialized search tools, supporting dork queries, IP filtering, and field selection with built-in caching and error handling for cybersecurity workflows.",
-  "url": "https://github.com/zoomeye-ai/mcp_zoomeye",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "ZoomEye MCP"
+	"type": "mcp-server",
+	"packageName": "zoomeye",
+	"description": "Integrates with ZoomEye API to enable network asset reconnaissance through specialized search tools, supporting dork queries, IP filtering, and field selection with built-in caching and error handling for cybersecurity workflows.",
+	"url": "https://github.com/zoomeye-ai/mcp_zoomeye",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "ZoomEye MCP"
 }

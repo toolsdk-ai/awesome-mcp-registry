@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "git-pr",
-  "description": "Provides Git repository management and GitHub pull request automation through dual workflows for analyzing existing repositories and creating complete PR workflows with temporary repository management, branch creation, file operations, and automated cleanup.",
-  "url": "https://github.com/peterj/git-pr-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Git PR MCP"
+	"type": "mcp-server",
+	"packageName": "git-pr",
+	"description": "Provides Git repository management and GitHub pull request automation through dual workflows for analyzing existing repositories and creating complete PR workflows with temporary repository management, branch creation, file operations, and automated cleanup.",
+	"url": "https://github.com/peterj/git-pr-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Git PR MCP"
 }

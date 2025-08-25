@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "arxiv-mcp-server",
-  "description": "Search and analyze academic papers from the arXiv repository.",
-  "url": "https://github.com/blazickjp/arxiv-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Arxiv MCP Server"
+	"type": "mcp-server",
+	"packageName": "arxiv-mcp-server",
+	"description": "Search and analyze academic papers from the arXiv repository.",
+	"url": "https://github.com/blazickjp/arxiv-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Arxiv MCP Server"
 }

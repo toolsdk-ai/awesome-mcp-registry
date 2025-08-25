@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "xcodemcp",
-  "description": "Automates Xcode build processes and project management through JavaScript for Automation scripts, enabling project opening, building with specific schemes and destinations, test execution, debugging, and intelligent build log analysis with error reporting.",
-  "url": "https://github.com/lapfelix/xcodemcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "LOG_LEVEL": {
-      "description": "INFO",
-      "required": true
-    }
-  },
-  "name": "xcodemcp"
+	"type": "mcp-server",
+	"packageName": "xcodemcp",
+	"description": "Automates Xcode build processes and project management through JavaScript for Automation scripts, enabling project opening, building with specific schemes and destinations, test execution, debugging, and intelligent build log analysis with error reporting.",
+	"url": "https://github.com/lapfelix/xcodemcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"LOG_LEVEL": {
+			"description": "INFO",
+			"required": true
+		}
+	},
+	"name": "xcodemcp"
 }

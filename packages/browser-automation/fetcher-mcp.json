@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "fetcher-mcp",
-  "description": "Fetches and extracts web content using Playwright's headless browser capabilities, delivering clean, readable content from JavaScript-heavy websites in HTML or Markdown format for research and information gathering.",
-  "url": "https://github.com/jae-jae/fetcher-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Fetcher MCP"
+	"type": "mcp-server",
+	"packageName": "fetcher-mcp",
+	"description": "Fetches and extracts web content using Playwright's headless browser capabilities, delivering clean, readable content from JavaScript-heavy websites in HTML or Markdown format for research and information gathering.",
+	"url": "https://github.com/jae-jae/fetcher-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Fetcher MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "fetch-browser",
-  "description": "Fetch Browser enables headless web content retrieval and Google searching without API keys, supporting multiple output formats for web scraping and content analysis tasks.",
-  "url": "https://github.com/thesethrose/fetch-browser",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Fetch Browser"
+	"type": "mcp-server",
+	"packageName": "fetch-browser",
+	"description": "Fetch Browser enables headless web content retrieval and Google searching without API keys, supporting multiple output formats for web scraping and content analysis tasks.",
+	"url": "https://github.com/thesethrose/fetch-browser",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Fetch Browser"
 }

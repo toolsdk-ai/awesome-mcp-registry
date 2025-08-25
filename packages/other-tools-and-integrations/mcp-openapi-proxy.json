@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-openapi-proxy",
-  "description": "Dynamically exposes REST APIs defined by OpenAPI specifications as MCP tools, enabling seamless integration of external services into workflows.",
-  "url": "https://github.com/matthewhand/mcp-openapi-proxy",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "OpenAPI Proxy MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-openapi-proxy",
+	"description": "Dynamically exposes REST APIs defined by OpenAPI specifications as MCP tools, enabling seamless integration of external services into workflows.",
+	"url": "https://github.com/matthewhand/mcp-openapi-proxy",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "OpenAPI Proxy MCP"
 }

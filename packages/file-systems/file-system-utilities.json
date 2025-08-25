@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "file-system-utilities",
-  "description": "Provides a set of file system utilities for executing shell commands, displaying file contents, searching with regex, and writing to files through a Go-based server that communicates via stdio transport.",
-  "url": "https://github.com/da-snap/mcp-server-developer-tool",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Server Developer Tool"
+	"type": "mcp-server",
+	"packageName": "file-system-utilities",
+	"description": "Provides a set of file system utilities for executing shell commands, displaying file contents, searching with regex, and writing to files through a Go-based server that communicates via stdio transport.",
+	"url": "https://github.com/da-snap/mcp-server-developer-tool",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Server Developer Tool"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "statsource-analytics",
-  "description": "Integrates with statistical and machine learning tools to perform data analysis, calculations, and time-series forecasting on user data from various sources including CSV files and databases.",
-  "url": "https://github.com/jamie7893/statsource-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Statsource MCP"
+	"type": "mcp-server",
+	"packageName": "statsource-analytics",
+	"description": "Integrates with statistical and machine learning tools to perform data analysis, calculations, and time-series forecasting on user data from various sources including CSV files and databases.",
+	"url": "https://github.com/jamie7893/statsource-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Statsource MCP"
 }

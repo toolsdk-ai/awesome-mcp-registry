@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "matlab",
-  "description": "Integrates with MATLAB to execute code, generate scripts from natural language, and access documentation, enabling complex mathematical operations and data analysis using MATLAB's toolsets.",
-  "url": "https://github.com/williamcloudqi/matlab-mcp-server",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Matlab MCP Server"
+	"type": "mcp-server",
+	"packageName": "matlab",
+	"description": "Integrates with MATLAB to execute code, generate scripts from natural language, and access documentation, enabling complex mathematical operations and data analysis using MATLAB's toolsets.",
+	"url": "https://github.com/williamcloudqi/matlab-mcp-server",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Matlab MCP Server"
 }

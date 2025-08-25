@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "targetprocess",
-  "description": "Integrates with Targetprocess to enable searching, retrieving, creating, and updating project management entities for enhanced agile workflows and task tracking.",
-  "url": "https://github.com/aaronsb/apptio-target-process-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Apptio Target Process MCP"
+	"type": "mcp-server",
+	"packageName": "targetprocess",
+	"description": "Integrates with Targetprocess to enable searching, retrieving, creating, and updating project management entities for enhanced agile workflows and task tracking.",
+	"url": "https://github.com/aaronsb/apptio-target-process-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Apptio Target Process MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "keboola-explorer",
-  "description": "Integrates with Keboola Connection to enable data exploration, project management, and automated reporting tasks using simplified Storage API interactions.",
-  "url": "https://github.com/keboola/mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Keboola MCP Server"
+	"type": "mcp-server",
+	"packageName": "keboola-explorer",
+	"description": "Integrates with Keboola Connection to enable data exploration, project management, and automated reporting tasks using simplified Storage API interactions.",
+	"url": "https://github.com/keboola/mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Keboola MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "consul",
-  "description": "Provides a bridge to HashiCorp Consul for service discovery, health checks, key-value operations, and configuration management without leaving your assistant environment.",
-  "url": "https://github.com/kocierik/consul-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Consul MCP Server"
+	"type": "mcp-server",
+	"packageName": "consul",
+	"description": "Provides a bridge to HashiCorp Consul for service discovery, health checks, key-value operations, and configuration management without leaving your assistant environment.",
+	"url": "https://github.com/kocierik/consul-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Consul MCP Server"
 }

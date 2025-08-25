@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "llm_bridge_mcp",
-  "description": "Provides a unified interface to multiple large language model providers (OpenAI, Anthropic, Google, DeepSeek) through a containerized server with customizable parameters for seamless model switching within applications.",
-  "url": "https://github.com/sjquant/llm-bridge-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "LLM Bridge MCP"
+	"type": "mcp-server",
+	"packageName": "llm_bridge_mcp",
+	"description": "Provides a unified interface to multiple large language model providers (OpenAI, Anthropic, Google, DeepSeek) through a containerized server with customizable parameters for seamless model switching within applications.",
+	"url": "https://github.com/sjquant/llm-bridge-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "LLM Bridge MCP"
 }

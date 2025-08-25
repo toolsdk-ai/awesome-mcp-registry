@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "deutsche-bahn-timetable",
-  "description": "Connects to Deutsche Bahn timetable API for retrieving real-time railway information, planned schedules, recent changes, and station searches across Germany's rail network.",
-  "url": "https://github.com/jorekai/db-timetable-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "DB Timetable MCP"
+	"type": "mcp-server",
+	"packageName": "deutsche-bahn-timetable",
+	"description": "Connects to Deutsche Bahn timetable API for retrieving real-time railway information, planned schedules, recent changes, and station searches across Germany's rail network.",
+	"url": "https://github.com/jorekai/db-timetable-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "DB Timetable MCP"
 }

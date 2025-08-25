@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "buildkite",
-  "description": "Integrates with Buildkite's CI/CD platform, enabling access to pipeline details, build information, job logs, artifacts, and user data for monitoring workflows and troubleshooting builds.",
-  "url": "https://github.com/buildkite/buildkite-mcp-server",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "Buildkite MCP Server"
+	"type": "mcp-server",
+	"packageName": "buildkite",
+	"description": "Integrates with Buildkite's CI/CD platform, enabling access to pipeline details, build information, job logs, artifacts, and user data for monitoring workflows and troubleshooting builds.",
+	"url": "https://github.com/buildkite/buildkite-mcp-server",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "Buildkite MCP Server"
 }

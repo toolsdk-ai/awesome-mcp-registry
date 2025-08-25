@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "find-files-mcp",
-  "description": "Powerful file search tool that enables wildcard patterns, attribute filtering, and content searching across multiple directories, returning detailed file information including path, size, dates, and MIME type.",
-  "url": "https://github.com/thuhoai27/find-files-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Find Files MCP"
+	"type": "mcp-server",
+	"packageName": "find-files-mcp",
+	"description": "Powerful file search tool that enables wildcard patterns, attribute filtering, and content searching across multiple directories, returning detailed file information including path, size, dates, and MIME type.",
+	"url": "https://github.com/thuhoai27/find-files-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Find Files MCP"
 }

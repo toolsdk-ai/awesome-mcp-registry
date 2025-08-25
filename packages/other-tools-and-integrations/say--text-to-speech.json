@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "say-(text-to-speech)",
-  "description": "Provides text-to-speech capabilities through both native system voices and ElevenLabs integration, enabling vocalization of responses without leaving the conversation interface.",
-  "url": "https://github.com/blacktop/mcp-tts",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "MCP TTS"
+	"type": "mcp-server",
+	"packageName": "say-(text-to-speech)",
+	"description": "Provides text-to-speech capabilities through both native system voices and ElevenLabs integration, enabling vocalization of responses without leaving the conversation interface.",
+	"url": "https://github.com/blacktop/mcp-tts",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "MCP TTS"
 }

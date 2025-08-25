@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "linkedin-data-api",
-  "description": "Integrates with LinkedIn Data API to fetch, analyze, and search posts by username, keywords, date ranges, and engagement metrics for social media analysis and content strategy development.",
-  "url": "https://github.com/rugvedp/linkedin-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "LinkedIn MCP"
+	"type": "mcp-server",
+	"packageName": "linkedin-data-api",
+	"description": "Integrates with LinkedIn Data API to fetch, analyze, and search posts by username, keywords, date ranges, and engagement metrics for social media analysis and content strategy development.",
+	"url": "https://github.com/rugvedp/linkedin-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "LinkedIn MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "command-security-layer",
-  "description": "Implements a robust security layer for command processing, utilizing multi-step verification and auditing to enable high-security use cases like critical infrastructure management.",
-  "url": "https://github.com/andrew-beniash/mcp-command-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Command Security Layer MCP Server"
+	"type": "mcp-server",
+	"packageName": "command-security-layer",
+	"description": "Implements a robust security layer for command processing, utilizing multi-step verification and auditing to enable high-security use cases like critical infrastructure management.",
+	"url": "https://github.com/andrew-beniash/mcp-command-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Command Security Layer MCP Server"
 }

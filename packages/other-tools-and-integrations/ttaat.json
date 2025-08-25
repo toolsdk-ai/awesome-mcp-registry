@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ttaat",
-  "description": "Hosts an interactive 'Two Truths and a Twist' trivia game that manages rounds, tracks player scores, and provides tools for creating trivia content, submitting guesses, and revealing answers with explanations.",
-  "url": "https://github.com/ergodiclabs/twotruthsandatwist",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Two Truths and a Twist"
+	"type": "mcp-server",
+	"packageName": "ttaat",
+	"description": "Hosts an interactive 'Two Truths and a Twist' trivia game that manages rounds, tracks player scores, and provides tools for creating trivia content, submitting guesses, and revealing answers with explanations.",
+	"url": "https://github.com/ergodiclabs/twotruthsandatwist",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Two Truths and a Twist"
 }

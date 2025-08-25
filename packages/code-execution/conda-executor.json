@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "conda-executor",
-  "description": "Executes Python code within isolated Conda environments, enabling secure and flexible code generation and execution for tasks like data analysis and algorithm testing.",
-  "url": "https://github.com/bazinga012/mcp_code_executor",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Code Executor"
+	"type": "mcp-server",
+	"packageName": "conda-executor",
+	"description": "Executes Python code within isolated Conda environments, enabling secure and flexible code generation and execution for tasks like data analysis and algorithm testing.",
+	"url": "https://github.com/bazinga012/mcp_code_executor",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Code Executor"
 }

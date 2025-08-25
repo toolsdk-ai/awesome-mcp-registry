@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@coderide/mcp",
-  "description": "Integrates with CodeRide's task management platform to provide project retrieval, task operations, prompt extraction, and project initialization with knowledge graphs and Mermaid diagrams for development workflows.",
-  "url": "https://github.com/pixdataorg/coderide-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "CODERIDE_API_KEY": {
-      "description": "YOUR_CODERIDE_API_KEY_HERE",
-      "required": true
-    }
-  },
-  "name": "CodeRide MCP"
+	"type": "mcp-server",
+	"packageName": "@coderide/mcp",
+	"description": "Integrates with CodeRide's task management platform to provide project retrieval, task operations, prompt extraction, and project initialization with knowledge graphs and Mermaid diagrams for development workflows.",
+	"url": "https://github.com/pixdataorg/coderide-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"CODERIDE_API_KEY": {
+			"description": "YOUR_CODERIDE_API_KEY_HERE",
+			"required": true
+		}
+	},
+	"name": "CodeRide MCP"
 }

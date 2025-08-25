@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@buouui/supaui-mcp",
-  "description": "Enables React UI component generation, fetching, and management through natural language interactions on the buouui.com platform, leveraging TypeScript and developer-focused design workflows.",
-  "url": "https://github.com/buoooou/mcp-ui-gen",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP UI Gen"
+	"type": "mcp-server",
+	"packageName": "@buouui/supaui-mcp",
+	"description": "Enables React UI component generation, fetching, and management through natural language interactions on the buouui.com platform, leveraging TypeScript and developer-focused design workflows.",
+	"url": "https://github.com/buoooou/mcp-ui-gen",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP UI Gen"
 }

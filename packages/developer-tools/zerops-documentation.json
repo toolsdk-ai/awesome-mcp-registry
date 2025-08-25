@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "zerops-documentation",
-  "description": "Indexes and serves Zerops documentation content for direct access within development environments, enabling developers to search and retrieve relevant information without context switching.",
-  "url": "https://github.com/nermalcat69/zerops-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Zerops MCP"
+	"type": "mcp-server",
+	"packageName": "zerops-documentation",
+	"description": "Indexes and serves Zerops documentation content for direct access within development environments, enabling developers to search and retrieve relevant information without context switching.",
+	"url": "https://github.com/nermalcat69/zerops-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Zerops MCP"
 }

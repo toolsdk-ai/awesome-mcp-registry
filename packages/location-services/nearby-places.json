@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nearby-places",
-  "description": "Integrates with Google Places API to provide location-based place discovery using IP-based detection, enabling users to find nearby businesses, restaurants, or services without manually entering coordinates.",
-  "url": "https://github.com/kukapay/nearby-search-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Nearby Search MCP"
+	"type": "mcp-server",
+	"packageName": "nearby-places",
+	"description": "Integrates with Google Places API to provide location-based place discovery using IP-based detection, enabling users to find nearby businesses, restaurants, or services without manually entering coordinates.",
+	"url": "https://github.com/kukapay/nearby-search-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Nearby Search MCP"
 }

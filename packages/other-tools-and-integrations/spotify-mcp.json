@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "spotify-mcp",
-  "description": "Integrates with Spotify's API to control music playback, search for content, get detailed information, and manage queues directly within conversations.",
-  "url": "https://github.com/boristopalov/spotify-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Spotify MCP"
+	"type": "mcp-server",
+	"packageName": "spotify-mcp",
+	"description": "Integrates with Spotify's API to control music playback, search for content, get detailed information, and manage queues directly within conversations.",
+	"url": "https://github.com/boristopalov/spotify-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Spotify MCP"
 }

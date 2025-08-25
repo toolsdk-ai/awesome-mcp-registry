@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "national-weather-service",
-  "description": "Integrates with the National Weather Service API to provide real-time weather alerts and detailed forecasts for US locations using latitude and longitude coordinates.",
-  "url": "https://github.com/jackkuo666/weather-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Weather MCP Server"
+	"type": "mcp-server",
+	"packageName": "national-weather-service",
+	"description": "Integrates with the National Weather Service API to provide real-time weather alerts and detailed forecasts for US locations using latitude and longitude coordinates.",
+	"url": "https://github.com/jackkuo666/weather-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Weather MCP Server"
 }

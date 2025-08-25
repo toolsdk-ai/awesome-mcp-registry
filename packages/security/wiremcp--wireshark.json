@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "wiremcp-(wireshark)",
-  "description": "Empowers network analysis with real-time traffic monitoring capabilities through Wireshark's tshark utility, providing tools for packet capture, protocol statistics, conversation tracking, and threat detection.",
-  "url": "https://github.com/0xkoda/wiremcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "WireMCP"
+	"type": "mcp-server",
+	"packageName": "wiremcp-(wireshark)",
+	"description": "Empowers network analysis with real-time traffic monitoring capabilities through Wireshark's tshark utility, providing tools for packet capture, protocol statistics, conversation tracking, and threat detection.",
+	"url": "https://github.com/0xkoda/wiremcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "WireMCP"
 }

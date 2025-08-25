@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nodemcu",
-  "description": "Enables remote management and monitoring of ESP8266-based IoT devices through WebSocket connections and REST API endpoints for smart home automation, environmental monitoring, and device fleet management.",
-  "url": "https://github.com/amanasmuei/mcp-server-nodemcu",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Server NodeMCU"
+	"type": "mcp-server",
+	"packageName": "nodemcu",
+	"description": "Enables remote management and monitoring of ESP8266-based IoT devices through WebSocket connections and REST API endpoints for smart home automation, environmental monitoring, and device fleet management.",
+	"url": "https://github.com/amanasmuei/mcp-server-nodemcu",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Server NodeMCU"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "scrapbox",
-  "description": "Integrates with Scrapbox to retrieve page content, enabling incorporation of collaborative note-taking and knowledge management data into workflows",
-  "url": "https://github.com/yuheinakasaka/scrapbox-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Scrapbox MCP"
+	"type": "mcp-server",
+	"packageName": "scrapbox",
+	"description": "Integrates with Scrapbox to retrieve page content, enabling incorporation of collaborative note-taking and knowledge management data into workflows",
+	"url": "https://github.com/yuheinakasaka/scrapbox-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Scrapbox MCP"
 }

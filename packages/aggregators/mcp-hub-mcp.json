@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-hub-mcp",
-  "description": "Centralizes multiple MCP servers into a unified hub, enabling seamless tool discovery and routing across specialized servers for complex workflows without managing individual connections.",
-  "url": "https://github.com/warpdev/mcp-hub-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Hub MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-hub-mcp",
+	"description": "Centralizes multiple MCP servers into a unified hub, enabling seamless tool discovery and routing across specialized servers for complex workflows without managing individual connections.",
+	"url": "https://github.com/warpdev/mcp-hub-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Hub MCP"
 }

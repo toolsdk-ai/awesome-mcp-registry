@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "shell-history",
-  "description": "Powerful shell command history exploration tool that allows searching, retrieving, and programmatically accessing past shell commands across different environments like Bash and Zsh.",
-  "url": "https://github.com/rajpdus/mcp-histfile",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Histfile"
+	"type": "mcp-server",
+	"packageName": "shell-history",
+	"description": "Powerful shell command history exploration tool that allows searching, retrieving, and programmatically accessing past shell commands across different environments like Bash and Zsh.",
+	"url": "https://github.com/rajpdus/mcp-histfile",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Histfile"
 }

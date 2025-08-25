@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "perplexity",
-  "description": "Use Perplexity without any API keys",
-  "url": "https://github.com/wysh3/perplexity-mcp-zerver",
-  "runtime": "node",
-  "license": "gpl-3.0",
-  "env": {},
-  "name": "Perplexity MCP Server"
+	"type": "mcp-server",
+	"packageName": "perplexity",
+	"description": "Use Perplexity without any API keys",
+	"url": "https://github.com/wysh3/perplexity-mcp-zerver",
+	"runtime": "node",
+	"license": "gpl-3.0",
+	"env": {},
+	"name": "Perplexity MCP Server"
 }

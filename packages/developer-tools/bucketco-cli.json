@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@bucketco/cli",
-  "description": "Flag features directly from chat in your code editor, including VS Code, Cursor, Windsurf, Claude Code - any IDE with MCP support.",
-  "url": "https://github.com/bucketco/bucket-javascript-sdk/tree/HEAD/packages/cli",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Bucket CLI"
+	"type": "mcp-server",
+	"packageName": "@bucketco/cli",
+	"description": "Flag features directly from chat in your code editor, including VS Code, Cursor, Windsurf, Claude Code - any IDE with MCP support.",
+	"url": "https://github.com/bucketco/bucket-javascript-sdk/tree/HEAD/packages/cli",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Bucket CLI"
 }

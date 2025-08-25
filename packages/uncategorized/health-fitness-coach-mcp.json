@@ -1,35 +1,35 @@
 {
-  "type": "mcp-server",
-  "packageName": "health-fitness-coach-mcp",
-  "description": "A comprehensive AI-powered fitness tracking application that enables AI tools to interact intelligently with user fitness data, providing personalized workout plans, nutrition tracking, and progress analysis through natural language.",
-  "url": "https://github.com/Dinesh-Satram/fitness_coach_MCP",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "PORT": {
-      "description": "Custom port for development",
-      "required": true
-    },
-    "LOG_LEVEL": {
-      "description": "Logging level for debugging",
-      "required": true
-    },
-    "OPENAI_API_KEY": {
-      "description": "OpenAI API key for AI-generated fitness plans",
-      "required": true
-    },
-    "DEFAULT_USER_ID": {
-      "description": "Custom user ID for single-user setups",
-      "required": true
-    },
-    "UPSTASH_REDIS_REST_URL": {
-      "description": "Optional Redis URL for enhanced performance",
-      "required": true
-    },
-    "UPSTASH_REDIS_REST_TOKEN": {
-      "description": "Optional Redis token for enhanced performance",
-      "required": true
-    }
-  },
-  "name": "Fitness Coach MCP"
+	"type": "mcp-server",
+	"packageName": "health-fitness-coach-mcp",
+	"description": "A comprehensive AI-powered fitness tracking application that enables AI tools to interact intelligently with user fitness data, providing personalized workout plans, nutrition tracking, and progress analysis through natural language.",
+	"url": "https://github.com/Dinesh-Satram/fitness_coach_MCP",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"PORT": {
+			"description": "Custom port for development",
+			"required": true
+		},
+		"LOG_LEVEL": {
+			"description": "Logging level for debugging",
+			"required": true
+		},
+		"OPENAI_API_KEY": {
+			"description": "OpenAI API key for AI-generated fitness plans",
+			"required": true
+		},
+		"DEFAULT_USER_ID": {
+			"description": "Custom user ID for single-user setups",
+			"required": true
+		},
+		"UPSTASH_REDIS_REST_URL": {
+			"description": "Optional Redis URL for enhanced performance",
+			"required": true
+		},
+		"UPSTASH_REDIS_REST_TOKEN": {
+			"description": "Optional Redis token for enhanced performance",
+			"required": true
+		}
+	},
+	"name": "Fitness Coach MCP"
 }

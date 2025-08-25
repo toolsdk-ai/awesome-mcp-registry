@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@felixallistar/coolify-mcp",
-  "description": "Integrates with Coolify's deployment platform to manage self-hosted applications, databases, and infrastructure including 110+ one-click services, 8 database types, server connectivity validation, and environment variable handling.",
-  "url": "https://github.com/felixallistar/coolify-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "COOLIFY_API_URL": {
-      "description": "https://your-coolify-instance.com",
-      "required": true
-    },
-    "COOLIFY_API_TOKEN": {
-      "description": "your-coolify-api-token",
-      "required": true
-    }
-  },
-  "name": "Coolify MCP"
+	"type": "mcp-server",
+	"packageName": "@felixallistar/coolify-mcp",
+	"description": "Integrates with Coolify's deployment platform to manage self-hosted applications, databases, and infrastructure including 110+ one-click services, 8 database types, server connectivity validation, and environment variable handling.",
+	"url": "https://github.com/felixallistar/coolify-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"COOLIFY_API_URL": {
+			"description": "https://your-coolify-instance.com",
+			"required": true
+		},
+		"COOLIFY_API_TOKEN": {
+			"description": "your-coolify-api-token",
+			"required": true
+		}
+	},
+	"name": "Coolify MCP"
 }

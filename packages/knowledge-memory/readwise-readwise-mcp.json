@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@readwise/readwise-mcp",
-  "description": "Integrates with Readwise to search and retrieve highlights from a user's library, enabling researchers and knowledge workers to reference saved notes during conversations without switching contexts.",
-  "url": "https://github.com/readwiseio/readwise-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "ACCESS_TOKEN": {
-      "description": "XXXXXXXXX",
-      "required": true
-    }
-  },
-  "name": "Readwise MCP"
+	"type": "mcp-server",
+	"packageName": "@readwise/readwise-mcp",
+	"description": "Integrates with Readwise to search and retrieve highlights from a user's library, enabling researchers and knowledge workers to reference saved notes during conversations without switching contexts.",
+	"url": "https://github.com/readwiseio/readwise-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"ACCESS_TOKEN": {
+			"description": "XXXXXXXXX",
+			"required": true
+		}
+	},
+	"name": "Readwise MCP"
 }

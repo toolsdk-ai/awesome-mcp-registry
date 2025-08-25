@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "haloscan-mcp-server",
-  "description": "A Model Context Protocol server that exposes Haloscan SEO API functionality, allowing users to access keyword insights, domain analysis, and competitor research through Claude for Desktop and other MCP-compatible clients.",
-  "url": "https://github.com/chouayb123/mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "HALOSCAN_API_KEY": {
-      "description": "Your Haloscan API key from the Configuration API page",
-      "required": true
-    }
-  },
-  "name": "Haloscan MCP Server"
+	"type": "mcp-server",
+	"packageName": "haloscan-mcp-server",
+	"description": "A Model Context Protocol server that exposes Haloscan SEO API functionality, allowing users to access keyword insights, domain analysis, and competitor research through Claude for Desktop and other MCP-compatible clients.",
+	"url": "https://github.com/chouayb123/mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"HALOSCAN_API_KEY": {
+			"description": "Your Haloscan API key from the Configuration API page",
+			"required": true
+		}
+	},
+	"name": "Haloscan MCP Server"
 }

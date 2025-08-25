@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "airylark-translation",
-  "description": "Provides multilingual translation capabilities for applications by integrating with external translation APIs through a containerized Node.js server.",
-  "url": "https://github.com/wizd/airylark-mcp-server",
-  "runtime": "node",
-  "license": "other",
-  "env": {},
-  "name": "Airylark MCP Server"
+	"type": "mcp-server",
+	"packageName": "airylark-translation",
+	"description": "Provides multilingual translation capabilities for applications by integrating with external translation APIs through a containerized Node.js server.",
+	"url": "https://github.com/wizd/airylark-mcp-server",
+	"runtime": "node",
+	"license": "other",
+	"env": {},
+	"name": "Airylark MCP Server"
 }

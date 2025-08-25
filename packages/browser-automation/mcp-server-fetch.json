@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-fetch",
-  "description": "Retrieve and convert web content to markdown for analysis.",
-  "url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/fetch",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Fetch MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-server-fetch",
+	"description": "Retrieve and convert web content to markdown for analysis.",
+	"url": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/fetch",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Fetch MCP Server"
 }

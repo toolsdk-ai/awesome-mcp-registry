@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sandbox-container",
-  "description": "Provides a secure, sandboxed environment for executing Python, Node.js, and shell commands in ephemeral containers with file management capabilities for code testing, visualization, and data analysis.",
-  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/sandbox-container",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Sandbox Container MCP Server"
+	"type": "mcp-server",
+	"packageName": "sandbox-container",
+	"description": "Provides a secure, sandboxed environment for executing Python, Node.js, and shell commands in ephemeral containers with file management capabilities for code testing, visualization, and data analysis.",
+	"url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/sandbox-container",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Sandbox Container MCP Server"
 }

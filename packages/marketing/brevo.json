@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "brevo",
-  "description": "Integrates with Brevo's email marketing and CRM platform to manage contacts, send transactional and campaign emails, handle SMS and WhatsApp messaging, manage deals and tasks, and automate customer communication workflows.",
-  "url": "https://github.com/samihalawa/brevo-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Brevo MCP"
+	"type": "mcp-server",
+	"packageName": "brevo",
+	"description": "Integrates with Brevo's email marketing and CRM platform to manage contacts, send transactional and campaign emails, handle SMS and WhatsApp messaging, manage deals and tasks, and automate customer communication workflows.",
+	"url": "https://github.com/samihalawa/brevo-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Brevo MCP"
 }

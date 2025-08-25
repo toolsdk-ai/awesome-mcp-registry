@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pollinations",
-  "description": "Provides text-to-audio API capabilities for dynamic audio generation through a TypeScript-based server implementation, enabling developers to create programmatic audio experiences.",
-  "url": "https://github.com/bendusy/pollinations-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Pollinations MCP"
+	"type": "mcp-server",
+	"packageName": "pollinations",
+	"description": "Provides text-to-audio API capabilities for dynamic audio generation through a TypeScript-based server implementation, enabling developers to create programmatic audio experiences.",
+	"url": "https://github.com/bendusy/pollinations-mcp",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Pollinations MCP"
 }

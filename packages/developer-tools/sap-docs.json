@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sap-docs",
-  "description": "Provides offline access to SAP documentation and community content with searchable indexes across SAPUI5, CAP, OpenUI5 API documentation, and real-time SAP Community integration for fast technical reference without web-based searches.",
-  "url": "https://github.com/marianfoo/mcp-sap-docs",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "SAP Docs MCP"
+	"type": "mcp-server",
+	"packageName": "sap-docs",
+	"description": "Provides offline access to SAP documentation and community content with searchable indexes across SAPUI5, CAP, OpenUI5 API documentation, and real-time SAP Community integration for fast technical reference without web-based searches.",
+	"url": "https://github.com/marianfoo/mcp-sap-docs",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "SAP Docs MCP"
 }

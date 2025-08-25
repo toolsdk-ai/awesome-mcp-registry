@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cloudwatch-logs",
-  "description": "Provides direct access to AWS CloudWatch logs with tools for listing log groups and retrieving filtered log entries through a Python-based server using FastMCP and boto3.",
-  "url": "https://github.com/serkanh/cloudwatch-logs-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "CloudWatch Logs MCP"
+	"type": "mcp-server",
+	"packageName": "cloudwatch-logs",
+	"description": "Provides direct access to AWS CloudWatch logs with tools for listing log groups and retrieving filtered log entries through a Python-based server using FastMCP and boto3.",
+	"url": "https://github.com/serkanh/cloudwatch-logs-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "CloudWatch Logs MCP"
 }

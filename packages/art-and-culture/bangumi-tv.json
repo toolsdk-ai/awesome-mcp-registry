@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bangumi-tv",
-  "description": "Integrates with Bangumi TV API to retrieve anime information, user data, and media details for tracking and discovering anime and manga collections",
-  "url": "https://github.com/ukenn2112/bangumimcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Bangumi MCP"
+	"type": "mcp-server",
+	"packageName": "bangumi-tv",
+	"description": "Integrates with Bangumi TV API to retrieve anime information, user data, and media details for tracking and discovering anime and manga collections",
+	"url": "https://github.com/ukenn2112/bangumimcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Bangumi MCP"
 }

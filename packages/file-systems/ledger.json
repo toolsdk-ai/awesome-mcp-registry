@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ledger",
-  "description": "Access and managing ledger files.",
-  "url": "https://github.com/mprokopov/ledger-mcp-server",
-  "runtime": "python",
-  "license": "gpl-3.0",
-  "env": {},
-  "name": "Ledger MCP Server"
+	"type": "mcp-server",
+	"packageName": "ledger",
+	"description": "Access and managing ledger files.",
+	"url": "https://github.com/mprokopov/ledger-mcp-server",
+	"runtime": "python",
+	"license": "gpl-3.0",
+	"env": {},
+	"name": "Ledger MCP Server"
 }

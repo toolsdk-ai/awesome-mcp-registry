@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "paradex",
-  "description": "Integrates with the Paradex perpetual futures trading platform, enabling market data retrieval, account management, order placement, and position monitoring for cryptocurrency trading workflows.",
-  "url": "https://github.com/sv/mcp-paradex-py",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Paradex MCP"
+	"type": "mcp-server",
+	"packageName": "paradex",
+	"description": "Integrates with the Paradex perpetual futures trading platform, enabling market data retrieval, account management, order placement, and position monitoring for cryptocurrency trading workflows.",
+	"url": "https://github.com/sv/mcp-paradex-py",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Paradex MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "plane-project-management",
-  "description": "Integrates with Plane project management to enable direct creation, updating, and management of projects and issues without switching contexts.",
-  "url": "https://github.com/deus-h/claudeus-plane-mcp",
-  "runtime": "node",
-  "license": "other",
-  "env": {},
-  "name": "Claudeus Plane MCP"
+	"type": "mcp-server",
+	"packageName": "plane-project-management",
+	"description": "Integrates with Plane project management to enable direct creation, updating, and management of projects and issues without switching contexts.",
+	"url": "https://github.com/deus-h/claudeus-plane-mcp",
+	"runtime": "node",
+	"license": "other",
+	"env": {},
+	"name": "Claudeus Plane MCP"
 }

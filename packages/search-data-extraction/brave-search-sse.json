@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "brave-search-sse",
-  "description": "Delivers real-time Brave Search results via Server-Sent Events (SSE), maintaining persistent connections for immediate display without polling requirements.",
-  "url": "https://github.com/isaacgounton/brave-search-mcp-sse",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Brave Search MCP SSE"
+	"type": "mcp-server",
+	"packageName": "brave-search-sse",
+	"description": "Delivers real-time Brave Search results via Server-Sent Events (SSE), maintaining persistent connections for immediate display without polling requirements.",
+	"url": "https://github.com/isaacgounton/brave-search-mcp-sse",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Brave Search MCP SSE"
 }

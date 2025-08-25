@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "atlassian",
-  "description": "Integrates with Atlassian's collaboration ecosystem, enabling developers to search, create, update, and manage Jira, Confluence, and Bitbucket issues through a flexible TypeScript-based implementation.",
-  "url": "https://github.com/solidus-/atlassian-cursor-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Atlassian Cursor MCP"
+	"type": "mcp-server",
+	"packageName": "atlassian",
+	"description": "Integrates with Atlassian's collaboration ecosystem, enabling developers to search, create, update, and manage Jira, Confluence, and Bitbucket issues through a flexible TypeScript-based implementation.",
+	"url": "https://github.com/solidus-/atlassian-cursor-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Atlassian Cursor MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ffmpeg-video-processor",
-  "description": "Enables video manipulation through FFmpeg, offering capabilities to resize videos to different resolutions and extract audio in various formats without leaving the conversation interface.",
-  "url": "https://github.com/bitscorp-mcp/mcp-ffmpeg",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "FFmpeg Video Processor MCP"
+	"type": "mcp-server",
+	"packageName": "ffmpeg-video-processor",
+	"description": "Enables video manipulation through FFmpeg, offering capabilities to resize videos to different resolutions and extract audio in various formats without leaving the conversation interface.",
+	"url": "https://github.com/bitscorp-mcp/mcp-ffmpeg",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "FFmpeg Video Processor MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pubmed-searcher",
-  "description": "Search, retrieve, and analyze scientific literature from PubMed with capabilities for identifying research trends and generating statistical reports.",
-  "url": "https://github.com/darkroaster/pubmearch",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "PubMed Searcher"
+	"type": "mcp-server",
+	"packageName": "pubmed-searcher",
+	"description": "Search, retrieve, and analyze scientific literature from PubMed with capabilities for identifying research trends and generating statistical reports.",
+	"url": "https://github.com/darkroaster/pubmearch",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "PubMed Searcher"
 }

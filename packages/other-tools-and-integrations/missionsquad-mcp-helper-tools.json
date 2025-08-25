@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@missionsquad/mcp-helper-tools",
-  "description": "Provides utility functions for encoding/decoding, geolocation, cryptography, QR code generation, and timezone conversions with intelligent caching and rate limiting for optimized external API access.",
-  "url": "https://github.com/missionsquad/mcp-helper-tools",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "NODE_ENV": {
-      "description": "production",
-      "required": true
-    }
-  },
-  "name": "MCP Helper Tools"
+	"type": "mcp-server",
+	"packageName": "@missionsquad/mcp-helper-tools",
+	"description": "Provides utility functions for encoding/decoding, geolocation, cryptography, QR code generation, and timezone conversions with intelligent caching and rate limiting for optimized external API access.",
+	"url": "https://github.com/missionsquad/mcp-helper-tools",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"NODE_ENV": {
+			"description": "production",
+			"required": true
+		}
+	},
+	"name": "MCP Helper Tools"
 }

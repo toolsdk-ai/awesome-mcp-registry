@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "zkproof",
-  "description": "Enables privacy-preserving computations with zero-knowledge proofs for verifying claims like age requirements without revealing sensitive personal data",
-  "url": "https://github.com/colygon/zkpmcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "zkproof MCP"
+	"type": "mcp-server",
+	"packageName": "zkproof",
+	"description": "Enables privacy-preserving computations with zero-knowledge proofs for verifying claims like age requirements without revealing sensitive personal data",
+	"url": "https://github.com/colygon/zkpmcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "zkproof MCP"
 }

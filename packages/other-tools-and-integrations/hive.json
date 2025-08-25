@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hive",
-  "description": "Integrates with the Hive blockchain to enable querying data, posting content, and managing accounts for content creation, social media automation, and blockchain analysis tasks.",
-  "url": "https://github.com/gluneau/hive-mcp-server",
-  "runtime": "node",
-  "license": "isc",
-  "env": {},
-  "name": "Hive MCP Server"
+	"type": "mcp-server",
+	"packageName": "hive",
+	"description": "Integrates with the Hive blockchain to enable querying data, posting content, and managing accounts for content creation, social media automation, and blockchain analysis tasks.",
+	"url": "https://github.com/gluneau/hive-mcp-server",
+	"runtime": "node",
+	"license": "isc",
+	"env": {},
+	"name": "Hive MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "figma",
-  "description": "Bridges AI systems with Figma's design platform, enabling file operations, node manipulation, comment management, and real-time canvas interactions through both REST API and WebSocket communication.",
-  "url": "https://github.com/sichang824/mcp-figma",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Figma MCP"
+	"type": "mcp-server",
+	"packageName": "figma",
+	"description": "Bridges AI systems with Figma's design platform, enabling file operations, node manipulation, comment management, and real-time canvas interactions through both REST API and WebSocket communication.",
+	"url": "https://github.com/sichang824/mcp-figma",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Figma MCP"
 }

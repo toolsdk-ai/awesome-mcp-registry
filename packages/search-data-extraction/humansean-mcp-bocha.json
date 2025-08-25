@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@humansean/mcp-bocha",
-  "description": "Enables AI to perform web searches with customizable parameters including freshness filters, domain controls, and result summarization for retrieving up-to-date information from the internet.",
-  "url": "https://github.com/intounknown/mcp-bocha",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "BOCHA_API_KEY": {
-      "description": "YOUR_API_KEY",
-      "required": true
-    }
-  },
-  "name": "Bocha MCP Server"
+	"type": "mcp-server",
+	"packageName": "@humansean/mcp-bocha",
+	"description": "Enables AI to perform web searches with customizable parameters including freshness filters, domain controls, and result summarization for retrieving up-to-date information from the internet.",
+	"url": "https://github.com/intounknown/mcp-bocha",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"BOCHA_API_KEY": {
+			"description": "YOUR_API_KEY",
+			"required": true
+		}
+	},
+	"name": "Bocha MCP Server"
 }

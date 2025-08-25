@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "o'reilly-learning-platform",
-  "description": "Integrates with O'Reilly's learning platform API to search and retrieve technical content from their extensive library, returning structured metadata including titles, authors, ratings, and URLs.",
-  "url": "https://github.com/odewahn/orm-discovery-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "ORM Discovery MCP"
+	"type": "mcp-server",
+	"packageName": "o'reilly-learning-platform",
+	"description": "Integrates with O'Reilly's learning platform API to search and retrieve technical content from their extensive library, returning structured metadata including titles, authors, ratings, and URLs.",
+	"url": "https://github.com/odewahn/orm-discovery-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "ORM Discovery MCP"
 }

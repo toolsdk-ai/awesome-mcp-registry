@@ -1,27 +1,27 @@
 {
-  "type": "mcp-server",
-  "packageName": "@delorenj/mcp-qdrant-memory",
-  "description": "Integrates a knowledge graph with semantic search capabilities, enabling efficient storage, retrieval, and querying of structured information for context-aware applications.",
-  "url": "https://github.com/delorenj/mcp-qdrant-memory",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "OPENAI_API_KEY": {
-      "description": "your-openai-api-key",
-      "required": true
-    },
-    "QDRANT_API_KEY": {
-      "description": "your-qdrant-api-key",
-      "required": true
-    },
-    "QDRANT_URL": {
-      "description": "http://your-qdrant-server:6333",
-      "required": true
-    },
-    "QDRANT_COLLECTION_NAME": {
-      "description": "your-collection-name",
-      "required": true
-    }
-  },
-  "name": "MCP Qdrant Memory"
+	"type": "mcp-server",
+	"packageName": "@delorenj/mcp-qdrant-memory",
+	"description": "Integrates a knowledge graph with semantic search capabilities, enabling efficient storage, retrieval, and querying of structured information for context-aware applications.",
+	"url": "https://github.com/delorenj/mcp-qdrant-memory",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"OPENAI_API_KEY": {
+			"description": "your-openai-api-key",
+			"required": true
+		},
+		"QDRANT_API_KEY": {
+			"description": "your-qdrant-api-key",
+			"required": true
+		},
+		"QDRANT_URL": {
+			"description": "http://your-qdrant-server:6333",
+			"required": true
+		},
+		"QDRANT_COLLECTION_NAME": {
+			"description": "your-collection-name",
+			"required": true
+		}
+	},
+	"name": "MCP Qdrant Memory"
 }

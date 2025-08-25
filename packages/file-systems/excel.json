@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "excel",
-  "description": "Enables Excel file manipulation capabilities including workbook creation, data manipulation, formatting, charts, and pivot tables without requiring Microsoft Excel installation.",
-  "url": "https://github.com/fish0710/excel-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Excel MCP"
+	"type": "mcp-server",
+	"packageName": "excel",
+	"description": "Enables Excel file manipulation capabilities including workbook creation, data manipulation, formatting, charts, and pivot tables without requiring Microsoft Excel installation.",
+	"url": "https://github.com/fish0710/excel-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Excel MCP"
 }

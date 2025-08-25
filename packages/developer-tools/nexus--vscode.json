@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nexus-(vscode)",
-  "description": "Integrates Claude Desktop with VSCode, enabling file access and manipulation within specified workspace directories for seamless AI-assisted development workflows.",
-  "url": "https://github.com/wesnermichel/nexus-mcp-claude-desktop-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Nexus MCP Claude Desktop Server"
+	"type": "mcp-server",
+	"packageName": "nexus-(vscode)",
+	"description": "Integrates Claude Desktop with VSCode, enabling file access and manipulation within specified workspace directories for seamless AI-assisted development workflows.",
+	"url": "https://github.com/wesnermichel/nexus-mcp-claude-desktop-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Nexus MCP Claude Desktop Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "apache-doris",
-  "description": "Enables direct SQL query execution and metadata retrieval from Apache Doris databases without switching contexts.",
-  "url": "https://github.com/apache/doris-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Doris MCP Server"
+	"type": "mcp-server",
+	"packageName": "apache-doris",
+	"description": "Enables direct SQL query execution and metadata retrieval from Apache Doris databases without switching contexts.",
+	"url": "https://github.com/apache/doris-mcp-server",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Doris MCP Server"
 }

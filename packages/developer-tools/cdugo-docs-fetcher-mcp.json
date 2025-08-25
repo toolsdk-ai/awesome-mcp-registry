@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@cdugo/docs-fetcher-mcp",
-  "description": "Integrates with multiple package registries and documentation sources to provide up-to-date library information for code assistance, dependency analysis, and learning about new libraries.",
-  "url": "https://github.com/cdugo/package-documentation-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Package Documentation MCP"
+	"type": "mcp-server",
+	"packageName": "@cdugo/docs-fetcher-mcp",
+	"description": "Integrates with multiple package registries and documentation sources to provide up-to-date library information for code assistance, dependency analysis, and learning about new libraries.",
+	"url": "https://github.com/cdugo/package-documentation-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Package Documentation MCP"
 }

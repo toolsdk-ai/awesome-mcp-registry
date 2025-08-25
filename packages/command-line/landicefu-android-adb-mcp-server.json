@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@landicefu/android-adb-mcp-server",
-  "description": "Provides a bridge to Android devices through ADB, enabling device management, shell command execution, app installation, screenshot capture, and file transfer across connected Android devices.",
-  "url": "https://github.com/landicefu/android-adb-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Android ADB MCP Server"
+	"type": "mcp-server",
+	"packageName": "@landicefu/android-adb-mcp-server",
+	"description": "Provides a bridge to Android devices through ADB, enabling device management, shell command execution, app installation, screenshot capture, and file transfer across connected Android devices.",
+	"url": "https://github.com/landicefu/android-adb-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Android ADB MCP Server"
 }

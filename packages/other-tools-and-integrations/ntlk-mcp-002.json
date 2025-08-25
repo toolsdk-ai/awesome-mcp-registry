@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ntlk-mcp-002",
-  "description": "Provides a lightweight word-finding tool for word games, efficiently filtering and returning the longest valid word from a local corpus based on given letter constraints.",
-  "url": "https://github.com/kwen1510/mcp-nltk",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "NLTK MCP"
+	"type": "mcp-server",
+	"packageName": "ntlk-mcp-002",
+	"description": "Provides a lightweight word-finding tool for word games, efficiently filtering and returning the longest valid word from a local corpus based on given letter constraints.",
+	"url": "https://github.com/kwen1510/mcp-nltk",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "NLTK MCP"
 }

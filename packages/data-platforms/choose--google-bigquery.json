@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "choose-(google-bigquery)",
-  "description": "Integrates with Google BigQuery and BigQuery Storage to enable efficient execution of SQL queries, schema retrieval, and large-scale data analytics on cloud datasets.",
-  "url": "https://github.com/keurcien/choose-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Choose MCP Server"
+	"type": "mcp-server",
+	"packageName": "choose-(google-bigquery)",
+	"description": "Integrates with Google BigQuery and BigQuery Storage to enable efficient execution of SQL queries, schema retrieval, and large-scale data analytics on cloud datasets.",
+	"url": "https://github.com/keurcien/choose-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Choose MCP Server"
 }

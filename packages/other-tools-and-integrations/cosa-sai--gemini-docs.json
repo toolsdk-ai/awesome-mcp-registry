@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cosa-sai-(gemini-docs)",
-  "description": "Loads entire documentation sets directly into Gemini's 2M token context window, eliminating traditional RAG limitations for comprehensive technology documentation access and specialized problem-solving tools.",
-  "url": "https://github.com/m-gonzalo/cosa-sai",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Cosa SAI"
+	"type": "mcp-server",
+	"packageName": "cosa-sai-(gemini-docs)",
+	"description": "Loads entire documentation sets directly into Gemini's 2M token context window, eliminating traditional RAG limitations for comprehensive technology documentation access and specialized problem-solving tools.",
+	"url": "https://github.com/m-gonzalo/cosa-sai",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Cosa SAI"
 }

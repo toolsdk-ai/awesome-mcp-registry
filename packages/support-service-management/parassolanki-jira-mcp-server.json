@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@parassolanki/jira-mcp-server",
-  "description": "Integrates with Jira API to enable issue tracking, sprint planning, and project management tasks directly within conversation interfaces using personal access tokens for authentication.",
-  "url": "https://github.com/parassolanki/jira-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "JIRA_PERSONAL_ACCESS_TOKEN": {
-      "description": "email@example.com:your_personal_jira_access_token",
-      "required": true
-    },
-    "JIRA_BASE_URL": {
-      "description": "jira_base_url",
-      "required": true
-    }
-  },
-  "name": "Jira MCP Server"
+	"type": "mcp-server",
+	"packageName": "@parassolanki/jira-mcp-server",
+	"description": "Integrates with Jira API to enable issue tracking, sprint planning, and project management tasks directly within conversation interfaces using personal access tokens for authentication.",
+	"url": "https://github.com/parassolanki/jira-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"JIRA_PERSONAL_ACCESS_TOKEN": {
+			"description": "email@example.com:your_personal_jira_access_token",
+			"required": true
+		},
+		"JIRA_BASE_URL": {
+			"description": "jira_base_url",
+			"required": true
+		}
+	},
+	"name": "Jira MCP Server"
 }

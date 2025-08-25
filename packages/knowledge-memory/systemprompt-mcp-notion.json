@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "systemprompt-mcp-notion",
-  "description": "Bridges to Notion's knowledge management system, enabling creation and manipulation of pages, databases, and content.",
-  "url": "https://github.com/ejb503/systemprompt-mcp-notion",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "SYSTEMPROMPT_API_KEY": {
-      "description": "your_systemprompt_api_key",
-      "required": true
-    },
-    "NOTION_API_KEY": {
-      "description": "your_notion_integration_token",
-      "required": true
-    }
-  },
-  "name": "Systemprompt MCP Notion"
+	"type": "mcp-server",
+	"packageName": "systemprompt-mcp-notion",
+	"description": "Bridges to Notion's knowledge management system, enabling creation and manipulation of pages, databases, and content.",
+	"url": "https://github.com/ejb503/systemprompt-mcp-notion",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"SYSTEMPROMPT_API_KEY": {
+			"description": "your_systemprompt_api_key",
+			"required": true
+		},
+		"NOTION_API_KEY": {
+			"description": "your_notion_integration_token",
+			"required": true
+		}
+	},
+	"name": "Systemprompt MCP Notion"
 }

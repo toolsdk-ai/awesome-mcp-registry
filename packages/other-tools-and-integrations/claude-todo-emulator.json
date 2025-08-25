@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "claude-todo-emulator",
-  "description": "Emulates Claude Code's task management system with persistent todo functionality, providing workspace-local storage and validation rules that ensure unique IDs and allow only one in-progress task at a time.",
-  "url": "https://github.com/joehaddad2000/claude-todo-emulator",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Claude Todo Emulator"
+	"type": "mcp-server",
+	"packageName": "claude-todo-emulator",
+	"description": "Emulates Claude Code's task management system with persistent todo functionality, providing workspace-local storage and validation rules that ensure unique IDs and allow only one in-progress task at a time.",
+	"url": "https://github.com/joehaddad2000/claude-todo-emulator",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Claude Todo Emulator"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mongo-mcp",
-  "description": "Query and analyze MongoDB databases via natural language.",
-  "url": "https://github.com/quantgeekdev/mongo-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Mongo MCP"
+	"type": "mcp-server",
+	"packageName": "mongo-mcp",
+	"description": "Query and analyze MongoDB databases via natural language.",
+	"url": "https://github.com/quantgeekdev/mongo-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Mongo MCP"
 }

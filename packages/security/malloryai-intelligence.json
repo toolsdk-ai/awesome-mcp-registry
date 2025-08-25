@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "malloryai-intelligence",
-  "description": "Provides a bridge to MalloryAI Intelligence platform for querying vulnerabilities, threat actors, and exploitation data through structured API endpoints.",
-  "url": "https://github.com/malloryai/mallory-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MalloryAI MCP Server"
+	"type": "mcp-server",
+	"packageName": "malloryai-intelligence",
+	"description": "Provides a bridge to MalloryAI Intelligence platform for querying vulnerabilities, threat actors, and exploitation data through structured API endpoints.",
+	"url": "https://github.com/malloryai/mallory-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MalloryAI MCP Server"
 }

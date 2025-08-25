@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@chriswhiterocks/sushimcp",
-  "description": "Delivers documentation context from various technology sources to improve code generation by fetching and serving relevant llms.txt documentation on demand.",
-  "url": "https://github.com/maverickg59/sushimcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "SushiMCP"
+	"type": "mcp-server",
+	"packageName": "@chriswhiterocks/sushimcp",
+	"description": "Delivers documentation context from various technology sources to improve code generation by fetching and serving relevant llms.txt documentation on demand.",
+	"url": "https://github.com/maverickg59/sushimcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "SushiMCP"
 }

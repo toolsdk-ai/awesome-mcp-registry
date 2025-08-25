@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "fiware-context-broker",
-  "description": "Bridges AI assistants with FIWARE Context Brokers, enabling natural language interaction with IoT data for querying, publishing, and updating information in NGSI-LD format.",
-  "url": "https://github.com/dncampo/fiware-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "FIWARE MCP Server"
+	"type": "mcp-server",
+	"packageName": "fiware-context-broker",
+	"description": "Bridges AI assistants with FIWARE Context Brokers, enabling natural language interaction with IoT data for querying, publishing, and updating information in NGSI-LD format.",
+	"url": "https://github.com/dncampo/fiware-mcp-server",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "FIWARE MCP Server"
 }

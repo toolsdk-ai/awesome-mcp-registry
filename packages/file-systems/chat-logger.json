@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "chat-logger",
-  "description": "Saves chat conversations as formatted Markdown files with timestamps and role information for record-keeping and analysis.",
-  "url": "https://github.com/alexifeng/mcp_chat_logger",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Chat Logger MCP"
+	"type": "mcp-server",
+	"packageName": "chat-logger",
+	"description": "Saves chat conversations as formatted Markdown files with timestamps and role information for record-keeping and analysis.",
+	"url": "https://github.com/alexifeng/mcp_chat_logger",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Chat Logger MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "claude-conversations-to-markdown",
-  "description": "Integrates with markdown files and Apple Notes to automatically save and format Claude conversation content for easy reference and sharing.",
-  "url": "https://github.com/29decibel/record-to-markdown",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Record to Markdown"
+	"type": "mcp-server",
+	"packageName": "claude-conversations-to-markdown",
+	"description": "Integrates with markdown files and Apple Notes to automatically save and format Claude conversation content for easy reference and sharing.",
+	"url": "https://github.com/29decibel/record-to-markdown",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Record to Markdown"
 }

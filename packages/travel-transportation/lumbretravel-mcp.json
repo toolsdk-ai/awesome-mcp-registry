@@ -1,27 +1,27 @@
 {
-  "type": "mcp-server",
-  "packageName": "lumbretravel-mcp",
-  "description": "Integrates with the Argentinian LumbreTravel API to manage travel programs, activities, and bookings for efficient itinerary planning and service coordination.",
-  "url": "https://github.com/lumile/lumbretravel-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "CLIENT_ID": {
-      "description": "<YOUR_CLIENT_ID>",
-      "required": true
-    },
-    "CLIENT_SECRET": {
-      "description": "<YOUR_CLIENT_SECRET>",
-      "required": true
-    },
-    "EMAIL": {
-      "description": "<YOUR_EMAIL>",
-      "required": true
-    },
-    "PASSWORD": {
-      "description": "<YOUR_PASSWORD>",
-      "required": true
-    }
-  },
-  "name": "LumbreTravel MCP"
+	"type": "mcp-server",
+	"packageName": "lumbretravel-mcp",
+	"description": "Integrates with the Argentinian LumbreTravel API to manage travel programs, activities, and bookings for efficient itinerary planning and service coordination.",
+	"url": "https://github.com/lumile/lumbretravel-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"CLIENT_ID": {
+			"description": "<YOUR_CLIENT_ID>",
+			"required": true
+		},
+		"CLIENT_SECRET": {
+			"description": "<YOUR_CLIENT_SECRET>",
+			"required": true
+		},
+		"EMAIL": {
+			"description": "<YOUR_EMAIL>",
+			"required": true
+		},
+		"PASSWORD": {
+			"description": "<YOUR_PASSWORD>",
+			"required": true
+		}
+	},
+	"name": "LumbreTravel MCP"
 }

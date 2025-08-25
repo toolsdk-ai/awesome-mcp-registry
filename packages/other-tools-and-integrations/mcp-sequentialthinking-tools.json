@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-sequentialthinking-tools",
-  "description": "Provides structured problem-solving tools for step-by-step analysis, branching thoughts, and adaptive reasoning strategies in complex decision-making processes.",
-  "url": "https://github.com/spences10/mcp-sequentialthinking-tools",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Sequential Thinking Tools"
+	"type": "mcp-server",
+	"packageName": "mcp-sequentialthinking-tools",
+	"description": "Provides structured problem-solving tools for step-by-step analysis, branching thoughts, and adaptive reasoning strategies in complex decision-making processes.",
+	"url": "https://github.com/spences10/mcp-sequentialthinking-tools",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Sequential Thinking Tools"
 }

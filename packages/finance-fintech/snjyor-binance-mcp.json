@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@snjyor/binance-mcp",
-  "description": "Integrates with Binance cryptocurrency API to provide real-time market data including prices, order books, candlestick charts, and trading history for cryptocurrency analysis and monitoring.",
-  "url": "https://github.com/snjyor/binance-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Binance MCP"
+	"type": "mcp-server",
+	"packageName": "@snjyor/binance-mcp",
+	"description": "Integrates with Binance cryptocurrency API to provide real-time market data including prices, order books, candlestick charts, and trading history for cryptocurrency analysis and monitoring.",
+	"url": "https://github.com/snjyor/binance-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Binance MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "college-football-data",
-  "description": "Integrates with College Football Data API to provide natural language querying of game results, team records, player stats, rankings, and advanced metrics.",
-  "url": "https://github.com/lenwood/cfbd-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "CFBD MCP Server"
+	"type": "mcp-server",
+	"packageName": "college-football-data",
+	"description": "Integrates with College Football Data API to provide natural language querying of game results, team records, player stats, rankings, and advanced metrics.",
+	"url": "https://github.com/lenwood/cfbd-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "CFBD MCP Server"
 }

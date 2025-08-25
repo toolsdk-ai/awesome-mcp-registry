@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "tax-alert-chatbot-mcp-server",
-  "description": "A server that powers an interactive chatbot for querying and managing tax alerts in a SQLite database using Google Gemini models and LangGraph's REACT agent framework.",
-  "url": "https://github.com/Soham-bakshi/MCP-Server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "ALERTS_DB": {
-      "description": "Path to the SQLite database file",
-      "required": true
-    },
-    "GOOGLE_API_KEY": {
-      "description": "Your Google API key for Gemini models",
-      "required": true
-    }
-  },
-  "name": "MCP Server"
+	"type": "mcp-server",
+	"packageName": "tax-alert-chatbot-mcp-server",
+	"description": "A server that powers an interactive chatbot for querying and managing tax alerts in a SQLite database using Google Gemini models and LangGraph's REACT agent framework.",
+	"url": "https://github.com/Soham-bakshi/MCP-Server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"ALERTS_DB": {
+			"description": "Path to the SQLite database file",
+			"required": true
+		},
+		"GOOGLE_API_KEY": {
+			"description": "Your Google API key for Gemini models",
+			"required": true
+		}
+	},
+	"name": "MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "flomo",
-  "description": "Enables direct note-taking in Flomo through a simple markdown-to-webhook tool that captures thoughts, ideas, and research findings without manual copying and pasting.",
-  "url": "https://github.com/chatmcp/mcp-server-flomo",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Flomo MCP Server"
+	"type": "mcp-server",
+	"packageName": "flomo",
+	"description": "Enables direct note-taking in Flomo through a simple markdown-to-webhook tool that captures thoughts, ideas, and research findings without manual copying and pasting.",
+	"url": "https://github.com/chatmcp/mcp-server-flomo",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Flomo MCP Server"
 }

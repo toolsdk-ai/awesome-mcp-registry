@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mem0",
-  "description": "Integrates with Mem0's memory storage to provide persistent memory streams with semantic search capabilities, enabling recall of user preferences and conversation history across interactions.",
-  "url": "https://github.com/sadiuysal/mem0-mcp-server-ts",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Mem0 MCP Server"
+	"type": "mcp-server",
+	"packageName": "mem0",
+	"description": "Integrates with Mem0's memory storage to provide persistent memory streams with semantic search capabilities, enabling recall of user preferences and conversation history across interactions.",
+	"url": "https://github.com/sadiuysal/mem0-mcp-server-ts",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Mem0 MCP Server"
 }

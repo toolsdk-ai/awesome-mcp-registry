@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "singlestore-mcp-server",
-  "description": "Enables natural language interactions with SingleStore databases for executing SQL queries, managing workspaces, creating virtual environments, and handling scheduled jobs through direct database access.",
-  "url": "https://github.com/singlestore-labs/mcp-server-singlestore",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "SingleStore MCP Server"
+	"type": "mcp-server",
+	"packageName": "singlestore-mcp-server",
+	"description": "Enables natural language interactions with SingleStore databases for executing SQL queries, managing workspaces, creating virtual environments, and handling scheduled jobs through direct database access.",
+	"url": "https://github.com/singlestore-labs/mcp-server-singlestore",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "SingleStore MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bloodhound",
-  "description": "Enables security professionals to analyze Active Directory and Azure AD environments through natural language queries by connecting to BloodHound's Neo4j database for identifying attack paths and vulnerabilities.",
-  "url": "https://github.com/stevenyu113228/bloodhound-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "BloodHound MCP"
+	"type": "mcp-server",
+	"packageName": "bloodhound",
+	"description": "Enables security professionals to analyze Active Directory and Azure AD environments through natural language queries by connecting to BloodHound's Neo4j database for identifying attack paths and vulnerabilities.",
+	"url": "https://github.com/stevenyu113228/bloodhound-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "BloodHound MCP"
 }

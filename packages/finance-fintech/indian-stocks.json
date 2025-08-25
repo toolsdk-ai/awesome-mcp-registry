@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "indian-stocks",
-  "description": "Integrates with the Indian stock market API to provide financial data including trending stocks, IPO information, financial statements, historical statistics, mutual funds, and corporate actions for financial analysis and research.",
-  "url": "https://github.com/torukmaktoalpha/indian-stocks-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Indian Stocks MCP"
+	"type": "mcp-server",
+	"packageName": "indian-stocks",
+	"description": "Integrates with the Indian stock market API to provide financial data including trending stocks, IPO information, financial statements, historical statistics, mutual funds, and corporate actions for financial analysis and research.",
+	"url": "https://github.com/torukmaktoalpha/indian-stocks-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Indian Stocks MCP"
 }

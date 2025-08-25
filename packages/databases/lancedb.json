@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "lancedb",
-  "description": "Integrates with LanceDB vector database to enable efficient storage, retrieval, and similarity search of vector embeddings with associated metadata for semantic search and recommendation systems.",
-  "url": "https://github.com/ryanlisse/lancedb_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "LanceDB MCP"
+	"type": "mcp-server",
+	"packageName": "lancedb",
+	"description": "Integrates with LanceDB vector database to enable efficient storage, retrieval, and similarity search of vector embeddings with associated metadata for semantic search and recommendation systems.",
+	"url": "https://github.com/ryanlisse/lancedb_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "LanceDB MCP"
 }

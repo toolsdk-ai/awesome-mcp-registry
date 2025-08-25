@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "jira-insights",
-  "description": "Enables programmatic management of Jira Insights asset schemas through CRUD operations on object types and AQL queries, streamlining IT asset management and configuration tracking workflows.",
-  "url": "https://github.com/aaronsb/jira-insights-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Jira Insights MCP"
+	"type": "mcp-server",
+	"packageName": "jira-insights",
+	"description": "Enables programmatic management of Jira Insights asset schemas through CRUD operations on object types and AQL queries, streamlining IT asset management and configuration tracking workflows.",
+	"url": "https://github.com/aaronsb/jira-insights-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Jira Insights MCP"
 }

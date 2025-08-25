@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sharepoint",
-  "description": "Integrates with SharePoint through Microsoft Graph API to enable direct access, search, and analysis of organizational documents, folders, and sites without leaving your assistant interface.",
-  "url": "https://github.com/briancusack/mcpsharepoint",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP SharePoint"
+	"type": "mcp-server",
+	"packageName": "sharepoint",
+	"description": "Integrates with SharePoint through Microsoft Graph API to enable direct access, search, and analysis of organizational documents, folders, and sites without leaving your assistant interface.",
+	"url": "https://github.com/briancusack/mcpsharepoint",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP SharePoint"
 }

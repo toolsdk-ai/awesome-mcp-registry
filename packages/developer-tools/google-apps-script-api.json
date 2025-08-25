@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "google-apps-script-api",
-  "description": "Integrates with Google Apps Script API through 17 specialized tools for project management, deployment operations, content updates, version control, process monitoring, and script execution with OAuth 2.0 authentication.",
-  "url": "https://github.com/mohalmah/google-appscript-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Google AppScript MCP Server"
+	"type": "mcp-server",
+	"packageName": "google-apps-script-api",
+	"description": "Integrates with Google Apps Script API through 17 specialized tools for project management, deployment operations, content updates, version control, process monitoring, and script execution with OAuth 2.0 authentication.",
+	"url": "https://github.com/mohalmah/google-appscript-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Google AppScript MCP Server"
 }

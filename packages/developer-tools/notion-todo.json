@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "notion-todo",
-  "description": "MCP server that enables AI assistants to manage a minimalist Notion todo list through a simple API interface.",
-  "url": "https://github.com/danhilse/notion_mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Notion MCP"
+	"type": "mcp-server",
+	"packageName": "notion-todo",
+	"description": "MCP server that enables AI assistants to manage a minimalist Notion todo list through a simple API interface.",
+	"url": "https://github.com/danhilse/notion_mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Notion MCP"
 }

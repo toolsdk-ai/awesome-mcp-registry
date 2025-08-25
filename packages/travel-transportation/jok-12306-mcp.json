@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "12306-mcp",
-  "description": "A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.",
-  "url": "https://github.com/Joooook/12306-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "12306 MCP"
+	"type": "mcp-server",
+	"packageName": "12306-mcp",
+	"description": "A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.",
+	"url": "https://github.com/Joooook/12306-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "12306 MCP"
 }

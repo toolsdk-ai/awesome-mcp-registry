@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@puchunjie/doc-tools-mcp",
-  "description": "Enables natural language-driven Word document creation, editing, and formatting through a Node.js server that integrates seamlessly with development environments for document automation workflows.",
-  "url": "https://github.com/puchunjie/doc-tools-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Doc Tools MCP"
+	"type": "mcp-server",
+	"packageName": "@puchunjie/doc-tools-mcp",
+	"description": "Enables natural language-driven Word document creation, editing, and formatting through a Node.js server that integrates seamlessly with development environments for document automation workflows.",
+	"url": "https://github.com/puchunjie/doc-tools-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Doc Tools MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "arxiv-search",
-  "description": "Search and retrieve academic papers from arXiv.org by category, providing titles, authors, summaries, and links sorted by date.",
-  "url": "https://github.com/danimal141/arxiv-search-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Arxiv Search MCP"
+	"type": "mcp-server",
+	"packageName": "arxiv-search",
+	"description": "Search and retrieve academic papers from arXiv.org by category, providing titles, authors, summaries, and links sorted by date.",
+	"url": "https://github.com/danimal141/arxiv-search-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Arxiv Search MCP"
 }

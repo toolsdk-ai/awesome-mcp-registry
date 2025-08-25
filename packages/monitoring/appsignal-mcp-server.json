@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "appsignal-mcp-server",
-  "description": "Integrates with AppSignal's monitoring platform to provide incident tracking, anomaly detection, performance monitoring, and log analysis with severity filtering and time-based queries for debugging production applications.",
-  "url": "https://github.com/pulsemcp/mcp-servers/tree/HEAD/experimental/appsignal",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "APPSIGNAL_API_KEY": {
-      "description": "your-api-key-here",
-      "required": true
-    }
-  },
-  "name": "AppSignal MCP Server"
+	"type": "mcp-server",
+	"packageName": "appsignal-mcp-server",
+	"description": "Integrates with AppSignal's monitoring platform to provide incident tracking, anomaly detection, performance monitoring, and log analysis with severity filtering and time-based queries for debugging production applications.",
+	"url": "https://github.com/pulsemcp/mcp-servers/tree/HEAD/experimental/appsignal",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"APPSIGNAL_API_KEY": {
+			"description": "your-api-key-here",
+			"required": true
+		}
+	},
+	"name": "AppSignal MCP Server"
 }

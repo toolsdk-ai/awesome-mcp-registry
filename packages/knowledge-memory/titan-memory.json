@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "titan-memory",
-  "description": "Integrates neural network-based memory encoding for enhanced long-term information storage and contextually-aware interactions across multiple conversations.",
-  "url": "https://github.com/henryhawke/mcp-titan",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Titan MCP"
+	"type": "mcp-server",
+	"packageName": "titan-memory",
+	"description": "Integrates neural network-based memory encoding for enhanced long-term information storage and contextually-aware interactions across multiple conversations.",
+	"url": "https://github.com/henryhawke/mcp-titan",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Titan MCP"
 }

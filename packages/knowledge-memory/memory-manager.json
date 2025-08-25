@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "memory-manager",
-  "description": "Manages and switches between memory paths for clients, enabling organized context management across multiple AI projects.",
-  "url": "https://github.com/zongmin-yu/memory-mcp-manager",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Memory MCP Manager"
+	"type": "mcp-server",
+	"packageName": "memory-manager",
+	"description": "Manages and switches between memory paths for clients, enabling organized context management across multiple AI projects.",
+	"url": "https://github.com/zongmin-yu/memory-mcp-manager",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Memory MCP Manager"
 }

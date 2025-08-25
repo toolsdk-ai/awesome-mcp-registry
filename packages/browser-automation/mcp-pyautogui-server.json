@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-pyautogui-server",
-  "description": "Enables automated GUI testing and control across operating systems by wrapping PyAutoGUI to perform mouse movements, keyboard input, screenshot capture, and image recognition tasks.",
-  "url": "https://github.com/hetaobackend/mcp-pyautogui-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "PyAutoGUI MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-pyautogui-server",
+	"description": "Enables automated GUI testing and control across operating systems by wrapping PyAutoGUI to perform mouse movements, keyboard input, screenshot capture, and image recognition tasks.",
+	"url": "https://github.com/hetaobackend/mcp-pyautogui-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "PyAutoGUI MCP Server"
 }

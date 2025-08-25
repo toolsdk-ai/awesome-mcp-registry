@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "image-toolkit",
-  "description": "Provides image manipulation capabilities through Gemini models and third-party APIs for generating images from text, modifying existing images, and removing backgrounds with automatic FreeImage.host uploading.",
-  "url": "https://github.com/kira-pgr/promptshopmcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "PromptShop MCP"
+	"type": "mcp-server",
+	"packageName": "image-toolkit",
+	"description": "Provides image manipulation capabilities through Gemini models and third-party APIs for generating images from text, modifying existing images, and removing backgrounds with automatic FreeImage.host uploading.",
+	"url": "https://github.com/kira-pgr/promptshopmcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "PromptShop MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "eagle.cool",
-  "description": "Integrates Claude Desktop with the Eagle.cool app for asset management and creative project assistance through MCP-enabled interaction with Eagle's features.",
-  "url": "https://github.com/olegshilin/mcp-eagle",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Eagle"
+	"type": "mcp-server",
+	"packageName": "eagle.cool",
+	"description": "Integrates Claude Desktop with the Eagle.cool app for asset management and creative project assistance through MCP-enabled interaction with Eagle's features.",
+	"url": "https://github.com/olegshilin/mcp-eagle",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Eagle"
 }

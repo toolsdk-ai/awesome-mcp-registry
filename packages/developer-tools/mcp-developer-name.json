@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-developer-name",
-  "description": "Provides customizable developer information through a lightweight Node.js server that can be run via npx command or deployed as a Docker container.",
-  "url": "https://github.com/seriawei/mcp-developer-name",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "DEVELOPER_NAME": {
-      "description": "Wayne Wei",
-      "required": true
-    }
-  },
-  "name": "Developer Name MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-developer-name",
+	"description": "Provides customizable developer information through a lightweight Node.js server that can be run via npx command or deployed as a Docker container.",
+	"url": "https://github.com/seriawei/mcp-developer-name",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"DEVELOPER_NAME": {
+			"description": "Wayne Wei",
+			"required": true
+		}
+	},
+	"name": "Developer Name MCP"
 }

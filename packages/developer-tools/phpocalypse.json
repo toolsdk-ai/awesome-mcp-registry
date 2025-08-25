@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "phpocalypse",
-  "description": "Enables PHP developers to run static analysis, code style checks, and tests directly within conversations by executing PHPStan, PHP-CS-Fixer, and PHPUnit commands through a YAML-configured TypeScript server.",
-  "url": "https://github.com/plapinski/phpocalypse-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Phpocalypse MCP"
+	"type": "mcp-server",
+	"packageName": "phpocalypse",
+	"description": "Enables PHP developers to run static analysis, code style checks, and tests directly within conversations by executing PHPStan, PHP-CS-Fixer, and PHPUnit commands through a YAML-configured TypeScript server.",
+	"url": "https://github.com/plapinski/phpocalypse-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Phpocalypse MCP"
 }

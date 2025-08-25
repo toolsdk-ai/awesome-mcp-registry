@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "dynamo-readonly-mcp",
-  "description": "Provides read-only access to AWS DynamoDB databases, enabling natural language interactions for listing tables, scanning data, querying with conditions, and retrieving table schemas without requiring direct database credentials.",
-  "url": "https://github.com/jjikky/dynamo-readonly-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "AWS_ACCESS_KEY_ID": {
-      "description": "your_access_key",
-      "required": true
-    },
-    "AWS_SECRET_ACCESS_KEY": {
-      "description": "your_secret_key",
-      "required": true
-    },
-    "AWS_REGION": {
-      "description": "your_region",
-      "required": true
-    }
-  },
-  "name": "DynamoDB Read-Only MCP"
+	"type": "mcp-server",
+	"packageName": "dynamo-readonly-mcp",
+	"description": "Provides read-only access to AWS DynamoDB databases, enabling natural language interactions for listing tables, scanning data, querying with conditions, and retrieving table schemas without requiring direct database credentials.",
+	"url": "https://github.com/jjikky/dynamo-readonly-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"AWS_ACCESS_KEY_ID": {
+			"description": "your_access_key",
+			"required": true
+		},
+		"AWS_SECRET_ACCESS_KEY": {
+			"description": "your_secret_key",
+			"required": true
+		},
+		"AWS_REGION": {
+			"description": "your_region",
+			"required": true
+		}
+	},
+	"name": "DynamoDB Read-Only MCP"
 }

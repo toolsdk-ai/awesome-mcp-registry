@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "monday.com-api",
-  "description": "Integrates with monday.com API to enable direct access to boards, workflows, and data for automating tasks and managing resources without context switching.",
-  "url": "https://github.com/mondaycom/mcp/tree/HEAD/packages/monday-api-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "monday.com MCP"
+	"type": "mcp-server",
+	"packageName": "monday.com-api",
+	"description": "Integrates with monday.com API to enable direct access to boards, workflows, and data for automating tasks and managing resources without context switching.",
+	"url": "https://github.com/mondaycom/mcp/tree/HEAD/packages/monday-api-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "monday.com MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sncf-train-journey-planner",
-  "description": "Connects to the French National Railway (SNCF) API for planning train journeys, retrieving station information, checking schedules, and monitoring service disruptions across France with intelligent station-finding and fallback mechanisms.",
-  "url": "https://github.com/kryzo/mcp-sncf",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "SNCF MCP"
+	"type": "mcp-server",
+	"packageName": "sncf-train-journey-planner",
+	"description": "Connects to the French National Railway (SNCF) API for planning train journeys, retrieving station information, checking schedules, and monitoring service disruptions across France with intelligent station-finding and fallback mechanisms.",
+	"url": "https://github.com/kryzo/mcp-sncf",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "SNCF MCP"
 }

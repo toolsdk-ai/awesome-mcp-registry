@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bluestoneapps-react-native-standards",
-  "description": "Provides access to BluestoneApps React Native coding standards and examples via FastAPI, enabling developers to retrieve development guidelines and implementation patterns through HTTP endpoints.",
-  "url": "https://github.com/lallen30/mcp-remote-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Remote Server"
+	"type": "mcp-server",
+	"packageName": "bluestoneapps-react-native-standards",
+	"description": "Provides access to BluestoneApps React Native coding standards and examples via FastAPI, enabling developers to retrieve development guidelines and implementation patterns through HTTP endpoints.",
+	"url": "https://github.com/lallen30/mcp-remote-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Remote Server"
 }

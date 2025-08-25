@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "coding-feature-discussion",
-  "description": "Integrates AI-powered lead developer interface with project context to guide teams through feature discussions, architectural decisions, and best practices.",
-  "url": "https://github.com/squirrelogic/mcp-feature-discussion",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Feature Discussion MCP"
+	"type": "mcp-server",
+	"packageName": "coding-feature-discussion",
+	"description": "Integrates AI-powered lead developer interface with project context to guide teams through feature discussions, architectural decisions, and best practices.",
+	"url": "https://github.com/squirrelogic/mcp-feature-discussion",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Feature Discussion MCP"
 }

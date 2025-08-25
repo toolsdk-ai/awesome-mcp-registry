@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "timelooker",
-  "description": "Automated web monitoring system that executes paid search tasks at scheduled intervals, detects genuine changes using duplicate detection, and sends email notifications when new results are found.",
-  "url": "https://github.com/fortnightly-devs/mcp-x402-task-scheduler",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP X402 Task Scheduler"
+	"type": "mcp-server",
+	"packageName": "timelooker",
+	"description": "Automated web monitoring system that executes paid search tasks at scheduled intervals, detects genuine changes using duplicate detection, and sends email notifications when new results are found.",
+	"url": "https://github.com/fortnightly-devs/mcp-x402-task-scheduler",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP X402 Task Scheduler"
 }

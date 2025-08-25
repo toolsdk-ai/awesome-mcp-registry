@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "amadeus",
-  "description": "Integrates with Amadeus API to enable flight searches, price analysis, and multi-city trip planning with built-in caching for rate limit handling",
-  "url": "https://github.com/privilegemendes/amadeus-mcp-server-standalone",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Amadeus MCP Server"
+	"type": "mcp-server",
+	"packageName": "amadeus",
+	"description": "Integrates with Amadeus API to enable flight searches, price analysis, and multi-city trip planning with built-in caching for rate limit handling",
+	"url": "https://github.com/privilegemendes/amadeus-mcp-server-standalone",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Amadeus MCP Server"
 }

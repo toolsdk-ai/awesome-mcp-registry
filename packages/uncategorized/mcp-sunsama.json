@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-sunsama",
-  "description": "Integrates Sunsama's task management and daily planning capabilities, enabling AI assistants to create, manage, and organize tasks through the Sunsama API.",
-  "url": "https://github.com/robertn702/mcp-sunsama",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "SUNSAMA_EMAIL": {
-      "description": "your-email@example.com",
-      "required": true
-    },
-    "SUNSAMA_PASSWORD": {
-      "description": "your-password",
-      "required": true
-    }
-  },
-  "name": "Sunsama MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-sunsama",
+	"description": "Integrates Sunsama's task management and daily planning capabilities, enabling AI assistants to create, manage, and organize tasks through the Sunsama API.",
+	"url": "https://github.com/robertn702/mcp-sunsama",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"SUNSAMA_EMAIL": {
+			"description": "your-email@example.com",
+			"required": true
+		},
+		"SUNSAMA_PASSWORD": {
+			"description": "your-password",
+			"required": true
+		}
+	},
+	"name": "Sunsama MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bitcoin-(coingecko)",
-  "description": "Provides a bridge to the CoinGecko API for fetching real-time and historical Bitcoin price data in various currencies, enabling financial analysis and cryptocurrency tracking",
-  "url": "https://github.com/onestar99/mcp-spring-test",
-  "runtime": "java",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Spring Test"
+	"type": "mcp-server",
+	"packageName": "bitcoin-(coingecko)",
+	"description": "Provides a bridge to the CoinGecko API for fetching real-time and historical Bitcoin price data in various currencies, enabling financial analysis and cryptocurrency tracking",
+	"url": "https://github.com/onestar99/mcp-spring-test",
+	"runtime": "java",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Spring Test"
 }

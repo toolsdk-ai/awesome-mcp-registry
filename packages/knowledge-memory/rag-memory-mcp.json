@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "rag-memory-mcp",
-  "description": "Provides a knowledge graph-enhanced retrieval system that combines vector search with graph-based relationships for persistent memory and contextual information retrieval",
-  "url": "https://github.com/ttommyth/rag-memory-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Rag Memory MCP"
+	"type": "mcp-server",
+	"packageName": "rag-memory-mcp",
+	"description": "Provides a knowledge graph-enhanced retrieval system that combines vector search with graph-based relationships for persistent memory and contextual information retrieval",
+	"url": "https://github.com/ttommyth/rag-memory-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Rag Memory MCP"
 }

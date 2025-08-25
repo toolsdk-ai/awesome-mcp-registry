@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dbt-mcp",
-  "description": "Provides a bridge between dbt (data build tool) resources and natural language interfaces, enabling execution of CLI commands, discovery of model metadata, and querying of the Semantic Layer for data transformation management.",
-  "url": "https://github.com/dbt-labs/dbt-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Dbt MCP"
+	"type": "mcp-server",
+	"packageName": "dbt-mcp",
+	"description": "Provides a bridge between dbt (data build tool) resources and natural language interfaces, enabling execution of CLI commands, discovery of model metadata, and querying of the Semantic Layer for data transformation management.",
+	"url": "https://github.com/dbt-labs/dbt-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Dbt MCP"
 }

@@ -1,27 +1,27 @@
 {
-  "type": "mcp-server",
-  "packageName": "amazon-nova-reel-mcp-server",
-  "description": "An MCP server for generating videos through Amazon Nova Reel 1.1 using AWS Bedrock, providing asynchronous video generation with comprehensive prompting guidelines and multiple transport methods.",
-  "url": "https://github.com/mirecekd/novareel-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {
-    "S3_BUCKET": {
-      "description": "S3 bucket name for video output",
-      "required": true
-    },
-    "AWS_REGION": {
-      "description": "AWS region",
-      "required": true
-    },
-    "AWS_ACCESS_KEY_ID": {
-      "description": "Your AWS access key ID",
-      "required": true
-    },
-    "AWS_SECRET_ACCESS_KEY": {
-      "description": "Your AWS secret access key",
-      "required": true
-    }
-  },
-  "name": "Nova Reel MCP Server"
+	"type": "mcp-server",
+	"packageName": "amazon-nova-reel-mcp-server",
+	"description": "An MCP server for generating videos through Amazon Nova Reel 1.1 using AWS Bedrock, providing asynchronous video generation with comprehensive prompting guidelines and multiple transport methods.",
+	"url": "https://github.com/mirecekd/novareel-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {
+		"S3_BUCKET": {
+			"description": "S3 bucket name for video output",
+			"required": true
+		},
+		"AWS_REGION": {
+			"description": "AWS region",
+			"required": true
+		},
+		"AWS_ACCESS_KEY_ID": {
+			"description": "Your AWS access key ID",
+			"required": true
+		},
+		"AWS_SECRET_ACCESS_KEY": {
+			"description": "Your AWS secret access key",
+			"required": true
+		}
+	},
+	"name": "Nova Reel MCP Server"
 }

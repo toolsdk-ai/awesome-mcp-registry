@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "readwise-reader-mcp-server",
-  "description": "Enables Claude to interact with the Readwise Reader API, allowing for saving, listing, updating, and deleting documents with complete metadata and content access through natural language.",
-  "url": "https://github.com/edricgsh/Readwise-Reader-MCP",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "READWISE_TOKEN": {
-      "description": "Your Readwise access token from https://readwise.io/access_token",
-      "required": true
-    }
-  },
-  "name": "Readwise Reader MCP"
+	"type": "mcp-server",
+	"packageName": "readwise-reader-mcp-server",
+	"description": "Enables Claude to interact with the Readwise Reader API, allowing for saving, listing, updating, and deleting documents with complete metadata and content access through natural language.",
+	"url": "https://github.com/edricgsh/Readwise-Reader-MCP",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"READWISE_TOKEN": {
+			"description": "Your Readwise access token from https://readwise.io/access_token",
+			"required": true
+		}
+	},
+	"name": "Readwise Reader MCP"
 }

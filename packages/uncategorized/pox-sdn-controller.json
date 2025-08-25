@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pox-sdn-controller",
-  "description": "Bridges to the POX SDN controller, enabling network topology management and configuration of OpenFlow-based networks through specialized tools for datapath management, flow statistics, and table configuration.",
-  "url": "https://github.com/davidlin2k/pox-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "POX MCP Server"
+	"type": "mcp-server",
+	"packageName": "pox-sdn-controller",
+	"description": "Bridges to the POX SDN controller, enabling network topology management and configuration of OpenFlow-based networks through specialized tools for datapath management, flow statistics, and table configuration.",
+	"url": "https://github.com/davidlin2k/pox-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "POX MCP Server"
 }

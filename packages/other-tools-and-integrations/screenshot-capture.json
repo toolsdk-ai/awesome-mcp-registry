@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "screenshot-capture",
-  "description": "Lightweight cross-platform screenshot capture server enabling visual context retrieval through automatic JPEG compression and flexible stdio/SSE transport modes.",
-  "url": "https://github.com/codingthefuturewithai/screenshot_mcp_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Screenshot Capture MCP Server"
+	"type": "mcp-server",
+	"packageName": "screenshot-capture",
+	"description": "Lightweight cross-platform screenshot capture server enabling visual context retrieval through automatic JPEG compression and flexible stdio/SSE transport modes.",
+	"url": "https://github.com/codingthefuturewithai/screenshot_mcp_server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Screenshot Capture MCP Server"
 }

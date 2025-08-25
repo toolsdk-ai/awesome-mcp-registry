@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "text-saver",
-  "description": "Securely saves text content to local files with user-specified or timestamp-generated filenames through a simple interface with robust validation and error handling.",
-  "url": "https://github.com/technavii/mcp_sample",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Text Saver MCP"
+	"type": "mcp-server",
+	"packageName": "text-saver",
+	"description": "Securely saves text content to local files with user-specified or timestamp-generated filenames through a simple interface with robust validation and error handling.",
+	"url": "https://github.com/technavii/mcp_sample",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Text Saver MCP"
 }

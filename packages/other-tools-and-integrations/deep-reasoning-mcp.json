@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "deep-reasoning-mcp",
-  "description": "Integrates with OpenRouter's AI SDK to enable deep reasoning capabilities for complex analysis and inference tasks.",
-  "url": "https://github.com/lakphy/deep-reasoning-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Deep Reasoning MCP"
+	"type": "mcp-server",
+	"packageName": "deep-reasoning-mcp",
+	"description": "Integrates with OpenRouter's AI SDK to enable deep reasoning capabilities for complex analysis and inference tasks.",
+	"url": "https://github.com/lakphy/deep-reasoning-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Deep Reasoning MCP"
 }

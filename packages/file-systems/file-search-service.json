@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "file-search-service",
-  "description": "Provides a robust file search service, enabling efficient querying of local directories with detailed results including file metadata and content matching.",
-  "url": "https://github.com/rami-0/python_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "File Search Service MCP"
+	"type": "mcp-server",
+	"packageName": "file-search-service",
+	"description": "Provides a robust file search service, enabling efficient querying of local directories with detailed results including file metadata and content matching.",
+	"url": "https://github.com/rami-0/python_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "File Search Service MCP"
 }

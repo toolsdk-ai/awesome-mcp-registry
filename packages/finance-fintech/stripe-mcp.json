@@ -1,20 +1,20 @@
 {
-  "type": "mcp-server",
-  "logo": "https://pbs.twimg.com/profile_images/1618575477781807105/iDuRlqTe_400x400.jpg",
-  "packageName": "@stripe/agent-toolkit/tree/main/modelcontextprotocol",
-  "description": "The Stripe Model Context Protocol server allows you to integrate with Stripe APIs through function calling.",
-  "url": "https://github.com/stripe/agent-toolkit/tree/main/modelcontextprotocol",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "YOUR_STRIPE_SECRET_KEY": {
-      "description": "your actual Stripe secret key",
-      "required": true
-    },
-    "CONNECTED_ACCOUNT_ID": {
-      "description": "Stripe connected account",
-      "required": true
-    }
-  },
-  "name": "Stripe MCP"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1618575477781807105/iDuRlqTe_400x400.jpg",
+	"packageName": "@stripe/agent-toolkit/tree/main/modelcontextprotocol",
+	"description": "The Stripe Model Context Protocol server allows you to integrate with Stripe APIs through function calling.",
+	"url": "https://github.com/stripe/agent-toolkit/tree/main/modelcontextprotocol",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"YOUR_STRIPE_SECRET_KEY": {
+			"description": "your actual Stripe secret key",
+			"required": true
+		},
+		"CONNECTED_ACCOUNT_ID": {
+			"description": "Stripe connected account",
+			"required": true
+		}
+	},
+	"name": "Stripe MCP"
 }

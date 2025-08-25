@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tigerbeetle",
-  "description": "Integrates with TigerBeetle to enable creating and configuring high-performance accounting database accounts through a Spring Boot server with stdio-based connections.",
-  "url": "https://github.com/jantoniucci/mcp-tiggerbeetle",
-  "runtime": "java",
-  "license": "unknown",
-  "env": {},
-  "name": "TigerBeetle MCP"
+	"type": "mcp-server",
+	"packageName": "tigerbeetle",
+	"description": "Integrates with TigerBeetle to enable creating and configuring high-performance accounting database accounts through a Spring Boot server with stdio-based connections.",
+	"url": "https://github.com/jantoniucci/mcp-tiggerbeetle",
+	"runtime": "java",
+	"license": "unknown",
+	"env": {},
+	"name": "TigerBeetle MCP"
 }

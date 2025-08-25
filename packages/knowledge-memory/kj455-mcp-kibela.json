@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kj455/mcp-kibela",
-  "description": "Integrates with Kibela knowledge bases to enable searching, reading, creating, and updating notes directly within conversation interfaces, providing seamless access to organizational documentation.",
-  "url": "https://github.com/kj455/mcp-kibela",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "KIBELA_TEAM": {
-      "description": "your-team-name from https://[team-name].kibe.la",
-      "required": true
-    },
-    "KIBELA_TOKEN": {
-      "description": "your-token",
-      "required": true
-    }
-  },
-  "name": "Kibela MCP"
+	"type": "mcp-server",
+	"packageName": "@kj455/mcp-kibela",
+	"description": "Integrates with Kibela knowledge bases to enable searching, reading, creating, and updating notes directly within conversation interfaces, providing seamless access to organizational documentation.",
+	"url": "https://github.com/kj455/mcp-kibela",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"KIBELA_TEAM": {
+			"description": "your-team-name from https://[team-name].kibe.la",
+			"required": true
+		},
+		"KIBELA_TOKEN": {
+			"description": "your-token",
+			"required": true
+		}
+	},
+	"name": "Kibela MCP"
 }

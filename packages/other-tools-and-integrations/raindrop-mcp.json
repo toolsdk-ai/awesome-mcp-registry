@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "raindrop-mcp",
-  "description": "Integrates with Raindrop.io bookmarking service to enable searching, creating, and retrieving bookmarks and collections through authenticated API access.",
-  "url": "https://github.com/egoist/raindrop-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Raindrop MCP"
+	"type": "mcp-server",
+	"packageName": "raindrop-mcp",
+	"description": "Integrates with Raindrop.io bookmarking service to enable searching, creating, and retrieving bookmarks and collections through authenticated API access.",
+	"url": "https://github.com/egoist/raindrop-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Raindrop MCP"
 }

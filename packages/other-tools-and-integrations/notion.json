@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "notion",
-  "description": "Interact with Notion workspaces by searching, reading, creating, and updating pages.",
-  "url": "https://github.com/v-3/notion-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Notion Server"
+	"type": "mcp-server",
+	"packageName": "notion",
+	"description": "Interact with Notion workspaces by searching, reading, creating, and updating pages.",
+	"url": "https://github.com/v-3/notion-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Notion Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "character-counter",
-  "description": "Analyzes text by counting total characters, characters without spaces, letters, numbers, and symbols for lightweight text composition statistics.",
-  "url": "https://github.com/webreactiva-devs/mcp-character-counter",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Character Counter MCP"
+	"type": "mcp-server",
+	"packageName": "character-counter",
+	"description": "Analyzes text by counting total characters, characters without spaces, letters, numbers, and symbols for lightweight text composition statistics.",
+	"url": "https://github.com/webreactiva-devs/mcp-character-counter",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Character Counter MCP"
 }

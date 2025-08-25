@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@mcp-get-community/server-macos",
-  "description": "MCP server for macOS system operations",
-  "url": "https://github.com/mcp-get/community-servers/blob/main/src/server-macos",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {},
-  "name": "Community Servers macOS MCP"
+	"type": "mcp-server",
+	"packageName": "@mcp-get-community/server-macos",
+	"description": "MCP server for macOS system operations",
+	"url": "https://github.com/mcp-get/community-servers/blob/main/src/server-macos",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {},
+	"name": "Community Servers macOS MCP"
 }

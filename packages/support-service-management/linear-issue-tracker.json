@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "linear-issue-tracker",
-  "description": "Integrates with Linear's issue tracking system to enable searching, creating, and updating issues, managing comments, and retrieving team information directly through conversation interfaces.",
-  "url": "https://github.com/zalab-inc/mcp-linear-app",
-  "runtime": "node",
-  "license": "other",
-  "env": {},
-  "name": "Linear Issue Tracker MCP"
+	"type": "mcp-server",
+	"packageName": "linear-issue-tracker",
+	"description": "Integrates with Linear's issue tracking system to enable searching, creating, and updating issues, managing comments, and retrieving team information directly through conversation interfaces.",
+	"url": "https://github.com/zalab-inc/mcp-linear-app",
+	"runtime": "node",
+	"license": "other",
+	"env": {},
+	"name": "Linear Issue Tracker MCP"
 }

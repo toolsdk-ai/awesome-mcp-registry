@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "intercom",
-  "description": "Integrates with Intercom to provide filtered access to conversations and chats, enabling detailed analysis of customer interactions and support trends.",
-  "url": "https://github.com/fabian1710/mcp-intercom",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Intercom MCP"
+	"type": "mcp-server",
+	"packageName": "intercom",
+	"description": "Integrates with Intercom to provide filtered access to conversations and chats, enabling detailed analysis of customer interactions and support trends.",
+	"url": "https://github.com/fabian1710/mcp-intercom",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Intercom MCP"
 }

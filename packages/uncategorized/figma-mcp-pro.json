@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "figma-mcp-pro",
-  "description": "Integrates with Figma API to retrieve design files, extract design tokens and CSS properties, process designer comments for implementation instructions, and download assets for automated design-to-code conversion across 10 frameworks including React, Vue, Angular, SwiftUI, and mobile platforms.",
-  "url": "https://github.com/artemsvit/figma-mcp-pro",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "DEBUG": {
-      "description": "true",
-      "required": true
-    }
-  },
-  "name": "Figma MCP Pro"
+	"type": "mcp-server",
+	"packageName": "figma-mcp-pro",
+	"description": "Integrates with Figma API to retrieve design files, extract design tokens and CSS properties, process designer comments for implementation instructions, and download assets for automated design-to-code conversion across 10 frameworks including React, Vue, Angular, SwiftUI, and mobile platforms.",
+	"url": "https://github.com/artemsvit/figma-mcp-pro",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"DEBUG": {
+			"description": "true",
+			"required": true
+		}
+	},
+	"name": "Figma MCP Pro"
 }

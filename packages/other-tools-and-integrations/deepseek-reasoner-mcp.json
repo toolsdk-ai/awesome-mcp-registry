@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "deepseek-reasoner-mcp",
-  "description": "Leverages Deepseek r1 for local reasoning and task planning, enabling autonomous decision-making while maintaining data privacy.",
-  "url": "https://github.com/michaelneale/deepseek-r1-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Deepseek R1 MCP"
+	"type": "mcp-server",
+	"packageName": "deepseek-reasoner-mcp",
+	"description": "Leverages Deepseek r1 for local reasoning and task planning, enabling autonomous decision-making while maintaining data privacy.",
+	"url": "https://github.com/michaelneale/deepseek-r1-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Deepseek R1 MCP"
 }

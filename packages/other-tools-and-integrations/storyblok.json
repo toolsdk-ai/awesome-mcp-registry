@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "storyblok",
-  "description": "Enables your AI assistants to directly access and manage your Storyblok spaces, stories, components, assets, workflows, and more.",
-  "url": "https://github.com/kiran1689/storyblok-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Storyblok MCP Server"
+	"type": "mcp-server",
+	"packageName": "storyblok",
+	"description": "Enables your AI assistants to directly access and manage your Storyblok spaces, stories, components, assets, workflows, and more.",
+	"url": "https://github.com/kiran1689/storyblok-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Storyblok MCP Server"
 }

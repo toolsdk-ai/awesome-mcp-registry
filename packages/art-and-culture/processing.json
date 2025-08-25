@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "processing",
-  "description": "Generates and executes Processing sketches by creating timestamped project folders, saving code files, and launching interactive visualizations for creative coding and generative art workflows.",
-  "url": "https://github.com/twelve2five/processing-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Processing MCP Server"
+	"type": "mcp-server",
+	"packageName": "processing",
+	"description": "Generates and executes Processing sketches by creating timestamped project folders, saving code files, and launching interactive visualizations for creative coding and generative art workflows.",
+	"url": "https://github.com/twelve2five/processing-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Processing MCP Server"
 }

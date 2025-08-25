@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "microsoft-security-copilot",
-  "description": "Integrates Microsoft Security Copilot with Microsoft Sentinel for running KQL queries, managing skillsets, and executing prompts using Azure Identity Authentication",
-  "url": "https://github.com/jguimera/securitycopilotmcpserver",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Security Copilot MCP Server"
+	"type": "mcp-server",
+	"packageName": "microsoft-security-copilot",
+	"description": "Integrates Microsoft Security Copilot with Microsoft Sentinel for running KQL queries, managing skillsets, and executing prompts using Azure Identity Authentication",
+	"url": "https://github.com/jguimera/securitycopilotmcpserver",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Security Copilot MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "custom-context-transformer",
-  "description": "Transforms unstructured text into structured JSON data using customizable templates with placeholders for extracting key information and generating structured outputs for downstream processing.",
-  "url": "https://github.com/omer-ayhan/custom-context-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Custom Context MCP"
+	"type": "mcp-server",
+	"packageName": "custom-context-transformer",
+	"description": "Transforms unstructured text into structured JSON data using customizable templates with placeholders for extracting key information and generating structured outputs for downstream processing.",
+	"url": "https://github.com/omer-ayhan/custom-context-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Custom Context MCP"
 }

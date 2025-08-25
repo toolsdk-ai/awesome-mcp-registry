@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "wealthy-trading-platform",
-  "description": "Integrates with the Wealthy trading platform to enable real-time financial operations including price queries, order placement, portfolio management, and trade idea retrieval for traders analyzing their investments",
-  "url": "https://github.com/wealthy/wealthy-mcp",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "Wealthy MCP"
+	"type": "mcp-server",
+	"packageName": "wealthy-trading-platform",
+	"description": "Integrates with the Wealthy trading platform to enable real-time financial operations including price queries, order placement, portfolio management, and trade idea retrieval for traders analyzing their investments",
+	"url": "https://github.com/wealthy/wealthy-mcp",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "Wealthy MCP"
 }

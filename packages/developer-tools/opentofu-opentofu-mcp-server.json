@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@opentofu/opentofu-mcp-server",
-  "description": "Enables AI systems to search for and retrieve detailed information about OpenTofu Registry components including providers, modules, resources, and documentation for infrastructure-as-code tasks.",
-  "url": "https://github.com/opentofu/opentofu-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "OpenTofu MCP Server"
+	"type": "mcp-server",
+	"packageName": "@opentofu/opentofu-mcp-server",
+	"description": "Enables AI systems to search for and retrieve detailed information about OpenTofu Registry components including providers, modules, resources, and documentation for infrastructure-as-code tasks.",
+	"url": "https://github.com/opentofu/opentofu-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "OpenTofu MCP Server"
 }

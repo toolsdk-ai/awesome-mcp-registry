@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kailashg101/mcp-figma-to-code",
-  "description": "Extracts and analyzes components from Figma design files, enabling seamless integration between Figma designs and React Native development through component hierarchy processing and metadata generation.",
-  "url": "https://github.com/kailashappdev/figma-mcp-toolkit",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "FIGMA_TOKEN": {
-      "description": "your_figma_token",
-      "required": true
-    },
-    "FIGMA_FILE": {
-      "description": "your_figma_file_id",
-      "required": true
-    },
-    "PROJECT_DIR": {
-      "description": "your_project_directory",
-      "required": true
-    }
-  },
-  "name": "Figma MCP Toolkit"
+	"type": "mcp-server",
+	"packageName": "@kailashg101/mcp-figma-to-code",
+	"description": "Extracts and analyzes components from Figma design files, enabling seamless integration between Figma designs and React Native development through component hierarchy processing and metadata generation.",
+	"url": "https://github.com/kailashappdev/figma-mcp-toolkit",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"FIGMA_TOKEN": {
+			"description": "your_figma_token",
+			"required": true
+		},
+		"FIGMA_FILE": {
+			"description": "your_figma_file_id",
+			"required": true
+		},
+		"PROJECT_DIR": {
+			"description": "your_project_directory",
+			"required": true
+		}
+	},
+	"name": "Figma MCP Toolkit"
 }

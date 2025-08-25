@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "substack",
-  "description": "Enables downloading and parsing of Substack posts, facilitating content analysis and research workflows.",
-  "url": "https://github.com/michalnaka/mcp-substack",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Substack MCP"
+	"type": "mcp-server",
+	"packageName": "substack",
+	"description": "Enables downloading and parsing of Substack posts, facilitating content analysis and research workflows.",
+	"url": "https://github.com/michalnaka/mcp-substack",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Substack MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "multi-model-advisor-(ollama)",
-  "description": "Queries multiple Ollama models in parallel with distinct system prompts focused on empathy, logic, and creativity to provide diverse perspectives on user queries",
-  "url": "https://github.com/yuchenssr/multi-ai-advisor-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Multi AI Advisor MCP"
+	"type": "mcp-server",
+	"packageName": "multi-model-advisor-(ollama)",
+	"description": "Queries multiple Ollama models in parallel with distinct system prompts focused on empathy, logic, and creativity to provide diverse perspectives on user queries",
+	"url": "https://github.com/yuchenssr/multi-ai-advisor-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Multi AI Advisor MCP"
 }

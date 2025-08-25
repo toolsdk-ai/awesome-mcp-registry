@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "digikey-mcp-server",
-  "description": "A Model Context Protocol server that provides search and product information tools for DigiKey's electronic component catalog, allowing users to search products by keyword, get detailed product information, and access pricing data.",
-  "url": "https://github.com/bengineer19/digikey_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "CLIENT_ID": {
-      "description": "Your DigiKey API client ID",
-      "required": true
-    },
-    "USE_SANDBOX": {
-      "description": "Set to 'true' to use DigiKey's sandbox environment for testing",
-      "required": true
-    },
-    "CLIENT_SECRET": {
-      "description": "Your DigiKey API client secret",
-      "required": true
-    }
-  },
-  "name": "DigiKey MCP Server"
+	"type": "mcp-server",
+	"packageName": "digikey-mcp-server",
+	"description": "A Model Context Protocol server that provides search and product information tools for DigiKey's electronic component catalog, allowing users to search products by keyword, get detailed product information, and access pricing data.",
+	"url": "https://github.com/bengineer19/digikey_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"CLIENT_ID": {
+			"description": "Your DigiKey API client ID",
+			"required": true
+		},
+		"USE_SANDBOX": {
+			"description": "Set to 'true' to use DigiKey's sandbox environment for testing",
+			"required": true
+		},
+		"CLIENT_SECRET": {
+			"description": "Your DigiKey API client secret",
+			"required": true
+		}
+	},
+	"name": "DigiKey MCP Server"
 }

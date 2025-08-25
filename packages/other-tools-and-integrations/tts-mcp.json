@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "tts-mcp",
-  "description": "Enables high-quality voice generation from text using OpenAI's TTS API with customizable voices, formats, and speech parameters for seamless audio playback during conversations.",
-  "url": "https://github.com/nakamurau1/tts-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "OPENAI_API_KEY": {
-      "description": "your-openai-api-key",
-      "required": true
-    }
-  },
-  "name": "TTS MCP"
+	"type": "mcp-server",
+	"packageName": "tts-mcp",
+	"description": "Enables high-quality voice generation from text using OpenAI's TTS API with customizable voices, formats, and speech parameters for seamless audio playback during conversations.",
+	"url": "https://github.com/nakamurau1/tts-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"OPENAI_API_KEY": {
+			"description": "your-openai-api-key",
+			"required": true
+		}
+	},
+	"name": "TTS MCP"
 }

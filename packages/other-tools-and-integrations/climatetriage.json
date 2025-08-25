@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "climatetriage",
-  "description": "Connects to the ClimateTriage API for searching and filtering open source climate change and sustainability issues across GitHub repositories, enabling developers to find and contribute to environmental projects.",
-  "url": "https://github.com/codeshark-net/climate-triage-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Climate Triage MCP"
+	"type": "mcp-server",
+	"packageName": "climatetriage",
+	"description": "Connects to the ClimateTriage API for searching and filtering open source climate change and sustainability issues across GitHub repositories, enabling developers to find and contribute to environmental projects.",
+	"url": "https://github.com/codeshark-net/climate-triage-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Climate Triage MCP"
 }

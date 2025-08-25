@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@blahai/cli",
-  "description": "Open-source ecosystem for creating, testing, and sharing AI agent tools with a visual flow editor, simulation environment, and decentralized tool discovery capabilities.",
-  "url": "https://github.com/thomasdavis/blah",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "OPENAI_API_KEY": {
-      "description": "your_openai_api_key",
-      "required": true
-    },
-    "VALTOWN_USERNAME": {
-      "description": "your_valtown_username",
-      "required": true
-    }
-  },
-  "name": "Blah MCP Server"
+	"type": "mcp-server",
+	"packageName": "@blahai/cli",
+	"description": "Open-source ecosystem for creating, testing, and sharing AI agent tools with a visual flow editor, simulation environment, and decentralized tool discovery capabilities.",
+	"url": "https://github.com/thomasdavis/blah",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"OPENAI_API_KEY": {
+			"description": "your_openai_api_key",
+			"required": true
+		},
+		"VALTOWN_USERNAME": {
+			"description": "your_valtown_username",
+			"required": true
+		}
+	},
+	"name": "Blah MCP Server"
 }

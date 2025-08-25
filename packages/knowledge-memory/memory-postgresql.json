@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "memory-postgresql",
-  "description": "Provides long-term memory capabilities using PostgreSQL with pgvector for efficient semantic search across stored memories, enabling tagging, confidence scoring, and filtering for maintaining context across conversations.",
-  "url": "https://github.com/sdimitrov/mcp-memory",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Memory PostgreSQL MCP"
+	"type": "mcp-server",
+	"packageName": "memory-postgresql",
+	"description": "Provides long-term memory capabilities using PostgreSQL with pgvector for efficient semantic search across stored memories, enabling tagging, confidence scoring, and filtering for maintaining context across conversations.",
+	"url": "https://github.com/sdimitrov/mcp-memory",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Memory PostgreSQL MCP"
 }

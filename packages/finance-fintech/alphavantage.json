@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "alphavantage",
-  "description": "Bridges AlphaVantage's financial data ecosystem by providing real-time access to stock market, forex, cryptocurrency, and fundamental financial metrics for data-driven investment research and analysis.",
-  "url": "https://github.com/lifejwang11/alphavantage-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "AlphaVantage MCP"
+	"type": "mcp-server",
+	"packageName": "alphavantage",
+	"description": "Bridges AlphaVantage's financial data ecosystem by providing real-time access to stock market, forex, cryptocurrency, and fundamental financial metrics for data-driven investment research and analysis.",
+	"url": "https://github.com/lifejwang11/alphavantage-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "AlphaVantage MCP"
 }

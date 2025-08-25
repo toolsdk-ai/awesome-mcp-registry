@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-gigapi",
-  "description": "Integrates with GigAPI Timeseries Lake to execute SQL queries, manage databases and tables, and write time-series data using InfluxDB Line Protocol for analytics and IoT monitoring applications.",
-  "url": "https://github.com/gigapi/gigapi-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "GigAPI MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-gigapi",
+	"description": "Integrates with GigAPI Timeseries Lake to execute SQL queries, manage databases and tables, and write time-series data using InfluxDB Line Protocol for analytics and IoT monitoring applications.",
+	"url": "https://github.com/gigapi/gigapi-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "GigAPI MCP"
 }

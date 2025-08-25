@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@cmann50/mcp-chrome-google-search",
-  "description": "Integrates Google search and webpage content extraction via Chrome browser automation, enabling access up-to-date web information for tasks like fact-checking and research.",
-  "url": "https://github.com/cmann50/mcp-chrome-google-search",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Chrome Google Search"
+	"type": "mcp-server",
+	"packageName": "@cmann50/mcp-chrome-google-search",
+	"description": "Integrates Google search and webpage content extraction via Chrome browser automation, enabling access up-to-date web information for tasks like fact-checking and research.",
+	"url": "https://github.com/cmann50/mcp-chrome-google-search",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Chrome Google Search"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "obsidian-notes",
-  "description": "Enables direct filesystem access to Obsidian vaults for retrieving file lists, reading content, managing todos, and creating or updating markdown files without requiring the Obsidian application to be running.",
-  "url": "https://github.com/marcelmarais/obsidian-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Obsidian MCP Server"
+	"type": "mcp-server",
+	"packageName": "obsidian-notes",
+	"description": "Enables direct filesystem access to Obsidian vaults for retrieving file lists, reading content, managing todos, and creating or updating markdown files without requiring the Obsidian application to be running.",
+	"url": "https://github.com/marcelmarais/obsidian-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Obsidian MCP Server"
 }

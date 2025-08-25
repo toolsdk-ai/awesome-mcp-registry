@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cia-world-factbook",
-  "description": "Fetch information about a country from the CIA World Factbook",
-  "url": "https://github.com/joshuatanderson/factbook-mcp",
-  "runtime": "node",
-  "license": "other",
-  "env": {},
-  "name": "Factbook MCP"
+	"type": "mcp-server",
+	"packageName": "cia-world-factbook",
+	"description": "Fetch information about a country from the CIA World Factbook",
+	"url": "https://github.com/joshuatanderson/factbook-mcp",
+	"runtime": "node",
+	"license": "other",
+	"env": {},
+	"name": "Factbook MCP"
 }

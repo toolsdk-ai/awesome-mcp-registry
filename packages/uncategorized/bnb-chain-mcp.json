@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@bnb-chain/mcp",
-  "description": "Enables direct interaction with BNB Chain and other EVM-compatible networks for blockchain operations including block exploration, smart contract interaction, token management, wallet operations, and Greenfield storage functionality.",
-  "url": "https://github.com/bnb-chain/bnbchain-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "PRIVATE_KEY": {
-      "description": "your_private_key_here. (optional)",
-      "required": true
-    }
-  },
-  "name": "BNBChain MCP"
+	"type": "mcp-server",
+	"packageName": "@bnb-chain/mcp",
+	"description": "Enables direct interaction with BNB Chain and other EVM-compatible networks for blockchain operations including block exploration, smart contract interaction, token management, wallet operations, and Greenfield storage functionality.",
+	"url": "https://github.com/bnb-chain/bnbchain-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"PRIVATE_KEY": {
+			"description": "your_private_key_here. (optional)",
+			"required": true
+		}
+	},
+	"name": "BNBChain MCP"
 }

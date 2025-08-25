@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "zenml",
-  "description": "Integrates with ZenML to enable querying pipeline metadata, triggering new runs, and analyzing ML workflow history through Python-based tools for machine learning pipeline management",
-  "url": "https://github.com/zenml-io/mcp-zenml",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "ZenML MCP"
+	"type": "mcp-server",
+	"packageName": "zenml",
+	"description": "Integrates with ZenML to enable querying pipeline metadata, triggering new runs, and analyzing ML workflow history through Python-based tools for machine learning pipeline management",
+	"url": "https://github.com/zenml-io/mcp-zenml",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "ZenML MCP"
 }

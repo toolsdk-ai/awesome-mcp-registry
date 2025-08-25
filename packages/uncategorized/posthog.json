@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "posthog",
-  "description": "Integrates with PostHog to enable querying analytics, errors, running SQL insights, and managing feature flags through natural language interactions",
-  "url": "https://github.com/posthog/mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "PostHog MCP"
+	"type": "mcp-server",
+	"packageName": "posthog",
+	"description": "Integrates with PostHog to enable querying analytics, errors, running SQL insights, and managing feature flags through natural language interactions",
+	"url": "https://github.com/posthog/mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "PostHog MCP"
 }

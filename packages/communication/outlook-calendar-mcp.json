@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "outlook-calendar-mcp",
-  "description": "Integrates with Microsoft Outlook Calendar to enable event management, scheduling, and attendee status updates for enhanced productivity workflows.",
-  "url": "https://github.com/merajmehrabi/outlook_calendar_mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Outlook Calendar MCP"
+	"type": "mcp-server",
+	"packageName": "outlook-calendar-mcp",
+	"description": "Integrates with Microsoft Outlook Calendar to enable event management, scheduling, and attendee status updates for enhanced productivity workflows.",
+	"url": "https://github.com/merajmehrabi/outlook_calendar_mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Outlook Calendar MCP"
 }

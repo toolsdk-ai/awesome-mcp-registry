@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@mcpdotdirect/evm-mcp-server",
-  "description": "Integrates with EVM-compatible blockchains to enable querying data, transferring tokens, reading smart contracts, and resolving ENS names across Ethereum, Optimism, Arbitrum, and Base networks.",
-  "url": "https://github.com/mcpdotdirect/evm-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "EVM MCP Server"
+	"type": "mcp-server",
+	"packageName": "@mcpdotdirect/evm-mcp-server",
+	"description": "Integrates with EVM-compatible blockchains to enable querying data, transferring tokens, reading smart contracts, and resolving ENS names across Ethereum, Optimism, Arbitrum, and Base networks.",
+	"url": "https://github.com/mcpdotdirect/evm-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "EVM MCP Server"
 }

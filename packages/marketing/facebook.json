@@ -1,28 +1,28 @@
 {
-  "type": "mcp-server",
-  "logo": "https://pbs.twimg.com/profile_images/1704525466651033600/lSj99dbT_400x400.jpg",
-  "packageName": "@Tisik79/MCP-Facebook",
-  "description": "This project provides a Model Context Protocol (MCP) server designed to interact with the Facebook Marketing API, allowing AI assistants like Claude to manage and analyze Facebook ad campaigns, ad sets, audiences, and more.",
-  "url": "https://github.com/Tisik79/MCP-Facebook/tree/main/src",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "FACEBOOK_APP_ID": {
-      "description": "your_app_id",
-      "required": true
-    },
-    "FACEBOOK_APP_SECRET": {
-      "description": "your_app_secret",
-      "required": true
-    },
-    "FACEBOOK_ACCESS_TOKEN": {
-      "description": "your_access_token",
-      "required": true
-    },
-    "FACEBOOK_ACCOUNT_ID": {
-      "description": "your_ad_account_id",
-      "required": true
-    }
-  },
-  "name": "Facebook Ads MCP"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1704525466651033600/lSj99dbT_400x400.jpg",
+	"packageName": "@Tisik79/MCP-Facebook",
+	"description": "This project provides a Model Context Protocol (MCP) server designed to interact with the Facebook Marketing API, allowing AI assistants like Claude to manage and analyze Facebook ad campaigns, ad sets, audiences, and more.",
+	"url": "https://github.com/Tisik79/MCP-Facebook/tree/main/src",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"FACEBOOK_APP_ID": {
+			"description": "your_app_id",
+			"required": true
+		},
+		"FACEBOOK_APP_SECRET": {
+			"description": "your_app_secret",
+			"required": true
+		},
+		"FACEBOOK_ACCESS_TOKEN": {
+			"description": "your_access_token",
+			"required": true
+		},
+		"FACEBOOK_ACCOUNT_ID": {
+			"description": "your_ad_account_id",
+			"required": true
+		}
+	},
+	"name": "Facebook Ads MCP"
 }

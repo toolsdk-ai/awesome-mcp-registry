@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pubmed-smithery",
-  "description": "Provides powerful tools for searching and analyzing academic medical literature through PubMed, offering specialized functions for keyword searches, MeSH term lookups, publication statistics, and structured PICO-based evidence retrieval with automatic retry mechanisms.",
-  "url": "https://github.com/leescot/pubmed-mcp-smithery",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "PubMed Smithery MCP"
+	"type": "mcp-server",
+	"packageName": "pubmed-smithery",
+	"description": "Provides powerful tools for searching and analyzing academic medical literature through PubMed, offering specialized functions for keyword searches, MeSH term lookups, publication statistics, and structured PICO-based evidence retrieval with automatic retry mechanisms.",
+	"url": "https://github.com/leescot/pubmed-mcp-smithery",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "PubMed Smithery MCP"
 }

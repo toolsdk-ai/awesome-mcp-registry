@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "evolution-whatsapp-api",
-  "description": "Connects AI systems to WhatsApp through the Evolution API, enabling message management, media sharing, and contact operations for automated customer service and messaging workflows.",
-  "url": "https://github.com/aiteks-ltda/mcp-evolution-whatsapp-api",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Evolution WhatsApp API MCP"
+	"type": "mcp-server",
+	"packageName": "evolution-whatsapp-api",
+	"description": "Connects AI systems to WhatsApp through the Evolution API, enabling message management, media sharing, and contact operations for automated customer service and messaging workflows.",
+	"url": "https://github.com/aiteks-ltda/mcp-evolution-whatsapp-api",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Evolution WhatsApp API MCP"
 }

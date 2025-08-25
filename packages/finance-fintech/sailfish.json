@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sailfish",
-  "description": "Provides a bridge to the SailFish decentralized exchange on the EDU blockchain, enabling token swaps, liquidity pool queries, and market data analysis through a GraphQL subgraph with optimal routing capabilities.",
-  "url": "https://github.com/sailfish-finance/educhain-ai-agent-kit",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "SailFish AI Agent Kit"
+	"type": "mcp-server",
+	"packageName": "sailfish",
+	"description": "Provides a bridge to the SailFish decentralized exchange on the EDU blockchain, enabling token swaps, liquidity pool queries, and market data analysis through a GraphQL subgraph with optimal routing capabilities.",
+	"url": "https://github.com/sailfish-finance/educhain-ai-agent-kit",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "SailFish AI Agent Kit"
 }

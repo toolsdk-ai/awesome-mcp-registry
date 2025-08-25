@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "source-code",
-  "description": "Manage source code and files on your machine",
-  "url": "https://github.com/chakotay-lee/mcp-source-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Source Server"
+	"type": "mcp-server",
+	"packageName": "source-code",
+	"description": "Manage source code and files on your machine",
+	"url": "https://github.com/chakotay-lee/mcp-source-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Source Server"
 }

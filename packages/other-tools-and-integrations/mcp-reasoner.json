@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-reasoner",
-  "description": "Implements beam search and thought evaluation for structured problem-solving, enabling exploration of multiple solution paths in complex reasoning tasks.",
-  "url": "https://github.com/jacck/mcp-reasoner",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Reasoner"
+	"type": "mcp-server",
+	"packageName": "mcp-reasoner",
+	"description": "Implements beam search and thought evaluation for structured problem-solving, enabling exploration of multiple solution paths in complex reasoning tasks.",
+	"url": "https://github.com/jacck/mcp-reasoner",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Reasoner"
 }

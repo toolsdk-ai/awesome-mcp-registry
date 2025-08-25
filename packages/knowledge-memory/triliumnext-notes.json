@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "triliumnext-notes",
-  "description": "Integrates with TriliumNext Notes for creating, retrieving, updating, searching, and deleting notes through conversation, enabling seamless knowledge base management without context switching.",
-  "url": "https://github.com/tan-yong-sheng/triliumnext-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "TriliumNext MCP"
+	"type": "mcp-server",
+	"packageName": "triliumnext-notes",
+	"description": "Integrates with TriliumNext Notes for creating, retrieving, updating, searching, and deleting notes through conversation, enabling seamless knowledge base management without context switching.",
+	"url": "https://github.com/tan-yong-sheng/triliumnext-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "TriliumNext MCP"
 }

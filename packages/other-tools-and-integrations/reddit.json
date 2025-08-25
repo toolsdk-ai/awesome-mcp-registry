@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "reddit",
-  "description": "Integrates with Reddit's API using PRAW to enable retrieving and posting content, managing subreddits, and analyzing user data for applications like sentiment analysis and trend monitoring.",
-  "url": "https://github.com/wllcnm/mcp-reddit",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Reddit MCP"
+	"type": "mcp-server",
+	"packageName": "reddit",
+	"description": "Integrates with Reddit's API using PRAW to enable retrieving and posting content, managing subreddits, and analyzing user data for applications like sentiment analysis and trend monitoring.",
+	"url": "https://github.com/wllcnm/mcp-reddit",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Reddit MCP"
 }

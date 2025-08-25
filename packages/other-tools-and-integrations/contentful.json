@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "contentful",
-  "description": "Enables Claude to directly interact with Contentful CMS data by providing tools to fetch content types and entries, supporting content exploration, metadata analysis, and dynamic content querying.",
-  "url": "https://github.com/tejedamiguel6/mcp-server-contenful",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Contentful MCP Server"
+	"type": "mcp-server",
+	"packageName": "contentful",
+	"description": "Enables Claude to directly interact with Contentful CMS data by providing tools to fetch content types and entries, supporting content exploration, metadata analysis, and dynamic content querying.",
+	"url": "https://github.com/tejedamiguel6/mcp-server-contenful",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Contentful MCP Server"
 }

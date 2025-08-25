@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@wenbopan/things-mcp",
-  "description": "Integrates with Things.app task management for macOS, enabling task and project creation with full metadata support, update operations including completion status, database export functionality, and summary generation through URL scheme and direct database access.",
-  "url": "https://github.com/bmpixel/things-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "THINGS_AUTH_TOKEN": {
-      "description": "your-token-here",
-      "required": true
-    }
-  },
-  "name": "Things MCP"
+	"type": "mcp-server",
+	"packageName": "@wenbopan/things-mcp",
+	"description": "Integrates with Things.app task management for macOS, enabling task and project creation with full metadata support, update operations including completion status, database export functionality, and summary generation through URL scheme and direct database access.",
+	"url": "https://github.com/bmpixel/things-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"THINGS_AUTH_TOKEN": {
+			"description": "your-token-here",
+			"required": true
+		}
+	},
+	"name": "Things MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@terryliyongjie/api2mcptools",
-  "description": "Converts JSON API definitions into executable tools, enabling seamless integration of external APIs without modifying core server code.",
-  "url": "https://github.com/jayli52/api2mcptools",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "API2MCP Tools"
+	"type": "mcp-server",
+	"packageName": "@terryliyongjie/api2mcptools",
+	"description": "Converts JSON API definitions into executable tools, enabling seamless integration of external APIs without modifying core server code.",
+	"url": "https://github.com/jayli52/api2mcptools",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "API2MCP Tools"
 }

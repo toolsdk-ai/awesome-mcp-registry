@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "imessage",
-  "description": "Enables iMessage interaction on macOS for read/send capabilities.",
-  "url": "https://github.com/tchbw/mcp-imessage",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "iMessage MCP"
+	"type": "mcp-server",
+	"packageName": "imessage",
+	"description": "Enables iMessage interaction on macOS for read/send capabilities.",
+	"url": "https://github.com/tchbw/mcp-imessage",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "iMessage MCP"
 }

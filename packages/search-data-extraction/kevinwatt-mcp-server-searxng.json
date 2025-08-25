@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kevinwatt/mcp-server-searxng",
-  "description": "Integrates SearXNG's meta-search capabilities to provide privacy-focused, customizable search results from multiple engines for diverse information retrieval scenarios.",
-  "url": "https://github.com/kevinwatt/mcp-server-searxng",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "SEARXNG_INSTANCES": {
-      "description": "http://localhost:8080,https://searx.example.com",
-      "required": true
-    },
-    "SEARXNG_USER_AGENT": {
-      "description": "CustomBot/1.0",
-      "required": true
-    },
-    "NODE_TLS_REJECT_UNAUTHORIZED": {
-      "description": "0",
-      "required": true
-    }
-  },
-  "name": "SearXNG MCP Server"
+	"type": "mcp-server",
+	"packageName": "@kevinwatt/mcp-server-searxng",
+	"description": "Integrates SearXNG's meta-search capabilities to provide privacy-focused, customizable search results from multiple engines for diverse information retrieval scenarios.",
+	"url": "https://github.com/kevinwatt/mcp-server-searxng",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"SEARXNG_INSTANCES": {
+			"description": "http://localhost:8080,https://searx.example.com",
+			"required": true
+		},
+		"SEARXNG_USER_AGENT": {
+			"description": "CustomBot/1.0",
+			"required": true
+		},
+		"NODE_TLS_REJECT_UNAUTHORIZED": {
+			"description": "0",
+			"required": true
+		}
+	},
+	"name": "SearXNG MCP Server"
 }

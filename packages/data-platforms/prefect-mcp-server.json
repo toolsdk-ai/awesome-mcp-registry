@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "prefect-mcp-server",
-  "description": "Enables interaction with Prefect workflow orchestration platform for retrieving flow information, managing flow runs, searching deployments, and executing workflows directly from conversational interfaces.",
-  "url": "https://github.com/fortunto2/prefect-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Prefect MCP Server"
+	"type": "mcp-server",
+	"packageName": "prefect-mcp-server",
+	"description": "Enables interaction with Prefect workflow orchestration platform for retrieving flow information, managing flow runs, searching deployments, and executing workflows directly from conversational interfaces.",
+	"url": "https://github.com/fortunto2/prefect-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Prefect MCP Server"
 }

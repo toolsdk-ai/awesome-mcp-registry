@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "python-code-explorer",
-  "description": "Builds a graph of Python code relationships to intelligently navigate codebases, prioritize relevant sections, and include README files while staying within token limits.",
-  "url": "https://github.com/hesiod-au/python-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Python MCP"
+	"type": "mcp-server",
+	"packageName": "python-code-explorer",
+	"description": "Builds a graph of Python code relationships to intelligently navigate codebases, prioritize relevant sections, and include README files while staying within token limits.",
+	"url": "https://github.com/hesiod-au/python-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Python MCP"
 }

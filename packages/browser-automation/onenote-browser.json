@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "onenote-browser",
-  "description": "Enables browsing and interaction with shared OneNote notebooks through browser automation for reading/writing pages, capturing diagrams, and maintaining session state",
-  "url": "https://github.com/hwillgit/onenote-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "OneNote MCP"
+	"type": "mcp-server",
+	"packageName": "onenote-browser",
+	"description": "Enables browsing and interaction with shared OneNote notebooks through browser automation for reading/writing pages, capturing diagrams, and maintaining session state",
+	"url": "https://github.com/hwillgit/onenote-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "OneNote MCP"
 }

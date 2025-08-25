@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "prem-ai",
-  "description": "Provides direct access to Prem AI's chat completions and RAG capabilities through tools for chat interactions, document uploads, and template-based prompting for knowledge retrieval and contextual responses.",
-  "url": "https://github.com/ucalyptus/prem-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Prem MCP Server"
+	"type": "mcp-server",
+	"packageName": "prem-ai",
+	"description": "Provides direct access to Prem AI's chat completions and RAG capabilities through tools for chat interactions, document uploads, and template-based prompting for knowledge retrieval and contextual responses.",
+	"url": "https://github.com/ucalyptus/prem-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Prem MCP Server"
 }

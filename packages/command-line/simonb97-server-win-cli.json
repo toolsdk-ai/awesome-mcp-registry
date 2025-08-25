@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@simonb97/server-win-cli",
-  "description": "Control Windows command-line interfaces securely.",
-  "url": "https://github.com/simonb97/win-cli-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Win CLI MCP Server"
+	"type": "mcp-server",
+	"packageName": "@simonb97/server-win-cli",
+	"description": "Control Windows command-line interfaces securely.",
+	"url": "https://github.com/simonb97/win-cli-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Win CLI MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "epics-process-variable-bridge",
-  "description": "Provides a bridge between AI and EPICS process variables, enabling real-time monitoring and control of industrial systems through tools for getting, setting, and retrieving detailed information about hardware systems.",
-  "url": "https://github.com/jacky1-jiang/epics-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "EPICS MCP Server"
+	"type": "mcp-server",
+	"packageName": "epics-process-variable-bridge",
+	"description": "Provides a bridge between AI and EPICS process variables, enabling real-time monitoring and control of industrial systems through tools for getting, setting, and retrieving detailed information about hardware systems.",
+	"url": "https://github.com/jacky1-jiang/epics-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "EPICS MCP Server"
 }

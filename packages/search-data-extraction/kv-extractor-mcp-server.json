@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "kv-extractor-mcp-server",
-  "description": "Extracts structured key-value pairs from unstructured text using a multi-step pipeline that performs language detection, entity recognition, and type validation for applications requiring information extraction from messy sources like emails or receipts.",
-  "url": "https://github.com/kunihiros/kv-extractor-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "KV Extractor MCP Server"
+	"type": "mcp-server",
+	"packageName": "kv-extractor-mcp-server",
+	"description": "Extracts structured key-value pairs from unstructured text using a multi-step pipeline that performs language detection, entity recognition, and type validation for applications requiring information extraction from messy sources like emails or receipts.",
+	"url": "https://github.com/kunihiros/kv-extractor-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "KV Extractor MCP Server"
 }

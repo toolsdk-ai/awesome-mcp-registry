@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cli-(desktop-commander)",
-  "description": "Integrates terminal and filesystem capabilities for executing system commands, managing processes, and performing advanced file operations on the local system.",
-  "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Desktop Commander MCP"
+	"type": "mcp-server",
+	"packageName": "cli-(desktop-commander)",
+	"description": "Integrates terminal and filesystem capabilities for executing system commands, managing processes, and performing advanced file operations on the local system.",
+	"url": "https://github.com/wonderwhy-er/desktopcommandermcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Desktop Commander MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cutter-(reverse-engineering)",
-  "description": "Bridges Cutter reverse engineering platform with binary analysis capabilities including function listing, decompilation, segment analysis, and symbol management for enhanced reverse engineering workflows.",
-  "url": "https://github.com/ap425q/cuttermcp",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Cutter MCP"
+	"type": "mcp-server",
+	"packageName": "cutter-(reverse-engineering)",
+	"description": "Bridges Cutter reverse engineering platform with binary analysis capabilities including function listing, decompilation, segment analysis, and symbol management for enhanced reverse engineering workflows.",
+	"url": "https://github.com/ap425q/cuttermcp",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Cutter MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-tree-explorer",
-  "description": "Lightweight directory tree visualization tool for Cursor that automatically installs the 'tree' command, provides smart filtering of large directories, and supports customizable ignore/keep patterns across Windows, macOS, and Linux.",
-  "url": "https://github.com/carterlasalle/directory_structure_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Directory Structure MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-tree-explorer",
+	"description": "Lightweight directory tree visualization tool for Cursor that automatically installs the 'tree' command, provides smart filtering of large directories, and supports customizable ignore/keep patterns across Windows, macOS, and Linux.",
+	"url": "https://github.com/carterlasalle/directory_structure_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Directory Structure MCP"
 }

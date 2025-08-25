@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "forevervm-mcp",
-  "description": "Enable long-running Python REPL execution on a remote machine",
-  "url": "https://github.com/jamsocket/forevervm/tree/HEAD/javascript/mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "ForeverVM MCP"
+	"type": "mcp-server",
+	"packageName": "forevervm-mcp",
+	"description": "Enable long-running Python REPL execution on a remote machine",
+	"url": "https://github.com/jamsocket/forevervm/tree/HEAD/javascript/mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "ForeverVM MCP"
 }

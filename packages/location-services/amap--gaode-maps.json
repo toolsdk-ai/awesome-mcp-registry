@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "amap-(gaode-maps)",
-  "description": "Integrates with AMap (Gaode Maps) API services in China for coordinate conversion, place searching, and transportation route planning between locations.",
-  "url": "https://github.com/gebabygeegee/amapmcpserver",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Amap MCP Server"
+	"type": "mcp-server",
+	"packageName": "amap-(gaode-maps)",
+	"description": "Integrates with AMap (Gaode Maps) API services in China for coordinate conversion, place searching, and transportation route planning between locations.",
+	"url": "https://github.com/gebabygeegee/amapmcpserver",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Amap MCP Server"
 }

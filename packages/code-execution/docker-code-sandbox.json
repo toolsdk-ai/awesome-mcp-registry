@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "docker-code-sandbox",
-  "description": "Provides a secure Docker-based sandbox for executing Python code with resource limits and proper isolation, enabling safe execution of untrusted code for data analysis and algorithm testing.",
-  "url": "https://github.com/svngoku/mcp-docker-code-interpreter",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Docker Code Sandbox"
+	"type": "mcp-server",
+	"packageName": "docker-code-sandbox",
+	"description": "Provides a secure Docker-based sandbox for executing Python code with resource limits and proper isolation, enabling safe execution of untrusted code for data analysis and algorithm testing.",
+	"url": "https://github.com/svngoku/mcp-docker-code-interpreter",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Docker Code Sandbox"
 }

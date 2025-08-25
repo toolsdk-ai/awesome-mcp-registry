@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "knmi-weather-mcp",
-  "description": "Provides real-time weather data from the Royal Netherlands Meteorological Institute (KNMI) by automatically finding the nearest weather station to any location in the Netherlands, delivering current measurements including temperature, humidity, wind speed, and more.",
-  "url": "https://github.com/wolkwork/knmi-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "KNMI MCP"
+	"type": "mcp-server",
+	"packageName": "knmi-weather-mcp",
+	"description": "Provides real-time weather data from the Royal Netherlands Meteorological Institute (KNMI) by automatically finding the nearest weather station to any location in the Netherlands, delivering current measurements including temperature, humidity, wind speed, and more.",
+	"url": "https://github.com/wolkwork/knmi-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "KNMI MCP"
 }

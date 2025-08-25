@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "docs-rag",
-  "description": "Enables AI to query and analyze local documents and Git repositories through a RAG system built with TypeScript, LlamaIndex, and Gemini embeddings.",
-  "url": "https://github.com/kazuph/mcp-docs-rag",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Docs RAG MCP Server"
+	"type": "mcp-server",
+	"packageName": "docs-rag",
+	"description": "Enables AI to query and analyze local documents and Git repositories through a RAG system built with TypeScript, LlamaIndex, and Gemini embeddings.",
+	"url": "https://github.com/kazuph/mcp-docs-rag",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Docs RAG MCP Server"
 }

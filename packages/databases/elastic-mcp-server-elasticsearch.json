@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@elastic/mcp-server-elasticsearch",
-  "description": "Enables natural language interaction with Elasticsearch clusters for listing indices, inspecting field mappings, and executing Query DSL searches with automatic text highlighting",
-  "url": "https://github.com/elastic/mcp-server-elasticsearch",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "ES_URL": {
-      "description": "<your-elasticsearch-url>",
-      "required": true
-    },
-    "ES_API_KEY": {
-      "description": "<your-api-key>",
-      "required": true
-    }
-  },
-  "name": "Elasticsearch MCP Server"
+	"type": "mcp-server",
+	"packageName": "@elastic/mcp-server-elasticsearch",
+	"description": "Enables natural language interaction with Elasticsearch clusters for listing indices, inspecting field mappings, and executing Query DSL searches with automatic text highlighting",
+	"url": "https://github.com/elastic/mcp-server-elasticsearch",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"ES_URL": {
+			"description": "<your-elasticsearch-url>",
+			"required": true
+		},
+		"ES_API_KEY": {
+			"description": "<your-api-key>",
+			"required": true
+		}
+	},
+	"name": "Elasticsearch MCP Server"
 }

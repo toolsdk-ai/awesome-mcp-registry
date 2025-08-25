@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nasa-cmr-(common-metadata-repository)",
-  "description": "Bridges to NASA's Common Metadata Repository for searching and retrieving Earth science datasets by date range, provider, and keywords with structured information including concept IDs and descriptions.",
-  "url": "https://github.com/podaac/cmr-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "CMR MCP"
+	"type": "mcp-server",
+	"packageName": "nasa-cmr-(common-metadata-repository)",
+	"description": "Bridges to NASA's Common Metadata Repository for searching and retrieving Earth science datasets by date range, provider, and keywords with structured information including concept IDs and descriptions.",
+	"url": "https://github.com/podaac/cmr-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "CMR MCP"
 }

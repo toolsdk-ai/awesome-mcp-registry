@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "directus-extension-mcp",
-  "description": "Integrates with Directus CMS instances to manage content, schema, files, workflows, and user permissions through CRUD operations, automation triggers, and dynamic prompt management.",
-  "url": "https://github.com/joshthederf/directus-extension-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Directus Extension MCP"
+	"type": "mcp-server",
+	"packageName": "directus-extension-mcp",
+	"description": "Integrates with Directus CMS instances to manage content, schema, files, workflows, and user permissions through CRUD operations, automation triggers, and dynamic prompt management.",
+	"url": "https://github.com/joshthederf/directus-extension-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Directus Extension MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "airbnb",
-  "description": "Integrates with Airbnb's search and listing details functionality to enable vacation rental discovery and analysis with filters for location, dates, guests, amenities, and pricing",
-  "url": "https://github.com/domoteek/mcp-server-airbnb",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Airbnb MCP Server"
+	"type": "mcp-server",
+	"packageName": "airbnb",
+	"description": "Integrates with Airbnb's search and listing details functionality to enable vacation rental discovery and analysis with filters for location, dates, guests, amenities, and pricing",
+	"url": "https://github.com/domoteek/mcp-server-airbnb",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Airbnb MCP Server"
 }

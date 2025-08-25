@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "playwright-browser-automation",
-  "description": "Enables browser automation through structured accessibility snapshots for web navigation, form-filling, and tab management without requiring vision-tuned models.",
-  "url": "https://github.com/markbustamante77/mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "MCP Browser Automation"
+	"type": "mcp-server",
+	"packageName": "playwright-browser-automation",
+	"description": "Enables browser automation through structured accessibility snapshots for web navigation, form-filling, and tab management without requiring vision-tuned models.",
+	"url": "https://github.com/markbustamante77/mcp",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "MCP Browser Automation"
 }

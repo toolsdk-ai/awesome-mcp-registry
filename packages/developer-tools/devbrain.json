@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "devbrain",
-  "description": "Integrates with DevBrain's curated developer knowledge base to search coding articles, tutorials, and technical content with tag-based filtering and full article retrieval for contextual programming guidance and research workflows.",
-  "url": "https://github.com/mimecam/mcp-devbrain-stdio",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "DevBrain MCP Server"
+	"type": "mcp-server",
+	"packageName": "devbrain",
+	"description": "Integrates with DevBrain's curated developer knowledge base to search coding articles, tutorials, and technical content with tag-based filtering and full article retrieval for contextual programming guidance and research workflows.",
+	"url": "https://github.com/mimecam/mcp-devbrain-stdio",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "DevBrain MCP Server"
 }

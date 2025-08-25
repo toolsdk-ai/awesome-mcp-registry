@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "postgresql-alchemy",
-  "description": "Connects AI models to PostgreSQL databases using Python and SQLAlchemy, enabling flexible querying and data manipulation across SQL dialects.",
-  "url": "https://github.com/rhabraken/mcp-python",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Python"
+	"type": "mcp-server",
+	"packageName": "postgresql-alchemy",
+	"description": "Connects AI models to PostgreSQL databases using Python and SQLAlchemy, enabling flexible querying and data manipulation across SQL dialects.",
+	"url": "https://github.com/rhabraken/mcp-python",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Python"
 }

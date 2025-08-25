@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "claude-code",
-  "description": "Enables Claude to execute code-related tasks through direct tools for code understanding, modification, command execution, and file operations with proper security controls.",
-  "url": "https://github.com/sdglbl/mcp-claude-code",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Claude Code MCP"
+	"type": "mcp-server",
+	"packageName": "claude-code",
+	"description": "Enables Claude to execute code-related tasks through direct tools for code understanding, modification, command execution, and file operations with proper security controls.",
+	"url": "https://github.com/sdglbl/mcp-claude-code",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Claude Code MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "obsidian",
-  "description": "Enables Claude to read, search, and modify Obsidian vault notes through a Node.js application that connects to the Local REST API plugin for seamless knowledge management workflows.",
-  "url": "https://github.com/takuya0206/obsidian-mcp",
-  "runtime": "node",
-  "license": "isc",
-  "env": {},
-  "name": "Obsidian MCP"
+	"type": "mcp-server",
+	"packageName": "obsidian",
+	"description": "Enables Claude to read, search, and modify Obsidian vault notes through a Node.js application that connects to the Local REST API plugin for seamless knowledge management workflows.",
+	"url": "https://github.com/takuya0206/obsidian-mcp",
+	"runtime": "node",
+	"license": "isc",
+	"env": {},
+	"name": "Obsidian MCP"
 }

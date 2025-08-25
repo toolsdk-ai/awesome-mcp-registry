@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "anilist",
-  "description": "Integrates with Anilist's anime/manga database through GraphQL queries, enabling search, retrieval, and analysis of Japanese media information for accurate conversations about anime and manga.",
-  "url": "https://github.com/yuna0x0/anilist-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Anilist MCP"
+	"type": "mcp-server",
+	"packageName": "anilist",
+	"description": "Integrates with Anilist's anime/manga database through GraphQL queries, enabling search, retrieval, and analysis of Japanese media information for accurate conversations about anime and manga.",
+	"url": "https://github.com/yuna0x0/anilist-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Anilist MCP"
 }

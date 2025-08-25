@@ -1,31 +1,31 @@
 {
-  "type": "mcp-server",
-  "packageName": "all-search-mcp-server",
-  "description": "An MCP server that enables web search and document retrieval capabilities through Tavily API and LangConnect vector database, supporting AI agents in gathering information for comprehensive report generation.",
-  "url": "https://github.com/HyunjunJeon/vibecoding-lg-mcp-a2a",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "GOOGLE_API_KEY": {
-      "description": "Your Google API key for ADK",
-      "required": true
-    },
-    "TAVILY_API_KEY": {
-      "description": "Your Tavily API key for web search",
-      "required": true
-    },
-    "AZURE_OPENAI_API_KEY": {
-      "description": "Your Azure OpenAI API key",
-      "required": true
-    },
-    "AZURE_OPENAI_ENDPOINT": {
-      "description": "Your Azure OpenAI endpoint URL",
-      "required": true
-    },
-    "AZURE_OPENAI_DEPLOYMENT_NAME": {
-      "description": "Your Azure OpenAI deployment name",
-      "required": true
-    }
-  },
-  "name": "VibeCoding LG MCP A2A"
+	"type": "mcp-server",
+	"packageName": "all-search-mcp-server",
+	"description": "An MCP server that enables web search and document retrieval capabilities through Tavily API and LangConnect vector database, supporting AI agents in gathering information for comprehensive report generation.",
+	"url": "https://github.com/HyunjunJeon/vibecoding-lg-mcp-a2a",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"GOOGLE_API_KEY": {
+			"description": "Your Google API key for ADK",
+			"required": true
+		},
+		"TAVILY_API_KEY": {
+			"description": "Your Tavily API key for web search",
+			"required": true
+		},
+		"AZURE_OPENAI_API_KEY": {
+			"description": "Your Azure OpenAI API key",
+			"required": true
+		},
+		"AZURE_OPENAI_ENDPOINT": {
+			"description": "Your Azure OpenAI endpoint URL",
+			"required": true
+		},
+		"AZURE_OPENAI_DEPLOYMENT_NAME": {
+			"description": "Your Azure OpenAI deployment name",
+			"required": true
+		}
+	},
+	"name": "VibeCoding LG MCP A2A"
 }

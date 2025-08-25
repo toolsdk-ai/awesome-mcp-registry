@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dixa",
-  "description": "Provides a bridge to the Dixa customer support API, enabling conversation management, tagging, and retrieval capabilities for support teams through TypeScript-powered tools.",
-  "url": "https://github.com/ktabori/dixa-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Dixa MCP"
+	"type": "mcp-server",
+	"packageName": "dixa",
+	"description": "Provides a bridge to the Dixa customer support API, enabling conversation management, tagging, and retrieval capabilities for support teams through TypeScript-powered tools.",
+	"url": "https://github.com/ktabori/dixa-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Dixa MCP"
 }

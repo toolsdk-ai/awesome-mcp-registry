@@ -1,59 +1,59 @@
 {
-  "type": "mcp-server",
-  "packageName": "hal-http-api-layer",
-  "description": "HAL (HTTP API Layer) is a Model Context Protocol (MCP) server that provides HTTP API capabilities to Large Language Models.",
-  "url": "https://github.com/DeanWard/HAL",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "HAL_ALLOW_AWS-S3": {
-      "description": "URL restrictions for AWS S3 namespaced secrets",
-      "required": true
-    },
-    "HAL_ALLOW_GITHUB": {
-      "description": "URL restrictions for GitHub namespaced secrets",
-      "required": true
-    },
-    "HAL_API_BASE_URL": {
-      "description": "Base URL for API requests (overrides the servers specified in the OpenAPI spec)",
-      "required": true
-    },
-    "HAL_SECRET_TOKEN": {
-      "description": "Secret token value for secure substitution in requests",
-      "required": true
-    },
-    "HAL_SWAGGER_FILE": {
-      "description": "Path to OpenAPI/Swagger specification file (JSON or YAML format)",
-      "required": true
-    },
-    "HAL_SECRET_API_KEY": {
-      "description": "Secret API key value for secure substitution in requests",
-      "required": true
-    },
-    "HAL_ALLOW_MICROSOFT": {
-      "description": "URL restrictions for Microsoft namespaced secrets",
-      "required": true
-    },
-    "HAL_SECRET_PASSWORD": {
-      "description": "Secret password value for secure substitution in requests",
-      "required": true
-    },
-    "HAL_SECRET_USERNAME": {
-      "description": "Secret username value for secure substitution in requests",
-      "required": true
-    },
-    "HAL_ALLOW_GOOGLE-CLOUD": {
-      "description": "URL restrictions for Google Cloud namespaced secrets",
-      "required": true
-    },
-    "HAL_ALLOW_AZURE-STORAGE": {
-      "description": "URL restrictions for Azure Storage namespaced secrets",
-      "required": true
-    },
-    "HAL_SECRET_GITHUB_TOKEN": {
-      "description": "Secret GitHub token for secure substitution in requests",
-      "required": true
-    }
-  },
-  "name": "HAL HTTP API Layer"
+	"type": "mcp-server",
+	"packageName": "hal-http-api-layer",
+	"description": "HAL (HTTP API Layer) is a Model Context Protocol (MCP) server that provides HTTP API capabilities to Large Language Models.",
+	"url": "https://github.com/DeanWard/HAL",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"HAL_ALLOW_AWS-S3": {
+			"description": "URL restrictions for AWS S3 namespaced secrets",
+			"required": true
+		},
+		"HAL_ALLOW_GITHUB": {
+			"description": "URL restrictions for GitHub namespaced secrets",
+			"required": true
+		},
+		"HAL_API_BASE_URL": {
+			"description": "Base URL for API requests (overrides the servers specified in the OpenAPI spec)",
+			"required": true
+		},
+		"HAL_SECRET_TOKEN": {
+			"description": "Secret token value for secure substitution in requests",
+			"required": true
+		},
+		"HAL_SWAGGER_FILE": {
+			"description": "Path to OpenAPI/Swagger specification file (JSON or YAML format)",
+			"required": true
+		},
+		"HAL_SECRET_API_KEY": {
+			"description": "Secret API key value for secure substitution in requests",
+			"required": true
+		},
+		"HAL_ALLOW_MICROSOFT": {
+			"description": "URL restrictions for Microsoft namespaced secrets",
+			"required": true
+		},
+		"HAL_SECRET_PASSWORD": {
+			"description": "Secret password value for secure substitution in requests",
+			"required": true
+		},
+		"HAL_SECRET_USERNAME": {
+			"description": "Secret username value for secure substitution in requests",
+			"required": true
+		},
+		"HAL_ALLOW_GOOGLE-CLOUD": {
+			"description": "URL restrictions for Google Cloud namespaced secrets",
+			"required": true
+		},
+		"HAL_ALLOW_AZURE-STORAGE": {
+			"description": "URL restrictions for Azure Storage namespaced secrets",
+			"required": true
+		},
+		"HAL_SECRET_GITHUB_TOKEN": {
+			"description": "Secret GitHub token for secure substitution in requests",
+			"required": true
+		}
+	},
+	"name": "HAL HTTP API Layer"
 }

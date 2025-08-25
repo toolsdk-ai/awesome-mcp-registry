@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@winor30/mcp-server-datadog",
-  "description": "Integrates with Datadog's API to enable incident management, including listing and retrieving incident information for system monitoring and observability workflows.",
-  "url": "https://github.com/winor30/mcp-server-datadog",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "GITHUB_PERSONAL_ACCESS_TOKEN": {
-      "description": "<YOUR_TOKEN>",
-      "required": true
-    }
-  },
-  "name": "Datadog MCP Server"
+	"type": "mcp-server",
+	"packageName": "@winor30/mcp-server-datadog",
+	"description": "Integrates with Datadog's API to enable incident management, including listing and retrieving incident information for system monitoring and observability workflows.",
+	"url": "https://github.com/winor30/mcp-server-datadog",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"GITHUB_PERSONAL_ACCESS_TOKEN": {
+			"description": "<YOUR_TOKEN>",
+			"required": true
+		}
+	},
+	"name": "Datadog MCP Server"
 }

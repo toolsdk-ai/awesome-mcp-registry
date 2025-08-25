@@ -1,16 +1,16 @@
 {
-  "type": "mcp-server",
-  "logo": "https://avatars.githubusercontent.com/u/19199542?s=480&v=4",
-  "packageName": "@antv/mcp-server-chart",
-  "description": "A visualization mcp contains 25+ visual charts using @antvis. Using for chart generation and data analysis.",
-  "url": "https://github.com/antvis/mcp-server-chart",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "VIS_REQUEST_SERVER": {
-      "description": "<YOUR_VIS_REQUEST_SERVER>",
-      "required": true
-    }
-  },
-  "name": "MCP Server Chart"
+	"type": "mcp-server",
+	"logo": "https://avatars.githubusercontent.com/u/19199542?s=480&v=4",
+	"packageName": "@antv/mcp-server-chart",
+	"description": "A visualization mcp contains 25+ visual charts using @antvis. Using for chart generation and data analysis.",
+	"url": "https://github.com/antvis/mcp-server-chart",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"VIS_REQUEST_SERVER": {
+			"description": "<YOUR_VIS_REQUEST_SERVER>",
+			"required": true
+		}
+	},
+	"name": "MCP Server Chart"
 }

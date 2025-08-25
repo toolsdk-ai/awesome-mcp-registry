@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "couchbase",
-  "description": "Enables natural language querying of Couchbase databases through SQL++ execution with built-in authentication, connection management, and error handling",
-  "url": "https://github.com/hummusonrails/couchbase-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Couchbase MCP Server"
+	"type": "mcp-server",
+	"packageName": "couchbase",
+	"description": "Enables natural language querying of Couchbase databases through SQL++ execution with built-in authentication, connection management, and error handling",
+	"url": "https://github.com/hummusonrails/couchbase-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Couchbase MCP Server"
 }

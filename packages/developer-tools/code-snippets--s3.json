@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "code-snippets-(s3)",
-  "description": "Integrates with S3 to provide efficient code snippet management and retrieval.",
-  "url": "https://github.com/mattbarlow-sg/bun-s3-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Bun S3 MCP"
+	"type": "mcp-server",
+	"packageName": "code-snippets-(s3)",
+	"description": "Integrates with S3 to provide efficient code snippet management and retrieval.",
+	"url": "https://github.com/mattbarlow-sg/bun-s3-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Bun S3 MCP"
 }

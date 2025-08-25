@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-shell-server",
-  "description": "Execute whitelisted shell commands on the host system via asyncio.",
-  "url": "https://github.com/tumf/mcp-shell-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Shell Server"
+	"type": "mcp-server",
+	"packageName": "mcp-shell-server",
+	"description": "Execute whitelisted shell commands on the host system via asyncio.",
+	"url": "https://github.com/tumf/mcp-shell-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Shell Server"
 }

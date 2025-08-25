@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-clickup",
-  "description": "Integrates with ClickUp's API to enable task management, team collaboration, and workflow automation for AI-driven project management and reporting.",
-  "url": "https://github.com/mikah13/mcp-clickup",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "CLICKUP_API_TOKEN": {
-      "description": "your-api-token",
-      "required": true
-    },
-    "CLICKUP_WORKSPACE_ID": {
-      "description": "your-workspace-id",
-      "required": true
-    }
-  },
-  "name": "ClickUp MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-clickup",
+	"description": "Integrates with ClickUp's API to enable task management, team collaboration, and workflow automation for AI-driven project management and reporting.",
+	"url": "https://github.com/mikah13/mcp-clickup",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"CLICKUP_API_TOKEN": {
+			"description": "your-api-token",
+			"required": true
+		},
+		"CLICKUP_WORKSPACE_ID": {
+			"description": "your-workspace-id",
+			"required": true
+		}
+	},
+	"name": "ClickUp MCP"
 }
