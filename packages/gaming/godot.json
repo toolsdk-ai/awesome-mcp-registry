@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "godot",
-  "description": "Interface with the Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.",
-  "url": "https://github.com/coding-solo/godot-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Godot MCP"
+	"type": "mcp-server",
+	"packageName": "godot",
+	"description": "Interface with the Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.",
+	"url": "https://github.com/coding-solo/godot-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Godot MCP"
 }

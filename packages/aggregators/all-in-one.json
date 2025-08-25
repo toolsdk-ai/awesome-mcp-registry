@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "all-in-one",
-  "description": "Integrates GitLab, Jira, Confluence, YouTube, and Google AI to provide search capabilities and utility tools for streamlined development workflows and project management tasks.",
-  "url": "https://github.com/athapong/aio-mcp",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {},
-  "name": "AIO MCP"
+	"type": "mcp-server",
+	"packageName": "all-in-one",
+	"description": "Integrates GitLab, Jira, Confluence, YouTube, and Google AI to provide search capabilities and utility tools for streamlined development workflows and project management tasks.",
+	"url": "https://github.com/athapong/aio-mcp",
+	"runtime": "go",
+	"license": "unknown",
+	"env": {},
+	"name": "AIO MCP"
 }

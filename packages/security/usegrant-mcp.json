@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@usegrant/mcp",
-  "description": "Integrates with the UseGrant API to enable secure authentication, resource management, and structured access control for provider, client, and tenant management within the UseGrant ecosystem.",
-  "url": "https://github.com/usegranthq/mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "USEGRANT_API_KEY": {
-      "description": "your_api_key_here",
-      "required": true
-    }
-  },
-  "name": "MCP Server"
+	"type": "mcp-server",
+	"packageName": "@usegrant/mcp",
+	"description": "Integrates with the UseGrant API to enable secure authentication, resource management, and structured access control for provider, client, and tenant management within the UseGrant ecosystem.",
+	"url": "https://github.com/usegranthq/mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"USEGRANT_API_KEY": {
+			"description": "your_api_key_here",
+			"required": true
+		}
+	},
+	"name": "MCP Server"
 }

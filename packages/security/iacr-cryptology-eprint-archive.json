@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "iacr-cryptology-eprint-archive",
-  "description": "Bridges AI models with the IACR Cryptology ePrint Archive, enabling efficient extraction and analysis of cryptographic research papers.",
-  "url": "https://github.com/doomdagadiggiedahdah/iacr-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "IACR MCP Server"
+	"type": "mcp-server",
+	"packageName": "iacr-cryptology-eprint-archive",
+	"description": "Bridges AI models with the IACR Cryptology ePrint Archive, enabling efficient extraction and analysis of cryptographic research papers.",
+	"url": "https://github.com/doomdagadiggiedahdah/iacr-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "IACR MCP Server"
 }

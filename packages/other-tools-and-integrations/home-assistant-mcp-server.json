@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "home-assistant-mcp-server",
-  "description": "Enables natural language control of Home Assistant smart home systems with tools for querying entity states, executing service calls, and retrieving system information through secure WebSocket or stdio communication.",
-  "url": "https://github.com/oleander/home-assistant-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Home Assistant MCP Server"
+	"type": "mcp-server",
+	"packageName": "home-assistant-mcp-server",
+	"description": "Enables natural language control of Home Assistant smart home systems with tools for querying entity states, executing service calls, and retrieving system information through secure WebSocket or stdio communication.",
+	"url": "https://github.com/oleander/home-assistant-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Home Assistant MCP Server"
 }

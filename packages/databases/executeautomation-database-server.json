@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "executeautomation-database-server",
-  "description": "Enables direct interaction with SQLite and SQL Server databases through a modular adapter architecture for data analysis, database management, and business intelligence workflows without exposing raw credentials.",
-  "url": "https://github.com/executeautomation/mcp-database-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "ExecuteAutomation Database MCP"
+	"type": "mcp-server",
+	"packageName": "executeautomation-database-server",
+	"description": "Enables direct interaction with SQLite and SQL Server databases through a modular adapter architecture for data analysis, database management, and business intelligence workflows without exposing raw credentials.",
+	"url": "https://github.com/executeautomation/mcp-database-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "ExecuteAutomation Database MCP"
 }

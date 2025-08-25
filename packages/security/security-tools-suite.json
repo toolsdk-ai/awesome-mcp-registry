@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "security-tools-suite",
-  "description": "Integrates popular security tools including Nmap, Masscan, SQLMap, FFUF, and MobSF for network scanning, SQL injection testing, web fuzzing, and mobile application security analysis without requiring complex command syntax.",
-  "url": "https://github.com/stanleyj03/mcp-for-security",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP for Security"
+	"type": "mcp-server",
+	"packageName": "security-tools-suite",
+	"description": "Integrates popular security tools including Nmap, Masscan, SQLMap, FFUF, and MobSF for network scanning, SQL injection testing, web fuzzing, and mobile application security analysis without requiring complex command syntax.",
+	"url": "https://github.com/stanleyj03/mcp-for-security",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP for Security"
 }

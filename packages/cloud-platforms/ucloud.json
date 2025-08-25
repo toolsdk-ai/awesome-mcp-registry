@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ucloud",
-  "description": "Provides a bridge to the UCloud cloud computing platform, enabling developers to interact with cloud infrastructure through standardized tools for instance management, metrics retrieval, and resource status tracking.",
-  "url": "https://github.com/wangrzneu/ucloud-mcp-server",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {},
-  "name": "UCloud MCP Server"
+	"type": "mcp-server",
+	"packageName": "ucloud",
+	"description": "Provides a bridge to the UCloud cloud computing platform, enabling developers to interact with cloud infrastructure through standardized tools for instance management, metrics retrieval, and resource status tracking.",
+	"url": "https://github.com/wangrzneu/ucloud-mcp-server",
+	"runtime": "go",
+	"license": "unknown",
+	"env": {},
+	"name": "UCloud MCP Server"
 }

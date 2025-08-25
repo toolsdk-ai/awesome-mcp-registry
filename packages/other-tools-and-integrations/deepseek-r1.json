@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "deepseek-r1",
-  "description": "Integrates with Deepseek R1 model for text generation and analysis tasks, enabling content creation and AI-assisted decision-making in various applications.",
-  "url": "https://github.com/66julienmartin/mcp-server-deepseek_r1",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Deepseek R1 MCP Server"
+	"type": "mcp-server",
+	"packageName": "deepseek-r1",
+	"description": "Integrates with Deepseek R1 model for text generation and analysis tasks, enabling content creation and AI-assisted decision-making in various applications.",
+	"url": "https://github.com/66julienmartin/mcp-server-deepseek_r1",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Deepseek R1 MCP Server"
 }

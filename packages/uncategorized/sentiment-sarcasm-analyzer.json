@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "sentiment-sarcasm-analyzer",
-  "description": "A lightweight Gradio application that analyzes text for sentiment (positive/negative) and sarcasm detection using Hugging Face Transformers, designed to run on CPU and compatible with the MCP server architecture.",
-  "url": "https://github.com/igorpavlov-mgr/mcp-sentiment",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "HF_TOKEN": {
-      "description": "Your Hugging Face token",
-      "required": true
-    }
-  },
-  "name": "Sentiment MCP"
+	"type": "mcp-server",
+	"packageName": "sentiment-sarcasm-analyzer",
+	"description": "A lightweight Gradio application that analyzes text for sentiment (positive/negative) and sarcasm detection using Hugging Face Transformers, designed to run on CPU and compatible with the MCP server architecture.",
+	"url": "https://github.com/igorpavlov-mgr/mcp-sentiment",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"HF_TOKEN": {
+			"description": "Your Hugging Face token",
+			"required": true
+		}
+	},
+	"name": "Sentiment MCP"
 }

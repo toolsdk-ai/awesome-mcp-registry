@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ticktick",
-  "description": "Provides a bridge between TickTick task management platform and conversational interfaces, enabling creation, updating, filtering, and completion of tasks without navigating the TickTick UI directly.",
-  "url": "https://github.com/jen6/ticktick-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "TickTick MCP"
+	"type": "mcp-server",
+	"packageName": "ticktick",
+	"description": "Provides a bridge between TickTick task management platform and conversational interfaces, enabling creation, updating, filtering, and completion of tasks without navigating the TickTick UI directly.",
+	"url": "https://github.com/jen6/ticktick-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "TickTick MCP"
 }

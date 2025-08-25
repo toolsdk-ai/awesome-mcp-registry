@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sf-mcp",
-  "description": "Exposes Salesforce CLI functionality for interacting with Salesforce orgs, enabling developers to query data, deploy code, and manage orgs through dynamically discovered commands.",
-  "url": "https://github.com/codefriar/sf-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Salesforce MCP"
+	"type": "mcp-server",
+	"packageName": "sf-mcp",
+	"description": "Exposes Salesforce CLI functionality for interacting with Salesforce orgs, enabling developers to query data, deploy code, and manage orgs through dynamically discovered commands.",
+	"url": "https://github.com/codefriar/sf-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Salesforce MCP"
 }

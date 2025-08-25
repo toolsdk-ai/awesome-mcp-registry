@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "clicksend",
-  "description": "Integrates with ClickSend's API to enable sending SMS messages and initiating Text-to-Speech calls for automated communication workflows.",
-  "url": "https://github.com/j-gal02/clicksend-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "ClickSend MCP"
+	"type": "mcp-server",
+	"packageName": "clicksend",
+	"description": "Integrates with ClickSend's API to enable sending SMS messages and initiating Text-to-Speech calls for automated communication workflows.",
+	"url": "https://github.com/j-gal02/clicksend-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "ClickSend MCP"
 }

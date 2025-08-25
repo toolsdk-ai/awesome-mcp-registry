@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dify",
-  "description": "Integrates with Dify's AI application platform, enabling seamless creation, management, and deployment of AI applications through TypeScript-based request handling and API bridging.",
-  "url": "https://github.com/zhuzhoulin/dify-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Dify MCP Server"
+	"type": "mcp-server",
+	"packageName": "dify",
+	"description": "Integrates with Dify's AI application platform, enabling seamless creation, management, and deployment of AI applications through TypeScript-based request handling and API bridging.",
+	"url": "https://github.com/zhuzhoulin/dify-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Dify MCP Server"
 }

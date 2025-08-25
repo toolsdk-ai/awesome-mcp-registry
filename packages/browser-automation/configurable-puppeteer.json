@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "configurable-puppeteer",
-  "description": "Enables browser automation through Puppeteer with configurable launch options for Chrome and Firefox, supporting web testing, data extraction, form filling, and interactive demonstrations",
-  "url": "https://github.com/afshawnlotfi/mcp-configurable-puppeteer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Configurable Puppeteer MCP"
+	"type": "mcp-server",
+	"packageName": "configurable-puppeteer",
+	"description": "Enables browser automation through Puppeteer with configurable launch options for Chrome and Firefox, supporting web testing, data extraction, form filling, and interactive demonstrations",
+	"url": "https://github.com/afshawnlotfi/mcp-configurable-puppeteer",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Configurable Puppeteer MCP"
 }

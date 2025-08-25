@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "salesforce",
-  "description": "Integrates with Salesforce to enable querying records, managing custom objects/fields, executing DML operations, and handling complex SOSL searches using TypeScript and JSForce",
-  "url": "https://github.com/usama-dtc/salesforce_mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Salesforce MCP"
+	"type": "mcp-server",
+	"packageName": "salesforce",
+	"description": "Integrates with Salesforce to enable querying records, managing custom objects/fields, executing DML operations, and handling complex SOSL searches using TypeScript and JSForce",
+	"url": "https://github.com/usama-dtc/salesforce_mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Salesforce MCP"
 }

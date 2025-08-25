@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bigquery",
-  "description": "Integrates with BigQuery to enable querying and retrieving table schemas from specified datasets for data analysis and reporting",
-  "url": "https://github.com/monochromegane/mcp-bigquery-server",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "BigQuery MCP Server"
+	"type": "mcp-server",
+	"packageName": "bigquery",
+	"description": "Integrates with BigQuery to enable querying and retrieving table schemas from specified datasets for data analysis and reporting",
+	"url": "https://github.com/monochromegane/mcp-bigquery-server",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "BigQuery MCP Server"
 }

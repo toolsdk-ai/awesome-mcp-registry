@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "json-logs",
-  "description": "Analyzes JSON log files from Python applications with tools for searching by level, module, function, and time ranges, aggregating data by various criteria, and generating statistics for debugging and performance monitoring.",
-  "url": "https://github.com/mfreeman451/json-logs-mcp-server",
-  "runtime": "python",
-  "license": "mit-0",
-  "env": {},
-  "name": "Json Logs MCP Server"
+	"type": "mcp-server",
+	"packageName": "json-logs",
+	"description": "Analyzes JSON log files from Python applications with tools for searching by level, module, function, and time ranges, aggregating data by various criteria, and generating statistics for debugging and performance monitoring.",
+	"url": "https://github.com/mfreeman451/json-logs-mcp-server",
+	"runtime": "python",
+	"license": "mit-0",
+	"env": {},
+	"name": "Json Logs MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-perplexity",
-  "description": "Integrates with Perplexity API to provide expert programming assistance and persistent chat capabilities for developers and teams.",
-  "url": "https://github.com/daniel-lxs/mcp-perplexity",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Perplexity MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-perplexity",
+	"description": "Integrates with Perplexity API to provide expert programming assistance and persistent chat capabilities for developers and teams.",
+	"url": "https://github.com/daniel-lxs/mcp-perplexity",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Perplexity MCP"
 }

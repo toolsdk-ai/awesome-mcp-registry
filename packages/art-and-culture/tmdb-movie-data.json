@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tmdb-movie-data",
-  "description": "Integrate TMDB movie data for search, trending, and recommendation capabilities for films.",
-  "url": "https://github.com/laksh-star/mcp-server-tmdb",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "TMDB MCP Server"
+	"type": "mcp-server",
+	"packageName": "tmdb-movie-data",
+	"description": "Integrate TMDB movie data for search, trending, and recommendation capabilities for films.",
+	"url": "https://github.com/laksh-star/mcp-server-tmdb",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "TMDB MCP Server"
 }

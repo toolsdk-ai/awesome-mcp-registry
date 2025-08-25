@@ -1,39 +1,39 @@
 {
-  "type": "mcp-server",
-  "packageName": "api-aggregator-mcp-server",
-  "description": "A Model Context Protocol (MCP) Server that provides unified access to multiple external APIs (weather, news, financial data) through a single, consistent interface for AI agents and LLMs.",
-  "url": "https://github.com/mfang0126/api-aggregator-MCPServer",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "LOG_LEVEL": {
-      "description": "Logging level",
-      "required": true
-    },
-    "NEWS_API_KEY": {
-      "description": "API key for News API (required for news data)",
-      "required": true
-    },
-    "MCP_SERVER_HOST": {
-      "description": "Host for the MCP server",
-      "required": true
-    },
-    "MCP_SERVER_PORT": {
-      "description": "Port for the MCP server",
-      "required": true
-    },
-    "MCP_SERVER_DEBUG": {
-      "description": "Enable debug mode for the MCP server",
-      "required": true
-    },
-    "OPENWEATHER_API_KEY": {
-      "description": "API key for OpenWeatherMap (required for weather data)",
-      "required": true
-    },
-    "ALPHA_VANTAGE_API_KEY": {
-      "description": "API key for Alpha Vantage (required for stock data)",
-      "required": true
-    }
-  },
-  "name": "Api Aggregator MCP Server"
+	"type": "mcp-server",
+	"packageName": "api-aggregator-mcp-server",
+	"description": "A Model Context Protocol (MCP) Server that provides unified access to multiple external APIs (weather, news, financial data) through a single, consistent interface for AI agents and LLMs.",
+	"url": "https://github.com/mfang0126/api-aggregator-MCPServer",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"LOG_LEVEL": {
+			"description": "Logging level",
+			"required": true
+		},
+		"NEWS_API_KEY": {
+			"description": "API key for News API (required for news data)",
+			"required": true
+		},
+		"MCP_SERVER_HOST": {
+			"description": "Host for the MCP server",
+			"required": true
+		},
+		"MCP_SERVER_PORT": {
+			"description": "Port for the MCP server",
+			"required": true
+		},
+		"MCP_SERVER_DEBUG": {
+			"description": "Enable debug mode for the MCP server",
+			"required": true
+		},
+		"OPENWEATHER_API_KEY": {
+			"description": "API key for OpenWeatherMap (required for weather data)",
+			"required": true
+		},
+		"ALPHA_VANTAGE_API_KEY": {
+			"description": "API key for Alpha Vantage (required for stock data)",
+			"required": true
+		}
+	},
+	"name": "Api Aggregator MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "figma-context",
-  "description": "Bridges AI systems with Figma design platform, transforming complex API responses into structured design information for easier understanding of layout properties, styling, and text content.",
-  "url": "https://github.com/1yhy/figma-context-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Figma Context MCP"
+	"type": "mcp-server",
+	"packageName": "figma-context",
+	"description": "Bridges AI systems with Figma design platform, transforming complex API responses into structured design information for easier understanding of layout properties, styling, and text content.",
+	"url": "https://github.com/1yhy/figma-context-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Figma Context MCP"
 }

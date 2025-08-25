@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "crypto-exchange",
-  "description": "Provides real-time cryptocurrency market data from major exchanges (Bybit, OKX, Binance) including prices, order books, funding rates, and open interest for spot and linear markets.",
-  "url": "https://github.com/sydowma/crypto_exchange_mcp/tree/HEAD/crypto_exchange_mcp_python",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Crypto Exchange MCP"
+	"type": "mcp-server",
+	"packageName": "crypto-exchange",
+	"description": "Provides real-time cryptocurrency market data from major exchanges (Bybit, OKX, Binance) including prices, order books, funding rates, and open interest for spot and linear markets.",
+	"url": "https://github.com/sydowma/crypto_exchange_mcp/tree/HEAD/crypto_exchange_mcp_python",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Crypto Exchange MCP"
 }

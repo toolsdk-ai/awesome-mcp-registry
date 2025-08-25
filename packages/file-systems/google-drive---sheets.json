@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "google-drive-&-sheets",
-  "description": "Integrates with Google Drive and Google Sheets to enable document searching, content reading, and spreadsheet manipulation through OAuth authentication and resource-based access.",
-  "url": "https://github.com/rishipradeep-think41/drive-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Drive MCP"
+	"type": "mcp-server",
+	"packageName": "google-drive-&-sheets",
+	"description": "Integrates with Google Drive and Google Sheets to enable document searching, content reading, and spreadsheet manipulation through OAuth authentication and resource-based access.",
+	"url": "https://github.com/rishipradeep-think41/drive-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Drive MCP"
 }

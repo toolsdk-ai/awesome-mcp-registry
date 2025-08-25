@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "realtime-crypto-mcp-server",
-  "description": "Provides real-time cryptocurrency data through the CoinCap API, offering detailed exchange information and current rates with robust error handling and automatic retries.",
-  "url": "https://github.com/smhnkmr/realtime-crypto-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Realtime Crypto MCP Server"
+	"type": "mcp-server",
+	"packageName": "realtime-crypto-mcp-server",
+	"description": "Provides real-time cryptocurrency data through the CoinCap API, offering detailed exchange information and current rates with robust error handling and automatic retries.",
+	"url": "https://github.com/smhnkmr/realtime-crypto-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Realtime Crypto MCP Server"
 }

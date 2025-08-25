@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "memorymesh",
-  "description": "Store and query structured data in local knowledge graphs.",
-  "url": "https://github.com/chemiguel23/memorymesh",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "MemoryMesh"
+	"type": "mcp-server",
+	"packageName": "memorymesh",
+	"description": "Store and query structured data in local knowledge graphs.",
+	"url": "https://github.com/chemiguel23/memorymesh",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "MemoryMesh"
 }

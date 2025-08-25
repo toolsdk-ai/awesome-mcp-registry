@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "atlan-data-catalog",
-  "description": "Provides a bridge between AI agents and Atlan data catalog services for searching, retrieving, traversing lineage, and updating asset metadata through the pyatlan SDK",
-  "url": "https://github.com/atlanhq/agent-toolkit/tree/HEAD/modelcontextprotocol",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Model Context Protocol"
+	"type": "mcp-server",
+	"packageName": "atlan-data-catalog",
+	"description": "Provides a bridge between AI agents and Atlan data catalog services for searching, retrieving, traversing lineage, and updating asset metadata through the pyatlan SDK",
+	"url": "https://github.com/atlanhq/agent-toolkit/tree/HEAD/modelcontextprotocol",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Model Context Protocol"
 }

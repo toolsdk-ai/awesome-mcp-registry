@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "erick-wendel-contributions",
-  "description": "Provides access to Erick Wendel's technical content contributions across platforms through specialized tools for filtering and querying talks, posts, and videos by language, title, and country.",
-  "url": "https://github.com/erickwendel/erickwendel-contributions-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Erick Wendel Contributions MCP"
+	"type": "mcp-server",
+	"packageName": "erick-wendel-contributions",
+	"description": "Provides access to Erick Wendel's technical content contributions across platforms through specialized tools for filtering and querying talks, posts, and videos by language, title, and country.",
+	"url": "https://github.com/erickwendel/erickwendel-contributions-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Erick Wendel Contributions MCP"
 }

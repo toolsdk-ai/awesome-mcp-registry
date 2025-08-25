@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "interactive-mcp",
-  "description": "Interactive terminal interface for enhancing AI interactions with user input capabilities, notifications, and cross-platform support for complex tasks requiring confirmation or clarification.",
-  "url": "https://github.com/ttommyth/interactive-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Interactive MCP"
+	"type": "mcp-server",
+	"packageName": "interactive-mcp",
+	"description": "Interactive terminal interface for enhancing AI interactions with user input capabilities, notifications, and cross-platform support for complex tasks requiring confirmation or clarification.",
+	"url": "https://github.com/ttommyth/interactive-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Interactive MCP"
 }

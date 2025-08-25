@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-pacman",
-  "description": "Integrates with package repositories including PyPI, npm, crates.io, Docker Hub, and Terraform Registry to search and retrieve detailed information about packages, versions, dependencies, and Docker images.",
-  "url": "https://github.com/oborchers/mcp-server-pacman",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Server Pacman"
+	"type": "mcp-server",
+	"packageName": "mcp-server-pacman",
+	"description": "Integrates with package repositories including PyPI, npm, crates.io, Docker Hub, and Terraform Registry to search and retrieve detailed information about packages, versions, dependencies, and Docker images.",
+	"url": "https://github.com/oborchers/mcp-server-pacman",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Server Pacman"
 }

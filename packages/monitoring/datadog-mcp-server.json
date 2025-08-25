@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "datadog-mcp-server",
-  "description": "Integrates with Datadog monitoring platform to provide access to metrics, logs, dashboards, monitors, and incidents for DevOps and SRE workflows",
-  "url": "https://github.com/geli2001/datadog-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Datadog MCP Server"
+	"type": "mcp-server",
+	"packageName": "datadog-mcp-server",
+	"description": "Integrates with Datadog monitoring platform to provide access to metrics, logs, dashboards, monitors, and incidents for DevOps and SRE workflows",
+	"url": "https://github.com/geli2001/datadog-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Datadog MCP Server"
 }

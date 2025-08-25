@@ -1,35 +1,35 @@
 {
-  "type": "mcp-server",
-  "packageName": "@pulsemcp/pulse-fetch",
-  "description": "Reliable, configurable tool to fetch or extract clean data from publicly available webpages while bypassing anti-bot detection measures.",
-  "url": "https://github.com/pulsemcp/mcp-servers/tree/HEAD/productionized/pulse-fetch",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "FIRECRAWL_API_KEY": {
-      "description": "your-firecrawl-api-key",
-      "required": true
-    },
-    "BRIGHTDATA_API_KEY": {
-      "description": "your-brightdata-bearer-token",
-      "required": true
-    },
-    "STRATEGY_CONFIG_PATH": {
-      "description": "/path/to/your/scraping-strategies.md",
-      "required": true
-    },
-    "OPTIMIZE_FOR": {
-      "description": "cost",
-      "required": true
-    },
-    "MCP_RESOURCE_STORAGE": {
-      "description": "filesystem",
-      "required": true
-    },
-    "MCP_RESOURCE_FILESYSTEM_ROOT": {
-      "description": "/path/to/resource/storage",
-      "required": true
-    }
-  },
-  "name": "Pulse Fetch"
+	"type": "mcp-server",
+	"packageName": "@pulsemcp/pulse-fetch",
+	"description": "Reliable, configurable tool to fetch or extract clean data from publicly available webpages while bypassing anti-bot detection measures.",
+	"url": "https://github.com/pulsemcp/mcp-servers/tree/HEAD/productionized/pulse-fetch",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"FIRECRAWL_API_KEY": {
+			"description": "your-firecrawl-api-key",
+			"required": true
+		},
+		"BRIGHTDATA_API_KEY": {
+			"description": "your-brightdata-bearer-token",
+			"required": true
+		},
+		"STRATEGY_CONFIG_PATH": {
+			"description": "/path/to/your/scraping-strategies.md",
+			"required": true
+		},
+		"OPTIMIZE_FOR": {
+			"description": "cost",
+			"required": true
+		},
+		"MCP_RESOURCE_STORAGE": {
+			"description": "filesystem",
+			"required": true
+		},
+		"MCP_RESOURCE_FILESYSTEM_ROOT": {
+			"description": "/path/to/resource/storage",
+			"required": true
+		}
+	},
+	"name": "Pulse Fetch"
 }

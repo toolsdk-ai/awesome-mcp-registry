@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@auto-browse/unbundle-openapi-mcp",
-  "description": "Splits and extracts portions of OpenAPI specification files into smaller, more focused files while preserving referenced components for improved documentation and maintainability.",
-  "url": "https://github.com/auto-browse/unbundle_openapi_mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Unbundle OpenAPI MCP"
+	"type": "mcp-server",
+	"packageName": "@auto-browse/unbundle-openapi-mcp",
+	"description": "Splits and extracts portions of OpenAPI specification files into smaller, more focused files while preserving referenced components for improved documentation and maintainability.",
+	"url": "https://github.com/auto-browse/unbundle_openapi_mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Unbundle OpenAPI MCP"
 }

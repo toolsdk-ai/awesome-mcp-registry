@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "chat-analysis",
-  "description": "Integrates vector embeddings and knowledge graphs to enable advanced chat analysis tasks like topic modeling, sentiment analysis, and user behavior tracking.",
-  "url": "https://github.com/rebots-online/mcp-chat-analysis-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Chat Analysis MCP Server"
+	"type": "mcp-server",
+	"packageName": "chat-analysis",
+	"description": "Integrates vector embeddings and knowledge graphs to enable advanced chat analysis tasks like topic modeling, sentiment analysis, and user behavior tracking.",
+	"url": "https://github.com/rebots-online/mcp-chat-analysis-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Chat Analysis MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dicom",
-  "description": "Enables interaction with medical imaging systems through DICOM networking protocols for querying patient information, studies, series, and instances, as well as extracting text from encapsulated PDF documents.",
-  "url": "https://github.com/christianhinge/dicom-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "DICOM MCP"
+	"type": "mcp-server",
+	"packageName": "dicom",
+	"description": "Enables interaction with medical imaging systems through DICOM networking protocols for querying patient information, studies, series, and instances, as well as extracting text from encapsulated PDF documents.",
+	"url": "https://github.com/christianhinge/dicom-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "DICOM MCP"
 }

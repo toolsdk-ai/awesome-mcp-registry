@@ -1,24 +1,24 @@
 {
-  "type": "mcp-server",
-  "logo": "https://pbs.twimg.com/profile_images/1313395771304103947/g_ETxUbR_400x400.jpg",
-  "packageName": "@isaacphi/mcp-gdrive",
-  "description": "Integrates Google Drive and Sheets functionality for file operations and spreadsheet data manipulation.",
-  "url": "https://github.com/isaacphi/mcp-gdrive",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "CLIENT_ID": {
-      "description": "<CLIENT_ID>",
-      "required": true
-    },
-    "CLIENT_SECRET": {
-      "description": "<CLIENT_SECRET>",
-      "required": true
-    },
-    "GDRIVE_CREDS_DIR": {
-      "description": "/path/to/config/directory",
-      "required": true
-    }
-  },
-  "name": "Google Drive MCP"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1313395771304103947/g_ETxUbR_400x400.jpg",
+	"packageName": "@isaacphi/mcp-gdrive",
+	"description": "Integrates Google Drive and Sheets functionality for file operations and spreadsheet data manipulation.",
+	"url": "https://github.com/isaacphi/mcp-gdrive",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"CLIENT_ID": {
+			"description": "<CLIENT_ID>",
+			"required": true
+		},
+		"CLIENT_SECRET": {
+			"description": "<CLIENT_SECRET>",
+			"required": true
+		},
+		"GDRIVE_CREDS_DIR": {
+			"description": "/path/to/config/directory",
+			"required": true
+		}
+	},
+	"name": "Google Drive MCP"
 }

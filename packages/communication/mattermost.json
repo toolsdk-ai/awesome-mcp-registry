@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mattermost",
-  "description": "Integrates with Mattermost workspaces to enable channel listing, message history retrieval, posting, thread management, reactions, user information access, and topic monitoring for team communication platforms.",
-  "url": "https://github.com/pvev/mattermost-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Mattermost MCP"
+	"type": "mcp-server",
+	"packageName": "mattermost",
+	"description": "Integrates with Mattermost workspaces to enable channel listing, message history retrieval, posting, thread management, reactions, user information access, and topic monitoring for team communication platforms.",
+	"url": "https://github.com/pvev/mattermost-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Mattermost MCP"
 }

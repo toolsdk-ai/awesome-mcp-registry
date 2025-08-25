@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@cgize/mcp-think-tool",
-  "description": "Provides Claude with a dedicated workspace for structured reasoning through four specialized tools that enable recording, retrieving, clearing, and analyzing thoughts during complex problem-solving tasks.",
-  "url": "https://github.com/cgize/claude-mcp-think-tool",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Claude MCP Think Tool"
+	"type": "mcp-server",
+	"packageName": "@cgize/mcp-think-tool",
+	"description": "Provides Claude with a dedicated workspace for structured reasoning through four specialized tools that enable recording, retrieving, clearing, and analyzing thoughts during complex problem-solving tasks.",
+	"url": "https://github.com/cgize/claude-mcp-think-tool",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Claude MCP Think Tool"
 }

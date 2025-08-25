@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kevinwatt/shell-mcp",
-  "description": "Provides a shell command execution interface for secure and controlled access to local system operations, enabling automation tasks and system management.",
-  "url": "https://github.com/kevinwatt/shell-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Shell MCP"
+	"type": "mcp-server",
+	"packageName": "@kevinwatt/shell-mcp",
+	"description": "Provides a shell command execution interface for secure and controlled access to local system operations, enabling automation tasks and system management.",
+	"url": "https://github.com/kevinwatt/shell-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Shell MCP"
 }

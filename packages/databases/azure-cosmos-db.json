@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "azure-cosmos-db",
-  "description": "Provides a bridge between Azure Cosmos DB and natural language interaction, enabling database operations like inserting, retrieving, updating, and querying items without writing complex queries or switching contexts.",
-  "url": "https://github.com/robinong79/mcp-cosmos",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Cosmos MCP"
+	"type": "mcp-server",
+	"packageName": "azure-cosmos-db",
+	"description": "Provides a bridge between Azure Cosmos DB and natural language interaction, enabling database operations like inserting, retrieving, updating, and querying items without writing complex queries or switching contexts.",
+	"url": "https://github.com/robinong79/mcp-cosmos",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Cosmos MCP"
 }

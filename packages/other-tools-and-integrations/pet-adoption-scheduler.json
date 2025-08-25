@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pet-adoption-scheduler",
-  "description": "Enables scheduling pet adoption appointments by providing a tool that returns a future timestamp when given a pet ID and name.",
-  "url": "https://github.com/zeeroiq/pet-adoption-scheduling-service",
-  "runtime": "java",
-  "license": "unknown",
-  "env": {},
-  "name": "Pet Adoption Scheduling Service"
+	"type": "mcp-server",
+	"packageName": "pet-adoption-scheduler",
+	"description": "Enables scheduling pet adoption appointments by providing a tool that returns a future timestamp when given a pet ID and name.",
+	"url": "https://github.com/zeeroiq/pet-adoption-scheduling-service",
+	"runtime": "java",
+	"license": "unknown",
+	"env": {},
+	"name": "Pet Adoption Scheduling Service"
 }

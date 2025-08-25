@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcpify-(openapi)",
-  "description": "Transforms OpenAPI/Swagger specifications into dynamic MCP tools on the fly, enabling interaction with any REST API without custom implementation for each service.",
-  "url": "https://github.com/wycats/quick-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Quick MCP"
+	"type": "mcp-server",
+	"packageName": "mcpify-(openapi)",
+	"description": "Transforms OpenAPI/Swagger specifications into dynamic MCP tools on the fly, enabling interaction with any REST API without custom implementation for each service.",
+	"url": "https://github.com/wycats/quick-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Quick MCP"
 }

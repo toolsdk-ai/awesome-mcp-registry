@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "transistor.fm",
-  "description": "Integrates with Transistor.fm's API to manage podcasts, episodes, analytics, and subscribers for automating podcast workflows.",
-  "url": "https://github.com/gxjansen/transistor-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Transistor MCP"
+	"type": "mcp-server",
+	"packageName": "transistor.fm",
+	"description": "Integrates with Transistor.fm's API to manage podcasts, episodes, analytics, and subscribers for automating podcast workflows.",
+	"url": "https://github.com/gxjansen/transistor-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Transistor MCP"
 }

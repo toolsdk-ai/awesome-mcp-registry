@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "openrouter-conversation-manager",
-  "description": "Provides a unified conversation management system for OpenRouter's language models with features like token counting, context window management, and filesystem persistence across multiple AI providers.",
-  "url": "https://github.com/bsmi021/mcp-conversation-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "OpenRouter Conversation Manager MCP Server"
+	"type": "mcp-server",
+	"packageName": "openrouter-conversation-manager",
+	"description": "Provides a unified conversation management system for OpenRouter's language models with features like token counting, context window management, and filesystem persistence across multiple AI providers.",
+	"url": "https://github.com/bsmi021/mcp-conversation-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "OpenRouter Conversation Manager MCP Server"
 }

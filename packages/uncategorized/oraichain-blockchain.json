@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "oraichain-blockchain",
-  "description": "Enables AI interaction with the Oraichain blockchain for querying wallet balances, executing transactions, and retrieving blockchain data through a TypeScript implementation using CosmJS and Server-Sent Events.",
-  "url": "https://github.com/oraichain/orai-mcp",
-  "runtime": "node",
-  "license": "gpl-3.0",
-  "env": {},
-  "name": "Oraichain Blockchain MCP"
+	"type": "mcp-server",
+	"packageName": "oraichain-blockchain",
+	"description": "Enables AI interaction with the Oraichain blockchain for querying wallet balances, executing transactions, and retrieving blockchain data through a TypeScript implementation using CosmJS and Server-Sent Events.",
+	"url": "https://github.com/oraichain/orai-mcp",
+	"runtime": "node",
+	"license": "gpl-3.0",
+	"env": {},
+	"name": "Oraichain Blockchain MCP"
 }

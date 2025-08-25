@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "html-page-preview",
-  "description": "Provides HTML file preview and analysis capabilities by leveraging Puppeteer for screenshot capture and content parsing, enabling web testing and content visualization tasks.",
-  "url": "https://github.com/seanivore/mcp-file-preview",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "HTML Page Preview MCP"
+	"type": "mcp-server",
+	"packageName": "html-page-preview",
+	"description": "Provides HTML file preview and analysis capabilities by leveraging Puppeteer for screenshot capture and content parsing, enabling web testing and content visualization tasks.",
+	"url": "https://github.com/seanivore/mcp-file-preview",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "HTML Page Preview MCP"
 }

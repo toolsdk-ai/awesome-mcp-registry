@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "apple-reminders",
-  "description": "Enables AI assistants to manage Apple Reminders on macOS by using AppleScript to directly interact with the Reminders app, providing a simple TypeScript-based API for creating, completing, and deleting reminders.",
-  "url": "https://github.com/shadowfax92/apple-reminders-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Apple Reminders MCP"
+	"type": "mcp-server",
+	"packageName": "apple-reminders",
+	"description": "Enables AI assistants to manage Apple Reminders on macOS by using AppleScript to directly interact with the Reminders app, providing a simple TypeScript-based API for creating, completing, and deleting reminders.",
+	"url": "https://github.com/shadowfax92/apple-reminders-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Apple Reminders MCP"
 }

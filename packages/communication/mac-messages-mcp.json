@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mac-messages-mcp",
-  "description": "Bridges Claude Desktop with macOS Messages app, enabling reading and sending iMessages through direct database access with contact lookup and group chat support.",
-  "url": "https://github.com/carterlasalle/mac_messages_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Mac Messages MCP Bridge"
+	"type": "mcp-server",
+	"packageName": "mac-messages-mcp",
+	"description": "Bridges Claude Desktop with macOS Messages app, enabling reading and sending iMessages through direct database access with contact lookup and group chat support.",
+	"url": "https://github.com/carterlasalle/mac_messages_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Mac Messages MCP Bridge"
 }

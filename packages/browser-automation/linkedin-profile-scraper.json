@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "linkedin-profile-scraper",
-  "description": "Integrates with LinkedIn Profile Scraper API to asynchronously retrieve profile data including skills, certifications, publications, and honors for recruitment tools or professional data analysis.",
-  "url": "https://github.com/drfranko0/mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Server"
+	"type": "mcp-server",
+	"packageName": "linkedin-profile-scraper",
+	"description": "Integrates with LinkedIn Profile Scraper API to asynchronously retrieve profile data including skills, certifications, publications, and honors for recruitment tools or professional data analysis.",
+	"url": "https://github.com/drfranko0/mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Server"
 }

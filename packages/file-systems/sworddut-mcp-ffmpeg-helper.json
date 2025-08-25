@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@sworddut/mcp-ffmpeg-helper",
-  "description": "Provides access to FFmpeg's video processing capabilities including format conversion, audio extraction, trimming, watermarking, frame extraction, and media information retrieval via simple tool calls",
-  "url": "https://github.com/sworddut/mcp-ffmpeg-helper",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "FFmpeg MCP Helper"
+	"type": "mcp-server",
+	"packageName": "@sworddut/mcp-ffmpeg-helper",
+	"description": "Provides access to FFmpeg's video processing capabilities including format conversion, audio extraction, trimming, watermarking, frame extraction, and media information retrieval via simple tool calls",
+	"url": "https://github.com/sworddut/mcp-ffmpeg-helper",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "FFmpeg MCP Helper"
 }

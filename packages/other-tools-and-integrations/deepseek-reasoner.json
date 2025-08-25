@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "deepseek-reasoner",
-  "description": "Integrates DeepSeek's R1 reasoning engine with Claude, enabling complex problem-solving through a tool that processes queries and formats reasoning output within <ant_thinking> tags.",
-  "url": "https://github.com/ygboy1986/aiclaude",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "DeepSeek Reasoner"
+	"type": "mcp-server",
+	"packageName": "deepseek-reasoner",
+	"description": "Integrates DeepSeek's R1 reasoning engine with Claude, enabling complex problem-solving through a tool that processes queries and formats reasoning output within <ant_thinking> tags.",
+	"url": "https://github.com/ygboy1986/aiclaude",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "DeepSeek Reasoner"
 }

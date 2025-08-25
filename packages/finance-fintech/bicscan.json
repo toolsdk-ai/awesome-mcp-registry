@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bicscan",
-  "description": "Provides a bridge to the BICScan API for assessing blockchain risk and analyzing digital assets through risk scoring and detailed holdings information",
-  "url": "https://github.com/ahnlabio/bicscan-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "BICScan MCP"
+	"type": "mcp-server",
+	"packageName": "bicscan",
+	"description": "Provides a bridge to the BICScan API for assessing blockchain risk and analyzing digital assets through risk scoring and detailed holdings information",
+	"url": "https://github.com/ahnlabio/bicscan-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "BICScan MCP"
 }

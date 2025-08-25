@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@arabold/docs-mcp-server",
-  "description": "Provides specialized documentation scraping and retrieval from GitHub, NPM, PyPI, and web pages, enabling accurate reference to up-to-date library documentation without disrupting workflow.",
-  "url": "https://github.com/arabold/docs-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Docs MCP Server"
+	"type": "mcp-server",
+	"packageName": "@arabold/docs-mcp-server",
+	"description": "Provides specialized documentation scraping and retrieval from GitHub, NPM, PyPI, and web pages, enabling accurate reference to up-to-date library documentation without disrupting workflow.",
+	"url": "https://github.com/arabold/docs-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Docs MCP Server"
 }

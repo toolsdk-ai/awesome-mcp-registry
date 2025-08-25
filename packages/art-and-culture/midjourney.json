@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "midjourney",
-  "description": "Integrates with Midjourney's image generation API to create, blend, upscale, and describe images with support for aspect ratios, variations, and reference inputs.",
-  "url": "https://github.com/z23cc/midjourney-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Midjourney MCP"
+	"type": "mcp-server",
+	"packageName": "midjourney",
+	"description": "Integrates with Midjourney's image generation API to create, blend, upscale, and describe images with support for aspect ratios, variations, and reference inputs.",
+	"url": "https://github.com/z23cc/midjourney-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Midjourney MCP"
 }

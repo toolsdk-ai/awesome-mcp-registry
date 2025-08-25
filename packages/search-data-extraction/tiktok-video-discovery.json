@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tiktok-video-discovery",
-  "description": "Automates TikTok video discovery through hashtag searches and trending content retrieval with anti-detection measures for content analysis and social media research.",
-  "url": "https://github.com/yap-audio/tiktok-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "TikTok MCP"
+	"type": "mcp-server",
+	"packageName": "tiktok-video-discovery",
+	"description": "Automates TikTok video discovery through hashtag searches and trending content retrieval with anti-detection measures for content analysis and social media research.",
+	"url": "https://github.com/yap-audio/tiktok-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "TikTok MCP"
 }

@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "gemini-cli-orchestrator-mcp",
-  "description": "A lightweight MCP server that enables AI agents to perform deep codebase analysis by leveraging Gemini's massive context window for cross-file analysis and intelligent file selection.",
-  "url": "https://github.com/dnnyngyen/gemini-cli-orchestrator",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "GEMINI_CLI_PATH": {
-      "description": "Path to the Gemini CLI executable. If not provided, the tool will attempt to automatically find it.",
-      "required": true
-    }
-  },
-  "name": "Gemini CLI Orchestrator MCP"
+	"type": "mcp-server",
+	"packageName": "gemini-cli-orchestrator-mcp",
+	"description": "A lightweight MCP server that enables AI agents to perform deep codebase analysis by leveraging Gemini's massive context window for cross-file analysis and intelligent file selection.",
+	"url": "https://github.com/dnnyngyen/gemini-cli-orchestrator",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"GEMINI_CLI_PATH": {
+			"description": "Path to the Gemini CLI executable. If not provided, the tool will attempt to automatically find it.",
+			"required": true
+		}
+	},
+	"name": "Gemini CLI Orchestrator MCP"
 }

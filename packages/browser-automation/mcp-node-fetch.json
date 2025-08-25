@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-node-fetch",
-  "description": "Enables web content retrieval and processing with tools for fetching URLs, extracting HTML fragments, and checking site availability using Node.js's undici library.",
-  "url": "https://github.com/mcollina/mcp-node-fetch",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Node Fetch MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-node-fetch",
+	"description": "Enables web content retrieval and processing with tools for fetching URLs, extracting HTML fragments, and checking site availability using Node.js's undici library.",
+	"url": "https://github.com/mcollina/mcp-node-fetch",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Node Fetch MCP"
 }

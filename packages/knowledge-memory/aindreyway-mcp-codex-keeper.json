@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@aindreyway/mcp-codex-keeper",
-  "description": "Integrates with external resources to provide curated development knowledge for code generation, bug fixing, and context-aware programming advice.",
-  "url": "https://github.com/aindreyway/mcp-codex-keeper",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "npm_config_cache_max": {
-      "description": "1024000000",
-      "required": true
-    },
-    "NODE_OPTIONS": {
-      "description": "--max-old-space-size=256",
-      "required": true
-    }
-  },
-  "name": "MCP Codex Keeper"
+	"type": "mcp-server",
+	"packageName": "@aindreyway/mcp-codex-keeper",
+	"description": "Integrates with external resources to provide curated development knowledge for code generation, bug fixing, and context-aware programming advice.",
+	"url": "https://github.com/aindreyway/mcp-codex-keeper",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"npm_config_cache_max": {
+			"description": "1024000000",
+			"required": true
+		},
+		"NODE_OPTIONS": {
+			"description": "--max-old-space-size=256",
+			"required": true
+		}
+	},
+	"name": "MCP Codex Keeper"
 }

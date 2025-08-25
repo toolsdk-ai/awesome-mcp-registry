@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-vcd",
-  "description": "Enables querying and analysis of digital signal data from Value Change Dump (VCD) waveforms for applications in digital design, hardware verification, and signal analysis.",
-  "url": "https://github.com/seanmcloughlin/mcp-vcd",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP VCD"
+	"type": "mcp-server",
+	"packageName": "mcp-vcd",
+	"description": "Enables querying and analysis of digital signal data from Value Change Dump (VCD) waveforms for applications in digital design, hardware verification, and signal analysis.",
+	"url": "https://github.com/seanmcloughlin/mcp-vcd",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP VCD"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ast-grep",
-  "description": "Bridges to the ast-grep code search tool for finding code patterns in projects using abstract syntax tree matching, enabling efficient code analysis and refactoring tasks.",
-  "url": "https://github.com/ast-grep/ast-grep-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Ast Grep MCP"
+	"type": "mcp-server",
+	"packageName": "ast-grep",
+	"description": "Bridges to the ast-grep code search tool for finding code patterns in projects using abstract syntax tree matching, enabling efficient code analysis and refactoring tasks.",
+	"url": "https://github.com/ast-grep/ast-grep-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Ast Grep MCP"
 }

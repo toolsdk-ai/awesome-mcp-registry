@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "airflow-mcp-server",
-  "description": "Bridges Claude with Apache Airflow, enabling direct interaction with workflow orchestration through read-only or full-access modes for listing, checking, triggering, and managing Airflow resources via natural language.",
-  "url": "https://github.com/abhishekbhakat/airflow-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Airflow MCP Server"
+	"type": "mcp-server",
+	"packageName": "airflow-mcp-server",
+	"description": "Bridges Claude with Apache Airflow, enabling direct interaction with workflow orchestration through read-only or full-access modes for listing, checking, triggering, and managing Airflow resources via natural language.",
+	"url": "https://github.com/abhishekbhakat/airflow-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Airflow MCP Server"
 }

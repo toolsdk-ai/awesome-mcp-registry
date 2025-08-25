@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "grafana",
-  "description": "Connects AI systems to Grafana monitoring dashboards, enabling access to visualization data, dashboards, folders, and datasources for enhanced monitoring workflows and infrastructure troubleshooting.",
-  "url": "https://github.com/n0safe/grafana-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Grafana MCP"
+	"type": "mcp-server",
+	"packageName": "grafana",
+	"description": "Connects AI systems to Grafana monitoring dashboards, enabling access to visualization data, dashboards, folders, and datasources for enhanced monitoring workflows and infrastructure troubleshooting.",
+	"url": "https://github.com/n0safe/grafana-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Grafana MCP"
 }

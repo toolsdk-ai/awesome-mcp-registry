@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sec-edgar",
-  "description": "Provides access to SEC EDGAR financial data through tools for retrieving company submissions, financial concepts, standardized facts, and XBRL frames for investment research and regulatory compliance.",
-  "url": "https://github.com/stefanoamorelli/sec-edgar-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "SEC EDGAR MCP"
+	"type": "mcp-server",
+	"packageName": "sec-edgar",
+	"description": "Provides access to SEC EDGAR financial data through tools for retrieving company submissions, financial concepts, standardized facts, and XBRL frames for investment research and regulatory compliance.",
+	"url": "https://github.com/stefanoamorelli/sec-edgar-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "SEC EDGAR MCP"
 }

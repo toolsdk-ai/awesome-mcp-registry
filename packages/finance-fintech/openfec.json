@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "openfec",
-  "description": "Provides access to Federal Election Commission campaign finance data through the OpenFEC API, enabling searches for candidates, committees, contributions, and expenditures with comprehensive error handling and rate limiting.",
-  "url": "https://github.com/psalzman/mcp-openfec",
-  "runtime": "node",
-  "license": "bsd-3-clause",
-  "env": {},
-  "name": "OpenFEC MCP"
+	"type": "mcp-server",
+	"packageName": "openfec",
+	"description": "Provides access to Federal Election Commission campaign finance data through the OpenFEC API, enabling searches for candidates, committees, contributions, and expenditures with comprehensive error handling and rate limiting.",
+	"url": "https://github.com/psalzman/mcp-openfec",
+	"runtime": "node",
+	"license": "bsd-3-clause",
+	"env": {},
+	"name": "OpenFEC MCP"
 }

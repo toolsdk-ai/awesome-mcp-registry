@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "release-notes",
-  "description": "Integrates with release note management systems to automate generation and updating of software project documentation.",
-  "url": "https://github.com/nickbaumann98/release-notes-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Release Notes Server"
+	"type": "mcp-server",
+	"packageName": "release-notes",
+	"description": "Integrates with release note management systems to automate generation and updating of software project documentation.",
+	"url": "https://github.com/nickbaumann98/release-notes-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Release Notes Server"
 }

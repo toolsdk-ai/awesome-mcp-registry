@@ -1,27 +1,27 @@
 {
-  "type": "mcp-server",
-  "packageName": "expert-registry-mcp-server",
-  "description": "A high-performance MCP server for expert discovery, registration, and context injection, enabling AI-powered expert selection through semantic search and relationship modeling with vector and graph database integration.",
-  "url": "https://github.com/agentience/expert-registry-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "NEO4J_URI": {
-      "description": "URI for connecting to the Neo4j graph database",
-      "required": true
-    },
-    "FASTMCP_DEBUG": {
-      "description": "Enable debug logging (1 for enabled, 0 for disabled)",
-      "required": true
-    },
-    "NEO4J_PASSWORD": {
-      "description": "Password for the Neo4j database",
-      "required": true
-    },
-    "EXPERT_SYSTEM_PATH": {
-      "description": "Path to your expert system directory containing registry, expert-contexts, and performance directories",
-      "required": true
-    }
-  },
-  "name": "Expert Registry MCP Server"
+	"type": "mcp-server",
+	"packageName": "expert-registry-mcp-server",
+	"description": "A high-performance MCP server for expert discovery, registration, and context injection, enabling AI-powered expert selection through semantic search and relationship modeling with vector and graph database integration.",
+	"url": "https://github.com/agentience/expert-registry-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"NEO4J_URI": {
+			"description": "URI for connecting to the Neo4j graph database",
+			"required": true
+		},
+		"FASTMCP_DEBUG": {
+			"description": "Enable debug logging (1 for enabled, 0 for disabled)",
+			"required": true
+		},
+		"NEO4J_PASSWORD": {
+			"description": "Password for the Neo4j database",
+			"required": true
+		},
+		"EXPERT_SYSTEM_PATH": {
+			"description": "Path to your expert system directory containing registry, expert-contexts, and performance directories",
+			"required": true
+		}
+	},
+	"name": "Expert Registry MCP Server"
 }

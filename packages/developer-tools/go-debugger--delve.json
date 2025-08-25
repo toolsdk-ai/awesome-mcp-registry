@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "go-debugger-(delve)",
-  "description": "Provides a bridge to the Delve debugger for Go applications, enabling runtime debugging capabilities including breakpoints, stepping through code, variable inspection, and stack trace examination.",
-  "url": "https://github.com/sunfmin/mcp-go-debugger",
-  "runtime": "go",
-  "license": "mit",
-  "env": {},
-  "name": "Go Debugger MCP"
+	"type": "mcp-server",
+	"packageName": "go-debugger-(delve)",
+	"description": "Provides a bridge to the Delve debugger for Go applications, enabling runtime debugging capabilities including breakpoints, stepping through code, variable inspection, and stack trace examination.",
+	"url": "https://github.com/sunfmin/mcp-go-debugger",
+	"runtime": "go",
+	"license": "mit",
+	"env": {},
+	"name": "Go Debugger MCP"
 }

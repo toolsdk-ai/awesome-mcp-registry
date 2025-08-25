@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "feature-suggestions-(supabase)",
-  "description": "Connects AI assistants to a Supabase database for querying feature suggestions, enabling direct access to feature request data within conversations without manual database queries.",
-  "url": "https://github.com/adiletd/feature-request-collection-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Feature Request Collection MCP"
+	"type": "mcp-server",
+	"packageName": "feature-suggestions-(supabase)",
+	"description": "Connects AI assistants to a Supabase database for querying feature suggestions, enabling direct access to feature request data within conversations without manual database queries.",
+	"url": "https://github.com/adiletd/feature-request-collection-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Feature Request Collection MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "weread",
-  "description": "Integrates with WeRead e-book platform to provide access to book content, user highlights, and annotations with efficient cache management for research and literature analysis workflows.",
-  "url": "https://github.com/freestylefly/mcp-server-weread",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Weread MCP Server"
+	"type": "mcp-server",
+	"packageName": "weread",
+	"description": "Integrates with WeRead e-book platform to provide access to book content, user highlights, and annotations with efficient cache management for research and literature analysis workflows.",
+	"url": "https://github.com/freestylefly/mcp-server-weread",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Weread MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "token-revoke",
-  "description": "Enables secure management and revocation of ERC20 token allowances across 40+ blockchain networks, helping users protect their assets by controlling which protocols have permission to spend their tokens.",
-  "url": "https://github.com/kukapay/token-revoke-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Token Revoke MCP"
+	"type": "mcp-server",
+	"packageName": "token-revoke",
+	"description": "Enables secure management and revocation of ERC20 token allowances across 40+ blockchain networks, helping users protect their assets by controlling which protocols have permission to spend their tokens.",
+	"url": "https://github.com/kukapay/token-revoke-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Token Revoke MCP"
 }

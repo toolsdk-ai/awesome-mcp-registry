@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-siri-shortcuts",
-  "description": "Integrates with macOS Shortcuts to dynamically expose and execute user-defined automation workflows through generated tools.",
-  "url": "https://github.com/dvcrn/mcp-server-siri-shortcuts",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "GENERATE_SHORTCUT_TOOLS": {
-      "description": "true",
-      "required": true
-    },
-    "INJECT_SHORTCUT_LIST": {
-      "description": "false",
-      "required": true
-    }
-  },
-  "name": "Siri Shortcuts MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-server-siri-shortcuts",
+	"description": "Integrates with macOS Shortcuts to dynamically expose and execute user-defined automation workflows through generated tools.",
+	"url": "https://github.com/dvcrn/mcp-server-siri-shortcuts",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"GENERATE_SHORTCUT_TOOLS": {
+			"description": "true",
+			"required": true
+		},
+		"INJECT_SHORTCUT_LIST": {
+			"description": "false",
+			"required": true
+		}
+	},
+	"name": "Siri Shortcuts MCP Server"
 }

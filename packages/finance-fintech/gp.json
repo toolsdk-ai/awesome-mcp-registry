@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gp",
-  "description": "Provides access to insurance policy and claims data with tools for monitoring policy changes, premium payments, member enrollments, and claims processing",
-  "url": "https://github.com/wayneqs/mcp_server_spike",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Server Spike"
+	"type": "mcp-server",
+	"packageName": "gp",
+	"description": "Provides access to insurance policy and claims data with tools for monitoring policy changes, premium payments, member enrollments, and claims processing",
+	"url": "https://github.com/wayneqs/mcp_server_spike",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Server Spike"
 }

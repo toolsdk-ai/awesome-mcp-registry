@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "outlook",
-  "description": "Bridges Microsoft Graph API to enable seamless email, calendar, and messaging interactions through natural language commands and comprehensive management tools.",
-  "url": "https://github.com/jibberish69/enhanced-outlook-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Enhanced Outlook MCP"
+	"type": "mcp-server",
+	"packageName": "outlook",
+	"description": "Bridges Microsoft Graph API to enable seamless email, calendar, and messaging interactions through natural language commands and comprehensive management tools.",
+	"url": "https://github.com/jibberish69/enhanced-outlook-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Enhanced Outlook MCP"
 }

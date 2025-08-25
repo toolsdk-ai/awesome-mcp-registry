@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp_pdf_forms",
-  "description": "Provides tools for finding PDF files, extracting form field information, and visualizing form fields in PDF documents using PyMuPDF.",
-  "url": "https://github.com/wildebeest/mcp_pdf_forms",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP PDF Forms"
+	"type": "mcp-server",
+	"packageName": "mcp_pdf_forms",
+	"description": "Provides tools for finding PDF files, extracting form field information, and visualizing form fields in PDF documents using PyMuPDF.",
+	"url": "https://github.com/wildebeest/mcp_pdf_forms",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP PDF Forms"
 }

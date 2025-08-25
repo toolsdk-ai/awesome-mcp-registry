@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@gerred/mcpmc",
-  "description": "Integrates Mineflayer to enable AI control of Minecraft bots for navigation, block manipulation, inventory management, and real-time game state monitoring.",
-  "url": "https://github.com/gerred/mcpmc",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCPMC"
+	"type": "mcp-server",
+	"packageName": "@gerred/mcpmc",
+	"description": "Integrates Mineflayer to enable AI control of Minecraft bots for navigation, block manipulation, inventory management, and real-time game state monitoring.",
+	"url": "https://github.com/gerred/mcpmc",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCPMC"
 }

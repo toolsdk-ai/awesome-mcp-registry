@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "spryker-package-search",
-  "description": "Enables search for Spryker packages and code across GitHub repositories, allowing developers to quickly locate packages by name/description or find specific code examples within the Spryker ecosystem.",
-  "url": "https://github.com/vitaliiivanovspryker/spryker-package-search-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Spryker Package Search MCP"
+	"type": "mcp-server",
+	"packageName": "spryker-package-search",
+	"description": "Enables search for Spryker packages and code across GitHub repositories, allowing developers to quickly locate packages by name/description or find specific code examples within the Spryker ecosystem.",
+	"url": "https://github.com/vitaliiivanovspryker/spryker-package-search-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Spryker Package Search MCP"
 }

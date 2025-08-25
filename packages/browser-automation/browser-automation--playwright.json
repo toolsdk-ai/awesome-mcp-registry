@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "browser-automation-(playwright)",
-  "description": "Provides browser automation capabilities using Playwright, enabling web page navigation, element interaction, screenshot capture, JavaScript execution, and screenshot analysis for web testing and automated browsing workflows.",
-  "url": "https://github.com/wladastic/autoprobemcp",
-  "runtime": "node",
-  "license": "other",
-  "env": {},
-  "name": "AutoProbe MCP"
+	"type": "mcp-server",
+	"packageName": "browser-automation-(playwright)",
+	"description": "Provides browser automation capabilities using Playwright, enabling web page navigation, element interaction, screenshot capture, JavaScript execution, and screenshot analysis for web testing and automated browsing workflows.",
+	"url": "https://github.com/wladastic/autoprobemcp",
+	"runtime": "node",
+	"license": "other",
+	"env": {},
+	"name": "AutoProbe MCP"
 }

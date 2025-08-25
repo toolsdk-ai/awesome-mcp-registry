@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "flux-studio",
-  "description": "Bridges Flux's image generation capabilities to coding environments, enabling text-to-image, image-to-image, inpainting, and structural control operations directly within IDEs through TypeScript-to-CLI command translation.",
-  "url": "https://github.com/jmanhype/mcp-flux-studio",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Flux Studio MCP"
+	"type": "mcp-server",
+	"packageName": "flux-studio",
+	"description": "Bridges Flux's image generation capabilities to coding environments, enabling text-to-image, image-to-image, inpainting, and structural control operations directly within IDEs through TypeScript-to-CLI command translation.",
+	"url": "https://github.com/jmanhype/mcp-flux-studio",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Flux Studio MCP"
 }

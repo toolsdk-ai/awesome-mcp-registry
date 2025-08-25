@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@osmosis-agent-toolkit/mcp",
-  "description": "Provides a bridge to the Osmosis blockchain protocol for executing decentralized finance operations like token swaps, balance queries, and account management",
-  "url": "https://github.com/jonator/osmosis-agent-toolkit/tree/HEAD/packages/mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Osmosis Agent Toolkit MCP"
+	"type": "mcp-server",
+	"packageName": "@osmosis-agent-toolkit/mcp",
+	"description": "Provides a bridge to the Osmosis blockchain protocol for executing decentralized finance operations like token swaps, balance queries, and account management",
+	"url": "https://github.com/jonator/osmosis-agent-toolkit/tree/HEAD/packages/mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Osmosis Agent Toolkit MCP"
 }

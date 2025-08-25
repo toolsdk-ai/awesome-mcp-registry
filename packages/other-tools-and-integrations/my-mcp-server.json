@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "my-mcp-server",
-  "description": "Integrates with Dida365 (TickTick) task management API to create, update, retrieve, and delete tasks and projects after user authorization.",
-  "url": "https://github.com/iamjzx/dida",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Dida MCP Server"
+	"type": "mcp-server",
+	"packageName": "my-mcp-server",
+	"description": "Integrates with Dida365 (TickTick) task management API to create, update, retrieve, and delete tasks and projects after user authorization.",
+	"url": "https://github.com/iamjzx/dida",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Dida MCP Server"
 }

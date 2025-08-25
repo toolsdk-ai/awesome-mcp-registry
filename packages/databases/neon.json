@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "neon",
-  "description": "Manage Neon's serverless Postgres databases.",
-  "url": "https://github.com/neondatabase-labs/mcp-server-neon",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Server Neon"
+	"type": "mcp-server",
+	"packageName": "neon",
+	"description": "Manage Neon's serverless Postgres databases.",
+	"url": "https://github.com/neondatabase-labs/mcp-server-neon",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Server Neon"
 }

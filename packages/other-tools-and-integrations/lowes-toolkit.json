@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "lowes-toolkit",
-  "description": "Collection of specialized servers for dice rolling, price checking, notifications, and Lowe's-specific integrations with GitHub, Redis, PostgreSQL, and Google Maps, extending AI capabilities through containerized Python and TypeScript implementations.",
-  "url": "https://github.com/mnbpdx/mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Server"
+	"type": "mcp-server",
+	"packageName": "lowes-toolkit",
+	"description": "Collection of specialized servers for dice rolling, price checking, notifications, and Lowe's-specific integrations with GitHub, Redis, PostgreSQL, and Google Maps, extending AI capabilities through containerized Python and TypeScript implementations.",
+	"url": "https://github.com/mnbpdx/mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hugging-face",
-  "description": "Provides direct access to thousands of Hugging Face models and resources with optional authentication, enabling natural language processing and image generation capabilities within conversation interfaces.",
-  "url": "https://github.com/shreyaskarnik/huggingface-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Hugging Face MCP Server"
+	"type": "mcp-server",
+	"packageName": "hugging-face",
+	"description": "Provides direct access to thousands of Hugging Face models and resources with optional authentication, enabling natural language processing and image generation capabilities within conversation interfaces.",
+	"url": "https://github.com/shreyaskarnik/huggingface-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Hugging Face MCP Server"
 }

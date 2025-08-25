@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "blockscout",
-  "description": "Integrates with Blockscout APIs to provide blockchain data access including address balances, token holdings, NFT collections, transaction details, smart contract ABIs, and ENS name resolution across multiple networks with caching optimization and decoded transaction analysis.",
-  "url": "https://github.com/blockscout/mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Blockscout MCP Server"
+	"type": "mcp-server",
+	"packageName": "blockscout",
+	"description": "Integrates with Blockscout APIs to provide blockchain data access including address balances, token holdings, NFT collections, transaction details, smart contract ABIs, and ENS name resolution across multiple networks with caching optimization and decoded transaction analysis.",
+	"url": "https://github.com/blockscout/mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Blockscout MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "playwright-stealth",
-  "description": "Enables stealth web browsing automation with Playwright for tasks like navigation, form filling, and screenshot capture while avoiding detection by anti-bot systems",
-  "url": "https://github.com/pvinis/mcp-playwright-stealth",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Playwright Stealth MCP"
+	"type": "mcp-server",
+	"packageName": "playwright-stealth",
+	"description": "Enables stealth web browsing automation with Playwright for tasks like navigation, form filling, and screenshot capture while avoiding detection by anti-bot systems",
+	"url": "https://github.com/pvinis/mcp-playwright-stealth",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Playwright Stealth MCP"
 }

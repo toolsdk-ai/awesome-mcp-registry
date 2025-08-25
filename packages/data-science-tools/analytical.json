@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "analytical",
-  "description": "Enhances structured problem-solving and analytical reasoning with tools for research verification, statistical analysis, logical reasoning, and multi-perspective generation for data analysts, researchers, and decision-makers.",
-  "url": "https://github.com/quanticsoul4772/analytical-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Analytical MCP"
+	"type": "mcp-server",
+	"packageName": "analytical",
+	"description": "Enhances structured problem-solving and analytical reasoning with tools for research verification, statistical analysis, logical reasoning, and multi-perspective generation for data analysts, researchers, and decision-makers.",
+	"url": "https://github.com/quanticsoul4772/analytical-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Analytical MCP"
 }

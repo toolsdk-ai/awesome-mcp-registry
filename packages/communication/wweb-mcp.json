@@ -1,16 +1,16 @@
 {
-  "type": "mcp-server",
-  "logo": "https://pbs.twimg.com/profile_images/1318652224638124032/wrpp2Nl4_400x400.png",
-  "packageName": "@pnizer/wweb-mcp",
-  "description": "A Node.js application that connects WhatsApp Web with AI models through the Model Context Protocol (MCP).",
-  "url": "https://github.com/pnizer/wweb-mcp/tree/main/src",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "WHATSAPP_API_KEY": {
-      "description": "your-api-key",
-      "required": true
-    }
-  },
-  "name": "WhatsApp Web MCP"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1318652224638124032/wrpp2Nl4_400x400.png",
+	"packageName": "@pnizer/wweb-mcp",
+	"description": "A Node.js application that connects WhatsApp Web with AI models through the Model Context Protocol (MCP).",
+	"url": "https://github.com/pnizer/wweb-mcp/tree/main/src",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"WHATSAPP_API_KEY": {
+			"description": "your-api-key",
+			"required": true
+		}
+	},
+	"name": "WhatsApp Web MCP"
 }

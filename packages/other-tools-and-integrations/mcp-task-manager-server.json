@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-task-manager-server",
-  "description": "Provides a structured API for managing projects and tasks with dependencies, enabling hierarchical organization, priority tracking, and identification of next actionable items based on completion status.",
-  "url": "https://github.com/bsmi021/mcp-task-manager-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Task Manager Server"
+	"type": "mcp-server",
+	"packageName": "mcp-task-manager-server",
+	"description": "Provides a structured API for managing projects and tasks with dependencies, enabling hierarchical organization, priority tracking, and identification of next actionable items based on completion status.",
+	"url": "https://github.com/bsmi021/mcp-task-manager-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Task Manager Server"
 }

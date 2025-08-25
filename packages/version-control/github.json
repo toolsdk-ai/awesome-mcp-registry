@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "github",
-  "description": "Integrates with GitHub's API to enable repository searching, information retrieval, issue management, and content generation through specialized tools and prompts for seamless development workflow management.",
-  "url": "https://github.com/ualusham/mcp-github",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP GitHub"
+	"type": "mcp-server",
+	"packageName": "github",
+	"description": "Integrates with GitHub's API to enable repository searching, information retrieval, issue management, and content generation through specialized tools and prompts for seamless development workflow management.",
+	"url": "https://github.com/ualusham/mcp-github",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP GitHub"
 }

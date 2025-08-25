@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "midi-file-mcp",
-  "description": "Parse and manipulate MIDI files based on Tone.js",
-  "url": "https://github.com/xiaolaa2/midi-file-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Midi File MCP"
+	"type": "mcp-server",
+	"packageName": "midi-file-mcp",
+	"description": "Parse and manipulate MIDI files based on Tone.js",
+	"url": "https://github.com/xiaolaa2/midi-file-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Midi File MCP"
 }

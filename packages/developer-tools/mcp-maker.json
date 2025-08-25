@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-maker",
-  "description": "Streamlines MCP server development with TypeScript-based scaffolding tools for generating boilerplate code, tool definitions, resource templates, and prompt templates.",
-  "url": "https://github.com/captaincrouton89/mcp-maker",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Maker"
+	"type": "mcp-server",
+	"packageName": "mcp-maker",
+	"description": "Streamlines MCP server development with TypeScript-based scaffolding tools for generating boilerplate code, tool definitions, resource templates, and prompt templates.",
+	"url": "https://github.com/captaincrouton89/mcp-maker",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Maker"
 }

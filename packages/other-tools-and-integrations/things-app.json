@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "things-app",
-  "description": "Integrates with the Things task management app to enable natural language queries and updates for tasks, projects, and areas.",
-  "url": "https://github.com/hald/things-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Things MCP"
+	"type": "mcp-server",
+	"packageName": "things-app",
+	"description": "Integrates with the Things task management app to enable natural language queries and updates for tasks, projects, and areas.",
+	"url": "https://github.com/hald/things-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Things MCP"
 }

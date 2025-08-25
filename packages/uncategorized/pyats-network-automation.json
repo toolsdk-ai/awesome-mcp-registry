@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pyats-network-automation",
-  "description": "Provides a containerized bridge between AI and Cisco network devices through the pyATS automation framework, enabling device configuration, troubleshooting, and monitoring tasks via SSH connections.",
-  "url": "https://github.com/automateyournetwork/pyats_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "PyATS MCP Bridge"
+	"type": "mcp-server",
+	"packageName": "pyats-network-automation",
+	"description": "Provides a containerized bridge between AI and Cisco network devices through the pyATS automation framework, enabling device configuration, troubleshooting, and monitoring tasks via SSH connections.",
+	"url": "https://github.com/automateyournetwork/pyats_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "PyATS MCP Bridge"
 }

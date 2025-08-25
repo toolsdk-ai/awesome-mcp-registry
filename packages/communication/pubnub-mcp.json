@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@pubnub/mcp",
-  "description": "Enables AI assistants to interact with PubNub's realtime communication platform for retrieving documentation, accessing SDK information, and utilizing messaging APIs without leaving their conversation context.",
-  "url": "https://github.com/pubnub/pubnub-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "PUBNUB_PUBLISH_KEY": {
-      "description": "YOUR_PUBLISH_KEY",
-      "required": true
-    },
-    "PUBNUB_SUBSCRIBE_KEY": {
-      "description": "YOUR_SUBSCRIBE_KEY",
-      "required": true
-    }
-  },
-  "name": "PubNub MCP Server"
+	"type": "mcp-server",
+	"packageName": "@pubnub/mcp",
+	"description": "Enables AI assistants to interact with PubNub's realtime communication platform for retrieving documentation, accessing SDK information, and utilizing messaging APIs without leaving their conversation context.",
+	"url": "https://github.com/pubnub/pubnub-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"PUBNUB_PUBLISH_KEY": {
+			"description": "YOUR_PUBLISH_KEY",
+			"required": true
+		},
+		"PUBNUB_SUBSCRIBE_KEY": {
+			"description": "YOUR_SUBSCRIBE_KEY",
+			"required": true
+		}
+	},
+	"name": "PubNub MCP Server"
 }

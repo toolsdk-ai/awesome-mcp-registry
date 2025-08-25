@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@horizondatawave/mcp",
-  "description": "Bridges AI systems with LinkedIn's API for searching users, retrieving profiles, accessing posts, managing connections, and sending messages to support sales prospecting, recruitment, and professional networking workflows.",
-  "url": "https://github.com/horizondatawave/hdw-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "HDW_ACCESS_TOKEN": {
-      "description": "YOUR_HD_W_ACCESS_TOKEN",
-      "required": true
-    },
-    "HDW_ACCOUNT_ID": {
-      "description": "YOUR_HD_W_ACCOUNT_ID",
-      "required": true
-    }
-  },
-  "name": "Hdw MCP Server"
+	"type": "mcp-server",
+	"packageName": "@horizondatawave/mcp",
+	"description": "Bridges AI systems with LinkedIn's API for searching users, retrieving profiles, accessing posts, managing connections, and sending messages to support sales prospecting, recruitment, and professional networking workflows.",
+	"url": "https://github.com/horizondatawave/hdw-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"HDW_ACCESS_TOKEN": {
+			"description": "YOUR_HD_W_ACCESS_TOKEN",
+			"required": true
+		},
+		"HDW_ACCOUNT_ID": {
+			"description": "YOUR_HD_W_ACCOUNT_ID",
+			"required": true
+		}
+	},
+	"name": "Hdw MCP Server"
 }

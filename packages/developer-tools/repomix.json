@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "repomix",
-  "description": "Package codebases into AI-friendly single files with intelligent code structure preservation and token optimization.",
-  "url": "https://github.com/yamadashy/repomix",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "RepoMix"
+	"type": "mcp-server",
+	"packageName": "repomix",
+	"description": "Package codebases into AI-friendly single files with intelligent code structure preservation and token optimization.",
+	"url": "https://github.com/yamadashy/repomix",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "RepoMix"
 }

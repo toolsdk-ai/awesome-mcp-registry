@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "three.js",
-  "description": "Enables real-time manipulation of Three.js 3D scenes through WebSocket connections, allowing natural language control of object creation, movement, rotation, and scene state retrieval without direct code modification.",
-  "url": "https://github.com/locchung/three-js-mcp",
-  "runtime": "node",
-  "license": "other",
-  "env": {},
-  "name": "Three.js MCP"
+	"type": "mcp-server",
+	"packageName": "three.js",
+	"description": "Enables real-time manipulation of Three.js 3D scenes through WebSocket connections, allowing natural language control of object creation, movement, rotation, and scene state retrieval without direct code modification.",
+	"url": "https://github.com/locchung/three-js-mcp",
+	"runtime": "node",
+	"license": "other",
+	"env": {},
+	"name": "Three.js MCP"
 }

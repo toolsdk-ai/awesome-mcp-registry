@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "trello",
-  "description": "Provides a bridge to Trello for creating and managing boards, lists, cards, labels, members, and checklists through TypeScript-based service handlers that handle authentication and API communication.",
-  "url": "https://github.com/v4lheru/trello-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Trello MCP Server"
+	"type": "mcp-server",
+	"packageName": "trello",
+	"description": "Provides a bridge to Trello for creating and managing boards, lists, cards, labels, members, and checklists through TypeScript-based service handlers that handle authentication and API communication.",
+	"url": "https://github.com/v4lheru/trello-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Trello MCP Server"
 }

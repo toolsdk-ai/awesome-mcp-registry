@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tailorkit",
-  "description": "Provides a bridge to the TailorKit API for managing customizable e-commerce product templates, enabling creation, retrieval, and manipulation of templates and their layers through natural language conversations.",
-  "url": "https://github.com/sellersmith/tailorkit-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "TailorKit MCP"
+	"type": "mcp-server",
+	"packageName": "tailorkit",
+	"description": "Provides a bridge to the TailorKit API for managing customizable e-commerce product templates, enabling creation, retrieval, and manipulation of templates and their layers through natural language conversations.",
+	"url": "https://github.com/sellersmith/tailorkit-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "TailorKit MCP"
 }

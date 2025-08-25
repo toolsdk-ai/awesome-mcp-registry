@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@vazylin1124/mongo-mcp",
-  "description": "Provides a bridge to MongoDB databases for executing document queries and establishing database connections with configurable collection targeting and result limits",
-  "url": "https://github.com/vazylin1124/mongo-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Mongo MCP"
+	"type": "mcp-server",
+	"packageName": "@vazylin1124/mongo-mcp",
+	"description": "Provides a bridge to MongoDB databases for executing document queries and establishing database connections with configurable collection targeting and result limits",
+	"url": "https://github.com/vazylin1124/mongo-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Mongo MCP"
 }

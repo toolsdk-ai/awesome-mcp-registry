@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "opensearch",
-  "description": "Integrates with OpenSearch databases to enable direct querying and data retrieval for log analysis, document retrieval, and structured data querying without leaving the conversation interface.",
-  "url": "https://github.com/jimmy974/opensearch-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "OpenSearch MCP Server"
+	"type": "mcp-server",
+	"packageName": "opensearch",
+	"description": "Integrates with OpenSearch databases to enable direct querying and data retrieval for log analysis, document retrieval, and structured data querying without leaving the conversation interface.",
+	"url": "https://github.com/jimmy974/opensearch-mcp-server",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "OpenSearch MCP Server"
 }

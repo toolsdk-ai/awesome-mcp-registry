@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "anki-leech-cards",
-  "description": "Connects Claude Desktop to Anki via AnkiConnect API, enabling retrieval and analysis of 'leech' cards to improve spaced repetition study habits.",
-  "url": "https://github.com/captain-blue210/anki-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Anki MCP Server"
+	"type": "mcp-server",
+	"packageName": "anki-leech-cards",
+	"description": "Connects Claude Desktop to Anki via AnkiConnect API, enabling retrieval and analysis of 'leech' cards to improve spaced repetition study habits.",
+	"url": "https://github.com/captain-blue210/anki-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Anki MCP Server"
 }

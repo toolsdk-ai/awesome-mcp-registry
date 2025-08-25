@@ -1,43 +1,43 @@
 {
-  "type": "mcp-server",
-  "packageName": "system-information-mcp-server",
-  "description": "Provides real-time system metrics and information through a Model Context Protocol interface, enabling access to CPU usage, memory statistics, disk information, network status, and running processes.",
-  "url": "https://github.com/dknell/mcp-system-info",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "SYSINFO_HOST": {
-      "description": "Host to bind to for HTTP transports",
-      "required": true
-    },
-    "SYSINFO_PORT": {
-      "description": "Port to bind to for HTTP transports",
-      "required": true
-    },
-    "SYSINFO_CACHE_TTL": {
-      "description": "Cache time-to-live in seconds",
-      "required": true
-    },
-    "SYSINFO_LOG_LEVEL": {
-      "description": "Logging level",
-      "required": true
-    },
-    "SYSINFO_TRANSPORT": {
-      "description": "Transport protocol: stdio, sse, or streamable-http",
-      "required": true
-    },
-    "SYSINFO_MOUNT_PATH": {
-      "description": "Mount path for SSE transport",
-      "required": true
-    },
-    "SYSINFO_ENABLE_TEMP": {
-      "description": "Enable temperature sensors",
-      "required": true
-    },
-    "SYSINFO_MAX_PROCESSES": {
-      "description": "Maximum processes to return",
-      "required": true
-    }
-  },
-  "name": "System Information MCP Server"
+	"type": "mcp-server",
+	"packageName": "system-information-mcp-server",
+	"description": "Provides real-time system metrics and information through a Model Context Protocol interface, enabling access to CPU usage, memory statistics, disk information, network status, and running processes.",
+	"url": "https://github.com/dknell/mcp-system-info",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"SYSINFO_HOST": {
+			"description": "Host to bind to for HTTP transports",
+			"required": true
+		},
+		"SYSINFO_PORT": {
+			"description": "Port to bind to for HTTP transports",
+			"required": true
+		},
+		"SYSINFO_CACHE_TTL": {
+			"description": "Cache time-to-live in seconds",
+			"required": true
+		},
+		"SYSINFO_LOG_LEVEL": {
+			"description": "Logging level",
+			"required": true
+		},
+		"SYSINFO_TRANSPORT": {
+			"description": "Transport protocol: stdio, sse, or streamable-http",
+			"required": true
+		},
+		"SYSINFO_MOUNT_PATH": {
+			"description": "Mount path for SSE transport",
+			"required": true
+		},
+		"SYSINFO_ENABLE_TEMP": {
+			"description": "Enable temperature sensors",
+			"required": true
+		},
+		"SYSINFO_MAX_PROCESSES": {
+			"description": "Maximum processes to return",
+			"required": true
+		}
+	},
+	"name": "System Information MCP Server"
 }

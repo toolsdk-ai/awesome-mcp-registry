@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "s2-streamstore",
-  "description": "Official MCP server for the s2.dev serverless stream platform",
-  "url": "https://github.com/s2-streamstore/s2-sdk-typescript",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "S2_ACCESS_TOKEN": {
-      "description": "Access token for authenticating with the S2 API",
-      "required": true
-    }
-  },
-  "name": "S2 SDK TypeScript MCP Server"
+	"type": "mcp-server",
+	"packageName": "s2-streamstore",
+	"description": "Official MCP server for the s2.dev serverless stream platform",
+	"url": "https://github.com/s2-streamstore/s2-sdk-typescript",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"S2_ACCESS_TOKEN": {
+			"description": "Access token for authenticating with the S2 API",
+			"required": true
+		}
+	},
+	"name": "S2 SDK TypeScript MCP Server"
 }

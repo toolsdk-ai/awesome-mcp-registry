@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-jinaai-reader",
-  "description": "Extracts and processes web content for efficient parsing and analysis of online information",
-  "url": "https://github.com/spences10/mcp-jinaai-reader",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "JINAAI_API_KEY": {
-      "description": "your-jinaai-api-key",
-      "required": true
-    }
-  },
-  "name": "JinaAI Reader MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-jinaai-reader",
+	"description": "Extracts and processes web content for efficient parsing and analysis of online information",
+	"url": "https://github.com/spences10/mcp-jinaai-reader",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"JINAAI_API_KEY": {
+			"description": "your-jinaai-api-key",
+			"required": true
+		}
+	},
+	"name": "JinaAI Reader MCP"
 }

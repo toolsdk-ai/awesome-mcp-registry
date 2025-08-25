@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@sanderkooger/mcp-server-ragdocs",
-  "description": "Provides semantic document search and retrieval through vector embeddings, enabling context-aware responses backed by specific documentation sources",
-  "url": "https://github.com/sanderkooger/mcp-server-ragdocs",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "RAGDocs MCP Server"
+	"type": "mcp-server",
+	"packageName": "@sanderkooger/mcp-server-ragdocs",
+	"description": "Provides semantic document search and retrieval through vector embeddings, enabling context-aware responses backed by specific documentation sources",
+	"url": "https://github.com/sanderkooger/mcp-server-ragdocs",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "RAGDocs MCP Server"
 }

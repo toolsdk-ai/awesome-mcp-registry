@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-obsidian",
-  "description": "Access and modify notes in Obsidian vaults via REST API.",
-  "url": "https://github.com/markuspfundstein/mcp-obsidian",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Obsidian"
+	"type": "mcp-server",
+	"packageName": "mcp-obsidian",
+	"description": "Access and modify notes in Obsidian vaults via REST API.",
+	"url": "https://github.com/markuspfundstein/mcp-obsidian",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Obsidian"
 }

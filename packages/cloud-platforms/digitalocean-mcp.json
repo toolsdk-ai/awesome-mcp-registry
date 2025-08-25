@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@digitalocean/mcp",
-  "description": "Integrates with DigitalOcean's cloud platform API to enable management of cloud resources, deployment of applications, and monitoring of infrastructure through natural language commands.",
-  "url": "https://github.com/digitalocean/digitalocean-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "DIGITALOCEAN_API_TOKEN": {
-      "description": "YOUR_DO_TOKEN",
-      "required": true
-    }
-  },
-  "name": "DigitalOcean MCP"
+	"type": "mcp-server",
+	"packageName": "@digitalocean/mcp",
+	"description": "Integrates with DigitalOcean's cloud platform API to enable management of cloud resources, deployment of applications, and monitoring of infrastructure through natural language commands.",
+	"url": "https://github.com/digitalocean/digitalocean-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"DIGITALOCEAN_API_TOKEN": {
+			"description": "YOUR_DO_TOKEN",
+			"required": true
+		}
+	},
+	"name": "DigitalOcean MCP"
 }

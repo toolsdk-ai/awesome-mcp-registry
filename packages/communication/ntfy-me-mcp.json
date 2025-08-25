@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "ntfy-me-mcp",
-  "description": "Enables sending push notifications through the ntfy service with customizable titles, summaries, priority levels, and tags for alerting users about completed tasks or status updates.",
-  "url": "https://github.com/gitmotion/ntfy-me-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "NTFY_TOPIC": {
-      "description": "your-topic-name",
-      "required": true
-    }
-  },
-  "name": "ntfy me mcp"
+	"type": "mcp-server",
+	"packageName": "ntfy-me-mcp",
+	"description": "Enables sending push notifications through the ntfy service with customizable titles, summaries, priority levels, and tags for alerting users about completed tasks or status updates.",
+	"url": "https://github.com/gitmotion/ntfy-me-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"NTFY_TOPIC": {
+			"description": "your-topic-name",
+			"required": true
+		}
+	},
+	"name": "ntfy me mcp"
 }

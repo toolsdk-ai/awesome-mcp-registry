@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hyper-mcp-browser",
-  "description": "Enables web browsing capabilities through Puppeteer and Chrome, allowing navigation, content extraction, and interaction with websites for scraping, analysis, and automated testing workflows.",
-  "url": "https://github.com/bigsweetpotatostudio/hyper-mcp-browser",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Hyper MCP Browser"
+	"type": "mcp-server",
+	"packageName": "hyper-mcp-browser",
+	"description": "Enables web browsing capabilities through Puppeteer and Chrome, allowing navigation, content extraction, and interaction with websites for scraping, analysis, and automated testing workflows.",
+	"url": "https://github.com/bigsweetpotatostudio/hyper-mcp-browser",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Hyper MCP Browser"
 }

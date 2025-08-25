@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "needle",
-  "description": "Bridges Needle AI platform with MCP servers to enable advanced natural language processing and machine learning capabilities.",
-  "url": "https://github.com/needle-ai/needle-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Needle MCP"
+	"type": "mcp-server",
+	"packageName": "needle",
+	"description": "Bridges Needle AI platform with MCP servers to enable advanced natural language processing and machine learning capabilities.",
+	"url": "https://github.com/needle-ai/needle-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Needle MCP"
 }

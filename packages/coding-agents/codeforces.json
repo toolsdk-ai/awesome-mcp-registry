@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "codeforces",
-  "description": "Integrates with Codeforces competitive programming platform to retrieve contest information, user profiles, submission histories, and rating changes for performance analysis and contest preparation.",
-  "url": "https://github.com/mohamed-hanfy/codeforces-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Codeforces MCP"
+	"type": "mcp-server",
+	"packageName": "codeforces",
+	"description": "Integrates with Codeforces competitive programming platform to retrieve contest information, user profiles, submission histories, and rating changes for performance analysis and contest preparation.",
+	"url": "https://github.com/mohamed-hanfy/codeforces-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Codeforces MCP"
 }

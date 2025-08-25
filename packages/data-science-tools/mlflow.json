@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mlflow",
-  "description": "Provides a natural language interface to MLflow tracking servers for querying and managing machine learning experiments and models through standardized tools for listing models, exploring experiments, and retrieving detailed information.",
-  "url": "https://github.com/irahulpandey/mlflowmcpserver",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MLflow MCP Server"
+	"type": "mcp-server",
+	"packageName": "mlflow",
+	"description": "Provides a natural language interface to MLflow tracking servers for querying and managing machine learning experiments and models through standardized tools for listing models, exploring experiments, and retrieving detailed information.",
+	"url": "https://github.com/irahulpandey/mlflowmcpserver",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MLflow MCP Server"
 }

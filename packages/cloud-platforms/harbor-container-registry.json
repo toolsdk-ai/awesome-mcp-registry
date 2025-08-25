@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "harbor-container-registry",
-  "description": "Enables AI systems to manage Harbor container registry resources including projects, repositories, tags, and Helm charts for streamlined DevOps workflows.",
-  "url": "https://github.com/nomagicln/mcp-harbor",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Harbor MCP"
+	"type": "mcp-server",
+	"packageName": "harbor-container-registry",
+	"description": "Enables AI systems to manage Harbor container registry resources including projects, repositories, tags, and Helm charts for streamlined DevOps workflows.",
+	"url": "https://github.com/nomagicln/mcp-harbor",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Harbor MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "vibe-check",
-  "description": "The definitive Vibe Coder's sanity check MCP server: Upgrade your agent with self-aware oversight.",
-  "url": "https://github.com/pv-bhat/vibe-check-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Vibe Check MCP Server"
+	"type": "mcp-server",
+	"packageName": "vibe-check",
+	"description": "The definitive Vibe Coder's sanity check MCP server: Upgrade your agent with self-aware oversight.",
+	"url": "https://github.com/pv-bhat/vibe-check-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Vibe Check MCP Server"
 }

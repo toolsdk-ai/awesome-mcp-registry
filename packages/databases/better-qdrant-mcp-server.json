@@ -1,47 +1,47 @@
 {
-  "type": "mcp-server",
-  "packageName": "better-qdrant-mcp-server",
-  "description": "Connects AI systems to Qdrant vector database for semantic search capabilities through multiple embedding services, enabling efficient document management and similarity searches without leaving the conversation interface.",
-  "url": "https://github.com/wrediam/better-qdrant-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "QDRANT_URL": {
-      "description": "http://localhost:6333",
-      "required": true
-    },
-    "QDRANT_API_KEY": {
-      "description": "your_api_key_if_needed",
-      "required": true
-    },
-    "DEFAULT_EMBEDDING_SERVICE": {
-      "description": "ollama",
-      "required": true
-    },
-    "OPENAI_API_KEY": {
-      "description": "your_openai_api_key",
-      "required": true
-    },
-    "OPENAI_ENDPOINT": {
-      "description": "https://api.openai.com/v1",
-      "required": true
-    },
-    "OPENROUTER_API_KEY": {
-      "description": "your_openrouter_api_key",
-      "required": true
-    },
-    "OPENROUTER_ENDPOINT": {
-      "description": "https://api.openrouter.com/v1",
-      "required": true
-    },
-    "OLLAMA_ENDPOINT": {
-      "description": "http://localhost:11434",
-      "required": true
-    },
-    "OLLAMA_MODEL": {
-      "description": "nomic-embed-text",
-      "required": true
-    }
-  },
-  "name": "Better Qdrant MCP Server"
+	"type": "mcp-server",
+	"packageName": "better-qdrant-mcp-server",
+	"description": "Connects AI systems to Qdrant vector database for semantic search capabilities through multiple embedding services, enabling efficient document management and similarity searches without leaving the conversation interface.",
+	"url": "https://github.com/wrediam/better-qdrant-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"QDRANT_URL": {
+			"description": "http://localhost:6333",
+			"required": true
+		},
+		"QDRANT_API_KEY": {
+			"description": "your_api_key_if_needed",
+			"required": true
+		},
+		"DEFAULT_EMBEDDING_SERVICE": {
+			"description": "ollama",
+			"required": true
+		},
+		"OPENAI_API_KEY": {
+			"description": "your_openai_api_key",
+			"required": true
+		},
+		"OPENAI_ENDPOINT": {
+			"description": "https://api.openai.com/v1",
+			"required": true
+		},
+		"OPENROUTER_API_KEY": {
+			"description": "your_openrouter_api_key",
+			"required": true
+		},
+		"OPENROUTER_ENDPOINT": {
+			"description": "https://api.openrouter.com/v1",
+			"required": true
+		},
+		"OLLAMA_ENDPOINT": {
+			"description": "http://localhost:11434",
+			"required": true
+		},
+		"OLLAMA_MODEL": {
+			"description": "nomic-embed-text",
+			"required": true
+		}
+	},
+	"name": "Better Qdrant MCP Server"
 }

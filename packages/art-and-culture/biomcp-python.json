@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "biomcp-python",
-  "description": "Integrates with biomedical databases including ClinicalTrials.gov, PubMed, and MyVariant.info to provide structured access to clinical trials, research articles, and genetic variants with intelligent data rendering and source attribution.",
-  "url": "https://github.com/genomoncology/biomcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "BioMCP"
+	"type": "mcp-server",
+	"packageName": "biomcp-python",
+	"description": "Integrates with biomedical databases including ClinicalTrials.gov, PubMed, and MyVariant.info to provide structured access to clinical trials, research articles, and genetic variants with intelligent data rendering and source attribution.",
+	"url": "https://github.com/genomoncology/biomcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "BioMCP"
 }

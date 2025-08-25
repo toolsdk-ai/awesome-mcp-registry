@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "freqtrade",
-  "description": "Provides a bridge to Freqtrade's REST API for monitoring market data, managing trades, configuring bot behavior, and analyzing performance metrics in cryptocurrency trading",
-  "url": "https://github.com/kukapay/freqtrade-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Freqtrade MCP"
+	"type": "mcp-server",
+	"packageName": "freqtrade",
+	"description": "Provides a bridge to Freqtrade's REST API for monitoring market data, managing trades, configuring bot behavior, and analyzing performance metrics in cryptocurrency trading",
+	"url": "https://github.com/kukapay/freqtrade-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Freqtrade MCP"
 }

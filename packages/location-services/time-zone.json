@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "time-zone",
-  "description": "Provides real-time timezone-aware date and time information for any IANA timezone through a Python-based server that converts and returns responses in ISO format.",
-  "url": "https://github.com/samay58/time-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Time MCP"
+	"type": "mcp-server",
+	"packageName": "time-zone",
+	"description": "Provides real-time timezone-aware date and time information for any IANA timezone through a Python-based server that converts and returns responses in ISO format.",
+	"url": "https://github.com/samay58/time-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Time MCP"
 }

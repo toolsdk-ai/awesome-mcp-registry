@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-think-tank",
-  "description": "Provides structured reasoning and persistent knowledge graph capabilities for complex problem-solving with transparent thinking processes and memory across conversations.",
-  "url": "https://github.com/flight505/mcp-think-tank",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Think Tank MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-think-tank",
+	"description": "Provides structured reasoning and persistent knowledge graph capabilities for complex problem-solving with transparent thinking processes and memory across conversations.",
+	"url": "https://github.com/flight505/mcp-think-tank",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Think Tank MCP"
 }

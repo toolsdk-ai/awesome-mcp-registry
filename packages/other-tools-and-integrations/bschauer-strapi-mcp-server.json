@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@bschauer/strapi-mcp-server",
-  "description": "Integrates Strapi CMS content into workflows, enabling manipulation of data for content management and querying in Strapi-powered applications.",
-  "url": "https://github.com/misterboe/strapi-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Strapi MCP Server"
+	"type": "mcp-server",
+	"packageName": "@bschauer/strapi-mcp-server",
+	"description": "Integrates Strapi CMS content into workflows, enabling manipulation of data for content management and querying in Strapi-powered applications.",
+	"url": "https://github.com/misterboe/strapi-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Strapi MCP Server"
 }

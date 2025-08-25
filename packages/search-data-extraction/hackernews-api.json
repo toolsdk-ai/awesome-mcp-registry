@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hackernews-api",
-  "description": "Integrates with the HackerNews API to fetch top stories, user information, and story details for content analysis and trend identification",
-  "url": "https://github.com/dannylee1020/toy-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Toy MCP"
+	"type": "mcp-server",
+	"packageName": "hackernews-api",
+	"description": "Integrates with the HackerNews API to fetch top stories, user information, and story details for content analysis and trend identification",
+	"url": "https://github.com/dannylee1020/toy-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Toy MCP"
 }

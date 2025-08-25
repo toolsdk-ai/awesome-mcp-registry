@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "systemprompt-code-orchestrator",
-  "description": "Orchestrates Claude Code CLI and Gemini CLI sessions to perform complex coding tasks through unified task management, agent coordination, and progress tracking with persistent state storage.",
-  "url": "https://github.com/systempromptio/systemprompt-code-orchestrator",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "SystemPrompt Code Orchestrator"
+	"type": "mcp-server",
+	"packageName": "systemprompt-code-orchestrator",
+	"description": "Orchestrates Claude Code CLI and Gemini CLI sessions to perform complex coding tasks through unified task management, agent coordination, and progress tracking with persistent state storage.",
+	"url": "https://github.com/systempromptio/systemprompt-code-orchestrator",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "SystemPrompt Code Orchestrator"
 }

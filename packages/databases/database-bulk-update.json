@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "database-bulk-update",
-  "description": "Streamlines database updates from CSV and Excel files, supporting multiple database types for efficient data migration and synchronization tasks.",
-  "url": "https://github.com/anuragrai017/database-updater-mcp-server",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Database Bulk Update MCP Server"
+	"type": "mcp-server",
+	"packageName": "database-bulk-update",
+	"description": "Streamlines database updates from CSV and Excel files, supporting multiple database types for efficient data migration and synchronization tasks.",
+	"url": "https://github.com/anuragrai017/database-updater-mcp-server",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Database Bulk Update MCP Server"
 }

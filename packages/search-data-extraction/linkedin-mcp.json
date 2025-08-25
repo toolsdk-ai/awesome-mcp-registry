@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "linkedin-mcp",
-  "description": "Integrates with LinkedIn to enable profile retrieval, job searching, feed post access, and resume analysis for automated platform engagement.",
-  "url": "https://github.com/hritik003/linkedin-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "LinkedIn MCP"
+	"type": "mcp-server",
+	"packageName": "linkedin-mcp",
+	"description": "Integrates with LinkedIn to enable profile retrieval, job searching, feed post access, and resume analysis for automated platform engagement.",
+	"url": "https://github.com/hritik003/linkedin-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "LinkedIn MCP"
 }

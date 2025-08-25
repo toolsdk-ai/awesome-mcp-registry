@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "kubernetes-mcp-server",
-  "description": "Powerful and flexible Kubernetes MCP server implementation with additional features for OpenShift. Besides the typical CRUD operations on any Kubernetes resource, this implementation adds specialized features for Pods and other resources.",
-  "url": "https://github.com/manusa/kubernetes-mcp-server",
-  "runtime": "go",
-  "license": "Apache-2.0",
-  "env": {},
-  "name": "Kubernetes MCP Server"
+	"type": "mcp-server",
+	"packageName": "kubernetes-mcp-server",
+	"description": "Powerful and flexible Kubernetes MCP server implementation with additional features for OpenShift. Besides the typical CRUD operations on any Kubernetes resource, this implementation adds specialized features for Pods and other resources.",
+	"url": "https://github.com/manusa/kubernetes-mcp-server",
+	"runtime": "go",
+	"license": "Apache-2.0",
+	"env": {},
+	"name": "Kubernetes MCP Server"
 }

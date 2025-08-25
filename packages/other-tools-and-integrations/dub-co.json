@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dub.co",
-  "description": "Integrates with Dub.co link shortener API to create, update, and manage shortened URLs with custom slugs and automatic domain selection.",
-  "url": "https://github.com/gitmaxd/dubco-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Dubco MCP Server"
+	"type": "mcp-server",
+	"packageName": "dub.co",
+	"description": "Integrates with Dub.co link shortener API to create, update, and manage shortened URLs with custom slugs and automatic domain selection.",
+	"url": "https://github.com/gitmaxd/dubco-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Dubco MCP Server"
 }

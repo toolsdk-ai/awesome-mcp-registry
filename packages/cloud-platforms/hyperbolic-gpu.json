@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hyperbolic-gpu",
-  "description": "Integrates with Hyperbolic's decentralized GPU network to discover available instances, rent compute resources, establish SSH connections, and execute remote commands for on-demand machine learning workloads.",
-  "url": "https://github.com/hyperboliclabs/hyperbolic-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Hyperbolic MCP"
+	"type": "mcp-server",
+	"packageName": "hyperbolic-gpu",
+	"description": "Integrates with Hyperbolic's decentralized GPU network to discover available instances, rent compute resources, establish SSH connections, and execute remote commands for on-demand machine learning workloads.",
+	"url": "https://github.com/hyperboliclabs/hyperbolic-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Hyperbolic MCP"
 }

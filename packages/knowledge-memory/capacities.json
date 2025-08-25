@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "capacities",
-  "description": "Integrates with Capacities knowledge management platform to search content across knowledge bases, save weblinks with metadata, add content to daily notes, and create structured summaries, research notes, and meeting notes.",
-  "url": "https://github.com/jem-computer/capacities-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Capacities MCP"
+	"type": "mcp-server",
+	"packageName": "capacities",
+	"description": "Integrates with Capacities knowledge management platform to search content across knowledge bases, save weblinks with metadata, add content to daily notes, and create structured summaries, research notes, and meeting notes.",
+	"url": "https://github.com/jem-computer/capacities-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Capacities MCP"
 }

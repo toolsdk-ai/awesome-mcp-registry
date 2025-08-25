@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "github-pr-comments",
-  "description": "Integrates with GitHub's Pull Request system to fetch and analyze PR comments with their associated file paths, line ranges, and replies for seamless code review workflows.",
-  "url": "https://github.com/shaileshahuja/github-pr-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "GitHub PR MCP"
+	"type": "mcp-server",
+	"packageName": "github-pr-comments",
+	"description": "Integrates with GitHub's Pull Request system to fetch and analyze PR comments with their associated file paths, line ranges, and replies for seamless code review workflows.",
+	"url": "https://github.com/shaileshahuja/github-pr-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "GitHub PR MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "powerpoint-automation",
-  "description": "Enables direct control of Microsoft PowerPoint through natural language commands, leveraging the PowerPoint COM API to create, edit, and manage presentations without switching applications.",
-  "url": "https://github.com/socamalo/ppt_mcp_server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "PPT MCP Server"
+	"type": "mcp-server",
+	"packageName": "powerpoint-automation",
+	"description": "Enables direct control of Microsoft PowerPoint through natural language commands, leveraging the PowerPoint COM API to create, edit, and manage presentations without switching applications.",
+	"url": "https://github.com/socamalo/ppt_mcp_server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "PPT MCP Server"
 }

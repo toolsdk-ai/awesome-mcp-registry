@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "rqbit-mcp",
-  "description": "Integrates with the rqbit BitTorrent client to enable torrent management operations including adding torrents via magnet links, monitoring download progress, and controlling torrent lifecycle with pause, start, delete, and forget commands.",
-  "url": "https://github.com/philogicae/rqbit-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Rqbit MCP"
+	"type": "mcp-server",
+	"packageName": "rqbit-mcp",
+	"description": "Integrates with the rqbit BitTorrent client to enable torrent management operations including adding torrents via magnet links, monitoring download progress, and controlling torrent lifecycle with pause, start, delete, and forget commands.",
+	"url": "https://github.com/philogicae/rqbit-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Rqbit MCP"
 }

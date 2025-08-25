@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-alteryx",
-  "description": "Integrates with Alteryx Server's REST API to enable workflow execution, collection management, user administration, schedule automation, job monitoring, and credential management for data analytics operations.",
-  "url": "https://github.com/jupiterbak/ayx-mcp-wrapper",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Ayx MCP Wrapper"
+	"type": "mcp-server",
+	"packageName": "mcp-server-alteryx",
+	"description": "Integrates with Alteryx Server's REST API to enable workflow execution, collection management, user administration, schedule automation, job monitoring, and credential management for data analytics operations.",
+	"url": "https://github.com/jupiterbak/ayx-mcp-wrapper",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Ayx MCP Wrapper"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gdb-debugger",
-  "description": "Integrates GDB with AI capabilities to provide interactive debugging assistance for C/C++ applications, enabling breakpoint management, memory examination, and execution flow analysis during debugging sessions.",
-  "url": "https://github.com/yywz1999/gdb-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "GDB MCP Server"
+	"type": "mcp-server",
+	"packageName": "gdb-debugger",
+	"description": "Integrates GDB with AI capabilities to provide interactive debugging assistance for C/C++ applications, enabling breakpoint management, memory examination, and execution flow analysis during debugging sessions.",
+	"url": "https://github.com/yywz1999/gdb-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "GDB MCP Server"
 }

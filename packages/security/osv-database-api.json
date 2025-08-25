@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "osv-database-api",
-  "description": "Integrates with the OSV Database API to query for security vulnerabilities in software packages, retrieve CVE information, and identify affected and fixed versions.",
-  "url": "https://github.com/edenyavin/osv-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "OSV MCP"
+	"type": "mcp-server",
+	"packageName": "osv-database-api",
+	"description": "Integrates with the OSV Database API to query for security vulnerabilities in software packages, retrieve CVE information, and identify affected and fixed versions.",
+	"url": "https://github.com/edenyavin/osv-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "OSV MCP"
 }

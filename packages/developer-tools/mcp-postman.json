@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-postman",
-  "description": "Executes Postman collections to run API tests, validate responses, and generate reports for automated testing and documentation workflows.",
-  "url": "https://github.com/shannonlal/mcp-postman",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Postman MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-postman",
+	"description": "Executes Postman collections to run API tests, validate responses, and generate reports for automated testing and documentation workflows.",
+	"url": "https://github.com/shannonlal/mcp-postman",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Postman MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cockroachdb",
-  "description": "Integrates with CockroachDB to expose database schemas, execute SQL queries, and access cluster metadata for database exploration, query optimization, and cluster management tasks.",
-  "url": "https://github.com/dhartunian/cockroachdb-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "CockroachDB MCP Server"
+	"type": "mcp-server",
+	"packageName": "cockroachdb",
+	"description": "Integrates with CockroachDB to expose database schemas, execute SQL queries, and access cluster metadata for database exploration, query optimization, and cluster management tasks.",
+	"url": "https://github.com/dhartunian/cockroachdb-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "CockroachDB MCP Server"
 }

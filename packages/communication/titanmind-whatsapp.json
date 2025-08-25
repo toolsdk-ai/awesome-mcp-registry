@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "titanmind-whatsapp",
-  "description": "Integrates with TitanMind's WhatsApp platform to handle both free-form messaging within 24-hour windows and template-based campaigns, managing conversation flows, bulk messaging, and message history for business marketing and customer support operations.",
-  "url": "https://github.com/titanmindagi/titanmind-whatsapp-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "TitanMind WhatsApp MCP"
+	"type": "mcp-server",
+	"packageName": "titanmind-whatsapp",
+	"description": "Integrates with TitanMind's WhatsApp platform to handle both free-form messaging within 24-hour windows and template-based campaigns, managing conversation flows, bulk messaging, and message history for business marketing and customer support operations.",
+	"url": "https://github.com/titanmindagi/titanmind-whatsapp-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "TitanMind WhatsApp MCP"
 }

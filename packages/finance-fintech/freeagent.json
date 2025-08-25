@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "freeagent",
-  "description": "Integrates with FreeAgent API to enable time tracking management, including timeslip and timer operations for project tracking and reporting.",
-  "url": "https://github.com/markpitt/freeagent-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "FreeAgent MCP"
+	"type": "mcp-server",
+	"packageName": "freeagent",
+	"description": "Integrates with FreeAgent API to enable time tracking management, including timeslip and timer operations for project tracking and reporting.",
+	"url": "https://github.com/markpitt/freeagent-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "FreeAgent MCP"
 }

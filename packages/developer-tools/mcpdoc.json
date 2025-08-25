@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcpdoc",
-  "description": "Provides AI systems with access to documentation from llms.txt files by fetching and parsing content from specified URLs, enabling seamless documentation lookup during coding sessions.",
-  "url": "https://github.com/langchain-ai/mcpdoc",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCPDoc"
+	"type": "mcp-server",
+	"packageName": "mcpdoc",
+	"description": "Provides AI systems with access to documentation from llms.txt files by fetching and parsing content from specified URLs, enabling seamless documentation lookup during coding sessions.",
+	"url": "https://github.com/langchain-ai/mcpdoc",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCPDoc"
 }

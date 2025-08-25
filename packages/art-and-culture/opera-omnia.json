@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "opera-omnia",
-  "description": "Provides access to a rich collection of creative content datasets for games, storytelling, and applications, enabling quick retrieval of character concepts, equipment descriptions, and RPG elements through a clean TypeScript API.",
-  "url": "https://github.com/triptych/opera-omnia-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Opera Omnia MCP"
+	"type": "mcp-server",
+	"packageName": "opera-omnia",
+	"description": "Provides access to a rich collection of creative content datasets for games, storytelling, and applications, enabling quick retrieval of character concepts, equipment descriptions, and RPG elements through a clean TypeScript API.",
+	"url": "https://github.com/triptych/opera-omnia-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Opera Omnia MCP"
 }

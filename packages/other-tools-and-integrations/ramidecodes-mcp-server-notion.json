@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@ramidecodes/mcp-server-notion",
-  "description": "Integrates with the Notion API to enable searching, querying databases, managing pages and blocks, and handling users and comments for content management and collaborative document editing.",
-  "url": "https://github.com/ramidecodes/mcp-server-notion",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Notion MCP Server"
+	"type": "mcp-server",
+	"packageName": "@ramidecodes/mcp-server-notion",
+	"description": "Integrates with the Notion API to enable searching, querying databases, managing pages and blocks, and handling users and comments for content management and collaborative document editing.",
+	"url": "https://github.com/ramidecodes/mcp-server-notion",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Notion MCP Server"
 }

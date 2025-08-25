@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "orly-mcp",
-  "description": "Generates parody O'Reilly-style book covers with customizable titles, subtitles, authors, and visual themes using 40 different animal/object images and 17 color schemes.",
-  "url": "https://github.com/princefishthrower/orly-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Orly MCP"
+	"type": "mcp-server",
+	"packageName": "orly-mcp",
+	"description": "Generates parody O'Reilly-style book covers with customizable titles, subtitles, authors, and visual themes using 40 different animal/object images and 17 color schemes.",
+	"url": "https://github.com/princefishthrower/orly-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Orly MCP"
 }

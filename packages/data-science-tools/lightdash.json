@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "lightdash",
-  "description": "Integrates with Lightdash to enable automated reporting, data exploration, and analytics-driven decision making.",
-  "url": "https://github.com/syucream/lightdash-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Lightdash MCP Server"
+	"type": "mcp-server",
+	"packageName": "lightdash",
+	"description": "Integrates with Lightdash to enable automated reporting, data exploration, and analytics-driven decision making.",
+	"url": "https://github.com/syucream/lightdash-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Lightdash MCP Server"
 }

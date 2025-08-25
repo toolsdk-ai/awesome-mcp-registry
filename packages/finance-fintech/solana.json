@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "solana",
-  "description": "Integrates Solana blockchain with natural language commands to enable querying balances, handling transactions, and retrieving blockchain data.",
-  "url": "https://github.com/tywenk/mcp-sol",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Solana MCP"
+	"type": "mcp-server",
+	"packageName": "solana",
+	"description": "Integrates Solana blockchain with natural language commands to enable querying balances, handling transactions, and retrieving blockchain data.",
+	"url": "https://github.com/tywenk/mcp-sol",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Solana MCP"
 }

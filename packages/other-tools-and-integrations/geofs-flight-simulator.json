@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "geofs-flight-simulator",
-  "description": "Enables natural language control of aircraft in the GeoFS flight simulator through a WebSocket server that translates commands into simulator actions for takeoff, landing, and navigation maneuvers.",
-  "url": "https://github.com/lobstercare/geofs-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "GeoFS MCP"
+	"type": "mcp-server",
+	"packageName": "geofs-flight-simulator",
+	"description": "Enables natural language control of aircraft in the GeoFS flight simulator through a WebSocket server that translates commands into simulator actions for takeoff, landing, and navigation maneuvers.",
+	"url": "https://github.com/lobstercare/geofs-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "GeoFS MCP"
 }

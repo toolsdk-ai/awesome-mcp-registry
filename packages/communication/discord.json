@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "discord",
-  "description": "Integrates with the Discord API to enable direct interaction with channels, supporting automated messaging and conversation management within servers.",
-  "url": "https://github.com/v-3/discordmcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Discord MCP"
+	"type": "mcp-server",
+	"packageName": "discord",
+	"description": "Integrates with the Discord API to enable direct interaction with channels, supporting automated messaging and conversation management within servers.",
+	"url": "https://github.com/v-3/discordmcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Discord MCP"
 }

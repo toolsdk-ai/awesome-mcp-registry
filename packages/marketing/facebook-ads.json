@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "facebook-ads",
-  "description": "Integrates with Facebook's advertising platform to retrieve and analyze ad account data, campaign metrics, ad sets, creatives, and performance insights using the Facebook Graph API.",
-  "url": "https://github.com/gomarble-ai/facebook-ads-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Facebook Ads MCP Server"
+	"type": "mcp-server",
+	"packageName": "facebook-ads",
+	"description": "Integrates with Facebook's advertising platform to retrieve and analyze ad account data, campaign metrics, ad sets, creatives, and performance insights using the Facebook Graph API.",
+	"url": "https://github.com/gomarble-ai/facebook-ads-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Facebook Ads MCP Server"
 }

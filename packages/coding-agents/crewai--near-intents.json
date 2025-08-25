@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "crewai-(near-intents)",
-  "description": "Leverages the CrewAI framework in combination with OpenAI API to orchestrate multi-agent workflows for automated research, data analysis, and problem-solving across domains.",
-  "url": "https://github.com/matthewlaw1/near-intents-mcp-agentkit",
-  "runtime": "node",
-  "license": "other",
-  "env": {},
-  "name": "Near Intents MCP AgentKit"
+	"type": "mcp-server",
+	"packageName": "crewai-(near-intents)",
+	"description": "Leverages the CrewAI framework in combination with OpenAI API to orchestrate multi-agent workflows for automated research, data analysis, and problem-solving across domains.",
+	"url": "https://github.com/matthewlaw1/near-intents-mcp-agentkit",
+	"runtime": "node",
+	"license": "other",
+	"env": {},
+	"name": "Near Intents MCP AgentKit"
 }

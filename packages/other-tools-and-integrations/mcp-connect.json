@@ -1,28 +1,28 @@
 {
-  "type": "mcp-server",
-  "logo":"https://avatars.githubusercontent.com/u/157576929?s=480&v=4",
-  "packageName": "@EvalsOne/mcp-connect",
-  "description": "Enables cloud-based AI services to access local Stdio based MCP servers via HTTP requests",
-  "url": "https://github.com/EvalsOne/MCP-connect/tree/main/src",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "AUTH_TOKEN": {
-      "description": "Authentication token for the bridge API (Optional)",
-      "required": true
-    },
-    "PORT": {
-      "description": "3000",
-      "required": true
-    },
-    "LOG_LEVEL": {
-      "description": "info",
-      "required": true
-    },
-    "NGROK_AUTH_TOKEN": {
-      "description": " Ngrok auth token (Optional)",
-      "required": true
-    }
-  },
-  "name": "MCP Connect"
+	"type": "mcp-server",
+	"logo": "https://avatars.githubusercontent.com/u/157576929?s=480&v=4",
+	"packageName": "@EvalsOne/mcp-connect",
+	"description": "Enables cloud-based AI services to access local Stdio based MCP servers via HTTP requests",
+	"url": "https://github.com/EvalsOne/MCP-connect/tree/main/src",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"AUTH_TOKEN": {
+			"description": "Authentication token for the bridge API (Optional)",
+			"required": true
+		},
+		"PORT": {
+			"description": "3000",
+			"required": true
+		},
+		"LOG_LEVEL": {
+			"description": "info",
+			"required": true
+		},
+		"NGROK_AUTH_TOKEN": {
+			"description": " Ngrok auth token (Optional)",
+			"required": true
+		}
+	},
+	"name": "MCP Connect"
 }

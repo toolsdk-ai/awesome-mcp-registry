@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nuanced",
-  "description": "Provides code analysis capabilities using the nuanced library, offering tools for initializing code graphs, exploring function call relationships, analyzing dependencies, and assessing the impact of code changes.",
-  "url": "https://github.com/mattmorgis/nuanced-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Nuanced MCP"
+	"type": "mcp-server",
+	"packageName": "nuanced",
+	"description": "Provides code analysis capabilities using the nuanced library, offering tools for initializing code graphs, exploring function call relationships, analyzing dependencies, and assessing the impact of code changes.",
+	"url": "https://github.com/mattmorgis/nuanced-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Nuanced MCP"
 }

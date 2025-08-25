@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-toolhouse",
-  "description": "Integrates with Toolhouse platform to provide access to diverse utilities for developers and teams incorporating AI-assisted tasks.",
-  "url": "https://github.com/secretiveshell/mcp-toolhouse",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Toolhouse MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-toolhouse",
+	"description": "Integrates with Toolhouse platform to provide access to diverse utilities for developers and teams incorporating AI-assisted tasks.",
+	"url": "https://github.com/secretiveshell/mcp-toolhouse",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Toolhouse MCP"
 }

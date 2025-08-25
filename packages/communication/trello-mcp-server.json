@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "trello-mcp-server",
-  "description": "Integrates with Trello's API to enable AI-powered project management tasks like automated workflow optimization and task creation.",
-  "url": "https://github.com/yairhaimo/trello-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Trello MCP Server"
+	"type": "mcp-server",
+	"packageName": "trello-mcp-server",
+	"description": "Integrates with Trello's API to enable AI-powered project management tasks like automated workflow optimization and task creation.",
+	"url": "https://github.com/yairhaimo/trello-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Trello MCP Server"
 }

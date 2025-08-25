@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "task-master",
-  "description": "Integrates with an external task API to provide CRUD operations for task management, enabling natural language interactions for task creation, filtering, and progress reporting.",
-  "url": "https://github.com/milkosten/task-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Task MCP Server"
+	"type": "mcp-server",
+	"packageName": "task-master",
+	"description": "Integrates with an external task API to provide CRUD operations for task management, enabling natural language interactions for task creation, filtering, and progress reporting.",
+	"url": "https://github.com/milkosten/task-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Task MCP Server"
 }

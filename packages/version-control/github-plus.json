@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "github-plus",
-  "description": "Integrates with GitHub's API to streamline repository management, code operations, and issue tracking for developers and teams.",
-  "url": "https://github.com/phialsbasement/mcp-github-server-plus",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "GitHub Plus MCP Server"
+	"type": "mcp-server",
+	"packageName": "github-plus",
+	"description": "Integrates with GitHub's API to streamline repository management, code operations, and issue tracking for developers and teams.",
+	"url": "https://github.com/phialsbasement/mcp-github-server-plus",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "GitHub Plus MCP Server"
 }

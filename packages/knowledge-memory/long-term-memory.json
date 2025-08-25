@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "long-term-memory",
-  "description": "Provides long-term memory storage using SQLite and vector embeddings, enabling persistent context across conversations, development decision preservation, and knowledge base building through semantic search capabilities.",
-  "url": "https://github.com/tomschell/mcp-long-term-memory",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Long Term Memory MCP"
+	"type": "mcp-server",
+	"packageName": "long-term-memory",
+	"description": "Provides long-term memory storage using SQLite and vector embeddings, enabling persistent context across conversations, development decision preservation, and knowledge base building through semantic search capabilities.",
+	"url": "https://github.com/tomschell/mcp-long-term-memory",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Long Term Memory MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-shell",
-  "description": "Enables secure execution of shell commands on host systems for tasks like system diagnostics, file manipulation, and automation.",
-  "url": "https://github.com/odysseus0/mcp-server-shell",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Server Shell"
+	"type": "mcp-server",
+	"packageName": "mcp-server-shell",
+	"description": "Enables secure execution of shell commands on host systems for tasks like system diagnostics, file manipulation, and automation.",
+	"url": "https://github.com/odysseus0/mcp-server-shell",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Server Shell"
 }

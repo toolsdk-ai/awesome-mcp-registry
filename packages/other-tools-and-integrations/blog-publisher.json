@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "blog-publisher",
-  "description": "Enables AI assistants to publish blog content to external platforms through a Python-based server with standard and local execution modes for automated content publishing workflows.",
-  "url": "https://github.com/carrie-l/blog_publisher_mcp_server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Blog Publisher MCP Server"
+	"type": "mcp-server",
+	"packageName": "blog-publisher",
+	"description": "Enables AI assistants to publish blog content to external platforms through a Python-based server with standard and local execution modes for automated content publishing workflows.",
+	"url": "https://github.com/carrie-l/blog_publisher_mcp_server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Blog Publisher MCP Server"
 }

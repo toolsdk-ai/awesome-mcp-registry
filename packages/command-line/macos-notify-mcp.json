@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "macos-notify-mcp",
-  "description": "Provides native macOS notifications with intelligent tmux session integration that automatically detects terminal environments and enables click-to-navigate functionality for returning to specific tmux sessions, windows, and panes.",
-  "url": "https://github.com/yuki-yano/macos-notify-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "macOS Notify MCP"
+	"type": "mcp-server",
+	"packageName": "macos-notify-mcp",
+	"description": "Provides native macOS notifications with intelligent tmux session integration that automatically detects terminal environments and enables click-to-navigate functionality for returning to specific tmux sessions, windows, and panes.",
+	"url": "https://github.com/yuki-yano/macos-notify-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "macOS Notify MCP"
 }

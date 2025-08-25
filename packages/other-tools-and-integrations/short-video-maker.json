@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "short-video-maker",
-  "description": "Automates short-form video creation by combining text-to-speech, captions, background videos, and music for platforms like TikTok, Instagram Reels, and YouTube Shorts.",
-  "url": "https://github.com/gyoridavid/short-video-maker",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Short Video Maker"
+	"type": "mcp-server",
+	"packageName": "short-video-maker",
+	"description": "Automates short-form video creation by combining text-to-speech, captions, background videos, and music for platforms like TikTok, Instagram Reels, and YouTube Shorts.",
+	"url": "https://github.com/gyoridavid/short-video-maker",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Short Video Maker"
 }

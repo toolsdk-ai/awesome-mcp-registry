@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-simple-pubmed",
-  "description": "Access PubMed's medical research database via the Entrez API for biomedical literature search and analysis.",
-  "url": "https://github.com/andybrandt/mcp-simple-pubmed",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "PubMed MCP Simple"
+	"type": "mcp-server",
+	"packageName": "mcp-simple-pubmed",
+	"description": "Access PubMed's medical research database via the Entrez API for biomedical literature search and analysis.",
+	"url": "https://github.com/andybrandt/mcp-simple-pubmed",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "PubMed MCP Simple"
 }

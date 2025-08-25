@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "todoist",
-  "description": "Integrates with Todoist API to enable task creation, project management, and workflow optimization for enhanced productivity",
-  "url": "https://github.com/doist/todoist-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Todoist MCP"
+	"type": "mcp-server",
+	"packageName": "todoist",
+	"description": "Integrates with Todoist API to enable task creation, project management, and workflow optimization for enhanced productivity",
+	"url": "https://github.com/doist/todoist-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Todoist MCP"
 }

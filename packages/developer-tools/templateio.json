@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "templateio",
-  "description": "Provides a template for building custom servers using TypeScript and the mcp-framework package, setting up project structure and configuration for developers to create tailored API or service integrations.",
-  "url": "https://github.com/lucker631/mcp-templateio",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "TemplateIO MCP"
+	"type": "mcp-server",
+	"packageName": "templateio",
+	"description": "Provides a template for building custom servers using TypeScript and the mcp-framework package, setting up project structure and configuration for developers to create tailored API or service integrations.",
+	"url": "https://github.com/lucker631/mcp-templateio",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "TemplateIO MCP"
 }

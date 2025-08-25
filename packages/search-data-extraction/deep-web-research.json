@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "deep-web-research",
-  "description": "Enables deep web searches and content extraction through automated Google searches, webpage visits, and screenshot capture for comprehensive online research tasks.",
-  "url": "https://github.com/qpd-v/mcp-deepwebresearch",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Deep Web Research MCP"
+	"type": "mcp-server",
+	"packageName": "deep-web-research",
+	"description": "Enables deep web searches and content extraction through automated Google searches, webpage visits, and screenshot capture for comprehensive online research tasks.",
+	"url": "https://github.com/qpd-v/mcp-deepwebresearch",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Deep Web Research MCP"
 }

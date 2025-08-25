@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "document-crawler-&-search",
-  "description": "Crawls websites to generate searchable Markdown documentation with vector embeddings for semantic search capabilities beyond training cutoffs",
-  "url": "https://github.com/alizdavoodi/mcpdocsearch",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Mcpdocsearch"
+	"type": "mcp-server",
+	"packageName": "document-crawler-&-search",
+	"description": "Crawls websites to generate searchable Markdown documentation with vector embeddings for semantic search capabilities beyond training cutoffs",
+	"url": "https://github.com/alizdavoodi/mcpdocsearch",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Mcpdocsearch"
 }

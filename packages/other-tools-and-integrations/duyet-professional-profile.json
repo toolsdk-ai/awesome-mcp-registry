@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "duyet-professional-profile",
-  "description": "Provides access to Duyet's professional information including CV, GitHub activity, and blog posts, with contact capabilities for collaboration and consulting inquiries.",
-  "url": "https://github.com/duyet/duyet-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Duyet MCP Server"
+	"type": "mcp-server",
+	"packageName": "duyet-professional-profile",
+	"description": "Provides access to Duyet's professional information including CV, GitHub activity, and blog posts, with contact capabilities for collaboration and consulting inquiries.",
+	"url": "https://github.com/duyet/duyet-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Duyet MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-wsl-exec",
-  "description": "Provides secure command execution in WSL with built-in safety features like path validation, timeouts, and error handling.",
-  "url": "https://github.com/spences10/mcp-wsl-exec",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "WSL Exec MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-wsl-exec",
+	"description": "Provides secure command execution in WSL with built-in safety features like path validation, timeouts, and error handling.",
+	"url": "https://github.com/spences10/mcp-wsl-exec",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "WSL Exec MCP"
 }

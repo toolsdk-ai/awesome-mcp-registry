@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "memory-bank",
-  "description": "Structured documentation system that generates and maintains interconnected Markdown documents capturing project knowledge from high-level goals to technical details, with advanced search capabilities across all documents.",
-  "url": "https://github.com/tuncer-byte/memory-bank-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Memory Bank MCP"
+	"type": "mcp-server",
+	"packageName": "memory-bank",
+	"description": "Structured documentation system that generates and maintains interconnected Markdown documents capturing project knowledge from high-level goals to technical details, with advanced search capabilities across all documents.",
+	"url": "https://github.com/tuncer-byte/memory-bank-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Memory Bank MCP"
 }

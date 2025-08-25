@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "finnhub",
-  "description": "Integrates with Finnhub's financial API to provide streamlined access to market news, stock quotes, financials, and recommendation trends.",
-  "url": "https://github.com/catherinedparnell/mcp-finnhub",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Finnhub MCP"
+	"type": "mcp-server",
+	"packageName": "finnhub",
+	"description": "Integrates with Finnhub's financial API to provide streamlined access to market news, stock quotes, financials, and recommendation trends.",
+	"url": "https://github.com/catherinedparnell/mcp-finnhub",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Finnhub MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-metricool",
-  "description": "Integrates with Metricool's social media analytics platform to retrieve performance metrics and schedule content across multiple networks including Instagram, Facebook, Twitter, LinkedIn, TikTok, and YouTube.",
-  "url": "https://github.com/metricool/mcp-metricool",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Metricool MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-metricool",
+	"description": "Integrates with Metricool's social media analytics platform to retrieve performance metrics and schedule content across multiple networks including Instagram, Facebook, Twitter, LinkedIn, TikTok, and YouTube.",
+	"url": "https://github.com/metricool/mcp-metricool",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Metricool MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "google-calendar",
-  "description": "Integrates with Google Calendar to enable event creation with customizable parameters including time, description, location, attendees, and timezone through OAuth authentication and API interaction.",
-  "url": "https://github.com/itworkonline/googlecalendarmcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Google Calendar MCP"
+	"type": "mcp-server",
+	"packageName": "google-calendar",
+	"description": "Integrates with Google Calendar to enable event creation with customizable parameters including time, description, location, attendees, and timezone through OAuth authentication and API interaction.",
+	"url": "https://github.com/itworkonline/googlecalendarmcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Google Calendar MCP"
 }

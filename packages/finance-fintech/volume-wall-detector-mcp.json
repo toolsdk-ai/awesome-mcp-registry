@@ -1,67 +1,67 @@
 {
-  "type": "mcp-server",
-  "packageName": "volume-wall-detector-mcp",
-  "description": "Analyzes stock trading data to identify volume walls and key price levels where significant trading activity occurs, providing traders with insights into market structure and potential reversal points.",
-  "url": "https://github.com/cognitive-stack/volume-wall-detector-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "TIMEZONE": {
-      "description": "GMT+7",
-      "required": true
-    },
-    "API_BASE_URL": {
-      "description": "your-api-url-here",
-      "required": true
-    },
-    "MONGO_HOST": {
-      "description": "localhost",
-      "required": true
-    },
-    "MONGO_PORT": {
-      "description": "27017",
-      "required": true
-    },
-    "MONGO_DATABASE": {
-      "description": "volume_wall_detector",
-      "required": true
-    },
-    "MONGO_USER": {
-      "description": "admin",
-      "required": true
-    },
-    "MONGO_PASSWORD": {
-      "description": "password",
-      "required": true
-    },
-    "MONGO_AUTH_SOURCE": {
-      "description": "admin",
-      "required": true
-    },
-    "MONGO_AUTH_MECHANISM": {
-      "description": "SCRAM-SHA-1",
-      "required": true
-    },
-    "PAGE_SIZE": {
-      "description": "50",
-      "required": true
-    },
-    "TRADES_TO_FETCH": {
-      "description": "10000",
-      "required": true
-    },
-    "DAYS_TO_FETCH": {
-      "description": "1",
-      "required": true
-    },
-    "TRANSPORT_TYPE": {
-      "description": "stdio",
-      "required": true
-    },
-    "PORT": {
-      "description": "8080",
-      "required": true
-    }
-  },
-  "name": "Volume Wall Detector MCP"
+	"type": "mcp-server",
+	"packageName": "volume-wall-detector-mcp",
+	"description": "Analyzes stock trading data to identify volume walls and key price levels where significant trading activity occurs, providing traders with insights into market structure and potential reversal points.",
+	"url": "https://github.com/cognitive-stack/volume-wall-detector-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"TIMEZONE": {
+			"description": "GMT+7",
+			"required": true
+		},
+		"API_BASE_URL": {
+			"description": "your-api-url-here",
+			"required": true
+		},
+		"MONGO_HOST": {
+			"description": "localhost",
+			"required": true
+		},
+		"MONGO_PORT": {
+			"description": "27017",
+			"required": true
+		},
+		"MONGO_DATABASE": {
+			"description": "volume_wall_detector",
+			"required": true
+		},
+		"MONGO_USER": {
+			"description": "admin",
+			"required": true
+		},
+		"MONGO_PASSWORD": {
+			"description": "password",
+			"required": true
+		},
+		"MONGO_AUTH_SOURCE": {
+			"description": "admin",
+			"required": true
+		},
+		"MONGO_AUTH_MECHANISM": {
+			"description": "SCRAM-SHA-1",
+			"required": true
+		},
+		"PAGE_SIZE": {
+			"description": "50",
+			"required": true
+		},
+		"TRADES_TO_FETCH": {
+			"description": "10000",
+			"required": true
+		},
+		"DAYS_TO_FETCH": {
+			"description": "1",
+			"required": true
+		},
+		"TRANSPORT_TYPE": {
+			"description": "stdio",
+			"required": true
+		},
+		"PORT": {
+			"description": "8080",
+			"required": true
+		}
+	},
+	"name": "Volume Wall Detector MCP"
 }

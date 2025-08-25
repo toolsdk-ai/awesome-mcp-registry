@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-wechat-moments",
-  "description": "Enables publishing content to WeChat Moments on macOS through AppleScript automation and mouse event emulation, providing a server interface for social media management workflows.",
-  "url": "https://github.com/geminiwen/mcp-wechat-moments",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "WeChat Moments MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-wechat-moments",
+	"description": "Enables publishing content to WeChat Moments on macOS through AppleScript automation and mouse event emulation, providing a server interface for social media management workflows.",
+	"url": "https://github.com/geminiwen/mcp-wechat-moments",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "WeChat Moments MCP"
 }

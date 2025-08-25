@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "supabase-postgresql",
-  "description": "Integrates with Supabase PostgreSQL databases, exposing table schemas as resources and providing tools for data analysis, including read-only SQL queries, table statistics, and relationship discovery.",
-  "url": "https://github.com/stefanraath3/mcp-supabase",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Supabase MCP"
+	"type": "mcp-server",
+	"packageName": "supabase-postgresql",
+	"description": "Integrates with Supabase PostgreSQL databases, exposing table schemas as resources and providing tools for data analysis, including read-only SQL queries, table statistics, and relationship discovery.",
+	"url": "https://github.com/stefanraath3/mcp-supabase",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Supabase MCP"
 }

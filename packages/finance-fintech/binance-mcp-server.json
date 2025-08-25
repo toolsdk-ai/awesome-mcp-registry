@@ -1,35 +1,35 @@
 {
-  "type": "mcp-server",
-  "packageName": "binance-mcp-server",
-  "description": "A Model Context Protocol server that provides Claude Code with seamless access to Binance exchange API functionality for market data retrieval, account management, and trading operations.",
-  "url": "https://github.com/ethancod1ng/binance-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "LOG_LEVEL": {
-      "description": "Logging level",
-      "required": true
-    },
-    "BINANCE_API_KEY": {
-      "description": "Your Binance API key",
-      "required": true
-    },
-    "BINANCE_TESTNET": {
-      "description": "Enable testnet mode",
-      "required": true
-    },
-    "MCP_SERVER_NAME": {
-      "description": "Server name",
-      "required": true
-    },
-    "BINANCE_API_SECRET": {
-      "description": "Your Binance API secret",
-      "required": true
-    },
-    "MCP_SERVER_VERSION": {
-      "description": "Server version",
-      "required": true
-    }
-  },
-  "name": "Binance MCP Server"
+	"type": "mcp-server",
+	"packageName": "binance-mcp-server",
+	"description": "A Model Context Protocol server that provides Claude Code with seamless access to Binance exchange API functionality for market data retrieval, account management, and trading operations.",
+	"url": "https://github.com/ethancod1ng/binance-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"LOG_LEVEL": {
+			"description": "Logging level",
+			"required": true
+		},
+		"BINANCE_API_KEY": {
+			"description": "Your Binance API key",
+			"required": true
+		},
+		"BINANCE_TESTNET": {
+			"description": "Enable testnet mode",
+			"required": true
+		},
+		"MCP_SERVER_NAME": {
+			"description": "Server name",
+			"required": true
+		},
+		"BINANCE_API_SECRET": {
+			"description": "Your Binance API secret",
+			"required": true
+		},
+		"MCP_SERVER_VERSION": {
+			"description": "Server version",
+			"required": true
+		}
+	},
+	"name": "Binance MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@oevortex/ddg_search",
-  "description": "Provides web search capabilities through DuckDuckGo, enabling content retrieval, URL processing, and metadata extraction with customizable filtering options",
-  "url": "https://github.com/oevortex/ddg_search",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "DDG Search MCP"
+	"type": "mcp-server",
+	"packageName": "@oevortex/ddg_search",
+	"description": "Provides web search capabilities through DuckDuckGo, enabling content retrieval, URL processing, and metadata extraction with customizable filtering options",
+	"url": "https://github.com/oevortex/ddg_search",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "DDG Search MCP"
 }

@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "mongodb-mcp-server",
-  "description": "Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.",
-  "url": "https://github.com/mongodb-js/mongodb-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "MDB_MCP_CONNECTION_STRING": {
-      "description": "mongodb+srv://username:password@cluster.mongodb.net/myDatabase",
-      "required": true
-    }
-  },
-  "name": "MongoDB MCP Server"
+	"type": "mcp-server",
+	"packageName": "mongodb-mcp-server",
+	"description": "Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.",
+	"url": "https://github.com/mongodb-js/mongodb-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"MDB_MCP_CONNECTION_STRING": {
+			"description": "mongodb+srv://username:password@cluster.mongodb.net/myDatabase",
+			"required": true
+		}
+	},
+	"name": "MongoDB MCP Server"
 }

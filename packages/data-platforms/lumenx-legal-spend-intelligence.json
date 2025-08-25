@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "lumenx-legal-spend-intelligence",
-  "description": "Aggregates legal spend data from LegalTracker APIs, SAP/Oracle ERP systems, PostgreSQL databases, and CSV/Excel files to provide unified tools for analyzing vendor performance, comparing budget vs actual spend, and generating filtered spend summaries by department, practice area, and vendor.",
-  "url": "https://github.com/datscix-ceo/lumenx-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Lumenx MCP"
+	"type": "mcp-server",
+	"packageName": "lumenx-legal-spend-intelligence",
+	"description": "Aggregates legal spend data from LegalTracker APIs, SAP/Oracle ERP systems, PostgreSQL databases, and CSV/Excel files to provide unified tools for analyzing vendor performance, comparing budget vs actual spend, and generating filtered spend summaries by department, practice area, and vendor.",
+	"url": "https://github.com/datscix-ceo/lumenx-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Lumenx MCP"
 }

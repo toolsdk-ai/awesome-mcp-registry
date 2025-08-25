@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cloudflare-dex-analysis",
-  "description": "Digital Experience Monitoring (DEX) provides visibility into device, network, and application performance across your Zero Trust organization.",
-  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/dex-analysis",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "DEX Analysis MCP Server"
+	"type": "mcp-server",
+	"packageName": "cloudflare-dex-analysis",
+	"description": "Digital Experience Monitoring (DEX) provides visibility into device, network, and application performance across your Zero Trust organization.",
+	"url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/dex-analysis",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "DEX Analysis MCP Server"
 }

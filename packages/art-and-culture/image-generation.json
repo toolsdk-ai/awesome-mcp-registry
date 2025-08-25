@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "image-generation",
-  "description": "Provides image generation capabilities by connecting to various models via Gradio clients, enabling creation of images from text prompts for creative workflows and visual design tasks.",
-  "url": "https://github.com/devbrother2024/mcp-generate-image",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Image Generation MCP"
+	"type": "mcp-server",
+	"packageName": "image-generation",
+	"description": "Provides image generation capabilities by connecting to various models via Gradio clients, enabling creation of images from text prompts for creative workflows and visual design tasks.",
+	"url": "https://github.com/devbrother2024/mcp-generate-image",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Image Generation MCP"
 }

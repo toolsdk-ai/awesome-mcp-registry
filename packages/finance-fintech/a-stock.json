@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "a-stock",
-  "description": "Provides specialized stock market data retrieval for Chinese markets, enabling detailed stock information access across brief, medium, and full depth levels through a custom data feed system.",
-  "url": "https://github.com/elsejj/mcp-cn-a-stock",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP CN A-Stock"
+	"type": "mcp-server",
+	"packageName": "a-stock",
+	"description": "Provides specialized stock market data retrieval for Chinese markets, enabling detailed stock information access across brief, medium, and full depth levels through a custom data feed system.",
+	"url": "https://github.com/elsejj/mcp-cn-a-stock",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP CN A-Stock"
 }

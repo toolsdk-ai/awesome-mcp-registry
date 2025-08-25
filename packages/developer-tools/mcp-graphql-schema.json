@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-graphql-schema",
-  "description": "Enables AI models to explore and understand GraphQL schemas through specialized tools for querying operations, looking up type definitions, pattern matching, and retrieving simplified field information.",
-  "url": "https://github.com/hannesj/mcp-graphql-schema",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "GraphQL MCP Schema"
+	"type": "mcp-server",
+	"packageName": "mcp-graphql-schema",
+	"description": "Enables AI models to explore and understand GraphQL schemas through specialized tools for querying operations, looking up type definitions, pattern matching, and retrieving simplified field information.",
+	"url": "https://github.com/hannesj/mcp-graphql-schema",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "GraphQL MCP Schema"
 }

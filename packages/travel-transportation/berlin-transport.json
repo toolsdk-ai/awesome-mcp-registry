@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "berlin-transport",
-  "description": "Provides direct access to Berlin's public transportation data for searching stops, retrieving real-time departures, and planning optimal routes between locations.",
-  "url": "https://github.com/harshil1712/berlin-transport-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Berlin Transport MCP"
+	"type": "mcp-server",
+	"packageName": "berlin-transport",
+	"description": "Provides direct access to Berlin's public transportation data for searching stops, retrieving real-time departures, and planning optimal routes between locations.",
+	"url": "https://github.com/harshil1712/berlin-transport-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Berlin Transport MCP"
 }

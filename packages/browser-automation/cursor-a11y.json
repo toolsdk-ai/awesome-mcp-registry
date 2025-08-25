@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cursor-a11y",
-  "description": "Integrates accessibility testing capabilities using Puppeteer to perform automated WCAG compliance checks and generate remediation suggestions for web applications.",
-  "url": "https://github.com/westsideori/cursor-a11y-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Cursor A11y MCP"
+	"type": "mcp-server",
+	"packageName": "cursor-a11y",
+	"description": "Integrates accessibility testing capabilities using Puppeteer to perform automated WCAG compliance checks and generate remediation suggestions for web applications.",
+	"url": "https://github.com/westsideori/cursor-a11y-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Cursor A11y MCP"
 }

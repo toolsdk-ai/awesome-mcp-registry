@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@mastra/mcp-docs-server",
-  "description": "Provides AI assistants with direct access to Mastra.ai's complete knowledge base.",
-  "url": "https://github.com/mastra-ai/mastra/tree/HEAD/packages/mcp-docs-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Docs Server"
+	"type": "mcp-server",
+	"packageName": "@mastra/mcp-docs-server",
+	"description": "Provides AI assistants with direct access to Mastra.ai's complete knowledge base.",
+	"url": "https://github.com/mastra-ai/mastra/tree/HEAD/packages/mcp-docs-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Docs Server"
 }

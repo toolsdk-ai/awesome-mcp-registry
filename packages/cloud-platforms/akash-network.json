@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "akash-network",
-  "description": "Bridges AI agents with the Akash Network, enabling deployment and management of decentralized applications on blockchain-based cloud computing infrastructure.",
-  "url": "https://github.com/akash-network/mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Akash MCP"
+	"type": "mcp-server",
+	"packageName": "akash-network",
+	"description": "Bridges AI agents with the Akash Network, enabling deployment and management of decentralized applications on blockchain-based cloud computing infrastructure.",
+	"url": "https://github.com/akash-network/mcp",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Akash MCP"
 }

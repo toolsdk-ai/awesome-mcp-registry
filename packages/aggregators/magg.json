@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "magg",
-  "description": "Meta-MCP server that aggregates and manages multiple MCP servers through intelligent discovery from sources like Glama.ai and GitHub, enabling dynamic server installation, configuration, and unified tool access with automatic conflict resolution.",
-  "url": "https://github.com/sitbon/magg",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Magg MCP Server"
+	"type": "mcp-server",
+	"packageName": "magg",
+	"description": "Meta-MCP server that aggregates and manages multiple MCP servers through intelligent discovery from sources like Glama.ai and GitHub, enabling dynamic server installation, configuration, and unified tool access with automatic conflict resolution.",
+	"url": "https://github.com/sitbon/magg",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Magg MCP Server"
 }

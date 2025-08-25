@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "docs.rs",
-  "description": "Streamlines Rust documentation workflows by providing tools for building, managing, and searching crate documentation through cargo doc commands with caching and error handling.",
-  "url": "https://github.com/spacemeowx2/cargo-doc-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Cargo Doc MCP"
+	"type": "mcp-server",
+	"packageName": "docs.rs",
+	"description": "Streamlines Rust documentation workflows by providing tools for building, managing, and searching crate documentation through cargo doc commands with caching and error handling.",
+	"url": "https://github.com/spacemeowx2/cargo-doc-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Cargo Doc MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "autodocument",
-  "description": "Automatically generates documentation, test plans, and code reviews for software repositories through a bottom-up analysis approach that respects .gitignore rules and handles existing file updates.",
-  "url": "https://github.com/pars-doe/autodocument",
-  "runtime": "node",
-  "license": "cc0-1.0",
-  "env": {},
-  "name": "Autodocument"
+	"type": "mcp-server",
+	"packageName": "autodocument",
+	"description": "Automatically generates documentation, test plans, and code reviews for software repositories through a bottom-up analysis approach that respects .gitignore rules and handles existing file updates.",
+	"url": "https://github.com/pars-doe/autodocument",
+	"runtime": "node",
+	"license": "cc0-1.0",
+	"env": {},
+	"name": "Autodocument"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "playwright-cdp",
-  "description": "Integrates Playwright and Chrome DevTools Protocol to enable advanced web automation, testing, and analysis through browser control and interaction.",
-  "url": "https://github.com/lars-hagen/mcp-playwright-cdp",
-  "runtime": "node",
-  "license": "other",
-  "env": {},
-  "name": "Playwright CDP"
+	"type": "mcp-server",
+	"packageName": "playwright-cdp",
+	"description": "Integrates Playwright and Chrome DevTools Protocol to enable advanced web automation, testing, and analysis through browser control and interaction.",
+	"url": "https://github.com/lars-hagen/mcp-playwright-cdp",
+	"runtime": "node",
+	"license": "other",
+	"env": {},
+	"name": "Playwright CDP"
 }

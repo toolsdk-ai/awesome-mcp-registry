@@ -1,83 +1,83 @@
 {
-  "type": "mcp-server",
-  "packageName": "algorand-mcp",
-  "description": "Provides a robust toolkit for Algorand blockchain interactions, enabling AI agents to create accounts, manage assets, deploy smart contracts, and execute transactions through a TypeScript-based implementation.",
-  "url": "https://github.com/goplausible/algorand-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "ALGORAND_NETWORK": {
-      "description": "testnet",
-      "required": true
-    },
-    "ALGORAND_ALGOD_API": {
-      "description": "https://testnet-api.algonode.cloud/v2",
-      "required": true
-    },
-    "ALGORAND_ALGOD": {
-      "description": "https://testnet-api.algonode.cloud",
-      "required": true
-    },
-    "ALGORAND_INDEXER_API": {
-      "description": "https://testnet-idx.algonode.cloud/v2",
-      "required": true
-    },
-    "ALGORAND_INDEXER": {
-      "description": "https://testnet-idx.algonode.cloud",
-      "required": true
-    },
-    "ALGORAND_ALGOD_PORT": {
-      "description": "",
-      "required": true
-    },
-    "ALGORAND_INDEXER_PORT": {
-      "description": "",
-      "required": true
-    },
-    "ALGORAND_TOKEN": {
-      "description": "",
-      "required": true
-    },
-    "ALGORAND_AGENT_WALLET": {
-      "description": "problem aim online jaguar upper oil flight stumble mystery aerobic toy avoid file tomato moment exclude witness guard lab opera crunch noodle dune abandon broccoli",
-      "required": true
-    },
-    "NFD_API_URL": {
-      "description": "https://api.nf.domains",
-      "required": true
-    },
-    "NFD_API_KEY": {
-      "description": "",
-      "required": true
-    },
-    "TINYMAN_ACTIVE": {
-      "description": "false",
-      "required": true
-    },
-    "ULTRADE_ACTIVE": {
-      "description": "false",
-      "required": true
-    },
-    "ULTRADE_API_URL": {
-      "description": "https://api.ultrade.io",
-      "required": true
-    },
-    "VESTIGE_ACTIVE": {
-      "description": "false",
-      "required": true
-    },
-    "VESTIGE_API_URL": {
-      "description": "https://api.vestigelabs.org",
-      "required": true
-    },
-    "VESTIGE_API_KEY": {
-      "description": "",
-      "required": true
-    },
-    "ITEMS_PER_PAGE": {
-      "description": "10",
-      "required": true
-    }
-  },
-  "name": "Algorand MCP"
+	"type": "mcp-server",
+	"packageName": "algorand-mcp",
+	"description": "Provides a robust toolkit for Algorand blockchain interactions, enabling AI agents to create accounts, manage assets, deploy smart contracts, and execute transactions through a TypeScript-based implementation.",
+	"url": "https://github.com/goplausible/algorand-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"ALGORAND_NETWORK": {
+			"description": "testnet",
+			"required": true
+		},
+		"ALGORAND_ALGOD_API": {
+			"description": "https://testnet-api.algonode.cloud/v2",
+			"required": true
+		},
+		"ALGORAND_ALGOD": {
+			"description": "https://testnet-api.algonode.cloud",
+			"required": true
+		},
+		"ALGORAND_INDEXER_API": {
+			"description": "https://testnet-idx.algonode.cloud/v2",
+			"required": true
+		},
+		"ALGORAND_INDEXER": {
+			"description": "https://testnet-idx.algonode.cloud",
+			"required": true
+		},
+		"ALGORAND_ALGOD_PORT": {
+			"description": "",
+			"required": true
+		},
+		"ALGORAND_INDEXER_PORT": {
+			"description": "",
+			"required": true
+		},
+		"ALGORAND_TOKEN": {
+			"description": "",
+			"required": true
+		},
+		"ALGORAND_AGENT_WALLET": {
+			"description": "problem aim online jaguar upper oil flight stumble mystery aerobic toy avoid file tomato moment exclude witness guard lab opera crunch noodle dune abandon broccoli",
+			"required": true
+		},
+		"NFD_API_URL": {
+			"description": "https://api.nf.domains",
+			"required": true
+		},
+		"NFD_API_KEY": {
+			"description": "",
+			"required": true
+		},
+		"TINYMAN_ACTIVE": {
+			"description": "false",
+			"required": true
+		},
+		"ULTRADE_ACTIVE": {
+			"description": "false",
+			"required": true
+		},
+		"ULTRADE_API_URL": {
+			"description": "https://api.ultrade.io",
+			"required": true
+		},
+		"VESTIGE_ACTIVE": {
+			"description": "false",
+			"required": true
+		},
+		"VESTIGE_API_URL": {
+			"description": "https://api.vestigelabs.org",
+			"required": true
+		},
+		"VESTIGE_API_KEY": {
+			"description": "",
+			"required": true
+		},
+		"ITEMS_PER_PAGE": {
+			"description": "10",
+			"required": true
+		}
+	},
+	"name": "Algorand MCP"
 }

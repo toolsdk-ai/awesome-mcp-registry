@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dolphinscheduler",
-  "description": "Bridges Apache DolphinScheduler's workflow management platform with AI systems, enabling automated project management, workflow execution, task monitoring, and resource orchestration through REST API tools.",
-  "url": "https://github.com/ocean-zhc/dolphinscheduler-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Dolphinscheduler MCP"
+	"type": "mcp-server",
+	"packageName": "dolphinscheduler",
+	"description": "Bridges Apache DolphinScheduler's workflow management platform with AI systems, enabling automated project management, workflow execution, task monitoring, and resource orchestration through REST API tools.",
+	"url": "https://github.com/ocean-zhc/dolphinscheduler-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Dolphinscheduler MCP"
 }

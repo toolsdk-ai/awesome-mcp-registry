@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "roadrecon-analyzer",
-  "description": "Exposes Azure AD security data collected by ROADrecon for analyzing tenant security posture, identifying privileged users, evaluating MFA status, detecting stale accounts, and assessing PIM implementation.",
-  "url": "https://github.com/atomicchonk/roadrecon_mcp_server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Roadrecon MCP Server"
+	"type": "mcp-server",
+	"packageName": "roadrecon-analyzer",
+	"description": "Exposes Azure AD security data collected by ROADrecon for analyzing tenant security posture, identifying privileged users, evaluating MFA status, detecting stale accounts, and assessing PIM implementation.",
+	"url": "https://github.com/atomicchonk/roadrecon_mcp_server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Roadrecon MCP Server"
 }

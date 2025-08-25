@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "document-processing-and-youtube-content-extraction",
-  "description": "Provides specialized document processing and YouTube content extraction tools for template-based document generation and video content analysis without manual intervention.",
-  "url": "https://github.com/daltonnyx/userful-mcps",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Userful MCPS"
+	"type": "mcp-server",
+	"packageName": "document-processing-and-youtube-content-extraction",
+	"description": "Provides specialized document processing and YouTube content extraction tools for template-based document generation and video content analysis without manual intervention.",
+	"url": "https://github.com/daltonnyx/userful-mcps",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Userful MCPS"
 }

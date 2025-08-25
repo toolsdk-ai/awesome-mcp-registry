@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "minimax-mcp",
-  "description": "Enables high-quality text-to-speech, voice cloning, and video generation capabilities through MiniMax's API with robust error handling and file management features.",
-  "url": "https://github.com/minimax-ai/minimax-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MiniMax MCP"
+	"type": "mcp-server",
+	"packageName": "minimax-mcp",
+	"description": "Enables high-quality text-to-speech, voice cloning, and video generation capabilities through MiniMax's API with robust error handling and file management features.",
+	"url": "https://github.com/minimax-ai/minimax-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MiniMax MCP"
 }

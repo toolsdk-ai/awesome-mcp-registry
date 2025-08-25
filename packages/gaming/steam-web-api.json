@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "steam-web-api",
-  "description": "Integrates with the Steam Web API. Allows for querying various stats, such as games in your library and their respective playtime.",
-  "url": "https://github.com/dsp/mcp-server-steam",
-  "runtime": "java",
-  "license": "mit",
-  "env": {},
-  "name": "Steam MCP Server"
+	"type": "mcp-server",
+	"packageName": "steam-web-api",
+	"description": "Integrates with the Steam Web API. Allows for querying various stats, such as games in your library and their respective playtime.",
+	"url": "https://github.com/dsp/mcp-server-steam",
+	"runtime": "java",
+	"license": "mit",
+	"env": {},
+	"name": "Steam MCP Server"
 }

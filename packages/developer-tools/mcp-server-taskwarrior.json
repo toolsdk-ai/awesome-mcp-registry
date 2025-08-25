@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-taskwarrior",
-  "description": "Integrates with TaskWarrior to enable viewing, adding, and completing tasks, facilitating automated task management for productivity and project workflows.",
-  "url": "https://github.com/awwaiid/mcp-server-taskwarrior",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "TaskWarrior MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-server-taskwarrior",
+	"description": "Integrates with TaskWarrior to enable viewing, adding, and completing tasks, facilitating automated task management for productivity and project workflows.",
+	"url": "https://github.com/awwaiid/mcp-server-taskwarrior",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "TaskWarrior MCP Server"
 }

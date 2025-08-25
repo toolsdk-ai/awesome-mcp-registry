@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tasks-organizer",
-  "description": "Converts Cursor agent plans into markdown task lists for organizing and structuring project plans into readable, actionable formats.",
-  "url": "https://github.com/huntsyea/mcp-tasks-organizer",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Tasks Organizer MCP"
+	"type": "mcp-server",
+	"packageName": "tasks-organizer",
+	"description": "Converts Cursor agent plans into markdown task lists for organizing and structuring project plans into readable, actionable formats.",
+	"url": "https://github.com/huntsyea/mcp-tasks-organizer",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Tasks Organizer MCP"
 }

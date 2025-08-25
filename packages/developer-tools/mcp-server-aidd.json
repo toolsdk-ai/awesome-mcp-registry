@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-aidd",
-  "description": "Integrates file system, code analysis, Git, and execution capabilities to enable AI-driven development workflows across multiple programming languages.",
-  "url": "https://github.com/skydeckai/skydeckai-code",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "SkyDeckAI Code MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-server-aidd",
+	"description": "Integrates file system, code analysis, Git, and execution capabilities to enable AI-driven development workflows across multiple programming languages.",
+	"url": "https://github.com/skydeckai/skydeckai-code",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "SkyDeckAI Code MCP Server"
 }

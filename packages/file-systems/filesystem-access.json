@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "filesystem-access",
-  "description": "Provides direct access to local filesystem operations for reading file contents and listing directory entries through a FastMCP-powered server that supports both stdio and SSE transport modes.",
-  "url": "https://github.com/parthshr370/mcp-servers",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Filesystem Access MCP Server"
+	"type": "mcp-server",
+	"packageName": "filesystem-access",
+	"description": "Provides direct access to local filesystem operations for reading file contents and listing directory entries through a FastMCP-powered server that supports both stdio and SSE transport modes.",
+	"url": "https://github.com/parthshr370/mcp-servers",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Filesystem Access MCP Server"
 }

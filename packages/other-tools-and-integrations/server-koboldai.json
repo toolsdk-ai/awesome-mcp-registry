@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "server-koboldai",
-  "description": "Integrates KoboldAI's text generation, enabling local language model interactions for creative writing, chatbots, and content generation.",
-  "url": "https://github.com/phialsbasement/koboldcpp-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "KoboldAI MCP Server"
+	"type": "mcp-server",
+	"packageName": "server-koboldai",
+	"description": "Integrates KoboldAI's text generation, enabling local language model interactions for creative writing, chatbots, and content generation.",
+	"url": "https://github.com/phialsbasement/koboldcpp-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "KoboldAI MCP Server"
 }

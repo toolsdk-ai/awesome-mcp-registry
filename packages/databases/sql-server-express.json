@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sql-server-express",
-  "description": "Integrates with Microsoft SQL Server Express to enable database interactions, supporting query execution, table creation, and schema description with configurable authentication and access restrictions.",
-  "url": "https://github.com/hanweg/mcp-sqlexpress",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "MCP SQLExpress"
+	"type": "mcp-server",
+	"packageName": "sql-server-express",
+	"description": "Integrates with Microsoft SQL Server Express to enable database interactions, supporting query execution, table creation, and schema description with configurable authentication and access restrictions.",
+	"url": "https://github.com/hanweg/mcp-sqlexpress",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "MCP SQLExpress"
 }

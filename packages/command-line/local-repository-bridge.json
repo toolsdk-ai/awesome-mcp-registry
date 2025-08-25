@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "local-repository-bridge",
-  "description": "Provides a bridge between Claude and local repositories, enabling direct code analysis, bug fixes, and feature development through specialized tools for generating prompts, executing terminal commands, and locating repositories by keyword.",
-  "url": "https://github.com/princefishthrower/mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Local Repository Bridge MCP Server"
+	"type": "mcp-server",
+	"packageName": "local-repository-bridge",
+	"description": "Provides a bridge between Claude and local repositories, enabling direct code analysis, bug fixes, and feature development through specialized tools for generating prompts, executing terminal commands, and locating repositories by keyword.",
+	"url": "https://github.com/princefishthrower/mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Local Repository Bridge MCP Server"
 }

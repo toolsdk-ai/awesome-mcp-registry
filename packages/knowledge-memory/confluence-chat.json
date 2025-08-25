@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "confluence-chat",
-  "description": "Lightweight Confluence content expansion server that generates enhanced page content through a JSON-RPC interface, simplifying documentation workflows with minimal configuration.",
-  "url": "https://github.com/kinsha-dev/confluence-chat-mcp-service",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Confluence Chat MCP Service"
+	"type": "mcp-server",
+	"packageName": "confluence-chat",
+	"description": "Lightweight Confluence content expansion server that generates enhanced page content through a JSON-RPC interface, simplifying documentation workflows with minimal configuration.",
+	"url": "https://github.com/kinsha-dev/confluence-chat-mcp-service",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Confluence Chat MCP Service"
 }

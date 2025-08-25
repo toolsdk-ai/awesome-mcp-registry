@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "azure-resource-management",
-  "description": "Integrates with Azure services to enable cloud resource management, including provisioning virtual machines, configuring networks, and monitoring subscriptions.",
-  "url": "https://github.com/kalivaraprasad-gonapa/azure-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Azure MCP"
+	"type": "mcp-server",
+	"packageName": "azure-resource-management",
+	"description": "Integrates with Azure services to enable cloud resource management, including provisioning virtual machines, configuring networks, and monitoring subscriptions.",
+	"url": "https://github.com/kalivaraprasad-gonapa/azure-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Azure MCP"
 }

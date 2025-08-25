@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mysql-database",
-  "description": "Enables direct interaction with MySQL databases through TypeScript tools for executing SQL queries, checking connectivity, and managing database operations with robust error handling.",
-  "url": "https://github.com/zalab-inc/mcp-mysql-app",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "MCP MySQL App"
+	"type": "mcp-server",
+	"packageName": "mysql-database",
+	"description": "Enables direct interaction with MySQL databases through TypeScript tools for executing SQL queries, checking connectivity, and managing database operations with robust error handling.",
+	"url": "https://github.com/zalab-inc/mcp-mysql-app",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "MCP MySQL App"
 }

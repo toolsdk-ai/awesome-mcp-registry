@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "kafka-streaming",
-  "description": "Enables seamless Kafka message streaming for AI models by providing publish and consume functionalities through a configurable Python server with stdio and SSE transport support.",
-  "url": "https://github.com/pavanjava/kafka_mcp_server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Kafka Streaming MCP Server"
+	"type": "mcp-server",
+	"packageName": "kafka-streaming",
+	"description": "Enables seamless Kafka message streaming for AI models by providing publish and consume functionalities through a configurable Python server with stdio and SSE transport support.",
+	"url": "https://github.com/pavanjava/kafka_mcp_server",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Kafka Streaming MCP Server"
 }

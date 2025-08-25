@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hanzo-mcp",
-  "description": "Enables secure interaction with codebases through tools for file operations, command execution, project analysis, and Jupyter notebook management with path validation and operation allowlisting",
-  "url": "https://github.com/hanzoai/mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Hanze MCP"
+	"type": "mcp-server",
+	"packageName": "hanzo-mcp",
+	"description": "Enables secure interaction with codebases through tools for file operations, command execution, project analysis, and Jupyter notebook management with path validation and operation allowlisting",
+	"url": "https://github.com/hanzoai/mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Hanze MCP"
 }

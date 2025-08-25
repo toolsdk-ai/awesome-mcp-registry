@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "podman-mcp-server",
-  "description": "Integrates with Podman's API to enable container creation, management, and orchestration for automated DevOps workflows and microservices architecture deployment.",
-  "url": "https://github.com/manusa/podman-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Podman MCP Server"
+	"type": "mcp-server",
+	"packageName": "podman-mcp-server",
+	"description": "Integrates with Podman's API to enable container creation, management, and orchestration for automated DevOps workflows and microservices architecture deployment.",
+	"url": "https://github.com/manusa/podman-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Podman MCP Server"
 }

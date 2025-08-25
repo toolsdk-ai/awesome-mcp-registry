@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@rijk/directus-mcp-server",
-  "description": "Bridges AI tools with Directus headless CMS, enabling content operations through automatically generated tools based on your instance's schema",
-  "url": "https://github.com/rijkvanzanten/directus-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "DIRECTUS_URL": {
-      "description": "<your Directus instance URL>",
-      "required": true
-    },
-    "DIRECTUS_TOKEN": {
-      "description": "<your Directus user token>",
-      "required": true
-    }
-  },
-  "name": "Directus MCP Server"
+	"type": "mcp-server",
+	"packageName": "@rijk/directus-mcp-server",
+	"description": "Bridges AI tools with Directus headless CMS, enabling content operations through automatically generated tools based on your instance's schema",
+	"url": "https://github.com/rijkvanzanten/directus-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"DIRECTUS_URL": {
+			"description": "<your Directus instance URL>",
+			"required": true
+		},
+		"DIRECTUS_TOKEN": {
+			"description": "<your Directus user token>",
+			"required": true
+		}
+	},
+	"name": "Directus MCP Server"
 }

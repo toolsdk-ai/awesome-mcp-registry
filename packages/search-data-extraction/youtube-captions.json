@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "youtube-captions",
-  "description": "Extracts and transforms YouTube video content, providing metadata, multi-language captions, chapter information, and customizable markdown transcripts with search capabilities through the YouTube Data API.",
-  "url": "https://github.com/nattyraz/youtube-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "YouTube MCP"
+	"type": "mcp-server",
+	"packageName": "youtube-captions",
+	"description": "Extracts and transforms YouTube video content, providing metadata, multi-language captions, chapter information, and customizable markdown transcripts with search capabilities through the YouTube Data API.",
+	"url": "https://github.com/nattyraz/youtube-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "YouTube MCP"
 }

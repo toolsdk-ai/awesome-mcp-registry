@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dbt-semantic-layer",
-  "description": "Integrates with the DBT Semantic Layer API to enable querying and analysis of data models defined in DBT, supporting report generation, ad-hoc analysis, and data-driven application development.",
-  "url": "https://github.com/tommybez/dbt-semantic-layer-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "DBT Semantic Layer MCP Server"
+	"type": "mcp-server",
+	"packageName": "dbt-semantic-layer",
+	"description": "Integrates with the DBT Semantic Layer API to enable querying and analysis of data models defined in DBT, supporting report generation, ad-hoc analysis, and data-driven application development.",
+	"url": "https://github.com/tommybez/dbt-semantic-layer-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "DBT Semantic Layer MCP Server"
 }

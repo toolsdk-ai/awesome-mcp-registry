@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "system-resource-monitor",
-  "description": "Provides real-time system monitoring metrics including CPU, memory, disk, network, battery, and internet speed through both comprehensive snapshots and targeted tools for diagnosing performance issues without leaving conversations.",
-  "url": "https://github.com/abhinav7895/system-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "System MCP"
+	"type": "mcp-server",
+	"packageName": "system-resource-monitor",
+	"description": "Provides real-time system monitoring metrics including CPU, memory, disk, network, battery, and internet speed through both comprehensive snapshots and targeted tools for diagnosing performance issues without leaving conversations.",
+	"url": "https://github.com/abhinav7895/system-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "System MCP"
 }

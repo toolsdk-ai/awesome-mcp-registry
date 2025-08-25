@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "proton-drive-mcp",
-  "description": "A Model Context Protocol server that enables AI assistants to interact with Proton Drive files, supporting operations like listing, reading, creating, and deleting files and folders.",
-  "url": "https://github.com/anyrxo/proton-drive-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "PROTON_DRIVE_PATH": {
-      "description": "Custom path to your Proton Drive location if not in the standard location",
-      "required": true
-    }
-  },
-  "name": "Proton Drive MCP"
+	"type": "mcp-server",
+	"packageName": "proton-drive-mcp",
+	"description": "A Model Context Protocol server that enables AI assistants to interact with Proton Drive files, supporting operations like listing, reading, creating, and deleting files and folders.",
+	"url": "https://github.com/anyrxo/proton-drive-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"PROTON_DRIVE_PATH": {
+			"description": "Custom path to your Proton Drive location if not in the standard location",
+			"required": true
+		}
+	},
+	"name": "Proton Drive MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-zotero",
-  "description": "Integrates with Zotero to enable listing collections, retrieving item details, searching libraries, and fetching recent papers for research and citation management.",
-  "url": "https://github.com/kaliaboi/mcp-zotero",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Zotero MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-zotero",
+	"description": "Integrates with Zotero to enable listing collections, retrieving item details, searching libraries, and fetching recent papers for research and citation management.",
+	"url": "https://github.com/kaliaboi/mcp-zotero",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Zotero MCP"
 }

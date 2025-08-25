@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "claude-prompts",
-  "description": "Provides a flexible, template-based prompt system for Claude models that enables standardized interactions, complex reasoning workflows, and multi-step prompt chains through a TypeScript/Node.js server with comprehensive API support.",
-  "url": "https://github.com/minipuft/claude-prompts-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Claude Prompts MCP"
+	"type": "mcp-server",
+	"packageName": "claude-prompts",
+	"description": "Provides a flexible, template-based prompt system for Claude models that enables standardized interactions, complex reasoning workflows, and multi-step prompt chains through a TypeScript/Node.js server with comprehensive API support.",
+	"url": "https://github.com/minipuft/claude-prompts-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Claude Prompts MCP"
 }

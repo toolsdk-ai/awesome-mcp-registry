@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "awslabs.nova-canvas-mcp-server",
-  "description": "A Model Context Protocol server that lets you interact with a Nova Canvas from any MCP client.",
-  "url": "https://github.com/awslabs/mcp/tree/main/src/nova-canvas-mcp-server",
-  "runtime": "python",
-  "license": "Apache 2.0",
-  "env": {
-    "AWS_PROFILE": {
-      "description": "AWS profile to use",
-      "required": true
-    },
-    "AWS_REGION": {
-      "description": "AWS region to use",
-      "required": true
-    }
-  },
-  "name": "Nova Canvas MCP Server"
+	"type": "mcp-server",
+	"packageName": "awslabs.nova-canvas-mcp-server",
+	"description": "A Model Context Protocol server that lets you interact with a Nova Canvas from any MCP client.",
+	"url": "https://github.com/awslabs/mcp/tree/main/src/nova-canvas-mcp-server",
+	"runtime": "python",
+	"license": "Apache 2.0",
+	"env": {
+		"AWS_PROFILE": {
+			"description": "AWS profile to use",
+			"required": true
+		},
+		"AWS_REGION": {
+			"description": "AWS region to use",
+			"required": true
+		}
+	},
+	"name": "Nova Canvas MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gemini-image-generator",
-  "description": "Provides image generation capabilities through Google's Gemini 2 API, enabling text-to-image creation with configurable parameters like aspect ratio and output format",
-  "url": "https://github.com/sanxfxteam/gemini-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Gemini MCP Server"
+	"type": "mcp-server",
+	"packageName": "gemini-image-generator",
+	"description": "Provides image generation capabilities through Google's Gemini 2 API, enabling text-to-image creation with configurable parameters like aspect ratio and output format",
+	"url": "https://github.com/sanxfxteam/gemini-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Gemini MCP Server"
 }

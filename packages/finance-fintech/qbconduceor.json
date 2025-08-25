@@ -1,28 +1,28 @@
 {
-  "type": "mcp-server",
-  "logo": "https://pbs.twimg.com/profile_images/1605268968268144641/mDZ-0Y08_400x400.png",
-  "packageName": "@alfork/qbconductor-mcp-server",
-  "description": "A comprehensive Model Context Protocol (MCP) server that provides Claude with direct access to QuickBooks Desktop operations through the Conductor API. ",
-  "url": "https://github.com/alfork/qbconductor-mcp-server",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "CONDUCTOR_SECRET_KEY": {
-      "description": "sk_prod_your_secret_key",
-      "required": true
-    },
-    "CONDUCTOR_API_KEY": {
-      "description": "pk_prod_your_publishable_key",
-      "required": true
-    },
-    "CONDUCTOR_END_USER_ID": {
-      "description": "end_usr_your_default_user",
-      "required": true
-    },
-    "CONDUCTOR_API_BASE_URL": {
-      "description": "https://api.conductor.is/v1",
-      "required": true
-    }
-  },
-  "name": "QuickBooks Desktop MCP Server"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1605268968268144641/mDZ-0Y08_400x400.png",
+	"packageName": "@alfork/qbconductor-mcp-server",
+	"description": "A comprehensive Model Context Protocol (MCP) server that provides Claude with direct access to QuickBooks Desktop operations through the Conductor API. ",
+	"url": "https://github.com/alfork/qbconductor-mcp-server",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"CONDUCTOR_SECRET_KEY": {
+			"description": "sk_prod_your_secret_key",
+			"required": true
+		},
+		"CONDUCTOR_API_KEY": {
+			"description": "pk_prod_your_publishable_key",
+			"required": true
+		},
+		"CONDUCTOR_END_USER_ID": {
+			"description": "end_usr_your_default_user",
+			"required": true
+		},
+		"CONDUCTOR_API_BASE_URL": {
+			"description": "https://api.conductor.is/v1",
+			"required": true
+		}
+	},
+	"name": "QuickBooks Desktop MCP Server"
 }

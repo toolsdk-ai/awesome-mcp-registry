@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "screenshot-server",
-  "description": "Captures web page screenshots using TypeScript and Puppeteer, enabling automated visual content processing for web testing, archiving, and data collection.",
-  "url": "https://github.com/sethbang/mcp-screenshot-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Screenshot MCP Server"
+	"type": "mcp-server",
+	"packageName": "screenshot-server",
+	"description": "Captures web page screenshots using TypeScript and Puppeteer, enabling automated visual content processing for web testing, archiving, and data collection.",
+	"url": "https://github.com/sethbang/mcp-screenshot-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Screenshot MCP Server"
 }

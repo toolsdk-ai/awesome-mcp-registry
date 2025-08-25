@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cli-executor",
-  "description": "Provides a tool for executing local CLI commands asynchronously using FastMCP and asyncio, handling command arguments securely and offering error handling for failed commands.",
-  "url": "https://github.com/0xbruno/mcpexec",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCPExec"
+	"type": "mcp-server",
+	"packageName": "cli-executor",
+	"description": "Provides a tool for executing local CLI commands asynchronously using FastMCP and asyncio, handling command arguments securely and offering error handling for failed commands.",
+	"url": "https://github.com/0xbruno/mcpexec",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCPExec"
 }

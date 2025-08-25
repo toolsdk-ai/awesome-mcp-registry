@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nostr-mcp",
-  "description": "Integrates with Nostr to enable posting notes and interacting with relays, simplifying decentralized social network engagement and content publishing.",
-  "url": "https://github.com/abdelstark/lightning-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Lightning MCP"
+	"type": "mcp-server",
+	"packageName": "nostr-mcp",
+	"description": "Integrates with Nostr to enable posting notes and interacting with relays, simplifying decentralized social network engagement and content publishing.",
+	"url": "https://github.com/abdelstark/lightning-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Lightning MCP"
 }

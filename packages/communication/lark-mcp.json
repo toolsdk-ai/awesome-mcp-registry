@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "lark-mcp",
-  "description": "Provides a bridge to Lark/Feishu workplace collaboration platform, enabling access to employee information and messaging capabilities with automatic authentication and token management.",
-  "url": "https://github.com/lorrylockie/lark-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Lark MCP"
+	"type": "mcp-server",
+	"packageName": "lark-mcp",
+	"description": "Provides a bridge to Lark/Feishu workplace collaboration platform, enabling access to employee information and messaging capabilities with automatic authentication and token management.",
+	"url": "https://github.com/lorrylockie/lark-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Lark MCP"
 }

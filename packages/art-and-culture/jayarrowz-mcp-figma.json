@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@jayarrowz/mcp-figma",
-  "description": "Integrates with Figma's API to enable viewing, manipulating, and collaborating on design files through comprehensive access to file operations, comments, components, and team resources.",
-  "url": "https://github.com/thirdstrandstudio/mcp-figma",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "FIGMA_API_KEY": {
-      "description": "your_figma_api_key",
-      "required": true
-    }
-  },
-  "name": "MCP Figma"
+	"type": "mcp-server",
+	"packageName": "@jayarrowz/mcp-figma",
+	"description": "Integrates with Figma's API to enable viewing, manipulating, and collaborating on design files through comprehensive access to file operations, comments, components, and team resources.",
+	"url": "https://github.com/thirdstrandstudio/mcp-figma",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"FIGMA_API_KEY": {
+			"description": "your_figma_api_key",
+			"required": true
+		}
+	},
+	"name": "MCP Figma"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-web3-stats",
-  "description": "Integrates with Dune API to provide blockchain data analysis for examining wallet balances, transaction histories, token information, NFT collectibles, and holder distributions across EVM and Solana networks.",
-  "url": "https://github.com/crazyrabbitltc/mcp-web3-stats",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Web3 Stats MCP"
+	"type": "mcp-server",
+	"packageName": "mcp-web3-stats",
+	"description": "Integrates with Dune API to provide blockchain data analysis for examining wallet balances, transaction histories, token information, NFT collectibles, and holder distributions across EVM and Solana networks.",
+	"url": "https://github.com/crazyrabbitltc/mcp-web3-stats",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Web3 Stats MCP"
 }

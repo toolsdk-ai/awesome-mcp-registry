@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "audio-playback",
-  "description": "Integrates with the play-sound library to enable cross-platform audio playback for voice notifications, sound effects, and audio cues.",
-  "url": "https://github.com/mamertofabian/audio-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Audio MCP Server"
+	"type": "mcp-server",
+	"packageName": "audio-playback",
+	"description": "Integrates with the play-sound library to enable cross-platform audio playback for voice notifications, sound effects, and audio cues.",
+	"url": "https://github.com/mamertofabian/audio-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Audio MCP Server"
 }

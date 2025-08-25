@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "developer-knowledge-graph",
-  "description": "Knowledge graph-based server for managing software development context, storing project entities and relationships to provide contextual awareness across complex software projects.",
-  "url": "https://github.com/tejpalvirk/developer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Developer Knowledge Graph"
+	"type": "mcp-server",
+	"packageName": "developer-knowledge-graph",
+	"description": "Knowledge graph-based server for managing software development context, storing project entities and relationships to provide contextual awareness across complex software projects.",
+	"url": "https://github.com/tejpalvirk/developer",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Developer Knowledge Graph"
 }

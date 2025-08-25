@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ads-b-exchange",
-  "description": "Provides real-time aircraft tracking data through the ADS-B Exchange API with tools for geographic aircraft search, individual aircraft lookup, military aircraft filtering, and aircraft type enumeration for aviation monitoring and flight analysis applications.",
-  "url": "https://github.com/sragss/flight-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Flight MCP"
+	"type": "mcp-server",
+	"packageName": "ads-b-exchange",
+	"description": "Provides real-time aircraft tracking data through the ADS-B Exchange API with tools for geographic aircraft search, individual aircraft lookup, military aircraft filtering, and aircraft type enumeration for aviation monitoring and flight analysis applications.",
+	"url": "https://github.com/sragss/flight-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Flight MCP"
 }

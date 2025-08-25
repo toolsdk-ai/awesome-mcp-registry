@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "heart",
-  "description": "Provides a minimal foundation for building server implementations using Bun and TypeScript with stdio transport and extensible resource configuration",
-  "url": "https://github.com/atuinturtle/heart-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Heart MCP Server"
+	"type": "mcp-server",
+	"packageName": "heart",
+	"description": "Provides a minimal foundation for building server implementations using Bun and TypeScript with stdio transport and extensible resource configuration",
+	"url": "https://github.com/atuinturtle/heart-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Heart MCP Server"
 }

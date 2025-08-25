@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kajdep/mcp-fixer",
-  "description": "Provides diagnostic and repair tools for Model Context Protocol configurations",
-  "url": "https://github.com/kajdep/mcp-fixer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Fixer"
+	"type": "mcp-server",
+	"packageName": "@kajdep/mcp-fixer",
+	"description": "Provides diagnostic and repair tools for Model Context Protocol configurations",
+	"url": "https://github.com/kajdep/mcp-fixer",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Fixer"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@just-every/mcp-read-website-fast",
-  "description": "Extracts web content and converts it to clean Markdown format using Mozilla Readability for intelligent article detection, with disk-based caching, robots.txt compliance, and concurrent crawling capabilities for fast content processing workflows.",
-  "url": "https://github.com/just-every/mcp-read-website-fast",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Read Website Fast MCP"
+	"type": "mcp-server",
+	"packageName": "@just-every/mcp-read-website-fast",
+	"description": "Extracts web content and converts it to clean Markdown format using Mozilla Readability for intelligent article detection, with disk-based caching, robots.txt compliance, and concurrent crawling capabilities for fast content processing workflows.",
+	"url": "https://github.com/just-every/mcp-read-website-fast",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Read Website Fast MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "docmcp",
-  "description": "Self-hosted documentation management system that crawls, processes, and enables semantic search across technical documentation for up-to-date access to package docs, API references, and guides without requiring internet access.",
-  "url": "https://github.com/visheshd/docmcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "DocMCP"
+	"type": "mcp-server",
+	"packageName": "docmcp",
+	"description": "Self-hosted documentation management system that crawls, processes, and enables semantic search across technical documentation for up-to-date access to package docs, API references, and guides without requiring internet access.",
+	"url": "https://github.com/visheshd/docmcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "DocMCP"
 }

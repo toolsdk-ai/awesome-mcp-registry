@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "markdown-to-html",
-  "description": "Converts Markdown content to HTML with syntax highlighting, ensuring proper formatting and security through sanitization",
-  "url": "https://github.com/fashionzzz/markdown-to-html",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Markdown to HTML"
+	"type": "mcp-server",
+	"packageName": "markdown-to-html",
+	"description": "Converts Markdown content to HTML with syntax highlighting, ensuring proper formatting and security through sanitization",
+	"url": "https://github.com/fashionzzz/markdown-to-html",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Markdown to HTML"
 }

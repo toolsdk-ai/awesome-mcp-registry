@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pulumi",
-  "description": "Enables AI assistants to manage infrastructure as code through Pulumi Cloud API, providing capabilities to create and list stacks across organizations and projects",
-  "url": "https://github.com/dogukanakkaya/pulumi-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Pulumi MCP Server"
+	"type": "mcp-server",
+	"packageName": "pulumi",
+	"description": "Enables AI assistants to manage infrastructure as code through Pulumi Cloud API, providing capabilities to create and list stacks across organizations and projects",
+	"url": "https://github.com/dogukanakkaya/pulumi-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Pulumi MCP Server"
 }

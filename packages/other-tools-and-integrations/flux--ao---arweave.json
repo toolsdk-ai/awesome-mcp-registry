@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "flux-(ao-&-arweave)",
-  "description": "Integrates with Arweave and AO ecosystems to enable developers to run, create, and test AO code and blueprints using natural language commands without requiring deep technical knowledge of the underlying systems.",
-  "url": "https://github.com/asrvd/flux",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Flux AO & Arweave"
+	"type": "mcp-server",
+	"packageName": "flux-(ao-&-arweave)",
+	"description": "Integrates with Arweave and AO ecosystems to enable developers to run, create, and test AO code and blueprints using natural language commands without requiring deep technical knowledge of the underlying systems.",
+	"url": "https://github.com/asrvd/flux",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Flux AO & Arweave"
 }

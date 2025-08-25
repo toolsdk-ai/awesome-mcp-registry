@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "whatsapp",
-  "description": "Connects AI to WhatsApp accounts using TypeScript and Baileys, enabling message history retrieval, contact search, and secure communication through local SQLite storage and QR code authentication.",
-  "url": "https://github.com/jlucaso1/whatsapp-mcp-ts",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "WhatsApp MCP"
+	"type": "mcp-server",
+	"packageName": "whatsapp",
+	"description": "Connects AI to WhatsApp accounts using TypeScript and Baileys, enabling message history retrieval, contact search, and secure communication through local SQLite storage and QR code authentication.",
+	"url": "https://github.com/jlucaso1/whatsapp-mcp-ts",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "WhatsApp MCP"
 }

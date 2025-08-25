@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-trino-python",
-  "description": "Connects AI systems to Trino/Iceberg databases for SQL execution, data exploration, and table optimization with seamless connection management and catalog navigation.",
-  "url": "https://github.com/alaturqua/mcp-trino-python",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Trino MCP Python"
+	"type": "mcp-server",
+	"packageName": "mcp-trino-python",
+	"description": "Connects AI systems to Trino/Iceberg databases for SQL execution, data exploration, and table optimization with seamless connection management and catalog navigation.",
+	"url": "https://github.com/alaturqua/mcp-trino-python",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Trino MCP Python"
 }

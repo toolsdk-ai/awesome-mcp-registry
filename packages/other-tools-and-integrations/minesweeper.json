@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "minesweeper",
-  "description": "Enables Claude to play Minesweeper through a bridge that translates game actions into API calls and returns game states as images for visual puzzle-solving.",
-  "url": "https://github.com/tonypan2/minesweeper-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Minesweeper MCP Server"
+	"type": "mcp-server",
+	"packageName": "minesweeper",
+	"description": "Enables Claude to play Minesweeper through a bridge that translates game actions into API calls and returns game states as images for visual puzzle-solving.",
+	"url": "https://github.com/tonypan2/minesweeper-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Minesweeper MCP Server"
 }

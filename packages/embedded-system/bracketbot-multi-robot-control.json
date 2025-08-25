@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bracketbot-multi-robot-control",
-  "description": "Enables simultaneous control of multiple robots through a unified interface for movement, sound playback, camera access, and status monitoring with precise velocity control and comprehensive error handling.",
-  "url": "https://github.com/bracketbotcapstone/bracketbot-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "BracketBot MCP"
+	"type": "mcp-server",
+	"packageName": "bracketbot-multi-robot-control",
+	"description": "Enables simultaneous control of multiple robots through a unified interface for movement, sound playback, camera access, and status monitoring with precise velocity control and comprehensive error handling.",
+	"url": "https://github.com/bracketbotcapstone/bracketbot-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "BracketBot MCP"
 }

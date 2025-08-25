@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "strapi-mcp",
-  "description": "Integrates with Strapi CMS to enable creating, reading, updating, and deleting content entries with support for filtering, pagination, sorting, and media uploads through URI-based resource patterns.",
-  "url": "https://github.com/l33tdawg/strapi-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "STRAPI_URL": {
-      "description": "http://localhost:1337",
-      "required": true
-    },
-    "STRAPI_ADMIN_EMAIL": {
-      "description": "your_admin_email@example.com",
-      "required": true
-    },
-    "STRAPI_ADMIN_PASSWORD": {
-      "description": "your_admin_password",
-      "required": true
-    }
-  },
-  "name": "Strapi MCP"
+	"type": "mcp-server",
+	"packageName": "strapi-mcp",
+	"description": "Integrates with Strapi CMS to enable creating, reading, updating, and deleting content entries with support for filtering, pagination, sorting, and media uploads through URI-based resource patterns.",
+	"url": "https://github.com/l33tdawg/strapi-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"STRAPI_URL": {
+			"description": "http://localhost:1337",
+			"required": true
+		},
+		"STRAPI_ADMIN_EMAIL": {
+			"description": "your_admin_email@example.com",
+			"required": true
+		},
+		"STRAPI_ADMIN_PASSWORD": {
+			"description": "your_admin_password",
+			"required": true
+		}
+	},
+	"name": "Strapi MCP"
 }

@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@tonlab/dify-mcp-server",
-  "description": "Connects Claude with Dify Workflow to expose workflow capabilities as tools, enabling structured automation through dynamic parameter retrieval and multi-workflow support.",
-  "url": "https://github.com/tomokiishimine/dify-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "DIFY_BASE_URL": {
-      "description": "https://your-dify-endpoint",
-      "required": true
-    },
-    "DIFY_API_KEY": {
-      "description": "your-api-key-here",
-      "required": true
-    }
-  },
-  "name": "Dify MCP Server"
+	"type": "mcp-server",
+	"packageName": "@tonlab/dify-mcp-server",
+	"description": "Connects Claude with Dify Workflow to expose workflow capabilities as tools, enabling structured automation through dynamic parameter retrieval and multi-workflow support.",
+	"url": "https://github.com/tomokiishimine/dify-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"DIFY_BASE_URL": {
+			"description": "https://your-dify-endpoint",
+			"required": true
+		},
+		"DIFY_API_KEY": {
+			"description": "your-api-key-here",
+			"required": true
+		}
+	},
+	"name": "Dify MCP Server"
 }

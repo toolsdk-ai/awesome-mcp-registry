@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "yuque",
-  "description": "Integrates with Yuque knowledge base platform to enable document management operations, content search, and team analytics through a flexible server deployable via Docker or locally in HTTP/CLI modes.",
-  "url": "https://github.com/henryhaoson/yuque-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Yuque MCP Server"
+	"type": "mcp-server",
+	"packageName": "yuque",
+	"description": "Integrates with Yuque knowledge base platform to enable document management operations, content search, and team analytics through a flexible server deployable via Docker or locally in HTTP/CLI modes.",
+	"url": "https://github.com/henryhaoson/yuque-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Yuque MCP Server"
 }

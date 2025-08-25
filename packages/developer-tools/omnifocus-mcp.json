@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "omnifocus-mcp",
-  "description": "Integrates with OmniFocus task management on macOS using JavaScript for Automation to retrieve tasks, projects, and metadata including due dates, contexts, and completion status.",
-  "url": "https://github.com/mdoel/omnifocus-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "OmniFocus MCP"
+	"type": "mcp-server",
+	"packageName": "omnifocus-mcp",
+	"description": "Integrates with OmniFocus task management on macOS using JavaScript for Automation to retrieve tasks, projects, and metadata including due dates, contexts, and completion status.",
+	"url": "https://github.com/mdoel/omnifocus-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "OmniFocus MCP"
 }

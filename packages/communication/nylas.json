@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "nylas",
-  "description": "Bridges email, calendar, and contact APIs across multiple providers, enabling dynamic code generation and authentication abstraction for unified communication integrations.",
-  "url": "https://github.com/nylas-samples/nylas-api-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Nylas API MCP"
+	"type": "mcp-server",
+	"packageName": "nylas",
+	"description": "Bridges email, calendar, and contact APIs across multiple providers, enabling dynamic code generation and authentication abstraction for unified communication integrations.",
+	"url": "https://github.com/nylas-samples/nylas-api-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Nylas API MCP"
 }

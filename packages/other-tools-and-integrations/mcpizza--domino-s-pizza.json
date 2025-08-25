@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcpizza-(domino's-pizza)",
-  "description": "Integrates with Domino's Pizza API to enable pizza ordering through store location, menu browsing, cart management, customer setup, coupon application, and payment processing with both cash and card options.",
-  "url": "https://github.com/grahammcbain/mcpizza",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "McPizza (Domino's Pizza)"
+	"type": "mcp-server",
+	"packageName": "mcpizza-(domino's-pizza)",
+	"description": "Integrates with Domino's Pizza API to enable pizza ordering through store location, menu browsing, cart management, customer setup, coupon application, and payment processing with both cash and card options.",
+	"url": "https://github.com/grahammcbain/mcpizza",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "McPizza (Domino's Pizza)"
 }

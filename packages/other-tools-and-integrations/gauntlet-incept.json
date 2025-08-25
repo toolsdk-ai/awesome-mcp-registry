@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gauntlet-incept",
-  "description": "Integrates with QTI services and LLMs to generate personalized educational content tailored to students' knowledge levels and interests, streamlining the creation of adaptive learning materials.",
-  "url": "https://github.com/birdsmith/gauntlet-incept-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Gauntlet Incept MCP"
+	"type": "mcp-server",
+	"packageName": "gauntlet-incept",
+	"description": "Integrates with QTI services and LLMs to generate personalized educational content tailored to students' knowledge levels and interests, streamlining the creation of adaptive learning materials.",
+	"url": "https://github.com/birdsmith/gauntlet-incept-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Gauntlet Incept MCP"
 }

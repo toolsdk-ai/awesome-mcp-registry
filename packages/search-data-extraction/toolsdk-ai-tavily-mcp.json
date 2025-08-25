@@ -1,16 +1,16 @@
 {
-  "type": "mcp-server",
-  "name": "ToolSDK-AI-Tavily",
-  "logo": "https://avatars.githubusercontent.com/u/170207473?v=4",
-  "packageName": "@toolsdk.ai/tavily-mcp",
-  "description": "An MCP server that implements web search, extract, mapping, and crawling through the Tavily API.",
-  "url": "https://github.com/tavily-ai/tavily-mcp",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "TAVILY_API_KEY": {
-      "description": "your-tavily-api-key",
-      "required": true
-    }
-  }
+	"type": "mcp-server",
+	"name": "ToolSDK-AI-Tavily",
+	"logo": "https://avatars.githubusercontent.com/u/170207473?v=4",
+	"packageName": "@toolsdk.ai/tavily-mcp",
+	"description": "An MCP server that implements web search, extract, mapping, and crawling through the Tavily API.",
+	"url": "https://github.com/tavily-ai/tavily-mcp",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"TAVILY_API_KEY": {
+			"description": "your-tavily-api-key",
+			"required": true
+		}
+	}
 }

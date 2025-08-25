@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hydra-penetration-testing-toolkit",
-  "description": "Unifies multiple penetration testing tools including Nmap, SQLMap, and others for network scanning, vulnerability assessment, and security reconnaissance through a containerized Python interface.",
-  "url": "https://github.com/happyhackingspace/mcp-hydra",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Hydra MCP"
+	"type": "mcp-server",
+	"packageName": "hydra-penetration-testing-toolkit",
+	"description": "Unifies multiple penetration testing tools including Nmap, SQLMap, and others for network scanning, vulnerability assessment, and security reconnaissance through a containerized Python interface.",
+	"url": "https://github.com/happyhackingspace/mcp-hydra",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Hydra MCP"
 }

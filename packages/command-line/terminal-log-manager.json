@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "terminal-log-manager",
-  "description": "Retrieves and manages terminal logs from a specified directory, offering functionality to read recent entries and clear log contents for efficient monitoring and debugging.",
-  "url": "https://github.com/ozgrozer/mcp-get-terminal-logs",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Get Terminal Logs MCP"
+	"type": "mcp-server",
+	"packageName": "terminal-log-manager",
+	"description": "Retrieves and manages terminal logs from a specified directory, offering functionality to read recent entries and clear log contents for efficient monitoring and debugging.",
+	"url": "https://github.com/ozgrozer/mcp-get-terminal-logs",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Get Terminal Logs MCP"
 }

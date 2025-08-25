@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "jmx-management",
-  "description": "Bridges Java Management Extensions (JMX) with natural language monitoring and management of Java applications through their exposed MBeans, supporting both local JVM connections via the Attach API and remote JMX connections with authentication for multi-application management, MBean discovery, and operational control.",
-  "url": "https://github.com/itz4blitz/jmx-mcp",
-  "runtime": "java",
-  "license": "mit",
-  "env": {},
-  "name": "JMX MCP"
+	"type": "mcp-server",
+	"packageName": "jmx-management",
+	"description": "Bridges Java Management Extensions (JMX) with natural language monitoring and management of Java applications through their exposed MBeans, supporting both local JVM connections via the Attach API and remote JMX connections with authentication for multi-application management, MBean discovery, and operational control.",
+	"url": "https://github.com/itz4blitz/jmx-mcp",
+	"runtime": "java",
+	"license": "mit",
+	"env": {},
+	"name": "JMX MCP"
 }

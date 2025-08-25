@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "shodan",
-  "description": "Integrates with Shodan's database to enable host information lookup, vulnerability scanning, and DNS resolution for security research and network exposure analysis",
-  "url": "https://github.com/x3r0k/shodan-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Shodan MCP Server"
+	"type": "mcp-server",
+	"packageName": "shodan",
+	"description": "Integrates with Shodan's database to enable host information lookup, vulnerability scanning, and DNS resolution for security research and network exposure analysis",
+	"url": "https://github.com/x3r0k/shodan-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Shodan MCP Server"
 }

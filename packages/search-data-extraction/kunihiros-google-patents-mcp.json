@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kunihiros/google-patents-mcp",
-  "description": "Search Google Patents using the SerpAPI.",
-  "url": "https://github.com/kunihiros/google-patents-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Google Patents MCP"
+	"type": "mcp-server",
+	"packageName": "@kunihiros/google-patents-mcp",
+	"description": "Search Google Patents using the SerpAPI.",
+	"url": "https://github.com/kunihiros/google-patents-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Google Patents MCP"
 }

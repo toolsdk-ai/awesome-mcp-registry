@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-12306",
-  "description": "A simple MCP server to query ticket information in 12306.",
-  "url": "https://github.com/drfccv/mcp-server-12306",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP 12306"
+	"type": "mcp-server",
+	"packageName": "mcp-12306",
+	"description": "A simple MCP server to query ticket information in 12306.",
+	"url": "https://github.com/drfccv/mcp-server-12306",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP 12306"
 }

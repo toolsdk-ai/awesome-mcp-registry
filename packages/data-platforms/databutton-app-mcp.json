@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "databutton-app-mcp",
-  "description": "Enables using Databutton app API endpoints as tools by establishing secure websocket connections and handling authentication for seamless integration",
-  "url": "https://github.com/databutton/databutton-app-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Databutton App MCP"
+	"type": "mcp-server",
+	"packageName": "databutton-app-mcp",
+	"description": "Enables using Databutton app API endpoints as tools by establishing secure websocket connections and handling authentication for seamless integration",
+	"url": "https://github.com/databutton/databutton-app-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Databutton App MCP"
 }

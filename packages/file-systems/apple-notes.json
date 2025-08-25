@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "apple-notes",
-  "description": "Integrates with Apple Notes to enable listing, searching, creating, and indexing notes using vector and full-text search, leveraging LanceDB and on-device embedding for efficient data management and privacy-preserving information retrieval.",
-  "url": "https://github.com/tom-semple/mcp-apple-notes-fixed",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Apple Notes MCP"
+	"type": "mcp-server",
+	"packageName": "apple-notes",
+	"description": "Integrates with Apple Notes to enable listing, searching, creating, and indexing notes using vector and full-text search, leveraging LanceDB and on-device embedding for efficient data management and privacy-preserving information retrieval.",
+	"url": "https://github.com/tom-semple/mcp-apple-notes-fixed",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Apple Notes MCP"
 }

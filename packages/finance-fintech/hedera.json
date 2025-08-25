@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hedera",
-  "description": "Provides a lightweight blockchain interaction toolkit for Hedera network operations, enabling developers to create wallets, check balances, build transactions, and send signed transactions with minimal overhead.",
-  "url": "https://github.com/hedera-dev/hts-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "HTS MCP Server"
+	"type": "mcp-server",
+	"packageName": "hedera",
+	"description": "Provides a lightweight blockchain interaction toolkit for Hedera network operations, enabling developers to create wallets, check balances, build transactions, and send signed transactions with minimal overhead.",
+	"url": "https://github.com/hedera-dev/hts-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "HTS MCP Server"
 }

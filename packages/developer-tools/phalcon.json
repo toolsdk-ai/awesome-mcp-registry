@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "phalcon",
-  "description": "Integrates with Phalcon PHP framework to enable project management, code scaffolding, and Cursor IDE data analysis through FastMCP and SQLite database capabilities",
-  "url": "https://github.com/xindong888999/phalcon-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Phalcon MCP"
+	"type": "mcp-server",
+	"packageName": "phalcon",
+	"description": "Integrates with Phalcon PHP framework to enable project management, code scaffolding, and Cursor IDE data analysis through FastMCP and SQLite database capabilities",
+	"url": "https://github.com/xindong888999/phalcon-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Phalcon MCP"
 }

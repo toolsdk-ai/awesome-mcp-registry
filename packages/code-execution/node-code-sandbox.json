@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "node-code-sandbox",
-  "description": "Provides a secure Docker-based sandbox for executing JavaScript code with npm dependencies, offering both persistent and ephemeral containers with strict resource limits for safe code testing and demonstration.",
-  "url": "https://github.com/alfonsograziano/node-code-sandbox-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Node Code Sandbox MCP"
+	"type": "mcp-server",
+	"packageName": "node-code-sandbox",
+	"description": "Provides a secure Docker-based sandbox for executing JavaScript code with npm dependencies, offering both persistent and ephemeral containers with strict resource limits for safe code testing and demonstration.",
+	"url": "https://github.com/alfonsograziano/node-code-sandbox-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Node Code Sandbox MCP"
 }

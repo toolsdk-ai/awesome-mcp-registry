@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "@suekou/mcp-notion-server",
-  "description": "Integrates with Notion's API to enable document management, knowledge base maintenance, and collaborative workflows through comprehensive tools for managing blocks, pages, databases, users, and comments.",
-  "url": "https://github.com/nanahiryu/notion-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "NOTION_API_TOKEN": {
-      "description": "your-integration-token",
-      "required": true
-    }
-  },
-  "name": "Notion MCP Server"
+	"type": "mcp-server",
+	"packageName": "@suekou/mcp-notion-server",
+	"description": "Integrates with Notion's API to enable document management, knowledge base maintenance, and collaborative workflows through comprehensive tools for managing blocks, pages, databases, users, and comments.",
+	"url": "https://github.com/nanahiryu/notion-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"NOTION_API_TOKEN": {
+			"description": "your-integration-token",
+			"required": true
+		}
+	},
+	"name": "Notion MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tavily-search",
-  "description": "Integrates with Tavily API to provide web search capabilities, returning AI-generated responses with source information in a containerized, cross-platform solution.",
-  "url": "https://github.com/yeonwoosung/metasearch-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "MetaSearch MCP"
+	"type": "mcp-server",
+	"packageName": "tavily-search",
+	"description": "Integrates with Tavily API to provide web search capabilities, returning AI-generated responses with source information in a containerized, cross-platform solution.",
+	"url": "https://github.com/yeonwoosung/metasearch-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "MetaSearch MCP"
 }

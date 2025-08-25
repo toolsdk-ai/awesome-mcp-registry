@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "minima-(local-rag)",
-  "description": "Search and retrieve context from local files for RAG.",
-  "url": "https://github.com/dmayboroda/minima/tree/HEAD/mcp-server",
-  "runtime": "python",
-  "license": "mpl-2.0",
-  "env": {},
-  "name": "Minima Local RAG MCP Server"
+	"type": "mcp-server",
+	"packageName": "minima-(local-rag)",
+	"description": "Search and retrieve context from local files for RAG.",
+	"url": "https://github.com/dmayboroda/minima/tree/HEAD/mcp-server",
+	"runtime": "python",
+	"license": "mpl-2.0",
+	"env": {},
+	"name": "Minima Local RAG MCP Server"
 }

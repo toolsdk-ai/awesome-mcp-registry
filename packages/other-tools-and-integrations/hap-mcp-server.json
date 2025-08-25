@@ -1,31 +1,31 @@
 {
-  "type": "mcp-server",
-  "packageName": "hap-mcp-server",
-  "description": "A Model Context Protocol server that provides seamless integration with Mingdao platform APIs, enabling AI applications to perform operations like worksheet management, record manipulation, and role management through natural language.",
-  "url": "https://github.com/mingdaocloud/hap-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "HOST": {
-      "description": "Host binding (default is 0.0.0.0)",
-      "required": true
-    },
-    "PORT": {
-      "description": "HTTP port for the server (default is 3001)",
-      "required": true
-    },
-    "MINGDAO_HOST": {
-      "description": "Custom host URL (e.g., https://your-domain.com). If provided, API calls will use host/api instead of https://api.mingdao.com",
-      "required": true
-    },
-    "MINGDAO_SIGN": {
-      "description": "Your Mingdao signature",
-      "required": true
-    },
-    "MINGDAO_APP_KEY": {
-      "description": "Your Mingdao application key",
-      "required": true
-    }
-  },
-  "name": "Hap MCP Server"
+	"type": "mcp-server",
+	"packageName": "hap-mcp-server",
+	"description": "A Model Context Protocol server that provides seamless integration with Mingdao platform APIs, enabling AI applications to perform operations like worksheet management, record manipulation, and role management through natural language.",
+	"url": "https://github.com/mingdaocloud/hap-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"HOST": {
+			"description": "Host binding (default is 0.0.0.0)",
+			"required": true
+		},
+		"PORT": {
+			"description": "HTTP port for the server (default is 3001)",
+			"required": true
+		},
+		"MINGDAO_HOST": {
+			"description": "Custom host URL (e.g., https://your-domain.com). If provided, API calls will use host/api instead of https://api.mingdao.com",
+			"required": true
+		},
+		"MINGDAO_SIGN": {
+			"description": "Your Mingdao signature",
+			"required": true
+		},
+		"MINGDAO_APP_KEY": {
+			"description": "Your Mingdao application key",
+			"required": true
+		}
+	},
+	"name": "Hap MCP Server"
 }

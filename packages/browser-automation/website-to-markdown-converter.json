@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "website-to-markdown-converter",
-  "description": "Converts web content to high-quality Markdown using Mozilla's Readability and TurndownService, enabling clean extraction of meaningful content from URLs or HTML files for analysis and document conversion.",
-  "url": "https://github.com/tolik-unicornrider/mcp_scraper",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Mcp Scraper"
+	"type": "mcp-server",
+	"packageName": "website-to-markdown-converter",
+	"description": "Converts web content to high-quality Markdown using Mozilla's Readability and TurndownService, enabling clean extraction of meaningful content from URLs or HTML files for analysis and document conversion.",
+	"url": "https://github.com/tolik-unicornrider/mcp_scraper",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Mcp Scraper"
 }

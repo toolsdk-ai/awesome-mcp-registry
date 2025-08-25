@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "aider",
-  "description": "Enables file editing, creation, code extraction, and git operations directly within conversations through tools like edit_files, create_files, and git_status.",
-  "url": "https://github.com/sengokudaikon/aider-mcp-server",
-  "runtime": "python",
-  "license": "unlicense",
-  "env": {},
-  "name": "Aider MCP Server"
+	"type": "mcp-server",
+	"packageName": "aider",
+	"description": "Enables file editing, creation, code extraction, and git operations directly within conversations through tools like edit_files, create_files, and git_status.",
+	"url": "https://github.com/sengokudaikon/aider-mcp-server",
+	"runtime": "python",
+	"license": "unlicense",
+	"env": {},
+	"name": "Aider MCP Server"
 }

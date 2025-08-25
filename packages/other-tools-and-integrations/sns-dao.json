@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sns-dao",
-  "description": "Integrates with Service Nervous System DAOs on the Internet Computer blockchain to enable proposal listing, neuron management, and vote execution for governance activities",
-  "url": "https://github.com/baolongt/sns-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "SNS MCP Server"
+	"type": "mcp-server",
+	"packageName": "sns-dao",
+	"description": "Integrates with Service Nervous System DAOs on the Internet Computer blockchain to enable proposal listing, neuron management, and vote execution for governance activities",
+	"url": "https://github.com/baolongt/sns-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "SNS MCP Server"
 }

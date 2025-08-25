@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gru-sandbox",
-  "description": "Secure, self-hostable sandbox for running Python, TypeScript, and Bash code in isolated Docker containers with automatic resource management for local command execution.",
-  "url": "https://github.com/babelcloud/gbox",
-  "runtime": "go",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "GBox MCP"
+	"type": "mcp-server",
+	"packageName": "gru-sandbox",
+	"description": "Secure, self-hostable sandbox for running Python, TypeScript, and Bash code in isolated Docker containers with automatic resource management for local command execution.",
+	"url": "https://github.com/babelcloud/gbox",
+	"runtime": "go",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "GBox MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "youtube-research",
-  "description": "Integrates with YouTube API to perform aggregated video searches, enabling efficient content curation and trend analysis on specified topics.",
-  "url": "https://github.com/danhilse/youtube_research_mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "YouTube Research MCP"
+	"type": "mcp-server",
+	"packageName": "youtube-research",
+	"description": "Integrates with YouTube API to perform aggregated video searches, enabling efficient content curation and trend analysis on specified topics.",
+	"url": "https://github.com/danhilse/youtube_research_mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "YouTube Research MCP"
 }

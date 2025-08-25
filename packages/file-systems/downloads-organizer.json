@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "downloads-organizer",
-  "description": "Automatically organizes files in your Downloads folder based on configurable rules, sorting by file type and date while handling duplicates through a RESTful API with real-time updates.",
-  "url": "https://github.com/alexandervtr/cursor-mcp-file-organizer",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Cursor MCP File Organizer"
+	"type": "mcp-server",
+	"packageName": "downloads-organizer",
+	"description": "Automatically organizes files in your Downloads folder based on configurable rules, sorting by file type and date while handling duplicates through a RESTful API with real-time updates.",
+	"url": "https://github.com/alexandervtr/cursor-mcp-file-organizer",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Cursor MCP File Organizer"
 }

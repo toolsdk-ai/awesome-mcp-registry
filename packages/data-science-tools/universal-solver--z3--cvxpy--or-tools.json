@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "universal-solver-(z3,-cvxpy,-or-tools)",
-  "description": "Integrates Z3, CVXPY, and Google OR-Tools to solve constraint satisfaction, convex optimization, and scheduling problems with support for solver chaining where results from one solver feed into another for complex multi-stage optimization workflows.",
-  "url": "https://github.com/sdiehl/usolver",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Universal Solver MCP"
+	"type": "mcp-server",
+	"packageName": "universal-solver-(z3,-cvxpy,-or-tools)",
+	"description": "Integrates Z3, CVXPY, and Google OR-Tools to solve constraint satisfaction, convex optimization, and scheduling problems with support for solver chaining where results from one solver feed into another for complex multi-stage optimization workflows.",
+	"url": "https://github.com/sdiehl/usolver",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Universal Solver MCP"
 }

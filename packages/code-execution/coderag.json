@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "coderag",
-  "description": "Parses TypeScript, JavaScript, Java, and Python codebases into a Neo4J graph database to extract code entities, relationships, and metadata, enabling software quality analysis through 18 metrics tools and guided exploration of dependencies, inheritance patterns, and architectural issues.",
-  "url": "https://github.com/jonnoc/coderag",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "CodeRag MCP Server"
+	"type": "mcp-server",
+	"packageName": "coderag",
+	"description": "Parses TypeScript, JavaScript, Java, and Python codebases into a Neo4J graph database to extract code entities, relationships, and metadata, enabling software quality analysis through 18 metrics tools and guided exploration of dependencies, inheritance patterns, and architectural issues.",
+	"url": "https://github.com/jonnoc/coderag",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "CodeRag MCP Server"
 }

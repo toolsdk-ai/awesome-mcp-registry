@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "kong-konnect",
-  "description": "Integrates with Kong API Gateway to enable management and analysis of API configurations, traffic patterns, and control plane settings through Kong's cloud APIs for DevOps teams maintaining API infrastructure.",
-  "url": "https://github.com/kong/mcp-konnect",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "MCP Konnect"
+	"type": "mcp-server",
+	"packageName": "kong-konnect",
+	"description": "Integrates with Kong API Gateway to enable management and analysis of API configurations, traffic patterns, and control plane settings through Kong's cloud APIs for DevOps teams maintaining API infrastructure.",
+	"url": "https://github.com/kong/mcp-konnect",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "MCP Konnect"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "loxo-recruitment",
-  "description": "Integrates with Loxo's recruitment platform API to streamline hiring processes through automated candidate tracking, job matching, and task management.",
-  "url": "https://github.com/tbensonwest/loxo-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Loxo MCP Server"
+	"type": "mcp-server",
+	"packageName": "loxo-recruitment",
+	"description": "Integrates with Loxo's recruitment platform API to streamline hiring processes through automated candidate tracking, job matching, and task management.",
+	"url": "https://github.com/tbensonwest/loxo-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Loxo MCP Server"
 }

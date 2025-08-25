@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "obsidian-icloud",
-  "description": "Connects Obsidian vaults stored in iCloud Drive to enable direct interaction with markdown notes and files through comprehensive search, reading, writing, and editing capabilities across multiple vaults.",
-  "url": "https://github.com/yanceyofficial/obsidian-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Obsidian MCP"
+	"type": "mcp-server",
+	"packageName": "obsidian-icloud",
+	"description": "Connects Obsidian vaults stored in iCloud Drive to enable direct interaction with markdown notes and files through comprehensive search, reading, writing, and editing capabilities across multiple vaults.",
+	"url": "https://github.com/yanceyofficial/obsidian-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Obsidian MCP"
 }

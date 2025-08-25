@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "webdav",
-  "description": "Enables interaction with WebDAV file systems through natural language commands, providing complete CRUD operations for files and directories with support for both local and remote access.",
-  "url": "https://github.com/laubplusco/mcp-webdav-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "WebDAV MCP Server"
+	"type": "mcp-server",
+	"packageName": "webdav",
+	"description": "Enables interaction with WebDAV file systems through natural language commands, providing complete CRUD operations for files and directories with support for both local and remote access.",
+	"url": "https://github.com/laubplusco/mcp-webdav-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "WebDAV MCP Server"
 }

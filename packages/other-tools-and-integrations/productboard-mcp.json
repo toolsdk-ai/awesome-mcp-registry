@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "productboard-mcp",
-  "description": "Integrates with the Productboard API to enable access to companies, components, features, and products for enhanced product management and feature tracking workflows.",
-  "url": "https://github.com/kenjihikmatullah/productboard-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "PRODUCTBOARD_ACCESS_TOKEN": {
-      "description": "<YOUR_TOKEN>",
-      "required": true
-    }
-  },
-  "name": "Productboard MCP"
+	"type": "mcp-server",
+	"packageName": "productboard-mcp",
+	"description": "Integrates with the Productboard API to enable access to companies, components, features, and products for enhanced product management and feature tracking workflows.",
+	"url": "https://github.com/kenjihikmatullah/productboard-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"PRODUCTBOARD_ACCESS_TOKEN": {
+			"description": "<YOUR_TOKEN>",
+			"required": true
+		}
+	},
+	"name": "Productboard MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "esa.io",
-  "description": "Integrates with esa.io knowledge management platform to enable searching, reading, creating, updating, and deleting posts and comments with support for advanced query parameters and content management features.",
-  "url": "https://github.com/harukikaneko/esa-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Esa MCP"
+	"type": "mcp-server",
+	"packageName": "esa.io",
+	"description": "Integrates with esa.io knowledge management platform to enable searching, reading, creating, updating, and deleting posts and comments with support for advanced query parameters and content management features.",
+	"url": "https://github.com/harukikaneko/esa-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Esa MCP"
 }

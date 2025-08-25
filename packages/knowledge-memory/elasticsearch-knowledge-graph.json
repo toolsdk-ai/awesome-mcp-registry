@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "elasticsearch-knowledge-graph",
-  "description": "Elasticsearch-based knowledge graph that tracks access patterns to prioritize recent, important, and frequently accessed information with advanced search capabilities and complete CRUD operations.",
-  "url": "https://github.com/j3k0/mcp-brain-tools",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Brain Tools"
+	"type": "mcp-server",
+	"packageName": "elasticsearch-knowledge-graph",
+	"description": "Elasticsearch-based knowledge graph that tracks access patterns to prioritize recent, important, and frequently accessed information with advanced search capabilities and complete CRUD operations.",
+	"url": "https://github.com/j3k0/mcp-brain-tools",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Brain Tools"
 }

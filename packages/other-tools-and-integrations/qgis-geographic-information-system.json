@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "qgis-geographic-information-system",
-  "description": "Enables remote control of QGIS geographic information system for spatial analysis, map creation, and geographic data management through a JSON-based API",
-  "url": "https://github.com/syauqi-uqi/qgis_mcp_modify1",
-  "runtime": "python",
-  "license": "cc0-1.0",
-  "env": {},
-  "name": "QGIS MCP Modify1"
+	"type": "mcp-server",
+	"packageName": "qgis-geographic-information-system",
+	"description": "Enables remote control of QGIS geographic information system for spatial analysis, map creation, and geographic data management through a JSON-based API",
+	"url": "https://github.com/syauqi-uqi/qgis_mcp_modify1",
+	"runtime": "python",
+	"license": "cc0-1.0",
+	"env": {},
+	"name": "QGIS MCP Modify1"
 }

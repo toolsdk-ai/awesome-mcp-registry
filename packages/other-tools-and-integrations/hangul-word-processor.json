@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hangul-word-processor",
-  "description": "Enables direct creation, editing, and formatting of Korean documents in Hangul Word Processor (HWP) format through Python or Node.js interfaces that control the HWP COM interface.",
-  "url": "https://github.com/jkf87/hwp-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "HWP MCP"
+	"type": "mcp-server",
+	"packageName": "hangul-word-processor",
+	"description": "Enables direct creation, editing, and formatting of Korean documents in Hangul Word Processor (HWP) format through Python or Node.js interfaces that control the HWP COM interface.",
+	"url": "https://github.com/jkf87/hwp-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "HWP MCP"
 }

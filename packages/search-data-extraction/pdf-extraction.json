@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pdf-extraction",
-  "description": "Extracts text and performs OCR on PDF files using Python libraries for tasks like document analysis and content indexing.",
-  "url": "https://github.com/xraywu/mcp-pdf-extraction-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "PDF Extraction MCP Server"
+	"type": "mcp-server",
+	"packageName": "pdf-extraction",
+	"description": "Extracts text and performs OCR on PDF files using Python libraries for tasks like document analysis and content indexing.",
+	"url": "https://github.com/xraywu/mcp-pdf-extraction-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "PDF Extraction MCP Server"
 }

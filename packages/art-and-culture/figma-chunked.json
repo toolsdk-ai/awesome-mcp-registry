@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "figma-chunked",
-  "description": "Provides a memory-efficient interface to the Figma API that handles large files by breaking operations into manageable chunks with pagination support, filtering capabilities, and resume functionality for retrieving design data without memory constraints.",
-  "url": "https://github.com/archimedescrypto/figma-mcp-chunked",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Figma MCP Chunked"
+	"type": "mcp-server",
+	"packageName": "figma-chunked",
+	"description": "Provides a memory-efficient interface to the Figma API that handles large files by breaking operations into manageable chunks with pagination support, filtering capabilities, and resume functionality for retrieving design data without memory constraints.",
+	"url": "https://github.com/archimedescrypto/figma-mcp-chunked",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Figma MCP Chunked"
 }

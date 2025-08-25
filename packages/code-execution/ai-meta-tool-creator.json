@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ai-meta-tool-creator",
-  "description": "Enables AI to dynamically create, execute, and manage custom tools in a secure sandbox environment for JavaScript, Python, or shell code with persistent storage capabilities.",
-  "url": "https://github.com/alxspiker/ai-meta-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "AI Meta MCP Server"
+	"type": "mcp-server",
+	"packageName": "ai-meta-tool-creator",
+	"description": "Enables AI to dynamically create, execute, and manage custom tools in a secure sandbox environment for JavaScript, Python, or shell code with persistent storage capabilities.",
+	"url": "https://github.com/alxspiker/ai-meta-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "AI Meta MCP Server"
 }

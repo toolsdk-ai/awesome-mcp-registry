@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "@aindreyway/mcp-neurolora",
-  "description": "Extract and document code from your local filesystem, enabling automated documentation and codebase analysis.",
-  "url": "https://github.com/aindreyway/mcp-neurolora",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "NODE_OPTIONS": {
-      "description": "--max-old-space-size=256",
-      "required": true
-    },
-    "OPENAI_API_KEY": {
-      "description": "your_api_key_here",
-      "required": true
-    }
-  },
-  "name": "MCP Neurolora"
+	"type": "mcp-server",
+	"packageName": "@aindreyway/mcp-neurolora",
+	"description": "Extract and document code from your local filesystem, enabling automated documentation and codebase analysis.",
+	"url": "https://github.com/aindreyway/mcp-neurolora",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"NODE_OPTIONS": {
+			"description": "--max-old-space-size=256",
+			"required": true
+		},
+		"OPENAI_API_KEY": {
+			"description": "your_api_key_here",
+			"required": true
+		}
+	},
+	"name": "MCP Neurolora"
 }

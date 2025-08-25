@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "strateegia-mcp-server",
-  "description": "Provides a bridge to the Strateegia API, enabling quick retrieval of project workspace details through a single tool for listing projects and integrating collaborative data directly into workflows.",
-  "url": "https://github.com/filipecalegario/mcp-server-strateegia",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "STRATEEGIA_API_KEY": {
-      "description": "your_api_key_here",
-      "required": true
-    }
-  },
-  "name": "Strateegia MCP Server"
+	"type": "mcp-server",
+	"packageName": "strateegia-mcp-server",
+	"description": "Provides a bridge to the Strateegia API, enabling quick retrieval of project workspace details through a single tool for listing projects and integrating collaborative data directly into workflows.",
+	"url": "https://github.com/filipecalegario/mcp-server-strateegia",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"STRATEEGIA_API_KEY": {
+			"description": "your_api_key_here",
+			"required": true
+		}
+	},
+	"name": "Strateegia MCP Server"
 }

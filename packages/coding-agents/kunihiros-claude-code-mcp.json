@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kunihiros/claude-code-mcp",
-  "description": "Use Claude Code with less capable LLMs.",
-  "url": "https://github.com/kunihiros/claude-code-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Claude Code MCP"
+	"type": "mcp-server",
+	"packageName": "@kunihiros/claude-code-mcp",
+	"description": "Use Claude Code with less capable LLMs.",
+	"url": "https://github.com/kunihiros/claude-code-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Claude Code MCP"
 }

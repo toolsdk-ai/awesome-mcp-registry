@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "x-com-mcp-server",
-  "description": "Integrates with X.com's API v2 through OAuth 2.0 authentication to provide complete post management capabilities including creation, deletion, search, timelines, retweets, likes, bookmarks, and engagement tracking for social media automation and content analysis workflows.",
-  "url": "https://github.com/tiovikram/x.com-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "X_COM_ACCESS_TOKEN": {
-      "description": "your-access-token",
-      "required": true
-    }
-  },
-  "name": "X.com MCP Server"
+	"type": "mcp-server",
+	"packageName": "x-com-mcp-server",
+	"description": "Integrates with X.com's API v2 through OAuth 2.0 authentication to provide complete post management capabilities including creation, deletion, search, timelines, retweets, likes, bookmarks, and engagement tracking for social media automation and content analysis workflows.",
+	"url": "https://github.com/tiovikram/x.com-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"X_COM_ACCESS_TOKEN": {
+			"description": "your-access-token",
+			"required": true
+		}
+	},
+	"name": "X.com MCP Server"
 }

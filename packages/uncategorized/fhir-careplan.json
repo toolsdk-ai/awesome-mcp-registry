@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "fhir-careplan",
-  "description": "A comprehensive Model Context Protocol server that provides universal access to multiple FHIR servers with AI-powered clinical analysis capabilities for healthcare data integration and patient care planning.",
-  "url": "https://github.com/Kushagra-Dutta/Fhir-MCP",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "OPENAI_API_KEY": {
-      "description": "Your OpenAI API key for AI-powered clinical analysis features",
-      "required": true
-    },
-    "FHIR_SERVER_URL": {
-      "description": "URL of the FHIR server",
-      "required": true
-    },
-    "FHIR_SERVER_AUTH_TOKEN": {
-      "description": "Authentication token for the FHIR server",
-      "required": true
-    }
-  },
-  "name": "Fhir MCP"
+	"type": "mcp-server",
+	"packageName": "fhir-careplan",
+	"description": "A comprehensive Model Context Protocol server that provides universal access to multiple FHIR servers with AI-powered clinical analysis capabilities for healthcare data integration and patient care planning.",
+	"url": "https://github.com/Kushagra-Dutta/Fhir-MCP",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"OPENAI_API_KEY": {
+			"description": "Your OpenAI API key for AI-powered clinical analysis features",
+			"required": true
+		},
+		"FHIR_SERVER_URL": {
+			"description": "URL of the FHIR server",
+			"required": true
+		},
+		"FHIR_SERVER_AUTH_TOKEN": {
+			"description": "Authentication token for the FHIR server",
+			"required": true
+		}
+	},
+	"name": "Fhir MCP"
 }

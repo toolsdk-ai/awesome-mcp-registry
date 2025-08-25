@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "frida-mcp",
-  "description": "Enables dynamic instrumentation of mobile and desktop applications through Frida toolkit, providing capabilities for process management, device enumeration, and script injection for application analysis and debugging workflows.",
-  "url": "https://github.com/dnakov/frida-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Frida MCP"
+	"type": "mcp-server",
+	"packageName": "frida-mcp",
+	"description": "Enables dynamic instrumentation of mobile and desktop applications through Frida toolkit, providing capabilities for process management, device enumeration, and script injection for application analysis and debugging workflows.",
+	"url": "https://github.com/dnakov/frida-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Frida MCP"
 }

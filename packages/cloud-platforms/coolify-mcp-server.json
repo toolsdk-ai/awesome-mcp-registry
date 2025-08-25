@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "coolify-mcp-server",
-  "description": "Enables comprehensive Coolify infrastructure management by exposing tools for creating, deploying, and tracking servers, applications, and team resources with robust operational capabilities.",
-  "url": "https://github.com/wrediam/coolify-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "COOLIFY_BASE_URL": {
-      "description": "your-coolify-url",
-      "required": true
-    },
-    "COOLIFY_TOKEN": {
-      "description": "your-api-token",
-      "required": true
-    }
-  },
-  "name": "Coolify MCP Server"
+	"type": "mcp-server",
+	"packageName": "coolify-mcp-server",
+	"description": "Enables comprehensive Coolify infrastructure management by exposing tools for creating, deploying, and tracking servers, applications, and team resources with robust operational capabilities.",
+	"url": "https://github.com/wrediam/coolify-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"COOLIFY_BASE_URL": {
+			"description": "your-coolify-url",
+			"required": true
+		},
+		"COOLIFY_TOKEN": {
+			"description": "your-api-token",
+			"required": true
+		}
+	},
+	"name": "Coolify MCP Server"
 }

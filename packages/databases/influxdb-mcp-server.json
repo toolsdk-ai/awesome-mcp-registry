@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "influxdb-mcp-server",
-  "description": "Connects to InfluxDB time-series databases for querying measurements, writing data, and managing buckets through a bridge that exposes database functionality via tools and resources.",
-  "url": "https://github.com/idoru/influxdb-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "InfluxDB MCP Server"
+	"type": "mcp-server",
+	"packageName": "influxdb-mcp-server",
+	"description": "Connects to InfluxDB time-series databases for querying measurements, writing data, and managing buckets through a bridge that exposes database functionality via tools and resources.",
+	"url": "https://github.com/idoru/influxdb-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "InfluxDB MCP Server"
 }

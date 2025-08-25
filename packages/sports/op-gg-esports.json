@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "op.gg-esports",
-  "description": "Connects to OP.GG's League of Legends esports data to fetch and format upcoming match schedules with essential details including match names, leagues, scores, and direct links.",
-  "url": "https://github.com/opgginc/esports-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Esports MCP"
+	"type": "mcp-server",
+	"packageName": "op.gg-esports",
+	"description": "Connects to OP.GG's League of Legends esports data to fetch and format upcoming match schedules with essential details including match names, leagues, scores, and direct links.",
+	"url": "https://github.com/opgginc/esports-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Esports MCP"
 }

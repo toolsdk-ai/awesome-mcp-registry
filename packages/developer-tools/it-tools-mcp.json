@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "it-tools-mcp",
-  "description": "Provides 50+ developer utilities including cryptographic operations, text processing, data format conversion, network calculations, and encoding functions through a containerized TypeScript server with security features and rate limiting.",
-  "url": "https://github.com/wrenchpilot/it-tools-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "IT Tools MCP"
+	"type": "mcp-server",
+	"packageName": "it-tools-mcp",
+	"description": "Provides 50+ developer utilities including cryptographic operations, text processing, data format conversion, network calculations, and encoding functions through a containerized TypeScript server with security features and rate limiting.",
+	"url": "https://github.com/wrenchpilot/it-tools-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "IT Tools MCP"
 }

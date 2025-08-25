@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "chatgpt-responses",
-  "description": "Bridges Claude Desktop with ChatGPT API, enabling direct access to standard ChatGPT interactions and web search-enabled queries with conversation continuity through response IDs.",
-  "url": "https://github.com/billster45/mcp-chatgpt-responses",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "ChatGPT Responses MCP"
+	"type": "mcp-server",
+	"packageName": "chatgpt-responses",
+	"description": "Bridges Claude Desktop with ChatGPT API, enabling direct access to standard ChatGPT interactions and web search-enabled queries with conversation continuity through response IDs.",
+	"url": "https://github.com/billster45/mcp-chatgpt-responses",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "ChatGPT Responses MCP"
 }

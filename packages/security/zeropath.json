@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "zeropath",
-  "description": "Integrates with ZeroPath vulnerability management platform to enable searching, retrieving detailed information about security issues, and approving patches through authenticated API interactions.",
-  "url": "https://github.com/zeropathai/zeropath-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "ZeroPath MCP Server"
+	"type": "mcp-server",
+	"packageName": "zeropath",
+	"description": "Integrates with ZeroPath vulnerability management platform to enable searching, retrieving detailed information about security issues, and approving patches through authenticated API interactions.",
+	"url": "https://github.com/zeropathai/zeropath-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "ZeroPath MCP Server"
 }

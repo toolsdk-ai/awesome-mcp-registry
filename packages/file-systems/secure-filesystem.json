@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "secure-filesystem",
-  "description": "Provides secure file system access through a Go-based server that enables reading, writing, listing, and manipulating files within specified allowed directories while preventing directory traversal attacks.",
-  "url": "https://github.com/cheny-alf/filesystem-server",
-  "runtime": "go",
-  "license": "unknown",
-  "env": {},
-  "name": "Secure Filesystem Server"
+	"type": "mcp-server",
+	"packageName": "secure-filesystem",
+	"description": "Provides secure file system access through a Go-based server that enables reading, writing, listing, and manipulating files within specified allowed directories while preventing directory traversal attacks.",
+	"url": "https://github.com/cheny-alf/filesystem-server",
+	"runtime": "go",
+	"license": "unknown",
+	"env": {},
+	"name": "Secure Filesystem Server"
 }

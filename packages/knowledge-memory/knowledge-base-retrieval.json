@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "knowledge-base-retrieval",
-  "description": "Integrates with knowledge bases to enable efficient content retrieval and vectorization for question answering and information retrieval tasks",
-  "url": "https://github.com/jeanibarz/knowledge-base-mcp-server",
-  "runtime": "node",
-  "license": "unlicense",
-  "env": {},
-  "name": "Knowledge Base MCP Server"
+	"type": "mcp-server",
+	"packageName": "knowledge-base-retrieval",
+	"description": "Integrates with knowledge bases to enable efficient content retrieval and vectorization for question answering and information retrieval tasks",
+	"url": "https://github.com/jeanibarz/knowledge-base-mcp-server",
+	"runtime": "node",
+	"license": "unlicense",
+	"env": {},
+	"name": "Knowledge Base MCP Server"
 }

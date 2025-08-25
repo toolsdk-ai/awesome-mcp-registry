@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "variance-log",
-  "description": "Analyzes statistical variations in conversation structures and logs unusual events to a SQLite database for monitoring AI behavior and detecting anomalies.",
-  "url": "https://github.com/truaxki/mcp-variance-log",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Variance Log"
+	"type": "mcp-server",
+	"packageName": "variance-log",
+	"description": "Analyzes statistical variations in conversation structures and logs unusual events to a SQLite database for monitoring AI behavior and detecting anomalies.",
+	"url": "https://github.com/truaxki/mcp-variance-log",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Variance Log"
 }

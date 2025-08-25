@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "clojars-dependency-versions",
-  "description": "Retrieves information related to Clojure dependency management.",
-  "url": "https://github.com/bigsy/clojars-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Clojars MCP Server"
+	"type": "mcp-server",
+	"packageName": "clojars-dependency-versions",
+	"description": "Retrieves information related to Clojure dependency management.",
+	"url": "https://github.com/bigsy/clojars-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Clojars MCP Server"
 }

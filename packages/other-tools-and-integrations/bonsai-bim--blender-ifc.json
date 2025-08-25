@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bonsai-bim-(blender-ifc)",
-  "description": "Connects Claude to Blender for analyzing and interacting with IFC building models through five specialized tools for querying project information, listing entities, examining properties, exploring spatial structures, and analyzing element relationships.",
-  "url": "https://github.com/jotaderodriguez/bonsai_mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Bonsai MCP"
+	"type": "mcp-server",
+	"packageName": "bonsai-bim-(blender-ifc)",
+	"description": "Connects Claude to Blender for analyzing and interacting with IFC building models through five specialized tools for querying project information, listing entities, examining properties, exploring spatial structures, and analyzing element relationships.",
+	"url": "https://github.com/jotaderodriguez/bonsai_mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Bonsai MCP"
 }

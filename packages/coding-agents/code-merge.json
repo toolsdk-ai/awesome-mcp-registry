@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "code-merge",
-  "description": "Enables code analysis and merging from multiple files in a project with efficient handling of file trees, content compression, and filtering through .gitignore rules for comprehensive codebase context.",
-  "url": "https://github.com/yy1588133/code-merge-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Code Merge MCP"
+	"type": "mcp-server",
+	"packageName": "code-merge",
+	"description": "Enables code analysis and merging from multiple files in a project with efficient handling of file trees, content compression, and filtering through .gitignore rules for comprehensive codebase context.",
+	"url": "https://github.com/yy1588133/code-merge-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Code Merge MCP"
 }

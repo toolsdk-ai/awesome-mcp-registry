@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "aipolabs-mcp",
-  "description": "Allow dynamic search and execute any tools available on ACI.dev.",
-  "url": "https://github.com/aipotheosis-labs/aci-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "ACI MCP"
+	"type": "mcp-server",
+	"packageName": "aipolabs-mcp",
+	"description": "Allow dynamic search and execute any tools available on ACI.dev.",
+	"url": "https://github.com/aipotheosis-labs/aci-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "ACI MCP"
 }

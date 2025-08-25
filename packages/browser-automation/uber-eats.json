@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "uber-eats",
-  "description": "Integrates with Uber Eats using browser automation to enable restaurant searches, menu exploration, and food order placement for applications requiring food delivery capabilities.",
-  "url": "https://github.com/ericzakariasson/uber-eats-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Uber Eats MCP Server"
+	"type": "mcp-server",
+	"packageName": "uber-eats",
+	"description": "Integrates with Uber Eats using browser automation to enable restaurant searches, menu exploration, and food order placement for applications requiring food delivery capabilities.",
+	"url": "https://github.com/ericzakariasson/uber-eats-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Uber Eats MCP Server"
 }

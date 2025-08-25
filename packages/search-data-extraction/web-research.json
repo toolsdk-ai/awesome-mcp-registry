@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "web-research",
-  "description": "Enables AI web browsing through Google search, webpage extraction, and screenshot capture tools with session management for in-depth online research and content analysis.",
-  "url": "https://github.com/phialsbasement/mcp-webresearch-stealthified",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Web Research Stealthified MCP"
+	"type": "mcp-server",
+	"packageName": "web-research",
+	"description": "Enables AI web browsing through Google search, webpage extraction, and screenshot capture tools with session management for in-depth online research and content analysis.",
+	"url": "https://github.com/phialsbasement/mcp-webresearch-stealthified",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Web Research Stealthified MCP"
 }

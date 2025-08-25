@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-communicator-telegram",
-  "description": "Enables real-time communication with Telegram users via bots, supporting asynchronous messaging and secure chat interactions.",
-  "url": "https://github.com/qpd-v/mcp-communicator-telegram",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "TELEGRAM_TOKEN": {
-      "description": "your_bot_token_here",
-      "required": true
-    },
-    "CHAT_ID": {
-      "description": "your_chat_id_here",
-      "required": true
-    }
-  },
-  "name": "Telegram MCP Communicator"
+	"type": "mcp-server",
+	"packageName": "mcp-communicator-telegram",
+	"description": "Enables real-time communication with Telegram users via bots, supporting asynchronous messaging and secure chat interactions.",
+	"url": "https://github.com/qpd-v/mcp-communicator-telegram",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"TELEGRAM_TOKEN": {
+			"description": "your_bot_token_here",
+			"required": true
+		},
+		"CHAT_ID": {
+			"description": "your_chat_id_here",
+			"required": true
+		}
+	},
+	"name": "Telegram MCP Communicator"
 }

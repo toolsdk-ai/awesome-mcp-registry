@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "plexus",
-  "description": "Multi-tenant OAuth framework that provides secure user authentication, encrypted API key management, and tenant-scoped tool access controls for enterprise MCP deployments requiring robust authentication and authorization layers.",
-  "url": "https://github.com/super-i-tech/mcp_plexus",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "MCP Plexus"
+	"type": "mcp-server",
+	"packageName": "plexus",
+	"description": "Multi-tenant OAuth framework that provides secure user authentication, encrypted API key management, and tenant-scoped tool access controls for enterprise MCP deployments requiring robust authentication and authorization layers.",
+	"url": "https://github.com/super-i-tech/mcp_plexus",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "MCP Plexus"
 }

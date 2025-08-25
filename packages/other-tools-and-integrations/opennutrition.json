@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "opennutrition",
-  "description": "Provides access to OpenNutrition's 300,000+ food database with tools for searching foods by name, browsing paginated lists, retrieving detailed nutritional information by ID, and looking up products via EAN-13 barcodes for recipe analysis and dietary planning.",
-  "url": "https://github.com/deadletterq/mcp-opennutrition",
-  "runtime": "node",
-  "license": "gpl-3.0",
-  "env": {},
-  "name": "OpenNutrition MCP"
+	"type": "mcp-server",
+	"packageName": "opennutrition",
+	"description": "Provides access to OpenNutrition's 300,000+ food database with tools for searching foods by name, browsing paginated lists, retrieving detailed nutritional information by ID, and looking up products via EAN-13 barcodes for recipe analysis and dietary planning.",
+	"url": "https://github.com/deadletterq/mcp-opennutrition",
+	"runtime": "node",
+	"license": "gpl-3.0",
+	"env": {},
+	"name": "OpenNutrition MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "hasura-graphql",
-  "description": "Enables AI interaction with Hasura GraphQL endpoints for schema discovery, data querying, and database operations through a comprehensive set of database tools",
-  "url": "https://github.com/husamabusafa/hasura_mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Hasura MCP"
+	"type": "mcp-server",
+	"packageName": "hasura-graphql",
+	"description": "Enables AI interaction with Hasura GraphQL endpoints for schema discovery, data querying, and database operations through a comprehensive set of database tools",
+	"url": "https://github.com/husamabusafa/hasura_mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Hasura MCP"
 }

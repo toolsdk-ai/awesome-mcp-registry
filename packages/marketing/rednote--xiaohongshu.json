@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "rednote-(xiaohongshu)",
-  "description": "Provides a bridge to Xiaohongshu (Red Note) social media platform for retrieving note details, analyzing trends, and monitoring content without manual browsing.",
-  "url": "https://github.com/jonafly/rednote-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Rednote MCP"
+	"type": "mcp-server",
+	"packageName": "rednote-(xiaohongshu)",
+	"description": "Provides a bridge to Xiaohongshu (Red Note) social media platform for retrieving note details, analyzing trends, and monitoring content without manual browsing.",
+	"url": "https://github.com/jonafly/rednote-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Rednote MCP"
 }

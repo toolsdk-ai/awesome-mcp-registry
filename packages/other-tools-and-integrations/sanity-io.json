@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sanity.io",
-  "description": "Integrates with Sanity.io to provide tools for creating, listing, and publishing draft posts, streamlining content management workflows for websites and applications.",
-  "url": "https://github.com/jlmelis/sanity-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Sanity MCP Server"
+	"type": "mcp-server",
+	"packageName": "sanity.io",
+	"description": "Integrates with Sanity.io to provide tools for creating, listing, and publishing draft posts, streamlining content management workflows for websites and applications.",
+	"url": "https://github.com/jlmelis/sanity-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Sanity MCP Server"
 }

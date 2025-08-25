@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ssh-commander",
-  "description": "Enables secure remote server management by executing SSH commands using stored credentials in a SQLite database, providing tools for command execution and credential management without leaving the conversation interface.",
-  "url": "https://github.com/kinothe-kafkaesque/ssh-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "SSH MCP Server"
+	"type": "mcp-server",
+	"packageName": "ssh-commander",
+	"description": "Enables secure remote server management by executing SSH commands using stored credentials in a SQLite database, providing tools for command execution and credential management without leaving the conversation interface.",
+	"url": "https://github.com/kinothe-kafkaesque/ssh-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "SSH MCP Server"
 }

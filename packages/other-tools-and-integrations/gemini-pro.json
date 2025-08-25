@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gemini-pro",
-  "description": "Integrates Google's Gemini Pro model for text generation, enabling content creation, translation, and conversational capabilities.",
-  "url": "https://github.com/georgejeffers/gemini-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Gemini MCP Server"
+	"type": "mcp-server",
+	"packageName": "gemini-pro",
+	"description": "Integrates Google's Gemini Pro model for text generation, enabling content creation, translation, and conversational capabilities.",
+	"url": "https://github.com/georgejeffers/gemini-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Gemini MCP Server"
 }

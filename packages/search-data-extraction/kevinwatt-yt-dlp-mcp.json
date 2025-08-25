@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kevinwatt/yt-dlp-mcp",
-  "description": "Integrates with YouTube using yt-dlp to enable downloading of videos and subtitles for content analysis and processing tasks.",
-  "url": "https://github.com/kevinwatt/yt-dlp-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "yt-dlp MCP"
+	"type": "mcp-server",
+	"packageName": "@kevinwatt/yt-dlp-mcp",
+	"description": "Integrates with YouTube using yt-dlp to enable downloading of videos and subtitles for content analysis and processing tasks.",
+	"url": "https://github.com/kevinwatt/yt-dlp-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "yt-dlp MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dom-screenshot",
-  "description": "Captures screenshots of specific DOM elements through an interactive browser overlay that allows users to hover and click on webpage elements to generate PNG images using html2canvas.",
-  "url": "https://github.com/adtac/domshot",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Domshot"
+	"type": "mcp-server",
+	"packageName": "dom-screenshot",
+	"description": "Captures screenshots of specific DOM elements through an interactive browser overlay that allows users to hover and click on webpage elements to generate PNG images using html2canvas.",
+	"url": "https://github.com/adtac/domshot",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Domshot"
 }

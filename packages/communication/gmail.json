@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gmail",
-  "description": "Integrates with Gmail API to enable email listing, reading, and filtering of emails.",
-  "url": "https://github.com/zacco16/gmail-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Gmail MCP Server"
+	"type": "mcp-server",
+	"packageName": "gmail",
+	"description": "Integrates with Gmail API to enable email listing, reading, and filtering of emails.",
+	"url": "https://github.com/zacco16/gmail-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Gmail MCP Server"
 }

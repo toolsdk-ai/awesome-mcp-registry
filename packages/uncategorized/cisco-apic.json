@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cisco-apic",
-  "description": "Integrates with Cisco APIC for managing Application Centric Infrastructure fabrics through REST API operations, enabling managed object retrieval, automated configuration backups to SCP servers with AES encryption, and session token management for network automation and infrastructure monitoring workflows.",
-  "url": "https://github.com/datacenter/mcp_server_for_cisco_aci",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "MCP Server for Cisco ACI"
+	"type": "mcp-server",
+	"packageName": "cisco-apic",
+	"description": "Integrates with Cisco APIC for managing Application Centric Infrastructure fabrics through REST API operations, enabling managed object retrieval, automated configuration backups to SCP servers with AES encryption, and session token management for network automation and infrastructure monitoring workflows.",
+	"url": "https://github.com/datacenter/mcp_server_for_cisco_aci",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "MCP Server for Cisco ACI"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "joern-(code-analysis)",
-  "description": "Integrates with Joern's code analysis capabilities to enable static code analysis, vulnerability identification, and code structure understanding through a Python interface to Code Property Graphs.",
-  "url": "https://github.com/sfncat/mcp-joern",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Joern MCP"
+	"type": "mcp-server",
+	"packageName": "joern-(code-analysis)",
+	"description": "Integrates with Joern's code analysis capabilities to enable static code analysis, vulnerability identification, and code structure understanding through a Python interface to Code Property Graphs.",
+	"url": "https://github.com/sfncat/mcp-joern",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Joern MCP"
 }

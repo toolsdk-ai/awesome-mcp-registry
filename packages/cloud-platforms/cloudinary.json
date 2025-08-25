@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cloudinary",
-  "description": "Integrates with Cloudinary to enable seamless image and video uploads with customizable parameters for dynamic content management.",
-  "url": "https://github.com/felores/cloudinary-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Cloudinary MCP Server"
+	"type": "mcp-server",
+	"packageName": "cloudinary",
+	"description": "Integrates with Cloudinary to enable seamless image and video uploads with customizable parameters for dynamic content management.",
+	"url": "https://github.com/felores/cloudinary-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Cloudinary MCP Server"
 }

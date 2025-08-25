@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "trusted-gmail",
-  "description": "Securely accesses Gmail through AWS Nitro enclaves, enabling email search, retrieval, and sending while protecting sensitive credentials",
-  "url": "https://github.com/0xfreysa/trusted-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Trusted MCP Server"
+	"type": "mcp-server",
+	"packageName": "trusted-gmail",
+	"description": "Securely accesses Gmail through AWS Nitro enclaves, enabling email search, retrieval, and sending while protecting sensitive credentials",
+	"url": "https://github.com/0xfreysa/trusted-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Trusted MCP Server"
 }

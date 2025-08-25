@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-stability-ai",
-  "description": "Integrates Stability AI's image generation and manipulation capabilities for editing, upscaling, and more via Stable Diffusion models.",
-  "url": "https://github.com/tadasant/mcp-server-stability-ai",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "STABILITY_AI_API_KEY": {
-      "description": "sk-1234567890",
-      "required": true
-    }
-  },
-  "name": "Stability AI MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-server-stability-ai",
+	"description": "Integrates Stability AI's image generation and manipulation capabilities for editing, upscaling, and more via Stable Diffusion models.",
+	"url": "https://github.com/tadasant/mcp-server-stability-ai",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"STABILITY_AI_API_KEY": {
+			"description": "sk-1234567890",
+			"required": true
+		}
+	},
+	"name": "Stability AI MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sqlalchemy-odbc-bridge",
-  "description": "Provides a bridge between databases and SQL/SPARQL queries through ODBC connections, enabling schema exploration, table management, and query execution with formatted results.",
-  "url": "https://github.com/openlinksoftware/mcp-sqlalchemy-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "SQLAlchemy MCP Server"
+	"type": "mcp-server",
+	"packageName": "sqlalchemy-odbc-bridge",
+	"description": "Provides a bridge between databases and SQL/SPARQL queries through ODBC connections, enabling schema exploration, table management, and query execution with formatted results.",
+	"url": "https://github.com/openlinksoftware/mcp-sqlalchemy-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "SQLAlchemy MCP Server"
 }

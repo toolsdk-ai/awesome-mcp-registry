@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-text-editor",
-  "description": "Implements Claude's text editor tool as a server, enabling viewing, editing, and creating text files with persistent state across command calls.",
-  "url": "https://github.com/bhouston/mcp-server-text-editor",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Text Editor MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-server-text-editor",
+	"description": "Implements Claude's text editor tool as a server, enabling viewing, editing, and creating text files with persistent state across command calls.",
+	"url": "https://github.com/bhouston/mcp-server-text-editor",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Text Editor MCP Server"
 }

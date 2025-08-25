@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "voice-call-(twilio)",
-  "description": "Enables AI to make outbound phone calls via Twilio with real-time speech processing, creating natural conversations for appointment scheduling, customer service, or information gathering without human intervention.",
-  "url": "https://github.com/popcornspace/voice-call-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Voice Call MCP Server"
+	"type": "mcp-server",
+	"packageName": "voice-call-(twilio)",
+	"description": "Enables AI to make outbound phone calls via Twilio with real-time speech processing, creating natural conversations for appointment scheduling, customer service, or information gathering without human intervention.",
+	"url": "https://github.com/popcornspace/voice-call-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Voice Call MCP Server"
 }

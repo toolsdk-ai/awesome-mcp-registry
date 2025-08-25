@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "systems-modeling",
-  "description": "Enables systems modeling and visualization by running simulations based on specifications and loading documentation to help generate better models without requiring deep knowledge of the underlying library.",
-  "url": "https://github.com/lethain/systems-mcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Systems MCP"
+	"type": "mcp-server",
+	"packageName": "systems-modeling",
+	"description": "Enables systems modeling and visualization by running simulations based on specifications and loading documentation to help generate better models without requiring deep knowledge of the underlying library.",
+	"url": "https://github.com/lethain/systems-mcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Systems MCP"
 }

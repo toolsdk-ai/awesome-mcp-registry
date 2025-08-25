@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "jadx-android-decompiler",
-  "description": "A plugin for Jadx that exposes the MCP API, enabling intelligent navigation and automation of reverse engineering workflows — ideal for AI-assisted analysis of Android apps.",
-  "url": "https://github.com/mobilehackinglab/jadx-mcp-plugin",
-  "runtime": "java",
-  "license": "unknown",
-  "env": {},
-  "name": "Jadx MCP Plugin"
+	"type": "mcp-server",
+	"packageName": "jadx-android-decompiler",
+	"description": "A plugin for Jadx that exposes the MCP API, enabling intelligent navigation and automation of reverse engineering workflows — ideal for AI-assisted analysis of Android apps.",
+	"url": "https://github.com/mobilehackinglab/jadx-mcp-plugin",
+	"runtime": "java",
+	"license": "unknown",
+	"env": {},
+	"name": "Jadx MCP Plugin"
 }

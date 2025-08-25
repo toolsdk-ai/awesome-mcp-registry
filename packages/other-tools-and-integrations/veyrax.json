@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "veyrax",
-  "description": "Integrates with Veyrax's API to enable access to specialized AI capabilities and data services, utilizing TypeScript and Node.js for seamless interaction with Veyrax's platform.",
-  "url": "https://github.com/veyrax/veyrax-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Veyrax MCP"
+	"type": "mcp-server",
+	"packageName": "veyrax",
+	"description": "Integrates with Veyrax's API to enable access to specialized AI capabilities and data services, utilizing TypeScript and Node.js for seamless interaction with Veyrax's platform.",
+	"url": "https://github.com/veyrax/veyrax-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Veyrax MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@kazuph/mcp-browser-tabs",
-  "description": "Integrates with Chrome on macOS to retrieve and manage browser tab information using AppleScript.",
-  "url": "https://github.com/kazuph/mcp-browser-tabs",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Browser Tabs MCP"
+	"type": "mcp-server",
+	"packageName": "@kazuph/mcp-browser-tabs",
+	"description": "Integrates with Chrome on macOS to retrieve and manage browser tab information using AppleScript.",
+	"url": "https://github.com/kazuph/mcp-browser-tabs",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Browser Tabs MCP"
 }

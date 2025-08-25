@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "china-railway-(12306)",
-  "description": "Integrates with the Chinese Railway (12306) system to provide train schedules, ticket availability, and travel planning information for transportation logistics within China.",
-  "url": "https://github.com/other-blowsnow/mcp-server-chinarailway",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "China Railway 12306 MCP Server"
+	"type": "mcp-server",
+	"packageName": "china-railway-(12306)",
+	"description": "Integrates with the Chinese Railway (12306) system to provide train schedules, ticket availability, and travel planning information for transportation logistics within China.",
+	"url": "https://github.com/other-blowsnow/mcp-server-chinarailway",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "China Railway 12306 MCP Server"
 }

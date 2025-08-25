@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "image-reader",
-  "description": "Provides advanced image processing capabilities using TypeScript and Sharp, enabling users to list, analyze, resize, and convert images through flexible metadata extraction, thumbnail generation, and format conversion tools.",
-  "url": "https://github.com/rupeebw/mcp-image-reader",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Image Reader MCP"
+	"type": "mcp-server",
+	"packageName": "image-reader",
+	"description": "Provides advanced image processing capabilities using TypeScript and Sharp, enabling users to list, analyze, resize, and convert images through flexible metadata extraction, thumbnail generation, and format conversion tools.",
+	"url": "https://github.com/rupeebw/mcp-image-reader",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Image Reader MCP"
 }

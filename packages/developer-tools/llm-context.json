@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "llm-context",
-  "description": "Streamlines code context sharing with LLMs by implementing smart file selection, code outlining, and multi-language support for efficient code reviews and documentation generation.",
-  "url": "https://github.com/cyberchitta/llm-context.py",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "LLM Context"
+	"type": "mcp-server",
+	"packageName": "llm-context",
+	"description": "Streamlines code context sharing with LLMs by implementing smart file selection, code outlining, and multi-language support for efficient code reviews and documentation generation.",
+	"url": "https://github.com/cyberchitta/llm-context.py",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "LLM Context"
 }

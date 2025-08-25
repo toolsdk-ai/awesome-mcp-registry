@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "file-operations-server",
-  "description": "Enhances file and directory management with streaming, patching, and change tracking for advanced manipulation, real-time monitoring, and integration into automated workflows.",
-  "url": "https://github.com/bsmi021/mcp-file-operations-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "File Operations MCP Server"
+	"type": "mcp-server",
+	"packageName": "file-operations-server",
+	"description": "Enhances file and directory management with streaming, patching, and change tracking for advanced manipulation, real-time monitoring, and integration into automated workflows.",
+	"url": "https://github.com/bsmi021/mcp-file-operations-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "File Operations MCP Server"
 }

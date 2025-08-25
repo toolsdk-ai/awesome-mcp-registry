@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "groundx-rag",
-  "description": "Integrates with GroundX to provide document search and ingestion capabilities, enabling domain-specific knowledge retrieval without requiring direct access to underlying document storage.",
-  "url": "https://github.com/prixyy/rag_based_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "RAG Based MCP"
+	"type": "mcp-server",
+	"packageName": "groundx-rag",
+	"description": "Integrates with GroundX to provide document search and ingestion capabilities, enabling domain-specific knowledge retrieval without requiring direct access to underlying document storage.",
+	"url": "https://github.com/prixyy/rag_based_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "RAG Based MCP"
 }

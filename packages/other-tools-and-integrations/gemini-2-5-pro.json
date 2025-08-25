@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "gemini-2.5-pro",
-  "description": "Enables Claude Desktop to interact with Google's Gemini 2.5 Pro model through a TypeScript server with Google Search integration for grounded responses and detailed token usage reporting.",
-  "url": "https://github.com/dakrin/mcp-gemini-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Gemini MCP Server"
+	"type": "mcp-server",
+	"packageName": "gemini-2.5-pro",
+	"description": "Enables Claude Desktop to interact with Google's Gemini 2.5 Pro model through a TypeScript server with Google Search integration for grounded responses and detailed token usage reporting.",
+	"url": "https://github.com/dakrin/mcp-gemini-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Gemini MCP Server"
 }

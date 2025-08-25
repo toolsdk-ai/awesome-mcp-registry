@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sonarcloud",
-  "description": "Integrates with SonarCloud API to fetch and analyze code quality issues for pull requests, providing detailed issue data with filtering by severity, type, assignee, and status plus high-level summaries with metrics for automated code review workflows.",
-  "url": "https://github.com/dozzman/sonarcloud-mcp",
-  "runtime": "node",
-  "license": "agpl-3.0",
-  "env": {},
-  "name": "SonarCloud MCP"
+	"type": "mcp-server",
+	"packageName": "sonarcloud",
+	"description": "Integrates with SonarCloud API to fetch and analyze code quality issues for pull requests, providing detailed issue data with filtering by severity, type, assignee, and status plus high-level summaries with metrics for automated code review workflows.",
+	"url": "https://github.com/dozzman/sonarcloud-mcp",
+	"runtime": "node",
+	"license": "agpl-3.0",
+	"env": {},
+	"name": "SonarCloud MCP"
 }

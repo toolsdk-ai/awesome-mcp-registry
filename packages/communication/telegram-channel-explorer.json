@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "telegram-channel-explorer",
-  "description": "Enables access to Telegram channels and messages for searching content by keywords, listing available channels, retrieving specific messages, and filtering with regex patterns using the MTProto protocol.",
-  "url": "https://github.com/kfastov/telegram-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Telegram MCP Server"
+	"type": "mcp-server",
+	"packageName": "telegram-channel-explorer",
+	"description": "Enables access to Telegram channels and messages for searching content by keywords, listing available channels, retrieving specific messages, and filtering with regex patterns using the MTProto protocol.",
+	"url": "https://github.com/kfastov/telegram-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Telegram MCP Server"
 }

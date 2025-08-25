@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "graphdb",
-  "description": "Provides read-only access to Ontotext GraphDB repositories, enabling exploration of RDF graphs through SPARQL queries and structured views of repository data including class lists, predicates, statistics, and sample data.",
-  "url": "https://github.com/keonchennl/mcp-graphdb",
-  "runtime": "node",
-  "license": "gpl-3.0",
-  "env": {},
-  "name": "GraphDB MCP"
+	"type": "mcp-server",
+	"packageName": "graphdb",
+	"description": "Provides read-only access to Ontotext GraphDB repositories, enabling exploration of RDF graphs through SPARQL queries and structured views of repository data including class lists, predicates, statistics, and sample data.",
+	"url": "https://github.com/keonchennl/mcp-graphdb",
+	"runtime": "node",
+	"license": "gpl-3.0",
+	"env": {},
+	"name": "GraphDB MCP"
 }

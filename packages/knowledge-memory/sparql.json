@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sparql",
-  "description": "Integrates with SPARQL servers to enable querying and manipulation of RDF data sources, facilitating semantic web integration for knowledge graph exploration and linked data analysis.",
-  "url": "https://github.com/kludge-works/mcp-server-rdf",
-  "runtime": "java",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP RDF Server"
+	"type": "mcp-server",
+	"packageName": "sparql",
+	"description": "Integrates with SPARQL servers to enable querying and manipulation of RDF data sources, facilitating semantic web integration for knowledge graph exploration and linked data analysis.",
+	"url": "https://github.com/kludge-works/mcp-server-rdf",
+	"runtime": "java",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP RDF Server"
 }

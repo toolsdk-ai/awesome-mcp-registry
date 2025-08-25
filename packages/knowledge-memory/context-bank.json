@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "context-bank",
-  "description": "Provides a bridge to the AtherOS knowledge base, enabling semantic document searches through a document-search endpoint with configurable retrieval options.",
-  "url": "https://github.com/vulh1209/context-bank-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Context Bank MCP"
+	"type": "mcp-server",
+	"packageName": "context-bank",
+	"description": "Provides a bridge to the AtherOS knowledge base, enabling semantic document searches through a document-search endpoint with configurable retrieval options.",
+	"url": "https://github.com/vulh1209/context-bank-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Context Bank MCP"
 }

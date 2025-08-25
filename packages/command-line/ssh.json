@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ssh",
-  "description": "Provides secure remote access capabilities for executing commands, transferring files, and managing connections on remote systems via SSH.",
-  "url": "https://github.com/shaike1/mcp-server-ssh",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "SSH MCP Server"
+	"type": "mcp-server",
+	"packageName": "ssh",
+	"description": "Provides secure remote access capabilities for executing commands, transferring files, and managing connections on remote systems via SSH.",
+	"url": "https://github.com/shaike1/mcp-server-ssh",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "SSH MCP Server"
 }

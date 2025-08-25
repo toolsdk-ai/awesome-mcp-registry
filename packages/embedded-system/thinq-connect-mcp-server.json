@@ -1,19 +1,19 @@
 {
-  "type": "mcp-server",
-  "packageName": "thinq-connect-mcp-server",
-  "description": "Provides integrated control capabilities for LG ThinQ devices including status monitoring, device control, and profile information through a Model Context Protocol server.",
-  "url": "https://github.com/thinq-connect/thinqconnect-mcp",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {
-    "THINQ_PAT": {
-      "description": "Your personal access token for ThinQ Open API calls",
-      "required": true
-    },
-    "THINQ_COUNTRY": {
-      "description": "Your ThinQ account's country code",
-      "required": true
-    }
-  },
-  "name": "ThinQ Connect MCP Server"
+	"type": "mcp-server",
+	"packageName": "thinq-connect-mcp-server",
+	"description": "Provides integrated control capabilities for LG ThinQ devices including status monitoring, device control, and profile information through a Model Context Protocol server.",
+	"url": "https://github.com/thinq-connect/thinqconnect-mcp",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {
+		"THINQ_PAT": {
+			"description": "Your personal access token for ThinQ Open API calls",
+			"required": true
+		},
+		"THINQ_COUNTRY": {
+			"description": "Your ThinQ account's country code",
+			"required": true
+		}
+	},
+	"name": "ThinQ Connect MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "lsp",
-  "description": "Bridges Language Server Protocol (LSP) servers with code intelligence features like hover information, completions, and diagnostics for accurate code suggestions across multiple programming languages.",
-  "url": "https://github.com/tritlo/lsp-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "LSP MCP"
+	"type": "mcp-server",
+	"packageName": "lsp",
+	"description": "Bridges Language Server Protocol (LSP) servers with code intelligence features like hover information, completions, and diagnostics for accurate code suggestions across multiple programming languages.",
+	"url": "https://github.com/tritlo/lsp-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "LSP MCP"
 }

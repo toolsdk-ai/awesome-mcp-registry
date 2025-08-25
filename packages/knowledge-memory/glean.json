@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "glean",
-  "description": "Integrates Glean's search and chat APIs to enable natural language interactions with organizational knowledge bases and chatbots.",
-  "url": "https://github.com/longyi1207/glean-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Glean MCP Server"
+	"type": "mcp-server",
+	"packageName": "glean",
+	"description": "Integrates Glean's search and chat APIs to enable natural language interactions with organizational knowledge bases and chatbots.",
+	"url": "https://github.com/longyi1207/glean-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Glean MCP Server"
 }

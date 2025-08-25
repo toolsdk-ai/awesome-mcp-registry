@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "task-orchestrator",
-  "description": "Provides hierarchical task orchestration for software development goals with dot-notation IDs, supporting task creation, completion tracking, and parent-child dependency management where parent tasks automatically complete when all children are finished.",
-  "url": "https://github.com/hrishirc/task-orchestrator",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Task Orchestrator"
+	"type": "mcp-server",
+	"packageName": "task-orchestrator",
+	"description": "Provides hierarchical task orchestration for software development goals with dot-notation IDs, supporting task creation, completion tracking, and parent-child dependency management where parent tasks automatically complete when all children are finished.",
+	"url": "https://github.com/hrishirc/task-orchestrator",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Task Orchestrator"
 }

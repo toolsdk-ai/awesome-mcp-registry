@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "pubmed-medical-literature-research",
-  "description": "Enables search, retrieval, and analysis of academic medical literature through the NCBI PubMed database with formatted citations and researcher publication statistics.",
-  "url": "https://github.com/felixwu1110/pubmed_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "PubMed MCP"
+	"type": "mcp-server",
+	"packageName": "pubmed-medical-literature-research",
+	"description": "Enables search, retrieval, and analysis of academic medical literature through the NCBI PubMed database with formatted citations and researcher publication statistics.",
+	"url": "https://github.com/felixwu1110/pubmed_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "PubMed MCP"
 }

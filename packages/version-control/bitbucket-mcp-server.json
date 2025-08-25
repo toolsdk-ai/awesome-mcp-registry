@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "bitbucket-mcp-server",
-  "description": "A Model Context Protocol server that integrates Cursor IDE with Bitbucket Cloud, allowing developers to fetch repository information and commit data directly from their Bitbucket workspace.",
-  "url": "https://github.com/Korfu/mcp-bitbucket",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "BITBUCKET_USERNAME": {
-      "description": "Your Bitbucket username",
-      "required": true
-    },
-    "BITBUCKET_WORKSPACE": {
-      "description": "Your Bitbucket workspace name (typically your username or organization name)",
-      "required": true
-    },
-    "BITBUCKET_APP_PASSWORD": {
-      "description": "Your Bitbucket app password with Repository Read permissions",
-      "required": true
-    }
-  },
-  "name": "Bitbucket MCP Server"
+	"type": "mcp-server",
+	"packageName": "bitbucket-mcp-server",
+	"description": "A Model Context Protocol server that integrates Cursor IDE with Bitbucket Cloud, allowing developers to fetch repository information and commit data directly from their Bitbucket workspace.",
+	"url": "https://github.com/Korfu/mcp-bitbucket",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"BITBUCKET_USERNAME": {
+			"description": "Your Bitbucket username",
+			"required": true
+		},
+		"BITBUCKET_WORKSPACE": {
+			"description": "Your Bitbucket workspace name (typically your username or organization name)",
+			"required": true
+		},
+		"BITBUCKET_APP_PASSWORD": {
+			"description": "Your Bitbucket app password with Repository Read permissions",
+			"required": true
+		}
+	},
+	"name": "Bitbucket MCP Server"
 }

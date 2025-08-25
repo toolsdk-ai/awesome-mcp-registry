@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "orchestrator",
-  "description": "Orchestrates distributed task management by coordinating workflows, enforcing dependencies, and tracking execution across instances for complex data processing and computing jobs.",
-  "url": "https://github.com/mokafari/orchestrator-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Orchestrator Server"
+	"type": "mcp-server",
+	"packageName": "orchestrator",
+	"description": "Orchestrates distributed task management by coordinating workflows, enforcing dependencies, and tracking execution across instances for complex data processing and computing jobs.",
+	"url": "https://github.com/mokafari/orchestrator-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Orchestrator Server"
 }

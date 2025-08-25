@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mcp-server-ida",
-  "description": "Enables programmatic reading and searching of IDA Pro databases via large language models, providing tools for reverse engineering and binary analysis automation.",
-  "url": "https://github.com/mxiris-reverse-engineering/ida-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "IDA MCP Server"
+	"type": "mcp-server",
+	"packageName": "mcp-server-ida",
+	"description": "Enables programmatic reading and searching of IDA Pro databases via large language models, providing tools for reverse engineering and binary analysis automation.",
+	"url": "https://github.com/mxiris-reverse-engineering/ida-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "IDA MCP Server"
 }

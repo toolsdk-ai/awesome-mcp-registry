@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "things-3",
-  "description": "Integrates with the Things 3 task management app to enable creating tasks, managing projects, and analyzing productivity patterns through natural language commands",
-  "url": "https://github.com/excelsier/things-fastmcp",
-  "runtime": "python",
-  "license": "other",
-  "env": {},
-  "name": "Things FastMCP"
+	"type": "mcp-server",
+	"packageName": "things-3",
+	"description": "Integrates with the Things 3 task management app to enable creating tasks, managing projects, and analyzing productivity patterns through natural language commands",
+	"url": "https://github.com/excelsier/things-fastmcp",
+	"runtime": "python",
+	"license": "other",
+	"env": {},
+	"name": "Things FastMCP"
 }

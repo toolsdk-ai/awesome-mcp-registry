@@ -1,31 +1,31 @@
 {
-  "type": "mcp-server",
-  "packageName": "systemprompt-coding-agent",
-  "description": "An MCP server that orchestrates AI coding assistants (Claude Code CLI and Gemini CLI) to perform complex programming tasks autonomously, allowing remote control of your local development environment from anywhere.",
-  "url": "https://github.com/systempromptio/systemprompt-code-orchestrator",
-  "runtime": "node",
-  "license": "mit",
-  "env": {
-    "JWT_SECRET": {
-      "description": "A long random string for JWT authentication (coming soon)",
-      "required": true
-    },
-    "PROJECT_ROOT": {
-      "description": "Path to your code directory. AI agents have FULL access here",
-      "required": true
-    },
-    "GEMINI_API_KEY": {
-      "description": "Your Google AI API Key for Gemini",
-      "required": true
-    },
-    "ANTHROPIC_API_KEY": {
-      "description": "Your Anthropic API Key for Claude Code",
-      "required": true
-    },
-    "REMOTE_AUTH_TOKEN": {
-      "description": "Another random string for remote authentication (coming soon)",
-      "required": true
-    }
-  },
-  "name": "Systemprompt Code Orchestrator"
+	"type": "mcp-server",
+	"packageName": "systemprompt-coding-agent",
+	"description": "An MCP server that orchestrates AI coding assistants (Claude Code CLI and Gemini CLI) to perform complex programming tasks autonomously, allowing remote control of your local development environment from anywhere.",
+	"url": "https://github.com/systempromptio/systemprompt-code-orchestrator",
+	"runtime": "node",
+	"license": "mit",
+	"env": {
+		"JWT_SECRET": {
+			"description": "A long random string for JWT authentication (coming soon)",
+			"required": true
+		},
+		"PROJECT_ROOT": {
+			"description": "Path to your code directory. AI agents have FULL access here",
+			"required": true
+		},
+		"GEMINI_API_KEY": {
+			"description": "Your Google AI API Key for Gemini",
+			"required": true
+		},
+		"ANTHROPIC_API_KEY": {
+			"description": "Your Anthropic API Key for Claude Code",
+			"required": true
+		},
+		"REMOTE_AUTH_TOKEN": {
+			"description": "Another random string for remote authentication (coming soon)",
+			"required": true
+		}
+	},
+	"name": "Systemprompt Code Orchestrator"
 }

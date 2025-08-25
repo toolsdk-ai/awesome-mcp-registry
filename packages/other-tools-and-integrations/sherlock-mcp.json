@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sherlock-mcp",
-  "description": "Enables AI to search, purchase, and manage internet domains through Sherlock Domains API, handling authentication, ICANN requirements, and DNS configuration behind the scenes.",
-  "url": "https://github.com/fewsats/sherlock-mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Sherlock MCP"
+	"type": "mcp-server",
+	"packageName": "sherlock-mcp",
+	"description": "Enables AI to search, purchase, and manage internet domains through Sherlock Domains API, handling authentication, ICANN requirements, and DNS configuration behind the scenes.",
+	"url": "https://github.com/fewsats/sherlock-mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Sherlock MCP"
 }

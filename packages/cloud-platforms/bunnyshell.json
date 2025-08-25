@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "bunnyshell",
-  "description": "Enables direct management of Bunnyshell cloud environments through natural language commands, supporting environment creation, component deployment, and remote development workflows via CLI capabilities.",
-  "url": "https://github.com/aminalali8/bns-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "BunnyShell MCP Server"
+	"type": "mcp-server",
+	"packageName": "bunnyshell",
+	"description": "Enables direct management of Bunnyshell cloud environments through natural language commands, supporting environment creation, component deployment, and remote development workflows via CLI capabilities.",
+	"url": "https://github.com/aminalali8/bns-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "BunnyShell MCP Server"
 }

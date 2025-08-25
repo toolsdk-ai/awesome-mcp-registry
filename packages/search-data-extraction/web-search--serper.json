@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "web-search-(serper)",
-  "description": "Integrates with the Serper API to perform web searches, enabling efficient retrieval and processing of up-to-date web content for applications.",
-  "url": "https://github.com/muka/web-search-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Web Search MCP"
+	"type": "mcp-server",
+	"packageName": "web-search-(serper)",
+	"description": "Integrates with the Serper API to perform web searches, enabling efficient retrieval and processing of up-to-date web content for applications.",
+	"url": "https://github.com/muka/web-search-mcp",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Web Search MCP"
 }

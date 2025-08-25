@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "csv-and-excel-processor",
-  "description": "Integrates with Spring Boot to process CSV and Excel files, enabling data extraction and manipulation for analysis, reporting, or system integration tasks.",
-  "url": "https://github.com/shadowk1337/mcp-csv-server",
-  "runtime": "java",
-  "license": "unknown",
-  "env": {},
-  "name": "CSV MCP Server"
+	"type": "mcp-server",
+	"packageName": "csv-and-excel-processor",
+	"description": "Integrates with Spring Boot to process CSV and Excel files, enabling data extraction and manipulation for analysis, reporting, or system integration tasks.",
+	"url": "https://github.com/shadowk1337/mcp-csv-server",
+	"runtime": "java",
+	"license": "unknown",
+	"env": {},
+	"name": "CSV MCP Server"
 }

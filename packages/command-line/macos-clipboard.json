@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "macos-clipboard",
-  "description": "Integrates with the MacOS clipboard to enable reading and writing of system clipboard content for text processing and data transfer tasks.",
-  "url": "https://github.com/newbeb/clipboard-mcp",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Clipboard MCP"
+	"type": "mcp-server",
+	"packageName": "macos-clipboard",
+	"description": "Integrates with the MacOS clipboard to enable reading and writing of system clipboard content for text processing and data transfer tasks.",
+	"url": "https://github.com/newbeb/clipboard-mcp",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Clipboard MCP"
 }

@@ -1,23 +1,23 @@
 {
-  "type": "mcp-server",
-  "packageName": "feishu-project-mcp",
-  "description": "Integrates with Feishu project management platform to automate requirement analysis, bug tracking, and task management through TypeScript and Express-based tools for development teams.",
-  "url": "https://github.com/im47cn/feishu-project-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "FEISHU_APP_ID": {
-      "description": "your_app_id",
-      "required": true
-    },
-    "FEISHU_APP_SECRET": {
-      "description": "your_app_secret",
-      "required": true
-    },
-    "FEISHU_API_URL": {
-      "description": "https://project.feishu.cn/open_api",
-      "required": true
-    }
-  },
-  "name": "Feishu Project MCP"
+	"type": "mcp-server",
+	"packageName": "feishu-project-mcp",
+	"description": "Integrates with Feishu project management platform to automate requirement analysis, bug tracking, and task management through TypeScript and Express-based tools for development teams.",
+	"url": "https://github.com/im47cn/feishu-project-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"FEISHU_APP_ID": {
+			"description": "your_app_id",
+			"required": true
+		},
+		"FEISHU_APP_SECRET": {
+			"description": "your_app_secret",
+			"required": true
+		},
+		"FEISHU_API_URL": {
+			"description": "https://project.feishu.cn/open_api",
+			"required": true
+		}
+	},
+	"name": "Feishu Project MCP"
 }

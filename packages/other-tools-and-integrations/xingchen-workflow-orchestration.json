@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "xingchen-workflow-orchestration",
-  "description": "Bridges AI assistants with iFlytek's workflow orchestration system, enabling complex business automation tasks through configurable sequential, parallel, loop, and nested execution modes.",
-  "url": "https://github.com/hygao1024/xingchen-mcp-server",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "Xingchen MCP Server"
+	"type": "mcp-server",
+	"packageName": "xingchen-workflow-orchestration",
+	"description": "Bridges AI assistants with iFlytek's workflow orchestration system, enabling complex business automation tasks through configurable sequential, parallel, loop, and nested execution modes.",
+	"url": "https://github.com/hygao1024/xingchen-mcp-server",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "Xingchen MCP Server"
 }

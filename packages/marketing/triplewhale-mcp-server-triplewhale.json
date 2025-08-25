@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@triplewhale/mcp-server-triplewhale",
-  "description": "Integrates with Triple Whale's API to enable querying and analysis of e-commerce performance metrics for sales reporting and marketing strategy optimization.",
-  "url": "https://github.com/triple-whale/mcp-server-triplewhale",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Server Triple Whale"
+	"type": "mcp-server",
+	"packageName": "@triplewhale/mcp-server-triplewhale",
+	"description": "Integrates with Triple Whale's API to enable querying and analysis of e-commerce performance metrics for sales reporting and marketing strategy optimization.",
+	"url": "https://github.com/triple-whale/mcp-server-triplewhale",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Server Triple Whale"
 }

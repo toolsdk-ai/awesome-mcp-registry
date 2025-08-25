@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "japanese-text-analyzer",
-  "description": "Enables detailed Japanese text analysis through morphological parsing with Kuromoji, breaking down sentences into component parts with grammatical functions, readings, and base forms for language learning and translation applications.",
-  "url": "https://github.com/mistizz/mcp-japanesetextanalyzer",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Japanese Text Analyzer MCP"
+	"type": "mcp-server",
+	"packageName": "japanese-text-analyzer",
+	"description": "Enables detailed Japanese text analysis through morphological parsing with Kuromoji, breaking down sentences into component parts with grammatical functions, readings, and base forms for language learning and translation applications.",
+	"url": "https://github.com/mistizz/mcp-japanesetextanalyzer",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Japanese Text Analyzer MCP"
 }

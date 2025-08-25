@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "postgresql-database-explorer",
-  "description": "Enables AI systems to query and explore PostgreSQL databases with tools for schema exploration, data searching, and executing safe SQL queries",
-  "url": "https://github.com/ratchanonth60/querycraftmcp",
-  "runtime": "python",
-  "license": "mit",
-  "env": {},
-  "name": "QueryCraft MCP"
+	"type": "mcp-server",
+	"packageName": "postgresql-database-explorer",
+	"description": "Enables AI systems to query and explore PostgreSQL databases with tools for schema exploration, data searching, and executing safe SQL queries",
+	"url": "https://github.com/ratchanonth60/querycraftmcp",
+	"runtime": "python",
+	"license": "mit",
+	"env": {},
+	"name": "QueryCraft MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "fred-macroeconomic-data",
-  "description": "Connects to the FRED API to retrieve real-time economic data series including GDP, employment statistics, inflation metrics, and monetary policy indicators for data-driven analyses and visualizations.",
-  "url": "https://github.com/hungson175/wm_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "WM MCP"
+	"type": "mcp-server",
+	"packageName": "fred-macroeconomic-data",
+	"description": "Connects to the FRED API to retrieve real-time economic data series including GDP, employment statistics, inflation metrics, and monetary policy indicators for data-driven analyses and visualizations.",
+	"url": "https://github.com/hungson175/wm_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "WM MCP"
 }

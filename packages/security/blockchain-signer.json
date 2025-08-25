@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "blockchain-signer",
-  "description": "Enables secure blockchain interactions with user-controlled private keys and transaction signing, featuring a Node.js backend, PostgreSQL database, Redis caching, and integration with Ethereum and EVM-compatible chains via Infura.",
-  "url": "https://github.com/zhangzhongnan928/mcp-blockchain-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Blockchain MCP Server"
+	"type": "mcp-server",
+	"packageName": "blockchain-signer",
+	"description": "Enables secure blockchain interactions with user-controlled private keys and transaction signing, featuring a Node.js backend, PostgreSQL database, Redis caching, and integration with Ethereum and EVM-compatible chains via Infura.",
+	"url": "https://github.com/zhangzhongnan928/mcp-blockchain-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Blockchain MCP Server"
 }

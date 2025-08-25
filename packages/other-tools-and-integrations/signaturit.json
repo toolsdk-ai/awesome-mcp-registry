@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "signaturit",
-  "description": "Integrates with Signaturit API to enable electronic signature management, including creation, tracking, and workflow automation for digital document signing processes.",
-  "url": "https://github.com/jmartin82/signaturit-mcp",
-  "runtime": "go",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Signaturit MCP"
+	"type": "mcp-server",
+	"packageName": "signaturit",
+	"description": "Integrates with Signaturit API to enable electronic signature management, including creation, tracking, and workflow automation for digital document signing processes.",
+	"url": "https://github.com/jmartin82/signaturit-mcp",
+	"runtime": "go",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Signaturit MCP"
 }

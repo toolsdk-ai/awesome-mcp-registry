@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "project-management",
-  "description": "Maintains a structured knowledge graph of project entities and relationships, enabling users to track progress, manage tasks, monitor milestones, and assess project health through persistent storage and specialized analysis tools.",
-  "url": "https://github.com/tejpalvirk/project",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Project MCP"
+	"type": "mcp-server",
+	"packageName": "project-management",
+	"description": "Maintains a structured knowledge graph of project entities and relationships, enabling users to track progress, manage tasks, monitor milestones, and assess project health through persistent storage and specialized analysis tools.",
+	"url": "https://github.com/tejpalvirk/project",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Project MCP"
 }

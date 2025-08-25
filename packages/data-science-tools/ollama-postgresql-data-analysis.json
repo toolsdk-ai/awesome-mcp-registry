@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "ollama-postgresql-data-analysis",
-  "description": "Integrates natural language querying with PostgreSQL databases to enable AI-interpreted data analysis without manual SQL writing.",
-  "url": "https://github.com/robdodson/ollama-mcp-db",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Ollama MCP DB"
+	"type": "mcp-server",
+	"packageName": "ollama-postgresql-data-analysis",
+	"description": "Integrates natural language querying with PostgreSQL databases to enable AI-interpreted data analysis without manual SQL writing.",
+	"url": "https://github.com/robdodson/ollama-mcp-db",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Ollama MCP DB"
 }

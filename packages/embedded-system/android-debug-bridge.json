@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "android-debug-bridge",
-  "description": "Integrates with Android Debug Bridge (ADB) to enable remote control, testing, and analysis of Android devices, offering capabilities like package management, UI inspection, and screenshot capture.",
-  "url": "https://github.com/minhalvp/android-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Android MCP Server"
+	"type": "mcp-server",
+	"packageName": "android-debug-bridge",
+	"description": "Integrates with Android Debug Bridge (ADB) to enable remote control, testing, and analysis of Android devices, offering capabilities like package management, UI inspection, and screenshot capture.",
+	"url": "https://github.com/minhalvp/android-mcp-server",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Android MCP Server"
 }

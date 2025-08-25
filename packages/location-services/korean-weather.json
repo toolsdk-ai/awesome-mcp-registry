@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "korean-weather",
-  "description": "Provides access to Korean weather data through asynchronous HTTP requests with coordinate conversion and API authentication capabilities.",
-  "url": "https://github.com/jikime/py-mcp-ko-weather",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Py MCP Ko Weather"
+	"type": "mcp-server",
+	"packageName": "korean-weather",
+	"description": "Provides access to Korean weather data through asynchronous HTTP requests with coordinate conversion and API authentication capabilities.",
+	"url": "https://github.com/jikime/py-mcp-ko-weather",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Py MCP Ko Weather"
 }

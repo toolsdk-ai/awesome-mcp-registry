@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "github-projects",
-  "description": "Integrates with GitHub Projects to streamline Agile Sprint-based workflows, enabling project creation, task management, and sprint planning within the GitHub ecosystem.",
-  "url": "https://github.com/taylor-lindores-reeves/mcp-github-projects",
-  "runtime": "node",
-  "license": "gpl-2.0",
-  "env": {},
-  "name": "GitHub Projects MCP"
+	"type": "mcp-server",
+	"packageName": "github-projects",
+	"description": "Integrates with GitHub Projects to streamline Agile Sprint-based workflows, enabling project creation, task management, and sprint planning within the GitHub ecosystem.",
+	"url": "https://github.com/taylor-lindores-reeves/mcp-github-projects",
+	"runtime": "node",
+	"license": "gpl-2.0",
+	"env": {},
+	"name": "GitHub Projects MCP"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "openhue",
-  "description": "Integrates with Philips Hue smart lighting systems to enable automated control of light states, scenes, and schedules for complex home automation scenarios.",
-  "url": "https://github.com/lsemenenko/openhue-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "OpenHue MCP Server"
+	"type": "mcp-server",
+	"packageName": "openhue",
+	"description": "Integrates with Philips Hue smart lighting systems to enable automated control of light states, scenes, and schedules for complex home automation scenarios.",
+	"url": "https://github.com/lsemenenko/openhue-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "OpenHue MCP Server"
 }

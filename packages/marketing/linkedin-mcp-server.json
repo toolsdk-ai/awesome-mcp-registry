@@ -1,20 +1,20 @@
 {
-  "type": "mcp-server",
-  "logo": "https://pbs.twimg.com/profile_images/1661161645857710081/6WtDIesg_400x400.png",
-  "packageName": "@Dishant27/linkedin-mcp-server",
-  "description": "Revolutionizing LinkedIn API Interactions.",
-  "url": "https://github.com/Dishant27/linkedin-mcp-server/tree/main/src",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "LINKEDIN_CLIENT_ID": {
-      "description": "your_client_id",
-      "required": true
-    },
-    "LINKEDIN_CLIENT_SECRET": {
-      "description": "your_client_secret",
-      "required": true
-    }
-  },
-  "name": "LinkedIn MCP"
+	"type": "mcp-server",
+	"logo": "https://pbs.twimg.com/profile_images/1661161645857710081/6WtDIesg_400x400.png",
+	"packageName": "@Dishant27/linkedin-mcp-server",
+	"description": "Revolutionizing LinkedIn API Interactions.",
+	"url": "https://github.com/Dishant27/linkedin-mcp-server/tree/main/src",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"LINKEDIN_CLIENT_ID": {
+			"description": "your_client_id",
+			"required": true
+		},
+		"LINKEDIN_CLIENT_SECRET": {
+			"description": "your_client_secret",
+			"required": true
+		}
+	},
+	"name": "LinkedIn MCP"
 }

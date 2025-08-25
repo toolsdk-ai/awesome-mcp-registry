@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "google-pse-mcp",
-  "description": "Integrates with Google Programmable Search Engine to enable web search capabilities with support for pagination, result size, language restrictions, and safe search filtering",
-  "url": "https://github.com/rendyfebry/google-pse-mcp",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Google PSE MCP"
+	"type": "mcp-server",
+	"packageName": "google-pse-mcp",
+	"description": "Integrates with Google Programmable Search Engine to enable web search capabilities with support for pagination, result size, language restrictions, and safe search filtering",
+	"url": "https://github.com/rendyfebry/google-pse-mcp",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Google PSE MCP"
 }

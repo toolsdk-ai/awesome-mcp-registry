@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "wazuh-opensearch-analytics",
-  "description": "Enables security analysts to query, analyze, and visualize Wazuh security logs stored in OpenSearch databases for efficient incident investigation and monitoring.",
-  "url": "https://github.com/cyberbalsa/mcp-opensearch-js",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "OpenSearch MCP Analytics"
+	"type": "mcp-server",
+	"packageName": "wazuh-opensearch-analytics",
+	"description": "Enables security analysts to query, analyze, and visualize Wazuh security logs stored in OpenSearch databases for efficient incident investigation and monitoring.",
+	"url": "https://github.com/cyberbalsa/mcp-opensearch-js",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "OpenSearch MCP Analytics"
 }

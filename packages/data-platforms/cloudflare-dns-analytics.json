@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "cloudflare-dns-analytics",
-  "description": "Integrates tools powered by the Cloudflare DNS Analytics API to provide insights on DNS analytics and optimization.",
-  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/dns-analytics",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "DNS Analytics MCP"
+	"type": "mcp-server",
+	"packageName": "cloudflare-dns-analytics",
+	"description": "Integrates tools powered by the Cloudflare DNS Analytics API to provide insights on DNS analytics and optimization.",
+	"url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/dns-analytics",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "DNS Analytics MCP"
 }

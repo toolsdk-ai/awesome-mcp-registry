@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "sql-tunnel",
-  "description": "Enables secure access to MySQL databases through SSH tunnels with configurable authentication via username/password or SSH keys",
-  "url": "https://github.com/t3ta/sql-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "SQL MCP Server"
+	"type": "mcp-server",
+	"packageName": "sql-tunnel",
+	"description": "Enables secure access to MySQL databases through SSH tunnels with configurable authentication via username/password or SSH keys",
+	"url": "https://github.com/t3ta/sql-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "SQL MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "room",
-  "description": "Enables creation and interaction with virtual rooms in a peer-to-peer space, facilitating multi-agent collaboration and communication in decentralized environments.",
-  "url": "https://github.com/agree-able/room-mcp",
-  "runtime": "node",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "Room MCP"
+	"type": "mcp-server",
+	"packageName": "room",
+	"description": "Enables creation and interaction with virtual rooms in a peer-to-peer space, facilitating multi-agent collaboration and communication in decentralized environments.",
+	"url": "https://github.com/agree-able/room-mcp",
+	"runtime": "node",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "Room MCP"
 }

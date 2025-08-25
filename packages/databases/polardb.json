@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "polardb",
-  "description": "Provides a bridge between natural language interfaces and Alibaba Cloud PolarDB databases, enabling direct interaction with MySQL and PostgreSQL instances through queries, table exploration, and configurable SQL execution.",
-  "url": "https://github.com/aliyun/alibabacloud-polardb-mcp-server",
-  "runtime": "python",
-  "license": "apache-2.0",
-  "env": {},
-  "name": "AlibabaCloud PolarDB MCP Server"
+	"type": "mcp-server",
+	"packageName": "polardb",
+	"description": "Provides a bridge between natural language interfaces and Alibaba Cloud PolarDB databases, enabling direct interaction with MySQL and PostgreSQL instances through queries, table exploration, and configurable SQL execution.",
+	"url": "https://github.com/aliyun/alibabacloud-polardb-mcp-server",
+	"runtime": "python",
+	"license": "apache-2.0",
+	"env": {},
+	"name": "AlibabaCloud PolarDB MCP Server"
 }

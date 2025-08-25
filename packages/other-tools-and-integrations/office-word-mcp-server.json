@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "office-word-mcp-server",
-  "description": "Provides a bridge to Microsoft Word for creating and modifying documents with features like text formatting, table manipulation, image scaling, and style management",
-  "url": "https://github.com/gongrzhe/office-word-mcp-server",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Office Word MCP Server"
+	"type": "mcp-server",
+	"packageName": "office-word-mcp-server",
+	"description": "Provides a bridge to Microsoft Word for creating and modifying documents with features like text formatting, table manipulation, image scaling, and style management",
+	"url": "https://github.com/gongrzhe/office-word-mcp-server",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Office Word MCP Server"
 }

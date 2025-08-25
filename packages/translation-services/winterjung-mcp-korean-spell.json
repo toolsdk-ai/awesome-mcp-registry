@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "@winterjung/mcp-korean-spell",
-  "description": "Integrates with Naver's spelling service to automatically correct grammatical errors, typos, and linguistic issues in Korean text.",
-  "url": "https://github.com/winterjung/mcp-korean-spell",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Korean Spell MCP"
+	"type": "mcp-server",
+	"packageName": "@winterjung/mcp-korean-spell",
+	"description": "Integrates with Naver's spelling service to automatically correct grammatical errors, typos, and linguistic issues in Korean text.",
+	"url": "https://github.com/winterjung/mcp-korean-spell",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Korean Spell MCP"
 }

@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "deepsource-mcp-server",
-  "description": "Integrates with DeepSource's code quality platform to provide access to project metrics, issues, and analysis results for monitoring and troubleshooting code quality directly in conversations.",
-  "url": "https://github.com/sapientpants/deepsource-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {
-    "DEEPSOURCE_API_KEY": {
-      "description": "your-deepsource-api-key",
-      "required": true
-    }
-  },
-  "name": "DeepSource MCP Server"
+	"type": "mcp-server",
+	"packageName": "deepsource-mcp-server",
+	"description": "Integrates with DeepSource's code quality platform to provide access to project metrics, issues, and analysis results for monitoring and troubleshooting code quality directly in conversations.",
+	"url": "https://github.com/sapientpants/deepsource-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {
+		"DEEPSOURCE_API_KEY": {
+			"description": "your-deepsource-api-key",
+			"required": true
+		}
+	},
+	"name": "DeepSource MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "browser-scraping-&-search",
-  "description": "Enables web scraping, internet searching, and local file interactions through Playwright, Firecrawl, and Tavily integrations for comprehensive content retrieval and manipulation.",
-  "url": "https://github.com/raghu6798/browser_scrape_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Browser Scrape MCP"
+	"type": "mcp-server",
+	"packageName": "browser-scraping-&-search",
+	"description": "Enables web scraping, internet searching, and local file interactions through Playwright, Firecrawl, and Tavily integrations for comprehensive content retrieval and manipulation.",
+	"url": "https://github.com/raghu6798/browser_scrape_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "Browser Scrape MCP"
 }

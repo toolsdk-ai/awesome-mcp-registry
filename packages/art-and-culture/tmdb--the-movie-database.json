@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "tmdb-(the-movie-database)",
-  "description": "Provides a bridge to The Movie Database API for searching and retrieving detailed movie information with filtering by title, year, and pagination",
-  "url": "https://github.com/rakeshgangwar/tmdb-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "TMDB MCP Server"
+	"type": "mcp-server",
+	"packageName": "tmdb-(the-movie-database)",
+	"description": "Provides a bridge to The Movie Database API for searching and retrieving detailed movie information with filtering by title, year, and pagination",
+	"url": "https://github.com/rakeshgangwar/tmdb-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "TMDB MCP Server"
 }

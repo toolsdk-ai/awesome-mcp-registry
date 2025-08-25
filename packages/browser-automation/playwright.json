@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "playwright",
-  "description": "Integrates Playwright browser automation with AI models to enable intelligent web interactions, testing, and data extraction.",
-  "url": "https://github.com/showfive/playwright-mcp-server",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Playwright MCP Server"
+	"type": "mcp-server",
+	"packageName": "playwright",
+	"description": "Integrates Playwright browser automation with AI models to enable intelligent web interactions, testing, and data extraction.",
+	"url": "https://github.com/showfive/playwright-mcp-server",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Playwright MCP Server"
 }

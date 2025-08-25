@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "mail",
-  "description": "Enables AI assistants to send and receive emails directly through IMAP and SMTP protocols, bridging email services with conversation interfaces for seamless correspondence management.",
-  "url": "https://github.com/shuakami/mcp-mail",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "MCP Mail"
+	"type": "mcp-server",
+	"packageName": "mail",
+	"description": "Enables AI assistants to send and receive emails directly through IMAP and SMTP protocols, bridging email services with conversation interfaces for seamless correspondence management.",
+	"url": "https://github.com/shuakami/mcp-mail",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "MCP Mail"
 }

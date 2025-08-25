@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "quantitative-research",
-  "description": "Organizes and analyzes numerical research data through a structured knowledge graph, enabling tracking of projects, datasets, variables, hypotheses, and statistical tests with their relationships and results.",
-  "url": "https://github.com/tejpalvirk/quantitativeresearch",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "Quantitative Research MCP Server"
+	"type": "mcp-server",
+	"packageName": "quantitative-research",
+	"description": "Organizes and analyzes numerical research data through a structured knowledge graph, enabling tracking of projects, datasets, variables, hypotheses, and statistical tests with their relationships and results.",
+	"url": "https://github.com/tejpalvirk/quantitativeresearch",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "Quantitative Research MCP Server"
 }

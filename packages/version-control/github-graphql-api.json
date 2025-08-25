@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "github-graphql-api",
-  "description": "Provides direct access to GitHub's GraphQL API for querying repositories, issues, pull requests, and schema documentation with secure authentication through environment variables.",
-  "url": "https://github.com/wanzunz/github_graphql_api_mcp",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "GitHub GraphQL API MCP"
+	"type": "mcp-server",
+	"packageName": "github-graphql-api",
+	"description": "Provides direct access to GitHub's GraphQL API for querying repositories, issues, pull requests, and schema documentation with secure authentication through environment variables.",
+	"url": "https://github.com/wanzunz/github_graphql_api_mcp",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {},
+	"name": "GitHub GraphQL API MCP"
 }

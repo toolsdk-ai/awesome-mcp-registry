@@ -1,15 +1,15 @@
 {
-  "type": "mcp-server",
-  "packageName": "wework-mcp-server",
-  "description": "A Model Context Protocol server providing access to WeWork project management data, enabling project search, task analysis, and statistics retrieval through Claude and other LLM clients.",
-  "url": "https://github.com/FOX2920/Aplus-MCP",
-  "runtime": "python",
-  "license": "unknown",
-  "env": {
-    "WEWORK_ACCESS_TOKEN": {
-      "description": "Your WeWork API access token",
-      "required": true
-    }
-  },
-  "name": "Aplus MCP"
+	"type": "mcp-server",
+	"packageName": "wework-mcp-server",
+	"description": "A Model Context Protocol server providing access to WeWork project management data, enabling project search, task analysis, and statistics retrieval through Claude and other LLM clients.",
+	"url": "https://github.com/FOX2920/Aplus-MCP",
+	"runtime": "python",
+	"license": "unknown",
+	"env": {
+		"WEWORK_ACCESS_TOKEN": {
+			"description": "Your WeWork API access token",
+			"required": true
+		}
+	},
+	"name": "Aplus MCP"
 }

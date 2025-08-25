@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "aws-knowledge-base",
-  "description": "Integrates with AWS Knowledge Bases to retrieve information using Bedrock Agent Runtime, enabling RAG operations with structured metadata for organizational knowledge access.",
-  "url": "https://github.com/sammcj/mcp-aws-kb",
-  "runtime": "node",
-  "license": "unknown",
-  "env": {},
-  "name": "AWS Knowledge Base MCP"
+	"type": "mcp-server",
+	"packageName": "aws-knowledge-base",
+	"description": "Integrates with AWS Knowledge Bases to retrieve information using Bedrock Agent Runtime, enabling RAG operations with structured metadata for organizational knowledge access.",
+	"url": "https://github.com/sammcj/mcp-aws-kb",
+	"runtime": "node",
+	"license": "unknown",
+	"env": {},
+	"name": "AWS Knowledge Base MCP"
 }

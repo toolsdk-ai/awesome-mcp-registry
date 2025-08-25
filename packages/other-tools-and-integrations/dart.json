@@ -1,10 +1,10 @@
 {
-  "type": "mcp-server",
-  "packageName": "dart",
-  "description": "Integrates with the Dart task management system to enable AI-driven project organization, document handling, and workflow automation through secure API interactions and Dartboard feature integration.",
-  "url": "https://github.com/jmanhype/dart-mcp-server",
-  "runtime": "node",
-  "license": "mit",
-  "env": {},
-  "name": "Dart MCP Server"
+	"type": "mcp-server",
+	"packageName": "dart",
+	"description": "Integrates with the Dart task management system to enable AI-driven project organization, document handling, and workflow automation through secure API interactions and Dartboard feature integration.",
+	"url": "https://github.com/jmanhype/dart-mcp-server",
+	"runtime": "node",
+	"license": "mit",
+	"env": {},
+	"name": "Dart MCP Server"
 }

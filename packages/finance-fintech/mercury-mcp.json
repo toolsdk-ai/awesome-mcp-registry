@@ -1,16 +1,16 @@
 {
-  "type": "mcp-server",
-  "name": "Mercury",
-  "logo": "https://pbs.twimg.com/profile_images/1651255375352721409/TP4SN0Nz_400x400.png",
-  "packageName": "@toolsdk.ai/mcp-mercury",
-  "description": "Simple MCP server that interfaces with the Mercury API, allowing you to talk to your Mercury banking data from any MCP client like Cursor or Claude Desktop.",
-  "url": "https://github.com/dragonkhoi/mercury-mcp/tree/main/src",
-  "runtime": "node",
-  "license": "MIT",
-  "env": {
-    "mercury_api_key": {
-      "description": "YOUR_MERCURY_API_KEY",
-      "required": true
-    }
-  }
+	"type": "mcp-server",
+	"name": "Mercury",
+	"logo": "https://pbs.twimg.com/profile_images/1651255375352721409/TP4SN0Nz_400x400.png",
+	"packageName": "@toolsdk.ai/mcp-mercury",
+	"description": "Simple MCP server that interfaces with the Mercury API, allowing you to talk to your Mercury banking data from any MCP client like Cursor or Claude Desktop.",
+	"url": "https://github.com/dragonkhoi/mercury-mcp/tree/main/src",
+	"runtime": "node",
+	"license": "MIT",
+	"env": {
+		"mercury_api_key": {
+			"description": "YOUR_MERCURY_API_KEY",
+			"required": true
+		}
+	}
 }
