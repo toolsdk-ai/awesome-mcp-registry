@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "rocketmq",
-	"description": "Manage RocketMQ message queues.",
-	"url": "https://github.com/francisoliverlee/rocketmq-mcp",
-	"runtime": "java",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "RocketMQ MCP"
+  "type": "mcp-server",
+  "packageName": "rocketmq",
+  "description": "Manage RocketMQ message queues.",
+  "url": "https://github.com/francisoliverlee/rocketmq-mcp",
+  "runtime": "java",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "RocketMQ MCP"
 }

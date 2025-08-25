@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "phalcon-(blocksec-transaction-analysis)",
-	"description": "Integrates with BlockSec's blockchain analysis platform to provide detailed transaction insights across multiple blockchains, including tracing, profiling, address labeling, and state change analysis.",
-	"url": "https://github.com/mark3labs/phalcon-mcp",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Phalcon MCP"
+  "type": "mcp-server",
+  "packageName": "phalcon-(blocksec-transaction-analysis)",
+  "description": "Integrates with BlockSec's blockchain analysis platform to provide detailed transaction insights across multiple blockchains, including tracing, profiling, address labeling, and state change analysis.",
+  "url": "https://github.com/mark3labs/phalcon-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Phalcon MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "edgeone-pages-mcp",
-	"description": "Enables rapid deployment of HTML content to Tencent's EdgeOne Pages service with integrated Functions and KV store support for edge hosting",
-	"url": "https://github.com/tencentedgeone/edgeone-pages-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "EdgeOne Pages MCP"
+  "type": "mcp-server",
+  "packageName": "edgeone-pages-mcp",
+  "description": "Enables rapid deployment of HTML content to Tencent's EdgeOne Pages service with integrated Functions and KV store support for edge hosting",
+  "url": "https://github.com/tencentedgeone/edgeone-pages-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "EdgeOne Pages MCP"
 }

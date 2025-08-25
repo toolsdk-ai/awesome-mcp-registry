@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "blue-perfumery",
-	"description": "Integrates with Blue Perfumery's product catalog to enable perfume discovery, search, filtering by category, and purchase link generation for conversational commerce applications.",
-	"url": "https://github.com/recepgocmen/blue-perfumery-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Blue Perfumery MCP Server"
+  "type": "mcp-server",
+  "packageName": "blue-perfumery",
+  "description": "Integrates with Blue Perfumery's product catalog to enable perfume discovery, search, filtering by category, and purchase link generation for conversational commerce applications.",
+  "url": "https://github.com/recepgocmen/blue-perfumery-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Blue Perfumery MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dynamodb",
-	"description": "Integrates with Amazon DynamoDB to enable natural language-based table management, capacity adjustment, and data operations while maintaining safeguards against accidental deletions.",
-	"url": "https://github.com/imankamyabi/dynamodb-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "DynamoDB MCP Server"
+  "type": "mcp-server",
+  "packageName": "dynamodb",
+  "description": "Integrates with Amazon DynamoDB to enable natural language-based table management, capacity adjustment, and data operations while maintaining safeguards against accidental deletions.",
+  "url": "https://github.com/imankamyabi/dynamodb-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "DynamoDB MCP Server"
 }

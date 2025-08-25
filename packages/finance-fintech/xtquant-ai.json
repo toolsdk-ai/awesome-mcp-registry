@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "xtquant-ai",
-	"description": "Lightweight Python server for quantitative trading using XTQuant API, enabling real-time stock market interactions and AI-driven financial analysis strategies.",
-	"url": "https://github.com/dfkai/xtquantai",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "XTQuant AI"
+  "type": "mcp-server",
+  "packageName": "xtquant-ai",
+  "description": "Lightweight Python server for quantitative trading using XTQuant API, enabling real-time stock market interactions and AI-driven financial analysis strategies.",
+  "url": "https://github.com/dfkai/xtquantai",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "XTQuant AI"
 }

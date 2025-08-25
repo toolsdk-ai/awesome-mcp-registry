@@ -1,20 +1,20 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/618131103509909504/VQLBJ0TR_400x400.png",
-	"packageName": "@toolprint/mcp-graphql-forge",
-	"description": "MCP that can proxy any GraphQL API and expose graphql operations as mcp tools.",
-	"url": "https://github.com/toolprint/mcp-graphql-forge/tree/main/src",
-	"runtime": "node",
-	"license": "Apache-2.0",
-	"env": {
-		"GRAPHQL_ENDPOINT": {
-			"description": "http://localhost:4000/graphql",
-			"required": true
-		},
-		"PGRAPHQL_AUTH_HEADER": {
-			"description": "Bearer your-token-here",
-			"required": true
-		}
-	},
-	"name": "MCP GraphQL Forge"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/618131103509909504/VQLBJ0TR_400x400.png",
+  "packageName": "@toolprint/mcp-graphql-forge",
+  "description": "MCP that can proxy any GraphQL API and expose graphql operations as mcp tools.",
+  "url": "https://github.com/toolprint/mcp-graphql-forge/tree/main/src",
+  "runtime": "node",
+  "license": "Apache-2.0",
+  "env": {
+    "GRAPHQL_ENDPOINT": {
+      "description": "http://localhost:4000/graphql",
+      "required": true
+    },
+    "PGRAPHQL_AUTH_HEADER": {
+      "description": "Bearer your-token-here",
+      "required": true
+    }
+  },
+  "name": "MCP GraphQL Forge"
 }

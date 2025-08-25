@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "armor-wallet",
-	"description": "Enables direct blockchain operations, crypto trading, and wallet management through the Armor Wallet API with JWT authentication and detailed logging for portfolio monitoring and trading strategy execution.",
-	"url": "https://github.com/armorwallet/armor-crypto-mcp",
-	"runtime": "python",
-	"license": "gpl-3.0",
-	"env": {},
-	"name": "Armor Crypto MCP"
+  "type": "mcp-server",
+  "packageName": "armor-wallet",
+  "description": "Enables direct blockchain operations, crypto trading, and wallet management through the Armor Wallet API with JWT authentication and detailed logging for portfolio monitoring and trading strategy execution.",
+  "url": "https://github.com/armorwallet/armor-crypto-mcp",
+  "runtime": "python",
+  "license": "gpl-3.0",
+  "env": {},
+  "name": "Armor Crypto MCP"
 }

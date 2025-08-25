@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "txtai",
-	"description": "Configurable server environment for efficient memory-based operations with customizable settings and flexible limits for scalable applications.",
-	"url": "https://github.com/rmtech1/txtai-assistant-mcp",
-	"runtime": "python",
-	"license": "other",
-	"env": {},
-	"name": "Txtai Assistant MCP"
+  "type": "mcp-server",
+  "packageName": "txtai",
+  "description": "Configurable server environment for efficient memory-based operations with customizable settings and flexible limits for scalable applications.",
+  "url": "https://github.com/rmtech1/txtai-assistant-mcp",
+  "runtime": "python",
+  "license": "other",
+  "env": {},
+  "name": "Txtai Assistant MCP"
 }

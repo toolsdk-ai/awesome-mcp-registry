@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "crypto",
-	"description": "Provides cryptographic operations including encryption, decryption, hashing, and digital signatures using the PyCryptodome library for secure data handling in applications.",
-	"url": "https://github.com/kiss-kedaya/crypto_mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Crypto MCP"
+  "type": "mcp-server",
+  "packageName": "crypto",
+  "description": "Provides cryptographic operations including encryption, decryption, hashing, and digital signatures using the PyCryptodome library for secure data handling in applications.",
+  "url": "https://github.com/kiss-kedaya/crypto_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Crypto MCP"
 }

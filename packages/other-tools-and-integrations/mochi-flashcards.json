@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mochi-flashcards",
-	"description": "Bridges the Mochi Cards flashcard application with natural language interfaces, enabling creation and management of flashcards with markdown content, tags, and full CRUD operations without switching contexts.",
-	"url": "https://github.com/d42me/mochi-flashcards-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Mochi Flashcards MCP Server"
+  "type": "mcp-server",
+  "packageName": "mochi-flashcards",
+  "description": "Bridges the Mochi Cards flashcard application with natural language interfaces, enabling creation and management of flashcards with markdown content, tags, and full CRUD operations without switching contexts.",
+  "url": "https://github.com/d42me/mochi-flashcards-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Mochi Flashcards MCP Server"
 }

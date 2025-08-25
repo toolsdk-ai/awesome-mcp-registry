@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-ripgrep",
-	"description": "Provides high-performance text search capabilities by wrapping ripgrep, enabling powerful file exploration, pattern matching, and content discovery across local filesystems.",
-	"url": "https://github.com/mcollina/mcp-ripgrep",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Ripgrep MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-ripgrep",
+  "description": "Provides high-performance text search capabilities by wrapping ripgrep, enabling powerful file exploration, pattern matching, and content discovery across local filesystems.",
+  "url": "https://github.com/mcollina/mcp-ripgrep",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Ripgrep MCP"
 }

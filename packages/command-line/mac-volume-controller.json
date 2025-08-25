@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mac-volume-controller",
-	"description": "Enables macOS volume control via osascript, providing mute and unmute functionality for system audio management.",
-	"url": "https://github.com/samsel/onesies",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Onesies"
+  "type": "mcp-server",
+  "packageName": "mac-volume-controller",
+  "description": "Enables macOS volume control via osascript, providing mute and unmute functionality for system audio management.",
+  "url": "https://github.com/samsel/onesies",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Onesies"
 }

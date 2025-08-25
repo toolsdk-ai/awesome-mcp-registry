@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "unsloth",
-	"description": "Unsloth's MCP server optimizes large language model fine-tuning by reducing VRAM usage and training time, supporting 4-bit quantization and extended context length for models like Llama, Mistral, and Phi.",
-	"url": "https://github.com/ototao/unsloth-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Unsloth MCP Server"
+  "type": "mcp-server",
+  "packageName": "unsloth",
+  "description": "Unsloth's MCP server optimizes large language model fine-tuning by reducing VRAM usage and training time, supporting 4-bit quantization and extended context length for models like Llama, Mistral, and Phi.",
+  "url": "https://github.com/ototao/unsloth-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Unsloth MCP Server"
 }

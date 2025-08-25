@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-chess",
-	"description": "Enables playing chess against language models through a visual interface with tools for board visualization, move execution, game initialization, and position analysis from PGN notation.",
-	"url": "https://github.com/jiayao/mcp-chess",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Chess"
+  "type": "mcp-server",
+  "packageName": "mcp-chess",
+  "description": "Enables playing chess against language models through a visual interface with tools for board visualization, move execution, game initialization, and position analysis from PGN notation.",
+  "url": "https://github.com/jiayao/mcp-chess",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Chess"
 }

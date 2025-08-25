@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "nhl-stats",
-	"description": "Provides real-time NHL sports data retrieval by bridging official web and stats APIs, enabling comprehensive access to team standings, player statistics, game schedules, and roster information through a flexible, multi-endpoint TypeScript implementation.",
-	"url": "https://github.com/dylangroos/nhl-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "NHL Stats MCP"
+  "type": "mcp-server",
+  "packageName": "nhl-stats",
+  "description": "Provides real-time NHL sports data retrieval by bridging official web and stats APIs, enabling comprehensive access to team standings, player statistics, game schedules, and roster information through a flexible, multi-endpoint TypeScript implementation.",
+  "url": "https://github.com/dylangroos/nhl-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "NHL Stats MCP"
 }

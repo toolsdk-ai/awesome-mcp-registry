@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "coinbase-commerce",
-	"description": "Enables cryptocurrency payment processing through Coinbase Commerce API with tools for generating payment links and retrieving transaction details",
-	"url": "https://github.com/zhangzhongnan928/mcp-coinbase-commerce",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Coinbase Commerce MCP"
+  "type": "mcp-server",
+  "packageName": "coinbase-commerce",
+  "description": "Enables cryptocurrency payment processing through Coinbase Commerce API with tools for generating payment links and retrieving transaction details",
+  "url": "https://github.com/zhangzhongnan928/mcp-coinbase-commerce",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Coinbase Commerce MCP"
 }

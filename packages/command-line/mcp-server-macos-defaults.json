@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-macos-defaults",
-	"description": "Enables interaction with macOS system preferences via the 'defaults' command for querying and modifying configurations.",
-	"url": "https://github.com/g0t4/mcp-server-macos-defaults",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server macOS Defaults"
+  "type": "mcp-server",
+  "packageName": "mcp-server-macos-defaults",
+  "description": "Enables interaction with macOS system preferences via the 'defaults' command for querying and modifying configurations.",
+  "url": "https://github.com/g0t4/mcp-server-macos-defaults",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server macOS Defaults"
 }

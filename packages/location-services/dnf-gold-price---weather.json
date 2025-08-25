@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dnf-gold-price-&-weather",
-	"description": "Integrates with DNF gold price and weather information APIs through a Go-based server that leverages the mark3labs/mcp-go library and kiririx/krutils package for real-time market data and meteorological information retrieval.",
-	"url": "https://github.com/kirikoko1213/kr-mcp-server",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "Kr MCP Server"
+  "type": "mcp-server",
+  "packageName": "dnf-gold-price-&-weather",
+  "description": "Integrates with DNF gold price and weather information APIs through a Go-based server that leverages the mark3labs/mcp-go library and kiririx/krutils package for real-time market data and meteorological information retrieval.",
+  "url": "https://github.com/kirikoko1213/kr-mcp-server",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "Kr MCP Server"
 }

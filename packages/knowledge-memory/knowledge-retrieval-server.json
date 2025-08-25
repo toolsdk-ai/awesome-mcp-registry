@@ -1,39 +1,39 @@
 {
-	"type": "mcp-server",
-	"packageName": "knowledge-retrieval-server",
-	"description": "A BM25-based MCP server that enables document search and retrieval across structured domains of knowledge content, allowing Claude to search and reference documentation when answering questions.",
-	"url": "https://github.com/cskwork/keyword-rag-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"BM25_B": {
-			"description": "BM25 algorithm's field length normalization parameter",
-			"required": true
-		},
-		"BM25_K1": {
-			"description": "BM25 algorithm's term frequency saturation parameter",
-			"required": true
-		},
-		"NODE_ENV": {
-			"description": "Node environment setting",
-			"required": true
-		},
-		"LOG_LEVEL": {
-			"description": "Logging level (debug, info, warn, error)",
-			"required": true
-		},
-		"DOCS_BASE_PATH": {
-			"description": "Base path for document files",
-			"required": true
-		},
-		"CHUNK_MIN_WORDS": {
-			"description": "Minimum number of words per chunk",
-			"required": true
-		},
-		"MCP_SERVER_NAME": {
-			"description": "Custom name for the MCP server",
-			"required": true
-		}
-	},
-	"name": "Keyword RAG MCP"
+  "type": "mcp-server",
+  "packageName": "knowledge-retrieval-server",
+  "description": "A BM25-based MCP server that enables document search and retrieval across structured domains of knowledge content, allowing Claude to search and reference documentation when answering questions.",
+  "url": "https://github.com/cskwork/keyword-rag-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "BM25_B": {
+      "description": "BM25 algorithm's field length normalization parameter",
+      "required": true
+    },
+    "BM25_K1": {
+      "description": "BM25 algorithm's term frequency saturation parameter",
+      "required": true
+    },
+    "NODE_ENV": {
+      "description": "Node environment setting",
+      "required": true
+    },
+    "LOG_LEVEL": {
+      "description": "Logging level (debug, info, warn, error)",
+      "required": true
+    },
+    "DOCS_BASE_PATH": {
+      "description": "Base path for document files",
+      "required": true
+    },
+    "CHUNK_MIN_WORDS": {
+      "description": "Minimum number of words per chunk",
+      "required": true
+    },
+    "MCP_SERVER_NAME": {
+      "description": "Custom name for the MCP server",
+      "required": true
+    }
+  },
+  "name": "Keyword RAG MCP"
 }

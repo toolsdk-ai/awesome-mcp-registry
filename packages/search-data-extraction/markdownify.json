@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "markdownify",
-	"description": "Converts diverse file types and web content to Markdown format using specialized tools for PDFs, images, audio, web pages, and more.",
-	"url": "https://github.com/zcaceres/markdownify-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Markdownify MCP"
+  "type": "mcp-server",
+  "packageName": "markdownify",
+  "description": "Converts diverse file types and web content to Markdown format using specialized tools for PDFs, images, audio, web pages, and more.",
+  "url": "https://github.com/zcaceres/markdownify-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Markdownify MCP"
 }

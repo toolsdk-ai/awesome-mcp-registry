@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "code-scanner",
-	"description": "Analyzes source code across multiple programming languages to extract structural information like classes, functions, and variables, with flexible filtering options for code exploration and documentation generation.",
-	"url": "https://github.com/ixe1/code-scanner-server",
-	"runtime": "node",
-	"license": "gpl-3.0",
-	"env": {},
-	"name": "Code Scanner Server"
+  "type": "mcp-server",
+  "packageName": "code-scanner",
+  "description": "Analyzes source code across multiple programming languages to extract structural information like classes, functions, and variables, with flexible filtering options for code exploration and documentation generation.",
+  "url": "https://github.com/ixe1/code-scanner-server",
+  "runtime": "node",
+  "license": "gpl-3.0",
+  "env": {},
+  "name": "Code Scanner Server"
 }

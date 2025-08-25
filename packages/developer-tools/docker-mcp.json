@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "docker-mcp",
-	"description": "Manage containers and compose stacks through natural language.",
-	"url": "https://github.com/quantgeekdev/docker-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Docker MCP"
+  "type": "mcp-server",
+  "packageName": "docker-mcp",
+  "description": "Manage containers and compose stacks through natural language.",
+  "url": "https://github.com/quantgeekdev/docker-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Docker MCP"
 }

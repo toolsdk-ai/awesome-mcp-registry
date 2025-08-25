@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "didlogic_mcp",
-	"description": "Provides a natural language interface to DIDLogic telecommunications API for managing SIP accounts, phone numbers, call history, and billing information through specialized VoIP administration tools.",
-	"url": "https://github.com/userad/didlogic_mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "DIDLogic MCP"
+  "type": "mcp-server",
+  "packageName": "didlogic_mcp",
+  "description": "Provides a natural language interface to DIDLogic telecommunications API for managing SIP accounts, phone numbers, call history, and billing information through specialized VoIP administration tools.",
+  "url": "https://github.com/userad/didlogic_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "DIDLogic MCP"
 }

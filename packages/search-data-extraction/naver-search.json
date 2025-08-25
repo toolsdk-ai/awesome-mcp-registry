@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "naver-search",
-	"description": "Provides access to Naver's search APIs across multiple categories including blogs, news, books, images, and shopping items with structured responses optimized for Korean-language search capabilities.",
-	"url": "https://github.com/jikime/py-mcp-naver-search",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Py MCP Naver Search"
+  "type": "mcp-server",
+  "packageName": "naver-search",
+  "description": "Provides access to Naver's search APIs across multiple categories including blogs, news, books, images, and shopping items with structured responses optimized for Korean-language search capabilities.",
+  "url": "https://github.com/jikime/py-mcp-naver-search",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Py MCP Naver Search"
 }

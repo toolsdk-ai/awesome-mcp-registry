@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "systemctl",
-	"description": "Bridges Claude with systemd services, enabling direct management of system services through a FastMCP server that communicates using Server-Sent Events.",
-	"url": "https://github.com/lalanikarim/systemctl-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Systemctl MCP Server"
+  "type": "mcp-server",
+  "packageName": "systemctl",
+  "description": "Bridges Claude with systemd services, enabling direct management of system services through a FastMCP server that communicates using Server-Sent Events.",
+  "url": "https://github.com/lalanikarim/systemctl-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Systemctl MCP Server"
 }

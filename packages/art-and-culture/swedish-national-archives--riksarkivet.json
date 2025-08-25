@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "swedish-national-archives-(riksarkivet)",
-	"description": "Provides access to the Swedish National Archives digital collections through IIIF APIs, enabling search of historical records, browsing of archival collections, and retrieval of digitized documents and images with flexible cropping, sizing, and format options.",
-	"url": "https://github.com/ai-riksarkivet/oxenstierna",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Oxenstierna MCP Server"
+  "type": "mcp-server",
+  "packageName": "swedish-national-archives-(riksarkivet)",
+  "description": "Provides access to the Swedish National Archives digital collections through IIIF APIs, enabling search of historical records, browsing of archival collections, and retrieval of digitized documents and images with flexible cropping, sizing, and format options.",
+  "url": "https://github.com/ai-riksarkivet/oxenstierna",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Oxenstierna MCP Server"
 }

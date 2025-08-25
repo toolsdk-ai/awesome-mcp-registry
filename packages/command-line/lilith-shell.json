@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "lilith-shell",
-	"description": "Enables secure execution of terminal commands with configurable working directories and timeout protection, capturing stdout, stderr, and exit codes for system operations and development tools.",
-	"url": "https://github.com/charles-adedotun/lilith-shell",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Lilith Shell"
+  "type": "mcp-server",
+  "packageName": "lilith-shell",
+  "description": "Enables secure execution of terminal commands with configurable working directories and timeout protection, capturing stdout, stderr, and exit codes for system operations and development tools.",
+  "url": "https://github.com/charles-adedotun/lilith-shell",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Lilith Shell"
 }

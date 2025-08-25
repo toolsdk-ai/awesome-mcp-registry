@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "webforai-text-extractor",
-	"description": "Extracts and processes web page content into clean, readable markdown format for research and information gathering",
-	"url": "https://github.com/yutakobayashidev/webforai-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "WebforAI MCP Server"
+  "type": "mcp-server",
+  "packageName": "webforai-text-extractor",
+  "description": "Extracts and processes web page content into clean, readable markdown format for research and information gathering",
+  "url": "https://github.com/yutakobayashidev/webforai-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "WebforAI MCP Server"
 }

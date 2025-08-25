@@ -1,27 +1,27 @@
 {
-	"type": "mcp-server",
-	"packageName": "@sanity/mcp-server",
-	"description": "Integrates with Sanity CMS to enable direct content creation, querying, and management through specialized tools for documents, datasets, schemas, releases, and embeddings",
-	"url": "https://github.com/sanity-io/sanity-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"SANITY_PROJECT_ID": {
-			"description": "your-project-id",
-			"required": true
-		},
-		"SANITY_DATASET": {
-			"description": "production",
-			"required": true
-		},
-		"SANITY_API_TOKEN": {
-			"description": "your-sanity-api-token",
-			"required": true
-		},
-		"MCP_USER_ROLE": {
-			"description": "developer",
-			"required": true
-		}
-	},
-	"name": "Sanity MCP Server"
+  "type": "mcp-server",
+  "packageName": "@sanity/mcp-server",
+  "description": "Integrates with Sanity CMS to enable direct content creation, querying, and management through specialized tools for documents, datasets, schemas, releases, and embeddings",
+  "url": "https://github.com/sanity-io/sanity-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "SANITY_PROJECT_ID": {
+      "description": "your-project-id",
+      "required": true
+    },
+    "SANITY_DATASET": {
+      "description": "production",
+      "required": true
+    },
+    "SANITY_API_TOKEN": {
+      "description": "your-sanity-api-token",
+      "required": true
+    },
+    "MCP_USER_ROLE": {
+      "description": "developer",
+      "required": true
+    }
+  },
+  "name": "Sanity MCP Server"
 }

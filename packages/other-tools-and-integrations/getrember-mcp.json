@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@getrember/mcp",
-	"description": "Create flashcards and study/remember anything you care about with spaced repetition reviews on Rember.",
-	"url": "https://github.com/rember/rember-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Rember MCP"
+  "type": "mcp-server",
+  "packageName": "@getrember/mcp",
+  "description": "Create flashcards and study/remember anything you care about with spaced repetition reviews on Rember.",
+  "url": "https://github.com/rember/rember-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Rember MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "kakao-maps",
-	"description": "Integrates with Kakao Maps API to provide location-based services including geolocation, address lookup, and map functionality for conversational interfaces",
-	"url": "https://github.com/jeong-sik/kakao-api-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Kakao Maps MCP Server"
+  "type": "mcp-server",
+  "packageName": "kakao-maps",
+  "description": "Integrates with Kakao Maps API to provide location-based services including geolocation, address lookup, and map functionality for conversational interfaces",
+  "url": "https://github.com/jeong-sik/kakao-api-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Kakao Maps MCP Server"
 }

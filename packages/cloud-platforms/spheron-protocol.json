@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "spheron-protocol",
-	"description": "Integrates with Spheron Protocol SDK to deploy and manage compute resources through natural language, enabling users to configure, deploy, and monitor cloud infrastructure without technical expertise.",
-	"url": "https://github.com/spheronfdn/spheron-mcp-plugin/tree/HEAD/mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Spheron MCP Plugin"
+  "type": "mcp-server",
+  "packageName": "spheron-protocol",
+  "description": "Integrates with Spheron Protocol SDK to deploy and manage compute resources through natural language, enabling users to configure, deploy, and monitor cloud infrastructure without technical expertise.",
+  "url": "https://github.com/spheronfdn/spheron-mcp-plugin/tree/HEAD/mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Spheron MCP Plugin"
 }

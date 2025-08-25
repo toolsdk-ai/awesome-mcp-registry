@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "powerplatform-mcp",
-	"description": "Integrates with Microsoft PowerPlatform/Dataverse to enable intelligent access to entity metadata, attributes, relationships, and records with support for OData queries and context-rich prompts for data modeling and exploration.",
-	"url": "https://github.com/michsob/powerplatform-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "PowerPlatform MCP"
+  "type": "mcp-server",
+  "packageName": "powerplatform-mcp",
+  "description": "Integrates with Microsoft PowerPlatform/Dataverse to enable intelligent access to entity metadata, attributes, relationships, and records with support for OData queries and context-rich prompts for data modeling and exploration.",
+  "url": "https://github.com/michsob/powerplatform-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "PowerPlatform MCP"
 }

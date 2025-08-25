@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "clickup",
-	"description": "Integrates with ClickUp's project management API to enable task creation, management, and automation within ClickUp environments.",
-	"url": "https://github.com/v4lheru/clickup-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "ClickUp MCP Server"
+  "type": "mcp-server",
+  "packageName": "clickup",
+  "description": "Integrates with ClickUp's project management API to enable task creation, management, and automation within ClickUp environments.",
+  "url": "https://github.com/v4lheru/clickup-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "ClickUp MCP Server"
 }

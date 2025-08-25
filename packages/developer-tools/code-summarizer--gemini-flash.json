@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "code-summarizer-(gemini-flash)",
-	"description": "Enables code repository analysis with Gemini Flash 2.0, providing customizable file and directory summarization that respects .gitignore rules for quickly understanding unfamiliar codebases.",
-	"url": "https://github.com/nicobailon/code-summarizer",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Code Summarizer (Gemini Flash)"
+  "type": "mcp-server",
+  "packageName": "code-summarizer-(gemini-flash)",
+  "description": "Enables code repository analysis with Gemini Flash 2.0, providing customizable file and directory summarization that respects .gitignore rules for quickly understanding unfamiliar codebases.",
+  "url": "https://github.com/nicobailon/code-summarizer",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Code Summarizer (Gemini Flash)"
 }

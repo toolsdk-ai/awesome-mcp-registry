@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sandbox-fusion",
-	"description": "Connects AI models to Sandbox Fusion environments for testing, training, and demonstrating agent interactions with simulated worlds",
-	"url": "https://github.com/happyzym/sandbox-fusion-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Sandbox Fusion MCP"
+  "type": "mcp-server",
+  "packageName": "sandbox-fusion",
+  "description": "Connects AI models to Sandbox Fusion environments for testing, training, and demonstrating agent interactions with simulated worlds",
+  "url": "https://github.com/happyzym/sandbox-fusion-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Sandbox Fusion MCP"
 }

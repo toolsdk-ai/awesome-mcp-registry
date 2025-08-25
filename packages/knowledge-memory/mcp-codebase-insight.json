@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-codebase-insight",
-	"description": "Provides deep code analysis capabilities for software repositories, enabling pattern detection, architecture understanding, and knowledge management through a FastAPI server with Qdrant vector database integration.",
-	"url": "https://github.com/tosin2013/mcp-codebase-insight",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Codebase Insight MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-codebase-insight",
+  "description": "Provides deep code analysis capabilities for software repositories, enabling pattern detection, architecture understanding, and knowledge management through a FastAPI server with Qdrant vector database integration.",
+  "url": "https://github.com/tosin2013/mcp-codebase-insight",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Codebase Insight MCP"
 }

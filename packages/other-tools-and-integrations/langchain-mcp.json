@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "langchain-mcp",
-	"description": "Use MCP tools within LangChain-powered applications.",
-	"url": "https://github.com/rectalogic/langchain-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "LangChain MCP"
+  "type": "mcp-server",
+  "packageName": "langchain-mcp",
+  "description": "Use MCP tools within LangChain-powered applications.",
+  "url": "https://github.com/rectalogic/langchain-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "LangChain MCP"
 }

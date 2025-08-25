@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "whodis-mcp-server",
-	"description": "Provides domain availability checking through WHOIS lookups, enabling users to verify multiple domain names simultaneously for new projects or bulk status verification.",
-	"url": "https://github.com/vinsidious/whodis-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Whodis MCP Server"
+  "type": "mcp-server",
+  "packageName": "whodis-mcp-server",
+  "description": "Provides domain availability checking through WHOIS lookups, enabling users to verify multiple domain names simultaneously for new projects or bulk status verification.",
+  "url": "https://github.com/vinsidious/whodis-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Whodis MCP Server"
 }

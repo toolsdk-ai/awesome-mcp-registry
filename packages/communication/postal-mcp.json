@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "postal-mcp",
-	"description": "Creates a persistent mailbox system enabling asynchronous message passing between agents through send_to_agent and check_mail tools backed by SQLite storage.",
-	"url": "https://github.com/tkellogg/postal-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Postal MCP"
+  "type": "mcp-server",
+  "packageName": "postal-mcp",
+  "description": "Creates a persistent mailbox system enabling asynchronous message passing between agents through send_to_agent and check_mail tools backed by SQLite storage.",
+  "url": "https://github.com/tkellogg/postal-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Postal MCP"
 }

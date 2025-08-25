@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ticktick",
-	"description": "Integrates with TickTick task management service to create, update, delete, and retrieve tasks and projects with OAuth and username/password authentication, featuring specialized tools for overdue and today's tasks with timezone compensation and priority displays.",
-	"url": "https://github.com/rafliruslan/ticktick-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "TickTick MCP Server"
+  "type": "mcp-server",
+  "packageName": "ticktick",
+  "description": "Integrates with TickTick task management service to create, update, delete, and retrieve tasks and projects with OAuth and username/password authentication, featuring specialized tools for overdue and today's tasks with timezone compensation and priority displays.",
+  "url": "https://github.com/rafliruslan/ticktick-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "TickTick MCP Server"
 }

@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "@grec0/mcp-s2s-asterisk",
-	"description": "Integrates with Asterisk phone systems to enable outbound call operations, conversation monitoring, call history retrieval, and telephony system metrics tracking for business automation workflows.",
-	"url": "https://github.com/gcorroto/mcp-s2s-asterisk",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"PHONE_API_URL": {
-			"description": "http://192.168.4.44:8000",
-			"required": true
-		},
-		"PHONE_API_KEY": {
-			"description": "api-key",
-			"required": true
-		},
-		"MCP_CALLBACK_URL": {
-			"description": "http://localhost:3000",
-			"required": true
-		}
-	},
-	"name": "MCP S2S Asterisk"
+  "type": "mcp-server",
+  "packageName": "@grec0/mcp-s2s-asterisk",
+  "description": "Integrates with Asterisk phone systems to enable outbound call operations, conversation monitoring, call history retrieval, and telephony system metrics tracking for business automation workflows.",
+  "url": "https://github.com/gcorroto/mcp-s2s-asterisk",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PHONE_API_URL": {
+      "description": "http://192.168.4.44:8000",
+      "required": true
+    },
+    "PHONE_API_KEY": {
+      "description": "api-key",
+      "required": true
+    },
+    "MCP_CALLBACK_URL": {
+      "description": "http://localhost:3000",
+      "required": true
+    }
+  },
+  "name": "MCP S2S Asterisk"
 }

@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@rebers/4o-mini-search-mcp",
-	"description": "Provides web search capabilities through a lightweight server that connects to OpenAI's or OpenRouter.ai's search-enabled models with minimal setup requirements.",
-	"url": "https://github.com/rebers/4o-mini-search-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"API_KEY": {
-			"description": "your-api-key",
-			"required": true
-		},
-		"PROVIDER": {
-			"description": "openai",
-			"required": true
-		}
-	},
-	"name": "4O Mini Search MCP"
+  "type": "mcp-server",
+  "packageName": "@rebers/4o-mini-search-mcp",
+  "description": "Provides web search capabilities through a lightweight server that connects to OpenAI's or OpenRouter.ai's search-enabled models with minimal setup requirements.",
+  "url": "https://github.com/rebers/4o-mini-search-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "API_KEY": {
+      "description": "your-api-key",
+      "required": true
+    },
+    "PROVIDER": {
+      "description": "openai",
+      "required": true
+    }
+  },
+  "name": "4O Mini Search MCP"
 }

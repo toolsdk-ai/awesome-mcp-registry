@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "human-mcp",
-	"description": "Human-in-the-loop server that routes AI assistant requests to a human operator through a Streamlit UI, enabling creative and unpredictable responses while maintaining the illusion of automated interactions.",
-	"url": "https://github.com/upamune/human-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Human MCP"
+  "type": "mcp-server",
+  "packageName": "human-mcp",
+  "description": "Human-in-the-loop server that routes AI assistant requests to a human operator through a Streamlit UI, enabling creative and unpredictable responses while maintaining the illusion of automated interactions.",
+  "url": "https://github.com/upamune/human-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Human MCP"
 }

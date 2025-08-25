@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "linear",
-	"description": "Integrates with Linear's issue tracking platform, enabling creation, updating, and searching of issues, retrieval of assigned tasks, and comment addition through five specialized tools.",
-	"url": "https://github.com/vinayak-mehta/linear-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Linear MCP"
+  "type": "mcp-server",
+  "packageName": "linear",
+  "description": "Integrates with Linear's issue tracking platform, enabling creation, updating, and searching of issues, retrieval of assigned tasks, and comment addition through five specialized tools.",
+  "url": "https://github.com/vinayak-mehta/linear-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Linear MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "node.js-debugger",
-	"description": "Provides Node.js debugging capabilities through Chrome DevTools Protocol, enabling breakpoint management, step-through execution, call stack inspection, and expression evaluation for interactive debugging sessions.",
-	"url": "https://github.com/qckfx/node-debugger-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Node Debugger MCP"
+  "type": "mcp-server",
+  "packageName": "node.js-debugger",
+  "description": "Provides Node.js debugging capabilities through Chrome DevTools Protocol, enabling breakpoint management, step-through execution, call stack inspection, and expression evaluation for interactive debugging sessions.",
+  "url": "https://github.com/qckfx/node-debugger-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Node Debugger MCP"
 }

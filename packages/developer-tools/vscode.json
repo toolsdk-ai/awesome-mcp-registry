@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "vscode",
-	"description": "VSCode tools and resources as a Model Context Protocol (MCP) server in a VSCode extension",
-	"url": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-vscode",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Server VSCode"
+  "type": "mcp-server",
+  "packageName": "vscode",
+  "description": "VSCode tools and resources as a Model Context Protocol (MCP) server in a VSCode extension",
+  "url": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-vscode",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Server VSCode"
 }

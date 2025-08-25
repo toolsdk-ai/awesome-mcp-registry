@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "greptimedb-mcp-server",
-	"description": "Enables AI interaction with GreptimeDB time-series databases through MySQL protocol for data exploration, analysis, and SQL query execution with built-in security protections.",
-	"url": "https://github.com/greptimeteam/greptimedb-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "GreptimeDB MCP Server"
+  "type": "mcp-server",
+  "packageName": "greptimedb-mcp-server",
+  "description": "Enables AI interaction with GreptimeDB time-series databases through MySQL protocol for data exploration, analysis, and SQL query execution with built-in security protections.",
+  "url": "https://github.com/greptimeteam/greptimedb-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "GreptimeDB MCP Server"
 }

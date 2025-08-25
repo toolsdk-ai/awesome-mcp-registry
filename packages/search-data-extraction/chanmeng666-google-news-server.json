@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@chanmeng666/google-news-server",
-	"description": "MCP server for Google News search via SerpAPI",
-	"url": "https://github.com/ChanMeng666/server-google-news",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"SERP_API_KEY": {
-			"description": "API key for Google News search",
-			"required": true
-		}
-	},
-	"name": "Google News MCP Server"
+  "type": "mcp-server",
+  "packageName": "@chanmeng666/google-news-server",
+  "description": "MCP server for Google News search via SerpAPI",
+  "url": "https://github.com/ChanMeng666/server-google-news",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "SERP_API_KEY": {
+      "description": "API key for Google News search",
+      "required": true
+    }
+  },
+  "name": "Google News MCP Server"
 }

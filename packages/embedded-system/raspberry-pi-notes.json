@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "raspberry-pi-notes",
-	"description": "Provides a lightweight note storage system for creating, reading, and summarizing notes with custom styling options, designed to run efficiently on Raspberry Pi devices.",
-	"url": "https://github.com/daikw/mcp-server-on-raspi",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server on RasPi"
+  "type": "mcp-server",
+  "packageName": "raspberry-pi-notes",
+  "description": "Provides a lightweight note storage system for creating, reading, and summarizing notes with custom styling options, designed to run efficiently on Raspberry Pi devices.",
+  "url": "https://github.com/daikw/mcp-server-on-raspi",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server on RasPi"
 }

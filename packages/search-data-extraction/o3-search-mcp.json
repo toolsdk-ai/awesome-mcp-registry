@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "o3-search-mcp",
-	"description": "Provides web search capabilities using OpenAI's o3 model with configurable reasoning effort levels for finding current information and solving complex problems beyond traditional search engines.",
-	"url": "https://github.com/yoshiko-pg/o3-search-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "O3 Search MCP"
+  "type": "mcp-server",
+  "packageName": "o3-search-mcp",
+  "description": "Provides web search capabilities using OpenAI's o3 model with configurable reasoning effort levels for finding current information and solving complex problems beyond traditional search engines.",
+  "url": "https://github.com/yoshiko-pg/o3-search-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "O3 Search MCP"
 }

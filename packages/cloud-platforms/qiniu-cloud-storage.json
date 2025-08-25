@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "qiniu-cloud-storage",
-	"description": "Integrates with Qiniu Cloud to provide object storage management, CDN operations, and image processing capabilities for applications that need to handle cloud-stored assets or perform on-the-fly image transformations",
-	"url": "https://github.com/qiniu/qiniu-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Qiniu MCP Server"
+  "type": "mcp-server",
+  "packageName": "qiniu-cloud-storage",
+  "description": "Integrates with Qiniu Cloud to provide object storage management, CDN operations, and image processing capabilities for applications that need to handle cloud-stored assets or perform on-the-fly image transformations",
+  "url": "https://github.com/qiniu/qiniu-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Qiniu MCP Server"
 }

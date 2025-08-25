@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "markitdown-(npx-wrapper)",
-	"description": "NPX wrapper for Microsoft's MarkItDown that converts PDFs, Word documents, Excel files, images, and other formats into markdown without Docker dependencies or complex configurations.",
-	"url": "https://github.com/xkiranj/markitdown-mcp-npx",
-	"runtime": "node",
-	"license": "other",
-	"env": {},
-	"name": "MarkItDown MCP NPX"
+  "type": "mcp-server",
+  "packageName": "markitdown-(npx-wrapper)",
+  "description": "NPX wrapper for Microsoft's MarkItDown that converts PDFs, Word documents, Excel files, images, and other formats into markdown without Docker dependencies or complex configurations.",
+  "url": "https://github.com/xkiranj/markitdown-mcp-npx",
+  "runtime": "node",
+  "license": "other",
+  "env": {},
+  "name": "MarkItDown MCP NPX"
 }

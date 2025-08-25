@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "traits-matcher",
-	"description": "Enables HR professionals to create, track, and match personality traits for individuals by providing tools to analyze interpersonal dynamics through data-driven personality dimensions like friendliness and dominance.",
-	"url": "https://github.com/waifuai/mcp-traits-matcher",
-	"runtime": "python",
-	"license": "mit-0",
-	"env": {},
-	"name": "Traits Matcher MCP"
+  "type": "mcp-server",
+  "packageName": "traits-matcher",
+  "description": "Enables HR professionals to create, track, and match personality traits for individuals by providing tools to analyze interpersonal dynamics through data-driven personality dimensions like friendliness and dominance.",
+  "url": "https://github.com/waifuai/mcp-traits-matcher",
+  "runtime": "python",
+  "license": "mit-0",
+  "env": {},
+  "name": "Traits Matcher MCP"
 }

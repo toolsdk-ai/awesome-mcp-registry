@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "urldna",
-	"description": "Integrates with urlDNA's cybersecurity API to provide URL threat intelligence through scanning, phishing detection, search queries across domains and malicious status, and retrieval of existing analysis results for security workflows.",
-	"url": "https://github.com/urldna/mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "URLDNA MCP"
+  "type": "mcp-server",
+  "packageName": "urldna",
+  "description": "Integrates with urlDNA's cybersecurity API to provide URL threat intelligence through scanning, phishing detection, search queries across domains and malicious status, and retrieval of existing analysis results for security workflows.",
+  "url": "https://github.com/urldna/mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "URLDNA MCP"
 }

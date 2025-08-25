@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@mjpitz/mcp-rfc",
-	"description": "Provides a bridge to IETF RFC documents for retrieving, searching, and extracting specific sections from technical standards documentation with support for both HTML and TXT formats",
-	"url": "https://github.com/mjpitz/mcp-rfc",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP RFC Bridge"
+  "type": "mcp-server",
+  "packageName": "@mjpitz/mcp-rfc",
+  "description": "Provides a bridge to IETF RFC documents for retrieving, searching, and extracting specific sections from technical standards documentation with support for both HTML and TXT formats",
+  "url": "https://github.com/mjpitz/mcp-rfc",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP RFC Bridge"
 }

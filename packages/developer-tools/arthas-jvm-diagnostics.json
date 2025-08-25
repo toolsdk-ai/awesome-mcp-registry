@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "arthas-jvm-diagnostics",
-	"description": "Enables direct interaction with running Java applications through Arthas diagnostic tools via SSH connections, allowing for remote command execution, performance monitoring, and debugging of JVM processes.",
-	"url": "https://github.com/xzq-xu/jvm-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "JVM MCP Server"
+  "type": "mcp-server",
+  "packageName": "arthas-jvm-diagnostics",
+  "description": "Enables direct interaction with running Java applications through Arthas diagnostic tools via SSH connections, allowing for remote command execution, performance monitoring, and debugging of JVM processes.",
+  "url": "https://github.com/xzq-xu/jvm-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "JVM MCP Server"
 }

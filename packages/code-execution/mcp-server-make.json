@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-make",
-	"description": "A Model Context Protocol server that provides make target calling functionality. This server enables LLMs to execute make targets from a specified Makefile within a specified working directory.",
-	"url": "https://github.com/wrale/mcp-server-make",
-	"runtime": "python",
-	"license": "MIT",
-	"env": {},
-	"name": "MCP Server Make"
+  "type": "mcp-server",
+  "packageName": "mcp-server-make",
+  "description": "A Model Context Protocol server that provides make target calling functionality. This server enables LLMs to execute make targets from a specified Makefile within a specified working directory.",
+  "url": "https://github.com/wrale/mcp-server-make",
+  "runtime": "python",
+  "license": "MIT",
+  "env": {},
+  "name": "MCP Server Make"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "waldur",
-	"description": "Integrates with Waldur's cloud management platform API to enable natural language-driven provisioning, monitoring, and billing of multi-provider cloud resources.",
-	"url": "https://github.com/waldur/waldur-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Waldur MCP Server"
+  "type": "mcp-server",
+  "packageName": "waldur",
+  "description": "Integrates with Waldur's cloud management platform API to enable natural language-driven provisioning, monitoring, and billing of multi-provider cloud resources.",
+  "url": "https://github.com/waldur/waldur-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Waldur MCP Server"
 }

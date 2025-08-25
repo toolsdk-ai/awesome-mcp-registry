@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "git-&-code-analysis",
-	"description": "Integrates with Git to provide version control, project management, and code analysis capabilities for TypeScript projects.",
-	"url": "https://github.com/sunwood-ai-labs/release-notes-generator-iris-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Release Notes Generator Iris MCP Server"
+  "type": "mcp-server",
+  "packageName": "git-&-code-analysis",
+  "description": "Integrates with Git to provide version control, project management, and code analysis capabilities for TypeScript projects.",
+  "url": "https://github.com/sunwood-ai-labs/release-notes-generator-iris-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Release Notes Generator Iris MCP Server"
 }

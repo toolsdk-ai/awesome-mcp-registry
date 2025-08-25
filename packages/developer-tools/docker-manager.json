@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "docker-manager",
-	"description": "Enables natural language-driven Docker container management, including operations, log monitoring, and command execution.",
-	"url": "https://github.com/toowiredd/chatgpt-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "ChatGPT MCP Server"
+  "type": "mcp-server",
+  "packageName": "docker-manager",
+  "description": "Enables natural language-driven Docker container management, including operations, log monitoring, and command execution.",
+  "url": "https://github.com/toowiredd/chatgpt-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "ChatGPT MCP Server"
 }

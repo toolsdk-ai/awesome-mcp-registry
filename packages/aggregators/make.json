@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "make",
-	"description": "Integrates with Make (formerly Integromat) to enable automated workflows and task execution using AI assistants and Make's extensive app integration library.",
-	"url": "https://github.com/3rzy/make-mcp-integration-issue",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Make MCP Integration"
+  "type": "mcp-server",
+  "packageName": "make",
+  "description": "Integrates with Make (formerly Integromat) to enable automated workflows and task execution using AI assistants and Make's extensive app integration library.",
+  "url": "https://github.com/3rzy/make-mcp-integration-issue",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Make MCP Integration"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-github-issue",
-	"description": "Fetches GitHub issues and transforms them into structured task descriptions for software development workflows and project management.",
-	"url": "https://github.com/sammcj/mcp-github-issue",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "GitHub Issue MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-github-issue",
+  "description": "Fetches GitHub issues and transforms them into structured task descriptions for software development workflows and project management.",
+  "url": "https://github.com/sammcj/mcp-github-issue",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "GitHub Issue MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cerebra-legal",
-	"description": "Provides specialized legal reasoning tools for structured analysis, follow-up questioning, and professional document formatting across multiple legal domains including ANSC contestations, consumer protection, and contract analysis.",
-	"url": "https://github.com/yoda-digital/mcp-cerebra-legal-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Cerebra Legal MCP Server"
+  "type": "mcp-server",
+  "packageName": "cerebra-legal",
+  "description": "Provides specialized legal reasoning tools for structured analysis, follow-up questioning, and professional document formatting across multiple legal domains including ANSC contestations, consumer protection, and contract analysis.",
+  "url": "https://github.com/yoda-digital/mcp-cerebra-legal-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Cerebra Legal MCP Server"
 }

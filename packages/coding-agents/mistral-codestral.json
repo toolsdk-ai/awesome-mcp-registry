@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mistral-codestral",
-	"description": "Integrates with Mistral's code-related APIs to enable code completion, bug fixing, and test generation across multiple programming languages.",
-	"url": "https://github.com/bsmi021/mcp-mistral-codestral",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Mistral Codestral MCP"
+  "type": "mcp-server",
+  "packageName": "mistral-codestral",
+  "description": "Integrates with Mistral's code-related APIs to enable code completion, bug fixing, and test generation across multiple programming languages.",
+  "url": "https://github.com/bsmi021/mcp-mistral-codestral",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Mistral Codestral MCP"
 }

@@ -1,16 +1,16 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1839412200760610816/Lce29ADc_400x400.jpg",
-	"packageName": "@mumunha/cal_dot_com_mcpserver",
-	"description": "Integrates with Cal.com Calendar API to enable appointment scheduling, management, and listing capabilities through calendar operation tools with rate limiting and error handling.",
-	"url": "https://github.com/mumunha/cal_dot_com_mcpserver",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"CAL_COM_API_KEY": {
-			"description": "YOUR_API_KEY_HERE",
-			"required": true
-		}
-	},
-	"name": "Cal.com MCP Server"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1839412200760610816/Lce29ADc_400x400.jpg",
+  "packageName": "@mumunha/cal_dot_com_mcpserver",
+  "description": "Integrates with Cal.com Calendar API to enable appointment scheduling, management, and listing capabilities through calendar operation tools with rate limiting and error handling.",
+  "url": "https://github.com/mumunha/cal_dot_com_mcpserver",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "CAL_COM_API_KEY": {
+      "description": "YOUR_API_KEY_HERE",
+      "required": true
+    }
+  },
+  "name": "Cal.com MCP Server"
 }

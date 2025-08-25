@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@delorenj/mcp-server-ticketmaster",
-	"description": "Integrates with Ticketmaster's Discovery API to search and retrieve detailed event, venue, and attraction data for entertainment planning and ticketing assistance.",
-	"url": "https://github.com/delorenj/mcp-server-ticketmaster",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TICKETMASTER_API_KEY": {
-			"description": "your-api-key-here",
-			"required": true
-		}
-	},
-	"name": "Ticketmaster MCP Server"
+  "type": "mcp-server",
+  "packageName": "@delorenj/mcp-server-ticketmaster",
+  "description": "Integrates with Ticketmaster's Discovery API to search and retrieve detailed event, venue, and attraction data for entertainment planning and ticketing assistance.",
+  "url": "https://github.com/delorenj/mcp-server-ticketmaster",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TICKETMASTER_API_KEY": {
+      "description": "your-api-key-here",
+      "required": true
+    }
+  },
+  "name": "Ticketmaster MCP Server"
 }

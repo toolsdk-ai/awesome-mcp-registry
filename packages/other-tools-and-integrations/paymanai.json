@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "paymanai",
-	"description": "Provides a bridge to PaymanAI's documentation and SDK, enabling dynamic retrieval, caching, and problem-solving guidance for developers working with Node.js and Python implementations.",
-	"url": "https://github.com/paymanai/payman-doc-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Payman Doc MCP Server"
+  "type": "mcp-server",
+  "packageName": "paymanai",
+  "description": "Provides a bridge to PaymanAI's documentation and SDK, enabling dynamic retrieval, caching, and problem-solving guidance for developers working with Node.js and Python implementations.",
+  "url": "https://github.com/paymanai/payman-doc-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Payman Doc MCP Server"
 }

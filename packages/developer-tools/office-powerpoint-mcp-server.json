@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "office-powerpoint-mcp-server",
-	"description": "Enables creation and manipulation of PowerPoint presentations with tools for adding and formatting slides, text, images, tables, charts and shapes through python-pptx",
-	"url": "https://github.com/gongrzhe/office-powerpoint-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Office PowerPoint MCP Server"
+  "type": "mcp-server",
+  "packageName": "office-powerpoint-mcp-server",
+  "description": "Enables creation and manipulation of PowerPoint presentations with tools for adding and formatting slides, text, images, tables, charts and shapes through python-pptx",
+  "url": "https://github.com/gongrzhe/office-powerpoint-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Office PowerPoint MCP Server"
 }

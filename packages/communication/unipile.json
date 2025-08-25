@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "unipile",
-	"description": "Integrates with Unipile to provide unified access to messages across LinkedIn, WhatsApp, Instagram, Messenger, and Telegram, enabling efficient multi-platform communication management.",
-	"url": "https://github.com/honeybluesky/mcp-unipile",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Unipile MCP"
+  "type": "mcp-server",
+  "packageName": "unipile",
+  "description": "Integrates with Unipile to provide unified access to messages across LinkedIn, WhatsApp, Instagram, Messenger, and Telegram, enabling efficient multi-platform communication management.",
+  "url": "https://github.com/honeybluesky/mcp-unipile",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Unipile MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "pluggy",
-	"description": "Integrates with Pluggy's open banking platform to access financial account data and list available connectors across multiple banking institutions for financial applications and personal finance management.",
-	"url": "https://github.com/pluggyai/pluggy-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Pluggy MCP"
+  "type": "mcp-server",
+  "packageName": "pluggy",
+  "description": "Integrates with Pluggy's open banking platform to access financial account data and list available connectors across multiple banking institutions for financial applications and personal finance management.",
+  "url": "https://github.com/pluggyai/pluggy-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Pluggy MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "1panel-deployment",
-	"description": "Automates website deployment to 1Panel servers by creating static sites, uploading build files, and providing deployment statistics through a Node.js Express interface.",
-	"url": "https://github.com/ruibaby/1panel-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "1Panel MCP"
+  "type": "mcp-server",
+  "packageName": "1panel-deployment",
+  "description": "Automates website deployment to 1Panel servers by creating static sites, uploading build files, and providing deployment statistics through a Node.js Express interface.",
+  "url": "https://github.com/ruibaby/1panel-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "1Panel MCP"
 }

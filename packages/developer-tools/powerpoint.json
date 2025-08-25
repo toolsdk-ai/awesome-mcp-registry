@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "powerpoint",
-	"description": "Create PowerPoint presentations leveraging TogetherAI image generation",
-	"url": "https://github.com/supercurses/powerpoint",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "PowerPoint MCP"
+  "type": "mcp-server",
+  "packageName": "powerpoint",
+  "description": "Create PowerPoint presentations leveraging TogetherAI image generation",
+  "url": "https://github.com/supercurses/powerpoint",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "PowerPoint MCP"
 }

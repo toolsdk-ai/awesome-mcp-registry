@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "zeek",
-	"description": "Provides a bridge between Zeek network security monitor and language models for executing PCAP file analysis, log parsing, and converting tabular output into structured data formats without requiring direct command-line interaction.",
-	"url": "https://github.com/gabbo01/zeek-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Zeek MCP"
+  "type": "mcp-server",
+  "packageName": "zeek",
+  "description": "Provides a bridge between Zeek network security monitor and language models for executing PCAP file analysis, log parsing, and converting tabular output into structured data formats without requiring direct command-line interaction.",
+  "url": "https://github.com/gabbo01/zeek-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Zeek MCP"
 }

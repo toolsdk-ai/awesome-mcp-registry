@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "qase",
-	"description": "Provides a TypeScript-based integration with the Qase test management platform, enabling interaction with test-related entities like projects, cases, runs, results, plans, suites, and shared steps through strong typing and Zod-validated API calls.",
-	"url": "https://github.com/rikuson/mcp-qase",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Qase MCP"
+  "type": "mcp-server",
+  "packageName": "qase",
+  "description": "Provides a TypeScript-based integration with the Qase test management platform, enabling interaction with test-related entities like projects, cases, runs, results, plans, suites, and shared steps through strong typing and Zod-validated API calls.",
+  "url": "https://github.com/rikuson/mcp-qase",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Qase MCP"
 }

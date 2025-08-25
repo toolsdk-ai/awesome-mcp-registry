@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "@hannesrudolph/mcp-ragdocs",
-	"description": "Real-time documentation context through vector-based search and retrieval via Qdrant.",
-	"url": "https://github.com/hannesrudolph/mcp-ragdocs",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"OPENAI_API_KEY": {
-			"description": "",
-			"required": true
-		},
-		"QDRANT_URL": {
-			"description": "",
-			"required": true
-		},
-		"QDRANT_API_KEY": {
-			"description": "",
-			"required": true
-		}
-	},
-	"name": "MCP RAGDocs"
+  "type": "mcp-server",
+  "packageName": "@hannesrudolph/mcp-ragdocs",
+  "description": "Real-time documentation context through vector-based search and retrieval via Qdrant.",
+  "url": "https://github.com/hannesrudolph/mcp-ragdocs",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "",
+      "required": true
+    },
+    "QDRANT_URL": {
+      "description": "",
+      "required": true
+    },
+    "QDRANT_API_KEY": {
+      "description": "",
+      "required": true
+    }
+  },
+  "name": "MCP RAGDocs"
 }

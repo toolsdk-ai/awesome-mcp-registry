@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "texas-hold'em-poker",
-	"description": "Implements a Texas Hold'em poker game server with betting rounds, hand evaluation, and multi-player table management for training strategic decision making capabilities",
-	"url": "https://github.com/freshlife001/mcp_poker",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Texas Hold'em Poker MCP Server"
+  "type": "mcp-server",
+  "packageName": "texas-hold'em-poker",
+  "description": "Implements a Texas Hold'em poker game server with betting rounds, hand evaluation, and multi-player table management for training strategic decision making capabilities",
+  "url": "https://github.com/freshlife001/mcp_poker",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Texas Hold'em Poker MCP Server"
 }

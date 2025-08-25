@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cloudflare-workers-observability",
-	"description": "Understand how your Worker projects are performing via logs, traces, and other data sources.",
-	"url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/workers-observability",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Workers Observability MCP Server"
+  "type": "mcp-server",
+  "packageName": "cloudflare-workers-observability",
+  "description": "Understand how your Worker projects are performing via logs, traces, and other data sources.",
+  "url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/workers-observability",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Workers Observability MCP Server"
 }

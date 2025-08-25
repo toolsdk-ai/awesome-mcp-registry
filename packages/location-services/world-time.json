@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "world-time",
-	"description": "Provides location-based current time in ISO 8601 format using the World Time API through a lightweight Python FastMCP server.",
-	"url": "https://github.com/kukapay/whattimeisit-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "What Time Is It MCP"
+  "type": "mcp-server",
+  "packageName": "world-time",
+  "description": "Provides location-based current time in ISO 8601 format using the World Time API through a lightweight Python FastMCP server.",
+  "url": "https://github.com/kukapay/whattimeisit-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "What Time Is It MCP"
 }

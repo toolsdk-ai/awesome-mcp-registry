@@ -1,31 +1,31 @@
 {
-	"type": "mcp-server",
-	"packageName": "apisix-mcp",
-	"description": "Bridge LLMs with the APISIX Admin API to manage and analyze API gateway information.",
-	"url": "https://github.com/api7/apisix-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"APISIX_SERVER_HOST": {
-			"description": "your-apisix-server-host",
-			"required": true
-		},
-		"APISIX_SERVER_PORT": {
-			"description": "your-apisix-server-port",
-			"required": true
-		},
-		"APISIX_ADMIN_API_PORT": {
-			"description": "your-apisix-admin-api-port",
-			"required": true
-		},
-		"APISIX_ADMIN_API_PREFIX": {
-			"description": "your-apisix-admin-api-prefix",
-			"required": true
-		},
-		"APISIX_ADMIN_KEY": {
-			"description": "your-apisix-api-key",
-			"required": true
-		}
-	},
-	"name": "APISIX MCP"
+  "type": "mcp-server",
+  "packageName": "apisix-mcp",
+  "description": "Bridge LLMs with the APISIX Admin API to manage and analyze API gateway information.",
+  "url": "https://github.com/api7/apisix-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "APISIX_SERVER_HOST": {
+      "description": "your-apisix-server-host",
+      "required": true
+    },
+    "APISIX_SERVER_PORT": {
+      "description": "your-apisix-server-port",
+      "required": true
+    },
+    "APISIX_ADMIN_API_PORT": {
+      "description": "your-apisix-admin-api-port",
+      "required": true
+    },
+    "APISIX_ADMIN_API_PREFIX": {
+      "description": "your-apisix-admin-api-prefix",
+      "required": true
+    },
+    "APISIX_ADMIN_KEY": {
+      "description": "your-apisix-api-key",
+      "required": true
+    }
+  },
+  "name": "APISIX MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-google-calendar",
-	"description": "Integrates the Google Calendar API to enable querying, creation, and modification of calendar entries and events.",
-	"url": "https://github.com/eliasuran/mcp_server_google_calendar",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Google Calendar MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-google-calendar",
+  "description": "Integrates the Google Calendar API to enable querying, creation, and modification of calendar entries and events.",
+  "url": "https://github.com/eliasuran/mcp_server_google_calendar",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Google Calendar MCP Server"
 }

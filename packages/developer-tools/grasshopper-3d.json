@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "grasshopper-3d",
-	"description": "Integrates with Rhino/Grasshopper 3D modeling software to enable parametric design and geometric analysis through natural language commands for architects, designers, and engineers.",
-	"url": "https://github.com/veoery/gh_mcp_server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Grasshopper 3D MCP Server"
+  "type": "mcp-server",
+  "packageName": "grasshopper-3d",
+  "description": "Integrates with Rhino/Grasshopper 3D modeling software to enable parametric design and geometric analysis through natural language commands for architects, designers, and engineers.",
+  "url": "https://github.com/veoery/gh_mcp_server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Grasshopper 3D MCP Server"
 }

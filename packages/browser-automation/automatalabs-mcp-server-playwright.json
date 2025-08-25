@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@automatalabs/mcp-server-playwright",
-	"description": "Control browsers to perform sophisticated web interactions and visual tasks.",
-	"url": "https://github.com/automata-labs-team/mcp-server-playwright",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server Playwright"
+  "type": "mcp-server",
+  "packageName": "@automatalabs/mcp-server-playwright",
+  "description": "Control browsers to perform sophisticated web interactions and visual tasks.",
+  "url": "https://github.com/automata-labs-team/mcp-server-playwright",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server Playwright"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "playmcp-(playwright-browser-automation)",
-	"description": "Provides browser automation capabilities using Playwright, enabling web page navigation, element interaction, content extraction, screenshot capture, and JavaScript execution for web scraping, testing, and automated workflows.",
-	"url": "https://github.com/jomon003/playmcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "PlayMCP (Playwright Browser Automation)"
+  "type": "mcp-server",
+  "packageName": "playmcp-(playwright-browser-automation)",
+  "description": "Provides browser automation capabilities using Playwright, enabling web page navigation, element interaction, content extraction, screenshot capture, and JavaScript execution for web scraping, testing, and automated workflows.",
+  "url": "https://github.com/jomon003/playmcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "PlayMCP (Playwright Browser Automation)"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mssql_mcp_server",
-	"description": "Enables secure interactions with Microsoft SQL Server databases for automated data analysis, dynamic reporting, and intelligent database management.",
-	"url": "https://github.com/jexinsam/mssql_mcp_server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MSSQL MCP Server"
+  "type": "mcp-server",
+  "packageName": "mssql_mcp_server",
+  "description": "Enables secure interactions with Microsoft SQL Server databases for automated data analysis, dynamic reporting, and intelligent database management.",
+  "url": "https://github.com/jexinsam/mssql_mcp_server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MSSQL MCP Server"
 }

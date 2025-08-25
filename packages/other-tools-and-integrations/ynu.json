@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ynu",
-	"description": "Modular framework for exposing tools, resources, and prompts through FastMCP, featuring dynamic module loading, environment-based configuration, and support for both stdio and SSE transport protocols.",
-	"url": "https://github.com/ynu/mcp-ynu",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "MCP YNU"
+  "type": "mcp-server",
+  "packageName": "ynu",
+  "description": "Modular framework for exposing tools, resources, and prompts through FastMCP, featuring dynamic module loading, environment-based configuration, and support for both stdio and SSE transport protocols.",
+  "url": "https://github.com/ynu/mcp-ynu",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "MCP YNU"
 }

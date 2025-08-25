@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "@modelcontextprotocol/server-brave-search",
-	"description": "Retrieve web pages, news, and local business results via Brave API.",
-	"url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/brave-search",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"BRAVE_API_KEY": {
-			"description": "YOUR_API_KEY_HERE",
-			"required": true
-		}
-	},
-	"name": "Brave Search MCP Server"
+  "type": "mcp-server",
+  "packageName": "@modelcontextprotocol/server-brave-search",
+  "description": "Retrieve web pages, news, and local business results via Brave API.",
+  "url": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/brave-search",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "BRAVE_API_KEY": {
+      "description": "YOUR_API_KEY_HERE",
+      "required": true
+    }
+  },
+  "name": "Brave Search MCP Server"
 }

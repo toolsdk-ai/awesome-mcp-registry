@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "log-analysis-sqlite",
-	"description": "Transforms compressed log files into a queryable SQLite database with tables for logs, stack traces, and errors, enabling efficient analysis and troubleshooting of application issues by timestamp, log level, and module.",
-	"url": "https://github.com/direkt/mcp-test",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Log Analysis SQLite MCP"
+  "type": "mcp-server",
+  "packageName": "log-analysis-sqlite",
+  "description": "Transforms compressed log files into a queryable SQLite database with tables for logs, stack traces, and errors, enabling efficient analysis and troubleshooting of application issues by timestamp, log level, and module.",
+  "url": "https://github.com/direkt/mcp-test",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Log Analysis SQLite MCP"
 }

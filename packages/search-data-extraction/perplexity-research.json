@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "perplexity-research",
-	"description": "Enables internet research capabilities through Perplexity AI's API, retrieving up-to-date information with source citations while maintaining conversation context.",
-	"url": "https://github.com/chew-z/researchmcp",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "Research MCP"
+  "type": "mcp-server",
+  "packageName": "perplexity-research",
+  "description": "Enables internet research capabilities through Perplexity AI's API, retrieving up-to-date information with source citations while maintaining conversation context.",
+  "url": "https://github.com/chew-z/researchmcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "Research MCP"
 }

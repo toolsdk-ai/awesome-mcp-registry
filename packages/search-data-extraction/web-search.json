@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "web-search",
-	"description": "Provides web search capabilities through Bing and WeChat search engines plus URL content extraction, using browser impersonation and markdown conversion for research tasks and content analysis across general web and Chinese social media platforms.",
-	"url": "https://github.com/howe829/websearch-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "WebSearch MCP Server"
+  "type": "mcp-server",
+  "packageName": "web-search",
+  "description": "Provides web search capabilities through Bing and WeChat search engines plus URL content extraction, using browser impersonation and markdown conversion for research tasks and content analysis across general web and Chinese social media platforms.",
+  "url": "https://github.com/howe829/websearch-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "WebSearch MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "iflytek-workflow",
-	"description": "Integrates with iFlytek's workflow orchestration platform to enable complex multi-step business processes through 14 types of workflow nodes for sequential, parallel, and iterative task execution",
-	"url": "https://github.com/iflytek/ifly-workflow-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "iFlytek Workflow MCP Server"
+  "type": "mcp-server",
+  "packageName": "iflytek-workflow",
+  "description": "Integrates with iFlytek's workflow orchestration platform to enable complex multi-step business processes through 14 types of workflow nodes for sequential, parallel, and iterative task execution",
+  "url": "https://github.com/iflytek/ifly-workflow-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "iFlytek Workflow MCP Server"
 }

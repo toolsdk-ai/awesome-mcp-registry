@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "meeting-baas",
-	"description": "Automates meeting management across Zoom, Google Meet, and Microsoft Teams with tools for recording, transcribing, searching, and sharing meeting content without manual note-taking.",
-	"url": "https://github.com/meeting-baas/meeting-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Meeting MCP"
+  "type": "mcp-server",
+  "packageName": "meeting-baas",
+  "description": "Automates meeting management across Zoom, Google Meet, and Microsoft Teams with tools for recording, transcribing, searching, and sharing meeting content without manual note-taking.",
+  "url": "https://github.com/meeting-baas/meeting-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Meeting MCP"
 }

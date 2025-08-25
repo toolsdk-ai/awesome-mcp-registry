@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-azure-devops",
-	"description": "Integrates with Azure DevOps services to enable natural language interactions for querying work items, retrieving project information, and managing team resources without navigating the complex interface directly.",
-	"url": "https://github.com/vortiago/mcp-azure-devops",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Azure DevOps MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-azure-devops",
+  "description": "Integrates with Azure DevOps services to enable natural language interactions for querying work items, retrieving project information, and managing team resources without navigating the complex interface directly.",
+  "url": "https://github.com/vortiago/mcp-azure-devops",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Azure DevOps MCP"
 }

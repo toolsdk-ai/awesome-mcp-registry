@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "inkeep-rag",
-	"description": "Enables Claude to search and retrieve relevant documentation through Inkeep's RAG API, returning structured citation data for technical support and knowledge-based interactions.",
-	"url": "https://github.com/inkeep/mcp-server-python",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Inkeep RAG MCP Server"
+  "type": "mcp-server",
+  "packageName": "inkeep-rag",
+  "description": "Enables Claude to search and retrieve relevant documentation through Inkeep's RAG API, returning structured citation data for technical support and knowledge-based interactions.",
+  "url": "https://github.com/inkeep/mcp-server-python",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Inkeep RAG MCP Server"
 }

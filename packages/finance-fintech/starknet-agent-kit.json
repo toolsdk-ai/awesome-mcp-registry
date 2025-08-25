@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "starknet-agent-kit",
-	"description": "Toolkit for creating blockchain agents that interact with the Starknet network, enabling wallet management, DeFi operations, and smart contract interactions through modular plugins",
-	"url": "https://github.com/kasarlabs/snak/tree/HEAD/mcp/snak",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Snak MCP"
+  "type": "mcp-server",
+  "packageName": "starknet-agent-kit",
+  "description": "Toolkit for creating blockchain agents that interact with the Starknet network, enabling wallet management, DeFi operations, and smart contract interactions through modular plugins",
+  "url": "https://github.com/kasarlabs/snak/tree/HEAD/mcp/snak",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Snak MCP"
 }

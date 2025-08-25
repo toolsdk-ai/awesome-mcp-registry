@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "qanon_mcp",
-	"description": "Enables access to QAnon drops for sociological research.",
-	"url": "https://github.com/jkingsman/qanon-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "QAnon MCP Server"
+  "type": "mcp-server",
+  "packageName": "qanon_mcp",
+  "description": "Enables access to QAnon drops for sociological research.",
+  "url": "https://github.com/jkingsman/qanon-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "QAnon MCP Server"
 }

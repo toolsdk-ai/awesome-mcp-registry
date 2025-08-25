@@ -1,16 +1,16 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1938725847902625797/tv1mK2jX_400x400.jpg",
-	"packageName": "@domdomegg/airtable-mcp-server",
-	"description": "Provides read and write access to Airtable databases.",
-	"url": "https://github.com/domdomegg/airtable-mcp-server",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"AIRTABLE_API_KEY": {
-			"description": "pat123.abc123",
-			"required": true
-		}
-	},
-	"name": "Airtable MCP Server"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1938725847902625797/tv1mK2jX_400x400.jpg",
+  "packageName": "@domdomegg/airtable-mcp-server",
+  "description": "Provides read and write access to Airtable databases.",
+  "url": "https://github.com/domdomegg/airtable-mcp-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "AIRTABLE_API_KEY": {
+      "description": "pat123.abc123",
+      "required": true
+    }
+  },
+  "name": "Airtable MCP Server"
 }

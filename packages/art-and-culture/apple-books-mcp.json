@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "apple-books-mcp",
-	"description": "Provides access to Apple Books library data, enabling retrieval and search of book collections, highlights, notes, and reading activity for personalized book organization and recommendations.",
-	"url": "https://github.com/vgnshiyer/apple-books-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Apple Books MCP"
+  "type": "mcp-server",
+  "packageName": "apple-books-mcp",
+  "description": "Provides access to Apple Books library data, enabling retrieval and search of book collections, highlights, notes, and reading activity for personalized book organization and recommendations.",
+  "url": "https://github.com/vgnshiyer/apple-books-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Apple Books MCP"
 }

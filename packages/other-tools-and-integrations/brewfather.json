@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "brewfather",
-	"description": "Connects to Brewfather API for retrieving and analyzing homebrew inventory data, including detailed information about fermentables, hops, and yeasts for recipe formulation and brewing process planning.",
-	"url": "https://github.com/renanvieira/brewfather-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Brewfather MCP"
+  "type": "mcp-server",
+  "packageName": "brewfather",
+  "description": "Connects to Brewfather API for retrieving and analyzing homebrew inventory data, including detailed information about fermentables, hops, and yeasts for recipe formulation and brewing process planning.",
+  "url": "https://github.com/renanvieira/brewfather-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Brewfather MCP"
 }

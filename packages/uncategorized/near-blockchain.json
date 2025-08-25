@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "near-blockchain",
-	"description": "Integrates with the NEAR blockchain to enable account management, balance checking, transaction signing, and key handling directly within conversation interfaces.",
-	"url": "https://github.com/nearai/near-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "NEAR MCP"
+  "type": "mcp-server",
+  "packageName": "near-blockchain",
+  "description": "Integrates with the NEAR blockchain to enable account management, balance checking, transaction signing, and key handling directly within conversation interfaces.",
+  "url": "https://github.com/nearai/near-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "NEAR MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "diff-mcp",
-	"description": "Compares and patches JSON objects with a compact delta format that captures additions, modifications, deletions, and array moves for efficient data synchronization and change visualization.",
-	"url": "https://github.com/benjamine/jsondiffpatch/tree/HEAD/packages/diff-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Diff MCP"
+  "type": "mcp-server",
+  "packageName": "diff-mcp",
+  "description": "Compares and patches JSON objects with a compact delta format that captures additions, modifications, deletions, and array moves for efficient data synchronization and change visualization.",
+  "url": "https://github.com/benjamine/jsondiffpatch/tree/HEAD/packages/diff-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Diff MCP"
 }

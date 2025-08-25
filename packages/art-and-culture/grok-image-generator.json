@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "grok-image-generator",
-	"description": "Connects to xAI/Grok's image generation API, enabling text-to-image creation with support for multiple images, different response formats, and seamless integration into creative workflows.",
-	"url": "https://github.com/8bitsats/grok-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Grok MCP"
+  "type": "mcp-server",
+  "packageName": "grok-image-generator",
+  "description": "Connects to xAI/Grok's image generation API, enabling text-to-image creation with support for multiple images, different response formats, and seamless integration into creative workflows.",
+  "url": "https://github.com/8bitsats/grok-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Grok MCP"
 }

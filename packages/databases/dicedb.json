@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dicedb",
-	"description": "Enables AI applications to interact with DiceDB database servers for key-value operations without requiring direct database credentials or connection management",
-	"url": "https://github.com/pottekkat/dicedb-mcp",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "DiceDB MCP"
+  "type": "mcp-server",
+  "packageName": "dicedb",
+  "description": "Enables AI applications to interact with DiceDB database servers for key-value operations without requiring direct database credentials or connection management",
+  "url": "https://github.com/pottekkat/dicedb-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "DiceDB MCP"
 }

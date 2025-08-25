@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "portainer-container-management",
-	"description": "Provides a bridge between AI and Portainer container management platform, enabling environment monitoring, access control management, and stack deployment through Docker and Kubernetes API proxying",
-	"url": "https://github.com/portainer/portainer-mcp",
-	"runtime": "go",
-	"license": "zlib",
-	"env": {},
-	"name": "Portainer MCP Bridge"
+  "type": "mcp-server",
+  "packageName": "portainer-container-management",
+  "description": "Provides a bridge between AI and Portainer container management platform, enabling environment monitoring, access control management, and stack deployment through Docker and Kubernetes API proxying",
+  "url": "https://github.com/portainer/portainer-mcp",
+  "runtime": "go",
+  "license": "zlib",
+  "env": {},
+  "name": "Portainer MCP Bridge"
 }

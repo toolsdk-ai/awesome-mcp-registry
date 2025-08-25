@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "openai-image-generation",
-	"description": "Provides tools for generating and editing images using OpenAI's gpt-image-1 model, handling API interactions, error management, and local image storage.",
-	"url": "https://github.com/incomestreamsurfer/chatgpt-native-image-gen-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "ChatGPT Native Image Gen MCP"
+  "type": "mcp-server",
+  "packageName": "openai-image-generation",
+  "description": "Provides tools for generating and editing images using OpenAI's gpt-image-1 model, handling API interactions, error management, and local image storage.",
+  "url": "https://github.com/incomestreamsurfer/chatgpt-native-image-gen-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "ChatGPT Native Image Gen MCP"
 }

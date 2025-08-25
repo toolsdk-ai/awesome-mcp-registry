@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gemini-collaboration",
-	"description": "Enables Claude to collaborate with Google's Gemini AI through question answering, configurable code review, and brainstorming sessions for multi-model pair programming workflows.",
-	"url": "https://github.com/raiansar/claude_code-gemini-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Claude Code Gemini MCP"
+  "type": "mcp-server",
+  "packageName": "gemini-collaboration",
+  "description": "Enables Claude to collaborate with Google's Gemini AI through question answering, configurable code review, and brainstorming sessions for multi-model pair programming workflows.",
+  "url": "https://github.com/raiansar/claude_code-gemini-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Claude Code Gemini MCP"
 }

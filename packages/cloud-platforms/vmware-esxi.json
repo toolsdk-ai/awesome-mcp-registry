@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "vmware-esxi",
-	"description": "Provides a RESTful API for complete VMware ESXi/vCenter environment management including VM lifecycle operations and real-time performance monitoring through pyVmomi integration",
-	"url": "https://github.com/bright8192/esxi-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "ESXi MCP Server"
+  "type": "mcp-server",
+  "packageName": "vmware-esxi",
+  "description": "Provides a RESTful API for complete VMware ESXi/vCenter environment management including VM lifecycle operations and real-time performance monitoring through pyVmomi integration",
+  "url": "https://github.com/bright8192/esxi-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "ESXi MCP Server"
 }

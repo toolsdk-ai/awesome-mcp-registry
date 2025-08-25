@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "meilisearch",
-	"description": "Integrates Meilisearch's search capabilities for fast, typo-tolerant indexing and querying of documents in AI-powered applications.",
-	"url": "https://github.com/meilisearch/meilisearch-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Meilisearch MCP"
+  "type": "mcp-server",
+  "packageName": "meilisearch",
+  "description": "Integrates Meilisearch's search capabilities for fast, typo-tolerant indexing and querying of documents in AI-powered applications.",
+  "url": "https://github.com/meilisearch/meilisearch-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Meilisearch MCP"
 }

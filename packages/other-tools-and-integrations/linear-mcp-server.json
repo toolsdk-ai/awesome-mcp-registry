@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "linear-mcp-server",
-	"description": "Provides a bridge to the Linear project management platform, enabling task creation, tracking, and workflow management through robust API interactions and comprehensive error handling.",
-	"url": "https://github.com/mckaywrigley/takeoff-linear-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"LINEAR_API_KEY": {
-			"description": "your_linear_api_key_here",
-			"required": true
-		}
-	},
-	"name": "Takeoff Linear MCP Server"
+  "type": "mcp-server",
+  "packageName": "linear-mcp-server",
+  "description": "Provides a bridge to the Linear project management platform, enabling task creation, tracking, and workflow management through robust API interactions and comprehensive error handling.",
+  "url": "https://github.com/mckaywrigley/takeoff-linear-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "LINEAR_API_KEY": {
+      "description": "your_linear_api_key_here",
+      "required": true
+    }
+  },
+  "name": "Takeoff Linear MCP Server"
 }

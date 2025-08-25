@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-command-proxy",
-	"description": "Proxy server for CLI commands that captures terminal output in a circular buffer, enabling remote execution, log retrieval, and process management for command-line applications like Expo development tools.",
-	"url": "https://github.com/hormold/mcp-command-proxy",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Command Proxy"
+  "type": "mcp-server",
+  "packageName": "mcp-command-proxy",
+  "description": "Proxy server for CLI commands that captures terminal output in a circular buffer, enabling remote execution, log retrieval, and process management for command-line applications like Expo development tools.",
+  "url": "https://github.com/hormold/mcp-command-proxy",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Command Proxy"
 }

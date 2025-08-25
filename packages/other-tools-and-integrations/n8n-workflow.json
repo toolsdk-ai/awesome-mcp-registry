@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "n8n-workflow",
-	"description": "Enables AI assistants to execute n8n workflows directly via WebSocket, creating a bridge between conversation context and n8n's workflow engine in a sandboxed environment.",
-	"url": "https://github.com/mito001/mcp-server-n8n",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server N8n"
+  "type": "mcp-server",
+  "packageName": "n8n-workflow",
+  "description": "Enables AI assistants to execute n8n workflows directly via WebSocket, creating a bridge between conversation context and n8n's workflow engine in a sandboxed environment.",
+  "url": "https://github.com/mito001/mcp-server-n8n",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server N8n"
 }

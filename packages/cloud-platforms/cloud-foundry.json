@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cloud-foundry",
-	"description": "Integrates with Cloud Foundry foundations to enable management of applications, services, and resources.",
-	"url": "https://github.com/cpage-pivotal/cloud-foundry-mcp",
-	"runtime": "java",
-	"license": "unknown",
-	"env": {},
-	"name": "Cloud Foundry MCP"
+  "type": "mcp-server",
+  "packageName": "cloud-foundry",
+  "description": "Integrates with Cloud Foundry foundations to enable management of applications, services, and resources.",
+  "url": "https://github.com/cpage-pivotal/cloud-foundry-mcp",
+  "runtime": "java",
+  "license": "unknown",
+  "env": {},
+  "name": "Cloud Foundry MCP"
 }

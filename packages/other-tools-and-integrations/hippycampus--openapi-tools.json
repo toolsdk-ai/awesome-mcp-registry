@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "hippycampus-(openapi-tools)",
-	"description": "Converts OpenAPI specifications into LangChain tools, enabling AI assistants to interact with existing REST APIs without custom implementation",
-	"url": "https://github.com/cromwellian/hippycampus",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Hippy Campus"
+  "type": "mcp-server",
+  "packageName": "hippycampus-(openapi-tools)",
+  "description": "Converts OpenAPI specifications into LangChain tools, enabling AI assistants to interact with existing REST APIs without custom implementation",
+  "url": "https://github.com/cromwellian/hippycampus",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Hippy Campus"
 }

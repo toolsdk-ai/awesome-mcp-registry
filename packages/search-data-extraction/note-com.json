@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "note.com",
-	"description": "Bridges AI systems with note.com's API for searching articles by keyword, retrieving detailed information, and listing user-specific content without context switching.",
-	"url": "https://github.com/champaya/note-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Note MCP"
+  "type": "mcp-server",
+  "packageName": "note.com",
+  "description": "Bridges AI systems with note.com's API for searching articles by keyword, retrieving detailed information, and listing user-specific content without context switching.",
+  "url": "https://github.com/champaya/note-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Note MCP"
 }

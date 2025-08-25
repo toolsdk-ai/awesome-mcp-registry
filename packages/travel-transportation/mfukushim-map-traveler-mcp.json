@@ -1,27 +1,27 @@
 {
-	"type": "mcp-server",
-	"packageName": "@mfukushim/map-traveler-mcp",
-	"description": "Integrates with Google Maps to create virtual travel experiences where users can navigate real-world routes with customizable avatars, discover nearby facilities, and share journeys on Bluesky.",
-	"url": "https://github.com/mfukushim/map-traveler-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"comfy_url": {
-			"description": "http://192.168.1.100:8188",
-			"required": true
-		},
-		"comfy_workflow_t2i": {
-			"description": "C:\\Documents\\t2itest.json",
-			"required": true
-		},
-		"comfy_workflow_i2i": {
-			"description": "C:\\Documents\\i2itest.json",
-			"required": true
-		},
-		"comfy_params": {
-			"description": "ckpt_name='animagineXL40_v40.safetensors',denoise=0.65",
-			"required": true
-		}
-	},
-	"name": "Map Traveler MCP"
+  "type": "mcp-server",
+  "packageName": "@mfukushim/map-traveler-mcp",
+  "description": "Integrates with Google Maps to create virtual travel experiences where users can navigate real-world routes with customizable avatars, discover nearby facilities, and share journeys on Bluesky.",
+  "url": "https://github.com/mfukushim/map-traveler-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "comfy_url": {
+      "description": "http://192.168.1.100:8188",
+      "required": true
+    },
+    "comfy_workflow_t2i": {
+      "description": "C:\\Documents\\t2itest.json",
+      "required": true
+    },
+    "comfy_workflow_i2i": {
+      "description": "C:\\Documents\\i2itest.json",
+      "required": true
+    },
+    "comfy_params": {
+      "description": "ckpt_name='animagineXL40_v40.safetensors',denoise=0.65",
+      "required": true
+    }
+  },
+  "name": "Map Traveler MCP"
 }

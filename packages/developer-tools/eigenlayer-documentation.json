@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "eigenlayer-documentation",
-	"description": "Provides structured access to EigenLayer documentation resources including blog articles, overview documentation, middleware, contracts, and developer guides through a Next.js server with Redis-powered connections.",
-	"url": "https://github.com/layr-labs/eigenlayer-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "EigenLayer MCP Server"
+  "type": "mcp-server",
+  "packageName": "eigenlayer-documentation",
+  "description": "Provides structured access to EigenLayer documentation resources including blog articles, overview documentation, middleware, contracts, and developer guides through a Next.js server with Redis-powered connections.",
+  "url": "https://github.com/layr-labs/eigenlayer-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "EigenLayer MCP Server"
 }

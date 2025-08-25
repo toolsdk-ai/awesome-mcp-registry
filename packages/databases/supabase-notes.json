@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "supabase-notes",
-	"description": "Integrates with Supabase to provide a notes system with creation, listing, and summarization capabilities for applications requiring structured note-taking functionality.",
-	"url": "https://github.com/tengfone/supabase-nextjs-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Supabase Next.js MCP Server"
+  "type": "mcp-server",
+  "packageName": "supabase-notes",
+  "description": "Integrates with Supabase to provide a notes system with creation, listing, and summarization capabilities for applications requiring structured note-taking functionality.",
+  "url": "https://github.com/tengfone/supabase-nextjs-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Supabase Next.js MCP Server"
 }

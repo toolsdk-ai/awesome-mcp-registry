@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sd-elements",
-	"description": "Integrates with Security Compass's SD Elements platform to manage security projects, applications, countermeasures, and user administration for DevSecOps workflows requiring automated security requirement tracking and compliance management.",
-	"url": "https://github.com/geoffwhittington/sde-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "SD Elements MCP"
+  "type": "mcp-server",
+  "packageName": "sd-elements",
+  "description": "Integrates with Security Compass's SD Elements platform to manage security projects, applications, countermeasures, and user administration for DevSecOps workflows requiring automated security requirement tracking and compliance management.",
+  "url": "https://github.com/geoffwhittington/sde-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "SD Elements MCP"
 }

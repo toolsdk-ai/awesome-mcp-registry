@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-sleep",
-	"description": "Enables AI systems to introduce timed pauses in execution flow, supporting both stdio and SSE transport methods with configurable timeout limits for time-based coordination and rate limiting.",
-	"url": "https://github.com/agentsworkingtogether/mcp-sleep",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Sleep MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-sleep",
+  "description": "Enables AI systems to introduce timed pauses in execution flow, supporting both stdio and SSE transport methods with configurable timeout limits for time-based coordination and rate limiting.",
+  "url": "https://github.com/agentsworkingtogether/mcp-sleep",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Sleep MCP"
 }

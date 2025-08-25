@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "homebrew",
-	"description": "Exposes Homebrew package management commands as individual tools for installing, uninstalling, searching, upgrading, and maintaining macOS development environments through direct brew command execution.",
-	"url": "https://github.com/jeannier/homebrew-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Homebrew MCP"
+  "type": "mcp-server",
+  "packageName": "homebrew",
+  "description": "Exposes Homebrew package management commands as individual tools for installing, uninstalling, searching, upgrading, and maintaining macOS development environments through direct brew command execution.",
+  "url": "https://github.com/jeannier/homebrew-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Homebrew MCP"
 }

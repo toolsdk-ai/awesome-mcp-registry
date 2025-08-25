@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "speech-mcp",
-	"description": "Integrates voice interaction capabilities using faster-whisper and PyAudio for speech recognition and synthesis, enabling natural language voice interfaces for AI models.",
-	"url": "https://github.com/kvadratni/speech-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Speech MCP"
+  "type": "mcp-server",
+  "packageName": "speech-mcp",
+  "description": "Integrates voice interaction capabilities using faster-whisper and PyAudio for speech recognition and synthesis, enabling natural language voice interfaces for AI models.",
+  "url": "https://github.com/kvadratni/speech-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Speech MCP"
 }

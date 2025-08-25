@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dall-e-image-generator",
-	"description": "Integrates DALL-E 3 for on-demand generation of custom images from text prompts.",
-	"url": "https://github.com/sammyl720/image-generator-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Image Generator MCP Server"
+  "type": "mcp-server",
+  "packageName": "dall-e-image-generator",
+  "description": "Integrates DALL-E 3 for on-demand generation of custom images from text prompts.",
+  "url": "https://github.com/sammyl720/image-generator-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Image Generator MCP Server"
 }

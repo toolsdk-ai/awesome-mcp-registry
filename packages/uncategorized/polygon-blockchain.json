@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "polygon-blockchain",
-	"description": "Integrates with the Polygon blockchain network to enable wallet operations, smart contract deployments, L2 bridging, DeFi interactions, and transaction simulations using ethers.js v6 across both Mainnet and Mumbai Testnet environments.",
-	"url": "https://github.com/dbillionaer/polygon-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Polygon MCP"
+  "type": "mcp-server",
+  "packageName": "polygon-blockchain",
+  "description": "Integrates with the Polygon blockchain network to enable wallet operations, smart contract deployments, L2 bridging, DeFi interactions, and transaction simulations using ethers.js v6 across both Mainnet and Mumbai Testnet environments.",
+  "url": "https://github.com/dbillionaer/polygon-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Polygon MCP"
 }

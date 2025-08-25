@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@lyuboslavlyubenov/solodit-mcp",
-	"description": "Integrates with Solodit's vulnerability database to search smart contract security audit findings and retrieve detailed vulnerability reports including impact levels, audit firm details, and technical descriptions for security research and analysis workflows.",
-	"url": "https://github.com/lyuboslavlyubenov/search-solodit-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Search Solodit MCP"
+  "type": "mcp-server",
+  "packageName": "@lyuboslavlyubenov/solodit-mcp",
+  "description": "Integrates with Solodit's vulnerability database to search smart contract security audit findings and retrieve detailed vulnerability reports including impact levels, audit firm details, and technical descriptions for security research and analysis workflows.",
+  "url": "https://github.com/lyuboslavlyubenov/search-solodit-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Search Solodit MCP"
 }

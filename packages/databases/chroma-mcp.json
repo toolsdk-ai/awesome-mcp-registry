@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "chroma-mcp",
-	"description": "Integrates with Chroma vector database to enable collection management, document operations, and vector search capabilities for knowledge bases and context-aware conversations.",
-	"url": "https://github.com/chroma-core/chroma-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Chroma MCP"
+  "type": "mcp-server",
+  "packageName": "chroma-mcp",
+  "description": "Integrates with Chroma vector database to enable collection management, document operations, and vector search capabilities for knowledge bases and context-aware conversations.",
+  "url": "https://github.com/chroma-core/chroma-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Chroma MCP"
 }

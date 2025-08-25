@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "perplexity-researcher",
-	"description": "Integrates Perplexity AI's search capabilities with Node.js to provide general search queries, documentation retrieval, API discovery, and code modernization assistance while maintaining conversation history in SQLite.",
-	"url": "https://github.com/clssck/researcher-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Researcher MCP"
+  "type": "mcp-server",
+  "packageName": "perplexity-researcher",
+  "description": "Integrates Perplexity AI's search capabilities with Node.js to provide general search queries, documentation retrieval, API discovery, and code modernization assistance while maintaining conversation history in SQLite.",
+  "url": "https://github.com/clssck/researcher-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Researcher MCP"
 }

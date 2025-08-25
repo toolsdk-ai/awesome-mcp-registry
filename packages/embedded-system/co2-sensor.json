@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "co2-sensor",
-	"description": "Simulates or interfaces with a CO2 sensor device, providing JSON-RPC endpoints for device information, sensor data, and network management with MQTT publishing capabilities for IoT applications.",
-	"url": "https://github.com/kmwebnet/mcp-server-for-sensor-device",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server for Sensor Device"
+  "type": "mcp-server",
+  "packageName": "co2-sensor",
+  "description": "Simulates or interfaces with a CO2 sensor device, providing JSON-RPC endpoints for device information, sensor data, and network management with MQTT publishing capabilities for IoT applications.",
+  "url": "https://github.com/kmwebnet/mcp-server-for-sensor-device",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server for Sensor Device"
 }

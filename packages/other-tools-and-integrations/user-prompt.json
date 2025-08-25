@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "user-prompt",
-	"description": "Enables Cursor users to provide additional input during AI generation through interactive dialog boxes, creating a more dynamic experience without interrupting the workflow.",
-	"url": "https://github.com/nazar256/user-prompt-mcp",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "User Prompt MCP"
+  "type": "mcp-server",
+  "packageName": "user-prompt",
+  "description": "Enables Cursor users to provide additional input during AI generation through interactive dialog boxes, creating a more dynamic experience without interrupting the workflow.",
+  "url": "https://github.com/nazar256/user-prompt-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "User Prompt MCP"
 }

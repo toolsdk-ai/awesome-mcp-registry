@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@nftgo/mcp-nftgo-api",
-	"description": "Provides a bridge to the NFTGo Developer API for accessing Ethereum NFT data including collections, assets, market trends, and wallet information through authenticated HTTP requests.",
-	"url": "https://github.com/nftgo/mcp-nftgo-api",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "NFTGo MCP API"
+  "type": "mcp-server",
+  "packageName": "@nftgo/mcp-nftgo-api",
+  "description": "Provides a bridge to the NFTGo Developer API for accessing Ethereum NFT data including collections, assets, market trends, and wallet information through authenticated HTTP requests.",
+  "url": "https://github.com/nftgo/mcp-nftgo-api",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "NFTGo MCP API"
 }

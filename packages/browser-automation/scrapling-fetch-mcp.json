@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "scrapling-fetch-mcp",
-	"description": "Enables AI to access text content from websites protected by bot detection mechanisms through three protection levels (basic, stealth, max-stealth), retrieving complete pages or specific content patterns without manual copying.",
-	"url": "https://github.com/cyberchitta/scrapling-fetch-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Scrapling Fetch MCP"
+  "type": "mcp-server",
+  "packageName": "scrapling-fetch-mcp",
+  "description": "Enables AI to access text content from websites protected by bot detection mechanisms through three protection levels (basic, stealth, max-stealth), retrieving complete pages or specific content patterns without manual copying.",
+  "url": "https://github.com/cyberchitta/scrapling-fetch-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Scrapling Fetch MCP"
 }

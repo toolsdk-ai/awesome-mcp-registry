@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "memoer-mcp",
-	"description": "Provides persistent memory storage for assistants to create and retrieve memories with filtering options by app name, category, and result limits through a SQLite database with automatic setup.",
-	"url": "https://github.com/geli2001/memoer-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Memoer MCP"
+  "type": "mcp-server",
+  "packageName": "memoer-mcp",
+  "description": "Provides persistent memory storage for assistants to create and retrieve memories with filtering options by app name, category, and result limits through a SQLite database with automatic setup.",
+  "url": "https://github.com/geli2001/memoer-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Memoer MCP"
 }

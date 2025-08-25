@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@anaisbetts/mcp-youtube",
-	"description": "Extract and analyze video subtitle data for content understanding.",
-	"url": "https://github.com/anaisbetts/mcp-youtube",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP YouTube"
+  "type": "mcp-server",
+  "packageName": "@anaisbetts/mcp-youtube",
+  "description": "Extract and analyze video subtitle data for content understanding.",
+  "url": "https://github.com/anaisbetts/mcp-youtube",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP YouTube"
 }

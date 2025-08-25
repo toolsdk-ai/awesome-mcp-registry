@@ -1,35 +1,35 @@
 {
-	"type": "mcp-server",
-	"packageName": "aistudio-mcp-server",
-	"description": "Integrates with Google AI Studio/Gemini API to process multimodal content including images, videos, audio, PDFs, and text files for content generation, analysis, and document conversion tasks.",
-	"url": "https://github.com/eternnoir/aistudio-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GEMINI_API_KEY": {
-			"description": "your_api_key_here",
-			"required": true
-		},
-		"GEMINI_MODEL": {
-			"description": "gemini-2.5-flash",
-			"required": true
-		},
-		"GEMINI_TIMEOUT": {
-			"description": "600000",
-			"required": true
-		},
-		"GEMINI_MAX_OUTPUT_TOKENS": {
-			"description": "16384",
-			"required": true
-		},
-		"GEMINI_MAX_FILES": {
-			"description": "10",
-			"required": true
-		},
-		"GEMINI_MAX_TOTAL_FILE_SIZE": {
-			"description": "50",
-			"required": true
-		}
-	},
-	"name": "Aistudio MCP Server"
+  "type": "mcp-server",
+  "packageName": "aistudio-mcp-server",
+  "description": "Integrates with Google AI Studio/Gemini API to process multimodal content including images, videos, audio, PDFs, and text files for content generation, analysis, and document conversion tasks.",
+  "url": "https://github.com/eternnoir/aistudio-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GEMINI_API_KEY": {
+      "description": "your_api_key_here",
+      "required": true
+    },
+    "GEMINI_MODEL": {
+      "description": "gemini-2.5-flash",
+      "required": true
+    },
+    "GEMINI_TIMEOUT": {
+      "description": "600000",
+      "required": true
+    },
+    "GEMINI_MAX_OUTPUT_TOKENS": {
+      "description": "16384",
+      "required": true
+    },
+    "GEMINI_MAX_FILES": {
+      "description": "10",
+      "required": true
+    },
+    "GEMINI_MAX_TOTAL_FILE_SIZE": {
+      "description": "50",
+      "required": true
+    }
+  },
+  "name": "Aistudio MCP Server"
 }

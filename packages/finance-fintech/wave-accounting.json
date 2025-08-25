@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "wave-accounting",
-	"description": "Integrates with Wave Accounting's GraphQL API to automatically create expense and income transactions from receipt and payment data using intelligent account matching and vendor lookup with fallback creation guidance.",
-	"url": "https://github.com/vinnividivicci/wave_mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Wave MCP"
+  "type": "mcp-server",
+  "packageName": "wave-accounting",
+  "description": "Integrates with Wave Accounting's GraphQL API to automatically create expense and income transactions from receipt and payment data using intelligent account matching and vendor lookup with fallback creation guidance.",
+  "url": "https://github.com/vinnividivicci/wave_mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Wave MCP"
 }

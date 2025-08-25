@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "weatherxm-pro",
-	"description": "Integrates with WeatherXM PRO APIs to provide access to hyperlocal weather data, historical observations, and forecast performance metrics for location-specific analysis and planning.",
-	"url": "https://github.com/weatherxm/weatherxm-pro-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "WeatherXM PRO MCP"
+  "type": "mcp-server",
+  "packageName": "weatherxm-pro",
+  "description": "Integrates with WeatherXM PRO APIs to provide access to hyperlocal weather data, historical observations, and forecast performance metrics for location-specific analysis and planning.",
+  "url": "https://github.com/weatherxm/weatherxm-pro-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "WeatherXM PRO MCP"
 }

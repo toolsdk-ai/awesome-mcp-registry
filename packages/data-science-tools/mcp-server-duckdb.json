@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-duckdb",
-	"description": "Execute SQL queries and analyze data in DuckDB databases.",
-	"url": "https://github.com/ktanaka101/mcp-server-duckdb",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "DuckDB MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-duckdb",
+  "description": "Execute SQL queries and analyze data in DuckDB databases.",
+  "url": "https://github.com/ktanaka101/mcp-server-duckdb",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "DuckDB MCP Server"
 }

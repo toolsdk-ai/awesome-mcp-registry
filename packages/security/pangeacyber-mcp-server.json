@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "@pangeacyber/mcp-server",
-	"description": "Integrates with Pangea's cybersecurity APIs to provide threat intelligence, data protection, and security analysis capabilities including reputation checking, embargo screening, sensitive data redaction, audit logging, and cryptographic key management with built-in AI Guard protection against malicious inputs and outputs.",
-	"url": "https://github.com/pangeacyber/pangea-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"PANGEA_VAULT_TOKEN": {
-			"description": "pts_00000000000000000000000000000000",
-			"required": true
-		},
-		"PANGEA_VAULT_ITEM_ID": {
-			"description": "pvi_00000000000000000000000000000000",
-			"required": true
-		},
-		"PANGEA_AUDIT_CONFIG_ID": {
-			"description": "pci_00000000000000000000000000000000",
-			"required": true
-		}
-	},
-	"name": "Pangea MCP Server"
+  "type": "mcp-server",
+  "packageName": "@pangeacyber/mcp-server",
+  "description": "Integrates with Pangea's cybersecurity APIs to provide threat intelligence, data protection, and security analysis capabilities including reputation checking, embargo screening, sensitive data redaction, audit logging, and cryptographic key management with built-in AI Guard protection against malicious inputs and outputs.",
+  "url": "https://github.com/pangeacyber/pangea-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "PANGEA_VAULT_TOKEN": {
+      "description": "pts_00000000000000000000000000000000",
+      "required": true
+    },
+    "PANGEA_VAULT_ITEM_ID": {
+      "description": "pvi_00000000000000000000000000000000",
+      "required": true
+    },
+    "PANGEA_AUDIT_CONFIG_ID": {
+      "description": "pci_00000000000000000000000000000000",
+      "required": true
+    }
+  },
+  "name": "Pangea MCP Server"
 }

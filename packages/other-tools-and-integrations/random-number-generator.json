@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "random-number-generator",
-	"description": "Provides random number generation capabilities for generating integers and floats within specified ranges, suitable for simulations, games, or statistical sampling.",
-	"url": "https://github.com/shahanneda/wallpaper-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Wallpaper MCP"
+  "type": "mcp-server",
+  "packageName": "random-number-generator",
+  "description": "Provides random number generation capabilities for generating integers and floats within specified ranges, suitable for simulations, games, or statistical sampling.",
+  "url": "https://github.com/shahanneda/wallpaper-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Wallpaper MCP"
 }

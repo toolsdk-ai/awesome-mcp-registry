@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "crypto-indicators",
-	"description": "Provides AI trading agents with real-time technical analysis indicators and trading signals for cryptocurrency markets, enabling quantitative strategy development without implementing complex algorithms.",
-	"url": "https://github.com/kukapay/crypto-indicators-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Crypto Indicators MCP"
+  "type": "mcp-server",
+  "packageName": "crypto-indicators",
+  "description": "Provides AI trading agents with real-time technical analysis indicators and trading signals for cryptocurrency markets, enabling quantitative strategy development without implementing complex algorithms.",
+  "url": "https://github.com/kukapay/crypto-indicators-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Crypto Indicators MCP"
 }

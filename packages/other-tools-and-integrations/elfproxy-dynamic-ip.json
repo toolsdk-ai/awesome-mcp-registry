@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "elfproxy-dynamic-ip",
-	"description": "Provides a bridge to ElfProxy's dynamic IP proxy service for retrieving country-specific proxy IPs, enabling IP rotation, geo-targeting, and bypassing regional restrictions.",
-	"url": "https://github.com/elfproxy/proxy-pool-mcp-server",
-	"runtime": "java",
-	"license": "mit",
-	"env": {},
-	"name": "Proxy Pool MCP Server"
+  "type": "mcp-server",
+  "packageName": "elfproxy-dynamic-ip",
+  "description": "Provides a bridge to ElfProxy's dynamic IP proxy service for retrieving country-specific proxy IPs, enabling IP rotation, geo-targeting, and bypassing regional restrictions.",
+  "url": "https://github.com/elfproxy/proxy-pool-mcp-server",
+  "runtime": "java",
+  "license": "mit",
+  "env": {},
+  "name": "Proxy Pool MCP Server"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "heybeauty-mcp",
-	"description": "Provides a bridge between virtual try-on technology and clothing visualization, enabling users to see how selected items would look on them through image processing and metadata-rich clothing resources.",
-	"url": "https://github.com/chatmcp/heybeauty-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"HEYBEAUTY_API_KEY": {
-			"description": "your_heybeauty_api_key",
-			"required": true
-		}
-	},
-	"name": "HeyBeauty MCP"
+  "type": "mcp-server",
+  "packageName": "heybeauty-mcp",
+  "description": "Provides a bridge between virtual try-on technology and clothing visualization, enabling users to see how selected items would look on them through image processing and metadata-rich clothing resources.",
+  "url": "https://github.com/chatmcp/heybeauty-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "HEYBEAUTY_API_KEY": {
+      "description": "your_heybeauty_api_key",
+      "required": true
+    }
+  },
+  "name": "HeyBeauty MCP"
 }

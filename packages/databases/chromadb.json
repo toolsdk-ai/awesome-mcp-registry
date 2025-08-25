@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "chromadb",
-	"description": "Integrates ChromaDB vector database capabilities for efficient semantic document search, storage, and retrieval in natural language processing and information retrieval applications.",
-	"url": "https://github.com/privetin/chroma",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "ChromaDB MCP Server"
+  "type": "mcp-server",
+  "packageName": "chromadb",
+  "description": "Integrates ChromaDB vector database capabilities for efficient semantic document search, storage, and retrieval in natural language processing and information retrieval applications.",
+  "url": "https://github.com/privetin/chroma",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "ChromaDB MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@peakmojo/applescript-mcp",
-	"description": "Enables AI to execute AppleScript code on macOS systems, providing access to applications and system features like Notes, Calendar, Contacts, Messages, and Finder through a lightweight server implementation.",
-	"url": "https://github.com/peakmojo/applescript-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "AppleScript MCP"
+  "type": "mcp-server",
+  "packageName": "@peakmojo/applescript-mcp",
+  "description": "Enables AI to execute AppleScript code on macOS systems, providing access to applications and system features like Notes, Calendar, Contacts, Messages, and Finder through a lightweight server implementation.",
+  "url": "https://github.com/peakmojo/applescript-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "AppleScript MCP"
 }

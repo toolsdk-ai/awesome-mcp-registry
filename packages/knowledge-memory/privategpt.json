@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "privategpt",
-	"description": "Integrates privateGPT with MCP-compatible applications, providing chat management, knowledge source organization, and group-based permissions for diverse AI-driven projects.",
-	"url": "https://github.com/fujitsu-ai/mcp-server-for-mas-developments",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MCP Server for MAS Developments"
+  "type": "mcp-server",
+  "packageName": "privategpt",
+  "description": "Integrates privateGPT with MCP-compatible applications, providing chat management, knowledge source organization, and group-based permissions for diverse AI-driven projects.",
+  "url": "https://github.com/fujitsu-ai/mcp-server-for-mas-developments",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Server for MAS Developments"
 }

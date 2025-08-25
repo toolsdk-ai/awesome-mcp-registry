@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "pokemon",
-	"description": "Provides Pokemon data access through a local SQLite database with tools for information retrieval, comparison, searching by type/generation/stats, and type effectiveness analysis without requiring external API calls.",
-	"url": "https://github.com/grovesjosephn/pokemcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Pokemon MCP"
+  "type": "mcp-server",
+  "packageName": "pokemon",
+  "description": "Provides Pokemon data access through a local SQLite database with tools for information retrieval, comparison, searching by type/generation/stats, and type effectiveness analysis without requiring external API calls.",
+  "url": "https://github.com/grovesjosephn/pokemcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Pokemon MCP"
 }

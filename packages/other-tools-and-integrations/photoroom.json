@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "photoroom",
-	"description": "Provides a bridge to the Photoroom API for removing image backgrounds with configurable output formats and scaling options",
-	"url": "https://github.com/aourpallynikhil/photoroom-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Photoroom MCP"
+  "type": "mcp-server",
+  "packageName": "photoroom",
+  "description": "Provides a bridge to the Photoroom API for removing image backgrounds with configurable output formats and scaling options",
+  "url": "https://github.com/aourpallynikhil/photoroom-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Photoroom MCP"
 }

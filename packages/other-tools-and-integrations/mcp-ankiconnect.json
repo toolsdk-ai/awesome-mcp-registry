@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-ankiconnect",
-	"description": "Integrates Anki flashcard functionality, enabling natural language interactions for spaced repetition learning within conversations.",
-	"url": "https://github.com/samefarrar/mcp-ankiconnect",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Anki Connect MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-ankiconnect",
+  "description": "Integrates Anki flashcard functionality, enabling natural language interactions for spaced repetition learning within conversations.",
+  "url": "https://github.com/samefarrar/mcp-ankiconnect",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Anki Connect MCP"
 }

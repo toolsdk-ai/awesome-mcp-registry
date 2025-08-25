@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "screenshotone",
-	"description": "Integrates with ScreenshotOne's API to enable rendering of website screenshots for visual testing, content monitoring, and creating web page references.",
-	"url": "https://github.com/screenshotone/mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "ScreenshotOne MCP"
+  "type": "mcp-server",
+  "packageName": "screenshotone",
+  "description": "Integrates with ScreenshotOne's API to enable rendering of website screenshots for visual testing, content monitoring, and creating web page references.",
+  "url": "https://github.com/screenshotone/mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "ScreenshotOne MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "wikidata",
-	"description": "Integrates with Wikidata to enable entity searches, property retrieval, and SPARQL queries for accessing structured knowledge about people, places, and concepts",
-	"url": "https://github.com/zzaebok/mcp-wikidata",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Wikidata MCP"
+  "type": "mcp-server",
+  "packageName": "wikidata",
+  "description": "Integrates with Wikidata to enable entity searches, property retrieval, and SPARQL queries for accessing structured knowledge about people, places, and concepts",
+  "url": "https://github.com/zzaebok/mcp-wikidata",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Wikidata MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "exa-mcp",
-	"description": "Integrates with Exa Search API to enable web searches with customizable parameters for search type, content categories, date ranges, and domain filtering.",
-	"url": "https://github.com/egoist/exa-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Exa MCP"
+  "type": "mcp-server",
+  "packageName": "exa-mcp",
+  "description": "Integrates with Exa Search API to enable web searches with customizable parameters for search type, content categories, date ranges, and domain filtering.",
+  "url": "https://github.com/egoist/exa-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Exa MCP"
 }

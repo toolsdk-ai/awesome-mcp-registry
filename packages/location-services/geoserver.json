@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "geoserver",
-	"description": "Provides a bridge to GeoServer's REST API for managing geospatial data, enabling workspace management, layer operations, feature querying, and map generation through WMS/WFS services.",
-	"url": "https://github.com/mahdin75/geoserver-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "GeoServer MCP"
+  "type": "mcp-server",
+  "packageName": "geoserver",
+  "description": "Provides a bridge to GeoServer's REST API for managing geospatial data, enabling workspace management, layer operations, feature querying, and map generation through WMS/WFS services.",
+  "url": "https://github.com/mahdin75/geoserver-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "GeoServer MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "slowtime-(time-&-intervals)",
-	"description": "Integrates drand and tlock-js to enable secure, time-locked encryption for managing scheduled events with cryptographic guarantees.",
-	"url": "https://github.com/bmorphism/slowtime-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Slowtime MCP Server"
+  "type": "mcp-server",
+  "packageName": "slowtime-(time-&-intervals)",
+  "description": "Integrates drand and tlock-js to enable secure, time-locked encryption for managing scheduled events with cryptographic guarantees.",
+  "url": "https://github.com/bmorphism/slowtime-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Slowtime MCP Server"
 }

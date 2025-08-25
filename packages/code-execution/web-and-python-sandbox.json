@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "web-and-python-sandbox",
-	"description": "Provides web content access and Python code execution in a sandboxed environment, enabling information verification and working code demonstrations through containerized tools with appropriate security constraints.",
-	"url": "https://github.com/tcpipuk/mcp-server",
-	"runtime": "python",
-	"license": "gpl-3.0",
-	"env": {},
-	"name": "MCP Server"
+  "type": "mcp-server",
+  "packageName": "web-and-python-sandbox",
+  "description": "Provides web content access and Python code execution in a sandboxed environment, enabling information verification and working code demonstrations through containerized tools with appropriate security constraints.",
+  "url": "https://github.com/tcpipuk/mcp-server",
+  "runtime": "python",
+  "license": "gpl-3.0",
+  "env": {},
+  "name": "MCP Server"
 }

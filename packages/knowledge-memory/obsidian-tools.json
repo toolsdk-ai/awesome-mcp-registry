@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "obsidian-tools",
-	"description": "Integrates AI-powered tools with Obsidian for enhanced note-taking, linking, and knowledge management workflows.",
-	"url": "https://github.com/jacksteamdev/obsidian-mcp-tools",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Obsidian MCP Tools"
+  "type": "mcp-server",
+  "packageName": "obsidian-tools",
+  "description": "Integrates AI-powered tools with Obsidian for enhanced note-taking, linking, and knowledge management workflows.",
+  "url": "https://github.com/jacksteamdev/obsidian-mcp-tools",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Obsidian MCP Tools"
 }

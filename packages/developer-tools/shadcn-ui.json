@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "shadcn-ui",
-	"description": "Provides a dynamic server for accessing shadcn/ui component documentation by scraping and caching information from the official documentation site and GitHub repository, enabling developers to list, retrieve, and search through React UI component details.",
-	"url": "https://github.com/ymadd/shadcn-ui-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Shadcn UI MCP Server"
+  "type": "mcp-server",
+  "packageName": "shadcn-ui",
+  "description": "Provides a dynamic server for accessing shadcn/ui component documentation by scraping and caching information from the official documentation site and GitHub repository, enabling developers to list, retrieve, and search through React UI component details.",
+  "url": "https://github.com/ymadd/shadcn-ui-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Shadcn UI MCP Server"
 }

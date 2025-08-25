@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "fugle-masterlink-(taiwan-stock-market)",
-	"description": "Provides a bridge between AI systems and the Masterlink SDK for Taiwan stock market trading, enabling account management, market data retrieval, and trade execution for financial analysis and automated trading strategies.",
-	"url": "https://github.com/fugle-dev/fugle-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Fugle MCP Server"
+  "type": "mcp-server",
+  "packageName": "fugle-masterlink-(taiwan-stock-market)",
+  "description": "Provides a bridge between AI systems and the Masterlink SDK for Taiwan stock market trading, enabling account management, market data retrieval, and trade execution for financial analysis and automated trading strategies.",
+  "url": "https://github.com/fugle-dev/fugle-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Fugle MCP Server"
 }

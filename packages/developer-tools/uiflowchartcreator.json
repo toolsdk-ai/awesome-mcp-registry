@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "uiflowchartcreator",
-	"description": "Generates UI flowcharts based on input specifications, enabling visual representation of user interfaces and interactions for design communication and workflow analysis.",
-	"url": "https://github.com/umshere/uiflowchartcreator",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "UI Flowchart Creator"
+  "type": "mcp-server",
+  "packageName": "uiflowchartcreator",
+  "description": "Generates UI flowcharts based on input specifications, enabling visual representation of user interfaces and interactions for design communication and workflow analysis.",
+  "url": "https://github.com/umshere/uiflowchartcreator",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "UI Flowchart Creator"
 }

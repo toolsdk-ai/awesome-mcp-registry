@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "system-info",
-	"description": "Provides real-time system information including CPU, memory, disk, and GPU statistics through a simple API endpoint for monitoring and diagnostic purposes.",
-	"url": "https://github.com/allenbijo/mcp-sysinfo",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "SysInfo MCP"
+  "type": "mcp-server",
+  "packageName": "system-info",
+  "description": "Provides real-time system information including CPU, memory, disk, and GPU statistics through a simple API endpoint for monitoring and diagnostic purposes.",
+  "url": "https://github.com/allenbijo/mcp-sysinfo",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "SysInfo MCP"
 }

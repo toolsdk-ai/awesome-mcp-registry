@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "uuid-mcp",
-	"description": "Generates timestamp-based UUID v7 identifiers that are chronologically sortable and collision-resistant, following RFC standards for reliable unique identifier creation.",
-	"url": "https://github.com/tanker327/uuid-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "UUID MCP"
+  "type": "mcp-server",
+  "packageName": "uuid-mcp",
+  "description": "Generates timestamp-based UUID v7 identifiers that are chronologically sortable and collision-resistant, following RFC standards for reliable unique identifier creation.",
+  "url": "https://github.com/tanker327/uuid-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "UUID MCP"
 }

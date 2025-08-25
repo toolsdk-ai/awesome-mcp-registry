@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "macrostrat",
-	"description": "Integrates the Macrostrat API to enable geological data querying and analysis for earth sciences, resource exploration, and environmental studies.",
-	"url": "https://github.com/blake365/macrostrat-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Macrostrat MCP"
+  "type": "mcp-server",
+  "packageName": "macrostrat",
+  "description": "Integrates the Macrostrat API to enable geological data querying and analysis for earth sciences, resource exploration, and environmental studies.",
+  "url": "https://github.com/blake365/macrostrat-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Macrostrat MCP"
 }

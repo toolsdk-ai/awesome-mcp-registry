@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "search-engines-proxy",
-	"description": "Provides a unified API for accessing multiple search engines including Brave Search, Metaso, and Bocha, handling authentication, rate limiting, and response formatting for each provider.",
-	"url": "https://github.com/fengin/search-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Search Server"
+  "type": "mcp-server",
+  "packageName": "search-engines-proxy",
+  "description": "Provides a unified API for accessing multiple search engines including Brave Search, Metaso, and Bocha, handling authentication, rate limiting, and response formatting for each provider.",
+  "url": "https://github.com/fengin/search-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Search Server"
 }

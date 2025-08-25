@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "git-pr-description-generator",
-	"description": "Analyzes Git repository changes to automatically generate contextually relevant pull request descriptions based on commit differences.",
-	"url": "https://github.com/ceshine/git-prompts-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Git Prompts MCP Server"
+  "type": "mcp-server",
+  "packageName": "git-pr-description-generator",
+  "description": "Analyzes Git repository changes to automatically generate contextually relevant pull request descriptions based on commit differences.",
+  "url": "https://github.com/ceshine/git-prompts-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Git Prompts MCP Server"
 }

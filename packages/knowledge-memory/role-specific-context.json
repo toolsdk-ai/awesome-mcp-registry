@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "role-specific-context",
-	"description": "Enables AI systems to maintain distinct expert personas through role-based context management with vector search capabilities for consistent domain expertise across different specializations.",
-	"url": "https://github.com/chris-june/mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Server"
+  "type": "mcp-server",
+  "packageName": "role-specific-context",
+  "description": "Enables AI systems to maintain distinct expert personas through role-based context management with vector search capabilities for consistent domain expertise across different specializations.",
+  "url": "https://github.com/chris-june/mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server"
 }

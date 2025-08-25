@@ -1,20 +1,20 @@
 {
-	"type": "mcp-server",
-	"logo": "https://pbs.twimg.com/profile_images/1183117696730390529/LRDASku7_400x400.jpg",
-	"packageName": "@jeroensmink98/telegram-mcp",
-	"description": "This project implements a Model Context Protocol (MCP) server that enables sending Telegram messages through AI assistants like Claude Desktop.",
-	"url": "https://github.com/jeroensmink98/telegram-mcp/tree/master/src",
-	"runtime": "node",
-	"license": "MIT",
-	"env": {
-		"TELEGRAM_TOKEN": {
-			"description": "your-telegram-bot-token",
-			"required": true
-		},
-		"CHAT_ID": {
-			"description": "your-chat-id",
-			"required": true
-		}
-	},
-	"name": "Telegram MCP Server"
+  "type": "mcp-server",
+  "logo": "https://pbs.twimg.com/profile_images/1183117696730390529/LRDASku7_400x400.jpg",
+  "packageName": "@jeroensmink98/telegram-mcp",
+  "description": "This project implements a Model Context Protocol (MCP) server that enables sending Telegram messages through AI assistants like Claude Desktop.",
+  "url": "https://github.com/jeroensmink98/telegram-mcp/tree/master/src",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "description": "your-telegram-bot-token",
+      "required": true
+    },
+    "CHAT_ID": {
+      "description": "your-chat-id",
+      "required": true
+    }
+  },
+  "name": "Telegram MCP Server"
 }

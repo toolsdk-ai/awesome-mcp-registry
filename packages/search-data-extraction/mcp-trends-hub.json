@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-trends-hub",
-	"description": "Provides real-time access to trending topics and content from major Chinese platforms including Weibo, Zhihu, Douyin, Bilibili, Douban, Toutiao, and 36kr through separate tools with temporary caching for improved performance.",
-	"url": "https://github.com/baranwang/mcp-trends-hub",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Trends Hub"
+  "type": "mcp-server",
+  "packageName": "mcp-trends-hub",
+  "description": "Provides real-time access to trending topics and content from major Chinese platforms including Weibo, Zhihu, Douyin, Bilibili, Douban, Toutiao, and 36kr through separate tools with temporary caching for improved performance.",
+  "url": "https://github.com/baranwang/mcp-trends-hub",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Trends Hub"
 }

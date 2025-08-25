@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "wongames",
-	"description": "Provides a GraphQL interface to retrieve video game data from Strapi CMS, enabling filtered access to game collections, pricing information, and metadata for conversational interfaces.",
-	"url": "https://github.com/saymondamasio/wongames-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Wongames MCP"
+  "type": "mcp-server",
+  "packageName": "wongames",
+  "description": "Provides a GraphQL interface to retrieve video game data from Strapi CMS, enabling filtered access to game collections, pricing information, and metadata for conversational interfaces.",
+  "url": "https://github.com/saymondamasio/wongames-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Wongames MCP"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-jinaai-search",
-	"description": "Integrates JinaAI's search capabilities for web content discovery, information retrieval, and data extraction",
-	"url": "https://github.com/spences10/mcp-jinaai-search",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"JINAAI_API_KEY": {
-			"description": "your-jinaai-api-key",
-			"required": true
-		}
-	},
-	"name": "JinaAI Search MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-jinaai-search",
+  "description": "Integrates JinaAI's search capabilities for web content discovery, information retrieval, and data extraction",
+  "url": "https://github.com/spences10/mcp-jinaai-search",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "JINAAI_API_KEY": {
+      "description": "your-jinaai-api-key",
+      "required": true
+    }
+  },
+  "name": "JinaAI Search MCP"
 }

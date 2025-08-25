@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@skobyn/mcp-dataforseo",
-	"description": "Connects to DataForSEO's API suite to provide access to comprehensive SEO data including search results, keyword metrics, backlinks, domain analytics, and business listings for SEO analysis and content optimization workflows.",
-	"url": "https://github.com/skobyn/mcp-dataforseo",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "DataForSEO MCP Connector"
+  "type": "mcp-server",
+  "packageName": "@skobyn/mcp-dataforseo",
+  "description": "Connects to DataForSEO's API suite to provide access to comprehensive SEO data including search results, keyword metrics, backlinks, domain analytics, and business listings for SEO analysis and content optimization workflows.",
+  "url": "https://github.com/skobyn/mcp-dataforseo",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "DataForSEO MCP Connector"
 }

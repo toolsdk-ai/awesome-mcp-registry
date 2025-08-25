@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-weather-demo",
-	"description": "A demonstration server for ModelContextProtocol that provides weather tools and prompts for Claude AI, allowing LLMs to access external data without manual copying.",
-	"url": "https://github.com/nick-telsan/mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"ANTHROPIC_API_KEY": {
-			"description": "Your Anthropic API key from the Anthropic API Keys page",
-			"required": true
-		}
-	},
-	"name": "MCP Weather Demo"
+  "type": "mcp-server",
+  "packageName": "mcp-weather-demo",
+  "description": "A demonstration server for ModelContextProtocol that provides weather tools and prompts for Claude AI, allowing LLMs to access external data without manual copying.",
+  "url": "https://github.com/nick-telsan/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Your Anthropic API key from the Anthropic API Keys page",
+      "required": true
+    }
+  },
+  "name": "MCP Weather Demo"
 }

@@ -1,27 +1,27 @@
 {
-	"type": "mcp-server",
-	"packageName": "@hiyorineko/mcp-rollbar-server",
-	"description": "Provides a bridge to Rollbar error tracking platform for monitoring and analyzing application errors, retrieving detailed information, managing projects, and tracking deployments.",
-	"url": "https://github.com/hiyorineko/mcp-rollbar-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"ROLLBAR_PROJECT_TOKEN": {
-			"description": "YOUR_PROJECT_ACCESS_TOKEN",
-			"required": true
-		},
-		"ROLLBAR_ACCOUNT_TOKEN": {
-			"description": "YOUR_ACCOUNT_ACCESS_TOKEN",
-			"required": true
-		},
-		"ROLLBAR_PROJECT_ID": {
-			"description": "YOUR_PROJECT_ID",
-			"required": true
-		},
-		"ROLLBAR_PROJECT_NAME": {
-			"description": "YOUR_PROJECT_NAME",
-			"required": true
-		}
-	},
-	"name": "Rollbar MCP Server"
+  "type": "mcp-server",
+  "packageName": "@hiyorineko/mcp-rollbar-server",
+  "description": "Provides a bridge to Rollbar error tracking platform for monitoring and analyzing application errors, retrieving detailed information, managing projects, and tracking deployments.",
+  "url": "https://github.com/hiyorineko/mcp-rollbar-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ROLLBAR_PROJECT_TOKEN": {
+      "description": "YOUR_PROJECT_ACCESS_TOKEN",
+      "required": true
+    },
+    "ROLLBAR_ACCOUNT_TOKEN": {
+      "description": "YOUR_ACCOUNT_ACCESS_TOKEN",
+      "required": true
+    },
+    "ROLLBAR_PROJECT_ID": {
+      "description": "YOUR_PROJECT_ID",
+      "required": true
+    },
+    "ROLLBAR_PROJECT_NAME": {
+      "description": "YOUR_PROJECT_NAME",
+      "required": true
+    }
+  },
+  "name": "Rollbar MCP Server"
 }

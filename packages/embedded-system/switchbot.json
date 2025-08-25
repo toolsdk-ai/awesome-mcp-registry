@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "switchbot",
-	"description": "Integrates with SwitchBot devices to enable smart home automation, device control, and status monitoring using the SwitchBot API.",
-	"url": "https://github.com/genm/switchbot-mcp",
-	"runtime": "node",
-	"license": "isc",
-	"env": {},
-	"name": "SwitchBot MCP"
+  "type": "mcp-server",
+  "packageName": "switchbot",
+  "description": "Integrates with SwitchBot devices to enable smart home automation, device control, and status monitoring using the SwitchBot API.",
+  "url": "https://github.com/genm/switchbot-mcp",
+  "runtime": "node",
+  "license": "isc",
+  "env": {},
+  "name": "SwitchBot MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@shopify/dev-mcp",
-	"description": "Integrates with Shopify Dev. Supports various tools to interact with different Shopify APIs.",
-	"url": "https://github.com/shopify/dev-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Shopify Dev MCP"
+  "type": "mcp-server",
+  "packageName": "@shopify/dev-mcp",
+  "description": "Integrates with Shopify Dev. Supports various tools to interact with different Shopify APIs.",
+  "url": "https://github.com/shopify/dev-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Shopify Dev MCP"
 }

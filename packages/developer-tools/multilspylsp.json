@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "multilspylsp",
-	"description": "Provides Language Server Protocol (LSP) capabilities through multilspy, enabling code intelligence features like finding definitions, references, completions, and documentation across multiple programming languages without requiring language-specific tooling.",
-	"url": "https://github.com/asimihsan/mcp-multilspy",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Multilspy MCP"
+  "type": "mcp-server",
+  "packageName": "multilspylsp",
+  "description": "Provides Language Server Protocol (LSP) capabilities through multilspy, enabling code intelligence features like finding definitions, references, completions, and documentation across multiple programming languages without requiring language-specific tooling.",
+  "url": "https://github.com/asimihsan/mcp-multilspy",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Multilspy MCP"
 }

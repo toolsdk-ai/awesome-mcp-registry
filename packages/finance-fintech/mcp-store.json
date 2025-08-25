@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-store",
-	"description": "Provides a bridge to e-commerce data for retrieving customer information, looking up orders by customer ID, and searching customers by name through a TypeScript-based REST API",
-	"url": "https://github.com/n0119566/mcp-store",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Store"
+  "type": "mcp-server",
+  "packageName": "mcp-store",
+  "description": "Provides a bridge to e-commerce data for retrieving customer information, looking up orders by customer ID, and searching customers by name through a TypeScript-based REST API",
+  "url": "https://github.com/n0119566/mcp-store",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Store"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "claude-c2",
-	"description": "Command and control framework that enables secure remote system administration through a Python server and PowerShell client, maintaining task tracking in SQLite for efficient execution and reporting.",
-	"url": "https://github.com/dmcxblue/claude-c2",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Claude C2"
+  "type": "mcp-server",
+  "packageName": "claude-c2",
+  "description": "Command and control framework that enables secure remote system administration through a Python server and PowerShell client, maintaining task tracking in SQLite for efficient execution and reporting.",
+  "url": "https://github.com/dmcxblue/claude-c2",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Claude C2"
 }

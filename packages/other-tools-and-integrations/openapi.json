@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "openapi",
-	"description": "Automatically generates callable tools from OpenAPI specifications, parsing Swagger documents to create HTTP request handlers with proper parameter mapping and request body handling for seamless REST API integration.",
-	"url": "https://github.com/onewalker/openapi-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "OpenAPI MCP Server"
+  "type": "mcp-server",
+  "packageName": "openapi",
+  "description": "Automatically generates callable tools from OpenAPI specifications, parsing Swagger documents to create HTTP request handlers with proper parameter mapping and request body handling for seamless REST API integration.",
+  "url": "https://github.com/onewalker/openapi-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "OpenAPI MCP Server"
 }

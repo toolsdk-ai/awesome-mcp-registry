@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-searxng",
-	"description": "Perform privacy-preserving web searches via the SearXNG metasearch engine.",
-	"url": "https://github.com/secretiveshell/mcp-searxng",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "SearXNG MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-searxng",
+  "description": "Perform privacy-preserving web searches via the SearXNG metasearch engine.",
+  "url": "https://github.com/secretiveshell/mcp-searxng",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "SearXNG MCP"
 }

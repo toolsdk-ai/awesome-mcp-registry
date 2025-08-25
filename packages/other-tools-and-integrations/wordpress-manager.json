@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "wordpress-manager",
-	"description": "Enables AI to manage WordPress sites by providing tools for creating and updating posts, managing users, and retrieving content through authenticated API interactions",
-	"url": "https://github.com/prathammanocha/wordpress-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "WordPress MCP Server"
+  "type": "mcp-server",
+  "packageName": "wordpress-manager",
+  "description": "Enables AI to manage WordPress sites by providing tools for creating and updating posts, managing users, and retrieving content through authenticated API interactions",
+  "url": "https://github.com/prathammanocha/wordpress-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "WordPress MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "sqlite-literature-manager",
-	"description": "Integrates literature management operations with knowledge graphs to enable flexible paper tracking, structured note-taking, and research trend analysis.",
-	"url": "https://github.com/zongmin-yu/sqlite-literature-management-fastmcp-mcp-server",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "SQLite Literature Management FastMCP MCP Server"
+  "type": "mcp-server",
+  "packageName": "sqlite-literature-manager",
+  "description": "Integrates literature management operations with knowledge graphs to enable flexible paper tracking, structured note-taking, and research trend analysis.",
+  "url": "https://github.com/zongmin-yu/sqlite-literature-management-fastmcp-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "SQLite Literature Management FastMCP MCP Server"
 }

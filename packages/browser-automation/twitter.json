@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "twitter",
-	"description": "Integrates with Twitter through browser session cookies to enable posting tweets, searching content, retrieving timelines, managing user interactions, and monitoring social media activity without requiring official API access.",
-	"url": "https://github.com/gkydev/twitter-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Twitter MCP Server"
+  "type": "mcp-server",
+  "packageName": "twitter",
+  "description": "Integrates with Twitter through browser session cookies to enable posting tweets, searching content, retrieving timelines, managing user interactions, and monitoring social media activity without requiring official API access.",
+  "url": "https://github.com/gkydev/twitter-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Twitter MCP Server"
 }

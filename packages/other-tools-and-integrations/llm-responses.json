@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "llm-responses",
-	"description": "Enables multiple LLMs to share and analyze each other's responses to the same prompt, facilitating collaborative problem-solving and multi-perspective analysis through TypeScript-based response submission and retrieval tools.",
-	"url": "https://github.com/kstrikis/ephor-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Ephor MCP"
+  "type": "mcp-server",
+  "packageName": "llm-responses",
+  "description": "Enables multiple LLMs to share and analyze each other's responses to the same prompt, facilitating collaborative problem-solving and multi-perspective analysis through TypeScript-based response submission and retrieval tools.",
+  "url": "https://github.com/kstrikis/ephor-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Ephor MCP"
 }

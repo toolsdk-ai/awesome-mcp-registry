@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-diceroll",
-	"description": "Provides a simple dice rolling tool that generates random rolls with customizable dice faces and quantities, returning both individual results and their sum.",
-	"url": "https://github.com/shimapon/mcp-server-diceroll",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "DiceRoll MCP Server"
+  "type": "mcp-server",
+  "packageName": "mcp-server-diceroll",
+  "description": "Provides a simple dice rolling tool that generates random rolls with customizable dice faces and quantities, returning both individual results and their sum.",
+  "url": "https://github.com/shimapon/mcp-server-diceroll",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "DiceRoll MCP Server"
 }

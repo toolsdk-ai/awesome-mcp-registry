@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "servemyapi-(macos-keychain)",
-	"description": "Securely stores and retrieves API keys using macOS Keychain, allowing natural language access to credentials without exposing them in .env files",
-	"url": "https://github.com/jktfe/servemyapi",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "ServeMyAPI macOS Keychain"
+  "type": "mcp-server",
+  "packageName": "servemyapi-(macos-keychain)",
+  "description": "Securely stores and retrieves API keys using macOS Keychain, allowing natural language access to credentials without exposing them in .env files",
+  "url": "https://github.com/jktfe/servemyapi",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "ServeMyAPI macOS Keychain"
 }

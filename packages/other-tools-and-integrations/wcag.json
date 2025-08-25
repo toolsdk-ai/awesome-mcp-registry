@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "wcag",
-	"description": "Provides structured access to Web Content Accessibility Guidelines (WCAG) documentation, enabling accurate reference to specific accessibility requirements and implementation techniques.",
-	"url": "https://github.com/tsmd/wcag-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "WCAG MCP"
+  "type": "mcp-server",
+  "packageName": "wcag",
+  "description": "Provides structured access to Web Content Accessibility Guidelines (WCAG) documentation, enabling accurate reference to specific accessibility requirements and implementation techniques.",
+  "url": "https://github.com/tsmd/wcag-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "WCAG MCP"
 }

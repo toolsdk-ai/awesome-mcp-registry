@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "figma-mcp",
-	"description": "Interact with Figma design files through the Figma REST API for design analysis, feedback, and collaboration.",
-	"url": "https://github.com/matthewdailey/figma-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"FIGMA_API_KEY": {
-			"description": "<YOUR_API_KEY>",
-			"required": true
-		}
-	},
-	"name": "Figma MCP"
+  "type": "mcp-server",
+  "packageName": "figma-mcp",
+  "description": "Interact with Figma design files through the Figma REST API for design analysis, feedback, and collaboration.",
+  "url": "https://github.com/matthewdailey/figma-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "FIGMA_API_KEY": {
+      "description": "<YOUR_API_KEY>",
+      "required": true
+    }
+  },
+  "name": "Figma MCP"
 }

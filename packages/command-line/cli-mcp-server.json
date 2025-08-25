@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cli-mcp-server",
-	"description": "Execute shell commands with strict security policies.",
-	"url": "https://github.com/mladensu/cli-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "CLI MCP Server"
+  "type": "mcp-server",
+  "packageName": "cli-mcp-server",
+  "description": "Execute shell commands with strict security policies.",
+  "url": "https://github.com/mladensu/cli-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "CLI MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cdata-connect-cloud",
-	"description": "Integrates with CData Connect Cloud to enable SQL query execution across diverse data sources, facilitating seamless data integration for analytics and workflows.",
-	"url": "https://github.com/r3-yamauchi/cdata-connect-cloud-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "CData Connect Cloud MCP Server"
+  "type": "mcp-server",
+  "packageName": "cdata-connect-cloud",
+  "description": "Integrates with CData Connect Cloud to enable SQL query execution across diverse data sources, facilitating seamless data integration for analytics and workflows.",
+  "url": "https://github.com/r3-yamauchi/cdata-connect-cloud-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "CData Connect Cloud MCP Server"
 }

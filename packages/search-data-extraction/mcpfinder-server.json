@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@mcpfinder/server",
-	"description": "Enables AI assistants to discover and integrate new capabilities by providing tools for searching, retrieving details, and configuring MCP servers across various applications.",
-	"url": "https://github.com/mcpfinder/server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Finder Server"
+  "type": "mcp-server",
+  "packageName": "@mcpfinder/server",
+  "description": "Enables AI assistants to discover and integrate new capabilities by providing tools for searching, retrieving details, and configuring MCP servers across various applications.",
+  "url": "https://github.com/mcpfinder/server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Finder Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "webdev-mcp",
-	"description": "Enables AI to capture screenshots from multiple displays on macOS, Windows, and Linux for analyzing visual content, debugging UI issues, or assisting with design tasks",
-	"url": "https://github.com/zueai/webdev-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "WebDev MCP"
+  "type": "mcp-server",
+  "packageName": "webdev-mcp",
+  "description": "Enables AI to capture screenshots from multiple displays on macOS, Windows, and Linux for analyzing visual content, debugging UI issues, or assisting with design tasks",
+  "url": "https://github.com/zueai/webdev-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "WebDev MCP"
 }

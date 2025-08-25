@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "gopls-(go-language-server)",
-	"description": "Wraps gopls (Go language server) to provide Go development tools including go-to-definition, find references, hover information, diagnostics, and workspace symbol search for code navigation and analysis.",
-	"url": "https://github.com/yantrio/mcp-gopls",
-	"runtime": "go",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Gopls"
+  "type": "mcp-server",
+  "packageName": "gopls-(go-language-server)",
+  "description": "Wraps gopls (Go language server) to provide Go development tools including go-to-definition, find references, hover information, diagnostics, and workspace symbol search for code navigation and analysis.",
+  "url": "https://github.com/yantrio/mcp-gopls",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Gopls"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "imf-data",
-	"description": "Provides structured access to International Monetary Fund datasets, enabling retrieval of economic indicators and financial statistics for research and analysis workflows.",
-	"url": "https://github.com/c-cf/imf-data-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "IMF Data MCP"
+  "type": "mcp-server",
+  "packageName": "imf-data",
+  "description": "Provides structured access to International Monetary Fund datasets, enabling retrieval of economic indicators and financial statistics for research and analysis workflows.",
+  "url": "https://github.com/c-cf/imf-data-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "IMF Data MCP"
 }

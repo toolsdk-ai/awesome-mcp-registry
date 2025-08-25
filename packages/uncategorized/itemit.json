@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "itemit",
-	"description": "Integrates with itemit's asset management platform to enable searching, creating, and managing physical assets and locations with item tracking, location lookup, and reminder retrieval capabilities.",
-	"url": "https://github.com/umin-ai/itemit-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Itemit MCP"
+  "type": "mcp-server",
+  "packageName": "itemit",
+  "description": "Integrates with itemit's asset management platform to enable searching, creating, and managing physical assets and locations with item tracking, location lookup, and reminder retrieval capabilities.",
+  "url": "https://github.com/umin-ai/itemit-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Itemit MCP"
 }

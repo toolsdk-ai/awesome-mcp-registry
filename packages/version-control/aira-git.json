@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "aira-git",
-	"description": "Integrates with Git repositories to enable Gitflow workflows.",
-	"url": "https://github.com/sunwood-ai-labs/aira-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Aira MCP Server"
+  "type": "mcp-server",
+  "packageName": "aira-git",
+  "description": "Integrates with Git repositories to enable Gitflow workflows.",
+  "url": "https://github.com/sunwood-ai-labs/aira-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Aira MCP Server"
 }

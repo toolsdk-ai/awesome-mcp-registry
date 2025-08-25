@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "http-bridge",
-	"description": "Middleware server that enables secure interaction with HTTP APIs through a configurable bridge, allowing dynamic integration with external web services without requiring direct HTTP access.",
-	"url": "https://github.com/tght1211/http-4-mcp",
-	"runtime": "node",
-	"license": "mulanpsl-2.0",
-	"env": {},
-	"name": "HTTP MCP Bridge"
+  "type": "mcp-server",
+  "packageName": "http-bridge",
+  "description": "Middleware server that enables secure interaction with HTTP APIs through a configurable bridge, allowing dynamic integration with external web services without requiring direct HTTP access.",
+  "url": "https://github.com/tght1211/http-4-mcp",
+  "runtime": "node",
+  "license": "mulanpsl-2.0",
+  "env": {},
+  "name": "HTTP MCP Bridge"
 }

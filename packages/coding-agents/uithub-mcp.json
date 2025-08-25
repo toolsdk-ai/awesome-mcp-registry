@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "uithub-mcp",
-	"description": "Enables Claude to fetch and analyze GitHub repositories with flexible filtering options for code exploration and development assistance tasks.",
-	"url": "https://github.com/janwilmake/uithub-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Uithub MCP"
+  "type": "mcp-server",
+  "packageName": "uithub-mcp",
+  "description": "Enables Claude to fetch and analyze GitHub repositories with flexible filtering options for code exploration and development assistance tasks.",
+  "url": "https://github.com/janwilmake/uithub-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Uithub MCP"
 }

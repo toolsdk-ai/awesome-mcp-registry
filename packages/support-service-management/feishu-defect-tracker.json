@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "feishu-defect-tracker",
-	"description": "Integrates Feishu OpenAPI with Windsurf IDE for defect tracking, enabling retrieval of specific defect links by ID and filtered defect lists through both stdio and HTTP/SSE transport methods.",
-	"url": "https://github.com/ningyv179/mcp-feishu",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Feishu MCP"
+  "type": "mcp-server",
+  "packageName": "feishu-defect-tracker",
+  "description": "Integrates Feishu OpenAPI with Windsurf IDE for defect tracking, enabling retrieval of specific defect links by ID and filtered defect lists through both stdio and HTTP/SSE transport methods.",
+  "url": "https://github.com/ningyv179/mcp-feishu",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Feishu MCP"
 }

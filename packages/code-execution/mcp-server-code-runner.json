@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-server-code-runner",
-	"description": "Executes code snippets in over 30 programming languages by creating temporary files and running them with appropriate interpreters, enabling direct testing and demonstration within conversations.",
-	"url": "https://github.com/formulahendry/mcp-server-code-runner",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Code Runner MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-server-code-runner",
+  "description": "Executes code snippets in over 30 programming languages by creating temporary files and running them with appropriate interpreters, enabling direct testing and demonstration within conversations.",
+  "url": "https://github.com/formulahendry/mcp-server-code-runner",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Code Runner MCP"
 }

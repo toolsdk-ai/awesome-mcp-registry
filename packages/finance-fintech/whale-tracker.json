@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "whale-tracker",
-	"description": "Monitors real-time cryptocurrency whale transactions across blockchains, providing detailed transaction information and configurable filtering for traders and analysts tracking significant market movements.",
-	"url": "https://github.com/kukapay/whale-tracker-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Whale Tracker MCP"
+  "type": "mcp-server",
+  "packageName": "whale-tracker",
+  "description": "Monitors real-time cryptocurrency whale transactions across blockchains, providing detailed transaction information and configurable filtering for traders and analysts tracking significant market movements.",
+  "url": "https://github.com/kukapay/whale-tracker-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Whale Tracker MCP"
 }

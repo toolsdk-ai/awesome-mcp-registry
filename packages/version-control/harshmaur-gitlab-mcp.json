@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@harshmaur/gitlab-mcp",
-	"description": "Integrates with GitLab to enable repository management, file operations, issue tracking, and merge request handling using a TypeScript implementation configured with a personal access token.",
-	"url": "https://github.com/harshmaur/gitlab-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "GitLab MCP"
+  "type": "mcp-server",
+  "packageName": "@harshmaur/gitlab-mcp",
+  "description": "Integrates with GitLab to enable repository management, file operations, issue tracking, and merge request handling using a TypeScript implementation configured with a personal access token.",
+  "url": "https://github.com/harshmaur/gitlab-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "GitLab MCP"
 }

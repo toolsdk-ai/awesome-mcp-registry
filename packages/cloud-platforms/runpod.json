@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "runpod",
-	"description": "Enables programmatic control of RunPod cloud GPU resources and serverless deployments through a TypeScript interface to the RunPod REST API.",
-	"url": "https://github.com/runpod/runpod-mcp-ts",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "RunPod MCP"
+  "type": "mcp-server",
+  "packageName": "runpod",
+  "description": "Enables programmatic control of RunPod cloud GPU resources and serverless deployments through a TypeScript interface to the RunPod REST API.",
+  "url": "https://github.com/runpod/runpod-mcp-ts",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "RunPod MCP"
 }

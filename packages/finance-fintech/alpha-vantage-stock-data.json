@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "alpha-vantage-stock-data",
-	"description": "Integrates with Alpha Vantage API to provide real-time and historical stock market data, enabling financial analysis with customizable price alerts and data retrieval options.",
-	"url": "https://github.com/qubaomingg/stock-analysis-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Stock Analysis MCP"
+  "type": "mcp-server",
+  "packageName": "alpha-vantage-stock-data",
+  "description": "Integrates with Alpha Vantage API to provide real-time and historical stock market data, enabling financial analysis with customizable price alerts and data retrieval options.",
+  "url": "https://github.com/qubaomingg/stock-analysis-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Stock Analysis MCP"
 }

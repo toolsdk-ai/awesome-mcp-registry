@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "image-generation-(replicate)",
-	"description": "Integrates with Replicate's API to generate images using Stable Diffusion XL, providing endpoints for creating and checking image generation predictions with authentication and CORS support.",
-	"url": "https://github.com/rmcendarfer2017/mcp-image-gen",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Image Gen MCP"
+  "type": "mcp-server",
+  "packageName": "image-generation-(replicate)",
+  "description": "Integrates with Replicate's API to generate images using Stable Diffusion XL, providing endpoints for creating and checking image generation predictions with authentication and CORS support.",
+  "url": "https://github.com/rmcendarfer2017/mcp-image-gen",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Image Gen MCP"
 }

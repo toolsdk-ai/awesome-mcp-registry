@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "directus",
-	"description": "Integrates with Directus CMS to enable CRUD operations on collections through the REST API, allowing seamless interaction with structured data in a headless content management system.",
-	"url": "https://github.com/n0safe/directus-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Directus MCP"
+  "type": "mcp-server",
+  "packageName": "directus",
+  "description": "Integrates with Directus CMS to enable CRUD operations on collections through the REST API, allowing seamless interaction with structured data in a headless content management system.",
+  "url": "https://github.com/n0safe/directus-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Directus MCP"
 }

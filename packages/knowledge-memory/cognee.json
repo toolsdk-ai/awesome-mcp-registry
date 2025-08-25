@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "cognee",
-	"description": "AI-friendly database and knowledge-management capabilities via various database schemes.",
-	"url": "https://github.com/topoteretes/cognee/tree/HEAD/cognee-mcp",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Cognee MCP"
+  "type": "mcp-server",
+  "packageName": "cognee",
+  "description": "AI-friendly database and knowledge-management capabilities via various database schemes.",
+  "url": "https://github.com/topoteretes/cognee/tree/HEAD/cognee-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Cognee MCP"
 }

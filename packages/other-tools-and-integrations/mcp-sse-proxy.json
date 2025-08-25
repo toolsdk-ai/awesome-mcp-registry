@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-sse-proxy",
-	"description": "Bridges STDIO-based MCP clients with SSE-based MCP servers, allowing applications like Claude Desktop to connect to remote MCP servers that use SSE transport.",
-	"url": "https://github.com/gomarble-ai/mcp-proxy-nodejs",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"API_KEY": {
-			"description": "Optional API key for authentication",
-			"required": true
-		},
-		"SSE_URL": {
-			"description": "URL of the remote SSE MCP server endpoint",
-			"required": true
-		},
-		"SERVER_NAME": {
-			"description": "Display name for the MCP server",
-			"required": true
-		}
-	},
-	"name": "MCP SSE Proxy"
+  "type": "mcp-server",
+  "packageName": "mcp-sse-proxy",
+  "description": "Bridges STDIO-based MCP clients with SSE-based MCP servers, allowing applications like Claude Desktop to connect to remote MCP servers that use SSE transport.",
+  "url": "https://github.com/gomarble-ai/mcp-proxy-nodejs",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "API_KEY": {
+      "description": "Optional API key for authentication",
+      "required": true
+    },
+    "SSE_URL": {
+      "description": "URL of the remote SSE MCP server endpoint",
+      "required": true
+    },
+    "SERVER_NAME": {
+      "description": "Display name for the MCP server",
+      "required": true
+    }
+  },
+  "name": "MCP SSE Proxy"
 }

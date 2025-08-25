@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "aliyun-mcp-server",
-	"description": "Integrates with Alibaba Cloud services to query and filter SLS logs, with future support for ECS instance management and serverless function deployment.",
-	"url": "https://github.com/nailuogg/aliyun-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"ALIYUN_ACCESS_KEY_ID": {
-			"description": "your-access-key-id",
-			"required": true
-		},
-		"ALIYUN_ACCESS_KEY_SECRET": {
-			"description": "your-access-key-secret",
-			"required": true
-		},
-		"SLS_ENDPOINT": {
-			"description": "cn-hangzhou.log.aliyuncs.com",
-			"required": true
-		}
-	},
-	"name": "Aliyun MCP Server"
+  "type": "mcp-server",
+  "packageName": "aliyun-mcp-server",
+  "description": "Integrates with Alibaba Cloud services to query and filter SLS logs, with future support for ECS instance management and serverless function deployment.",
+  "url": "https://github.com/nailuogg/aliyun-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "ALIYUN_ACCESS_KEY_ID": {
+      "description": "your-access-key-id",
+      "required": true
+    },
+    "ALIYUN_ACCESS_KEY_SECRET": {
+      "description": "your-access-key-secret",
+      "required": true
+    },
+    "SLS_ENDPOINT": {
+      "description": "cn-hangzhou.log.aliyuncs.com",
+      "required": true
+    }
+  },
+  "name": "Aliyun MCP Server"
 }

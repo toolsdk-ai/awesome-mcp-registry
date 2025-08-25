@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@hyperdrive-eng/mcp-nodejs-debugger",
-	"description": "Connects Claude Code to Node.js's Inspector Protocol for real-time debugging capabilities, enabling breakpoint setting, variable inspection, and code execution stepping without leaving the conversation interface.",
-	"url": "https://github.com/workbackai/mcp-nodejs-debugger",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Node.js Debugger"
+  "type": "mcp-server",
+  "packageName": "@hyperdrive-eng/mcp-nodejs-debugger",
+  "description": "Connects Claude Code to Node.js's Inspector Protocol for real-time debugging capabilities, enabling breakpoint setting, variable inspection, and code execution stepping without leaving the conversation interface.",
+  "url": "https://github.com/workbackai/mcp-nodejs-debugger",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Node.js Debugger"
 }

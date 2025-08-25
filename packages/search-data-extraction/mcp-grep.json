@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-grep",
-	"description": "Exposes the system grep binary's functionality for searching files with regular expressions, supporting common options like case-insensitive matching, context lines, and recursive directory searching.",
-	"url": "https://github.com/erniebrodeur/mcp-grep",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Grep"
+  "type": "mcp-server",
+  "packageName": "mcp-grep",
+  "description": "Exposes the system grep binary's functionality for searching files with regular expressions, supporting common options like case-insensitive matching, context lines, and recursive directory searching.",
+  "url": "https://github.com/erniebrodeur/mcp-grep",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Grep"
 }

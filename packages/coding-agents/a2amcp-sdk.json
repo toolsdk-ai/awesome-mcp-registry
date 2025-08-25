@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "a2amcp-sdk",
-	"description": "Coordinates multiple AI agents working on shared codebases through Redis-backed infrastructure that provides real-time messaging, file locking to prevent simultaneous edits, interface sharing for type definitions, and distributed task management across parallel development sessions.",
-	"url": "https://github.com/webdevtodayjason/a2amcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "A2AMCP"
+  "type": "mcp-server",
+  "packageName": "a2amcp-sdk",
+  "description": "Coordinates multiple AI agents working on shared codebases through Redis-backed infrastructure that provides real-time messaging, file locking to prevent simultaneous edits, interface sharing for type definitions, and distributed task management across parallel development sessions.",
+  "url": "https://github.com/webdevtodayjason/a2amcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "A2AMCP"
 }

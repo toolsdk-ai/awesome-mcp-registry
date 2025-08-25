@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "easy-autocad",
-	"description": "Enables programmatic interaction with AutoCAD by providing a Python-based server that supports database management and task automation through libraries like pyautocad and comtypes.",
-	"url": "https://github.com/zh19980811/easy-mcp-autocad",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Easy AutoCAD MCP"
+  "type": "mcp-server",
+  "packageName": "easy-autocad",
+  "description": "Enables programmatic interaction with AutoCAD by providing a Python-based server that supports database management and task automation through libraries like pyautocad and comtypes.",
+  "url": "https://github.com/zh19980811/easy-mcp-autocad",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Easy AutoCAD MCP"
 }

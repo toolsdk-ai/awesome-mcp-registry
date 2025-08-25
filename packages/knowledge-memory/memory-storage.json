@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "memory-storage",
-	"description": "Provides persistent text memory storage with tagging capabilities for storing, retrieving, searching, and managing information across conversations using a local JSON file.",
-	"url": "https://github.com/grizzlypeaksoftware/mcp-memory-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MCP Memory Server"
+  "type": "mcp-server",
+  "packageName": "memory-storage",
+  "description": "Provides persistent text memory storage with tagging capabilities for storing, retrieving, searching, and managing information across conversations using a local JSON file.",
+  "url": "https://github.com/grizzlypeaksoftware/mcp-memory-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Memory Server"
 }

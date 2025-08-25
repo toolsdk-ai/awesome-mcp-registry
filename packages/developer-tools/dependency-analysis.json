@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dependency-analysis",
-	"description": "Manage and analyze project dependencies, offering caching and flexible configuration for efficient tracking across complex software ecosystems.",
-	"url": "https://github.com/mkearl/dependency-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Dependency MCP"
+  "type": "mcp-server",
+  "packageName": "dependency-analysis",
+  "description": "Manage and analyze project dependencies, offering caching and flexible configuration for efficient tracking across complex software ecosystems.",
+  "url": "https://github.com/mkearl/dependency-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Dependency MCP"
 }

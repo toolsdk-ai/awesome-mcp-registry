@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "local-file-organizer",
-	"description": "Automatically organizes files by categorizing them based on extensions while preserving project structures for efficient directory management and backup preparation.",
-	"url": "https://github.com/diganto-deb/local_file_organizer",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Local File Organizer MCP"
+  "type": "mcp-server",
+  "packageName": "local-file-organizer",
+  "description": "Automatically organizes files by categorizing them based on extensions while preserving project structures for efficient directory management and backup preparation.",
+  "url": "https://github.com/diganto-deb/local_file_organizer",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Local File Organizer MCP"
 }

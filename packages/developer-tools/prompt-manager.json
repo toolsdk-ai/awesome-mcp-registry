@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "prompt-manager",
-	"description": "Manages and serves customizable prompt templates with variable substitution and tag-based organization for streamlined LLM interactions in development workflows and code reviews.",
-	"url": "https://github.com/sparesparrow/mcp-prompts",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Prompts MCP"
+  "type": "mcp-server",
+  "packageName": "prompt-manager",
+  "description": "Manages and serves customizable prompt templates with variable substitution and tag-based organization for streamlined LLM interactions in development workflows and code reviews.",
+  "url": "https://github.com/sparesparrow/mcp-prompts",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Prompts MCP"
 }

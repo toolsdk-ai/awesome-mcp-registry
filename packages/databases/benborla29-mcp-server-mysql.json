@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@benborla29/mcp-server-mysql",
-	"description": "Secure read-only MySQL database access to execute queries and analyze data patterns.",
-	"url": "https://github.com/benborla/mcp-server-mysql",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MySQL MCP Server"
+  "type": "mcp-server",
+  "packageName": "@benborla29/mcp-server-mysql",
+  "description": "Secure read-only MySQL database access to execute queries and analyze data patterns.",
+  "url": "https://github.com/benborla/mcp-server-mysql",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MySQL MCP Server"
 }

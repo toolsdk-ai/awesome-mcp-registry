@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "layerzero-oft",
-	"description": "Deploys and manages LayerZero OFT tokens across multiple blockchain networks with automated cross-chain bridging, consistent address deployment using CREATE2 factories, and seamless token transfers between Arbitrum Sepolia and Base Sepolia testnets.",
-	"url": "https://github.com/thomasfevre/layerzero_mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "LayerZero MCP"
+  "type": "mcp-server",
+  "packageName": "layerzero-oft",
+  "description": "Deploys and manages LayerZero OFT tokens across multiple blockchain networks with automated cross-chain bridging, consistent address deployment using CREATE2 factories, and seamless token transfers between Arbitrum Sepolia and Base Sepolia testnets.",
+  "url": "https://github.com/thomasfevre/layerzero_mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "LayerZero MCP"
 }

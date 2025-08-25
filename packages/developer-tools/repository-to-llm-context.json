@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "repository-to-llm-context",
-	"description": "Transform code repositories into LLM-friendly formats.",
-	"url": "https://github.com/crisschan/mcp-repo2llm",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Repo2LLM MCP Server"
+  "type": "mcp-server",
+  "packageName": "repository-to-llm-context",
+  "description": "Transform code repositories into LLM-friendly formats.",
+  "url": "https://github.com/crisschan/mcp-repo2llm",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Repo2LLM MCP Server"
 }

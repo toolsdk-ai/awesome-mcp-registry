@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "ultra-mcp",
-	"description": "Unified server providing access to OpenAI O3, Google Gemini 2.5 Pro, and Azure OpenAI models with automatic usage tracking, cost estimation, and nine specialized development tools for code analysis, debugging, and documentation generation.",
-	"url": "https://github.com/realmikechong/ultra-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Ultra MCP"
+  "type": "mcp-server",
+  "packageName": "ultra-mcp",
+  "description": "Unified server providing access to OpenAI O3, Google Gemini 2.5 Pro, and Azure OpenAI models with automatic usage tracking, cost estimation, and nine specialized development tools for code analysis, debugging, and documentation generation.",
+  "url": "https://github.com/realmikechong/ultra-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Ultra MCP"
 }

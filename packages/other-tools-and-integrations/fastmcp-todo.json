@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "fastmcp-todo",
-	"description": "Integrates with MongoDB and MQTT to enable real-time task management, distribution, and updates for collaborative workflows and automation.",
-	"url": "https://github.com/madnessengineering/omnispindle",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Omnispindle"
+  "type": "mcp-server",
+  "packageName": "fastmcp-todo",
+  "description": "Integrates with MongoDB and MQTT to enable real-time task management, distribution, and updates for collaborative workflows and automation.",
+  "url": "https://github.com/madnessengineering/omnispindle",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Omnispindle"
 }

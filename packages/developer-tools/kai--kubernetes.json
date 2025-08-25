@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "kai-(kubernetes)",
-	"description": "Enables natural language interaction with Kubernetes clusters for managing pods, retrieving logs, and manipulating container environments without complex kubectl commands.",
-	"url": "https://github.com/basebandit/kai",
-	"runtime": "go",
-	"license": "mit",
-	"env": {},
-	"name": "Kai Kubernetes MCP Server"
+  "type": "mcp-server",
+  "packageName": "kai-(kubernetes)",
+  "description": "Enables natural language interaction with Kubernetes clusters for managing pods, retrieving logs, and manipulating container environments without complex kubectl commands.",
+  "url": "https://github.com/basebandit/kai",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Kai Kubernetes MCP Server"
 }

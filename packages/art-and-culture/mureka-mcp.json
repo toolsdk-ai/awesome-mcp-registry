@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mureka-mcp",
-	"description": "Provides a bridge to Mureka.ai's music generation capabilities, enabling on-demand creation of lyrics, complete songs, and instrumental tracks without requiring specialized music production knowledge.",
-	"url": "https://github.com/skyworkai/mureka-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Mureka MCP"
+  "type": "mcp-server",
+  "packageName": "mureka-mcp",
+  "description": "Provides a bridge to Mureka.ai's music generation capabilities, enabling on-demand creation of lyrics, complete songs, and instrumental tracks without requiring specialized music production knowledge.",
+  "url": "https://github.com/skyworkai/mureka-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Mureka MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@clerk/agent-toolkit",
-	"description": "Manage Clerk's authentication and user management organization management, session handling, and authorization features.",
-	"url": "https://github.com/clerk/javascript/tree/HEAD/packages/agent-toolkit",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Agent Toolkit"
+  "type": "mcp-server",
+  "packageName": "@clerk/agent-toolkit",
+  "description": "Manage Clerk's authentication and user management organization management, session handling, and authorization features.",
+  "url": "https://github.com/clerk/javascript/tree/HEAD/packages/agent-toolkit",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Agent Toolkit"
 }

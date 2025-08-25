@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "hypefury",
-	"description": "Enables AI systems to authenticate with and schedule posts through the Hypefury platform, creating a secure bridge for automated content publishing workflows.",
-	"url": "https://github.com/eugenechabanov/hf-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Hypefury MCP"
+  "type": "mcp-server",
+  "packageName": "hypefury",
+  "description": "Enables AI systems to authenticate with and schedule posts through the Hypefury platform, creating a secure bridge for automated content publishing workflows.",
+  "url": "https://github.com/eugenechabanov/hf-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Hypefury MCP"
 }

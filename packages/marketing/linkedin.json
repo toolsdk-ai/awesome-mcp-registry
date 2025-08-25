@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "linkedin",
-	"description": "Integrates with LinkedIn to enable direct posting of text and media content with customizable visibility settings through OAuth2 authentication and secure token management.",
-	"url": "https://github.com/filipptrigub/linkedin-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "LinkedIn MCP"
+  "type": "mcp-server",
+  "packageName": "linkedin",
+  "description": "Integrates with LinkedIn to enable direct posting of text and media content with customizable visibility settings through OAuth2 authentication and secure token management.",
+  "url": "https://github.com/filipptrigub/linkedin-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "LinkedIn MCP"
 }

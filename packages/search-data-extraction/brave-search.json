@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "brave-search",
-	"description": "Integrates with Brave Search API to enable web research capabilities through tools for general queries, location-based searches, and multi-step research workflows for synthesizing information from multiple sources.",
-	"url": "https://github.com/tositon/opendeepsearch",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "Opendeepsearch MCP"
+  "type": "mcp-server",
+  "packageName": "brave-search",
+  "description": "Integrates with Brave Search API to enable web research capabilities through tools for general queries, location-based searches, and multi-step research workflows for synthesizing information from multiple sources.",
+  "url": "https://github.com/tositon/opendeepsearch",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Opendeepsearch MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "synthcal-(supabase-calendar)",
-	"description": "Provides a bridge between natural language and calendar management through Supabase, enabling event creation, updating, deletion, and listing without switching contexts.",
-	"url": "https://github.com/stephenvertex/synth-scheduler-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Synth Scheduler MCP"
+  "type": "mcp-server",
+  "packageName": "synthcal-(supabase-calendar)",
+  "description": "Provides a bridge between natural language and calendar management through Supabase, enabling event creation, updating, deletion, and listing without switching contexts.",
+  "url": "https://github.com/stephenvertex/synth-scheduler-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Synth Scheduler MCP"
 }

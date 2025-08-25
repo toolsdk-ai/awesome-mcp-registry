@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "rust-documentation",
-	"description": "Provides AI systems with searchable Rust documentation, code patterns, and error solutions through a TypeScript server that fetches and indexes content from docs.rs, GitHub repositories, and community resources.",
-	"url": "https://github.com/maxparisotto/rust-doc-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Rust Doc MCP"
+  "type": "mcp-server",
+  "packageName": "rust-documentation",
+  "description": "Provides AI systems with searchable Rust documentation, code patterns, and error solutions through a TypeScript server that fetches and indexes content from docs.rs, GitHub repositories, and community resources.",
+  "url": "https://github.com/maxparisotto/rust-doc-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Rust Doc MCP"
 }

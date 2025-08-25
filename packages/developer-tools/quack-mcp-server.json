@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "quack-mcp-server",
-	"description": "A continuous integration server that automates Python code analysis, providing linting and static type checking tools for quality assurance.",
-	"url": "https://github.com/DXC-Lab-Linkage/quack-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {
-		"PUBMED_EMAIL": {
-			"description": "Your email address (required by NCBI)",
-			"required": true
-		},
-		"PUBMED_API_KEY": {
-			"description": "Optional API key for higher rate limits",
-			"required": true
-		}
-	},
-	"name": "Quack MCP Server"
+  "type": "mcp-server",
+  "packageName": "quack-mcp-server",
+  "description": "A continuous integration server that automates Python code analysis, providing linting and static type checking tools for quality assurance.",
+  "url": "https://github.com/DXC-Lab-Linkage/quack-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "PUBMED_EMAIL": {
+      "description": "Your email address (required by NCBI)",
+      "required": true
+    },
+    "PUBMED_API_KEY": {
+      "description": "Optional API key for higher rate limits",
+      "required": true
+    }
+  },
+  "name": "Quack MCP Server"
 }

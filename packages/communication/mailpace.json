@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mailpace",
-	"description": "Provides a bridge to MailPace's transactional email API for sending HTML/text emails with attachments, custom headers, and CC/BCC recipients using domain API token authentication",
-	"url": "https://github.com/mailpace/mailpace-mcp",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "MailPace MCP"
+  "type": "mcp-server",
+  "packageName": "mailpace",
+  "description": "Provides a bridge to MailPace's transactional email API for sending HTML/text emails with attachments, custom headers, and CC/BCC recipients using domain API token authentication",
+  "url": "https://github.com/mailpace/mailpace-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MailPace MCP"
 }

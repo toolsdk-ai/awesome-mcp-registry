@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "pbs-api",
-	"description": "Provides access to the Australian Pharmaceutical Benefits Scheme (PBS) API for querying medicine listings, pricing, and availability data through multiple interfaces including stdio, HTTP/SSE, and command-line tools.",
-	"url": "https://github.com/matthewdcage/pbs-mcp-server",
-	"runtime": "node",
-	"license": "mit",
-	"env": {},
-	"name": "PBS MCP Server"
+  "type": "mcp-server",
+  "packageName": "pbs-api",
+  "description": "Provides access to the Australian Pharmaceutical Benefits Scheme (PBS) API for querying medicine listings, pricing, and availability data through multiple interfaces including stdio, HTTP/SSE, and command-line tools.",
+  "url": "https://github.com/matthewdcage/pbs-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "PBS MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "x-(twitter)-scraper",
-	"description": "Integrates with X using the agent-twitter-client library, enabling tweet retrieval and posting within Docker containers with proxy support for network isolation.",
-	"url": "https://github.com/takiaa/twitter-scraper-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Twitter Scraper MCP"
+  "type": "mcp-server",
+  "packageName": "x-(twitter)-scraper",
+  "description": "Integrates with X using the agent-twitter-client library, enabling tweet retrieval and posting within Docker containers with proxy support for network isolation.",
+  "url": "https://github.com/takiaa/twitter-scraper-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Twitter Scraper MCP"
 }

@@ -1,15 +1,15 @@
 {
-	"type": "mcp-server",
-	"packageName": "octagon-deep-research-mcp",
-	"description": "Integrates with Octagon API to provide multi-source data aggregation, web scraping, academic research synthesis, competitive analysis, market intelligence, technical analysis, policy research, and trend analysis for professional-grade research capabilities.",
-	"url": "https://github.com/octagonai/octagon-deep-research-mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"OCTAGON_API_KEY": {
-			"description": "YOUR_API_KEY_HERE",
-			"required": true
-		}
-	},
-	"name": "Octagon Deep Research MCP"
+  "type": "mcp-server",
+  "packageName": "octagon-deep-research-mcp",
+  "description": "Integrates with Octagon API to provide multi-source data aggregation, web scraping, academic research synthesis, competitive analysis, market intelligence, technical analysis, policy research, and trend analysis for professional-grade research capabilities.",
+  "url": "https://github.com/octagonai/octagon-deep-research-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "OCTAGON_API_KEY": {
+      "description": "YOUR_API_KEY_HERE",
+      "required": true
+    }
+  },
+  "name": "Octagon Deep Research MCP"
 }

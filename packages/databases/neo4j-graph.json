@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "neo4j-graph",
-	"description": "Integrates Neo4j graph databases, enabling natural language interactions for complex relationship modeling and graph-based analytics.",
-	"url": "https://github.com/rebots-online/mcp-neo4j",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Neo4j Graph MCP"
+  "type": "mcp-server",
+  "packageName": "neo4j-graph",
+  "description": "Integrates Neo4j graph databases, enabling natural language interactions for complex relationship modeling and graph-based analytics.",
+  "url": "https://github.com/rebots-online/mcp-neo4j",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Neo4j Graph MCP"
 }

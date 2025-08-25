@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "hugging-face-hub-search",
-	"description": "Provides semantic search capabilities for Hugging Face models and datasets using vector embeddings to find resources through natural language descriptions, similarity-based discovery, and trending content retrieval with detailed metadata extraction.",
-	"url": "https://github.com/davanstrien/hub-semantic-search-mcp",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Hub Semantic Search MCP"
+  "type": "mcp-server",
+  "packageName": "hugging-face-hub-search",
+  "description": "Provides semantic search capabilities for Hugging Face models and datasets using vector embeddings to find resources through natural language descriptions, similarity-based discovery, and trending content retrieval with detailed metadata extraction.",
+  "url": "https://github.com/davanstrien/hub-semantic-search-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Hub Semantic Search MCP"
 }

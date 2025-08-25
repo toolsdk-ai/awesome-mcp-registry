@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "judge0-code-execution",
-	"description": "Enables remote code execution in multiple programming languages through Judge0's API, allowing for testing, validation, and demonstration without local development environments.",
-	"url": "https://github.com/zefanhu/mcp-rapidapi-judge0-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Judge0 MCP Server"
+  "type": "mcp-server",
+  "packageName": "judge0-code-execution",
+  "description": "Enables remote code execution in multiple programming languages through Judge0's API, allowing for testing, validation, and demonstration without local development environments.",
+  "url": "https://github.com/zefanhu/mcp-rapidapi-judge0-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Judge0 MCP Server"
 }

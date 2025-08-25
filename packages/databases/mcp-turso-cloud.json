@@ -1,23 +1,23 @@
 {
-	"type": "mcp-server",
-	"packageName": "mcp-turso-cloud",
-	"description": "Provides a bridge between AI assistants and Turso SQLite databases, enabling organization-level management and database-level queries with persistent context, schema exploration, and vector similarity search capabilities.",
-	"url": "https://github.com/spences10/mcp-turso-cloud",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"TURSO_API_TOKEN": {
-			"description": "your-turso-api-token",
-			"required": true
-		},
-		"TURSO_ORGANIZATION": {
-			"description": "your-organization-name",
-			"required": true
-		},
-		"TURSO_DEFAULT_DATABASE": {
-			"description": "optional-default-database",
-			"required": true
-		}
-	},
-	"name": "Turso Cloud MCP"
+  "type": "mcp-server",
+  "packageName": "mcp-turso-cloud",
+  "description": "Provides a bridge between AI assistants and Turso SQLite databases, enabling organization-level management and database-level queries with persistent context, schema exploration, and vector similarity search capabilities.",
+  "url": "https://github.com/spences10/mcp-turso-cloud",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "TURSO_API_TOKEN": {
+      "description": "your-turso-api-token",
+      "required": true
+    },
+    "TURSO_ORGANIZATION": {
+      "description": "your-organization-name",
+      "required": true
+    },
+    "TURSO_DEFAULT_DATABASE": {
+      "description": "optional-default-database",
+      "required": true
+    }
+  },
+  "name": "Turso Cloud MCP"
 }

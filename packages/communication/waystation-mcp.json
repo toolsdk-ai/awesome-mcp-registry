@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "@waystation/mcp",
-	"description": "Connects productivity tools like Monday, Asana, Notion, and Slack through a secure integration hub, enabling seamless access directly from chat interfaces without switching applications.",
-	"url": "https://github.com/waystation-ai/mcp",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Waystation MCP"
+  "type": "mcp-server",
+  "packageName": "@waystation/mcp",
+  "description": "Connects productivity tools like Monday, Asana, Notion, and Slack through a secure integration hub, enabling seamless access directly from chat interfaces without switching applications.",
+  "url": "https://github.com/waystation-ai/mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Waystation MCP"
 }

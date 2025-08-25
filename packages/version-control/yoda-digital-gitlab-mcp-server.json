@@ -1,19 +1,19 @@
 {
-	"type": "mcp-server",
-	"packageName": "@yoda.digital/gitlab-mcp-server",
-	"description": "GitLab MCP Server provides robust integration with the GitLab API, enabling developers to interact with repositories, issues, merge requests, and project events through natural language commands via stdio and Server-Sent Events (SSE) transports.",
-	"url": "https://github.com/yoda-digital/mcp-gitlab-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {
-		"GITLAB_PERSONAL_ACCESS_TOKEN": {
-			"description": "your_token_here",
-			"required": true
-		},
-		"GITLAB_API_URL": {
-			"description": "https://gitlab.com/api/v4",
-			"required": true
-		}
-	},
-	"name": "GitLab MCP Server"
+  "type": "mcp-server",
+  "packageName": "@yoda.digital/gitlab-mcp-server",
+  "description": "GitLab MCP Server provides robust integration with the GitLab API, enabling developers to interact with repositories, issues, merge requests, and project events through natural language commands via stdio and Server-Sent Events (SSE) transports.",
+  "url": "https://github.com/yoda-digital/mcp-gitlab-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "GITLAB_PERSONAL_ACCESS_TOKEN": {
+      "description": "your_token_here",
+      "required": true
+    },
+    "GITLAB_API_URL": {
+      "description": "https://gitlab.com/api/v4",
+      "required": true
+    }
+  },
+  "name": "GitLab MCP Server"
 }

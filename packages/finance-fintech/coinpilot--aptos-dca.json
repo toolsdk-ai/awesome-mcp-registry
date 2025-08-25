@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "coinpilot-(aptos-dca)",
-	"description": "Bridges cryptocurrency investment platforms with the Aptos blockchain, enabling automated dollar-cost averaging strategies through tools for creating and managing investment plans, retrieving user data, and accessing liquidity pools.",
-	"url": "https://github.com/sparsh0006/mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Coinpilot Aptos DCA"
+  "type": "mcp-server",
+  "packageName": "coinpilot-(aptos-dca)",
+  "description": "Bridges cryptocurrency investment platforms with the Aptos blockchain, enabling automated dollar-cost averaging strategies through tools for creating and managing investment plans, retrieving user data, and accessing liquidity pools.",
+  "url": "https://github.com/sparsh0006/mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Coinpilot Aptos DCA"
 }

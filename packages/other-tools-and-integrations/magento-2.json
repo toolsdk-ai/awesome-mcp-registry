@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "magento-2",
-	"description": "Connects Claude to Magento 2 e-commerce platforms for querying product information, customer data, order statistics, and revenue metrics using natural language date expressions and geographical filtering.",
-	"url": "https://github.com/boldcommerce/magento2-mcp",
-	"runtime": "node",
-	"license": "gpl-3.0",
-	"env": {},
-	"name": "Magento 2 MCP"
+  "type": "mcp-server",
+  "packageName": "magento-2",
+  "description": "Connects Claude to Magento 2 e-commerce platforms for querying product information, customer data, order statistics, and revenue metrics using natural language date expressions and geographical filtering.",
+  "url": "https://github.com/boldcommerce/magento2-mcp",
+  "runtime": "node",
+  "license": "gpl-3.0",
+  "env": {},
+  "name": "Magento 2 MCP"
 }

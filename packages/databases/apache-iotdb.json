@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "apache-iotdb",
-	"description": "Connects to Apache IoTDB time-series databases for executing queries, listing tables, and describing schemas through a secure Python-based interface.",
-	"url": "https://github.com/apache/iotdb-mcp-server",
-	"runtime": "python",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "IoTDB MCP Server"
+  "type": "mcp-server",
+  "packageName": "apache-iotdb",
+  "description": "Connects to Apache IoTDB time-series databases for executing queries, listing tables, and describing schemas through a secure Python-based interface.",
+  "url": "https://github.com/apache/iotdb-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "IoTDB MCP Server"
 }

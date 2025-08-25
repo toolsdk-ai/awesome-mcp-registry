@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "dataset-viewer",
-	"description": "Integrates with the Hugging Face Dataset Viewer API to enable exploration, analysis, and content retrieval of datasets hosted on the Hugging Face Hub.",
-	"url": "https://github.com/privetin/dataset-viewer",
-	"runtime": "python",
-	"license": "mit",
-	"env": {},
-	"name": "Dataset Viewer MCP"
+  "type": "mcp-server",
+  "packageName": "dataset-viewer",
+  "description": "Integrates with the Hugging Face Dataset Viewer API to enable exploration, analysis, and content retrieval of datasets hosted on the Hugging Face Hub.",
+  "url": "https://github.com/privetin/dataset-viewer",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Dataset Viewer MCP"
 }

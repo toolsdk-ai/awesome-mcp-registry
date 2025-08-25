@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "raccoon-ai-(lam-api)",
-	"description": "Enables web browsing, data extraction, and task automation through Raccoon's LAM API, allowing users to search websites, fill forms, navigate UI elements, and extract structured data based on defined schemas.",
-	"url": "https://github.com/raccoonaihq/raccoonai-mcp-server",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Raccoon MCP Server"
+  "type": "mcp-server",
+  "packageName": "raccoon-ai-(lam-api)",
+  "description": "Enables web browsing, data extraction, and task automation through Raccoon's LAM API, allowing users to search websites, fill forms, navigate UI elements, and extract structured data based on defined schemas.",
+  "url": "https://github.com/raccoonaihq/raccoonai-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Raccoon MCP Server"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "twitter-search",
-	"description": "Enables Claude to search Twitter with natural language queries, filtering by keywords, users, dates, and engagement metrics with formatted markdown results.",
-	"url": "https://github.com/0xgval/twitter-x-mcp-server",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "Twitter X MCP Server"
+  "type": "mcp-server",
+  "packageName": "twitter-search",
+  "description": "Enables Claude to search Twitter with natural language queries, filtering by keywords, users, dates, and engagement metrics with formatted markdown results.",
+  "url": "https://github.com/0xgval/twitter-x-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Twitter X MCP Server"
 }

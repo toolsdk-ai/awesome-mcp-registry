@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "haiguitang-mcp",
-	"description": "Hosts a collection of 'Haiguitang' lateral thinking puzzles where users ask yes/no questions to solve mysterious scenarios through interactive critical thinking exercises.",
-	"url": "https://github.com/wangyafu/haiguitangmcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Haiguitang MCP"
+  "type": "mcp-server",
+  "packageName": "haiguitang-mcp",
+  "description": "Hosts a collection of 'Haiguitang' lateral thinking puzzles where users ask yes/no questions to solve mysterious scenarios through interactive critical thinking exercises.",
+  "url": "https://github.com/wangyafu/haiguitangmcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Haiguitang MCP"
 }

@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "geoapify-map-generator",
-	"description": "Generates map images from geographic coordinates using Python libraries for geocoding and visualization tasks.",
-	"url": "https://github.com/burningion/geoapify-mcp",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Geoapify MCP"
+  "type": "mcp-server",
+  "packageName": "geoapify-map-generator",
+  "description": "Generates map images from geographic coordinates using Python libraries for geocoding and visualization tasks.",
+  "url": "https://github.com/burningion/geoapify-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Geoapify MCP"
 }

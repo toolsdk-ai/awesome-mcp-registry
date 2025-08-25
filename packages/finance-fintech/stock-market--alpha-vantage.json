@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "stock-market-(alpha-vantage)",
-	"description": "Provides real-time stock market data through the Alpha Vantage API, delivering daily prices, volume, and metrics for any stock symbol with proper currency formatting and rate-limit awareness.",
-	"url": "https://github.com/ctoouli/mcp-stock-market",
-	"runtime": "node",
-	"license": "apache-2.0",
-	"env": {},
-	"name": "Stock Market MCP"
+  "type": "mcp-server",
+  "packageName": "stock-market-(alpha-vantage)",
+  "description": "Provides real-time stock market data through the Alpha Vantage API, delivering daily prices, volume, and metrics for any stock symbol with proper currency formatting and rate-limit awareness.",
+  "url": "https://github.com/ctoouli/mcp-stock-market",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Stock Market MCP"
 }

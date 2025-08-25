@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "wikipedia",
-	"description": "Fetches and converts Wikipedia articles to clean Markdown format for direct reference in conversations without manual copying or formatting.",
-	"url": "https://github.com/spektraldevelopment/mcp-wiki",
-	"runtime": "python",
-	"license": "unknown",
-	"env": {},
-	"name": "Wikipedia MCP"
+  "type": "mcp-server",
+  "packageName": "wikipedia",
+  "description": "Fetches and converts Wikipedia articles to clean Markdown format for direct reference in conversations without manual copying or formatting.",
+  "url": "https://github.com/spektraldevelopment/mcp-wiki",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Wikipedia MCP"
 }

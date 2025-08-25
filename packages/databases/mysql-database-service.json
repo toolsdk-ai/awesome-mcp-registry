@@ -1,10 +1,10 @@
 {
-	"type": "mcp-server",
-	"packageName": "mysql-database-service",
-	"description": "MySQL database service that enables database operations and resource management through a structured Express.js server with MySQL2 connectivity.",
-	"url": "https://github.com/log6262635/mcp-mysql",
-	"runtime": "node",
-	"license": "unknown",
-	"env": {},
-	"name": "MySQL MCP Service"
+  "type": "mcp-server",
+  "packageName": "mysql-database-service",
+  "description": "MySQL database service that enables database operations and resource management through a structured Express.js server with MySQL2 connectivity.",
+  "url": "https://github.com/log6262635/mcp-mysql",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MySQL MCP Service"
 }
