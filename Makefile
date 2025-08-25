@@ -9,6 +9,8 @@ build:
 	pnpm install --no-frozen-lockfile
 	bun scripts/test-mcp-clients.ts
 	bun scripts/readme-gen.ts
+	pnpm prune
+	pnpm install --frozen-lockfile
 	pnpm run check
 	pnpm run build
 
