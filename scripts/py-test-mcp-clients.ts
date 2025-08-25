@@ -41,7 +41,7 @@ const TEMP_IGNORE_DEP_NAMES = [
   'jupyter-mcp-server',
 ];
 
-async function getPythonMcpClient(mcpServerConfig: any, mockEnv: Record<string, string>) {
+async function getPythonMcpClient(mcpServerConfig: MCPServerPackageConfig, mockEnv: Record<string, string>) {
   const { packageName } = mcpServerConfig;
   const transport = new StdioClientTransport({
     command: 'uv',
@@ -118,13 +118,13 @@ async function main() {
       }
 
       console.log(`✓ ${depName} validated, tools: ${Object.keys(saveTools).length}`);
-    } catch (e: any) {
+    } catch (e) {
       packageConfig[depName] = {
         ...mcpServerConfig,
         tools: {},
         validated: false,
       };
-      console.error(`✗ Error validating Python MCP Client for ${depName}:`, e.message);
+      console.error(`✗ Error validating Python MCP Client for ${depName}:`, (e as Error).message);
 
       // Not processing Python MCPs with validated: false for now
       // if (typedAllPackagesList[depName]) {

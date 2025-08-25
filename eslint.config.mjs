@@ -38,5 +38,5 @@ export default defineConfig([
       "@typescript-eslint/no-explicit-any": "warn",
     },
   },
-  globalIgnores(["dist/"]),
+  globalIgnores(["dist/", "python-mcp/"]),
 ]);
