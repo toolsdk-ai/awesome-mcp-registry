@@ -6,24 +6,24 @@
 	"linter": {
 		"enabled": true
 	},
-  "files": {
-    "includes": [
-      "**",
-      "!**/corpus/*.json",
-      "!**/scripts/cookbook-pdf/book",
-      "!**/.data",
-      "!**/.next",
-      "!**/out",
-      "!**/plugin_packages",
-      "!**/node_modules",
-      "!**/dist",
-      "!**/build",
-      "!**/coverage",
-      "!**/pnpm-lock.yaml",
-      "!**/storybook-static",
-      "!**/prisma-client",
-      "!**/public",
-      "!**/projects/bika/packages/bika-zapier/lib"
-    ]
-  }
+	"files": {
+		"includes": [
+			"**",
+			"!**/corpus/*.json",
+			"!**/scripts/cookbook-pdf/book",
+			"!**/.data",
+			"!**/.next",
+			"!**/out",
+			"!**/plugin_packages",
+			"!**/node_modules",
+			"!**/dist",
+			"!**/build",
+			"!**/coverage",
+			"!**/pnpm-lock.yaml",
+			"!**/storybook-static",
+			"!**/prisma-client",
+			"!**/public",
+			"!**/projects/bika/packages/bika-zapier/lib"
+		]
+	}
 }
