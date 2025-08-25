@@ -1827,6 +1827,9 @@ importers:
       globals:
         specifier: ^16.2.0
         version: 16.2.0
+      lefthook:
+        specifier: 1.7.14
+        version: 1.7.14
       tsx:
         specifier: ^4.20.3
         version: 4.20.3
@@ -18687,8 +18690,8 @@ packages:
   jpeg-js@0.4.4:
     resolution: {integrity: sha512-WZzeDOEtTOBK4Mdsar0IqEU5sMr3vSV2RqkAIzUEV2BHnUfKGyswWFPFwK5EeDo93K3FohSHbLAjj0s1Wzd+dg==}
 
-  jq-web@https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A00Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A17%3A36Z&ske=2025-08-25T08%3A18%3A00Z&sks=b&skv=2018-11-09&sig=WGU3BXjoKmxQagMTAjtecIZkDbcK%2FaI5dqNUfJPDN8E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwNzM1NSwibmJmIjoxNzU2MTA3MDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.l4Yc05gMx3TsA2ykVaw5N_3c5Sjyn8Cv_2aYrh34Egk&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream:
-    resolution: {tarball: https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A00Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A17%3A36Z&ske=2025-08-25T08%3A18%3A00Z&sks=b&skv=2018-11-09&sig=WGU3BXjoKmxQagMTAjtecIZkDbcK%2FaI5dqNUfJPDN8E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwNzM1NSwibmJmIjoxNzU2MTA3MDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.l4Yc05gMx3TsA2ykVaw5N_3c5Sjyn8Cv_2aYrh34Egk&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream}
+  jq-web@https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A38Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A18%3A35Z&ske=2025-08-25T08%3A18%3A38Z&sks=b&skv=2018-11-09&sig=8JiRZpkqImvo%2FGAJWuW%2BHYUx8LUYoR8zaEAcJ1OB3ok%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwODA1MywibmJmIjoxNzU2MTA3NzUzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.-XEoUiAO38dhKB6dxkCPnyLWvq9hp_oIaP4SZ2p1jzE&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream:
+    resolution: {tarball: https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A38Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A18%3A35Z&ske=2025-08-25T08%3A18%3A38Z&sks=b&skv=2018-11-09&sig=8JiRZpkqImvo%2FGAJWuW%2BHYUx8LUYoR8zaEAcJ1OB3ok%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwODA1MywibmJmIjoxNzU2MTA3NzUzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.-XEoUiAO38dhKB6dxkCPnyLWvq9hp_oIaP4SZ2p1jzE&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream}
     version: 0.8.2
 
   js-1sat-ord@0.1.82:
@@ -19227,6 +19230,60 @@ packages:
 
   leac@0.6.0:
     resolution: {integrity: sha512-y+SqErxb8h7nE/fiEX07jsbuhrpO9lL8eca7/Y1nuWV2moNlXhyd59iDGcRf6moVyDMbmTNzL40SUyrFU/yDpg==}
+
+  lefthook-darwin-arm64@1.7.14:
+    resolution: {integrity: sha512-3hNr04A8DSYZk0RBTdu8D/kkE3FHiNnexAEvuFOqLuf3EQhrrX1wxclGO0+tIk3s7nyh+iqpV69Xd+cb4Fnvpw==}
+    cpu: [arm64]
+    os: [darwin]
+
+  lefthook-darwin-x64@1.7.14:
+    resolution: {integrity: sha512-cXVsxTS2IRKKRyYFEMjAxf0a/31M1PkiNAjlJPXQPoAxxC1rbsvkxWL8vXhH4P0AL18zSYVBf9aTktYArgQGuA==}
+    cpu: [x64]
+    os: [darwin]
+
+  lefthook-freebsd-arm64@1.7.14:
+    resolution: {integrity: sha512-rhx2ZkbWD6SkOXLc5/xyN1fu0uL9MLYBYKKg5T0rLRVwqqr9aYKZ+1Rru/5oL8utH1qkQyiwQkcjnKkyHwSjPg==}
+    cpu: [arm64]
+    os: [freebsd]
+
+  lefthook-freebsd-x64@1.7.14:
+    resolution: {integrity: sha512-WeVPDm7JB1Crchc7OQ3uLiRfLlhwwX3N2662DPguMresps2r79dUO97LhHMzd+l1RKIqZIgnU+j5fKFI+cmw4w==}
+    cpu: [x64]
+    os: [freebsd]
+
+  lefthook-linux-arm64@1.7.14:
+    resolution: {integrity: sha512-IUvxJBfLDVComNc1Djk4VYUJsSAtdwfTvwpNxfaG2qb31VNvF6PPdp43bgpgqzV8O0KDCMm/sn0hlZ00GTuy2A==}
+    cpu: [arm64]
+    os: [linux]
+
+  lefthook-linux-x64@1.7.14:
+    resolution: {integrity: sha512-jCNjVk+9iaFSwlFH4RM7SI05tpdty0vPzSTsABXUQwdmKdt1hPWhnUsEhCU03ik33UmpfmXUK9pLFgStT7W5rw==}
+    cpu: [x64]
+    os: [linux]
+
+  lefthook-openbsd-arm64@1.7.14:
+    resolution: {integrity: sha512-Mq5GgjzDMiFin+Ucm52nizvvDQM1o+MnL/P+FDbBq253BIJGDJK+qEuQBgEQndE9bUyAP4qiHb+R6jz5fbpAlA==}
+    cpu: [arm64]
+    os: [openbsd]
+
+  lefthook-openbsd-x64@1.7.14:
+    resolution: {integrity: sha512-enbPte9MAYU2JHkcvUBRJrXI6JMVcQqJHN+F8yKOJLFBnthoR0ZUuSTzqAMOivj/wgncHkYPqOWIo1UfB+HpGw==}
+    cpu: [x64]
+    os: [openbsd]
+
+  lefthook-windows-arm64@1.7.14:
+    resolution: {integrity: sha512-M9QbTs+Je0SRKC2c/0X8OQsme6glFrKxQoxWMFCN02S6nNLiHqP4vsHphJFU+wnAwv4KE8I1YKT5iMxde0Ejlg==}
+    cpu: [arm64]
+    os: [win32]
+
+  lefthook-windows-x64@1.7.14:
+    resolution: {integrity: sha512-40Mx+a44kPZUF/AXV45EIgw03FANTXMFDBR1Ib8qYbSaf1cWqJtfeQs9R5Ea0EdqxXkGprzwZ+yUFFjjfOFIoQ==}
+    cpu: [x64]
+    os: [win32]
+
+  lefthook@1.7.14:
+    resolution: {integrity: sha512-GIMJm3HPksrHyXgu9OYX3r9QKM10hxoeiI45+7KhJKvAWChDtGqMZ5EPQuTMVsXu5IwggQL9QJLhDfk54WOXEw==}
+    hasBin: true
 
   legacy-javascript@0.0.1:
     resolution: {integrity: sha512-lPyntS4/aS7jpuvOlitZDFifBCb4W8L/3QU0PLbUTUj+zYah8rfVjYic88yG7ZKTxhS5h9iz7duT8oUXKszLhg==}
@@ -35697,7 +35754,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.10.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
@@ -35705,7 +35762,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.16.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
@@ -35713,7 +35770,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-client@0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -35745,7 +35802,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-client@0.16.5(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -35778,7 +35835,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -35790,7 +35847,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.16.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -35805,7 +35862,7 @@ snapshots:
       '@modelcontextprotocol/inspector-cli': 0.10.2
       '@modelcontextprotocol/inspector-client': 0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)
       '@modelcontextprotocol/inspector-server': 0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       concurrently: 9.2.0
       shell-quote: 1.8.3
       spawn-rx: 5.1.2
@@ -35828,7 +35885,7 @@ snapshots:
       '@modelcontextprotocol/inspector-cli': 0.16.5
       '@modelcontextprotocol/inspector-client': 0.16.5(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)
       '@modelcontextprotocol/inspector-server': 0.16.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       concurrently: 9.2.0
       open: 10.2.0
       shell-quote: 1.8.3
@@ -41042,7 +41099,7 @@ snapshots:
   '@smithery/sdk@1.5.5(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       ai: 4.3.19(react@18.3.1)(zod@3.25.76)
       express: 5.1.0
       json-schema: 0.4.0
@@ -44296,7 +44353,7 @@ snapshots:
 
   agents@0.0.101(@cloudflare/workers-types@4.20250627.0)(react@18.3.1):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       ai: 4.3.19(react@18.3.1)(zod@3.25.76)
       cron-schedule: 5.0.4
       nanoid: 5.1.5
@@ -44325,7 +44382,7 @@ snapshots:
 
   agents@0.0.59(@cloudflare/workers-types@4.20250627.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       cron-schedule: 5.0.4
       nanoid: 5.1.5
       partyserver: 0.0.66(@cloudflare/workers-types@4.20250627.0)
@@ -48486,7 +48543,7 @@ snapshots:
       '@cloudflare/cabidela': 0.2.4
       '@modelcontextprotocol/sdk': 1.17.2
       dodopayments: 1.47.0(encoding@0.1.13)
-      jq-web: https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A00Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A17%3A36Z&ske=2025-08-25T08%3A18%3A00Z&sks=b&skv=2018-11-09&sig=WGU3BXjoKmxQagMTAjtecIZkDbcK%2FaI5dqNUfJPDN8E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwNzM1NSwibmJmIjoxNzU2MTA3MDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.l4Yc05gMx3TsA2ykVaw5N_3c5Sjyn8Cv_2aYrh34Egk&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream
+      jq-web: https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A38Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A18%3A35Z&ske=2025-08-25T08%3A18%3A38Z&sks=b&skv=2018-11-09&sig=8JiRZpkqImvo%2FGAJWuW%2BHYUx8LUYoR8zaEAcJ1OB3ok%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwODA1MywibmJmIjoxNzU2MTA3NzUzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.-XEoUiAO38dhKB6dxkCPnyLWvq9hp_oIaP4SZ2p1jzE&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream
       yargs: 17.7.2
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
@@ -49736,7 +49793,7 @@ snapshots:
 
   fastmcp@2.2.4(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 21.0.0
@@ -52644,7 +52701,7 @@ snapshots:
 
   jpeg-js@0.4.4: {}
 
-  jq-web@https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A00Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A17%3A36Z&ske=2025-08-25T08%3A18%3A00Z&sks=b&skv=2018-11-09&sig=WGU3BXjoKmxQagMTAjtecIZkDbcK%2FaI5dqNUfJPDN8E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwNzM1NSwibmJmIjoxNzU2MTA3MDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.l4Yc05gMx3TsA2ykVaw5N_3c5Sjyn8Cv_2aYrh34Egk&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream: {}
+  jq-web@https://release-assets.githubusercontent.com/github-production-release-asset/1019454912/d48e6db2-22f2-41ab-ae23-376269e9ccf5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-25T08%3A18%3A38Z&rscd=attachment%3B+filename%3Djq-web.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-25T07%3A18%3A35Z&ske=2025-08-25T08%3A18%3A38Z&sks=b&skv=2018-11-09&sig=8JiRZpkqImvo%2FGAJWuW%2BHYUx8LUYoR8zaEAcJ1OB3ok%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjEwODA1MywibmJmIjoxNzU2MTA3NzUzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.-XEoUiAO38dhKB6dxkCPnyLWvq9hp_oIaP4SZ2p1jzE&response-content-disposition=attachment%3B%20filename%3Djq-web.tar.gz&response-content-type=application%2Foctet-stream: {}
 
   js-1sat-ord@0.1.82(@bsv/sdk@1.6.10)(typescript@5.8.3):
     dependencies:
@@ -53256,6 +53313,49 @@ snapshots:
       readable-stream: 2.3.8
 
   leac@0.6.0: {}
+
+  lefthook-darwin-arm64@1.7.14:
+    optional: true
+
+  lefthook-darwin-x64@1.7.14:
+    optional: true
+
+  lefthook-freebsd-arm64@1.7.14:
+    optional: true
+
+  lefthook-freebsd-x64@1.7.14:
+    optional: true
+
+  lefthook-linux-arm64@1.7.14:
+    optional: true
+
+  lefthook-linux-x64@1.7.14:
+    optional: true
+
+  lefthook-openbsd-arm64@1.7.14:
+    optional: true
+
+  lefthook-openbsd-x64@1.7.14:
+    optional: true
+
+  lefthook-windows-arm64@1.7.14:
+    optional: true
+
+  lefthook-windows-x64@1.7.14:
+    optional: true
+
+  lefthook@1.7.14:
+    optionalDependencies:
+      lefthook-darwin-arm64: 1.7.14
+      lefthook-darwin-x64: 1.7.14
+      lefthook-freebsd-arm64: 1.7.14
+      lefthook-freebsd-x64: 1.7.14
+      lefthook-linux-arm64: 1.7.14
+      lefthook-linux-x64: 1.7.14
+      lefthook-openbsd-arm64: 1.7.14
+      lefthook-openbsd-x64: 1.7.14
+      lefthook-windows-arm64: 1.7.14
+      lefthook-windows-x64: 1.7.14
 
   legacy-javascript@0.0.1: {}
 
@@ -54589,7 +54689,7 @@ snapshots:
 
   mcp-proxy@3.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -54597,7 +54697,7 @@ snapshots:
 
   mcp-proxy@5.1.1:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.3
+      '@modelcontextprotocol/sdk': 1.17.4
       eventsource: 4.0.0
       yargs: 18.0.0
     transitivePeerDependencies:

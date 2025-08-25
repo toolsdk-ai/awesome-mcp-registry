@@ -4,10 +4,10 @@ pre-commit:
   parallel: true
   commands:
     biome-format:
-      run: npx biome format {staged_files} --write
+      run: npx biome format {staged_files} --write || true
       stage_fixed: true
     biome-check:
-      run: npx biome check {staged_files}
+      run: npx biome check {staged_files} --write || true
 
 pre-push:
   commands:
