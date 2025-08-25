@@ -28924,8 +28924,8 @@
   "discord-bot": {
     "category": "communication",
     "path": "communication/discord-bot.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "slack": {
     "category": "communication",
@@ -44274,6 +44274,7 @@
   "discord-mcp": {
     "category": "communication",
     "path": "communication/discord-mcp.json",
+    "validated": true,
     "tools": {
       "discord_send_message": {
         "name": "discord_send_message",
@@ -44351,13 +44352,22 @@
         "name": "discord_clear_presence",
         "description": "Clear your Discord presence/activity"
       }
-    },
-    "validated": true
+    }
   },
   "discord-mcp-server": {
     "category": "communication",
     "path": "communication/discord-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
+  },
+  "mcp-google-analytics": {
+    "category": "data-platforms",
+    "path": "data-platforms/mcp-google-analytics.json"
+  },
+  "@toolsdk.ai/google-analytics-mcp": {
+    "category": "marketing",
+    "path": "marketing/google-analytics-mcp-server.json",
+    "validated": false,
+    "tools": {}
   }
 }

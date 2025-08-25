@@ -2,13 +2,13 @@
 
 [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily)](https://www.producthunt.com/products/toolsdk-ai)
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4087-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4089-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 4087+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4089+ MCP servers.
 
 
 
@@ -108,7 +108,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 ✅: Validated and runnable tools (613)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3474))
+❌: Cannot be run by the MCP client (with mock environments variables (3476))
 
 
 
@@ -1545,7 +1545,7 @@ Tools for integrating, transforming, and managing data pipelines.
 - [❌ splunk](https://github.com/splunk/splunk-mcp-server2): Integrates with Splunk Enterprise and Cloud instances to execute SPL queries, retrieve index metadata, and run saved searches with comprehensive output formats while providing safety guardrails against destructive operations.  (python) 
 - [❌ mcp_cube_server](https://github.com/isaacwasserman/mcp_cube_server): Interfaces with Cube.dev's REST API to enable querying and describing data from Cube deployments, simplifying access to complex data structures for automated analysis and natural language exploration of business metrics.  (python) 
 - [❌ @freema/mcp-gsheets](https://github.com/freema/mcp-gsheets): A Model Context Protocol (MCP) server for Google Sheets API integration. Enables reading, writing, and managing Google Sheets documents directly from your MCP client (e.g., Claude Desktop).  (node) 
-- [❌ google-analytics-mcp](https://github.com/surendranb/google-analytics-mcp): Integrates with Google Analytics 4 to retrieve metrics, dimensions, and customized reports with flexible date ranges for analyzing website performance and user behavior patterns.  (python) 
+- [❌ google-analytics-mcp](https://github.com/surendranb/google-analytics-mcp): Connect Google Analytics 4 data to Claude, Cursor and other MCP clients. Query your website traffic, user behavior, and analytics data in natural language with access to 200+ GA4 dimensions and metrics.  (python) 
 - [❌ airbyte-status-checker](https://github.com/quintonwall/mcp-airbyte-list-sources): Integrates with Airbyte API to monitor data pipeline health, check connection statuses, and manage streams for real-time ETL process oversight.  (python) 
 - [✅ mcp-server-axiom](https://github.com/thetabird/mcp-server-axiom-js): Integrates with Axiom for executing APL queries and listing datasets, enabling log analysis, anomaly detection, and data-driven decision making.  (3 tools) (node) 
 - [❌ prospectio-mcp-api](https://github.com/Kaiohz/prospectio-api-mcp): A FastAPI-based application that implements the Model Context Protocol for lead prospecting, allowing users to retrieve business leads from different data sources like Mantiks through a clean architecture.  (python) 
@@ -1568,6 +1568,7 @@ Tools for integrating, transforming, and managing data pipelines.
 - [❌ csv-and-excel-processor](https://github.com/shadowk1337/mcp-csv-server): Integrates with Spring Boot to process CSV and Excel files, enabling data extraction and manipulation for analysis, reporting, or system integration tasks.  (java) 
 - [❌ dataverse-(microsoft-powerplatform)](https://github.com/bonanip512/dataversemcpserver): Integrates with Microsoft's PowerPlatform API to enable querying and interaction with Dataverse entities, providing access to metadata, attributes, relationships, and records through authenticated requests without navigating complex API structures.  (node) 
 - [❌ cloudflare-dns-analytics](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/dns-analytics): Integrates tools powered by the Cloudflare DNS Analytics API to provide insights on DNS analytics and optimization.  (node) 
+- [❌ mcp-google-analytics](https://github.com/surendranb/google-analytics-mcp): A Model Context Protocol (MCP) server for Google Analytics integration. This server provides tools for interacting with Google Analytics, including running reports, querying accounts and properties, and accessing metadata.  (python) 
 - [❌ unity-catalog](https://github.com/ognis1205/mcp-server-unitycatalog): Integrates with Unity Catalog to enable seamless execution of database functions, with tools for listing, retrieving, creating, and deleting functions within specified catalog environments.  (python) 
 - [❌ apache-iceberg](https://github.com/ahodroj/mcp-iceberg-service): Provides a SQL interface for querying and managing Apache Iceberg tables through connections to Iceberg REST catalogs and S3-compatible storage, enabling data analysts to interact with data lakes without switching contexts.  (python) 
 - [✅ opengov-mcp-server](https://github.com/srobbin/opengov-mcp-server): Enables access to public government datasets from Socrata-powered portals through a unified tool for searching, querying, and analyzing data like budgets, crime statistics, and transportation information without requiring an API key.  (1 tools) (node) 
@@ -2906,6 +2907,7 @@ Create and edit marketing content, manage metadata, and refine product positioni
 - [❌ rednote-(xiaohongshu)](https://github.com/jonafly/rednote-mcp): Provides a bridge to Xiaohongshu (Red Note) social media platform for retrieving note details, analyzing trends, and monitoring content without manual browsing.  (node) 
 - [❌ blog-publisher](https://github.com/carrie-l/blog_publisher_mcp_server): Enables AI assistants to publish blog content to external platforms through a Python-based server with standard and local execution modes for automated content publishing workflows.  (python) 
 - [✅ @ashdev/discourse-mcp-server](https://github.com/ashdevfr/discourse-mcp-server): Enables searching and retrieving content from Discourse forums through a single tool that queries posts using the discourse2 npm package.  (1 tools) (node) 
+- [❌ @toolsdk.ai/google-analytics-mcp](https://github.com/alfie-max/mcp-google-analytics): MCP server for Google Analytics Data API  (node) 
 - [❌ @mattcoatsworth/mailchip-mcp-server](https://github.com/mattcoatsworth/mailchip-mcp-server/tree/main/src): A Model Context Protocol (MCP) server for interacting with the Mailchimp API.   (node) 
 - [✅ @feedmob/kayzen-reporting](https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/kayzen-reporting): Enables marketers and analysts to retrieve and analyze Kayzen advertising campaign data through API access with optional date filtering  (2 tools) (node) 
 - [✅ @feedmob/singular-reporting](https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/singular-reporting): Enables marketers to create, monitor, and download customized Singular marketing analytics reports with campaign performance metrics across different apps and sources  (2 tools) (node) 
