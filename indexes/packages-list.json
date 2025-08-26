@@ -44251,6 +44251,7 @@
   "mixpanel-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/mixpanel-analytics.json",
+    "validated": true,
     "tools": {
       "mixpanel_track_event": {
         "name": "mixpanel_track_event",
@@ -44268,12 +44269,12 @@
         "name": "mixpanel_set_user_profile",
         "description": "Update a user's profile properties in Mixpanel"
       }
-    },
-    "validated": true
+    }
   },
   "discord-mcp": {
     "category": "communication",
     "path": "communication/discord-mcp.json",
+    "validated": true,
     "tools": {
       "discord_send_message": {
         "name": "discord_send_message",
@@ -44351,14 +44352,13 @@
         "name": "discord_clear_presence",
         "description": "Clear your Discord presence/activity"
       }
-    },
-    "validated": true
+    }
   },
   "discord-mcp-server": {
     "category": "communication",
     "path": "communication/discord-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-google-analytics": {
     "category": "data-platforms",
@@ -44367,7 +44367,7 @@
   "@toolsdk.ai/google-analytics-mcp": {
     "category": "marketing",
     "path": "marketing/google-analytics-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   }
 }
