@@ -1,0 +1,19 @@
+{
+  "type": "mcp-server",
+  "packageName": "discord-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides Discord integration capabilities, including full file attachment support, rate limiting, and comprehensive Discord API features. Built with the official @modelcontextprotocol/sdk for maximum compatibility with Claude Code and other MCP clients.",
+  "url": "https://github.com/mastra-ai/discord-mcp-server",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "NODE_ENV": {
+      "description": "eg: production",
+      "required": true
+    },
+    "DISCORD_BOT_TOKEN": {
+      "description": "Your Discord bot token",
+      "required": true
+    }
+  },
+  "name": "Discord MCP"
+}

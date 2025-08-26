@@ -27,6 +27,12 @@ async function main() {
         continue;
       }
 
+      // Skip packages that have been previously marked as "validated: false"
+      if (value.validated === false) {
+        console.log(`Skipping previously failed package: ${packageKey} ${value.path}`);
+        continue;
+      }
+
       const mockEnv = {};
       for (const [key, _env] of Object.entries(mcpServerConfig.env || {})) {
         mockEnv[key] = "MOCK";

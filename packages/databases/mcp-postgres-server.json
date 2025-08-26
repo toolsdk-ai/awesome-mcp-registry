@@ -1,7 +1,7 @@
 {
   "type": "mcp-server",
   "logo": "https://www.postgresql.org/media/img/about/press/elephant.png",
-  "packageName": "@mcp-postgres-server",
+  "packageName": "mcp-postgres-server",
   "description": "Provides a bridge to PostgreSQL databases for executing SQL queries, managing tables, and inspecting schemas with support for prepared statements and multiple parameter styles",
   "url": "https://github.com/antonorlov/mcp-postgres-server/tree/main/src",
   "runtime": "node",

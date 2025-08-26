@@ -1,0 +1,27 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Google Analytics",
+  "packageName": "mcp-google-analytics",
+  "description": "A Model Context Protocol (MCP) server for Google Analytics integration. This server provides tools for interacting with Google Analytics, including running reports, querying accounts and properties, and accessing metadata.",
+  "url": "https://github.com/surendranb/google-analytics-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "GOOGLE_ANALYTICS_CLIENT_ID": {
+      "description": "your_client_id",
+      "required": true
+    },
+    "GOOGLE_ANALYTICS_CLIENT_SECRET": {
+      "description": "your_client_secret",
+      "required": true
+    },
+    "GOOGLE_ANALYTICS_REFRESH_TOKEN": {
+      "description": "your_refresh_token",
+      "required": true
+    },
+    "GOOGLE_ANALYTICS_PROPERTY_ID": {
+      "description": "your_property_id",
+      "required": true
+    }
+  }
+}
