@@ -156,15 +156,15 @@ export function updatePackageJsonDependencies({
     }
   }
 
-  const blacklistDeps = new Set([
-    "@mcp-server/google-search-mcp",
-    "@executeautomation/playwright-mcp-server",
-  ]);
-  for (const dep of blacklistDeps) {
-    if (newDeps[dep]) {
-      delete newDeps[dep];
-    }
-  }
+  // const blacklistDeps = new Set([
+  //   "@mcp-server/google-search-mcp",
+  //   "@executeautomation/playwright-mcp-server",
+  // ]);
+  // for (const dep of blacklistDeps) {
+  //   if (newDeps[dep]) {
+  //     delete newDeps[dep];
+  //   }
+  // }
 
   const packageJSON = JSON.parse(packageJSONStr);
   packageJSON.dependencies = newDeps;
