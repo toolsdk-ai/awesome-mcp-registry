@@ -1,6 +1,6 @@
-import { z } from '@hono/zod-openapi';
-import { ErrorResponseSchema } from './schema';
-import type { Response } from './types';
+import type { z } from "@hono/zod-openapi";
+import { ErrorResponseSchema } from "./schema";
+import type { Response } from "./types";
 
 export const createResponse = <T>(
   data: T,
@@ -10,7 +10,7 @@ export const createResponse = <T>(
     message?: string;
   },
 ): Response<T> => {
-  const { success = true, code = 200, message = 'Success' } = options || {};
+  const { success = true, code = 200, message = "Success" } = options || {};
 
   return {
     success,
@@ -35,7 +35,7 @@ export const createRouteResponses = <T extends z.ZodTypeAny>(
     includeErrorResponses?: boolean;
   },
 ) => {
-  const { successDescription = 'Success', includeErrorResponses = false } = options || {};
+  const { successDescription = "Success", includeErrorResponses = false } = options || {};
 
   const responses: Record<
     number,
@@ -51,7 +51,7 @@ export const createRouteResponses = <T extends z.ZodTypeAny>(
   > = {
     200: {
       content: {
-        'application/json': {
+        "application/json": {
           schema: successSchema,
         },
       },
@@ -62,29 +62,29 @@ export const createRouteResponses = <T extends z.ZodTypeAny>(
   if (includeErrorResponses) {
     responses[400] = {
       content: {
-        'application/json': {
+        "application/json": {
           schema: ErrorResponseSchema,
         },
       },
-      description: 'Bad Request',
+      description: "Bad Request",
     };
 
     responses[404] = {
       content: {
-        'application/json': {
+        "application/json": {
           schema: ErrorResponseSchema,
         },
       },
-      description: 'Not Found',
+      description: "Not Found",
     };
 
     responses[500] = {
       content: {
-        'application/json': {
+        "application/json": {
           schema: ErrorResponseSchema,
         },
       },
-      description: 'Internal Server Error',
+      description: "Internal Server Error",
     };
   }
 

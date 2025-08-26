@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "logo":"https://pbs.twimg.com/profile_images/618131103509909504/VQLBJ0TR_400x400.png",
+  "logo": "https://pbs.twimg.com/profile_images/618131103509909504/VQLBJ0TR_400x400.png",
   "packageName": "@toolprint/mcp-graphql-forge",
   "description": "MCP that can proxy any GraphQL API and expose graphql operations as mcp tools.",
   "url": "https://github.com/toolprint/mcp-graphql-forge/tree/main/src",

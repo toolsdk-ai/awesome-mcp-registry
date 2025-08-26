@@ -23,9 +23,9 @@ Usage flow:
 4. Generate and execute installation script
 */
 
-import fs from 'fs';
-import { typedAllPackagesList, getPackageConfigByKey } from '../src/helper';
-import axios from 'axios';
+import fs from "node:fs";
+import axios from "axios";
+import { getPackageConfigByKey, typedAllPackagesList } from "../src/helper";
 
 // Simple validation function to check if dependency conforms to PEP 508 specification
 function isValidPEP508(dependency: string): boolean {
@@ -40,7 +40,7 @@ async function isPackageOnPyPI(packageName: string): Promise<boolean> {
     });
     return response.status === 200;
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  } catch (error) {
+  } catch (_error) {
     // Package doesn't exist or request failed
     return false;
   }
@@ -51,7 +51,9 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
   const pythonPackages: string[] = [];
   let pythonPackageCount = 0;
 
-  for (const [packageKey, value] of Object.entries(typedAllPackagesList)) {
+  for (const [packageKey, value] of Object.entries(
+    typedAllPackagesList as Record<string, { path: string }>,
+  )) {
     // If maximum quantity limit has been reached, stop processing
     if (pythonPackageCount >= maxPackages) {
       console.log(
@@ -63,7 +65,7 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
     try {
       const mcpServerConfig = await getPackageConfigByKey(packageKey);
 
-      if (mcpServerConfig.runtime === 'python') {
+      if (mcpServerConfig.runtime === "python") {
         const packageName = mcpServerConfig.packageName;
 
         if (!isValidPEP508(packageName)) {
@@ -78,7 +80,8 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
 
         pythonPackageCount++;
         const version = mcpServerConfig.packageVersion;
-        const fullName = version && version !== 'latest' ? `${packageName}==${version}` : packageName;
+        const fullName =
+          version && version !== "latest" ? `${packageName}==${version}` : packageName;
 
         pythonPackages.push(fullName);
         console.log(`✓ Added package ${pythonPackageCount}: ${fullName} (${value.path})`);
@@ -93,7 +96,7 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
 
 // Generate installation script content
 function generateInstallScript(packages: string[]): string {
-  const installCommands = packages.map((pkg) => `uv add ${pkg}`).join('\n');
+  const installCommands = packages.map((pkg) => `uv add ${pkg}`).join("\n");
 
   return `# x: print each command
 set -x
@@ -116,7 +119,7 @@ echo "All Python dependencies have been installed successfully."
 
 // Write installation script file
 function writeInstallScript(scriptContent: string, filePath: string): void {
-  fs.writeFileSync(filePath, scriptContent, 'utf-8');
+  fs.writeFileSync(filePath, scriptContent, "utf-8");
   fs.chmodSync(filePath, 0o755);
 }
 
@@ -126,7 +129,7 @@ async function main() {
   const pythonPackages: string[] = await collectPythonPackages();
 
   if (pythonPackages.length === 0) {
-    console.log('No new Python package dependencies to add');
+    console.log("No new Python package dependencies to add");
     return;
   }
 
@@ -136,11 +139,11 @@ async function main() {
 
   // Generate and write installation script
   const installScript = generateInstallScript(uniquePythonPackages);
-  writeInstallScript(installScript, './install-python-deps.sh');
+  writeInstallScript(installScript, "./install-python-deps.sh");
 
   console.log(`\nInstallation script generated: install-python-deps.sh`);
-  console.log('Run the following command to install Python dependencies:');
-  console.log('  ./install-python-deps.sh');
+  console.log("Run the following command to install Python dependencies:");
+  console.log("  ./install-python-deps.sh");
 }
 
 await main();

@@ -1,61 +1,62 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
-import { packageHandler } from './package-handler';
-import type { CategoryConfig, PackagesList } from '../types';
-import { OpenAPIHono, createRoute } from '@hono/zod-openapi';
+
+import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
+import { getPythonDependencies } from "../helper";
 import {
-  FeaturedResponseSchema,
   CategoriesResponseSchema,
-  PackagesListResponseSchema,
-  PackageDetailResponseSchema,
-  ToolsResponseSchema,
-  ToolExecuteSchema,
   ExecuteToolResponseSchema,
+  FeaturedResponseSchema,
+  PackageDetailResponseSchema,
+  PackagesListResponseSchema,
   packageNameQuerySchema,
-} from '../schema';
-import { createResponse, createRouteResponses } from '../utils';
-import { getPythonDependencies } from '../helper';
+  ToolExecuteSchema,
+  ToolsResponseSchema,
+} from "../schema";
+import type { CategoryConfig, PackagesList } from "../types";
+import { createResponse, createRouteResponses } from "../utils";
+import { packageHandler } from "./package-handler";
 
 export const packageRoutes: OpenAPIHono = new OpenAPIHono();
 
 const featuredRoute = createRoute({
-  method: 'get',
-  path: '/config/featured',
+  method: "get",
+  path: "/config/featured",
   responses: createRouteResponses(FeaturedResponseSchema),
 });
 
 packageRoutes.openapi(featuredRoute, (c) => {
-  const featured: string[] = require('../../config/featured.mjs').default;
+  const featured: string[] = require("../../config/featured.mjs").default;
   const response = createResponse(featured);
   return c.json(response, 200);
 });
 
 const categoriesRoute = createRoute({
-  method: 'get',
-  path: '/config/categories',
+  method: "get",
+  path: "/config/categories",
   responses: createRouteResponses(CategoriesResponseSchema),
 });
 
 packageRoutes.openapi(categoriesRoute, (c) => {
-  const categories: CategoryConfig[] = require('../../config/categories.mjs').default;
+  const categories: CategoryConfig[] = require("../../config/categories.mjs").default;
   const response = createResponse(categories);
   return c.json(response, 200);
 });
 
 const packagesListRoute = createRoute({
-  method: 'get',
-  path: '/indexes/packages-list',
+  method: "get",
+  path: "/indexes/packages-list",
   responses: createRouteResponses(PackagesListResponseSchema),
 });
 
 packageRoutes.openapi(packagesListRoute, async (c) => {
-  const packagesList: PackagesList = (await import('../../indexes/packages-list.json')).default;
+  const packagesList: PackagesList = (await import("../../indexes/packages-list.json")).default;
   const response = createResponse(packagesList);
   return c.json(response, 200);
 });
 
 const pythonTomlRoute = createRoute({
-  method: 'get',
-  path: '/python-mcp/pyproject',
+  method: "get",
+  path: "/python-mcp/pyproject",
   responses: createRouteResponses(PackagesListResponseSchema),
 });
 
@@ -66,8 +67,8 @@ packageRoutes.openapi(pythonTomlRoute, async (c) => {
 });
 
 const packageDetailRoute = createRoute({
-  method: 'get',
-  path: '/packages/detail',
+  method: "get",
+  path: "/packages/detail",
   request: { query: packageNameQuerySchema },
   responses: createRouteResponses(PackageDetailResponseSchema, {
     includeErrorResponses: true,
@@ -77,8 +78,8 @@ const packageDetailRoute = createRoute({
 packageRoutes.openapi(packageDetailRoute, packageHandler.getPackageDetail);
 
 const toolsRoute = createRoute({
-  method: 'get',
-  path: '/packages/tools',
+  method: "get",
+  path: "/packages/tools",
   request: { query: packageNameQuerySchema },
   responses: createRouteResponses(ToolsResponseSchema, {
     includeErrorResponses: true,
@@ -88,12 +89,12 @@ const toolsRoute = createRoute({
 packageRoutes.openapi(toolsRoute, packageHandler.listTools);
 
 const executeToolRoute = createRoute({
-  method: 'post',
-  path: '/packages/run',
+  method: "post",
+  path: "/packages/run",
   request: {
     body: {
       content: {
-        'application/json': {
+        "application/json": {
           schema: ToolExecuteSchema,
         },
       },

@@ -1,8 +1,12 @@
-import fs from 'fs';
-import path from 'path';
-import { getPackageConfigByKey, getMcpClient, typedAllPackagesList } from '../helper.js';
-import type { MCPServerPackageConfig, ToolExecute, MCPServerPackageConfigWithTools } from '../types';
-import type { Tool } from '@modelcontextprotocol/sdk/types.js';
+import fs from "node:fs";
+import path from "node:path";
+import type { Tool } from "@modelcontextprotocol/sdk/types.js";
+import { getMcpClient, getPackageConfigByKey, typedAllPackagesList } from "../helper.js";
+import type {
+  MCPServerPackageConfig,
+  MCPServerPackageConfigWithTools,
+  ToolExecute,
+} from "../types";
 
 export class PackageSO {
   async executeTool(request: ToolExecute): Promise<unknown> {
@@ -28,7 +32,7 @@ export class PackageSO {
     const mockEnvs: Record<string, string> = {};
     if (mcpServerConfig.env) {
       Object.keys(mcpServerConfig.env).forEach((key) => {
-        mockEnvs[key] = 'mock_value';
+        mockEnvs[key] = "mock_value";
       });
     }
 
@@ -49,11 +53,11 @@ export class PackageSO {
       throw new Error(`Package ${packageName} not found`);
     }
 
-    const jsonFilePath = path.join(__dirname, '../../packages/', packageInfo.path);
-    const jsonStr = fs.readFileSync(jsonFilePath, 'utf-8');
+    const jsonFilePath = path.join(__dirname, "../../packages/", packageInfo.path);
+    const jsonStr = fs.readFileSync(jsonFilePath, "utf-8");
     const packageConfig: MCPServerPackageConfig = JSON.parse(jsonStr);
 
-    let tools;
+    let tools: Tool[] | undefined;
     try {
       tools = await this.listTools(packageName);
     } catch (error) {

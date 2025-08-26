@@ -1,8 +1,8 @@
-import { Context } from 'hono';
-import { PackageSO } from './package-so';
-import type { ToolExecute, Response, MCPServerPackageConfigWithTools } from '../types';
-import type { Tool } from '@modelcontextprotocol/sdk/types.js';
-import { createErrorResponse, createResponse } from '../utils';
+import type { Tool } from "@modelcontextprotocol/sdk/types.js";
+import type { Context } from "hono";
+import type { MCPServerPackageConfigWithTools, Response, ToolExecute } from "../types";
+import { createErrorResponse, createResponse } from "../utils";
+import { PackageSO } from "./package-so";
 
 export const packageHandler = {
   executeTool: async (c: Context) => {
@@ -16,11 +16,14 @@ export const packageHandler = {
       return c.json(response, 200);
     } catch (error) {
       if (error instanceof Error) {
-        if (error.message.includes('not found')) {
-          const errorResponse = createErrorResponse(`Package '${requestBody.packageName}' not found`, 404);
+        if (error.message.includes("not found")) {
+          const errorResponse = createErrorResponse(
+            `Package '${requestBody.packageName}' not found`,
+            404,
+          );
           return c.json(errorResponse, 404);
         }
-        if (error.message.includes('Unknown tool')) {
+        if (error.message.includes("Unknown tool")) {
           const errorResponse = createErrorResponse(
             `Tool '${requestBody.toolKey}' not found in package '${requestBody.packageName}`,
             404,
@@ -35,9 +38,9 @@ export const packageHandler = {
   },
 
   getPackageDetail: async (c: Context) => {
-    const packageName = c.req.query('packageName');
+    const packageName = c.req.query("packageName");
     if (!packageName) {
-      const errorResponse = createErrorResponse('Missing packageName query parameter', 400);
+      const errorResponse = createErrorResponse("Missing packageName query parameter", 400);
       return c.json(errorResponse, 400);
     }
 
@@ -48,7 +51,7 @@ export const packageHandler = {
       const response = createResponse(result);
       return c.json(response, 200);
     } catch (error) {
-      if (error instanceof Error && error.message.includes('not found')) {
+      if (error instanceof Error && error.message.includes("not found")) {
         const errorResponse = createErrorResponse(`Package '${packageName}' not found`, 404);
         return c.json(errorResponse, 404);
       }
@@ -57,9 +60,9 @@ export const packageHandler = {
   },
 
   listTools: async (c: Context) => {
-    const packageName = c.req.query('packageName');
+    const packageName = c.req.query("packageName");
     if (!packageName) {
-      const errorResponse = createErrorResponse('Missing packageName query parameter', 400);
+      const errorResponse = createErrorResponse("Missing packageName query parameter", 400);
       return c.json(errorResponse, 400);
     }
 
@@ -70,7 +73,7 @@ export const packageHandler = {
       const response = createResponse(result);
       return c.json(response, 200);
     } catch (error) {
-      if (error instanceof Error && error.message.includes('not found')) {
+      if (error instanceof Error && error.message.includes("not found")) {
         const errorResponse = createErrorResponse(`Package '${packageName}' not found`, 404);
         return c.json(errorResponse, 404);
       }

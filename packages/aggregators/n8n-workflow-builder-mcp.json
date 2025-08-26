@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "logo":"https://pbs.twimg.com/profile_images/1536335358803251202/-gASF0c6_400x400.png",
+  "logo": "https://pbs.twimg.com/profile_images/1536335358803251202/-gASF0c6_400x400.png",
   "packageName": "@ifmelate/n8n-workflow-builder-mcp",
   "description": "MCP server that allow LLM in agent mode builds n8n workflows for you",
   "url": "https://github.com/ifmelate/n8n-workflow-builder-mcp/tree/main/src",

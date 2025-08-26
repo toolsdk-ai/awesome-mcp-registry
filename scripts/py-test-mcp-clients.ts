@@ -22,42 +22,44 @@ Error handling:
 - Client connections are properly closed even in case of errors
 */
 
-import fs from 'fs';
-import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js';
-import { Client } from '@modelcontextprotocol/sdk/client/index.js';
-import { typedAllPackagesList, getPackageConfigByKey, getPythonDependencies } from '../src/helper';
-import type { MCPServerPackageConfig } from '../src/types';
+import fs from "node:fs";
+import { Client } from "@modelcontextprotocol/sdk/client/index.js";
+import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+import { getPackageConfigByKey, getPythonDependencies, typedAllPackagesList } from "../src/helper";
+import type { MCPServerPackageConfig } from "../src/types";
 
 const TEMP_IGNORE_DEP_NAMES = [
-  'awslabs-cdk-mcp-server',
-  'awslabs-nova-canvas-mcp-server',
-  'qanon_mcp',
-  'qanon-mcp',
-  'llm_bridge_mcp',
-  'llm-bridge-mcp',
-  'mcp_server_browser_use',
-  'mcp-server-browser-use',
-  'jupyter_mcp_server',
-  'jupyter-mcp-server',
+  "awslabs-cdk-mcp-server",
+  "awslabs-nova-canvas-mcp-server",
+  "qanon_mcp",
+  "qanon-mcp",
+  "llm_bridge_mcp",
+  "llm-bridge-mcp",
+  "mcp_server_browser_use",
+  "mcp-server-browser-use",
+  "jupyter_mcp_server",
+  "jupyter-mcp-server",
 ];
 
-async function getPythonMcpClient(mcpServerConfig: MCPServerPackageConfig, mockEnv: Record<string, string>) {
+async function getPythonMcpClient(
+  mcpServerConfig: MCPServerPackageConfig,
+  mockEnv: Record<string, string>,
+) {
   const { packageName } = mcpServerConfig;
   const transport = new StdioClientTransport({
-    command: 'uv',
-    args: ['run', '--directory', './python-mcp', packageName],
+    command: "uv",
+    args: ["run", "--directory", "./python-mcp", packageName],
     env: {
-      ...(Object.fromEntries(Object.entries(process.env).filter(([_, v]) => v !== undefined)) as Record<
-        string,
-        string
-      >),
+      ...(Object.fromEntries(
+        Object.entries(process.env).filter(([_, v]) => v !== undefined),
+      ) as Record<string, string>),
       ...mockEnv,
     },
   });
 
   const client = new Client({
     name: `python-mcp-client-${packageName}`,
-    version: '1.0.0',
+    version: "1.0.0",
   });
 
   await client.connect(transport);
@@ -74,7 +76,13 @@ async function getPythonMcpClient(mcpServerConfig: MCPServerPackageConfig, mockE
 }
 
 async function main() {
-  const packageConfig: Record<string, any> = {};
+  const packageConfig: Record<
+    string,
+    MCPServerPackageConfig & {
+      tools: Record<string, { name: string; description: string }>;
+      validated: boolean;
+    }
+  > = {};
   const pythonDeps = getPythonDependencies();
 
   for (const depName of pythonDeps) {
@@ -85,22 +93,22 @@ async function main() {
     console.log(`Testing Python MCP Client for package: ${depName}`);
 
     const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(depName);
-    if (mcpServerConfig.runtime !== 'python') continue;
+    if (mcpServerConfig.runtime !== "python") continue;
 
     const mockEnv: Record<string, string> = {};
     for (const [key] of Object.entries(mcpServerConfig.env || {})) {
-      mockEnv[key] = 'MOCK';
+      mockEnv[key] = "MOCK";
     }
 
     try {
       const mcpClient = await getPythonMcpClient(mcpServerConfig, mockEnv);
       const toolsResp = await mcpClient.client.listTools();
 
-      const saveTools: Record<string, any> = {};
+      const saveTools: Record<string, { name: string; description: string }> = {};
       for (const toolItem of toolsResp.tools) {
         saveTools[toolItem.name] = {
           name: toolItem.name,
-          description: toolItem.description || '',
+          description: toolItem.description || "",
         };
       }
 
@@ -136,12 +144,16 @@ async function main() {
 
   // console.log('Validated python packages: \n', packageConfig);
   // Write the updated package list to file
-  fs.writeFileSync('indexes/packages-list.json', JSON.stringify(typedAllPackagesList, null, 2), 'utf-8');
+  fs.writeFileSync(
+    "indexes/packages-list.json",
+    JSON.stringify(typedAllPackagesList, null, 2),
+    "utf-8",
+  );
 
   const validatedPackages = Object.entries(packageConfig)
     .filter(([_, v]) => v.validated)
     .map(([packageName, _]) => packageName);
-  console.log('Successfully validated python packages: \n', validatedPackages);
+  console.log("Successfully validated python packages: \n", validatedPackages);
 }
 
 await main();
