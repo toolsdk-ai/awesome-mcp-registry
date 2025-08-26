@@ -44247,5 +44247,127 @@
   "mcp-server-12306": {
     "category": "travel-transportation",
     "path": "travel-transportation/py-12306-mcp-server.json"
+  },
+  "mixpanel-mcp-server": {
+    "category": "uncategorized",
+    "path": "uncategorized/mixpanel-analytics.json",
+    "tools": {
+      "mixpanel_track_event": {
+        "name": "mixpanel_track_event",
+        "description": "Track a custom event in Mixpanel"
+      },
+      "mixpanel_track_pageview": {
+        "name": "mixpanel_track_pageview",
+        "description": "Track a page view event in Mixpanel"
+      },
+      "mixpanel_track_signup": {
+        "name": "mixpanel_track_signup",
+        "description": "Track a signup event and create a user profile in Mixpanel"
+      },
+      "mixpanel_set_user_profile": {
+        "name": "mixpanel_set_user_profile",
+        "description": "Update a user's profile properties in Mixpanel"
+      }
+    },
+    "validated": true
+  },
+  "discord-mcp": {
+    "category": "communication",
+    "path": "communication/discord-mcp.json",
+    "tools": {
+      "discord_send_message": {
+        "name": "discord_send_message",
+        "description": "Send a message to a Discord channel, optionally with up to 10 files"
+      },
+      "discord_edit_message": {
+        "name": "discord_edit_message",
+        "description": "Edit a previously sent message"
+      },
+      "discord_delete_message": {
+        "name": "discord_delete_message",
+        "description": "Delete a message"
+      },
+      "discord_add_reaction": {
+        "name": "discord_add_reaction",
+        "description": "Add a reaction to a message"
+      },
+      "discord_remove_reaction": {
+        "name": "discord_remove_reaction",
+        "description": "Remove a reaction from a message"
+      },
+      "discord_get_message_history": {
+        "name": "discord_get_message_history",
+        "description": "Get message history from a Discord channel with optional filtering"
+      },
+      "discord_search_messages": {
+        "name": "discord_search_messages",
+        "description": "Search for messages in a Discord channel with text query and filters"
+      },
+      "discord_get_message": {
+        "name": "discord_get_message",
+        "description": "Get a specific message by ID with full attachment details"
+      },
+      "discord_list_attachments": {
+        "name": "discord_list_attachments",
+        "description": "List all attachments in a Discord channel from recent messages"
+      },
+      "discord_download_attachment": {
+        "name": "discord_download_attachment",
+        "description": "Download a Discord attachment and return it as MCP file reference"
+      },
+      "discord_cleanup_download": {
+        "name": "discord_cleanup_download",
+        "description": "Clean up a previously downloaded Discord attachment file"
+      },
+      "discord_get_channel": {
+        "name": "discord_get_channel",
+        "description": "Get information about a Discord channel"
+      },
+      "discord_get_dm_channels": {
+        "name": "discord_get_dm_channels",
+        "description": "Get list of DM channels for the current user"
+      },
+      "discord_create_dm": {
+        "name": "discord_create_dm",
+        "description": "Create or get existing DM channel with a user"
+      },
+      "discord_get_friends": {
+        "name": "discord_get_friends",
+        "description": "Get list of friends for the current user"
+      },
+      "discord_add_friend": {
+        "name": "discord_add_friend",
+        "description": "Send a friend request to a user"
+      },
+      "discord_remove_friend": {
+        "name": "discord_remove_friend",
+        "description": "Remove a friend or cancel a friend request"
+      },
+      "discord_update_presence": {
+        "name": "discord_update_presence",
+        "description": "Update your Discord presence/status"
+      },
+      "discord_clear_presence": {
+        "name": "discord_clear_presence",
+        "description": "Clear your Discord presence/activity"
+      }
+    },
+    "validated": true
+  },
+  "discord-mcp-server": {
+    "category": "communication",
+    "path": "communication/discord-mcp-server.json",
+    "tools": {},
+    "validated": false
+  },
+  "mcp-google-analytics": {
+    "category": "data-platforms",
+    "path": "data-platforms/mcp-google-analytics.json"
+  },
+  "@toolsdk.ai/google-analytics-mcp": {
+    "category": "marketing",
+    "path": "marketing/google-analytics-mcp-server.json",
+    "tools": {},
+    "validated": false
   }
 }
