@@ -53,5 +53,6 @@ python-mcp/mcp_ancestry.log
 python-mcp/query_12306.log
 python-mcp/.magg/
 python-mcp/.SourceSageAssets/
+python-mcp/.SourceSageignore
 python-mcp/yfinance.cache
 python-mcp/claude_playground/

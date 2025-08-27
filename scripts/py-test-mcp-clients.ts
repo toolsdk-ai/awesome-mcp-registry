@@ -122,11 +122,8 @@ async function main() {
   const pythonDeps = getPythonDependencies();
 
   for (const packageKey of Object.keys(typedAllPackagesList)) {
-    console.log(`Testing Python MCP Client for package: ${packageKey}`);
-
     const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
     if (mcpServerConfig.runtime !== "python") {
-      console.log(`Skipping non-Python package: ${packageKey}`);
       continue;
     }
 
@@ -147,7 +144,7 @@ async function main() {
       }
 
       actualPackageName = convertedPackageName;
-      console.log(`Found package with converted name: ${convertedPackageName}`);
+      console.log(`Found package with converted name: ${packageKey}(${convertedPackageName})`);
     }
 
     const mockEnv: Record<string, string> = {};
@@ -196,15 +193,13 @@ async function main() {
       // Record invalid package for later removal from pyproject.toml
       invalidPackages.push(actualPackageName);
 
-      // Not processing Python MCPs with validated: false for now
-      // if (typedAllPackagesList[depName]) {
-      //   typedAllPackagesList[depName].tools = {};
-      //   typedAllPackagesList[depName].validated = false;
+      // if (typedAllPackagesList[packageKey]) {
+      //   typedAllPackagesList[packageKey].tools = {};
+      //   typedAllPackagesList[packageKey].validated = false;
       // }
     }
   }
 
-  // console.log('Validated python packages: \n', packageConfig);
   // Write the updated package list to file
   fs.writeFileSync(
     "indexes/packages-list.json",

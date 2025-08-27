@@ -17092,7 +17092,14 @@
   },
   "searxng-simple-mcp": {
     "category": "search-data-extraction",
-    "path": "search-data-extraction/searxng-simple-mcp.json"
+    "path": "search-data-extraction/searxng-simple-mcp.json",
+    "tools": {
+      "web_search": {
+        "name": "web_search",
+        "description": "\nPerform a web search using SearxNG and return formatted results.\n\nResults are returned in either text format (human-readable) or JSON format\ndepending on the result_format parameter selected.\n\n"
+      }
+    },
+    "validated": true
   },
   "backlinks-mcp": {
     "category": "search-data-extraction",
@@ -47382,6 +47389,7 @@
   "@toolsdk.ai/mixpanel-mcp-server": {
     "category": "uncategorized",
     "path": "uncategorized/mixpanel-analytics-toolsdk.json",
+    "validated": true,
     "tools": {
       "mixpanel_track_event": {
         "name": "mixpanel_track_event",
@@ -47399,12 +47407,12 @@
         "name": "mixpanel_set_user_profile",
         "description": "Update a user's profile properties in Mixpanel"
       }
-    },
-    "validated": true
+    }
   },
   "@executeautomation/playwright-mcp-server": {
     "category": "browser-automation",
     "path": "browser-automation/playwright-mcp-server.json",
+    "validated": true,
     "tools": {
       "start_codegen_session": {
         "name": "start_codegen_session",
@@ -47534,18 +47542,17 @@
         "name": "playwright_click_and_switch_tab",
         "description": "Click a link and switch to the newly opened tab"
       }
-    },
-    "validated": true
+    }
   },
   "@mcp-server/google-search-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/google-search-mcp-server.json",
+    "validated": true,
     "tools": {
       "search": {
         "name": "search",
         "description": ""
       }
-    },
-    "validated": true
+    }
   }
 }

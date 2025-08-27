@@ -32,17 +32,53 @@ function isValidPEP508(dependency: string): boolean {
   return /^[a-zA-Z0-9._-]+$/.test(dependency);
 }
 
-// Check if package exists on PyPI
-async function isPackageOnPyPI(packageName: string): Promise<boolean> {
+// Check if package exists on PyPI and if it's not too large
+async function isPackageOnPyPI(
+  packageName: string,
+  maxSizeMB: number = 50,
+): Promise<{ exists: boolean; sizeMB?: number }> {
   try {
     const response = await axios.get(`https://pypi.org/pypi/${packageName}/json`, {
       timeout: 5000,
     });
-    return response.status === 200;
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+    if (response.status !== 200) {
+      return { exists: false };
+    }
+
+    // Get the size of the latest release
+    const urls = response.data.urls;
+    if (!urls || urls.length === 0) {
+      return { exists: true }; // Package exists but has no files
+    }
+
+    // Find the wheel or source distribution with the smallest size
+    let minSize = Infinity;
+    for (const file of urls) {
+      if (
+        (file.packagetype === "bdist_wheel" || file.packagetype === "sdist") &&
+        file.size < minSize
+      ) {
+        minSize = file.size;
+      }
+    }
+
+    // If we found files, check the size
+    if (minSize !== Infinity) {
+      const sizeMB = minSize / (1024 * 1024);
+      if (sizeMB > maxSizeMB) {
+        console.log(
+          `✗ Skipping package ${packageName} - too large (${sizeMB.toFixed(2)} MB > ${maxSizeMB} MB)`,
+        );
+        return { exists: false };
+      }
+      return { exists: true, sizeMB };
+    }
+
+    return { exists: true }; // Package exists but couldn't determine size
   } catch (_error) {
     // Package doesn't exist or request failed
-    return false;
+    return { exists: false };
   }
 }
 
@@ -75,8 +111,11 @@ async function collectPythonPackages(maxPackages: number = 10000): Promise<strin
           continue;
         }
 
-        if (!(await isPackageOnPyPI(packageName))) {
-          console.log(`✗ Skipping package not found on PyPI: ${packageName} (${value.path})`);
+        const packageCheck = await isPackageOnPyPI(packageName);
+        if (!packageCheck.exists) {
+          console.log(
+            `✗ Skipping package not found on PyPI or too large: ${packageName} (${value.path})`,
+          );
           continue;
         }
 
@@ -86,9 +125,15 @@ async function collectPythonPackages(maxPackages: number = 10000): Promise<strin
           version && version !== "latest" ? `${packageName}==${version}` : packageName;
 
         pythonPackages.push(fullName);
-        console.log(
-          `✓ Added package ${pythonPackageCount}(sum:${pythonPackageSum}): ${fullName} (${value.path})`,
-        );
+        if (packageCheck.sizeMB) {
+          console.log(
+            `✓ Added package ${pythonPackageCount}(sum:${pythonPackageSum}): ${fullName} (${packageCheck.sizeMB.toFixed(2)} MB) (${value.path})`,
+          );
+        } else {
+          console.log(
+            `✓ Added package ${pythonPackageCount}(sum:${pythonPackageSum}): ${fullName} (${value.path})`,
+          );
+        }
       }
     } catch (error) {
       console.error(`Error processing package ${packageKey}:`, error);

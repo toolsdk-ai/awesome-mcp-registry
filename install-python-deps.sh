@@ -85,6 +85,7 @@ uv add notte-browser
 uv add computer-control-mcp
 uv add skyvern
 uv add browser-use-mcp
+uv add mcp-browser-use
 uv add twitter
 uv add web-crawler
 uv add mcp-server-chatgpt-app
@@ -186,12 +187,12 @@ uv add dolphindb
 uv add appwrite
 uv add mcp-server-mariadb
 uv add opensearch
-uv add chroma-mcp
 uv add apache-iotdb
 uv add memgraph
 uv add postgres-mcp
 uv add dblp
 uv add mochow-mcp-server
+uv add chromadb
 uv add mcp-dbutils
 uv add clickhouse
 uv add mysqldb-mcp-server
@@ -270,6 +271,7 @@ uv add code2flow
 uv add jnews-mcp-server
 uv add zen
 uv add devhub-cms-mcp
+uv add bitrise
 uv add office-powerpoint-mcp-server
 uv add mcp-server-restart
 uv add mcp-sys-bridge
@@ -278,6 +280,7 @@ uv add duckdb-mcp-server
 uv add mcp-server-duckdb
 uv add dataset-viewer
 uv add mlflow
+uv add mcp-wolfram-alpha
 uv add biomart
 uv add linear-regression
 uv add mcp-vcd
@@ -287,7 +290,6 @@ uv add kaggle-mcp
 uv add chronulus-mcp
 uv add sympy
 uv add kodit
-uv add optuna-mcp
 uv add storm
 uv add numpy
 uv add mcp-excel-server
@@ -295,7 +297,6 @@ uv add tecton
 uv add spark-optimizer
 uv add vizro-mcp
 uv add jupyter_earth_mcp_server
-uv add scmcp
 uv add pbixray
 uv add data-explorer
 uv add mlcbakery
@@ -360,6 +361,7 @@ uv add extend_ai_toolkit
 uv add setu_mcp_upi_deeplinks
 uv add quantconnect-mcp
 uv add sec-edgar
+uv add ynab
 uv add bonk-mcp
 uv add finance-tools-mcp
 uv add investor-agent
@@ -427,6 +429,7 @@ uv add mcp-sentry-custom
 uv add logfire-mcp
 uv add gpt-researcher
 uv add oxylabs-mcp
+uv add searxng-simple-mcp
 uv add backlinks-mcp
 uv add crawlab
 uv add pubmedmcp
@@ -567,6 +570,7 @@ uv add rabbitmq
 uv add claude-api
 uv add kokoro-tts
 uv add deepseek
+uv add harvest
 uv add uniprot
 uv add mcp-toolhouse
 uv add soundcloud-downloader

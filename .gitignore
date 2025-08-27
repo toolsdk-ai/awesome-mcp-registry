@@ -15,6 +15,7 @@ doc/docs/*
 sqlite_mcp_server.db
 python-mcp/.magg/
 python-mcp/.SourceSageAssets/
+python-mcp/.SourceSageignore
 python-mcp/yfinance.cache
 python-mcp/claude_playground/
 
