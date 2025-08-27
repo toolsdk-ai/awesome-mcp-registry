@@ -630,7 +630,9 @@
     "inner-monologue-mcp": "1.0.2",
     "mixpanel-mcp-server": "2.0.2",
     "discord-mcp": "2.4.0",
-    "@toolsdk.ai/mixpanel-mcp-server": "2.0.6"
+    "@toolsdk.ai/mixpanel-mcp-server": "2.0.6",
+    "@executeautomation/playwright-mcp-server": "1.0.6",
+    "@mcp-server/google-search-mcp": "1.0.3"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.2",

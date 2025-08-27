@@ -2,13 +2,13 @@
 
 [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily)](https://www.producthunt.com/products/toolsdk-ai)
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4090-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4091-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 4090+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4091+ MCP servers.
 
 
 
@@ -588,6 +588,7 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 - [❌ browserloop](https://github.com/mattiasw/browserloop): Captures web page screenshots using Playwright with support for full-page, element-specific, and viewport screenshots in PNG, JPEG, and WebP formats, featuring cookie authentication, domain filtering, and configurable quality settings for web testing and visual verification workflows.  (node) 
 - [✅ mcp-jinaai-reader](https://github.com/spences10/mcp-jinaai-reader): Extracts and processes web content for efficient parsing and analysis of online information  (1 tools) (node) 
 - [❌ selenium-webdriver](https://github.com/jyothishkumarav/selenium-mcp-server-python): Enables automated web interactions through Selenium WebDriver operations for navigation, element manipulation, screenshot capture, and local storage management in Chrome and Firefox browsers.  (python) 
+- [✅ @executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright): A Model Context Protocol server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages, take screenshots, generate test code, web scraps the page and execute JavaScript in a real browser environment.  (32 tools) (node) 
 - [❌ scenic-gui-automation](https://github.com/scenic-contrib/scenic_mcp_experimental): Provides automation and testing capabilities for Scenic Elixir GUI applications through keyboard input simulation, mouse interaction, and real-time connection monitoring via a dual-architecture TCP server and TypeScript interface.  (node) 
 - [❌ skyvern](https://github.com/skyvern-ai/skyvern/tree/HEAD/integrations/mcp): Control your browser with Skyvern's browser automation platform.  (python) 
 - [❌ cursor-a11y](https://github.com/westsideori/cursor-a11y-mcp): Integrates accessibility testing capabilities using Puppeteer to perform automated WCAG compliance checks and generate remediation suggestions for web applications.  (node) 
@@ -3173,6 +3174,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ handwriting-ocr](https://github.com/handwriting-ocr/handwriting-ocr-mcp-server): Integrates with Handwriting OCR API to extract and digitize text from handwritten documents in various image formats, enabling conversion of physical notes and manuscripts into editable text.  (node) 
 - [❌ solr-vector-search](https://github.com/allenday/solr-mcp): Bridges Apache Solr search indexes with vector embeddings for hybrid keyword and semantic document retrieval, enabling contextual searches against structured data repositories without direct database access  (python) 
 - [❌ ai-agent-marketplace-index](https://github.com/ai-agent-hub/ai-agent-marketplace-index-mcp): Provides a searchable marketplace index of AI agents with detailed information including descriptions, websites, and performance metrics to help users discover specialized agents for specific tasks.  (python) 
+- [✅ @mcp-server/google-search-mcp](https://github.com/modelcontextprotocol-servers/google-search-mcp): Model Context Protocol server for google search. A Playwright-based Model Context Protocol (MCP) tool that bypasses search engine anti-bot mechanisms, performs Google searches, and extracts results, providing real-time search capabilities for AI assistants like Claude and Cursor.  (1 tools) (node) 
 - [✅ @tongxiao/common-search-mcp-server](https://github.com/aliyun/alibabacloud-iqs-tongxiao-mcp-server): Integrates with TongXiao's IQS APIs to provide enhanced real-time web search capabilities that deliver clean, accurate, and diverse results through multiple data sources optimized with large language models.  (1 tools) (node) 
 - [❌ zenn](https://github.com/shibuiwilliam/mcp-server-zenn): Integrates with Zenn.dev's developer API to fetch and filter technical articles and books from the popular Japanese publication platform.  (python) 
 - [❌ semantic-scholar](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server): Integrates with Semantic Scholar API to enable academic literature search, citation analysis, and paper recommendations at scale.  (python) 

@@ -47401,5 +47401,151 @@
       }
     },
     "validated": true
+  },
+  "@executeautomation/playwright-mcp-server": {
+    "category": "browser-automation",
+    "path": "browser-automation/playwright-mcp-server.json",
+    "tools": {
+      "start_codegen_session": {
+        "name": "start_codegen_session",
+        "description": "Start a new code generation session to record Playwright actions"
+      },
+      "end_codegen_session": {
+        "name": "end_codegen_session",
+        "description": "End a code generation session and generate the test file"
+      },
+      "get_codegen_session": {
+        "name": "get_codegen_session",
+        "description": "Get information about a code generation session"
+      },
+      "clear_codegen_session": {
+        "name": "clear_codegen_session",
+        "description": "Clear a code generation session without generating a test"
+      },
+      "playwright_navigate": {
+        "name": "playwright_navigate",
+        "description": "Navigate to a URL"
+      },
+      "playwright_screenshot": {
+        "name": "playwright_screenshot",
+        "description": "Take a screenshot of the current page or a specific element"
+      },
+      "playwright_click": {
+        "name": "playwright_click",
+        "description": "Click an element on the page"
+      },
+      "playwright_iframe_click": {
+        "name": "playwright_iframe_click",
+        "description": "Click an element in an iframe on the page"
+      },
+      "playwright_iframe_fill": {
+        "name": "playwright_iframe_fill",
+        "description": "Fill an element in an iframe on the page"
+      },
+      "playwright_fill": {
+        "name": "playwright_fill",
+        "description": "fill out an input field"
+      },
+      "playwright_select": {
+        "name": "playwright_select",
+        "description": "Select an element on the page with Select tag"
+      },
+      "playwright_hover": {
+        "name": "playwright_hover",
+        "description": "Hover an element on the page"
+      },
+      "playwright_upload_file": {
+        "name": "playwright_upload_file",
+        "description": "Upload a file to an input[type='file'] element on the page"
+      },
+      "playwright_evaluate": {
+        "name": "playwright_evaluate",
+        "description": "Execute JavaScript in the browser console"
+      },
+      "playwright_console_logs": {
+        "name": "playwright_console_logs",
+        "description": "Retrieve console logs from the browser with filtering options"
+      },
+      "playwright_close": {
+        "name": "playwright_close",
+        "description": "Close the browser and release all resources"
+      },
+      "playwright_get": {
+        "name": "playwright_get",
+        "description": "Perform an HTTP GET request"
+      },
+      "playwright_post": {
+        "name": "playwright_post",
+        "description": "Perform an HTTP POST request"
+      },
+      "playwright_put": {
+        "name": "playwright_put",
+        "description": "Perform an HTTP PUT request"
+      },
+      "playwright_patch": {
+        "name": "playwright_patch",
+        "description": "Perform an HTTP PATCH request"
+      },
+      "playwright_delete": {
+        "name": "playwright_delete",
+        "description": "Perform an HTTP DELETE request"
+      },
+      "playwright_expect_response": {
+        "name": "playwright_expect_response",
+        "description": "Ask Playwright to start waiting for a HTTP response. This tool initiates the wait operation but does not wait for its completion."
+      },
+      "playwright_assert_response": {
+        "name": "playwright_assert_response",
+        "description": "Wait for and validate a previously initiated HTTP response wait operation."
+      },
+      "playwright_custom_user_agent": {
+        "name": "playwright_custom_user_agent",
+        "description": "Set a custom User Agent for the browser"
+      },
+      "playwright_get_visible_text": {
+        "name": "playwright_get_visible_text",
+        "description": "Get the visible text content of the current page"
+      },
+      "playwright_get_visible_html": {
+        "name": "playwright_get_visible_html",
+        "description": "Get the HTML content of the current page. By default, all <script> tags are removed from the output unless removeScripts is explicitly set to false."
+      },
+      "playwright_go_back": {
+        "name": "playwright_go_back",
+        "description": "Navigate back in browser history"
+      },
+      "playwright_go_forward": {
+        "name": "playwright_go_forward",
+        "description": "Navigate forward in browser history"
+      },
+      "playwright_drag": {
+        "name": "playwright_drag",
+        "description": "Drag an element to a target location"
+      },
+      "playwright_press_key": {
+        "name": "playwright_press_key",
+        "description": "Press a keyboard key"
+      },
+      "playwright_save_as_pdf": {
+        "name": "playwright_save_as_pdf",
+        "description": "Save the current page as a PDF file"
+      },
+      "playwright_click_and_switch_tab": {
+        "name": "playwright_click_and_switch_tab",
+        "description": "Click a link and switch to the newly opened tab"
+      }
+    },
+    "validated": true
+  },
+  "@mcp-server/google-search-mcp": {
+    "category": "search-data-extraction",
+    "path": "search-data-extraction/google-search-mcp-server.json",
+    "tools": {
+      "search": {
+        "name": "search",
+        "description": ""
+      }
+    },
+    "validated": true
   }
 }

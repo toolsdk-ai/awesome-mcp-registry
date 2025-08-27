@@ -191,6 +191,9 @@ importers:
       '@enescinar/twitter-mcp':
         specifier: 0.2.0
         version: 0.2.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@executeautomation/playwright-mcp-server':
+        specifier: 1.0.6
+        version: 1.0.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       '@exoticknight/mcp-file-merger':
         specifier: 1.0.1
         version: 1.0.1
@@ -449,6 +452,9 @@ importers:
       '@mcp-get-community/server-macos':
         specifier: 0.1.0
         version: 0.1.0
+      '@mcp-server/google-search-mcp':
+        specifier: 1.0.3
+        version: 1.0.3
       '@mcp-server/whois-mcp':
         specifier: 1.0.1
         version: 1.0.1
@@ -4532,6 +4538,10 @@ packages:
   '@ethersproject/wordlists@5.8.0':
     resolution: {integrity: sha512-2df9bbXicZws2Sb5S6ET493uJ0Z84Fjr3pC4tu/qlnZERibZCeUVuqdtt+7Tv9xxhUxHoIekIA7avrKUWHrezg==}
 
+  '@executeautomation/playwright-mcp-server@1.0.6':
+    resolution: {integrity: sha512-Yq5dM5XCzWTc2hjC0mYJPbGaNPn3giGS9XR47bRGSQIF1t3zcjrH4i/z0Fc4PfJj/6kaPMFzp/7N49LDZBJlzA==}
+    hasBin: true
+
   '@exoticknight/mcp-file-merger@1.0.1':
     resolution: {integrity: sha512-N1MVoDzrSeI9jHv/kXXPsuI5/DIanolAz7q10WnqdZNEpW1BNYW0t2XMtxB/3tuKPqnPbyxzFqP84+0fwoXNtw==}
     hasBin: true
@@ -6589,6 +6599,10 @@ packages:
 
   '@mcp-get-community/server-macos@0.1.0':
     resolution: {integrity: sha512-hrBlgzw/sJelfYw086T5Dl87oni8L/m8poH6r1i8hxons4vMSblYYYfSS8SnuXWOaLU5MRb8VNI+i8aMncmqNA==}
+    hasBin: true
+
+  '@mcp-server/google-search-mcp@1.0.3':
+    resolution: {integrity: sha512-ANnxYTN3xKK54OEYJ4eaRJA/WFgJyNMdp7CkElIsQjGm17v0GKI8l7oBKbDpxfq7RbwpMaxLIMU3O+T0vo05Qw==}
     hasBin: true
 
   '@mcp-server/whois-mcp@1.0.1':
@@ -9073,6 +9087,18 @@ packages:
 
   '@pkmn/types@1.0.1':
     resolution: {integrity: sha512-JFF/CFj+022fennraZAtcDYXlDUbh59Bxj6IQTpsMJLbSuQyMJdiSr4/Eu2ITe/0HkExPeZyjlZ87yEVjDdRrg==}
+
+  '@playwright/browser-chromium@1.53.1':
+    resolution: {integrity: sha512-xsujbzJAgn3A0RVV00cT/XekdPUOqsJoy8WWyKdqhQnuA7A88m/x0MnbcaCeZcs2M5JVRqpbsFKRos+IIeZLjw==}
+    engines: {node: '>=18'}
+
+  '@playwright/browser-firefox@1.53.1':
+    resolution: {integrity: sha512-1+jAvoMYrh8rT/7VJQZ+J4+3/sFEx+/TPesdKjITmLlia2NrdxEnB2jvu5N2bhuPluFccZBWTUibPkULpva0YA==}
+    engines: {node: '>=18'}
+
+  '@playwright/browser-webkit@1.53.1':
+    resolution: {integrity: sha512-6z0KsU1A6hppMSkVVstEoQhK/tjMTf8ZIaegTTDD/bKIq7osUcgkVdGKt4cd2gFvjxZH4HqV6wKGmuWcdWmmQQ==}
+    engines: {node: '>=18'}
 
   '@playwright/test@1.53.2':
     resolution: {integrity: sha512-tEB2U5z74ebBeyfGNZ3Jfg29AnW+5HlWhvHtb/Mqco9pFdZU1ZLNdVb2UtB5CvmiilNr2ZfVH/qMmAROG/XTzw==}
@@ -22565,6 +22591,11 @@ packages:
   play-sound@1.1.6:
     resolution: {integrity: sha512-09eO4QiXNFXJffJaOW5P6x6F5RLihpLUkXttvUZeWml0fU6x6Zp7AjG9zaeMpgH2ZNvq4GR1ytB22ddYcqJIZA==}
 
+  playwright-core@1.53.1:
+    resolution: {integrity: sha512-Z46Oq7tLAyT0lGoFx4DOuB1IA9D1TPj0QkYxpPVUnGDqHHvDpCftu1J2hM2PiWsNMoZh8+LQaarAWcDfPBc6zg==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   playwright-core@1.53.2:
     resolution: {integrity: sha512-ox/OytMy+2w1jcYEYlOo1Hhp8hZkLCximMTUTMBXjGUA1KoFfiSZ+DU+3a739jsPY0yoKH2TFy9S2fsJas8yAw==}
     engines: {node: '>=18'}
@@ -22577,6 +22608,11 @@ packages:
 
   playwright-mcp@0.0.12:
     resolution: {integrity: sha512-LjWgcePYiZYVQlmfV7POf7JzbCPVRe/hD2/JtUt6Rlf9AFOBGtoPOP1QlqSVENvf7OfynSnbHnK3WRSNtMlH7A==}
+    hasBin: true
+
+  playwright@1.53.1:
+    resolution: {integrity: sha512-LJ13YLr/ocweuwxyGf1XNFWIU4M2zUSo149Qbp+A4cpwDjsxRPj7k6H25LBrEHiEwxvRbD8HdwvQmRMSvquhYw==}
+    engines: {node: '>=18'}
     hasBin: true
 
   playwright@1.53.2:
@@ -32082,6 +32118,23 @@ snapshots:
       '@ethersproject/properties': 5.8.0
       '@ethersproject/strings': 5.8.0
 
+  '@executeautomation/playwright-mcp-server@1.0.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
+    dependencies:
+      '@modelcontextprotocol/sdk': 1.11.1
+      '@playwright/browser-chromium': 1.53.1
+      '@playwright/browser-firefox': 1.53.1
+      '@playwright/browser-webkit': 1.53.1
+      '@playwright/test': 1.53.2
+      mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      playwright: 1.53.1
+      uuid: 11.1.0
+    transitivePeerDependencies:
+      - encoding
+      - react
+      - supports-color
+      - ws
+      - zod
+
   '@exoticknight/mcp-file-merger@1.0.1':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.4
@@ -35224,6 +35277,17 @@ snapshots:
       '@modelcontextprotocol/sdk': 1.0.1
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
+
+  '@mcp-server/google-search-mcp@1.0.3':
+    dependencies:
+      '@modelcontextprotocol/sdk': 1.17.4
+      minimist: 1.2.8
+      pino: 9.7.0
+      pino-pretty: 13.0.0
+      playwright: 1.54.1
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - supports-color
 
   '@mcp-server/whois-mcp@1.0.1':
     dependencies:
@@ -39122,6 +39186,18 @@ snapshots:
       '@pkmn/types': 1.0.1
 
   '@pkmn/types@1.0.1': {}
+
+  '@playwright/browser-chromium@1.53.1':
+    dependencies:
+      playwright-core: 1.53.1
+
+  '@playwright/browser-firefox@1.53.1':
+    dependencies:
+      playwright-core: 1.53.1
+
+  '@playwright/browser-webkit@1.53.1':
+    dependencies:
+      playwright-core: 1.53.1
 
   '@playwright/test@1.53.2':
     dependencies:
@@ -57990,6 +58066,8 @@ snapshots:
     dependencies:
       find-exec: 1.0.3
 
+  playwright-core@1.53.1: {}
+
   playwright-core@1.53.2: {}
 
   playwright-core@1.54.1: {}
@@ -58024,6 +58102,12 @@ snapshots:
       - '@types/react-dom'
       - supports-color
       - vite
+
+  playwright@1.53.1:
+    dependencies:
+      playwright-core: 1.53.1
+    optionalDependencies:
+      fsevents: 2.3.2
 
   playwright@1.53.2:
     dependencies:

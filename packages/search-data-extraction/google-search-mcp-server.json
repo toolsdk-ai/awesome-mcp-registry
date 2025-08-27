@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "@mcp-server/google-search-mcp",
+  "description": "Model Context Protocol server for google search. A Playwright-based Model Context Protocol (MCP) tool that bypasses search engine anti-bot mechanisms, performs Google searches, and extracts results, providing real-time search capabilities for AI assistants like Claude and Cursor.",
+  "url": "https://github.com/modelcontextprotocol-servers/google-search-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Google Search MCP"
+}

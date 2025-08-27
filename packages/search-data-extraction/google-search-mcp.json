@@ -5,6 +5,15 @@
   "url": "https://github.com/mixelpixx/google-search-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {},
+  "env": {
+    "GOOGLE_API_KEY": {
+      "description": "your-google-api-key",
+      "required": true
+    },
+    "GOOGLE_SEARCH_ENGINE_ID": {
+      "description": "your-custom-search-engine-id",
+      "required": true
+    }
+  },
   "name": "Google Search MCP"
 }
