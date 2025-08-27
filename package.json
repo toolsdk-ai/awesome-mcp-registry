@@ -34,8 +34,8 @@
     "@hono/node-server": "1.15.0",
     "@hono/swagger-ui": "^0.5.2",
     "@hono/zod-openapi": "^0.16.4",
+    "@iarna/toml": "^2.2.5",
     "lodash": "^4.17.21",
-    "toml": "^3.0.0",
     "zod": "^3.23.30",
     "axios": "^1.9.0",
     "hono": "4.8.3",
@@ -629,18 +629,19 @@
     "@mem0/mcp-server": "0.0.1",
     "inner-monologue-mcp": "1.0.2",
     "mixpanel-mcp-server": "2.0.2",
-    "discord-mcp": "2.4.0"
+    "discord-mcp": "2.4.0",
+    "@toolsdk.ai/mixpanel-mcp-server": "2.0.6"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.2.2",
     "@types/lodash": "^4.17.17",
     "@types/node": "^22.15.21",
     "@types/semver": "^7.5.8",
     "dotenv": "^17.2.1",
     "globals": "^16.2.0",
+    "lefthook": "1.7.14",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
-    "vitest": "^3.2.4",
-    "@biomejs/biome": "2.2.2",
-    "lefthook": "1.7.14"
+    "vitest": "^3.2.4"
   }
 }

@@ -281,6 +281,9 @@ importers:
       '@hyperdrive-eng/mcp-nodejs-debugger':
         specifier: 0.2.2
         version: 0.2.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@iarna/toml':
+        specifier: ^2.2.5
+        version: 2.2.5
       '@ibraheem4/eventbrite-mcp':
         specifier: 1.0.1
         version: 1.0.1
@@ -791,6 +794,9 @@ importers:
       '@toolsdk.ai/mcp-server-google-analytics':
         specifier: 0.1.0
         version: 0.1.0(encoding@0.1.13)
+      '@toolsdk.ai/mixpanel-mcp-server':
+        specifier: 2.0.6
+        version: 2.0.6
       '@toolsdk.ai/tavily-mcp':
         specifier: 0.2.7
         version: 0.2.7
@@ -1745,9 +1751,6 @@ importers:
       together-mcp:
         specifier: 0.1.7
         version: 0.1.7
-      toml:
-        specifier: ^3.0.0
-        version: 3.0.0
       tree-hugger-js-mcp:
         specifier: 1.1.2
         version: 1.1.2
@@ -10380,8 +10383,8 @@ packages:
   '@smithery/sdk@1.5.2':
     resolution: {integrity: sha512-UWvXvOY18d7WYl7JfhS1G1Gcy/K64RMcJMMUTfXDfYIbrKbjpKmgI85/ch0/SGJkNL0kF3fpIyhDHgvb+rhDjQ==}
 
-  '@smithery/sdk@1.5.5':
-    resolution: {integrity: sha512-xLHjCBs2kp2OElyqN0Q+UkCcQzhMOyui87H+NqYOuz8mGQL3VocxqDZesWIGySUg490p5XNlowQHlicR9RJyXA==}
+  '@smithery/sdk@1.5.6':
+    resolution: {integrity: sha512-5chXDcoldyUnCcaFatheae7ChcXFvoSJEI1ehu0ia7rqPVeA/FDntJ5DU/tRalUMX/r5PifhIV+SOp/iRUMjeg==}
 
   '@smithy/abort-controller@4.0.4':
     resolution: {integrity: sha512-gJnEjZMvigPDQWHrW3oPrFhQtkrgqBkyjj3pCIdF3A5M6vsZODG93KNlfJprv6bp4245bdT32fsHK4kkH3KYDA==}
@@ -11179,6 +11182,11 @@ packages:
 
   '@toolsdk.ai/mcp-server-google-analytics@0.1.0':
     resolution: {integrity: sha512-tf8ZQgR/zievVprjzrSBtw8asjmgnq9Y7Og8yYG1WlFCs3RUom/FQX7MtM6GnkhyZa+SUb6UGqdeaN9R3bLD0g==}
+    hasBin: true
+
+  '@toolsdk.ai/mixpanel-mcp-server@2.0.6':
+    resolution: {integrity: sha512-soB5JxHOOqU4m6FipTm9DONmDeCYxiLa54lV6ZIzj3lDjwyyLFJRc5dexVeCZK14bYoHLLqQib8nG4ji9D6qvQ==}
+    engines: {node: '>=16.0.0'}
     hasBin: true
 
   '@toolsdk.ai/tavily-mcp@0.2.7':
@@ -40950,7 +40958,7 @@ snapshots:
       - supports-color
       - ws
 
-  '@smithery/sdk@1.5.5(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@smithery/sdk@1.5.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
       '@modelcontextprotocol/sdk': 1.17.4
@@ -42088,6 +42096,16 @@ snapshots:
       googleapis: 148.0.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
+      - supports-color
+
+  '@toolsdk.ai/mixpanel-mcp-server@2.0.6':
+    dependencies:
+      '@modelcontextprotocol/sdk': 0.5.0
+      commander: 11.1.0
+      mixpanel: 0.18.1
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
+    transitivePeerDependencies:
       - supports-color
 
   '@toolsdk.ai/tavily-mcp@0.2.7':
@@ -54409,7 +54427,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
       '@octokit/rest': 21.1.1
-      '@smithery/sdk': 1.5.5(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@smithery/sdk': 1.5.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       axios: 1.10.0
       zod: 3.25.76
     transitivePeerDependencies:

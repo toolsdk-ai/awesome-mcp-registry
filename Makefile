@@ -14,6 +14,11 @@ build:
 	pnpm run check
 	pnpm run build
 
+build-py:
+	bun scripts/py-deps-lists.ts
+	./install-python-deps.sh
+	bun scripts/py-test-mcp-clients.ts
+
 dev:
 	pnpm run dev
 

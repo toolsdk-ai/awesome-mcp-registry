@@ -13,6 +13,10 @@ docs-config.json
 .clinerules-*
 doc/docs/*
 sqlite_mcp_server.db
+python-mcp/.magg/
+python-mcp/.SourceSageAssets/
+python-mcp/yfinance.cache
+python-mcp/claude_playground/
 
 # Python Virtual Environment
 .venv/

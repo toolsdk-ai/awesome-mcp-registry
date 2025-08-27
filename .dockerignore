@@ -51,3 +51,7 @@ python-mcp/*.db
 python-mcp/uv.lock
 python-mcp/mcp_ancestry.log
 python-mcp/query_12306.log
+python-mcp/.magg/
+python-mcp/.SourceSageAssets/
+python-mcp/yfinance.cache
+python-mcp/claude_playground/

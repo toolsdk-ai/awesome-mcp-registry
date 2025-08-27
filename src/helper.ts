@@ -1,11 +1,11 @@
 import assert from "node:assert";
 import fs from "node:fs";
 import * as path from "node:path";
+import toml from "@iarna/toml";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 import axios from "axios";
 import semver from "semver";
-import toml from "toml";
 import allPackagesList from "../indexes/packages-list.json";
 import { MCPServerPackageConfigSchema, PackagesListSchema } from "./schema";
 import type { MCPServerPackageConfig } from "./types";
@@ -142,8 +142,8 @@ export function updatePackageJsonDependencies({
     "@hono/node-server": "1.15.0",
     "@hono/swagger-ui": "^0.5.2",
     "@hono/zod-openapi": "^0.16.4",
+    "@iarna/toml": "^2.2.5",
     lodash: "^4.17.21",
-    toml: "^3.0.0",
     zod: "^3.23.30",
     axios: "^1.9.0",
     hono: "4.8.3",
@@ -321,9 +321,39 @@ export async function isValidNpmPackage(packageName: string): Promise<boolean> {
   }
 }
 
+interface PyProjectToml {
+  project?: {
+    dependencies?: string[];
+    [key: string]: unknown;
+  };
+  [key: string]: unknown;
+}
+
+/**
+ * Parses the pyproject.toml file and returns its content
+ * @returns Parsed pyproject.toml content
+ */
+export function parsePyprojectToml() {
+  const pyprojectPath = "./python-mcp/pyproject.toml";
+  const content = fs.readFileSync(pyprojectPath, "utf-8");
+  return toml.parse(content) as PyProjectToml;
+}
+
+/**
+ * Extracts package name from a dependency string
+ * @param dep - Dependency string (e.g., "package>=1.0.0")
+ * @returns Package name without version constraints
+ */
+export function extractPackageName(dep: string): string {
+  return dep.split(/[=<>!]/)[0].trim();
+}
+
+/**
+ * Gets Python dependencies from pyproject.toml
+ * @returns Array of Python dependency names
+ */
 export function getPythonDependencies(): string[] {
-  const content = fs.readFileSync("./python-mcp/pyproject.toml", "utf-8");
-  const data = toml.parse(content);
+  const data: PyProjectToml = parsePyprojectToml();
   const deps = data.project?.dependencies || [];
-  return deps.map((dep: string) => dep.split(/[=<>!]/)[0].trim());
+  return deps.map(extractPackageName);
 }

@@ -47,9 +47,10 @@ async function isPackageOnPyPI(packageName: string): Promise<boolean> {
 }
 
 // Collect all eligible Python packages
-async function collectPythonPackages(maxPackages: number = 100): Promise<string[]> {
+async function collectPythonPackages(maxPackages: number = 10000): Promise<string[]> {
   const pythonPackages: string[] = [];
   let pythonPackageCount = 0;
+  let pythonPackageSum = 0;
 
   for (const [packageKey, value] of Object.entries(
     typedAllPackagesList as Record<string, { path: string }>,
@@ -67,6 +68,7 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
 
       if (mcpServerConfig.runtime === "python") {
         const packageName = mcpServerConfig.packageName;
+        pythonPackageSum++;
 
         if (!isValidPEP508(packageName)) {
           console.log(`✗ Skipping invalid package name: ${packageName} (${value.path})`);
@@ -84,7 +86,9 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
           version && version !== "latest" ? `${packageName}==${version}` : packageName;
 
         pythonPackages.push(fullName);
-        console.log(`✓ Added package ${pythonPackageCount}: ${fullName} (${value.path})`);
+        console.log(
+          `✓ Added package ${pythonPackageCount}(sum:${pythonPackageSum}): ${fullName} (${value.path})`,
+        );
       }
     } catch (error) {
       console.error(`Error processing package ${packageKey}:`, error);
@@ -96,7 +100,10 @@ async function collectPythonPackages(maxPackages: number = 100): Promise<string[
 
 // Generate installation script content
 function generateInstallScript(packages: string[]): string {
-  const installCommands = packages.map((pkg) => `uv add ${pkg}`).join("\n");
+  const SKIP_PACKAGES = ["scmcp", "optuna-mcp", "chroma-mcp"];
+
+  const filteredPackages = packages.filter((pkg) => !SKIP_PACKAGES.includes(pkg));
+  const installCommands = filteredPackages.map((pkg) => `uv add ${pkg}`).join("\n");
 
   return `# x: print each command
 set -x
@@ -142,9 +149,11 @@ async function main() {
   writeInstallScript(installScript, "./install-python-deps.sh");
 
   console.log(`\nInstallation script generated: install-python-deps.sh`);
-  console.log("Run the following command to install Python dependencies:");
-  console.log("  ./install-python-deps.sh");
 }
 
-await main();
-process.exit(0);
+main()
+  .then(() => process.exit(0))
+  .catch((err) => {
+    console.error("Fatal error:", err);
+    process.exit(1);
+  });
