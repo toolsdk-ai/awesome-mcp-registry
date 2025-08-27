@@ -23,29 +23,63 @@ Error handling:
 */
 
 import fs from "node:fs";
+import toml from "@iarna/toml";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
-import { getPackageConfigByKey, getPythonDependencies, typedAllPackagesList } from "../src/helper";
+import {
+  extractPackageName,
+  getPackageConfigByKey,
+  getPythonDependencies,
+  parsePyprojectToml,
+  typedAllPackagesList,
+} from "../src/helper";
 import type { MCPServerPackageConfig } from "../src/types";
 
-const TEMP_IGNORE_DEP_NAMES = [
-  "awslabs-cdk-mcp-server",
-  "awslabs-nova-canvas-mcp-server",
-  "qanon_mcp",
-  "qanon-mcp",
-  "llm_bridge_mcp",
-  "llm-bridge-mcp",
-  "mcp_server_browser_use",
-  "mcp-server-browser-use",
-  "jupyter_mcp_server",
-  "jupyter-mcp-server",
-];
+/**
+ * Converts package name to Python dependency format
+ * @param packageName - Original package name
+ * @returns Converted package name with dashes instead of dots or underscores
+ */
+function convertPackageNameToPythonDep(packageName: string): string {
+  return packageName.replace(/[._]/g, "-");
+}
 
-async function getPythonMcpClient(
-  mcpServerConfig: MCPServerPackageConfig,
-  mockEnv: Record<string, string>,
-) {
-  const { packageName } = mcpServerConfig;
+/**
+ * Removes invalid dependencies from pyproject.toml
+ * @param invalidPackages - List of invalid package names to remove
+ */
+async function removeInvalidDependencies(invalidPackages: string[]) {
+  if (invalidPackages.length === 0) return;
+
+  try {
+    const pyProjectData = parsePyprojectToml();
+    const depsWithVersion = pyProjectData.project?.dependencies || [];
+
+    const validDeps = depsWithVersion.filter((dep: string) => {
+      const depName = extractPackageName(dep);
+      return !invalidPackages.includes(depName);
+    });
+
+    // Update dependencies list
+    if (pyProjectData.project) {
+      pyProjectData.project.dependencies = validDeps;
+    }
+
+    // Write updated content back to file
+    const cleanData = JSON.parse(JSON.stringify(pyProjectData));
+    const updatedContent = toml.stringify(cleanData);
+    fs.writeFileSync("./python-mcp/pyproject.toml", updatedContent, "utf-8");
+
+    console.log(
+      `Invalid packages that were removed (${invalidPackages.length}): \n`,
+      invalidPackages,
+    );
+  } catch (error) {
+    console.error("Error removing invalid dependencies:", (error as Error).message);
+  }
+}
+
+async function getPythonMcpClient(packageName: string, mockEnv: Record<string, string>) {
   const transport = new StdioClientTransport({
     command: "uv",
     args: ["run", "--directory", "./python-mcp", packageName],
@@ -83,17 +117,35 @@ async function main() {
       validated: boolean;
     }
   > = {};
+  // Track packages that failed validation
+  const invalidPackages: string[] = [];
   const pythonDeps = getPythonDependencies();
 
-  for (const depName of pythonDeps) {
-    // Skip packages that need temporary ignore
-    if (TEMP_IGNORE_DEP_NAMES.includes(depName)) {
+  for (const packageKey of Object.keys(typedAllPackagesList)) {
+    const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
+    if (mcpServerConfig.runtime !== "python") {
       continue;
     }
-    console.log(`Testing Python MCP Client for package: ${depName}`);
 
-    const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(depName);
-    if (mcpServerConfig.runtime !== "python") continue;
+    // Determine the actual package name used in pyproject.toml
+    let actualPackageName = "";
+
+    if (pythonDeps.includes(mcpServerConfig.packageName)) {
+      actualPackageName = mcpServerConfig.packageName;
+      console.log(`Found package with exact match: ${mcpServerConfig.packageName}`);
+    } else {
+      // If no exact match, try converted name
+      const convertedPackageName = convertPackageNameToPythonDep(mcpServerConfig.packageName);
+      if (!pythonDeps.includes(convertedPackageName)) {
+        console.log(
+          `Skipping package not installed in python-mcp: ${packageKey} (${mcpServerConfig.packageName})`,
+        );
+        continue;
+      }
+
+      actualPackageName = convertedPackageName;
+      console.log(`Found package with converted name: ${packageKey}(${convertedPackageName})`);
+    }
 
     const mockEnv: Record<string, string> = {};
     for (const [key] of Object.entries(mcpServerConfig.env || {})) {
@@ -101,7 +153,7 @@ async function main() {
     }
 
     try {
-      const mcpClient = await getPythonMcpClient(mcpServerConfig, mockEnv);
+      const mcpClient = await getPythonMcpClient(mcpServerConfig.packageName, mockEnv);
       const toolsResp = await mcpClient.client.listTools();
 
       const saveTools: Record<string, { name: string; description: string }> = {};
@@ -114,35 +166,40 @@ async function main() {
 
       await mcpClient.closeConnection();
 
-      packageConfig[depName] = {
+      packageConfig[packageKey] = {
         ...mcpServerConfig,
         tools: saveTools,
         validated: true,
       };
 
-      if (typedAllPackagesList[depName]) {
-        typedAllPackagesList[depName].tools = saveTools;
-        typedAllPackagesList[depName].validated = true;
+      if (typedAllPackagesList[packageKey]) {
+        typedAllPackagesList[packageKey].tools = saveTools;
+        typedAllPackagesList[packageKey].validated = true;
       }
 
-      console.log(`✓ ${depName} validated, tools: ${Object.keys(saveTools).length}`);
+      console.log(`✓ ${packageKey} validated, tools: ${Object.keys(saveTools).length}`);
     } catch (e) {
-      packageConfig[depName] = {
+      packageConfig[packageKey] = {
         ...mcpServerConfig,
         tools: {},
         validated: false,
       };
-      console.error(`✗ Error validating Python MCP Client for ${depName}:`, (e as Error).message);
 
-      // Not processing Python MCPs with validated: false for now
-      // if (typedAllPackagesList[depName]) {
-      //   typedAllPackagesList[depName].tools = {};
-      //   typedAllPackagesList[depName].validated = false;
+      console.error(
+        `✗ Error validating Python MCP Client for ${packageKey}:`,
+        (e as Error).message,
+      );
+
+      // Record invalid package for later removal from pyproject.toml
+      invalidPackages.push(actualPackageName);
+
+      // if (typedAllPackagesList[packageKey]) {
+      //   typedAllPackagesList[packageKey].tools = {};
+      //   typedAllPackagesList[packageKey].validated = false;
       // }
     }
   }
 
-  // console.log('Validated python packages: \n', packageConfig);
   // Write the updated package list to file
   fs.writeFileSync(
     "indexes/packages-list.json",
@@ -150,11 +207,23 @@ async function main() {
     "utf-8",
   );
 
-  const validatedPackages = Object.entries(packageConfig)
-    .filter(([_, v]) => v.validated)
-    .map(([packageName, _]) => packageName);
-  console.log("Successfully validated python packages: \n", validatedPackages);
+  if (invalidPackages.length > 0) {
+    await removeInvalidDependencies(invalidPackages);
+  }
+
+  // print the list of successfully validated packages
+  const validatedPackages = Object.values(packageConfig)
+    .filter((v) => v.validated)
+    .map((v) => v.packageName);
+  console.log(
+    `Successfully validated python packages (${validatedPackages.length}): \n`,
+    validatedPackages,
+  );
 }
 
-await main();
-process.exit(0);
+main()
+  .then(() => process.exit(0))
+  .catch((err) => {
+    console.error("Fatal error:", err);
+    process.exit(1);
+  });
