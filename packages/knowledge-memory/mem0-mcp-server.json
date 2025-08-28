@@ -9,7 +9,7 @@
   "env": {
     "MEM0_API_KEY": {
       "description": "YOUR-API-KEY-HERE",
-      "required": true  
+      "required": true
     }
   },
   "name": "Mem0 MCP Server"

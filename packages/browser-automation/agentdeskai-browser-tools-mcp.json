@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "@agentdeskai/browser-tools-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides AI-powered browser tools integration. This server works in conjunction with the Browser Tools Server to provide AI capabilities for browser debugging and analysis.",
+  "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Browser Tools MCP Server"
+}

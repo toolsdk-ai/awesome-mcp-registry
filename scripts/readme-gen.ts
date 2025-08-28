@@ -3,18 +3,20 @@
 // 2. Iterate through the categories, then recursively read the specified directory (all JSON files under packages/{categoryName}), and validate with zod MCPServerConfigSchema.parse
 // 3. Start with let README: string, README += the content of all MCP server files under the category
 // 4. Read README template(docs/README.tpl.md). Write to the README file (README.md)
-import { readFileSync, writeFileSync } from 'fs';
-import { join } from 'path';
-import _ from 'lodash';
-import categoriesList from '../indexes/categories-list.json';
-import allPackagesList from '../indexes/packages-list.json';
-import { MCPServerPackageConfigSchema } from '../src/schema';
-import type { PackagesList } from '../src/types';
+import { readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import _ from "lodash";
+import categoriesList from "../indexes/categories-list.json";
+import allPackagesList from "../indexes/packages-list.json";
+import { MCPServerPackageConfigSchema } from "../src/schema";
+import type { PackagesList } from "../src/types";
 
-let TOC = '';
-let README = '';
+let TOC = "";
+let README = "";
 const COUNT = Object.keys(allPackagesList).length;
-const VALIDATED_COUNT = Object.values(allPackagesList as PackagesList).filter(pkg => pkg.validated).length;
+const VALIDATED_COUNT = Object.values(allPackagesList as PackagesList).filter(
+  (pkg) => pkg.validated,
+).length;
 
 for (const [_key, categoryList] of Object.entries(categoriesList)) {
   const packagesList = categoryList.packagesList;
@@ -30,19 +32,19 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
     const packageInfo = allPackagesList[packageKey];
 
     const filePath = join(__dirname, `../packages/`, packageInfo.path);
-    const fileContent = readFileSync(filePath, 'utf-8');
+    const fileContent = readFileSync(filePath, "utf-8");
     const parsedContent = MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
-    const validated = packageInfo.validated ? '✅' : '❌';
+    const validated = packageInfo.validated ? "✅" : "❌";
     const toolsCount = packageInfo.tools === undefined ? 0 : Object.keys(packageInfo.tools).length;
-    const toolsCountLabel = toolsCount > 0 ? ` (${toolsCount} tools)` : '';
-    README += `- [${validated} ${parsedContent.key || parsedContent.packageName}](${parsedContent.url || '#'}): ${parsedContent.description} ${toolsCountLabel} (${parsedContent.runtime}) \n`;
+    const toolsCountLabel = toolsCount > 0 ? ` (${toolsCount} tools)` : "";
+    README += `- [${validated} ${parsedContent.key || parsedContent.packageName}](${parsedContent.url || "#"}): ${parsedContent.description} ${toolsCountLabel} (${parsedContent.runtime}) \n`;
   }
 }
-const templatePath = join(__dirname, '../docs/README.tpl.md');
-const templateContent = readFileSync(templatePath, 'utf-8');
+const templatePath = join(__dirname, "../docs/README.tpl.md");
+const templateContent = readFileSync(templatePath, "utf-8");
 const compiled = _.template(templateContent);
 const finalREADME = compiled({ CONTENT: README, TOC, COUNT, VALIDATED_COUNT });
 
-writeFileSync(join(__dirname, '../README.md'), finalREADME, 'utf-8');
+writeFileSync(join(__dirname, "../README.md"), finalREADME, "utf-8");
 
-console.log('README.md has been generated successfully.');
+console.log("README.md has been generated successfully.");

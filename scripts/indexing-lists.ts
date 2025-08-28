@@ -4,23 +4,23 @@
 // It also associates the packages with their respective categories and ensures no duplicate keys exist.
 // Finally, it writes the generated data to the specified output files in the collections directory.
 
-import * as fs from 'fs';
-import * as path from 'path';
-import { MCPServerPackageConfigSchema, PackagesListSchema } from '../src/schema';
-import { type CategoryConfig, type MCPServerPackageConfig, type PackagesList } from '../src/types';
-import { isValidNpmPackage, getActualVersion, updatePackageJsonDependencies } from '../src/helper';
+import * as fs from "node:fs";
+import * as path from "node:path";
+import { getActualVersion, isValidNpmPackage, updatePackageJsonDependencies } from "../src/helper";
+import { MCPServerPackageConfigSchema, PackagesListSchema } from "../src/schema";
+import type { CategoryConfig, MCPServerPackageConfig, PackagesList } from "../src/types";
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const categoryConfigs: CategoryConfig[] = require('../config/categories').default;
+const categoryConfigs: CategoryConfig[] = require("../config/categories").default;
 
-const packagesDir = './packages';
-const packagesListFile = './indexes/packages-list.json';
+const packagesDir = "./packages";
+const packagesListFile = "./indexes/packages-list.json";
 // Read the current packages list from the json file
 const previousPackagesList: PackagesList = PackagesListSchema.parse(
-  JSON.parse(fs.readFileSync(packagesListFile, 'utf-8')),
+  JSON.parse(fs.readFileSync(packagesListFile, "utf-8")),
 ) as PackagesList;
 
-const categoriesListFile = './indexes/categories-list.json';
+const categoriesListFile = "./indexes/categories-list.json";
 // Compare check `newPackagesList` with `previousPackagesList`, print the differences
 function comparePackagesLists(previousPackagesList: PackagesList, newPackagesList: PackagesList) {
   const currentKeys = new Set(Object.keys(previousPackagesList));
@@ -49,7 +49,7 @@ function comparePackagesLists(previousPackagesList: PackagesList, newPackagesLis
   }
 
   if (addedKeys.length === 0 && removedKeys.length === 0 && modifiedKeys.length === 0) {
-    console.log('No changes detected in packages list.');
+    console.log("No changes detected in packages list.");
   }
 }
 
@@ -64,9 +64,11 @@ async function generatePackagesList() {
 
     for (const entry of entries) {
       const entryPath = path.join(directory, entry);
-      if (fs.statSync(entryPath).isFile() && entry.endsWith('.json')) {
-        const fileContent = fs.readFileSync(entryPath, 'utf-8');
-        const parsedContent: MCPServerPackageConfig = MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
+      if (fs.statSync(entryPath).isFile() && entry.endsWith(".json")) {
+        const fileContent = fs.readFileSync(entryPath, "utf-8");
+        const parsedContent: MCPServerPackageConfig = MCPServerPackageConfigSchema.parse(
+          JSON.parse(fileContent),
+        );
         const key = parsedContent.key || parsedContent.packageName;
         const relativePath = path.relative(packagesDir, entryPath);
 
@@ -84,10 +86,10 @@ async function generatePackagesList() {
         }
         categoriesList[categoryName].packagesList.push(key);
 
-        console.log('Current package:', parsedContent.packageName, `num:${i++}`);
-        if (parsedContent.runtime === 'node') {
+        console.log("Current package:", parsedContent.packageName, `num:${i++}`);
+        if (parsedContent.runtime === "node") {
           const existPackage = newPackagesList[key];
-          if (Object.hasOwn(existPackage, 'validated')) {
+          if (Object.hasOwn(existPackage, "validated")) {
             if (existPackage.validated === false) {
               continue;
             }
@@ -99,7 +101,7 @@ async function generatePackagesList() {
           }
 
           const version = getActualVersion(parsedContent.packageName, parsedContent.packageVersion);
-          packageDeps[parsedContent.packageName] = version || 'latest';
+          packageDeps[parsedContent.packageName] = version || "latest";
         }
       } else if (fs.statSync(entryPath).isDirectory()) {
         await traverseDirectory(entryPath, categoryName);
@@ -126,8 +128,8 @@ async function generatePackagesList() {
     }
   }
 
-  fs.writeFileSync(packagesListFile, JSON.stringify(newPackagesList, null, 2), 'utf-8');
-  fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), 'utf-8');
+  fs.writeFileSync(packagesListFile, JSON.stringify(newPackagesList, null, 2), "utf-8");
+  fs.writeFileSync(categoriesListFile, JSON.stringify(categoriesList, null, 2), "utf-8");
   console.log(`Generated packages list at ${packagesListFile}`);
   console.log(`Generated categories list at ${categoriesListFile}`);
 

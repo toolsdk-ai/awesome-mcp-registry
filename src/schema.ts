@@ -1,4 +1,4 @@
-import { z } from '@hono/zod-openapi';
+import { z } from "@hono/zod-openapi";
 
 export const PackageKeySchema = z.string();
 
@@ -20,36 +20,48 @@ export const CategoryConfigSchema = z.object({
 });
 
 export const MCPServerPackageConfigSchema = z.object({
-  type: z.literal('mcp-server'),
+  type: z.literal("mcp-server"),
 
-  runtime: z.enum(['node', 'python', 'java', 'go']),
-  packageName: z.string().describe('Name of the node, python, java package '),
+  runtime: z.enum(["node", "python", "java", "go"]),
+  packageName: z.string().describe("Name of the node, python, java package "),
   packageVersion: z
     .string()
     .optional()
-    .describe('Version of the package, if not provided then it will use latest version'),
+    .describe("Version of the package, if not provided then it will use latest version"),
 
   bin: z
     .string()
     .optional()
-    .describe('Binary Command to run the MCP server, if not provided then it will use the package name'),
+    .describe(
+      "Binary Command to run the MCP server, if not provided then it will use the package name",
+    ),
   binArgs: z
     .array(z.string())
     .optional()
-    .describe('Binary Arguments to pass to the command, if not provided then it will use an empty array'),
+    .describe(
+      "Binary Arguments to pass to the command, if not provided then it will use an empty array",
+    ),
 
   // if no custom key then would use name
-  key: z.string().optional().describe('Unique key for url and slug'),
-  name: z.string().optional().describe('Custom name for display, if empty then it will use the package name'),
+  key: z.string().optional().describe("Unique key for url and slug"),
+  name: z
+    .string()
+    .optional()
+    .describe("Custom name for display, if empty then it will use the package name"),
   description: z.string().optional(),
-  readme: z.string().optional().describe('URL to the README file, if not provided then it will use the package URL'),
+  readme: z
+    .string()
+    .optional()
+    .describe("URL to the README file, if not provided then it will use the package URL"),
 
   url: z.string().optional(),
-  license: z.string().optional().describe('Open source license lie MIT, AGPL, GPL, etc'),
+  license: z.string().optional().describe("Open source license lie MIT, AGPL, GPL, etc"),
   logo: z
     .string()
     .optional()
-    .describe('URL to custom logo image, if undefined and the URL is Github, then it will use the Github logo'),
+    .describe(
+      "URL to custom logo image, if undefined and the URL is Github, then it will use the Github logo",
+    ),
   author: z.string().optional().describe("Author name of the ToolSDK.ai's developer ID"),
   env: z
     .record(
@@ -61,10 +73,10 @@ export const MCPServerPackageConfigSchema = z.object({
     .optional(),
 });
 
-export const PackageConfigSchema = z.discriminatedUnion('type', [
+export const PackageConfigSchema = z.discriminatedUnion("type", [
   MCPServerPackageConfigSchema,
   z.object({
-    type: z.literal('toolapp'),
+    type: z.literal("toolapp"),
     packageName: z.string(),
     url: z.string().optional(),
   }),
@@ -92,7 +104,9 @@ export const BaseResponseSchema = z.object({
   message: z.string(),
 });
 
-export const ErrorResponseSchema = BaseResponseSchema.omit({ success: true }).extend({
+export const ErrorResponseSchema = BaseResponseSchema.omit({
+  success: true,
+}).extend({
   success: z.literal(false),
 });
 

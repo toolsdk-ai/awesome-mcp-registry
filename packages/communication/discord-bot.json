@@ -5,6 +5,23 @@
   "url": "https://github.com/mastra-ai/discord-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {},
+  "env": {
+    "DISCORD_BOT_TOKEN": {
+      "description": "Discord bot token for authentication with Discord API",
+      "required": true
+    },
+    "DISCORD_CLIENT_ID": {
+      "description": "Discord client ID for the bot application",
+      "required": true
+    },
+    "DISCORD_PUBLIC_KEY": {
+      "description": "Discord public key for verifying interactions",
+      "required": true
+    },
+    "MASTRA_URL": {
+      "description": "URL of the Mastra backend service",
+      "required": true
+    }
+  },
   "name": "Discord MCP Server"
 }

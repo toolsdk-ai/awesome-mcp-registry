@@ -12,9 +12,7 @@
     "skipLibCheck": true, // Skip type checking of declaration files
     "forceConsistentCasingInFileNames": true // Enforce consistent casing in file names
   },
-  "include": [
-    "src/**/*.ts", 
-  ],
+  "include": ["src/**/*.ts"],
   "exclude": [
     "node_modules" // Excluded files
   ]

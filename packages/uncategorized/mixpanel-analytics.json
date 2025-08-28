@@ -1,10 +1,11 @@
 {
   "type": "mcp-server",
-  "packageName": "mixpanel-analytics",
-  "description": "Track analytics events in Mixpanel, supporting custom events, page views, user profiles, and signups.",
+  "packageName": "mixpanel-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for integrating Mixpanel analytics into AI workflows. This server allows AI assistants like Claude to track events, page views, user signups, and update user profiles in Mixpanel.",
   "url": "https://github.com/moonbirdai/mixpanel-mcp-server",
   "runtime": "node",
   "license": "mit",
+  "binArgs": ["--token", "YOUR_MIXPANEL_TOKEN"],
   "env": {},
   "name": "Mixpanel MCP Server"
 }

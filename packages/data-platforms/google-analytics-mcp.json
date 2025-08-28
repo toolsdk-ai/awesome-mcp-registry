@@ -1,10 +1,19 @@
 {
   "type": "mcp-server",
+  "name": "Google Analytics MCP",
   "packageName": "google-analytics-mcp",
-  "description": "Integrates with Google Analytics 4 to retrieve metrics, dimensions, and customized reports with flexible date ranges for analyzing website performance and user behavior patterns.",
+  "description": "Connect Google Analytics 4 data to Claude, Cursor and other MCP clients. Query your website traffic, user behavior, and analytics data in natural language with access to 200+ GA4 dimensions and metrics.",
   "url": "https://github.com/surendranb/google-analytics-mcp",
   "runtime": "python",
-  "license": "unknown",
-  "env": {},
-  "name": "Google Analytics MCP"
+  "license": "mit",
+  "env": {
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "description": "PATH_TO_CREDENTIALS_JSON",
+      "required": true
+    },
+    "GA4_PROPERTY_ID": {
+      "description": "YOUR_PROJECT_ID",
+      "required": true
+    }
+  }
 }
