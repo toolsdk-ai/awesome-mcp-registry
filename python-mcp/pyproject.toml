@@ -35,7 +35,6 @@ dependencies = [
   "greptimedb-mcp-server>=0.2.2",
   "haiguitang-mcp>=0.1.2",
   "hh-jira-mcp-server>=0.1.0",
-  "imagesorcery-mcp>=0.5.0",
   "interactive-feedback>=2.5.10.3",
   "investor-agent>=0.1.4",
   "jnews-mcp-server>=0.1.3",

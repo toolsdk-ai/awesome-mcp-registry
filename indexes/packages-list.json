@@ -47715,14 +47715,14 @@
   "slack-mcp-server": {
     "category": "communication",
     "path": "communication/slack-conversations.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-proxy": {
     "category": "developer-tools",
     "path": "developer-tools/mcp-proxy.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@jpisnice/shadcn-ui-mcp-server": {
     "category": "developer-tools",
@@ -47762,20 +47762,20 @@
   "@azure/mcp": {
     "category": "developer-tools",
     "path": "developer-tools/azure-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@azure/mcp-win32-x64": {
     "category": "developer-tools",
     "path": "developer-tools/azure-mcp-win32-x64.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-framework": {
     "category": "developer-tools",
     "path": "developer-tools/mcp-framework.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@oneuptime/mcp-server": {
     "category": "developer-tools",
@@ -47859,25 +47859,25 @@
   "@orval/mcp": {
     "category": "developer-tools",
     "path": "developer-tools/orval-mcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@apify/actors-mcp-server": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/apify-actors-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "fastmcp": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/fastmcp.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "mcp-remote": {
     "category": "other-tools-and-integrations",
     "path": "other-tools-and-integrations/mcp-remote.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   }
 }

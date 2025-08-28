@@ -145,7 +145,7 @@ async function collectPythonPackages(maxPackages: number = 10000): Promise<strin
 
 // Generate installation script content
 function generateInstallScript(packages: string[]): string {
-  const SKIP_PACKAGES = ["scmcp", "optuna-mcp", "chroma-mcp"];
+  const SKIP_PACKAGES = ["scmcp", "optuna-mcp", "chroma-mcp", "imagesorcery-mcp"];
 
   const filteredPackages = packages.filter((pkg) => !SKIP_PACKAGES.includes(pkg));
   const installCommands = filteredPackages.map((pkg) => `uv add ${pkg}`).join("\n");
