@@ -56,6 +56,7 @@
     "mcp-server-commands": "0.5.0",
     "@enescinar/twitter-mcp": "0.2.0",
     "@modelcontextprotocol/server-slack": "2025.4.25",
+    "@benborla29/mcp-server-mysql": "2.0.5",
     "@niledatabase/nile-mcp-server": "1.4.0",
     "@mcp-get-community/server-macos": "0.1.0",
     "@mcp-get-community/server-llm-txt": "0.6.2",
@@ -632,7 +633,11 @@
     "discord-mcp": "2.4.0",
     "@toolsdk.ai/mixpanel-mcp-server": "2.0.6",
     "@executeautomation/playwright-mcp-server": "1.0.6",
-    "@mcp-server/google-search-mcp": "1.0.3"
+    "@mcp-server/google-search-mcp": "1.0.3",
+    "@playwright/mcp": "0.0.35",
+    "@agentdeskai/browser-tools-mcp": "1.2.1",
+    "@jpisnice/shadcn-ui-mcp-server": "1.1.0",
+    "@oneuptime/mcp-server": "7.0.5068"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.2",

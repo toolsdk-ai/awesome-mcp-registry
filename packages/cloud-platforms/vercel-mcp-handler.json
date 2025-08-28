@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-handler",
+  "description": "A Vercel adapter for the Model Context Protocol (MCP), enabling real-time communication between your applications and AI models. Currently supports Next.js with more framework adapters coming soon.",
+  "url": "https://github.com/vercel/mcp-adapter",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Vercel MCP Handler"
+}

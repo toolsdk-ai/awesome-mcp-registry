@@ -583,8 +583,13 @@
   "@benborla29/mcp-server-mysql": {
     "category": "databases",
     "path": "databases/benborla29-mcp-server-mysql.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "mysql_query": {
+        "name": "mysql_query",
+        "description": "[MySQL MCP Server [vundefined]] Run SQL queries against MySQL database (READ-ONLY)"
+      }
+    }
   },
   "@modelcontextprotocol/server-postgres": {
     "category": "databases",
@@ -957,7 +962,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun.io-mcp-server-raygun.json",
+    "path": "monitoring/raygun-io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
@@ -8003,10 +8008,6 @@
     "category": "communication",
     "path": "communication/mac-messages-mcp.json"
   },
-  "slack-conversations": {
-    "category": "communication",
-    "path": "communication/slack-conversations.json"
-  },
   "@kazuph/mcp-gmail-gas": {
     "category": "communication",
     "path": "communication/kazuph-mcp-gmail-gas.json",
@@ -12582,7 +12583,9 @@
   },
   "vnc-remote-control-for-macos": {
     "category": "other-tools-and-integrations",
-    "path": "other-tools-and-integrations/vnc-remote-control-for-macos.json"
+    "path": "other-tools-and-integrations/vnc-remote-control-for-macos.json",
+    "validated": false,
+    "tools": {}
   },
   "hue-lights": {
     "category": "embedded-system",
@@ -34830,12 +34833,6 @@
     "validated": false,
     "tools": {}
   },
-  "jpisnice-shadcn-ui-mcp-server": {
-    "category": "developer-tools",
-    "path": "developer-tools/jpisnice-shadcn-ui-mcp-server.json",
-    "validated": false,
-    "tools": {}
-  },
   "abell-static-site-generator": {
     "category": "developer-tools",
     "path": "developer-tools/abell-static-site-generator.json",
@@ -42693,7 +42690,7 @@
   },
   "12306-mcp": {
     "category": "travel-transportation",
-    "path": "travel-transportation/12306-mcp.json",
+    "path": "travel-transportation/jok-12306-mcp.json",
     "validated": true,
     "tools": {
       "get-current-date": {
@@ -47554,5 +47551,333 @@
         "description": ""
       }
     }
+  },
+  "@playwright/mcp": {
+    "category": "browser-automation",
+    "path": "browser-automation/mcp-playwright.json",
+    "validated": true,
+    "tools": {
+      "browser_close": {
+        "name": "browser_close",
+        "description": "Close the page"
+      },
+      "browser_resize": {
+        "name": "browser_resize",
+        "description": "Resize the browser window"
+      },
+      "browser_console_messages": {
+        "name": "browser_console_messages",
+        "description": "Returns all console messages"
+      },
+      "browser_handle_dialog": {
+        "name": "browser_handle_dialog",
+        "description": "Handle a dialog"
+      },
+      "browser_evaluate": {
+        "name": "browser_evaluate",
+        "description": "Evaluate JavaScript expression on page or element"
+      },
+      "browser_file_upload": {
+        "name": "browser_file_upload",
+        "description": "Upload one or multiple files"
+      },
+      "browser_fill_form": {
+        "name": "browser_fill_form",
+        "description": "Fill multiple form fields"
+      },
+      "browser_install": {
+        "name": "browser_install",
+        "description": "Install the browser specified in the config. Call this if you get an error about the browser not being installed."
+      },
+      "browser_press_key": {
+        "name": "browser_press_key",
+        "description": "Press a key on the keyboard"
+      },
+      "browser_type": {
+        "name": "browser_type",
+        "description": "Type text into editable element"
+      },
+      "browser_navigate": {
+        "name": "browser_navigate",
+        "description": "Navigate to a URL"
+      },
+      "browser_navigate_back": {
+        "name": "browser_navigate_back",
+        "description": "Go back to the previous page"
+      },
+      "browser_network_requests": {
+        "name": "browser_network_requests",
+        "description": "Returns all network requests since loading the page"
+      },
+      "browser_take_screenshot": {
+        "name": "browser_take_screenshot",
+        "description": "Take a screenshot of the current page. You can't perform actions based on the screenshot, use browser_snapshot for actions."
+      },
+      "browser_snapshot": {
+        "name": "browser_snapshot",
+        "description": "Capture accessibility snapshot of the current page, this is better than screenshot"
+      },
+      "browser_click": {
+        "name": "browser_click",
+        "description": "Perform click on a web page"
+      },
+      "browser_drag": {
+        "name": "browser_drag",
+        "description": "Perform drag and drop between two elements"
+      },
+      "browser_hover": {
+        "name": "browser_hover",
+        "description": "Hover over element on page"
+      },
+      "browser_select_option": {
+        "name": "browser_select_option",
+        "description": "Select an option in a dropdown"
+      },
+      "browser_tabs": {
+        "name": "browser_tabs",
+        "description": "List, create, close, or select a browser tab."
+      },
+      "browser_wait_for": {
+        "name": "browser_wait_for",
+        "description": "Wait for text to appear or disappear or a specified time to pass"
+      }
+    }
+  },
+  "@agentdeskai/browser-tools-mcp": {
+    "category": "browser-automation",
+    "path": "browser-automation/agentdeskai-browser-tools-mcp.json",
+    "validated": true,
+    "tools": {
+      "getConsoleLogs": {
+        "name": "getConsoleLogs",
+        "description": "Check our browser logs"
+      },
+      "getConsoleErrors": {
+        "name": "getConsoleErrors",
+        "description": "Check our browsers console errors"
+      },
+      "getNetworkErrors": {
+        "name": "getNetworkErrors",
+        "description": "Check our network ERROR logs"
+      },
+      "getNetworkLogs": {
+        "name": "getNetworkLogs",
+        "description": "Check ALL our network logs"
+      },
+      "takeScreenshot": {
+        "name": "takeScreenshot",
+        "description": "Take a screenshot of the current browser tab"
+      },
+      "getSelectedElement": {
+        "name": "getSelectedElement",
+        "description": "Get the selected element from the browser"
+      },
+      "wipeLogs": {
+        "name": "wipeLogs",
+        "description": "Wipe all browser logs from memory"
+      },
+      "runAccessibilityAudit": {
+        "name": "runAccessibilityAudit",
+        "description": "Run an accessibility audit on the current page"
+      },
+      "runPerformanceAudit": {
+        "name": "runPerformanceAudit",
+        "description": "Run a performance audit on the current page"
+      },
+      "runSEOAudit": {
+        "name": "runSEOAudit",
+        "description": "Run an SEO audit on the current page"
+      },
+      "runNextJSAudit": {
+        "name": "runNextJSAudit",
+        "description": ""
+      },
+      "runDebuggerMode": {
+        "name": "runDebuggerMode",
+        "description": "Run debugger mode to debug an issue in our application"
+      },
+      "runAuditMode": {
+        "name": "runAuditMode",
+        "description": "Run audit mode to optimize our application for SEO, accessibility and performance"
+      },
+      "runBestPracticesAudit": {
+        "name": "runBestPracticesAudit",
+        "description": "Run a best practices audit on the current page"
+      }
+    }
+  },
+  "mcp-handler": {
+    "category": "cloud-platforms",
+    "path": "cloud-platforms/vercel-mcp-handler.json",
+    "validated": false,
+    "tools": {}
+  },
+  "slack-mcp-server": {
+    "category": "communication",
+    "path": "communication/slack-conversations.json",
+    "validated": false,
+    "tools": {}
+  },
+  "mcp-proxy": {
+    "category": "developer-tools",
+    "path": "developer-tools/mcp-proxy.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@jpisnice/shadcn-ui-mcp-server": {
+    "category": "developer-tools",
+    "path": "developer-tools/jpisnice-shadcn-ui-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "get_component": {
+        "name": "get_component",
+        "description": "Get the source code for a specific shadcn/ui v4 component"
+      },
+      "get_component_demo": {
+        "name": "get_component_demo",
+        "description": "Get demo code illustrating how a shadcn/ui v4 component should be used"
+      },
+      "list_components": {
+        "name": "list_components",
+        "description": "Get all available shadcn/ui v4 components"
+      },
+      "get_component_metadata": {
+        "name": "get_component_metadata",
+        "description": "Get metadata for a specific shadcn/ui v4 component"
+      },
+      "get_directory_structure": {
+        "name": "get_directory_structure",
+        "description": "Get the directory structure of the shadcn-ui v4 repository"
+      },
+      "get_block": {
+        "name": "get_block",
+        "description": "Get source code for a specific shadcn/ui v4 block (e.g., calendar-01, dashboard-01)"
+      },
+      "list_blocks": {
+        "name": "list_blocks",
+        "description": "Get all available shadcn/ui v4 blocks with categorization"
+      }
+    }
+  },
+  "@azure/mcp": {
+    "category": "developer-tools",
+    "path": "developer-tools/azure-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@azure/mcp-win32-x64": {
+    "category": "developer-tools",
+    "path": "developer-tools/azure-mcp-win32-x64.json",
+    "validated": false,
+    "tools": {}
+  },
+  "mcp-framework": {
+    "category": "developer-tools",
+    "path": "developer-tools/mcp-framework.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@oneuptime/mcp-server": {
+    "category": "developer-tools",
+    "path": "developer-tools/oneuptime-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "create_log": {
+        "name": "create_log",
+        "description": "Create a new Log analytics record in OneUptime"
+      },
+      "list_logs": {
+        "name": "list_logs",
+        "description": "Query Logs analytics data from OneUptime"
+      },
+      "count_logs": {
+        "name": "count_logs",
+        "description": "Count Logs analytics records in OneUptime"
+      },
+      "create_span": {
+        "name": "create_span",
+        "description": "Create a new Span analytics record in OneUptime"
+      },
+      "list_spans": {
+        "name": "list_spans",
+        "description": "Query Spans analytics data from OneUptime"
+      },
+      "count_spans": {
+        "name": "count_spans",
+        "description": "Count Spans analytics records in OneUptime"
+      },
+      "create_metric": {
+        "name": "create_metric",
+        "description": "Create a new Metric analytics record in OneUptime"
+      },
+      "list_metrics": {
+        "name": "list_metrics",
+        "description": "Query Metrics analytics data from OneUptime"
+      },
+      "count_metrics": {
+        "name": "count_metrics",
+        "description": "Count Metrics analytics records in OneUptime"
+      },
+      "create_telemetry_attribute": {
+        "name": "create_telemetry_attribute",
+        "description": "Create a new Telemetry Attribute analytics record in OneUptime"
+      },
+      "list_telemetry_attributes": {
+        "name": "list_telemetry_attributes",
+        "description": "Query Telemetry Attributes analytics data from OneUptime"
+      },
+      "count_telemetry_attributes": {
+        "name": "count_telemetry_attributes",
+        "description": "Count Telemetry Attributes analytics records in OneUptime"
+      },
+      "create_exception_instance": {
+        "name": "create_exception_instance",
+        "description": "Create a new Exception Instance analytics record in OneUptime"
+      },
+      "list_exception_instances": {
+        "name": "list_exception_instances",
+        "description": "Query Exception Instances analytics data from OneUptime"
+      },
+      "count_exception_instances": {
+        "name": "count_exception_instances",
+        "description": "Count Exception Instances analytics records in OneUptime"
+      },
+      "create_monitor_log": {
+        "name": "create_monitor_log",
+        "description": "Create a new Monitor Log analytics record in OneUptime"
+      },
+      "list_monitor_logs": {
+        "name": "list_monitor_logs",
+        "description": "Query Monitor Logs analytics data from OneUptime"
+      },
+      "count_monitor_logs": {
+        "name": "count_monitor_logs",
+        "description": "Count Monitor Logs analytics records in OneUptime"
+      }
+    }
+  },
+  "@orval/mcp": {
+    "category": "developer-tools",
+    "path": "developer-tools/orval-mcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "@apify/actors-mcp-server": {
+    "category": "search-data-extraction",
+    "path": "search-data-extraction/apify-actors-mcp-server.json",
+    "validated": false,
+    "tools": {}
+  },
+  "fastmcp": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/fastmcp.json",
+    "validated": false,
+    "tools": {}
+  },
+  "mcp-remote": {
+    "category": "other-tools-and-integrations",
+    "path": "other-tools-and-integrations/mcp-remote.json",
+    "validated": false,
+    "tools": {}
   }
 }

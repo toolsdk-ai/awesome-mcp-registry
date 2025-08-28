@@ -554,7 +554,6 @@ uv add pymol
 uv add markitdown
 uv add locust
 uv add ollama
-uv add imagesorcery-mcp
 uv add cheerlights
 uv add speech-mcp
 uv add daisys-mcp
@@ -639,7 +638,6 @@ uv add anki-mcp
 uv add atla
 uv add claude-todo-emulator
 uv add mcp-sleep
-uv add genesis-world
 uv add spotify
 uv add mistral-ocr
 uv add sherlock-mcp

@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "@playwright/mcp",
+  "description": "A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.",
+  "url": "https://github.com/microsoft/playwright-mcp",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Playwright MCP"
+}
