@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+build
+
+# Environment files
+.env.local
+
+# Logs
+logs
+*.log
+
+# Runtime data
+tmp
+temp
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Git files
+.git
+.gitignore
+
+# Testing
+coverage
+.nyc_output
+
+# Others
+*.md
+.DS_Store
+Thumbs.db
+
+# Cache directories
+.cache
+.npm
+.yarn/cache
+
+# Build tools
+.pnpm-store
+
+# Python Virtual Environment
+python-mcp/.venv/
+python-mcp/*.log
+python-mcp/*.db
+python-mcp/uv.lock
+python-mcp/mcp_ancestry.log
+python-mcp/query_12306.log
+python-mcp/.magg/
+python-mcp/.SourceSageAssets/
+python-mcp/.SourceSageignore
+python-mcp/yfinance.cache
+python-mcp/claude_playground/

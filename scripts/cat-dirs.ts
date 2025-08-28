@@ -3,17 +3,17 @@
 // If a folder does not exist, it creates one.
 // Additionally, it removes any folders in the categories directory that are not listed in the configuration.
 // This script is intended to be executed using Bun.
-import * as fs from 'fs';
-import * as path from 'path';
-import type { CategoryConfig } from '../src/types';
+import * as fs from "node:fs";
+import * as path from "node:path";
+import type { CategoryConfig } from "../src/types";
 
 // Define the paths
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const categoriesData = require('../config/categories');
+const categoriesData = require("../config/categories");
 
 // const categoriesJsonPath = require('../../packages/@toolsdk.ai/registry/config/categories');
 
-const categoriesFolderBasePath = path.resolve('./packages'); // Adjust this path as needed
+const categoriesFolderBasePath = path.resolve("./packages"); // Adjust this path as needed
 
 // Function to ensure directory exists
 function ensureDirectoryExists(dirPath: string) {
@@ -21,8 +21,6 @@ function ensureDirectoryExists(dirPath: string) {
     console.log(`Creating directory: ${dirPath}`);
     fs.mkdirSync(dirPath, { recursive: true });
   }
- 
-
 }
 
 // Main function
@@ -44,15 +42,13 @@ async function main() {
       console.log(`Ensured category folder exists: ${category.key}`);
 
       // Write the README.md of the category folder
-      const readmePath = path.join(categoryFolderPath, 'README.md');
-      fs.writeFileSync(
-        readmePath,
-        `# ${category.name}\n\n${category.description}\n\n`);
+      const readmePath = path.join(categoryFolderPath, "README.md");
+      fs.writeFileSync(readmePath, `# ${category.name}\n\n${category.description}\n\n`);
     }
 
-    console.log('All category folders have been verified and created if needed.');
+    console.log("All category folders have been verified and created if needed.");
   } catch (error) {
-    console.error('Error processing categories:', error);
+    console.error("Error processing categories:", error);
     process.exit(1);
   }
 

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "packageName": "@toolsdk.ai/mixpanel-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for integrating Mixpanel analytics into AI workflows. This server allows AI assistants like Claude to track events, page views, user signups, and update user profiles in Mixpanel.",
+  "url": "https://github.com/moonbirdai/mixpanel-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "MIXPANEL_TOKEN": {
+      "description": "Your Mixpanel token",
+      "required": true
+    }
+  },
+  "name": "Mixpanel MCP Server"
+}

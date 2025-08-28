@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "train_12306",
+  "description": "A command line tool to show 12306 tickets",
+  "url": "https://github.com/ecmadao/Train-12306",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Train 12306"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Google-Analytics",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/GAnalytics.svg/1024px-GAnalytics.svg.png",
+  "packageName": "@toolsdk.ai/google-analytics-mcp",
+  "description": "MCP server for Google Analytics Data API",
+  "url": "https://github.com/alfie-max/mcp-google-analytics",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "GOOGLE_CREDENTIALS": {
+      "description": "YOUR-GOOGLE_CREDENTIALS. eg: \"{\\\"type\\\":\\\"service_account\\\",\\\"project_id\\\":\\\"your-project-id\\\",\\\"private_key_id\\\":\\\"key-id\\\",\\\"private_key\\\":\\\"-----BEGIN PRIVATE KEY-----\\\\n...\\\\n-----END PRIVATE KEY-----\\\\n\\\",\\\"client_email\\\":\\\"your-service-account@your-project-id.iam.gserviceaccount.com\\\",\\\"client_id\\\":\\\"client-id\\\",\\\"auth_uri\\\":\\\"https://accounts.google.com/o/oauth2/auth\\\",\\\"token_uri\\\":\\\"https://oauth2.googleapis.com/token\\\"}\"",
+      "required": true
+    }
+  }
+}
