@@ -14,7 +14,7 @@ async function main() {
   const packageDeps: Record<string, string> = {};
 
   // Check if this is a fresh installation where packages aren't installed yet
-  const nodeModulesExists = fs.existsSync(__dirname + "/../node_modules");
+  const nodeModulesExists = fs.existsSync(`${__dirname}/../node_modules`);
   if (!nodeModulesExists) {
     console.log("⚠️  Node modules not found. This appears to be a fresh installation.");
     console.log("💡 MCP client testing requires packages to be installed first.");
@@ -30,8 +30,7 @@ async function main() {
     const mcpServerConfig = await getPackageConfigByKey(packageKey);
     if (mcpServerConfig.runtime === "node") {
       totalPackages++;
-      const packageJSONFilePath =
-        __dirname + "/../node_modules/" + mcpServerConfig.packageName + "/package.json";
+      const packageJSONFilePath = `${__dirname}/../node_modules/${mcpServerConfig.packageName}/package.json`;
       if (fs.existsSync(packageJSONFilePath)) {
         availablePackages++;
       }

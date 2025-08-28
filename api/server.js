@@ -5,19 +5,19 @@
  * Serves the MCP registry data via HTTP API and provides a simple web interface
  */
 
-import http from 'http';
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import fs from "node:fs/promises";
+import http from "node:http";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 // Import search service with error handling
 let searchService = null;
 try {
-  const { default: service } = await import('./services/search-service.js');
+  const { default: service } = await import("./services/search-service.js");
   searchService = service;
 } catch (error) {
-  console.warn('⚠️  Search service not available:', error.message);
-  console.log('💡 Install meilisearch to enable enhanced search: pnpm add meilisearch');
+  console.warn("⚠️  Search service not available:", error.message);
+  console.log("💡 Install meilisearch to enable enhanced search: pnpm add meilisearch");
 }
 
 const __filename = fileURLToPath(import.meta.url);
@@ -25,35 +25,35 @@ const __dirname = path.dirname(__filename);
 
 // Configuration
 const PORT = process.env.PORT || 3000;
-const HOST = process.env.HOST || 'localhost';
+const HOST = process.env.HOST || "localhost";
 
 // Helper function to get MIME type
 function getMimeType(filePath) {
   const ext = path.extname(filePath).toLowerCase();
   const mimeTypes = {
-    '.html': 'text/html',
-    '.css': 'text/css',
-    '.js': 'application/javascript',
-    '.json': 'application/json',
-    '.png': 'image/png',
-    '.jpg': 'image/jpeg',
-    '.jpeg': 'image/jpeg',
-    '.gif': 'image/gif',
-    '.svg': 'image/svg+xml',
-    '.ico': 'image/x-icon',
-    '.txt': 'text/plain',
-    '.md': 'text/markdown'
+    ".html": "text/html",
+    ".css": "text/css",
+    ".js": "application/javascript",
+    ".json": "application/json",
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".gif": "image/gif",
+    ".svg": "image/svg+xml",
+    ".ico": "image/x-icon",
+    ".txt": "text/plain",
+    ".md": "text/markdown",
   };
-  return mimeTypes[ext] || 'application/octet-stream';
+  return mimeTypes[ext] || "application/octet-stream";
 }
 
 // Helper function to send JSON response
 function sendJSON(res, data, statusCode = 200) {
   res.writeHead(statusCode, {
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type'
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
   });
   res.end(JSON.stringify(data, null, 2));
 }
@@ -68,14 +68,14 @@ async function serveStaticFile(res, filePath) {
   try {
     const data = await fs.readFile(filePath);
     const mimeType = getMimeType(filePath);
-    
+
     res.writeHead(200, {
-      'Content-Type': mimeType,
-      'Access-Control-Allow-Origin': '*'
+      "Content-Type": mimeType,
+      "Access-Control-Allow-Origin": "*",
     });
     res.end(data);
     return true;
-  } catch (error) {
+  } catch (_error) {
     return false;
   }
 }
@@ -851,11 +851,11 @@ async function handleRequest(req, res) {
   console.log(`${new Date().toISOString()} - ${method} ${pathname}`);
 
   // Handle CORS preflight
-  if (method === 'OPTIONS') {
+  if (method === "OPTIONS") {
     res.writeHead(200, {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type'
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
     });
     res.end();
     return;
@@ -863,56 +863,62 @@ async function handleRequest(req, res) {
 
   try {
     // Homepage
-    if (pathname === '/') {
-      res.writeHead(200, { 'Content-Type': 'text/html' });
+    if (pathname === "/") {
+      res.writeHead(200, { "Content-Type": "text/html" });
       res.end(generateHomepage());
       return;
     }
 
     // Health check
-    if (pathname === '/health') {
-      sendJSON(res, { 
-        status: 'ok', 
+    if (pathname === "/health") {
+      sendJSON(res, {
+        status: "ok",
         timestamp: new Date().toISOString(),
         uptime: process.uptime(),
-        version: process.env.npm_package_version || '1.0.0'
+        version: process.env.npm_package_version || "1.0.0",
       });
       return;
     }
 
     // API Routes
-    if (pathname.startsWith('/api/')) {
+    if (pathname.startsWith("/api/")) {
       const apiPath = pathname.substring(4); // Remove '/api'
 
       // Get all packages
-      if (apiPath === '/packages') {
+      if (apiPath === "/packages") {
         try {
-          const packagesData = await fs.readFile(path.join(__dirname, '..', 'indexes', 'packages-list.json'), 'utf8');
+          const packagesData = await fs.readFile(
+            path.join(__dirname, "..", "indexes", "packages-list.json"),
+            "utf8",
+          );
           const packages = JSON.parse(packagesData);
           sendJSON(res, packages);
           return;
-        } catch (error) {
-          sendError(res, 'Packages data not found. Run build first.', 404);
+        } catch (_error) {
+          sendError(res, "Packages data not found. Run build first.", 404);
           return;
         }
       }
 
       // Get all categories
-      if (apiPath === '/categories') {
+      if (apiPath === "/categories") {
         try {
-          const categoriesData = await fs.readFile(path.join(__dirname, '..', 'indexes', 'categories-list.json'), 'utf8');
+          const categoriesData = await fs.readFile(
+            path.join(__dirname, "..", "indexes", "categories-list.json"),
+            "utf8",
+          );
           const categories = JSON.parse(categoriesData);
           sendJSON(res, categories);
           return;
-        } catch (error) {
-          sendError(res, 'Categories data not found. Run build first.', 404);
+        } catch (_error) {
+          sendError(res, "Categories data not found. Run build first.", 404);
           return;
         }
       }
 
       // Enhanced search with MeiliSearch
-      if (apiPath === '/search') {
-        const query = url.searchParams.get('q');
+      if (apiPath === "/search") {
+        const query = url.searchParams.get("q");
         if (!query) {
           sendError(res, 'Query parameter "q" is required', 400);
           return;
@@ -920,47 +926,51 @@ async function handleRequest(req, res) {
 
         try {
           // Try MeiliSearch first
-          if (searchService && searchService.isInitialized) {
-            const limit = parseInt(url.searchParams.get('limit')) || 20;
-            const offset = parseInt(url.searchParams.get('offset')) || 0;
-            const category = url.searchParams.get('category');
-            const validated = url.searchParams.get('validated');
-            const sort = url.searchParams.get('sort');
-            
+          if (searchService?.isInitialized) {
+            const limit = parseInt(url.searchParams.get("limit"), 10) || 20;
+            const offset = parseInt(url.searchParams.get("offset"), 10) || 0;
+            const category = url.searchParams.get("category");
+            const validated = url.searchParams.get("validated");
+            const sort = url.searchParams.get("sort");
+
             const filters = [];
             if (category) filters.push(`category = "${category}"`);
-            if (validated) filters.push(`validated = ${validated === 'true'}`);
-            
+            if (validated) filters.push(`validated = ${validated === "true"}`);
+
             const searchOptions = {
               limit,
               offset,
-              filter: filters.length > 0 ? filters.join(' AND ') : null,
-              sort: sort ? [sort] : undefined
+              filter: filters.length > 0 ? filters.join(" AND ") : null,
+              sort: sort ? [sort] : undefined,
             };
-            
+
             const results = await searchService.search(query, searchOptions);
             sendJSON(res, results);
             return;
           }
-          
+
           // Fallback to basic search if MeiliSearch is not available
-          console.warn('MeiliSearch not available, falling back to basic search');
-          const packagesData = await fs.readFile(path.join(__dirname, '..', 'indexes', 'packages-list.json'), 'utf8');
+          console.warn("MeiliSearch not available, falling back to basic search");
+          const packagesData = await fs.readFile(
+            path.join(__dirname, "..", "indexes", "packages-list.json"),
+            "utf8",
+          );
           const packages = JSON.parse(packagesData);
-          
+
           const searchTerm = query.toLowerCase();
           const packagesArray = Object.entries(packages).map(([name, data]) => ({
             ...data,
             packageName: name,
-            name: data.name || name
+            name: data.name || name,
           }));
-          
-          const results = packagesArray.filter(pkg => 
-            pkg.name?.toLowerCase().includes(searchTerm) ||
-            pkg.description?.toLowerCase().includes(searchTerm) ||
-            pkg.packageName?.toLowerCase().includes(searchTerm)
+
+          const results = packagesArray.filter(
+            (pkg) =>
+              pkg.name?.toLowerCase().includes(searchTerm) ||
+              pkg.description?.toLowerCase().includes(searchTerm) ||
+              pkg.packageName?.toLowerCase().includes(searchTerm),
           );
-          
+
           sendJSON(res, {
             hits: results,
             query: query,
@@ -968,150 +978,156 @@ async function handleRequest(req, res) {
             limit: results.length,
             offset: 0,
             estimatedTotalHits: results.length,
-            fallback: true
+            fallback: true,
           });
           return;
         } catch (error) {
-          console.error('Search error:', error);
-          sendError(res, 'Search failed: ' + error.message, 500);
+          console.error("Search error:", error);
+          sendError(res, `Search failed: ${error.message}`, 500);
           return;
         }
       }
 
       // Search suggestions
-      if (apiPath === '/search/suggest') {
-        const query = url.searchParams.get('q');
+      if (apiPath === "/search/suggest") {
+        const query = url.searchParams.get("q");
         if (!query) {
           sendError(res, 'Query parameter "q" is required', 400);
           return;
         }
 
         try {
-          if (searchService && searchService.isInitialized) {
-            const limit = parseInt(url.searchParams.get('limit')) || 10;
+          if (searchService?.isInitialized) {
+            const limit = parseInt(url.searchParams.get("limit"), 10) || 10;
             const suggestions = await searchService.suggest(query, limit);
             sendJSON(res, suggestions);
             return;
           }
-          
-          sendError(res, 'Search suggestions not available. MeiliSearch required.', 503);
+
+          sendError(res, "Search suggestions not available. MeiliSearch required.", 503);
           return;
         } catch (error) {
-          console.error('Suggestions error:', error);
-          sendError(res, 'Suggestions failed: ' + error.message, 500);
+          console.error("Suggestions error:", error);
+          sendError(res, `Suggestions failed: ${error.message}`, 500);
           return;
         }
       }
 
       // Search facets
-      if (apiPath === '/search/facets') {
+      if (apiPath === "/search/facets") {
         try {
-          if (searchService && searchService.isInitialized) {
+          if (searchService?.isInitialized) {
             const facets = await searchService.getFacets();
             sendJSON(res, facets);
             return;
           }
-          
-          sendError(res, 'Search facets not available. MeiliSearch required.', 503);
+
+          sendError(res, "Search facets not available. MeiliSearch required.", 503);
           return;
         } catch (error) {
-          console.error('Facets error:', error);
-          sendError(res, 'Facets failed: ' + error.message, 500);
+          console.error("Facets error:", error);
+          sendError(res, `Facets failed: ${error.message}`, 500);
           return;
         }
       }
 
       // Index rebuild (POST endpoint)
-      if (apiPath === '/search/index' && method === 'POST') {
+      if (apiPath === "/search/index" && method === "POST") {
         try {
           if (!searchService) {
-            sendError(res, 'Search service not available. Install meilisearch first.', 503);
+            sendError(res, "Search service not available. Install meilisearch first.", 503);
             return;
           }
-          
+
           if (!searchService.isInitialized) {
             await searchService.initialize();
           }
-          
+
           const stats = await searchService.indexPackages();
           sendJSON(res, {
             success: true,
-            message: 'Index rebuilt successfully',
-            stats: stats
+            message: "Index rebuilt successfully",
+            stats: stats,
           });
           return;
         } catch (error) {
-          console.error('Index rebuild error:', error);
-          sendError(res, 'Index rebuild failed: ' + error.message, 500);
+          console.error("Index rebuild error:", error);
+          sendError(res, `Index rebuild failed: ${error.message}`, 500);
           return;
         }
       }
 
       // Search health check
-      if (apiPath === '/search/health') {
+      if (apiPath === "/search/health") {
         try {
           if (!searchService) {
-            sendJSON(res, {
-              status: 'unavailable',
-              error: 'Search service not loaded. Install meilisearch first.',
-              host: 'N/A',
-              initialized: false
-            }, 503);
+            sendJSON(
+              res,
+              {
+                status: "unavailable",
+                error: "Search service not loaded. Install meilisearch first.",
+                host: "N/A",
+                initialized: false,
+              },
+              503,
+            );
             return;
           }
-          
+
           const health = await searchService.healthCheck();
-          sendJSON(res, health, health.status === 'healthy' ? 200 : 503);
+          sendJSON(res, health, health.status === "healthy" ? 200 : 503);
           return;
         } catch (error) {
-          sendError(res, 'Health check failed: ' + error.message, 500);
+          sendError(res, `Health check failed: ${error.message}`, 500);
           return;
         }
       }
 
       // Get packages by category
-      if (apiPath.startsWith('/packages/')) {
+      if (apiPath.startsWith("/packages/")) {
         const category = apiPath.substring(10); // Remove '/packages/'
         try {
-          const packagesData = await fs.readFile(path.join(__dirname, '..', 'indexes', 'packages-list.json'), 'utf8');
+          const packagesData = await fs.readFile(
+            path.join(__dirname, "..", "indexes", "packages-list.json"),
+            "utf8",
+          );
           const packages = JSON.parse(packagesData);
-          
-          const categoryPackages = packages.filter(pkg => pkg.category === category);
+
+          const categoryPackages = packages.filter((pkg) => pkg.category === category);
           sendJSON(res, categoryPackages);
           return;
-        } catch (error) {
-          sendError(res, 'Packages data not found. Run build first.', 404);
+        } catch (_error) {
+          sendError(res, "Packages data not found. Run build first.", 404);
           return;
         }
       }
 
-      sendError(res, 'API endpoint not found', 404);
+      sendError(res, "API endpoint not found", 404);
       return;
     }
 
     // Static file serving
-    const rootDir = path.join(__dirname, '..');
+    const rootDir = path.join(__dirname, "..");
     let filePath;
 
     // Serve index files
-    if (pathname.startsWith('/indexes/')) {
+    if (pathname.startsWith("/indexes/")) {
       filePath = path.join(rootDir, pathname.substring(1));
     }
     // Serve package files
-    else if (pathname.startsWith('/packages/')) {
+    else if (pathname.startsWith("/packages/")) {
       filePath = path.join(rootDir, pathname.substring(1));
     }
     // Serve config files
-    else if (pathname.startsWith('/config/')) {
+    else if (pathname.startsWith("/config/")) {
       filePath = path.join(rootDir, pathname.substring(1));
     }
     // Serve README
-    else if (pathname === '/README.md') {
-      filePath = path.join(rootDir, 'README.md');
-    }
-    else {
-      res.writeHead(404, { 'Content-Type': 'text/plain' });
-      res.end('404 - Not Found');
+    else if (pathname === "/README.md") {
+      filePath = path.join(rootDir, "README.md");
+    } else {
+      res.writeHead(404, { "Content-Type": "text/plain" });
+      res.end("404 - Not Found");
       return;
     }
 
@@ -1121,31 +1137,30 @@ async function handleRequest(req, res) {
     }
 
     // File not found
-    res.writeHead(404, { 'Content-Type': 'text/plain' });
-    res.end('404 - File Not Found');
-
-  } catch (error) {
-    console.error('Server error:', error);
-    sendError(res, 'Internal Server Error', 500);
+    res.writeHead(404, { "Content-Type": "text/plain" });
+    res.end("404 - File Not Found");
+  } catch (_error) {
+    console.error("Server error:", error);
+    sendError(res, "Internal Server Error", 500);
   }
 }
 
 // Initialize search service on startup
 async function initializeServer() {
   if (!searchService) {
-    console.log('📝 Search service not available - enhanced search features disabled');
-    console.log('💡 To enable enhanced search, install MeiliSearch: pnpm add meilisearch');
+    console.log("📝 Search service not available - enhanced search features disabled");
+    console.log("💡 To enable enhanced search, install MeiliSearch: pnpm add meilisearch");
     return;
   }
-  
+
   try {
-    console.log('🔄 Initializing search service...');
+    console.log("🔄 Initializing search service...");
     await searchService.initialize();
-    console.log('✅ Search service ready');
+    console.log("✅ Search service ready");
   } catch (error) {
-    console.warn('⚠️  Search service initialization failed:', error.message);
-    console.log('📝 Server will start without enhanced search capabilities');
-    console.log('💡 To enable enhanced search, make sure MeiliSearch is running');
+    console.warn("⚠️  Search service initialization failed:", error.message);
+    console.log("📝 Server will start without enhanced search capabilities");
+    console.log("💡 To enable enhanced search, make sure MeiliSearch is running");
   }
 }
 
@@ -1157,24 +1172,24 @@ server.listen(PORT, HOST, async () => {
   console.log(`📊 API available at http://${HOST}:${PORT}/api/`);
   console.log(`🔍 Health check: http://${HOST}:${PORT}/health`);
   console.log(`📖 Documentation: http://${HOST}:${PORT}/`);
-  
+
   // Initialize search service after server starts
   await initializeServer();
 });
 
 // Graceful shutdown
-process.on('SIGTERM', () => {
-  console.log('Received SIGTERM, shutting down gracefully...');
+process.on("SIGTERM", () => {
+  console.log("Received SIGTERM, shutting down gracefully...");
   server.close(() => {
-    console.log('Server closed.');
+    console.log("Server closed.");
     process.exit(0);
   });
 });
 
-process.on('SIGINT', () => {
-  console.log('Received SIGINT, shutting down gracefully...');
+process.on("SIGINT", () => {
+  console.log("Received SIGINT, shutting down gracefully...");
   server.close(() => {
-    console.log('Server closed.');
+    console.log("Server closed.");
     process.exit(0);
   });
 });

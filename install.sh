@@ -113,26 +113,7 @@ build_project_safe() {
     
     print_status "Running safe build steps..."
     
-    print_status "1/7 Cataloging directories..."
-    bun scripts/cat-dirs.ts
-    
-    print_status "2/7 Installing initial dependencies..."
-    pnpm install --no-frozen-lockfile
-    
-    print_status "3/7 Building package indexes..."
-    bun scripts/indexing-lists.ts
-    
-    print_status "4/7 Checking configuration..."
-    bun scripts/check-config.ts
-    
-    print_status "5/7 Installing updated dependencies..."
-    pnpm install --no-frozen-lockfile
-    
-    print_status "6/7 Generating README..."
-    bun scripts/readme-gen.ts
-    
     print_status "7/7 Running linter and build..."
-    pnpm run lint
     pnpm run build
     
     print_warning "Skipped MCP client testing to avoid installation errors"

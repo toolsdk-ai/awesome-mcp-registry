@@ -5,10 +5,10 @@
  * Handles search indexing and querying for MCP packages
  */
 
-import { MeiliSearch } from 'meilisearch';
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import fs from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { MeiliSearch } from "meilisearch";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -16,16 +16,16 @@ const __dirname = path.dirname(__filename);
 class SearchService {
   constructor() {
     // MeiliSearch configuration
-    this.host = process.env.MEILI_HTTP_ADDR || 'http://localhost:7700';
+    this.host = process.env.MEILI_HTTP_ADDR || "http://localhost:7700";
     this.apiKey = process.env.MEILI_MASTER_KEY || null;
-    this.indexName = 'mcp-packages';
-    
+    this.indexName = "mcp-packages";
+
     // Initialize MeiliSearch client
     this.client = new MeiliSearch({
       host: this.host,
-      apiKey: this.apiKey
+      apiKey: this.apiKey,
     });
-    
+
     this.index = null;
     this.isInitialized = false;
   }
@@ -36,35 +36,34 @@ class SearchService {
   async initialize() {
     try {
       console.log(`Connecting to MeiliSearch at ${this.host}...`);
-      
+
       // Check if MeiliSearch is running
       await this.client.health();
-      console.log('✅ MeiliSearch is healthy');
+      console.log("✅ MeiliSearch is healthy");
 
       // Create or get the index
       try {
-        await this.client.createIndex(this.indexName, { primaryKey: 'id' });
+        await this.client.createIndex(this.indexName, { primaryKey: "id" });
         console.log(`✅ Created new index: ${this.indexName}`);
       } catch (error) {
-        if (error.message.includes('already exists')) {
+        if (error.message.includes("already exists")) {
           console.log(`✅ Using existing index: ${this.indexName}`);
         } else {
           throw error;
         }
       }
-      
+
       // Get the index object
       this.index = this.client.index(this.indexName);
 
       // Configure search settings
       await this.configureIndex();
-      
+
       this.isInitialized = true;
-      console.log('✅ Search service initialized successfully');
-      
+      console.log("✅ Search service initialized successfully");
     } catch (error) {
-      console.error('❌ Failed to initialize search service:', error.message);
-      console.log('💡 Make sure MeiliSearch is running on', this.host);
+      console.error("❌ Failed to initialize search service:", error.message);
+      console.log("💡 Make sure MeiliSearch is running on", this.host);
       throw error;
     }
   }
@@ -77,51 +76,41 @@ class SearchService {
       // Configure searchable attributes (ranked by importance)
       await this.index.updateSettings({
         searchableAttributes: [
-          'name',
-          'packageName', 
-          'description',
-          'tools',
-          'category',
-          'author',
-          'keywords'
+          "name",
+          "packageName",
+          "description",
+          "tools",
+          "category",
+          "author",
+          "keywords",
         ],
         // Configure filterable attributes
-        filterableAttributes: [
-          'category',
-          'validated',
-          'author',
-          'hasTools',
-          'popularity'
-        ],
+        filterableAttributes: ["category", "validated", "author", "hasTools", "popularity"],
         // Configure sortable attributes
-        sortableAttributes: [
-          'popularity',
-          'name',
-          'category'
-        ],
+        sortableAttributes: ["popularity", "name", "category"],
         // Configure ranking rules for relevance
         rankingRules: [
-          'words',
-          'typo',
-          'proximity', 
-          'attribute',
-          'sort',
-          'exactness',
-          'popularity:desc'
+          "words",
+          "typo",
+          "proximity",
+          "attribute",
+          "sort",
+          "exactness",
+          "popularity:desc",
         ],
         // Configure synonyms for better search
         synonyms: {
-          'ai': ['artificial intelligence', 'machine learning', 'ml'],
-          'db': ['database'],
-          'api': ['rest', 'graphql'],
-          'auth': ['authentication', 'authorization'],
-          'mcp': ['model context protocol']
-        }
+          ai: ["artificial intelligence", "machine learning", "ml"],
+          db: ["database"],
+          api: ["rest", "graphql"],
+          auth: ["authentication", "authorization"],
+          mcp: ["model context protocol"],
+        },
       });
 
-      console.log('✅ Search index configured');
+      console.log("✅ Search index configured");
     } catch (error) {
-      console.error('❌ Failed to configure index:', error.message);
+      console.error("❌ Failed to configure index:", error.message);
       throw error;
     }
   }
@@ -133,8 +122,10 @@ class SearchService {
     // Extract tools information
     const tools = packageData.tools || {};
     const toolNames = Object.keys(tools);
-    const toolDescriptions = Object.values(tools).map(t => t.description || '').join(' ');
-    
+    const toolDescriptions = Object.values(tools)
+      .map((t) => t.description || "")
+      .join(" ");
+
     // Calculate basic popularity score (can be enhanced with real metrics)
     const popularity = this.calculatePopularityScore(packageData);
 
@@ -145,16 +136,16 @@ class SearchService {
       id: safeId,
       name: packageData.name || packageName,
       packageName: packageName,
-      description: packageData.description || '',
-      category: packageData.category || 'uncategorized',
+      description: packageData.description || "",
+      category: packageData.category || "uncategorized",
       validated: packageData.validated || false,
       author: this.extractAuthor(packageName),
-      tools: toolNames.join(' ') + ' ' + toolDescriptions,
+      tools: `${toolNames.join(" ")} ${toolDescriptions}`,
       toolCount: toolNames.length,
       hasTools: toolNames.length > 0,
       keywords: this.extractKeywords(packageData, packageName),
       popularity: popularity,
-      path: packageData.path || ''
+      path: packageData.path || "",
     };
   }
 
@@ -163,11 +154,11 @@ class SearchService {
    */
   createSafeId(packageName) {
     return packageName
-      .replace(/@/g, 'at-')
-      .replace(/\//g, '-')
-      .replace(/\./g, '_')
-      .replace(/:/g, '-')
-      .replace(/[^a-zA-Z0-9\-_]/g, '_')
+      .replace(/@/g, "at-")
+      .replace(/\//g, "-")
+      .replace(/\./g, "_")
+      .replace(/:/g, "-")
+      .replace(/[^a-zA-Z0-9\-_]/g, "_")
       .substring(0, 500); // Keep under 511 byte limit
   }
 
@@ -176,17 +167,17 @@ class SearchService {
    */
   calculatePopularityScore(packageData) {
     let score = 0;
-    
+
     // Boost for validated packages
     if (packageData.validated) score += 10;
-    
+
     // Boost for packages with tools
     const toolCount = Object.keys(packageData.tools || {}).length;
     score += toolCount * 2;
-    
+
     // Boost for packages with good descriptions
     if (packageData.description && packageData.description.length > 50) score += 5;
-    
+
     return score;
   }
 
@@ -194,10 +185,10 @@ class SearchService {
    * Extract author from package name
    */
   extractAuthor(packageName) {
-    if (packageName.startsWith('@')) {
-      return packageName.split('/')[0].substring(1);
+    if (packageName.startsWith("@")) {
+      return packageName.split("/")[0].substring(1);
     }
-    return '';
+    return "";
   }
 
   /**
@@ -205,26 +196,39 @@ class SearchService {
    */
   extractKeywords(packageData, packageName) {
     const keywords = [];
-    
+
     // Add category as keyword
     if (packageData.category) {
-      keywords.push(packageData.category.replace(/-/g, ' '));
+      keywords.push(packageData.category.replace(/-/g, " "));
     }
-    
+
     // Extract keywords from description
     if (packageData.description) {
       const desc = packageData.description.toLowerCase();
-      const commonKeywords = ['api', 'database', 'auth', 'search', 'ai', 'ml', 'tool', 'server', 'client'];
-      commonKeywords.forEach(keyword => {
+      const commonKeywords = [
+        "api",
+        "database",
+        "auth",
+        "search",
+        "ai",
+        "ml",
+        "tool",
+        "server",
+        "client",
+      ];
+      commonKeywords.forEach((keyword) => {
         if (desc.includes(keyword)) keywords.push(keyword);
       });
     }
-    
+
     // Extract from package name
-    const nameWords = packageName.replace(/[@\/\-_]/g, ' ').split(' ').filter(w => w.length > 2);
+    const nameWords = packageName
+      .replace(/[@/\-_]/g, " ")
+      .split(" ")
+      .filter((w) => w.length > 2);
     keywords.push(...nameWords);
-    
-    return [...new Set(keywords)].join(' ');
+
+    return [...new Set(keywords)].join(" ");
   }
 
   /**
@@ -232,49 +236,52 @@ class SearchService {
    */
   async indexPackages() {
     if (!this.isInitialized) {
-      throw new Error('Search service not initialized. Call initialize() first.');
+      throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
-      console.log('📥 Loading packages data...');
-      
-      const packagesPath = path.join(__dirname, '..', '..', 'indexes', 'packages-list.json');
-      const packagesData = await fs.readFile(packagesPath, 'utf8');
+      console.log("📥 Loading packages data...");
+
+      const packagesPath = path.join(__dirname, "..", "..", "indexes", "packages-list.json");
+      const packagesData = await fs.readFile(packagesPath, "utf8");
       const packages = JSON.parse(packagesData);
-      
+
       console.log(`📦 Found ${Object.keys(packages).length} packages to index`);
-      
+
       // Transform packages for indexing
-      const documents = Object.entries(packages).map(([packageName, packageData]) => 
-        this.transformPackageForIndex(packageName, packageData)
+      const documents = Object.entries(packages).map(([packageName, packageData]) =>
+        this.transformPackageForIndex(packageName, packageData),
       );
-      
-      console.log('🔄 Indexing packages...');
-      
+
+      console.log("🔄 Indexing packages...");
+
       // Add documents to index in batches
       const batchSize = 1000;
       const batches = [];
       for (let i = 0; i < documents.length; i += batchSize) {
         batches.push(documents.slice(i, i + batchSize));
       }
-      
+
       for (let i = 0; i < batches.length; i++) {
         const batch = batches[i];
         const task = await this.index.addDocuments(batch);
-        console.log(`📝 Indexed batch ${i + 1}/${batches.length} (${batch.length} documents) - Task ID: ${task.taskUid}`);
-        
+        console.log(
+          `📝 Indexed batch ${i + 1}/${batches.length} (${batch.length} documents) - Task ID: ${task.taskUid}`,
+        );
+
         // Wait for task completion
+        // FIXME this.client.waitForTask is not a function
+        // await this.client.tasks(task.taskUid).waitForTasks();
         await this.client.waitForTask(task.taskUid);
       }
-      
+
       // Get final stats
       const stats = await this.index.getStats();
       console.log(`✅ Indexing complete! ${stats.numberOfDocuments} documents indexed`);
-      
+
       return stats;
-      
     } catch (error) {
-      console.error('❌ Failed to index packages:', error.message);
+      console.error("❌ Failed to index packages:", error.message);
       throw error;
     }
   }
@@ -284,7 +291,7 @@ class SearchService {
    */
   async search(query, options = {}) {
     if (!this.isInitialized) {
-      throw new Error('Search service not initialized. Call initialize() first.');
+      throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
@@ -292,29 +299,28 @@ class SearchService {
         limit: options.limit || 20,
         offset: options.offset || 0,
         filter: options.filter || null,
-        sort: options.sort || ['popularity:desc'],
-        attributesToHighlight: ['name', 'description'],
-        attributesToCrop: ['description'],
+        sort: options.sort || ["popularity:desc"],
+        attributesToHighlight: ["name", "description"],
+        attributesToCrop: ["description"],
         cropLength: 100,
-        highlightPreTag: '<mark>',
-        highlightPostTag: '</mark>',
-        matchingStrategy: options.matchingStrategy || 'last',
-        ...options
+        highlightPreTag: "<mark>",
+        highlightPostTag: "</mark>",
+        matchingStrategy: options.matchingStrategy || "last",
+        ...options,
       };
 
       const results = await this.index.search(query, searchOptions);
-      
+
       return {
         hits: results.hits,
         query: results.query,
         processingTimeMs: results.processingTimeMs,
         limit: results.limit,
         offset: results.offset,
-        estimatedTotalHits: results.estimatedTotalHits
+        estimatedTotalHits: results.estimatedTotalHits,
       };
-      
     } catch (error) {
-      console.error('❌ Search failed:', error.message);
+      console.error("❌ Search failed:", error.message);
       throw error;
     }
   }
@@ -324,26 +330,25 @@ class SearchService {
    */
   async suggest(query, limit = 10) {
     if (!this.isInitialized) {
-      throw new Error('Search service not initialized. Call initialize() first.');
+      throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
       const results = await this.index.search(query, {
         limit: limit,
-        attributesToRetrieve: ['name', 'packageName', 'category'],
-        attributesToHighlight: ['name'],
-        cropLength: 0
+        attributesToRetrieve: ["name", "packageName", "category"],
+        attributesToHighlight: ["name"],
+        cropLength: 0,
       });
 
-      return results.hits.map(hit => ({
+      return results.hits.map((hit) => ({
         name: hit.name,
         packageName: hit.packageName,
         category: hit.category,
-        highlighted: hit._formatted?.name || hit.name
+        highlighted: hit._formatted?.name || hit.name,
       }));
-      
     } catch (error) {
-      console.error('❌ Suggestions failed:', error.message);
+      console.error("❌ Suggestions failed:", error.message);
       throw error;
     }
   }
@@ -353,19 +358,18 @@ class SearchService {
    */
   async getFacets() {
     if (!this.isInitialized) {
-      throw new Error('Search service not initialized. Call initialize() first.');
+      throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
-      const results = await this.index.search('', {
+      const results = await this.index.search("", {
         limit: 0,
-        facets: ['category', 'validated', 'author']
+        facets: ["category", "validated", "author"],
       });
 
       return results.facetDistribution;
-      
     } catch (error) {
-      console.error('❌ Failed to get facets:', error.message);
+      console.error("❌ Failed to get facets:", error.message);
       throw error;
     }
   }
@@ -375,13 +379,13 @@ class SearchService {
    */
   async getStats() {
     if (!this.isInitialized) {
-      throw new Error('Search service not initialized. Call initialize() first.');
+      throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
       return await this.index.getStats();
     } catch (error) {
-      console.error('❌ Failed to get stats:', error.message);
+      console.error("❌ Failed to get stats:", error.message);
       throw error;
     }
   }
@@ -391,15 +395,18 @@ class SearchService {
    */
   async clearIndex() {
     if (!this.isInitialized) {
-      throw new Error('Search service not initialized. Call initialize() first.');
+      throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
       const task = await this.index.deleteAllDocuments();
-      await this.client.waitForTask(task.taskUid);
-      console.log('✅ Index cleared');
+      // FIXME this.client.waitForTask is not a function
+      // await this.client.tasks(task.taskUid).waitForTasks();
+      await this.waitForTasks({ ids: [task.taskUid] });
+      // await this.client.tasks(task.taskUid).wait();
+      console.log("✅ Index cleared");
     } catch (error) {
-      console.error('❌ Failed to clear index:', error.message);
+      console.error("❌ Failed to clear index:", error.message);
       throw error;
     }
   }
@@ -411,20 +418,20 @@ class SearchService {
     try {
       await this.client.health();
       const stats = this.isInitialized ? await this.getStats() : null;
-      
+
       return {
-        status: 'healthy',
+        status: "healthy",
         host: this.host,
         initialized: this.isInitialized,
         indexName: this.indexName,
-        documentCount: stats?.numberOfDocuments || 0
+        documentCount: stats?.numberOfDocuments || 0,
       };
     } catch (error) {
       return {
-        status: 'unhealthy',
+        status: "unhealthy",
         error: error.message,
         host: this.host,
-        initialized: false
+        initialized: false,
       };
     }
   }

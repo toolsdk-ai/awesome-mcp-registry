@@ -27,7 +27,7 @@ export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfi
 }
 
 export function getPackageJSON(packageName: string) {
-  const packageJSONFilePath = __dirname + "/../node_modules/" + packageName + "/package.json";
+  const packageJSONFilePath = `${__dirname}/../node_modules/${packageName}/package.json`;
 
   // Check if the package exists in node_modules
   if (!fs.existsSync(packageJSONFilePath)) {
@@ -151,6 +151,7 @@ export function updatePackageJsonDependencies({
     "@hono/swagger-ui": "^0.5.2",
     "@hono/zod-openapi": "^0.16.4",
     "@iarna/toml": "^2.2.5",
+    meilisearch: "^0.33.0",
     lodash: "^4.17.21",
     zod: "^3.23.30",
     axios: "^1.9.0",
