@@ -2,13 +2,13 @@
 
 [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily)](https://www.producthunt.com/products/toolsdk-ai)
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4091-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4104-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
 
 Welcome to the Awesome MCP Registry.
 
-An open, high-quality, well-structured and developer-friendly list of 4091+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4104+ MCP servers.
 
 
 
@@ -106,9 +106,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (712)
+✅: Validated and runnable tools (720)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3378))
+❌: Cannot be run by the MCP client (with mock environments variables (3384))
 
 
 
@@ -480,6 +480,7 @@ Explore art collections, museums, and cultural heritage with AI-friendly tools.
 Tools for browsing, scraping, and automating web content in AI-compatible formats.
 
 - [❌ choreograph-(playwright-browser-&-electron-automation)](https://github.com/snowfort-ai/circuit-mcp): Automates web browsers and Electron desktop applications using Playwright with support for Chromium, Firefox, and WebKit, enabling clicking, typing, screenshots, JavaScript evaluation, navigation, window management, and file system operations for testing and application interaction workflows.  (node) 
+- [✅ @playwright/mcp](https://github.com/microsoft/playwright-mcp): A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.  (21 tools) (node) 
 - [❌ jina-reader](https://github.com/wong2/mcp-jina-reader): Convert web content to readable Markdown format.  (node) 
 - [❌ browse-together-(playwright)](https://github.com/canadaduane/browse-together-mcp): A co-browser controlled by both you and your AI assistant  (node) 
 - [❌ mcp-browser-use](https://github.com/vinayak-mehta/mcp-browser-use): Enables web browsing capabilities for any MCP client through a simple command that leverages your existing LLM configuration without additional API costs.  (python) 
@@ -571,6 +572,7 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 - [❌ moling](https://github.com/gojue/moling): Enables AI to interact with local system resources through a secure, configurable server that provides browser automation, file operations, and command execution with robust security measures.  (go) 
 - [❌ @djyde/browser-mcp](https://github.com/djyde/browser-mcp): Browser extension that enables real-time interaction with web pages, allowing retrieval of content as markdown, CSS styling modifications, and browser history searches.  (node) 
 - [❌ chrome-browser-control](https://github.com/lxe/chrome-mcp): Enables fine-grained control over Chrome browser instances through the Chrome DevTools Protocol, allowing web navigation, element interaction, text input, and content extraction with automatic handling of dynamic content.  (node) 
+- [✅ @agentdeskai/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp): A Model Context Protocol (MCP) server that provides AI-powered browser tools integration. This server works in conjunction with the Browser Tools Server to provide AI capabilities for browser debugging and analysis.  (14 tools) (node) 
 - [❌ playwright-lighthouse](https://github.com/kbyk004-diy/playwright-lighthouse-mcp): Combines Playwright's browser automation with Lighthouse's auditing capabilities to analyze website performance, generate detailed reports, and capture screenshots for web development optimization.  (node) 
 - [❌ puppeteer-vision-mcp-server](https://github.com/djannot/puppeteer-vision-mcp): Automates web scraping by intelligently handling cookie banners, CAPTCHAs, and paywalls to extract clean markdown content from websites  (node) 
 - [❌ scrapybara-(virtual-ubuntu)](https://github.com/scrapybara/scrapybara-mcp): Provides a bridge to virtual Ubuntu desktops for browsing the web, running code, and automating tasks through a sandboxed environment with bash command execution and natural language control.  (node) 
@@ -664,6 +666,7 @@ Integrate with cloud services to manage and interact with cloud infrastructure.
 - [❌ aws-nova-canvas](https://github.com/yunwoong7/aws-nova-canvas-mcp): Bridges to Amazon's Nova Canvas image generation model through AWS Bedrock, enabling AI-powered image creation with configurable storage options.  (python) 
 - [✅ aliyun-mcp-server](https://github.com/nailuogg/aliyun-mcp-server): Integrates with Alibaba Cloud services to query and filter SLS logs, with future support for ECS instance management and serverless function deployment.  (1 tools) (node) 
 - [❌ mcp-clever-demo](https://github.com/davlgd/mcp-clever-demo): Integrates with Clever Cloud's tools and services to enable application deployment, environment management, and resource monitoring.  (node) 
+- [❌ mcp-handler](https://github.com/vercel/mcp-adapter): A Vercel adapter for the Model Context Protocol (MCP), enabling real-time communication between your applications and AI models. Currently supports Next.js with more framework adapters coming soon.  (node) 
 - [❌ alibaba-cloud-dms](https://github.com/aliyun/alibabacloud-dms-mcp-server): Integrates with Alibaba Cloud's Data Management Service (DMS) API to provide unified metadata access and cross-engine data querying across diverse database ecosystems  (python) 
 - [❌ s3-tools](https://github.com/sofianhamiti/mcp-server-s3): Integrates with AWS S3 to enable bucket listing and management, facilitating cloud storage operations for applications requiring file organization or content delivery.  (python) 
 - [❌ @gutmutcode/mcp-server-cloudflare](https://github.com/gutmutcode/mcp-server-cloudflare): Integrates with Cloudflare's API to enable management of DNS, CDN, and security configurations for web infrastructure automation.  (node) 
@@ -1255,7 +1258,7 @@ Connect with messaging platforms to manage chats and interact with team tools.
 - [❌ systemprompt-mcp-gmail](https://github.com/ejb503/systemprompt-mcp-gmail): Integrates with Gmail to enable natural language-based email management, including searching, reading, deleting, and sending emails with attachment support and conversation threading.  (node) 
 - [✅ @abhaybabbar/retellai-mcp-server](https://github.com/abhaybabbar/retellai-mcp-server): Integrates with RetellAI's voice services for creating and managing phone conversations, enabling call initiation, agent configuration, and voice selection for tasks like customer service, appointment scheduling, and information gathering.  (24 tools) (node) 
 - [❌ feishu-mcp](https://github.com/cso1z/feishu-mcp): Integrates with Feishu (Lark) to enable document retrieval, messaging, and collaborative features directly within workplace conversations through a TypeScript implementation that runs as either a CLI or HTTP server.  (node) 
-- [❌ slack-conversations](https://github.com/korotovsky/slack-mcp-server): Bridges AI with Slack's messaging platform, enabling access to conversation history from channels through secure authentication and flexible transport modes.  (go) 
+- [❌ slack-mcp-server](https://github.com/korotovsky/slack-mcp-server): The most powerful MCP Slack server — supports Stdio and SSE transports, proxy settings, DMs, Group DMs, Smart History fetch (by date or count), may work via OAuth or in complete stealth mode with no permissions and scopes in Workspace.   (node) 
 - [✅ mcp-wechat-moments](https://github.com/geminiwen/mcp-wechat-moments): Enables publishing content to WeChat Moments on macOS through AppleScript automation and mouse event emulation, providing a server interface for social media management workflows.  (1 tools) (python) 
 - [❌ discord-mcp-server](https://github.com/mastra-ai/discord-mcp-server): A Model Context Protocol (MCP) server that enables LLMs to interact with Discord channels, allowing them to send and read messages through Discord's API. Using this server, LLMs like Claude can directly interact with Discord channels while maintaining user control and security.  (node) 
 - [✅ @waystation/mcp](https://github.com/waystation-ai/mcp): Connects productivity tools like Monday, Asana, Notion, and Slack through a secure integration hub, enabling seamless access directly from chat interfaces without switching applications.  (63 tools) (node) 
@@ -1508,7 +1511,7 @@ Securely access and query databases with options for read-only permissions.
 - [❌ graphdb](https://github.com/keonchennl/mcp-graphdb): Provides read-only access to Ontotext GraphDB repositories, enabling exploration of RDF graphs through SPARQL queries and structured views of repository data including class lists, predicates, statistics, and sample data.  (node) 
 - [❌ sqlite-database](https://github.com/santos-404/mcp-server.sqlite): Provides a secure interface for executing validated SELECT queries on SQLite databases, enabling direct data analysis within conversation workflows.  (node) 
 - [❌ mssql-mcp-server](https://github.com/jensenloke/mcp-sqlserver-pro): Connects to Microsoft SQL Server databases through pyodbc to execute queries, inspect schemas, manage stored procedures, views, and indexes with separate handling for read and write operations.  (python) 
-- [❌ @benborla29/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql): Secure read-only MySQL database access to execute queries and analyze data patterns.  (node) 
+- [✅ @benborla29/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql): Secure read-only MySQL database access to execute queries and analyze data patterns.  (1 tools) (node) 
 - [✅ @niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server): Integrates with Nile Database services to enable database operations through TypeScript-based server implementation supporting both stdio and HTTP communication modes for seamless database functionality in AI workflows.  (11 tools) (node) 
 - [❌ supabase-mcp](https://github.com/cappahccino/sb-mcp): Enables Claude and other LLMs to interact with Supabase databases and Edge Functions through a secure API for performing CRUD operations and invoking custom payloads without requiring integration code.  (node) 
 - [✅ @joshuarileydev/supabase-mcp-server](https://github.com/joshuarileydev/supabase-mcp-server): Control Supabase projects and organizations.  (8 tools) (node) 
@@ -1673,6 +1676,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [✅ @jsonresume/mcp](https://github.com/jsonresume/mcp): Enhances JSON Resumes with GitHub project information by analyzing codebases, fetching existing resumes, and intelligently updating profiles with relevant project details using OpenAI's API.  (3 tools) (node) 
 - [❌ office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server): Enables creation and manipulation of PowerPoint presentations with tools for adding and formatting slides, text, images, tables, charts and shapes through python-pptx  (python) 
 - [❌ code-backup](https://github.com/hexitex/mcp-backup-server): Provides specialized backup and restoration for code editing tools, creating timestamped snapshots with contextual metadata that preserve both file content and agent reasoning for quick recovery from risky edits.  (node) 
+- [❌ mcp-proxy](https://github.com/punkpeye/mcp-proxy): A TypeScript streamable HTTP and SSE proxy for MCP servers that use stdio transport.  (node) 
 - [❌ daemonize](https://github.com/mackee/mcp-daemonize): Enables AI agents to manage long-running development servers by providing tools to start, monitor, stop, and debug processes like Vite or Next.js without manual terminal handling.  (go) 
 - [❌ repomix](https://github.com/yamadashy/repomix): Package codebases into AI-friendly single files with intelligent code structure preservation and token optimization.  (node) 
 - [❌ pydantic-ai-docs](https://github.com/omniwaifu/pydantic-ai-docs-server): Provides direct access to Pydantic-AI documentation with tools for retrieving specific documents, listing topics, and accessing changelog information without leaving your development environment.  (python) 
@@ -1743,7 +1747,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [✅ @nextdrive/github-action-trigger-mcp](https://github.com/nextdriveioe/github-action-trigger-mcp): Enables GitHub Actions integration for triggering workflows, fetching action details, and retrieving repository releases through authenticated API interactions  (4 tools) (node) 
 - [❌ style-guidelines](https://github.com/bartwisch/mcprules): Integrates with development tools to enforce consistent coding standards by managing and serving programming guidelines and rules across projects.  (node) 
 - [✅ @wenbopan/things-mcp](https://github.com/wbopan/things-mcp): Integrates with Things.app task management for macOS, enabling task and project creation with full metadata support, update operations including completion status, database export functionality, and summary generation through URL scheme and direct database access.  (6 tools) (node) 
-- [❌ jpisnice-shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server): A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation  (node) 
+- [✅ @jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server): A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation  (7 tools) (node) 
 - [❌ vscode-debugger](https://github.com/jasonjmcghee/claude-debugs-for-you): Integrates with VS Code's debugging capabilities to enable interactive code debugging and expression evaluation.  (node) 
 - [❌ buildkite](https://github.com/buildkite/buildkite-mcp-server): Integrates with Buildkite's CI/CD platform, enabling access to pipeline details, build information, job logs, artifacts, and user data for monitoring workflows and troubleshooting builds.  (go) 
 - [❌ mock-data-generator](https://github.com/rhitune2/mock-data-mcp): Provides tools for generating realistic mock data including personal information, company details, and custom fields using TypeScript and Faker.js for testing and development purposes.  (node) 
@@ -1793,6 +1797,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [❌ react-development-assistant](https://github.com/kalivaraprasad-gonapa/react-mcp): Integrates with React applications to enable AI-assisted development workflows, providing tools for project management, terminal command execution, and file operations.  (node) 
 - [✅ @rtuin/mcp-mermaid-validator](https://github.com/rtuin/mcp-mermaid-validator): Validates and renders Mermaid diagrams as SVG images, providing detailed error messages for invalid syntax to enhance visualization capabilities within conversations.  (1 tools) (node) 
 - [❌ neurolorap-code-collector](https://github.com/aindreyway/mcp-server-neurolora-p): Streamlines code collection and documentation by gathering files into a single markdown document with features like syntax highlighting and table of contents generation.  (python) 
+- [❌ @azure/mcp](https://github.com/microsoft/mcp): The Azure MCP Server implements the MCP specification to create a seamless connection between AI agents and Azure services. Azure MCP Server can be used alone or with the GitHub Copilot for Azure extension in VS Code.   (node) 
 - [❌ azure-devops-project-creator](https://github.com/imghosty17/mcp-server-sandbox): Integrates with Azure DevOps to automate project creation and infrastructure setup through FastAPI, eliminating the need for manual portal interaction.  (python) 
 - [❌ app-store-connect](https://github.com/joshuarileydev/app-store-connect-mcp-server): Manage iOS app distribution and testing workflows.  (node) 
 - [❌ google-apps-script-api](https://github.com/mohalmah/google-appscript-mcp-server): Integrates with Google Apps Script API through 17 specialized tools for project management, deployment operations, content updates, version control, process monitoring, and script execution with OAuth 2.0 authentication.  (node) 
@@ -1808,6 +1813,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [❌ mcp-toolbox](https://github.com/ai-zerolab/mcp-toolbox): Integrates with external APIs and services to provide command execution, Figma file interaction, and file operations, enhancing LLM capabilities for UI/UX design, file management, and service interactions.  (python) 
 - [❌ postman-tool-generation](https://github.com/giovannicocco/mcp-server-postman-tool-generation): Integrates with Postman Tool Generation API to convert API collections into type-safe code for AI frameworks, enabling rapid development of AI-powered tools from existing API documentation.  (node) 
 - [❌ code-research](https://github.com/nahmanmate/code-research-mcp-server): Integrates with programming resources like Stack Overflow, MDN, GitHub, npm, and PyPI to enable efficient code lookup, documentation retrieval, and package selection.  (node) 
+- [❌ @azure/mcp-win32-x64](https://github.com/microsoft/mcp): The Azure MCP Server implements the MCP specification to create a seamless connection between AI agents and Azure services. Azure MCP Server can be used alone or with the GitHub Copilot for Azure extension in VS Code. This project is in Public Preview and implementation may significantly change prior to our General Availability.  (node) 
 - [❌ frontend-testing-(jest-&-cypress)](https://github.com/studentofjs/mcp-frontend-testing): Enables automated frontend testing by analyzing JavaScript/TypeScript code, generating Jest and Cypress tests, and executing them in isolated environments with proper configurations and dependencies.  (node) 
 - [✅ omnifocus-mcp](https://github.com/mdoel/omnifocus-mcp): Integrates with OmniFocus task management on macOS using JavaScript for Automation to retrieve tasks, projects, and metadata including due dates, contexts, and completion status.  (7 tools) (node) 
 - [❌ easy-autocad](https://github.com/zh19980811/easy-mcp-autocad): Enables programmatic interaction with AutoCAD by providing a Python-based server that supports database management and task automation through libraries like pyautocad and comtypes.  (python) 
@@ -1828,6 +1834,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [❌ ant-design-components](https://github.com/hannesj/mcp-antd-components): Provides Ant Design component documentation through specialized tools for discovery, exploration, and implementation guidance in React applications  (node) 
 - [✅ source-map-parser-mcp](https://github.com/masonchow/source-map-parser-mcp): Maps minified JavaScript stack traces back to original source code locations for efficient production error debugging.  (2 tools) (node) 
 - [❌ mcp-server-llmling](https://github.com/phil65/mcp-server-llmling): Provides a YAML-based configuration system for LLM applications, enabling declarative setup of custom environments with resource management, tool execution, and prompt handling capabilities.  (python) 
+- [❌ mcp-framework](https://github.com/QuantGeekDev/mcp-framework): MCP-Framework gives you architecture out of the box, with automatic directory-based discovery for tools, resources, and prompts. Use our powerful MCP abstractions to define tools, resources, or prompts in an elegant way. Our cli makes getting started with your own MCP server a breeze  (node) 
 - [❌ @agentdesk/workflows-mcp](https://github.com/dx-zero/mcpn/tree/HEAD/mcp-server): Provides specialized software development tools through a data-driven configuration system that loads tool definitions from YAML files for thinking, coding, and GitHub integration workflows  (node) 
 - [❌ b12-website-generator](https://github.com/b12io/website-generator-mcp-server): Enables AI to create customized business websites by generating designs from business names and descriptions, providing signup links without requiring technical expertise.  (node) 
 - [❌ dify](https://github.com/zhuzhoulin/dify-mcp-server): Integrates with Dify's AI application platform, enabling seamless creation, management, and deployment of AI applications through TypeScript-based request handling and API bridging.  (node) 
@@ -1865,6 +1872,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [❌ devhub-cms-mcp](https://github.com/devhub/devhub-cms-mcp): Manage and utilize content within DevHub CMS (blog posts, hours of operation and other content).  (python) 
 - [❌ llm-context](https://github.com/cyberchitta/llm-context.py): Streamlines code context sharing with LLMs by implementing smart file selection, code outlining, and multi-language support for efficient code reviews and documentation generation.  (python) 
 - [❌ buildkite-mcp-server](https://github.com/buildkite/buildkite-mcp-server): Official MCP Server for Buildkite.  (go) 
+- [✅ @oneuptime/mcp-server](https://github.com/OneUptime/oneuptime): A production-ready Model Context Protocol (MCP) server for OneUptime that provides dynamic tools for all OneUptime models and operations.  (18 tools) (node) 
 - [✅ tree-hugger-js-mcp](https://github.com/qckfx/tree-hugger-js-mcp): Provides JavaScript and TypeScript code analysis through AST parsing for function extraction, scope analysis, identifier renaming, unused import removal, and code transformation with safety previews and history tracking.  (12 tools) (node) 
 - [❌ nexus-(vscode)](https://github.com/wesnermichel/nexus-mcp-claude-desktop-server): Integrates Claude Desktop with VSCode, enabling file access and manipulation within specified workspace directories for seamless AI-assisted development workflows.  (node) 
 - [❌ code2flow](https://github.com/kursk-ye/code2flow-mcp-server): Generates visual code flow diagrams from source code to help understand program structure, execution paths, and architectural relationships without manual diagramming.  (python) 
@@ -1892,6 +1900,7 @@ Enhance your development workflow with tools for coding and environment manageme
 - [✅ @mcp-get-community/server-llm-txt](https://github.com/mcp-get/community-servers/tree/HEAD/src/server-llm-txt): Access up-to-date API documentation efficiently.  (3 tools) (node) 
 - [❌ prompt-manager](https://github.com/sparesparrow/mcp-prompts): Manages and serves customizable prompt templates with variable substitution and tag-based organization for streamlined LLM interactions in development workflows and code reviews.  (node) 
 - [❌ local-dev](https://github.com/txbm/mcp-local-dev): Creates sandboxed local dev environments directly from GitHub; run tests, report coverage and more.  (python) 
+- [❌ @orval/mcp](https://github.com/orval-labs/orval): orval is able to generate client with appropriate type-signatures (TypeScript) from any valid OpenAPI v3 or Swagger v2 specification, either in yaml or json formats.Generate, valid, cache and mock in your React, Vue, Svelte and Angular applications all with your OpenAPI specification.  (node) 
 - [❌ eigenlayer-documentation](https://github.com/layr-labs/eigenlayer-mcp-server): Provides structured access to EigenLayer documentation resources including blog articles, overview documentation, middleware, contracts, and developer guides through a Next.js server with Redis-powered connections.  (node) 
 - [❌ apple-developer-documentation](https://github.com/mightydillah/apple-doc-mcp): Provides seamless access to Apple Developer Documentation with smart search capabilities and wildcard pattern support for iOS, macOS, SwiftUI, and UIKit development, featuring priority-based framework searching and intelligent caching for efficient API discovery and symbol documentation retrieval.  (node) 
 - [❌ delve](https://github.com/dwisiswant0/delve-mcp): Provides a complete interface to the Delve debugger for Go programs, enabling starting debug sessions, setting breakpoints, controlling execution flow, and inspecting program state  (node) 
@@ -3064,7 +3073,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ doc-crawler](https://github.com/ruan11223344/mcpdocserver): Documentation crawler service that fetches and serves technical documentation from specified sources, enabling access to up-to-date information through a structured API.  (node) 
 - [✅ @anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube): Extract and analyze video subtitle data for content understanding.  (1 tools) (node) 
 - [❌ gemini-with-web-search](https://github.com/techkwon/mcp-gemini): Integrates Google's Gemini model with real-time web search and YouTube data to enhance AI responses with up-to-date information from the internet.  (node) 
-- [❌ searxng-simple-mcp](https://github.com/sacode/searxng-simple-mcp): Integrates with SearxNG privacy-focused search engine to provide web search capabilities with customizable parameters like result count, language, and time range.  (python) 
+- [✅ searxng-simple-mcp](https://github.com/sacode/searxng-simple-mcp): Integrates with SearxNG privacy-focused search engine to provide web search capabilities with customizable parameters like result count, language, and time range.  (1 tools) (python) 
 - [❌ minima-(local-rag)](https://github.com/dmayboroda/minima/tree/HEAD/mcp-server): Search and retrieve context from local files for RAG.  (python) 
 - [✅ @modelcontextprotocol/server-aws-kb-retrieval](https://github.com/modelcontextprotocol/servers/blob/main/src/aws-kb-retrieval-server): MCP server for AWS Knowledge Base retrieval using Bedrock Agent Runtime  (1 tools) (node) 
 - [❌ kagi-search](https://github.com/kagisearch/kagimcp): Integrates Kagi's advanced search capabilities into workflows, enabling high-quality, privacy-focused web information retrieval for informed decision-making and analysis.  (python) 
@@ -3093,6 +3102,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ exa](https://github.com/aperture147/exa-mcp-worker): Integrates with Exa.ai to enable web searches with customizable parameters like result count and live crawling, returning structured JSON results for retrieving up-to-date information without leaving the conversation context.  (node) 
 - [❌ markdown-web-crawl](https://github.com/jmh108/md-webcrawl-mcp): Python-based web crawler extracts website content into markdown files, enabling efficient content aggregation and site archiving.  (python) 
 - [❌ tavily-mcp](https://github.com/tavily-ai/tavily-mcp): Integrates with Tavily API to provide real-time web search and content extraction capabilities for research, aggregation, and fact-checking tasks.  (node) 
+- [❌ @apify/actors-mcp-server](https://github.com/apify/apify-mcp-server): The Apify Model Context Protocol (MCP) Server at mcp.apify.com instantly connects AI applications and agents to thousands of ready‑built tools. It allows your AI assistant to use any Apify Actor for web scraping, data extraction, and automation tasks in real time.  (node) 
 - [❌ keywordspeopleuse](https://github.com/data-skunks/kpu-mcp): Integrates with KeywordsPeopleUse API to provide keyword research capabilities including People Also Ask questions, Google Autocomplete suggestions, Reddit/Quora questions, and semantic keywords with language and country localization options.  (node) 
 - [❌ youtube-captions](https://github.com/nattyraz/youtube-mcp): Extracts and transforms YouTube video content, providing metadata, multi-language captions, chapter information, and customizable markdown transcripts with search capabilities through the YouTube Data API.  (node) 
 - [❌ whois](https://github.com/bharathvaj-ganesan/whois-mcp): WHOIS domain lookups  (node) 
@@ -4207,6 +4217,7 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [✅ dubco-mcp-server](https://github.com/gitmaxd/dubco-mcp-server-npm): Provides a streamlined interface for creating, updating, and deleting short links through the Dub.co URL shortening service with robust error handling and automatic domain selection.  (3 tools) (node) 
 - [❌ uml-diagramming](https://github.com/swayingleaves/uml-mcp-server): Integrates with UML diagramming tools to generate visual representations of system architecture, class relationships, and process flows directly from code or text descriptions within conversational interfaces.  (python) 
 - [❌ time-service](https://github.com/1259187996/mcp-time): Provides current time information through a lightweight Node.js service that can be deployed via Docker or managed with PM2.  (node) 
+- [❌ mcp-remote](https://github.com/geelen/mcp-remote): Connect an MCP Client that only supports local (stdio) servers to a Remote MCP Server, with auth support  (node) 
 - [❌ llm-responses](https://github.com/kstrikis/ephor-mcp): Enables multiple LLMs to share and analyze each other's responses to the same prompt, facilitating collaborative problem-solving and multi-perspective analysis through TypeScript-based response submission and retrieval tools.  (node) 
 - [❌ genesis-world](https://github.com/dustland/genesis-mcp): Bridges AI assistants with Genesis World simulations, enabling execution of customizable agent-based simulations and virtual world creation for analyzing emergent behaviors directly within conversations.  (python) 
 - [❌ fooddata-central](https://github.com/jlfwong/food-data-central-mcp-server): Provides access to the USDA's FoodData Central database for searching foods and retrieving detailed nutritional information to support meal planning and dietary analysis.  (node) 
@@ -4359,6 +4370,7 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [❌ email-validator](https://github.com/abhi5h3k/mcp-email-verify): Validates email addresses through Abstract API, checking format, deliverability, and identifying disposable or role-based addresses to reduce bounces and prevent fake signups.  (python) 
 - [❌ taskmate](https://github.com/newaitees/taskmateai): Enables dynamic task creation, tracking, and organization across multiple agents and projects using FastAPI and LangChain, with robust JSON-based task management and flexible operational capabilities.  (python) 
 - [❌ openai-chat-completions](https://github.com/allaboutai-yt/mcp-servers/tree/HEAD/openai-server): Make calls to OpenAI's chat completions.  (node) 
+- [❌ fastmcp](https://github.com/punkpeye/fastmcp): A TypeScript framework for building MCP servers capable of handling client sessions.  (node) 
 - [❌ grok](https://github.com/brewmytech/grok-mcp): Provides access to Grok API for chat completions, text completions, embeddings, and model operations with robust request validation and error handling.  (node) 
 - [❌ crewai-enterprise](https://github.com/crewaiinc/enterprise-mcp-server): Connects to CrewAI Enterprise workflows, enabling kickoff and monitoring of collaborative agent teams for complex task delegation without leaving your interface.  (python) 
 - [❌ linkedin-job-assistant](https://github.com/rayyan9477/linkedin_mcp): Integrates with LinkedIn to automate job searching, profile viewing, resume generation, and job applications with tailored resume and cover letter creation features.  (python) 

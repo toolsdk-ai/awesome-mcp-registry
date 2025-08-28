@@ -1,0 +1,23 @@
+{
+  "type": "mcp-server",
+  "packageName": "@azure/mcp-win32-x64",
+  "description": "The Azure MCP Server implements the MCP specification to create a seamless connection between AI agents and Azure services. Azure MCP Server can be used alone or with the GitHub Copilot for Azure extension in VS Code. This project is in Public Preview and implementation may significantly change prior to our General Availability.",
+  "url": "https://github.com/microsoft/mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "AZURE_TENANT_ID": {
+      "description": "Azure Tenant ID",
+      "required": false
+    },
+    "AZURE_CLIENT_ID": {
+      "description": "Azure Client ID",
+      "required": false
+    },
+    "AZURE_CLIENT_SECRET": {
+      "description": "Azure Client Secret",
+      "required": false
+    }
+  },
+  "name": "Azure MCP Server"
+}

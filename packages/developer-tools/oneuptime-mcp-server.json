@@ -1,0 +1,19 @@
+{
+  "type": "mcp-server",
+  "packageName": "@oneuptime/mcp-server",
+  "description": "A production-ready Model Context Protocol (MCP) server for OneUptime that provides dynamic tools for all OneUptime models and operations.",
+  "url": "https://github.com/OneUptime/oneuptime",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {
+    "ONEUPTIME_API_KEY": {
+      "description": "your_oneuptime_api_key_here",
+      "required": true
+    },
+    "ONEUPTIME_URL": {
+      "description": "OneUptime Instance URL (Optional - defaults to https://oneuptime.com)",
+      "required": false
+    }
+  },
+  "name": "OneUptime MCP Server"
+}

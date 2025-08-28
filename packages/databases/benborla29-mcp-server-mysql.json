@@ -4,7 +4,48 @@
   "description": "Secure read-only MySQL database access to execute queries and analyze data patterns.",
   "url": "https://github.com/benborla/mcp-server-mysql",
   "runtime": "node",
-  "license": "unknown",
-  "env": {},
+  "license": "mit",
+  "env": {
+    "MYSQL_HOST": {
+      "description": "MySQL Host",
+      "required": true
+    },
+    "MYSQL_PORT": {
+      "description": "MySQL Port",
+      "required": true
+    },
+    "MYSQL_USER": {
+      "description": "MySQL User",
+      "required": true
+    },
+    "MYSQL_PASS": {
+      "description": "MySQL Password",
+      "required": true
+    },
+    "MYSQL_DB": {
+      "description": "MySQL Database",
+      "required": true
+    },
+    "ALLOW_INSERT_OPERATION": {
+      "description": "Allow insert operation",
+      "required": false
+    },
+    "ALLOW_UPDATE_OPERATION": {
+      "description": "Allow update operation",
+      "required": false
+    },
+    "ALLOW_DELETE_OPERATION": {
+      "description": "Allow delete operation",
+      "required": false
+    },
+    "PATH": {
+      "description": "Path to node",
+      "required": true
+    },
+    "NODE_PATH": {
+      "description": "Node Path",
+      "required": true
+    }
+  },
   "name": "MySQL MCP Server"
 }

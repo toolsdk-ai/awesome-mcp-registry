@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-remote",
+  "description": "Connect an MCP Client that only supports local (stdio) servers to a Remote MCP Server, with auth support",
+  "url": "https://github.com/geelen/mcp-remote",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "AUTH_HEADER": {
+      "description": "Bearer <auth-token>",
+      "required": false
+    }
+  },
+  "name": "MCP Remote"
+}

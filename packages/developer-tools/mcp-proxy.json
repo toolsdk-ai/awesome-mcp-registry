@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-proxy",
+  "description": "A TypeScript streamable HTTP and SSE proxy for MCP servers that use stdio transport.",
+  "url": "https://github.com/punkpeye/mcp-proxy",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Proxy"
+}
