@@ -962,7 +962,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun.io-mcp-server-raygun.json",
+    "path": "monitoring/raygun-io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
@@ -42690,7 +42690,7 @@
   },
   "12306-mcp": {
     "category": "travel-transportation",
-    "path": "travel-transportation/12306-mcp.json",
+    "path": "travel-transportation/jok-12306-mcp.json",
     "validated": true,
     "tools": {
       "get-current-date": {
