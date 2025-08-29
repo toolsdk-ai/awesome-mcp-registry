@@ -121,13 +121,13 @@ searchRoutes.openapi(searchRoute, async (c) => {
       message: "Search successful",
       data: results,
     });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Search failed:", error);
     return c.json(
       {
         success: false,
         code: 500,
-        message: error.message || "Search failed",
+        message: (error as Error).message || "Search failed",
       },
       500,
     );
@@ -220,23 +220,26 @@ searchRoutes.openapi(suggestRoute, async (c) => {
     // Get search suggestions
     const suggestions = await searchService.suggest(q, limit);
 
-    return c.json({
-      success: true,
-      code: 200,
-      message: "Suggestions retrieved successfully",
-      data: {
-        suggestions,
+    return c.json(
+      {
+        success: true,
+        code: 200,
+        message: "Suggestions retrieved successfully",
+        data: {
+          suggestions,
+        },
       },
-    });
-  } catch (error: any) {
+      200,
+    );
+  } catch (error) {
     console.error("Failed to get suggestions:", error);
     return c.json(
       {
         success: false,
-        code: 500,
-        message: error.message || "Failed to get suggestions",
+        code: 400,
+        message: (error as Error).message || "Failed to get suggestions",
       },
-      500,
+      400,
     );
   }
 });
@@ -300,13 +303,13 @@ searchRoutes.openapi(facetsRoute, async (c) => {
         validated: facets?.validated,
       },
     });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Failed to get facets:", error);
     return c.json(
       {
         success: false,
         code: 500,
-        message: error.message || "Failed to get facets",
+        message: (error as Error).message || "Failed to get facets",
       },
       500,
     );
@@ -364,19 +367,22 @@ searchRoutes.openapi(healthRoute, async (c) => {
     // Perform health check
     const health = await searchService.healthCheck();
 
-    return c.json({
-      success: true,
-      code: 200,
-      message: "Health check successful",
-      data: health,
-    });
-  } catch (error: any) {
+    return c.json(
+      {
+        success: true,
+        code: 200,
+        message: "Health check successful",
+        data: health,
+      },
+      200,
+    );
+  } catch (error) {
     console.error("Health check failed:", error);
     return c.json(
       {
         success: false,
         code: 500,
-        message: error.message || "Health check failed",
+        message: (error as Error).message || "Health check failed",
       },
       500,
     );

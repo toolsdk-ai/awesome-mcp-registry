@@ -392,7 +392,10 @@ class SearchService {
   /**
    * Get search suggestions/autocomplete
    */
-  async suggest(query: string, limit: number = 10): Promise<Record<string, unknown>[]> {
+  async suggest(
+    query: string,
+    limit: number = 10,
+  ): Promise<{ name: string; packageName: string; category: string; highlighted: string }[]> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
@@ -417,10 +420,10 @@ class SearchService {
             name?: string;
           };
         }) => ({
-          name: hit.name,
-          packageName: hit.packageName,
-          category: hit.category,
-          highlighted: hit._formatted?.name || hit.name,
+          name: hit.name || "",
+          packageName: hit.packageName || "",
+          category: hit.category || "",
+          highlighted: hit._formatted?.name || hit.name || "",
         }),
       );
     } catch (error) {
@@ -496,7 +499,13 @@ class SearchService {
   /**
    * Health check for the search service
    */
-  async healthCheck(): Promise<Record<string, unknown>> {
+  async healthCheck(): Promise<{
+    status: string;
+    host: string;
+    initialized: boolean;
+    indexName: string;
+    documentCount: number;
+  }> {
     try {
       await this.client.health();
       const stats = this.isInitialized ? await this.getStats() : null;
@@ -508,12 +517,13 @@ class SearchService {
         indexName: this.indexName,
         documentCount: stats?.numberOfDocuments || 0,
       };
-    } catch (error) {
+    } catch (_error) {
       return {
         status: "unhealthy",
-        error: (error as Error).message,
         host: this.host,
         initialized: false,
+        indexName: this.indexName,
+        documentCount: 0,
       };
     }
   }
