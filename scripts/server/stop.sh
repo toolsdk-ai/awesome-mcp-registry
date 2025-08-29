@@ -106,7 +106,7 @@ stop_all_processes() {
     print_status "Looking for any remaining MCP Registry processes..."
     
     # Find processes by command pattern
-    local pids=$(pgrep -f "node.*api/cli-generator.js" 2>/dev/null || true)
+    local pids=$(pgrep -f "node.*src/api/index.ts" 2>/dev/null || true)
     if [ -n "$pids" ]; then
         print_status "Found additional processes: $pids"
         for pid in $pids; do

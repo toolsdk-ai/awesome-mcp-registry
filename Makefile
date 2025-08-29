@@ -1,4 +1,3 @@
-
 build:
 	bun scripts/cat-dirs.ts
   # Install the dependencies needed to run `indexing-lists.ts`
@@ -29,11 +28,14 @@ build-safe:
 
 build-py:
 	bun scripts/py-deps-lists.ts
-	./install-python-deps.sh
+	./scripts/server/install.sh py
 	bun scripts/py-test-mcp-clients.ts
 
 dev:
 	pnpm run dev
+
+install:
+	./scripts/server/install.sh
 
 docker-build:
 	docker build -t awesome-mcp-registry .

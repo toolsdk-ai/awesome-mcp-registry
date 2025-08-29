@@ -172,10 +172,9 @@ setup_meilisearch() {
 # Function to create service files
 create_service_files() {
     print_status "Making shell scripts executable..."
-    chmod +x start.sh 2>/dev/null || true
-    chmod +x stop.sh 2>/dev/null || true
-    chmod +x status.sh 2>/dev/null || true
-    chmod +x install.sh 2>/dev/null || true
+    chmod +x scripts/server/start.sh 2>/dev/null || true
+    chmod +x scripts/server/stop.sh 2>/dev/null || true
+    chmod +x scripts/server/install.sh 2>/dev/null || true
 }
 
 # Main installation process
@@ -242,12 +241,11 @@ main() {
     print_success "🎉 Installation completed successfully!"
     echo
     print_status "Next steps:"
-    echo "  1. Run './start.sh' to start the server"
-    echo "  2. Run './status.sh' to check server status"
-    echo "  3. Run './stop.sh' to stop the server"
-    echo "  4. Visit http://localhost:3000 to access the web interface"
+    echo "  1. Run './scripts/server/start.sh' to start the server"
+    echo "  2. Run './scripts/server/stop.sh' to stop the server"
+    echo "  3. Visit http://localhost:3003 to access the web interface"
     if [[ "$setup_search" =~ ^[Yy]$ ]]; then
-        echo "  5. Start MeiliSearch and run 'npm run search:index' for enhanced search"
+        echo "  4. Start MeiliSearch and run 'npm run search:index' for enhanced search"
     fi
     echo
     print_status "For more information, see INSTALL.md and docs/SEARCH.md"

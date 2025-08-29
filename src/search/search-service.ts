@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /**
  * MeiliSearch Service for Awesome MCP Registry
  * Handles search indexing and querying for MCP packages
@@ -13,27 +11,94 @@ import { MeiliSearch } from "meilisearch";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+interface PackageData {
+  name?: string;
+  description?: string;
+  category?: string;
+  validated?: boolean;
+  tools?: Record<string, any>;
+  path?: string;
+}
+
+interface SearchOptions {
+  limit?: number;
+  offset?: number;
+  filter?: string | string[];
+  sort?: string[];
+  matchingStrategy?: string;
+}
+
+interface SearchResults {
+  hits: any[];
+  query: string;
+  processingTimeMs: number;
+  limit: number;
+  offset: number;
+  estimatedTotalHits: number;
+}
+
+interface IndexStats {
+  numberOfDocuments: number;
+  isIndexing: boolean;
+  fieldDistribution: Record<string, number>;
+}
+
 class SearchService {
-  constructor() {
+  private host: string;
+  private apiKey: string | null;
+  private indexName: string;
+  protected client: MeiliSearch;
+  protected _index: any;
+  protected isInitialized: boolean;
+
+  constructor(indexName: string = "mcp-packages") {
     // MeiliSearch configuration
     this.host = process.env.MEILI_HTTP_ADDR || "http://localhost:7700";
     this.apiKey = process.env.MEILI_MASTER_KEY || null;
-    this.indexName = "mcp-packages";
+    this.indexName = indexName;
 
     // Initialize MeiliSearch client
     this.client = new MeiliSearch({
       host: this.host,
-      apiKey: this.apiKey,
+      apiKey: this.apiKey || undefined,
     });
 
-    this.index = null;
+    this._index = null;
     this.isInitialized = false;
+  }
+
+  /**
+   * Get the initialization status
+   */
+  getIsInitialized(): boolean {
+    return this.isInitialized;
+  }
+
+  /**
+   * Get the MeiliSearch client
+   */
+  getClient(): MeiliSearch {
+    return this.client;
+  }
+
+  /**
+   * Get the index
+   */
+  get index(): any {
+    return this._index;
+  }
+
+  /**
+   * Set the index
+   */
+  set index(value: any) {
+    this._index = value;
   }
 
   /**
    * Initialize the search service and create/configure index
    */
-  async initialize() {
+  async initialize(): Promise<void> {
     try {
       console.log(`Connecting to MeiliSearch at ${this.host}...`);
 
@@ -45,7 +110,7 @@ class SearchService {
       try {
         await this.client.createIndex(this.indexName, { primaryKey: "id" });
         console.log(`✅ Created new index: ${this.indexName}`);
-      } catch (error) {
+      } catch (error: any) {
         if (error.message.includes("already exists")) {
           console.log(`✅ Using existing index: ${this.indexName}`);
         } else {
@@ -61,7 +126,7 @@ class SearchService {
 
       this.isInitialized = true;
       console.log("✅ Search service initialized successfully");
-    } catch (error) {
+    } catch (error: any) {
       console.error("❌ Failed to initialize search service:", error.message);
       console.log("💡 Make sure MeiliSearch is running on", this.host);
       throw error;
@@ -71,7 +136,7 @@ class SearchService {
   /**
    * Configure search index settings for optimal MCP package search
    */
-  async configureIndex() {
+  async configureIndex(): Promise<void> {
     try {
       // Configure searchable attributes (ranked by importance)
       await this.index.updateSettings({
@@ -109,7 +174,7 @@ class SearchService {
       });
 
       console.log("✅ Search index configured");
-    } catch (error) {
+    } catch (error: any) {
       console.error("❌ Failed to configure index:", error.message);
       throw error;
     }
@@ -118,7 +183,7 @@ class SearchService {
   /**
    * Transform package data for search indexing
    */
-  transformPackageForIndex(packageName, packageData) {
+  transformPackageForIndex(packageName: string, packageData: PackageData): any {
     // Extract tools information
     const tools = packageData.tools || {};
     const toolNames = Object.keys(tools);
@@ -152,7 +217,7 @@ class SearchService {
   /**
    * Create a safe ID for MeiliSearch (alphanumeric, hyphens, underscores only)
    */
-  createSafeId(packageName) {
+  createSafeId(packageName: string): string {
     return packageName
       .replace(/@/g, "at-")
       .replace(/\//g, "-")
@@ -165,7 +230,7 @@ class SearchService {
   /**
    * Calculate a popularity score for ranking
    */
-  calculatePopularityScore(packageData) {
+  calculatePopularityScore(packageData: PackageData): number {
     let score = 0;
 
     // Boost for validated packages
@@ -184,7 +249,7 @@ class SearchService {
   /**
    * Extract author from package name
    */
-  extractAuthor(packageName) {
+  extractAuthor(packageName: string): string {
     if (packageName.startsWith("@")) {
       return packageName.split("/")[0].substring(1);
     }
@@ -194,8 +259,8 @@ class SearchService {
   /**
    * Extract relevant keywords from package data
    */
-  extractKeywords(packageData, packageName) {
-    const keywords = [];
+  extractKeywords(packageData: PackageData, packageName: string): string {
+    const keywords: string[] = [];
 
     // Add category as keyword
     if (packageData.category) {
@@ -234,7 +299,7 @@ class SearchService {
   /**
    * Index all packages from the packages-list.json file
    */
-  async indexPackages() {
+  async indexPackages(): Promise<IndexStats> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
@@ -250,7 +315,7 @@ class SearchService {
 
       // Transform packages for indexing
       const documents = Object.entries(packages).map(([packageName, packageData]) =>
-        this.transformPackageForIndex(packageName, packageData),
+        this.transformPackageForIndex(packageName, packageData as PackageData),
       );
 
       console.log("🔄 Indexing packages...");
@@ -270,8 +335,6 @@ class SearchService {
         );
 
         // Wait for task completion
-        // FIXME this.client.waitForTask is not a function
-        // await this.client.tasks(task.taskUid).waitForTasks();
         await this.client.waitForTask(task.taskUid);
       }
 
@@ -280,7 +343,7 @@ class SearchService {
       console.log(`✅ Indexing complete! ${stats.numberOfDocuments} documents indexed`);
 
       return stats;
-    } catch (error) {
+    } catch (error: any) {
       console.error("❌ Failed to index packages:", error.message);
       throw error;
     }
@@ -289,7 +352,7 @@ class SearchService {
   /**
    * Search packages with advanced options
    */
-  async search(query, options = {}) {
+  async search(query: string, options: SearchOptions = {}): Promise<SearchResults> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
@@ -319,7 +382,7 @@ class SearchService {
         offset: results.offset,
         estimatedTotalHits: results.estimatedTotalHits,
       };
-    } catch (error) {
+    } catch (error: any) {
       console.error("❌ Search failed:", error.message);
       throw error;
     }
@@ -328,7 +391,7 @@ class SearchService {
   /**
    * Get search suggestions/autocomplete
    */
-  async suggest(query, limit = 10) {
+  async suggest(query: string, limit: number = 10): Promise<any[]> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
@@ -341,13 +404,13 @@ class SearchService {
         cropLength: 0,
       });
 
-      return results.hits.map((hit) => ({
+      return results.hits.map((hit: any) => ({
         name: hit.name,
         packageName: hit.packageName,
         category: hit.category,
         highlighted: hit._formatted?.name || hit.name,
       }));
-    } catch (error) {
+    } catch (error: any) {
       console.error("❌ Suggestions failed:", error.message);
       throw error;
     }
@@ -356,7 +419,7 @@ class SearchService {
   /**
    * Get faceted search results (for filters)
    */
-  async getFacets() {
+  async getFacets(): Promise<any> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
@@ -368,7 +431,7 @@ class SearchService {
       });
 
       return results.facetDistribution;
-    } catch (error) {
+    } catch (error: any) {
       console.error("❌ Failed to get facets:", error.message);
       throw error;
     }
@@ -377,14 +440,14 @@ class SearchService {
   /**
    * Get index statistics
    */
-  async getStats() {
+  async getStats(): Promise<IndexStats> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
       return await this.index.getStats();
-    } catch (error) {
+    } catch (error: any) {
       console.error("❌ Failed to get stats:", error.message);
       throw error;
     }
@@ -393,19 +456,16 @@ class SearchService {
   /**
    * Clear the index
    */
-  async clearIndex() {
+  async clearIndex(): Promise<void> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
       const task = await this.index.deleteAllDocuments();
-      // FIXME this.client.waitForTask is not a function
-      // await this.client.tasks(task.taskUid).waitForTasks();
-      await this.waitForTasks({ ids: [task.taskUid] });
-      // await this.client.tasks(task.taskUid).wait();
+      await this.client.waitForTask(task.taskUid);
       console.log("✅ Index cleared");
-    } catch (error) {
+    } catch (error: any) {
       console.error("❌ Failed to clear index:", error.message);
       throw error;
     }
@@ -414,7 +474,7 @@ class SearchService {
   /**
    * Health check for the search service
    */
-  async healthCheck() {
+  async healthCheck(): Promise<any> {
     try {
       await this.client.health();
       const stats = this.isInitialized ? await this.getStats() : null;
@@ -426,7 +486,7 @@ class SearchService {
         indexName: this.indexName,
         documentCount: stats?.numberOfDocuments || 0,
       };
-    } catch (error) {
+    } catch (error: any) {
       return {
         status: "unhealthy",
         error: error.message,

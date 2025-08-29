@@ -15,7 +15,7 @@ NC='\033[0m' # No Color
 # Configuration
 PID_FILE="./server.pid"
 LOG_FILE="./server.log"
-PORT=${PORT:-3000}
+PORT=${PORT:-3003}
 
 # Function to print colored output
 print_status() {
@@ -84,15 +84,15 @@ start_server() {
     if is_server_running; then
         local pid=$(cat "$PID_FILE")
         print_warning "Server is already running (PID: $pid)"
-        print_status "Use './stop.sh' to stop the server first"
+        print_status "Use './scripts/server/stop.sh' to stop the server first"
         exit 1
     fi
     
     # Ensure dependencies are up to date
     if [ ! -d "node_modules" ] || [ ! -d "dist" ]; then
         print_status "Dependencies or build files missing, running setup..."
-        if [ -f "./install.sh" ]; then
-            ./install.sh
+        if [ -f "./scripts/server/install.sh" ]; then
+            ./scripts/server/install.sh
         else
             print_error "install.sh not found. Please run the installation manually."
             exit 1
@@ -119,8 +119,7 @@ start_server() {
         echo
         print_status "Access the application at: http://localhost:$PORT"
         print_status "API endpoint: http://localhost:$PORT/api"
-        print_status "Use './status.sh' to check server status"
-        print_status "Use './stop.sh' to stop the server"
+        print_status "Use './scripts/server/stop.sh' to stop the server"
         echo
         print_status "To view real-time logs: tail -f $LOG_FILE"
     else
@@ -146,11 +145,11 @@ show_usage() {
     echo "Usage: $0 [OPTIONS]"
     echo
     echo "Options:"
-    echo "  -p, --port PORT    Set the port number (default: 3000)"
+    echo "  -p, --port PORT    Set the port number (default: 3003)"
     echo "  -h, --help         Show this help message"
     echo
     echo "Environment variables:"
-    echo "  PORT               Port number (default: 3000)"
+    echo "  PORT               Port number (default: 3003)"
 }
 
 # Parse command line arguments

@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env tsx
 
 /**
  * Search Index Management CLI
@@ -9,7 +9,7 @@
 /* global process */
 
 import { createRequire } from "node:module";
-import searchService from "../api/services/search-service.js";
+import searchService from "../src/search/search-service";
 
 const require = createRequire(import.meta.url);
 const packageJson = require("../package.json");
@@ -49,7 +49,7 @@ Examples:
 `);
 }
 
-async function runCommand(command) {
+async function runCommand(command: string) {
   const start = Date.now();
 
   try {
@@ -110,7 +110,7 @@ async function runCommand(command) {
         showHelp();
         process.exit(1);
     }
-  } catch (error) {
+  } catch (error: any) {
     console.error(`❌ Command failed:`, error.message);
     console.error("💡 Make sure MeiliSearch is running and accessible");
     process.exit(1);
