@@ -38,7 +38,7 @@ app.route("/api/v1", searchRoutes);
 
 app.get("/", async (c: Context) => {
   try {
-    const htmlPath = path.join(__dirname, "home.html");
+    const htmlPath = path.join(__dirname, "..", "search", "search.html");
     const html = await fs.readFile(htmlPath, "utf8");
     return c.html(html);
   } catch (error) {
