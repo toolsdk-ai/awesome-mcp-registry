@@ -8,6 +8,11 @@ services:
       - "7700:7700"
     volumes:
       - meili_data:/meili_data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7700/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
 
 volumes:
   meili_data:

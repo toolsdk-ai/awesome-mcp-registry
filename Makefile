@@ -20,11 +20,11 @@ build-py:
 	./install-python-deps.sh
 	bun scripts/py-test-mcp-clients.ts
 
+db:
+	docker compose up -d --wait --wait-timeout 60
+
 dev:
 	pnpm run dev
-
-install:
-	./scripts/server/install.sh
 
 docker-build:
 	docker build -t awesome-mcp-registry .
