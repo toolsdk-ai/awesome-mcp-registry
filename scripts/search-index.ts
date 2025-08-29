@@ -110,8 +110,8 @@ async function runCommand(command: string) {
         showHelp();
         process.exit(1);
     }
-  } catch (error: any) {
-    console.error(`❌ Command failed:`, error.message);
+  } catch (error) {
+    console.error(`❌ Command failed:`, (error as Error).message);
     console.error("💡 Make sure MeiliSearch is running and accessible");
     process.exit(1);
   }
