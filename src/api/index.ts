@@ -1,20 +1,49 @@
+import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { serve } from "@hono/node-server";
 import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
 import dotenv from "dotenv";
 import type { Context } from "hono";
+import { searchRoutes } from "../search/search-route";
+import searchService from "../search/search-service";
 import { packageRoutes } from "./package-route";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });
+
+const initializeSearchService = async () => {
+  try {
+    await searchService.initialize();
+    console.log("🔍 Search service initialized");
+  } catch (error) {
+    console.warn("⚠️  Search service initialization failed:", (error as Error).message);
+    console.log("💡 Install and start MeiliSearch to enable enhanced search features");
+  }
+};
 
 const app: OpenAPIHono = new OpenAPIHono();
 
 app.route("/api/v1", packageRoutes);
 
-app.get("/", (c: Context) => {
-  return c.text("MCP Registry API Server is running!");
+if (process.env.ENABLE_SEARCH === "true") {
+  initializeSearchService().catch(console.error);
+  app.route("/api/v1", searchRoutes);
+}
+
+app.get("/", async (c: Context) => {
+  try {
+    const htmlPath = path.join(__dirname, "..", "search", "search.html");
+    const html = await fs.readFile(htmlPath, "utf8");
+    return c.html(html);
+  } catch (error) {
+    console.error("Failed to load home page:", error);
+    return c.text("MCP Registry API Server is running!");
+  }
 });
 
 app.get("/api/meta", (c: Context) => {
@@ -42,7 +71,7 @@ app.onError((err: Error, c: Context) => {
   return c.json({ success: false, code: 500, message: "Internal server error" }, 500);
 });
 
-const port = process.env.MCP_SERVER_PORT ? parseInt(process.env.MCP_SERVER_PORT, 10) : 3000;
+const port = process.env.MCP_SERVER_PORT ? parseInt(process.env.MCP_SERVER_PORT, 10) : 3003;
 console.log(`Server is running on: http://localhost:${port}`);
 
 serve({

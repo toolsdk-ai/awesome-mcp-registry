@@ -1,4 +1,4 @@
-
+*.log
 node_modules
 logs
 *.log
@@ -23,3 +23,7 @@ python-mcp/claude_playground/
 .venv/
 uv.lock
 main.py
+
+meilisearch
+*.pid
+data.ms/

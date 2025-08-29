@@ -1,4 +1,3 @@
-
 build:
 	bun scripts/cat-dirs.ts
   # Install the dependencies needed to run `indexing-lists.ts`
@@ -11,13 +10,18 @@ build:
 	pnpm install --no-frozen-lockfile
 	pnpm prune
 	bun scripts/readme-gen.ts
+	pnpm run sort
 	pnpm run check
 	pnpm run build
+
 
 build-py:
 	bun scripts/py-deps-lists.ts
 	./install-python-deps.sh
 	bun scripts/py-test-mcp-clients.ts
+
+db:
+	docker compose up -d --wait --wait-timeout 60
 
 dev:
 	pnpm run dev
