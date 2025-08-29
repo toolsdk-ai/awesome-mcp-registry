@@ -6,9 +6,9 @@ import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
 import dotenv from "dotenv";
 import type { Context } from "hono";
+import { searchRoutes } from "../search/search-route";
 import searchService from "../search/search-service";
 import { packageRoutes } from "./package-route";
-import { searchRoutes } from "./search-route";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -36,7 +36,6 @@ app.route("/api/v1", packageRoutes);
 
 app.route("/api/v1", searchRoutes);
 
-// 主页路由，提供搜索页面
 app.get("/", async (c: Context) => {
   try {
     const htmlPath = path.join(__dirname, "home.html");

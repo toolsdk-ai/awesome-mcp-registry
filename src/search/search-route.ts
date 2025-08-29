@@ -1,5 +1,5 @@
 import { createRoute, OpenAPIHono, z } from "@hono/zod-openapi";
-import searchService from "../search/search-service";
+import searchService from "./search-service";
 
 const searchRoutes = new OpenAPIHono();
 
