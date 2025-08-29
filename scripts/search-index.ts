@@ -1,12 +1,7 @@
-#!/usr/bin/env tsx
-
 /**
  * Search Index Management CLI
  * Manages MeiliSearch indexing for the MCP Registry
  */
-
-/* eslint-env node */
-/* global process */
 
 import { createRequire } from "node:module";
 import searchService from "../src/search/search-service";
@@ -95,9 +90,6 @@ async function runCommand(command: string) {
         console.log(`   Initialized: ${health.initialized}`);
         console.log(`   Index: ${health.indexName}`);
         console.log(`   Documents: ${health.documentCount}`);
-        if (health.error) {
-          console.log(`   Error: ${health.error}`);
-        }
         break;
       }
       case "help":
