@@ -389,4 +389,249 @@ searchRoutes.openapi(healthRoute, async (c) => {
   }
 });
 
+// Define management response schema
+const managementResponseSchema = z
+  .object({
+    success: z.boolean(),
+    code: z.number(),
+    message: z.string(),
+    data: z
+      .object({
+        message: z.string(),
+        details: z.any().optional(),
+      })
+      .optional(),
+  })
+  .openapi("ManagementResponse");
+
+// Initialize search service route definition
+const initRoute = createRoute({
+  method: "post",
+  path: "/search/manage/init",
+  responses: {
+    200: {
+      content: {
+        "application/json": {
+          schema: managementResponseSchema,
+        },
+      },
+      description: "Search service initialized successfully",
+    },
+    500: {
+      content: {
+        "application/json": {
+          schema: z.object({
+            success: z.boolean(),
+            code: z.number(),
+            message: z.string(),
+          }),
+        },
+      },
+      description: "Internal server error",
+    },
+  },
+});
+
+searchRoutes.openapi(initRoute, async (c) => {
+  try {
+    // Initialize search service
+    await searchService.initialize();
+
+    return c.json(
+      {
+        success: true,
+        code: 200,
+        message: "Search service initialized successfully",
+        data: {
+          message: "Search service initialized successfully",
+        },
+      },
+      200,
+    );
+  } catch (error) {
+    console.error("Failed to initialize search service:", error);
+    return c.json(
+      {
+        success: false,
+        code: 500,
+        message: (error as Error).message || "Failed to initialize search service",
+      },
+      500,
+    );
+  }
+});
+
+// Index packages route definition
+const indexRoute = createRoute({
+  method: "post",
+  path: "/search/manage/index",
+  responses: {
+    200: {
+      content: {
+        "application/json": {
+          schema: managementResponseSchema,
+        },
+      },
+      description: "Packages indexed successfully",
+    },
+    500: {
+      content: {
+        "application/json": {
+          schema: z.object({
+            success: z.boolean(),
+            code: z.number(),
+            message: z.string(),
+          }),
+        },
+      },
+      description: "Internal server error",
+    },
+  },
+});
+
+searchRoutes.openapi(indexRoute, async (c) => {
+  try {
+    // Index all packages
+    const stats = await searchService.indexPackages();
+
+    return c.json(
+      {
+        success: true,
+        code: 200,
+        message: "Packages indexed successfully",
+        data: {
+          message: `Indexed ${stats.numberOfDocuments} documents`,
+          details: stats,
+        },
+      },
+      200,
+    );
+  } catch (error) {
+    console.error("Failed to index packages:", error);
+    return c.json(
+      {
+        success: false,
+        code: 500,
+        message: (error as Error).message || "Failed to index packages",
+      },
+      500,
+    );
+  }
+});
+
+// Clear index route definition
+const clearRoute = createRoute({
+  method: "post",
+  path: "/search/manage/clear",
+  responses: {
+    200: {
+      content: {
+        "application/json": {
+          schema: managementResponseSchema,
+        },
+      },
+      description: "Index cleared successfully",
+    },
+    500: {
+      content: {
+        "application/json": {
+          schema: z.object({
+            success: z.boolean(),
+            code: z.number(),
+            message: z.string(),
+          }),
+        },
+      },
+      description: "Internal server error",
+    },
+  },
+});
+
+searchRoutes.openapi(clearRoute, async (c) => {
+  try {
+    // Clear the index
+    await searchService.clearIndex();
+
+    return c.json(
+      {
+        success: true,
+        code: 200,
+        message: "Index cleared successfully",
+        data: {
+          message: "Index cleared successfully",
+        },
+      },
+      200,
+    );
+  } catch (error) {
+    console.error("Failed to clear index:", error);
+    return c.json(
+      {
+        success: false,
+        code: 500,
+        message: (error as Error).message || "Failed to clear index",
+      },
+      500,
+    );
+  }
+});
+
+// Get index stats route definition
+const statsRoute = createRoute({
+  method: "get",
+  path: "/search/manage/stats",
+  responses: {
+    200: {
+      content: {
+        "application/json": {
+          schema: managementResponseSchema,
+        },
+      },
+      description: "Index statistics retrieved successfully",
+    },
+    500: {
+      content: {
+        "application/json": {
+          schema: z.object({
+            success: z.boolean(),
+            code: z.number(),
+            message: z.string(),
+          }),
+        },
+      },
+      description: "Internal server error",
+    },
+  },
+});
+
+searchRoutes.openapi(statsRoute, async (c) => {
+  try {
+    // Get index statistics
+    const stats = await searchService.getStats();
+
+    return c.json(
+      {
+        success: true,
+        code: 200,
+        message: "Index statistics retrieved successfully",
+        data: {
+          message: "Index statistics retrieved successfully",
+          details: stats,
+        },
+      },
+      200,
+    );
+  } catch (error) {
+    console.error("Failed to get index statistics:", error);
+    return c.json(
+      {
+        success: false,
+        code: 500,
+        message: (error as Error).message || "Failed to get index statistics",
+      },
+      500,
+    );
+  }
+});
+
 export { searchRoutes };
