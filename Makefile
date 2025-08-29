@@ -10,9 +10,9 @@ build:
 	pnpm install --no-frozen-lockfile
 	pnpm prune
 	bun scripts/readme-gen.ts
+	pnpm run sort
 	pnpm run check
 	pnpm run build
-	pnpm run sort
 
 
 build-py:
