@@ -1,6 +1,7 @@
 import assert from "node:assert";
 import fs from "node:fs";
 import * as path from "node:path";
+import { fileURLToPath } from "node:url";
 import toml from "@iarna/toml";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
@@ -9,6 +10,9 @@ import semver from "semver";
 import allPackagesList from "../indexes/packages-list.json";
 import { MCPServerPackageConfigSchema, PackagesListSchema } from "./schema";
 import type { MCPServerPackageConfig } from "./types";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
 
@@ -26,8 +30,16 @@ export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfi
   return mcpServerConfig;
 }
 
-function getPackageJSON(packageName: string) {
+export function getPackageJSON(packageName: string) {
   const packageJSONFilePath = `${__dirname}/../node_modules/${packageName}/package.json`;
+
+  // Check if the package exists in node_modules
+  if (!fs.existsSync(packageJSONFilePath)) {
+    throw new Error(
+      `Package '${packageName}' not found in node_modules. Install it first with: pnpm add ${packageName}`,
+    );
+  }
+
   const packageJSONStr = fs.readFileSync(packageJSONFilePath, "utf8");
   const packageJSON = JSON.parse(packageJSONStr);
   return packageJSON;
@@ -143,6 +155,7 @@ export function updatePackageJsonDependencies({
     "@hono/swagger-ui": "^0.5.2",
     "@hono/zod-openapi": "^0.16.4",
     "@iarna/toml": "^2.2.5",
+    meilisearch: "^0.33.0",
     lodash: "^4.17.21",
     zod: "^3.23.30",
     axios: "^1.9.0",
