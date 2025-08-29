@@ -1,4 +1,4 @@
-import fs from "node:fs/promises"; // The imports and exports are not sorted.
+import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { serve } from "@hono/node-server";

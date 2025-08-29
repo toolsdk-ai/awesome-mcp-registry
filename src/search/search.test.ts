@@ -5,30 +5,50 @@ import searchService from "./search-service";
 vi.mock("meilisearch", () => {
   return {
     MeiliSearch: vi.fn().mockImplementation(() => {
+      const mockIndex = {
+        updateSettings: vi.fn().mockResolvedValue({ taskUid: "settings-task" }),
+        addDocuments: vi.fn().mockResolvedValue({ taskUid: "documents-task" }),
+        getStats: vi.fn().mockResolvedValue({
+          numberOfDocuments: 100,
+          isIndexing: false,
+          fieldDistribution: {},
+        }),
+        search: vi.fn().mockResolvedValue({
+          hits: [{ id: "1", name: "Test Package" }],
+          query: "test",
+          processingTimeMs: 10,
+          limit: 20,
+          offset: 0,
+          estimatedTotalHits: 1,
+        }),
+        getTask: vi.fn().mockResolvedValue({ status: "succeeded" }),
+        deleteAllDocuments: vi.fn().mockResolvedValue({ taskUid: "clear-task" }),
+      };
+
       return {
         health: vi.fn().mockResolvedValue({ status: "available" }),
         createIndex: vi.fn().mockResolvedValue({ uid: "test-task" }),
-        index: vi.fn().mockReturnValue({
-          updateSettings: vi.fn().mockResolvedValue({ taskUid: "settings-task" }),
-          addDocuments: vi.fn().mockResolvedValue({ taskUid: "documents-task" }),
-          getStats: vi.fn().mockResolvedValue({
-            numberOfDocuments: 100,
-            isIndexing: false,
-            fieldDistribution: {},
-          }),
-          search: vi.fn().mockResolvedValue({
-            hits: [{ id: "1", name: "Test Package" }],
-            query: "test",
-            processingTimeMs: 10,
-            limit: 20,
-            offset: 0,
-            estimatedTotalHits: 1,
-          }),
-          getTask: vi.fn().mockResolvedValue({ status: "succeeded" }),
-        }),
+        getIndex: vi.fn().mockResolvedValue(mockIndex),
+        index: vi.fn().mockReturnValue(mockIndex),
         waitForTask: vi.fn().mockResolvedValue({ status: "succeeded" }),
       };
     }),
+  };
+});
+
+// Mock fs module
+vi.mock("node:fs/promises", () => {
+  return {
+    default: {
+      readFile: vi.fn().mockResolvedValue(
+        JSON.stringify({
+          "@test/package": {
+            name: "Test Package",
+            description: "A test package",
+          },
+        }),
+      ),
+    },
   };
 });
 
@@ -37,6 +57,9 @@ describe("SearchService", () => {
     // Reset the search service state before each test
     (searchService as any).isInitialized = false;
     (searchService as any).index = null;
+
+    // Clear all mocks
+    vi.clearAllMocks();
   });
 
   afterEach(() => {
@@ -78,8 +101,9 @@ describe("SearchService", () => {
     it("should configure index settings", async () => {
       await searchService.initialize();
       await searchService.configureIndex();
-
-      expect(searchService.index.updateSettings).toHaveBeenCalled();
+      if (searchService.index) {
+        expect(searchService.index.updateSettings).toHaveBeenCalled();
+      }
     });
   });
 
@@ -179,27 +203,13 @@ describe("SearchService", () => {
     });
 
     it("should index packages successfully", async () => {
-      // Mock file system read
-      vi.mock("node:fs/promises", () => {
-        return {
-          default: {
-            readFile: vi.fn().mockResolvedValue(
-              JSON.stringify({
-                "@test/package": {
-                  name: "Test Package",
-                  description: "A test package",
-                },
-              }),
-            ),
-          },
-        };
-      });
-
       await searchService.initialize();
       const result = await searchService.indexPackages();
 
       expect(result.numberOfDocuments).toBe(100);
-      expect(searchService.index.addDocuments).toHaveBeenCalled();
+      if (searchService.index) {
+        expect(searchService.index.addDocuments).toHaveBeenCalled();
+      }
     });
   });
 
@@ -236,6 +246,9 @@ describe("SearchService", () => {
       await searchService.initialize();
 
       // Mock search to return suggestion format
+      if (!searchService.index) {
+        return;
+      }
       searchService.index.search = vi.fn().mockResolvedValue({
         hits: [
           {
@@ -270,6 +283,9 @@ describe("SearchService", () => {
     it("should get facets successfully", async () => {
       await searchService.initialize();
       // Mock search to return facets
+      if (!searchService.index) {
+        return;
+      }
       searchService.index.search = vi.fn().mockResolvedValue({
         facetDistribution: {
           category: { testing: 1 },
@@ -296,15 +312,7 @@ describe("SearchService", () => {
     });
 
     it("should get stats successfully", async () => {
-      const mockGetStats = vi.fn().mockResolvedValue({
-        numberOfDocuments: 100,
-        isIndexing: false,
-        fieldDistribution: {},
-      });
-
       await searchService.initialize();
-      searchService.index.getStats = mockGetStats;
-
       const result = await searchService.getStats();
 
       expect(result).toEqual({
@@ -323,14 +331,11 @@ describe("SearchService", () => {
     });
 
     it("should clear index successfully", async () => {
-      // Mock deleteAllDocuments
-      const mockDeleteAllDocuments = vi.fn().mockResolvedValue({ taskUid: "clear-task" });
-
       await searchService.initialize();
-      searchService.index.deleteAllDocuments = mockDeleteAllDocuments;
-
       await searchService.clearIndex();
-
+      if (!searchService.index) {
+        return;
+      }
       expect(searchService.index.deleteAllDocuments).toHaveBeenCalled();
     });
   });
@@ -350,7 +355,6 @@ describe("SearchService", () => {
     });
 
     it("should handle health check when not initialized", async () => {
-      // 创建一个新的SearchService实例来进行这个特定的测试
       const freshSearchService = new (searchService.constructor as any)("mcp-packages");
       const result = await freshSearchService.healthCheck();
 

@@ -6,7 +6,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { MeiliSearch } from "meilisearch";
+import { type Index, MeiliSearch } from "meilisearch";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -16,7 +16,7 @@ interface PackageData {
   description?: string;
   category?: string;
   validated?: boolean;
-  tools?: Record<string, any>;
+  tools?: Record<string, { description?: string }>;
   path?: string;
 }
 
@@ -29,7 +29,7 @@ interface SearchOptions {
 }
 
 interface SearchResults {
-  hits: any[];
+  hits: unknown[];
   query: string;
   processingTimeMs: number;
   limit: number;
@@ -48,7 +48,7 @@ class SearchService {
   private apiKey: string | null;
   private indexName: string;
   protected client: MeiliSearch;
-  protected _index: any;
+  protected _index: Index | null;
   protected isInitialized: boolean;
 
   constructor(indexName: string = "mcp-packages") {
@@ -81,23 +81,14 @@ class SearchService {
     return this.client;
   }
 
-  /**
-   * Get the index
-   */
-  get index(): any {
+  get index(): Index | null {
     return this._index;
   }
 
-  /**
-   * Set the index
-   */
-  set index(value: any) {
+  set index(value: Index | null) {
     this._index = value;
   }
 
-  /**
-   * Initialize the search service and create/configure index
-   */
   async initialize(): Promise<void> {
     try {
       console.log(`Connecting to MeiliSearch at ${this.host}...`);
@@ -110,8 +101,8 @@ class SearchService {
       try {
         await this.client.createIndex(this.indexName, { primaryKey: "id" });
         console.log(`✅ Created new index: ${this.indexName}`);
-      } catch (error: any) {
-        if (error.message.includes("already exists")) {
+      } catch (error) {
+        if ((error as Error).message.includes("exists")) {
           console.log(`✅ Using existing index: ${this.indexName}`);
         } else {
           throw error;
@@ -119,15 +110,15 @@ class SearchService {
       }
 
       // Get the index object
-      this.index = this.client.index(this.indexName);
+      this.index = await this.client.getIndex(this.indexName);
 
       // Configure search settings
       await this.configureIndex();
 
       this.isInitialized = true;
       console.log("✅ Search service initialized successfully");
-    } catch (error: any) {
-      console.error("❌ Failed to initialize search service:", error.message);
+    } catch (error) {
+      console.error("❌ Failed to initialize search service:", (error as Error).message);
       console.log("💡 Make sure MeiliSearch is running on", this.host);
       throw error;
     }
@@ -139,43 +130,45 @@ class SearchService {
   async configureIndex(): Promise<void> {
     try {
       // Configure searchable attributes (ranked by importance)
-      await this.index.updateSettings({
-        searchableAttributes: [
-          "name",
-          "packageName",
-          "description",
-          "tools",
-          "category",
-          "author",
-          "keywords",
-        ],
-        // Configure filterable attributes
-        filterableAttributes: ["category", "validated", "author", "hasTools", "popularity"],
-        // Configure sortable attributes
-        sortableAttributes: ["popularity", "name", "category"],
-        // Configure ranking rules for relevance
-        rankingRules: [
-          "words",
-          "typo",
-          "proximity",
-          "attribute",
-          "sort",
-          "exactness",
-          "popularity:desc",
-        ],
-        // Configure synonyms for better search
-        synonyms: {
-          ai: ["artificial intelligence", "machine learning", "ml"],
-          db: ["database"],
-          api: ["rest", "graphql"],
-          auth: ["authentication", "authorization"],
-          mcp: ["model context protocol"],
-        },
-      });
+      if (this.index) {
+        await this.index.updateSettings({
+          searchableAttributes: [
+            "name",
+            "packageName",
+            "description",
+            "tools",
+            "category",
+            "author",
+            "keywords",
+          ],
+          // Configure filterable attributes
+          filterableAttributes: ["category", "validated", "author", "hasTools", "popularity"],
+          // Configure sortable attributes
+          sortableAttributes: ["popularity", "name", "category"],
+          // Configure ranking rules for relevance
+          rankingRules: [
+            "words",
+            "typo",
+            "proximity",
+            "attribute",
+            "sort",
+            "exactness",
+            "popularity:desc",
+          ],
+          // Configure synonyms for better search
+          synonyms: {
+            ai: ["artificial intelligence", "machine learning", "ml"],
+            db: ["database"],
+            api: ["rest", "graphql"],
+            auth: ["authentication", "authorization"],
+            mcp: ["model context protocol"],
+          },
+        });
+      }
 
       console.log("✅ Search index configured");
-    } catch (error: any) {
-      console.error("❌ Failed to configure index:", error.message);
+    } catch (error) {
+      console.error("❌ Failed to configure index:", (error as Error).message);
       throw error;
     }
   }
@@ -183,7 +176,7 @@ class SearchService {
   /**
    * Transform package data for search indexing
    */
-  transformPackageForIndex(packageName: string, packageData: PackageData): any {
+  transformPackageForIndex(packageName: string, packageData: PackageData): Record<string, unknown> {
     // Extract tools information
     const tools = packageData.tools || {};
     const toolNames = Object.keys(tools);
@@ -329,22 +322,27 @@ class SearchService {
 
       for (let i = 0; i < batches.length; i++) {
         const batch = batches[i];
-        const task = await this.index.addDocuments(batch);
-        console.log(
-          `📝 Indexed batch ${i + 1}/${batches.length} (${batch.length} documents) - Task ID: ${task.taskUid}`,
-        );
+        if (this.index) {
+          const task = await this.index.addDocuments(batch);
+          console.log(
+            `📝 Indexed batch ${i + 1}/${batches.length} (${batch.length} documents) - Task ID: ${task.taskUid}`,
+          );
 
-        // Wait for task completion
-        await this.client.waitForTask(task.taskUid);
+          // Wait for task completion
+          await this.client.waitForTask(task.taskUid);
+        }
       }
 
       // Get final stats
+      if (!this.index) {
+        throw new Error("Index is not initialized");
+      }
       const stats = await this.index.getStats();
       console.log(`✅ Indexing complete! ${stats.numberOfDocuments} documents indexed`);
 
       return stats;
-    } catch (error: any) {
-      console.error("❌ Failed to index packages:", error.message);
+    } catch (error) {
+      console.error("❌ Failed to index packages:", (error as Error).message);
       throw error;
     }
   }
@@ -361,7 +359,7 @@ class SearchService {
       const searchOptions = {
         limit: options.limit || 20,
         offset: options.offset || 0,
-        filter: options.filter || null,
+        filter: options.filter || undefined,
         sort: options.sort || ["popularity:desc"],
         attributesToHighlight: ["name", "description"],
         attributesToCrop: ["description"],
@@ -372,6 +370,9 @@ class SearchService {
         ...options,
       };
 
+      if (!this.index) {
+        throw new Error("Index is not initialized");
+      }
       const results = await this.index.search(query, searchOptions);
 
       return {
@@ -382,8 +383,8 @@ class SearchService {
         offset: results.offset,
         estimatedTotalHits: results.estimatedTotalHits,
       };
-    } catch (error: any) {
-      console.error("❌ Search failed:", error.message);
+    } catch (error) {
+      console.error("❌ Search failed:", (error as Error).message);
       throw error;
     }
   }
@@ -391,12 +392,15 @@ class SearchService {
   /**
    * Get search suggestions/autocomplete
    */
-  async suggest(query: string, limit: number = 10): Promise<any[]> {
+  async suggest(query: string, limit: number = 10): Promise<Record<string, unknown>[]> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
+      if (!this.index) {
+        throw new Error("Index is not initialized");
+      }
       const results = await this.index.search(query, {
         limit: limit,
         attributesToRetrieve: ["name", "packageName", "category"],
@@ -404,14 +408,23 @@ class SearchService {
         cropLength: 0,
       });
 
-      return results.hits.map((hit: any) => ({
-        name: hit.name,
-        packageName: hit.packageName,
-        category: hit.category,
-        highlighted: hit._formatted?.name || hit.name,
-      }));
-    } catch (error: any) {
-      console.error("❌ Suggestions failed:", error.message);
+      return results.hits.map(
+        (hit: {
+          name?: string;
+          packageName?: string;
+          category?: string;
+          _formatted?: {
+            name?: string;
+          };
+        }) => ({
+          name: hit.name,
+          packageName: hit.packageName,
+          category: hit.category,
+          highlighted: hit._formatted?.name || hit.name,
+        }),
+      );
+    } catch (error) {
+      console.error("❌ Suggestions failed:", (error as Error).message);
       throw error;
     }
   }
@@ -419,20 +432,23 @@ class SearchService {
   /**
    * Get faceted search results (for filters)
    */
-  async getFacets(): Promise<any> {
+  async getFacets(): Promise<Record<string, unknown> | undefined> {
     if (!this.isInitialized) {
       throw new Error("Search service not initialized. Call initialize() first.");
     }
 
     try {
+      if (!this.index) {
+        throw new Error("Index is not initialized");
+      }
       const results = await this.index.search("", {
         limit: 0,
         facets: ["category", "validated", "author"],
       });
 
       return results.facetDistribution;
-    } catch (error: any) {
-      console.error("❌ Failed to get facets:", error.message);
+    } catch (error) {
+      console.error("❌ Failed to get facets:", (error as Error).message);
       throw error;
     }
   }
@@ -446,9 +462,12 @@ class SearchService {
     }
 
     try {
+      if (!this.index) {
+        throw new Error("Index is not initialized");
+      }
       return await this.index.getStats();
-    } catch (error: any) {
-      console.error("❌ Failed to get stats:", error.message);
+    } catch (error) {
+      console.error("❌ Failed to get stats:", (error as Error).message);
       throw error;
     }
   }
@@ -462,11 +481,14 @@ class SearchService {
     }
 
     try {
+      if (!this.index) {
+        throw new Error("Index is not initialized");
+      }
       const task = await this.index.deleteAllDocuments();
       await this.client.waitForTask(task.taskUid);
       console.log("✅ Index cleared");
-    } catch (error: any) {
-      console.error("❌ Failed to clear index:", error.message);
+    } catch (error) {
+      console.error("❌ Failed to clear index:", (error as Error).message);
       throw error;
     }
   }
@@ -474,7 +496,7 @@ class SearchService {
   /**
    * Health check for the search service
    */
-  async healthCheck(): Promise<any> {
+  async healthCheck(): Promise<Record<string, unknown>> {
     try {
       await this.client.health();
       const stats = this.isInitialized ? await this.getStats() : null;
@@ -486,10 +508,10 @@ class SearchService {
         indexName: this.indexName,
         documentCount: stats?.numberOfDocuments || 0,
       };
-    } catch (error: any) {
+    } catch (error) {
       return {
         status: "unhealthy",
-        error: error.message,
+        error: (error as Error).message,
         host: this.host,
         initialized: false,
       };
