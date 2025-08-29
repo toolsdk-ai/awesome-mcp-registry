@@ -17,7 +17,7 @@ build:
 
 build-py:
 	bun scripts/py-deps-lists.ts
-	./scripts/server/install.sh py
+	./install-python-deps.sh
 	bun scripts/py-test-mcp-clients.ts
 
 dev:
