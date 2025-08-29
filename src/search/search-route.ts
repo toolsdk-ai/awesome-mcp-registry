@@ -122,7 +122,7 @@ searchRoutes.openapi(searchRoute, async (c) => {
       data: results,
     });
   } catch (error) {
-    console.error("Search failed:", error);
+    console.error("Search failed:", (error as Error).stack);
     return c.json(
       {
         success: false,
@@ -232,7 +232,7 @@ searchRoutes.openapi(suggestRoute, async (c) => {
       200,
     );
   } catch (error) {
-    console.error("Failed to get suggestions:", error);
+    console.error("Failed to get suggestions:", (error as Error).stack);
     return c.json(
       {
         success: false,
@@ -304,7 +304,7 @@ searchRoutes.openapi(facetsRoute, async (c) => {
       },
     });
   } catch (error) {
-    console.error("Failed to get facets:", error);
+    console.error("Failed to get facets:", (error as Error).stack);
     return c.json(
       {
         success: false,
@@ -377,7 +377,7 @@ searchRoutes.openapi(healthRoute, async (c) => {
       200,
     );
   } catch (error) {
-    console.error("Health check failed:", error);
+    console.error("Health check failed:", (error as Error).stack);
     return c.json(
       {
         success: false,
@@ -449,7 +449,7 @@ searchRoutes.openapi(initRoute, async (c) => {
       200,
     );
   } catch (error) {
-    console.error("Failed to initialize search service:", error);
+    console.error("Failed to initialize search service:", (error as Error).stack);
     return c.json(
       {
         success: false,
@@ -507,7 +507,7 @@ searchRoutes.openapi(indexRoute, async (c) => {
       200,
     );
   } catch (error) {
-    console.error("Failed to index packages:", error);
+    console.error("Failed to index packages:", (error as Error).stack);
     return c.json(
       {
         success: false,
@@ -564,7 +564,7 @@ searchRoutes.openapi(clearRoute, async (c) => {
       200,
     );
   } catch (error) {
-    console.error("Failed to clear index:", error);
+    console.error("Failed to clear index:", (error as Error).stack);
     return c.json(
       {
         success: false,
@@ -622,7 +622,7 @@ searchRoutes.openapi(statsRoute, async (c) => {
       200,
     );
   } catch (error) {
-    console.error("Failed to get index statistics:", error);
+    console.error("Failed to get index statistics:", (error as Error).stack);
     return c.json(
       {
         success: false,

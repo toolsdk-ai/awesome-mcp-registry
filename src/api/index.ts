@@ -26,15 +26,14 @@ const initializeSearchService = async () => {
   }
 };
 
-if (process.env.ENABLE_SEARCH === "true") {
-  initializeSearchService().catch(console.error);
-}
-
 const app: OpenAPIHono = new OpenAPIHono();
 
 app.route("/api/v1", packageRoutes);
 
-app.route("/api/v1", searchRoutes);
+if (process.env.ENABLE_SEARCH === "true") {
+  initializeSearchService().catch(console.error);
+  app.route("/api/v1", searchRoutes);
+}
 
 app.get("/", async (c: Context) => {
   try {
