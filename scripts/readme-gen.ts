@@ -10,6 +10,7 @@ import categoriesList from "../indexes/categories-list.json";
 import allPackagesList from "../indexes/packages-list.json";
 import { MCPServerPackageConfigSchema } from "../src/schema";
 import type { PackagesList } from "../src/types";
+import { __dirname } from "../src/utils";
 
 let TOC = "";
 let README = "";

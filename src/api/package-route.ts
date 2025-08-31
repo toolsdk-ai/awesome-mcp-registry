@@ -1,5 +1,4 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
-
+import path from "node:path";
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
 import { getPythonDependencies } from "../helper";
 import {
@@ -13,7 +12,7 @@ import {
   ToolsResponseSchema,
 } from "../schema";
 import type { CategoryConfig, PackagesList } from "../types";
-import { createResponse, createRouteResponses } from "../utils";
+import { __dirname, createResponse, createRouteResponses } from "../utils";
 import { packageHandler } from "./package-handler";
 
 export const packageRoutes: OpenAPIHono = new OpenAPIHono();
@@ -24,8 +23,10 @@ const featuredRoute = createRoute({
   responses: createRouteResponses(FeaturedResponseSchema),
 });
 
-packageRoutes.openapi(featuredRoute, (c) => {
-  const featured: string[] = require("../../config/featured.mjs").default;
+packageRoutes.openapi(featuredRoute, async (c) => {
+  const featuredPath = path.join(__dirname, "../../config/featured.mjs");
+  const featuredModule = await import(`file://${featuredPath}`);
+  const featured: string[] = featuredModule.default;
   const response = createResponse(featured);
   return c.json(response, 200);
 });
@@ -36,8 +37,10 @@ const categoriesRoute = createRoute({
   responses: createRouteResponses(CategoriesResponseSchema),
 });
 
-packageRoutes.openapi(categoriesRoute, (c) => {
-  const categories: CategoryConfig[] = require("../../config/categories.mjs").default;
+packageRoutes.openapi(categoriesRoute, async (c) => {
+  const categoriesPath = path.join(__dirname, "../../config/categories.mjs");
+  const categoriesModule = await import(`file://${categoriesPath}`);
+  const categories: CategoryConfig[] = categoriesModule.default;
   const response = createResponse(categories);
   return c.json(response, 200);
 });

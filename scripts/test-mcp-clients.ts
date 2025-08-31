@@ -9,6 +9,7 @@ import {
   updatePackageJsonDependencies,
   withTimeout,
 } from "../src/helper";
+import { __dirname } from "../src/utils";
 
 async function main() {
   const packageDeps: Record<string, string> = {};

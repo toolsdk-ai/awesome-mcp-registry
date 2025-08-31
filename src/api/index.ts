@@ -1,6 +1,5 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { serve } from "@hono/node-server";
 import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
@@ -8,10 +7,8 @@ import dotenv from "dotenv";
 import type { Context } from "hono";
 import { searchRoutes } from "../search/search-route";
 import searchService from "../search/search-service";
+import { __dirname } from "../utils";
 import { packageRoutes } from "./package-route";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });

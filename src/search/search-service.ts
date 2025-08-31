@@ -5,11 +5,8 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { type Index, MeiliSearch } from "meilisearch";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import { __dirname } from "../utils";
 
 interface PackageData {
   name?: string;
