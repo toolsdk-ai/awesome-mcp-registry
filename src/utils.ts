@@ -4,10 +4,6 @@ import type { z } from "@hono/zod-openapi";
 import { ErrorResponseSchema } from "./schema";
 import type { Response } from "./types";
 
-// const __filename = fileURLToPath(import.meta.url);
-
-// export const __dirname = dirname(__filename);
-
 export function getDirname(metaUrl: string) {
   return dirname(fileURLToPath(metaUrl));
 }

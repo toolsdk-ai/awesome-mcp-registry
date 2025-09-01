@@ -143,6 +143,7 @@
   "tavily-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/tavily-mcp.json",
+    "validated": true,
     "tools": {
       "tavily-search": {
         "name": "tavily-search",
@@ -160,12 +161,12 @@
         "name": "tavily-map",
         "description": "A powerful web mapping tool that creates a structured map of website URLs, allowing you to discover and analyze site structure, content organization, and navigation paths. Perfect for site audits, content discovery, and understanding website architecture."
       }
-    },
-    "validated": true
+    }
   },
   "@toolsdk.ai/tavily-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/toolsdk-ai-tavily-mcp.json",
+    "validated": true,
     "tools": {
       "tavily-search": {
         "name": "tavily-search",
@@ -183,8 +184,7 @@
         "name": "tavily-map",
         "description": "A powerful web mapping tool that creates a structured map of website URLs, allowing you to discover and analyze site structure, content organization, and navigation paths. Perfect for site audits, content discovery, and understanding website architecture."
       }
-    },
-    "validated": true
+    }
   },
   "@automatalabs/mcp-server-playwright": {
     "category": "browser-automation",
