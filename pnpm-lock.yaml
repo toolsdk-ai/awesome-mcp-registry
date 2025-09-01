@@ -1745,6 +1745,9 @@ importers:
       taskqueue-mcp:
         specifier: 1.4.1
         version: 1.4.1(react@18.3.1)
+      tavily-mcp:
+        specifier: 0.2.9
+        version: 0.2.9
       terminal-mcp-server:
         specifier: 1.0.0
         version: 1.0.0
@@ -25964,6 +25967,10 @@ packages:
 
   taskwarrior-lib@0.5.2:
     resolution: {integrity: sha512-uefKH0Z5M/fgP4HCVWfvU0fB9lRxAYiaicS6/Z937SK5K4D2s8hMrAbo6V9XJZVQhjBCcpnbzJZqirLTv+qQHA==}
+
+  tavily-mcp@0.2.9:
+    resolution: {integrity: sha512-LtsvRuA8M76yYEekh2pUed+AVJdYuwXnx0390LcFGwyTD/EtPKu/Fw8nkkjH1e9TqnienOKuPyFWIc4JuHlMog==}
+    hasBin: true
 
   teeny-request@9.0.0:
     resolution: {integrity: sha512-resvxdc6Mgb7YEThw6G6bExlXKkv6+YbuzGg9xuXxSgxJF7Ozs+o8Y9+2R3sArdWdW8nOokoQb1yrpFB0pQK2g==}
@@ -63585,6 +63592,15 @@ snapshots:
       - supports-color
 
   taskwarrior-lib@0.5.2: {}
+
+  tavily-mcp@0.2.9:
+    dependencies:
+      '@modelcontextprotocol/sdk': 0.6.0
+      axios: 1.11.0(debug@4.4.1)
+      dotenv: 16.6.1
+      yargs: 17.7.2
+    transitivePeerDependencies:
+      - debug
 
   teeny-request@9.0.0(encoding@0.1.13):
     dependencies:

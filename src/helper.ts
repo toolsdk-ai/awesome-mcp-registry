@@ -7,9 +7,11 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import axios from "axios";
 import semver from "semver";
 import allPackagesList from "../indexes/packages-list.json";
+import { getDirname } from "../src/utils";
 import { MCPServerPackageConfigSchema, PackagesListSchema } from "./schema";
 import type { MCPServerPackageConfig } from "./types";
-import { __dirname } from "./utils";
+
+const __dirname = getDirname(import.meta.url);
 
 export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
 

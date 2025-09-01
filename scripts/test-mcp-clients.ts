@@ -9,7 +9,9 @@ import {
   updatePackageJsonDependencies,
   withTimeout,
 } from "../src/helper";
-import { __dirname } from "../src/utils";
+import { getDirname } from "../src/utils";
+
+const __dirname = getDirname(import.meta.url);
 
 async function main() {
   const packageDeps: Record<string, string> = {};

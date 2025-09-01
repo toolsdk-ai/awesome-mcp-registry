@@ -7,7 +7,9 @@ import type {
   MCPServerPackageConfigWithTools,
   ToolExecute,
 } from "../types";
-import { __dirname } from "../utils";
+import { getDirname } from "../utils";
+
+const __dirname = getDirname(import.meta.url);
 
 export class PackageSO {
   async executeTool(request: ToolExecute): Promise<unknown> {

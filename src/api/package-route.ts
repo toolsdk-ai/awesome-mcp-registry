@@ -12,8 +12,10 @@ import {
   ToolsResponseSchema,
 } from "../schema";
 import type { CategoryConfig, PackagesList } from "../types";
-import { __dirname, createResponse, createRouteResponses } from "../utils";
+import { createResponse, createRouteResponses, getDirname } from "../utils";
 import { packageHandler } from "./package-handler";
+
+const __dirname = getDirname(import.meta.url);
 
 export const packageRoutes: OpenAPIHono = new OpenAPIHono();
 

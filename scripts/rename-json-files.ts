@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
-import { __dirname } from "../src/utils";
+import { getDirname } from "../src/utils";
+
+const __dirname = getDirname(import.meta.url);
 
 const LANGUAGE_PREFIXES = ["node", "python", "java", "go"];
 // const BASE_DIR = '/home/username/mcp/awesome-mcp-registry/packages';

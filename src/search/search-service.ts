@@ -6,7 +6,9 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { type Index, MeiliSearch } from "meilisearch";
-import { __dirname } from "../utils";
+import { getDirname } from "../utils";
+
+const __dirname = getDirname(import.meta.url);
 
 interface PackageData {
   name?: string;

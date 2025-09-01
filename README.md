@@ -106,9 +106,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (720)
+✅: Validated and runnable tools (721)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3384))
+❌: Cannot be run by the MCP client (with mock environments variables (3383))
 
 
 
@@ -510,7 +510,7 @@ Tools for browsing, scraping, and automating web content in AI-compatible format
 - [❌ onenote-browser](https://github.com/hwillgit/onenote-mcp): Enables browsing and interaction with shared OneNote notebooks through browser automation for reading/writing pages, capturing diagrams, and maintaining session state  (node) 
 - [✅ hyper-mcp-browser](https://github.com/bigsweetpotatostudio/hyper-mcp-browser): Enables web browsing capabilities through Puppeteer and Chrome, allowing navigation, content extraction, and interaction with websites for scraping, analysis, and automated testing workflows.  (2 tools) (node) 
 - [❌ puppeteer-browser-automation](https://github.com/twolven/mcp-server-puppeteer-py): Integrates with Puppeteer to provide browser automation capabilities for web navigation, interaction, and data extraction.  (python) 
-- [❌ tavily-mcp](https://github.com/tavily-ai/tavily-mcp): Integrates with Tavily API to provide real-time web search and content extraction capabilities for research, aggregation, and fact-checking tasks.  (node) 
+- [✅ tavily-mcp](https://github.com/tavily-ai/tavily-mcp): Integrates with Tavily API to provide real-time web search and content extraction capabilities for research, aggregation, and fact-checking tasks.  (4 tools) (node) 
 - [❌ web-fetcher](https://github.com/everford/fetcher-mcp): Enables web content retrieval and processing through headless browsing with Playwright, extracting clean, readable text from complex web pages using Mozilla's Readability and Turndown for markdown conversion.  (node) 
 - [❌ playwright-plus](https://github.com/williamvd4/playwright-plus-python-mcp): Enables web automation with Playwright for browsing, form filling, screenshot capture, and JavaScript execution, plus a simple note storage system for content extraction and manipulation.  (python) 
 - [✅ mcp-cookie-server](https://github.com/bnookala/mcp-cookiejar): Provides cookie management capabilities for web automation and testing workflows, enabling storage, retrieval, and manipulation of session state and authentication cookies across different web services.  (6 tools) (node) 
@@ -3101,7 +3101,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ cloudflare-documentation](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/docs-vectorize): Connects AI systems to Cloudflare's documentation through Vectorize, enabling semantic search and retrieval of relevant content about Cloudflare products and services.  (node) 
 - [❌ exa](https://github.com/aperture147/exa-mcp-worker): Integrates with Exa.ai to enable web searches with customizable parameters like result count and live crawling, returning structured JSON results for retrieving up-to-date information without leaving the conversation context.  (node) 
 - [❌ markdown-web-crawl](https://github.com/jmh108/md-webcrawl-mcp): Python-based web crawler extracts website content into markdown files, enabling efficient content aggregation and site archiving.  (python) 
-- [❌ tavily-mcp](https://github.com/tavily-ai/tavily-mcp): Integrates with Tavily API to provide real-time web search and content extraction capabilities for research, aggregation, and fact-checking tasks.  (node) 
+- [✅ tavily-mcp](https://github.com/tavily-ai/tavily-mcp): Integrates with Tavily API to provide real-time web search and content extraction capabilities for research, aggregation, and fact-checking tasks.  (4 tools) (node) 
 - [❌ @apify/actors-mcp-server](https://github.com/apify/apify-mcp-server): The Apify Model Context Protocol (MCP) Server at mcp.apify.com instantly connects AI applications and agents to thousands of ready‑built tools. It allows your AI assistant to use any Apify Actor for web scraping, data extraction, and automation tasks in real time.  (node) 
 - [❌ keywordspeopleuse](https://github.com/data-skunks/kpu-mcp): Integrates with KeywordsPeopleUse API to provide keyword research capabilities including People Also Ask questions, Google Autocomplete suggestions, Reddit/Quora questions, and semantic keywords with language and country localization options.  (node) 
 - [❌ youtube-captions](https://github.com/nattyraz/youtube-mcp): Extracts and transforms YouTube video content, providing metadata, multi-language captions, chapter information, and customizable markdown transcripts with search capabilities through the YouTube Data API.  (node) 
