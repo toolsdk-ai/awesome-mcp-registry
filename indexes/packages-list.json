@@ -979,7 +979,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun-io-mcp-server-raygun.json",
+    "path": "monitoring/raygun.io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
