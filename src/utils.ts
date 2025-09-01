@@ -1,6 +1,12 @@
+import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 import type { z } from "@hono/zod-openapi";
 import { ErrorResponseSchema } from "./schema";
 import type { Response } from "./types";
+
+export function getDirname(metaUrl: string) {
+  return dirname(fileURLToPath(metaUrl));
+}
 
 export const createResponse = <T>(
   data: T,

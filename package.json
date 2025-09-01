@@ -613,6 +613,7 @@
     "systemprompt-mcp-notion": "1.0.7",
     "tana-mcp": "1.2.0",
     "taskqueue-mcp": "1.4.1",
+    "tavily-mcp": "0.2.9",
     "terminal-mcp-server": "1.0.0",
     "terraform-mcp-server": "0.13.0",
     "tesouro-direto-mcp": "0.2.3",

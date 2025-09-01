@@ -1,18 +1,17 @@
 import assert from "node:assert";
 import fs from "node:fs";
 import * as path from "node:path";
-import { fileURLToPath } from "node:url";
 import toml from "@iarna/toml";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 import axios from "axios";
 import semver from "semver";
 import allPackagesList from "../indexes/packages-list.json";
+import { getDirname } from "../src/utils";
 import { MCPServerPackageConfigSchema, PackagesListSchema } from "./schema";
 import type { MCPServerPackageConfig } from "./types";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = getDirname(import.meta.url);
 
 export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
 

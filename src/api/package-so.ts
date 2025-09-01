@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getMcpClient, getPackageConfigByKey, typedAllPackagesList } from "../helper.js";
 import type {
@@ -8,9 +7,9 @@ import type {
   MCPServerPackageConfigWithTools,
   ToolExecute,
 } from "../types";
+import { getDirname } from "../utils";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = getDirname(import.meta.url);
 
 export class PackageSO {
   async executeTool(request: ToolExecute): Promise<unknown> {

@@ -1,6 +1,5 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { serve } from "@hono/node-server";
 import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
@@ -8,10 +7,10 @@ import dotenv from "dotenv";
 import type { Context } from "hono";
 import { searchRoutes } from "../search/search-route";
 import searchService from "../search/search-service";
+import { getDirname } from "../utils";
 import { packageRoutes } from "./package-route";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = getDirname(import.meta.url);
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });
@@ -46,10 +45,16 @@ app.get("/", async (c: Context) => {
   }
 });
 
-app.get("/api/meta", (c: Context) => {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const packageJson = require("../../package.json");
-  return c.json({ version: packageJson.version });
+app.get("/api/meta", async (c: Context) => {
+  try {
+    const packageJson = await import("../../package.json", {
+      assert: { type: "json" },
+    });
+    return c.json({ version: packageJson.default.version });
+  } catch (error) {
+    console.error("Failed to load package.json:", error);
+    return c.json({ version: "unknown" });
+  }
 });
 
 app.doc("/api/v1/doc", {

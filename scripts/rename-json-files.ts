@@ -1,5 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
+import { getDirname } from "../src/utils";
+
+const __dirname = getDirname(import.meta.url);
 
 const LANGUAGE_PREFIXES = ["node", "python", "java", "go"];
 // const BASE_DIR = '/home/username/mcp/awesome-mcp-registry/packages';
@@ -44,8 +47,7 @@ function renameJsonFiles(baseDir: string): void {
  */
 function main(): void {
   // 使用脚本所在目录的上一级作为基础目录
-  const scriptDir = __dirname;
-  const projectRoot = path.resolve(scriptDir, "..");
+  const projectRoot = path.resolve(__dirname, "..");
 
   // 获取 BASE_DIR 环境变量，如果没有则使用相对路径默认值
   const targetDir = process.env.BASE_DIR || path.join(projectRoot, "packages");
