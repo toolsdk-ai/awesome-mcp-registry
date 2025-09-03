@@ -1499,7 +1499,7 @@
       "kestra",
       "smartsheet-for-healthcare",
       "@lark-base-open/mcp-node-server",
-      "aitable-mcp-server",
+      "@apitable/aitable-mcp-server",
       "mcp-server-alteryx",
       "json-mcp-server",
       "apache-seatunnel",

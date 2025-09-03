@@ -106,9 +106,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 # MCP Servers
 
-✅: Validated and runnable tools (722)
+✅: Validated and runnable tools (723)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3383))
+❌: Cannot be run by the MCP client (with mock environments variables (3382))
 
 
 
@@ -1588,7 +1588,7 @@ Tools for integrating, transforming, and managing data pipelines.
 - [❌ kestra](https://github.com/kestra-io/mcp-server-python): Integrates with Kestra workflow orchestration platform to enable natural language control of data pipelines, execution management, namespace operations, and enterprise features like user management through conversational interfaces.  (python) 
 - [❌ smartsheet-for-healthcare](https://github.com/terilios/smartsheet-server): Integrates Smartsheet for healthcare analytics, enabling efficient data management and analysis in clinical research and hospital operations.  (python) 
 - [❌ @lark-base-open/mcp-node-server](https://github.com/lark-base-team/lark-base-mcp-node-server): Integrates with Lark Base (formerly Feishu Bitable) to enable data retrieval, field management, and table manipulation across collaborative spreadsheets and databases using app tokens and personal base tokens for authentication.  (node) 
-- [❌ aitable-mcp-server](https://github.com/apitable/aitable-mcp-server): AITable.ai Model Context Protocol Server enables AI agents to connect and work with AITable datasheets.  (node) 
+- [✅ @apitable/aitable-mcp-server](https://github.com/apitable/aitable-mcp-server): AITable.ai Model Context Protocol Server enables AI agents to connect and work with AITable datasheets.  (6 tools) (node) 
 - [❌ mcp-server-alteryx](https://github.com/jupiterbak/ayx-mcp-wrapper): Integrates with Alteryx Server's REST API to enable workflow execution, collection management, user administration, schedule automation, job monitoring, and credential management for data analytics operations.  (python) 
 - [✅ json-mcp-server](https://github.com/vadimnastoyashchy/json-mcp): Provides tools for splitting large JSON files into manageable chunks and merging multiple JSON files into a consolidated output for efficient data processing workflows.  (2 tools) (node) 
 - [❌ apache-seatunnel](https://github.com/ocean-zhc/seatunnel-mcp): Interact with SeaTunnel through LLM interfaces like Claude.  (python) 
