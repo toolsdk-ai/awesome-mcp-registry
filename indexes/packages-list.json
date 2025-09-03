@@ -979,7 +979,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun-io-mcp-server-raygun.json",
+    "path": "monitoring/raygun.io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
@@ -47925,6 +47925,7 @@
   "@apitable/aitable-mcp-server": {
     "category": "data-platforms",
     "path": "data-platforms/aitable-mcp-server.json",
+    "validated": true,
     "tools": {
       "list_spaces": {
         "name": "list_spaces",
@@ -47950,7 +47951,6 @@
         "name": "upload_attachment_via_url",
         "description": "Upload an attachment to the AITable server using its web URL. Returns storage information that can be passed to create_record or update_record tools to associate with a specific records."
       }
-    },
-    "validated": true
+    }
   }
 }
