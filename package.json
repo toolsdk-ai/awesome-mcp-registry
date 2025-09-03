@@ -347,6 +347,7 @@
     "axios": "^1.9.0",
     "base-network-mcp-server": "0.1.0",
     "better-fetch-mcp": "1.0.0",
+    "bika-mcp-server": "1.0.7-alpha.62",
     "binance-mcp-server": "1.0.3",
     "bitcoin-mcp": "0.0.6",
     "bitrefill-mcp-server": "0.3.0",

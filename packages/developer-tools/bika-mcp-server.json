@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "packageName": "bika-mcp-server",
+  "description": "A Model Context Protocol server that provides read and write access to Bika.ai. This server enables LLMs to list spaces, list nodes, list records, create records and upload attachments in Bika.ai.",
+  "url": "https://github.com/bika-ai/bika-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {
+    "BIKA_API_KEY": {
+      "description": "The API key for the Bika.ai API.",
+      "required": true
+    }
+  },
+  "name": "Bika.ai MCP Server"
+}
