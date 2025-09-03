@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "aitable-mcp-server",
+  "packageName": "@apitable/aitable-mcp-server",
   "description": "AITable.ai Model Context Protocol Server enables AI agents to connect and work with AITable datasheets.",
   "url": "https://github.com/apitable/aitable-mcp-server",
   "runtime": "node",

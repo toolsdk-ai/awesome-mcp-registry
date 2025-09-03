@@ -979,7 +979,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun.io-mcp-server-raygun.json",
+    "path": "monitoring/raygun-io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
@@ -33043,12 +33043,6 @@
     "validated": false,
     "tools": {}
   },
-  "aitable-mcp-server": {
-    "category": "data-platforms",
-    "path": "data-platforms/aitable-mcp-server.json",
-    "validated": false,
-    "tools": {}
-  },
   "@lark-base-open/mcp-node-server": {
     "category": "data-platforms",
     "path": "data-platforms/lark-base-open-mcp-node-server.json",
@@ -47896,5 +47890,67 @@
     "path": "other-tools-and-integrations/mcp-remote.json",
     "validated": false,
     "tools": {}
+  },
+  "bika-mcp-server": {
+    "category": "developer-tools",
+    "path": "developer-tools/bika-mcp-server.json",
+    "validated": true,
+    "tools": {
+      "list_spaces": {
+        "name": "list_spaces",
+        "description": "Fetches all workspaces that the currently authenticated user has permission to access."
+      },
+      "list_nodes": {
+        "name": "list_nodes",
+        "description": "Retrieves all nodes contained within the specified workspace. Nodes in Bika can be of several types: databases (also known as sheets, datasheets, or spreadsheets), automations, documents, and folders."
+      },
+      "get_records": {
+        "name": "get_records",
+        "description": "Read the records from a specified database with support for pagination, field filtering, and sorting options."
+      },
+      "get_fields_schema": {
+        "name": "get_fields_schema",
+        "description": "Returns the JSON schema of all fields within the specified database, This schema will be sent to LLM to help the AI understand the expected structure of the data."
+      },
+      "create_record": {
+        "name": "create_record",
+        "description": "Create a new record in the database. Extract key information from user-provided text based on a predefined Fields JSON Schema and create a new record in the database as a JSON object."
+      },
+      "upload_attachment_via_url": {
+        "name": "upload_attachment_via_url",
+        "description": "Upload an attachment to the Bika server using its web URL. Returns storage information that can be passed to create_record or update_record tools to associate with a specific records."
+      }
+    }
+  },
+  "@apitable/aitable-mcp-server": {
+    "category": "data-platforms",
+    "path": "data-platforms/aitable-mcp-server.json",
+    "tools": {
+      "list_spaces": {
+        "name": "list_spaces",
+        "description": "Fetches all workspaces that the currently authenticated user has permission to access."
+      },
+      "search_nodes": {
+        "name": "search_nodes",
+        "description": "Retrieve nodes based on specific types, permissions, and queries. Nodes in AITable can be of several types: datasheets (also known as sheets, or spreadsheets), form, dashboard, and folders."
+      },
+      "list_records": {
+        "name": "list_records",
+        "description": "Read the records from a specified datasheet with support for pagination, field filtering, and sorting options."
+      },
+      "get_fields_schema": {
+        "name": "get_fields_schema",
+        "description": "Returns the JSON schema of all fields within the specified database, This schema will be sent to LLM to help the AI understand the expected structure of the data."
+      },
+      "create_record": {
+        "name": "create_record",
+        "description": "Create a new record in the datasheet. Extract key information from user-provided text based on a predefined Fields JSON Schema and create a new record in the datasheet as a JSON object."
+      },
+      "upload_attachment_via_url": {
+        "name": "upload_attachment_via_url",
+        "description": "Upload an attachment to the AITable server using its web URL. Returns storage information that can be passed to create_record or update_record tools to associate with a specific records."
+      }
+    },
+    "validated": true
   }
 }
