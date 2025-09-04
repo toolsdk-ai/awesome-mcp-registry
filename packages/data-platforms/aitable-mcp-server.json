@@ -12,7 +12,7 @@
     },
     "AITABLE_BASE_URL": {
       "description": "The base URL of the AITable API. You can set it to your custom base URL if using APITable (the open-source version of AITable)",
-      "required": true
+      "required": false
     }
   },
   "name": "AITable MCP Server"

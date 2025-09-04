@@ -21,15 +21,20 @@ export const packageHandler = {
             `Package '${requestBody.packageName}' not found`,
             404,
           );
-          return c.json(errorResponse, 404);
+          return c.json(errorResponse, 200);
         }
         if (error.message.includes("Unknown tool")) {
           const errorResponse = createErrorResponse(
             `Tool '${requestBody.toolKey}' not found in package '${requestBody.packageName}`,
             404,
           );
-          return c.json(errorResponse, 404);
+          return c.json(errorResponse, 200);
         }
+        const errorResponse = createErrorResponse(
+          `[executeTool] Error executing tool: ${error.message}`,
+          500,
+        );
+        return c.json(errorResponse, 200);
       }
 
       // Other errors are still thrown
@@ -41,7 +46,7 @@ export const packageHandler = {
     const packageName = c.req.query("packageName");
     if (!packageName) {
       const errorResponse = createErrorResponse("Missing packageName query parameter", 400);
-      return c.json(errorResponse, 400);
+      return c.json(errorResponse, 200);
     }
 
     try {
@@ -53,7 +58,7 @@ export const packageHandler = {
     } catch (error) {
       if (error instanceof Error && error.message.includes("not found")) {
         const errorResponse = createErrorResponse(`Package '${packageName}' not found`, 404);
-        return c.json(errorResponse, 404);
+        return c.json(errorResponse, 200);
       }
       throw error;
     }
@@ -63,7 +68,7 @@ export const packageHandler = {
     const packageName = c.req.query("packageName");
     if (!packageName) {
       const errorResponse = createErrorResponse("Missing packageName query parameter", 400);
-      return c.json(errorResponse, 400);
+      return c.json(errorResponse, 200);
     }
 
     try {
@@ -75,7 +80,7 @@ export const packageHandler = {
     } catch (error) {
       if (error instanceof Error && error.message.includes("not found")) {
         const errorResponse = createErrorResponse(`Package '${packageName}' not found`, 404);
-        return c.json(errorResponse, 404);
+        return c.json(errorResponse, 200);
       }
       throw error;
     }
