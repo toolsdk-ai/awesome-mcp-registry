@@ -68,12 +68,19 @@ app.doc("/api/v1/doc", {
 app.get("/swagger", swaggerUI({ url: "/api/v1/doc" }));
 
 app.notFound((c: Context) => {
-  return c.json({ success: false, code: 404, message: "Route not found" }, 404);
+  return c.json({ success: false, code: 404, message: "[Registry API] Route not found" }, 404);
 });
 
 app.onError((err: Error, c: Context) => {
   console.error("Server Error:", err);
-  return c.json({ success: false, code: 500, message: "Internal server error" }, 500);
+  return c.json(
+    {
+      success: false,
+      code: 500,
+      message: `[Registry API] Internal server error, errMsg: ${err.message}`,
+    },
+    500,
+  );
 });
 
 const port = process.env.MCP_SERVER_PORT ? parseInt(process.env.MCP_SERVER_PORT, 10) : 3003;
