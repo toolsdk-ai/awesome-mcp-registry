@@ -97,8 +97,8 @@ async function getNodeMcpClient(
   const mcpServerBinPath = mcpServerConfig.bin || binFilePath;
   const binArgs = mcpServerConfig.binArgs || [];
   const transport = new StdioClientTransport({
-    command: process.execPath,
     args: [mcpServerBinPath, ...binArgs],
+    command: process.execPath,
     env: env || {},
   });
 

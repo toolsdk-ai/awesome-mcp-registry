@@ -4,7 +4,7 @@
   "description": "Provides RSS feed parsing and retrieval with RSSHub integration, automatically trying multiple instances when one fails and supporting custom rsshub:// protocol URLs for accessing current content from websites, social platforms, and news sources that don't natively provide RSS feeds.",
   "url": "https://github.com/veithly/rss-mcp",
   "runtime": "node",
-  "license": "unknown",
+  "license": "apache-2.0",
   "env": {},
   "name": "RSS MCP"
 }
