@@ -6,14 +6,13 @@ build:
 	bun scripts/check-config.ts
   # Install dependencies based on the updated `package.json`
 	pnpm install --no-frozen-lockfile
-	bun scripts/test-mcp-clients.ts
+	npx tsx scripts/test-mcp-clients.ts
 	pnpm install --no-frozen-lockfile
 	pnpm prune
 	bun scripts/readme-gen.ts
 	pnpm run sort
 	pnpm run check
 	pnpm run build
-
 
 build-py:
 	bun scripts/py-deps-lists.ts
