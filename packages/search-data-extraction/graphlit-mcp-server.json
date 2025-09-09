@@ -4,6 +4,20 @@
   "packageName": "graphlit-mcp-server",
   "description": "Graphlit MCP Server for AI, RAG, OpenAI, PDF parsing and preprocessing",
   "url": "https://github.com/graphlit/graphlit-mcp-server",
+  "license": "MIT",
   "runtime": "node",
-  "license": "MIT"
+  "env": {
+    "GRAPHLIT_ORGANIZATION_ID": {
+      "description": "your-graphlit-organization-id",
+      "required": false
+    },
+    "GRAPHLIT_ENVIRONMENT_ID": {
+      "description": "your-graphlit-environment-id",
+      "required": false
+    },
+    "GRAPHLIT_JWT_SECRET": {
+      "description": "your-graphlit-jwt-secret",
+      "required": false
+    }
+  }
 }
