@@ -81,13 +81,19 @@ async function main() {
         // const parsedContent: MCPServerPackageConfig= MCPServerPackageConfigSchema.parse(JSON.parse(fileContent));
 
         const mcpClient = await withTimeout(5000, getMcpClient(mcpServerConfig, mockEnv));
-        const tools = await mcpClient.client.listTools();
+        const toolsObj = await mcpClient.client.listTools();
         console.log(
-          `Read success MCP Client for package: ${packageKey} ${value.path}, tools: ${Object.keys(tools).length}`,
+          `Read success MCP Client for package: ${packageKey} ${value.path}, tools: ${toolsObj.tools.length}`,
         );
 
+        if (toolsObj.tools.length === 0) {
+          typedAllPackagesList[packageKey].tools = {};
+          typedAllPackagesList[packageKey].validated = false;
+          continue;
+        }
+
         const saveTools = {};
-        for (const [_toolKey, toolItem] of Object.entries(tools.tools)) {
+        for (const [_toolKey, toolItem] of Object.entries(toolsObj.tools)) {
           saveTools[toolItem.name] = {
             name: toolItem.name,
             description: toolItem.description || "",

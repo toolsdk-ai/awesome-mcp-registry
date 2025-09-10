@@ -949,7 +949,7 @@
   },
   "@raygun.io/mcp-server-raygun": {
     "category": "monitoring",
-    "path": "monitoring/raygun.io-mcp-server-raygun.json",
+    "path": "monitoring/raygun-io-mcp-server-raygun.json",
     "validated": true,
     "tools": {
       "list_applications": {
@@ -3206,7 +3206,7 @@
   "@metamcp/mcp-server-metamcp": {
     "category": "aggregators",
     "path": "aggregators/metamcp-mcp-server-metamcp.json",
-    "validated": true,
+    "validated": false,
     "tools": {}
   },
   "llm-gateway": {
@@ -29278,7 +29278,6 @@
   "@cloudbase/cloudbase-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/cloudbase-cloudbase-mcp.json",
-    "validated": true,
     "tools": {
       "login": {
         "name": "login",
@@ -29290,23 +29289,19 @@
       },
       "envQuery": {
         "name": "envQuery",
-        "description": "查询云开发环境相关信息，支持查询环境列表、当前环境信息和安全域名。（原工具名：listEnvs/getEnvInfo/getEnvAuthDomains，为兼容旧AI规则可继续使用这些名称）"
+        "description": "查询云开发环境相关信息，支持查询环境列表、当前环境信息、安全域名和静态网站托管配置。（原工具名：listEnvs/getEnvInfo/getEnvAuthDomains/getWebsiteConfig，为兼容旧AI规则可继续使用这些名称）"
       },
       "envDomainManagement": {
         "name": "envDomainManagement",
         "description": "管理云开发环境的安全域名，支持添加和删除操作。（原工具名：createEnvDomain/deleteEnvDomain，为兼容旧AI规则可继续使用这些名称）"
       },
-      "updateEnvInfo": {
-        "name": "updateEnvInfo",
-        "description": "更新云开发环境信息"
-      },
       "createCollection": {
         "name": "createCollection",
-        "description": "创建一个新的云开发数据库集合"
+        "description": "管理云开发数据库集合：默认创建。可通过 action 指定 update。"
       },
       "collectionQuery": {
         "name": "collectionQuery",
-        "description": "数据库集合的查询操作，支持检查存在性、查看详情和列表查询。（原工具名：checkCollectionExists/describeCollection/listCollections，为兼容旧AI规则可继续使用这些名称）"
+        "description": "数据库集合的查询操作，支持检查存在性、查看详情、列表查询；并支持索引列表与检查。（兼容旧名称）"
       },
       "updateCollection": {
         "name": "updateCollection",
@@ -29315,10 +29310,6 @@
       "checkIndexExists": {
         "name": "checkIndexExists",
         "description": "检查索引是否存在"
-      },
-      "distribution": {
-        "name": "distribution",
-        "description": "查询数据库中云开发数据库集合的数据分布情况"
       },
       "insertDocuments": {
         "name": "insertDocuments",
@@ -29340,9 +29331,13 @@
         "name": "manageDataModel",
         "description": "数据模型查询工具，支持查询和列表数据模型（只读操作）。list操作返回基础信息（不含Schema），get操作返回详细信息（含简化的Schema，包括字段列表、格式、关联关系等），docs操作生成SDK使用文档"
       },
+      "modifyDataModel": {
+        "name": "modifyDataModel",
+        "description": "基于Mermaid classDiagram创建或更新数据模型。支持创建新模型和更新现有模型结构。内置异步任务监控，自动轮询直至完成或超时。"
+      },
       "getFunctionList": {
         "name": "getFunctionList",
-        "description": "获取云函数列表"
+        "description": "获取云函数列表或单个函数详情，通过 action 参数区分操作类型"
       },
       "createFunction": {
         "name": "createFunction",
@@ -29356,10 +29351,6 @@
         "name": "updateFunctionConfig",
         "description": "更新云函数配置"
       },
-      "getFunctionDetail": {
-        "name": "getFunctionDetail",
-        "description": "获取云函数详情"
-      },
       "invokeFunction": {
         "name": "invokeFunction",
         "description": "调用云函数"
@@ -29372,21 +29363,13 @@
         "name": "getFunctionLogDetail",
         "description": "根据 getFunctionLogs 返回的 RequestId 查询日志详情。参数 startTime、endTime、requestId，返回日志内容（LogJson 等）。仅支持 manger-node 4.4.0+。"
       },
-      "createFunctionTriggers": {
-        "name": "createFunctionTriggers",
-        "description": "创建云函数触发器"
-      },
-      "deleteFunctionTrigger": {
-        "name": "deleteFunctionTrigger",
-        "description": "删除云函数触发器"
+      "manageFunctionTriggers": {
+        "name": "manageFunctionTriggers",
+        "description": "创建或删除云函数触发器，通过 action 参数区分操作类型"
       },
       "uploadFiles": {
         "name": "uploadFiles",
         "description": "上传文件到静态网站托管"
-      },
-      "getWebsiteConfig": {
-        "name": "getWebsiteConfig",
-        "description": "获取静态网站托管配置"
       },
       "deleteFiles": {
         "name": "deleteFiles",
@@ -29400,13 +29383,17 @@
         "name": "domainManagement",
         "description": "统一的域名管理工具，支持绑定、解绑、查询和修改域名配置"
       },
-      "uploadFile": {
-        "name": "uploadFile",
-        "description": "上传文件到云存储（区别于静态网站托管，云存储更适合存储业务数据文件）"
+      "queryStorage": {
+        "name": "queryStorage",
+        "description": "查询云存储信息，支持列出目录文件、获取文件信息、获取临时下载链接等只读操作。返回的文件信息包括文件名、大小、修改时间、下载链接等。"
+      },
+      "manageStorage": {
+        "name": "manageStorage",
+        "description": "管理云存储文件，支持上传文件/目录、下载文件/目录、删除文件/目录等操作。删除操作需要设置force=true进行确认，防止误删除重要文件。"
       },
       "downloadTemplate": {
         "name": "downloadTemplate",
-        "description": "自动下载并部署CloudBase项目模板。\n\n支持的模板:\n- react: React + CloudBase 全栈应用模板\n- vue: Vue + CloudBase 全栈应用模板\n- miniprogram: 微信小程序 + 云开发模板  \n- uniapp: UniApp + CloudBase 跨端应用模板\n- rules: 只包含AI编辑器配置文件（包含Cursor、WindSurf、CodeBuddy等所有主流编辑器配置），适合在已有项目中补充AI编辑器配置\n\n支持的IDE类型:\n- all: 下载所有IDE配置（默认）\n- cursor: Cursor AI编辑器\n- windsurf: WindSurf AI编辑器\n- codebuddy: CodeBuddy AI编辑器\n- claude-code: Claude Code AI编辑器\n- cline: Cline AI编辑器\n- gemini-cli: Gemini CLI\n- opencode: OpenCode AI编辑器\n- qwen-code: 通义灵码\n- baidu-comate: 百度Comate\n- openai-codex-cli: OpenAI Codex CLI\n- augment-code: Augment Code\n- github-copilot: GitHub Copilot\n- roocode: RooCode AI编辑器\n- tongyi-lingma: 通义灵码\n- trae: Trae AI编辑器\n- vscode: Visual Studio Code\n\n特别说明：\n- rules 模板会自动包含当前 mcp 版本号信息（版本号：1.8.28），便于后续维护和版本追踪\n- 下载 rules 模板时，如果项目中已存在 README.md 文件，系统会自动保护该文件不被覆盖（除非设置 overwrite=true）"
+        "description": "自动下载并部署CloudBase项目模板。\n\n支持的模板:\n- react: React + CloudBase 全栈应用模板\n- vue: Vue + CloudBase 全栈应用模板\n- miniprogram: 微信小程序 + 云开发模板  \n- uniapp: UniApp + CloudBase 跨端应用模板\n- rules: 只包含AI编辑器配置文件（包含Cursor、WindSurf、CodeBuddy等所有主流编辑器配置），适合在已有项目中补充AI编辑器配置\n\n支持的IDE类型:\n- all: 下载所有IDE配置（默认）\n- cursor: Cursor AI编辑器\n- windsurf: WindSurf AI编辑器\n- codebuddy: CodeBuddy AI编辑器\n- claude-code: Claude Code AI编辑器\n- cline: Cline AI编辑器\n- gemini-cli: Gemini CLI\n- opencode: OpenCode AI编辑器\n- qwen-code: 通义灵码\n- baidu-comate: 百度Comate\n- openai-codex-cli: OpenAI Codex CLI\n- augment-code: Augment Code\n- github-copilot: GitHub Copilot\n- roocode: RooCode AI编辑器\n- tongyi-lingma: 通义灵码\n- trae: Trae AI编辑器\n- vscode: Visual Studio Code\n\n特别说明：\n- rules 模板会自动包含当前 mcp 版本号信息（版本号：1.8.42），便于后续维护和版本追踪\n- 下载 rules 模板时，如果项目中已存在 README.md 文件，系统会自动保护该文件不被覆盖（除非设置 overwrite=true）"
       },
       "interactiveDialog": {
         "name": "interactiveDialog",
@@ -29420,13 +29407,21 @@
         "name": "searchKnowledgeBase",
         "description": "云开发知识库智能检索工具，支持云开发与云函数知识的向量查询"
       },
+      "queryCloudRun": {
+        "name": "queryCloudRun",
+        "description": "查询云托管服务信息，支持获取服务列表、查询服务详情和获取可用模板列表。返回的服务信息包括服务名称、状态、访问类型、配置详情等。"
+      },
+      "manageCloudRun": {
+        "name": "manageCloudRun",
+        "description": "管理云托管服务，按开发顺序支持：初始化项目（可从模板开始，模板列表可通过 queryCloudRun 查询）、下载服务代码、本地运行（仅函数型服务）、部署代码、删除服务。部署可配置CPU、内存、实例数、访问类型等参数。删除操作需要确认，建议设置force=true。"
+      },
       "createFunctionHTTPAccess": {
         "name": "createFunctionHTTPAccess",
         "description": "创建云函数的 HTTP 访问"
       },
       "downloadRemoteFile": {
         "name": "downloadRemoteFile",
-        "description": "下载远程文件到本地临时文件，返回一个系统的绝对路径"
+        "description": "下载远程文件到项目根目录下的指定相对路径。例如：小程序的 Tabbar 等素材图片，必须使用 **png** 格式，可以从 Unsplash、wikimedia【一般选用 500 大小即可、Pexels、Apple 官方 UI 等资源中选择来下载。"
       },
       "readSecurityRule": {
         "name": "readSecurityRule",
@@ -29440,7 +29435,8 @@
         "name": "activateInviteCode",
         "description": "云开发 AI编程激励计划，通过邀请码激活用户激励。"
       }
-    }
+    },
+    "validated": true
   },
   "vercel-api": {
     "category": "cloud-platforms",
@@ -41883,7 +41879,7 @@
   "mcp-cisco-support": {
     "category": "support-service-management",
     "path": "support-service-management/mcp-cisco-support.json",
-    "validated": true,
+    "validated": false,
     "tools": {}
   },
   "itsm-integration": {

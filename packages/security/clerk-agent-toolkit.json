@@ -5,6 +5,11 @@
   "url": "https://github.com/clerk/javascript/tree/HEAD/packages/agent-toolkit",
   "runtime": "node",
   "license": "unknown",
-  "env": {},
+  "env": {
+    "CLERK_SECRET_KEY": {
+      "description": "Clerk Secret Key",
+      "required": true
+    }
+  },
   "name": "Agent Toolkit"
 }

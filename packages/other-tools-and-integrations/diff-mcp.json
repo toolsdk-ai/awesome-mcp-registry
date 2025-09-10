@@ -1,10 +1,11 @@
 {
   "type": "mcp-server",
   "packageName": "diff-mcp",
+  "logo": "https://raw.githubusercontent.com/benjamine/jsondiffpatch/master/demos/html-demo/logo.svg",
   "description": "Compares and patches JSON objects with a compact delta format that captures additions, modifications, deletions, and array moves for efficient data synchronization and change visualization.",
   "url": "https://github.com/benjamine/jsondiffpatch/tree/HEAD/packages/diff-mcp",
   "runtime": "node",
-  "license": "unknown",
+  "license": "mit",
   "env": {},
   "name": "Diff MCP"
 }

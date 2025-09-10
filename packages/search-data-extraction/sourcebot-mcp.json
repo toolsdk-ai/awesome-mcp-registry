@@ -5,6 +5,11 @@
   "url": "https://github.com/sourcebot-dev/sourcebot",
   "runtime": "node",
   "license": "unknown",
-  "env": {},
+  "env": {
+    "SOURCEBOT_API_KEY": {
+      "description": "API key for SourceBot",
+      "required": false
+    }
+  },
   "name": "Sourcebot MCP Server"
 }

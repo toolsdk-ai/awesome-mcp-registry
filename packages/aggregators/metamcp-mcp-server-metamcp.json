@@ -7,7 +7,7 @@
   "license": "unknown",
   "env": {
     "METAMCP_API_KEY": {
-      "description": "<your api key>",
+      "description": "your api key",
       "required": true
     }
   },

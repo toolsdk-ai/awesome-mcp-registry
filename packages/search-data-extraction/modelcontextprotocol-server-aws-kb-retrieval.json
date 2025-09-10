@@ -5,6 +5,11 @@
   "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/aws-kb-retrieval-server",
   "runtime": "node",
   "license": "MIT",
-  "env": {},
+  "env": {
+    "API_KEY": {
+      "description": "your-api-key",
+      "required": true
+    }
+  },
   "name": "AWS Knowledge Base Retrieval Server for MCP"
 }

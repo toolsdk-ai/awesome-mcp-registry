@@ -5,6 +5,11 @@
   "url": "https://github.com/ertiqah/linkedin-mcp-runner",
   "runtime": "node",
   "license": "unknown",
-  "env": {},
+  "env": {
+    "LINKEDIN_MCP_API_KEY": {
+      "description": "Your LinkedIn API key",
+      "required": false
+    }
+  },
   "name": "LinkedIn MCP Runner"
 }
