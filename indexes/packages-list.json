@@ -9582,6 +9582,7 @@
   "mongodb-mcp-server": {
     "category": "databases",
     "path": "databases/mongodb-mcp-server.json",
+    "validated": true,
     "tools": {
       "connect": {
         "name": "connect",
@@ -9667,8 +9668,7 @@
         "name": "export",
         "description": "Export a query or aggregation results in the specified EJSON format."
       }
-    },
-    "validated": true
+    }
   },
   "tigergraph": {
     "category": "databases",
