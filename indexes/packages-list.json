@@ -47271,5 +47271,20 @@
         "description": "Upload an attachment to the AITable server using its web URL. Returns storage information that can be passed to create_record or update_record tools to associate with a specific records."
       }
     }
+  },
+  "rss-reader-mcp": {
+    "category": "search-data-extraction",
+    "path": "search-data-extraction/rss-reader-mcp.json",
+    "tools": {
+      "fetch_feed_entries": {
+        "name": "fetch_feed_entries",
+        "description": "Fetch RSS feed entries from a given URL"
+      },
+      "fetch_article_content": {
+        "name": "fetch_article_content",
+        "description": "Fetch and extract article content from a URL, formatted as Markdown"
+      }
+    },
+    "validated": true
   }
 }
