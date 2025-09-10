@@ -6,10 +6,10 @@
 
 [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily)](https://www.producthunt.com/products/toolsdk-ai)
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4105-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4106-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
-An open, high-quality, well-structured and developer-friendly list of 4105+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4106+ MCP servers.
 
 ---
 
@@ -120,7 +120,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 ## MCP Servers
 
-✅: Validated and runnable tools (704)
+✅: Validated and runnable tools (705)
 
 ❌: Cannot be run by the MCP client (with mock environments variables (3401))
 
@@ -3171,6 +3171,7 @@ Find and extract data from various sources quickly and efficiently.
 - [❌ twikit](https://github.com/adhikasp/mcp-twikit): Integrate with X (Twitter) for social media data analysis.  (python) 
 - [❌ @arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server): Provides specialized documentation scraping and retrieval from GitHub, NPM, PyPI, and web pages, enabling accurate reference to up-to-date library documentation without disrupting workflow.  (node) 
 - [❌ bing-search](https://github.com/leehanchung/bing-search-mcp): Enables web, news, and image searches through Microsoft's Bing Search API, providing access to up-to-date information from the internet.  (python) 
+- [✅ rss-reader-mcp](https://github.com/kwp-lab/rss-reader-mcp): An MCP (Model Context Protocol) server for RSS feed aggregation and article content extraction. You can use it to subscribe to RSS feeds and fetch article lists, or extract the full content of an article from a URL and format it as Markdown.  (2 tools) (node) 
 - [❌ gemini-grounding](https://github.com/ml0-1337/mcp-gemini-grounding): Integrates with Google's Gemini API grounding feature to provide web search and summarization with synthesized answers and inline citations rather than raw search results.  (go) 
 - [❌ crawlab](https://github.com/crawlab-team/crawlab-mcp): Integrates with Crawlab to enable AI-driven web scraping, task automation, and data extraction workflows through spider management, file operations, and resource access tools.  (python) 
 - [❌ bocha-search](https://github.com/bochaai/bocha-search-mcp): Integrates with Bocha, a Chinese search engine, to provide web search capabilities with rich structured data from billions of documents across multiple domains and languages.  (python) 

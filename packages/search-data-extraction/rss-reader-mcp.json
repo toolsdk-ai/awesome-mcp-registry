@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "rss-reader-mcp",
+  "description": "An MCP (Model Context Protocol) server for RSS feed aggregation and article content extraction. You can use it to subscribe to RSS feeds and fetch article lists, or extract the full content of an article from a URL and format it as Markdown.",
+  "url": "https://github.com/kwp-lab/rss-reader-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "RSS MCP"
+}

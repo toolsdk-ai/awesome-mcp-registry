@@ -3090,6 +3090,7 @@
       "twikit",
       "@arabold/docs-mcp-server",
       "bing-search",
+      "rss-reader-mcp",
       "gemini-grounding",
       "crawlab",
       "bocha-search",
