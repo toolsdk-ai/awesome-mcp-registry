@@ -1,16 +1,35 @@
+<div align="center">
+
 # Awesome MCP Registry
+
+**Your private, secure, and customizable MCP Registry — take full control of your tools.**
 
 [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily)](https://www.producthunt.com/products/toolsdk-ai)
 
 ![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4105-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
-
-Welcome to the Awesome MCP Registry.
-
 An open, high-quality, well-structured and developer-friendly list of 4105+ MCP servers.
 
+---
 
+</div>
+
+The **Awesome MCP Registry** acts as a central database for MCP servers and packages.  
+
+You can use it to:
+
+- ⚡ Build and host your own MCP projects with ease  
+- 🔒 Deploy a fully **private registry** for your team or organization  
+- 🛠️ Maintain complete control of your MCP tools in a secure environment  
+
+This registry leverages structured JSON configs to generate:  
+
+- `README.md`  
+- [npm package](https://www.npmjs.com/package/@toolsdk.ai/registry)  
+- [packages-list.json](https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json)  
+
+---
 
 - [Video: How to submit a MCP server in JSON file?](https://www.youtube.com/watch?v=J_oaDtCoVVo)
 - [Quick Start](#quick-start)
@@ -48,14 +67,9 @@ An open, high-quality, well-structured and developer-friendly list of 4105+ MCP 
   - [Other Tools and Integrations](#other-tools-and-integrations)
 
 
-Unlike other MCP projects, this `Awesome MCP Registry` leverages structured JSON configs to generate `README.md`, [npm package](https://www.npmjs.com/package/@toolsdk.ai/registry) and [packages-list.json](https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json)
-
-You can use the `Awesome MCP Registry` to build your own great MCP projects and hosting sites, acting as the database for MCP servers and packages.
-
-
 <a id="quick-start"></a>
 
-## Quick Start
+## 🚀 Quick Start
 
 #### Install via package manager:
 
@@ -80,7 +94,7 @@ curl https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.jso
 console.log(await(await fetch('https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json')).json());
 ```
 
-#### Submit new MCP servers:
+## 📦 Submit new MCP servers:
 
 ```json
 {
@@ -104,7 +118,7 @@ console.log(await(await fetch('https://toolsdk-ai.github.io/awesome-mcp-registry
 
 For more detail please see [the guide](./docs/guide.md).
 
-# MCP Servers
+## MCP Servers
 
 ✅: Validated and runnable tools (704)
 
