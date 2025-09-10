@@ -9582,8 +9582,93 @@
   "mongodb-mcp-server": {
     "category": "databases",
     "path": "databases/mongodb-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "connect": {
+        "name": "connect",
+        "description": "Connect to a MongoDB instance"
+      },
+      "list-collections": {
+        "name": "list-collections",
+        "description": "List all collections for a given database"
+      },
+      "list-databases": {
+        "name": "list-databases",
+        "description": "List all databases for a MongoDB connection"
+      },
+      "collection-indexes": {
+        "name": "collection-indexes",
+        "description": "Describe the indexes for a collection"
+      },
+      "create-index": {
+        "name": "create-index",
+        "description": "Create an index for a collection"
+      },
+      "collection-schema": {
+        "name": "collection-schema",
+        "description": "Describe the schema for a collection"
+      },
+      "find": {
+        "name": "find",
+        "description": "Run a find query against a MongoDB collection"
+      },
+      "insert-many": {
+        "name": "insert-many",
+        "description": "Insert an array of documents into a MongoDB collection"
+      },
+      "delete-many": {
+        "name": "delete-many",
+        "description": "Removes all documents that match the filter from a MongoDB collection"
+      },
+      "collection-storage-size": {
+        "name": "collection-storage-size",
+        "description": "Gets the size of the collection"
+      },
+      "count": {
+        "name": "count",
+        "description": "Gets the number of documents in a MongoDB collection using db.collection.count() and query as an optional filter parameter"
+      },
+      "db-stats": {
+        "name": "db-stats",
+        "description": "Returns statistics that reflect the use state of a single database"
+      },
+      "aggregate": {
+        "name": "aggregate",
+        "description": "Run an aggregation against a MongoDB collection"
+      },
+      "update-many": {
+        "name": "update-many",
+        "description": "Updates all documents that match the specified filter for a collection"
+      },
+      "rename-collection": {
+        "name": "rename-collection",
+        "description": "Renames a collection in a MongoDB database"
+      },
+      "drop-database": {
+        "name": "drop-database",
+        "description": "Removes the specified database, deleting the associated data files"
+      },
+      "drop-collection": {
+        "name": "drop-collection",
+        "description": "Removes a collection or view from the database. The method also removes any indexes associated with the dropped collection."
+      },
+      "explain": {
+        "name": "explain",
+        "description": "Returns statistics describing the execution of the winning plan chosen by the query optimizer for the evaluated method"
+      },
+      "create-collection": {
+        "name": "create-collection",
+        "description": "Creates a new collection in a database. If the database doesn't exist, it will be created automatically."
+      },
+      "mongodb-logs": {
+        "name": "mongodb-logs",
+        "description": "Returns the most recent logged mongod events"
+      },
+      "export": {
+        "name": "export",
+        "description": "Export a query or aggregation results in the specified EJSON format."
+      }
+    }
   },
   "tigergraph": {
     "category": "databases",
