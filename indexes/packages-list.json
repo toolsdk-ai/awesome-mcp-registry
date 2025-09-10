@@ -29278,6 +29278,7 @@
   "@cloudbase/cloudbase-mcp": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/cloudbase-cloudbase-mcp.json",
+    "validated": true,
     "tools": {
       "login": {
         "name": "login",
@@ -29435,8 +29436,7 @@
         "name": "activateInviteCode",
         "description": "云开发 AI编程激励计划，通过邀请码激活用户激励。"
       }
-    },
-    "validated": true
+    }
   },
   "vercel-api": {
     "category": "cloud-platforms",
