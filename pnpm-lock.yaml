@@ -1607,6 +1607,9 @@ importers:
       resend-mcp:
         specifier: 0.1.2
         version: 0.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rss-reader-mcp:
+        specifier: 1.0.3
+        version: 1.0.3(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10)
       scrapeless-mcp-server:
         specifier: 0.3.0
         version: 0.3.0

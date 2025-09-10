@@ -47275,6 +47275,7 @@
   "rss-reader-mcp": {
     "category": "search-data-extraction",
     "path": "search-data-extraction/rss-reader-mcp.json",
+    "validated": true,
     "tools": {
       "fetch_feed_entries": {
         "name": "fetch_feed_entries",
@@ -47284,7 +47285,6 @@
         "name": "fetch_article_content",
         "description": "Fetch and extract article content from a URL, formatted as Markdown"
       }
-    },
-    "validated": true
+    }
   }
 }
