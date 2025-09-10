@@ -120,9 +120,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 ## MCP Servers
 
-✅: Validated and runnable tools (705)
+✅: Validated and runnable tools (706)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3401))
+❌: Cannot be run by the MCP client (with mock environments variables (3400))
 
 
 
@@ -1541,7 +1541,7 @@ Securely access and query databases with options for read-only permissions.
 - [❌ mysql-database-service](https://github.com/log6262635/mcp-mysql): MySQL database service that enables database operations and resource management through a structured Express.js server with MySQL2 connectivity.  (node) 
 - [❌ simple-postgresql](https://github.com/perrypixel/simple-postgres-mcp): Provides direct SQL query execution against PostgreSQL databases with configurable read-only and write operation modes, connection pooling, and built-in query validation for database analysis and administrative tasks.  (node) 
 - [❌ mcp-server-mariadb](https://github.com/abel9851/mcp-server-mariadb): Bridges Claude with MariaDB databases for read-only SQL query execution, enabling data exploration through formatted table results while enforcing safety restrictions on permitted operations.  (python) 
-- [❌ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.  (node) 
+- [✅ mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server): Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.  (21 tools) (node) 
 - [✅ mochow-mcp-server](https://github.com/baidu/mochow-mcp-server-python): Provides direct access to Mochow vector database capabilities for managing databases, tables, and performing vector similarity and full-text searches with filtering options.  (14 tools) (python) 
 - [❌ mcp-db-navigator](https://github.com/medsaad/mcp-db-navigator): Enables direct access to MySQL/MariaDB databases for querying, schema exploration, and database management with comprehensive security measures including input sanitization and connection pooling.  (python) 
 - [❌ mcp_snowflake_server](https://github.com/isaacwasserman/mcp-snowflake-server): Run SQL queries and other interactions against Snowflake databases  (python) 

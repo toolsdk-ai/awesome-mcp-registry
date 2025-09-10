@@ -527,6 +527,7 @@
     "minimax-mcp-js": "0.0.17",
     "mixpanel-mcp-server": "2.0.2",
     "moneybird-mcp-server": "0.6.5",
+    "mongodb-mcp-server": "0.3.0",
     "multicluster-mcp-server": "0.1.13",
     "my-mcp-server": "0.0.1",
     "mysql-mcp-server": "0.1.3",
