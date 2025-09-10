@@ -6,6 +6,11 @@
   "url": "https://github.com/makenotion/notion-mcp-server",
   "runtime": "node",
   "license": "unknown",
-  "env": {},
+  "env": {
+    "NOTION_TOKEN": {
+      "description": "Your Notion API token. ntn_****",
+      "required": true
+    }
+  },
   "name": "Notion MCP Server"
 }

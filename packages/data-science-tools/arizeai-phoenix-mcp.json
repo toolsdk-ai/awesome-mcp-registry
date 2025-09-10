@@ -4,7 +4,16 @@
   "description": "Provides a unified interface to Arize Phoenix's capabilities for managing prompts, exploring datasets, and running experiments across different LLM providers",
   "url": "https://github.com/arize-ai/phoenix/tree/HEAD/js/packages/phoenix-mcp",
   "runtime": "node",
-  "license": "unknown",
-  "env": {},
+  "license": "Apache-2.0",
+  "env": {
+    "PHOENIX_API_KEY": {
+      "description": "Your Phoenix API key",
+      "required": true
+    },
+    "PHOENIX_BASE_URL": {
+      "description": "The base URL for Phoenix",
+      "required": true
+    }
+  },
   "name": "Phoenix MCP"
 }

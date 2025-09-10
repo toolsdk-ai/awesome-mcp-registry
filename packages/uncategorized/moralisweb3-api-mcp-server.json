@@ -7,7 +7,7 @@
   "license": "unknown",
   "env": {
     "MORALIS_API_KEY": {
-      "description": "<YOUR_API_KEY>",
+      "description": "YOUR_API_KEY",
       "required": true
     }
   },

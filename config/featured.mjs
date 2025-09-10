@@ -3,65 +3,64 @@
  *
  * Maintained by toolsdk.ai
  * Contains toolsdk.ai's officially recommended featured mcp servers
+ *
+ * Sorting logic:
+ * 1. Development tools (core development tools like GitHub, Notion, etc.)
+ * 2. Data and knowledge management (Mem0, Phoenix, etc.)
+ * 3. Search and browser automation (Exa, Tavily, Hyperbrowser, etc.)
+ * 4. Communication and collaboration tools (Slack, Teams, Gmail, etc.)
+ * 5. Cloud platforms and databases (Kubernetes, MySQL, etc.)
+ * 6. AI and large language model related tools (MindBridge, OpenAI integration, etc.)
+ * 7. Other utility tools (translation, PDF processing, authentication management, etc.)
+ * 8. Sales and CRM tools (like Salesforce)
  */
 
 export default [
-  "@kevinwatt/mcp-webhook",
-  "@mzxrai/mcp-openai",
-  "@kazuph/mcp-gmail-gas",
-  "@tsmztech/mcp-server-salesforce",
-  "@modelcontextprotocol/server-slack",
-  "@taazkareem/clickup-mcp-server",
-  "@isaacphi/mcp-gdrive",
-  "@kevinwatt/mysql-mcp",
+  // Development tools
   "@modelcontextprotocol/server-github",
-  "@cristip73/mcp-server-asana",
-  "@enescinar/twitter-mcp",
-  "@toolsdk.ai/mcp-server-google-analytics",
-  "@floriscornel/teams-mcp",
-  "@pinkpixel/mindbridge",
-  "@toolsdk.ai/tavily-mcp",
   "@notionhq/notion-mcp-server",
-  "@niledatabase/nile-mcp-server",
-  "@toolsdk.ai/mcp-send-email",
-  "@pinkpixel/mindbridge",
+  "@antv/mcp-server-chart",
+  "@sourcebot/mcp",
+  "blender-mcp",
+
+  // Data and knowledge management
+  "@mem0/mcp-server",
+  "@arizeai/phoenix-mcp",
+
+  // Search and browser automation
   "exa-mcp-server",
+  "@toolsdk.ai/tavily-mcp",
   "hyperbrowser-mcp",
+  "search1api-mcp",
+
+  // Communication and collaboration tools
+  "@modelcontextprotocol/server-slack",
+  "@floriscornel/teams-mcp",
   "linkedin-mcp-runner",
+  "@cristip73/mcp-server-asana",
+  "@taazkareem/clickup-mcp-server",
+  "@kevinwatt/mcp-webhook",
+  "@isaacphi/mcp-gdrive",
+  "@kazuph/mcp-gmail-gas",
+  "@enescinar/twitter-mcp",
+
+  // Cloud platforms and databases
+  "mcp-server-kubernetes",
+  "@kevinwatt/mysql-mcp",
+  "@niledatabase/nile-mcp-server",
+
+  // AI and large language model related tools
+  "@pinkpixel/mindbridge",
+  "@mzxrai/mcp-openai",
+  "@upstash/context7-mcp",
+
+  // Other tools
   "deepl-mcp-server",
-  // '@cocal/google-calendar-mcp',
-  // '@Tisik79/MCP-Facebook',
-  // '@lkm1developer/hubspot-mcp-server',
-  // '@amir-bengherbi/shopify-mcp-server',
-  // '@mattcoatsworth/Klaviyo-MCP-Server-4-15',
-  // '@alfork/qbconductor-mcp-server',
-  // '@mattcoatsworth/mailchip-mcp-server',
-  // '@koundinya/zd-mcp-server',
-  // '@pnizer/wweb-mcp',
-  // '@freema/mcp-gsheets',
-  // '@WillDent/pipedrive-mcp-server',
-  // '@masatoshi118/mcp_google_froms',
-  // '@kacase/mcp-outlook',
-  // '@jeroensmink98/telegram-mcp',
-  // '@jar285/mcp-discord',
-  // '@nikolausm/huggingface-mcp-server',
-  // '@mcp-postgres-server',
-  // '@mcp-mongodb-atlas',
-  // '@farhankaz/redis-mcp',
-  // '@domdomegg/airtable-mcp-server',
-  // '@lkm1developer/google-docs-mcp-server',
-  // '@amgadabdelhafez/dbx-mcp-server',
-  // '@cosmix/jira-mcp',
-  // '@yoda-digital/mcp-gitlab-server',
-  // '@v4lheru/trello-mcp-server',
-  // '@Dishant27/linkedin-mcp-server',
-  // '@Bob-lance/instagram-engagement-mcp',
-  // '@stripe/agent-toolkit/tree/main/modelcontextprotocol',
-  // '@mumunha/cal_dot_com_mcpserver',
-  // '@paypal/agent-toolkit',
-  // '@toolprint/mcp-graphql-forge',
-  // '@EvalsOne/mcp-connect',
-  // '@ifmelate/n8n-workflow-builder-mcp',
-  // '@makenotion/notion-mcp-server',
-  // '@nspady/google-calendar-mcp',
+  "@toolsdk.ai/mcp-send-email",
+  "@toolsdk.ai/mcp-server-google-analytics",
+  "@shtse8/pdf-reader-mcp",
+  "@clerk/agent-toolkit",
+
+  // Sales and CRM tools
+  "@tsmztech/mcp-server-salesforce",
 ];

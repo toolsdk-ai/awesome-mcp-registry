@@ -1,15 +1,15 @@
 {
   "type": "mcp-server",
+  "name": "Raygun",
   "packageName": "@raygun.io/mcp-server-raygun",
-  "description": "Monitor crash reports and performance metrics for application stability.",
-  "url": "https://github.com/mindscapehq/mcp-server-raygun",
+  "description": "MCP server for interacting with Raygun's API for crash reporting and real user monitoring metrics",
+  "url": "https://github.com/MindscapeHQ/mcp-server-raygun",
   "runtime": "node",
-  "license": "unknown",
+  "license": "MIT",
   "env": {
     "RAYGUN_PAT_TOKEN": {
-      "description": "your-pat-token-here",
+      "description": "Personal access token for Raygun API access",
       "required": true
     }
-  },
-  "name": "MCP Server Raygun"
+  }
 }
