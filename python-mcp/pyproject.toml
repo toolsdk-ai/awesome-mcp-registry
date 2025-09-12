@@ -101,6 +101,7 @@ dependencies = [
   "owl-mcp>=0.1.2",
   "penpot-mcp>=0.1.2",
   "phone-mcp>=0.3.6",
+  "postgres-mcp>=0.3.0",
   "python-local>=0.1.0",
   "qanon-mcp>=0.3.0",
   "random-number-mcp>=0.1.1",
@@ -121,5 +122,5 @@ dependencies = [
   "ydb-mcp>=0.1.5",
   "yfmcp>=0.4.4",
   "ygg-torrent-mcp>=1.8.0",
-  "youtube-dlp-server>=0.1.0"
+  "youtube-dlp-server>=0.1.0",
 ]
