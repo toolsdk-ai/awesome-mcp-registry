@@ -47371,5 +47371,11 @@
         "description": "Fetch and extract article content from a URL, formatted as Markdown"
       }
     }
+  },
+  "pg-mcp-server": {
+    "category": "databases",
+    "path": "databases/pg-mcp-server.json",
+    "tools": {},
+    "validated": false
   }
 }

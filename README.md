@@ -6,10 +6,10 @@
 
 [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily)](https://www.producthunt.com/products/toolsdk-ai)
 
-![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4106-blue)
+![How many MCP Servers in Awesome MCP Registry](https://img.shields.io/badge/MCP_Servers-4107-blue)
 ![awesome-mcp-registry License](https://img.shields.io/badge/LICENSE-MIT-ff69b4)
 
-An open, high-quality, well-structured and developer-friendly list of 4106+ MCP servers.
+An open, high-quality, well-structured and developer-friendly list of 4107+ MCP servers.
 
 ---
 
@@ -122,7 +122,7 @@ For more detail please see [the guide](./docs/guide.md).
 
 ✅: Validated and runnable tools (706)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3400))
+❌: Cannot be run by the MCP client (with mock environments variables (3401))
 
 
 
@@ -1373,6 +1373,7 @@ Securely access and query databases with options for read-only permissions.
 - [❌ database-explorer](https://github.com/wirdes/db-mcp-tool): Provides a unified interface for exploring and managing PostgreSQL, MySQL, and Firestore databases through specialized commands for listing tables, viewing triggers, executing SQL queries, and exporting schemas or data.  (node) 
 - [❌ azure-cosmos-db](https://github.com/robinong79/mcp-cosmos): Provides a bridge between Azure Cosmos DB and natural language interaction, enabling database operations like inserting, retrieving, updating, and querying items without writing complex queries or switching contexts.  (node) 
 - [❌ mssql_mcp_server](https://github.com/jexinsam/mssql_mcp_server): Enables secure interactions with Microsoft SQL Server databases for automated data analysis, dynamic reporting, and intelligent database management.  (python) 
+- [❌ pg-mcp-server](https://github.com/ericzakariasson/pg-mcp-server): A Model Context Protocol server for PostgreSQL databases. Enables LLMs to query and analyze PostgreSQL databases through a controlled interface.  (node) 
 - [❌ fireproof-json-database](https://github.com/jimpick/mcp-json-db-collection-server): Integrates Fireproof JSON document databases with the Model Context Protocol, enabling CRUD operations and querying across multiple decentralized databases for scalable data management.  (node) 
 - [❌ executeautomation-database-server](https://github.com/executeautomation/mcp-database-server): Enables direct interaction with SQLite and SQL Server databases through a modular adapter architecture for data analysis, database management, and business intelligence workflows without exposing raw credentials.  (node) 
 - [❌ redis-cloud](https://github.com/redis/mcp-redis-cloud): Integration with Redis Cloud's API, allowing you to manage your Redis Cloud resources using natural language.  (node) 
@@ -3888,7 +3889,7 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [❌ batchdata-real-estate](https://github.com/zellerhaus/batchdata-mcp-real-estate): Provides real estate data management through batch processing operations for handling property listings, market analytics, and property management workflows efficiently at scale.  (node) 
 - [❌ flux-(ao-&-arweave)](https://github.com/asrvd/flux): Integrates with Arweave and AO ecosystems to enable developers to run, create, and test AO code and blueprints using natural language commands without requiring deep technical knowledge of the underlying systems.  (node) 
 - [✅ @greirson/mcp-todoist](https://github.com/greirson/mcp-todoist): Integrates with Todoist API to manage tasks, projects, sections, and comments with support for bulk operations, natural language search, and comprehensive CRUD functionality.  (28 tools) (node) 
-- [✅ time-mcp-local](https://github.com/conechoai/time-mcp-local): Provides time and timezone conversion capabilities, enabling current time retrieval and timezone conversions using IANA names for accurate and localized time-based functionalities.  (2 tools) (python) 
+- [✅ time-mcp-local](https://github.com/punkpeye/time-mcp-local): Provides time and timezone conversion capabilities, enabling current time retrieval and timezone conversions using IANA names for accurate and localized time-based functionalities.  (2 tools) (python) 
 - [❌ emqx](https://github.com/benniu/emqx-mcp-server): Integrates with EMQX MQTT broker to enable real-time IoT device management, client monitoring, and message publishing for MQTT-enabled systems.  (python) 
 - [❌ puzzlebox](https://github.com/cliffhall/puzzlebox): Hosts finite state machines as dynamic resources that clients can subscribe to for real-time updates, enabling coordination between multiple agents working on long-horizon tasks through shared state transitions and valid actions.  (node) 
 - [❌ nsaf-(neuro-symbolic-autonomy-framework)](https://github.com/ariunbolor/nsaf-mcp-server): Enables AI systems to evolve and optimize neural network architectures through self-constructing meta-agents that adapt to different problem domains using TensorFlow-powered evolutionary algorithms.  (python) 

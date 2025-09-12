@@ -1268,6 +1268,7 @@
       "database-explorer",
       "azure-cosmos-db",
       "mssql_mcp_server",
+      "pg-mcp-server",
       "fireproof-json-database",
       "executeautomation-database-server",
       "redis-cloud",

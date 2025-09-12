@@ -4,7 +4,16 @@
   "description": "Enables high-quality text-to-speech, voice cloning, and video generation capabilities through MiniMax's API with robust error handling and file management features.",
   "url": "https://github.com/minimax-ai/minimax-mcp",
   "runtime": "python",
-  "license": "unknown",
-  "env": {},
+  "license": "mit",
+  "env": {
+    "MINIMAX_API_KEY": {
+      "description": "Your MiniMax API key",
+      "required": true
+    },
+    "MINIMAX_API_HOST": {
+      "description": "api host, https://api.minimax.io | https://api.minimaxi.com",
+      "required": true
+    }
+  },
   "name": "MiniMax MCP"
 }
