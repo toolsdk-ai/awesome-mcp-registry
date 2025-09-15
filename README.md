@@ -120,9 +120,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 ## MCP Servers
 
-✅: Validated and runnable tools (706)
+✅: Validated and runnable tools (707)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3401))
+❌: Cannot be run by the MCP client (with mock environments variables (3400))
 
 
 
@@ -832,7 +832,7 @@ Run code securely, perfect for coding agents and AI-driven programming tasks.
 - [❌ dafny-verifier](https://github.com/namin/dafny-mcp): Integrates with Dafny to verify code correctness through analysis of formal specifications and proofs.  (python) 
 - [❌ livecode.ch](https://github.com/namin/livecode-mcp): Executes code snippets from GitHub repositories on io.livecode.ch's backend, enabling live code execution across various languages and frameworks without local setup.  (python) 
 - [❌ docker-executor](https://github.com/zaycruz/docker_mcp): Provides a secure Docker-based environment for executing code in isolated containers, enabling safe running of commands and scripts in any language with robust error handling and resource management.  (python) 
-- [❌ e2b-(ts)](https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/js): Execute code securely in cloud sandboxes.  (node) 
+- [✅ @e2b/mcp-server](https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/js): A Model Context Protocol server for running code in a secure sandbox by E2B.  (1 tools) (node) 
 - [✅ @riza-io/riza-mcp](https://github.com/riza-io/riza-mcp): Provides a secure bridge between LLMs and Riza's isolated code interpreter API, enabling writing, saving, editing, and executing code safely in a sandboxed environment with persistent tool management across conversations.  (6 tools) (node) 
 - [❌ ai-meta-tool-creator](https://github.com/alxspiker/ai-meta-mcp-server): Enables AI to dynamically create, execute, and manage custom tools in a secure sandbox environment for JavaScript, Python, or shell code with persistent storage capabilities.  (node) 
 - [❌ python-sandbox](https://github.com/johanli233/mcp-sandbox): Provides a secure sandbox environment for executing Python code within isolated Docker containers, enabling safe code testing with resource limits, package installation, and file operations through a RESTful API.  (python) 

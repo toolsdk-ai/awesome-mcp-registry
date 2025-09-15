@@ -717,7 +717,7 @@
       "dafny-verifier",
       "livecode.ch",
       "docker-executor",
-      "e2b-(ts)",
+      "@e2b/mcp-server",
       "@riza-io/riza-mcp",
       "ai-meta-tool-creator",
       "python-sandbox",

@@ -188,6 +188,9 @@ importers:
       '@digitalocean/mcp':
         specifier: 0.0.13
         version: 0.0.13
+      '@e2b/mcp-server':
+        specifier: 0.2.0
+        version: 0.2.0
       '@enescinar/twitter-mcp':
         specifier: 0.2.0
         version: 0.2.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
@@ -3535,6 +3538,9 @@ packages:
   '@bsv/sdk@1.6.10':
     resolution: {integrity: sha512-dZanBV3QSpCyykX11udG8dbEl0hxeOCB2XG1UhGvr+am/b4ikkgT+1w/bilnu9EfZIxnZCfclKoyT+TtRGlfmA==}
 
+  '@bufbuild/protobuf@2.8.0':
+    resolution: {integrity: sha512-r1/0w5C9dkbcdjyxY8ZHsC5AOWg4Pnzhm2zu7LO4UHSounp2tMm6Y+oioV9zlGbLveE7YaWRDUk48WLxRDgoqg==}
+
   '@bujaayjaay/mcp-coincap-jj@1.1.0':
     resolution: {integrity: sha512-2BX0nv1fYQ54i2PxvkIGA4eWILbA8Vw0SZgaSFnx5kOGoVASpYkh7I83WYnyEABUvWOsOH+BOsVJxLT8l1Zlhw==}
     engines: {node: '>=18.0.0'}
@@ -3747,6 +3753,17 @@ packages:
     resolution: {integrity: sha512-wB6uo+3A50m0sW/EWcU64xpV/8wShZ6bMTa7pF8eYsTrSkQA7oLUIJcs/wb8g4y2Oyq701BaGiO6n/ak5WXO1w==}
     deprecated: Unmaintained. The codebase for this package was moved to https://github.com/cosmos/ics23 but then the JS implementation was removed in https://github.com/cosmos/ics23/pull/353. Please consult the maintainers of https://github.com/cosmos for further assistance.
 
+  '@connectrpc/connect-web@2.0.0-rc.3':
+    resolution: {integrity: sha512-w88P8Lsn5CCsA7MFRl2e6oLY4J/5toiNtJns/YJrlyQaWOy3RO8pDgkz+iIkG98RPMhj2thuBvsd3Cn4DKKCkw==}
+    peerDependencies:
+      '@bufbuild/protobuf': ^2.2.0
+      '@connectrpc/connect': 2.0.0-rc.3
+
+  '@connectrpc/connect@2.0.0-rc.3':
+    resolution: {integrity: sha512-ARBt64yEyKbanyRETTjcjJuHr2YXorzQo0etyS5+P6oSeW8xEuzajA9g+zDnMcj1hlX2dQE93foIWQGfpru7gQ==}
+    peerDependencies:
+      '@bufbuild/protobuf': ^2.2.0
+
   '@container-inc/mcp@1.1.0':
     resolution: {integrity: sha512-gkCppA/rcyPr8t8l3xjHWSkACNW0m2NCABjc7gg89w48g5DEsPMhAXV1fVvfO1yRXgAz8RZcxHq56i09/9bILw==}
     hasBin: true
@@ -3905,6 +3922,14 @@ packages:
 
   '@drizzle-team/brocli@0.10.2':
     resolution: {integrity: sha512-z33Il7l5dKjUgGULTqBsQBQwckHh5AbIuxhdsIxDDiZAzBOrZO6q9ogcWC65kU382AfynTfgNumVcNIjuIua6w==}
+
+  '@e2b/code-interpreter@1.5.1':
+    resolution: {integrity: sha512-mkyKjAW2KN5Yt0R1I+1lbH3lo+W/g/1+C2lnwlitXk5wqi/g94SEO41XKdmDf5WWpKG3mnxWDR5d6S/lyjmMEw==}
+    engines: {node: '>=18'}
+
+  '@e2b/mcp-server@0.2.0':
+    resolution: {integrity: sha512-alIA6e3pMTTrU/VWptXIBjLPajNI+C7h+2C1frGWaLFg8I/Si13N0T0OLGNm2VhXZmqELk4su6ubqcQWbKGnbA==}
+    hasBin: true
 
   '@ecies/ciphers@0.2.3':
     resolution: {integrity: sha512-tapn6XhOueMwht3E2UzY0ZZjYokdaw9XtL9kEyjhQ/Fb9vL9xTFbOaI+fV0AWvTpYu4BNloC6getKW6NtSg4mA==}
@@ -6808,32 +6833,32 @@ packages:
     resolution: {integrity: sha512-PE5U1py8lj2TjgB705H6ENl/khQAjEskQ+HzfqGhYZ2xXO9DC7meJahbxa8NyEh5vLXweKc0Inj3tLtGpL88uQ==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-cli@0.16.6':
-    resolution: {integrity: sha512-28RAaGoN9XgKYvl8kOo9wTHBrLp5Th+biTt5mNGUzowMdcoG/FpI8mHROIhcgDyp+kj0SYR5fmwcb6GIxBnjUw==}
+  '@modelcontextprotocol/inspector-cli@0.16.7':
+    resolution: {integrity: sha512-4/agV9H11lmHzuJXNpJimQCh3cXg6xH6Eu+d0zKTdmQPUseFwAC4Y3Jgk7O/U0z44j2xvZk8bK/ScRzoiKVdsQ==}
     hasBin: true
 
   '@modelcontextprotocol/inspector-client@0.10.2':
     resolution: {integrity: sha512-gZfdkhtLEVjQslzKyyxTppm4iV2psuw6hkTtx+RULEopj+0dwE3mX4Ddl4uGcrz6eNv0bj/u7DE6azISIHSGXA==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-client@0.16.6':
-    resolution: {integrity: sha512-2dwB0OXI02PTTsECCTIsB9DkERImIrsTAuZW6LlfUojtQMLI5NpuUID4Y4LaYPcdGnxkkkR1eddrPTsuzgabvg==}
+  '@modelcontextprotocol/inspector-client@0.16.7':
+    resolution: {integrity: sha512-lkFtVc37YvcFm2Nuee5LAT3JfPbfhrhEMuerw0EDVQgN3hvKXh6dzSKJxSjinjJhutyHPQHvft7TqXMHGXtw2w==}
     hasBin: true
 
   '@modelcontextprotocol/inspector-server@0.10.2':
     resolution: {integrity: sha512-VXXMIdOlzyZ0eGG22glkfMH1cWOoHqrgEN6QvFaleXvRSaCp5WVe3M2gLXOyHRFVHimrDWKsGB0NjeXxb6xYuw==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-server@0.16.6':
-    resolution: {integrity: sha512-BkE/4K2Y8ZcXK/cGBucG+rLTcTIUAaSyQabxqh0p+ErhkJDmepDvI+63OqQnauWUJydXPZYtBQyHppL4JN7RGw==}
+  '@modelcontextprotocol/inspector-server@0.16.7':
+    resolution: {integrity: sha512-Mgxq6fk5n2HxmjSOLlVUUIf6Vmpnva9tYY4+MWpb6ggjLcxcn5waD+Mg4qjL6zcjD4E9ZcBlrq2j2Arp3vFxHw==}
     hasBin: true
 
   '@modelcontextprotocol/inspector@0.10.2':
     resolution: {integrity: sha512-P/ag1MJz7mdOpmlE5OUozehzw0AYDi1cuXUctcPBpNvbufpnmmIwpD79I0lN41ydH1vnH4c8MTork75KWmP/hQ==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector@0.16.6':
-    resolution: {integrity: sha512-6x6dzTf8MV6z/XIdzr/4EMK4elMn1XUzTJHxczsBePLg1G5VNAM/4g5abNFIB9bzuxJ/1VH8016Vv6S7sj/24Q==}
+  '@modelcontextprotocol/inspector@0.16.7':
+    resolution: {integrity: sha512-PDA5/M9Q8i6SSUPJL7c/EtzO0D8N4VesBeMeRxI7C5FYv1JlgZC6sUGdVyyKIKW6Aa8KelpfS05ZXsQaIqyQ0g==}
     engines: {node: '>=22.7.5'}
     hasBin: true
 
@@ -9946,8 +9971,8 @@ packages:
   '@smithery/sdk@1.5.6':
     resolution: {integrity: sha512-5chXDcoldyUnCcaFatheae7ChcXFvoSJEI1ehu0ia7rqPVeA/FDntJ5DU/tRalUMX/r5PifhIV+SOp/iRUMjeg==}
 
-  '@smithery/sdk@1.5.8':
-    resolution: {integrity: sha512-RpDhILwehWaBtd+edWdhO/y/n0DfakTWehJWZTYLk/0rOmU2UYvkG2cJJMqknADKe//RVW7nANpYlllcpggwFQ==}
+  '@smithery/sdk@1.5.9':
+    resolution: {integrity: sha512-fkYa6DRBn3oJlc4sdspFQoq8od7wIzntRazJhp9pbhpmJUyUb3COS1cXuhUC2epkewpL5eB4jMZ6j22CpsTMWw==}
 
   '@smithy/abort-controller@4.0.4':
     resolution: {integrity: sha512-gJnEjZMvigPDQWHrW3oPrFhQtkrgqBkyjj3pCIdF3A5M6vsZODG93KNlfJprv6bp4245bdT32fsHK4kkH3KYDA==}
@@ -11177,8 +11202,8 @@ packages:
   '@types/node@24.3.0':
     resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
-  '@types/node@24.3.1':
-    resolution: {integrity: sha512-3vXmQDXy+woz+gnrTvuvNrPzekOi+Ds0ReMxw0LzBiK3a+1k0kQn9f2NWk+lgD4rJehFUmYy2gMhJ2ZI+7YP9g==}
+  '@types/node@24.4.0':
+    resolution: {integrity: sha512-gUuVEAK4/u6F9wRLznPUU4WGUacSEBDPoC2TrBkw3GAnOLHBL45QdfHOXp1kJ4ypBGLxTOB+t7NJLpKoC3gznQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -13912,6 +13937,9 @@ packages:
     resolution: {integrity: sha512-gk/Z852D2Wtb//0I+kRFNKKE9dIIVirjoqPoA1wJU+XePVXZfGeBpk45+A1rKO4Q43prqWBNY/MiIeRLbPWUaA==}
     engines: {node: '>=4.0.0'}
 
+  compare-versions@6.1.1:
+    resolution: {integrity: sha512-4hm4VPpIecmlg59CHXnRDnqGplJFrbLG4aFEl5vl6cK1u76ws3LLvX7ikFnTDl5vo39sjWD6AaDPYodJp/NNHg==}
+
   complex.js@2.4.2:
     resolution: {integrity: sha512-qtx7HRhPGSCBtGiST4/WGHuW+zeaND/6Ld+db6PbrulIB1i2Ev/2UPiqcmpQNPSyfBKraC0EOvOKCB5dGZKt3g==}
 
@@ -15388,6 +15416,10 @@ packages:
   dynamo-readonly-mcp@0.1.1:
     resolution: {integrity: sha512-qbnvG/KR/63kLA/ICgcWdpnFrBfS7LWdrZ/8P6YpiEx/NKTgEccGeBr1VcAlpNwtgRzCNNy4s9Z8JEBkpPruCA==}
     hasBin: true
+
+  e2b@1.13.2:
+    resolution: {integrity: sha512-m8acE/MzMAJo1A57DakR2X1Sl5Mt1tcQO2aJfygNaQHLXby/4xsjF0UeJUB70jF7xntiR41pAMbZEHnkzrT9tw==}
+    engines: {node: '>=18'}
 
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
@@ -25836,6 +25868,9 @@ packages:
   undici-types@7.10.0:
     resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
 
+  undici-types@7.11.0:
+    resolution: {integrity: sha512-kt1ZriHTi7MU+Z/r9DOdAI3ONdaR3M3csEaRc6ewa4f4dTvX4cQCbJ4NkEn0ohE4hHtq85+PhPSTY+pO/1PwgA==}
+
   undici@5.28.5:
     resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
     engines: {node: '>=14.0'}
@@ -30344,6 +30379,8 @@ snapshots:
 
   '@bsv/sdk@1.6.10': {}
 
+  '@bufbuild/protobuf@2.8.0': {}
+
   '@bujaayjaay/mcp-coincap-jj@1.1.0':
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
@@ -30815,6 +30852,15 @@ snapshots:
       '@noble/hashes': 1.8.0
       protobufjs: 6.11.4
 
+  '@connectrpc/connect-web@2.0.0-rc.3(@bufbuild/protobuf@2.8.0)(@connectrpc/connect@2.0.0-rc.3(@bufbuild/protobuf@2.8.0))':
+    dependencies:
+      '@bufbuild/protobuf': 2.8.0
+      '@connectrpc/connect': 2.0.0-rc.3(@bufbuild/protobuf@2.8.0)
+
+  '@connectrpc/connect@2.0.0-rc.3(@bufbuild/protobuf@2.8.0)':
+    dependencies:
+      '@bufbuild/protobuf': 2.8.0
+
   '@container-inc/mcp@1.1.0':
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
@@ -31051,7 +31097,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.18.0
       '@types/luxon': 3.7.1
-      '@types/node': 24.3.1
+      '@types/node': 24.4.0
       luxon: 3.7.2
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
@@ -31183,6 +31229,18 @@ snapshots:
       which: 4.0.0
 
   '@drizzle-team/brocli@0.10.2': {}
+
+  '@e2b/code-interpreter@1.5.1':
+    dependencies:
+      e2b: 1.13.2
+
+  '@e2b/mcp-server@0.2.0':
+    dependencies:
+      '@e2b/code-interpreter': 1.5.1
+      '@modelcontextprotocol/sdk': 0.6.0
+      dotenv: 16.6.1
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
 
   '@ecies/ciphers@0.2.3(@noble/ciphers@1.3.0)':
     dependencies:
@@ -35352,7 +35410,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.18.0
       '@types/luxon': 3.7.1
-      '@types/node': 24.3.1
+      '@types/node': 24.4.0
       luxon: 3.7.2
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
@@ -35407,7 +35465,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@modelcontextprotocol/inspector-cli@0.16.6':
+  '@modelcontextprotocol/inspector-cli@0.16.7':
     dependencies:
       '@modelcontextprotocol/sdk': 1.18.0
       commander: 13.1.0
@@ -35447,7 +35505,7 @@ snapshots:
       - supports-color
       - tailwindcss
 
-  '@modelcontextprotocol/inspector-client@0.16.6(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)':
+  '@modelcontextprotocol/inspector-client@0.16.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.18.0
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -35490,7 +35548,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector-server@0.16.6(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector-server@0.16.7(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.18.0
       cors: 2.8.5
@@ -35525,11 +35583,11 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector@0.16.6(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector@0.16.7(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/inspector-cli': 0.16.6
-      '@modelcontextprotocol/inspector-client': 0.16.6(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)
-      '@modelcontextprotocol/inspector-server': 0.16.6(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/inspector-cli': 0.16.7
+      '@modelcontextprotocol/inspector-client': 0.16.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)
+      '@modelcontextprotocol/inspector-server': 0.16.7(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.18.0
       concurrently: 9.2.0
       open: 10.2.0
@@ -40146,7 +40204,7 @@ snapshots:
   '@smithery/sdk@1.5.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.17.5
+      '@modelcontextprotocol/sdk': 1.18.0
       ai: 4.3.19(react@18.3.1)(zod@3.25.76)
       express: 5.1.0
       json-schema: 0.4.0
@@ -40162,7 +40220,7 @@ snapshots:
       - supports-color
       - ws
 
-  '@smithery/sdk@1.5.8(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@smithery/sdk@1.5.9(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
       '@modelcontextprotocol/sdk': 1.18.0
@@ -41812,9 +41870,9 @@ snapshots:
     dependencies:
       undici-types: 7.10.0
 
-  '@types/node@24.3.1':
+  '@types/node@24.4.0':
     dependencies:
-      undici-types: 7.10.0
+      undici-types: 7.11.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -43266,7 +43324,7 @@ snapshots:
 
   agents@0.0.59(@cloudflare/workers-types@4.20250627.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.17.5
+      '@modelcontextprotocol/sdk': 1.18.0
       cron-schedule: 5.0.4
       nanoid: 5.1.5
       partyserver: 0.0.66(@cloudflare/workers-types@4.20250627.0)
@@ -46063,6 +46121,8 @@ snapshots:
 
   common-tags@1.8.2: {}
 
+  compare-versions@6.1.1: {}
+
   complex.js@2.4.2: {}
 
   component-emitter@1.3.1: {}
@@ -47644,6 +47704,15 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
       - supports-color
+
+  e2b@1.13.2:
+    dependencies:
+      '@bufbuild/protobuf': 2.8.0
+      '@connectrpc/connect': 2.0.0-rc.3(@bufbuild/protobuf@2.8.0)
+      '@connectrpc/connect-web': 2.0.0-rc.3(@bufbuild/protobuf@2.8.0)(@connectrpc/connect@2.0.0-rc.3(@bufbuild/protobuf@2.8.0))
+      compare-versions: 6.1.1
+      openapi-fetch: 0.9.8
+      platform: 1.3.6
 
   eastasianwidth@0.2.0: {}
 
@@ -53330,7 +53399,7 @@ snapshots:
   mcp-deepwiki@0.0.9(canvas@3.1.2)(jiti@2.4.2)(typescript@5.8.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@22.15.33)(happy-dom@17.6.3)(jiti@2.4.2)(jsdom@26.1.0(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10))(less@4.4.0)(lightningcss@1.30.1)(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(sass@1.90.0)(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0)):
     dependencies:
       '@chatmcp/sdk': 1.0.6
-      '@modelcontextprotocol/sdk': 1.17.5
+      '@modelcontextprotocol/sdk': 1.18.0
       '@vitest/eslint-plugin': 1.3.4(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@22.15.33)(happy-dom@17.6.3)(jiti@2.4.2)(jsdom@26.1.0(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10))(less@4.4.0)(lightningcss@1.30.1)(msw@2.10.2(@types/node@22.15.33)(typescript@5.8.3))(sass@1.90.0)(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0))
       citty: 0.1.6
       eslint: 9.29.0(jiti@2.4.2)
@@ -53404,7 +53473,7 @@ snapshots:
 
   mcp-firebird@2.2.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/inspector': 0.16.6(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/inspector': 0.16.7(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.17.2
       cors: 2.8.5
       dotenv: 16.6.1
@@ -53688,7 +53757,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
       '@octokit/rest': 21.1.1
-      '@smithery/sdk': 1.5.8(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@smithery/sdk': 1.5.9(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       axios: 1.10.0
       zod: 3.25.76
     transitivePeerDependencies:
@@ -57357,8 +57426,7 @@ snapshots:
     dependencies:
       find-up: 3.0.0
 
-  platform@1.3.6:
-    optional: true
+  platform@1.3.6: {}
 
   play-sound@1.1.6:
     dependencies:
@@ -62096,6 +62164,8 @@ snapshots:
   undici-types@6.21.0: {}
 
   undici-types@7.10.0: {}
+
+  undici-types@7.11.0: {}
 
   undici@5.28.5:
     dependencies:

@@ -29902,12 +29902,6 @@
     "validated": false,
     "tools": {}
   },
-  "e2b-(ts)": {
-    "category": "code-execution",
-    "path": "code-execution/e2b--ts.json",
-    "validated": false,
-    "tools": {}
-  },
   "quickjs-sandbox": {
     "category": "code-execution",
     "path": "code-execution/quickjs-sandbox.json",
@@ -47375,7 +47369,18 @@
   "pg-mcp-server": {
     "category": "databases",
     "path": "databases/pg-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
+  },
+  "@e2b/mcp-server": {
+    "category": "code-execution",
+    "path": "code-execution/e2b--ts.json",
+    "tools": {
+      "run_code": {
+        "name": "run_code",
+        "description": "Run python code in a secure sandbox by E2B. Using the Jupyter Notebook syntax."
+      }
+    },
+    "validated": true
   }
 }
