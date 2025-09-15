@@ -120,9 +120,9 @@ For more detail please see [the guide](./docs/guide.md).
 
 ## MCP Servers
 
-✅: Validated and runnable tools (707)
+✅: Validated and runnable tools (708)
 
-❌: Cannot be run by the MCP client (with mock environments variables (3400))
+❌: Cannot be run by the MCP client (with mock environments variables (3399))
 
 
 
@@ -1489,7 +1489,7 @@ Securely access and query databases with options for read-only permissions.
 - [❌ chromadb](https://github.com/privetin/chroma): Integrates ChromaDB vector database capabilities for efficient semantic document search, storage, and retrieval in natural language processing and information retrieval applications.  (python) 
 - [❌ better-qdrant-mcp-server](https://github.com/wrediam/better-qdrant-mcp-server): Connects AI systems to Qdrant vector database for semantic search capabilities through multiple embedding services, enabling efficient document management and similarity searches without leaving the conversation interface.  (node) 
 - [❌ prisma-postgres](https://github.com/prisma/prisma): Enables natural language management of Prisma Postgres databases, including creating instances, running schema migrations, and managing tables through the Prisma CLI  (node) 
-- [❌ postgres-mcp](https://github.com/crystaldba/postgres-mcp): Helps you and your AI agents throughout the entire development process—from writing SQL to tuning performance safely.  (python) 
+- [✅ postgres-mcp](https://github.com/crystaldba/postgres-mcp): Helps you and your AI agents throughout the entire development process—from writing SQL to tuning performance safely.  (9 tools) (python) 
 - [❌ gel-database](https://github.com/christian561/gel-mcp-server): Integrates with Gel databases to enable automated schema discovery, query validation, and execution of EdgeQL and TypeScript queries for database interactions and management tasks.  (node) 
 - [❌ db-query](https://github.com/alx99/db-mcp): Connects AI models to multiple database systems for executing queries and retrieving results across PostgreSQL, MySQL, and SQLite.  (go) 
 - [✅ @pinecone-database/mcp](https://github.com/pinecone-io/pinecone-mcp): Develop with Pinecone, the vector database built for knowledgeable AI.  (9 tools) (node) 

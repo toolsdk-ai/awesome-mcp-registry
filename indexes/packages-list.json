@@ -9161,7 +9161,46 @@
   },
   "postgres-mcp": {
     "category": "databases",
-    "path": "databases/postgres-mcp.json"
+    "path": "databases/postgres-mcp.json",
+    "validated": true,
+    "tools": {
+      "list_schemas": {
+        "name": "list_schemas",
+        "description": "List all schemas in the database"
+      },
+      "list_objects": {
+        "name": "list_objects",
+        "description": "List objects in a schema"
+      },
+      "get_object_details": {
+        "name": "get_object_details",
+        "description": "Show detailed information about a database object"
+      },
+      "explain_query": {
+        "name": "explain_query",
+        "description": "Explains the execution plan for a SQL query, showing how the database will execute it and provides detailed cost estimates."
+      },
+      "analyze_workload_indexes": {
+        "name": "analyze_workload_indexes",
+        "description": "Analyze frequently executed queries in the database and recommend optimal indexes"
+      },
+      "analyze_query_indexes": {
+        "name": "analyze_query_indexes",
+        "description": "Analyze a list of (up to 10) SQL queries and recommend optimal indexes"
+      },
+      "analyze_db_health": {
+        "name": "analyze_db_health",
+        "description": "Analyzes database health. Here are the available health checks:\n- index - checks for invalid, duplicate, and bloated indexes\n- connection - checks the number of connection and their utilization\n- vacuum - checks vacuum health for transaction id wraparound\n- sequence - checks sequences at risk of exceeding their maximum value\n- replication - checks replication health including lag and slots\n- buffer - checks for buffer cache hit rates for indexes and tables\n- constraint - checks for invalid constraints\n- all - runs all checks\nYou can optionally specify a single health check or a comma-separated list of health checks. The default is 'all' checks."
+      },
+      "get_top_queries": {
+        "name": "get_top_queries",
+        "description": "Reports the slowest or most resource-intensive queries using data from the 'pg_stat_statements' extension."
+      },
+      "execute_sql": {
+        "name": "execute_sql",
+        "description": "Execute any SQL query"
+      }
+    }
   },
   "dblp": {
     "category": "databases",
