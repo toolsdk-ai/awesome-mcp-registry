@@ -818,7 +818,7 @@ Integrate with cloud services to manage and interact with cloud infrastructure.
 
 Run code securely, perfect for coding agents and AI-driven programming tasks.
 
-- [❌ e2b-(python)](https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/python): Execute code securely in cloud sandboxes.  (node) 
+- [❌ e2b-mcp-server](https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/python): A Model Context Protocol server for running code in a secure sandbox by E2B.  (python) 
 - [❌ code-runner](https://github.com/mcpc-tech/mcpc/tree/HEAD/packages/code-runner-mcp): Executes Python and JavaScript/TypeScript code snippets in isolated environments, enabling developers to test, prototype, and demonstrate programming concepts directly within conversations.  (node) 
 - [❌ conda-executor](https://github.com/bazinga012/mcp_code_executor): Executes Python code within isolated Conda environments, enabling secure and flexible code generation and execution for tasks like data analysis and algorithm testing.  (node) 
 - [✅ mcp-llm](https://github.com/sammcj/mcp-llm): Integrates with LlamaIndexTS to provide access to various LLM providers for code generation, documentation writing, and question answering tasks  (4 tools) (node) 

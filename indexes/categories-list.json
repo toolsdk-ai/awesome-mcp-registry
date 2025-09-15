@@ -703,7 +703,7 @@
       "description": "Run code securely, perfect for coding agents and AI-driven programming tasks."
     },
     "packagesList": [
-      "e2b-(python)",
+      "e2b-mcp-server",
       "code-runner",
       "conda-executor",
       "mcp-llm",

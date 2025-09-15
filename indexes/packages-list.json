@@ -29801,12 +29801,6 @@
     "validated": false,
     "tools": {}
   },
-  "e2b-(python)": {
-    "category": "code-execution",
-    "path": "code-execution/e2b--python.json",
-    "validated": false,
-    "tools": {}
-  },
   "ai-meta-tool-creator": {
     "category": "code-execution",
     "path": "code-execution/ai-meta-tool-creator.json",
@@ -47375,12 +47369,16 @@
   "@e2b/mcp-server": {
     "category": "code-execution",
     "path": "code-execution/e2b--ts.json",
+    "validated": true,
     "tools": {
       "run_code": {
         "name": "run_code",
         "description": "Run python code in a secure sandbox by E2B. Using the Jupyter Notebook syntax."
       }
-    },
-    "validated": true
+    }
+  },
+  "e2b-mcp-server": {
+    "category": "code-execution",
+    "path": "code-execution/e2b--python.json"
   }
 }
