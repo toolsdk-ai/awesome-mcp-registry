@@ -92,6 +92,7 @@
     "@deventerprisesoftware/scrapi-mcp": "0.0.3",
     "@devyhan/xcode-mcp": "0.4.1",
     "@digitalocean/mcp": "0.0.13",
+    "@e2b/mcp-server": "0.2.0",
     "@enescinar/twitter-mcp": "0.2.0",
     "@executeautomation/playwright-mcp-server": "1.0.6",
     "@exoticknight/mcp-file-merger": "1.0.1",

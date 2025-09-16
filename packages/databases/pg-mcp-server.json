@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "packageName": "pg-mcp-server",
+  "description": "A Model Context Protocol server for PostgreSQL databases. Enables LLMs to query and analyze PostgreSQL databases through a controlled interface.",
+  "url": "https://github.com/ericzakariasson/pg-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {
+    "DATABASE_URL": {
+      "description": "postgresql://postgres:postgres@localhost:5432/postgres",
+      "required": true
+    }
+  },
+  "name": "PostgreSQL MCP Server"
+}

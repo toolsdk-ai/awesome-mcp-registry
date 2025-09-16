@@ -72,7 +72,7 @@ async function main() {
         continue;
       }
 
-      const mockEnv = {};
+      const mockEnv: Record<string, string> = {};
       for (const [key, _env] of Object.entries(mcpServerConfig.env || {})) {
         mockEnv[key] = "MOCK";
       }
@@ -92,7 +92,7 @@ async function main() {
           continue;
         }
 
-        const saveTools = {};
+        const saveTools: Record<string, { name: string; description: string }> = {};
         for (const [_toolKey, toolItem] of Object.entries(toolsObj.tools)) {
           saveTools[toolItem.name] = {
             name: toolItem.name,
@@ -116,7 +116,7 @@ async function main() {
       } catch (e) {
         console.error(
           `Error reading MCP Client for package: ${packageKey} ${value.path}`,
-          e.message,
+          (e as Error).message,
         );
         typedAllPackagesList[packageKey].tools = {};
         typedAllPackagesList[packageKey].validated = false;

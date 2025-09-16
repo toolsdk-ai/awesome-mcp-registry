@@ -1,10 +1,15 @@
 {
   "type": "mcp-server",
-  "packageName": "e2b-(ts)",
-  "description": "Execute code securely in cloud sandboxes.",
+  "packageName": "@e2b/mcp-server",
+  "description": "A Model Context Protocol server for running code in a secure sandbox by E2B.",
   "url": "https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/js",
   "runtime": "node",
   "license": "apache-2.0",
-  "env": {},
-  "name": "MCP Server"
+  "env": {
+    "E2B_API_KEY": {
+      "description": "API key for authenticating with the E2B service.",
+      "required": true
+    }
+  },
+  "name": "E2B MCP Server"
 }

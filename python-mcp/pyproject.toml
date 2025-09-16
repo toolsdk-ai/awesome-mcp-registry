@@ -101,6 +101,7 @@ dependencies = [
   "owl-mcp>=0.1.2",
   "penpot-mcp>=0.1.2",
   "phone-mcp>=0.3.6",
+  "postgres-mcp>=0.3.0",
   "python-local>=0.1.0",
   "qanon-mcp>=0.3.0",
   "random-number-mcp>=0.1.1",
