@@ -1345,7 +1345,7 @@ importers:
         version: 1.0.2
       mcp-private-github-search:
         specifier: 0.2.1
-        version: 0.2.1(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 0.2.1
       mcp-rand:
         specifier: 0.2.1
         version: 0.2.1
@@ -9968,11 +9968,11 @@ packages:
   '@smithery/sdk@1.4.3':
     resolution: {integrity: sha512-Lq4F/d6aoZABR5DJdcewXzS/6FC9ov/nScykHJnALwGBX5R79AfTHXIs/egMccL9rTxlCvlYI2XhuJPBiEATMA==}
 
+  '@smithery/sdk@1.5.10':
+    resolution: {integrity: sha512-cc1E+3yMJD3dTu5KGIeAOcPSzoNFTIRgvk12gZsRSKtfIBhBxTgltFFZZxj+iVIwsxqIJ7NjJHEBxPID7qRjxQ==}
+
   '@smithery/sdk@1.5.6':
     resolution: {integrity: sha512-5chXDcoldyUnCcaFatheae7ChcXFvoSJEI1ehu0ia7rqPVeA/FDntJ5DU/tRalUMX/r5PifhIV+SOp/iRUMjeg==}
-
-  '@smithery/sdk@1.5.9':
-    resolution: {integrity: sha512-fkYa6DRBn3oJlc4sdspFQoq8od7wIzntRazJhp9pbhpmJUyUb3COS1cXuhUC2epkewpL5eB4jMZ6j22CpsTMWw==}
 
   '@smithy/abort-controller@4.0.4':
     resolution: {integrity: sha512-gJnEjZMvigPDQWHrW3oPrFhQtkrgqBkyjj3pCIdF3A5M6vsZODG93KNlfJprv6bp4245bdT32fsHK4kkH3KYDA==}
@@ -11202,8 +11202,8 @@ packages:
   '@types/node@24.3.0':
     resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
-  '@types/node@24.4.0':
-    resolution: {integrity: sha512-gUuVEAK4/u6F9wRLznPUU4WGUacSEBDPoC2TrBkw3GAnOLHBL45QdfHOXp1kJ4ypBGLxTOB+t7NJLpKoC3gznQ==}
+  '@types/node@24.5.0':
+    resolution: {integrity: sha512-y1dMvuvJspJiPSDZUQ+WMBvF7dpnEqN4x9DDC9ie5Fs/HUZJA3wFp7EhHoVaKX/iI0cRoECV8X2jL8zi0xrHCg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -25868,8 +25868,8 @@ packages:
   undici-types@7.10.0:
     resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
 
-  undici-types@7.11.0:
-    resolution: {integrity: sha512-kt1ZriHTi7MU+Z/r9DOdAI3ONdaR3M3csEaRc6ewa4f4dTvX4cQCbJ4NkEn0ohE4hHtq85+PhPSTY+pO/1PwgA==}
+  undici-types@7.12.0:
+    resolution: {integrity: sha512-goOacqME2GYyOZZfb5Lgtu+1IDmAlAEu5xnD3+xTzS10hT0vzpf0SPjkXwAw9Jm+4n/mQGDP3LO8CPbYROeBfQ==}
 
   undici@5.28.5:
     resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
@@ -31097,7 +31097,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.18.0
       '@types/luxon': 3.7.1
-      '@types/node': 24.4.0
+      '@types/node': 24.5.0
       luxon: 3.7.2
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
@@ -35410,7 +35410,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.18.0
       '@types/luxon': 3.7.1
-      '@types/node': 24.4.0
+      '@types/node': 24.5.0
       luxon: 3.7.2
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
@@ -35565,7 +35565,7 @@ snapshots:
       '@modelcontextprotocol/inspector-cli': 0.10.2
       '@modelcontextprotocol/inspector-client': 0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))
       '@modelcontextprotocol/inspector-server': 0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.17.5
+      '@modelcontextprotocol/sdk': 1.18.0
       concurrently: 9.2.0
       shell-quote: 1.8.3
       spawn-rx: 5.1.2
@@ -40201,26 +40201,20 @@ snapshots:
       - supports-color
       - ws
 
-  '@smithery/sdk@1.5.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@smithery/sdk@1.5.10':
     dependencies:
-      '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
       '@modelcontextprotocol/sdk': 1.18.0
-      ai: 4.3.19(react@18.3.1)(zod@3.25.76)
       express: 5.1.0
       json-schema: 0.4.0
       lodash: 4.17.21
       okay-error: 1.0.3
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       uuid: 11.1.0
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
     transitivePeerDependencies:
-      - encoding
-      - react
       - supports-color
-      - ws
 
-  '@smithery/sdk@1.5.9(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@smithery/sdk@1.5.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
       '@modelcontextprotocol/sdk': 1.18.0
@@ -41870,9 +41864,9 @@ snapshots:
     dependencies:
       undici-types: 7.10.0
 
-  '@types/node@24.4.0':
+  '@types/node@24.5.0':
     dependencies:
-      undici-types: 7.11.0
+      undici-types: 7.12.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -53753,19 +53747,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  mcp-private-github-search@0.2.1(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  mcp-private-github-search@0.2.1:
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
       '@octokit/rest': 21.1.1
-      '@smithery/sdk': 1.5.9(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@smithery/sdk': 1.5.10
       axios: 1.10.0
       zod: 3.25.76
     transitivePeerDependencies:
       - debug
-      - encoding
-      - react
       - supports-color
-      - ws
 
   mcp-proxy@2.14.3:
     dependencies:
@@ -62165,7 +62156,7 @@ snapshots:
 
   undici-types@7.10.0: {}
 
-  undici-types@7.11.0: {}
+  undici-types@7.12.0: {}
 
   undici@5.28.5:
     dependencies:
