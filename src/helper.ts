@@ -149,6 +149,7 @@ export function updatePackageJsonDependencies({
   const packageJsonFile = "./package.json";
   const packageJSONStr = fs.readFileSync(packageJsonFile, "utf-8");
   const newDeps = {
+    "@e2b/code-interpreter": "^2.0.0",
     "@modelcontextprotocol/sdk": "^1.12.0",
     "@hono/node-server": "1.15.0",
     "@hono/swagger-ui": "^0.5.2",
