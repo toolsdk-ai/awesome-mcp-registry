@@ -47438,7 +47438,7 @@
   "ruchernchong-google-analytics-mcp": {
     "category": "data-platforms",
     "path": "data-platforms/google-analytics.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   }
 }
