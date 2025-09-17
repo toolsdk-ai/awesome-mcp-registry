@@ -291,6 +291,7 @@
     "@tokenizin/mcp-npx-fetch": "1.0.0",
     "@tongxiao/common-search-mcp-server": "0.0.9",
     "@toolsdk.ai/aws-ses-mcp": "1.0.1",
+    "@toolsdk.ai/google-analytics-mcp": "1.0.4",
     "@toolsdk.ai/mcp-send-email": "1.0.0",
     "@toolsdk.ai/mcp-server-google-analytics": "0.1.0",
     "@toolsdk.ai/mixpanel-mcp-server": "2.0.6",
