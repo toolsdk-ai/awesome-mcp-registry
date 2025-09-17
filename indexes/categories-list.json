@@ -1508,7 +1508,7 @@
       "@tigrisdata/tigris-mcp-server",
       "@powerdrillai/powerdrill-mcp",
       "azure-data-explorer-(kusto)",
-      "google-analytics",
+      "ruchernchong-google-analytics-mcp",
       "databricks",
       "rubygems",
       "verodat",

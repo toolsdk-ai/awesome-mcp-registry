@@ -32875,12 +32875,6 @@
     "validated": false,
     "tools": {}
   },
-  "google-analytics": {
-    "category": "data-platforms",
-    "path": "data-platforms/google-analytics.json",
-    "validated": false,
-    "tools": {}
-  },
   "json-mcp-server": {
     "category": "data-platforms",
     "path": "data-platforms/json-mcp-server.json",
@@ -47440,5 +47434,11 @@
   "e2b-mcp-server": {
     "category": "code-execution",
     "path": "code-execution/e2b--python.json"
+  },
+  "ruchernchong-google-analytics-mcp": {
+    "category": "data-platforms",
+    "path": "data-platforms/google-analytics.json",
+    "tools": {},
+    "validated": false
   }
 }
