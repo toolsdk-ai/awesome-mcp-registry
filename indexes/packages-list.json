@@ -46895,8 +46895,29 @@
   "@toolsdk.ai/google-analytics-mcp": {
     "category": "marketing",
     "path": "marketing/google-analytics-mcp-server.json",
-    "validated": false,
-    "tools": {}
+    "validated": true,
+    "tools": {
+      "analytics_report": {
+        "name": "analytics_report",
+        "description": "Get comprehensive Google Analytics data with custom dimensions and metrics. Can create any type of report."
+      },
+      "realtime_data": {
+        "name": "realtime_data",
+        "description": "Get real-time analytics data for current active users and activity"
+      },
+      "quick_insights": {
+        "name": "quick_insights",
+        "description": "Get predefined analytics insights for common use cases"
+      },
+      "get_metadata": {
+        "name": "get_metadata",
+        "description": "Get available dimensions and metrics for Google Analytics property"
+      },
+      "search_metadata": {
+        "name": "search_metadata",
+        "description": "Search for specific dimensions or metrics by name or category"
+      }
+    }
   },
   "@toolsdk.ai/mixpanel-mcp-server": {
     "category": "uncategorized",
