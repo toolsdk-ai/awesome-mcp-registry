@@ -1,0 +1,252 @@
+import path from "node:path";
+import { Sandbox } from "@e2b/code-interpreter";
+import type { Tool } from "@modelcontextprotocol/sdk/types.js";
+import dotenv from "dotenv";
+import { getPackageConfigByKey } from "../helper";
+
+import type { MCPServerPackageConfig } from "../types";
+
+dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
+dotenv.config({ path: path.resolve(process.cwd(), ".env") });
+
+interface MCPToolResult {
+  toolCount: number;
+  tools: Tool[];
+}
+
+interface MCPExecuteResult {
+  result: unknown;
+  isError?: boolean;
+  errorMessage?: string;
+}
+
+export class MCPSandboxClient {
+  private sandbox: Sandbox | null = null;
+  private readonly apiKey: string;
+
+  constructor(apiKey?: string) {
+    this.apiKey = apiKey || process.env.E2B_API_KEY || "e2b-api-key-placeholder";
+    console.log("[MCPSandboxClient] Client initialized with API key:", this.apiKey);
+  }
+
+  async initialize(): Promise<void> {
+    console.log("[MCPSandboxClient] Initializing sandbox...");
+    if (!this.sandbox) {
+      console.log("[MCPSandboxClient] Creating new sandbox instance");
+      this.sandbox = await Sandbox.create("mcp-sandbox-01", {
+        apiKey: this.apiKey,
+      });
+      console.log("[MCPSandboxClient] Sandbox created successfully");
+    } else {
+      console.log("[MCPSandboxClient] Sandbox already initialized");
+    }
+  }
+
+  async close(): Promise<void> {
+    console.log("[MCPSandboxClient] Closing sandbox...");
+    if (this.sandbox) {
+      await this.sandbox.kill();
+      this.sandbox = null;
+      console.log("[MCPSandboxClient] Sandbox closed successfully");
+    } else {
+      console.log("[MCPSandboxClient] No sandbox to close");
+    }
+  }
+
+  async listTools(packageKey: string): Promise<Tool[]> {
+    console.log(`[MCPSandboxClient] Listing tools for package: ${packageKey}`);
+    if (!this.sandbox) {
+      throw new Error("Sandbox not initialized. Call initialize() first.");
+    }
+
+    const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
+    console.log(`[MCPSandboxClient] Package config loaded for: ${mcpServerConfig.packageName}`);
+
+    const testCode = `
+import { Client } from "@modelcontextprotocol/sdk/client/index.js";
+import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+
+async function runMCP() {
+  try {
+    const transport = new StdioClientTransport({
+      command: "npx",
+      args: ["-y", "${mcpServerConfig.packageName}"],
+      env: {
+        ...(Object.fromEntries(
+          Object.entries(process.env).filter(([_, v]) => v !== undefined)
+        ) as Record<string, string>),
+        ${this.generateEnvVariables(mcpServerConfig.env)}
+      },
+    });
+
+    const client = new Client(
+      {
+        name: "mcp-server-${packageKey}-client",
+        version: "1.0.0",
+      },
+      {
+        capabilities: {
+          tools: {},
+        },
+      },
+    );
+
+    await client.connect(transport);
+    console.log("[MCP Server] Connected to transport");
+
+    const toolsObj = await client.listTools();
+    console.log("[MCP Server] Tools listed:", toolsObj.tools.length);
+    await client.close();
+
+    const result = {
+      toolCount: toolsObj.tools.length,
+      tools: toolsObj.tools
+    };
+
+    console.log(JSON.stringify(result))
+    return;
+  } catch (error) {
+    console.error("Error in MCP test:", error);
+    throw error;
+  }
+}
+
+runMCP();
+`;
+
+    console.log("[MCPSandboxClient] Running code in sandbox to list tools");
+    const testResult = await this.sandbox.runCode(testCode, {
+      language: "typescript",
+    });
+
+    if (testResult.error) {
+      console.error("[MCPSandboxClient] Failed to list tools:", testResult.error);
+      throw new Error(`Failed to list tools: ${testResult.error}`);
+    }
+
+    console.log("[MCPSandboxClient] Tools listed successfully");
+    const result: MCPToolResult = JSON.parse(
+      testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
+    );
+
+    console.log(`[MCPSandboxClient] Parsed result with ${result.toolCount} tools`);
+    return result.tools;
+  }
+
+  async executeTool(
+    packageKey: string,
+    toolName: string,
+    argumentsObj: Record<string, unknown>,
+    envs?: Record<string, string>,
+  ): Promise<unknown> {
+    console.log(`[MCPSandboxClient] Executing tool: ${toolName} from package: ${packageKey}`);
+    console.log(`[MCPSandboxClient] Tool arguments:`, argumentsObj);
+
+    if (!this.sandbox) {
+      throw new Error("Sandbox not initialized. Call initialize() first.");
+    }
+
+    const mcpServerConfig = await getPackageConfigByKey(packageKey);
+    console.log(
+      `[MCPSandboxClient] Package config loaded for execution: ${mcpServerConfig.packageName}`,
+    );
+
+    const testCode = `
+import { Client } from "@modelcontextprotocol/sdk/client/index.js";
+import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+
+async function runMCP() {
+  try {
+    const transport = new StdioClientTransport({
+      command: "npx",
+      args: ["-y", "${mcpServerConfig.packageName}"],
+      env: {
+        ...(Object.fromEntries(
+          Object.entries(process.env).filter(([_, v]) => v !== undefined),
+        ) as Record<string, string>),
+        ${this.generateEnvVariables(mcpServerConfig.env, envs)}
+      },
+    });
+
+    const client = new Client(
+      {
+        name: "mcp-server-${packageKey}-client",
+        version: "1.0.0",
+      },
+      {
+        capabilities: {
+          tools: {},
+        },
+      },
+    );
+
+    await client.connect(transport);
+    console.log("[MCP Server] Connected to transport for tool execution");
+
+    const result = await client.callTool({
+      name: "${toolName}",
+      arguments: ${JSON.stringify(argumentsObj)}
+    });
+    console.log("[MCP Server] Tool executed successfully");
+
+    await client.close();
+    console.log(JSON.stringify(result))
+    return;
+  } catch (error) {
+    console.error("Error in MCP tool execution:", error);
+    return JSON.stringify({ 
+      result: null, 
+      isError: true, 
+      errorMessage: error.message 
+    });
+  }
+}
+
+runMCP();
+`;
+
+    console.log("[MCPSandboxClient] Running code in sandbox to execute tool");
+    const testResult = await this.sandbox.runCode(testCode, {
+      language: "typescript",
+    });
+
+    if (testResult.error) {
+      console.error("[MCPSandboxClient] Failed to execute tool:", testResult.error);
+      throw new Error(`Failed to execute tool: ${testResult.error}`);
+    }
+
+    console.log("[MCPSandboxClient] Tool executed successfully in sandbox");
+    // TODO add logs.stderr output for debugging
+    const result: MCPExecuteResult = JSON.parse(
+      testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
+    );
+
+    if (result.isError) {
+      console.error("[MCPSandboxClient] Tool execution error:", result.errorMessage);
+      throw new Error(result.errorMessage);
+    }
+
+    console.log("[MCPSandboxClient] Tool execution completed successfully");
+    return result;
+  }
+
+  private generateEnvVariables(
+    env: MCPServerPackageConfig["env"],
+    realEnvs?: Record<string, string>,
+  ): string {
+    if (!env) {
+      console.log("[MCPSandboxClient] No environment variables to generate");
+      return "";
+    }
+
+    const envEntries = Object.entries(env).map(([key, _]) => {
+      if (realEnvs?.[key]) {
+        return `${JSON.stringify(key)}: ${JSON.stringify(realEnvs[key])}`;
+      }
+      return `${JSON.stringify(key)}: "mock_value"`;
+    });
+
+    console.log("[MCPSandboxClient] Generated mock environment variables:", envEntries);
+    return envEntries.join(",\n        ");
+  }
+}

@@ -4,12 +4,16 @@ import type { MCPServerPackageConfigWithTools, Response, ToolExecute } from "../
 import { createErrorResponse, createResponse } from "../utils";
 import { PackageSO } from "./package-so";
 
+const shouldUseSandbox = (): boolean => {
+  return process.env.USE_MCP_SANDBOX === "true";
+};
+
 export const packageHandler = {
   executeTool: async (c: Context) => {
     const requestBody: ToolExecute = await c.req.json();
 
     try {
-      const toolSO = new PackageSO();
+      const toolSO = new PackageSO(shouldUseSandbox());
       const result = await toolSO.executeTool(requestBody);
 
       const response: Response<unknown> = createResponse(result);
@@ -50,7 +54,7 @@ export const packageHandler = {
     }
 
     try {
-      const toolSO = new PackageSO();
+      const toolSO = new PackageSO(shouldUseSandbox());
       const result: MCPServerPackageConfigWithTools = await toolSO.getPackageDetail(packageName);
 
       const response = createResponse(result);
@@ -72,7 +76,7 @@ export const packageHandler = {
     }
 
     try {
-      const toolSO = new PackageSO();
+      const toolSO = new PackageSO(shouldUseSandbox());
       const result: Tool[] = await toolSO.listTools(packageName);
 
       const response = createResponse(result);
