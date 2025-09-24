@@ -65,12 +65,47 @@ export class MCPSandboxClient {
     const testCode = `
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+import fs from "node:fs";
+
+function getPackageJSON(packageName) {
+  // 在沙箱环境中，node_modules位于/home/node_modules
+  const packageJSONFilePath = \`/home/node_modules/\${packageName}/package.json\`;
+
+  // 检查包是否存在于node_modules中
+  if (!fs.existsSync(packageJSONFilePath)) {
+    throw new Error(\`Package '\${packageName}' not found in node_modules.\`);
+  }
+
+  const packageJSONStr = fs.readFileSync(packageJSONFilePath, "utf8");
+  const packageJSON = JSON.parse(packageJSONStr);
+  return packageJSON;
+}
 
 async function runMCP() {
   try {
+    const packageName = "${mcpServerConfig.packageName}";
+    const packageJSON = getPackageJSON(packageName);
+    
+    let binPath;
+    if (typeof packageJSON.bin === "string") {
+      binPath = packageJSON.bin;
+    } else if (typeof packageJSON.bin === "object") {
+      binPath = Object.values(packageJSON.bin)[0];
+    } else {
+      binPath = packageJSON.main;
+    }
+    
+    if (!binPath) {
+      throw new Error(\`Package \${packageName} does not have a valid bin path in package.json.\`);
+    }
+
+    // 构建包的完整路径
+    const binFilePath = \`/home/node_modules/\${packageName}/\${binPath}\`;
+    const binArgs = ${JSON.stringify(mcpServerConfig.binArgs || [])};
+    
     const transport = new StdioClientTransport({
-      command: "npx",
-      args: ["-y", "${mcpServerConfig.packageName}"],
+      command: "node",
+      args: [binFilePath, ...binArgs],
       env: {
         ...(Object.fromEntries(
           Object.entries(process.env).filter(([_, v]) => v !== undefined)
@@ -154,12 +189,45 @@ runMCP();
     const testCode = `
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+import fs from "node:fs";
+
+function getPackageJSON(packageName) {
+  const packageJSONFilePath = \`/home/node_modules/\${packageName}/package.json\`;
+
+  if (!fs.existsSync(packageJSONFilePath)) {
+    throw new Error(\`Package '\${packageName}' not found in node_modules.\`);
+  }
+
+  const packageJSONStr = fs.readFileSync(packageJSONFilePath, "utf8");
+  const packageJSON = JSON.parse(packageJSONStr);
+  return packageJSON;
+}
 
 async function runMCP() {
   try {
+
+    const packageName = "${mcpServerConfig.packageName}";
+    const packageJSON = getPackageJSON(packageName);
+
+    let binPath;
+    if (typeof packageJSON.bin === "string") {
+      binPath = packageJSON.bin;
+    } else if (typeof packageJSON.bin === "object") {
+      binPath = Object.values(packageJSON.bin)[0];
+    } else {
+      binPath = packageJSON.main;
+    }
+    
+    if (!binPath) {
+      throw new Error(\`Package \${packageName} does not have a valid bin path in package.json.\`);
+    }
+
+    const binFilePath = \`/home/node_modules/\${packageName}/\${binPath}\`;
+    const binArgs = ${JSON.stringify(mcpServerConfig.binArgs || [])};
+
     const transport = new StdioClientTransport({
-      command: "npx",
-      args: ["-y", "${mcpServerConfig.packageName}"],
+      command: "node",
+      args: [binFilePath, ...binArgs],
       env: {
         ...(Object.fromEntries(
           Object.entries(process.env).filter(([_, v]) => v !== undefined),
@@ -207,7 +275,7 @@ runMCP();
 
     console.log("[MCPSandboxClient] Running code in sandbox to execute tool");
     const testResult = await this.sandbox.runCode(testCode, {
-      language: "typescript",
+      language: "javascript",
     });
 
     if (testResult.error) {
@@ -215,8 +283,18 @@ runMCP();
       throw new Error(`Failed to execute tool: ${testResult.error}`);
     }
 
+    // Handle stderr output, log if there are error messages
+    if (testResult.logs.stderr && testResult.logs.stderr.length > 0) {
+      const stderrOutput = testResult.logs.stderr.join("\n");
+      console.error("[MCPSandboxClient] Tool execution stderr output:", stderrOutput);
+
+      // If stderr contains error information, throw an error
+      if (stderrOutput.includes("Error in MCP tool execution")) {
+        throw new Error(`MCP Tool execution failed with stderr: ${stderrOutput}`);
+      }
+    }
+
     console.log("[MCPSandboxClient] Tool executed successfully in sandbox");
-    // TODO add logs.stderr output for debugging
     const result: MCPExecuteResult = JSON.parse(
       testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
     );
