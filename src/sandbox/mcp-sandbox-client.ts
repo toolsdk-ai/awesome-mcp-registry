@@ -30,9 +30,8 @@ export class MCPSandboxClient {
   }
 
   async initialize(): Promise<void> {
-    console.log("[MCPSandboxClient] Initializing sandbox...");
+    console.time("[MCPSandboxClient] Sandbox initialization");
     if (!this.sandbox) {
-      console.log("[MCPSandboxClient] Creating new sandbox instance");
       this.sandbox = await Sandbox.create("mcp-sandbox-01", {
         apiKey: this.apiKey,
       });
@@ -40,10 +39,11 @@ export class MCPSandboxClient {
     } else {
       console.log("[MCPSandboxClient] Sandbox already initialized");
     }
+    console.timeEnd("[MCPSandboxClient] Sandbox initialization");
   }
 
   async close(): Promise<void> {
-    console.log("[MCPSandboxClient] Closing sandbox...");
+    console.time("[MCPSandboxClient] Sandbox closing");
     if (this.sandbox) {
       await this.sandbox.kill();
       this.sandbox = null;
@@ -51,6 +51,7 @@ export class MCPSandboxClient {
     } else {
       console.log("[MCPSandboxClient] No sandbox to close");
     }
+    console.timeEnd("[MCPSandboxClient] Sandbox closing");
   }
 
   async listTools(packageKey: string): Promise<Tool[]> {
@@ -62,16 +63,15 @@ export class MCPSandboxClient {
     const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
     console.log(`[MCPSandboxClient] Package config loaded for: ${mcpServerConfig.packageName}`);
 
+    console.time("[MCPSandboxClient] Listing tools execution time");
     const testCode = `
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 import fs from "node:fs";
 
 function getPackageJSON(packageName) {
-  // 在沙箱环境中，node_modules位于/home/node_modules
   const packageJSONFilePath = \`/home/node_modules/\${packageName}/package.json\`;
 
-  // 检查包是否存在于node_modules中
   if (!fs.existsSync(packageJSONFilePath)) {
     throw new Error(\`Package '\${packageName}' not found in node_modules.\`);
   }
@@ -99,10 +99,9 @@ async function runMCP() {
       throw new Error(\`Package \${packageName} does not have a valid bin path in package.json.\`);
     }
 
-    // 构建包的完整路径
     const binFilePath = \`/home/node_modules/\${packageName}/\${binPath}\`;
     const binArgs = ${JSON.stringify(mcpServerConfig.binArgs || [])};
-    
+
     const transport = new StdioClientTransport({
       command: "node",
       args: [binFilePath, ...binArgs],
@@ -127,11 +126,9 @@ async function runMCP() {
     );
 
     await client.connect(transport);
-    console.log("[MCP Server] Connected to transport");
 
     const toolsObj = await client.listTools();
-    console.log("[MCP Server] Tools listed:", toolsObj.tools.length);
-    await client.close();
+    client.close();
 
     const result = {
       toolCount: toolsObj.tools.length,
@@ -149,10 +146,10 @@ async function runMCP() {
 runMCP();
 `;
 
-    console.log("[MCPSandboxClient] Running code in sandbox to list tools");
     const testResult = await this.sandbox.runCode(testCode, {
-      language: "typescript",
+      language: "javascript",
     });
+    console.timeEnd("[MCPSandboxClient] Listing tools execution time");
 
     if (testResult.error) {
       console.error("[MCPSandboxClient] Failed to list tools:", testResult.error);
@@ -174,10 +171,11 @@ runMCP();
     argumentsObj: Record<string, unknown>,
     envs?: Record<string, string>,
   ): Promise<unknown> {
-    console.log(`[MCPSandboxClient] Executing tool: ${toolName} from package: ${packageKey}`);
+    console.time(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
     console.log(`[MCPSandboxClient] Tool arguments:`, argumentsObj);
 
     if (!this.sandbox) {
+      console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
@@ -301,10 +299,12 @@ runMCP();
 
     if (result.isError) {
       console.error("[MCPSandboxClient] Tool execution error:", result.errorMessage);
+      console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
       throw new Error(result.errorMessage);
     }
 
     console.log("[MCPSandboxClient] Tool execution completed successfully");
+    console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
     return result;
   }
 
