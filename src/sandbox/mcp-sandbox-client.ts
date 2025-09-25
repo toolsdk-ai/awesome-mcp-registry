@@ -21,25 +21,24 @@ interface MCPExecuteResult {
 
 export class MCPSandboxClient {
   private sandbox: Sandbox | null = null;
-  private initializing: Promise<void> | null = null; // 防止并发初始化
+  private initializing: Promise<void> | null = null;
   private readonly apiKey: string;
   private toolCache: Map<string, { tools: Tool[]; timestamp: number }> = new Map();
   private readonly TOOL_CACHE_TTL = 30 * 60 * 1000;
+  public TOOL_EXECUTION_TIMEOUT = 5 * 60 * 1000;
 
-  // 生命周期与自动回收
+  // Lifecycle and Auto-Recovery
   public createdAt: number | null = null;
   public lastUsedAt: number | null = null;
-  private ttlTimer: NodeJS.Timeout | null = null; // 用于1小时强制关闭
-  private autoCloseOnIdleTimer: NodeJS.Timeout | null = null; // 可被外部控制的 idle timer
-
-  // 可配置：单次工具执行超时时间（ms）
-  public EXECUTION_TIMEOUT = 2 * 60 * 1000; // 默认 2 分钟
+  private ttlTimer: NodeJS.Timeout | null = null;
+  private autoCloseOnIdleTimer: NodeJS.Timeout | null = null;
+  private idleCloseMs: number | null = null;
 
   constructor(apiKey?: string) {
     this.apiKey = apiKey || process.env.E2B_API_KEY || "e2b-api-key-placeholder";
   }
 
-  // 安全的 initialize：确保并发调用不会重复创建 sandbox
+  // Safe initialize: ensures concurrent calls don't create duplicate sandboxes
   async initialize(): Promise<void> {
     console.time("[MCPSandboxClient] Sandbox initialization");
     if (this.sandbox) {
@@ -48,7 +47,7 @@ export class MCPSandboxClient {
       return;
     }
     if (this.initializing) {
-      // 等待已有初始化完成
+      // Wait for existing initialization to complete
       await this.initializing;
       this.touch();
       return;
@@ -62,7 +61,8 @@ export class MCPSandboxClient {
         });
         this.createdAt = Date.now();
         this.touch();
-        this.setupTTLTimer(); // 启动 1 小时强制会话终止
+        // After 1-hour forced session termination
+        this.setupTTLTimer();
         console.log("[MCPSandboxClient] Sandbox created successfully");
       } finally {
         console.timeEnd("[MCPSandboxClient] Sandbox initialization");
@@ -76,14 +76,15 @@ export class MCPSandboxClient {
   }
 
   private setupTTLTimer() {
-    // 清理已有
+    // Clean up existing timer
     if (this.ttlTimer) {
       clearTimeout(this.ttlTimer);
       this.ttlTimer = null;
     }
-    // E2B 最大支持 1 小时会话，强制在 59 分 30 秒后关闭以保守处理
-    const TTL_MS = 60 * 60 * 1000; // 1h
-    const safetyMs = 30 * 1000; // 提前30s关闭
+
+    // E2B supports maximum 1-hour sessions, force close at 59m 30s for safety
+    const TTL_MS = 60 * 60 * 1000;
+    const safetyMs = 30 * 1000;
     const remaining = Math.max(0, TTL_MS - (Date.now() - (this.createdAt || Date.now())));
     this.ttlTimer = setTimeout(async () => {
       console.warn(
@@ -97,21 +98,40 @@ export class MCPSandboxClient {
     }, remaining - safetyMs);
   }
 
-  // 更新最后使用时间
+  /**
+   * Update sandbox last used time
+   */
   touch() {
     this.lastUsedAt = Date.now();
-    // 如果外部正在等候 idle 关闭，使用时将其取消
-    if (this.autoCloseOnIdleTimer) {
+    console.log(`[MCPSandboxClient] Sandbox touched at ${this.lastUsedAt}`);
+
+    // Refresh timer if waiting for idle close
+    if (this.autoCloseOnIdleTimer && this.idleCloseMs) {
       clearTimeout(this.autoCloseOnIdleTimer);
-      this.autoCloseOnIdleTimer = null;
+
+      // Reschedule idle close (refresh timer)
+      this.autoCloseOnIdleTimer = setTimeout(async () => {
+        console.log("[MCPSandboxClient] Idle TTL reached, closing sandbox due to inactivity.");
+        try {
+          await this.kill();
+        } catch (err) {
+          console.error("[MCPSandboxClient] Error while killing sandbox on idle:", err);
+        }
+      }, this.idleCloseMs);
     }
   }
 
-  // 启动空闲自动关闭（当引用计数为0，被 PackageSO 调用 release 后设置）
+  // Schedule idle auto-close (called by PackageSO when refCount reaches 0)
   scheduleIdleClose(idleMs: number) {
+    // Save idle close time for refresh
+    this.idleCloseMs = idleMs;
+
+    // Clear existing idle timer
     if (this.autoCloseOnIdleTimer) {
       clearTimeout(this.autoCloseOnIdleTimer);
     }
+
+    // Set new idle timer
     this.autoCloseOnIdleTimer = setTimeout(async () => {
       console.log("[MCPSandboxClient] Idle TTL reached, closing sandbox due to inactivity.");
       try {
@@ -122,7 +142,7 @@ export class MCPSandboxClient {
     }, idleMs);
   }
 
-  // 强制关闭并清理计时器与缓存
+  // Force close and cleanup timers & cache
   async kill(): Promise<void> {
     console.time("[MCPSandboxClient] Sandbox closing");
     try {
@@ -138,7 +158,7 @@ export class MCPSandboxClient {
         try {
           await this.sandbox.kill();
         } catch (err) {
-          // sandbox.kill 可能抛错，记录日志但继续清理本地状态
+          // sandbox.kill may throw, log error but continue cleaning local state
           console.error("[MCPSandboxClient] Error during sandbox.kill():", err);
         }
         this.sandbox = null;
@@ -154,12 +174,12 @@ export class MCPSandboxClient {
     }
   }
 
-  // 清除特定包的工具缓存
+  // Clear cache for specific package
   clearPackageCache(packageKey: string): void {
     this.toolCache.delete(packageKey);
   }
 
-  // 清除所有工具缓存
+  // Clear all tool caches
   clearAllCache(): void {
     this.toolCache.clear();
   }
@@ -171,7 +191,7 @@ export class MCPSandboxClient {
       if (now - cached.timestamp < this.TOOL_CACHE_TTL) {
         console.log(`[MCPSandboxClient] Returning cached tools for package: ${packageKey}`);
 
-        // refresh cache expiration time
+        // Refresh cache expiration time
         this.toolCache.set(packageKey, {
           tools: cached.tools,
           timestamp: Date.now(),
@@ -234,7 +254,6 @@ export class MCPSandboxClient {
 
     const testCode: string = this.generateMCPTestCode(
       mcpServerConfig,
-      // packageKey,
       "executeTool",
       toolName,
       argumentsObj,
@@ -271,20 +290,20 @@ export class MCPSandboxClient {
     return result;
   }
 
-  // 对 sandbox.runCode 添加超时保护，超时则尝试 kill sandbox 并抛错
+  // Add timeout protection to sandbox.runCode, kill sandbox on timeout
   private async runCodeWithTimeout(code: string, options: { language: string }): Promise<any> {
     if (!this.sandbox) throw new Error("Sandbox not initialized.");
 
     const execPromise = this.sandbox.runCode(code, options);
 
-    const timeoutMs = this.EXECUTION_TIMEOUT;
+    const timeoutMs = this.TOOL_EXECUTION_TIMEOUT;
 
     let timeoutHandle: NodeJS.Timeout;
     const timeoutPromise = new Promise((_, reject) => {
       timeoutHandle = setTimeout(async () => {
         const msg = `[MCPSandboxClient] runCode timeout after ${timeoutMs}ms`;
         console.error(msg);
-        // 超时后尝试强制 kill sandbox 来回收资源并避免后续调用使用此已卡死实例
+        // After timeout, try to force kill sandbox to recycle resources and avoid subsequent calls using this stuck instance
         try {
           await this.kill();
         } catch (err) {
@@ -306,7 +325,6 @@ export class MCPSandboxClient {
 
   private generateMCPTestCode(
     mcpServerConfig: MCPServerPackageConfig,
-    // packageKey: string,
     operation: "listTools" | "executeTool",
     toolName?: string,
     argumentsObj?: Record<string, unknown>,
