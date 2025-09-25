@@ -25,7 +25,6 @@ export class MCPSandboxClient {
 
   constructor(apiKey?: string) {
     this.apiKey = apiKey || process.env.E2B_API_KEY || "e2b-api-key-placeholder";
-    console.log("[MCPSandboxClient] Client initialized with API key");
   }
 
   async initialize(): Promise<void> {
@@ -54,13 +53,11 @@ export class MCPSandboxClient {
   }
 
   async listTools(packageKey: string): Promise<Tool[]> {
-    console.log(`[MCPSandboxClient] Listing tools for package: ${packageKey}`);
     if (!this.sandbox) {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
     const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
-    console.log(`[MCPSandboxClient] Package config loaded for: ${mcpServerConfig.packageName}`);
 
     console.time("[MCPSandboxClient] Listing tools execution time");
 
@@ -75,12 +72,10 @@ export class MCPSandboxClient {
       throw new Error(`Failed to list tools: ${testResult.error}`);
     }
 
-    console.log("[MCPSandboxClient] Tools listed successfully");
     const result: MCPToolResult = JSON.parse(
       testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
     );
 
-    console.log(`[MCPSandboxClient] Parsed result with ${result.toolCount} tools`);
     return result.tools;
   }
 
@@ -91,7 +86,6 @@ export class MCPSandboxClient {
     envs?: Record<string, string>,
   ): Promise<unknown> {
     console.time(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
-    console.log(`[MCPSandboxClient] Tool arguments:`, argumentsObj);
 
     if (!this.sandbox) {
       console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
@@ -99,9 +93,6 @@ export class MCPSandboxClient {
     }
 
     const mcpServerConfig = await getPackageConfigByKey(packageKey);
-    console.log(
-      `[MCPSandboxClient] Package config loaded for execution: ${mcpServerConfig.packageName}`,
-    );
 
     const testCode: string = this.generateMCPTestCode(
       mcpServerConfig,
@@ -112,7 +103,6 @@ export class MCPSandboxClient {
       envs,
     );
 
-    console.log("[MCPSandboxClient] Running code in sandbox to execute tool");
     const testResult = await this.sandbox.runCode(testCode, {
       language: "javascript",
     });
@@ -128,7 +118,6 @@ export class MCPSandboxClient {
       console.error("[MCPSandboxClient] Tool execution stderr output:", stderrOutput);
     }
 
-    console.log("[MCPSandboxClient] Tool executed successfully in sandbox");
     const result: MCPExecuteResult = JSON.parse(
       testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
     );
@@ -139,7 +128,6 @@ export class MCPSandboxClient {
       throw new Error(result.errorMessage);
     }
 
-    console.log("[MCPSandboxClient] Tool execution completed successfully");
     console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
     return result;
   }
@@ -240,13 +228,11 @@ runMCP();
 `;
     } else {
       return `${commonCode}
-    console.log("[MCP Server] Connected to transport for tool execution");
 
     const result = await client.callTool({
       name: "${toolName}",
       arguments: ${JSON.stringify(argumentsObj)}
     });
-    console.log("[MCP Server] Tool executed successfully");
 
     console.log(JSON.stringify(result))
     client.close();
@@ -271,7 +257,6 @@ runMCP();
     realEnvs?: Record<string, string>,
   ): string {
     if (!env) {
-      console.log("[MCPSandboxClient] No environment variables to generate");
       return "";
     }
 
@@ -282,7 +267,6 @@ runMCP();
       return `${JSON.stringify(key)}: "mock_value"`;
     });
 
-    console.log("[MCPSandboxClient] Generated mock environment variables:", envEntries);
     return envEntries.join(",\n        ");
   }
 }
