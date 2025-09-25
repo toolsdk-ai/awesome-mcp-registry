@@ -22,6 +22,10 @@ interface MCPExecuteResult {
 export class MCPSandboxClient {
   private sandbox: Sandbox | null = null;
   private readonly apiKey: string;
+  // 添加工具缓存机制
+  private toolCache: Map<string, { tools: Tool[]; timestamp: number }> = new Map();
+  // 缓存过期时间(毫秒) - 5分钟
+  private readonly CACHE_TTL = 5 * 60 * 1000;
 
   constructor(apiKey?: string) {
     this.apiKey = apiKey || process.env.E2B_API_KEY || "e2b-api-key-placeholder";
@@ -45,6 +49,8 @@ export class MCPSandboxClient {
     if (this.sandbox) {
       await this.sandbox.kill();
       this.sandbox = null;
+      // 清除缓存
+      this.toolCache.clear();
       console.log("[MCPSandboxClient] Sandbox closed successfully");
     } else {
       console.log("[MCPSandboxClient] No sandbox to close");
@@ -52,7 +58,30 @@ export class MCPSandboxClient {
     console.timeEnd("[MCPSandboxClient] Sandbox closing");
   }
 
+  // 清除特定包的工具缓存
+  clearPackageCache(packageKey: string): void {
+    this.toolCache.delete(packageKey);
+  }
+
+  // 清除所有工具缓存
+  clearAllCache(): void {
+    this.toolCache.clear();
+  }
+
   async listTools(packageKey: string): Promise<Tool[]> {
+    // 检查缓存
+    const cached = this.toolCache.get(packageKey);
+    if (cached) {
+      const now = Date.now();
+      if (now - cached.timestamp < this.CACHE_TTL) {
+        console.log(`[MCPSandboxClient] Returning cached tools for package: ${packageKey}`);
+        return cached.tools;
+      } else {
+        // 缓存过期，删除它
+        this.toolCache.delete(packageKey);
+      }
+    }
+
     if (!this.sandbox) {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
@@ -75,6 +104,12 @@ export class MCPSandboxClient {
     const result: MCPToolResult = JSON.parse(
       testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
     );
+
+    // 缓存结果
+    this.toolCache.set(packageKey, {
+      tools: result.tools,
+      timestamp: Date.now(),
+    });
 
     return result.tools;
   }

@@ -16,10 +16,19 @@ export class PackageSO {
   private useSandbox: boolean = false;
   private sandboxClient: MCPSandboxClient | null = null;
 
+  // 添加静态沙箱实例映射，实现沙箱复用
+  private static sandboxInstances: Map<string, MCPSandboxClient> = new Map();
+
   constructor(useSandbox: boolean = false) {
     this.useSandbox = useSandbox;
     if (useSandbox) {
-      this.sandboxClient = new MCPSandboxClient();
+      // 使用复用的沙箱实例
+      const sandboxKey = "default";
+      if (!PackageSO.sandboxInstances.has(sandboxKey)) {
+        const newSandboxClient = new MCPSandboxClient();
+        PackageSO.sandboxInstances.set(sandboxKey, newSandboxClient);
+      }
+      this.sandboxClient = PackageSO.sandboxInstances.get(sandboxKey)!;
     }
   }
 
@@ -49,19 +58,19 @@ export class PackageSO {
       throw new Error("Sandbox client not initialized");
     }
 
-    try {
+    // 只在沙箱未初始化时初始化
+    if (!this.sandboxClient["sandbox"]) {
       await this.sandboxClient.initialize();
-      const result = await this.sandboxClient.executeTool(
-        request.packageName,
-        request.toolKey,
-        request.inputData || {},
-        request.envs,
-      );
-      console.log(`Tool ${request.toolKey} executed successfully in sandbox`);
-      return result;
-    } finally {
-      await this.sandboxClient.close();
     }
+
+    const result = await this.sandboxClient.executeTool(
+      request.packageName,
+      request.toolKey,
+      request.inputData || {},
+      request.envs,
+    );
+    console.log(`Tool ${request.toolKey} executed successfully in sandbox`);
+    return result;
   }
 
   async listTools(packageName: string): Promise<Tool[]> {
@@ -94,14 +103,14 @@ export class PackageSO {
       throw new Error("Sandbox client not initialized");
     }
 
-    try {
+    // 只在沙箱未初始化时初始化
+    if (!this.sandboxClient["sandbox"]) {
       await this.sandboxClient.initialize();
-      const tools = await this.sandboxClient.listTools(packageName);
-      console.log(`Tools list retrieved successfully for package ${packageName} in sandbox`);
-      return tools;
-    } finally {
-      await this.sandboxClient.close();
     }
+
+    const tools = await this.sandboxClient.listTools(packageName);
+    console.log(`Tools list retrieved successfully for package ${packageName} in sandbox`);
+    return tools;
   }
 
   async getPackageDetail(packageName: string): Promise<MCPServerPackageConfig> {
@@ -139,5 +148,13 @@ export class PackageSO {
 
     const sandboxPackageSO = new PackageSO(true);
     return await sandboxPackageSO.getPackageDetail(packageName);
+  }
+
+  // 添加清理静态沙箱实例的方法
+  static async cleanupSandboxInstances(): Promise<void> {
+    for (const [key, sandboxClient] of PackageSO.sandboxInstances) {
+      await sandboxClient.close();
+      PackageSO.sandboxInstances.delete(key);
+    }
   }
 }
