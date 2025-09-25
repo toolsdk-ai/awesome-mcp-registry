@@ -3,7 +3,6 @@ import { Sandbox } from "@e2b/code-interpreter";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import dotenv from "dotenv";
 import { getPackageConfigByKey } from "../helper";
-
 import type { MCPServerPackageConfig } from "../types";
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
@@ -126,7 +125,6 @@ async function runMCP() {
     );
 
     await client.connect(transport);
-
     const toolsObj = await client.listTools();
     client.close();
 
@@ -139,6 +137,7 @@ async function runMCP() {
     return;
   } catch (error) {
     console.error("Error in MCP test:", error);
+    client.close();
     throw error;
   }
 }
