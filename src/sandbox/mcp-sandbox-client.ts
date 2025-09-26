@@ -1,12 +1,7 @@
-import path from "node:path";
 import { Sandbox } from "@e2b/code-interpreter";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import dotenv from "dotenv";
 import { getPackageConfigByKey } from "../helper";
 import type { MCPServerPackageConfig } from "../types";
-
-dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
-dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
 interface MCPToolResult {
   toolCount: number;
@@ -41,7 +36,6 @@ export class MCPSandboxClient {
 
   // Safe initialize: ensures concurrent calls don't create duplicate sandboxes
   async initialize(): Promise<void> {
-    console.time("[MCPSandboxClient] Sandbox initialization");
     if (this.sandbox) {
       this.touch();
       console.log("[MCPSandboxClient] Sandbox already initialized");
@@ -54,6 +48,7 @@ export class MCPSandboxClient {
       return;
     }
 
+    console.time("[MCPSandboxClient] Sandbox initialization");
     this.initializing = (async () => {
       try {
         this.sandbox = await Sandbox.create(`mcp-sandbox-01`, {
@@ -70,7 +65,6 @@ export class MCPSandboxClient {
     })();
 
     await this.initializing;
-
     console.timeEnd("[MCPSandboxClient] Sandbox initialization");
   }
 
@@ -308,13 +302,14 @@ export class MCPSandboxClient {
   private async runCodeWithTimeout(code: string, options: { language: string }): Promise<any> {
     if (!this.sandbox) throw new Error("Sandbox not initialized.");
 
-    console.time("[MCPSandboxClient] Listing tools execution time");
+    const label = "[MCPSandboxClient] Tool execution time";
+    console.time(label);
 
     const execPromise = this.sandbox.runCode(code, options);
-
     const timeoutMs = this.TOOL_EXECUTION_TIMEOUT;
 
-    let timeoutHandle: NodeJS.Timeout;
+    let timeoutHandle: NodeJS.Timeout | null = null;
+
     const timeoutPromise = new Promise((_, reject) => {
       timeoutHandle = setTimeout(async () => {
         const msg = `[MCPSandboxClient] runCode timeout after ${timeoutMs}ms`;
@@ -331,13 +326,13 @@ export class MCPSandboxClient {
 
     try {
       const result = await Promise.race([execPromise, timeoutPromise]);
-      clearTimeout(timeoutHandle!);
       return result;
     } catch (err) {
       console.error("[MCPSandboxClient] runCodeWithTimeout error:", err);
       throw err;
     } finally {
-      console.timeEnd("[MCPSandboxClient] Listing tools execution time");
+      if (timeoutHandle) clearTimeout(timeoutHandle);
+      console.timeEnd(label);
     }
   }
 
