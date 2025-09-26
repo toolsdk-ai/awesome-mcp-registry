@@ -26,7 +26,7 @@ export class PackageSO {
   private static sandboxInstances: Map<string, SandboxRecord> = new Map();
 
   private static MAX_SANDBOXES = 10;
-  private static IDLE_CLOSE_MS = 60 * 60 * 1000;
+  private static IDLE_CLOSE_MS = 5 * 60 * 1000;
 
   constructor(useSandbox: boolean = false) {
     this.useSandbox = useSandbox;
@@ -194,6 +194,22 @@ export class PackageSO {
       );
       console.log(`Tool ${request.toolKey} executed successfully in sandbox`);
       return result;
+    } catch (error) {
+      // If it's a sandbox not found error, try reinitializing and retrying once
+      if (error instanceof Error && error.message.includes("sandbox was not found")) {
+        console.log("[PackageSO] Retrying tool execution after sandbox failure");
+        await this.sandboxClient.initialize();
+        // Retry tool execution
+        const result = await this.sandboxClient.executeTool(
+          request.packageName,
+          request.toolKey,
+          request.inputData || {},
+          request.envs,
+        );
+        console.log(`Tool ${request.toolKey} executed successfully in sandbox (retry)`);
+        return result;
+      }
+      throw error;
     } finally {
       // Release reference count
       await PackageSO.releaseSandbox("default");
@@ -240,6 +256,19 @@ export class PackageSO {
       const tools = await this.sandboxClient.listTools(packageName);
       console.log(`Tools list retrieved successfully for package ${packageName} in sandbox`);
       return tools;
+    } catch (error) {
+      // If it's a sandbox not found error, try reinitializing and retrying once
+      if (error instanceof Error && error.message.includes("sandbox was not found")) {
+        console.log("[PackageSO] Retrying tools listing after sandbox failure");
+        await this.sandboxClient.initialize();
+        // Retry listing tools
+        const tools = await this.sandboxClient.listTools(packageName);
+        console.log(
+          `Tools list retrieved successfully for package ${packageName} in sandbox (retry)`,
+        );
+        return tools;
+      }
+      throw error;
     } finally {
       await PackageSO.releaseSandbox("default");
     }

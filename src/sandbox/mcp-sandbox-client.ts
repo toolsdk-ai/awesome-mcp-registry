@@ -24,6 +24,7 @@ export class MCPSandboxClient {
   private initializing: Promise<void> | null = null;
   private readonly apiKey: string;
   private toolCache: Map<string, { tools: Tool[]; timestamp: number }> = new Map();
+  private readonly E2B_SANDBOX_TIMEOUT_MS = 5 * 60 * 1000;
   private readonly TOOL_CACHE_TTL = 30 * 60 * 1000;
   public TOOL_EXECUTION_TIMEOUT = 5 * 60 * 1000;
 
@@ -54,7 +55,6 @@ export class MCPSandboxClient {
     }
 
     this.initializing = (async () => {
-      console.time("[MCPSandboxClient] Sandbox initialization");
       try {
         this.sandbox = await Sandbox.create(`mcp-sandbox-01`, {
           apiKey: this.apiKey,
@@ -65,7 +65,6 @@ export class MCPSandboxClient {
         this.setupTTLTimer();
         console.log("[MCPSandboxClient] Sandbox created successfully");
       } finally {
-        console.timeEnd("[MCPSandboxClient] Sandbox initialization");
         this.initializing = null;
       }
     })();
@@ -104,6 +103,14 @@ export class MCPSandboxClient {
   touch() {
     this.lastUsedAt = Date.now();
     console.log(`[MCPSandboxClient] Sandbox touched at ${this.lastUsedAt}`);
+
+    // Reset E2B sandbox timeout
+    if (this.sandbox) {
+      console.log("[MCPSandboxClient] Resetting E2B sandbox timeout");
+      this.sandbox.setTimeout(this.E2B_SANDBOX_TIMEOUT_MS).catch((err) => {
+        console.error("[MCPSandboxClient] Failed to reset E2B sandbox timeout:", err);
+      });
+    }
 
     // Refresh timer if waiting for idle close
     if (this.autoCloseOnIdleTimer && this.idleCloseMs) {
@@ -211,13 +218,9 @@ export class MCPSandboxClient {
 
     const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
 
-    console.time("[MCPSandboxClient] Listing tools execution time");
-
     const testCode: string = this.generateMCPTestCode(mcpServerConfig, "listTools");
 
     const testResult = await this.runCodeWithTimeout(testCode, { language: "javascript" });
-
-    console.timeEnd("[MCPSandboxClient] Listing tools execution time");
 
     if (testResult.error) {
       console.error("[MCPSandboxClient] Failed to list tools:", testResult.error);
@@ -244,55 +247,68 @@ export class MCPSandboxClient {
     argumentsObj: Record<string, unknown>,
     envs?: Record<string, string>,
   ): Promise<unknown> {
-    console.time(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
     if (!this.sandbox) {
-      console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    const mcpServerConfig = await getPackageConfigByKey(packageKey);
+    console.time(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
 
-    const testCode: string = this.generateMCPTestCode(
-      mcpServerConfig,
-      "executeTool",
-      toolName,
-      argumentsObj,
-      envs,
-    );
+    try {
+      const mcpServerConfig = await getPackageConfigByKey(packageKey);
 
-    const testResult = await this.sandbox.runCode(testCode, {
-      language: "javascript",
-    });
+      const testCode: string = this.generateMCPTestCode(
+        mcpServerConfig,
+        "executeTool",
+        toolName,
+        argumentsObj,
+        envs,
+      );
 
-    if (testResult.error) {
-      console.error("[MCPSandboxClient] Failed to execute tool:", testResult.error);
-      throw new Error(`Failed to execute tool: ${testResult.error}`);
-    }
+      const testResult = await this.sandbox.runCode(testCode, {
+        language: "javascript",
+      });
 
-    // Handle stderr output, log if there are error messages
-    if (testResult.logs.stderr && testResult.logs.stderr.length > 0) {
-      const stderrOutput = testResult.logs.stderr.join("\n");
-      console.error("[MCPSandboxClient] Tool execution stderr output:", stderrOutput);
-    }
+      if (testResult.error) {
+        console.error("[MCPSandboxClient] Failed to execute tool:", testResult.error);
+        throw new Error(`Failed to execute tool: ${testResult.error}`);
+      }
 
-    const result: MCPExecuteResult = JSON.parse(
-      testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
-    );
+      // Handle stderr output, log if there are error messages
+      if (testResult.logs.stderr && testResult.logs.stderr.length > 0) {
+        const stderrOutput = testResult.logs.stderr.join("\n");
+        console.error("[MCPSandboxClient] Tool execution stderr output:", stderrOutput);
+      }
 
-    if (result.isError) {
-      console.error("[MCPSandboxClient] Tool execution error:", result.errorMessage);
+      const result: MCPExecuteResult = JSON.parse(
+        testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
+      );
+
+      if (result.isError) {
+        console.error("[MCPSandboxClient] Tool execution error:", result.errorMessage);
+        throw new Error(result.errorMessage);
+      }
+
+      this.touch();
+      return result;
+    } catch (err) {
+      if (err instanceof Error && err.message.includes("sandbox was not found")) {
+        console.warn("[MCPSandboxClient] Sandbox not found, cleaning up state and reinitializing");
+        await this.kill();
+        throw new Error("Sandbox was not found. Please retry the operation.");
+      }
+
+      console.error("[MCPSandboxClient] Error executing tool:", err);
+      throw err;
+    } finally {
       console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
-      throw new Error(result.errorMessage);
     }
-
-    this.touch();
-    console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
-    return result;
   }
 
   // Add timeout protection to sandbox.runCode, kill sandbox on timeout
   private async runCodeWithTimeout(code: string, options: { language: string }): Promise<any> {
     if (!this.sandbox) throw new Error("Sandbox not initialized.");
+
+    console.time("[MCPSandboxClient] Listing tools execution time");
 
     const execPromise = this.sandbox.runCode(code, options);
 
@@ -320,6 +336,8 @@ export class MCPSandboxClient {
     } catch (err) {
       console.error("[MCPSandboxClient] runCodeWithTimeout error:", err);
       throw err;
+    } finally {
+      console.timeEnd("[MCPSandboxClient] Listing tools execution time");
     }
   }
 
