@@ -11,8 +11,8 @@
 # const sandbox = await Sandbox.create('mcp-sandbox-01')
 
 team_id = "fced8405-1c76-47cd-8f50-d8ed9849c2fd"
-memory_mb = 8_192
-cpu_count = 8
+memory_mb = 2_048
+cpu_count = 2
 start_cmd = "/root/.jupyter/start-up.sh"
 dockerfile = "e2b.Dockerfile"
 template_name = "mcp-sandbox-01"
