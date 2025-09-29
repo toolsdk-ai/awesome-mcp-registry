@@ -23,6 +23,9 @@ export class MCPSandboxClient {
   private readonly TOOL_CACHE_TTL = 30 * 60 * 1000;
   public TOOL_EXECUTION_TIMEOUT = 5 * 60 * 1000;
 
+  private lastTouchTime: number | null = null;
+  private readonly THROTTLE_DELAY_MS = 10 * 1000;
+
   // Lifecycle and Auto-Recovery
   public createdAt: number | null = null;
   public lastUsedAt: number | null = null;
@@ -96,6 +99,19 @@ export class MCPSandboxClient {
    * Update sandbox last used time
    */
   touch() {
+    const now = Date.now();
+
+    // If this is the first call, or more than 10 seconds have passed since the last call
+    if (!this.lastTouchTime || now - this.lastTouchTime >= this.THROTTLE_DELAY_MS) {
+      this.lastTouchTime = now;
+      this.performTouch();
+    }
+  }
+
+  /**
+   * Actually perform the touch operation
+   */
+  private performTouch() {
     this.lastUsedAt = Date.now();
     console.log(`[MCPSandboxClient] Sandbox touched at ${this.lastUsedAt}`);
 
