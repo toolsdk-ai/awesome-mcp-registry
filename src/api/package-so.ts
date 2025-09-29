@@ -61,12 +61,14 @@ export class PackageSO {
             }
           }
           if (lruKey) {
-            const evict = PackageSO.sandboxInstances.get(lruKey)!;
+            const evict = PackageSO.sandboxInstances.get(lruKey);
             // Immediately close and delete
-            evict.client.kill().catch((e) => {
-              console.error("[PackageSO] Error killing evicted sandbox:", e);
-            });
-            PackageSO.sandboxInstances.delete(lruKey);
+            if (evict) {
+              evict.client.kill().catch((e) => {
+                console.error("[PackageSO] Error killing evicted sandbox:", e);
+              });
+              PackageSO.sandboxInstances.delete(lruKey);
+            }
           } else {
             // No recyclable instances -> throw error to prevent exceeding system limit
             throw new Error("Cannot create new sandbox: max sandboxes reached and none are idle");
@@ -100,11 +102,13 @@ export class PackageSO {
         }
       }
       if (lruKey) {
-        const evict = PackageSO.sandboxInstances.get(lruKey)!;
-        await evict.client
-          .kill()
-          .catch((e) => console.error("[PackageSO] Error killing evicted sandbox:", e));
-        PackageSO.sandboxInstances.delete(lruKey);
+        const evict = PackageSO.sandboxInstances.get(lruKey);
+        if (evict) {
+          await evict.client
+            .kill()
+            .catch((e) => console.error("[PackageSO] Error killing evicted sandbox:", e));
+          PackageSO.sandboxInstances.delete(lruKey);
+        }
       } else {
         throw new Error("Cannot create new sandbox: max sandboxes reached and none are idle");
       }
@@ -178,9 +182,7 @@ export class PackageSO {
     }
 
     // Initialize if not already initialized (concurrency protection via MCPSandboxClient.initialize)
-    if (!this.sandboxClient["sandbox"]) {
-      await this.sandboxClient.initialize();
-    }
+    await this.sandboxClient.initialize();
 
     // Mark usage
     this.sandboxClient.touch();
@@ -247,9 +249,7 @@ export class PackageSO {
     }
 
     // Initialize only if sandbox is not initialized
-    if (!this.sandboxClient["sandbox"]) {
-      await this.sandboxClient.initialize();
-    }
+    await this.sandboxClient.initialize();
 
     this.sandboxClient.touch();
     try {

@@ -57,6 +57,7 @@ export class MCPSandboxClient {
       try {
         this.sandbox = await Sandbox.create(`mcp-sandbox-01`, {
           apiKey: this.apiKey,
+          timeoutMs: this.E2B_SANDBOX_TIMEOUT_MS,
         });
         this.createdAt = Date.now();
         this.touch();
@@ -111,13 +112,15 @@ export class MCPSandboxClient {
   /**
    * Actually perform the touch operation
    */
-  private performTouch() {
+  private async performTouch() {
     this.lastUsedAt = Date.now();
     console.log(`[MCPSandboxClient] Sandbox touched at ${this.lastUsedAt}`);
 
     // Reset E2B sandbox timeout
     if (this.sandbox) {
       console.log("[MCPSandboxClient] Resetting E2B sandbox timeout");
+      const info = await this.sandbox.getInfo();
+      console.log(`[MCPSandboxClient] E2B sandbox info: ${JSON.stringify(info, null, 2)}`);
       this.sandbox.setTimeout(this.E2B_SANDBOX_TIMEOUT_MS).catch((err) => {
         console.error("[MCPSandboxClient] Failed to reset E2B sandbox timeout:", err);
       });
@@ -301,7 +304,10 @@ export class MCPSandboxClient {
       this.touch();
       return result;
     } catch (err) {
-      if (err instanceof Error && err.message.includes("sandbox was not found")) {
+      if (
+        err instanceof Error &&
+        (err.message.includes("sandbox was not found") || err.message.includes("terminated"))
+      ) {
         console.warn("[MCPSandboxClient] Sandbox not found, cleaning up state and reinitializing");
         await this.kill();
         throw new Error("Sandbox was not found. Please retry the operation.");
@@ -385,6 +391,7 @@ function getPackageJSON(packageName) {
 }
 
 async function runMCP() {
+  let client;
   try {
     const packageName = "${mcpServerConfig.packageName}";
     const packageJSON = getPackageJSON(packageName);
@@ -416,7 +423,7 @@ async function runMCP() {
       },
     });
 
-    const client = new Client(
+    client = new Client(
       {
         name: "mcp-server-${mcpServerConfig.packageName}-client",
         version: "1.0.0",
