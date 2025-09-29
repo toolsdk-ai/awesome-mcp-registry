@@ -1,6 +1,6 @@
 {
   "name": "@toolsdk.ai/registry",
-  "version": "1.0.112",
+  "version": "1.0.113",
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "keywords": [],
   "license": "MIT",
