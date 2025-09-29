@@ -48,7 +48,8 @@ export class MCPSandboxClient {
       return;
     }
 
-    console.time("[MCPSandboxClient] Sandbox initialization");
+    const initLabel = `[MCPSandboxClient] Sandbox initialization ${Date.now()}-${(Math.random() * 1000000) | 0}`;
+    console.time(initLabel);
     this.initializing = (async () => {
       try {
         this.sandbox = await Sandbox.create(`mcp-sandbox-01`, {
@@ -65,7 +66,7 @@ export class MCPSandboxClient {
     })();
 
     await this.initializing;
-    console.timeEnd("[MCPSandboxClient] Sandbox initialization");
+    console.timeEnd(initLabel);
   }
 
   private setupTTLTimer() {
@@ -145,7 +146,8 @@ export class MCPSandboxClient {
 
   // Force close and cleanup timers & cache
   async kill(): Promise<void> {
-    console.time("[MCPSandboxClient] Sandbox closing");
+    const killLabel = `[MCPSandboxClient] Sandbox closing ${Date.now()}-${(Math.random() * 1000000) | 0}`;
+    console.time(killLabel);
     try {
       if (this.ttlTimer) {
         clearTimeout(this.ttlTimer);
@@ -171,7 +173,7 @@ export class MCPSandboxClient {
       this.toolCache.clear();
       this.createdAt = null;
       this.lastUsedAt = null;
-      console.timeEnd("[MCPSandboxClient] Sandbox closing");
+      console.timeEnd(killLabel);
     }
   }
 
@@ -245,7 +247,8 @@ export class MCPSandboxClient {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    console.time(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
+    const execLabel = `[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey} ${Date.now()}-${(Math.random() * 1000000) | 0}`;
+    console.time(execLabel);
 
     try {
       const mcpServerConfig = await getPackageConfigByKey(packageKey);
@@ -258,10 +261,7 @@ export class MCPSandboxClient {
         envs,
       );
 
-      const testResult = await this.sandbox.runCode(testCode, {
-        language: "javascript",
-      });
-
+      const testResult = await this.runCodeWithTimeout(testCode, { language: "javascript" });
       if (testResult.error) {
         console.error("[MCPSandboxClient] Failed to execute tool:", testResult.error);
         throw new Error(`Failed to execute tool: ${testResult.error}`);
@@ -294,16 +294,19 @@ export class MCPSandboxClient {
       console.error("[MCPSandboxClient] Error executing tool:", err);
       throw err;
     } finally {
-      console.timeEnd(`[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey}`);
+      console.timeEnd(execLabel);
     }
   }
 
   // Add timeout protection to sandbox.runCode, kill sandbox on timeout
-  private async runCodeWithTimeout(code: string, options: { language: string }): Promise<any> {
+  private async runCodeWithTimeout(
+    code: string,
+    options: { language: string },
+  ): Promise<{
+    logs: { stdout: string[]; stderr: string[] };
+    error?: Error;
+  }> {
     if (!this.sandbox) throw new Error("Sandbox not initialized.");
-
-    const label = "[MCPSandboxClient] Tool execution time";
-    console.time(label);
 
     const execPromise = this.sandbox.runCode(code, options);
     const timeoutMs = this.TOOL_EXECUTION_TIMEOUT;
@@ -324,8 +327,13 @@ export class MCPSandboxClient {
       }, timeoutMs);
     });
 
+    const label = `[MCPSandboxClient] Tool execution time ${Date.now()}-${(Math.random() * 1000000) | 0}`;
     try {
-      const result = await Promise.race([execPromise, timeoutPromise]);
+      console.time(label);
+      const result = (await Promise.race([execPromise, timeoutPromise])) as {
+        logs: { stdout: string[]; stderr: string[] };
+        error?: Error;
+      };
       return result;
     } catch (err) {
       console.error("[MCPSandboxClient] runCodeWithTimeout error:", err);
@@ -417,12 +425,15 @@ async function runMCP() {
     };
 
     console.log(JSON.stringify(result));
-    client.close();
-
+    if (client) {
+      client.close();
+    }
     return;
   } catch (error) {
     console.error("Error in MCP test:", error);
-    client.close();
+    if (client) {
+      client.close();
+    }
     throw error;
   }
 }
@@ -438,10 +449,14 @@ runMCP();
     });
 
     console.log(JSON.stringify(result))
-    client.close();
+    if (client) {
+      client.close();
+    }
     return;
   } catch (error) {
-    client.close();
+    if (client) {
+      client.close();
+    }
     console.log(JSON.stringify({ 
       result: null, 
       isError: true, 
