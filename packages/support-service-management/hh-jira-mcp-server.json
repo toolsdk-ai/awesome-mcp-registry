@@ -5,6 +5,19 @@
   "url": "https://github.com/alexeydubinin/hh-jira-mcp-server",
   "runtime": "python",
   "license": "unknown",
-  "env": {},
+  "env": {
+    "HH_JIRA_MCP_USER": {
+      "description": "Jira username (e.g., v.pupkin)",
+      "required": true
+    },
+    "HH_JIRA_MCP_TEAM": {
+      "description": "Jira team or project key (e.g., some-team)",
+      "required": true
+    },
+    "HH_JIRA_MCP_SEARCH_FILTER": {
+      "description": "Jira JQL search filter (e.g., status in (\"Development: In progress\"))",
+      "required": true
+    }
+  },
   "name": "Jira MCP Server"
 }

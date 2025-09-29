@@ -1,0 +1,19 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (qtiuog8r1xbcigt0ak5n) or template name (mcp-sandbox-01) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("mcp-sandbox-01") # Sync sandbox
+# sandbox = await AsyncSandbox.create("mcp-sandbox-01") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('mcp-sandbox-01')
+
+team_id = "fced8405-1c76-47cd-8f50-d8ed9849c2fd"
+memory_mb = 2_048
+cpu_count = 2
+start_cmd = "/root/.jupyter/start-up.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "mcp-sandbox-01"
+template_id = "qtiuog8r1xbcigt0ak5n"
