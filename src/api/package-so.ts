@@ -156,11 +156,19 @@ export class PackageSO {
   }
 
   async executeTool(request: ToolExecute): Promise<unknown> {
-    if (this.useSandbox) {
-      return this.executeToolInSandbox(request);
-    }
-
     const mcpServerConfig = getPackageConfigByKey(request.packageName);
+
+    if (this.useSandbox && mcpServerConfig.runtime === "node") {
+      try {
+        const result = await this.executeToolInSandbox(request);
+        return result;
+      } catch (error) {
+        console.warn(
+          `[executeTool] Sandbox mode failed for tool ${request.toolKey} in package ${request.packageName}, falling back to local mode:`,
+          error,
+        );
+      }
+    }
 
     const { client, closeConnection } = await getMcpClient(mcpServerConfig, request.envs || {});
     try {
@@ -227,7 +235,7 @@ export class PackageSO {
         return tools;
       } catch (error) {
         console.warn(
-          `Sandbox mode failed for package ${packageName}, falling back to local mode:`,
+          `[listTools] Sandbox mode failed for package ${packageName}, falling back to local mode:`,
           error,
         );
       }

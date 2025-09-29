@@ -40,14 +40,14 @@ export class MCPSandboxClient {
   // Safe initialize: ensures concurrent calls don't create duplicate sandboxes
   async initialize(): Promise<void> {
     if (this.sandbox) {
-      this.touch();
-      console.log("[MCPSandboxClient] Sandbox already initialized");
+      // this.touch();
+      // console.log("[MCPSandboxClient] Sandbox already initialized");
       return;
     }
     if (this.initializing) {
       // Wait for existing initialization to complete
       await this.initializing;
-      this.touch();
+      // this.touch();
       return;
     }
 
@@ -119,8 +119,8 @@ export class MCPSandboxClient {
     // Reset E2B sandbox timeout
     if (this.sandbox) {
       console.log("[MCPSandboxClient] Resetting E2B sandbox timeout");
-      const info = await this.sandbox.getInfo();
-      console.log(`[MCPSandboxClient] E2B sandbox info: ${JSON.stringify(info, null, 2)}`);
+      // const info = await this.sandbox.getInfo();
+      // console.log(`[MCPSandboxClient] E2B sandbox info: ${JSON.stringify(info, null, 2)}`);
       this.sandbox.setTimeout(this.E2B_SANDBOX_TIMEOUT_MS).catch((err) => {
         console.error("[MCPSandboxClient] Failed to reset E2B sandbox timeout:", err);
       });
