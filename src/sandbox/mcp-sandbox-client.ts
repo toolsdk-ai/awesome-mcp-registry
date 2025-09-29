@@ -19,9 +19,9 @@ export class MCPSandboxClient {
   private initializing: Promise<void> | null = null;
   private readonly apiKey: string;
   private toolCache: Map<string, { tools: Tool[]; timestamp: number }> = new Map();
-  private readonly E2B_SANDBOX_TIMEOUT_MS = 5 * 60 * 1000;
+  private readonly E2B_SANDBOX_TIMEOUT_MS = 300_000;
   private readonly TOOL_CACHE_TTL = 30 * 60 * 1000;
-  public TOOL_EXECUTION_TIMEOUT = 5 * 60 * 1000;
+  public TOOL_EXECUTION_TIMEOUT = 300_000;
 
   private lastTouchTime: number | null = null;
   private readonly THROTTLE_DELAY_MS = 10 * 1000;

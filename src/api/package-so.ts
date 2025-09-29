@@ -219,11 +219,19 @@ export class PackageSO {
   }
 
   async listTools(packageName: string): Promise<Tool[]> {
-    if (this.useSandbox) {
-      return this.listToolsInSandbox(packageName);
-    }
-
     const mcpServerConfig = getPackageConfigByKey(packageName);
+
+    if (this.useSandbox && mcpServerConfig.runtime === "node") {
+      try {
+        const tools = await this.listToolsInSandbox(packageName);
+        return tools;
+      } catch (error) {
+        console.warn(
+          `Sandbox mode failed for package ${packageName}, falling back to local mode:`,
+          error,
+        );
+      }
+    }
 
     const mockEnvs: Record<string, string> = {};
     if (mcpServerConfig.env) {
