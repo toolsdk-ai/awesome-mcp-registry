@@ -235,25 +235,40 @@ export class MCPSandboxClient {
 
     const testCode: string = this.generateMCPTestCode(mcpServerConfig, "listTools");
 
-    const testResult = await this.runCodeWithTimeout(testCode, { language: "javascript" });
+    try {
+      const testResult = await this.runCodeWithTimeout(testCode, { language: "javascript" });
 
-    if (testResult.error) {
-      console.error("[MCPSandboxClient] Failed to list tools:", testResult.error);
-      throw new Error(`Failed to list tools: ${testResult.error}`);
+      if (testResult.error) {
+        console.error("[MCPSandboxClient] Failed to list tools:", testResult.error);
+        throw new Error(`Failed to list tools: ${testResult.error}`);
+      }
+
+      const stdout = testResult.logs?.stdout || [];
+      const last = stdout[stdout.length - 1] || "{}";
+
+      const result: MCPToolResult = JSON.parse(last);
+
+      this.toolCache.set(packageKey, {
+        tools: result.tools,
+        timestamp: Date.now(),
+      });
+
+      this.touch();
+      return result.tools;
+    } catch (err) {
+      // Enhanced error handling for connection issues, consistent with executeTool
+      if (
+        err instanceof Error &&
+        (err.message.includes("sandbox was not found") || err.message.includes("terminated"))
+      ) {
+        console.warn(
+          "[MCPSandboxClient] Sandbox connection lost during listTools, cleaning up state and reinitializing",
+        );
+        await this.kill();
+        throw new Error("Sandbox connection lost. Please retry the operation.");
+      }
+      throw err;
     }
-
-    const stdout = testResult.logs?.stdout || [];
-    const last = stdout[stdout.length - 1] || "{}";
-
-    const result: MCPToolResult = JSON.parse(last);
-
-    this.toolCache.set(packageKey, {
-      tools: result.tools,
-      timestamp: Date.now(),
-    });
-
-    this.touch();
-    return result.tools;
   }
 
   async executeTool(
@@ -449,13 +464,13 @@ async function runMCP() {
 
     console.log(JSON.stringify(result));
     if (client) {
-      client.close();
+      await client.close();
     }
     return;
   } catch (error) {
     console.error("Error in MCP test:", error);
     if (client) {
-      client.close();
+      await client.close();
     }
     throw error;
   }
@@ -473,12 +488,12 @@ runMCP();
 
     console.log(JSON.stringify(result))
     if (client) {
-      client.close();
+      await client.close();
     }
     return;
   } catch (error) {
     if (client) {
-      client.close();
+      await client.close();
     }
     console.log(JSON.stringify({ 
       result: null, 
