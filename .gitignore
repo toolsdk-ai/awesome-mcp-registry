@@ -28,3 +28,8 @@ main.py
 meilisearch
 *.pid
 data.ms/
+
+e2b-template/node/package.json
+e2b-template/node/pnpm-lock.yaml
+e2b-template/python/uv.lock
+e2b-template/python/pyproject.toml

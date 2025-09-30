@@ -40,14 +40,11 @@ export class MCPSandboxClient {
   // Safe initialize: ensures concurrent calls don't create duplicate sandboxes
   async initialize(): Promise<void> {
     if (this.sandbox) {
-      // this.touch();
-      // console.log("[MCPSandboxClient] Sandbox already initialized");
       return;
     }
     if (this.initializing) {
       // Wait for existing initialization to complete
       await this.initializing;
-      // this.touch();
       return;
     }
 
@@ -55,7 +52,7 @@ export class MCPSandboxClient {
     console.time(initLabel);
     this.initializing = (async () => {
       try {
-        this.sandbox = await Sandbox.create(`mcp-sandbox-01`, {
+        this.sandbox = await Sandbox.create(`mcp-sandbox-node`, {
           apiKey: this.apiKey,
           timeoutMs: this.E2B_SANDBOX_TIMEOUT_MS,
         });
