@@ -4643,3 +4643,8 @@ Miscellaneous tools and integrations that don’t fit into other categories.
 - [❌ jmeter](https://github.com/qainsights/jmeter-mcp-server): Enables natural language execution of JMeter performance tests in both GUI and non-GUI modes, returning detailed results for automated load testing workflows.  (python) 
 - [❌ goose-extensions](https://github.com/jay4242/goose_mcp): Extends Goose AI assistant with five specialized servers for Plex Media Server interaction, Rotten Tomatoes scraping, eBay sales data retrieval, SearxNG web searches, and Taskwarrior task management.  (python) 
 
+
+
+## MCP Servers
+
+- [askbudi/roundtable](https://github.com/askbudi/roundtable) - Zero-configuration MCP server that unifies multiple AI coding assistants through intelligent auto-discovery and standardized interface
