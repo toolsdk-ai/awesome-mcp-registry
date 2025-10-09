@@ -22,7 +22,6 @@ type SandboxRecord = {
 
 export class PackageSO {
   private useSandbox: boolean = false;
-  private sandboxClient: MCPSandboxClient | null = null;
   private static sandboxInstances: Map<string, SandboxRecord> = new Map();
 
   private static MAX_SANDBOXES = 10;
@@ -30,59 +29,14 @@ export class PackageSO {
 
   constructor(useSandbox: boolean = false) {
     this.useSandbox = useSandbox;
-    if (useSandbox) {
-      const sandboxKey = "default";
-      const record = PackageSO.sandboxInstances.get(sandboxKey);
-      if (record) {
-        record.refCount++;
-        record.lastUsedAt = Date.now();
-        this.sandboxClient = record.client;
-        // Cancel all idle close timer
-        record.client.touch();
-      } else {
-        // Create a new instance if none exists (subject to max limit)
-        this.sandboxClient = new MCPSandboxClient();
-        const newRecord: SandboxRecord = {
-          client: this.sandboxClient,
-          refCount: 1,
-          lastUsedAt: Date.now(),
-          idleCloseMs: PackageSO.IDLE_CLOSE_MS,
-        };
-
-        // Try to insert, evict LRU idle instance if MAX is reached
-        if (PackageSO.sandboxInstances.size >= PackageSO.MAX_SANDBOXES) {
-          // Find the oldest idle instance (refCount === 0)
-          let lruKey: string | null = null;
-          let lruTime = Infinity;
-          for (const [k, r] of PackageSO.sandboxInstances) {
-            if (r.refCount === 0 && r.lastUsedAt < lruTime) {
-              lruKey = k;
-              lruTime = r.lastUsedAt;
-            }
-          }
-          if (lruKey) {
-            const evict = PackageSO.sandboxInstances.get(lruKey);
-            // Immediately close and delete
-            if (evict) {
-              evict.client.kill().catch((e) => {
-                console.error("[PackageSO] Error killing evicted sandbox:", e);
-              });
-              PackageSO.sandboxInstances.delete(lruKey);
-            }
-          } else {
-            // No recyclable instances -> throw error to prevent exceeding system limit
-            throw new Error("Cannot create new sandbox: max sandboxes reached and none are idle");
-          }
-        }
-
-        PackageSO.sandboxInstances.set(sandboxKey, newRecord);
-      }
-    }
   }
 
   // Acquire / Release explicit APIs (for external or future use)
-  static async acquireSandbox(key = "default"): Promise<MCPSandboxClient> {
-    const record = PackageSO.sandboxInstances.get(key);
+  static async acquireSandbox(
+    runtime: "node" | "python" | "java" | "go" = "python",
+  ): Promise<MCPSandboxClient> {
+    const sandboxKey = `sandbox-${runtime}`;
+    const record = PackageSO.sandboxInstances.get(sandboxKey);
     if (record) {
       record.refCount++;
       record.lastUsedAt = Date.now();
@@ -114,19 +68,22 @@ export class PackageSO {
       }
     }
 
-    const client = new MCPSandboxClient();
+    const client = new MCPSandboxClient(undefined, runtime);
     const newRecord: SandboxRecord = {
       client,
       refCount: 1,
       lastUsedAt: Date.now(),
       idleCloseMs: PackageSO.IDLE_CLOSE_MS,
     };
-    PackageSO.sandboxInstances.set(key, newRecord);
+    PackageSO.sandboxInstances.set(sandboxKey, newRecord);
     return client;
   }
 
-  static async releaseSandbox(key = "default"): Promise<void> {
-    const record = PackageSO.sandboxInstances.get(key);
+  static async releaseSandbox(
+    runtime: "node" | "python" | "java" | "go" = "python",
+  ): Promise<void> {
+    const sandboxKey = `sandbox-${runtime}`;
+    const record = PackageSO.sandboxInstances.get(sandboxKey);
     if (!record) return;
     record.refCount = Math.max(0, record.refCount - 1);
     record.lastUsedAt = Date.now();
@@ -158,7 +115,7 @@ export class PackageSO {
   async executeTool(request: ToolExecute): Promise<unknown> {
     const mcpServerConfig = getPackageConfigByKey(request.packageName);
 
-    if (this.useSandbox && mcpServerConfig.runtime === "node") {
+    if (this.useSandbox) {
       try {
         const result = await this.executeToolInSandbox(request);
         return result;
@@ -185,18 +142,19 @@ export class PackageSO {
   }
 
   private async executeToolInSandbox(request: ToolExecute): Promise<unknown> {
-    if (!this.sandboxClient) {
-      throw new Error("Sandbox client not initialized");
-    }
+    const mcpServerConfig = getPackageConfigByKey(request.packageName);
+    const runtime = mcpServerConfig.runtime || "python"; // Default to python if not specified
+
+    const sandboxClient = await PackageSO.acquireSandbox(runtime);
 
     // Initialize if not already initialized (concurrency protection via MCPSandboxClient.initialize)
-    await this.sandboxClient.initialize();
+    await sandboxClient.initialize();
 
     // Mark usage
-    this.sandboxClient.touch();
+    sandboxClient.touch();
 
     try {
-      const result = await this.sandboxClient.executeTool(
+      const result = await sandboxClient.executeTool(
         request.packageName,
         request.toolKey,
         request.inputData || {},
@@ -208,9 +166,9 @@ export class PackageSO {
       // If it's a sandbox not found error, try reinitializing and retrying once
       if (error instanceof Error && error.message.includes("sandbox was not found")) {
         console.log("[PackageSO] Retrying tool execution after sandbox failure");
-        await this.sandboxClient.initialize();
+        await sandboxClient.initialize();
         // Retry tool execution
-        const result = await this.sandboxClient.executeTool(
+        const result = await sandboxClient.executeTool(
           request.packageName,
           request.toolKey,
           request.inputData || {},
@@ -222,14 +180,14 @@ export class PackageSO {
       throw error;
     } finally {
       // Release reference count
-      await PackageSO.releaseSandbox("default");
+      await PackageSO.releaseSandbox(runtime);
     }
   }
 
   async listTools(packageName: string): Promise<Tool[]> {
     const mcpServerConfig = getPackageConfigByKey(packageName);
 
-    if (this.useSandbox && mcpServerConfig.runtime === "node") {
+    if (this.useSandbox) {
       try {
         const tools = await this.listToolsInSandbox(packageName);
         return tools;
@@ -260,25 +218,26 @@ export class PackageSO {
   }
 
   private async listToolsInSandbox(packageName: string): Promise<Tool[]> {
-    if (!this.sandboxClient) {
-      throw new Error("Sandbox client not initialized");
-    }
+    const mcpServerConfig = getPackageConfigByKey(packageName);
+    const runtime = mcpServerConfig.runtime || "python"; // Default to python if not specified
+
+    const sandboxClient = await PackageSO.acquireSandbox(runtime);
 
     // Initialize only if sandbox is not initialized
-    await this.sandboxClient.initialize();
+    await sandboxClient.initialize();
 
-    this.sandboxClient.touch();
+    sandboxClient.touch();
     try {
-      const tools = await this.sandboxClient.listTools(packageName);
+      const tools = await sandboxClient.listTools(packageName);
       console.log(`Tools list retrieved successfully for package ${packageName} in sandbox`);
       return tools;
     } catch (error) {
       // If it's a sandbox not found error, try reinitializing and retrying once
       if (error instanceof Error && error.message.includes("sandbox was not found")) {
         console.log("[PackageSO] Retrying tools listing after sandbox failure");
-        await this.sandboxClient.initialize();
+        await sandboxClient.initialize();
         // Retry listing tools
-        const tools = await this.sandboxClient.listTools(packageName);
+        const tools = await sandboxClient.listTools(packageName);
         console.log(
           `Tools list retrieved successfully for package ${packageName} in sandbox (retry)`,
         );
@@ -286,7 +245,7 @@ export class PackageSO {
       }
       throw error;
     } finally {
-      await PackageSO.releaseSandbox("default");
+      await PackageSO.releaseSandbox(runtime);
     }
   }
 

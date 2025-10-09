@@ -55,7 +55,7 @@ importers:
         version: 1.0.3
       '@arizeai/phoenix-mcp':
         specifier: 2.2.9
-        version: 2.2.9(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 2.2.9(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@ashdev/discourse-mcp-server':
         specifier: 1.0.2
         version: 1.0.2
@@ -136,13 +136,13 @@ importers:
         version: 1.0.1(effect@3.16.10)
       '@clerk/agent-toolkit':
         specifier: 0.1.19
-        version: 0.1.19(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(ai@4.3.19(react@18.3.1)(zod@3.25.76))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)
+        version: 0.1.19(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(ai@4.3.19(react@18.3.1)(zod@3.25.76))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)
       '@cloudbase/cloudbase-mcp':
         specifier: 1.8.42
         version: 1.8.42(@swc/helpers@0.5.17)(bufferutil@4.0.9)(encoding@0.1.13)(eslint@9.29.0(jiti@2.4.2))(utf-8-validate@5.0.10)
       '@cloudwerxlab/gpt-image-1-mcp':
         specifier: 3.2.0
-        version: 3.2.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 3.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@cmann50/mcp-chrome-google-search':
         specifier: 1.0.6
         version: 1.0.6
@@ -163,10 +163,10 @@ importers:
         version: 1.0.3
       '@cyanheads/filesystem-mcp-server':
         specifier: 1.0.4
-        version: 1.0.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.0.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@cyanheads/pubmed-mcp-server':
         specifier: 1.2.3
-        version: 1.2.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.2.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@cyanheads/toolkit-mcp-server':
         specifier: 1.0.1
         version: 1.0.1
@@ -196,10 +196,10 @@ importers:
         version: 0.2.0
       '@enescinar/twitter-mcp':
         specifier: 0.2.0
-        version: 0.2.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 0.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@executeautomation/playwright-mcp-server':
         specifier: 1.0.6
-        version: 1.0.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+        version: 1.0.6(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       '@exoticknight/mcp-file-merger':
         specifier: 1.0.1
         version: 1.0.1
@@ -337,7 +337,7 @@ importers:
         version: 1.1.0
       '@jsonresume/mcp':
         specifier: 3.0.3
-        version: 3.0.3(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+        version: 3.0.3(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       '@just-every/mcp-read-website-fast':
         specifier: 0.1.18
         version: 0.1.18(bufferutil@4.0.9)(canvas@3.1.2)(encoding@0.1.13)(utf-8-validate@5.0.10)(zod@3.25.76)
@@ -418,7 +418,7 @@ importers:
         version: 0.4.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@llmindset/mcp-webcam':
         specifier: 0.2.1
-        version: 0.2.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(zod@3.25.76)
+        version: 0.2.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)(zod@3.25.76)
       '@luorivergoddess/mcp-geo':
         specifier: 0.1.3
         version: 0.1.3
@@ -439,7 +439,7 @@ importers:
         version: 0.2.18
       '@mbelinky/x-mcp-server':
         specifier: 1.1.0
-        version: 1.1.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.1.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@mcp-devtools/jira':
         specifier: 0.2.6
         version: 0.2.6
@@ -478,10 +478,10 @@ importers:
         version: 0.1.1
       '@mem0/mcp-server':
         specifier: 0.0.1
-        version: 0.0.1(@anthropic-ai/sdk@0.58.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(@mistralai/mistralai@1.7.2(zod@3.25.76))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(jiti@2.4.2)(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(postcss@8.5.6)(redis@5.5.6)(sqlite3@5.1.7)(tsx@4.20.3)(typescript@5.8.3)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(yaml@2.8.0)
+        version: 0.0.1(@anthropic-ai/sdk@0.58.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(@mistralai/mistralai@1.7.2(zod@3.25.76))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(jiti@2.4.2)(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(postcss@8.5.6)(redis@5.5.6)(sqlite3@5.1.7)(tsx@4.20.3)(typescript@5.8.3)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(yaml@2.8.0)
       '@mfukushim/map-traveler-mcp':
         specifier: 0.0.80
-        version: 0.0.80(@cloudflare/workers-types@4.20250627.0)(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@opentelemetry/api@1.9.0)(@prisma/client@6.11.1(typescript@5.8.3))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.4)(@types/react@19.1.8)(better-sqlite3@11.10.0)(bufferutil@4.0.9)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(knex@3.1.0(better-sqlite3@11.10.0)(mysql2@3.14.1)(pg@8.16.2)(sqlite3@5.1.7))(kysely@0.28.2)(mysql2@3.14.1)(pg@8.16.2)(postgres@3.4.7)(react@18.3.1)(rxjs@7.8.2)(sqlite3@5.1.7)(utf-8-validate@5.0.10)
+        version: 0.0.80(@cloudflare/workers-types@4.20250627.0)(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@opentelemetry/api@1.9.0)(@prisma/client@6.11.1(typescript@5.8.3))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.4)(@types/react@19.1.8)(better-sqlite3@11.10.0)(bufferutil@4.0.9)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(knex@3.1.0(better-sqlite3@11.10.0)(mysql2@3.14.1)(pg@8.16.2)(sqlite3@5.1.7))(kysely@0.28.2)(mysql2@3.14.1)(pg@8.16.2)(postgres@3.4.7)(react@18.3.1)(rxjs@7.8.2)(sqlite3@5.1.7)(utf-8-validate@5.0.10)
       '@microsoft/clarity-mcp-server':
         specifier: 1.0.5
         version: 1.0.5
@@ -541,7 +541,7 @@ importers:
         version: 1.2.0
       '@mzxrai/mcp-openai':
         specifier: 0.1.1
-        version: 0.1.1(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+        version: 0.1.1(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       '@mzxrai/mcp-webresearch':
         specifier: 0.1.7
         version: 0.1.7
@@ -613,7 +613,7 @@ importers:
         version: 1.2.0
       '@pinkpixel/mindbridge':
         specifier: 1.2.0
-        version: 1.2.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.2.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@pinkpixel/notification-mcp':
         specifier: 0.1.2
         version: 0.1.2
@@ -673,7 +673,7 @@ importers:
         version: 0.1.3(encoding@0.1.13)
       '@rtuin/mcp-mermaid-validator':
         specifier: 0.6.2
-        version: 0.6.2(@types/react@19.1.8)(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))
+        version: 0.6.2(@types/react@19.1.8)(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))
       '@runreal/unreal-mcp':
         specifier: 0.1.4
         version: 0.1.4
@@ -697,7 +697,7 @@ importers:
         version: 0.1.3
       '@shinzolabs/gmail-mcp':
         specifier: 1.7.4
-        version: 1.7.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(encoding@0.1.13)(react@18.3.1)(typescript@5.8.3)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.7.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(encoding@0.1.13)(react@18.3.1)(typescript@5.8.3)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@shopify/dev-mcp':
         specifier: 1.1.0
         version: 1.1.0
@@ -736,7 +736,7 @@ importers:
         version: 0.4.1
       '@steipete/peekaboo-mcp':
         specifier: 1.1.0
-        version: 1.1.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.1.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@strowk/mcp-k8s':
         specifier: 0.3.6
         version: 0.3.6
@@ -916,7 +916,7 @@ importers:
         version: 1.10.0
       base-network-mcp-server:
         specifier: 0.1.0
-        version: 0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(immer@10.1.1)(ioredis@5.5.0)(kerberos@2.2.2)(mongodb-client-encryption@6.5.0)(react@18.3.1)(socks@2.8.5)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(zod@3.25.76)
+        version: 0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(immer@10.1.1)(ioredis@5.5.0)(kerberos@2.2.2)(mongodb-client-encryption@6.5.0)(react@18.3.1)(socks@2.8.5)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)(zod@3.25.76)
       better-fetch-mcp:
         specifier: 1.0.0
         version: 1.0.0
@@ -949,7 +949,7 @@ importers:
         version: 1.12.0
       clinicaltrialsgov-mcp-server:
         specifier: 1.0.3
-        version: 1.0.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.0.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       cloudinary-mcp-server:
         specifier: 0.4.0
         version: 0.4.0
@@ -964,7 +964,7 @@ importers:
         version: 0.9.3
       consult-llm-mcp:
         specifier: 1.0.5
-        version: 1.0.5(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.0.5(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       coolify-mcp-server:
         specifier: 0.1.11
         version: 0.1.11
@@ -982,7 +982,7 @@ importers:
         version: 0.1.3-beta.0
       deepseek-thinker-mcp:
         specifier: 1.0.1
-        version: 1.0.1(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.0.1(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       deepsource-mcp-server:
         specifier: 1.2.1
         version: 1.2.1
@@ -1036,7 +1036,7 @@ importers:
         version: 0.3.0(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10)
       fetchserp-mcp-server:
         specifier: 1.0.5
-        version: 1.0.5(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+        version: 1.0.5(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       feuse-mcp:
         specifier: 0.1.6
         version: 0.1.6(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10)
@@ -1102,7 +1102,7 @@ importers:
         version: 0.2.1
       graphlit-mcp-server:
         specifier: 1.0.20250625001
-        version: 1.0.20250625001(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+        version: 1.0.20250625001(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       grok-mcp:
         specifier: 1.0.1
         version: 1.0.1
@@ -1306,7 +1306,7 @@ importers:
         version: 0.1.8(encoding@0.1.13)
       mcp-llm:
         specifier: 1.0.6
-        version: 1.0.6(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+        version: 1.0.6(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       mcp-maigret:
         specifier: 1.0.12
         version: 1.0.12
@@ -1447,7 +1447,7 @@ importers:
         version: 0.0.6
       mcp-think-tank:
         specifier: 2.0.7
-        version: 2.0.7(effect@3.16.10)(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 2.0.7(effect@3.16.10)(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       mcp-trends-hub:
         specifier: 1.6.2
         version: 1.6.2
@@ -1522,7 +1522,7 @@ importers:
         version: 0.0.9(effect@3.16.10)
       node-code-sandbox-mcp:
         specifier: 1.3.0
-        version: 1.3.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+        version: 1.3.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       nostrdb-mcp:
         specifier: 1.2.1
         version: 1.2.1
@@ -1543,10 +1543,10 @@ importers:
         version: 1.3.5
       octagon-deep-research-mcp:
         specifier: 1.0.18
-        version: 1.0.18(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.0.18(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       octagon-mcp:
         specifier: 1.0.22
-        version: 1.0.22(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.0.22(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       one-search-mcp:
         specifier: 1.0.11
         version: 1.0.11(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -1612,13 +1612,13 @@ importers:
         version: 0.2.1
       ref-tools-mcp:
         specifier: 2.0.0
-        version: 2.0.0(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)
+        version: 2.0.0(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@4.1.11)(typescript@5.8.3)(utf-8-validate@5.0.10)
       replicate-flux-mcp:
         specifier: 0.1.2
         version: 0.1.2
       resend-mcp:
         specifier: 0.1.2
-        version: 0.1.2(react-dom@19.1.0(react@18.3.1))(react@18.3.1)
+        version: 0.1.2(react-dom@19.1.0(react@19.1.0))(react@18.3.1)
       rss-reader-mcp:
         specifier: 1.0.3
         version: 1.0.3(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10)
@@ -1759,7 +1759,7 @@ importers:
         version: 1.0.2
       ultra-mcp:
         specifier: 0.6.2
-        version: 0.6.2(8b75d519971bae093a20a9d86b14350e)
+        version: 0.6.2(c3e92b45825b35803f4e80cf88c34b64)
       uniquity-mcp:
         specifier: 0.1.4
         version: 0.1.4
@@ -6852,32 +6852,32 @@ packages:
     resolution: {integrity: sha512-PE5U1py8lj2TjgB705H6ENl/khQAjEskQ+HzfqGhYZ2xXO9DC7meJahbxa8NyEh5vLXweKc0Inj3tLtGpL88uQ==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-cli@0.16.8':
-    resolution: {integrity: sha512-u8x8Dbb8Dos34M7N8p4e4AF++Bi1D+lq+dkRCvLi5Qub/dI75Z7YTIXBezA4LbIISly+Ecn05fdofzZwqyOvpg==}
+  '@modelcontextprotocol/inspector-cli@0.17.0':
+    resolution: {integrity: sha512-T6loUwwjSV1m6THJ0o0zDlh+eLWYOAouMW/ZWrCv+iLwP7ye1KSL/CEOPilZz8a/lrVpmYfP59S/5hZxuKAqig==}
     hasBin: true
 
   '@modelcontextprotocol/inspector-client@0.10.2':
     resolution: {integrity: sha512-gZfdkhtLEVjQslzKyyxTppm4iV2psuw6hkTtx+RULEopj+0dwE3mX4Ddl4uGcrz6eNv0bj/u7DE6azISIHSGXA==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-client@0.16.8':
-    resolution: {integrity: sha512-4sTk/jUnQ1lDv9kbx1nN45SsoApDxW8hjKLKcHnHh9nfRVEN9SW+ylUjNvVCDP74xSNpD8v5p6NJyVWtZYfPWA==}
+  '@modelcontextprotocol/inspector-client@0.17.0':
+    resolution: {integrity: sha512-L5NultdyPXB3KsuTDdm+gNNrb5RKP8keQJJiYDlNOBtwyY/Y7TUUm6QGr/fMX28/Uasnq0ktH5rijYzpfiWTsA==}
     hasBin: true
 
   '@modelcontextprotocol/inspector-server@0.10.2':
     resolution: {integrity: sha512-VXXMIdOlzyZ0eGG22glkfMH1cWOoHqrgEN6QvFaleXvRSaCp5WVe3M2gLXOyHRFVHimrDWKsGB0NjeXxb6xYuw==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector-server@0.16.8':
-    resolution: {integrity: sha512-plv0SiPgQAT0/LjC0MmGsoo/sdpS6V4TpOUAxO4J3DnvnLLaInnNh9hiU1SlGgCjsRv0nN9TvX9pWRqVnZH9kw==}
+  '@modelcontextprotocol/inspector-server@0.17.0':
+    resolution: {integrity: sha512-gT9Nad/p5iy638Q9uL7DqGTu7TwtmKf3vhZYliLEsRfvxfhNfz86skAnXAHzAFGZZqM2SuQMDrp/1hF/ceG7Jg==}
     hasBin: true
 
   '@modelcontextprotocol/inspector@0.10.2':
     resolution: {integrity: sha512-P/ag1MJz7mdOpmlE5OUozehzw0AYDi1cuXUctcPBpNvbufpnmmIwpD79I0lN41ydH1vnH4c8MTork75KWmP/hQ==}
     hasBin: true
 
-  '@modelcontextprotocol/inspector@0.16.8':
-    resolution: {integrity: sha512-7kk6uOGY9ySgCFsRuRplWzvjiEwulG876pfnjQxqaBJAcUlp3N1yrOt7YQMBZsxvop+RGw50IehiPuGs+7oh+w==}
+  '@modelcontextprotocol/inspector@0.17.0':
+    resolution: {integrity: sha512-emuP/FGJ25vJJQu1BBwVXlrEirV3cOoUsd+i+cmnmtCoYxNmPOGU6bXPHPk1kYIXh3QWcfrk/ZySxHF9kXpUgQ==}
     engines: {node: '>=22.7.5'}
     hasBin: true
 
@@ -6975,6 +6975,10 @@ packages:
 
   '@modelcontextprotocol/sdk@1.18.2':
     resolution: {integrity: sha512-beedclIvFcCnPrYgHsylqiYJVJ/CI47Vyc4tY8no1/Li/O8U4BTlJfy6ZwxkYwx+Mx10nrgwSVrA7VBbhh4slg==}
+    engines: {node: '>=18'}
+
+  '@modelcontextprotocol/sdk@1.19.1':
+    resolution: {integrity: sha512-3Y2h3MZKjec1eAqSTBclATlX+AbC6n1LgfVzRMJLt3v6w0RCYgwLrjbxPDbhsYHt6Wdqc/aCceNJYgj448ELQQ==}
     engines: {node: '>=18'}
 
   '@modelcontextprotocol/sdk@1.3.1':
@@ -10010,8 +10014,8 @@ packages:
   '@smithery/sdk@1.5.6':
     resolution: {integrity: sha512-5chXDcoldyUnCcaFatheae7ChcXFvoSJEI1ehu0ia7rqPVeA/FDntJ5DU/tRalUMX/r5PifhIV+SOp/iRUMjeg==}
 
-  '@smithery/sdk@1.6.6':
-    resolution: {integrity: sha512-4fv2nnPo0azi88mvwhoSJTNLXlygsyA+w4ThRIT3PZGLBP3qUlq2Vsyu4+7vUCoet3aV/arm0OhbEryK88Wfog==}
+  '@smithery/sdk@1.6.8':
+    resolution: {integrity: sha512-ifnScl4pc8IJH5IIPfEP78MLbUz7idGcW1SG3ddyO25CzKCN8gJMfVpWEMNX5L65gc4KJgujAwzp6n3KI+h42g==}
 
   '@smithy/abort-controller@4.0.4':
     resolution: {integrity: sha512-gJnEjZMvigPDQWHrW3oPrFhQtkrgqBkyjj3pCIdF3A5M6vsZODG93KNlfJprv6bp4245bdT32fsHK4kkH3KYDA==}
@@ -11246,8 +11250,8 @@ packages:
   '@types/node@24.3.0':
     resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
-  '@types/node@24.5.2':
-    resolution: {integrity: sha512-FYxk1I7wPv3K2XBaoyH2cTnocQEu8AOZ60hPbsyukMPLv5/5qr7V1i8PLHdl6Zf87I+xZXFvPCXYjiTFq+YSDQ==}
+  '@types/node@24.7.0':
+    resolution: {integrity: sha512-IbKooQVqUBrlzWTi79E8Fw78l8k1RNtlDDNWsFZs7XonuQSJ8oNYfEeclhprUldXISRMLzBpILuKgPlIxm+/Yw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -13500,6 +13504,10 @@ packages:
     resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
+  chalk@5.6.2:
+    resolution: {integrity: sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+
   chance@1.1.13:
     resolution: {integrity: sha512-V6lQCljcLznE7tUYUM9EOAnnKXbctE6j/rdQkYOHIWbfGQbrzTsAXNW9CdU5XCo4ArXQCj/rb6HgxPlmGJcaUg==}
 
@@ -15215,8 +15223,8 @@ packages:
     resolution: {integrity: sha512-kQhDYKZecqnM0fCnzI5eIv5L4cAe/iRI+HqMbO/hbRdTAeXDG+M9FjipUxNfbARuEg4iHIbhnhs78BCHNbSxEQ==}
     engines: {node: '>=12'}
 
-  dotenv@17.2.2:
-    resolution: {integrity: sha512-Sf2LSQP+bOlhKWWyhFsn0UsfdK/kCWRv1iuA2gXAwt3dyNabr6QSj00I2V10pidqz69soatm9ZwZvpQMTIOd5Q==}
+  dotenv@17.2.3:
+    resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
 
   dotenv@8.6.0:
@@ -15468,9 +15476,9 @@ packages:
     resolution: {integrity: sha512-m8acE/MzMAJo1A57DakR2X1Sl5Mt1tcQO2aJfygNaQHLXby/4xsjF0UeJUB70jF7xntiR41pAMbZEHnkzrT9tw==}
     engines: {node: '>=18'}
 
-  e2b@2.1.3:
-    resolution: {integrity: sha512-JgKh8UGJrDCBUObNOo4CnDpTCNR2MHvyGb0/93XXBuWWwTs/AEfDl3LTFfIr2Cz8pxUKd9cN0dwtURHniH0B+g==}
-    engines: {node: '>=18'}
+  e2b@2.2.4:
+    resolution: {integrity: sha512-cFyMKn6oYpUu2otHIxazXyO4VD+poy5b70Iaot4VNM1YCCdC/s927N3i3UIU3lnpLQkZgfZhy3ocIfwlEKEZWQ==}
+    engines: {node: '>=20'}
 
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
@@ -25864,6 +25872,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   ua-parser-js@1.0.40:
     resolution: {integrity: sha512-z6PJ8Lml+v3ichVojCiB8toQJBuwR42ySM4ezjXIqXK3M0HczmKQ3LF4rhU55PfD99KEEXQG6yb7iOMyvYuHew==}
     hasBin: true
@@ -25955,8 +25968,8 @@ packages:
   undici-types@7.10.0:
     resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
 
-  undici-types@7.12.0:
-    resolution: {integrity: sha512-goOacqME2GYyOZZfb5Lgtu+1IDmAlAEu5xnD3+xTzS10hT0vzpf0SPjkXwAw9Jm+4n/mQGDP3LO8CPbYROeBfQ==}
+  undici-types@7.14.0:
+    resolution: {integrity: sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==}
 
   undici@5.28.5:
     resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
@@ -28096,7 +28109,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@apollo/client@3.13.8(@types/react@19.1.8)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)':
+  '@apollo/client@3.13.8(@types/react@19.1.8)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.11.0)
       '@wry/caches': 1.0.1
@@ -28113,9 +28126,9 @@ snapshots:
       tslib: 2.8.1
       zen-observable-ts: 1.2.5
     optionalDependencies:
-      graphql-ws: 6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      graphql-ws: 6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       react: 18.3.1
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -28152,7 +28165,7 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
 
-  '@arizeai/phoenix-client@3.0.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@arizeai/phoenix-client@3.0.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@arizeai/openinference-semantic-conventions': 1.1.0
       '@arizeai/openinference-vercel': 2.3.2(@opentelemetry/api@1.9.0)
@@ -28171,16 +28184,16 @@ snapshots:
     optionalDependencies:
       '@anthropic-ai/sdk': 0.35.0(encoding@0.1.13)
       ai: 4.3.19(react@18.3.1)(zod@3.25.76)
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
     transitivePeerDependencies:
       - encoding
       - react
       - supports-color
       - ws
 
-  '@arizeai/phoenix-mcp@2.2.9(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@arizeai/phoenix-mcp@2.2.9(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@arizeai/phoenix-client': 3.0.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@arizeai/phoenix-client': 3.0.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@modelcontextprotocol/sdk': 1.17.2
       glob: 11.0.3
       minimist: 1.2.8
@@ -30741,7 +30754,7 @@ snapshots:
       - effect
       - supports-color
 
-  '@clerk/agent-toolkit@0.1.19(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(ai@4.3.19(react@18.3.1)(zod@3.25.76))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)':
+  '@clerk/agent-toolkit@0.1.19(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(ai@4.3.19(react@18.3.1)(zod@3.25.76))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@clerk/backend': 2.7.1(react-dom@19.1.0(react@18.3.1))(react@18.3.1)
       '@clerk/shared': 3.19.0(react-dom@19.1.0(react@18.3.1))(react@18.3.1)
@@ -30750,7 +30763,7 @@ snapshots:
       yargs: 17.7.2
       zod: 3.24.2
     optionalDependencies:
-      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
+      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
       ai: 4.3.19(react@18.3.1)(zod@3.25.76)
     transitivePeerDependencies:
       - react
@@ -30778,7 +30791,7 @@ snapshots:
       swr: 2.3.4(react@18.3.1)
     optionalDependencies:
       react: 18.3.1
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
 
   '@clerk/types@4.75.0':
     dependencies:
@@ -30944,13 +30957,13 @@ snapshots:
 
   '@cloudflare/workers-types@4.20250627.0': {}
 
-  '@cloudwerxlab/gpt-image-1-mcp@3.2.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@cloudwerxlab/gpt-image-1-mcp@3.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.4
-      '@smithery/sdk': 1.5.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@smithery/sdk': 1.5.6(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       form-data: 4.0.4
       node-fetch: 3.3.2
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - encoding
@@ -30969,7 +30982,7 @@ snapshots:
 
   '@coderide/mcp@0.4.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       axios: 1.10.0
       dotenv: 16.6.1
       nanoid: 5.1.5
@@ -31181,7 +31194,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@cyanheads/filesystem-mcp-server@1.0.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@cyanheads/filesystem-mcp-server@1.0.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@google/genai': 1.8.0(@modelcontextprotocol/sdk@1.15.0)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.15.0
@@ -31196,7 +31209,7 @@ snapshots:
       express: 5.1.0
       ignore: 7.0.5
       jsonwebtoken: 9.0.2
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       partial-json: 0.1.7
       sanitize-html: 2.17.0
       tiktoken: 1.0.21
@@ -31216,7 +31229,7 @@ snapshots:
       - utf-8-validate
       - ws
 
-  '@cyanheads/pubmed-mcp-server@1.2.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@cyanheads/pubmed-mcp-server@1.2.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@hono/node-server': 1.15.0(hono@4.8.3)
       '@modelcontextprotocol/sdk': 1.17.4
@@ -31233,7 +31246,7 @@ snapshots:
       hono: 4.8.3
       jose: 6.0.12
       jsonwebtoken: 9.0.2
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       partial-json: 0.1.7
       sanitize-html: 2.17.0
       tiktoken: 1.0.21
@@ -31252,13 +31265,13 @@ snapshots:
 
   '@cyanheads/toolkit-mcp-server@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       '@types/luxon': 3.7.1
-      '@types/node': 24.5.2
+      '@types/node': 24.7.0
       luxon: 3.7.2
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
-      typescript: 5.9.2
+      typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
 
@@ -31393,7 +31406,7 @@ snapshots:
 
   '@e2b/code-interpreter@2.0.0':
     dependencies:
-      e2b: 2.1.3
+      e2b: 2.2.4
 
   '@e2b/mcp-server@0.2.0':
     dependencies:
@@ -31407,7 +31420,7 @@ snapshots:
     dependencies:
       '@noble/ciphers': 1.3.0
 
-  '@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@effect/platform': 0.73.1(effect@3.16.10)
       effect: 3.16.10
@@ -31415,7 +31428,7 @@ snapshots:
     optionalDependencies:
       '@effect/platform-node': 0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10)
       ioredis: 5.5.0
-      ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
 
   '@effect/platform-node-shared@0.23.1(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)':
     dependencies:
@@ -31450,18 +31463,18 @@ snapshots:
       multipasta: 0.2.5
     optional: true
 
-  '@effect/sql-sqlite-node@0.27.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(@effect/sql@0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10))(effect@3.16.10)':
+  '@effect/sql-sqlite-node@0.27.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(@effect/sql@0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10))(effect@3.16.10)':
     dependencies:
-      '@effect/experimental': 0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@effect/experimental': 0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@effect/platform': 0.73.1(effect@3.16.10)
-      '@effect/sql': 0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)
+      '@effect/sql': 0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)
       '@opentelemetry/semantic-conventions': 1.34.0
       better-sqlite3: 11.10.0
       effect: 3.16.10
 
-  '@effect/sql@0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)':
+  '@effect/sql@0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)':
     dependencies:
-      '@effect/experimental': 0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@effect/experimental': 0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@effect/platform': 0.73.1(effect@3.16.10)
       '@opentelemetry/semantic-conventions': 1.34.0
       effect: 3.16.10
@@ -31476,11 +31489,11 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@enescinar/twitter-mcp@0.2.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@enescinar/twitter-mcp@0.2.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
       dotenv: 16.6.1
-      mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       twitter-api-v2: 1.23.2
       zod: 3.25.76
     transitivePeerDependencies:
@@ -32110,14 +32123,14 @@ snapshots:
       '@ethersproject/properties': 5.8.0
       '@ethersproject/strings': 5.8.0
 
-  '@executeautomation/playwright-mcp-server@1.0.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
+  '@executeautomation/playwright-mcp-server@1.0.6(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.11.1
       '@playwright/browser-chromium': 1.53.1
       '@playwright/browser-firefox': 1.53.1
       '@playwright/browser-webkit': 1.53.1
       '@playwright/test': 1.53.2
-      mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       playwright: 1.53.1
       uuid: 11.1.0
     transitivePeerDependencies:
@@ -32129,7 +32142,7 @@ snapshots:
 
   '@exoticknight/mcp-file-merger@1.0.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
     transitivePeerDependencies:
@@ -32260,14 +32273,14 @@ snapshots:
     dependencies:
       '@floating-ui/dom': 1.7.2
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
 
   '@floating-ui/react@0.26.28(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
     dependencies:
       '@floating-ui/react-dom': 2.1.4(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
       '@floating-ui/utils': 0.2.10
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
       tabbable: 6.2.0
 
   '@floating-ui/react@0.27.13(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
@@ -32275,7 +32288,7 @@ snapshots:
       '@floating-ui/react-dom': 2.1.4(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
       '@floating-ui/utils': 0.2.10
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
       tabbable: 6.2.0
 
   '@floating-ui/utils@0.2.10': {}
@@ -32348,7 +32361,7 @@ snapshots:
     optionalDependencies:
       '@tanstack/react-query': 5.81.2(react@18.3.1)
       react: 18.3.1
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
 
   '@gleanwork/mcp-server@0.7.1(@tanstack/react-query@5.81.2(react@18.3.1))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -33179,7 +33192,7 @@ snapshots:
       '@react-aria/interactions': 3.25.3(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
       '@tanstack/react-virtual': 3.13.12(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
       use-sync-external-store: 1.5.0(react@19.1.0)
 
   '@headlessui/tailwindcss@0.2.2(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))':
@@ -34476,13 +34489,13 @@ snapshots:
     dependencies:
       jsep: 1.4.0
 
-  '@jsonresume/mcp@3.0.3(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
+  '@jsonresume/mcp@3.0.3(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
       axios: 1.10.0
       express: 5.1.0
       octokit: 3.2.2
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
     transitivePeerDependencies:
       - debug
       - encoding
@@ -34827,14 +34840,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))':
+  '@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))':
     dependencies:
       '@cfworker/json-schema': 4.1.1
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.20
-      langsmith: 0.3.56(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
+      langsmith: 0.3.56(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
@@ -34847,18 +34860,18 @@ snapshots:
       - '@opentelemetry/sdk-trace-base'
       - openai
 
-  '@langchain/openai@0.6.7(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@langchain/openai@0.6.7(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
+      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
       js-tiktoken: 1.0.20
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - ws
 
-  '@langchain/textsplitters@0.1.0(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))':
+  '@langchain/textsplitters@0.1.0(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))':
     dependencies:
-      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
+      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
       js-tiktoken: 1.0.20
 
   '@lazydino/ccxt-mcp@0.4.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
@@ -35094,11 +35107,11 @@ snapshots:
       - '@huggingface/transformers'
       - gpt-tokenizer
 
-  '@llamaindex/openai@0.1.58(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
+  '@llamaindex/openai@0.1.58(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
     dependencies:
       '@llamaindex/core': 0.5.6(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0)
       '@llamaindex/env': 0.1.29(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0)
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
     transitivePeerDependencies:
       - '@huggingface/transformers'
       - encoding
@@ -35112,7 +35125,7 @@ snapshots:
       '@llamaindex/env': 0.1.29(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0)
       zod: 3.25.76
 
-  '@llmindset/mcp-webcam@0.2.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(zod@3.25.76)':
+  '@llmindset/mcp-webcam@0.2.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)(zod@3.25.76)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.4
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -35128,7 +35141,7 @@ snapshots:
       react-webcam: 7.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       sonner: 1.7.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tailwind-merge: 2.6.0
-      tailwindcss-animate: 1.0.7(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))
+      tailwindcss-animate: 1.0.7(tailwindcss@4.1.11)
       zod-to-json-schema: 3.24.6(zod@3.25.76)
     transitivePeerDependencies:
       - '@types/react'
@@ -35207,11 +35220,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mbelinky/x-mcp-server@1.1.0(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@mbelinky/x-mcp-server@1.1.0(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@modelcontextprotocol/sdk': 0.6.0
       dotenv: 16.6.1
-      mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      mcp-evals: 1.0.18(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       twitter-api-v2: 1.23.2
       zod: 3.25.76
     transitivePeerDependencies:
@@ -35341,11 +35354,11 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@mem0/mcp-server@0.0.1(@anthropic-ai/sdk@0.58.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(@mistralai/mistralai@1.7.2(zod@3.25.76))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(jiti@2.4.2)(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(postcss@8.5.6)(redis@5.5.6)(sqlite3@5.1.7)(tsx@4.20.3)(typescript@5.8.3)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(yaml@2.8.0)':
+  '@mem0/mcp-server@0.0.1(@anthropic-ai/sdk@0.58.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(@mistralai/mistralai@1.7.2(zod@3.25.76))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(jiti@2.4.2)(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(postcss@8.5.6)(redis@5.5.6)(sqlite3@5.1.7)(tsx@4.20.3)(typescript@5.8.3)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(yaml@2.8.0)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.1
       dotenv: 16.6.1
-      mem0ai: 2.1.36(@anthropic-ai/sdk@0.58.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(@mistralai/mistralai@1.7.2(zod@3.25.76))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(redis@5.5.6)(sqlite3@5.1.7)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      mem0ai: 2.1.36(@anthropic-ai/sdk@0.58.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(@mistralai/mistralai@1.7.2(zod@3.25.76))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(redis@5.5.6)(sqlite3@5.1.7)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       tsup: 8.5.0(@swc/core@1.4.14(@swc/helpers@0.5.17))(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.8.0)
       zod: 3.25.76
     transitivePeerDependencies:
@@ -35387,14 +35400,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@mermaid-js/mermaid-cli@11.6.0(@types/react@19.1.8)(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))':
+  '@mermaid-js/mermaid-cli@11.6.0(@types/react@19.1.8)(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))':
     dependencies:
       '@mermaid-js/mermaid-zenuml': 0.2.1(@types/react@19.1.8)(mermaid@11.8.0)(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))
       chalk: 5.4.1
       commander: 14.0.0
       import-meta-resolve: 4.1.0
       mermaid: 11.8.0
-      puppeteer: 24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      puppeteer: 13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
@@ -35488,17 +35501,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mfukushim/map-traveler-mcp@0.0.80(@cloudflare/workers-types@4.20250627.0)(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@opentelemetry/api@1.9.0)(@prisma/client@6.11.1(typescript@5.8.3))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.4)(@types/react@19.1.8)(better-sqlite3@11.10.0)(bufferutil@4.0.9)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(knex@3.1.0(better-sqlite3@11.10.0)(mysql2@3.14.1)(pg@8.16.2)(sqlite3@5.1.7))(kysely@0.28.2)(mysql2@3.14.1)(pg@8.16.2)(postgres@3.4.7)(react@18.3.1)(rxjs@7.8.2)(sqlite3@5.1.7)(utf-8-validate@5.0.10)':
+  '@mfukushim/map-traveler-mcp@0.0.80(@cloudflare/workers-types@4.20250627.0)(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@opentelemetry/api@1.9.0)(@prisma/client@6.11.1(typescript@5.8.3))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.4)(@types/react@19.1.8)(better-sqlite3@11.10.0)(bufferutil@4.0.9)(encoding@0.1.13)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(knex@3.1.0(better-sqlite3@11.10.0)(mysql2@3.14.1)(pg@8.16.2)(sqlite3@5.1.7))(kysely@0.28.2)(mysql2@3.14.1)(pg@8.16.2)(postgres@3.4.7)(react@18.3.1)(rxjs@7.8.2)(sqlite3@5.1.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@anthropic-ai/sdk': 0.33.1(encoding@0.1.13)
       '@atproto/api': 0.13.35
       '@effect/platform': 0.73.1(effect@3.16.10)
       '@effect/platform-node': 0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10)
-      '@effect/sql': 0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)
-      '@effect/sql-sqlite-node': 0.27.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(@effect/sql@0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10))(effect@3.16.10)
+      '@effect/sql': 0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)
+      '@effect/sql-sqlite-node': 0.27.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(@effect/sql@0.26.1(@effect/experimental@0.37.1(@effect/platform-node@0.69.1(@effect/platform@0.73.1(effect@3.16.10))(bufferutil@4.0.9)(effect@3.16.10)(utf-8-validate@5.0.10))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10)(ioredis@5.5.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(@effect/platform@0.73.1(effect@3.16.10))(effect@3.16.10))(effect@3.16.10)
       '@libsql/client': 0.14.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.17.2
-      '@pixai-art/client': 0.4.0(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(rxjs@7.8.2)
+      '@pixai-art/client': 0.4.0(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(rxjs@7.8.2)
       dayjs: 1.11.13
       dotenv: 16.6.1
       drizzle-orm: 0.38.4(@cloudflare/workers-types@4.20250627.0)(@libsql/client@0.14.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@opentelemetry/api@1.9.0)(@prisma/client@6.11.1(typescript@5.8.3))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.4)(@types/react@19.1.8)(better-sqlite3@11.10.0)(knex@3.1.0(better-sqlite3@11.10.0)(mysql2@3.14.1)(pg@8.16.2)(sqlite3@5.1.7))(kysely@0.28.2)(mysql2@3.14.1)(pg@8.16.2)(postgres@3.4.7)(react@18.3.1)(sqlite3@5.1.7)
@@ -35582,13 +35595,13 @@ snapshots:
 
   '@missionsquad/mcp-helper-tools@1.1.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       '@types/luxon': 3.7.1
-      '@types/node': 24.5.2
+      '@types/node': 24.7.0
       luxon: 3.7.2
       qrcode: 1.5.4
       qrcode-terminal: 0.12.0
-      typescript: 5.9.2
+      typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
 
@@ -35633,23 +35646,23 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.10.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
       - supports-color
 
-  '@modelcontextprotocol/inspector-cli@0.16.8':
+  '@modelcontextprotocol/inspector-cli@0.17.0':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
       - supports-color
 
-  '@modelcontextprotocol/inspector-client@0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))':
+  '@modelcontextprotocol/inspector-client@0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -35671,7 +35684,7 @@ snapshots:
       react-simple-code-editor: 0.14.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       serve-handler: 6.1.6
       tailwind-merge: 2.6.0
-      tailwindcss-animate: 1.0.7(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))
+      tailwindcss-animate: 1.0.7(tailwindcss@4.1.11)
       zod: 3.25.76
     transitivePeerDependencies:
       - '@types/react'
@@ -35679,9 +35692,9 @@ snapshots:
       - supports-color
       - tailwindcss
 
-  '@modelcontextprotocol/inspector-client@0.16.8(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)':
+  '@modelcontextprotocol/inspector-client@0.17.0(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -35713,7 +35726,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -35723,9 +35736,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector-server@0.16.8(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector-server@0.17.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       cors: 2.8.5
       express: 5.1.0
       shell-quote: 1.8.3
@@ -35737,12 +35750,12 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector@0.10.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector@0.10.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@4.1.11)(typescript@5.8.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@modelcontextprotocol/inspector-cli': 0.10.2
-      '@modelcontextprotocol/inspector-client': 0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))
+      '@modelcontextprotocol/inspector-client': 0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)
       '@modelcontextprotocol/inspector-server': 0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       concurrently: 9.2.0
       shell-quote: 1.8.3
       spawn-rx: 5.1.2
@@ -35760,12 +35773,12 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@modelcontextprotocol/inspector@0.16.8(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)':
+  '@modelcontextprotocol/inspector@0.17.0(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/inspector-cli': 0.16.8
-      '@modelcontextprotocol/inspector-client': 0.16.8(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)
-      '@modelcontextprotocol/inspector-server': 0.16.8(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/inspector-cli': 0.17.0
+      '@modelcontextprotocol/inspector-client': 0.17.0(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)
+      '@modelcontextprotocol/inspector-server': 0.17.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/sdk': 1.19.1
       concurrently: 9.2.0
       node-fetch: 3.3.2
       open: 10.2.0
@@ -36099,6 +36112,23 @@ snapshots:
       - supports-color
 
   '@modelcontextprotocol/sdk@1.18.2':
+    dependencies:
+      ajv: 6.12.6
+      content-type: 1.0.5
+      cors: 2.8.5
+      cross-spawn: 7.0.6
+      eventsource: 3.0.7
+      eventsource-parser: 3.0.3
+      express: 5.1.0
+      express-rate-limit: 7.5.1(express@5.1.0)
+      pkce-challenge: 5.0.0
+      raw-body: 3.0.0
+      zod: 3.25.76
+      zod-to-json-schema: 3.24.6(zod@3.25.76)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@modelcontextprotocol/sdk@1.19.1':
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
@@ -36503,10 +36533,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mzxrai/mcp-openai@0.1.1(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
+  '@mzxrai/mcp-openai@0.1.1(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.0.1
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
     transitivePeerDependencies:
       - encoding
       - ws
@@ -38300,7 +38330,7 @@ snapshots:
 
   '@opentofu/opentofu-mcp-server@0.1.5':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       semver: 7.7.2
       zod: 3.25.76
     transitivePeerDependencies:
@@ -38514,7 +38544,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@pinkpixel/mindbridge@1.2.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@pinkpixel/mindbridge@1.2.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.39.0(encoding@0.1.13)
       '@google-ai/generativelanguage': 2.9.1(encoding@0.1.13)
@@ -38522,7 +38552,7 @@ snapshots:
       cors: 2.8.5
       dotenv: 16.6.1
       express: 5.1.0
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - encoding
@@ -38554,7 +38584,7 @@ snapshots:
       chalk: 4.1.2
       express: 4.21.2
       puppeteer: 22.15.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))
+      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
       puppeteer-extra-plugin-stealth: 2.11.2(puppeteer-extra@3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@22.15.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)))
     optionalDependencies:
       axios: 1.11.0(debug@4.4.1)
@@ -38597,10 +38627,10 @@ snapshots:
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
 
-  '@pixai-art/client@0.4.0(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(rxjs@7.8.2)':
+  '@pixai-art/client@0.4.0(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(rxjs@7.8.2)':
     dependencies:
       graphql: 16.11.0
-      graphql-ws: 6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      graphql-ws: 6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       rxjs: 7.8.2
 
   '@pkgjs/parseargs@0.11.0':
@@ -38885,11 +38915,11 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-arrow@1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-arrow@1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -38922,14 +38952,14 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-collection@1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-collection@1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-context': 1.1.2(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-slot': 1.2.3(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39005,15 +39035,15 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-dismissable-layer@1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-dismissable-layer@1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/primitive': 1.1.2
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-use-callback-ref': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-use-escape-keydown': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39033,17 +39063,17 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-dropdown-menu@2.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-dropdown-menu@2.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/primitive': 1.1.2
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-context': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-id': 1.1.1(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-menu': 2.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-menu': 2.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-use-controllable-state': 1.2.2(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39071,13 +39101,13 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-focus-scope@1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-focus-scope@1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-use-callback-ref': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39135,27 +39165,27 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-menu@2.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-menu@2.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/primitive': 1.1.2
-      '@radix-ui/react-collection': 1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-collection': 1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-context': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-direction': 1.1.1(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-dismissable-layer': 1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-dismissable-layer': 1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-focus-guards': 1.1.2(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-focus-scope': 1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-focus-scope': 1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-id': 1.1.1(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-popper': 1.2.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-portal': 1.1.9(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-presence': 1.1.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-roving-focus': 1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-popper': 1.2.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-portal': 1.1.9(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-presence': 1.1.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-roving-focus': 1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-slot': 1.2.3(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-use-callback-ref': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       aria-hidden: 1.2.6
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
       react-remove-scroll: 2.7.1(@types/react@19.1.8)(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
@@ -39202,20 +39232,20 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-popper@1.2.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-popper@1.2.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@floating-ui/react-dom': 2.1.4(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-arrow': 1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-arrow': 1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-context': 1.1.2(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-use-callback-ref': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-use-layout-effect': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-use-rect': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-use-size': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/rect': 1.1.1
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39230,12 +39260,12 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-portal@1.1.9(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-portal@1.1.9(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-use-layout-effect': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39250,12 +39280,12 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-presence@1.1.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-presence@1.1.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-use-layout-effect': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39269,11 +39299,11 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-primitive@2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-primitive@2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/react-slot': 1.2.3(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39295,36 +39325,36 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-roving-focus@1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-roving-focus@1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/primitive': 1.1.2
-      '@radix-ui/react-collection': 1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-collection': 1.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-context': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-direction': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-id': 1.1.1(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-use-callback-ref': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-use-controllable-state': 1.2.2(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-scroll-area@1.2.9(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-scroll-area@1.2.9(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/number': 1.1.1
       '@radix-ui/primitive': 1.1.2
       '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-context': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-direction': 1.1.1(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-presence': 1.1.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-presence': 1.1.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-use-callback-ref': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-use-layout-effect': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39403,18 +39433,18 @@ snapshots:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
 
-  '@radix-ui/react-tabs@1.1.12(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
+  '@radix-ui/react-tabs@1.1.12(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/primitive': 1.1.2
       '@radix-ui/react-context': 1.1.2(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-direction': 1.1.1(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-id': 1.1.1(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-presence': 1.1.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-roving-focus': 1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-presence': 1.1.4(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-roving-focus': 1.1.10(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-use-controllable-state': 1.2.2(@types/react@19.1.8)(react@19.1.0)
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       '@types/react': 19.1.8
       '@types/react-dom': 19.1.6(@types/react@19.1.8)
@@ -39587,7 +39617,7 @@ snapshots:
       '@swc/helpers': 0.5.17
       clsx: 2.1.1
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
 
   '@react-aria/interactions@3.25.3(react-dom@19.1.0(react@18.3.1))(react@19.1.0)':
     dependencies:
@@ -39597,7 +39627,7 @@ snapshots:
       '@react-types/shared': 3.30.0(react@19.1.0)
       '@swc/helpers': 0.5.17
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
 
   '@react-aria/ssr@3.9.9(react@19.1.0)':
     dependencies:
@@ -39613,7 +39643,7 @@ snapshots:
       '@swc/helpers': 0.5.17
       clsx: 2.1.1
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
 
   '@react-email/body@0.0.11(react@18.3.1)':
     dependencies:
@@ -39708,7 +39738,7 @@ snapshots:
       html-to-text: 9.0.5
       prettier: 3.4.2
       react: 18.3.1
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
       react-promise-suspense: 0.3.4
 
   '@react-email/render@1.1.2(react-dom@19.1.0(react@18.3.1))(react@18.3.1)':
@@ -39716,7 +39746,7 @@ snapshots:
       html-to-text: 9.0.5
       prettier: 3.6.1
       react: 18.3.1
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
       react-promise-suspense: 0.3.4
 
   '@react-email/row@0.0.12(react@18.3.1)':
@@ -39977,9 +40007,9 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.44.1':
     optional: true
 
-  '@rtuin/mcp-mermaid-validator@0.6.2(@types/react@19.1.8)(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))':
+  '@rtuin/mcp-mermaid-validator@0.6.2(@types/react@19.1.8)(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))':
     dependencies:
-      '@mermaid-js/mermaid-cli': 11.6.0(@types/react@19.1.8)(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))
+      '@mermaid-js/mermaid-cli': 11.6.0(@types/react@19.1.8)(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))
       '@modelcontextprotocol/sdk': 1.15.0
       zod: 3.25.76
     transitivePeerDependencies:
@@ -40264,11 +40294,11 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@shinzolabs/gmail-mcp@1.7.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(encoding@0.1.13)(react@18.3.1)(typescript@5.8.3)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@shinzolabs/gmail-mcp@1.7.4(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(encoding@0.1.13)(react@18.3.1)(typescript@5.8.3)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@modelcontextprotocol/sdk': 1.16.0
       '@shinzolabs/instrumentation-mcp': 1.0.8(@modelcontextprotocol/sdk@1.16.0)(encoding@0.1.13)
-      '@smithery/sdk': 1.4.3(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@smithery/sdk': 1.4.3(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       google-auth-library: 9.15.1(encoding@0.1.13)
       googleapis: 129.0.0(encoding@0.1.13)
       open: 9.1.0
@@ -40394,7 +40424,7 @@ snapshots:
 
   '@skorotkiewicz/snowflake-id@1.0.1': {}
 
-  '@smithery/sdk@1.4.3(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@smithery/sdk@1.4.3(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
       '@modelcontextprotocol/sdk': 1.18.2
@@ -40403,7 +40433,7 @@ snapshots:
       json-schema: 0.4.0
       lodash: 4.17.21
       okay-error: 1.0.3
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       uuid: 11.1.0
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
@@ -40413,16 +40443,16 @@ snapshots:
       - supports-color
       - ws
 
-  '@smithery/sdk@1.5.6(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@smithery/sdk@1.5.6(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@anthropic-ai/sdk': 0.32.1(encoding@0.1.13)
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       ai: 4.3.19(react@18.3.1)(zod@3.25.76)
       express: 5.1.0
       json-schema: 0.4.0
       lodash: 4.17.21
       okay-error: 1.0.3
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       uuid: 11.1.0
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
@@ -40432,9 +40462,10 @@ snapshots:
       - supports-color
       - ws
 
-  '@smithery/sdk@1.6.6':
+  '@smithery/sdk@1.6.8':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
+      chalk: 5.6.2
       express: 5.1.0
       jose: 6.1.0
       json-schema: 0.4.0
@@ -40985,10 +41016,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@steipete/peekaboo-mcp@1.1.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@steipete/peekaboo-mcp@1.1.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.4
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       pino: 9.7.0
       pino-pretty: 13.0.0
       zod: 3.25.76
@@ -41357,7 +41388,7 @@ snapshots:
     dependencies:
       '@tanstack/virtual-core': 3.13.12
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
 
   '@tanstack/virtual-core@3.13.12': {}
 
@@ -42086,9 +42117,9 @@ snapshots:
     dependencies:
       undici-types: 7.10.0
 
-  '@types/node@24.5.2':
+  '@types/node@24.7.0':
     dependencies:
-      undici-types: 7.12.0
+      undici-types: 7.14.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -42602,15 +42633,15 @@ snapshots:
 
   '@vue/shared@3.5.17': {}
 
-  '@wagmi/connectors@3.1.11(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)':
+  '@wagmi/connectors@3.1.11(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)':
     dependencies:
       '@coinbase/wallet-sdk': 3.9.3
       '@safe-global/safe-apps-provider': 0.18.6(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       '@safe-global/safe-apps-sdk': 8.1.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      '@walletconnect/ethereum-provider': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(react@18.3.1)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)
+      '@walletconnect/ethereum-provider': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(react@18.3.1)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)
       '@walletconnect/legacy-provider': 2.0.0(encoding@0.1.13)
       '@walletconnect/modal': 2.6.2(@types/react@19.1.8)(react@18.3.1)
-      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
       abitype: 0.8.7(typescript@5.8.3)(zod@3.25.76)
       eventemitter3: 4.0.7
       viem: 1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
@@ -42643,9 +42674,9 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@wagmi/core@1.4.13(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(immer@10.1.1)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)':
+  '@wagmi/core@1.4.13(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(immer@10.1.1)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)':
     dependencies:
-      '@wagmi/connectors': 3.1.11(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
+      '@wagmi/connectors': 3.1.11(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
       abitype: 0.8.7(typescript@5.8.3)(zod@3.25.76)
       eventemitter3: 4.0.7
       viem: 1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
@@ -42680,21 +42711,21 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@walletconnect/core@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)':
+  '@walletconnect/core@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)':
     dependencies:
       '@walletconnect/heartbeat': 1.2.1
       '@walletconnect/jsonrpc-provider': 1.0.13
       '@walletconnect/jsonrpc-types': 1.0.3
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/jsonrpc-ws-connection': 1.0.14(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@walletconnect/keyvaluestorage': 1.1.1(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      '@walletconnect/keyvaluestorage': 1.1.1(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
       '@walletconnect/logger': 2.1.2
       '@walletconnect/relay-api': 1.0.11
       '@walletconnect/relay-auth': 1.1.0
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
-      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
+      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
       events: 3.3.0
       isomorphic-unfetch: 3.1.0(encoding@0.1.13)
       lodash.isequal: 4.5.0
@@ -42741,17 +42772,17 @@ snapshots:
     dependencies:
       tslib: 1.14.1
 
-  '@walletconnect/ethereum-provider@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(react@18.3.1)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)':
+  '@walletconnect/ethereum-provider@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(react@18.3.1)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)':
     dependencies:
       '@walletconnect/jsonrpc-http-connection': 1.0.8(encoding@0.1.13)
       '@walletconnect/jsonrpc-provider': 1.0.14
       '@walletconnect/jsonrpc-types': 1.0.4
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/modal': 2.6.2(@types/react@19.1.8)(react@18.3.1)
-      '@walletconnect/sign-client': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)
-      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
-      '@walletconnect/universal-provider': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)
-      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      '@walletconnect/sign-client': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)
+      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
+      '@walletconnect/universal-provider': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)
+      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
       events: 3.3.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -42836,11 +42867,11 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@walletconnect/keyvaluestorage@1.1.1(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))':
+  '@walletconnect/keyvaluestorage@1.1.1(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))':
     dependencies:
       '@walletconnect/safe-json': 1.0.2
       idb-keyval: 6.2.2
-      unstorage: 1.16.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(idb-keyval@6.2.2)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      unstorage: 1.16.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(idb-keyval@6.2.2)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -42960,16 +42991,16 @@ snapshots:
     dependencies:
       tslib: 1.14.1
 
-  '@walletconnect/sign-client@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)':
+  '@walletconnect/sign-client@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)':
     dependencies:
-      '@walletconnect/core': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)
+      '@walletconnect/core': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.1
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/logger': 2.1.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
-      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
+      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
       events: 3.3.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -42998,12 +43029,12 @@ snapshots:
     dependencies:
       tslib: 1.14.1
 
-  '@walletconnect/types@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))':
+  '@walletconnect/types@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))':
     dependencies:
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.1
       '@walletconnect/jsonrpc-types': 1.0.3
-      '@walletconnect/keyvaluestorage': 1.1.1(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      '@walletconnect/keyvaluestorage': 1.1.1(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
       '@walletconnect/logger': 2.1.2
       events: 3.3.0
     transitivePeerDependencies:
@@ -43026,16 +43057,16 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@walletconnect/universal-provider@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)':
+  '@walletconnect/universal-provider@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)':
     dependencies:
       '@walletconnect/jsonrpc-http-connection': 1.0.8(encoding@0.1.13)
       '@walletconnect/jsonrpc-provider': 1.0.13
       '@walletconnect/jsonrpc-types': 1.0.4
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/logger': 2.1.2
-      '@walletconnect/sign-client': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)
-      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
-      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      '@walletconnect/sign-client': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)
+      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
+      '@walletconnect/utils': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
       events: 3.3.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -43060,7 +43091,7 @@ snapshots:
       - uploadthing
       - utf-8-validate
 
-  '@walletconnect/utils@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))':
+  '@walletconnect/utils@2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))':
     dependencies:
       '@stablelib/chacha20poly1305': 1.0.1
       '@stablelib/hkdf': 1.0.1
@@ -43070,7 +43101,7 @@ snapshots:
       '@walletconnect/relay-api': 1.0.11
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))
+      '@walletconnect/types': 2.11.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))
       '@walletconnect/window-getters': 1.0.1
       '@walletconnect/window-metadata': 1.0.1
       detect-browser: 5.3.0
@@ -43540,7 +43571,7 @@ snapshots:
 
   agents@0.0.59(@cloudflare/workers-types@4.20250627.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       cron-schedule: 5.0.4
       nanoid: 5.1.5
       partyserver: 0.0.66(@cloudflare/workers-types@4.20250627.0)
@@ -44879,10 +44910,10 @@ snapshots:
 
   base-64@0.1.0: {}
 
-  base-network-mcp-server@0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(immer@10.1.1)(ioredis@5.5.0)(kerberos@2.2.2)(mongodb-client-encryption@6.5.0)(react@18.3.1)(socks@2.8.5)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(zod@3.25.76):
+  base-network-mcp-server@0.1.0(@aws-sdk/credential-providers@3.835.0)(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(gcp-metadata@5.3.0(encoding@0.1.13))(immer@10.1.1)(ioredis@5.5.0)(kerberos@2.2.2)(mongodb-client-encryption@6.5.0)(react@18.3.1)(socks@2.8.5)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)(zod@3.25.76):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
-      '@wagmi/core': 1.4.13(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(immer@10.1.1)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
+      '@modelcontextprotocol/sdk': 1.19.1
+      '@wagmi/core': 1.4.13(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(@types/react@19.1.8)(aws4fetch@1.0.20)(bufferutil@4.0.9)(encoding@0.1.13)(immer@10.1.1)(ioredis@5.5.0)(react@18.3.1)(typescript@5.8.3)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11))(utf-8-validate@5.0.10)(viem@1.21.4(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
       dotenv: 16.6.1
       ethers: 6.14.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       natural: 6.12.0(@aws-sdk/credential-providers@3.835.0)(gcp-metadata@5.3.0(encoding@0.1.13))(kerberos@2.2.2)(mongodb-client-encryption@6.5.0)(socks@2.8.5)
@@ -45730,6 +45761,8 @@ snapshots:
 
   chalk@5.4.1: {}
 
+  chalk@5.6.2: {}
+
   chance@1.1.13: {}
 
   change-case-all@1.0.15:
@@ -46037,7 +46070,7 @@ snapshots:
 
   client-only@0.0.1: {}
 
-  clinicaltrialsgov-mcp-server@1.0.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  clinicaltrialsgov-mcp-server@1.0.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(bufferutil@4.0.9)(utf-8-validate@5.0.10)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       '@hono/node-server': 1.15.0(hono@4.8.3)
       '@modelcontextprotocol/sdk': 1.17.4
@@ -46052,7 +46085,7 @@ snapshots:
       jose: 6.0.12
       js-yaml: 4.1.0
       npm: 11.4.2
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       partial-json: 0.1.7
       sanitize-html: 2.17.0
       tiktoken: 1.0.21
@@ -46134,7 +46167,7 @@ snapshots:
 
   cloudinary-mcp-server@0.4.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       cloudinary: 1.41.3
       dotenv: 16.6.1
       zod: 3.25.76
@@ -46466,10 +46499,10 @@ snapshots:
       tslib: 2.8.1
       upper-case: 2.0.2
 
-  consult-llm-mcp@1.0.5(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  consult-llm-mcp@1.0.5(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.4
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       prettier: 3.6.1
       zod: 3.25.76
     transitivePeerDependencies:
@@ -47339,12 +47372,12 @@ snapshots:
 
   deepmerge@4.3.1: {}
 
-  deepseek-thinker-mcp@1.0.1(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  deepseek-thinker-mcp@1.0.1(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       os: 0.1.2
       '@modelcontextprotocol/sdk': 1.15.0
       ollama: 0.5.16
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       path: 0.12.7
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
@@ -47788,7 +47821,7 @@ snapshots:
 
   dotenv@17.2.1: {}
 
-  dotenv@17.2.2: {}
+  dotenv@17.2.3: {}
 
   dotenv@8.6.0: {}
 
@@ -47935,7 +47968,7 @@ snapshots:
       openapi-fetch: 0.9.8
       platform: 1.3.6
 
-  e2b@2.1.3:
+  e2b@2.2.4:
     dependencies:
       '@bufbuild/protobuf': 2.8.0
       '@connectrpc/connect': 2.0.0-rc.3(@bufbuild/protobuf@2.8.0)
@@ -48626,11 +48659,11 @@ snapshots:
       md5.js: 1.3.5
       safe-buffer: 5.2.1
 
-  exa-js@1.8.19(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  exa-js@1.8.19(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       cross-fetch: 4.1.0(encoding@0.1.13)
       dotenv: 16.4.7
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
     transitivePeerDependencies:
@@ -48955,7 +48988,7 @@ snapshots:
 
   fastmcp@2.2.4(effect@3.16.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       '@standard-schema/spec': 1.0.0
       execa: 9.6.0
       file-type: 21.0.0
@@ -49078,13 +49111,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  fetchserp-mcp-server@1.0.5(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  fetchserp-mcp-server@1.0.5(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.2
       dotenv: 16.6.1
       express: 4.21.2
       node-fetch: 3.3.2
-      openai: 5.8.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.8.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
     transitivePeerDependencies:
       - supports-color
       - ws
@@ -50172,9 +50205,9 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  graphlit-client@1.0.20250808003(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  graphlit-client@1.0.20250808003(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     dependencies:
-      '@apollo/client': 3.13.8(@types/react@19.1.8)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)
+      '@apollo/client': 3.13.8(@types/react@19.1.8)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(graphql@16.11.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)
       '@cerebras/cerebras_cloud_sdk': 1.46.0(encoding@0.1.13)
       '@graphql-codegen/cli': 5.0.7(@parcel/watcher@2.5.1)(@types/node@22.15.33)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql@16.11.0)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@graphql-codegen/typescript': 4.1.6(encoding@0.1.13)(graphql@16.11.0)
@@ -50189,7 +50222,7 @@ snapshots:
       '@mistralai/mistralai': 1.7.2(zod@3.25.76)
       cohere-ai: 7.17.1(encoding@0.1.13)
       groq-sdk: 0.25.0(encoding@0.1.13)
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
     transitivePeerDependencies:
       - '@fastify/websocket'
       - '@parcel/watcher'
@@ -50213,10 +50246,10 @@ snapshots:
       - ws
       - zod
 
-  graphlit-mcp-server@1.0.20250625001(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  graphlit-mcp-server@1.0.20250625001(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.4
-      graphlit-client: 1.0.20250808003(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      graphlit-client: 1.0.20250808003(@parcel/watcher@2.5.1)(@types/node@22.15.33)(@types/react@19.1.8)(bufferutil@4.0.9)(crossws@0.3.5)(encoding@0.1.13)(enquirer@2.4.1)(graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
     transitivePeerDependencies:
       - '@fastify/websocket'
       - '@parcel/watcher'
@@ -50280,13 +50313,6 @@ snapshots:
     dependencies:
       graphql: 16.11.0
       tslib: 2.8.1
-
-  graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
-    dependencies:
-      graphql: 16.11.0
-    optionalDependencies:
-      crossws: 0.3.5
-      ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
 
   graphql-ws@6.0.5(crossws@0.3.5)(graphql@16.11.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
@@ -51216,7 +51242,7 @@ snapshots:
 
   instagram-engagement-mcp@0.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       axios: 1.10.0
       dotenv: 16.6.1
       instagram-private-api: 1.46.1
@@ -52549,15 +52575,15 @@ snapshots:
       dotenv: 16.6.1
       winston: 3.17.0
 
-  langchain@0.3.30(20e9ed53a674d66ae7e463385c2f6012):
+  langchain@0.3.30(f46c1788b11bfbb924c8176b32eefac4):
     dependencies:
-      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
-      '@langchain/openai': 0.6.7(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))
+      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
+      '@langchain/openai': 0.6.7(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))
       js-tiktoken: 1.0.20
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
-      langsmith: 0.3.38(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
+      langsmith: 0.3.38(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
       openapi-types: 12.1.3
       p-retry: 4.6.2
       uuid: 10.0.0
@@ -52583,7 +52609,7 @@ snapshots:
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.0.8
 
-  langsmith@0.3.38(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)):
+  langsmith@0.3.38(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)):
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
@@ -52596,9 +52622,9 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/exporter-trace-otlp-proto': 0.203.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.30.1(@opentelemetry/api@1.9.0)
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
 
-  langsmith@0.3.56(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)):
+  langsmith@0.3.56(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)):
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
@@ -52611,7 +52637,7 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/exporter-trace-otlp-proto': 0.203.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.30.1(@opentelemetry/api@1.9.0)
-      openai: 5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
 
   latest-version@9.0.0:
     dependencies:
@@ -52782,7 +52808,7 @@ snapshots:
 
   lighthouse-mcp@0.1.3(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       chrome-launcher: 0.15.2
       lighthouse: 12.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -52959,13 +52985,13 @@ snapshots:
       lit-element: 3.3.3
       lit-html: 2.8.0
 
-  llamaindex@0.9.7(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  llamaindex@0.9.7(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     dependencies:
       '@llamaindex/cloud': 3.0.7(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0))
       '@llamaindex/core': 0.5.6(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0)
       '@llamaindex/env': 0.1.29(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0)
       '@llamaindex/node-parser': 1.0.6(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0))(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)
-      '@llamaindex/openai': 0.1.58(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      '@llamaindex/openai': 0.1.58(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       '@llamaindex/workflow': 0.0.13(@llamaindex/core@0.5.6(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0))(@llamaindex/env@0.1.29(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0))(zod@3.25.76)
       '@types/lodash': 4.17.19
       '@types/node': 22.15.33
@@ -53267,9 +53293,9 @@ snapshots:
 
   lumbretravel-mcp@0.1.14:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       '@types/moment': 2.13.0
-      dotenv: 17.2.2
+      dotenv: 17.2.3
       node-fetch: 3.3.2
     transitivePeerDependencies:
       - supports-color
@@ -53731,7 +53757,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  mcp-evals@1.0.18(encoding@0.1.13)(react@18.3.1)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  mcp-evals@1.0.18(encoding@0.1.13)(react@18.3.1)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     dependencies:
       '@actions/core': 1.11.1
       '@ai-sdk/openai': 1.3.22(zod@3.25.76)
@@ -53740,7 +53766,7 @@ snapshots:
       ai: 4.3.16(react@18.3.1)(zod@3.25.76)
       chalk: 4.1.2
       dotenv: 16.6.1
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       react: 18.3.1
       tsx: 4.20.3
     transitivePeerDependencies:
@@ -53759,7 +53785,7 @@ snapshots:
 
   mcp-firebird@2.2.3(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/inspector': 0.16.8(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/inspector': 0.17.0(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.17.2
       cors: 2.8.5
       dotenv: 16.6.1
@@ -53891,13 +53917,13 @@ snapshots:
       - encoding
       - supports-color
 
-  mcp-llm@1.0.6(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  mcp-llm@1.0.6(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     dependencies:
       '@llamaindex/community': 0.0.88(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0)
       '@llamaindex/ollama': 0.0.46(@huggingface/transformers@3.6.3)(gpt-tokenizer@2.9.0)
-      '@llamaindex/openai': 0.1.58(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      '@llamaindex/openai': 0.1.58(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       '@modelcontextprotocol/sdk': 1.6.1
-      llamaindex: 0.9.7(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      llamaindex: 0.9.7(@huggingface/transformers@3.6.3)(encoding@0.1.13)(gpt-tokenizer@2.9.0)(tree-sitter@0.21.1)(web-tree-sitter@0.24.7)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
     transitivePeerDependencies:
       - '@huggingface/transformers'
       - aws-crt
@@ -54033,7 +54059,7 @@ snapshots:
 
   mcp-postman@1.0.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       newman: 6.2.1
       zod: 3.25.76
     transitivePeerDependencies:
@@ -54043,7 +54069,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
       '@octokit/rest': 21.1.1
-      '@smithery/sdk': 1.6.6
+      '@smithery/sdk': 1.6.8
       axios: 1.10.0
       zod: 3.25.76
     transitivePeerDependencies:
@@ -54052,7 +54078,7 @@ snapshots:
 
   mcp-proxy@2.14.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -54060,7 +54086,7 @@ snapshots:
 
   mcp-proxy@3.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -54068,7 +54094,7 @@ snapshots:
 
   mcp-proxy@5.5.5:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       eventsource: 4.0.0
       yargs: 18.0.0
     transitivePeerDependencies:
@@ -54364,12 +54390,12 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.1.1
 
-  mcp-think-tank@2.0.7(effect@3.16.10)(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  mcp-think-tank@2.0.7(effect@3.16.10)(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       async-mutex: 0.4.1
       axios: 1.10.0
       chalk: 5.4.1
-      exa-js: 1.8.19(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      exa-js: 1.8.19(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       fastmcp: 1.27.7(effect@3.16.10)
       lru-cache: 10.4.3
       minimist: 1.2.8
@@ -54596,12 +54622,12 @@ snapshots:
 
   meilisearch@0.50.0: {}
 
-  mem0ai@2.1.36(@anthropic-ai/sdk@0.58.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(@mistralai/mistralai@1.7.2(zod@3.25.76))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(redis@5.5.6)(sqlite3@5.1.7)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  mem0ai@2.1.36(@anthropic-ai/sdk@0.58.0)(@cloudflare/workers-types@4.20250627.0)(@google/genai@1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))(@mistralai/mistralai@1.7.2(zod@3.25.76))(@qdrant/js-client-rest@1.13.0(typescript@5.8.3))(@supabase/supabase-js@2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@types/jest@29.5.14)(@types/pg@8.15.4)(@types/sqlite3@3.1.11)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@0.25.0(encoding@0.1.13))(neo4j-driver@5.28.1)(ollama@0.5.16)(pg@8.16.2)(redis@5.5.6)(sqlite3@5.1.7)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       '@anthropic-ai/sdk': 0.58.0
       '@cloudflare/workers-types': 4.20250627.0
       '@google/genai': 1.13.0(@modelcontextprotocol/sdk@1.13.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
+      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
       '@mistralai/mistralai': 1.7.2(zod@3.25.76)
       '@qdrant/js-client-rest': 1.13.0(typescript@5.8.3)
       '@supabase/supabase-js': 2.55.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -54613,7 +54639,7 @@ snapshots:
       groq-sdk: 0.25.0(encoding@0.1.13)
       neo4j-driver: 5.28.1
       ollama: 0.5.16
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       pg: 8.16.2
       redis: 5.5.6
       sqlite3: 5.1.7
@@ -54729,7 +54755,7 @@ snapshots:
 
   meta-mcp-server@1.5.4:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
     transitivePeerDependencies:
       - supports-color
 
@@ -56170,7 +56196,7 @@ snapshots:
       caniuse-lite: 1.0.30001726
       postcss: 8.4.31
       react: 18.3.1
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
       styled-jsx: 5.1.6(@babel/core@7.27.4)(babel-plugin-macros@3.1.0)(react@18.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.5.2
@@ -56248,13 +56274,13 @@ snapshots:
     dependencies:
       clone: 2.1.2
 
-  node-code-sandbox-mcp@1.3.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  node-code-sandbox-mcp@1.3.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.2
       dotenv: 16.6.1
       mime-types: 3.0.1
       npm-registry-sdk: 1.2.1
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       tmp: 0.2.3
     transitivePeerDependencies:
       - encoding
@@ -56630,22 +56656,22 @@ snapshots:
 
   obliterator@1.6.1: {}
 
-  octagon-deep-research-mcp@1.0.18(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  octagon-deep-research-mcp@1.0.18(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
       dotenv: 16.6.1
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - encoding
       - supports-color
       - ws
 
-  octagon-mcp@1.0.22(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  octagon-mcp@1.0.22(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.2
       dotenv: 16.6.1
-      openai: 4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - encoding
@@ -56788,7 +56814,7 @@ snapshots:
 
   onyx-mcp-server@1.2.2:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       axios: 1.10.0
     transitivePeerDependencies:
       - debug
@@ -56849,7 +56875,7 @@ snapshots:
       is-inside-container: 1.0.0
       is-wsl: 2.2.0
 
-  openai@4.104.0(encoding@0.1.13)(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  openai@4.104.0(encoding@0.1.13)(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     dependencies:
       '@types/node': 18.19.112
       '@types/node-fetch': 2.6.12
@@ -56859,7 +56885,7 @@ snapshots:
       formdata-node: 4.4.1
       node-fetch: 2.7.0(encoding@0.1.13)
     optionalDependencies:
-      ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       zod: 3.25.76
     transitivePeerDependencies:
       - encoding
@@ -56878,19 +56904,14 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
-    optionalDependencies:
-      ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      zod: 3.25.76
-
   openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     optionalDependencies:
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       zod: 3.25.76
 
-  openai@5.8.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
+  openai@5.8.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76):
     optionalDependencies:
-      ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       zod: 3.25.76
 
   openapi-client-axios@7.6.0(axios@1.10.0)(js-yaml@4.1.0):
@@ -56960,7 +56981,7 @@ snapshots:
 
   opentrons-mcp@1.0.24:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.18.2
+      '@modelcontextprotocol/sdk': 1.19.1
       axios: 1.10.0
       nats: 2.29.3
     transitivePeerDependencies:
@@ -57726,10 +57747,10 @@ snapshots:
   playwright-mcp@0.0.12(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(less@4.4.0)(lightningcss@1.30.1)(sass@1.90.0)(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0)):
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
-      '@radix-ui/react-dropdown-menu': 2.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
-      '@radix-ui/react-scroll-area': 1.2.9(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-dropdown-menu': 2.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-scroll-area': 1.2.9(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-slot': 1.2.3(@types/react@19.1.8)(react@19.1.0)
-      '@radix-ui/react-tabs': 1.1.12(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      '@radix-ui/react-tabs': 1.1.12(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@skorotkiewicz/snowflake-id': 1.0.1
       '@tailwindcss/vite': 4.1.11(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(less@4.4.0)(lightningcss@1.30.1)(sass@1.90.0)(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0))
       class-variance-authority: 0.7.1
@@ -57742,7 +57763,7 @@ snapshots:
       react: 19.1.0
       react-contenteditable: 3.3.7(react@19.1.0)
       react-dom: 19.1.0(react@19.1.0)
-      react-simple-code-editor: 0.14.1(react-dom@19.1.0(react@18.3.1))(react@19.1.0)
+      react-simple-code-editor: 0.14.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-usestateref: 1.0.9(react@19.1.0)
       tailwind-merge: 3.3.1
       tailwindcss: 4.1.11
@@ -58673,7 +58694,7 @@ snapshots:
       puppeteer-extra-plugin: 3.2.3(puppeteer-extra@3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@22.15.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)))
       puppeteer-extra-plugin-user-preferences: 2.4.1(puppeteer-extra@3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@22.15.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)))
     optionalDependencies:
-      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))
+      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
     transitivePeerDependencies:
       - supports-color
 
@@ -58684,7 +58705,7 @@ snapshots:
       puppeteer-extra-plugin: 3.2.3(puppeteer-extra@3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@22.15.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)))
       rimraf: 3.0.2
     optionalDependencies:
-      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))
+      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
     transitivePeerDependencies:
       - supports-color
 
@@ -58695,7 +58716,7 @@ snapshots:
       puppeteer-extra-plugin: 3.2.3(puppeteer-extra@3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@22.15.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)))
       puppeteer-extra-plugin-user-data-dir: 2.4.1(puppeteer-extra@3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@22.15.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)))
     optionalDependencies:
-      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))
+      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
     transitivePeerDependencies:
       - supports-color
 
@@ -58705,17 +58726,17 @@ snapshots:
       debug: 4.4.1(supports-color@5.5.0)
       merge-deep: 3.0.3
     optionalDependencies:
-      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))
+      puppeteer-extra: 3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
     transitivePeerDependencies:
       - supports-color
 
-  puppeteer-extra@3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)):
+  puppeteer-extra@3.3.6(puppeteer-core@24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(puppeteer@13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)):
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.4.1(supports-color@5.5.0)
       deepmerge: 4.3.1
     optionalDependencies:
-      puppeteer: 24.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      puppeteer: 13.5.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
       puppeteer-core: 24.16.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - supports-color
@@ -58980,11 +59001,6 @@ snapshots:
       react: 18.3.1
       scheduler: 0.23.2
 
-  react-dom@19.1.0(react@18.3.1):
-    dependencies:
-      react: 18.3.1
-      scheduler: 0.26.0
-
   react-dom@19.1.0(react@19.1.0):
     dependencies:
       react: 19.1.0
@@ -59101,10 +59117,10 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  react-simple-code-editor@0.14.1(react-dom@19.1.0(react@18.3.1))(react@19.1.0):
+  react-simple-code-editor@0.14.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       react: 19.1.0
-      react-dom: 19.1.0(react@18.3.1)
+      react-dom: 19.1.0(react@19.1.0)
 
   react-style-singleton@2.2.3(@types/react@19.1.8)(react@18.3.1):
     dependencies:
@@ -59305,9 +59321,9 @@ snapshots:
       '@redis/search': 5.5.6(@redis/client@5.5.6)
       '@redis/time-series': 5.5.6(@redis/client@5.5.6)
 
-  ref-tools-mcp@2.0.0(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10):
+  ref-tools-mcp@2.0.0(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@4.1.11)(typescript@5.8.3)(utf-8-validate@5.0.10):
     dependencies:
-      '@modelcontextprotocol/inspector': 0.10.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))(typescript@5.8.3)(utf-8-validate@5.0.10)
+      '@modelcontextprotocol/inspector': 0.10.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(bufferutil@4.0.9)(tailwindcss@4.1.11)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.17.4
       axios: 1.11.0(debug@4.4.1)
     transitivePeerDependencies:
@@ -59556,7 +59572,7 @@ snapshots:
 
   requires-port@1.0.0: {}
 
-  resend-mcp@0.1.2(react-dom@19.1.0(react@18.3.1))(react@18.3.1):
+  resend-mcp@0.1.2(react-dom@19.1.0(react@19.1.0))(react@18.3.1):
     dependencies:
       '@modelcontextprotocol/sdk': 1.17.5
       resend: 4.6.0(react-dom@19.1.0(react@18.3.1))(react@18.3.1)
@@ -61276,10 +61292,6 @@ snapshots:
 
   tailwind-merge@3.3.1: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))):
-    dependencies:
-      tailwindcss: 3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))
-
   tailwindcss-animate@1.0.7(tailwindcss@4.1.11):
     dependencies:
       tailwindcss: 4.1.11
@@ -62314,6 +62326,8 @@ snapshots:
 
   typescript@5.9.2: {}
 
+  typescript@5.9.3: {}
+
   ua-parser-js@1.0.40: {}
 
   uc.micro@2.1.0: {}
@@ -62355,15 +62369,15 @@ snapshots:
 
   ulid@3.0.1: {}
 
-  ultra-mcp@0.6.2(8b75d519971bae093a20a9d86b14350e):
+  ultra-mcp@0.6.2(c3e92b45825b35803f4e80cf88c34b64):
     dependencies:
       '@ai-sdk/azure': 2.0.10(zod@3.25.76)
       '@ai-sdk/google': 2.0.4(zod@3.25.76)
       '@ai-sdk/openai': 2.0.10(zod@3.25.76)
       '@ai-sdk/openai-compatible': 1.0.5(zod@3.25.76)
       '@ai-sdk/xai': 2.0.5(zod@3.25.76)
-      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
-      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))
+      '@langchain/core': 0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76))
+      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.69(@opentelemetry/api@1.9.0)(@opentelemetry/exporter-trace-otlp-proto@0.203.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(openai@5.12.2(ws@8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.76)))
       '@libsql/client': 0.15.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@modelcontextprotocol/sdk': 1.17.2
       '@trpc/server': 11.4.3(typescript@5.8.3)
@@ -62382,7 +62396,7 @@ snapshots:
       express: 4.21.2
       fast-glob: 3.3.3
       ignore: 5.3.2
-      langchain: 0.3.30(20e9ed53a674d66ae7e463385c2f6012)
+      langchain: 0.3.30(f46c1788b11bfbb924c8176b32eefac4)
       morgan: 1.10.1
       open: 8.4.2
       ora: 5.4.1
@@ -62473,7 +62487,7 @@ snapshots:
 
   undici-types@7.10.0: {}
 
-  undici-types@7.12.0: {}
+  undici-types@7.14.0: {}
 
   undici@5.28.5:
     dependencies:
@@ -62608,7 +62622,7 @@ snapshots:
 
   unreal-remote-execution@1.0.0: {}
 
-  unstorage@1.16.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(idb-keyval@6.2.2)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))):
+  unstorage@1.16.0(@azure/identity@4.10.1)(@azure/storage-blob@12.26.0)(aws4fetch@1.0.20)(idb-keyval@6.2.2)(ioredis@5.5.0)(uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11)):
     dependencies:
       anymatch: 3.1.3
       chokidar: 4.0.3
@@ -62624,7 +62638,7 @@ snapshots:
       aws4fetch: 1.0.20
       idb-keyval: 6.2.2
       ioredis: 5.5.0
-      uploadthing: 7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3)))
+      uploadthing: 7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11)
 
   untildify@4.0.0: {}
 
@@ -62655,7 +62669,7 @@ snapshots:
       semver: 7.7.2
       xdg-basedir: 5.1.0
 
-  uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))):
+  uploadthing@7.7.3(express@5.1.0)(h3@1.15.3)(next@15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0))(tailwindcss@4.1.11):
     dependencies:
       '@effect/platform': 0.85.2(effect@3.16.8)
       '@standard-schema/spec': 1.0.0-beta.4
@@ -62666,7 +62680,7 @@ snapshots:
       express: 5.1.0
       h3: 1.15.3
       next: 15.5.2(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(@playwright/test@1.53.2)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@18.3.1))(react@18.3.1)(sass@1.90.0)
-      tailwindcss: 3.4.17(ts-node@10.9.2(@swc/core@1.4.14(@swc/helpers@0.5.17))(@types/node@22.15.33)(typescript@5.8.3))
+      tailwindcss: 4.1.11
     optional: true
 
   upper-case-first@2.0.2:
