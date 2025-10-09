@@ -33,8 +33,11 @@ export class MCPSandboxClient {
   private autoCloseOnIdleTimer: NodeJS.Timeout | null = null;
   private idleCloseMs: number | null = null;
 
-  constructor(apiKey?: string) {
+  private runtime: "node" | "python" | "java" | "go" = "python";
+
+  constructor(apiKey?: string, runtime: "node" | "python" | "java" | "go" = "python") {
     this.apiKey = apiKey || process.env.E2B_API_KEY || "e2b-api-key-placeholder";
+    this.runtime = runtime;
   }
 
   // Safe initialize: ensures concurrent calls don't create duplicate sandboxes
@@ -52,7 +55,8 @@ export class MCPSandboxClient {
     console.time(initLabel);
     this.initializing = (async () => {
       try {
-        this.sandbox = await Sandbox.create(`mcp-sandbox-node`, {
+        const template = this.runtime === "python" ? "mcp-sandbox-python" : "mcp-sandbox-node";
+        this.sandbox = await Sandbox.create(template, {
           apiKey: this.apiKey,
           timeoutMs: this.E2B_SANDBOX_TIMEOUT_MS,
         });
@@ -60,7 +64,7 @@ export class MCPSandboxClient {
         this.touch();
         // After 1-hour forced session termination
         this.setupTTLTimer();
-        console.log("[MCPSandboxClient] Sandbox created successfully");
+        console.log(`[MCPSandboxClient] Sandbox (${template}) created successfully`);
       } finally {
         this.initializing = null;
       }
@@ -236,7 +240,6 @@ export class MCPSandboxClient {
       const testResult = await this.runCodeWithTimeout(testCode, { language: "javascript" });
 
       if (testResult.error) {
-        console.error("[MCPSandboxClient] Failed to list tools:", testResult.error);
         throw new Error(`Failed to list tools: ${testResult.error}`);
       }
 
@@ -294,7 +297,6 @@ export class MCPSandboxClient {
 
       const testResult = await this.runCodeWithTimeout(testCode, { language: "javascript" });
       if (testResult.error) {
-        console.error("[MCPSandboxClient] Failed to execute tool:", testResult.error);
         throw new Error(`Failed to execute tool: ${testResult.error}`);
       }
 
@@ -385,6 +387,18 @@ export class MCPSandboxClient {
     argumentsObj?: Record<string, unknown>,
     envs?: Record<string, string>,
   ): string {
+    // 根据runtime选择不同的代码生成逻辑
+    if (mcpServerConfig.runtime === "python") {
+      return this.generatePythonMCPTestCode(
+        mcpServerConfig,
+        operation,
+        toolName,
+        argumentsObj,
+        envs,
+      );
+    }
+
+    // 默认使用Node.js逻辑
     const commonCode = `
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
@@ -458,14 +472,107 @@ async function runMCP() {
       toolCount: toolsObj.tools.length,
       tools: toolsObj.tools
     };
-
     console.log(JSON.stringify(result));
     if (client) {
       await client.close();
     }
     return;
   } catch (error) {
-    console.error("Error in MCP test:", error);
+    if (client) {
+      await client.close();
+    }
+    throw error;
+  }
+}
+
+runMCP();
+`;
+    } else {
+      return `${commonCode}
+
+    const result = await client.callTool({
+      name: "${toolName}",
+      arguments: ${JSON.stringify(argumentsObj)}
+    });
+
+    console.log(JSON.stringify(result))
+    if (client) {
+      await client.close();
+    }
+    return;
+  } catch (error) {
+    if (client) {
+      await client.close();
+    }
+    console.log(JSON.stringify({ 
+      result: null, 
+      isError: true, 
+      errorMessage: error.message 
+    }));
+  }
+}
+
+runMCP();
+`;
+    }
+  }
+
+  private generatePythonMCPTestCode(
+    mcpServerConfig: MCPServerPackageConfig,
+    operation: "listTools" | "executeTool",
+    toolName?: string,
+    argumentsObj?: Record<string, unknown>,
+    envs?: Record<string, string>,
+  ): string {
+    const commonCode = `
+import { Client } from "@modelcontextprotocol/sdk/client/index.js";
+import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+
+async function runMCP() {
+  let client;
+  try {
+    const packageName = "${mcpServerConfig.packageName}";
+
+    const transport = new StdioClientTransport({
+      command: "uv",
+      args: ["run", packageName],
+      env: {
+        ...(Object.fromEntries(
+          Object.entries(process.env).filter(([_, v]) => v !== undefined)
+        ) as Record<string, string>),
+        ${this.generateEnvVariables(mcpServerConfig.env, envs)}
+      },
+    });
+
+    client = new Client(
+      {
+        name: "mcp-server-${mcpServerConfig.packageName}-client",
+        version: "1.0.0",
+      },
+      {
+        capabilities: {
+          tools: {},
+        },
+      },
+    );
+
+    await client.connect(transport);
+`;
+
+    if (operation === "listTools") {
+      return `${commonCode}
+    const toolsObj = await client.listTools();
+
+    const result = {
+      toolCount: toolsObj.tools.length,
+      tools: toolsObj.tools
+    };
+    console.log(JSON.stringify(result));
+    if (client) {
+      await client.close();
+    }
+    return;
+  } catch (error) {
     if (client) {
       await client.close();
     }
