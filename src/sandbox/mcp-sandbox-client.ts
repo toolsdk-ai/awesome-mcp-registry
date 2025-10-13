@@ -19,7 +19,6 @@ export class MCPSandboxClient {
   private initializing: Promise<void> | null = null;
   private readonly apiKey: string;
   private readonly provider: MCPSandboxProvider;
-
   private runtime: "node" | "python" | "java" | "go" = "node";
 
   constructor(
