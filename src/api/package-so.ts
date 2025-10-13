@@ -16,16 +16,12 @@ type SandboxRecord = {
   client: MCPSandboxClient;
   refCount: number;
   lastUsedAt: number;
-  // idleTimer is scheduled on release when refCount reaches 0
-  idleCloseMs?: number;
 };
 
 export class PackageSO {
   private useSandbox: boolean = false;
   private static sandboxInstances: Map<string, SandboxRecord> = new Map();
-
   private static MAX_SANDBOXES = 10;
-  private static IDLE_CLOSE_MS = 5 * 60 * 1000;
 
   constructor(useSandbox: boolean = false) {
     this.useSandbox = useSandbox;
@@ -40,7 +36,6 @@ export class PackageSO {
     if (record) {
       record.refCount++;
       record.lastUsedAt = Date.now();
-      record.client.touch();
       return record.client;
     }
 
@@ -68,12 +63,11 @@ export class PackageSO {
       }
     }
 
-    const client = new MCPSandboxClient(undefined, runtime);
+    const client = new MCPSandboxClient(runtime);
     const newRecord: SandboxRecord = {
       client,
       refCount: 1,
       lastUsedAt: Date.now(),
-      idleCloseMs: PackageSO.IDLE_CLOSE_MS,
     };
     PackageSO.sandboxInstances.set(sandboxKey, newRecord);
     return client;
@@ -89,8 +83,13 @@ export class PackageSO {
     record.lastUsedAt = Date.now();
 
     if (record.refCount === 0) {
-      // schedule idle close after IDLE_CLOSE_MS
-      record.client.scheduleIdleClose(record.idleCloseMs || PackageSO.IDLE_CLOSE_MS);
+      try {
+        await record.client.kill();
+        PackageSO.sandboxInstances.delete(sandboxKey);
+        console.log(`[PackageSO] Sandbox ${sandboxKey} closed immediately after use`);
+      } catch (error) {
+        console.error(`[PackageSO] Error closing sandbox ${sandboxKey}:`, error);
+      }
     }
   }
 
@@ -149,9 +148,6 @@ export class PackageSO {
 
     // Initialize if not already initialized (concurrency protection via MCPSandboxClient.initialize)
     await sandboxClient.initialize();
-
-    // Mark usage
-    sandboxClient.touch();
 
     try {
       const result = await sandboxClient.executeTool(
@@ -219,15 +215,14 @@ export class PackageSO {
 
   private async listToolsInSandbox(packageName: string): Promise<Tool[]> {
     const mcpServerConfig = getPackageConfigByKey(packageName);
-    const runtime = mcpServerConfig.runtime || "python"; // Default to python if not specified
+    const runtime = mcpServerConfig.runtime || "python";
 
     const sandboxClient = await PackageSO.acquireSandbox(runtime);
 
-    // Initialize only if sandbox is not initialized
-    await sandboxClient.initialize();
-
-    sandboxClient.touch();
     try {
+      // Initialize only if sandbox is not initialized
+      await sandboxClient.initialize();
+
       const tools = await sandboxClient.listTools(packageName);
       console.log(`Tools list retrieved successfully for package ${packageName} in sandbox`);
       return tools;
