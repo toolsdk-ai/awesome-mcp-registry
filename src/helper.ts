@@ -9,11 +9,24 @@ import semver from "semver";
 import allPackagesList from "../indexes/packages-list.json";
 import { getDirname } from "../src/utils";
 import { MCPServerPackageConfigSchema, PackagesListSchema } from "./schema";
-import type { MCPServerPackageConfig } from "./types";
+import type { MCPSandboxProvider, MCPServerPackageConfig } from "./types";
 
 const __dirname = getDirname(import.meta.url);
 
 export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
+
+export function getSandboxProvider(): MCPSandboxProvider {
+  const provider = (process.env.MCP_SANDBOX_PROVIDER || "LOCAL").toUpperCase();
+
+  if (provider === "LOCAL" || provider === "DAYTONA" || provider === "SANDOCK") {
+    return provider;
+  }
+
+  console.warn(
+    `[helper] Unsupported MCP_SANDBOX_PROVIDER value '${provider}', falling back to LOCAL mode`,
+  );
+  return "LOCAL";
+}
 
 export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfig {
   const value = typedAllPackagesList[packageKey];

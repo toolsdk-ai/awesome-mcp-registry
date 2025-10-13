@@ -1,19 +1,22 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import type { Context } from "hono";
-import type { MCPServerPackageConfigWithTools, Response, ToolExecute } from "../types";
+import { getSandboxProvider } from "../helper";
+import type {
+  MCPSandboxProvider,
+  MCPServerPackageConfigWithTools,
+  Response,
+  ToolExecute,
+} from "../types";
 import { createErrorResponse, createResponse } from "../utils";
 import { PackageSO } from "./package-so";
-
-const shouldUseSandbox = (): boolean => {
-  return process.env.USE_MCP_SANDBOX === "true";
-};
 
 export const packageHandler = {
   executeTool: async (c: Context) => {
     const requestBody: ToolExecute = await c.req.json();
+    const provider: MCPSandboxProvider = getSandboxProvider();
 
     try {
-      const toolSO = new PackageSO(shouldUseSandbox());
+      const toolSO = new PackageSO(provider);
       const result = await toolSO.executeTool(requestBody);
 
       const response: Response<unknown> = createResponse(result);
@@ -52,9 +55,10 @@ export const packageHandler = {
       const errorResponse = createErrorResponse("Missing packageName query parameter", 400);
       return c.json(errorResponse, 200);
     }
+    const provider: MCPSandboxProvider = getSandboxProvider();
 
     try {
-      const toolSO = new PackageSO(shouldUseSandbox());
+      const toolSO = new PackageSO(provider);
       const result: MCPServerPackageConfigWithTools = await toolSO.getPackageDetail(packageName);
 
       const response = createResponse(result);
@@ -74,9 +78,10 @@ export const packageHandler = {
       const errorResponse = createErrorResponse("Missing packageName query parameter", 400);
       return c.json(errorResponse, 200);
     }
+    const provider: MCPSandboxProvider = getSandboxProvider();
 
     try {
-      const toolSO = new PackageSO(shouldUseSandbox());
+      const toolSO = new PackageSO(provider);
       const result: Tool[] = await toolSO.listTools(packageName);
 
       const response = createResponse(result);

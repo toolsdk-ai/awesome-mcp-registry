@@ -199,9 +199,7 @@ describe("MCPSandboxClient - MCP Sandbox Client Unit Tests", () => {
       const mockSandbox = await getMockedSandbox();
       mockSandbox.process.codeRun.mockResolvedValue(mockResponse);
 
-      await expect(client.listTools("test-package")).rejects.toThrow(
-        "Failed to list tools",
-      );
+      await expect(client.listTools("test-package")).rejects.toThrow("Failed to list tools");
     });
 
     it("should handle JSON parsing errors", async () => {
@@ -314,9 +312,9 @@ describe("MCPSandboxClient - MCP Sandbox Client Unit Tests", () => {
     });
 
     it("should throw error when Sandbox is not initialized", async () => {
-      await expect(
-        client.executeTool("test-package", "test_tool", {}),
-      ).rejects.toThrow("Sandbox not initialized. Call initialize() first.");
+      await expect(client.executeTool("test-package", "test_tool", {})).rejects.toThrow(
+        "Sandbox not initialized. Call initialize() first.",
+      );
     });
 
     it("should handle non-zero process exit code", async () => {
@@ -330,9 +328,9 @@ describe("MCPSandboxClient - MCP Sandbox Client Unit Tests", () => {
       const mockSandbox = await getMockedSandbox();
       mockSandbox.process.codeRun.mockResolvedValue(mockResponse);
 
-      await expect(
-        client.executeTool("test-package", "test_tool", {}),
-      ).rejects.toThrow("Failed to execute tool");
+      await expect(client.executeTool("test-package", "test_tool", {})).rejects.toThrow(
+        "Failed to execute tool",
+      );
     });
 
     it("should correctly serialize complex argument objects", async () => {
@@ -401,9 +399,7 @@ describe("MCPSandboxClient - MCP Sandbox Client Unit Tests", () => {
       await client.kill();
 
       // Calling methods that require Sandbox should throw error
-      await expect(client.listTools("test-package")).rejects.toThrow(
-        "Sandbox not initialized",
-      );
+      await expect(client.listTools("test-package")).rejects.toThrow("Sandbox not initialized");
     });
   });
 
@@ -491,12 +487,7 @@ describe("MCPSandboxClient - MCP Sandbox Client Unit Tests", () => {
       const extractMock = await getMockedExtractJSON();
       extractMock.mockReturnValue(mockResponse.result);
 
-      await client.executeTool(
-        "test-package",
-        "test_tool",
-        {},
-        { TEST_API_KEY: "real-value" },
-      );
+      await client.executeTool("test-package", "test_tool", {}, { TEST_API_KEY: "real-value" });
 
       const generatedCode = mockSandbox.process.codeRun.mock.calls[0][0] as string;
 

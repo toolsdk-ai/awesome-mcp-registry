@@ -1,7 +1,7 @@
-import { Daytona, Image, type Sandbox } from "@daytonaio/sdk";
+import { Daytona, type DaytonaConfig, Image, type Sandbox } from "@daytonaio/sdk";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { extractLastOuterJSON, getPackageConfigByKey } from "../helper";
-import type { MCPServerPackageConfig } from "../types";
+import type { MCPSandboxProvider, MCPServerPackageConfig } from "../types";
 
 interface MCPToolResult {
   toolCount: number;
@@ -18,12 +18,17 @@ export class MCPSandboxClient {
   private sandbox: Sandbox | null = null;
   private initializing: Promise<void> | null = null;
   private readonly apiKey: string;
+  private readonly provider: MCPSandboxProvider;
 
   private runtime: "node" | "python" | "java" | "go" = "node";
 
-  constructor(runtime: "node" | "python" | "java" | "go" = "node") {
+  constructor(
+    runtime: "node" | "python" | "java" | "go" = "node",
+    provider: MCPSandboxProvider = "DAYTONA",
+  ) {
     this.apiKey = process.env.DAYTONA_API_KEY || "daytona-api-key-placeholder";
     this.runtime = runtime;
+    this.provider = provider;
   }
 
   // Safe initialize: ensures concurrent calls don't create duplicate sandboxes
@@ -39,9 +44,20 @@ export class MCPSandboxClient {
 
     this.initializing = (async () => {
       try {
-        const daytona = new Daytona({
+        const daytonaConfig: DaytonaConfig = {
           apiKey: this.apiKey,
-        });
+        };
+
+        if (this.provider === "SANDOCK") {
+          daytonaConfig.apiUrl = process.env.SANDOCK_DAYTONA_API_URL || process.env.DAYTONA_API_URL;
+          if (!daytonaConfig.apiUrl) {
+            console.warn(
+              "[MCPSandboxClient] SANDOCK provider selected but SANDOCK_DAYTONA_API_URL is not set. Falling back to default Daytona API URL.",
+            );
+          }
+        }
+
+        const daytona = new Daytona(daytonaConfig);
 
         // Create image with required dependencies
         const declarativeImage = Image.base("node:20")

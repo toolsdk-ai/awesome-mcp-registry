@@ -4,6 +4,7 @@ import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getMcpClient, getPackageConfigByKey, typedAllPackagesList } from "../helper.js";
 import { MCPSandboxClient } from "../sandbox/mcp-sandbox-client.js";
 import type {
+  MCPSandboxProvider,
   MCPServerPackageConfig,
   MCPServerPackageConfigWithTools,
   ToolExecute,
@@ -16,22 +17,24 @@ type SandboxRecord = {
   client: MCPSandboxClient;
   refCount: number;
   lastUsedAt: number;
+  provider: MCPSandboxProvider;
 };
 
 export class PackageSO {
-  private useSandbox: boolean = false;
+  private sandboxProvider: MCPSandboxProvider = "LOCAL";
   private static sandboxInstances: Map<string, SandboxRecord> = new Map();
   private static MAX_SANDBOXES = 10;
 
-  constructor(useSandbox: boolean = false) {
-    this.useSandbox = useSandbox;
+  constructor(provider: MCPSandboxProvider = "LOCAL") {
+    this.sandboxProvider = provider;
   }
 
   // Acquire / Release explicit APIs (for external or future use)
   static async acquireSandbox(
     runtime: "node" | "python" | "java" | "go" = "python",
+    provider: MCPSandboxProvider = "DAYTONA",
   ): Promise<MCPSandboxClient> {
-    const sandboxKey = `sandbox-${runtime}`;
+    const sandboxKey = PackageSO.getSandboxKey(runtime, provider);
     const record = PackageSO.sandboxInstances.get(sandboxKey);
     if (record) {
       record.refCount++;
@@ -63,11 +66,12 @@ export class PackageSO {
       }
     }
 
-    const client = new MCPSandboxClient(runtime);
+    const client = new MCPSandboxClient(runtime, provider);
     const newRecord: SandboxRecord = {
       client,
       refCount: 1,
       lastUsedAt: Date.now(),
+      provider,
     };
     PackageSO.sandboxInstances.set(sandboxKey, newRecord);
     return client;
@@ -75,8 +79,9 @@ export class PackageSO {
 
   static async releaseSandbox(
     runtime: "node" | "python" | "java" | "go" = "python",
+    provider: MCPSandboxProvider = "DAYTONA",
   ): Promise<void> {
-    const sandboxKey = `sandbox-${runtime}`;
+    const sandboxKey = PackageSO.getSandboxKey(runtime, provider);
     const record = PackageSO.sandboxInstances.get(sandboxKey);
     if (!record) return;
     record.refCount = Math.max(0, record.refCount - 1);
@@ -111,10 +116,21 @@ export class PackageSO {
     await Promise.all(killers);
   }
 
+  private static getSandboxKey(
+    runtime: "node" | "python" | "java" | "go",
+    provider: MCPSandboxProvider,
+  ): string {
+    return `sandbox-${provider}-${runtime}`;
+  }
+
+  private isSandboxEnabled(): boolean {
+    return this.sandboxProvider === "DAYTONA" || this.sandboxProvider === "SANDOCK";
+  }
+
   async executeTool(request: ToolExecute): Promise<unknown> {
     const mcpServerConfig = getPackageConfigByKey(request.packageName);
 
-    if (this.useSandbox) {
+    if (this.isSandboxEnabled()) {
       try {
         const result = await this.executeToolInSandbox(request);
         return result;
@@ -144,7 +160,7 @@ export class PackageSO {
     const mcpServerConfig = getPackageConfigByKey(request.packageName);
     const runtime = mcpServerConfig.runtime || "python"; // Default to python if not specified
 
-    const sandboxClient = await PackageSO.acquireSandbox(runtime);
+    const sandboxClient = await PackageSO.acquireSandbox(runtime, this.sandboxProvider);
 
     // Initialize if not already initialized (concurrency protection via MCPSandboxClient.initialize)
     await sandboxClient.initialize();
@@ -176,14 +192,14 @@ export class PackageSO {
       throw error;
     } finally {
       // Release reference count
-      await PackageSO.releaseSandbox(runtime);
+      await PackageSO.releaseSandbox(runtime, this.sandboxProvider);
     }
   }
 
   async listTools(packageName: string): Promise<Tool[]> {
     const mcpServerConfig = getPackageConfigByKey(packageName);
 
-    if (this.useSandbox) {
+    if (this.isSandboxEnabled()) {
       try {
         const tools = await this.listToolsInSandbox(packageName);
         return tools;
@@ -217,7 +233,7 @@ export class PackageSO {
     const mcpServerConfig = getPackageConfigByKey(packageName);
     const runtime = mcpServerConfig.runtime || "python";
 
-    const sandboxClient = await PackageSO.acquireSandbox(runtime);
+    const sandboxClient = await PackageSO.acquireSandbox(runtime, this.sandboxProvider);
 
     try {
       // Initialize only if sandbox is not initialized
@@ -240,7 +256,7 @@ export class PackageSO {
       }
       throw error;
     } finally {
-      await PackageSO.releaseSandbox(runtime);
+      await PackageSO.releaseSandbox(runtime, this.sandboxProvider);
     }
   }
 
