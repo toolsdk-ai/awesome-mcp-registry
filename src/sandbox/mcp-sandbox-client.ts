@@ -175,18 +175,17 @@ export class MCPSandboxClient {
     let end = -1;
     let start = -1;
 
-    // 从后往前遍历，定位最后一个完整的 JSON
     for (let i = str.length - 1; i >= 0; i--) {
       const ch = str[i];
 
       if (ch === "}") {
-        if (end === -1) end = i; // 记录最后一个右括号位置
+        if (end === -1) end = i;
         braceCount++;
       } else if (ch === "{") {
         braceCount--;
         if (braceCount === 0 && end !== -1) {
           start = i;
-          break; // 找到完整的最外层 JSON
+          break;
         }
       }
     }
@@ -196,14 +195,6 @@ export class MCPSandboxClient {
     }
 
     const jsonStr = str.slice(start, end + 1);
-
-    // 可选：验证是否是有效 JSON
-    try {
-      JSON.parse(jsonStr);
-    } catch {
-      throw new Error("Extracted JSON is invalid");
-    }
-
     return jsonStr;
   }
 
