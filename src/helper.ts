@@ -9,11 +9,24 @@ import semver from "semver";
 import allPackagesList from "../indexes/packages-list.json";
 import { getDirname } from "../src/utils";
 import { MCPServerPackageConfigSchema, PackagesListSchema } from "./schema";
-import type { MCPServerPackageConfig } from "./types";
+import type { MCPSandboxProvider, MCPServerPackageConfig } from "./types";
 
 const __dirname = getDirname(import.meta.url);
 
 export const typedAllPackagesList = PackagesListSchema.parse(allPackagesList);
+
+export function getSandboxProvider(): MCPSandboxProvider {
+  const provider = (process.env.MCP_SANDBOX_PROVIDER || "LOCAL").toUpperCase();
+
+  if (provider === "LOCAL" || provider === "DAYTONA" || provider === "SANDOCK") {
+    return provider;
+  }
+
+  console.warn(
+    `[helper] Unsupported MCP_SANDBOX_PROVIDER value '${provider}', falling back to LOCAL mode`,
+  );
+  return "LOCAL";
+}
 
 export function getPackageConfigByKey(packageKey: string): MCPServerPackageConfig {
   const value = typedAllPackagesList[packageKey];
@@ -149,6 +162,7 @@ export function updatePackageJsonDependencies({
   const packageJsonFile = "./package.json";
   const packageJSONStr = fs.readFileSync(packageJsonFile, "utf-8");
   const newDeps = {
+    "@daytonaio/sdk": "0.109.0",
     "@e2b/code-interpreter": "^2.0.0",
     "@modelcontextprotocol/sdk": "^1.12.0",
     "@hono/node-server": "1.15.0",
@@ -369,4 +383,32 @@ export function getPythonDependencies(): string[] {
   const data: PyProjectToml = parsePyprojectToml();
   const deps = data.project?.dependencies || [];
   return deps.map(extractPackageName);
+}
+
+export function extractLastOuterJSON(str: string): string {
+  let braceCount = 0;
+  let end = -1;
+  let start = -1;
+
+  for (let i = str.length - 1; i >= 0; i--) {
+    const ch = str[i];
+
+    if (ch === "}") {
+      if (end === -1) end = i;
+      braceCount++;
+    } else if (ch === "{") {
+      braceCount--;
+      if (braceCount === 0 && end !== -1) {
+        start = i;
+        break;
+      }
+    }
+  }
+
+  if (start === -1 || end === -1) {
+    throw new Error("No valid JSON found in string");
+  }
+
+  const jsonStr = str.slice(start, end + 1);
+  return jsonStr;
 }

@@ -24,6 +24,8 @@ export type CategoryConfig = z.infer<typeof CategoryConfigSchema>;
 export type PackagesList = z.infer<typeof PackagesListSchema>;
 export type ToolExecute = z.infer<typeof ToolExecuteSchema>;
 
+export type MCPSandboxProvider = "LOCAL" | "DAYTONA" | "SANDOCK";
+
 export interface Response<T> {
   success: boolean;
   code: number;

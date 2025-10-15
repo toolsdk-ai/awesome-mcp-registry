@@ -1,7 +1,7 @@
-import { Sandbox } from "@e2b/code-interpreter";
+import { Daytona, type DaytonaConfig, Image, type Sandbox } from "@daytonaio/sdk";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { getPackageConfigByKey } from "../helper";
-import type { MCPServerPackageConfig } from "../types";
+import { extractLastOuterJSON, getPackageConfigByKey } from "../helper";
+import type { MCPSandboxProvider, MCPServerPackageConfig } from "../types";
 
 interface MCPToolResult {
   toolCount: number;
@@ -18,26 +18,16 @@ export class MCPSandboxClient {
   private sandbox: Sandbox | null = null;
   private initializing: Promise<void> | null = null;
   private readonly apiKey: string;
-  private toolCache: Map<string, { tools: Tool[]; timestamp: number }> = new Map();
-  private readonly E2B_SANDBOX_TIMEOUT_MS = 300_000;
-  private readonly TOOL_CACHE_TTL = 30 * 60 * 1000;
-  public TOOL_EXECUTION_TIMEOUT = 300_000;
+  private readonly provider: MCPSandboxProvider;
+  private runtime: "node" | "python" | "java" | "go" = "node";
 
-  private lastTouchTime: number | null = null;
-  private readonly THROTTLE_DELAY_MS = 10 * 1000;
-
-  // Lifecycle and Auto-Recovery
-  public createdAt: number | null = null;
-  public lastUsedAt: number | null = null;
-  private ttlTimer: NodeJS.Timeout | null = null;
-  private autoCloseOnIdleTimer: NodeJS.Timeout | null = null;
-  private idleCloseMs: number | null = null;
-
-  private runtime: "node" | "python" | "java" | "go" = "python";
-
-  constructor(apiKey?: string, runtime: "node" | "python" | "java" | "go" = "python") {
-    this.apiKey = apiKey || process.env.E2B_API_KEY || "e2b-api-key-placeholder";
+  constructor(
+    runtime: "node" | "python" | "java" | "go" = "node",
+    provider: MCPSandboxProvider = "DAYTONA",
+  ) {
+    this.apiKey = process.env.DAYTONA_API_KEY || "daytona-api-key-placeholder";
     this.runtime = runtime;
+    this.provider = provider;
   }
 
   // Safe initialize: ensures concurrent calls don't create duplicate sandboxes
@@ -51,183 +41,71 @@ export class MCPSandboxClient {
       return;
     }
 
-    const initLabel = `[MCPSandboxClient] Sandbox initialization ${Date.now()}-${(Math.random() * 1000000) | 0}`;
-    console.time(initLabel);
     this.initializing = (async () => {
       try {
-        const template = this.runtime === "python" ? "mcp-sandbox-python" : "mcp-sandbox-node";
-        this.sandbox = await Sandbox.create(template, {
+        const daytonaConfig: DaytonaConfig = {
           apiKey: this.apiKey,
-          timeoutMs: this.E2B_SANDBOX_TIMEOUT_MS,
+        };
+
+        if (this.provider === "SANDOCK") {
+          daytonaConfig.apiUrl = process.env.SANDOCK_DAYTONA_API_URL || process.env.DAYTONA_API_URL;
+          if (!daytonaConfig.apiUrl) {
+            console.warn(
+              "[MCPSandboxClient] SANDOCK provider selected but SANDOCK_DAYTONA_API_URL is not set. Falling back to default Daytona API URL.",
+            );
+          }
+        }
+
+        const daytona = new Daytona(daytonaConfig);
+
+        // Create image with required dependencies
+        const declarativeImage = Image.base("node:20")
+          .runCommands(
+            "npm install -g pnpm",
+            "mkdir -p /workspace",
+            "cd /workspace && npm init -y",
+            "cd /workspace && pnpm add @modelcontextprotocol/sdk",
+          )
+          .workdir("/workspace");
+
+        // const pnpmStoreVolume = await daytona.volume.get("pnpm-store-shared", true);
+
+        this.sandbox = await daytona.create({
+          language: "javascript",
+          image: declarativeImage,
+          // volumes: [
+          //   {
+          //     volumeId: pnpmStoreVolume.id,
+          //     mountPath: "/pnpm-store",
+          //   },
+          // ],
         });
-        this.createdAt = Date.now();
-        this.touch();
-        // After 1-hour forced session termination
-        this.setupTTLTimer();
-        console.log(`[MCPSandboxClient] Sandbox (${template}) created successfully`);
+
+        console.log("[MCPSandboxClient] Daytona Sandbox created successfully");
       } finally {
         this.initializing = null;
       }
     })();
 
     await this.initializing;
-    console.timeEnd(initLabel);
   }
 
-  private setupTTLTimer() {
-    // Clean up existing timer
-    if (this.ttlTimer) {
-      clearTimeout(this.ttlTimer);
-      this.ttlTimer = null;
-    }
-
-    // E2B supports maximum 1-hour sessions, force close at 59m 30s for safety
-    const TTL_MS = 60 * 60 * 1000;
-    const safetyMs = 30 * 1000;
-    const remaining = Math.max(0, TTL_MS - (Date.now() - (this.createdAt || Date.now())));
-    this.ttlTimer = setTimeout(async () => {
-      console.warn(
-        "[MCPSandboxClient] Sandbox TTL reached, closing sandbox to avoid exceeding 1 hour.",
-      );
-      try {
-        await this.kill();
-      } catch (err) {
-        console.error("[MCPSandboxClient] Error while killing sandbox after TTL:", err);
-      }
-    }, remaining - safetyMs);
-  }
-
-  /**
-   * Update sandbox last used time
-   */
-  touch() {
-    const now = Date.now();
-
-    // If this is the first call, or more than 10 seconds have passed since the last call
-    if (!this.lastTouchTime || now - this.lastTouchTime >= this.THROTTLE_DELAY_MS) {
-      this.lastTouchTime = now;
-      this.performTouch();
-    }
-  }
-
-  /**
-   * Actually perform the touch operation
-   */
-  private async performTouch() {
-    this.lastUsedAt = Date.now();
-    console.log(`[MCPSandboxClient] Sandbox touched at ${this.lastUsedAt}`);
-
-    // Reset E2B sandbox timeout
-    if (this.sandbox) {
-      console.log("[MCPSandboxClient] Resetting E2B sandbox timeout");
-      // const info = await this.sandbox.getInfo();
-      // console.log(`[MCPSandboxClient] E2B sandbox info: ${JSON.stringify(info, null, 2)}`);
-      this.sandbox.setTimeout(this.E2B_SANDBOX_TIMEOUT_MS).catch((err) => {
-        console.error("[MCPSandboxClient] Failed to reset E2B sandbox timeout:", err);
-      });
-    }
-
-    // Refresh timer if waiting for idle close
-    if (this.autoCloseOnIdleTimer && this.idleCloseMs) {
-      clearTimeout(this.autoCloseOnIdleTimer);
-
-      // Reschedule idle close (refresh timer)
-      this.autoCloseOnIdleTimer = setTimeout(async () => {
-        console.log("[MCPSandboxClient] Idle TTL reached, closing sandbox due to inactivity.");
-        try {
-          await this.kill();
-        } catch (err) {
-          console.error("[MCPSandboxClient] Error while killing sandbox on idle:", err);
-        }
-      }, this.idleCloseMs);
-    }
-  }
-
-  // Schedule idle auto-close (called by PackageSO when refCount reaches 0)
-  scheduleIdleClose(idleMs: number) {
-    // Save idle close time for refresh
-    this.idleCloseMs = idleMs;
-
-    // Clear existing idle timer
-    if (this.autoCloseOnIdleTimer) {
-      clearTimeout(this.autoCloseOnIdleTimer);
-    }
-
-    // Set new idle timer
-    this.autoCloseOnIdleTimer = setTimeout(async () => {
-      console.log("[MCPSandboxClient] Idle TTL reached, closing sandbox due to inactivity.");
-      try {
-        await this.kill();
-      } catch (err) {
-        console.error("[MCPSandboxClient] Error while killing sandbox on idle:", err);
-      }
-    }, idleMs);
-  }
-
-  // Force close and cleanup timers & cache
+  // Force close and cleanup
   async kill(): Promise<void> {
-    const killLabel = `[MCPSandboxClient] Sandbox closing ${Date.now()}-${(Math.random() * 1000000) | 0}`;
-    console.time(killLabel);
     try {
-      if (this.ttlTimer) {
-        clearTimeout(this.ttlTimer);
-        this.ttlTimer = null;
-      }
-      if (this.autoCloseOnIdleTimer) {
-        clearTimeout(this.autoCloseOnIdleTimer);
-        this.autoCloseOnIdleTimer = null;
-      }
       if (this.sandbox) {
-        try {
-          await this.sandbox.kill();
-        } catch (err) {
-          // sandbox.kill may throw, log error but continue cleaning local state
-          console.error("[MCPSandboxClient] Error during sandbox.kill():", err);
-        }
-        this.sandbox = null;
-      } else {
-        console.log("[MCPSandboxClient] No sandbox to close");
+        await this.sandbox.delete();
       }
+    } catch (err) {
+      console.log((err as Error).message);
     } finally {
-      // clear cache and reset timestamps
-      this.toolCache.clear();
-      this.createdAt = null;
-      this.lastUsedAt = null;
-      console.timeEnd(killLabel);
+      this.sandbox = null;
+      // clear cache
+      // this.toolCache.clear();
     }
-  }
-
-  // Clear cache for specific package
-  clearPackageCache(packageKey: string): void {
-    this.toolCache.delete(packageKey);
-  }
-
-  // Clear all tool caches
-  clearAllCache(): void {
-    this.toolCache.clear();
   }
 
   async listTools(packageKey: string): Promise<Tool[]> {
-    const cached = this.toolCache.get(packageKey);
-    if (cached) {
-      const now = Date.now();
-      if (now - cached.timestamp < this.TOOL_CACHE_TTL) {
-        console.log(`[MCPSandboxClient] Returning cached tools for package: ${packageKey}`);
-
-        // Refresh cache expiration time
-        this.toolCache.set(packageKey, {
-          tools: cached.tools,
-          timestamp: Date.now(),
-        });
-
-        this.touch();
-        return cached.tools;
-      } else {
-        // Cache expired, remove it
-        this.toolCache.delete(packageKey);
-      }
-    }
-
     if (!this.sandbox) {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
@@ -237,36 +115,18 @@ export class MCPSandboxClient {
     const testCode: string = this.generateMCPTestCode(mcpServerConfig, "listTools");
 
     try {
-      const testResult = await this.runCodeWithTimeout(testCode, { language: "javascript" });
+      const response = await this.sandbox.process.codeRun(testCode);
 
-      if (testResult.error) {
-        throw new Error(`Failed to list tools: ${testResult.error}`);
+      if (response.exitCode !== 0) {
+        throw new Error(`Failed to list tools: ${response.result}`);
       }
 
-      const stdout = testResult.logs?.stdout || [];
-      const last = stdout[stdout.length - 1] || "{}";
+      const parsedResultStr = extractLastOuterJSON(response.result);
+      const result: MCPToolResult = JSON.parse(parsedResultStr);
 
-      const result: MCPToolResult = JSON.parse(last);
-
-      this.toolCache.set(packageKey, {
-        tools: result.tools,
-        timestamp: Date.now(),
-      });
-
-      this.touch();
       return result.tools;
     } catch (err) {
-      // Enhanced error handling for connection issues, consistent with executeTool
-      if (
-        err instanceof Error &&
-        (err.message.includes("sandbox was not found") || err.message.includes("terminated"))
-      ) {
-        console.warn(
-          "[MCPSandboxClient] Sandbox connection lost during listTools, cleaning up state and reinitializing",
-        );
-        await this.kill();
-        throw new Error("Sandbox connection lost. Please retry the operation.");
-      }
+      console.error("[MCPSandboxClient] Error listing tools:", err);
       throw err;
     }
   }
@@ -281,102 +141,35 @@ export class MCPSandboxClient {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    const execLabel = `[MCPSandboxClient] Execute tool: ${toolName} from package: ${packageKey} ${Date.now()}-${(Math.random() * 1000000) | 0}`;
-    console.time(execLabel);
+    const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
+
+    const testCode: string = this.generateMCPTestCode(
+      mcpServerConfig,
+      "executeTool",
+      toolName,
+      argumentsObj,
+      envs,
+    );
 
     try {
-      const mcpServerConfig = await getPackageConfigByKey(packageKey);
+      const response = await this.sandbox.process.codeRun(testCode);
 
-      const testCode: string = this.generateMCPTestCode(
-        mcpServerConfig,
-        "executeTool",
-        toolName,
-        argumentsObj,
-        envs,
-      );
-
-      const testResult = await this.runCodeWithTimeout(testCode, { language: "javascript" });
-      if (testResult.error) {
-        throw new Error(`Failed to execute tool: ${testResult.error}`);
+      if (response.exitCode !== 0) {
+        throw new Error(`Failed to execute tool: ${response.result}`);
       }
 
-      // Handle stderr output, log if there are error messages
-      if (testResult.logs.stderr && testResult.logs.stderr.length > 0) {
-        const stderrOutput = testResult.logs.stderr.join("\n");
-        console.error("[MCPSandboxClient] Tool execution stderr output:", stderrOutput);
-      }
-
-      const result: MCPExecuteResult = JSON.parse(
-        testResult.logs.stdout[testResult.logs.stdout.length - 1] || "{}",
-      );
+      const parsedResultStr = extractLastOuterJSON(response.result);
+      const result: MCPExecuteResult = JSON.parse(parsedResultStr);
 
       if (result.isError) {
         console.error("[MCPSandboxClient] Tool execution error:", result.errorMessage);
         throw new Error(result.errorMessage);
       }
 
-      this.touch();
       return result;
     } catch (err) {
-      if (
-        err instanceof Error &&
-        (err.message.includes("sandbox was not found") || err.message.includes("terminated"))
-      ) {
-        console.warn("[MCPSandboxClient] Sandbox not found, cleaning up state and reinitializing");
-        await this.kill();
-        throw new Error("Sandbox was not found. Please retry the operation.");
-      }
-
       console.error("[MCPSandboxClient] Error executing tool:", err);
       throw err;
-    } finally {
-      console.timeEnd(execLabel);
-    }
-  }
-
-  // Add timeout protection to sandbox.runCode, kill sandbox on timeout
-  private async runCodeWithTimeout(
-    code: string,
-    options: { language: string },
-  ): Promise<{
-    logs: { stdout: string[]; stderr: string[] };
-    error?: Error;
-  }> {
-    if (!this.sandbox) throw new Error("Sandbox not initialized.");
-
-    const execPromise = this.sandbox.runCode(code, options);
-    const timeoutMs = this.TOOL_EXECUTION_TIMEOUT;
-
-    let timeoutHandle: NodeJS.Timeout | null = null;
-
-    const timeoutPromise = new Promise((_, reject) => {
-      timeoutHandle = setTimeout(async () => {
-        const msg = `[MCPSandboxClient] runCode timeout after ${timeoutMs}ms`;
-        console.error(msg);
-        // After timeout, try to force kill sandbox to recycle resources and avoid subsequent calls using this stuck instance
-        try {
-          await this.kill();
-        } catch (err) {
-          console.error("[MCPSandboxClient] Error killing sandbox after run timeout:", err);
-        }
-        reject(new Error(msg));
-      }, timeoutMs);
-    });
-
-    const label = `[MCPSandboxClient] Tool execution time ${Date.now()}-${(Math.random() * 1000000) | 0}`;
-    try {
-      console.time(label);
-      const result = (await Promise.race([execPromise, timeoutPromise])) as {
-        logs: { stdout: string[]; stderr: string[] };
-        error?: Error;
-      };
-      return result;
-    } catch (err) {
-      console.error("[MCPSandboxClient] runCodeWithTimeout error:", err);
-      throw err;
-    } finally {
-      if (timeoutHandle) clearTimeout(timeoutHandle);
-      console.timeEnd(label);
     }
   }
 
@@ -387,64 +180,24 @@ export class MCPSandboxClient {
     argumentsObj?: Record<string, unknown>,
     envs?: Record<string, string>,
   ): string {
-    // 根据runtime选择不同的代码生成逻辑
-    if (mcpServerConfig.runtime === "python") {
-      return this.generatePythonMCPTestCode(
-        mcpServerConfig,
-        operation,
-        toolName,
-        argumentsObj,
-        envs,
-      );
-    }
-
-    // 默认使用Node.js逻辑
     const commonCode = `
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
-import fs from "node:fs";
-
-function getPackageJSON(packageName) {
-  const packageJSONFilePath = \`/home/node_modules/\${packageName}/package.json\`;
-
-  if (!fs.existsSync(packageJSONFilePath)) {
-    throw new Error(\`Package '\${packageName}' not found in node_modules.\`);
-  }
-
-  const packageJSONStr = fs.readFileSync(packageJSONFilePath, "utf8");
-  const packageJSON = JSON.parse(packageJSONStr);
-  return packageJSON;
-}
 
 async function runMCP() {
   let client;
   try {
     const packageName = "${mcpServerConfig.packageName}";
-    const packageJSON = getPackageJSON(packageName);
-    
-    let binPath;
-    if (typeof packageJSON.bin === "string") {
-      binPath = packageJSON.bin;
-    } else if (typeof packageJSON.bin === "object") {
-      binPath = Object.values(packageJSON.bin)[0];
-    } else {
-      binPath = packageJSON.main;
-    }
-    
-    if (!binPath) {
-      throw new Error(\`Package \${packageName} does not have a valid bin path in package.json.\`);
-    }
-
-    const binFilePath = \`/home/node_modules/\${packageName}/\${binPath}\`;
-    const binArgs = ${JSON.stringify(mcpServerConfig.binArgs || [])};
 
     const transport = new StdioClientTransport({
-      command: "node",
-      args: [binFilePath, ...binArgs],
+      command: "pnpx",
+      args: ["--silent", packageName],
       env: {
-        ...(Object.fromEntries(
+        ...Object.fromEntries(
           Object.entries(process.env).filter(([_, v]) => v !== undefined)
-        ) as Record<string, string>),
+        ),
+        PNPM_HOME: "/root/.local/share/pnpm",
+        PNPM_STORE_PATH: "/pnpm-store",
         ${this.generateEnvVariables(mcpServerConfig.env, envs)}
       },
     });
@@ -465,150 +218,65 @@ async function runMCP() {
 `;
 
     if (operation === "listTools") {
-      return `${commonCode}
+      const toolsCode = `${commonCode}
     const toolsObj = await client.listTools();
 
     const result = {
       toolCount: toolsObj.tools.length,
       tools: toolsObj.tools
     };
-    console.log(JSON.stringify(result));
-    if (client) {
-      await client.close();
-    }
-    return;
+
+    process.stdout.write(JSON.stringify(result));
   } catch (error) {
+    console.error("Error in MCP test:", error);
+    process.exitCode = 1;
+    process.stdout.write(JSON.stringify({ error: error.message || "Unknown error occurred" }));
+  } finally {
     if (client) {
-      await client.close();
+      try {
+        await client.close();
+      } catch (closeError) {
+        console.error("Error closing MCP client:", closeError);
+      }
     }
-    throw error;
   }
 }
 
 runMCP();
-`;
+    `;
+      return toolsCode;
+      // } else if (operation === "executeTool" && toolName) {
     } else {
-      return `${commonCode}
+      const toolExecuteCode = `${commonCode}
 
     const result = await client.callTool({
       name: "${toolName}",
       arguments: ${JSON.stringify(argumentsObj)}
     });
 
-    console.log(JSON.stringify(result))
-    if (client) {
-      await client.close();
-    }
-    return;
+    process.stdout.write(JSON.stringify(result));
   } catch (error) {
-    if (client) {
-      await client.close();
-    }
-    console.log(JSON.stringify({ 
+    console.error("Error in MCP test:", error);
+    process.exitCode = 1;
+    process.stdout.write(JSON.stringify({ 
       result: null, 
       isError: true, 
       errorMessage: error.message 
     }));
+  } finally {
+    if (client) {
+      try {
+        await client.close();
+      } catch (closeError) {
+        console.error("Error closing MCP client:", closeError);
+      }
+    }
   }
 }
 
 runMCP();
-`;
-    }
-  }
-
-  private generatePythonMCPTestCode(
-    mcpServerConfig: MCPServerPackageConfig,
-    operation: "listTools" | "executeTool",
-    toolName?: string,
-    argumentsObj?: Record<string, unknown>,
-    envs?: Record<string, string>,
-  ): string {
-    const commonCode = `
-import { Client } from "@modelcontextprotocol/sdk/client/index.js";
-import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
-
-async function runMCP() {
-  let client;
-  try {
-    const packageName = "${mcpServerConfig.packageName}";
-
-    const transport = new StdioClientTransport({
-      command: "uv",
-      args: ["run", packageName],
-      env: {
-        ...(Object.fromEntries(
-          Object.entries(process.env).filter(([_, v]) => v !== undefined)
-        ) as Record<string, string>),
-        ${this.generateEnvVariables(mcpServerConfig.env, envs)}
-      },
-    });
-
-    client = new Client(
-      {
-        name: "mcp-server-${mcpServerConfig.packageName}-client",
-        version: "1.0.0",
-      },
-      {
-        capabilities: {
-          tools: {},
-        },
-      },
-    );
-
-    await client.connect(transport);
-`;
-
-    if (operation === "listTools") {
-      return `${commonCode}
-    const toolsObj = await client.listTools();
-
-    const result = {
-      toolCount: toolsObj.tools.length,
-      tools: toolsObj.tools
-    };
-    console.log(JSON.stringify(result));
-    if (client) {
-      await client.close();
-    }
-    return;
-  } catch (error) {
-    if (client) {
-      await client.close();
-    }
-    throw error;
-  }
-}
-
-runMCP();
-`;
-    } else {
-      return `${commonCode}
-
-    const result = await client.callTool({
-      name: "${toolName}",
-      arguments: ${JSON.stringify(argumentsObj)}
-    });
-
-    console.log(JSON.stringify(result))
-    if (client) {
-      await client.close();
-    }
-    return;
-  } catch (error) {
-    if (client) {
-      await client.close();
-    }
-    console.log(JSON.stringify({ 
-      result: null, 
-      isError: true, 
-      errorMessage: error.message 
-    }));
-  }
-}
-
-runMCP();
-`;
+  `;
+      return toolExecuteCode;
     }
   }
 

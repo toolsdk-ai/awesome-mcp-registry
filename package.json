@@ -87,6 +87,7 @@
     "@cyanheads/pubmed-mcp-server": "1.2.3",
     "@cyanheads/toolkit-mcp-server": "1.0.1",
     "@dasheck0/face-generator": "1.0.1",
+    "@daytonaio/sdk": "0.109.0",
     "@debugg-ai/debugg-ai-mcp": "1.0.15",
     "@delorenj/mcp-server-ticketmaster": "0.2.5",
     "@deventerprisesoftware/scrapi-mcp": "0.0.3",
