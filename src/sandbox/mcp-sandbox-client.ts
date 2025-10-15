@@ -68,23 +68,18 @@ export class MCPSandboxClient {
           )
           .workdir("/workspace");
 
-        const pnpmStoreVolume = await daytona.volume.get("demo-pnpm-store-shared", true);
+        // const pnpmStoreVolume = await daytona.volume.get("pnpm-store-shared", true);
 
-        this.sandbox = await daytona.create(
-          {
-            language: "javascript",
-            image: declarativeImage,
-            volumes: [
-              {
-                volumeId: pnpmStoreVolume.id,
-                mountPath: "/pnpm-store",
-              },
-            ],
-          },
-          {
-            onSnapshotCreateLogs: console.log,
-          },
-        );
+        this.sandbox = await daytona.create({
+          language: "javascript",
+          image: declarativeImage,
+          // volumes: [
+          //   {
+          //     volumeId: pnpmStoreVolume.id,
+          //     mountPath: "/pnpm-store",
+          //   },
+          // ],
+        });
 
         console.log("[MCPSandboxClient] Daytona Sandbox created successfully");
       } finally {
