@@ -1,7 +1,11 @@
 import { Daytona, type DaytonaConfig, Image, type Sandbox } from "@daytonaio/sdk";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { extractLastOuterJSON, getPackageConfigByKey } from "../helper";
-import type { MCPSandboxProvider, MCPServerPackageConfig } from "../types";
+import { getPackageConfigByKey } from "../../../helper";
+import { getDaytonaConfig, getSandockDaytonaConfig } from "../../../shared/config/environment";
+import type { MCPSandboxProvider, MCPServerPackageConfig } from "../../../shared/types";
+import { extractLastOuterJSON } from "../../../shared/utils/string.util";
+import type { ISandboxClient, SandboxExecuteResult } from "../ISandboxClient";
+import { SandboxStatus } from "../ISandboxClient";
 
 interface MCPToolResult {
   toolCount: number;
@@ -14,51 +18,59 @@ interface MCPExecuteResult {
   errorMessage?: string;
 }
 
-export class MCPSandboxClient {
+/**
+ * Daytona 沙盒客户端
+ * 实现 ISandboxClient 接口
+ */
+export class DaytonaSandboxClient implements ISandboxClient {
   private sandbox: Sandbox | null = null;
   private initializing: Promise<void> | null = null;
-  private readonly apiKey: string;
   private readonly provider: MCPSandboxProvider;
-  private runtime: "node" | "python" | "java" | "go" = "node";
+  private status: SandboxStatus = SandboxStatus.IDLE;
 
   constructor(
-    runtime: "node" | "python" | "java" | "go" = "node",
+    _runtime: "node" | "python" | "java" | "go" = "node",
     provider: MCPSandboxProvider = "DAYTONA",
   ) {
-    this.apiKey = process.env.DAYTONA_API_KEY || "daytona-api-key-placeholder";
-    this.runtime = runtime;
     this.provider = provider;
   }
 
-  // Safe initialize: ensures concurrent calls don't create duplicate sandboxes
+  /**
+   * 获取沙盒状态
+   */
+  getStatus(): SandboxStatus {
+    return this.status;
+  }
+
+  /**
+   * 初始化沙盒（幂等操作）
+   */
   async initialize(): Promise<void> {
     if (this.sandbox) {
       return;
     }
     if (this.initializing) {
-      // Wait for existing initialization to complete
       await this.initializing;
       return;
     }
 
+    this.status = SandboxStatus.INITIALIZING;
     this.initializing = (async () => {
       try {
+        // 获取配置
+        const config = this.provider === "SANDOCK" ? getSandockDaytonaConfig() : getDaytonaConfig();
+
         const daytonaConfig: DaytonaConfig = {
-          apiKey: this.apiKey,
+          apiKey: config.apiKey,
         };
 
-        if (this.provider === "SANDOCK") {
-          daytonaConfig.apiUrl = process.env.SANDOCK_DAYTONA_API_URL || process.env.DAYTONA_API_URL;
-          if (!daytonaConfig.apiUrl) {
-            console.warn(
-              "[MCPSandboxClient] SANDOCK provider selected but SANDOCK_DAYTONA_API_URL is not set. Falling back to default Daytona API URL.",
-            );
-          }
+        if (config.apiUrl) {
+          daytonaConfig.apiUrl = config.apiUrl;
         }
 
         const daytona = new Daytona(daytonaConfig);
 
-        // Create image with required dependencies
+        // 创建镜像
         const declarativeImage = Image.base("node:20")
           .runCommands(
             "npm install -g pnpm",
@@ -68,20 +80,16 @@ export class MCPSandboxClient {
           )
           .workdir("/workspace");
 
-        // const pnpmStoreVolume = await daytona.volume.get("pnpm-store-shared", true);
-
         this.sandbox = await daytona.create({
           language: "javascript",
           image: declarativeImage,
-          // volumes: [
-          //   {
-          //     volumeId: pnpmStoreVolume.id,
-          //     mountPath: "/pnpm-store",
-          //   },
-          // ],
         });
 
-        console.log("[MCPSandboxClient] Daytona Sandbox created successfully");
+        this.status = SandboxStatus.READY;
+        console.log(`[DaytonaSandboxClient] Sandbox created successfully (${this.provider})`);
+      } catch (error) {
+        this.status = SandboxStatus.ERROR;
+        throw error;
       } finally {
         this.initializing = null;
       }
@@ -90,59 +98,55 @@ export class MCPSandboxClient {
     await this.initializing;
   }
 
-  // Force close and cleanup
-  async kill(): Promise<void> {
-    try {
-      if (this.sandbox) {
-        await this.sandbox.delete();
-      }
-    } catch (err) {
-      console.log((err as Error).message);
-    } finally {
-      this.sandbox = null;
-      // clear cache
-      // this.toolCache.clear();
-    }
-  }
-
-  async listTools(packageKey: string): Promise<Tool[]> {
+  /**
+   * 执行代码（内部使用）
+   */
+  private async executeCode(code: string): Promise<SandboxExecuteResult> {
     if (!this.sandbox) {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
-
-    const testCode: string = this.generateMCPTestCode(mcpServerConfig, "listTools");
-
+    this.status = SandboxStatus.BUSY;
     try {
-      const response = await this.sandbox.process.codeRun(testCode);
-
-      if (response.exitCode !== 0) {
-        throw new Error(`Failed to list tools: ${response.result}`);
-      }
-
-      const parsedResultStr = extractLastOuterJSON(response.result);
-      const result: MCPToolResult = JSON.parse(parsedResultStr);
-
-      return result.tools;
-    } catch (err) {
-      console.error("[MCPSandboxClient] Error listing tools:", err);
-      throw err;
+      const response = await this.sandbox.process.codeRun(code);
+      return {
+        exitCode: response.exitCode,
+        result: response.result,
+      };
+    } finally {
+      this.status = SandboxStatus.READY;
     }
   }
 
+  /**
+   * 列出工具
+   */
+  async listTools(packageKey: string): Promise<Tool[]> {
+    const mcpServerConfig: MCPServerPackageConfig = getPackageConfigByKey(packageKey);
+    const testCode: string = this.generateMCPTestCode(mcpServerConfig, "listTools");
+
+    const response = await this.executeCode(testCode);
+
+    if (response.exitCode !== 0) {
+      throw new Error(`Failed to list tools: ${response.result}`);
+    }
+
+    const parsedResultStr = extractLastOuterJSON(response.result);
+    const result: MCPToolResult = JSON.parse(parsedResultStr);
+
+    return result.tools;
+  }
+
+  /**
+   * 执行工具
+   */
   async executeTool(
     packageKey: string,
     toolName: string,
     argumentsObj: Record<string, unknown>,
     envs?: Record<string, string>,
   ): Promise<unknown> {
-    if (!this.sandbox) {
-      throw new Error("Sandbox not initialized. Call initialize() first.");
-    }
-
-    const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
-
+    const mcpServerConfig: MCPServerPackageConfig = getPackageConfigByKey(packageKey);
     const testCode: string = this.generateMCPTestCode(
       mcpServerConfig,
       "executeTool",
@@ -151,28 +155,43 @@ export class MCPSandboxClient {
       envs,
     );
 
+    const response = await this.executeCode(testCode);
+
+    if (response.exitCode !== 0) {
+      throw new Error(`Failed to execute tool: ${response.result}`);
+    }
+
+    const parsedResultStr = extractLastOuterJSON(response.result);
+    const result: MCPExecuteResult = JSON.parse(parsedResultStr);
+
+    if (result.isError) {
+      console.error("[DaytonaSandboxClient] Tool execution error:", result.errorMessage);
+      throw new Error(result.errorMessage);
+    }
+
+    return result;
+  }
+
+  /**
+   * 销毁沙盒
+   */
+  async destroy(): Promise<void> {
     try {
-      const response = await this.sandbox.process.codeRun(testCode);
-
-      if (response.exitCode !== 0) {
-        throw new Error(`Failed to execute tool: ${response.result}`);
+      if (this.sandbox) {
+        await this.sandbox.delete();
+        this.status = SandboxStatus.DESTROYED;
+        console.log("[DaytonaSandboxClient] Sandbox destroyed");
       }
-
-      const parsedResultStr = extractLastOuterJSON(response.result);
-      const result: MCPExecuteResult = JSON.parse(parsedResultStr);
-
-      if (result.isError) {
-        console.error("[MCPSandboxClient] Tool execution error:", result.errorMessage);
-        throw new Error(result.errorMessage);
-      }
-
-      return result;
     } catch (err) {
-      console.error("[MCPSandboxClient] Error executing tool:", err);
-      throw err;
+      console.error("[DaytonaSandboxClient] Error destroying sandbox:", (err as Error).message);
+    } finally {
+      this.sandbox = null;
     }
   }
 
+  /**
+   * 生成 MCP 测试代码
+   */
   private generateMCPTestCode(
     mcpServerConfig: MCPServerPackageConfig,
     operation: "listTools" | "executeTool",
@@ -218,7 +237,7 @@ async function runMCP() {
 `;
 
     if (operation === "listTools") {
-      const toolsCode = `${commonCode}
+      return `${commonCode}
     const toolsObj = await client.listTools();
 
     const result = {
@@ -244,10 +263,8 @@ async function runMCP() {
 
 runMCP();
     `;
-      return toolsCode;
-      // } else if (operation === "executeTool" && toolName) {
     } else {
-      const toolExecuteCode = `${commonCode}
+      return `${commonCode}
 
     const result = await client.callTool({
       name: "${toolName}",
@@ -276,10 +293,12 @@ runMCP();
 
 runMCP();
   `;
-      return toolExecuteCode;
     }
   }
 
+  /**
+   * 生成环境变量
+   */
   private generateEnvVariables(
     env: MCPServerPackageConfig["env"],
     realEnvs?: Record<string, string>,

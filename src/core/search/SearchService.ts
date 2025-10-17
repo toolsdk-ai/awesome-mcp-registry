@@ -6,7 +6,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { type Index, MeiliSearch } from "meilisearch";
-import { getDirname } from "../utils";
+import { getDirname } from "../../utils";
 
 const __dirname = getDirname(import.meta.url);
 
@@ -299,7 +299,7 @@ class SearchService {
     try {
       console.log("📥 Loading packages data...");
 
-      const packagesPath = path.join(__dirname, "..", "..", "indexes", "packages-list.json");
+      const packagesPath = path.join(__dirname, "..", "..", "..", "indexes", "packages-list.json");
       const packagesData = await fs.readFile(packagesPath, "utf8");
       const packages = JSON.parse(packagesData);
 

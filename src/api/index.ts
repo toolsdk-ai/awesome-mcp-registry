@@ -3,18 +3,23 @@ import path from "node:path";
 import { serve } from "@hono/node-server";
 import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 import type { Context } from "hono";
-import { searchRoutes } from "../search/search-route";
-import searchService from "../search/search-service";
+import searchService from "../core/search/SearchService";
+import { getServerPort, isSearchEnabled } from "../shared/config/environment";
 import { getDirname } from "../utils";
-import { packageRoutes } from "./package-route";
+import { configRoutes } from "./routes/config.route";
+import { packageRoutes } from "./routes/package.route";
+import { searchRoutes } from "./routes/search.route";
 
 const __dirname = getDirname(import.meta.url);
 
-dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
-dotenv.config({ path: path.resolve(process.cwd(), ".env") });
+// dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
+// dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
+/**
+ * 初始化搜索服务
+ */
 const initializeSearchService = async () => {
   try {
     await searchService.initialize();
@@ -27,13 +32,19 @@ const initializeSearchService = async () => {
 
 const app: OpenAPIHono = new OpenAPIHono();
 
+// 注册路由
 app.route("/api/v1", packageRoutes);
+app.route("/api/v1", configRoutes);
 
-if (process.env.ENABLE_SEARCH === "true") {
+// 如果启用搜索，注册搜索路由
+if (isSearchEnabled()) {
   initializeSearchService().catch(console.error);
   app.route("/api/v1", searchRoutes);
 }
 
+/**
+ * 首页路由
+ */
 app.get("/", async (c: Context) => {
   try {
     const htmlPath = path.join(__dirname, "..", "search", "search.html");
@@ -45,6 +56,9 @@ app.get("/", async (c: Context) => {
   }
 });
 
+/**
+ * 元数据路由
+ */
 app.get("/api/meta", async (c: Context) => {
   try {
     const packageJson = await import("../../package.json", {
@@ -57,6 +71,9 @@ app.get("/api/meta", async (c: Context) => {
   }
 });
 
+/**
+ * OpenAPI 文档
+ */
 app.doc("/api/v1/doc", {
   openapi: "3.0.0",
   info: {
@@ -65,12 +82,21 @@ app.doc("/api/v1/doc", {
   },
 });
 
+/**
+ * Swagger UI
+ */
 app.get("/swagger", swaggerUI({ url: "/api/v1/doc" }));
 
+/**
+ * 404 处理
+ */
 app.notFound((c: Context) => {
   return c.json({ success: false, code: 404, message: "[Registry API] Route not found" }, 404);
 });
 
+/**
+ * 错误处理
+ */
 app.onError((err: Error, c: Context) => {
   console.error("Server Error:", err);
   return c.json(
@@ -83,7 +109,10 @@ app.onError((err: Error, c: Context) => {
   );
 });
 
-const port = process.env.MCP_SERVER_PORT ? parseInt(process.env.MCP_SERVER_PORT, 10) : 3003;
+/**
+ * 启动服务器
+ */
+const port = getServerPort();
 console.log(`Server is running on: http://localhost:${port}`);
 
 serve({
