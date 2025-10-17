@@ -1,21 +1,12 @@
-import path from "node:path";
 import { serve } from "@hono/node-server";
 import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
-import dotenv from "dotenv";
 import type { Context } from "hono";
 import { configRoutes } from "../domains/config/config-route";
 import { packageRoutes } from "../domains/package/package-route";
 import { searchRoutes } from "../domains/search/search-route";
 import { SearchSO } from "../domains/search/search-so";
 import { getServerPort, isSearchEnabled } from "../shared/config/environment";
-import { getDirname } from "../shared/utils/file-util";
-
-const __dirname = getDirname(import.meta.url);
-
-// 加载环境变量
-dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
-dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
 // 初始化搜索服务
 const initializeSearchService = async () => {
