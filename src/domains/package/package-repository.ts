@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import allPackagesList from "../../../indexes/packages-list.json";
 import { MCPServerPackageConfigSchema } from "../../shared/schemas";
-import type { MCPServerPackageConfig, PackagesList } from "../../shared/types";
+import type { MCPServerPackageConfig, PackagesList } from "./package-types";
 
 /**
  * 包仓储

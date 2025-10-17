@@ -1,8 +1,10 @@
+import path from "node:path";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { getPackageConfigByKey } from "../../helper";
-import type { MCPSandboxProvider } from "../../shared/types";
+import { getDirname } from "../../shared/utils/file-util";
+import { PackageRepository } from "../package/package-repository";
 import type { ISandboxClient } from "../sandbox/sandbox-client-interface";
 import { SandboxPoolSO } from "../sandbox/sandbox-pool-so";
+import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
 import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
 
 /**
@@ -12,17 +14,21 @@ import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
 export class SandboxExecutor implements IToolExecutor {
   private readonly provider: MCPSandboxProvider;
   private readonly sandboxPool: SandboxPoolSO;
+  private readonly packageRepository: PackageRepository;
 
   constructor(provider: MCPSandboxProvider) {
     this.provider = provider;
     this.sandboxPool = SandboxPoolSO.getInstance();
+    const __dirname = getDirname(import.meta.url);
+    const packagesDir = path.join(__dirname, "../../../packages");
+    this.packageRepository = new PackageRepository(packagesDir);
   }
 
   /**
    * 执行工具
    */
   async executeTool(request: ToolExecuteRequest): Promise<unknown> {
-    const mcpServerConfig = getPackageConfigByKey(request.packageName);
+    const mcpServerConfig = this.packageRepository.getPackageConfig(request.packageName);
     const runtime = mcpServerConfig.runtime || "python";
 
     const sandboxClient = await this.sandboxPool.acquire(runtime, this.provider);
@@ -65,7 +71,7 @@ export class SandboxExecutor implements IToolExecutor {
    * 列出工具
    */
   async listTools(packageName: string): Promise<Tool[]> {
-    const mcpServerConfig = getPackageConfigByKey(packageName);
+    const mcpServerConfig = this.packageRepository.getPackageConfig(packageName);
     const runtime = mcpServerConfig.runtime || "python";
 
     const sandboxClient: ISandboxClient = await this.sandboxPool.acquire(runtime, this.provider);

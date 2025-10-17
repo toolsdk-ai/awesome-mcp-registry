@@ -4,7 +4,16 @@
 
 import type { z } from "@hono/zod-openapi";
 import { ErrorResponseSchema } from "../schemas";
-import type { Response } from "../types";
+
+/**
+ * 通用响应接口
+ */
+export interface Response<T> {
+  success: boolean;
+  code: number;
+  message: string;
+  data?: T;
+}
 
 /**
  * 创建成功响应

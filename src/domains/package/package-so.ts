@@ -1,7 +1,7 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import type { MCPServerPackageConfig } from "../../shared/types";
 import type { IToolExecutor } from "../executor/executor-interface";
 import type { PackageRepository } from "./package-repository";
+import type { MCPServerPackageConfig } from "./package-types";
 
 /**
  * Package Service Object

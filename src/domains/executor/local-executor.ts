@@ -1,6 +1,8 @@
+import path from "node:path";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { getPackageConfigByKey } from "../../helper";
+import { getDirname } from "../../shared/utils/file-util";
 import { getMcpClient } from "../../shared/utils/mcp-client-util";
+import { PackageRepository } from "../package/package-repository";
 import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
 
 /**
@@ -8,11 +10,18 @@ import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
  * 在本地环境中执行 MCP 工具
  */
 export class LocalExecutor implements IToolExecutor {
+  private readonly packageRepository: PackageRepository;
+
+  constructor() {
+    const __dirname = getDirname(import.meta.url);
+    const packagesDir = path.join(__dirname, "../../../packages");
+    this.packageRepository = new PackageRepository(packagesDir);
+  }
   /**
    * 执行工具
    */
   async executeTool(request: ToolExecuteRequest): Promise<unknown> {
-    const mcpServerConfig = getPackageConfigByKey(request.packageName);
+    const mcpServerConfig = this.packageRepository.getPackageConfig(request.packageName);
     const { client, closeConnection } = await getMcpClient(mcpServerConfig, request.envs || {});
 
     try {
@@ -32,7 +41,7 @@ export class LocalExecutor implements IToolExecutor {
    * 列出工具
    */
   async listTools(packageName: string): Promise<Tool[]> {
-    const mcpServerConfig = getPackageConfigByKey(packageName);
+    const mcpServerConfig = this.packageRepository.getPackageConfig(packageName);
 
     // 为需要环境变量的包创建 mock 环境变量
     const mockEnvs: Record<string, string> = {};

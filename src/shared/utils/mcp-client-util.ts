@@ -8,7 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
-import type { MCPServerPackageConfig } from "../types";
+import type { MCPServerPackageConfig } from "../../domains/package/package-types";
 import { getDirname } from "./file-util";
 
 const __dirname = getDirname(import.meta.url);

@@ -1,7 +1,7 @@
 /** biome-ignore-all lint/complexity/noStaticOnlyClass: <explanation> */
-import type { MCPSandboxProvider } from "../../shared/types";
 import { DaytonaSandboxClient } from "./clients/daytona-client";
 import type { ISandboxClient } from "./sandbox-client-interface";
+import type { MCPSandboxProvider } from "./sandbox-types";
 
 /**
  * 沙盒工厂

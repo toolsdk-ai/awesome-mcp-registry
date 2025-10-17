@@ -1,11 +1,14 @@
+import path from "node:path";
 import { Daytona, type DaytonaConfig, Image, type Sandbox } from "@daytonaio/sdk";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { getPackageConfigByKey } from "../../../helper";
 import { getDaytonaConfig, getSandockDaytonaConfig } from "../../../shared/config/environment";
-import type { MCPSandboxProvider, MCPServerPackageConfig } from "../../../shared/types";
+import { getDirname } from "../../../shared/utils/file-util";
 import { extractLastOuterJSON } from "../../../shared/utils/string-util";
+import { PackageRepository } from "../../package/package-repository";
+import type { MCPServerPackageConfig } from "../../package/package-types";
 import type { ISandboxClient, SandboxExecuteResult } from "../sandbox-client-interface";
 import { SandboxStatus } from "../sandbox-client-interface";
+import type { MCPSandboxProvider } from "../sandbox-types";
 
 interface MCPToolResult {
   toolCount: number;
@@ -27,12 +30,16 @@ export class DaytonaSandboxClient implements ISandboxClient {
   private initializing: Promise<void> | null = null;
   private readonly provider: MCPSandboxProvider;
   private status: SandboxStatus = SandboxStatus.IDLE;
+  private readonly packageRepository: PackageRepository;
 
   constructor(
     _runtime: "node" | "python" | "java" | "go" = "node",
     provider: MCPSandboxProvider = "DAYTONA",
   ) {
     this.provider = provider;
+    const __dirname = getDirname(import.meta.url);
+    const packagesDir = path.join(__dirname, "../../../../packages");
+    this.packageRepository = new PackageRepository(packagesDir);
   }
 
   /**
@@ -122,7 +129,8 @@ export class DaytonaSandboxClient implements ISandboxClient {
    * 列出工具
    */
   async listTools(packageKey: string): Promise<Tool[]> {
-    const mcpServerConfig: MCPServerPackageConfig = getPackageConfigByKey(packageKey);
+    const mcpServerConfig: MCPServerPackageConfig =
+      this.packageRepository.getPackageConfig(packageKey);
     const testCode: string = this.generateMCPTestCode(mcpServerConfig, "listTools");
 
     const response = await this.executeCode(testCode);
@@ -146,7 +154,8 @@ export class DaytonaSandboxClient implements ISandboxClient {
     argumentsObj: Record<string, unknown>,
     envs?: Record<string, string>,
   ): Promise<unknown> {
-    const mcpServerConfig: MCPServerPackageConfig = getPackageConfigByKey(packageKey);
+    const mcpServerConfig: MCPServerPackageConfig =
+      this.packageRepository.getPackageConfig(packageKey);
     const testCode: string = this.generateMCPTestCode(
       mcpServerConfig,
       "executeTool",

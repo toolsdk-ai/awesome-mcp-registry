@@ -1,7 +1,6 @@
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
-import { getPythonDependencies } from "../../helper";
-import type { PackagesList } from "../../shared/types";
 import { createResponse, createRouteResponses } from "../../shared/utils/response-util";
+import { getPythonDependencies } from "../../shared/utils/validation-util";
 import { packageHandler } from "./package-handler";
 import {
   ExecuteToolResponseSchema,
@@ -11,6 +10,7 @@ import {
   ToolExecuteSchema,
   ToolsResponseSchema,
 } from "./package-schema";
+import type { PackagesList } from "./package-types";
 
 export const packageRoutes = new OpenAPIHono();
 

@@ -1,6 +1,6 @@
-import type { MCPSandboxProvider } from "../../shared/types";
 import type { ISandboxClient, SandboxStatus } from "./sandbox-client-interface";
 import { SandboxFactory } from "./sandbox-factory";
+import type { MCPSandboxProvider } from "./sandbox-types";
 
 /**
  * 沙盒池记录

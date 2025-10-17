@@ -5,7 +5,7 @@
 
 import path from "node:path";
 import dotenv from "dotenv";
-import type { MCPSandboxProvider } from "../types";
+import type { MCPSandboxProvider } from "../../domains/sandbox/sandbox-types";
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });

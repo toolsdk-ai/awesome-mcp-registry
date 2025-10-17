@@ -1,9 +1,9 @@
 import path from "node:path";
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
-import type { CategoryConfig } from "../../shared/types";
 import { getDirname } from "../../shared/utils/file-util";
 import { createResponse, createRouteResponses } from "../../shared/utils/response-util";
 import { configSchemas } from "./config-schema";
+import type { CategoryConfig } from "./config-types";
 
 const __dirname = getDirname(import.meta.url);
 
