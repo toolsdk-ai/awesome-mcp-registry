@@ -13,7 +13,9 @@ export const BaseResponseSchema = z.object({
 
 export const ErrorResponseSchema = BaseResponseSchema.extend({
   success: z.literal(false),
-  data: z.undefined().optional(),
+  data: z.null().optional().openapi({
+    description: "No data for error responses",
+  }),
 }).openapi("ErrorResponse");
 
 /**

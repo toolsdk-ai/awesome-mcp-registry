@@ -1,4 +1,3 @@
-/** biome-ignore-all lint/complexity/noStaticOnlyClass: <explanation> */
 import { DaytonaSandboxClient } from "./clients/daytona-client";
 import type { ISandboxClient } from "./sandbox-client-interface";
 import type { MCPSandboxProvider } from "./sandbox-types";
@@ -7,6 +6,8 @@ import type { MCPSandboxProvider } from "./sandbox-types";
  * 沙盒工厂
  * 根据提供商创建对应的沙盒客户端
  */
+
+// biome-ignore lint/complexity/noStaticOnlyClass: 沙盒工厂类
 export class SandboxFactory {
   /**
    * 创建沙盒客户端
