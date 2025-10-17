@@ -8,6 +8,7 @@ import { configRoutes } from "../domains/config/config-route";
 import { packageRoutes } from "../domains/package/package-route";
 import { searchRoutes } from "../domains/search/search-route";
 import { SearchSO } from "../domains/search/search-so";
+import { getServerPort, isSearchEnabled } from "../shared/config/environment";
 import { getDirname } from "../shared/utils/file-util";
 
 const __dirname = getDirname(import.meta.url);
@@ -34,7 +35,7 @@ app.route("/api/v1", packageRoutes);
 app.route("/api/v1", configRoutes);
 
 // 仅在启用搜索时加载搜索路由
-if (process.env.ENABLE_SEARCH === "true") {
+if (isSearchEnabled()) {
   initializeSearchService().catch(console.error);
   app.route("/api/v1", searchRoutes);
 }
@@ -93,7 +94,7 @@ app.onError((err: Error, c: Context) => {
 });
 
 // 启动服务器
-const port = Number.parseInt(process.env.PORT || "3003", 10);
+const port = getServerPort();
 
 console.log(`🚀 Server is starting on port ${port}...`);
 

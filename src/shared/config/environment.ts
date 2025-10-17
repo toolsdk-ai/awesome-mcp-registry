@@ -64,9 +64,11 @@ export function getMeiliSearchConfig() {
 
 /**
  * 获取服务器端口
+ * 优先使用 PORT，其次使用 MCP_SERVER_PORT，默认为 3003
  */
 export function getServerPort(): number {
-  return process.env.MCP_SERVER_PORT ? parseInt(process.env.MCP_SERVER_PORT, 10) : 3003;
+  const port = process.env.PORT || process.env.MCP_SERVER_PORT;
+  return port ? parseInt(port, 10) : 3003;
 }
 
 /**

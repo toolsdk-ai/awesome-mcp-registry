@@ -5,6 +5,7 @@
 
 import fs from "node:fs/promises";
 import { type Index, MeiliSearch } from "meilisearch";
+import { getMeiliSearchConfig } from "../../shared/config/environment";
 
 interface PackageData {
   name?: string;
@@ -58,8 +59,9 @@ export class SearchSO {
       return SearchSO.instance;
     }
 
-    const meiliHost = host || process.env.MEILI_HTTP_ADDR || "http://localhost:7700";
-    const meiliKey = apiKey || process.env.MEILI_MASTER_KEY || undefined;
+    const meiliConfig = getMeiliSearchConfig();
+    const meiliHost = host || meiliConfig.host;
+    const meiliKey = apiKey || meiliConfig.apiKey || undefined;
 
     const client = new MeiliSearch({
       host: meiliHost,
