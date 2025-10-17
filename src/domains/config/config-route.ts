@@ -9,9 +9,6 @@ const __dirname = getDirname(import.meta.url);
 
 export const configRoutes = new OpenAPIHono();
 
-/**
- * Featured 配置路由
- */
 const featuredRoute = createRoute({
   method: "get",
   path: "/config/featured",
@@ -26,9 +23,6 @@ configRoutes.openapi(featuredRoute, async (c) => {
   return c.json(response, 200);
 });
 
-/**
- * Categories 配置路由
- */
 const categoriesRoute = createRoute({
   method: "get",
   path: "/config/categories",

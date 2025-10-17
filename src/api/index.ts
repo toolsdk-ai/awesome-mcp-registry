@@ -8,7 +8,6 @@ import { searchRoutes } from "../domains/search/search-route";
 import { SearchSO } from "../domains/search/search-so";
 import { getServerPort, isSearchEnabled } from "../shared/config/environment";
 
-// 初始化搜索服务
 const initializeSearchService = async () => {
   try {
     await SearchSO.getInstance();
@@ -25,13 +24,11 @@ const app = new OpenAPIHono();
 app.route("/api/v1", packageRoutes);
 app.route("/api/v1", configRoutes);
 
-// 仅在启用搜索时加载搜索路由
 if (isSearchEnabled()) {
   initializeSearchService().catch(console.error);
   app.route("/api/v1", searchRoutes);
 }
 
-// 首页
 app.get("/", (c: Context) => {
   return c.json({
     message: "MCP Registry API Server",
@@ -41,7 +38,6 @@ app.get("/", (c: Context) => {
   });
 });
 
-// 元信息
 app.get("/api/meta", async (c: Context) => {
   try {
     const packageJson = await import("../../package.json", {
@@ -66,12 +62,10 @@ app.doc("/api/v1/doc", {
 // Swagger UI
 app.get("/swagger", swaggerUI({ url: "/api/v1/doc" }));
 
-// 404 处理
 app.notFound((c: Context) => {
   return c.json({ success: false, code: 404, message: "[Registry API] Route not found" }, 404);
 });
 
-// 错误处理
 app.onError((err: Error, c: Context) => {
   console.error("Server Error:", err);
   return c.json(
@@ -84,7 +78,6 @@ app.onError((err: Error, c: Context) => {
   );
 });
 
-// 启动服务器
 const port = getServerPort();
 
 console.log(`🚀 Server is starting on port ${port}...`);

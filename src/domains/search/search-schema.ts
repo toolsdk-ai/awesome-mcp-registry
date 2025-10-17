@@ -1,13 +1,6 @@
 import { z } from "@hono/zod-openapi";
 import { BaseResponseSchema } from "../../shared/schemas/common-schema";
 
-/**
- * Search 领域的 Zod Schemas
- * 用于 API 输入输出验证和 OpenAPI 文档生成
- */
-
-// ===== 搜索相关 Schemas =====
-
 export const searchQuerySchema = z.object({
   q: z.string().openapi({
     description: "Search query",
@@ -55,8 +48,6 @@ export const searchResponseSchema = BaseResponseSchema.extend({
     .optional(),
 }).openapi("SearchResponse");
 
-// ===== 建议相关 Schemas =====
-
 export const suggestQuerySchema = z.object({
   q: z.string().openapi({
     description: "Suggestion query",
@@ -85,8 +76,6 @@ export const suggestResponseSchema = BaseResponseSchema.extend({
     .optional(),
 }).openapi("SuggestResponse");
 
-// ===== Facets 相关 Schemas =====
-
 export const facetsResponseSchema = BaseResponseSchema.extend({
   data: z
     .object({
@@ -96,8 +85,6 @@ export const facetsResponseSchema = BaseResponseSchema.extend({
     })
     .optional(),
 }).openapi("FacetsResponse");
-
-// ===== 健康检查相关 Schemas =====
 
 export const healthResponseSchema = BaseResponseSchema.extend({
   data: z
@@ -110,8 +97,6 @@ export const healthResponseSchema = BaseResponseSchema.extend({
     })
     .optional(),
 }).openapi("HealthResponse");
-
-// ===== 管理相关 Schemas =====
 
 export const managementResponseSchema = BaseResponseSchema.extend({
   data: z

@@ -8,8 +8,8 @@ import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
 import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
 
 /**
- * 沙盒执行器
- * 在沙盒环境中执行 MCP 工具
+ * Sandbox Executor
+ * Executes MCP tools in sandbox environment
  */
 export class SandboxExecutor implements IToolExecutor {
   private readonly provider: MCPSandboxProvider;
@@ -24,9 +24,6 @@ export class SandboxExecutor implements IToolExecutor {
     this.packageRepository = new PackageRepository(packagesDir);
   }
 
-  /**
-   * 执行工具
-   */
   async executeTool(request: ToolExecuteRequest): Promise<unknown> {
     const mcpServerConfig = this.packageRepository.getPackageConfig(request.packageName);
     const runtime = mcpServerConfig.runtime || "python";
@@ -46,7 +43,6 @@ export class SandboxExecutor implements IToolExecutor {
       console.log(`[SandboxExecutor] Tool ${request.toolKey} executed successfully in sandbox`);
       return result;
     } catch (error) {
-      // 如果是沙盒未找到错误，尝试重新初始化并重试
       if (error instanceof Error && error.message.includes("sandbox was not found")) {
         console.log("[SandboxExecutor] Retrying tool execution after sandbox failure");
         await sandboxClient.initialize();
@@ -67,9 +63,6 @@ export class SandboxExecutor implements IToolExecutor {
     }
   }
 
-  /**
-   * 列出工具
-   */
   async listTools(packageName: string): Promise<Tool[]> {
     const mcpServerConfig = this.packageRepository.getPackageConfig(packageName);
     const runtime = mcpServerConfig.runtime || "python";
@@ -83,7 +76,6 @@ export class SandboxExecutor implements IToolExecutor {
       console.log(`[SandboxExecutor] Tools list retrieved successfully for package ${packageName}`);
       return tools;
     } catch (error) {
-      // 如果是沙盒未找到错误，尝试重新初始化并重试
       if (error instanceof Error && error.message.includes("sandbox was not found")) {
         console.log("[SandboxExecutor] Retrying tools listing after sandbox failure");
         await sandboxClient.initialize();

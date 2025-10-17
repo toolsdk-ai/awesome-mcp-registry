@@ -3,10 +3,6 @@ import type { IToolExecutor } from "../executor/executor-interface";
 import type { PackageRepository } from "./package-repository";
 import type { MCPServerPackageConfig } from "./package-types";
 
-/**
- * Package Service Object
- * 包管理业务对象，处理包相关的核心业务逻辑
- */
 export class PackageSO {
   private constructor(
     private readonly _packageName: string,
@@ -36,14 +32,6 @@ export class PackageSO {
     return this._config;
   }
 
-  // ===== 初始化方法 =====
-  /**
-   * 初始化 PackageSO
-   * @param packageName 包名
-   * @param repository 包仓储
-   * @param executor 执行器
-   * @returns PackageSO 实例
-   */
   static async init(
     packageName: string,
     repository: PackageRepository,
@@ -55,22 +43,10 @@ export class PackageSO {
     return new PackageSO(packageName, config, packageInfo, repository, executor);
   }
 
-  // ===== 业务方法 =====
-  /**
-   * 获取工具列表
-   * @returns 工具列表
-   */
   async getTools(): Promise<Tool[]> {
     return await this._executor.listTools(this.packageName);
   }
 
-  /**
-   * 执行工具
-   * @param toolKey 工具键
-   * @param inputData 输入数据
-   * @param envs 环境变量
-   * @returns 执行结果
-   */
   async executeTool(
     toolKey: string,
     inputData: Record<string, unknown>,
@@ -84,11 +60,6 @@ export class PackageSO {
     });
   }
 
-  // ===== 数据转换方法（供 Handler 使用）=====
-  /**
-   * 获取包详情（包含工具列表）
-   * @returns 包详情数据
-   */
   async getDetailWithTools() {
     let tools: Tool[] | undefined;
     try {

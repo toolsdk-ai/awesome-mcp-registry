@@ -1,8 +1,3 @@
-/**
- * Search Service Object
- * 处理 MeiliSearch 搜索和索引相关的业务逻辑
- */
-
 import fs from "node:fs/promises";
 import { type Index, MeiliSearch } from "meilisearch";
 import { getMeiliSearchConfig } from "../../shared/config/environment";
@@ -26,7 +21,7 @@ interface SearchOptions {
 
 /**
  * Search Service Object
- * 使用单例模式管理 MeiliSearch 连接和索引
+ * Manages MeiliSearch connection and indexing with singleton pattern
  */
 export class SearchSO {
   private static instance: SearchSO | null = null;
@@ -38,7 +33,6 @@ export class SearchSO {
     private readonly indexName: string,
   ) {}
 
-  // ===== Getters =====
   get index() {
     return this._index;
   }
@@ -46,10 +40,6 @@ export class SearchSO {
     return this._index !== null;
   }
 
-  // ===== 静态工厂方法（单例）=====
-  /**
-   * 获取或创建 SearchSO 实例（单例模式）
-   */
   static async getInstance(
     host?: string,
     apiKey?: string,
@@ -70,11 +60,9 @@ export class SearchSO {
 
     console.log(`Connecting to MeiliSearch at ${meiliHost}...`);
 
-    // 健康检查
     await client.health();
     console.log("✅ MeiliSearch is healthy");
 
-    // 创建或获取索引
     let index: Index;
     try {
       await client.createIndex(indexName, { primaryKey: "id" });
@@ -95,10 +83,6 @@ export class SearchSO {
     return searchSO;
   }
 
-  // ===== 业务方法 =====
-  /**
-   * 配置搜索索引设置
-   */
   private async configureIndex(): Promise<void> {
     if (!this._index) return;
 
@@ -139,9 +123,6 @@ export class SearchSO {
     }
   }
 
-  /**
-   * 搜索包
-   */
   async search(query: string, options: SearchOptions = {}) {
     if (!this._index) {
       throw new Error("Search index not initialized. Call getInstance() first.");
@@ -178,9 +159,6 @@ export class SearchSO {
     }
   }
 
-  /**
-   * 获取搜索建议/自动完成
-   */
   async suggest(query: string, limit: number = 10) {
     if (!this._index) {
       throw new Error("Search index not initialized");
@@ -213,9 +191,6 @@ export class SearchSO {
     }
   }
 
-  /**
-   * 索引所有包
-   */
   async indexPackages(packagesPath: string) {
     if (!this._index) {
       throw new Error("Search index not initialized");
@@ -262,9 +237,6 @@ export class SearchSO {
     }
   }
 
-  /**
-   * 获取分面搜索结果（用于过滤器）
-   */
   async getFacets() {
     if (!this._index) {
       throw new Error("Search index not initialized");
@@ -282,9 +254,6 @@ export class SearchSO {
     }
   }
 
-  /**
-   * 获取索引统计信息
-   */
   async getStats() {
     if (!this._index) {
       throw new Error("Search index not initialized");
@@ -298,9 +267,6 @@ export class SearchSO {
     }
   }
 
-  /**
-   * 清空索引
-   */
   async clearIndex(): Promise<void> {
     if (!this._index) {
       throw new Error("Search index not initialized");
@@ -316,9 +282,6 @@ export class SearchSO {
     }
   }
 
-  /**
-   * 健康检查
-   */
   async healthCheck() {
     try {
       await this.client.health();
@@ -342,10 +305,6 @@ export class SearchSO {
     }
   }
 
-  // ===== 私有辅助方法 =====
-  /**
-   * 转换包数据用于索引
-   */
   private transformPackageForIndex(
     packageName: string,
     packageData: PackageData,

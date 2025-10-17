@@ -22,8 +22,8 @@ interface MCPExecuteResult {
 }
 
 /**
- * Daytona 沙盒客户端
- * 实现 ISandboxClient 接口
+ * Daytona Sandbox Client
+ * Implements ISandboxClient interface for Daytona/Sandock providers
  */
 export class DaytonaSandboxClient implements ISandboxClient {
   private sandbox: Sandbox | null = null;
@@ -42,16 +42,10 @@ export class DaytonaSandboxClient implements ISandboxClient {
     this.packageRepository = new PackageRepository(packagesDir);
   }
 
-  /**
-   * 获取沙盒状态
-   */
   getStatus(): SandboxStatus {
     return this.status;
   }
 
-  /**
-   * 初始化沙盒（幂等操作）
-   */
   async initialize(): Promise<void> {
     if (this.sandbox) {
       return;
@@ -64,7 +58,6 @@ export class DaytonaSandboxClient implements ISandboxClient {
     this.status = SandboxStatus.INITIALIZING;
     this.initializing = (async () => {
       try {
-        // 获取配置
         const config = this.provider === "SANDOCK" ? getSandockDaytonaConfig() : getDaytonaConfig();
 
         const daytonaConfig: DaytonaConfig = {
@@ -77,7 +70,6 @@ export class DaytonaSandboxClient implements ISandboxClient {
 
         const daytona = new Daytona(daytonaConfig);
 
-        // 创建镜像
         const declarativeImage = Image.base("node:20")
           .runCommands(
             "npm install -g pnpm",
@@ -105,9 +97,6 @@ export class DaytonaSandboxClient implements ISandboxClient {
     await this.initializing;
   }
 
-  /**
-   * 执行代码（内部使用）
-   */
   private async executeCode(code: string): Promise<SandboxExecuteResult> {
     if (!this.sandbox) {
       throw new Error("Sandbox not initialized. Call initialize() first.");
@@ -125,9 +114,6 @@ export class DaytonaSandboxClient implements ISandboxClient {
     }
   }
 
-  /**
-   * 列出工具
-   */
   async listTools(packageKey: string): Promise<Tool[]> {
     const mcpServerConfig: MCPServerPackageConfig =
       this.packageRepository.getPackageConfig(packageKey);
@@ -145,9 +131,6 @@ export class DaytonaSandboxClient implements ISandboxClient {
     return result.tools;
   }
 
-  /**
-   * 执行工具
-   */
   async executeTool(
     packageKey: string,
     toolName: string,
@@ -181,9 +164,6 @@ export class DaytonaSandboxClient implements ISandboxClient {
     return result;
   }
 
-  /**
-   * 销毁沙盒
-   */
   async destroy(): Promise<void> {
     try {
       if (this.sandbox) {
@@ -198,9 +178,6 @@ export class DaytonaSandboxClient implements ISandboxClient {
     }
   }
 
-  /**
-   * 生成 MCP 测试代码
-   */
   private generateMCPTestCode(
     mcpServerConfig: MCPServerPackageConfig,
     operation: "listTools" | "executeTool",
@@ -305,9 +282,6 @@ runMCP();
     }
   }
 
-  /**
-   * 生成环境变量
-   */
   private generateEnvVariables(
     env: MCPServerPackageConfig["env"],
     realEnvs?: Record<string, string>,

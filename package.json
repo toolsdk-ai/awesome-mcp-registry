@@ -31,7 +31,10 @@
     "sort": "sort-package-json",
     "start": "NODE_ENV=production tsx src/api/index.ts",
     "test": "vitest run",
-    "test:search": "vitest run src/search/search.test.ts"
+    "test:watch": "vitest watch",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
+    "test:package": "vitest run src/domains/package"
   },
   "dependencies": {
     "@0xbeedao/mcp-taskwarrior": "1.0.0",
@@ -639,6 +642,8 @@
     "@types/lodash": "^4.17.17",
     "@types/node": "^22.15.21",
     "@types/semver": "^7.5.8",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
     "dotenv": "^17.2.1",
     "globals": "^16.2.0",
     "lefthook": "1.7.14",

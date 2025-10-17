@@ -1,13 +1,6 @@
-/**
- * 响应格式化工具函数
- */
-
 import type { z } from "@hono/zod-openapi";
 import { ErrorResponseSchema } from "../schemas";
 
-/**
- * 通用响应接口
- */
 export interface Response<T> {
   success: boolean;
   code: number;
@@ -15,9 +8,6 @@ export interface Response<T> {
   data?: T;
 }
 
-/**
- * 创建成功响应
- */
 export const createResponse = <T>(
   data: T,
   options?: {
@@ -36,9 +26,6 @@ export const createResponse = <T>(
   };
 };
 
-/**
- * 创建错误响应
- */
 export const createErrorResponse = (message: string, code: number = 400) => {
   return {
     success: false,
@@ -47,9 +34,6 @@ export const createErrorResponse = (message: string, code: number = 400) => {
   };
 };
 
-/**
- * 创建路由响应定义
- */
 export const createRouteResponses = <T extends z.ZodTypeAny>(
   successSchema: T,
   options?: {

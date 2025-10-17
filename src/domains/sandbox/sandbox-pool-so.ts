@@ -2,9 +2,6 @@ import type { ISandboxClient, SandboxStatus } from "./sandbox-client-interface";
 import { SandboxFactory } from "./sandbox-factory";
 import type { MCPSandboxProvider } from "./sandbox-types";
 
-/**
- * 沙盒池记录
- */
 interface SandboxPoolRecord {
   client: ISandboxClient;
   refCount: number;
@@ -14,8 +11,8 @@ interface SandboxPoolRecord {
 }
 
 /**
- * 沙盒池 Service Object
- * 负责沙盒实例的生命周期管理（单例模式）
+ * Sandbox Pool Service Object
+ * Manages sandbox instance lifecycle with singleton pattern
  */
 export class SandboxPoolSO {
   private static instance: SandboxPoolSO;
@@ -27,9 +24,6 @@ export class SandboxPoolSO {
     this.maxSize = maxSize;
   }
 
-  /**
-   * 获取沙盒池单例
-   */
   static getInstance(): SandboxPoolSO {
     if (!SandboxPoolSO.instance) {
       SandboxPoolSO.instance = new SandboxPoolSO();
@@ -37,9 +31,6 @@ export class SandboxPoolSO {
     return SandboxPoolSO.instance;
   }
 
-  /**
-   * 获取沙盒键
-   */
   private getSandboxKey(
     runtime: "node" | "python" | "java" | "go",
     provider: MCPSandboxProvider,
@@ -47,9 +38,6 @@ export class SandboxPoolSO {
     return `sandbox-${provider}-${runtime}`;
   }
 
-  /**
-   * 获取或创建沙盒实例
-   */
   async acquire(
     runtime: "node" | "python" | "java" | "go",
     provider: MCPSandboxProvider,
@@ -66,12 +54,10 @@ export class SandboxPoolSO {
       return record.client;
     }
 
-    // 检查是否达到最大数量
     if (this.pools.size >= this.maxSize) {
       await this.evictLRU();
     }
 
-    // 创建新的沙盒实例
     console.log(`[SandboxPoolSO] Creating new sandbox: ${sandboxKey}`);
     const client = SandboxFactory.create(runtime, provider);
 
@@ -87,9 +73,6 @@ export class SandboxPoolSO {
     return client;
   }
 
-  /**
-   * 释放沙盒实例
-   */
   async release(
     runtime: "node" | "python" | "java" | "go",
     provider: MCPSandboxProvider,
@@ -107,7 +90,6 @@ export class SandboxPoolSO {
 
     console.log(`[SandboxPoolSO] Released sandbox: ${sandboxKey} (refCount: ${record.refCount})`);
 
-    // 如果引用计数为 0，立即关闭沙盒
     if (record.refCount === 0) {
       try {
         await record.client.destroy();
@@ -120,8 +102,8 @@ export class SandboxPoolSO {
   }
 
   /**
-   * LRU 淘汰策略
-   * 淘汰最久未使用且引用计数为 0 的沙盒
+   * LRU eviction strategy
+   * Evicts least recently used sandbox with zero reference count
    */
   private async evictLRU(): Promise<void> {
     let lruKey: string | null = null;
@@ -150,9 +132,6 @@ export class SandboxPoolSO {
     }
   }
 
-  /**
-   * 清理所有沙盒
-   */
   async cleanup(): Promise<void> {
     console.log(`[SandboxPoolSO] Cleaning up ${this.pools.size} sandbox(es)`);
 
@@ -175,9 +154,6 @@ export class SandboxPoolSO {
     console.log("[SandboxPoolSO] All sandboxes cleaned up");
   }
 
-  /**
-   * 获取池状态（用于调试）
-   */
   getPoolStatus() {
     const status: Record<string, { refCount: number; lastUsedAt: number; status: SandboxStatus }> =
       {};

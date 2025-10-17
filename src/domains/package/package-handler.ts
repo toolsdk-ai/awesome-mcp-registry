@@ -9,19 +9,11 @@ import { PackageSO } from "./package-so";
 
 const __dirname = getDirname(import.meta.url);
 
-// 初始化依赖（单例）
 const packagesDir = path.join(__dirname, "../../../packages");
 const repository = new PackageRepository(packagesDir);
 const executor = ExecutorFactory.create(getSandboxProvider());
 
-/**
- * Package Handler
- * 处理包相关的 HTTP 请求
- */
 export const packageHandler = {
-  /**
-   * 获取包详情
-   */
   getPackageDetail: async (c: Context) => {
     const packageName = c.req.query("packageName");
     if (!packageName) {
@@ -40,9 +32,6 @@ export const packageHandler = {
     }
   },
 
-  /**
-   * 执行工具
-   */
   executeTool: async (c: Context) => {
     const body = await c.req.json();
     const { packageName, toolKey, inputData, envs } = body;
@@ -68,9 +57,6 @@ export const packageHandler = {
     }
   },
 
-  /**
-   * 列出工具
-   */
   listTools: async (c: Context) => {
     const packageName = c.req.query("packageName");
     if (!packageName) {

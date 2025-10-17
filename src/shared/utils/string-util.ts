@@ -1,12 +1,3 @@
-/**
- * 字符串工具函数
- */
-
-/**
- * 从字符串中提取最后一个完整的 JSON 对象
- * @param str 输入字符串
- * @returns JSON 字符串
- */
 export function extractLastOuterJSON(str: string): string {
   console.log("Extracting JSON from:", str);
   let braceCount = 0;

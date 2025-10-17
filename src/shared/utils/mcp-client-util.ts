@@ -1,8 +1,3 @@
-/**
- * MCP 客户端工具
- * 负责创建和管理 MCP 客户端连接
- */
-
 import assert from "node:assert";
 import fs from "node:fs";
 import path from "node:path";
@@ -13,9 +8,6 @@ import { getDirname } from "./file-util";
 
 const __dirname = getDirname(import.meta.url);
 
-/**
- * 获取包的 package.json
- */
 export function getPackageJSON(packageName: string) {
   const packageJSONFilePath = path.join(
     __dirname,
@@ -35,9 +27,6 @@ export function getPackageJSON(packageName: string) {
   return packageJSON;
 }
 
-/**
- * 创建 MCP 客户端
- */
 async function createMcpClient(
   mcpServerConfig: MCPServerPackageConfig,
   transport: StdioClientTransport,
@@ -68,9 +57,6 @@ async function createMcpClient(
   return { client, transport, closeConnection };
 }
 
-/**
- * 获取 Node.js MCP 客户端
- */
 async function getNodeMcpClient(
   mcpServerConfig: MCPServerPackageConfig,
   env?: Record<string, string>,
@@ -102,9 +88,6 @@ async function getNodeMcpClient(
   return createMcpClient(mcpServerConfig, transport);
 }
 
-/**
- * 获取 Python MCP 客户端
- */
 async function getPyMcpClient(
   mcpServerConfig: MCPServerPackageConfig,
   env?: Record<string, string>,
@@ -127,9 +110,6 @@ async function getPyMcpClient(
   return createMcpClient(mcpServerConfig, transport);
 }
 
-/**
- * 获取 MCP 客户端（统一入口）
- */
 export async function getMcpClient(
   mcpServerConfig: MCPServerPackageConfig,
   env?: Record<string, string>,

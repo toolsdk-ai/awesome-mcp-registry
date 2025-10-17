@@ -1,8 +1,3 @@
-/**
- * 环境配置管理
- * 集中管理所有环境变量
- */
-
 import path from "node:path";
 import dotenv from "dotenv";
 import type { MCPSandboxProvider } from "../../domains/sandbox/sandbox-types";
@@ -10,9 +5,6 @@ import type { MCPSandboxProvider } from "../../domains/sandbox/sandbox-types";
 dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
-/**
- * 获取沙盒提供商
- */
 export function getSandboxProvider(): MCPSandboxProvider {
   console.log("process.env.MCP_SANDBOX_PROVIDER", process.env.MCP_SANDBOX_PROVIDER);
   const provider = (process.env.MCP_SANDBOX_PROVIDER || "LOCAL").toUpperCase();
@@ -32,9 +24,6 @@ export function getSandboxProvider(): MCPSandboxProvider {
   return "LOCAL";
 }
 
-/**
- * 获取 Daytona API 配置
- */
 export function getDaytonaConfig() {
   return {
     apiKey: process.env.DAYTONA_API_KEY || "",
@@ -42,9 +31,6 @@ export function getDaytonaConfig() {
   };
 }
 
-/**
- * Get Sandock Daytona API Configuration
- */
 export function getSandockDaytonaConfig() {
   return {
     apiKey: process.env.DAYTONA_API_KEY || "",
@@ -52,9 +38,6 @@ export function getSandockDaytonaConfig() {
   };
 }
 
-/**
- * 获取 MeiliSearch 配置
- */
 export function getMeiliSearchConfig() {
   return {
     host: process.env.MEILI_HTTP_ADDR || "http://localhost:7700",
@@ -62,18 +45,11 @@ export function getMeiliSearchConfig() {
   };
 }
 
-/**
- * 获取服务器端口
- * 优先使用 PORT，其次使用 MCP_SERVER_PORT，默认为 3003
- */
 export function getServerPort(): number {
   const port = process.env.PORT || process.env.MCP_SERVER_PORT;
   return port ? parseInt(port, 10) : 3003;
 }
 
-/**
- * 是否启用搜索功能
- */
 export function isSearchEnabled(): boolean {
   return process.env.ENABLE_SEARCH === "true";
 }

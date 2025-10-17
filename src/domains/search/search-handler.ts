@@ -6,7 +6,6 @@ import { SearchSO } from "./search-so";
 
 const __dirname = getDirname(import.meta.url);
 
-// 初始化 SearchSO 单例（延迟初始化）
 let searchSO: SearchSO | null = null;
 
 async function getSearchSO(): Promise<SearchSO> {
@@ -16,14 +15,7 @@ async function getSearchSO(): Promise<SearchSO> {
   return searchSO;
 }
 
-/**
- * Search Handler
- * 处理搜索相关的 HTTP 请求
- */
 export const searchHandler = {
-  /**
-   * 搜索
-   */
   search: async (c: Context) => {
     try {
       const q = c.req.query("q") || "";
@@ -43,9 +35,6 @@ export const searchHandler = {
     }
   },
 
-  /**
-   * 获取搜索建议
-   */
   suggest: async (c: Context) => {
     try {
       const q = c.req.query("q") || "";
@@ -64,9 +53,6 @@ export const searchHandler = {
     }
   },
 
-  /**
-   * 获取 Facets
-   */
   getFacets: async (c: Context) => {
     try {
       const so = await getSearchSO();
@@ -89,9 +75,6 @@ export const searchHandler = {
     }
   },
 
-  /**
-   * 健康检查
-   */
   healthCheck: async (c: Context) => {
     try {
       const so = await getSearchSO();
@@ -107,9 +90,6 @@ export const searchHandler = {
     }
   },
 
-  /**
-   * 初始化搜索服务
-   */
   initialize: async (c: Context) => {
     try {
       searchSO = await SearchSO.getInstance();
@@ -124,9 +104,6 @@ export const searchHandler = {
     }
   },
 
-  /**
-   * 索引包
-   */
   indexPackages: async (c: Context) => {
     try {
       const so = await getSearchSO();
@@ -149,9 +126,6 @@ export const searchHandler = {
     }
   },
 
-  /**
-   * 清空索引
-   */
   clearIndex: async (c: Context) => {
     try {
       const so = await getSearchSO();
@@ -167,9 +141,6 @@ export const searchHandler = {
     }
   },
 
-  /**
-   * 获取索引统计
-   */
   getStats: async (c: Context) => {
     try {
       const so = await getSearchSO();

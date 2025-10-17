@@ -6,8 +6,8 @@ import { PackageRepository } from "../package/package-repository";
 import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
 
 /**
- * 本地执行器
- * 在本地环境中执行 MCP 工具
+ * Local Executor
+ * Executes MCP tools in local environment
  */
 export class LocalExecutor implements IToolExecutor {
   private readonly packageRepository: PackageRepository;
@@ -17,9 +17,7 @@ export class LocalExecutor implements IToolExecutor {
     const packagesDir = path.join(__dirname, "../../../packages");
     this.packageRepository = new PackageRepository(packagesDir);
   }
-  /**
-   * 执行工具
-   */
+
   async executeTool(request: ToolExecuteRequest): Promise<unknown> {
     const mcpServerConfig = this.packageRepository.getPackageConfig(request.packageName);
     const { client, closeConnection } = await getMcpClient(mcpServerConfig, request.envs || {});
@@ -37,13 +35,9 @@ export class LocalExecutor implements IToolExecutor {
     }
   }
 
-  /**
-   * 列出工具
-   */
   async listTools(packageName: string): Promise<Tool[]> {
     const mcpServerConfig = this.packageRepository.getPackageConfig(packageName);
 
-    // 为需要环境变量的包创建 mock 环境变量
     const mockEnvs: Record<string, string> = {};
     if (mcpServerConfig.env) {
       Object.keys(mcpServerConfig.env).forEach((key) => {

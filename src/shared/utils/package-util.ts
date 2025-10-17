@@ -1,13 +1,6 @@
-/**
- * 包管理相关工具函数
- */
-
 import fs from "node:fs";
 import path from "node:path";
 
-/**
- * 更新 package.json 依赖
- */
 export function updatePackageJsonDependencies({
   packageDeps,
   enableValidation = false,
@@ -35,7 +28,6 @@ export function updatePackageJsonDependencies({
     semver: "^7.5.4",
   } as Record<string, string>;
 
-  // 如果需要验证，读取包列表
   if (enableValidation && packagesListPath) {
     const packagesListStr = fs.readFileSync(packagesListPath, "utf-8");
     const packagesList = JSON.parse(packagesListStr);
@@ -56,9 +48,6 @@ export function updatePackageJsonDependencies({
   console.log(`Generated new package.json file at ${packageJsonFile}`);
 }
 
-/**
- * 获取实际版本号
- */
 export function getActualVersion(packageName: string, configuredVersion?: string): string {
   if (configuredVersion && configuredVersion !== "latest") {
     return configuredVersion;

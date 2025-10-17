@@ -1,10 +1,5 @@
 import { z } from "@hono/zod-openapi";
 
-/**
- * 通用响应 Schemas
- * 所有 API 响应的基础 Schema
- */
-
 export const BaseResponseSchema = z.object({
   success: z.boolean(),
   code: z.number(),
@@ -18,9 +13,6 @@ export const ErrorResponseSchema = BaseResponseSchema.extend({
   }),
 }).openapi("ErrorResponse");
 
-/**
- * 创建成功响应 Schema 的工厂函数
- */
 export const createSuccessResponseSchema = <T extends z.ZodTypeAny>(dataSchema: T) => {
   return BaseResponseSchema.extend({
     success: z.literal(true),
@@ -28,14 +20,8 @@ export const createSuccessResponseSchema = <T extends z.ZodTypeAny>(dataSchema: 
   });
 };
 
-/**
- * 通用配置 Schemas
- */
-
-// 包键 Schema
 export const PackageKeySchema = z.string();
 
-// 分类配置 Schema
 export const CategoryConfigSchema = z
   .object({
     key: z.string(),
@@ -44,16 +30,9 @@ export const CategoryConfigSchema = z
   })
   .openapi("CategoryConfig");
 
-// 托管黑名单 Schema
 export const HostingBlackListSchema = z.array(PackageKeySchema);
 
-// 特色列表 Schema
 export const FeaturedListSchema = z.array(PackageKeySchema);
-
-/**
- * MCP 服务器包配置 Schemas
- * 这些是核心配置，被多个领域使用
- */
 
 export const MCPServerPackageConfigSchema = z
   .object({

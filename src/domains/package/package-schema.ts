@@ -1,12 +1,6 @@
 import { z } from "@hono/zod-openapi";
 import { BaseResponseSchema } from "../../shared/schemas/common-schema";
 
-/**
- * Package 领域的 Zod Schemas
- * 用于 API 输入输出验证和 OpenAPI 文档生成
- */
-
-// 查询参数 Schema
 export const packageNameQuerySchema = z.object({
   packageName: z.string().openapi({
     param: { name: "packageName", in: "query" },
@@ -14,7 +8,6 @@ export const packageNameQuerySchema = z.object({
   }),
 });
 
-// 请求体 Schema
 export const ToolExecuteSchema = z
   .object({
     packageName: z.string().openapi({ example: "@modelcontextprotocol/server-filesystem" }),
@@ -24,7 +17,6 @@ export const ToolExecuteSchema = z
   })
   .openapi("ToolExecute");
 
-// 工具数据 Schema
 const ToolDataSchema = z.object({
   name: z.string(),
   description: z.string().optional(),
@@ -37,7 +29,6 @@ const ToolDataSchema = z.object({
     .optional(),
 });
 
-// Package 详情数据 Schema
 const PackageDetailDataSchema = z.object({
   name: z.string().optional(),
   packageName: z.string(),
@@ -48,7 +39,6 @@ const PackageDetailDataSchema = z.object({
   tools: z.array(ToolDataSchema).optional(),
 });
 
-// 响应 Schema
 export const PackageDetailResponseSchema = BaseResponseSchema.extend({
   data: PackageDetailDataSchema.optional(),
 }).openapi("PackageDetailResponse");

@@ -3,18 +3,11 @@ import type { ISandboxClient } from "./sandbox-client-interface";
 import type { MCPSandboxProvider } from "./sandbox-types";
 
 /**
- * 沙盒工厂
- * 根据提供商创建对应的沙盒客户端
+ * Sandbox Factory
+ * Creates appropriate sandbox client based on provider
  */
-
-// biome-ignore lint/complexity/noStaticOnlyClass: 沙盒工厂类
+// biome-ignore lint/complexity/noStaticOnlyClass: Factory pattern
 export class SandboxFactory {
-  /**
-   * 创建沙盒客户端
-   * @param runtime 运行时环境
-   * @param provider 沙盒提供商
-   * @returns 沙盒客户端实例
-   */
   static create(
     runtime: "node" | "python" | "java" | "go",
     provider: MCPSandboxProvider,
@@ -22,11 +15,9 @@ export class SandboxFactory {
     switch (provider) {
       case "DAYTONA":
       case "SANDOCK":
-        // Daytona 和 Sandock 使用同一个客户端，只是配置不同
         return new DaytonaSandboxClient(runtime, provider);
 
       case "E2B":
-        // 未来实现 E2B
         throw new Error("E2B sandbox provider is not yet implemented");
 
       case "LOCAL":

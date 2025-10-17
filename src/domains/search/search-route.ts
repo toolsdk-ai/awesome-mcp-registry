@@ -13,9 +13,6 @@ import {
 
 export const searchRoutes = new OpenAPIHono();
 
-/**
- * 搜索路由
- */
 const searchRoute = createRoute({
   method: "get",
   path: "/search",
@@ -29,9 +26,6 @@ const searchRoute = createRoute({
 
 searchRoutes.openapi(searchRoute, searchHandler.search);
 
-/**
- * 搜索建议路由
- */
 const suggestRoute = createRoute({
   method: "get",
   path: "/search/suggest",
@@ -45,9 +39,6 @@ const suggestRoute = createRoute({
 
 searchRoutes.openapi(suggestRoute, searchHandler.suggest);
 
-/**
- * Facets 路由
- */
 const facetsRoute = createRoute({
   method: "get",
   path: "/search/facets",
@@ -58,9 +49,6 @@ const facetsRoute = createRoute({
 
 searchRoutes.openapi(facetsRoute, searchHandler.getFacets);
 
-/**
- * 健康检查路由
- */
 const healthRoute = createRoute({
   method: "get",
   path: "/search/health",
@@ -71,9 +59,6 @@ const healthRoute = createRoute({
 
 searchRoutes.openapi(healthRoute, searchHandler.healthCheck);
 
-/**
- * 初始化搜索服务路由
- */
 const initRoute = createRoute({
   method: "post",
   path: "/search/manage/init",
@@ -84,9 +69,6 @@ const initRoute = createRoute({
 
 searchRoutes.openapi(initRoute, searchHandler.initialize);
 
-/**
- * 索引包路由
- */
 const indexRoute = createRoute({
   method: "post",
   path: "/search/manage/index",
@@ -97,9 +79,6 @@ const indexRoute = createRoute({
 
 searchRoutes.openapi(indexRoute, searchHandler.indexPackages);
 
-/**
- * 清空索引路由
- */
 const clearRoute = createRoute({
   method: "post",
   path: "/search/manage/clear",
@@ -110,9 +89,6 @@ const clearRoute = createRoute({
 
 searchRoutes.openapi(clearRoute, searchHandler.clearIndex);
 
-/**
- * 索引统计路由
- */
 const statsRoute = createRoute({
   method: "get",
   path: "/search/manage/stats",

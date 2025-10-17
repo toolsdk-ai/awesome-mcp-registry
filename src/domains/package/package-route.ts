@@ -14,9 +14,6 @@ import type { PackagesList } from "./package-types";
 
 export const packageRoutes = new OpenAPIHono();
 
-/**
- * 包详情路由
- */
 const packageDetailRoute = createRoute({
   method: "get",
   path: "/packages/detail",
@@ -28,9 +25,6 @@ const packageDetailRoute = createRoute({
 
 packageRoutes.openapi(packageDetailRoute, packageHandler.getPackageDetail);
 
-/**
- * 工具列表路由
- */
 const toolsRoute = createRoute({
   method: "get",
   path: "/packages/tools",
@@ -42,9 +36,6 @@ const toolsRoute = createRoute({
 
 packageRoutes.openapi(toolsRoute, packageHandler.listTools);
 
-/**
- * 执行工具路由
- */
 const executeToolRoute = createRoute({
   method: "post",
   path: "/packages/run",
@@ -65,9 +56,6 @@ const executeToolRoute = createRoute({
 
 packageRoutes.openapi(executeToolRoute, packageHandler.executeTool);
 
-/**
- * 包列表路由
- */
 const packagesListRoute = createRoute({
   method: "get",
   path: "/indexes/packages-list",
@@ -80,9 +68,6 @@ packageRoutes.openapi(packagesListRoute, async (c) => {
   return c.json(response, 200);
 });
 
-/**
- * Python 依赖路由
- */
 const pythonTomlRoute = createRoute({
   method: "get",
   path: "/python-mcp/pyproject",
