@@ -1,12 +1,13 @@
 import path from "node:path";
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
-import { CategoriesResponseSchema, FeaturedResponseSchema } from "../../schema";
-import type { CategoryConfig } from "../../types";
-import { createResponse, createRouteResponses, getDirname } from "../../utils";
+import type { CategoryConfig } from "../../shared/types";
+import { getDirname } from "../../shared/utils/file-util";
+import { createResponse, createRouteResponses } from "../../shared/utils/response-util";
+import { configSchemas } from "./config-schema";
 
 const __dirname = getDirname(import.meta.url);
 
-export const configRoutes: OpenAPIHono = new OpenAPIHono();
+export const configRoutes = new OpenAPIHono();
 
 /**
  * Featured 配置路由
@@ -14,7 +15,7 @@ export const configRoutes: OpenAPIHono = new OpenAPIHono();
 const featuredRoute = createRoute({
   method: "get",
   path: "/config/featured",
-  responses: createRouteResponses(FeaturedResponseSchema),
+  responses: createRouteResponses(configSchemas.FeaturedResponseSchema),
 });
 
 configRoutes.openapi(featuredRoute, async (c) => {
@@ -31,7 +32,7 @@ configRoutes.openapi(featuredRoute, async (c) => {
 const categoriesRoute = createRoute({
   method: "get",
   path: "/config/categories",
-  responses: createRouteResponses(CategoriesResponseSchema),
+  responses: createRouteResponses(configSchemas.CategoriesResponseSchema),
 });
 
 configRoutes.openapi(categoriesRoute, async (c) => {

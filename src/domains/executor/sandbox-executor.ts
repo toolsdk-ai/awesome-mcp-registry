@@ -1,9 +1,9 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { SandboxPool } from "../../core/sandbox/SandboxPool";
 import { getPackageConfigByKey } from "../../helper";
 import type { MCPSandboxProvider } from "../../shared/types";
-import type { ISandboxClient } from "../sandbox/ISandboxClient";
-import type { IToolExecutor, ToolExecuteRequest } from "./IToolExecutor";
+import type { ISandboxClient } from "../sandbox/sandbox-client-interface";
+import { SandboxPoolSO } from "../sandbox/sandbox-pool-so";
+import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
 
 /**
  * 沙盒执行器
@@ -11,11 +11,11 @@ import type { IToolExecutor, ToolExecuteRequest } from "./IToolExecutor";
  */
 export class SandboxExecutor implements IToolExecutor {
   private readonly provider: MCPSandboxProvider;
-  private readonly sandboxPool: SandboxPool;
+  private readonly sandboxPool: SandboxPoolSO;
 
   constructor(provider: MCPSandboxProvider) {
     this.provider = provider;
-    this.sandboxPool = SandboxPool.getInstance();
+    this.sandboxPool = SandboxPoolSO.getInstance();
   }
 
   /**

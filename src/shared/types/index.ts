@@ -1,9 +1,10 @@
 /**
- * 共享类型导出
+ * 共享类型统一导出
+ * 从各个 domain 重新导出类型
  */
 
-// 搜索相关类型（暂时保留原来的导入）
-// 兼容旧代码：从原 types.ts 导入 ToolExecute
+// 通用响应类型（兼容层，从旧的 types.ts 导入）
+// TODO: 这些类型应该从 schemas 推导，逐步废弃直接导入
 export type {
   BaseResponse,
   CategoriesResponse,
@@ -17,6 +18,8 @@ export type {
   ToolExecute,
   ToolsResponse,
 } from "../../types";
+// 配置相关类型
+export * from "./config.types";
 // 执行器相关类型
 export * from "./executor.types";
 // 包相关类型

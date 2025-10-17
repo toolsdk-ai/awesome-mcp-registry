@@ -1,7 +1,8 @@
+/** biome-ignore-all lint/complexity/noStaticOnlyClass: <explanation> */
 import type { MCPSandboxProvider } from "../../shared/types";
-import type { IToolExecutor } from "./IToolExecutor";
-import { LocalExecutor } from "./LocalExecutor";
-import { SandboxExecutor } from "./SandboxExecutor";
+import type { IToolExecutor } from "./executor-interface";
+import { LocalExecutor } from "./local-executor";
+import { SandboxExecutor } from "./sandbox-executor";
 
 /**
  * 执行器工厂

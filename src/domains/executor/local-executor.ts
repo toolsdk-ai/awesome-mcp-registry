@@ -1,7 +1,7 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getPackageConfigByKey } from "../../helper";
-import { getMcpClient } from "../../shared/utils/mcp-client.util";
-import type { IToolExecutor, ToolExecuteRequest } from "./IToolExecutor";
+import { getMcpClient } from "../../shared/utils/mcp-client-util";
+import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
 
 /**
  * 本地执行器

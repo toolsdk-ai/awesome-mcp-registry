@@ -1,3 +1,15 @@
+/**
+ * @deprecated 该文件已废弃，类型定义已迁移到各个 domain 和 shared/types
+ *
+ * 迁移指南：
+ * - Package 相关类型 -> domains/package/package-types
+ * - Executor 相关类型 -> domains/executor/executor-types
+ * - Sandbox 相关类型 -> domains/sandbox/sandbox-types
+ * - Config 相关类型 -> domains/config/config-types
+ *
+ * 统一导入点：shared/types
+ */
+
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import type { z } from "zod";
 import type {

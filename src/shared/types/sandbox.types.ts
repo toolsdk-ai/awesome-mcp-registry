@@ -1,11 +1,11 @@
 /**
  * 沙盒相关类型
+ * 从 domains/sandbox 重新导出
  */
 
-export type { SandboxExecuteResult } from "../../core/sandbox/ISandboxClient";
-export { SandboxStatus } from "../../core/sandbox/ISandboxClient";
-
-/**
- * 沙盒提供商类型
- */
-export type MCPSandboxProvider = "LOCAL" | "DAYTONA" | "SANDOCK" | "E2B";
+export type {
+  ISandboxClient,
+  MCPSandboxProvider,
+  SandboxExecuteResult,
+} from "../../domains/sandbox/sandbox-types";
+export { SandboxStatus } from "../../domains/sandbox/sandbox-types";

@@ -1,3 +1,15 @@
+/**
+ * @deprecated 该文件已废弃，schemas 已迁移到各个 domain 和 shared/schemas
+ *
+ * 迁移指南：
+ * - BaseResponseSchema, ErrorResponseSchema, CategoryConfigSchema 等通用 schemas -> shared/schemas/common-schema
+ * - Package 相关 schemas -> domains/package/package-schema
+ * - Search 相关 schemas -> domains/search/search-schema
+ * - Config 相关 schemas -> domains/config/config-schema
+ *
+ * 统一导入点：shared/schemas
+ */
+
 import { z } from "@hono/zod-openapi";
 
 export const PackageKeySchema = z.string();

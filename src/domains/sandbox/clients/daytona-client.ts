@@ -3,9 +3,9 @@ import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getPackageConfigByKey } from "../../../helper";
 import { getDaytonaConfig, getSandockDaytonaConfig } from "../../../shared/config/environment";
 import type { MCPSandboxProvider, MCPServerPackageConfig } from "../../../shared/types";
-import { extractLastOuterJSON } from "../../../shared/utils/string.util";
-import type { ISandboxClient, SandboxExecuteResult } from "../ISandboxClient";
-import { SandboxStatus } from "../ISandboxClient";
+import { extractLastOuterJSON } from "../../../shared/utils/string-util";
+import type { ISandboxClient, SandboxExecuteResult } from "../sandbox-client-interface";
+import { SandboxStatus } from "../sandbox-client-interface";
 
 interface MCPToolResult {
   toolCount: number;

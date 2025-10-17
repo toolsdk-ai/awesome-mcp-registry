@@ -1,6 +1,6 @@
 import type { MCPSandboxProvider } from "../../shared/types";
-import type { ISandboxClient, SandboxStatus } from "./ISandboxClient";
-import { SandboxFactory } from "./SandboxFactory";
+import type { ISandboxClient, SandboxStatus } from "./sandbox-client-interface";
+import { SandboxFactory } from "./sandbox-factory";
 
 /**
  * 沙盒池记录
@@ -14,11 +14,11 @@ interface SandboxPoolRecord {
 }
 
 /**
- * 沙盒池管理器
+ * 沙盒池 Service Object
  * 负责沙盒实例的生命周期管理（单例模式）
  */
-export class SandboxPool {
-  private static instance: SandboxPool;
+export class SandboxPoolSO {
+  private static instance: SandboxPoolSO;
   private pools: Map<string, SandboxPoolRecord>;
   private readonly maxSize: number;
 
@@ -30,11 +30,11 @@ export class SandboxPool {
   /**
    * 获取沙盒池单例
    */
-  static getInstance(): SandboxPool {
-    if (!SandboxPool.instance) {
-      SandboxPool.instance = new SandboxPool();
+  static getInstance(): SandboxPoolSO {
+    if (!SandboxPoolSO.instance) {
+      SandboxPoolSO.instance = new SandboxPoolSO();
     }
-    return SandboxPool.instance;
+    return SandboxPoolSO.instance;
   }
 
   /**
@@ -61,7 +61,7 @@ export class SandboxPool {
       record.refCount++;
       record.lastUsedAt = Date.now();
       console.log(
-        `[SandboxPool] Reusing existing sandbox: ${sandboxKey} (refCount: ${record.refCount})`,
+        `[SandboxPoolSO] Reusing existing sandbox: ${sandboxKey} (refCount: ${record.refCount})`,
       );
       return record.client;
     }
@@ -72,7 +72,7 @@ export class SandboxPool {
     }
 
     // 创建新的沙盒实例
-    console.log(`[SandboxPool] Creating new sandbox: ${sandboxKey}`);
+    console.log(`[SandboxPoolSO] Creating new sandbox: ${sandboxKey}`);
     const client = SandboxFactory.create(runtime, provider);
 
     const newRecord: SandboxPoolRecord = {
@@ -98,23 +98,23 @@ export class SandboxPool {
     const record = this.pools.get(sandboxKey);
 
     if (!record) {
-      console.warn(`[SandboxPool] Sandbox ${sandboxKey} not found in pool`);
+      console.warn(`[SandboxPoolSO] Sandbox ${sandboxKey} not found in pool`);
       return;
     }
 
     record.refCount = Math.max(0, record.refCount - 1);
     record.lastUsedAt = Date.now();
 
-    console.log(`[SandboxPool] Released sandbox: ${sandboxKey} (refCount: ${record.refCount})`);
+    console.log(`[SandboxPoolSO] Released sandbox: ${sandboxKey} (refCount: ${record.refCount})`);
 
     // 如果引用计数为 0，立即关闭沙盒
     if (record.refCount === 0) {
       try {
         await record.client.destroy();
         this.pools.delete(sandboxKey);
-        console.log(`[SandboxPool] Sandbox ${sandboxKey} destroyed and removed from pool`);
+        console.log(`[SandboxPoolSO] Sandbox ${sandboxKey} destroyed and removed from pool`);
       } catch (error) {
-        console.error(`[SandboxPool] Error destroying sandbox ${sandboxKey}:`, error);
+        console.error(`[SandboxPoolSO] Error destroying sandbox ${sandboxKey}:`, error);
       }
     }
   }
@@ -140,9 +140,9 @@ export class SandboxPool {
         try {
           await evictRecord.client.destroy();
           this.pools.delete(lruKey);
-          console.log(`[SandboxPool] Evicted LRU sandbox: ${lruKey}`);
+          console.log(`[SandboxPoolSO] Evicted LRU sandbox: ${lruKey}`);
         } catch (error) {
-          console.error(`[SandboxPool] Error evicting sandbox ${lruKey}:`, error);
+          console.error(`[SandboxPoolSO] Error evicting sandbox ${lruKey}:`, error);
         }
       }
     } else {
@@ -154,7 +154,7 @@ export class SandboxPool {
    * 清理所有沙盒
    */
   async cleanup(): Promise<void> {
-    console.log(`[SandboxPool] Cleaning up ${this.pools.size} sandbox(es)`);
+    console.log(`[SandboxPoolSO] Cleaning up ${this.pools.size} sandbox(es)`);
 
     const cleanupPromises: Promise<void>[] = [];
     for (const [key, record] of this.pools) {
@@ -162,9 +162,9 @@ export class SandboxPool {
         (async () => {
           try {
             await record.client.destroy();
-            console.log(`[SandboxPool] Cleaned up sandbox: ${key}`);
+            console.log(`[SandboxPoolSO] Cleaned up sandbox: ${key}`);
           } catch (error) {
-            console.error(`[SandboxPool] Error cleaning up sandbox ${key}:`, error);
+            console.error(`[SandboxPoolSO] Error cleaning up sandbox ${key}:`, error);
           }
         })(),
       );
@@ -172,7 +172,7 @@ export class SandboxPool {
 
     await Promise.all(cleanupPromises);
     this.pools.clear();
-    console.log("[SandboxPool] All sandboxes cleaned up");
+    console.log("[SandboxPoolSO] All sandboxes cleaned up");
   }
 
   /**
