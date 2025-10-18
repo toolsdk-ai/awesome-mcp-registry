@@ -3,13 +3,13 @@
 import fs from "node:fs";
 import {
   getActualVersion,
+  getDirname,
   getMcpClient,
   getPackageConfigByKey,
   typedAllPackagesList,
   updatePackageJsonDependencies,
   withTimeout,
-} from "../src/helper";
-import { getDirname } from "../src/utils";
+} from "../src/shared/scripts-helpers";
 
 const __dirname = getDirname(import.meta.url);
 

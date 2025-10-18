@@ -26,14 +26,14 @@ import fs from "node:fs";
 import toml from "@iarna/toml";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+import type { MCPServerPackageConfig } from "../src/shared/scripts-helpers";
 import {
   extractPackageName,
   getPackageConfigByKey,
   getPythonDependencies,
   parsePyprojectToml,
   typedAllPackagesList,
-} from "../src/helper";
-import type { MCPServerPackageConfig } from "../src/types";
+} from "../src/shared/scripts-helpers";
 
 /**
  * Converts package name to Python dependency format

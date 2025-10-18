@@ -25,7 +25,7 @@ Usage flow:
 
 import fs from "node:fs";
 import axios from "axios";
-import { getPackageConfigByKey, typedAllPackagesList } from "../src/helper";
+import { getPackageConfigByKey, typedAllPackagesList } from "../src/shared/scripts-helpers";
 
 // Simple validation function to check if dependency conforms to PEP 508 specification
 function isValidPEP508(dependency: string): boolean {

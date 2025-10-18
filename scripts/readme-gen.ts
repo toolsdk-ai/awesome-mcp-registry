@@ -8,9 +8,8 @@ import { join } from "node:path";
 import _ from "lodash";
 import categoriesList from "../indexes/categories-list.json";
 import allPackagesList from "../indexes/packages-list.json";
-import { MCPServerPackageConfigSchema } from "../src/schema";
-import type { PackagesList } from "../src/types";
-import { getDirname } from "../src/utils";
+import type { PackagesList } from "../src/shared/scripts-helpers";
+import { getDirname, MCPServerPackageConfigSchema } from "../src/shared/scripts-helpers";
 
 const __dirname = getDirname(import.meta.url);
 
