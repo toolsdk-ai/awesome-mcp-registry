@@ -29,10 +29,14 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@modelcontextprotocol/server-filesystem";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Filesystem Server",
         description: "A server for filesystem operations",
       };
       const mockPackageInfo = {
+        path: "path/to/package",
         category: "filesystem",
         validated: true,
       };
@@ -59,6 +63,9 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/new-package";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "New Package",
         description: "A new package",
       };
@@ -80,6 +87,9 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/package";
       const mockConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: null,
       } as unknown as MCPServerPackageConfig;
@@ -100,6 +110,9 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/package";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "Test description",
       };
@@ -147,6 +160,9 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/package";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "Test description",
       };
@@ -173,6 +189,9 @@ describe("PackageSO", () => {
       const mockResult = { content: "file content", success: true };
 
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "Test description",
       };
@@ -205,6 +224,9 @@ describe("PackageSO", () => {
       const mockResult = { content: "file content" };
 
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "Test description",
       };
@@ -236,6 +258,9 @@ describe("PackageSO", () => {
       const errorMessage = "Unknown tool: unknown_tool";
 
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "Test description",
       };
@@ -256,10 +281,14 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/package";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "A test package for demonstration",
       };
       const mockPackageInfo = {
+        path: "path/to/package",
         category: "testing",
         validated: true,
       };
@@ -300,6 +329,9 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/package";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "Test description",
       };
@@ -331,6 +363,9 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/minimal-package";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Minimal Package",
         description: "A minimal package",
       };
@@ -362,10 +397,14 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/package";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "Test description",
       };
       const mockPackageInfo = {
+        path: "path/to/package",
         category: "test-category",
         validated: false,
       };
@@ -391,6 +430,9 @@ describe("PackageSO", () => {
       // Arrange
       const packageName = "@test/package";
       const mockConfig: MCPServerPackageConfig = {
+        type: "mcp-server",
+        runtime: "node",
+        packageName,
         name: "Test Package",
         description: "Test description",
       };
