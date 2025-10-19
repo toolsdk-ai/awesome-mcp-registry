@@ -25,7 +25,7 @@ Usage flow:
 
 import fs from "node:fs";
 import axios from "axios";
-import { getPackageConfigByKey, typedAllPackagesList } from "../src/shared/scripts-helpers";
+import { getAllPackages, getPackageConfigByKey } from "../src/shared/scripts-helpers";
 
 // Simple validation function to check if dependency conforms to PEP 508 specification
 function isValidPEP508(dependency: string): boolean {
@@ -88,8 +88,9 @@ async function collectPythonPackages(maxPackages: number = 10000): Promise<strin
   let pythonPackageCount = 0;
   let pythonPackageSum = 0;
 
+  const allPackages = getAllPackages();
   for (const [packageKey, value] of Object.entries(
-    typedAllPackagesList as Record<string, { path: string }>,
+    allPackages as Record<string, { path: string }>,
   )) {
     // If maximum quantity limit has been reached, stop processing
     if (pythonPackageCount >= maxPackages) {

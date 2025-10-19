@@ -1,12 +1,18 @@
 /**
  * Scripts Helper Module
  *
- * 这个模块为 scripts/ 目录下的脚本提供统一的辅助函数、类型和常量导出。
- * 它作为 src/ 和 scripts/ 之间的桥梁，保持清晰的边界。
+ * This module provides unified helper functions, types, and constant exports for scripts in the scripts/ directory.
+ * It serves as a bridge between src/ and scripts/, maintaining clear boundaries.
  */
 
 import path from "node:path";
 import { PackageRepository } from "../../domains/package/package-repository";
+
+// ==================== Constants ====================
+/**
+ * Path to the packages directory
+ */
+export const PACKAGES_DIR_PATH = path.resolve(process.cwd(), "./packages");
 
 // ==================== Re-export Types ====================
 export type { CategoryConfig } from "../../domains/config/config-types";
@@ -15,20 +21,31 @@ export type {
   PackageConfig,
   PackagesList,
 } from "../../domains/package/package-types";
+
 // ==================== Re-export Schemas ====================
 export {
   CategoryConfigSchema,
   MCPServerPackageConfigSchema,
   PackagesListSchema,
 } from "../schemas/common-schema";
-export { getDirname } from "../utils/file-util";
-export { getMcpClient } from "../utils/mcp-client-util";
+
 // ==================== Re-export Utils ====================
+// File utilities
+export { getDirname } from "../utils/file-util";
+
+// MCP client utilities
+export { getMcpClient } from "../utils/mcp-client-util";
+
+// Package utilities
 export {
   getActualVersion,
   updatePackageJsonDependencies,
 } from "../utils/package-util";
+
+// Promise utilities
 export { withTimeout } from "../utils/promise-util";
+
+// Validation utilities
 export {
   extractPackageName,
   getPythonDependencies,
@@ -37,21 +54,40 @@ export {
 } from "../utils/validation-util";
 
 // ==================== PackageRepository Instance ====================
-// 创建全局 PackageRepository 实例供 scripts 使用
-const packagesDir = path.resolve(process.cwd(), "./packages");
-const packageRepository = new PackageRepository(packagesDir);
-
-// ==================== Helper Functions ====================
 /**
- * 根据 package key 获取包配置
- * 这是 PackageRepository.getPackageConfig 的包装函数，保持向后兼容
+ * Singleton PackageRepository instance for scripts to use
+ * Lazily initialized on first access to avoid side effects during module loading
+ */
+let packageRepositoryInstance: PackageRepository | null = null;
+
+/**
+ * Get the singleton PackageRepository instance
+ */
+function getPackageRepository(): PackageRepository {
+  if (!packageRepositoryInstance) {
+    packageRepositoryInstance = new PackageRepository(PACKAGES_DIR_PATH);
+  }
+  return packageRepositoryInstance;
+}
+
+// ==================== Package Access Functions ====================
+/**
+ * Get package configuration by package key
+ *
+ * @param key - Package key to look up
+ * @returns Package configuration object
  */
 export function getPackageConfigByKey(key: string) {
-  return packageRepository.getPackageConfig(key);
+  return getPackageRepository().getPackageConfig(key);
 }
 
 /**
- * 获取所有包的列表
- * 这是 PackageRepository.getAllPackages 的包装，保持向后兼容
+ * Get list of all packages
+ * Note: This function reads from the file system each time it's called.
+ * If you need to iterate and modify the list, consider using a local variable.
+ *
+ * @returns Object containing all packages indexed by their keys
  */
-export const typedAllPackagesList = packageRepository.getAllPackages();
+export function getAllPackages() {
+  return getPackageRepository().getAllPackages();
+}

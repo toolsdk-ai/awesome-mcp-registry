@@ -3,10 +3,10 @@
 import fs from "node:fs";
 import {
   getActualVersion,
+  getAllPackages,
   getDirname,
   getMcpClient,
   getPackageConfigByKey,
-  typedAllPackagesList,
   updatePackageJsonDependencies,
   withTimeout,
 } from "../src/shared/scripts-helpers";
@@ -28,8 +28,10 @@ async function main() {
   let totalPackages = 0;
   let availablePackages = 0;
 
+  const allPackagesList = getAllPackages();
+
   // First pass: count available packages
-  for (const [packageKey, _value] of Object.entries(typedAllPackagesList)) {
+  for (const [packageKey, _value] of Object.entries(allPackagesList)) {
     const mcpServerConfig = await getPackageConfigByKey(packageKey);
     if (mcpServerConfig.runtime === "node") {
       totalPackages++;
@@ -52,7 +54,7 @@ async function main() {
     process.exit(0);
   }
 
-  for (const [packageKey, value] of Object.entries(typedAllPackagesList)) {
+  for (const [packageKey, value] of Object.entries(allPackagesList)) {
     const mcpServerConfig = await getPackageConfigByKey(packageKey);
 
     if (mcpServerConfig.runtime === "node") {
@@ -87,8 +89,8 @@ async function main() {
         );
 
         if (toolsObj.tools.length === 0) {
-          typedAllPackagesList[packageKey].tools = {};
-          typedAllPackagesList[packageKey].validated = false;
+          allPackagesList[packageKey].tools = {};
+          allPackagesList[packageKey].validated = false;
           continue;
         }
 
@@ -105,8 +107,8 @@ async function main() {
           await mcpClient.closeConnection();
         }
 
-        typedAllPackagesList[packageKey].tools = saveTools;
-        typedAllPackagesList[packageKey].validated = true;
+        allPackagesList[packageKey].tools = saveTools;
+        allPackagesList[packageKey].validated = true;
 
         const version = getActualVersion(
           mcpServerConfig.packageName,
@@ -118,8 +120,8 @@ async function main() {
           `Error reading MCP Client for package: ${packageKey} ${value.path}`,
           (e as Error).message,
         );
-        typedAllPackagesList[packageKey].tools = {};
-        typedAllPackagesList[packageKey].validated = false;
+        allPackagesList[packageKey].tools = {};
+        allPackagesList[packageKey].validated = false;
       } finally {
         //
       }
@@ -127,16 +129,10 @@ async function main() {
   }
 
   // write again with tools
-  fs.writeFileSync(
-    "indexes/packages-list.json",
-    JSON.stringify(typedAllPackagesList, null, 2),
-    "utf-8",
-  );
+  fs.writeFileSync("indexes/packages-list.json", JSON.stringify(allPackagesList, null, 2), "utf-8");
 
   // print, all unvalidated packages
-  const unvalidatedPackages = Object.values(typedAllPackagesList).filter(
-    (value) => !value.validated,
-  );
+  const unvalidatedPackages = Object.values(allPackagesList).filter((value) => !value.validated);
   console.warn(`Warning! Unvalidated packages: ${unvalidatedPackages.length}`, unvalidatedPackages);
 
   // Write package.json dependencies
