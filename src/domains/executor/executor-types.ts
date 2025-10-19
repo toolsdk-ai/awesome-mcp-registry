@@ -1,1 +1,1 @@
-export type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
+export type { ToolExecuteRequest, ToolExecutor } from "./executor-interface";

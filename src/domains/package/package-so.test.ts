@@ -1,13 +1,13 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import type { IToolExecutor } from "../executor/executor-interface";
+import type { ToolExecutor } from "../executor/executor-interface";
 import type { PackageRepository } from "./package-repository";
 import { PackageSO } from "./package-so";
 import type { MCPServerPackageConfig } from "./package-types";
 
 describe("PackageSO", () => {
   let mockRepository: PackageRepository;
-  let mockExecutor: IToolExecutor;
+  let mockExecutor: ToolExecutor;
 
   beforeEach(() => {
     // Mock PackageRepository
@@ -17,11 +17,11 @@ describe("PackageSO", () => {
       exists: vi.fn(),
     } as unknown as PackageRepository;
 
-    // Mock IToolExecutor
+    // Mock ToolExecutor
     mockExecutor = {
       listTools: vi.fn(),
       executeTool: vi.fn(),
-    } as unknown as IToolExecutor;
+    } as unknown as ToolExecutor;
   });
 
   describe("init", () => {

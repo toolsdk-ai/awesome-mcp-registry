@@ -3,13 +3,13 @@ import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getDirname } from "../../shared/utils/file-util";
 import { getMcpClient } from "../../shared/utils/mcp-client-util";
 import { PackageRepository } from "../package/package-repository";
-import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
+import type { ToolExecuteRequest, ToolExecutor } from "./executor-interface";
 
 /**
  * Local Executor
  * Executes MCP tools in local environment
  */
-export class LocalExecutor implements IToolExecutor {
+export class LocalExecutor implements ToolExecutor {
   private readonly packageRepository: PackageRepository;
 
   constructor() {

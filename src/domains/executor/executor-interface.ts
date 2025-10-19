@@ -11,7 +11,7 @@ export interface ToolExecuteRequest {
  * Tool Executor Interface
  * Unified abstraction for local and sandbox execution
  */
-export interface IToolExecutor {
+export interface ToolExecutor {
   executeTool(request: ToolExecuteRequest): Promise<unknown>;
   listTools(packageName: string): Promise<Tool[]>;
 }

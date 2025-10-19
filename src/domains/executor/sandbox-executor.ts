@@ -5,13 +5,13 @@ import { PackageRepository } from "../package/package-repository";
 import type { ISandboxClient } from "../sandbox/sandbox-client-interface";
 import { SandboxPoolSO } from "../sandbox/sandbox-pool-so";
 import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
-import type { IToolExecutor, ToolExecuteRequest } from "./executor-interface";
+import type { ToolExecuteRequest, ToolExecutor } from "./executor-interface";
 
 /**
  * Sandbox Executor
  * Executes MCP tools in sandbox environment
  */
-export class SandboxExecutor implements IToolExecutor {
+export class SandboxExecutor implements ToolExecutor {
   private readonly provider: MCPSandboxProvider;
   private readonly sandboxPool: SandboxPoolSO;
   private readonly packageRepository: PackageRepository;

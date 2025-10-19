@@ -1,5 +1,5 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import type { IToolExecutor } from "../executor/executor-interface";
+import type { ToolExecutor } from "../executor/executor-interface";
 import type { PackageRepository } from "./package-repository";
 import type { MCPServerPackageConfig } from "./package-types";
 
@@ -9,7 +9,7 @@ export class PackageSO {
     private readonly _config: MCPServerPackageConfig,
     private readonly _packageInfo: { category?: string; validated?: boolean },
     _repository: PackageRepository,
-    private readonly _executor: IToolExecutor,
+    private readonly _executor: ToolExecutor,
   ) {}
 
   // ===== Getters =====
@@ -35,7 +35,7 @@ export class PackageSO {
   static async init(
     packageName: string,
     repository: PackageRepository,
-    executor: IToolExecutor,
+    executor: ToolExecutor,
   ): Promise<PackageSO> {
     const config = repository.getPackageConfig(packageName);
     const allPackages = repository.getAllPackages();
