@@ -1,9 +1,9 @@
-import type { ISandboxClient, SandboxStatus } from "./sandbox-client-interface";
+import type { SandboxClient, SandboxStatus } from "./sandbox-client-interface";
 import { SandboxFactory } from "./sandbox-factory";
 import type { MCPSandboxProvider } from "./sandbox-types";
 
 interface SandboxPoolRecord {
-  client: ISandboxClient;
+  client: SandboxClient;
   refCount: number;
   lastUsedAt: number;
   provider: MCPSandboxProvider;
@@ -41,7 +41,7 @@ export class SandboxPoolSO {
   async acquire(
     runtime: "node" | "python" | "java" | "go",
     provider: MCPSandboxProvider,
-  ): Promise<ISandboxClient> {
+  ): Promise<SandboxClient> {
     const sandboxKey = this.getSandboxKey(runtime, provider);
     const record = this.pools.get(sandboxKey);
 

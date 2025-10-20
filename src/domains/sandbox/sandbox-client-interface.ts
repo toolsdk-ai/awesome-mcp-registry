@@ -18,7 +18,7 @@ export enum SandboxStatus {
  * Sandbox Client Interface
  * Unified abstraction for different sandbox providers (Daytona, E2B, Sandock)
  */
-export interface ISandboxClient {
+export interface SandboxClient {
   initialize(): Promise<void>;
   listTools(packageKey: string): Promise<Tool[]>;
   executeTool(

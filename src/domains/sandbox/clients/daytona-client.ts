@@ -6,7 +6,7 @@ import { getDirname } from "../../../shared/utils/file-util";
 import { extractLastOuterJSON } from "../../../shared/utils/string-util";
 import { PackageRepository } from "../../package/package-repository";
 import type { MCPServerPackageConfig } from "../../package/package-types";
-import type { ISandboxClient, SandboxExecuteResult } from "../sandbox-client-interface";
+import type { SandboxClient, SandboxExecuteResult } from "../sandbox-client-interface";
 import { SandboxStatus } from "../sandbox-client-interface";
 import type { MCPSandboxProvider } from "../sandbox-types";
 
@@ -23,9 +23,9 @@ interface MCPExecuteResult {
 
 /**
  * Daytona Sandbox Client
- * Implements ISandboxClient interface for Daytona/Sandock providers
+ * Implements SandboxClient interface for Daytona/Sandock providers
  */
-export class DaytonaSandboxClient implements ISandboxClient {
+export class DaytonaSandboxClient implements SandboxClient {
   private sandbox: Sandbox | null = null;
   private initializing: Promise<void> | null = null;
   private readonly provider: MCPSandboxProvider;
