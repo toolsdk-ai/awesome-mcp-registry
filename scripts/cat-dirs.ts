@@ -5,7 +5,7 @@
 // This script is intended to be executed using Bun.
 import * as fs from "node:fs";
 import * as path from "node:path";
-import type { CategoryConfig } from "../src/types";
+import type { CategoryConfig } from "../src/shared/scripts-helpers";
 
 // Define the paths
 // eslint-disable-next-line @typescript-eslint/no-require-imports

@@ -1,23 +1,16 @@
-import fs from "node:fs/promises";
-import path from "node:path";
 import { serve } from "@hono/node-server";
 import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
-import dotenv from "dotenv";
 import type { Context } from "hono";
-import { searchRoutes } from "../search/search-route";
-import searchService from "../search/search-service";
-import { getDirname } from "../utils";
-import { packageRoutes } from "./package-route";
-
-const __dirname = getDirname(import.meta.url);
-
-dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
-dotenv.config({ path: path.resolve(process.cwd(), ".env") });
+import { configRoutes } from "../domains/config/config-route";
+import { packageRoutes } from "../domains/package/package-route";
+import { searchRoutes } from "../domains/search/search-route";
+import { SearchSO } from "../domains/search/search-so";
+import { getServerPort, isSearchEnabled } from "../shared/config/environment";
 
 const initializeSearchService = async () => {
   try {
-    await searchService.initialize();
+    await SearchSO.getInstance();
     console.log("🔍 Search service initialized");
   } catch (error) {
     console.warn("⚠️  Search service initialization failed:", (error as Error).message);
@@ -25,24 +18,24 @@ const initializeSearchService = async () => {
   }
 };
 
-const app: OpenAPIHono = new OpenAPIHono();
+const app = new OpenAPIHono();
 
+// Domain routes
 app.route("/api/v1", packageRoutes);
+app.route("/api/v1", configRoutes);
 
-if (process.env.ENABLE_SEARCH === "true") {
+if (isSearchEnabled()) {
   initializeSearchService().catch(console.error);
   app.route("/api/v1", searchRoutes);
 }
 
-app.get("/", async (c: Context) => {
-  try {
-    const htmlPath = path.join(__dirname, "..", "search", "search.html");
-    const html = await fs.readFile(htmlPath, "utf8");
-    return c.html(html);
-  } catch (error) {
-    console.error("Failed to load home page:", error);
-    return c.text("MCP Registry API Server is running!");
-  }
+app.get("/", (c: Context) => {
+  return c.json({
+    message: "MCP Registry API Server",
+    version: "1.0.0",
+    status: "running",
+    docs: "/swagger",
+  });
 });
 
 app.get("/api/meta", async (c: Context) => {
@@ -57,6 +50,7 @@ app.get("/api/meta", async (c: Context) => {
   }
 });
 
+// OpenAPI documentation
 app.doc("/api/v1/doc", {
   openapi: "3.0.0",
   info: {
@@ -65,6 +59,7 @@ app.doc("/api/v1/doc", {
   },
 });
 
+// Swagger UI
 app.get("/swagger", swaggerUI({ url: "/api/v1/doc" }));
 
 app.notFound((c: Context) => {
@@ -83,12 +78,15 @@ app.onError((err: Error, c: Context) => {
   );
 });
 
-const port = process.env.MCP_SERVER_PORT ? parseInt(process.env.MCP_SERVER_PORT, 10) : 3003;
-console.log(`Server is running on: http://localhost:${port}`);
+const port = getServerPort();
+
+console.log(`🚀 Server is starting on port ${port}...`);
 
 serve({
   fetch: app.fetch,
   port,
 });
+
+console.log(`✅ Server is running on http://localhost:${port}`);
 
 export default app;

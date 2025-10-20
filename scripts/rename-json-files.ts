@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { getDirname } from "../src/utils";
+import { getDirname } from "../src/shared/scripts-helpers";
 
 const __dirname = getDirname(import.meta.url);
 

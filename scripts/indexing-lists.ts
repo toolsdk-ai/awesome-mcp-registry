@@ -6,9 +6,18 @@
 
 import * as fs from "node:fs";
 import * as path from "node:path";
-import { getActualVersion, isValidNpmPackage, updatePackageJsonDependencies } from "../src/helper";
-import { MCPServerPackageConfigSchema, PackagesListSchema } from "../src/schema";
-import type { CategoryConfig, MCPServerPackageConfig, PackagesList } from "../src/types";
+import type {
+  CategoryConfig,
+  MCPServerPackageConfig,
+  PackagesList,
+} from "../src/shared/scripts-helpers";
+import {
+  getActualVersion,
+  isValidNpmPackage,
+  MCPServerPackageConfigSchema,
+  PackagesListSchema,
+  updatePackageJsonDependencies,
+} from "../src/shared/scripts-helpers";
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const categoryConfigs: CategoryConfig[] = require("../config/categories").default;

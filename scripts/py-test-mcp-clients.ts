@@ -26,14 +26,14 @@ import fs from "node:fs";
 import toml from "@iarna/toml";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+import type { MCPServerPackageConfig } from "../src/shared/scripts-helpers";
 import {
   extractPackageName,
+  getAllPackages,
   getPackageConfigByKey,
   getPythonDependencies,
   parsePyprojectToml,
-  typedAllPackagesList,
-} from "../src/helper";
-import type { MCPServerPackageConfig } from "../src/types";
+} from "../src/shared/scripts-helpers";
 
 /**
  * Converts package name to Python dependency format
@@ -121,7 +121,8 @@ async function main() {
   const invalidPackages: string[] = [];
   const pythonDeps = getPythonDependencies();
 
-  for (const packageKey of Object.keys(typedAllPackagesList)) {
+  const allPackagesList = getAllPackages();
+  for (const packageKey of Object.keys(allPackagesList)) {
     const mcpServerConfig: MCPServerPackageConfig = await getPackageConfigByKey(packageKey);
     if (mcpServerConfig.runtime !== "python") {
       continue;
@@ -172,9 +173,9 @@ async function main() {
         validated: true,
       };
 
-      if (typedAllPackagesList[packageKey]) {
-        typedAllPackagesList[packageKey].tools = saveTools;
-        typedAllPackagesList[packageKey].validated = true;
+      if (allPackagesList[packageKey]) {
+        allPackagesList[packageKey].tools = saveTools;
+        allPackagesList[packageKey].validated = true;
       }
 
       console.log(`✓ ${packageKey} validated, tools: ${Object.keys(saveTools).length}`);
@@ -193,19 +194,15 @@ async function main() {
       // Record invalid package for later removal from pyproject.toml
       invalidPackages.push(actualPackageName);
 
-      // if (typedAllPackagesList[packageKey]) {
-      //   typedAllPackagesList[packageKey].tools = {};
-      //   typedAllPackagesList[packageKey].validated = false;
+      // if (allPackagesList[packageKey]) {
+      //   allPackagesList[packageKey].tools = {};
+      //   allPackagesList[packageKey].validated = false;
       // }
     }
   }
 
   // Write the updated package list to file
-  fs.writeFileSync(
-    "indexes/packages-list.json",
-    JSON.stringify(typedAllPackagesList, null, 2),
-    "utf-8",
-  );
+  fs.writeFileSync("indexes/packages-list.json", JSON.stringify(allPackagesList, null, 2), "utf-8");
 
   if (invalidPackages.length > 0) {
     await removeInvalidDependencies(invalidPackages);
