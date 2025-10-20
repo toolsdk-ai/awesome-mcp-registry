@@ -1,0 +1,23 @@
+{
+  "type": "mcp-server",
+  "name": "Neurolink",
+  "packageName": "@juspay/neurolink",
+  "description": "Universal AI development platform unifying 12+ providers (OpenAI, Anthropic, Google, Bedrock, Azure) with built-in MCP support, multi-provider failover, and production-ready enterprise features",
+  "url": "https://github.com/juspay/neurolink",
+  "runtime": "node",
+  "license": "Apache-2.0",
+  "env": {
+    "ANTHROPIC_API_KEY": {
+      "description": "API key for Anthropic Claude models",
+      "required": false
+    },
+    "OPENAI_API_KEY": {
+      "description": "API key for OpenAI models",
+      "required": false
+    },
+    "GOOGLE_API_KEY": {
+      "description": "API key for Google Gemini models",
+      "required": false
+    }
+  }
+}
