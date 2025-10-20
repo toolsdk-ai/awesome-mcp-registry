@@ -24,7 +24,11 @@ const searchRoute = createRoute({
   }),
 });
 
-searchRoutes.openapi(searchRoute, searchHandler.search);
+searchRoutes.openapi(searchRoute, async (c) => {
+  const { q, limit, offset, category } = c.req.valid("query");
+  const result = await searchHandler.search({ q, limit, offset, category });
+  return c.json(result, 200);
+});
 
 const suggestRoute = createRoute({
   method: "get",
@@ -37,7 +41,11 @@ const suggestRoute = createRoute({
   }),
 });
 
-searchRoutes.openapi(suggestRoute, searchHandler.suggest);
+searchRoutes.openapi(suggestRoute, async (c) => {
+  const { q, limit } = c.req.valid("query");
+  const result = await searchHandler.suggest(q, limit);
+  return c.json(result, 200);
+});
 
 const facetsRoute = createRoute({
   method: "get",
@@ -47,7 +55,10 @@ const facetsRoute = createRoute({
   }),
 });
 
-searchRoutes.openapi(facetsRoute, searchHandler.getFacets);
+searchRoutes.openapi(facetsRoute, async (c) => {
+  const result = await searchHandler.getFacets();
+  return c.json(result, 200);
+});
 
 const healthRoute = createRoute({
   method: "get",
@@ -57,7 +68,10 @@ const healthRoute = createRoute({
   }),
 });
 
-searchRoutes.openapi(healthRoute, searchHandler.healthCheck);
+searchRoutes.openapi(healthRoute, async (c) => {
+  const result = await searchHandler.healthCheck();
+  return c.json(result, 200);
+});
 
 const initRoute = createRoute({
   method: "post",
@@ -67,7 +81,10 @@ const initRoute = createRoute({
   }),
 });
 
-searchRoutes.openapi(initRoute, searchHandler.initialize);
+searchRoutes.openapi(initRoute, async (c) => {
+  const result = await searchHandler.initialize();
+  return c.json(result, 200);
+});
 
 const indexRoute = createRoute({
   method: "post",
@@ -77,7 +94,10 @@ const indexRoute = createRoute({
   }),
 });
 
-searchRoutes.openapi(indexRoute, searchHandler.indexPackages);
+searchRoutes.openapi(indexRoute, async (c) => {
+  const result = await searchHandler.indexPackages();
+  return c.json(result, 200);
+});
 
 const clearRoute = createRoute({
   method: "post",
@@ -87,7 +107,10 @@ const clearRoute = createRoute({
   }),
 });
 
-searchRoutes.openapi(clearRoute, searchHandler.clearIndex);
+searchRoutes.openapi(clearRoute, async (c) => {
+  const result = await searchHandler.clearIndex();
+  return c.json(result, 200);
+});
 
 const statsRoute = createRoute({
   method: "get",
@@ -97,4 +120,7 @@ const statsRoute = createRoute({
   }),
 });
 
-searchRoutes.openapi(statsRoute, searchHandler.getStats);
+searchRoutes.openapi(statsRoute, async (c) => {
+  const result = await searchHandler.getStats();
+  return c.json(result, 200);
+});
