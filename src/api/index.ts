@@ -30,11 +30,11 @@ const app = new OpenAPIHono();
 
 // Domain routes
 app.route("/api/v1", packageRoutes);
-app.route("/api/v1", configRoutes);
+app.route("/api/v1/config", configRoutes);
 
 if (isSearchEnabled()) {
   initializeSearchService().catch(console.error);
-  app.route("/api/v1", searchRoutes);
+  app.route("/api/v1/search", searchRoutes);
 }
 
 app.get("/", (c: Context) => {

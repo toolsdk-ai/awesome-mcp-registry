@@ -2,10 +2,11 @@ import path from "node:path";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getDirname } from "../../shared/utils/file-util";
 import { PackageRepository } from "../package/package-repository";
-import type { ISandboxClient } from "../sandbox/sandbox-client-interface";
+import type { SandboxClient } from "../sandbox/sandbox-client-interface";
 import { SandboxPoolSO } from "../sandbox/sandbox-pool-so";
 import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
 import type { ToolExecuteRequest, ToolExecutor } from "./executor-interface";
+import { LocalExecutor } from "./local-executor";
 
 /**
  * Sandbox Executor
@@ -15,6 +16,7 @@ export class SandboxExecutor implements ToolExecutor {
   private readonly provider: MCPSandboxProvider;
   private readonly sandboxPool: SandboxPoolSO;
   private readonly packageRepository: PackageRepository;
+  private readonly localExecutor: LocalExecutor;
 
   constructor(provider: MCPSandboxProvider) {
     this.provider = provider;
@@ -22,11 +24,20 @@ export class SandboxExecutor implements ToolExecutor {
     const __dirname = getDirname(import.meta.url);
     const packagesDir = path.join(__dirname, "../../../packages");
     this.packageRepository = new PackageRepository(packagesDir);
+    this.localExecutor = new LocalExecutor();
   }
 
   async executeTool(request: ToolExecuteRequest): Promise<unknown> {
     const mcpServerConfig = this.packageRepository.getPackageConfig(request.packageName);
     const runtime = mcpServerConfig.runtime || "python";
+
+    // Sandbox only supports node runtime, fallback to LOCAL for other runtimes
+    if (runtime !== "node") {
+      console.log(
+        `[SandboxExecutor] Runtime '${runtime}' is not supported in sandbox, using LOCAL execution`,
+      );
+      return await this.localExecutor.executeTool(request);
+    }
 
     const sandboxClient = await this.sandboxPool.acquire(runtime, this.provider);
 
@@ -43,21 +54,23 @@ export class SandboxExecutor implements ToolExecutor {
       console.log(`[SandboxExecutor] Tool ${request.toolKey} executed successfully in sandbox`);
       return result;
     } catch (error) {
-      if (error instanceof Error && error.message.includes("sandbox was not found")) {
-        console.log("[SandboxExecutor] Retrying tool execution after sandbox failure");
-        await sandboxClient.initialize();
+      console.warn(
+        `[SandboxExecutor] DAYTONA sandbox execution failed, falling back to LOCAL execution`,
+      );
+      console.warn(
+        `[SandboxExecutor] Error: ${error instanceof Error ? error.message : String(error)}`,
+      );
 
-        const result = await sandboxClient.executeTool(
-          request.packageName,
-          request.toolKey,
-          request.inputData || {},
-          request.envs,
+      try {
+        const result = await this.localExecutor.executeTool(request);
+        console.log(
+          `[SandboxExecutor] Tool ${request.toolKey} executed successfully with LOCAL fallback`,
         );
-
-        console.log(`[SandboxExecutor] Tool ${request.toolKey} executed successfully (retry)`);
         return result;
+      } catch (localError) {
+        console.error("[SandboxExecutor] LOCAL fallback execution also failed");
+        throw localError;
       }
-      throw error;
     } finally {
       await this.sandboxPool.release(runtime, this.provider);
     }
@@ -67,7 +80,15 @@ export class SandboxExecutor implements ToolExecutor {
     const mcpServerConfig = this.packageRepository.getPackageConfig(packageName);
     const runtime = mcpServerConfig.runtime || "python";
 
-    const sandboxClient: ISandboxClient = await this.sandboxPool.acquire(runtime, this.provider);
+    // Sandbox only supports node runtime, fallback to LOCAL for other runtimes
+    if (runtime !== "node") {
+      console.log(
+        `[SandboxExecutor] Runtime '${runtime}' is not supported in sandbox, using LOCAL execution`,
+      );
+      return await this.localExecutor.listTools(packageName);
+    }
+
+    const sandboxClient: SandboxClient = await this.sandboxPool.acquire(runtime, this.provider);
 
     try {
       await sandboxClient.initialize();
@@ -76,15 +97,21 @@ export class SandboxExecutor implements ToolExecutor {
       console.log(`[SandboxExecutor] Tools list retrieved successfully for package ${packageName}`);
       return tools;
     } catch (error) {
-      if (error instanceof Error && error.message.includes("sandbox was not found")) {
-        console.log("[SandboxExecutor] Retrying tools listing after sandbox failure");
-        await sandboxClient.initialize();
+      console.warn(
+        `[SandboxExecutor] DAYTONA sandbox list tools failed, falling back to LOCAL execution`,
+      );
+      console.warn(
+        `[SandboxExecutor] Error: ${error instanceof Error ? error.message : String(error)}`,
+      );
 
-        const tools = await sandboxClient.listTools(packageName);
-        console.log(`[SandboxExecutor] Tools list retrieved successfully (retry)`);
+      try {
+        const tools = await this.localExecutor.listTools(packageName);
+        console.log(`[SandboxExecutor] Tools list retrieved successfully with LOCAL fallback`);
         return tools;
+      } catch (localError) {
+        console.error("[SandboxExecutor] LOCAL fallback list tools also failed");
+        throw localError;
       }
-      throw error;
     } finally {
       await this.sandboxPool.release(runtime, this.provider);
     }

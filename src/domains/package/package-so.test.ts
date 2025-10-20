@@ -445,10 +445,7 @@ describe("PackageSO", () => {
 
       // Assert
       expect(packageSO.config).toBe(mockConfig);
-      expect(packageSO.config).toEqual({
-        name: "Test Package",
-        description: "Test description",
-      });
+      expect(packageSO.config).toEqual(mockConfig);
     });
   });
 });
