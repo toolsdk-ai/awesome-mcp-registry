@@ -1,5 +1,4 @@
 import path from "node:path";
-import type { Context } from "hono";
 import { getDirname } from "../../shared/utils/file-util";
 import { createErrorResponse, createResponse } from "../../shared/utils/response-util";
 import { SearchSO } from "./search-so";
@@ -16,149 +15,115 @@ async function getSearchSO(): Promise<SearchSO> {
 }
 
 export const searchHandler = {
-  search: async (c: Context) => {
+  search: async ({
+    q,
+    limit = 20,
+    offset = 0,
+    category,
+  }: {
+    q: string;
+    limit?: number;
+    offset?: number;
+    category?: string;
+  }) => {
     try {
-      const q = c.req.query("q") || "";
-      const limit = Number.parseInt(c.req.query("limit") || "20", 10);
-      const offset = Number.parseInt(c.req.query("offset") || "0", 10);
-      const category = c.req.query("category");
-
       const filter = category ? `category = '${category}'` : undefined;
-
       const so = await getSearchSO();
       const results = await so.search(q, { limit, offset, filter });
-
-      return c.json(createResponse(results), 200);
+      return createResponse(results);
     } catch (error) {
       console.error("Search failed:", (error as Error).stack);
-      return c.json(createErrorResponse((error as Error).message || "Search failed", 500), 500);
+      return createErrorResponse((error as Error).message || "Search failed", 500);
     }
   },
 
-  suggest: async (c: Context) => {
+  suggest: async (q: string, limit = 10) => {
     try {
-      const q = c.req.query("q") || "";
-      const limit = Number.parseInt(c.req.query("limit") || "10", 10);
-
       const so = await getSearchSO();
       const suggestions = await so.suggest(q, limit);
-
-      return c.json(createResponse({ suggestions }), 200);
+      return createResponse({ suggestions });
     } catch (error) {
       console.error("Failed to get suggestions:", (error as Error).stack);
-      return c.json(
-        createErrorResponse((error as Error).message || "Failed to get suggestions", 400),
-        400,
-      );
+      return createErrorResponse((error as Error).message || "Failed to get suggestions", 400);
     }
   },
 
-  getFacets: async (c: Context) => {
+  getFacets: async () => {
     try {
       const so = await getSearchSO();
       const facets = await so.getFacets();
-
-      return c.json(
-        createResponse({
-          categories: facets?.category,
-          authors: facets?.author,
-          validated: facets?.validated,
-        }),
-        200,
-      );
+      return createResponse({
+        categories: facets?.category,
+        authors: facets?.author,
+        validated: facets?.validated,
+      });
     } catch (error) {
       console.error("Failed to get facets:", (error as Error).stack);
-      return c.json(
-        createErrorResponse((error as Error).message || "Failed to get facets", 500),
-        500,
-      );
+      return createErrorResponse((error as Error).message || "Failed to get facets", 500);
     }
   },
 
-  healthCheck: async (c: Context) => {
+  healthCheck: async () => {
     try {
       const so = await getSearchSO();
       const health = await so.healthCheck();
-
-      return c.json(createResponse(health), 200);
+      return createResponse(health);
     } catch (error) {
       console.error("Health check failed:", (error as Error).stack);
-      return c.json(
-        createErrorResponse((error as Error).message || "Health check failed", 500),
-        500,
-      );
+      return createErrorResponse((error as Error).message || "Health check failed", 500);
     }
   },
 
-  initialize: async (c: Context) => {
+  initialize: async () => {
     try {
       searchSO = await SearchSO.getInstance();
-
-      return c.json(createResponse({ message: "Search service initialized successfully" }), 200);
+      return createResponse({ message: "Search service initialized successfully" });
     } catch (error) {
       console.error("Failed to initialize search service:", (error as Error).stack);
-      return c.json(
-        createErrorResponse((error as Error).message || "Failed to initialize search service", 500),
+      return createErrorResponse(
+        (error as Error).message || "Failed to initialize search service",
         500,
       );
     }
   },
 
-  indexPackages: async (c: Context) => {
+  indexPackages: async () => {
     try {
       const so = await getSearchSO();
       const packagesPath = path.join(__dirname, "../../../indexes/packages-list.json");
       const stats = await so.indexPackages(packagesPath);
-
-      return c.json(
-        createResponse({
-          message: `Indexed ${stats.numberOfDocuments} documents`,
-          details: stats,
-        }),
-        200,
-      );
+      return createResponse({
+        message: `Indexed ${stats.numberOfDocuments} documents`,
+        details: stats,
+      });
     } catch (error) {
       console.error("Failed to index packages:", (error as Error).stack);
-      return c.json(
-        createErrorResponse((error as Error).message || "Failed to index packages", 500),
-        500,
-      );
+      return createErrorResponse((error as Error).message || "Failed to index packages", 500);
     }
   },
 
-  clearIndex: async (c: Context) => {
+  clearIndex: async () => {
     try {
       const so = await getSearchSO();
       await so.clearIndex();
-
-      return c.json(createResponse({ message: "Index cleared successfully" }), 200);
+      return createResponse({ message: "Index cleared successfully" });
     } catch (error) {
       console.error("Failed to clear index:", (error as Error).stack);
-      return c.json(
-        createErrorResponse((error as Error).message || "Failed to clear index", 500),
-        500,
-      );
+      return createErrorResponse((error as Error).message || "Failed to clear index", 500);
     }
   },
 
-  getStats: async (c: Context) => {
+  getStats: async () => {
     try {
       const so = await getSearchSO();
       const stats = await so.getStats();
-
-      return c.json(
-        createResponse({
-          message: "Index statistics retrieved successfully",
-          details: stats,
-        }),
-        200,
-      );
+      return createResponse({
+        message: "Index statistics retrieved successfully",
+        details: stats,
+      });
     } catch (error) {
       console.error("Failed to get index statistics:", (error as Error).stack);
-      return c.json(
-        createErrorResponse((error as Error).message || "Failed to get index statistics", 500),
-        500,
-      );
+      return createErrorResponse((error as Error).message || "Failed to get index statistics", 500);
     }
   },
 };

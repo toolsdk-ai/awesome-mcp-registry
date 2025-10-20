@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { serve } from "@hono/node-server";
 import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
@@ -7,6 +9,7 @@ import { packageRoutes } from "../domains/package/package-route";
 import { searchRoutes } from "../domains/search/search-route";
 import { SearchSO } from "../domains/search/search-so";
 import { getServerPort, isSearchEnabled } from "../shared/config/environment";
+import { getDirname } from "../shared/utils";
 
 const initializeSearchService = async () => {
   try {
@@ -17,6 +20,11 @@ const initializeSearchService = async () => {
     console.log("💡 Install and start MeiliSearch to enable enhanced search features");
   }
 };
+
+// Load search.html content
+const __dirname = getDirname(import.meta.url);
+const searchHtmlPath = join(__dirname, "../domains/search/search.html");
+const searchHtmlContent = readFileSync(searchHtmlPath, "utf-8");
 
 const app = new OpenAPIHono();
 
@@ -30,12 +38,7 @@ if (isSearchEnabled()) {
 }
 
 app.get("/", (c: Context) => {
-  return c.json({
-    message: "MCP Registry API Server",
-    version: "1.0.0",
-    status: "running",
-    docs: "/swagger",
-  });
+  return c.html(searchHtmlContent);
 });
 
 app.get("/api/meta", async (c: Context) => {
@@ -80,13 +83,11 @@ app.onError((err: Error, c: Context) => {
 
 const port = getServerPort();
 
-console.log(`🚀 Server is starting on port ${port}...`);
-
 serve({
   fetch: app.fetch,
   port,
 });
 
-console.log(`✅ Server is running on http://localhost:${port}`);
+console.log(`🚀 Server is running on http://localhost:${port}`);
 
 export default app;

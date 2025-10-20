@@ -23,7 +23,11 @@ const packageDetailRoute = createRoute({
   }),
 });
 
-packageRoutes.openapi(packageDetailRoute, packageHandler.getPackageDetail);
+packageRoutes.openapi(packageDetailRoute, async (c) => {
+  const { packageName } = c.req.valid("query");
+  const result = await packageHandler.getPackageDetail(packageName);
+  return c.json(result, 200);
+});
 
 const toolsRoute = createRoute({
   method: "get",
@@ -34,7 +38,11 @@ const toolsRoute = createRoute({
   }),
 });
 
-packageRoutes.openapi(toolsRoute, packageHandler.listTools);
+packageRoutes.openapi(toolsRoute, async (c) => {
+  const { packageName } = c.req.valid("query");
+  const result = await packageHandler.listTools(packageName);
+  return c.json(result, 200);
+});
 
 const executeToolRoute = createRoute({
   method: "post",
@@ -54,7 +62,16 @@ const executeToolRoute = createRoute({
   }),
 });
 
-packageRoutes.openapi(executeToolRoute, packageHandler.executeTool);
+packageRoutes.openapi(executeToolRoute, async (c) => {
+  const body = c.req.valid("json");
+  const result = await packageHandler.executeTool(
+    body.packageName,
+    body.toolKey,
+    body.inputData,
+    body.envs,
+  );
+  return c.json(result, 200);
+});
 
 const packagesListRoute = createRoute({
   method: "get",

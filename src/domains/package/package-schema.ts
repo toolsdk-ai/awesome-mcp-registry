@@ -2,10 +2,14 @@ import { z } from "@hono/zod-openapi";
 import { BaseResponseSchema } from "../../shared/schemas/common-schema";
 
 export const packageNameQuerySchema = z.object({
-  packageName: z.string().openapi({
-    param: { name: "packageName", in: "query" },
-    example: "@modelcontextprotocol/server-filesystem",
-  }),
+  packageName: z
+    .string()
+    .min(1)
+    .openapi({
+      param: { name: "packageName", in: "query" },
+      example: "@modelcontextprotocol/server-filesystem",
+      description: "Package name",
+    }),
 });
 
 export const ToolExecuteSchema = z
