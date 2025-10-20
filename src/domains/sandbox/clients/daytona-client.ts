@@ -7,7 +7,6 @@ import { extractLastOuterJSON } from "../../../shared/utils/string-util";
 import { PackageRepository } from "../../package/package-repository";
 import type { MCPServerPackageConfig } from "../../package/package-types";
 import type { SandboxClient, SandboxExecuteResult } from "../sandbox-client-interface";
-import { SandboxStatus } from "../sandbox-client-interface";
 import type { MCPSandboxProvider } from "../sandbox-types";
 
 interface MCPToolResult {
@@ -29,7 +28,6 @@ export class DaytonaSandboxClient implements SandboxClient {
   private sandbox: Sandbox | null = null;
   private initializing: Promise<void> | null = null;
   private readonly provider: MCPSandboxProvider;
-  private status: SandboxStatus = SandboxStatus.IDLE;
   private readonly packageRepository: PackageRepository;
 
   constructor(
@@ -42,10 +40,6 @@ export class DaytonaSandboxClient implements SandboxClient {
     this.packageRepository = new PackageRepository(packagesDir);
   }
 
-  getStatus(): SandboxStatus {
-    return this.status;
-  }
-
   async initialize(): Promise<void> {
     if (this.sandbox) {
       return;
@@ -55,7 +49,6 @@ export class DaytonaSandboxClient implements SandboxClient {
       return;
     }
 
-    this.status = SandboxStatus.INITIALIZING;
     this.initializing = (async () => {
       try {
         const config = this.provider === "SANDOCK" ? getSandockDaytonaConfig() : getDaytonaConfig();
@@ -82,12 +75,11 @@ export class DaytonaSandboxClient implements SandboxClient {
         this.sandbox = await daytona.create({
           language: "javascript",
           image: declarativeImage,
+          autoDeleteInterval: 0,
         });
 
-        this.status = SandboxStatus.READY;
         console.log(`[DaytonaSandboxClient] Sandbox created successfully (${this.provider})`);
       } catch (error) {
-        this.status = SandboxStatus.ERROR;
         throw error;
       } finally {
         this.initializing = null;
@@ -102,16 +94,11 @@ export class DaytonaSandboxClient implements SandboxClient {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    this.status = SandboxStatus.BUSY;
-    try {
-      const response = await this.sandbox.process.codeRun(code);
-      return {
-        exitCode: response.exitCode,
-        result: response.result,
-      };
-    } finally {
-      this.status = SandboxStatus.READY;
-    }
+    const response = await this.sandbox.process.codeRun(code);
+    return {
+      exitCode: response.exitCode,
+      result: response.result,
+    };
   }
 
   async listTools(packageKey: string): Promise<Tool[]> {
@@ -168,11 +155,16 @@ export class DaytonaSandboxClient implements SandboxClient {
     try {
       if (this.sandbox) {
         await this.sandbox.delete();
-        this.status = SandboxStatus.DESTROYED;
-        console.log("[DaytonaSandboxClient] Sandbox destroyed");
+        console.log("[DaytonaSandboxClient] Sandbox destroyed successfully");
       }
     } catch (err) {
-      console.error("[DaytonaSandboxClient] Error destroying sandbox:", (err as Error).message);
+      const errorMessage = (err as Error).message;
+
+      if (errorMessage.includes("not found")) {
+        console.log("[DaytonaSandboxClient] Sandbox already destroyed (not found on platform)");
+      } else {
+        console.error("[DaytonaSandboxClient] Error destroying sandbox:", errorMessage);
+      }
     } finally {
       this.sandbox = null;
     }

@@ -1,4 +1,4 @@
-import type { SandboxClient, SandboxStatus } from "./sandbox-client-interface";
+import type { SandboxClient } from "./sandbox-client-interface";
 import { SandboxFactory } from "./sandbox-factory";
 import type { MCPSandboxProvider } from "./sandbox-types";
 
@@ -155,13 +155,11 @@ export class SandboxPoolSO {
   }
 
   getPoolStatus() {
-    const status: Record<string, { refCount: number; lastUsedAt: number; status: SandboxStatus }> =
-      {};
+    const status: Record<string, { refCount: number; lastUsedAt: number }> = {};
     for (const [key, record] of this.pools) {
       status[key] = {
         refCount: record.refCount,
         lastUsedAt: record.lastUsedAt,
-        status: record.client.getStatus(),
       };
     }
     return status;
