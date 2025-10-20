@@ -31,6 +31,14 @@ export class SandboxExecutor implements ToolExecutor {
     const mcpServerConfig = this.packageRepository.getPackageConfig(request.packageName);
     const runtime = mcpServerConfig.runtime || "python";
 
+    // Sandbox only supports node runtime, fallback to LOCAL for other runtimes
+    if (runtime !== "node") {
+      console.log(
+        `[SandboxExecutor] Runtime '${runtime}' is not supported in sandbox, using LOCAL execution`,
+      );
+      return await this.localExecutor.executeTool(request);
+    }
+
     const sandboxClient = await this.sandboxPool.acquire(runtime, this.provider);
 
     try {
@@ -71,6 +79,14 @@ export class SandboxExecutor implements ToolExecutor {
   async listTools(packageName: string): Promise<Tool[]> {
     const mcpServerConfig = this.packageRepository.getPackageConfig(packageName);
     const runtime = mcpServerConfig.runtime || "python";
+
+    // Sandbox only supports node runtime, fallback to LOCAL for other runtimes
+    if (runtime !== "node") {
+      console.log(
+        `[SandboxExecutor] Runtime '${runtime}' is not supported in sandbox, using LOCAL execution`,
+      );
+      return await this.localExecutor.listTools(packageName);
+    }
 
     const sandboxClient: SandboxClient = await this.sandboxPool.acquire(runtime, this.provider);
 
