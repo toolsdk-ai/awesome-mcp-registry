@@ -79,8 +79,6 @@ export class DaytonaSandboxClient implements SandboxClient {
         });
 
         console.log(`[DaytonaSandboxClient] Sandbox created successfully (${this.provider})`);
-      } catch (error) {
-        throw error;
       } finally {
         this.initializing = null;
       }
