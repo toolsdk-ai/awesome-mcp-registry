@@ -15,7 +15,7 @@ export const searchRoutes = new OpenAPIHono();
 
 const searchRoute = createRoute({
   method: "get",
-  path: "/search",
+  path: "/",
   request: {
     query: searchQuerySchema,
   },
@@ -32,7 +32,7 @@ searchRoutes.openapi(searchRoute, async (c) => {
 
 const suggestRoute = createRoute({
   method: "get",
-  path: "/search/suggest",
+  path: "/suggest",
   request: {
     query: suggestQuerySchema,
   },
@@ -49,7 +49,7 @@ searchRoutes.openapi(suggestRoute, async (c) => {
 
 const facetsRoute = createRoute({
   method: "get",
-  path: "/search/facets",
+  path: "/facets",
   responses: createRouteResponses(facetsResponseSchema, {
     includeErrorResponses: true,
   }),
@@ -62,7 +62,7 @@ searchRoutes.openapi(facetsRoute, async (c) => {
 
 const healthRoute = createRoute({
   method: "get",
-  path: "/search/health",
+  path: "/health",
   responses: createRouteResponses(healthResponseSchema, {
     includeErrorResponses: true,
   }),
@@ -75,7 +75,7 @@ searchRoutes.openapi(healthRoute, async (c) => {
 
 const initRoute = createRoute({
   method: "post",
-  path: "/search/manage/init",
+  path: "/manage/init",
   responses: createRouteResponses(managementResponseSchema, {
     includeErrorResponses: true,
   }),
@@ -88,7 +88,7 @@ searchRoutes.openapi(initRoute, async (c) => {
 
 const indexRoute = createRoute({
   method: "post",
-  path: "/search/manage/index",
+  path: "/manage/index",
   responses: createRouteResponses(managementResponseSchema, {
     includeErrorResponses: true,
   }),
@@ -101,7 +101,7 @@ searchRoutes.openapi(indexRoute, async (c) => {
 
 const clearRoute = createRoute({
   method: "post",
-  path: "/search/manage/clear",
+  path: "/manage/clear",
   responses: createRouteResponses(managementResponseSchema, {
     includeErrorResponses: true,
   }),
@@ -114,7 +114,7 @@ searchRoutes.openapi(clearRoute, async (c) => {
 
 const statsRoute = createRoute({
   method: "get",
-  path: "/search/manage/stats",
+  path: "/manage/stats",
   responses: createRouteResponses(managementResponseSchema, {
     includeErrorResponses: true,
   }),

@@ -11,7 +11,7 @@ export const configRoutes = new OpenAPIHono();
 
 const featuredRoute = createRoute({
   method: "get",
-  path: "/config/featured",
+  path: "/featured",
   responses: createRouteResponses(configSchemas.FeaturedResponseSchema),
 });
 
@@ -25,7 +25,7 @@ configRoutes.openapi(featuredRoute, async (c) => {
 
 const categoriesRoute = createRoute({
   method: "get",
-  path: "/config/categories",
+  path: "/categories",
   responses: createRouteResponses(configSchemas.CategoriesResponseSchema),
 });
 
