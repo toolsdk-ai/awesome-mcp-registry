@@ -1,6 +1,6 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import type { ToolExecutor } from "../executor/executor-interface";
+import type { ToolExecutor } from "../executor/executor-types";
 import type { PackageRepository } from "./package-repository";
 import { PackageSO } from "./package-so";
 import type { MCPServerPackageConfig } from "./package-types";

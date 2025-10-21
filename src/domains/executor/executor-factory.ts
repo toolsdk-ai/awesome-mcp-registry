@@ -1,5 +1,5 @@
 import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
-import type { ToolExecutor } from "./executor-interface";
+import type { ToolExecutor } from "./executor-types";
 import { LocalExecutor } from "./local-executor";
 import { SandboxExecutor } from "./sandbox-executor";
 

@@ -6,8 +6,12 @@ import { getDirname } from "../../../shared/utils/file-util";
 import { extractLastOuterJSON } from "../../../shared/utils/string-util";
 import { PackageRepository } from "../../package/package-repository";
 import type { MCPServerPackageConfig } from "../../package/package-types";
-import type { SandboxClient, SandboxExecuteResult } from "../sandbox-client-interface";
-import type { MCPExecuteResult, MCPToolResult } from "../sandbox-types";
+import type {
+  MCPExecuteResult,
+  MCPToolResult,
+  SandboxClient,
+  SandboxExecuteResult,
+} from "../sandbox-types";
 import { generateMCPTestCode } from "../sandbox-utils";
 
 /**

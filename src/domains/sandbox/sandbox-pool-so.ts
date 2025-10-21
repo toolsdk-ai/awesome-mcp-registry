@@ -1,6 +1,5 @@
-import type { SandboxClient } from "./sandbox-client-interface";
 import { SandboxFactory } from "./sandbox-factory";
-import type { MCPSandboxProvider } from "./sandbox-types";
+import type { MCPSandboxProvider, SandboxClient } from "./sandbox-types";
 
 interface SandboxPoolRecord {
   client: SandboxClient;

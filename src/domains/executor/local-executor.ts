@@ -3,7 +3,7 @@ import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getDirname } from "../../shared/utils/file-util";
 import { getMcpClient } from "../../shared/utils/mcp-client-util";
 import { PackageRepository } from "../package/package-repository";
-import type { ToolExecuteRequest, ToolExecutor } from "./executor-interface";
+import type { ToolExecuteRequest, ToolExecutor } from "./executor-types";
 
 /**
  * Local Executor

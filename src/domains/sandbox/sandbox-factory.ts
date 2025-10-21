@@ -1,7 +1,6 @@
 import { DaytonaSandboxClient } from "./clients/daytona-client";
 import { SandockSandboxClient } from "./clients/sandock-client";
-import type { SandboxClient } from "./sandbox-client-interface";
-import type { MCPSandboxProvider } from "./sandbox-types";
+import type { MCPSandboxProvider, SandboxClient } from "./sandbox-types";
 
 /**
  * Sandbox Factory

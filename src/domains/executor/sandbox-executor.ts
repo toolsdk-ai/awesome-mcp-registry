@@ -2,10 +2,9 @@ import path from "node:path";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getDirname } from "../../shared/utils/file-util";
 import { PackageRepository } from "../package/package-repository";
-import type { SandboxClient } from "../sandbox/sandbox-client-interface";
 import { SandboxPoolSO } from "../sandbox/sandbox-pool-so";
-import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
-import type { ToolExecuteRequest, ToolExecutor } from "./executor-interface";
+import type { MCPSandboxProvider, SandboxClient } from "../sandbox/sandbox-types";
+import type { ToolExecuteRequest, ToolExecutor } from "./executor-types";
 import { LocalExecutor } from "./local-executor";
 
 /**
