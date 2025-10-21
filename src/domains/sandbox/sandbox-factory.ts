@@ -13,11 +13,11 @@ export class SandboxFactory {
     provider: MCPSandboxProvider,
   ): SandboxClient {
     switch (provider) {
-      case "DAYTONA":
-        return new DaytonaSandboxClient(runtime);
-
       case "SANDOCK":
         return new SandockSandboxClient(runtime);
+
+      case "DAYTONA":
+        return new DaytonaSandboxClient(runtime);
 
       case "E2B":
         throw new Error("E2B sandbox provider is not yet implemented");
