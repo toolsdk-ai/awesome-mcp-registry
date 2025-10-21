@@ -12,7 +12,6 @@ export class PackageSO {
     private readonly _executor: ToolExecutor,
   ) {}
 
-  // ===== Getters =====
   get packageName() {
     return this._packageName;
   }

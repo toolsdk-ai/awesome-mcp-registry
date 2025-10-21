@@ -7,7 +7,7 @@ import { extractLastOuterJSON } from "../../../shared/utils/string-util";
 import { PackageRepository } from "../../package/package-repository";
 import type { MCPServerPackageConfig } from "../../package/package-types";
 import type { SandboxClient, SandboxExecuteResult } from "../sandbox-client-interface";
-import type { MCPExecuteResult, MCPSandboxProvider, MCPToolResult } from "../sandbox-types";
+import type { MCPExecuteResult, MCPToolResult } from "../sandbox-types";
 import { generateMCPTestCode } from "../sandbox-utils";
 
 /**
@@ -20,10 +20,7 @@ export class SandockSandboxClient implements SandboxClient {
   private readonly packageRepository: PackageRepository;
   private readonly client: ReturnType<typeof createSandockClient>;
 
-  constructor(
-    _runtime: "node" | "python" | "java" | "go" = "node",
-    _provider: MCPSandboxProvider = "SANDOCK",
-  ) {
+  constructor(_runtime: "node" | "python" | "java" | "go" = "node") {
     const __dirname = getDirname(import.meta.url);
     const packagesDir = path.join(__dirname, "../../../../packages");
     this.packageRepository = new PackageRepository(packagesDir);

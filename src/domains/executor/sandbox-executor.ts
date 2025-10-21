@@ -54,9 +54,7 @@ export class SandboxExecutor implements ToolExecutor {
       console.log(`[SandboxExecutor] Tool ${request.toolKey} executed successfully in sandbox`);
       return result;
     } catch (error) {
-      console.warn(
-        `[SandboxExecutor] DAYTONA sandbox execution failed, falling back to LOCAL execution`,
-      );
+      console.warn(`[SandboxExecutor] sandbox execution failed, falling back to LOCAL execution`);
       console.warn(
         `[SandboxExecutor] Error: ${error instanceof Error ? error.message : String(error)}`,
       );
@@ -97,9 +95,7 @@ export class SandboxExecutor implements ToolExecutor {
       console.log(`[SandboxExecutor] Tools list retrieved successfully for package ${packageName}`);
       return tools;
     } catch (error) {
-      console.warn(
-        `[SandboxExecutor] DAYTONA sandbox list tools failed, falling back to LOCAL execution`,
-      );
+      console.warn(`[SandboxExecutor] sandbox list tools failed, falling back to LOCAL execution`);
       console.warn(
         `[SandboxExecutor] Error: ${error instanceof Error ? error.message : String(error)}`,
       );

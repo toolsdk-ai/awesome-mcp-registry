@@ -18,7 +18,7 @@ export class SandboxFactory {
         return new DaytonaSandboxClient(runtime);
 
       case "SANDOCK":
-        return new SandockSandboxClient(runtime, provider);
+        return new SandockSandboxClient(runtime);
 
       case "E2B":
         throw new Error("E2B sandbox provider is not yet implemented");
