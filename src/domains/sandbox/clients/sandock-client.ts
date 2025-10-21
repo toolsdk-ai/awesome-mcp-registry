@@ -1,12 +1,13 @@
 import path from "node:path";
-import { Daytona, type DaytonaConfig, Image, type Sandbox } from "@daytonaio/sdk";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { getDaytonaConfig } from "../../../shared/config/environment";
+import { createSandockClient } from "sandock";
+import { getSandockConfig } from "../../../shared/config/environment";
 import { getDirname } from "../../../shared/utils/file-util";
 import { extractLastOuterJSON } from "../../../shared/utils/string-util";
 import { PackageRepository } from "../../package/package-repository";
 import type { MCPServerPackageConfig } from "../../package/package-types";
 import type { SandboxClient, SandboxExecuteResult } from "../sandbox-client-interface";
+import type { MCPSandboxProvider } from "../sandbox-types";
 
 interface MCPToolResult {
   toolCount: number;
@@ -20,22 +21,34 @@ interface MCPExecuteResult {
 }
 
 /**
- * Daytona Sandbox Client
- * Implements SandboxClient interface for Daytona provider
+ * Sandock Sandbox Client
+ * Implements SandboxClient interface for Sandock provider
  */
-export class DaytonaSandboxClient implements SandboxClient {
-  private sandbox: Sandbox | null = null;
+export class SandockSandboxClient implements SandboxClient {
+  private sandboxId: string | null = null;
   private initializing: Promise<void> | null = null;
   private readonly packageRepository: PackageRepository;
+  private readonly client: ReturnType<typeof createSandockClient>;
 
-  constructor(_runtime: "node" | "python" | "java" | "go" = "node") {
+  constructor(
+    _runtime: "node" | "python" | "java" | "go" = "node",
+    _provider: MCPSandboxProvider = "SANDOCK",
+  ) {
     const __dirname = getDirname(import.meta.url);
     const packagesDir = path.join(__dirname, "../../../../packages");
     this.packageRepository = new PackageRepository(packagesDir);
+
+    const config = getSandockConfig();
+    this.client = createSandockClient({
+      baseUrl: config.apiUrl,
+      headers: {
+        Authorization: `Bearer ${config.apiKey}`,
+      },
+    });
   }
 
   async initialize(): Promise<void> {
-    if (this.sandbox) {
+    if (this.sandboxId) {
       return;
     }
     if (this.initializing) {
@@ -45,34 +58,25 @@ export class DaytonaSandboxClient implements SandboxClient {
 
     this.initializing = (async () => {
       try {
-        const config = getDaytonaConfig();
-
-        const daytonaConfig: DaytonaConfig = {
-          apiKey: config.apiKey,
-        };
-
-        if (config.apiUrl) {
-          daytonaConfig.apiUrl = config.apiUrl;
-        }
-
-        const daytona = new Daytona(daytonaConfig);
-
-        const declarativeImage = Image.base("node:20")
-          .runCommands(
-            "npm install -g pnpm",
-            "mkdir -p /workspace",
-            "cd /workspace && npm init -y",
-            "cd /workspace && pnpm add @modelcontextprotocol/sdk",
-          )
-          .workdir("/workspace");
-
-        this.sandbox = await daytona.create({
-          language: "javascript",
-          image: declarativeImage,
-          autoDeleteInterval: 0,
+        // Create sandbox with pre-built MCP image
+        const createResponse = await this.client.POST("/api/sandbox", {
+          body: {
+            image: "seey/sandock-mcp:latest",
+            workdir: "/mcpspace",
+          },
         });
 
-        console.log("[DaytonaSandboxClient] Sandbox created successfully");
+        if (!createResponse.data) {
+          const errorMsg =
+            "error" in createResponse ? JSON.stringify(createResponse.error) : "Unknown error";
+          throw new Error(`Failed to create sandbox: ${errorMsg}`);
+        }
+
+        this.sandboxId = createResponse.data.data.id;
+        console.log(`[SandockSandboxClient] Sandbox created successfully: ${this.sandboxId}`);
+      } catch (error) {
+        this.sandboxId = null;
+        throw error;
       } finally {
         this.initializing = null;
       }
@@ -81,15 +85,73 @@ export class DaytonaSandboxClient implements SandboxClient {
     await this.initializing;
   }
 
-  private async executeCode(code: string): Promise<SandboxExecuteResult> {
-    if (!this.sandbox) {
+  private async executeShellCommand(cmd: string): Promise<string> {
+    if (!this.sandboxId) {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    const response = await this.sandbox.process.codeRun(code);
+    const response = await this.client.POST("/api/sandbox/{id}/shell", {
+      params: {
+        path: {
+          id: this.sandboxId,
+        },
+      },
+      body: {
+        cmd,
+      },
+    });
+
+    if (!response.data) {
+      const errorMsg = "error" in response ? JSON.stringify(response.error) : "Unknown error";
+      throw new Error(`Shell command failed: ${errorMsg}`);
+    }
+
+    const stdout = response.data.data.stdout || "";
+    const stderr = response.data.data.stderr || "";
+
+    if (stderr.trim()) {
+      console.log(`[SandockSandboxClient] stderr: ${stderr}`);
+    }
+
+    return stdout;
+  }
+
+  private async executeCode(code: string): Promise<SandboxExecuteResult> {
+    if (!this.sandboxId) {
+      throw new Error("Sandbox not initialized. Call initialize() first.");
+    }
+
+    // Write code to a temporary file in /mcpspace (accessible to node_modules)
+    const tempFile = `/mcpspace/mcp_test_${Date.now()}.mjs`;
+
+    // Use Sandock's file write API (more reliable)
+    await this.client.POST("/api/sandbox/{id}/fs/write", {
+      params: {
+        path: { id: this.sandboxId },
+      },
+      body: {
+        path: tempFile,
+        content: code,
+      },
+    });
+
+    const output = await this.executeShellCommand(`cd /mcpspace && node ${tempFile}`);
+
+    // Asynchronously clean up temp file without blocking result return
+    this.client
+      .DELETE("/api/sandbox/{id}/fs", {
+        params: {
+          path: { id: this.sandboxId },
+          query: { path: tempFile },
+        },
+      })
+      .catch((error) => {
+        console.warn("[SandockSandboxClient] Warning: Could not delete temp file:", error);
+      });
+
     return {
-      exitCode: response.exitCode,
-      result: response.result,
+      exitCode: 0,
+      result: output,
     };
   }
 
@@ -136,7 +198,7 @@ export class DaytonaSandboxClient implements SandboxClient {
     const result: MCPExecuteResult = JSON.parse(parsedResultStr);
 
     if (result.isError) {
-      console.error("[DaytonaSandboxClient] Tool execution error:", result.errorMessage);
+      console.error("[SandockSandboxClient] Tool execution error:", result.errorMessage);
       throw new Error(result.errorMessage);
     }
 
@@ -144,22 +206,39 @@ export class DaytonaSandboxClient implements SandboxClient {
   }
 
   async destroy(): Promise<void> {
-    try {
-      if (this.sandbox) {
-        await this.sandbox.delete();
-        console.log("[DaytonaSandboxClient] Sandbox destroyed successfully");
-      }
-    } catch (err) {
-      const errorMessage = (err as Error).message;
-
-      if (errorMessage.includes("not found")) {
-        console.log("[DaytonaSandboxClient] Sandbox already destroyed (not found on platform)");
-      } else {
-        console.error("[DaytonaSandboxClient] Error destroying sandbox:", errorMessage);
-      }
-    } finally {
-      this.sandbox = null;
+    if (!this.sandboxId) {
+      return;
     }
+
+    const sandboxIdToStop = this.sandboxId;
+    this.sandboxId = null; // Clear immediately to avoid duplicate calls
+
+    // Asynchronously clean up sandbox without blocking result return
+    this.client
+      .POST("/api/sandbox/{id}/stop", {
+        params: {
+          path: {
+            id: sandboxIdToStop,
+          },
+        },
+      })
+      .then((response) => {
+        if (!response.data && "error" in response) {
+          console.warn(
+            `[SandockSandboxClient] Warning: Could not stop sandbox: ${JSON.stringify(response.error)}`,
+          );
+        } else {
+          console.log("[SandockSandboxClient] Sandbox stopped successfully");
+        }
+      })
+      .catch((err) => {
+        const errorMessage = (err as Error).message;
+        if (errorMessage.includes("not found") || errorMessage.includes("404")) {
+          console.log("[SandockSandboxClient] Sandbox already stopped (not found on platform)");
+        } else {
+          console.warn("[SandockSandboxClient] Warning: Could not stop sandbox:", errorMessage);
+        }
+      });
   }
 
   private generateMCPTestCode(
@@ -217,16 +296,12 @@ async function runMCP() {
 
     process.stdout.write(JSON.stringify(result));
   } catch (error) {
-    console.error("Error in MCP test:", error);
     process.exitCode = 1;
-    process.stdout.write(JSON.stringify({ error: error.message || "Unknown error occurred" }));
+    const errorResult = { error: error.message || "Unknown error occurred" };
+    process.stdout.write(JSON.stringify(errorResult));
   } finally {
     if (client) {
-      try {
-        await client.close();
-      } catch (closeError) {
-        console.error("Error closing MCP client:", closeError);
-      }
+      client.close();
     }
   }
 }
@@ -243,7 +318,6 @@ runMCP();
 
     process.stdout.write(JSON.stringify(result));
   } catch (error) {
-    console.error("Error in MCP test:", error);
     process.exitCode = 1;
     process.stdout.write(JSON.stringify({ 
       result: null, 
@@ -252,11 +326,7 @@ runMCP();
     }));
   } finally {
     if (client) {
-      try {
-        await client.close();
-      } catch (closeError) {
-        console.error("Error closing MCP client:", closeError);
-      }
+      client.close();
     }
   }
 }

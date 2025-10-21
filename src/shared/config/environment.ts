@@ -31,10 +31,10 @@ export function getDaytonaConfig() {
   };
 }
 
-export function getSandockDaytonaConfig() {
+export function getSandockConfig() {
   return {
-    apiKey: process.env.DAYTONA_API_KEY || "",
-    apiUrl: process.env.SANDOCK_DAYTONA_API_URL || process.env.DAYTONA_API_URL,
+    apiKey: process.env.SANDOCK_API_KEY || "",
+    apiUrl: process.env.SANDOCK_API_URL || "https://sandock.ai",
   };
 }
 

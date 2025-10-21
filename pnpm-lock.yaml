@@ -1625,6 +1625,9 @@ importers:
       rss-reader-mcp:
         specifier: 1.0.3
         version: 1.0.3(bufferutil@4.0.9)(canvas@3.1.2)(utf-8-validate@5.0.10)
+      sandock:
+        specifier: ^0.2.2
+        version: 0.2.2
       scrapeless-mcp-server:
         specifier: 0.3.0
         version: 0.3.0
@@ -10049,8 +10052,8 @@ packages:
   '@smithery/sdk@1.5.6':
     resolution: {integrity: sha512-5chXDcoldyUnCcaFatheae7ChcXFvoSJEI1ehu0ia7rqPVeA/FDntJ5DU/tRalUMX/r5PifhIV+SOp/iRUMjeg==}
 
-  '@smithery/sdk@1.6.8':
-    resolution: {integrity: sha512-ifnScl4pc8IJH5IIPfEP78MLbUz7idGcW1SG3ddyO25CzKCN8gJMfVpWEMNX5L65gc4KJgujAwzp6n3KI+h42g==}
+  '@smithery/sdk@1.7.4':
+    resolution: {integrity: sha512-Lgedh794Qj13wNjk2UX360wnYlTpkjnnIPVTwsImcZAIno38L3AF+4dYgeDd435ch5oDfUomuPFthDqvf6DV/A==}
 
   '@smithy/abort-controller@4.0.4':
     resolution: {integrity: sha512-gJnEjZMvigPDQWHrW3oPrFhQtkrgqBkyjj3pCIdF3A5M6vsZODG93KNlfJprv6bp4245bdT32fsHK4kkH3KYDA==}
@@ -21888,6 +21891,9 @@ packages:
   openapi-fetch@0.14.0:
     resolution: {integrity: sha512-PshIdm1NgdLvb05zp8LqRQMNSKzIlPkyMxYFxwyHR+UlKD4t2nUjkDhNxeRbhRSEd3x5EUNh2w5sJYwkhOH4fg==}
 
+  openapi-fetch@0.15.0:
+    resolution: {integrity: sha512-OjQUdi61WO4HYhr9+byCPMj0+bgste/LtSBEcV6FzDdONTs7x0fWn8/ndoYwzqCsKWIxEZwo4FN/TG1c1rI8IQ==}
+
   openapi-fetch@0.9.8:
     resolution: {integrity: sha512-zM6elH0EZStD/gSiNlcPrzXcVQ/pZo3BDvC6CDwRDUt1dDzxlshpmQnpD6cZaJ39THaSmwVCxxRrPKNM1hHrDg==}
 
@@ -24157,6 +24163,9 @@ packages:
 
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+
+  sandock@0.2.2:
+    resolution: {integrity: sha512-jTeqvoEdb1G0B//sd++1BQXneXEAqcGSDFTOpTAvtFuf5OgKAqyDU8pqYTcRx3FT/TgW331ojHwVWwD5YXx2Eg==}
 
   sanitize-html@2.17.0:
     resolution: {integrity: sha512-dLAADUSS8rBwhaevT12yCezvioCA+bmUTPH/u57xKPT8d++voeYE6HeluA/bPbQ15TwDBG2ii+QZIEmYx8VdxA==}
@@ -34208,7 +34217,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.27.4
       '@jest/types': 29.6.3
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/trace-mapping': 0.3.31
       babel-plugin-istanbul: 6.1.1
       chalk: 4.1.2
       convert-source-map: 2.0.0
@@ -34715,7 +34724,7 @@ snapshots:
   '@jridgewell/source-map@0.3.6':
     dependencies:
       '@jridgewell/gen-mapping': 0.3.12
-      '@jridgewell/trace-mapping': 0.3.29
+      '@jridgewell/trace-mapping': 0.3.31
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
@@ -35903,7 +35912,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.10.2':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
@@ -35911,7 +35920,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-cli@0.17.1':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       commander: 13.1.0
       spawn-rx: 5.1.2
     transitivePeerDependencies:
@@ -35919,7 +35928,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-client@0.10.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(tailwindcss@4.1.11)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -35951,7 +35960,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-client@0.17.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       '@radix-ui/react-checkbox': 1.3.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons': 1.3.2(react@18.3.1)
@@ -35983,7 +35992,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       cors: 2.8.5
       express: 5.1.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -35995,7 +36004,7 @@ snapshots:
 
   '@modelcontextprotocol/inspector-server@0.17.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       cors: 2.8.5
       express: 5.1.0
       shell-quote: 1.8.3
@@ -36035,7 +36044,7 @@ snapshots:
       '@modelcontextprotocol/inspector-cli': 0.17.1
       '@modelcontextprotocol/inspector-client': 0.17.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)
       '@modelcontextprotocol/inspector-server': 0.17.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       concurrently: 9.2.0
       node-fetch: 3.3.2
       open: 10.2.0
@@ -40738,9 +40747,9 @@ snapshots:
       - supports-color
       - ws
 
-  '@smithery/sdk@1.6.8':
+  '@smithery/sdk@1.7.4':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       chalk: 5.6.2
       express: 5.1.0
       jose: 6.1.0
@@ -44038,7 +44047,7 @@ snapshots:
 
   agents@0.0.59(@cloudflare/workers-types@4.20250627.0):
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       cron-schedule: 5.0.4
       nanoid: 5.1.5
       partyserver: 0.0.66(@cloudflare/workers-types@4.20250627.0)
@@ -54589,7 +54598,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/sdk': 1.15.0
       '@octokit/rest': 21.1.1
-      '@smithery/sdk': 1.6.8
+      '@smithery/sdk': 1.7.4
       axios: 1.10.0
       zod: 3.25.76
     transitivePeerDependencies:
@@ -54598,7 +54607,7 @@ snapshots:
 
   mcp-proxy@2.14.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -54606,7 +54615,7 @@ snapshots:
 
   mcp-proxy@3.3.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       eventsource: 4.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -54614,7 +54623,7 @@ snapshots:
 
   mcp-proxy@5.5.5:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.20.0
+      '@modelcontextprotocol/sdk': 1.20.1
       eventsource: 4.0.0
       yargs: 18.0.0
     transitivePeerDependencies:
@@ -57449,6 +57458,10 @@ snapshots:
       openapi-typescript-helpers: 0.0.15
 
   openapi-fetch@0.14.0:
+    dependencies:
+      openapi-typescript-helpers: 0.0.15
+
+  openapi-fetch@0.15.0:
     dependencies:
       openapi-typescript-helpers: 0.0.15
 
@@ -60385,6 +60398,10 @@ snapshots:
   safe-stable-stringify@2.5.0: {}
 
   safer-buffer@2.1.2: {}
+
+  sandock@0.2.2:
+    dependencies:
+      openapi-fetch: 0.15.0
 
   sanitize-html@2.17.0:
     dependencies:

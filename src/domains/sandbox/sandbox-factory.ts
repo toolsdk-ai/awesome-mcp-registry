@@ -1,4 +1,5 @@
 import { DaytonaSandboxClient } from "./clients/daytona-client";
+import { SandockSandboxClient } from "./clients/sandock-client";
 import type { SandboxClient } from "./sandbox-client-interface";
 import type { MCPSandboxProvider } from "./sandbox-types";
 
@@ -14,11 +15,10 @@ export class SandboxFactory {
   ): SandboxClient {
     switch (provider) {
       case "DAYTONA":
-        return new DaytonaSandboxClient(runtime, provider);
+        return new DaytonaSandboxClient(runtime);
 
       case "SANDOCK":
-        // return new SandockSandboxClient(runtime, provider);
-        throw new Error("SANDOCK sandbox provider is not yet implemented");
+        return new SandockSandboxClient(runtime, provider);
 
       case "E2B":
         throw new Error("E2B sandbox provider is not yet implemented");
