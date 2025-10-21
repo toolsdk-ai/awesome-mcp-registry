@@ -139,21 +139,27 @@ export class DaytonaSandboxClient implements SandboxClient {
   }
 
   async destroy(): Promise<void> {
-    try {
-      if (this.sandbox) {
-        await this.sandbox.delete();
-        console.log("[DaytonaSandboxClient] Sandbox destroyed successfully");
-      }
-    } catch (err) {
-      const errorMessage = (err as Error).message;
-
-      if (errorMessage.includes("not found")) {
-        console.log("[DaytonaSandboxClient] Sandbox already destroyed (not found on platform)");
-      } else {
-        console.error("[DaytonaSandboxClient] Error destroying sandbox:", errorMessage);
-      }
-    } finally {
-      this.sandbox = null;
+    if (!this.sandbox) {
+      return;
     }
+
+    const sandboxToDelete = this.sandbox;
+    this.sandbox = null; // Clear immediately to avoid duplicate calls
+
+    // Asynchronously clean up sandbox without blocking result return
+    sandboxToDelete
+      .delete()
+      .then(() => {
+        console.log("[DaytonaSandboxClient] Sandbox destroyed successfully");
+      })
+      .catch((err: Error) => {
+        const errorMessage = err.message;
+
+        if (errorMessage.includes("not found")) {
+          console.log("[DaytonaSandboxClient] Sandbox already destroyed (not found on platform)");
+        } else {
+          console.warn("[DaytonaSandboxClient] Warning: Could not destroy sandbox:", errorMessage);
+        }
+      });
   }
 }
