@@ -21,7 +21,7 @@ export interface SandboxClient {
   destroy(): Promise<void>;
 }
 
-export type MCPSandboxProvider = "LOCAL" | "DAYTONA" | "SANDOCK" | "E2B";
+export type MCPSandboxProvider = "SANDOCK" | "DAYTONA" | "E2B" | "LOCAL";
 
 export interface MCPToolResult {
   toolCount: number;
