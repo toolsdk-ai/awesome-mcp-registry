@@ -33,8 +33,10 @@ Before you begin, ensure your development environment meets the following requir
 - **Runtime Environment**: Node.js (ESM modules)
 - **Package Manager**: pnpm
 - **Language**: TypeScript
-- **Web Framework**: Hono.js
+- **Web Framework**: Hono.js + OpenAPI (Zod)
+- **Architecture**: Domain-Driven Design (DDD) + Service Object Pattern
 - **Search Service**: MeiliSearch (optional)
+- **Sandbox Providers**: LOCAL / Sandock / Daytona / E2B (optional)
 - **Build Tool**: TypeScript Compiler (tsc)
 - **Code Formatting**: Biome
 - **Testing**: Vitest
@@ -45,6 +47,18 @@ This project has two main purposes:
 
 1. **MCP Registry** - Collects and indexes various MCP servers, providing search functionality
 2. **MCP Server** - Deployed as a server to remotely call various MCP servers
+
+### Key Features:
+
+- 📦 **Package Management** - Registry of 4000+ MCP servers with metadata and validation
+- 🔍 **Search Service** - Full-text search powered by MeiliSearch (optional)
+- 🛡️ **Sandbox Execution** - Secure MCP tool execution in isolated environments:
+  - **LOCAL** - Direct local execution (default)
+  - **Sandock** - Lightweight Docker sandbox for AI agents
+  - **Daytona** - Cloud development environments
+  - **E2B** - Code interpreter sandbox
+- 🌐 **RESTful API** - Complete API with OpenAPI/Swagger documentation
+- ⚡ **Performance** - Async execution with connection pooling
 
 Additionally, we have deployed a website [ToolSDK.ai](https://toolsdk.ai) that can search for and run MCP Servers. We also provide a tool called `toolsdk` to help integrate these MCP Servers.
 
@@ -171,25 +185,129 @@ Error reading MCP Client for package: claude-prompts... ENOENT: no such file or 
 
 ## 7. 🗃️ Project Structure
 
+This project follows **Domain-Driven Design (DDD)** architecture with **Service Object** pattern:
+
 ```
 .
-├── config/     # Configuration files
-├── indexes/    # Generated index files
-├── packages/   # MCP server configuration files (categorized)
-├── scripts/    # Build and maintenance scripts
-└── src/        # Source code
-    ├── api/    # API routes and server entry points
-    └── search/ # Search service
+├── config/           # Configuration files
+├── indexes/          # Generated index files
+├── packages/         # MCP server configuration files (categorized by domain)
+├── scripts/          # Build and maintenance scripts
+├── docker/           # Docker related files
+│   ├── sandock-mcp.Dockerfile  # Sandock custom image
+│   ├── build-and-push.sh       # Image build script
+│   └── QUICKSTART.md           # Docker quick start guide
+├── docs/             # Documentation
+│   ├── CODE-GUIDELINES.md         # Coding standards and best practices
+│   └── SANDOCK_BEST_PRACTICES.md  # Sandock usage guide
+└── src/              # Source code (Domain-Driven Design)
+    ├── api/          # API entry point
+    │   └── index.ts  # Server initialization and route registration
+    ├── domains/      # Business domains (core logic)
+    │   ├── config/   # Configuration management
+    │   ├── executor/ # Tool execution (local-executor, sandbox-executor)
+    │   ├── package/  # Package management (SO, handler, routes)
+    │   ├── sandbox/  # Sandbox management (pooling, providers)
+    │   └── search/   # Search service integration
+    └── shared/       # Shared infrastructure
+        ├── config/   # Environment configuration (environment.ts)
+        ├── schemas/  # Common Zod schemas
+        ├── types/    # Shared TypeScript types
+        └── utils/    # Utility functions
 ```
+
+### Architecture Highlights:
+
+- **Service Object (SO) Pattern**: Business logic encapsulated in reusable Service Objects
+- **Handler Layer**: Thin HTTP request/response handlers
+- **Repository Pattern**: Data access abstraction
+- **Factory Pattern**: Dynamic object creation (Executor, Sandbox providers)
+- **Dependency Injection**: Loose coupling through constructor injection
+
+For detailed coding guidelines, see [docs/CODE-GUIDELINES.md](./docs/CODE-GUIDELINES.md).
 
 ## 8. ⚙️ Environment Variables
 
 The project uses the following environment variables, which can be configured in `.env` or `.env.local`:
 
-- `MCP_SERVER_PORT`: Server port (default: 3003)
-- `ENABLE_SEARCH`: Whether to enable search service (default: false)
+### Core Settings
+
+- `MCP_SERVER_PORT` / `PORT`: Server port (default: 3003)
+- `NODE_ENV`: Environment mode (development / production)
+
+### Search Service (Optional)
+
+- `ENABLE_SEARCH`: Enable MeiliSearch integration (default: false)
 - `MEILI_HTTP_ADDR`: MeiliSearch service address (default: http://localhost:7700)
+- `MEILI_MASTER_KEY`: MeiliSearch master key (optional)
+
+### Sandbox Providers (Optional)
+
+- `MCP_SANDBOX_PROVIDER`: Sandbox provider to use (default: LOCAL)
+  - `LOCAL` - Direct local execution (no sandbox)
+  - `SANDOCK` - Sandock Docker sandbox
+  - `DAYTONA` - Daytona cloud environments
+  - `E2B` - E2B code interpreter
+
+#### Sandock Configuration
+
+- `SANDOCK_API_URL`: Sandock API endpoint (default: https://sandock.ai)
+- `SANDOCK_API_KEY`: Sandock API key (required for Sandock provider)
+
+#### Daytona Configuration
+
+- `DAYTONA_API_URL`: Daytona API endpoint
+- `DAYTONA_API_KEY`: Daytona API key (required for Daytona provider)
+
+#### E2B Configuration
+
+- `E2B_API_KEY`: E2B API key (required for E2B provider)
+
+### Example Configuration
+
+```env
+MCP_SERVER_PORT=3003
+NODE_ENV=development
+
+# Search (optional)
+ENABLE_SEARCH=true
+MEILI_HTTP_ADDR=http://localhost:7700
+
+# Sandbox (optional - uncomment to enable)
+# MCP_SANDBOX_PROVIDER=SANDOCK
+# SANDOCK_API_URL=https://sandock.ai
+# SANDOCK_API_KEY=your_sandock_api_key_here
+```
+
+All environment variables are accessed through `src/shared/config/environment.ts` for type safety and validation.
 
 ## 9. 📝 Contribution Guide
 
 For detailed information on how to contribute code to the project, add new MCP servers, etc., please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+
+### Quick Contribution Checklist
+
+Before submitting your code:
+
+- [ ] Follow [CODE-GUIDELINES.md](./docs/CODE-GUIDELINES.md) coding standards
+- [ ] Run `pnpm run check` (linting and formatting)
+- [ ] Run `pnpm run test` (all tests pass)
+- [ ] Update documentation if needed
+- [ ] Add tests for new features
+- [ ] Use conventional commit messages
+
+### Development Workflow
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Make your changes following the coding guidelines
+4. Test your changes: `pnpm run test`
+5. Commit your changes: `git commit -m "feat: add new feature"`
+6. Push to your fork: `git push origin feature/your-feature`
+7. Create a Pull Request
+
+---
+
+**Happy coding! 🚀**
+
+For questions or issues, please [open an issue](https://github.com/petercat-ai/awesome-mcp-registry/issues) or join our community discussions.
