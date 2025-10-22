@@ -47440,5 +47440,11 @@
     "path": "data-platforms/google-analytics.json",
     "validated": false,
     "tools": {}
+  },
+  "@juspay/neurolink": {
+    "category": "developer-tools",
+    "path": "developer-tools/neurolink.json",
+    "validated": false,
+    "tools": {}
   }
 }
