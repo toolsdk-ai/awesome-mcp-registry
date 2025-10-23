@@ -15,10 +15,16 @@ This document provides developers with detailed information on how to set up, ru
     - [5.1 Quick Start (5 Minutes)](#51-quick-start-5-minutes)
     - [5.2 API Usage Examples](#52-api-usage-examples)
     - [5.3 Troubleshooting](#53-troubleshooting)
-  - [6. 🛠 Common Issues and Troubleshooting](#6--common-issues-and-troubleshooting)
-    - [6.1 MCP Client Test Errors During Build Process](#61-mcp-client-test-errors-during-build-process)
-  - [7. 🗃️ Project Structure](#7-️-project-structure)
-  - [8. ⚙️ Environment Variables](#8-️-environment-variables)
+  - [6. 📦 Package Management for Private Deployment](#6--package-management-for-private-deployment)
+    - [6.1 Understanding Package Structure](#61-understanding-package-structure)
+    - [6.2 How to Remove Unwanted Packages](#62-how-to-remove-unwanted-packages)
+    - [6.3 Rebuild Indexes](#63-rebuild-indexes)
+    - [6.4 Benefits of Package Pruning](#64-benefits-of-package-pruning)
+    - [6.5 Recommended Minimal Setup](#65-recommended-minimal-setup)
+  - [7. 🛠 Common Issues and Troubleshooting](#7--common-issues-and-troubleshooting)
+    - [7.1 MCP Client Test Errors During Build Process](#71-mcp-client-test-errors-during-build-process)
+  - [8. 🗃️ Project Structure](#8-️-project-structure)
+  - [9. ⚙️ Environment Variables](#9-️-environment-variables)
 
 ## 1. 🧰 Prerequisites
 
@@ -50,7 +56,7 @@ This project has two main purposes:
 
 ### Key Features:
 
-- 📦 **Package Management** - Registry of 4000+ MCP servers with metadata and validation
+- 📦 **Package Management** - Registry of 6000+ MCP servers with metadata and validation
 - 🔍 **Search Service** - Full-text search powered by MeiliSearch (optional)
 - 🛡️ **Sandbox Execution** - Secure MCP tool execution in isolated environments:
   - **LOCAL** - Direct local execution (default)
@@ -167,6 +173,8 @@ SANDOCK_API_KEY=your-sandock-api-key-here  # Replace with your actual API Key
 docker compose up -d
 ```
 
+> **⚠️ Note:** This command will build and install all 6000+ MCP packages and their dependencies, which may take 10-15 minutes on first run. If you only need specific packages for your use case, consider pruning unwanted packages first by following the guide in [Section 6: Package Management for Private Deployment](#6--package-management-for-private-deployment) to significantly reduce build time and image size.
+
 This will start two services:
 - `mcp-registry` - MCP Registry main application (port 3003)
 - `meilisearch` - Search engine service (port 7700)
@@ -264,9 +272,134 @@ First build may take 10-15 minutes, which is normal. The Dockerfile needs to:
 
 Subsequent builds will be much faster using Docker cache.
 
-## 6. 🛠 Common Issues and Troubleshooting
+## 6. 📦 Package Management for Private Deployment
 
-### 6.1 MCP Client Test Errors During Build Process
+If you're deploying this project privately, you probably don't need all 6000+ MCP packages. Here's how to keep only the packages you need to significantly reduce build time and dependencies.
+
+### 6.1 Understanding Package Structure
+
+All MCP packages are stored in the `packages/` directory, organized by category:
+
+```
+packages/
+├── developer-tools/      # Development related tools
+├── databases/            # Database integrations
+├── cloud-platforms/      # Cloud service integrations
+├── version-control/      # Git, GitHub, etc.
+├── communication/        # Slack, Discord, etc.
+└── ...                   # 30+ other categories
+```
+
+Each package is defined by a JSON configuration file.
+
+### 6.2 How to Remove Unwanted Packages
+
+**Option 1: Remove Specific Packages**
+
+To remove individual packages within a category, simply delete their JSON configuration files:
+
+1. Navigate to the category folder (e.g., `packages/version-control/`)
+2. Delete the `.json` files for packages you don't need
+3. Run the rebuild process (see Section 6.3)
+
+Example: Keep only GitHub-related packages in version-control by removing other `.json` files like `gitlab.json`, `bitbucket.json`, etc.
+
+**Option 2: Remove Entire Categories**
+
+To remove entire categories (e.g., gaming, sports), edit the `config/categories.mjs` file:
+
+1. Open `config/categories.mjs`
+2. Remove the category objects you don't need. For example, to remove gaming and sports:
+
+```javascript
+// Remove these entries from the array:
+{
+  key: "gaming",
+  name: "Gaming",
+  description: "Connect with gaming data, engines, and related services.",
+},
+{
+  key: "sports",
+  name: "Sports",
+  description: "Access sports data, results, and stats with ease.",
+}
+```
+
+3. Run the rebuild process - the build script will automatically remove the corresponding directories and their packages
+
+**Option 3: Keep Only What You Need (Minimal Setup)**
+
+For a minimal deployment with only essential categories:
+
+1. Open `config/categories.mjs`
+2. Remove all category entries except the ones you need (e.g., `developer-tools`, `databases`, `cloud-platforms`, `version-control`, `communication`, `file-systems`)
+3. Run the rebuild process
+
+This approach is recommended as it ensures consistency between your configuration and the actual packages.
+
+### 6.3 Rebuild Indexes
+
+After removing packages, rebuild the indexes:
+
+**For Linux/macOS:**
+
+```bash
+make build
+```
+
+**For Windows:**
+
+The `make` command is not available by default on Windows. You'll need to run the build commands manually. Open the `Makefile` file in the project root and execute the commands in the `build` target one by one:
+
+```bash
+bun scripts/cat-dirs.ts
+pnpm install --no-frozen-lockfile
+bun scripts/indexing-lists.ts
+bun scripts/check-config.ts
+pnpm install --no-frozen-lockfile
+npx tsx scripts/test-mcp-clients.ts
+pnpm install --no-frozen-lockfile
+pnpm prune
+bun scripts/readme-gen.ts
+pnpm run sort
+pnpm run check
+pnpm run build
+```
+
+This will:
+- Scan the remaining packages in `packages/` directory
+- Validate them and install only required dependencies
+- Generate new indexes in `indexes/`
+- Update `package.json` with only the necessary Node.js dependencies
+
+### 6.4 Benefits of Package Pruning
+
+By keeping only the packages you need, you'll get:
+
+- ✅ **Faster Build Time** - From 10-15 minutes to 2-3 minutes
+- ✅ **Smaller Dependencies** - From thousands to dozens of packages
+- ✅ **Smaller Docker Image** - Reduced image size by 50-80%
+- ✅ **Faster Deployment** - Less data to transfer and install
+- ✅ **Easier Maintenance** - Focus only on packages you actually use
+
+### 6.5 Recommended Minimal Setup
+
+For a typical private deployment, we recommend keeping only the most commonly used categories. 
+
+Edit `config/categories.mjs` and keep only these essential categories:
+
+- `developer-tools` - Development workflow tools
+- `databases` - Database integrations
+- `cloud-platforms` - Cloud service integrations
+- `version-control` - Git, GitHub, etc.
+- `communication` - Slack, Discord, etc.
+- `file-systems` - File management tools
+
+To do this, open `config/categories.mjs` and remove all other category entries (like gaming, sports, marketing, travel, etc.). After rebuilding, this will give you a practical set of ~200-300 packages instead of 6000+.
+
+## 7. 🛠 Common Issues and Troubleshooting
+
+### 7.1 MCP Client Test Errors During Build Process
 
 When executing the `make build` command, you may see error messages similar to the following:
 
@@ -283,7 +416,7 @@ Error reading MCP Client for package: claude-prompts... ENOENT: no such file or 
 
 **These errors can be ignored as long as the build process continues to execute.** After the build is complete, you can still use the API and search functionality (if search is enabled) normally.
 
-## 7. 🗃️ Project Structure
+## 8. 🗃️ Project Structure
 
 This project follows **Domain-Driven Design (DDD)** architecture with **Service Object** pattern:
 
@@ -323,7 +456,7 @@ This project follows **Domain-Driven Design (DDD)** architecture with **Service 
 - **Factory Pattern**: Dynamic object creation (Executor, Sandbox providers)
 - **Dependency Injection**: Loose coupling through constructor injection
 
-## 8. ⚙️ Environment Variables
+## 9. ⚙️ Environment Variables
 
 ### Quick Configuration (Only 1 Variable Required)
 
