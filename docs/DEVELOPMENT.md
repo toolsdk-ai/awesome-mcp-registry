@@ -6,21 +6,21 @@ This document provides developers with detailed information on how to set up, ru
   - [1. 🧰 Prerequisites](#1--prerequisites)
   - [2. 🧰 Tech Stack](#2--tech-stack)
   - [3. 🎯 Project Purpose](#3--project-purpose)
-  - [4. 🚀 Quick Start](#4--quick-start)
-    - [4.1 Install Dependencies](#41-install-dependencies)
-    - [4.2 Build Project](#42-build-project)
-    - [4.3 Start Development Server (Without Search Function)](#43-start-development-server-without-search-function)
-    - [4.4 Start Development Server (With Search Function)](#44-start-development-server-with-search-function)
-  - [5. 🐳 Docker Usage](#5--docker-usage)
-    - [5.1 Quick Start (5 Minutes)](#51-quick-start-5-minutes)
-    - [5.2 API Usage Examples](#52-api-usage-examples)
-    - [5.3 Troubleshooting](#53-troubleshooting)
-  - [6. 📦 Package Management for Private Deployment](#6--package-management-for-private-deployment)
-    - [6.1 Understanding Package Structure](#61-understanding-package-structure)
-    - [6.2 How to Remove Unwanted Packages](#62-how-to-remove-unwanted-packages)
-    - [6.3 Rebuild Indexes](#63-rebuild-indexes)
-    - [6.4 Benefits of Package Pruning](#64-benefits-of-package-pruning)
-    - [6.5 Recommended Minimal Setup](#65-recommended-minimal-setup)
+  - [4. 🚀 Quick Start with Docker](#4--quick-start-with-docker)
+    - [4.1 Quick Start (5 Minutes)](#41-quick-start-5-minutes)
+    - [4.2 API Usage Examples](#42-api-usage-examples)
+    - [4.3 Troubleshooting](#43-troubleshooting)
+  - [5. 📦 Package Management for Private Deployment](#5--package-management-for-private-deployment)
+    - [5.1 Understanding Package Structure](#51-understanding-package-structure)
+    - [5.2 How to Remove Unwanted Packages](#52-how-to-remove-unwanted-packages)
+    - [5.3 Rebuild Indexes](#53-rebuild-indexes)
+    - [5.4 Benefits of Package Pruning](#54-benefits-of-package-pruning)
+    - [5.5 Recommended Minimal Setup](#55-recommended-minimal-setup)
+  - [6. 💻 Local Development Setup](#6--local-development-setup)
+    - [6.1 Install Dependencies](#61-install-dependencies)
+    - [6.2 Build Project](#62-build-project)
+    - [6.3 Start Development Server (Without Search Function)](#63-start-development-server-without-search-function)
+    - [6.4 Start Development Server (With Search Function)](#64-start-development-server-with-search-function)
   - [7. 🛠 Common Issues and Troubleshooting](#7--common-issues-and-troubleshooting)
     - [7.1 MCP Client Test Errors During Build Process](#71-mcp-client-test-errors-during-build-process)
   - [8. 🗃️ Project Structure](#8-️-project-structure)
@@ -30,9 +30,9 @@ This document provides developers with detailed information on how to set up, ru
 
 Before you begin, ensure your development environment meets the following requirements:
 
-- **Node.js** >= 18.x (latest LTS version recommended)
-- **pnpm** >= 8.x (package manager)
-- **Docker** (optional, required for search functionality and sandbox execution)
+- **Docker** (recommended) - For quick start deployment
+- **Node.js** >= 18.x (latest LTS version recommended) - Required for local development only
+- **pnpm** >= 8.x (package manager) - Required for local development only
 
 ## 2. 🧰 Tech Stack
 
@@ -68,85 +68,11 @@ This project has two main purposes:
 
 Additionally, we have deployed a website [ToolSDK.ai](https://toolsdk.ai) that can search for and run MCP Servers. We also provide a tool called `toolsdk` to help integrate these MCP Servers.
 
-## 4. 🚀 Quick Start
-
-### 4.1 Install Dependencies
-
-```bash
-pnpm install
-```
-
-### 4.2 Build Project
-
-```bash
-make build
-```
-
-This will perform the following operations:
-- Validate all MCP server configurations
-- Install all necessary dependencies
-- Build TypeScript code
-
-### 4.3 Start Development Server (Without Search Function)
-
-This is the simplest way to start, suitable for scenarios where only API functionality is needed:
-
-1. Ensure `ENABLE_SEARCH=false` is set in the `.env` file:
-
-```env
-ENABLE_SEARCH=false
-MCP_SERVER_PORT=3003
-```
-
-2. Start the development server:
-
-```bash
-make dev
-```
-
-3. Access the following endpoints:
-   - API Documentation: http://localhost:3003/swagger
-
-### 4.4 Start Development Server (With Search Function)
-
-If you need full search functionality:
-
-1. Set up the `.env` file:
-
-```env
-ENABLE_SEARCH=true
-MCP_SERVER_PORT=3003
-MEILI_HTTP_ADDR=http://localhost:7700
-```
-
-2. Start the MeiliSearch service:
-
-```bash
-make db
-```
-
-3. Build the project and start the development server:
-
-```bash
-make build
-make dev
-```
-
-4. Initialize search indexes:
-
-Call the following endpoints via API:
-- `POST /api/v1/search/manage/init` - Initialize search service
-- `POST /api/v1/search/manage/index` - Index data
-
-5. Access:
-   - Search Page: http://localhost:3003
-   - API Documentation: http://localhost:3003/swagger
-
-## 5. 🐳 Docker Usage
+## 4. 🚀 Quick Start with Docker
 
 Docker Compose allows you to quickly deploy the complete MCP Registry with search functionality and SANDOCK remote execution environment.
 
-### 5.1 Quick Start (5 Minutes)
+### 4.1 Quick Start (5 Minutes)
 
 **Step 1: Clone the Repository**
 
@@ -173,7 +99,7 @@ SANDOCK_API_KEY=your-sandock-api-key-here  # Replace with your actual API Key
 docker compose up -d
 ```
 
-> **⚠️ Note:** This command will build and install all 6000+ MCP packages and their dependencies, which may take 10-15 minutes on first run. If you only need specific packages for your use case, consider pruning unwanted packages first by following the guide in [Section 6: Package Management for Private Deployment](#6--package-management-for-private-deployment) to significantly reduce build time and image size.
+> **⚠️ Note:** This command will build and install all 6000+ MCP packages and their dependencies, which may take 10-15 minutes on first run. If you only need specific packages for your use case, consider pruning unwanted packages first by following the guide in [Section 5: Package Management for Private Deployment](#5--package-management-for-private-deployment) to significantly reduce build time and image size.
 
 This will start two services:
 - `mcp-registry` - MCP Registry main application (port 3003)
@@ -197,7 +123,7 @@ curl -X POST http://localhost:3003/api/v1/search/manage/index
 - 📚 API Documentation: http://localhost:3003/swagger
 - 🔍 Search Engine Management: http://localhost:7700
 
-### 5.2 API Usage Examples
+### 4.2 API Usage Examples
 
 **List all MCP Servers:**
 
@@ -226,7 +152,7 @@ curl -X POST http://localhost:3003/api/v1/packages/run \
   }'
 ```
 
-### 5.3 Troubleshooting
+### 4.3 Troubleshooting
 
 **Issue 1: Port Already in Use**
 
@@ -272,11 +198,11 @@ First build may take 10-15 minutes, which is normal. The Dockerfile needs to:
 
 Subsequent builds will be much faster using Docker cache.
 
-## 6. 📦 Package Management for Private Deployment
+## 5. 📦 Package Management for Private Deployment
 
 If you're deploying this project privately, you probably don't need all 6000+ MCP packages. Here's how to keep only the packages you need to significantly reduce build time and dependencies.
 
-### 6.1 Understanding Package Structure
+### 5.1 Understanding Package Structure
 
 All MCP packages are stored in the `packages/` directory, organized by category:
 
@@ -292,7 +218,7 @@ packages/
 
 Each package is defined by a JSON configuration file.
 
-### 6.2 How to Remove Unwanted Packages
+### 5.2 How to Remove Unwanted Packages
 
 **Option 1: Remove Specific Packages**
 
@@ -300,7 +226,7 @@ To remove individual packages within a category, simply delete their JSON config
 
 1. Navigate to the category folder (e.g., `packages/version-control/`)
 2. Delete the `.json` files for packages you don't need
-3. Run the rebuild process (see Section 6.3)
+3. Run the rebuild process (see Section 5.3)
 
 Example: Keep only GitHub-related packages in version-control by removing other `.json` files like `gitlab.json`, `bitbucket.json`, etc.
 
@@ -337,7 +263,7 @@ For a minimal deployment with only essential categories:
 
 This approach is recommended as it ensures consistency between your configuration and the actual packages.
 
-### 6.3 Rebuild Indexes
+### 5.3 Rebuild Indexes
 
 After removing packages, rebuild the indexes:
 
@@ -372,7 +298,7 @@ This will:
 - Generate new indexes in `indexes/`
 - Update `package.json` with only the necessary Node.js dependencies
 
-### 6.4 Benefits of Package Pruning
+### 5.4 Benefits of Package Pruning
 
 By keeping only the packages you need, you'll get:
 
@@ -382,7 +308,7 @@ By keeping only the packages you need, you'll get:
 - ✅ **Faster Deployment** - Less data to transfer and install
 - ✅ **Easier Maintenance** - Focus only on packages you actually use
 
-### 6.5 Recommended Minimal Setup
+### 5.5 Recommended Minimal Setup
 
 For a typical private deployment, we recommend keeping only the most commonly used categories. 
 
@@ -396,6 +322,82 @@ Edit `config/categories.mjs` and keep only these essential categories:
 - `file-systems` - File management tools
 
 To do this, open `config/categories.mjs` and remove all other category entries (like gaming, sports, marketing, travel, etc.). After rebuilding, this will give you a practical set of ~200-300 packages instead of 6000+.
+
+## 6. 💻 Local Development Setup
+
+This section is for developers who want to contribute to the project or run it locally without Docker.
+
+### 6.1 Install Dependencies
+
+```bash
+pnpm install
+```
+
+### 6.2 Build Project
+
+```bash
+make build
+```
+
+This will perform the following operations:
+- Validate all MCP server configurations
+- Install all necessary dependencies
+- Build TypeScript code
+
+### 6.3 Start Development Server (Without Search Function)
+
+This is the simplest way to start, suitable for scenarios where only API functionality is needed:
+
+1. Ensure `ENABLE_SEARCH=false` is set in the `.env` file:
+
+```env
+ENABLE_SEARCH=false
+MCP_SERVER_PORT=3003
+```
+
+2. Start the development server:
+
+```bash
+make dev
+```
+
+3. Access the following endpoints:
+   - API Documentation: http://localhost:3003/swagger
+
+### 6.4 Start Development Server (With Search Function)
+
+If you need full search functionality:
+
+1. Set up the `.env` file:
+
+```env
+ENABLE_SEARCH=true
+MCP_SERVER_PORT=3003
+MEILI_HTTP_ADDR=http://localhost:7700
+```
+
+2. Start the MeiliSearch service:
+
+```bash
+make db
+```
+
+3. Build the project and start the development server:
+
+```bash
+make build
+make dev
+```
+
+4. Initialize search indexes:
+
+Call the following endpoints via API:
+- `POST /api/v1/search/manage/init` - Initialize search service
+- `POST /api/v1/search/manage/index` - Index data
+
+5. Access:
+   - Search Page: http://localhost:3003
+   - API Documentation: http://localhost:3003/swagger
 
 ## 7. 🛠 Common Issues and Troubleshooting
 
