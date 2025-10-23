@@ -21,7 +21,7 @@ You can use it to:
 
 - ⚡ Build and host your own MCP projects with ease  
 - 🔒 Deploy a fully **private registry** for your team or organization  
-- 🛠️ Maintain complete control of your MCP tools in a secure environment  
+- 🚀 **Execute MCP tools remotely** in a secure sandbox environment  
 
 This registry leverages structured JSON configs to generate:  
 
@@ -31,29 +31,79 @@ This registry leverages structured JSON configs to generate:
 
 ---
 
-- [Video: How to submit a MCP server in JSON file?](https://www.youtube.com/watch?v=J_oaDtCoVVo)
-- [Quick Start](#quick-start)
-- [Contributing Guide](./docs/guide.md)
-- [Awesome MCP Servers](#mcp-servers)
+## 📚 Table of Contents
+
+- [🎥 Video: How to submit a MCP server in JSON file?](https://www.youtube.com/watch?v=J_oaDtCoVVo)
+- [🚀 Quick Start](#quick-start)
+  - [🐳 Docker Self-Hosting](#-docker-self-hosting)
+  - [📦 Install via Package Manager](#install-via-package-manager)
+  - [📄 Submit New MCP Servers](#submit-new-mcp-servers)
+- [📖 Development Guide](./docs/DEVELOPMENT.md)
+- [🤝 Contributing Guide](./docs/guide.md)
+- [⭐ Awesome MCP Servers](#mcp-servers)
+
 <%= TOC %>
 
 <a id="quick-start"></a>
 
 ## 🚀 Quick Start
 
-#### Install via package manager:
+### 🐳 Docker Self-Hosting
+
+Deploy your **private MCP Registry** in 5 minutes with Docker! Take full control of your MCP servers with search functionality and secure sandbox execution.
+
+#### Quick Deploy (2 Steps)
+
+**Step 1: Get and Set API Key**
+
+- Get your Sandock API Key from https://sandock.ai
+- Edit `.env` and set: `SANDOCK_API_KEY=your-api-key-here`
+
+**Step 2: Start services**
+
+```bash
+docker compose up -d
+```
+
+#### 🎉 Access Your Private Registry
+
+- 🌐 **Web Interface**: http://localhost:3003
+- 📚 **API Documentation**: http://localhost:3003/swagger  
+- 🔍 **Search & Execute** MCP tools remotely
+
+#### Usage Example
+
+```bash
+# Execute a tool remotely
+curl -X POST http://localhost:3003/api/v1/packages/run \
+  -H "Content-Type: application/json" \
+  -d '{
+    "packageName": "@modelcontextprotocol/server-everything",
+    "toolKey": "echo",
+    "inputData": {
+      "message": "Hello, ToolSDK MCP Registry"
+    },
+    "envs": {}
+  }'
+```
+
+> For more details about Docker Self-Hosting, see the [DEVELOPMENT documentation](./docs/DEVELOPMENT.md#4--quick-start-with-docker).
+
+<a id="install-via-package-manager"></a>
+
+### Install via package manager:
 
 ```bash
 npm install @toolsdk.ai/registry
 ```
 
-#### Use it on your JavaScript / Typescript project:
+### Use it on your JavaScript / Typescript project:
 
 ```ts
 import mcpServerLists from '@toolsdk.ai/registry/indexes/packages-lists.json';
 ```
 
-#### Fetch all MCP Servers lists via cURL:
+### Fetch all MCP Servers lists via cURL:
 
 ```bash
 curl https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json
@@ -63,6 +113,8 @@ curl https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.jso
 // JavaScript TypeScript
 console.log(await(await fetch('https://toolsdk-ai.github.io/awesome-mcp-registry/indexes/packages-list.json')).json());
 ```
+
+<a id="submit-new-mcp-servers"></a>
 
 ## 📦 Submit new MCP servers:
 
@@ -87,6 +139,8 @@ console.log(await(await fetch('https://toolsdk-ai.github.io/awesome-mcp-registry
 [Fork this repo](https://github.com/toolsdk-ai/awesome-mcp-registry/fork), and create a new file called `your-new-mcp-server.json` under [packages/uncategorized](./packages/uncategorized) folder.
 
 For more detail please see [the guide](./docs/guide.md).
+
+<a id="mcp-servers"></a>
 
 ## MCP Servers
 

@@ -1,5 +1,4 @@
 export function extractLastOuterJSON(str: string): string {
-  console.log("Extracting JSON from:", str);
   let braceCount = 0;
   let end = -1;
   let start = -1;

@@ -2,10 +2,9 @@ import path from "node:path";
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { getDirname } from "../../shared/utils/file-util";
 import { PackageRepository } from "../package/package-repository";
-import type { SandboxClient } from "../sandbox/sandbox-client-interface";
 import { SandboxPoolSO } from "../sandbox/sandbox-pool-so";
-import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
-import type { ToolExecuteRequest, ToolExecutor } from "./executor-interface";
+import type { MCPSandboxProvider, SandboxClient } from "../sandbox/sandbox-types";
+import type { ToolExecuteRequest, ToolExecutor } from "./executor-types";
 import { LocalExecutor } from "./local-executor";
 
 /**
@@ -54,9 +53,7 @@ export class SandboxExecutor implements ToolExecutor {
       console.log(`[SandboxExecutor] Tool ${request.toolKey} executed successfully in sandbox`);
       return result;
     } catch (error) {
-      console.warn(
-        `[SandboxExecutor] DAYTONA sandbox execution failed, falling back to LOCAL execution`,
-      );
+      console.warn(`[SandboxExecutor] sandbox execution failed, falling back to LOCAL execution`);
       console.warn(
         `[SandboxExecutor] Error: ${error instanceof Error ? error.message : String(error)}`,
       );
@@ -97,9 +94,7 @@ export class SandboxExecutor implements ToolExecutor {
       console.log(`[SandboxExecutor] Tools list retrieved successfully for package ${packageName}`);
       return tools;
     } catch (error) {
-      console.warn(
-        `[SandboxExecutor] DAYTONA sandbox list tools failed, falling back to LOCAL execution`,
-      );
+      console.warn(`[SandboxExecutor] sandbox list tools failed, falling back to LOCAL execution`);
       console.warn(
         `[SandboxExecutor] Error: ${error instanceof Error ? error.message : String(error)}`,
       );

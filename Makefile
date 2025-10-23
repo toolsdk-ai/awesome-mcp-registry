@@ -19,14 +19,19 @@ build-py:
 	./install-python-deps.sh
 	bun scripts/py-test-mcp-clients.ts
 
-db:
-	docker compose up -d --wait --wait-timeout 60
+# Docker commands - for quick deployment
+up:
+	docker compose up -d
+
+down:
+	docker compose down
+
+restart:
+	docker compose restart
+
+# Local development commands
+search:
+	docker compose up meilisearch -d --wait --wait-timeout 60
 
 dev:
 	pnpm run dev
-
-docker-build:
-	docker build -t awesome-mcp-registry .
-
-docker-run:
-	docker run -d -p 3003:3003 --name mcp-registry awesome-mcp-registry

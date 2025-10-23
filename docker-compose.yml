@@ -1,6 +1,18 @@
-version: '3.8'
-
 services:
+  toolsdk-mcp-registry:
+    build:
+      dockerfile: Dockerfile
+    container_name: toolsdk-mcp-registry
+    ports:
+      - "3003:3003"
+    environment:
+      - SANDOCK_API_KEY=${SANDOCK_API_KEY}
+      - ENABLE_SEARCH=${ENABLE_SEARCH:-true}
+      - MEILI_HTTP_ADDR=http://meilisearch:7700
+    depends_on:
+      meilisearch:
+        condition: service_healthy
+
   meilisearch:
     image: getmeili/meilisearch:v1.10
     container_name: mcp-registry-meilisearch
