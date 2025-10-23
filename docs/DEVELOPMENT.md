@@ -97,9 +97,16 @@ SANDOCK_API_KEY=your-sandock-api-key-here  # Replace with your actual API Key
 
 ```bash
 docker compose up -d
+# Or use the shortcut:
+make up
 ```
 
 > **⚠️ Note:** This command will build and install all 6000+ MCP packages and their dependencies, which may take 10-15 minutes on first run. If you only need specific packages for your use case, consider pruning unwanted packages first by following the guide in [Section 5: Package Management for Private Deployment](#5--package-management-for-private-deployment) to significantly reduce build time and image size.
+>
+> **Common Docker commands:**
+> - `make up` or `docker compose up -d` - Start all services
+> - `make down` or `docker compose down` - Stop all services
+> - `make restart` or `docker compose restart` - Restart all services
 
 This will start two services:
 - `mcp-registry` - MCP Registry main application (port 3003)
@@ -325,7 +332,17 @@ To do this, open `config/categories.mjs` and remove all other category entries (
 
 ## 6. 💻 Local Development Setup
 
-This section is for developers who want to contribute to the project or run it locally without Docker.
+This section is for developers who want to contribute to the project or need faster development iteration.
+
+**When to use local development:**
+- Contributing code to the project
+- Debugging and testing changes with fast reload
+- Developing new features
+
+**Quick command reference:**
+- `make build` - Build the project and install dependencies
+- `make search` - Start MeiliSearch container (for search functionality)
+- `make dev` - Start the development server with hot reload
 
 ### 6.1 Install Dependencies
 
@@ -376,11 +393,13 @@ MCP_SERVER_PORT=3003
 MEILI_HTTP_ADDR=http://localhost:7700
 ```
 
-2. Start the MeiliSearch service:
+2. Start the MeiliSearch service (only the search container):
 
 ```bash
-make db
+make search
 ```
+
+This command starts only the MeiliSearch container for local development. The main application will be run separately with `make dev`.
 
 3. Build the project and start the development server:
 
