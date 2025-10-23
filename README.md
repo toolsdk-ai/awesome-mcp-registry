@@ -35,7 +35,7 @@ This registry leverages structured JSON configs to generate:
 
 - [🎥 Video: How to submit a MCP server in JSON file?](https://www.youtube.com/watch?v=J_oaDtCoVVo)
 - [🚀 Quick Start](#quick-start)
-  - [🐳 Docker Self-Hosting](#docker-self-hosting)
+  - [🐳 Docker Self-Hosting](#-docker-self-hosting)
   - [📦 Install via Package Manager](#install-via-package-manager)
   - [📄 Submit New MCP Servers](#submit-new-mcp-servers)
 - [📖 Development Guide](./docs/DEVELOPMENT.md)
