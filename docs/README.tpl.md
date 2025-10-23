@@ -22,7 +22,6 @@ You can use it to:
 - ⚡ Build and host your own MCP projects with ease  
 - 🔒 Deploy a fully **private registry** for your team or organization  
 - 🚀 **Execute MCP tools remotely** in a secure sandbox environment  
-- 🛠️ Maintain complete control of your MCP tools in a secure environment  
 
 This registry leverages structured JSON configs to generate:  
 
