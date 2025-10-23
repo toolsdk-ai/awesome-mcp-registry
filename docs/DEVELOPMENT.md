@@ -13,15 +13,12 @@ This document provides developers with detailed information on how to set up, ru
     - [4.4 Start Development Server (With Search Function)](#44-start-development-server-with-search-function)
   - [5. 🐳 Docker Usage](#5--docker-usage)
     - [5.1 Quick Start (5 Minutes)](#51-quick-start-5-minutes)
-    - [5.2 Verify Deployment](#52-verify-deployment)
-    - [5.3 API Usage Examples](#53-api-usage-examples)
-    - [5.4 Managing Services](#54-managing-services)
-    - [5.5 Troubleshooting](#55-troubleshooting)
+    - [5.2 API Usage Examples](#52-api-usage-examples)
+    - [5.3 Troubleshooting](#53-troubleshooting)
   - [6. 🛠 Common Issues and Troubleshooting](#6--common-issues-and-troubleshooting)
     - [6.1 MCP Client Test Errors During Build Process](#61-mcp-client-test-errors-during-build-process)
   - [7. 🗃️ Project Structure](#7-️-project-structure)
   - [8. ⚙️ Environment Variables](#8-️-environment-variables)
-  - [9. 📝 Contribution Guide](#9--contribution-guide)
 
 ## 1. 🧰 Prerequisites
 
@@ -29,7 +26,7 @@ Before you begin, ensure your development environment meets the following requir
 
 - **Node.js** >= 18.x (latest LTS version recommended)
 - **pnpm** >= 8.x (package manager)
-- **Docker** (optional, required only if search functionality is needed)
+- **Docker** (optional, required for search functionality and sandbox execution)
 
 ## 2. 🧰 Tech Stack
 
@@ -39,7 +36,7 @@ Before you begin, ensure your development environment meets the following requir
 - **Web Framework**: Hono.js + OpenAPI (Zod)
 - **Architecture**: Domain-Driven Design (DDD) + Service Object Pattern
 - **Search Service**: MeiliSearch (optional)
-- **Sandbox Providers**: LOCAL / Sandock / Daytona / E2B (optional)
+- **Sandbox Providers**: LOCAL / Sandock / Daytona / E2B
 - **Build Tool**: TypeScript Compiler (tsc)
 - **Code Formatting**: Biome
 - **Testing**: Vitest
@@ -148,7 +145,7 @@ Docker Compose allows you to quickly deploy the complete MCP Registry with searc
 **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/petercat-ai/awesome-mcp-registry.git
+git clone https://github.com/toolsdk-ai/awesome-mcp-registry.git
 cd awesome-mcp-registry
 ```
 
@@ -167,14 +164,14 @@ SANDOCK_API_KEY=your-sandock-api-key-here  # Replace with your actual API Key
 **Step 4: Start Services**
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 This will start two services:
 - `mcp-registry` - MCP Registry main application (port 3003)
 - `meilisearch` - Search engine service (port 7700)
 
-**Step 5: Initialize Search Index**
+**Step 5: Initialize Search Index (Optional)**
 
 Wait for services to start (about 30-60 seconds), then initialize the search index:
 
@@ -192,31 +189,7 @@ curl -X POST http://localhost:3003/api/v1/search/manage/index
 - 📚 API Documentation: http://localhost:3003/swagger
 - 🔍 Search Engine Management: http://localhost:7700
 
-### 5.2 Verify Deployment
-
-Check service status:
-
-```bash
-# View running containers
-docker-compose ps
-
-# View application logs
-docker-compose logs -f mcp-registry
-
-# Test if API is working
-curl http://localhost:3003/api/v1/health
-```
-
-Expected output:
-
-```json
-{
-  "status": "ok",
-  "timestamp": "2025-10-22T10:30:00.000Z"
-}
-```
-
-### 5.3 API Usage Examples
+### 5.2 API Usage Examples
 
 **List all MCP Servers:**
 
@@ -245,26 +218,7 @@ curl -X POST http://localhost:3003/api/v1/packages/run \
   }'
 ```
 
-### 5.4 Managing Services
-
-```bash
-# Stop services
-docker-compose down
-
-# Stop and remove data volumes
-docker-compose down -v
-
-# Restart services
-docker-compose restart
-
-# View logs
-docker-compose logs -f
-
-# Rebuild images
-docker-compose build --no-cache
-```
-
-### 5.5 Troubleshooting
+### 5.3 Troubleshooting
 
 **Issue 1: Port Already in Use**
 
@@ -287,13 +241,13 @@ Error: SANDOCK_API_KEY is required when using SANDOCK provider
 Solution:
 - Check if `.env` file exists
 - Confirm `SANDOCK_API_KEY` is correctly filled in
-- Restart services: `docker-compose restart`
+- Restart services: `docker compose restart`
 
 **Issue 3: Search Function Unavailable**
 
 ```bash
 # Check if MeiliSearch is running
-docker-compose ps meilisearch
+docker compose ps meilisearch
 
 # Reinitialize indexes
 curl -X POST http://localhost:3003/api/v1/search/manage/init
@@ -304,7 +258,7 @@ curl -X POST http://localhost:3003/api/v1/search/manage/index
 
 First build may take 10-15 minutes, which is normal. The Dockerfile needs to:
 - Install Python 3.13 and pyenv
-- Install Node.js dependencies (4000+ packages)
+- Install Node.js dependencies (large number of packages)
 - Install Python dependencies
 - Build TypeScript code
 
@@ -422,32 +376,8 @@ If you need to customize, you can configure the following variables:
 
 All environment variables are managed centrally through `src/shared/config/environment.ts`.
 
-## 9. 📝 Contribution Guide
-
-For detailed information on how to contribute code to the project, add new MCP servers, etc., please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file.
-
-### Quick Contribution Checklist
-
-Before submitting your code:
-
-- [ ] Run `pnpm run check` (linting and formatting)
-- [ ] Run `pnpm run test` (all tests pass)
-- [ ] Update documentation if needed
-- [ ] Add tests for new features
-- [ ] Use conventional commit messages
-
-### Development Workflow
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Make your changes following the coding guidelines
-4. Test your changes: `pnpm run test`
-5. Commit your changes: `git commit -m "feat: add new feature"`
-6. Push to your fork: `git push origin feature/your-feature`
-7. Create a Pull Request
-
 ---
 
 **Happy coding! 🚀**
 
-For questions or issues, please [open an issue](https://github.com/petercat-ai/awesome-mcp-registry/issues) or join our community discussions.
+For questions or issues, please [open an issue](https://github.com/toolsdk-ai/awesome-mcp-registry/issues) or join our community discussions.
