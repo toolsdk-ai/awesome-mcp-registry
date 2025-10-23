@@ -88,6 +88,8 @@ curl -X POST http://localhost:3003/api/v1/packages/run \
   }'
 ```
 
+> For more details about Docker Self-Hosting, see the [DEVELOPMENT documentation](./docs/DEVELOPMENT.md#4--quick-start-with-docker).
+
 <a id="install-via-package-manager"></a>
 
 ### Install via package manager:
