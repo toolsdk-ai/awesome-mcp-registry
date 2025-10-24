@@ -50,20 +50,18 @@ export class SandockSandboxClient implements SandboxClient {
     this.initializing = (async () => {
       try {
         // Create sandbox with pre-built MCP image
-        const createResponse = await this.client.POST("/api/sandbox", {
+        const { data, error } = await this.client.POST("/api/sandbox", {
           body: {
             image: "seey/sandock-mcp:latest",
             workdir: "/mcpspace",
           },
         });
 
-        if (!createResponse.data) {
-          const errorMsg =
-            "error" in createResponse ? JSON.stringify(createResponse.error) : "Unknown error";
-          throw new Error(`Failed to create sandbox: ${errorMsg}`);
+        if (error) {
+          throw new Error(`Failed to create sandbox: ${JSON.stringify(error)}`);
         }
 
-        this.sandboxId = createResponse.data.data.id;
+        this.sandboxId = data.data.id;
         console.log(`[SandockSandboxClient] Sandbox created successfully: ${this.sandboxId}`);
       } catch (error) {
         this.sandboxId = null;
@@ -81,7 +79,7 @@ export class SandockSandboxClient implements SandboxClient {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    const response = await this.client.POST("/api/sandbox/{id}/shell", {
+    const { data, error } = await this.client.POST("/api/sandbox/{id}/shell", {
       params: {
         path: {
           id: this.sandboxId,
@@ -92,13 +90,12 @@ export class SandockSandboxClient implements SandboxClient {
       },
     });
 
-    if (!response.data) {
-      const errorMsg = "error" in response ? JSON.stringify(response.error) : "Unknown error";
-      throw new Error(`Shell command failed: ${errorMsg}`);
+    if (error) {
+      throw new Error(`Shell command failed: ${JSON.stringify(error)}`);
     }
 
-    const stdout = response.data.data.stdout || "";
-    const stderr = response.data.data.stderr || "";
+    const stdout = data.data.stdout || "";
+    const stderr = data.data.stderr || "";
 
     if (stderr.trim()) {
       console.log(`[SandockSandboxClient] stderr: ${stderr}`);
@@ -201,33 +198,32 @@ export class SandockSandboxClient implements SandboxClient {
       return;
     }
 
-    const sandboxIdToStop = this.sandboxId;
+    const sandboxIdToDelete = this.sandboxId;
     this.sandboxId = null; // Clear immediately to avoid duplicate calls
 
-    // Asynchronously clean up sandbox without blocking result return
+    // Asynchronously delete sandbox without blocking result return
     this.client
-      .POST("/api/sandbox/{id}/stop", {
+      .DELETE("/api/sandbox/{id}/fs", {
         params: {
-          path: {
-            id: sandboxIdToStop,
-          },
+          path: { id: sandboxIdToDelete },
+          query: { path: "/" },
         },
       })
-      .then((response) => {
-        if (!response.data && "error" in response) {
+      .then(({ error }) => {
+        if (error) {
           console.warn(
-            `[SandockSandboxClient] Warning: Could not stop sandbox: ${JSON.stringify(response.error)}`,
+            `[SandockSandboxClient] Warning: Could not delete sandbox: ${JSON.stringify(error)}`,
           );
         } else {
-          console.log("[SandockSandboxClient] Sandbox stopped successfully");
+          console.log("[SandockSandboxClient] Sandbox deleted successfully");
         }
       })
       .catch((err) => {
         const errorMessage = (err as Error).message;
         if (errorMessage.includes("not found") || errorMessage.includes("404")) {
-          console.log("[SandockSandboxClient] Sandbox already stopped (not found on platform)");
+          console.log("[SandockSandboxClient] Sandbox already deleted (not found on platform)");
         } else {
-          console.warn("[SandockSandboxClient] Warning: Could not stop sandbox:", errorMessage);
+          console.warn("[SandockSandboxClient] Warning: Could not delete sandbox:", errorMessage);
         }
       });
   }
