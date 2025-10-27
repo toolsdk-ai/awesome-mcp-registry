@@ -46,7 +46,18 @@ export class E2BSandboxClient implements SandboxClient {
 
     this.initializing = (async () => {
       try {
-        const template = this.runtime === "python" ? "mcp-sandbox-python" : "mcp-sandbox-node";
+        const templateMap: Record<string, string> = {
+          python: "mcp-sandbox-python",
+          node: "mcp-sandbox-node",
+          java: "mcp-sandbox-java",
+          go: "mcp-sandbox-go",
+        };
+
+        const template = templateMap[this.runtime];
+        if (!template) {
+          throw new Error(`[E2BSandboxClient] Unsupported runtime: ${this.runtime}`);
+        }
+
         this.sandbox = await Sandbox.create(template, {
           apiKey: this.apiKey,
           timeoutMs: 30 * 1000,
@@ -66,7 +77,15 @@ export class E2BSandboxClient implements SandboxClient {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    const result = await this.sandbox.runCode(code, { language: "javascript" });
+    // Map runtime to language string expected by the sandbox
+    const runtimeToLanguage: Record<string, string> = {
+      node: "javascript",
+      python: "python",
+      java: "java",
+      go: "go",
+    };
+    const language = runtimeToLanguage[this.runtime] || "javascript";
+    const result = await this.sandbox.runCode(code, { language });
 
     if (result.error) {
       return {
@@ -88,18 +107,14 @@ export class E2BSandboxClient implements SandboxClient {
     const mcpServerConfig: MCPServerPackageConfig =
       this.packageRepository.getPackageConfig(packageKey);
     const testCode: string = generateMCPTestCode(mcpServerConfig, "listTools");
-    console.log("Step 1");
 
     const response = await this.executeCode(testCode);
-    console.log("Step 2");
 
     if (response.exitCode !== 0) {
       throw new Error(`Failed to list tools: ${response.result}`);
     }
-    console.log("Step 3");
 
     const parsedResultStr = extractLastOuterJSON(response.result);
-    console.log("Step 4");
     const result: MCPToolResult = JSON.parse(parsedResultStr);
 
     return result.tools;
