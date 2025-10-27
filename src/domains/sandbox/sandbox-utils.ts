@@ -31,10 +31,11 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 
 async function runMCP() {
   let client;
+  let transport;
   try {
     const packageName = "${mcpServerConfig.packageName}";
 
-    const transport = new StdioClientTransport({
+    transport = new StdioClientTransport({
       command: "pnpx",
       args: ["--silent", packageName],
       env: {
@@ -84,6 +85,13 @@ async function runMCP() {
         console.error("Error closing MCP client:", closeError);
       }
     }
+    if (transport) {
+      try {
+        await transport.close();
+      } catch (transportError) {
+        console.error("Error closing transport:", transportError);
+      }
+    }
   }
 }
 
@@ -112,6 +120,13 @@ runMCP();
         await client.close();
       } catch (closeError) {
         console.error("Error closing MCP client:", closeError);
+      }
+    }
+    if (transport) {
+      try {
+        await transport.close();
+      } catch (transportError) {
+        console.error("Error closing transport:", transportError);
       }
     }
   }

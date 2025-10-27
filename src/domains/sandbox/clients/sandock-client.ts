@@ -14,6 +14,23 @@ import type {
 } from "../sandbox-types";
 import { generateMCPTestCode } from "../sandbox-utils";
 
+// Singleton HTTP client shared across all instances to prevent memory leaks
+let sharedSandockClient: ReturnType<typeof createSandockClient> | null = null;
+
+function getSandockClient(): ReturnType<typeof createSandockClient> {
+  if (!sharedSandockClient) {
+    const config = getSandockConfig();
+    sharedSandockClient = createSandockClient({
+      baseUrl: config.apiUrl,
+      headers: {
+        Authorization: `Bearer ${config.apiKey}`,
+      },
+    });
+    console.log("[SandockSandboxClient] Shared HTTP client initialized");
+  }
+  return sharedSandockClient;
+}
+
 /**
  * Sandock Sandbox Client
  * Implements SandboxClient interface for Sandock provider
@@ -29,13 +46,8 @@ export class SandockSandboxClient implements SandboxClient {
     const packagesDir = path.join(__dirname, "../../../../packages");
     this.packageRepository = new PackageRepository(packagesDir);
 
-    const config = getSandockConfig();
-    this.client = createSandockClient({
-      baseUrl: config.apiUrl,
-      headers: {
-        Authorization: `Bearer ${config.apiKey}`,
-      },
-    });
+    // Use shared singleton client instead of creating new one per instance
+    this.client = getSandockClient();
   }
 
   async initialize(): Promise<void> {
@@ -125,22 +137,47 @@ export class SandockSandboxClient implements SandboxClient {
 
     const output = await this.executeShellCommand(`cd /mcpspace && node ${tempFile}`);
 
-    // Asynchronously clean up temp file without blocking result return
-    this.client
-      .DELETE("/api/sandbox/{id}/fs", {
-        params: {
-          path: { id: this.sandboxId },
-          query: { path: tempFile },
-        },
-      })
-      .catch((error) => {
-        console.warn("[SandockSandboxClient] Warning: Could not delete temp file:", error);
-      });
+    // Fire-and-forget: cleanup temp file in background without blocking result return
+    // The cleanup will complete asynchronously, and logs will appear when it does
+    this.cleanupTempFileAsync(tempFile, this.sandboxId).catch((err) => {
+      // This should never happen due to internal error handling, but just in case
+      console.error("[SandockSandboxClient] Unexpected error in cleanupTempFileAsync:", err);
+    });
 
     return {
       exitCode: 0,
       result: output,
     };
+  }
+
+  private async cleanupTempFileAsync(tempFile: string, sandboxId: string | null): Promise<void> {
+    if (!sandboxId) {
+      console.warn("[SandockSandboxClient] Sandbox ID is null, skipping temp file cleanup");
+      return;
+    }
+
+    try {
+      const { error } = await this.client.DELETE("/api/sandbox/{id}/fs", {
+        params: {
+          path: { id: sandboxId },
+          query: { path: tempFile },
+        },
+      });
+
+      if (error) {
+        console.warn(
+          `[SandockSandboxClient] Warning: Could not delete temp file ${tempFile}:`,
+          error,
+        );
+      } else {
+        console.log(`[SandockSandboxClient] Temp file ${tempFile} deleted successfully`);
+      }
+    } catch (cleanupError) {
+      console.warn(
+        `[SandockSandboxClient] Error during temp file cleanup for ${tempFile}:`,
+        cleanupError,
+      );
+    }
   }
 
   async listTools(packageKey: string): Promise<Tool[]> {
@@ -201,30 +238,51 @@ export class SandockSandboxClient implements SandboxClient {
     const sandboxIdToDelete = this.sandboxId;
     this.sandboxId = null; // Clear immediately to avoid duplicate calls
 
-    // Asynchronously delete sandbox without blocking result return
-    this.client
-      .DELETE("/api/sandbox/{id}/fs", {
+    // Fire-and-forget: destroy sandbox in background without blocking
+    // The cleanup will complete asynchronously, and logs will appear when it does
+    this.destroySandboxAsync(sandboxIdToDelete).catch((err) => {
+      // This should never happen due to internal error handling, but just in case
+      console.error("[SandockSandboxClient] Unexpected error in destroySandboxAsync:", err);
+    });
+  }
+
+  private async destroySandboxAsync(sandboxId: string): Promise<void> {
+    try {
+      // Delete sandbox completely using the fs delete API with root path
+      // This removes all files and effectively shuts down the sandbox
+      const { error } = await this.client.DELETE("/api/sandbox/{id}/fs", {
         params: {
-          path: { id: sandboxIdToDelete },
+          path: { id: sandboxId },
           query: { path: "/" },
         },
-      })
-      .then(({ error }) => {
-        if (error) {
-          console.warn(
-            `[SandockSandboxClient] Warning: Could not delete sandbox: ${JSON.stringify(error)}`,
+      });
+
+      if (error) {
+        // Check if error is "not found" (already deleted)
+        const errorStr = JSON.stringify(error);
+        if (errorStr.includes("not found") || errorStr.includes("404")) {
+          console.log(
+            `[SandockSandboxClient] Sandbox ${sandboxId} already deleted (not found on platform)`,
           );
         } else {
-          console.log("[SandockSandboxClient] Sandbox deleted successfully");
+          console.warn(
+            `[SandockSandboxClient] Warning: Could not delete sandbox ${sandboxId}: ${errorStr}`,
+          );
         }
-      })
-      .catch((err) => {
-        const errorMessage = (err as Error).message;
-        if (errorMessage.includes("not found") || errorMessage.includes("404")) {
-          console.log("[SandockSandboxClient] Sandbox already deleted (not found on platform)");
-        } else {
-          console.warn("[SandockSandboxClient] Warning: Could not delete sandbox:", errorMessage);
-        }
-      });
+      } else {
+        console.log(`[SandockSandboxClient] Sandbox ${sandboxId} deleted successfully`);
+      }
+    } catch (err) {
+      const errorMessage = (err as Error).message;
+      if (errorMessage.includes("not found") || errorMessage.includes("404")) {
+        console.log(
+          `[SandockSandboxClient] Sandbox ${sandboxId} already deleted (not found on platform)`,
+        );
+      } else {
+        console.warn(
+          `[SandockSandboxClient] Warning: Could not delete sandbox ${sandboxId}: ${errorMessage}`,
+        );
+      }
+    }
   }
 }

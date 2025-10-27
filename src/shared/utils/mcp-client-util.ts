@@ -52,6 +52,13 @@ async function createMcpClient(
     } catch (e) {
       console.warn(`${packageName} mcp client close failure.`, e);
     }
+
+    // Close transport to release child process and file descriptors
+    try {
+      await transport.close();
+    } catch (e) {
+      console.warn(`${packageName} mcp transport close failure.`, e);
+    }
   };
 
   return { client, transport, closeConnection };
