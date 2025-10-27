@@ -66,6 +66,7 @@ export class SandockSandboxClient implements SandboxClient {
           body: {
             image: "seey/sandock-mcp:latest",
             workdir: "/mcpspace",
+            usePersistentCache: true,
           },
         });
 
@@ -135,7 +136,10 @@ export class SandockSandboxClient implements SandboxClient {
       },
     });
 
-    const output = await this.executeShellCommand(`cd /mcpspace && node ${tempFile}`);
+    // Set custom pnpm store directory (volume-mounted cache directory) before executing code
+    const output = await this.executeShellCommand(
+      `cd /mcpspace && pnpm config set store-dir /data/pnpm-store && node ${tempFile}`,
+    );
 
     // Fire-and-forget: cleanup temp file in background without blocking result return
     // The cleanup will complete asynchronously, and logs will appear when it does

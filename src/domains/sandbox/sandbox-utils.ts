@@ -43,7 +43,6 @@ async function runMCP() {
           Object.entries(process.env).filter(([_, v]) => v !== undefined)
         ),
         PNPM_HOME: "/root/.local/share/pnpm",
-        PNPM_STORE_PATH: "/pnpm-store",
         ${generateEnvVariables(mcpServerConfig.env, envs)}
       },
     });
