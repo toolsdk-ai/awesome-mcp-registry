@@ -14,6 +14,27 @@ import type {
 } from "../sandbox-types";
 import { generateMCPTestCode } from "../sandbox-utils";
 
+// Singleton Daytona client shared across all instances to prevent memory leaks
+let sharedDaytonaClient: Daytona | null = null;
+
+function getDaytonaClient(): Daytona {
+  if (!sharedDaytonaClient) {
+    const config = getDaytonaConfig();
+
+    const daytonaConfig: DaytonaConfig = {
+      apiKey: config.apiKey,
+    };
+
+    if (config.apiUrl) {
+      daytonaConfig.apiUrl = config.apiUrl;
+    }
+
+    sharedDaytonaClient = new Daytona(daytonaConfig);
+    console.log("[DaytonaSandboxClient] Shared Daytona client initialized");
+  }
+  return sharedDaytonaClient;
+}
+
 /**
  * Daytona Sandbox Client
  * Implements SandboxClient interface for Daytona provider
@@ -40,17 +61,8 @@ export class DaytonaSandboxClient implements SandboxClient {
 
     this.initializing = (async () => {
       try {
-        const config = getDaytonaConfig();
-
-        const daytonaConfig: DaytonaConfig = {
-          apiKey: config.apiKey,
-        };
-
-        if (config.apiUrl) {
-          daytonaConfig.apiUrl = config.apiUrl;
-        }
-
-        const daytona = new Daytona(daytonaConfig);
+        // Use shared singleton Daytona client instead of creating new one per initialization
+        const daytona = getDaytonaClient();
 
         const declarativeImage = Image.base("node:20")
           .runCommands(
