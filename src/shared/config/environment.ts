@@ -38,6 +38,12 @@ export function getSandockConfig() {
   };
 }
 
+export function getE2BConfig() {
+  return {
+    apiKey: process.env.E2B_API_KEY || "",
+  };
+}
+
 export function getMeiliSearchConfig() {
   return {
     host: process.env.MEILI_HTTP_ADDR || "http://localhost:7700",

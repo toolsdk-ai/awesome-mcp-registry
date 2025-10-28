@@ -1,4 +1,5 @@
 import { DaytonaSandboxClient } from "./clients/daytona-client";
+import { E2BSandboxClient } from "./clients/e2b-client";
 import { SandockSandboxClient } from "./clients/sandock-client";
 import type { MCPSandboxProvider, SandboxClient } from "./sandbox-types";
 
@@ -20,7 +21,7 @@ export class SandboxFactory {
         return new DaytonaSandboxClient(runtime);
 
       case "E2B":
-        throw new Error("E2B sandbox provider is not yet implemented");
+        return new E2BSandboxClient(runtime);
 
       case "LOCAL":
         throw new Error("LOCAL provider should not use sandbox client");
