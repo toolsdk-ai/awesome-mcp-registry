@@ -34,7 +34,15 @@
     "developer-tools"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "ToolSDK.ai Team",
+  "homepage": "https://toolsdk.ai/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toolsdk-ai/awesome-mcp-registry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toolsdk-ai/awesome-mcp-registry/issues"
+  },
   "type": "module",
   "exports": {
     "./config/*": "./config/*",
