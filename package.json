@@ -1,6 +1,6 @@
 {
   "name": "@toolsdk.ai/registry",
-  "version": "1.0.119",
+  "version": "1.0.120",
   "description": "An Open, Structured, and Standard Registry for MCP Servers and Packages.",
   "keywords": [
     "mcp",
@@ -33,16 +33,16 @@
     "search",
     "developer-tools"
   ],
-  "license": "MIT",
-  "author": "ToolSDK.ai Team",
   "homepage": "https://toolsdk.ai/",
+  "bugs": {
+    "url": "https://github.com/toolsdk-ai/awesome-mcp-registry/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/toolsdk-ai/awesome-mcp-registry.git"
   },
-  "bugs": {
-    "url": "https://github.com/toolsdk-ai/awesome-mcp-registry/issues"
-  },
+  "license": "MIT",
+  "author": "ToolSDK.ai Team",
   "type": "module",
   "exports": {
     "./config/*": "./config/*",

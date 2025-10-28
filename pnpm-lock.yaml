@@ -47248,7 +47248,7 @@ snapshots:
 
   cron-parser@4.9.0:
     dependencies:
-      luxon: 3.7.1
+      luxon: 3.7.2
 
   cron-parser@5.3.0:
     dependencies:
