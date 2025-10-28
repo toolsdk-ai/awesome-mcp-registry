@@ -30,8 +30,26 @@ for (const [_key, categoryList] of Object.entries(categoriesList)) {
   README += `\n\n<a id="${categoryList.config.key}"></a>\n## ${categoryList.config.name}\n`;
   README += `\n${categoryList.config.description}\n\n`;
 
-  for (const packageKey of packagesList) {
-    const packageInfo = allPackagesList[packageKey];
+  // Sort packages: validated first, then by name (stable sort)
+  const sortedPackagesList = [...packagesList].sort((a, b) => {
+    const pkgA = (allPackagesList as PackagesList)[a];
+    const pkgB = (allPackagesList as PackagesList)[b];
+
+    // First sort by validation status (validated first)
+    // Treat undefined as false for consistent comparison
+    const validatedA = pkgA.validated === true;
+    const validatedB = pkgB.validated === true;
+
+    if (validatedA !== validatedB) {
+      return validatedA ? -1 : 1;
+    }
+
+    // Then sort by package key (name) - direct comparison for stable ordering
+    return a.localeCompare(b, "en", { sensitivity: "base" });
+  });
+
+  for (const packageKey of sortedPackagesList) {
+    const packageInfo = (allPackagesList as PackagesList)[packageKey];
 
     const filePath = join(__dirname, `../packages/`, packageInfo.path);
     const fileContent = readFileSync(filePath, "utf-8");
