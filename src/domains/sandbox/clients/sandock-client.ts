@@ -138,7 +138,7 @@ export class SandockSandboxClient implements SandboxClient {
 
     // Set custom pnpm store directory (volume-mounted cache directory) before executing code
     const output = await this.executeShellCommand(
-      // Temporarily disabling custom pnpm store dir due to Sandock volume maybe adjustment
+      // Temporarily disabling custom pnpm store dir due to Sandock volume-mounting adjustment
       // `cd /mcpspace && pnpm config set store-dir /data/pnpm-store && node ${tempFile}`,
       `cd /mcpspace && node ${tempFile}`,
     );
