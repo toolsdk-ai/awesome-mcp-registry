@@ -1,4 +1,6 @@
+import { getSandboxProvider } from "../../shared/config/environment";
 import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
+import { VALID_SANDBOX_PROVIDERS } from "../sandbox/sandbox-types";
 import type { ToolExecutor } from "./executor-types";
 import { LocalExecutor } from "./local-executor";
 import { SandboxExecutor } from "./sandbox-executor";
@@ -9,7 +11,22 @@ import { SandboxExecutor } from "./sandbox-executor";
  */
 // biome-ignore lint/complexity/noStaticOnlyClass: Factory pattern
 export class ExecutorFactory {
-  static create(provider: MCPSandboxProvider): ToolExecutor {
+  /**
+   * Validate if the provided sandbox provider is valid
+   */
+  private static isValidProvider(provider: unknown): provider is MCPSandboxProvider {
+    return VALID_SANDBOX_PROVIDERS.includes(provider as MCPSandboxProvider);
+  }
+
+  /**
+   * Create executor with optional provider override
+   * If sandboxProvider is provided, it takes priority over environment config
+   */
+  static create(overrideProvider?: MCPSandboxProvider): ToolExecutor {
+    const provider = ExecutorFactory.isValidProvider(overrideProvider)
+      ? overrideProvider
+      : getSandboxProvider();
+
     if (provider === "LOCAL") {
       console.log("[ExecutorFactory] Creating LocalExecutor");
       return new LocalExecutor();

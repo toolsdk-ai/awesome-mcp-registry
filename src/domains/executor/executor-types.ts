@@ -1,10 +1,12 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
+import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
 
 export interface ToolExecuteRequest {
   packageName: string;
   toolKey: string;
   inputData: Record<string, unknown>;
   envs?: Record<string, string>;
+  sandboxProvider?: MCPSandboxProvider;
 }
 
 /**
@@ -13,5 +15,5 @@ export interface ToolExecuteRequest {
  */
 export interface ToolExecutor {
   executeTool(request: ToolExecuteRequest): Promise<unknown>;
-  listTools(packageName: string): Promise<Tool[]>;
+  listTools(packageName: string, sandboxProvider?: MCPSandboxProvider): Promise<Tool[]>;
 }

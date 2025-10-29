@@ -23,6 +23,13 @@ export interface SandboxClient {
 
 export type MCPSandboxProvider = "SANDOCK" | "DAYTONA" | "E2B" | "LOCAL";
 
+export const VALID_SANDBOX_PROVIDERS: readonly MCPSandboxProvider[] = [
+  "LOCAL",
+  "DAYTONA",
+  "SANDOCK",
+  "E2B",
+];
+
 export interface MCPToolResult {
   toolCount: number;
   tools: Tool[];

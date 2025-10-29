@@ -1,5 +1,8 @@
 import { z } from "@hono/zod-openapi";
-import { BaseResponseSchema } from "../../shared/schemas/common-schema";
+import {
+  BaseResponseSchema,
+  MCPServerPackageConfigSchema,
+} from "../../shared/schemas/common-schema";
 
 export const packageNameQuerySchema = z.object({
   packageName: z
@@ -10,6 +13,14 @@ export const packageNameQuerySchema = z.object({
       example: "@modelcontextprotocol/server-filesystem",
       description: "Package name",
     }),
+  sandboxProvider: z
+    .enum(["LOCAL", "DAYTONA", "SANDOCK", "E2B"])
+    .optional()
+    .openapi({
+      param: { name: "sandboxProvider", in: "query" },
+      example: "LOCAL",
+      description: "Optional sandbox provider to override default (LOCAL, DAYTONA, SANDOCK, E2B)",
+    }),
 });
 
 export const ToolExecuteSchema = z
@@ -18,6 +29,10 @@ export const ToolExecuteSchema = z
     toolKey: z.string().openapi({ example: "read_file" }),
     inputData: z.record(z.unknown()).openapi({ example: { path: "/tmp/test.txt" } }),
     envs: z.record(z.string()).optional(),
+    sandboxProvider: z.enum(["LOCAL", "DAYTONA", "SANDOCK", "E2B"]).optional().openapi({
+      example: "LOCAL",
+      description: "Optional sandbox provider to override default (LOCAL, DAYTONA, SANDOCK, E2B)",
+    }),
   })
   .openapi("ToolExecute");
 
@@ -33,13 +48,7 @@ const ToolDataSchema = z.object({
     .optional(),
 });
 
-const PackageDetailDataSchema = z.object({
-  name: z.string().optional(),
-  packageName: z.string(),
-  description: z.string().optional(),
-  category: z.string().optional(),
-  validated: z.boolean().optional(),
-  runtime: z.enum(["node", "python", "java", "go"]).optional(),
+const PackageDetailDataSchema = MCPServerPackageConfigSchema.extend({
   tools: z.array(ToolDataSchema).optional(),
 });
 
