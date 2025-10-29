@@ -1,7 +1,7 @@
 import type { Tool } from "@modelcontextprotocol/sdk/types.js";
 import type { ToolExecutor } from "../executor/executor-types";
 import type { PackageRepository } from "./package-repository";
-import type { MCPServerPackageConfig } from "./package-types";
+import type { MCPServerPackageConfig, MCPServerPackageConfigWithTools } from "./package-types";
 
 export class PackageSO {
   private constructor(
@@ -59,7 +59,7 @@ export class PackageSO {
     });
   }
 
-  async getDetailWithTools() {
+  async getDetailWithTools(): Promise<MCPServerPackageConfigWithTools> {
     let tools: Tool[] | undefined;
     try {
       tools = await this.getTools();
@@ -69,11 +69,7 @@ export class PackageSO {
     }
 
     return {
-      name: this.name,
-      packageName: this.packageName,
-      description: this.description,
-      category: this.category,
-      validated: this.validated,
+      ...this._config,
       tools,
     };
   }

@@ -1,5 +1,8 @@
 import { z } from "@hono/zod-openapi";
-import { BaseResponseSchema } from "../../shared/schemas/common-schema";
+import {
+  BaseResponseSchema,
+  MCPServerPackageConfigSchema,
+} from "../../shared/schemas/common-schema";
 
 export const packageNameQuerySchema = z.object({
   packageName: z
@@ -45,13 +48,7 @@ const ToolDataSchema = z.object({
     .optional(),
 });
 
-const PackageDetailDataSchema = z.object({
-  name: z.string().optional(),
-  packageName: z.string(),
-  description: z.string().optional(),
-  category: z.string().optional(),
-  validated: z.boolean().optional(),
-  runtime: z.enum(["node", "python", "java", "go"]).optional(),
+const PackageDetailDataSchema = MCPServerPackageConfigSchema.extend({
   tools: z.array(ToolDataSchema).optional(),
 });
 
