@@ -1,6 +1,7 @@
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
 import { createResponse, createRouteResponses } from "../../shared/utils/response-util";
 import { getPythonDependencies } from "../../shared/utils/validation-util";
+import type { MCPSandboxProvider } from "../sandbox/sandbox-types";
 import { packageHandler } from "./package-handler";
 import {
   ExecuteToolResponseSchema,
@@ -27,7 +28,7 @@ packageRoutes.openapi(packageDetailRoute, async (c) => {
   const { packageName, sandboxProvider } = c.req.valid("query");
   const result = await packageHandler.getPackageDetail(
     packageName,
-    sandboxProvider as "LOCAL" | "DAYTONA" | "SANDOCK" | "E2B" | undefined,
+    sandboxProvider as MCPSandboxProvider | undefined,
   );
   return c.json(result, 200);
 });
@@ -45,7 +46,7 @@ packageRoutes.openapi(toolsRoute, async (c) => {
   const { packageName, sandboxProvider } = c.req.valid("query");
   const result = await packageHandler.listTools(
     packageName,
-    sandboxProvider as "LOCAL" | "DAYTONA" | "SANDOCK" | "E2B" | undefined,
+    sandboxProvider as MCPSandboxProvider | undefined,
   );
   return c.json(result, 200);
 });
@@ -75,7 +76,7 @@ packageRoutes.openapi(executeToolRoute, async (c) => {
     body.toolKey,
     body.inputData,
     body.envs,
-    body.sandboxProvider as "LOCAL" | "DAYTONA" | "SANDOCK" | "E2B" | undefined,
+    body.sandboxProvider as MCPSandboxProvider | undefined,
   );
   return c.json(result, 200);
 });
