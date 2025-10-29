@@ -24,8 +24,11 @@ const packageDetailRoute = createRoute({
 });
 
 packageRoutes.openapi(packageDetailRoute, async (c) => {
-  const { packageName } = c.req.valid("query");
-  const result = await packageHandler.getPackageDetail(packageName);
+  const { packageName, sandboxProvider } = c.req.valid("query");
+  const result = await packageHandler.getPackageDetail(
+    packageName,
+    sandboxProvider as "LOCAL" | "DAYTONA" | "SANDOCK" | "E2B" | undefined,
+  );
   return c.json(result, 200);
 });
 
@@ -39,8 +42,11 @@ const toolsRoute = createRoute({
 });
 
 packageRoutes.openapi(toolsRoute, async (c) => {
-  const { packageName } = c.req.valid("query");
-  const result = await packageHandler.listTools(packageName);
+  const { packageName, sandboxProvider } = c.req.valid("query");
+  const result = await packageHandler.listTools(
+    packageName,
+    sandboxProvider as "LOCAL" | "DAYTONA" | "SANDOCK" | "E2B" | undefined,
+  );
   return c.json(result, 200);
 });
 
@@ -69,6 +75,7 @@ packageRoutes.openapi(executeToolRoute, async (c) => {
     body.toolKey,
     body.inputData,
     body.envs,
+    body.sandboxProvider as "LOCAL" | "DAYTONA" | "SANDOCK" | "E2B" | undefined,
   );
   return c.json(result, 200);
 });

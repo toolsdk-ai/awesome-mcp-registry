@@ -10,6 +10,14 @@ export const packageNameQuerySchema = z.object({
       example: "@modelcontextprotocol/server-filesystem",
       description: "Package name",
     }),
+  sandboxProvider: z
+    .enum(["LOCAL", "DAYTONA", "SANDOCK", "E2B"])
+    .optional()
+    .openapi({
+      param: { name: "sandboxProvider", in: "query" },
+      example: "LOCAL",
+      description: "Optional sandbox provider to override default (LOCAL, DAYTONA, SANDOCK, E2B)",
+    }),
 });
 
 export const ToolExecuteSchema = z
@@ -18,6 +26,10 @@ export const ToolExecuteSchema = z
     toolKey: z.string().openapi({ example: "read_file" }),
     inputData: z.record(z.unknown()).openapi({ example: { path: "/tmp/test.txt" } }),
     envs: z.record(z.string()).optional(),
+    sandboxProvider: z.enum(["LOCAL", "DAYTONA", "SANDOCK", "E2B"]).optional().openapi({
+      example: "LOCAL",
+      description: "Optional sandbox provider to override default (LOCAL, DAYTONA, SANDOCK, E2B)",
+    }),
   })
   .openapi("ToolExecute");
 
